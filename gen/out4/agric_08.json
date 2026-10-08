@@ -1,0 +1,169 @@
+{
+"subject": "agric",
+"topic": "Weeds and their control",
+"ti": 8,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best describes a weed in agricultural practice?",
+"options": [
+"A plant with high medicinal value",
+"Any plant growing where it is not wanted by the farmer",
+"A plant that attracts beneficial insects",
+"A plant specially cultivated for mulching"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A weed is simply any plant growing in a place where the farmer does not want it, because it competes with the main crop. It does not matter if the plant has other uses elsewhere.",
+"pidgin": "Weed na any plant wey dey grow for where farmer no want am. E dey compete with the main crop even if the plant fit useful for another place.",
+"py": null,
+"values": null,
+"id": "wagr0800",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which parasitic weed commonly attacks the roots of maize and guinea corn (sorghum) in the Northern Guinea Savanna of Nigeria?",
+"options": [
+"Imperata cylindrica",
+"Striga hermonthica",
+"Tridax procumbens",
+"Eupatorium odoratum"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Striga hermonthica, known as witch weed, attaches itself to the roots of cereals like maize and guinea corn and draws nutrients from them, causing stunted growth. The other weeds listed are not parasitic.",
+"pidgin": "Striga hermonthica, wey dem dey call witch weed, dey attach to di root of maize and guinea corn and dey suck nutrient from dem. Di oda weeds wey dem list no be parasitic weed.",
+"py": null,
+"values": null,
+"id": "wagr0801",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A weed that completes its full life cycle (from seed germination to seed production) within one growing season is classified as a(n)",
+"options": [
+"perennial weed",
+"biennial weed",
+"annual weed",
+"woody weed"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Annual weeds germinate, grow, flower, produce seed and die all within one season, usually less than a year. Perennial weeds live for more than two years, while biennial weeds take two years.",
+"pidgin": "Annual weed na di one wey dey germinate, grow, flower, produce seed and die inside one season, like less pass one year. Perennial weed dey live pass two years, biennial dey take two years.",
+"py": null,
+"values": null,
+"id": "wagr0802",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is an example of a cultural method of weed control on a farm?",
+"options": [
+"Practising crop rotation",
+"Spraying the farm with glyphosate",
+"Hand-pulling of weeds with a hoe",
+"Using a mechanical weeder"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Crop rotation is a cultural method because it involves changing farming practices (such as alternating crops) to prevent weeds from building up, without directly removing them by hand, machine or chemical. The other options are mechanical or chemical methods.",
+"pidgin": "Crop rotation na cultural method because e be say you dey change wetin you dey plant for farm so weed no go gather. Di oda options na mechanical or chemical method, no be cultural.",
+"py": null,
+"values": null,
+"id": "wagr0803",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A herbicide that kills only broadleaved weeds without harming grass crops like maize or rice is best described as a",
+"options": [
+"non-selective herbicide",
+"selective herbicide",
+"contact herbicide only",
+"soil sterilant"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A selective herbicide is designed to kill specific types of plants, such as broadleaved weeds, while leaving the desired crop (grasses like maize) unharmed. A non-selective herbicide would kill both the weed and the crop.",
+"pidgin": "Selective herbicide na di one wey dey kill only certain type of weed, like broad leaf weed, but e no go harm di main crop like maize. Non-selective herbicide go kill both weed and crop together.",
+"py": null,
+"values": null,
+"id": "wagr0804",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Weeds mainly reduce crop yield on a farm because they",
+"options": [
+"increase the fertility of the soil",
+"compete with crops for nutrients, water and light",
+"provide natural shade that protects crops",
+"loosen the soil for better root growth"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Weeds grow alongside crops and take up the same nutrients, water and sunlight that the crops need, reducing the resources available to the crop and lowering yield. They do not improve soil fertility or structure.",
+"pidgin": "Weed dey grow near crop and e dey take di same nutrient, water and sunlight wey di crop need, so e dey reduce wetin remain for di crop, and yield go low. Weed no dey improve soil fertility or structure.",
+"py": null,
+"values": null,
+"id": "wagr0805",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer in Oyo State wants to control weeds on his 5-hectare maize farm using a selective herbicide. The herbicide is applied at a rate of 3 litres per hectare and costs ₦1,800 per litre. What is the total cost of the herbicide needed to treat the whole farm?",
+"options": [
+"₦24,000",
+"₦27,000",
+"₦30,000",
+"₦21,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Total litres needed = 5 hectares x 3 litres/hectare = 15 litres. Total cost = 15 litres x ₦1,800 = ₦27,000.",
+"pidgin": "Total litre wey e need = 5 hectare x 3 litre for each hectare = 15 litres. Total cost = 15 litre x ₦1,800 = ₦27,000.",
+"py": "5*3*1800",
+"values": [
+24000,
+27000,
+30000,
+21000
+],
+"id": "wagr0806",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

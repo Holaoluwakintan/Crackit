@@ -1,0 +1,153 @@
+{
+"subject": "chemistry",
+"topic": "Chemical equilibrium",
+"ti": 11,
+"generated": 6,
+"kept": [
+{
+"q": "Which statement best describes a chemical system that has reached equilibrium?",
+"options": [
+"All the reactants have been converted to products",
+"The concentrations of reactants and products are exactly equal",
+"The forward and reverse reactions occur at the same rate so concentrations stay constant",
+"The reaction has completely stopped and no particles are moving"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "At equilibrium, the forward and reverse reactions still occur but at equal rates, so the amounts of reactants and products no longer change. The reaction does not stop; it is dynamic, not static.",
+"pidgin": "For equilibrium, both forward and backward reaction dey still happen, but dem dey happen for same speed, so the amount of reactant and product no dey change again. E no mean say reaction don stop.",
+"py": null,
+"values": null,
+"id": "wche1100",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Consider the reversible reaction: N2(g) + 3H2(g) <=> 2NH3(g), ΔH = -92 kJ/mol (the Haber process). Which change would increase the yield of ammonia at equilibrium, according to Le Chatelier's principle?",
+"options": [
+"Raising the temperature of the system",
+"Lowering the pressure on the system",
+"Increasing the pressure on the system",
+"Continuously removing nitrogen gas from the system"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "There are 4 moles of gas on the left and 2 moles on the right, so increasing pressure shifts the equilibrium to the side with fewer gas moles, which is the ammonia side. This increases the yield of NH3.",
+"pidgin": "For the left side, mole of gas na 4, for right side na 2. If you increase pressure, equilibrium go shift go the side wey get small mole, wey be ammonia side. So ammonia go increase.",
+"py": null,
+"values": null,
+"id": "wche1101",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "For the equilibrium reaction 2SO2(g) + O2(g) <=> 2SO3(g), ΔH = -198 kJ/mol, what happens to the equilibrium position when the temperature of the system is increased?",
+"options": [
+"It shifts to the right, increasing the yield of SO3",
+"It shifts to the left, decreasing the yield of SO3",
+"It remains unchanged because temperature does not affect equilibrium",
+"The equilibrium constant, Kc, increases while the position stays the same"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The forward reaction is exothermic (ΔH is negative), so increasing temperature favours the endothermic reverse reaction to absorb the extra heat. This shifts the equilibrium to the left, reducing SO3 yield.",
+"pidgin": "The forward reaction na exothermic one (ΔH negative), so if you increase heat, the system go favour the backward reaction wey dey absorb heat. Equilibrium go shift go left, and SO3 go reduce.",
+"py": null,
+"values": null,
+"id": "wche1102",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A chemist, Mrs Adeyemi, set up the equilibrium H2(g) + I2(g) <=> 2HI(g) in a 2 dm^3 sealed flask. At equilibrium, the flask contained 0.4 mol of H2, 0.4 mol of I2 and 0.8 mol of HI. What is the value of the equilibrium constant, Kc, for this reaction?",
+"options": [
+"1",
+"2",
+"4",
+"8"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Divide each mole value by the volume (2 dm^3) to get concentrations: [H2]=0.2, [I2]=0.2, [HI]=0.4 mol/dm^3. Kc = [HI]^2 / ([H2][I2]) = (0.4)^2 / (0.2 x 0.2) = 0.16/0.04 = 4.",
+"pidgin": "First divide each mole by the volume (2 dm^3): [H2]=0.2, [I2]=0.2, [HI]=0.4. Then Kc = (0.4)^2 divide by (0.2 x 0.2) = 0.16/0.04 = 4.",
+"py": "(0.4**2)/(0.2*0.2)",
+"values": [
+1,
+2,
+4,
+8
+],
+"id": "wche1103",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "2.0 mol of PCl5(g) was placed in a 1 dm^3 sealed container and allowed to reach equilibrium according to PCl5(g) <=> PCl3(g) + Cl2(g). At equilibrium, 0.5 mol of Cl2 gas was present. Calculate the equilibrium constant, Kc, for this reaction.",
+"options": [
+"0.167",
+"0.33",
+"0.5",
+"1.5"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since 0.5 mol of Cl2 formed, 0.5 mol of PCl3 also formed and 0.5 mol of PCl5 was used up. Equilibrium amounts (in a 1 dm^3 flask, so moles = concentration) are PCl5 = 1.5, PCl3 = 0.5, Cl2 = 0.5. Kc = (0.5 x 0.5) / 1.5 = 0.25/1.5 = 0.167.",
+"pidgin": "Since 0.5 mol Cl2 form, 0.5 mol PCl3 too form, and 0.5 mol PCl5 don use up. So at equilibrium: PCl5 = 1.5, PCl3 = 0.5, Cl2 = 0.5 (volume na 1 dm^3 so mole = concentration). Kc = (0.5 x 0.5)/1.5 = 0.167.",
+"py": "(0.5*0.5)/1.5",
+"values": [
+0.167,
+0.33,
+0.5,
+1.5
+],
+"id": "wche1104",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "What is the correct effect of adding a catalyst to a reversible reaction that has reached equilibrium?",
+"options": [
+"It increases the yield of the products at equilibrium",
+"It shifts the position of equilibrium towards the products",
+"It speeds up the attainment of equilibrium without changing the value of Kc",
+"It lowers the activation energy of the forward reaction only, not the reverse"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A catalyst speeds up both the forward and reverse reactions equally, so equilibrium is reached faster, but the position of equilibrium and the value of Kc remain unchanged. It does not increase product yield.",
+"pidgin": "Catalyst dey speed up both forward and backward reaction for the same way, so equilibrium go reach fast, but the position of equilibrium and Kc no go change. E no dey increase product yield.",
+"py": null,
+"values": null,
+"id": "wche1105",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

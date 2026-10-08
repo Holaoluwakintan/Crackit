@@ -1,0 +1,156 @@
+{
+"subject": "chemistry",
+"topic": "Non-metals and their compounds (H, O, halogens, N, S, C)",
+"ti": 12,
+"generated": 6,
+"kept": [
+{
+"q": "In a school laboratory, a technician wants to prepare hydrogen gas quickly using a metal and dilute hydrochloric acid. Which of these metals is most suitable for this preparation?",
+"options": [
+"Zinc",
+"Copper",
+"Silver",
+"Mercury"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Zinc is reactive enough to displace hydrogen from dilute acids, unlike copper, silver and mercury which are below hydrogen in the reactivity series and do not react with dilute HCl.",
+"pidgin": "Zinc dey reactive well-well pass hydrogen for di reactivity series, so e fit push hydrogen comot from dilute acid. Copper, silver and mercury no reactive reach dat level.",
+"py": null,
+"values": null,
+"id": "wche1200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidinma bubbled a colourless gas into a test tube that contained a glowing wood splint, and the splint immediately burst into flame. Which gas did she most likely use?",
+"options": [
+"Oxygen",
+"Hydrogen",
+"Carbon(IV) oxide",
+"Nitrogen"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Oxygen supports combustion strongly, so it relights a glowing splint into a flame. Hydrogen pops with a flame already burning, carbon(IV) oxide and nitrogen both put out a glowing splint.",
+"pidgin": "Oxygen dey support fire well, na im dey make glowing splint burst into flame. Hydrogen dey pop wen flame dey burn already, but CO2 and nitrogen go kill di glowing splint.",
+"py": null,
+"values": null,
+"id": "wche1201",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chlorine gas is commonly used industrially to bleach wood pulp and cotton fabrics. What is the main reason chlorine is able to remove colour from these materials?",
+"options": [
+"It neutralises the coloured dye through an acid-base reaction",
+"It reacts with water to form an acid that oxidises the coloured substance to a colourless one",
+"It reduces the coloured substance by adding electrons to it",
+"It simply dissolves the dye without any chemical change"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Chlorine reacts with water to form hydrochloric acid and hypochlorous (chloric(I)) acid; the hypochlorous acid is a strong oxidising agent that destroys the coloured compound, turning it colourless. This is an oxidation process, not reduction or neutralisation.",
+"pidgin": "Chlorine dey react with water make HCl and hypochlorous acid; di hypochlorous acid na strong oxidising agent wey dey destroy di colour, e turn am to colourless. Na oxidation, no be reduction or neutralisation.",
+"py": null,
+"values": null,
+"id": "wche1202",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "25 cm3 of ammonia gas was completely burnt in excess oxygen according to the equation: 4NH3(g) + 5O2(g) -> 4NO(g) + 6H2O(g). If all volumes were measured at the same temperature and pressure, what volume of oxygen was used up?",
+"options": [
+"31.25 cm3",
+"20.00 cm3",
+"25.00 cm3",
+"50.00 cm3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "From the equation, 4 volumes of NH3 react with 5 volumes of O2. So volume of O2 = (5/4) x 25 cm3 = 31.25 cm3. Gas volumes react in the same ratio as their mole ratio at constant temperature and pressure.",
+"pidgin": "From di equation, 4 volume NH3 dey react with 5 volume O2. So O2 wey dem use = (5/4) x 25 cm3 = 31.25 cm3. Na because gas volumes dey react for di same ratio as dia mole ratio wen temperature and pressure no change.",
+"py": "25*5/4",
+"values": [
+31.25,
+20.0,
+25.0,
+50.0
+],
+"id": "wche1203",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A colourless solution was tested as follows: a few drops of dilute nitric acid were added, followed by silver nitrate solution. A white precipitate formed, and this precipitate dissolved completely when dilute ammonia solution was added in excess. Which anion is most likely present in the original solution?",
+"options": [
+"Iodide ion",
+"Bromide ion",
+"Chloride ion",
+"Sulphate ion"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Silver chloride forms a white precipitate that is soluble in dilute ammonia, while silver bromide (cream) and silver iodide (pale yellow) need concentrated ammonia or do not dissolve at all. Sulphate ions do not give a precipitate with silver nitrate under these acidic conditions.",
+"pidgin": "Silver chloride na white precipitate wey go dissolve for dilute ammonia, but silver bromide (cream) and silver iodide (pale yellow) need concentrated ammonia or no go dissolve at all. Sulphate no dey form precipitate with silver nitrate for dis kain acidic condition.",
+"py": null,
+"values": null,
+"id": "wche1205",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "What is the oxidation number of sulphur in the thiosulphate ion, S2O3^2-?",
+"options": [
+"+6",
+"+4",
+"+2",
+"-2"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Let the average oxidation number of S be x. Oxygen is -2, so 2x + 3(-2) = -2 (the overall charge). Solving: 2x - 6 = -2, so 2x = 4 and x = +2.",
+"pidgin": "Make di average oxidation number of S na x. Oxygen na -2, so 2x + 3(-2) = -2 (di total charge). If we solve am: 2x - 6 = -2, 2x = 4, so x = +2.",
+"py": "(-2 + 3*2)/2",
+"values": [
+6,
+4,
+2,
+-2
+],
+"id": "wche1204",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:+2 is the average; the two sulphur atoms have different oxidation numbers.|"
+}
+]
+}

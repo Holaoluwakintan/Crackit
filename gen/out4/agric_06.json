@@ -1,0 +1,175 @@
+{
+"subject": "agric",
+"topic": "Crop production: classification and husbandry",
+"ti": 6,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following crops is correctly classified as a cereal crop?",
+"options": [
+"Cowpea",
+"Cassava",
+"Rice",
+"Cotton"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Cereals are cultivated grasses grown for their edible grains, and rice is a typical example. Cowpea is a legume, cassava is a root/tuber crop, and cotton is a fibre crop.",
+"pidgin": "Cereal na grass wey dem dey plant for dia grain, and rice fit into dat group well well. Cowpea na legume, cassava na root crop, and cotton na fibre crop.",
+"py": null,
+"values": null,
+"id": "wagr0600",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A crop that germinates, grows, flowers, produces seed and dies all within a single growing season is classified as:",
+"options": [
+"Biennial",
+"Perennial",
+"Ephemeral",
+"Annual"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Crops that complete their full life cycle in one season, such as maize and cowpea, are called annuals. Biennials take two years, while perennials live for many years.",
+"pidgin": "Crop wey dey grow, flower, produce seed and die all for one season na annual crop, like maize and cowpea. Biennial dey take two years, perennial dey live for many years.",
+"py": null,
+"values": null,
+"id": "wagr0601",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Based on its main economic use, which of these crops is grown chiefly as a source of fibre?",
+"options": [
+"Cotton",
+"Yam",
+"Maize",
+"Tomato"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Cotton is cultivated mainly for the fibre obtained from its boll, which is used to make textiles. Yam and maize are food crops, while tomato is a vegetable crop.",
+"pidgin": "Dem dey plant cotton mainly for the fibre wey dem dey use sew cloth. Yam and maize na food crop, tomato na vegetable.",
+"py": null,
+"values": null,
+"id": "wagr0602",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer in Kebbi State plants maize at a spacing of 75 cm between rows and 25 cm between stands, on a rectangular plot measuring 30 m by 20 m. Assuming the whole plot is planted at this spacing with one seed per stand, how many maize stands will the plot contain?",
+"options": [
+"2400",
+"3200",
+"1600",
+"4000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Plot area = 30 m x 20 m = 600 square metres. Area per stand = 0.75 m x 0.25 m = 0.1875 square metres. Number of stands = 600 / 0.1875 = 3200.",
+"pidgin": "Di plot size na 30m x 20m wey be 600 square metres. Each stand dey take 0.75m x 0.25m space wey be 0.1875 square metres. So 600 divide by 0.1875 give 3200 stands.",
+"py": "(30*20)/(0.75*0.25)",
+"values": [
+2400,
+3200,
+1600,
+4000
+],
+"id": "wagr0603",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Delicate crops like tomato and pepper are usually first raised in a nursery bed before they are transplanted to the main field. What is the main reason for this practice?",
+"options": [
+"Because their seeds cannot germinate in open field soil",
+"To allow careful monitoring and protection of young seedlings before they can withstand field conditions",
+"To prevent them from flowering too early",
+"Because they require total darkness to germinate"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Nursery beds allow the farmer to protect fragile young seedlings from pests, harsh weather and weeds, and to give them special care until they are strong enough for transplanting. The seeds can actually germinate directly in field soil, so that is not the real reason.",
+"pidgin": "Nursery dey allow farmer take care of di small seedling well well, protect am from pest, bad weather and weed, until e strong reach to go field. Di seed fit still germinate for field soil sef, so dat no be di main reason.",
+"py": null,
+"values": null,
+"id": "wagr0604",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a four-year crop rotation plan on a farm near Ogbomoso, a farmer planted cowpea immediately after maize in the second year. What is the main agronomic reason for including cowpea at this stage?",
+"options": [
+"Cowpea increases soil erosion",
+"Cowpea reduces soil pH drastically",
+"Cowpea roots fix atmospheric nitrogen which improves soil fertility for subsequent crops",
+"Cowpea requires more sunlight than maize"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Cowpea is a legume with root nodules containing bacteria that fix atmospheric nitrogen into the soil, replenishing nutrients used up by the previous maize crop. This improves soil fertility for crops planted afterward in the rotation.",
+"pidgin": "Cowpea na legume wey get bacteria for im root wey dey catch nitrogen from air put inside soil. Dis one dey return back di soil food wey maize don use finish, so e go helep di next crop.",
+"py": null,
+"values": null,
+"id": "wagr0605",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer wants to apply NPK fertilizer at the rate of 400 kg per hectare to his 2.5-hectare maize farm. If he already has 750 kg of the fertilizer in his store, how many more kilograms must he buy to complete the application for the whole farm?",
+"options": [
+"350 kg",
+"150 kg",
+"450 kg",
+"250 kg"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Total fertilizer needed = 400 kg/ha x 2.5 ha = 1000 kg. He already has 750 kg, so he needs 1000 kg - 750 kg = 250 kg more.",
+"pidgin": "Di total fertilizer wey e need na 400kg multiply by 2.5 hectare wey be 1000kg. E don get 750kg already, so 1000kg minus 750kg na 250kg wey e still need buy.",
+"py": "(400*2.5)-750",
+"values": [
+350,
+150,
+450,
+250
+],
+"id": "wagr0606",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,84 @@
+{
+"subject": "government",
+"topic": "Civil service and public corporations",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following best describes the civil service in Nigeria?",
+"options": [
+"The body of permanent, paid officials who implement government policies in ministries and departments",
+"The elected members of the National Assembly who make laws for the federation",
+"The group of political appointees who determine government policies",
+"The judicial officers who interpret laws in the law courts"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The civil service consists of permanent, salaried officials who carry out government policies but do not make them. Legislators, political appointees and judges belong to other arms or categories of government, not the civil service.",
+"pidgin": "Civil service na di permanent workers wey dey collect salary and dey carry out government policies, dem no dey make di policies. Legislators, political appointees and judges na different category entirely, no be civil service.",
+"id": "govv0800",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following best distinguishes the civil service from the wider public service in Nigeria?",
+"options": [
+"The civil service covers only workers in core government ministries and departments, while the public service also includes employees of public corporations, the judiciary and the armed forces",
+"The civil service is elected while the public service is appointed",
+"Civil service workers earn higher salaries than all other public service workers",
+"The civil service exists only at state level while the public service exists only at federal level"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The civil service is a narrower term referring to officials in ministries, departments and agencies that carry out routine administration. The public service is broader, covering these plus workers in public corporations, courts, the military and police.",
+"pidgin": "Civil service na di small part wey be ministries and departments workers wey dey do normal admin work. Public service na di big umbrella wey cover civil service plus public corporations, courts, military and police workers.",
+"id": "govv0801",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A government ministry depends almost entirely on yearly budget allocation from the Ministry of Finance to run its activities. A public corporation that supplies water to a city, however, gets part of its money from selling water to customers in addition to government subvention, and it has its own legal identity separate from the ministry. Based on this situation, which statement best explains why public corporations enjoy greater operational autonomy than ordinary ministries?",
+"options": [
+"Public corporations are not required to render account to any government body since they generate their own funds",
+"Public corporations can generate part of their revenue internally and, having separate legal personality, can enter contracts and manage funds with less day-to-day ministerial control",
+"Public corporations are exempted from all government policies because they are privately owned",
+"Public corporations receive no funding at all from government and operate exactly like private companies"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Because a corporation has its own legal personality and can earn internal revenue, it can sign contracts and manage its budget with less direct ministerial interference than a ministry that relies solely on treasury funds. It still remains accountable to government through its supervising ministry and audits.",
+"pidgin": "Since corporation get im own legal personality and dey make money from wetin e dey sell, e fit sign contract and manage im money without too much ministry control. E still dey answerable to government through im supervising ministry and audit, no be say e free complete.",
+"id": "govv0803",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A public corporation established by the Nigerian government, such as a national power or transport authority, is normally headed and managed on a day-to-day basis by:",
+"options": [
+"A permanent secretary appointed by the Head of the Civil Service",
+"A board of directors or board of management appointed by the government",
+"The Federal Civil Service Commission directly",
+"The chairman of the local government council where it is sited"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Public corporations are run by a board of directors or management board appointed by government, which oversees policy and operations. Permanent secretaries head ministries, not corporations, and local government chairmen have no such role.",
+"pidgin": "Public corporation dey run by board of directors or management board wey government appoint. Na ministries permanent secretary dey head, local government chairman no get hand for am.",
+"id": "govv0802",
+"check": {
+"s1": "X",
+"s2": "B"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

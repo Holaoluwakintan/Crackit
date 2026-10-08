@@ -1,0 +1,80 @@
+{
+"subject": "economics",
+"topic": "Labour market: wages, unemployment and trade unions",
+"generated": 3,
+"kept": [
+{
+"q": "Which of the following best describes 'collective bargaining' in the labour market?",
+"options": [
+"Negotiation between trade union representatives and employers over wages and working conditions",
+"Individual workers bargaining alone with their employer for higher pay",
+"Government fixing wages without consulting employers or workers",
+"Workers forming cooperative societies to produce and sell goods"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Collective bargaining means trade union leaders negotiate as a group with employers on behalf of all workers, covering issues like wages and conditions of service. This gives workers stronger bargaining power than if they negotiated alone. Options B, C and D describe different, unrelated actions.",
+"pidgin": "Collective bargaining na when union leaders dey negotiate as one group with employer about wages and work condition. E dey give workers better power pass if everybody dey negotiate alone. The other options no match this definition.",
+"py": null,
+"values": null,
+"id": "ecov2000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A textile factory in Aba employs 150 workers at a daily wage of ₦2,500 each. After successful negotiation by the workers' trade union, the daily wage rate is increased by 20%. What is the new total daily wage bill of the factory?",
+"options": [
+"₦450,000",
+"₦375,000",
+"₦500,000",
+"₦425,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "New wage = 2,500 + (20% of 2,500) = 2,500 + 500 = ₦3,000 per worker. Total wage bill = 150 workers x ₦3,000 = ₦450,000. The other options either use the old wage or wrong percentage increase.",
+"pidgin": "New wage be 2,500 add 20% of am (500), e give 3,000 per worker. Multiply am by 150 workers e give ₦450,000. Other options na wrong calculation or dem use old wage.",
+"py": "150*2500*1.2",
+"values": [
+450000,
+375000,
+500000,
+425000
+],
+"id": "ecov2001",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "In a hypothetical labour market, the demand for labour is given by Ld = 800 - 2W, and the supply of labour is given by Ls = -100 + 3W, where W is the daily wage rate in Naira and L is the number of workers. If government fixes a minimum wage of ₦200 per day, which is above the market equilibrium wage, how many workers will be unemployed (excess supply) at this wage?",
+"options": [
+"100 workers",
+"60 workers",
+"300 workers",
+"40 workers"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "At W=200: Ld = 800 - 2(200) = 400, and Ls = -100 + 3(200) = 500. Since supply exceeds demand, unemployment = Ls - Ld = 500 - 400 = 100 workers. This shows how a minimum wage set above equilibrium creates a labour surplus.",
+"pidgin": "When W=200: Ld = 800-400=400, Ls = -100+600=500. Since supply pass demand, unemployment = 500-400 = 100 workers. Na so minimum wage wey dey above equilibrium dey cause excess labour.",
+"py": "(-100+3*200) - (800-2*200)",
+"values": [
+100,
+60,
+300,
+40
+],
+"id": "ecov2002",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Sex determination, sex-linked traits, blood groups and genetic disorders",
+"generated": 4,
+"kept": [
+{
+"q": "In human beings, each sperm cell carries either an X or a Y chromosome, while every egg cell carries only an X chromosome. If a sperm cell carrying a Y chromosome fertilises an egg, what will be the sex of the resulting offspring?",
+"options": [
+"Male",
+"Female",
+"Intersex",
+"Cannot be determined without further information"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The egg always gives an X chromosome. If the sperm gives a Y chromosome, the offspring becomes XY, which is male. If the sperm had given X instead, the offspring would be XX (female).",
+"pidgin": "Egg dey always carry X chromosome. If the sperm wey enter am get Y, the baby go be XY, wey be male. If e be X sperm, e for be XX, wey be female.",
+"id": "biov1800",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Mrs Ngozi is a carrier for haemophilia with genotype X^H X^h, while her husband, Mr Eze, is normal with genotype X^H Y. What proportion of their sons is expected to be haemophiliac?",
+"options": [
+"1/4",
+"1/2",
+"3/4",
+"All of their sons"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Sons receive the Y chromosome from the father and an X chromosome from the mother. Since the mother is X^H X^h, half of her eggs carry X^H and half carry X^h, so half the sons will be X^h Y (haemophiliac) and half will be X^H Y (normal).",
+"pidgin": "Boy pikin dey collect Y from papa and X from mama. Since mama na X^H X^h, half of her eggs get X^H, half get X^h. So half the boys go be X^h Y (get di sickness) and half go normal.",
+"id": "biov1801",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A man with blood group AB marries a woman with blood group O. Considering how the ABO blood group alleles are inherited, which of the following correctly states the possible blood groups of their children?",
+"options": [
+"Only blood group A and blood group B",
+"Only blood group AB and blood group O",
+"Only blood group A and blood group AB",
+"Blood group A, B, AB and O in equal proportions"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The AB father can pass on either the I^A or I^B allele, while the O mother can only pass on the i allele. This gives children genotypes I^A i (group A) or I^B i (group B), each at 50 percent, so AB and O are impossible in their children.",
+"pidgin": "Papa wey be AB fit give I^A or I^B allele, but mama wey be O fit only give i allele. So pikin go be either I^A i (A group) or I^B i (B group), each na 50 percent. AB and O no fit come out from dis marriage.",
+"id": "biov1802",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A baby girl is diagnosed with Turner syndrome. Cytogenetic analysis of her cells would most likely reveal which of the following chromosome complements?",
+"options": [
+"44 autosomes plus XXY",
+"44 autosomes plus a single X chromosome (XO)",
+"44 autosomes plus XXX",
+"45 autosomes plus XY"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Turner syndrome results from the loss of one X chromosome, giving a total of 45 chromosomes made up of 44 autosomes and a single X (XO), instead of the normal 44 autosomes plus XX. The other options describe different chromosomal abnormalities such as Klinefelter syndrome (XXY) or triple X syndrome (XXX).",
+"pidgin": "Turner syndrome dey happen when one X chromosome miss, so the total na 45 chromosomes - 44 autosomes plus just one X (XO), instead of the normal 44 plus XX. The other options na different wahala like Klinefelter (XXY) or triple X (XXX).",
+"id": "biov1803",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,181 @@
+{
+"subject": "geography",
+"topic": "Population",
+"ti": 11,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines population density?",
+"options": [
+"The total number of people living in a country",
+"The number of people per unit area of land",
+"The rate at which population increases over time",
+"The ratio of males to females in a population"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Population density measures how many people live within a given area of land, usually expressed as persons per square kilometre. It shows how crowded or sparse a place is, not the total number of people or growth rate.",
+"pidgin": "Population density na how many people dey live for one area of land, like per square kilometre. E no be di total number of people or how fast population dey grow.",
+"py": null,
+"values": null,
+"id": "wgeo1100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following factors is most likely to attract a dense population settlement in a West African country?",
+"options": [
+"Mountainous terrain with thin soils",
+"Dense tropical rainforest with poor drainage",
+"Fertile alluvial plains suitable for farming",
+"Arid region with scanty rainfall"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Fertile alluvial plains support good crop yields and easy farming, which attracts many settlers and leads to dense population. Mountains, swampy forests and dry arid lands discourage large settlements because they make farming and movement difficult.",
+"pidgin": "Fertile land wey good for farming dey attract plenty people because dem fit get good harvest. Mountain, swampy forest and dry desert no good for farming so people no dey settle well there.",
+"py": null,
+"values": null,
+"id": "wgeo1101",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A town in Enugu State has a population of 450,000 people and covers a land area of 1,500 square kilometres. Calculate the population density of the town.",
+"options": [
+"300 persons per km^2",
+"150 persons per km^2",
+"450 persons per km^2",
+"600 persons per km^2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Population density = population / area = 450,000 / 1,500 = 300 persons per km^2. The other options come from simple division errors.",
+"pidgin": "Density = population divide by area, na 450,000 divide by 1,500 wey be 300 persons per km^2. Di other answers na from wrong division.",
+"py": "450000/1500",
+"values": [
+300,
+150,
+450,
+600
+],
+"id": "wgeo1102",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A population pyramid for a developing West African country typically shows a wide base that narrows rapidly towards the apex. Which population characteristic does this shape best represent?",
+"options": [
+"Low birth rate and high life expectancy",
+"Equal number of males and females at all ages",
+"High rate of out-migration of young adults",
+"High birth rate with a large proportion of young people"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A wide base in a population pyramid means many babies and young children are being born, showing a high birth rate. The rapid narrowing towards the top shows fewer people surviving to old age, typical of developing countries like those in West Africa.",
+"pidgin": "Wide base for population pyramid mean say plenty pikin dey born, na high birth rate be dat. Di quick narrow for top mean say few people dey reach old age, wey be common ting for developing kontri.",
+"py": null,
+"values": null,
+"id": "wgeo1103",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a major cause of rural-urban migration in Nigeria?",
+"options": [
+"Abundant fertile farmland in rural areas",
+"Search for better job opportunities and social amenities in cities",
+"Lower cost of living in urban centres compared to rural areas",
+"Government policy restricting movement into cities"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "People move from villages to cities mainly because cities offer more jobs, schools, hospitals and other amenities. Rural areas usually lack these facilities, pushing young people to migrate to urban centres.",
+"pidgin": "People dey japa from village go city mostly because city get work, school, hospital and other better things. Village no too get dis facilities, so young ones dey move go city.",
+"py": null,
+"values": null,
+"id": "wgeo1104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a certain Local Government Area, the birth rate is 42 per 1000 people and the death rate is 14 per 1000 people per year. Calculate the rate of natural increase of the population, expressed as a percentage.",
+"options": [
+"2.8%",
+"5.6%",
+"28%",
+"0.28%"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Natural increase rate = (Birth rate - Death rate)/1000 x 100 = (42-14)/1000 x 100 = 28/1000 x 100 = 2.8%. The other options result from forgetting to divide by 1000 or doubling the value.",
+"pidgin": "Natural increase = (birth rate minus death rate) divide by 1000, multiply by 100, na (42-14)/1000 x 100 = 2.8%. Di other answers na from forgetting to divide by 1000 or doubling am.",
+"py": "(42-14)/1000*100",
+"values": [
+2.8,
+5.6,
+28,
+0.28
+],
+"id": "wgeo1105",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A community has 2,500 children aged 0-14 years, 2,000 elderly persons aged 65 years and above, and 9,000 people within the working age group of 15-64 years. Calculate the dependency ratio of the community, expressed as a percentage.",
+"options": [
+"100%",
+"45%",
+"50%",
+"60%"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Dependency ratio = (dependents / working population) x 100 = (2,500 + 2,000) / 9,000 x 100 = 4,500/9,000 x 100 = 50%. This shows that for every 100 working people, 50 dependents (young and old) depend on them.",
+"pidgin": "Dependency ratio = (dependants divide by working population) x 100, na (2,500+2,000)/9,000 x 100 = 50%. Dis mean say for every 100 working people, 50 dependants (young and old) dey depend on dem.",
+"py": "(2500+2000)/9000*100",
+"values": [
+100,
+45,
+50,
+60
+],
+"id": "wgeo1106",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

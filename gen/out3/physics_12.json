@@ -1,0 +1,100 @@
+{
+"subject": "physics",
+"topic": "Heat transfer: conduction, convection, radiation",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following best explains how heat travels through a metal spoon when one end is placed inside a hot pot of soup?",
+"options": [
+"Heat energy is carried by moving fluid particles from the hot end to the cold end",
+"Heat energy is transferred by electromagnetic waves travelling through the metal",
+"Heat energy is passed from particle to particle through vibration and free-electron movement, without the particles changing position permanently",
+"Heat energy evaporates from the hot end and condenses at the cold end"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "In solids like metals, heat moves by conduction. The particles vibrate more as they get hot and pass this energy to neighbouring particles, and free electrons also help carry the energy along. The particles themselves do not move from one end to the other.",
+"pidgin": "For metal like spoon, heat dey waka through conduction. The particles go just vibrate well-well and pass the energy go their neighbour, plus free electrons wey dey help carry am. The particles no dey waka from one end go the other end.",
+"py": null,
+"values": null,
+"id": "phyv1200",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A metal bar of length 0.50 m and uniform cross-sectional area 2.0 x 10^-4 m^2 has its two ends kept steadily at 100 degrees C and 20 degrees C. If the thermal conductivity of the metal is 400 W/m per degree C, calculate the rate of heat flow through the bar.",
+"options": [
+"12.8 W",
+"6.4 W",
+"25.6 W",
+"1.28 W"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using Q/t = kA(delta T)/L, we have k = 400, A = 2.0x10^-4, delta T = 100 - 20 = 80, L = 0.50. So Q/t = 400 x 2.0x10^-4 x 80 / 0.50 = 12.8 W.",
+"pidgin": "We use the formula Q/t = kA(delta T)/L. k = 400, A = 2.0x10^-4, delta T = 80, L = 0.50. If you calculate am well, you go see say Q/t = 12.8 W.",
+"py": "400 * 2.0e-4 * 80 / 0.5",
+"values": [
+12.8,
+6.4,
+25.6,
+1.28
+],
+"id": "phyv1201",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "When water in an open pot is heated steadily from below, convection currents are set up in the liquid. Which of the following correctly describes what happens to the heated water and why?",
+"options": [
+"Heated water sinks to the bottom because it becomes denser than the surrounding water",
+"Heated water rises to the top because it becomes less dense than the surrounding cooler water",
+"Heated water stays at the bottom because convection only occurs in gases, not liquids",
+"Heated water moves only sideways because of surface tension, without rising or sinking"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "When water at the bottom is heated, it expands and becomes less dense than the cooler water above it. The less dense warm water rises while the cooler, denser water sinks to take its place, setting up a convection current.",
+"pidgin": "When the water for down dey heat, e go expand and e density go reduce pass the cold water wey dey up. So the warm water go rise go up, the cold one go come down, and that one go start convection current.",
+"py": null,
+"values": null,
+"id": "phyv1202",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A blacksmith's furnace in Kano radiates heat uniformly in all directions like a point source. A worker standing 2 m from the furnace feels a certain intensity of radiant heat. If the worker moves back to a new position 4 m from the furnace, by what factor does the intensity of the radiant heat received change?",
+"options": [
+"It reduces to 1/2 of the original intensity",
+"It reduces to 1/8 of the original intensity",
+"It reduces to 1/16 of the original intensity",
+"It reduces to 1/4 of the original intensity"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Radiant heat intensity from a point source follows the inverse square law: intensity is proportional to 1/r^2. Doubling the distance from 2 m to 4 m means the intensity changes by a factor of (2/4)^2 = 1/4. So the worker now receives only one quarter of the original intensity.",
+"pidgin": "Radiant heat from one point source dey follow inverse square law: intensity dey proportional to 1/r^2. If distance double from 2 m go 4 m, the factor na (2/4)^2 = 1/4. So na quarter of the original heat the worker go feel now.",
+"py": "(2/4)**2",
+"values": [
+0.5,
+0.125,
+0.0625,
+0.25
+],
+"id": "phyv1203",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

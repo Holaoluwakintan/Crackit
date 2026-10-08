@@ -1,0 +1,112 @@
+{
+"subject": "maths",
+"topic": "Linear and simultaneous equations",
+"generated": 4,
+"kept": [
+{
+"q": "Solve for x: 2x + 7 = 19.",
+"options": [
+"5",
+"6",
+"7",
+"13"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Subtract 7 from both sides: 2x = 12. Divide by 2: x = 6.",
+"pidgin": "Comot 7 from both sides make 2x = 12. Divide by 2, you go see say x = 6.",
+"py": "(19-7)/2",
+"values": [
+5,
+6,
+7,
+13
+],
+"id": "matv0800",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "At a stationery shop in Kano, Musa bought 3 pencils and 2 pens for ₦370, while Ngozi bought 2 pencils and 3 pens for ₦380. What is the cost of one pen?",
+"options": [
+"₦70",
+"₦75",
+"₦80",
+"₦90"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Let pencil = p, pen = q: 3p+2q=370 and 2p+3q=380. Multiply the first by 2 and second by 3, then subtract to eliminate p: 5q = 400, so q = 80. One pen costs ₦80.",
+"pidgin": "Make pencil be p, pen be q: 3p+2q=370 and 2p+3q=380. If you multiply first by 2, second by 3, then minus am, you go get 5q = 400, so q = 80. One pen na ₦80.",
+"py": "(3*380-2*370)/5",
+"values": [
+70,
+75,
+80,
+90
+],
+"id": "matv0801",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "If 3x + 2y = 16 and x - y = 2, find the value of 2x - y.",
+"options": [
+"6",
+"8",
+"4",
+"10"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "From x - y = 2, x = y + 2. Put this into 3x+2y=16: 3(y+2)+2y=16, so 5y=10, y=2, x=4. Then 2x - y = 8 - 2 = 6.",
+"pidgin": "From x - y = 2, x = y + 2. Put am enter 3x+2y=16: 3(y+2)+2y=16, so 5y=10, y=2, x=4. Then 2x - y = 8 - 2 = 6.",
+"py": "((16-3*2)/5)+4",
+"values": [
+6,
+8,
+4,
+10
+],
+"id": "matv0802",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader's record shows that the cost of 4 bags of rice and 3 bags of beans is ₦152,000, while the cost of 2 bags of rice and 5 bags of beans is ₦160,000. Find the cost of one bag of rice.",
+"options": [
+"₦24,000",
+"₦16,000",
+"₦18,000",
+"₦20,000"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Let rice = r, beans = b: 4r+3b=152000 and 2r+5b=160000. Multiply the second equation by 2: 4r+10b=320000, then subtract the first: 7b=168000, so b=24000. Substitute into 2r+5b=160000: 2r=160000-120000=40000, so r=₦20,000.",
+"pidgin": "Make rice be r, beans be b: 4r+3b=152000 and 2r+5b=160000. If you multiply second equation by 2: 4r+10b=320000, then minus the first one: 7b=168000, so b=24000. Put am for 2r+5b=160000: 2r=40000, so r=₦20,000.",
+"py": "(160000 - 5*((2*160000-152000)/7))/2",
+"values": [
+24000,
+16000,
+18000,
+20000
+],
+"id": "matv0803",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

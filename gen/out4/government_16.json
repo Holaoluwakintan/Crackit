@@ -1,0 +1,173 @@
+{
+"subject": "government",
+"topic": "Nigeria's foreign policy and international organisations",
+"ti": 16,
+"generated": 8,
+"kept": [
+{
+"q": "Which principle of Nigeria's foreign policy places the welfare and interest of Africa at the very centre of all international decisions taken by Nigeria?",
+"options": [
+"Afrocentrism",
+"Non-alignment",
+"Economic diplomacy",
+"Dependency"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Afrocentrism means Africa is the main focus of Nigeria's foreign policy. Nigeria sees itself as a leader that must protect African interests first. This is why Nigeria has supported liberation struggles across Africa.",
+"pidgin": "Afrocentrism na di belief wey Africa dey for centre of Nigeria foreign affairs. Nigeria dey always put African interest first before anything. Na why Nigeria don help many African kontri wey dey fight for freedom.",
+"id": "wgov1600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The government agency directly responsible for conducting Nigeria's day-to-day diplomatic relations with other countries and international organisations is the",
+"options": [
+"National Assembly",
+"Federal Executive Council",
+"Ministry of Foreign Affairs",
+"Code of Conduct Bureau"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The Ministry of Foreign Affairs handles embassies, treaties, and relations with other nations on behalf of Nigeria. It implements the foreign policy decided by the government. The other bodies have different, unrelated roles.",
+"pidgin": "Na Ministry of Foreign Affairs dey handle Nigeria relationship with oda kontri. Dem dey manage embassy, agreement and wetin concern foreign affairs. Di oda options no get dat kind work.",
+"id": "wgov1601",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Nigeria's foreign policy is sometimes explained using the idea of 'concentric circles'. In this model, which group forms the innermost circle that Nigeria must protect first?",
+"options": [
+"The Commonwealth of Nations",
+"West Africa and the ECOWAS sub-region",
+"Nigeria itself, its citizens and national interest",
+"The wider international community"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The concentric circle model places Nigeria's own survival and interest at the centre before widening outward to West Africa, Africa, and the rest of the world. Every country protects itself first before helping others. This is why national interest is the first circle.",
+"pidgin": "Di concentric circle idea show say Nigeria go first protect herself and her citizens before e go reach oda circles. Na from inside dey go dey expand go West Africa, Africa, den di whole world. National interest always come first.",
+"id": "wgov1602",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The Economic Community of West African States (ECOWAS) was formed mainly to achieve what objective among member states?",
+"options": [
+"Military conquest of neighbouring states",
+"Economic cooperation and regional integration",
+"Religious unity across West Africa",
+"Abolition of all national currencies"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "ECOWAS was set up in 1975 to promote trade, free movement of goods and people, and economic development among West African countries. It is not a military or religious body, though it later developed a peacekeeping arm. Economic cooperation remains its core goal.",
+"pidgin": "ECOWAS na organisation wey dem form for 1975 make West African kontri fit work togeda for economy. Di main goal na trade, free movement of people and development. E no be religion or military group, even though e later get peacekeeping arm.",
+"id": "wgov1603",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During the civil wars in Liberia and Sierra Leone, Nigeria led a West African peacekeeping force that helped restore order in those countries. This force was known as",
+"options": [
+"ECOMOG",
+"AU Peace Force",
+"UN Blue Helmets Nigeria",
+"NATO West Africa"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "ECOMOG (ECOWAS Monitoring Group) was formed by ECOWAS, with Nigeria contributing the largest number of troops and funds. It intervened to stop the fighting in Liberia and Sierra Leone in the 1990s. This showed Nigeria's leadership role in regional peacekeeping.",
+"pidgin": "ECOMOG na di peacekeeping force wey ECOWAS form, and Nigeria give di highest number of soldiers and money. Dem go Liberia and Sierra Leone to stop di war for 1990s. Dis show say Nigeria dey lead for regional peace matter.",
+"id": "wgov1604",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During the Cold War, Nigeria chose a non-aligned foreign policy instead of joining either the Western (capitalist) bloc or the Eastern (communist) bloc. What is the best reason for this choice?",
+"options": [
+"Nigeria lacked enough soldiers to fight a war",
+"Nigeria wanted to avoid being used as a tool by either superpower and to protect its independent interests",
+"Nigeria had no diplomats trained in foreign affairs",
+"Nigeria was forbidden by the United Nations from choosing sides"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Non-alignment allowed Nigeria to relate freely with both blocs without being controlled by either superpower's interest. This protected Nigeria's sovereignty and gave it freedom to make independent decisions in international affairs. The other options are not the real reasons behind this policy.",
+"pidgin": "Non-alignment mean say Nigeria no go join eida side so dat superpowers no go control am. Dis one protect Nigeria independence and give am freedom to make e own decision for world matter. Di oda options no be di real reason.",
+"id": "wgov1605",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Shortly after gaining independence in 1960, Nigeria immediately became a member of which world body, showing its early commitment to global peace and cooperation?",
+"options": [
+"The European Union",
+"The United Nations",
+"The North Atlantic Treaty Organisation",
+"The World Bank Group"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Nigeria joined the United Nations in October 1960, the same year it gained independence from Britain. This showed Nigeria's willingness to be part of the global community and contribute to world peace. The European Union and NATO are regional groupings that Nigeria, as an African country, cannot join.",
+"pidgin": "Nigeria join United Nations for October 1960, di same year e gain independence. Dis show say Nigeria wan dey part of world community and support world peace. European Union and NATO na regional group wey Nigeria no fit join.",
+"id": "wgov1607",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Nigeria is a founding member of an international organisation formed by major oil-producing nations to coordinate petroleum policies and stabilise oil prices. This organisation is called",
+"options": [
+"World Trade Organisation (WTO)",
+"Organisation of Petroleum Exporting Countries (OPEC)",
+"International Monetary Fund (IMF)",
+"African Union (AU)"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "OPEC was formed in 1960 by major oil-producing countries, and Nigeria joined in 1971 as an important member. Its purpose is to coordinate oil production levels and stabilise prices in the world market. The other organisations deal with trade, finance, or continental politics, not oil specifically.",
+"pidgin": "OPEC na organisation wey major oil kontri form so dem fit control oil price for world market. Nigeria join am since 1971 as important member. Di oda organisations na for trade, money or Africa politics, no be oil matter.",
+"id": "wgov1606",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Nigeria joined OPEC in 1971; it was not a founding member.|Factual error: Nigeria joined OPEC in 1971 and was not a founding member (founded 1960)"
+}
+]
+}

@@ -1,0 +1,175 @@
+{
+"subject": "agric",
+"topic": "Agricultural ecology and environmental factors",
+"ti": 1,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines agricultural ecology as studied in SS3 Agricultural Science?",
+"options": [
+"The study of weather forecasting methods used by farmers",
+"The study of the relationship between farm organisms (crops, livestock, pests) and their environment",
+"The study of the chemical composition of soil only",
+"The classification of farm tools and machinery"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Agricultural ecology deals with how crops, animals, pests and other living things interact with each other and with their surroundings (soil, climate, etc.). It is not limited to weather, soil chemistry or tools alone.",
+"pidgin": "Agric ecology na how farm plant, animal and pest dey relate with their environment and each other. E no be only weather or soil chemistry or farm tools.",
+"py": null,
+"values": null,
+"id": "wagr0100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is an abiotic (non-living) factor that affects crop production on a farm?",
+"options": [
+"Weed population in the field",
+"Amount of rainfall received",
+"Nematode infestation of roots",
+"Earthworm activity in the soil"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Rainfall is a climatic factor and is non-living (abiotic). Weeds, nematodes and earthworms are all living organisms, so they are biotic factors.",
+"pidgin": "Rain na climate factor wey no be living thing, so na abiotic. Weed, nematode and earthworm na living things, so dem be biotic factors.",
+"py": null,
+"values": null,
+"id": "wagr0101",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Nigeria's vegetation belts, arranged in order from the coastal area in the south to the extreme north, follow which sequence?",
+"options": [
+"Mangrove swamp forest, rainforest, guinea savanna, sudan/sahel savanna",
+"Rainforest, mangrove swamp forest, sahel savanna, guinea savanna",
+"Guinea savanna, rainforest, mangrove swamp forest, sahel savanna",
+"Sahel savanna, guinea savanna, rainforest, mangrove swamp forest"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Starting from the Atlantic coast, Nigeria has mangrove swamp forest, then rainforest, then guinea savanna, and finally sudan/sahel savanna near the Sahara in the far north. This order reflects decreasing rainfall as one moves northward.",
+"pidgin": "From the coast wey dey south, Nigeria get mangrove swamp forest, then rainforest, then guinea savanna, then sudan/sahel savanna near the north. As you dey go north, rain dey reduce, that's why the vegetation dey change like that.",
+"py": null,
+"values": null,
+"id": "wagr0102",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A weather station at a farm settlement in Makurdi recorded the following monthly rainfall: January = 20 mm, February = 45 mm, March = 90 mm, April = 125 mm. What was the average monthly rainfall for this four-month period?",
+"options": [
+"70 mm",
+"80 mm",
+"65 mm",
+"75 mm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Add all the rainfall values: 20 + 45 + 90 + 125 = 280 mm. Divide by the number of months (4): 280/4 = 70 mm. So the average monthly rainfall is 70 mm.",
+"pidgin": "Add all the rain values: 20 + 45 + 90 + 125 = 280 mm. Divide am by 4 months: 280/4 = 70 mm. So the average rain for each month na 70 mm.",
+"py": "(20+45+90+125)/4",
+"values": [
+70,
+80,
+65,
+75
+],
+"id": "wagr0103",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which edaphic (soil) factor mainly determines how well a soil can hold water that crops can use?",
+"options": [
+"Soil texture",
+"Soil colour",
+"Soil temperature",
+"Soil pH"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Soil texture, which describes the proportion of sand, silt and clay particles, controls the size of pore spaces and therefore how much water the soil can hold. Clayey soils retain more water than sandy soils because of their fine particles.",
+"pidgin": "Soil texture (how sand, silt and clay dey mix) dey control the small holes inside soil, and that one dey决定 how much water the soil fit hold. Clay soil dey hold water pass sandy soil because the particles dey fine well well.",
+"py": null,
+"values": null,
+"id": "wagr0104",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer noticed that maize planted on top of a hill matured earlier but produced smaller cobs, while maize planted in the valley below, under the same rainfall, matured later but produced bigger cobs. Which environmental factor best explains this difference?",
+"options": [
+"Difference in day length between the hilltop and the valley",
+"Topography causing nutrients to be washed down and accumulate in the valley soil, making it more fertile",
+"Difference in atmospheric pressure between the two locations",
+"Difference in wind direction at the two sites"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Topography (relief) affects soil fertility through erosion: nutrients and fine soil particles are washed from the hilltop down into the valley, making valley soils richer. This explains why valley maize grew bigger cobs even though it matured a bit later due to possibly wetter, heavier soil.",
+"pidgin": "Topography (how land dey rise and fall) dey cause erosion wey wash nutrients and fine soil comot for hilltop go inside valley, so valley soil dey richer. Na why the valley maize get bigger cobs even though e mature small time later.",
+"py": null,
+"values": null,
+"id": "wagr0105",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "An agricultural science student counted 450 grasshoppers in a 3-hectare maize field during a pest survey. What is the population density of grasshoppers per hectare?",
+"options": [
+"150 per hectare",
+"100 per hectare",
+"200 per hectare",
+"120 per hectare"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Population density is found by dividing the total number of organisms by the area they occupy: 450 grasshoppers divided by 3 hectares equals 150 grasshoppers per hectare. This value tells the student how crowded the pest population is per unit area.",
+"pidgin": "Population density na when you divide the total number of the animal by the land size: 450 grasshopper divide by 3 hectare give 150 grasshopper for one hectare. Na so you go sabi how the pest dem dey crowd for the land.",
+"py": "450/3",
+"values": [
+150,
+100,
+200,
+120
+],
+"id": "wagr0106",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

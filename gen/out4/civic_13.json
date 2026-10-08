@@ -1,0 +1,149 @@
+{
+"subject": "civic",
+"topic": "Interpersonal relationships and responsible parenthood",
+"ti": 13,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines interpersonal relationship?",
+"options": [
+"The way people interact and relate with one another in society",
+"A law that guides the conduct of marriage ceremonies",
+"A government policy used to control population growth",
+"The process of registering a new business name"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Interpersonal relationship simply means how people relate, interact and associate with one another, whether at home, school, work or in the community.",
+"pidgin": "Interpersonal relationship na how people dey relate and interact with each other, for house, school or work.",
+"id": "wciv1300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Responsible parenthood mainly involves parents doing which of the following?",
+"options": [
+"Providing adequate care, training and welfare for the children they bring into the world",
+"Ensuring that their children attend only expensive private schools",
+"Giving birth to as many children as biologically possible",
+"Leaving the upbringing of their children permanently to relatives"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Responsible parenthood means parents deliberately plan for and properly cater for the physical, moral, educational and emotional needs of the children they have, according to their means.",
+"pidgin": "Responsible parenthood mean say parents go take care, train and provide for their pikin well-well, according to wetin dem fit afford.",
+"id": "wciv1301",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT an example of an interpersonal relationship?",
+"options": [
+"Relationship between a mother and her child",
+"Friendship between two classmates in a secondary school",
+"Working relationship between a boss and an employee",
+"A trade agreement signed between two foreign countries"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Interpersonal relationships exist between individuals, such as family, friendship and work relationships. A trade agreement between two countries is an international relationship, not a personal one between individuals.",
+"pidgin": "Interpersonal relationship na between persons, like family, friend and work relationship. Trade agreement between two kontri na international matter, e no be personal relationship.",
+"id": "wciv1302",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "One major benefit of family planning to a household is that it helps parents to:",
+"options": [
+"Increase the number of children beyond what their income can support",
+"Space the birth of their children and manage resources for their proper upbringing",
+"Avoid registering the birth of their children with the government",
+"Discourage their children from going to school"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Family planning allows parents to space births and have only the number of children they can comfortably cater for, which improves the children's welfare and reduces financial strain on the family.",
+"pidgin": "Family planning dey help parents to space their pikin dem well and take proper care of them, instead of dey born beyond wetin their pocket fit carry.",
+"id": "wciv1303",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which Nigerian government agency is primarily responsible for combating human trafficking and protecting children who are exploited as a result of irresponsible parenthood?",
+"options": [
+"Economic and Financial Crimes Commission (EFCC)",
+"National Agency for the Prohibition of Trafficking in Persons (NAPTIP)",
+"Federal Road Safety Corps (FRSC)",
+"Independent Corrupt Practices Commission (ICPC)"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "NAPTIP was specifically set up to prevent, investigate and prosecute cases of human trafficking, including child trafficking and exploitation that often arise from irresponsible parenting.",
+"pidgin": "NAPTIP na the agency wey dem set up to fight human trafficking and protect pikin wey dem dey use for bad bad business because parents no train dem well.",
+"id": "wciv1304",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mallam Garba has nine children but earns only ₦20,000 a month as a labourer. Four of his children have dropped out of school and now hawk goods on the street to support the family. This situation best illustrates:",
+"options": [
+"Effective family planning by Mallam Garba",
+"Irresponsible parenthood on the part of Mallam Garba",
+"A strong interpersonal relationship within the family",
+"Sound economic planning by the family"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Having more children than one's income can comfortably support, leading to children dropping out of school to hawk, shows a failure to plan and provide properly for children, which is the opposite of responsible parenthood.",
+"pidgin": "Mallam Garba get pikin pass wetin im salary fit carry, so im pikin dem dey hawk for road instead of school. Na clear sign of irresponsible parenthood.",
+"id": "wciv1305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a likely long-term effect on a society where many parents fail to practice responsible parenthood?",
+"options": [
+"A reduction in the rate of school dropouts",
+"An increase in child labour and juvenile delinquency",
+"An automatic improvement in the standard of living for all citizens",
+"A steady decrease in the nation's population growth rate"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "When parents cannot adequately cater for their children, such children are often pushed into child labour, street begging or crime, which raises the rate of juvenile delinquency in the society over time.",
+"pidgin": "If parents no dey take care of their pikin well, plenty of dem go end up dey hustle for street or dey do crime, and dis one go increase child labour and bad behaviour for society.",
+"id": "wciv1306",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

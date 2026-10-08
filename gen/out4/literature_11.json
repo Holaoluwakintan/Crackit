@@ -1,0 +1,209 @@
+{
+"subject": "literature",
+"topic": "Literary criticism terms",
+"ti": 11,
+"generated": 10,
+"kept": [
+{
+"q": "Read this line: 'Mr. Okafor's temper was like a thunderstorm that could strike without warning.' Which figure of speech is used here?",
+"options": [
+"Metaphor",
+"Simile",
+"Personification",
+"Hyperbole"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The line compares Mr. Okafor's temper to a thunderstorm using the word 'like'. Any comparison using 'like' or 'as' is a simile.",
+"pidgin": "Di sentence compare Mr. Okafor im temper to thunderstorm, and e use 'like'. Any time wey comparison use 'like' or 'as', na simile be dat.",
+"id": "wlit1100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the sentence 'Hope danced joyfully in her eyes as she opened the result slip,' which literary device is used?",
+"options": [
+"Personification",
+"Metaphor",
+"Simile",
+"Alliteration"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Hope, which is a feeling and not a human being, is described as 'dancing', giving it a human action. Giving human qualities to non-human things is personification.",
+"pidgin": "Hope no be human being but di sentence talk say e dance. When you give non-human thing human action, na personification.",
+"id": "wlit1101",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Consider this line from a short poem: 'Ngozi's heart was a drum beating wildly through the examination hall.' What figure of speech has the poet used?",
+"options": [
+"Onomatopoeia",
+"Simile",
+"Metaphor",
+"Hyperbole"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The poet directly calls Ngozi's heart 'a drum' without using 'like' or 'as'. A direct comparison of two unlike things without 'like/as' is a metaphor.",
+"pidgin": "Di poet call Ngozi im heart 'a drum' straight, no 'like' or 'as' dey. Wen you compare two different tins straight like dat, na metaphor.",
+"id": "wlit1102",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a stage play, a character stands alone on an empty stage and speaks his private thoughts aloud so the audience can understand his inner conflict. What is this dramatic technique called?",
+"options": [
+"Aside",
+"Soliloquy",
+"Monologue",
+"Dialogue"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A soliloquy is a speech a character gives while alone on stage, revealing private thoughts to the audience. An aside is a short comment to the audience while others are still present, and a monologue can be given even when other characters are on stage.",
+"pidgin": "Soliloquy na wen character dey alone for stage, e dey tok im mind give audience. Aside na small-small tok wen oda pipo still dey stage, monologue fit happun even if oda pipo dey stage.",
+"id": "wlit1103",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a play, the audience sees a servant secretly pour poison into the king's wine, but the king does not know and happily raises his cup to toast his guests. What type of irony is this?",
+"options": [
+"Verbal irony",
+"Situational irony",
+"Sarcasm",
+"Dramatic irony"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The audience knows a fact (the poison) that the king, a character in the play, does not know. This gap in knowledge between the audience and a character is called dramatic irony.",
+"pidgin": "Audience sabi say poison dey di wine, but di king sef no sabi. Dis kain gap wey dey between wetin audience sabi and wetin character sabi na dramatic irony.",
+"id": "wlit1104",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which term correctly describes the main character around whom the events of a story or play revolve?",
+"options": [
+"Antagonist",
+"Protagonist",
+"Foil",
+"Narrator"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The protagonist is the central or leading character whose actions and conflicts drive the plot. The antagonist opposes the protagonist, while a foil only highlights another character's traits by contrast.",
+"pidgin": "Protagonist na di main character wey di whole story dey follow. Antagonist na di one wey dey fight against am, foil na character wey just dey show difference from anoda character.",
+"id": "wlit1105",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The phrase 'a deafening silence filled the courtroom after the judge's verdict' contains which literary device?",
+"options": [
+"Oxymoron",
+"Paradox",
+"Metaphor",
+"Irony"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "'Deafening' and 'silence' are two contradictory words placed side by side to create a striking effect; this short combination of opposite words is called an oxymoron. A paradox is usually a longer statement that seems self-contradictory but reveals a deeper truth.",
+"pidgin": "'Deafening' and 'silence' na two wahala words wey no match but dem put dem togeda. Dis short combo of opposite words na oxymoron. Paradox na longer statement wey dey sound like contradiction but e get truth inside.",
+"id": "wlit1106",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a tragedy, King Babatunde's excessive ambition eventually causes his own destruction, even though he starts the play as a respected and powerful ruler. What literary term best names this fatal character weakness that leads to his downfall?",
+"options": [
+"Catharsis",
+"Peripeteia",
+"Hubris",
+"Hamartia"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Hamartia is the general term for the fatal flaw or error of judgement in a tragic hero that leads to his downfall. Catharsis refers to the audience's emotional release, and peripeteia is the sudden reversal of fortune, not the flaw itself.",
+"pidgin": "Hamartia na di general word for di mistake or weakness wey dey cause tragic hero im downfall. Catharsis na di feeling wey audience get afta di play, peripeteia na di sudden change of fortune, no be di weakness.",
+"id": "wlit1107",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "'Mama mixed melon for the market' is an example of which sound device, since the 'm' sound is repeated at the beginning of several words?",
+"options": [
+"Alliteration",
+"Assonance",
+"Consonance",
+"Onomatopoeia"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Alliteration is the repetition of the same consonant sound at the beginning of neighbouring or closely connected words, as seen with the repeated 'm' sound here. Assonance deals with repeated vowel sounds, not the beginning consonant sounds of words.",
+"pidgin": "Alliteration na wen one consonant sound repeat for front of words wey close to each oda, like dis 'm' sound here. Assonance na about vowel sound wey repeat, no be beginning consonant.",
+"id": "wlit1108",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "At the end of a novel, all the conflicts are resolved: the lovers reunite, the villain is punished, and peace returns to the village. What is this final part of the plot called?",
+"options": [
+"Climax",
+"Exposition",
+"Denouement",
+"Rising action"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The denouement is the final part of a story where all the loose ends and conflicts are resolved after the climax. The climax is the turning point of highest tension, while exposition and rising action occur earlier in the plot.",
+"pidgin": "Denouement na di last part of story wey dem solve all di wahala afta di climax. Climax na di point wey tension high pass, while exposition and rising action dey happun before di climax.",
+"id": "wlit1109",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

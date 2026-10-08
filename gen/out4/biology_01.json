@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "The cell: structure and cell processes (diffusion, osmosis)",
+"ti": 1,
+"generated": 6,
+"kept": [
+{
+"q": "Which cell organelle controls the activities of the cell and contains the hereditary material (DNA)?",
+"options": [
+"Mitochondrion",
+"Nucleus",
+"Ribosome",
+"Golgi apparatus"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The nucleus contains the chromosomes (DNA) and directs all the activities of the cell. Mitochondria release energy, ribosomes make proteins, and the Golgi apparatus packages substances.",
+"pidgin": "Nucleus na im get the DNA wey dey control everything wey dey happen for the cell. Mitochondria na for energy, ribosome na for protein, Golgi apparatus na for packaging.",
+"id": "wbio0100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The net movement of molecules or ions from a region of their higher concentration to a region of their lower concentration until the particles are evenly spread is best described as:",
+"options": [
+"Osmosis",
+"Active transport",
+"Diffusion",
+"Plasmolysis"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "This movement of molecules/ions from high to low concentration without using energy is diffusion. Osmosis is specifically for water across a membrane, and active transport needs energy to move substances against their concentration gradient.",
+"pidgin": "Na diffusion be dis one, because e be movement of molecules from where dem plenty to where dem small, no energy dey use. Osmosis na for water only, active transport need energy.",
+"id": "wbio0101",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Ngozi placed some red blood cells into a beaker of distilled water. After some minutes, the cells swelled up and burst. Which term describes this process and why did it happen?",
+"options": [
+"Crenation; water left the cells by osmosis",
+"Haemolysis; water entered the cells by osmosis",
+"Plasmolysis; water left the cells by diffusion",
+"Turgidity; water entered the cells by active transport"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Distilled water has a higher water concentration than the cell cytoplasm, so water moves into the red blood cells by osmosis, making them swell and burst; this is called haemolysis. Crenation is shrinking, and plasmolysis applies to plant cells with cell walls.",
+"pidgin": "Distilled water get plenty water pass wetin dey inside the blood cell, so water enter the cell by osmosis make e swell burst — dem dey call am haemolysis. Crenation na when cell shrink, plasmolysis na for plant cell wey get cell wall.",
+"id": "wbio0102",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A piece of Irish potato tissue is placed in a concentrated salt solution for 30 minutes. Which of the following correctly describes what would be observed and the reason?",
+"options": [
+"The tissue becomes turgid because water moves into the cells by osmosis",
+"The tissue becomes flaccid because water moves out of the cells by osmosis",
+"The tissue increases in mass because salt moves into the cells by diffusion",
+"The tissue remains unchanged because the cell membrane is impermeable to water"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The concentrated salt solution has less water (lower water potential) than the potato cell sap, so water moves out of the cells by osmosis, causing the tissue to lose turgor and become flaccid (soft). This is the opposite of what happens in distilled water.",
+"pidgin": "The strong salt solution no get plenty water pass wetin dey inside potato cell, so water comot from the cell go outside by osmosis, make the potato soft (flaccid). Na opposite of wetin go happen for distilled water.",
+"id": "wbio0103",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Two sugar solutions, P and Q, are separated by a selectively permeable membrane in a visking tubing set-up. Solution P has a higher sugar concentration than solution Q. In which direction will water move, and what will happen to solution P?",
+"options": [
+"Water moves from P to Q; solution P decreases in volume",
+"Water moves from Q to P; solution P increases in volume",
+"Water moves from P to Q; solution P increases in volume",
+"No net movement of water occurs because both are sugar solutions"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Water always moves by osmosis from a region of lower solute concentration (higher water potential), which is Q, to a region of higher solute concentration (lower water potential), which is P. As water enters P, its volume increases.",
+"pidgin": "Water dey waka by osmosis comot from where water plenty (Q) go where water small (P, because sugar plenty there). As water enter P, P go increase for volume.",
+"id": "wbio0104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In an experiment, equal-sized potato chips were soaked in four sugar solutions for one hour: 1 mol/dm3, 0.5 mol/dm3, 0.25 mol/dm3, and distilled water. The chip in distilled water gained the most mass, while the chip in 1 mol/dm3 solution lost the most mass. What can be correctly concluded from this result?",
+"options": [
+"The cell sap of the potato has a lower solute concentration than the 1 mol/dm3 solution",
+"The cell sap of the potato has a higher solute concentration than the 1 mol/dm3 solution",
+"Distilled water has a higher solute concentration than the potato cell sap",
+"The potato cells are impermeable to water molecules"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since the chip lost water (mass) in the 1 mol/dm3 solution, water must have left the potato cells, meaning the solution had a higher solute concentration (lower water potential) than the cell sap. This shows the potato cell sap's solute concentration is lower than 1 mol/dm3.",
+"pidgin": "Since the potato lose water for the 1 mol/dm3 solution, e mean say water comot from the potato cell go outside, so the solution get more solute pass the potato cell sap. Dis mean the potato cell sap no reach 1 mol/dm3 for solute concentration.",
+"id": "wbio0105",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

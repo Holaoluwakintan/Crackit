@@ -1,0 +1,171 @@
+{
+"subject": "physics",
+"topic": "Simple machines",
+"ti": 5,
+"generated": 6,
+"kept": [
+{
+"q": "In the study of simple machines, the mechanical advantage (MA) of a machine is defined as the ratio of:",
+"options": [
+"load to effort",
+"effort to load",
+"distance moved by effort to distance moved by load",
+"work output to time taken"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Mechanical advantage tells us how many times a machine multiplies the effort. It is defined as Load divided by Effort (MA = Load/Effort).",
+"pidgin": "Mechanical advantage na how machine dey multiply the effort wey you put. E be Load divide by Effort (MA = Load/Effort).",
+"py": null,
+"values": null,
+"id": "wphy0500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A carpenter in Aba uses an inclined plane of length 5 m to push a load up to a platform of height 1.25 m. Calculate the velocity ratio of the inclined plane.",
+"options": [
+"6",
+"2",
+"4",
+"5"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "For an inclined plane, velocity ratio VR = length of plane / height of plane = 5/1.25 = 4. This means the effort moves 4 times the distance the load moves.",
+"pidgin": "For inclined plane, VR = length / height = 5/1.25 = 4. E mean say the effort go waka 4 times wetin the load waka.",
+"py": "5/1.25",
+"values": [
+6,
+2,
+4,
+5
+],
+"id": "wphy0501",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A simple machine has a mechanical advantage of 5 and a velocity ratio of 8. Calculate the efficiency of the machine.",
+"options": [
+"75%",
+"62.5%",
+"40%",
+"160%"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Efficiency = (MA/VR) x 100% = (5/8) x 100% = 62.5%. This shows the machine is not perfectly efficient because of friction losses.",
+"pidgin": "Efficiency = (MA/VR) x 100% = (5/8) x 100% = 62.5%. E show say the machine no reach 100% because of friction wey dey waste energy.",
+"py": "(5/8)*100",
+"values": [
+75,
+62.5,
+40,
+160
+],
+"id": "wphy0502",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A block-and-tackle pulley system is arranged with 2 pulleys fixed to the upper beam and 2 pulleys attached to the movable lower block carrying the load, making a total of 4 pulleys in the system. Assuming the rope is pulled vertically downward, what is the velocity ratio of this system?",
+"options": [
+"2",
+"3",
+"5",
+"4"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "For a block-and-tackle system, the velocity ratio equals the number of strings (pulleys) supporting the load. With 4 pulleys sharing the load, VR = 4.",
+"pidgin": "For block-and-tackle system, VR na the number of pulley wey dey carry the load. Since 4 pulleys dey share the load, VR = 4.",
+"py": "4",
+"values": [
+2,
+3,
+5,
+4
+],
+"id": "wphy0503",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A wheel and axle machine has a wheel of radius 30 cm and an axle of radius 5 cm. If the machine is used to lift a load of 600 N and the efficiency of the machine is 80%, calculate the effort required.",
+"options": [
+"125 N",
+"150 N",
+"100 N",
+"83.3 N"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "VR = R/r = 30/5 = 6. Since efficiency = (MA/VR) x 100%, MA = 0.8 x 6 = 4.8. Effort = Load/MA = 600/4.8 = 125 N.",
+"pidgin": "VR = R/r = 30/5 = 6. Since efficiency = (MA/VR) x 100%, MA = 0.8 x 6 = 4.8. Effort = Load/MA = 600/4.8 = 125 N.",
+"py": "600/(0.8*(30/5))",
+"values": [
+125,
+150,
+100,
+83.3
+],
+"id": "wphy0504",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A uniform lever (class one lever) has its fulcrum between the load and effort. A load of 300 N is placed 20 cm from the fulcrum, while the effort is applied 80 cm from the fulcrum on the other side. Ignoring the weight of the lever and friction, calculate the effort needed to balance the load.",
+"options": [
+"60 N",
+"90 N",
+"75 N",
+"120 N"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "By the principle of moments, Effort x distance from fulcrum = Load x distance from fulcrum. So Effort x 80 = 300 x 20, giving Effort = 6000/80 = 75 N.",
+"pidgin": "Using principle of moments, Effort x distance = Load x distance. So Effort x 80 = 300 x 20, e give Effort = 6000/80 = 75 N.",
+"py": "300*20/80",
+"values": [
+60,
+90,
+75,
+120
+],
+"id": "wphy0505",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

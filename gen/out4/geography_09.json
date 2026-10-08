@@ -1,0 +1,204 @@
+{
+"subject": "geography",
+"topic": "Map reading: scale, distance, direction and relief described in words",
+"ti": 9,
+"generated": 7,
+"kept": [
+{
+"q": "On a map with a scale of 1 : 50 000, what does the scale indicate?",
+"options": [
+"One unit of measurement on the map represents 50 000 of the same unit on the ground",
+"The map is exactly 50 000 times smaller than the actual area in square kilometres",
+"One centimetre on the map equals 50 000 kilometres on the ground",
+"The ground distance is always 50 000 times smaller than the map distance"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A representative fraction such as 1:50 000 means one unit on the map stands for 50 000 of the same unit on the ground (e.g. 1 cm = 50 000 cm). It is a linear ratio, not an area ratio, and the units must be the same before conversion.",
+"pidgin": "Wen dem write scale as 1:50 000, e mean say one unit for map na 50 000 of di same unit for ground, like 1cm = 50 000cm. Na straight distance ratio, e no be area ratio, and di units must match before you convert am.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wgeo0900",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "On a topographical map drawn to a scale of 1 : 25 000, the straight-line distance between Ijebu-Ode market and Oru junction measured 8.4 cm. What is the actual ground distance between the two places, in kilometres?",
+"options": [
+"0.21 km",
+"2.1 km",
+"21 km",
+"210 km"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ground distance = 8.4 cm x 25 000 = 210 000 cm. Since 1 km = 100 000 cm, 210 000 cm divided by 100 000 gives 2.1 km. So the two places are 2.1 km apart on the ground.",
+"pidgin": "Ground distance = 8.4cm x 25 000 = 210 000cm. Since 1km na 100 000cm, 210 000cm divide by 100 000 e give 2.1km. So di two places dey 2.1km apart for ground.",
+"py": "8.4*25000/100000",
+"values": [
+0.21,
+2.1,
+21,
+210
+],
+"id": "wgeo0901",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A surveyor standing at point X observes that point Y is directly to the north-east of him. What is the bearing of Y from X?",
+"options": [
+"090°",
+"135°",
+"045°",
+"315°"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Bearings are measured clockwise from north. North-east lies exactly halfway between north (000°) and east (090°), which is 045°. The other options represent east, south-east and north-west respectively.",
+"pidgin": "Dem dey measure bearing clockwise from north. North-east dey exactly between north (000°) and east (090°), so e be 045°. Di oda options na east, south-east and north-west.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wgeo0902",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A hiker walks from Village A to Village B on a bearing of 062°. What is the bearing of Village A from Village B (the back bearing)?",
+"options": [
+"118°",
+"298°",
+"062°",
+"242°"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "To get the back bearing, add 180° when the original bearing is less than 180°. So 062° + 180° = 242°. This gives the direction of A as seen from B.",
+"pidgin": "To find back bearing, if di first bearing dey less than 180°, you go add 180°. So 062° + 180° = 242°. Na dis one be di direction of A if you dey look am from B.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wgeo0903",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A map is drawn to a scale of 1 : 50 000. The area of a forest reserve measured on the map is 6 square centimetres. What is the actual area of the forest reserve on the ground, in square kilometres?",
+"options": [
+"0.15 km^2",
+"15 km^2",
+"1.5 km^2",
+"150 km^2"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "For area, the scale factor must be squared: 50 000^2 = 2 500 000 000. Ground area = 6 cm^2 x 2 500 000 000 = 15 000 000 000 cm^2. Since 1 km^2 = 100 000^2 cm^2 = 10 000 000 000 cm^2, dividing gives 15 000 000 000 / 10 000 000 000 = 1.5 km^2.",
+"pidgin": "For area, you must square di scale: 50 000^2 = 2 500 000 000. Ground area = 6cm^2 x 2 500 000 000 = 15 000 000 000cm^2. Since 1km^2 na 10 000 000 000cm^2, if you divide e give 1.5km^2.",
+"py": "6*(50000**2)/(100000**2)",
+"values": [
+0.15,
+15,
+1.5,
+150
+],
+"id": "wgeo0904",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A written description of a map area says: 'The land rises gradually from 50 metres above sea level at the coastline to 450 metres at the northern boundary, and the contour lines are spaced far apart throughout the area.' What type of relief does this description suggest?",
+"options": [
+"A deep valley with sharp cliffs on both sides",
+"A steep escarpment rising abruptly from the coast",
+"A flat lowland with no change in elevation",
+"A gently sloping plain rising steadily inland"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Widely spaced contour lines show a gentle, gradual slope rather than a steep one. Since the height increases slowly and evenly from 50 m to 450 m, the land is a gently sloping plain, not a cliff, valley or flat lowland.",
+"pidgin": "Wen contour lines dey far from each oda, e mean say di slope dey gentle, e no steep. Since di height dey rise small small from 50m to 450m, na gentle plain, e no be cliff, valley or flat land.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wgeo0905",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A map has a scale of 1 : 100 000. Ogbomoso and Iseyin are 7.5 cm apart on the map. A bus travels between the two towns at an average speed of 50 km/h. How long will the journey take, to the nearest minute?",
+"options": [
+"15 minutes",
+"9 minutes",
+"45 minutes",
+"90 minutes"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Ground distance = 7.5 cm x 100 000 = 750 000 cm = 7.5 km. Time = distance/speed = 7.5 km / 50 km/h = 0.15 hours. Converting to minutes: 0.15 x 60 = 9 minutes.",
+"pidgin": "Ground distance = 7.5cm x 100 000 = 750 000cm = 7.5km. Time = distance/speed = 7.5km / 50km/h = 0.15 hours. If you convert to minutes: 0.15 x 60 = 9 minutes.",
+"py": "(7.5*100000/100000)/50*60",
+"values": [
+15,
+9,
+45,
+90
+],
+"id": "wgeo0906",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Bus route distance may exceed the map distance between towns.|"
+}
+]
+}

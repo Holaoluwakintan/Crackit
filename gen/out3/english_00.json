@@ -1,0 +1,116 @@
+{
+"subject": "english",
+"topic": "Synonyms: word nearest in meaning to the underlined word (mark the target word in CAPITALS in the sentence)",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the option nearest in meaning to the word in capitals. Mama Ijeoma is known in the market for being FRUGAL with her money, never spending more than necessary.",
+"options": [
+"wasteful",
+"thrifty",
+"generous",
+"careless"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Frugal means careful and economical with money. Thrifty has the same meaning. Wasteful and generous mean the opposite, while careless does not relate to money management.",
+"pidgin": "Frugal mean say person dey careful well well with im money, no dey waste am. Thrifty na the same thing. Wasteful and generous no be the same thing, na the opposite; careless no gree tally with money matter.",
+"id": "engv0000",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the option nearest in meaning to the word in capitals. The new NYSC corps member posted to the rural school was DILIGENT in preparing her lesson notes every night.",
+"options": [
+"lazy",
+"slow",
+"hardworking",
+"careless"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Diligent describes someone who works hard and carefully. Hardworking is the closest match. Lazy and careless are opposites, while slow does not capture the idea of effort.",
+"pidgin": "Diligent mean say person dey work hard and dey careful well well. Hardworking na im match am well well. Lazy and careless na opposite, slow no even near the meaning.",
+"id": "engv0001",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the option nearest in meaning to the word in capitals. Despite several warnings from his doctor, Alhaji Musa remained OBSTINATE and continued to eat sugary foods.",
+"options": [
+"indecisive",
+"flexible",
+"apologetic",
+"stubborn"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Obstinate means refusing to change one's mind or behaviour despite advice. Stubborn carries this exact meaning. Flexible means the opposite, while indecisive and apologetic do not fit the context of refusing advice.",
+"pidgin": "Obstinate mean say person no wan change im mind or behaviour even after advice. Stubborn na the correct match. Flexible na opposite meaning, indecisive and apologetic no fit the gist of person wey no gree change.",
+"id": "engv0002",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Choose the option nearest in meaning to the word in capitals. Everyone in the hostel loves Tunde because he is AMIABLE and always smiles at people.",
+"options": [
+"friendly",
+"hostile",
+"indifferent",
+"suspicious"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Amiable means pleasant and easy to like. Friendly is the closest synonym. Hostile and suspicious describe negative attitudes, while indifferent means not caring, which is also wrong.",
+"pidgin": "Amiable mean say person sweet and easy to like. Friendly na the correct match. Hostile and suspicious na bad attitude, indifferent mean say person no dey care, so e no fit.",
+"id": "engv0003",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option nearest in meaning to the word in capitals. After trekking for over two hours under the hot sun, Chidinma felt LETHARGIC and just wanted to sleep.",
+"options": [
+"energetic",
+"sluggish",
+"anxious",
+"irritable"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Lethargic means lacking energy and feeling sleepy or sluggish. Sluggish best captures this tired state. Energetic is the opposite, while anxious and irritable describe different feelings not related to tiredness.",
+"pidgin": "Lethargic mean say person no get energy, dey feel sleepy. Sluggish na the correct word wey match the tired feeling. Energetic na opposite, anxious and irritable no be about tiredness.",
+"id": "engv0004",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the option nearest in meaning to the word in capitals. Due to the fall in oil prices, the company's financial position became increasingly PRECARIOUS.",
+"options": [
+"transparent",
+"stable",
+"profitable",
+"unstable"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Precarious means not safe or secure, likely to fail or collapse. Unstable matches this meaning of insecurity. Stable and profitable describe a healthy financial state, which is the opposite, while transparent is unrelated.",
+"pidgin": "Precarious mean say thing no safe, e fit scatter anytime. Unstable na the correct match for this kain unsafe condition. Stable and profitable mean say the company dey fine, na opposite; transparent no relate at all.",
+"id": "engv0005",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

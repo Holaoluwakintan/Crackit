@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Respiration: aerobic, anaerobic and respiratory organs",
+"generated": 4,
+"kept": [
+{
+"q": "Which structure is mainly responsible for gaseous exchange in an earthworm living in moist soil?",
+"options": [
+"A pair of lungs",
+"Gill filaments",
+"Moist, thin skin richly supplied with blood vessels",
+"Branched tracheal tubes"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Earthworms have no lungs, gills or tracheae. Oxygen dissolves in the moisture on their thin skin and diffuses into the blood vessels just beneath it, while carbon(IV) oxide diffuses out the same way.",
+"pidgin": "Earthworm no get lung, gill or trachea. Oxygen go dissolve for the wet mucus on im skin and enter the blood vessels wey dey near the skin, and CO2 go comot the same way.",
+"id": "biov0600",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In a fish, blood in the gill capillaries flows in the opposite direction to the water flowing over the gill lamellae. What is the main advantage of this counter-current arrangement?",
+"options": [
+"It reduces the amount of water needed for respiration",
+"It keeps the gill filaments moist at all times",
+"It maintains a concentration gradient along the whole length of the gill, allowing maximum oxygen uptake from the water",
+"It prevents salt from entering the fish's blood"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Because blood and water flow in opposite directions, blood with low oxygen always meets water that still has some oxygen left, keeping a gradient along the entire gill surface. This allows the fish to absorb far more oxygen than if the flows moved in the same direction.",
+"pidgin": "Since blood and water dey flow for opposite direction, blood wey get small oxygen go still meet water wey still get oxygen inside. This kind arrangement make gradient stay the whole length of the gill, so fish fit absorb plenty oxygen pass if dem flow same direction.",
+"id": "biov0601",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A student collected gas samples from a respiring culture of yeast placed in a warm sugar solution without oxygen. The gas was passed into limewater, which quickly turned milky, and a sharp smell similar to local burukutu (a fermented drink) was noticed. Which process best explains these two observations together?",
+"options": [
+"Aerobic respiration producing carbon(IV) oxide and water only",
+"Anaerobic respiration producing ethanol and carbon(IV) oxide",
+"Anaerobic respiration producing lactic acid only",
+"Aerobic respiration producing oxygen and glucose"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Without oxygen, yeast carries out alcoholic fermentation, breaking down sugar into ethanol and carbon(IV) oxide. The CO2 turns limewater milky, while the ethanol produced gives the alcoholic smell noticed.",
+"pidgin": "Since no oxygen dey, yeast go do alcoholic fermentation, wey break sugar to ethanol and CO2. Na the CO2 dey turn limewater milky, and na the ethanol dey give the alcohol smell wey dem notice.",
+"id": "biov0602",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "During an experiment, a respirometer showed that a small insect consumed 60 cm3 of oxygen and produced 60 cm3 of carbon(IV) oxide in one hour. The respiratory quotient (RQ) is calculated as volume of CO2 produced divided by volume of O2 consumed. Based on the RQ obtained, which food substrate was most likely being respired?",
+"options": [
+"Fats, since RQ is less than 1",
+"Proteins, since RQ is greater than 1",
+"Carbohydrates, since RQ equals 1",
+"Water, since RQ equals zero"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "RQ = 60/60 = 1. An RQ of 1 shows that the volume of CO2 released equals the volume of O2 used, which is characteristic of carbohydrate respiration, because carbohydrates contain enough oxygen in their structure for complete, balanced oxidation.",
+"pidgin": "RQ = 60/60 = 1. When RQ reach 1, e mean say the CO2 wey comot na im equal the O2 wey enter, and dis one dey happun when na carbohydrate dem dey respire, because carbohydrate get enough oxygen for im structure make the oxidation balance well.",
+"id": "biov0603",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

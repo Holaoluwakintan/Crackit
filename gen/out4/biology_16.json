@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Ecology: population, adaptation and habitats",
+"ti": 16,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following best defines a 'population' in ecological studies?",
+"options": [
+"All the individuals of the same species living in a particular area at the same time",
+"All the different species of organisms living together in a habitat at the same time",
+"All the living and non-living components found in an environment",
+"The physical place where a particular organism normally lives"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A population refers only to members of one species found together in a given area at a given time. This is different from a community (many species together) or an ecosystem (living plus non-living things).",
+"pidgin": "Population na all the members of one kind of animal or plant wey dey live for one place one time. E no be community (wey get many different species) or ecosystem (wey get living and non-living things togeda).",
+"id": "wbio1600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In ecology, which term describes the specific role, function and position that an organism occupies in its habitat, including how it obtains food and relates with other organisms?",
+"options": [
+"Habitat",
+"Biome",
+"Niche",
+"Ecosystem"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The niche of an organism is its functional role and relationship with other living things and the environment, not just the place where it lives (which is the habitat).",
+"pidgin": "Niche na the role and work wey organism get for im environment, e include how e dey find chop and relate wit oda living things. Habitat na just where e dey stay, e no be di same as niche.",
+"id": "wbio1601",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A certain large mammal found in arid regions has nostrils that can close completely, very long eyelashes, thick padded feet, and kidneys that produce highly concentrated urine. These features are adaptations for survival in which type of habitat?",
+"options": [
+"Tropical rainforest",
+"Desert",
+"Freshwater swamp",
+"Temperate grassland"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Closable nostrils and long eyelashes keep out blowing sand, padded feet prevent sinking in loose sand, and concentrated urine conserves water — all are classic adaptations of animals like the camel that live in hot, dry desert conditions.",
+"pidgin": "Nose wey fit close well-well, long eyelash, padded leg and strong concentrated urine na adaptation for camel wey dey live for desert. Dis features dey help am manage sand and save water for hot dry place.",
+"id": "wbio1602",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A certain floating plant has broad flat leaves, stomata located mainly on the upper surface of the leaf, and large air spaces (aerenchyma) inside its leaf and stem tissues. This combination of features best suits the plant to which type of habitat?",
+"options": [
+"Desert habitat",
+"Epiphytic habitat on tree trunks",
+"Dry savanna grassland",
+"Aquatic (freshwater) habitat"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Plants like the water lily float on water; stomata on the upper leaf surface allow gas exchange since the lower surface touches water, and air spaces give buoyancy and help carry oxygen to submerged parts — typical hydrophyte adaptations.",
+"pidgin": "Dis kind plant like water lily dey float for water, stomata dey for di top side because di down side dey touch water, and air space inside di leaf dey help am float and carry oxygen go di part wey dey inside water. Na water plant adaptation be dis.",
+"id": "wbio1603",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student wanted to estimate the population of grasshoppers in a school football field using the capture-recapture method. She first caught 40 grasshoppers, marked them with a harmless dye, and released them back into the field. Three days later, she caught 50 grasshoppers from the same field, out of which 20 were found to carry the mark. Using the Lincoln index, estimate the total population of grasshoppers in the field.",
+"options": [
+"100",
+"50",
+"80",
+"200"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Lincoln index: Population (N) = (number first caught and marked x number caught second time) / number marked found in second catch = (40 x 50) / 20 = 100.",
+"pidgin": "Lincoln index formula: N = (number wey dem first catch and mark x number wey dem catch second time) ÷ number wey get mark for di second catch = (40 x 50) ÷ 20 = 100.",
+"id": "wbio1604",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A cassava farm in Benue State measures 500 square metres and contains exactly 250 cassava plants evenly spread across the farm. Calculate the population density of the cassava plants in plants per square metre.",
+"options": [
+"0.2 plants per square metre",
+"2.0 plants per square metre",
+"5.0 plants per square metre",
+"0.5 plants per square metre"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Population density = number of organisms / area occupied = 250 / 500 = 0.5 plants per square metre.",
+"pidgin": "Population density = number of plant ÷ di area wey dem dey = 250 ÷ 500 = 0.5 plant for every square metre.",
+"id": "wbio1605",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

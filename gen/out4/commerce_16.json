@@ -1,0 +1,163 @@
+{
+"subject": "commerce",
+"topic": "E-commerce and computers in business",
+"ti": 16,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines electronic commerce (e-commerce)?",
+"options": [
+"The use of computers only to type business letters",
+"The buying and selling of goods and services through the internet",
+"The process of manufacturing goods using machines",
+"The storage of business records in filing cabinets"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "E-commerce means carrying out business transactions such as buying and selling using electronic means like the internet. Typing letters or manufacturing goods with machines are not e-commerce.",
+"pidgin": "E-commerce na when people dey buy and sell goods and services through internet. To type letter with computer or use machine to produce goods no be e-commerce.",
+"py": null,
+"values": null,
+"id": "wcom1600",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which device allows a bank customer to withdraw cash electronically without entering the banking hall?",
+"options": [
+"Automated Teller Machine (ATM)",
+"Electronic Point of Sale (POS) terminal",
+"Barcode scanner",
+"Fax machine"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An ATM is a self-service machine that allows customers to withdraw cash, check balance and perform other transactions without going inside the banking hall. POS is for payment at shops, not cash withdrawal from a bank directly in this way, and barcode scanners and fax machines do not dispense cash.",
+"pidgin": "ATM na machine wey customer go use withdraw money without entering bank hall. POS dey for payment for shop, barcode scanner and fax machine no fit give person cash.",
+"py": null,
+"values": null,
+"id": "wcom1601",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In e-commerce, when a manufacturing company in Aba sells raw materials directly to another company in Kano through an online platform, this type of transaction is best described as:",
+"options": [
+"Business-to-Consumer (B2C)",
+"Consumer-to-Consumer (C2C)",
+"Business-to-Business (B2B)",
+"Consumer-to-Business (C2B)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Since the transaction is between two businesses (one company selling to another company), it is classified as Business-to-Business (B2B). It is not B2C because no individual consumer is involved, and not C2C or C2B since individuals are not the sellers.",
+"pidgin": "Since na company dey sell to another company, e be Business-to-Business (B2B). E no be B2C because no ordinary person dey buy, and e no be C2C or C2B because no individual dey sell.",
+"py": null,
+"values": null,
+"id": "wcom1602",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "One major advantage of using computers in business record keeping, compared to manual methods, is that computers:",
+"options": [
+"eliminate the need for business capital",
+"guarantee that goods will never go out of stock",
+"remove the need for trained staff entirely",
+"process and retrieve large volumes of data quickly and accurately"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Computers can store, process and retrieve large amounts of business data faster and more accurately than manual filing systems. They do not remove the need for capital, staff, or guarantee stock levels, which depend on other business decisions.",
+"pidgin": "Computer fit process and bring out plenty business data fast and correct, pass paper work. E no mean say business no go need money, staff, or say goods no go ever finish.",
+"py": null,
+"values": null,
+"id": "wcom1603",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A key challenge limiting the growth of e-commerce in many parts of Nigeria is:",
+"options": [
+"poor internet connectivity and epileptic power supply",
+"too many banks offering online services",
+"excess number of computer literate customers",
+"overproduction of goods by local manufacturers"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "E-commerce depends heavily on stable internet access and constant electricity; where these are poor, online transactions are slowed down or disrupted. Having many banks online or computer-literate customers would actually help, not hinder, e-commerce.",
+"pidgin": "E-commerce need good internet and steady light to work well; if network and power no good, e go hinder online business. Plenty banks online or people wey sabi computer go help, no be wahala.",
+"py": null,
+"values": null,
+"id": "wcom1604",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Chidinma wants to set up an online shop where she sells fabrics directly to individual customers who order and pay for them from their homes. Which type of e-commerce model is she adopting?",
+"options": [
+"Consumer-to-Consumer (C2C)",
+"Government-to-Business (G2B)",
+"Business-to-Consumer (B2C)",
+"Business-to-Business (B2B)"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Since Mrs. Chidinma (a business owner) is selling directly to individual customers for personal use, this is Business-to-Consumer (B2C). It is not C2C because she is a business, not a fellow consumer, and not G2B or B2B since no government or company is involved as the buyer.",
+"pidgin": "Because na business owner dey sell direct to ordinary customer for personal use, na Business-to-Consumer (B2C). E no be C2C because she no be fellow consumer, and e no be G2B or B2B since no government or company dey buy.",
+"py": null,
+"values": null,
+"id": "wcom1605",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Why do online shopping websites use encryption software during payment transactions?",
+"options": [
+"To increase the price of goods sold online",
+"To protect customers' card and personal details from being stolen",
+"To reduce the number of visitors to the website",
+"To make the website load slower for security"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Encryption scrambles sensitive data such as card numbers and passwords so that hackers cannot easily read or steal them during online transactions. It has nothing to do with raising prices, reducing visitors, or slowing the site deliberately.",
+"pidgin": "Encryption dey scramble important information like card number and password so that hackers no go fit steal am easily when person dey pay online. E no concern price, visitors, or make site slow.",
+"py": null,
+"values": null,
+"id": "wcom1606",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

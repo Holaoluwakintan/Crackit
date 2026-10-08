@@ -1,0 +1,175 @@
+{
+"subject": "agric",
+"topic": "Farm tools, implements and machinery",
+"ti": 4,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following hand tools is mainly used on a small Nigerian farm for making heaps, ridges and for weeding?",
+"options": [
+"Hoe",
+"Cutlass",
+"Rake",
+"Spade"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The hoe has a broad blade fixed to a handle and is the common tool used to turn soil, make heaps/ridges and weed on small farms. The cutlass is for cutting, the rake is for gathering debris, and the spade is mainly for digging holes.",
+"pidgin": "Hoe na the tool wey dem dey use turn ground, make heaps/ridges and weed for small farm. Cutlass na for cutting, rake na for pack rubbish, spade na for dig hole.",
+"py": null,
+"values": null,
+"id": "wagr0400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A matchet (cutlass) is best suited for which of these farm operations?",
+"options": [
+"Making yam heaps",
+"Harvesting groundnut pods from the soil",
+"Clearing bush and cutting weeds",
+"Digging planting holes for seedlings"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The cutlass has a sharp, long blade designed for slashing, so it is best for clearing bush and cutting down weeds and small plants. It is not suitable for heaping, digging holes or lifting groundnut pods.",
+"pidgin": "Cutlass get long sharp blade wey good for cut bush and weeds. E no good for make heap, dig hole or pick groundnut pod from ground.",
+"py": null,
+"values": null,
+"id": "wagr0401",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A wheelbarrow used to convey farm produce such as yam tubers from the field to the store is an example of which simple machine?",
+"options": [
+"Lever",
+"Pulley",
+"Inclined plane",
+"Wedge"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In a wheelbarrow, the wheel acts as the fulcrum, the load sits between the fulcrum and the handles, and effort is applied at the handles, making it a class-two lever. It does not use rope-and-wheel (pulley), a sloped surface (inclined plane), or a cutting edge (wedge).",
+"pidgin": "For wheelbarrow, the wheel na the fulcrum, load dey between fulcrum and handle, person dey apply force for handle - na class-two lever be that. E no be pulley, inclined plane or wedge.",
+"py": null,
+"values": null,
+"id": "wagr0402",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which tractor-drawn implement is mainly used for primary tillage to break and turn over compact soil before planting?",
+"options": [
+"Spike-tooth harrow",
+"Seed planter",
+"Ridger",
+"Disc plough"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The disc plough is designed with heavy discs that cut deep into virgin or compact soil and turn it over, making it the main primary tillage implement. The harrow is for secondary tillage (pulverising), the planter sows seeds, and the ridger forms ridges after ploughing.",
+"pidgin": "Disc plough get heavy discs wey dey enter deep ground cut am turn am - na the main primary tillage tool. Harrow na for secondary tillage, planter na for plant seed, ridger na for make ridge after plough don finish.",
+"py": null,
+"values": null,
+"id": "wagr0403",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A tractor used for ploughing a rice field at Badeggi consumes 2.5 litres of diesel every hour. If diesel costs ₦850 per litre, how much will it cost to run the tractor for 8 hours of ploughing?",
+"options": [
+"₦15,300",
+"₦17,000",
+"₦20,000",
+"₦12,750"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Total litres used = 2.5 litres/hour x 8 hours = 20 litres. Cost = 20 litres x ₦850 = ₦17,000. The other options come from wrong multiplication.",
+"pidgin": "Total diesel wey dem use = 2.5 litres x 8 hours = 20 litres. Cost = 20 x ₦850 = ₦17,000. The other answers na from wrong calculation.",
+"py": "2.5*8*850",
+"values": [
+15300,
+17000,
+20000,
+12750
+],
+"id": "wagr0404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "During yam harvesting, which farm tool is most suitable for lifting the tubers out of the soil with minimal damage to the tuber skin?",
+"options": [
+"Cutlass",
+"Hoe",
+"Spade",
+"Yam fork"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The yam fork has thin, pointed prongs that slide into the soil around the tuber and lift it out without cutting the skin. The cutlass, hoe and spade have broad or sharp edges that easily cut or bruise the tuber during lifting.",
+"pidgin": "Yam fork get thin pointed prongs wey dey enter ground near the tuber lift am comot without cut the skin. Cutlass, hoe and spade get wide or sharp edge wey fit cut or bruise the tuber when dem dey lift am.",
+"py": null,
+"values": null,
+"id": "wagr0405",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Eze bought a knapsack sprayer for ₦15,000. He expects it to last 5 years, after which he can sell the worn-out sprayer as scrap for ₦2,000. Using the straight-line method, what is the annual depreciation of the sprayer?",
+"options": [
+"₦2,400",
+"₦3,000",
+"₦2,600",
+"₦3,500"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Straight-line depreciation = (Cost - Salvage value) / Useful life = (15,000 - 2,000) / 5 = 13,000 / 5 = ₦2,600 per year. The other options result from using wrong figures in the formula.",
+"pidgin": "Straight-line depreciation = (Cost - Salvage value) / number of years = (15,000 - 2,000) / 5 = 13,000 / 5 = ₦2,600 every year. The other options come from wrong figures for the formula.",
+"py": "(15000-2000)/5",
+"values": [
+2400,
+3000,
+2600,
+3500
+],
+"id": "wagr0406",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,100 @@
+{
+"subject": "maths",
+"topic": "Surds",
+"generated": 4,
+"kept": [
+{
+"q": "Simplify sqrt(45), leaving your answer in the form k*sqrt(5).",
+"options": [
+"5sqrt(3)",
+"3sqrt(5)",
+"9sqrt(5)",
+"15sqrt(3)"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "45 = 9 × 5, so sqrt(45) = sqrt(9) × sqrt(5) = 3sqrt(5). Since 9 is a perfect square, it comes out of the root as 3.",
+"pidgin": "45 na 9 times 5, so sqrt(45) = sqrt(9) multiply sqrt(5). Since 9 na perfect square, e dey come out as 3, so answer na 3sqrt(5).",
+"py": null,
+"values": null,
+"id": "matv0400",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following surds is a rational number?",
+"options": [
+"sqrt(98)",
+"sqrt(72)",
+"sqrt(121)",
+"sqrt(50)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "sqrt(121) = 11 because 121 is a perfect square (11 × 11 = 121), so it is rational. The numbers 98, 72, and 50 are not perfect squares, so their square roots stay irrational.",
+"pidgin": "sqrt(121) = 11 because 121 na perfect square (11 times 11 = 121), so e be rational number. 98, 72, and 50 no be perfect square, so their square roots remain irrational.",
+"py": null,
+"values": null,
+"id": "matv0401",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Evaluate (sqrt(8) + sqrt(18)) × sqrt(2).",
+"options": [
+"5sqrt(2)",
+"20",
+"5",
+"10"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "sqrt(8) = 2sqrt(2) and sqrt(18) = 3sqrt(2). Adding gives 2sqrt(2) + 3sqrt(2) = 5sqrt(2). Multiplying by sqrt(2) gives 5 × 2 = 10.",
+"pidgin": "sqrt(8) = 2sqrt(2) and sqrt(18) = 3sqrt(2). If you add dem, you go get 5sqrt(2). Multiply am by sqrt(2) go give 5 times 2 = 10.",
+"py": "(math.sqrt(8) + math.sqrt(18)) * math.sqrt(2)",
+"values": [
+7.0711,
+20,
+5,
+10
+],
+"id": "matv0402",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "Given that sqrt(3) = 1.732, evaluate (2sqrt(3) + 1) / (sqrt(3) - 1), correct to 2 decimal places.",
+"options": [
+"6.10",
+"3.05",
+"4.46",
+"2.23"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Rationalize the denominator by multiplying top and bottom by (sqrt(3) + 1). This simplifies to (7 + 3sqrt(3)) / 2. Substituting sqrt(3) = 1.732 gives (7 + 5.196)/2 = 12.196/2 = 6.10.",
+"pidgin": "To rationalize, multiply top and bottom by (sqrt(3) + 1). E go simplify to (7 + 3sqrt(3)) / 2. If you put sqrt(3) = 1.732, e go be (7 + 5.196)/2 = 6.10.",
+"py": "(2*math.sqrt(3)+1)/(math.sqrt(3)-1)",
+"values": [
+6.1,
+3.05,
+4.46,
+2.23
+],
+"id": "matv0403",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

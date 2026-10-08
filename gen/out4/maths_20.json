@@ -1,0 +1,184 @@
+{
+"subject": "maths",
+"topic": "Statistics: mean, median, mode and frequency tables",
+"ti": 20,
+"generated": 6,
+"kept": [
+{
+"q": "The ages (in years) of 6 pupils in a Lagos primary school are: 4, 7, 5, 8, 6, 6. Find the mean age of the pupils.",
+"options": [
+"6",
+"5",
+"7",
+"6.5"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Add all the ages: 4+7+5+8+6+6 = 36. Divide by the number of pupils (6): mean = 36/6 = 6.",
+"pidgin": "Add all di ages: 4+7+5+8+6+6 = 36. Divide am by 6 pupils, e go give 6.",
+"py": "sum([4,7,5,8,6,6])/6",
+"values": [
+6,
+5,
+7,
+6.5
+],
+"id": "wmth2000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The scores of six students in a class test are: 12, 15, 11, 18, 14, 16. Find the median score.",
+"options": [
+"14",
+"15",
+"14.5",
+"13.5"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Arrange the scores in order: 11, 12, 14, 15, 16, 18. With 6 values, the median is the average of the two middle numbers (14 and 15): median = (14+15)/2 = 14.5.",
+"pidgin": "Arrange di scores well well: 11, 12, 14, 15, 16, 18. Since na 6 numbers, median na average of di two middle ones (14 and 15): (14+15)/2 = 14.5.",
+"py": "(14+15)/2",
+"values": [
+14,
+15,
+14.5,
+13.5
+],
+"id": "wmth2002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The table below shows the marks scored by 10 students in a mathematics test:\nMarks: 1, 2, 3, 4\nNumber of students: 2, 3, 4, 1\nCalculate the mean mark scored by the students.",
+"options": [
+"2",
+"2.5",
+"3",
+"2.4"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Multiply each mark by its frequency and add: (1x2)+(2x3)+(3x4)+(4x1) = 2+6+12+4 = 24. Divide by the total number of students (10): mean = 24/10 = 2.4.",
+"pidgin": "Multiply each mark wit im frequency, add dem together: (1x2)+(2x3)+(3x4)+(4x1) = 24. Divide am by 10 students, e go give 2.4.",
+"py": "(1*2+2*3+3*4+4*1)/10",
+"values": [
+2,
+2.5,
+3,
+2.4
+],
+"id": "wmth2003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The table below shows the scores obtained by a group of students in a class test:\nScore: 3, 4, 5, 6\nFrequency: 2, x, 4, 3\nIf the mean score of the distribution is 4.5, find the value of x.",
+"options": [
+"5",
+"7",
+"6",
+"8"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Sum of (score x frequency) = 3(2)+4x+5(4)+6(3) = 44+4x. Total frequency = 9+x. Since mean = 4.5, (44+4x)/(9+x) = 4.5. Solving: 44+4x = 40.5+4.5x, so 0.5x = 3.5, giving x = 7.",
+"pidgin": "Multiply each score wit im frequency add dem: 3(2)+4x+5(4)+6(3) = 44+4x. Total frequency na 9+x. Since mean na 4.5, (44+4x)/(9+x)=4.5. Solve am, 0.5x=3.5, so x=7.",
+"py": "(44 - 4.5*9) / (4.5 - 4)",
+"values": [
+5,
+7,
+6,
+8
+],
+"id": "wmth2005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The shoe sizes of 10 students in a school sports team are: 40, 42, 41, 42, 43, 42, 44, 41, 42, 45. What is the mode of the shoe sizes?",
+"options": [
+"41",
+"42",
+"44",
+"40"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Size 42 appears four times, which is more often than any other size in the list, so 42 is the mode.",
+"pidgin": "Size 42 show four times for di list, e pass all di oda sizes, so 42 na di mode.",
+"py": "max(set([40,42,41,42,43,42,44,41,42,45]), key=[40,42,41,42,43,42,44,41,42,45].count)",
+"values": [
+41,
+42,
+44,
+40
+],
+"id": "wmth2001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+},
+{
+"q": {
+"q": "The table below shows the number of children in 30 families in a community:\nNumber of children: 0, 1, 2, 3, 4\nNumber of families: 5, 8, 10, 4, 3\nFind the median number of children per family.",
+"options": [
+"2",
+"1",
+"3",
+"2.5"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total families = 30, so the median is the 15th value when arranged in order. Cumulative frequency reaches 13 at 1 child and 23 at 2 children, so the 15th family lies in the '2 children' group. Median = 2.",
+"pidgin": "Total family na 30, so median na di 15th value wen we arrange dem. Cumulative frequency reach 13 for '1 child' and 23 for '2 children', so di 15th family dey inside '2 children' group. Median na 2.",
+"py": "next(v for v,cf in zip([0,1,2,3,4],[5,13,23,27,30]) if cf>=15)",
+"values": [
+2,
+1,
+3,
+2.5
+],
+"id": "wmth2004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+}
+]
+}

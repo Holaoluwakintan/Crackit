@@ -1,0 +1,74 @@
+{
+"subject": "economics",
+"topic": "Theory of supply: law of supply, determinants, shifts and movements",
+"generated": 3,
+"kept": [
+{
+"q": "A farmer in Benue State lists factors that can affect how much yam he is willing to supply to the market. Which of the following is NOT normally regarded as a determinant of supply of yam?",
+"options": [
+"The price of yam itself",
+"The cost of fertilizer and labour used in yam farming",
+"The income level of consumers who buy yam",
+"The level of farming technology available to the farmer"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Supply depends on price of the good, cost of production and technology, among others. Consumer income affects how much buyers want to buy (demand), not how much sellers want to supply.",
+"pidgin": "Supply dey depend on price, cost of production and technology. Consumer income na demand factor, e no dey directly affect how much the farmer go supply.",
+"py": null,
+"values": null,
+"id": "ecov0400",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "The supply function for crates of eggs in Oja-Oba market is given as Qs = 40 + 5P, where P is the price in naira per crate and Qs is the quantity supplied in crates. If the price of a crate of eggs is ₦30, what is the quantity supplied?",
+"options": [
+"150 crates",
+"190 crates",
+"70 crates",
+"200 crates"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Substitute P = 30 into Qs = 40 + 5P: Qs = 40 + 5(30) = 40 + 150 = 190. So 190 crates are supplied at that price.",
+"pidgin": "Put P = 30 enter the equation Qs = 40 + 5P: Qs = 40 + 150 = 190. So na 190 crates dem go supply.",
+"py": "40 + 5*30",
+"values": [
+150,
+190,
+70,
+200
+],
+"id": "ecov0401",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "The Federal Government introduces a new per-unit tax that producers of bottled water must pay on every unit produced, while the market price of bottled water remains unchanged. What is the most likely effect on the supply curve of bottled water?",
+"options": [
+"The supply curve shifts to the right because production has increased",
+"There is a movement upward along the existing supply curve",
+"The supply curve shifts to the left because production costs have risen",
+"The supply curve remains exactly where it was before the tax"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A per-unit tax raises the cost of producing each unit regardless of price, so producers are willing to supply less at every price. This is a decrease in supply, shown as a leftward shift of the whole curve, not just a movement along it.",
+"pidgin": "Wen gov put tax for every unit wey dem produce, e dey make production cost go up for every price level. So producers go wan supply less for every price, and dat one na leftward shift, no be just movement for the same curve.",
+"py": null,
+"values": null,
+"id": "ecov0402",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

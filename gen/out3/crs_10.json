@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "Religious reforms: Asa, Jehoshaphat, Josiah and Jehu",
+"generated": 8,
+"kept": [
+{
+"q": "During his religious reform, King Asa removed his grandmother Maacah from her position as queen mother because she had made what?",
+"options": [
+"A golden calf for worship",
+"An idol for an Asherah grove/pole",
+"An altar dedicated to Baal",
+"A temple for Molech worship"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Maacah had made an obscene image for an Asherah pole, so Asa cut it down, burned it and removed her from being queen mother. This is recorded in 1 Kings 15:13 and 2 Chronicles 15:16.",
+"pidgin": "Maacah don make idol image for Asherah grove, na im make Asa comot am as queen mother and burn the idol. Dis story dey 1 Kings 15:13 and 2 Chronicles 15:16.",
+"id": "crsv1000",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In whose reign was the Book of the Law discovered in the temple during repair works, which then sparked a major religious reform in Judah?",
+"options": [
+"Jehoshaphat",
+"Jehu",
+"Asa",
+"Josiah"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Hilkiah the priest found the Book of the Law while the temple was being repaired during King Josiah's reign, and this discovery led to a great reform. This is found in 2 Kings 22:8.",
+"pidgin": "Na for Josiah time dem find the Book of the Law for temple wen dem dey repair am, and e cause big reform. Dis dey 2 Kings 22:8.",
+"id": "crsv1001",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "As part of his religious reform, King Jehoshaphat sent officials, Levites and priests throughout the cities of Judah to do what?",
+"options": [
+"Collect temple taxes from the people",
+"Teach the Book of the Law to the people",
+"Destroy only the high places",
+"Appoint new regional kings"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jehoshaphat sent princes, Levites and priests with the Book of the Law to teach the people throughout Judah. This is recorded in 2 Chronicles 17:7-9.",
+"pidgin": "Jehoshaphat send im princes, Levites and priests with Book of the Law make dem go teach people for Judah. Dis dey 2 Chronicles 17:7-9.",
+"id": "crsv1002",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In destroying Baal worship in Israel, Jehu used what deceptive but effective strategy?",
+"options": [
+"He built a new temple to the Lord in Samaria",
+"He gathered all the worshippers of Baal for a feast and then killed them",
+"He exiled the priests of Baal to Assyria",
+"He married a priestess of Baal to gain their trust"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jehu pretended he wanted to serve Baal and called all the Baal worshippers together for a sacrifice, then had his guards kill them all and destroyed the temple of Baal. This is in 2 Kings 10:18-28.",
+"pidgin": "Jehu use trick, e call all Baal worshippers say make dem come sacrifice, then e kill dem finish and destroy Baal temple. Dis story dey 2 Kings 10:18-28.",
+"id": "crsv1003",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Despite carrying out a strong religious reform, what did King Asa fail to remove completely from Judah, according to 1 Kings?",
+"options": [
+"The brazen serpent made by Moses",
+"Idols that had been brought from Egypt",
+"The high places used for worship",
+"The golden calves at Bethel and Dan"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Although Asa removed many idols, the Bible records that the high places were not taken away, even though his own heart was fully devoted to the Lord all his days. This is stated in 1 Kings 15:14.",
+"pidgin": "Even though Asa remove plenty idols, e no fully comot the high places, but im heart dey loyal to God throughout im life. Dis dey 1 Kings 15:14.",
+"id": "crsv1004",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "According to 2 Chronicles, at what age did King Josiah begin to actively purge Judah and Jerusalem of idols and high places?",
+"options": [
+"12 years old",
+"16 years old",
+"20 years old",
+"25 years old"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Josiah began seeking God at age 16 (his eighth year as king, having become king at age 8), and in the twelfth year of his reign, at age 20, he began purging Judah and Jerusalem of idols. This is recorded in 2 Chronicles 34:3.",
+"pidgin": "Josiah start to dey seek God wen e be 16 years, then for im 12th year as king, wen e don reach 20 years, e start to clear idols for Judah and Jerusalem. Dis dey 2 Chronicles 34:3.",
+"id": "crsv1005",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Although Jehu destroyed Baal worship, the scripture says his reform was incomplete because he failed to do what?",
+"options": [
+"Remove the golden calves at Bethel and Dan",
+"Destroy the temple of Baal completely",
+"Execute the prophets of Baal",
+"Remove Jezebel from the royal palace"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Even after destroying Baal worship, Jehu did not turn away from the sins of Jeroboam, the golden calves at Bethel and Dan, showing his reform was only partial. This is recorded in 2 Kings 10:29.",
+"pidgin": "Even after Jehu destroy Baal worship, e no comot the golden calves wey dey Bethel and Dan, so im reform no complete. Dis dey 2 Kings 10:29.",
+"id": "crsv1006",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which prophet confronted King Jehoshaphat for forming an alliance with the wicked King Ahab, warning him against helping the ungodly?",
+"options": [
+"Elijah",
+"Jehu son of Hanani",
+"Elisha",
+"Micaiah"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Jehu the son of Hanani the seer met King Jehoshaphat and rebuked him for helping the ungodly Ahab and loving those who hate the Lord. This prophet is different from King Jehu and is named in 2 Chronicles 19:2.",
+"pidgin": "Na Jehu, Hanani pikin, na im be the seer wey meet Jehoshaphat go warn am say make e no help ungodly Ahab. Dis prophet Jehu no be same as King Jehu, e dey 2 Chronicles 19:2.",
+"id": "crsv1007",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

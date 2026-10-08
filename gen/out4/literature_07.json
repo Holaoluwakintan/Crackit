@@ -1,0 +1,209 @@
+{
+"subject": "literature",
+"topic": "Figures of speech",
+"ti": 7,
+"generated": 10,
+"kept": [
+{
+"q": "\"Adaeze's smile was as warm as the afternoon sun.\" Which figure of speech is used in this sentence?",
+"options": [
+"Simile",
+"Metaphor",
+"Personification",
+"Hyperbole"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The sentence compares Adaeze's smile to the sun using the word 'as', which is the mark of a simile. A metaphor would make the comparison without 'like' or 'as'.",
+"pidgin": "Dis sentence dey compare Adaeze smile to sun with di word 'as', na so simile dey work. Metaphor no go use 'like' or 'as'.",
+"id": "wlit0700",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "\"During break time, the classroom became a market square.\" This sentence contains which figure of speech?",
+"options": [
+"Simile",
+"Metaphor",
+"Onomatopoeia",
+"Irony"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The classroom is directly called a 'market square' without using 'like' or 'as', so this is a metaphor. It is a direct comparison, not a literal statement.",
+"pidgin": "Dem call di classroom 'market square' straight, no 'like' or 'as' dey inside, so na metaphor. E be direct comparison.",
+"id": "wlit0701",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "\"The old wooden bridge groaned and complained as the lorry crossed it.\" Which figure of speech is at work here?",
+"options": [
+"Simile",
+"Metaphor",
+"Personification",
+"Apostrophe"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The bridge, which is a non-living object, is given human actions of groaning and complaining. Giving human qualities to non-human things is called personification.",
+"pidgin": "Dem give di bridge, wey no be living thing, human action like to groan and complain. To give human quality to non-human thing na personification.",
+"id": "wlit0702",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "\"Seven slippery snakes slithered silently across the swamp.\" Which figure of speech is most clearly shown in this sentence?",
+"options": [
+"Alliteration",
+"Assonance",
+"Onomatopoeia",
+"Metaphor"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Most of the words begin with the same consonant sound 's', which is repeated close together. This repetition of initial consonant sounds is called alliteration.",
+"pidgin": "Plenty of di words dey begin with di same 's' sound wey dey repeat close-close. Dis kain repeat of first consonant sound na alliteration.",
+"id": "wlit0703",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Bello told his students, \"I have warned you a thousand times not to shout in my class!\" What figure of speech did he use?",
+"options": [
+"Metaphor",
+"Hyperbole",
+"Metonymy",
+"Irony"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Mr. Bello did not literally warn his students a thousand times; he exaggerated to show how often he has warned them. Deliberate exaggeration for emphasis is called hyperbole.",
+"pidgin": "Mr. Bello no really warn dem one thousand times, na exaggeration e use to show say e don warn dem plenty times. Dis kain exaggeration wey dem use for emphasis na hyperbole.",
+"id": "wlit0704",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "\"The old gate banged shut with a loud clang as the wind blew through the compound.\" Which word in this sentence best illustrates onomatopoeia?",
+"options": [
+"Old",
+"Banged",
+"Blew",
+"Compound"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The word 'banged' imitates the actual sound a gate makes when it closes forcefully. Onomatopoeia is a word that imitates the sound it describes.",
+"pidgin": "Di word 'banged' dey copy di real sound wey gate dey make when e close hard-hard. Onomatopoeia na word wey dey copy di sound wey e dey describe.",
+"id": "wlit0705",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A fire outbreak destroyed the town's fire service headquarters, the very building meant to prevent fire disasters. What figure of speech best describes this situation?",
+"options": [
+"Dramatic irony",
+"Situational irony",
+"Verbal irony",
+"Sarcasm"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The outcome is the opposite of what is expected, since the fire station, built to fight fires, is destroyed by fire itself. This unexpected contrast between expectation and reality is situational irony.",
+"pidgin": "Di result be di opposite of wetin pesin go expect, becos di fire station, wey dem build to fight fire, na fire burn am. Dis kain surprise contrast na situational irony.",
+"id": "wlit0706",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "\"A deafening silence filled the hall as the results were about to be announced.\" Which figure of speech is used in this sentence?",
+"options": [
+"Simile",
+"Oxymoron",
+"Hyperbole",
+"Personification"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "'Deafening' and 'silence' are two contradictory words placed together, since silence cannot truly be deafening. Combining opposite or contradictory terms for effect is called an oxymoron.",
+"pidgin": "'Deafening' and 'silence' na two words wey no match, becos silence no fit really deafen pesin. To combine opposite words like dis na oxymoron.",
+"id": "wlit0707",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "\"The Palace has refused to comment on the chieftaincy dispute in the town.\" In this sentence, the word 'Palace' is used to represent which of the following?",
+"options": [
+"A simile for the king",
+"A metonymy for the monarchy or royal authority",
+"A personification of the building",
+"An example of onomatopoeia"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "'Palace' is used to stand for the monarchy or the royal authority that occupies it, not the building itself. Using a closely associated word to represent something is called metonymy.",
+"pidgin": "Dem dey use 'Palace' to represent di monarchy or royal authority wey dey inside am, no be di building. To use word wey close to something to represent am na metonymy.",
+"id": "wlit0708",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "\"O Sleep, why do you refuse to visit my tired eyes tonight?\" Which figure of speech is used in this line?",
+"options": [
+"Apostrophe",
+"Metaphor",
+"Alliteration",
+"Hyperbole"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The speaker directly addresses 'Sleep', which is an abstract idea that cannot hear or respond, as though it were a person present. Directly addressing an absent or non-human thing is called apostrophe.",
+"pidgin": "Di speaker dey talk direct to 'Sleep', wey be abstract tin wey no fit hear or answer, as if e be person wey dey there. To address absent or non-human tin like dis na apostrophe.",
+"id": "wlit0709",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

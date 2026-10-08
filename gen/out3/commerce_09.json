@@ -1,0 +1,168 @@
+{
+"subject": "commerce",
+"topic": "Transportation and warehousing",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is NOT a recognised mode of transportation for moving goods from one place to another?",
+"options": [
+"Telegraph transmission",
+"Road transport",
+"Rail transport",
+"Water transport"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Transportation moves physical goods using means like road, rail, water, air or pipeline. Telegraph is a means of sending messages, not goods, so it is not a mode of transportation.",
+"pidgin": "Transportation na about how dem dey carry goods comot one place go another place, like road, rail or water. Telegraph na for sending message, e no fit carry goods, so e no be transport mode.",
+"py": null,
+"values": null,
+"id": "comv0900",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "What is the main function of warehousing in commerce?",
+"options": [
+"To produce goods in large quantities",
+"To advertise goods to final consumers",
+"To store goods safely until they are required",
+"To permanently transfer ownership of goods to buyers"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Warehousing deals with keeping goods in a safe place after production until they are needed by consumers or traders. It bridges the gap in time between production and consumption.",
+"pidgin": "Warehouse na where dem dey keep goods well-well after dem don produce am, until the time wey people go need am. E dey help cover the gap between production time and when people go buy am.",
+"py": null,
+"values": null,
+"id": "comv0901",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which document is issued by a shipping company as evidence of a contract of carriage and acknowledges receipt of goods for transport by sea?",
+"options": [
+"Invoice",
+"Waybill",
+"Certificate of origin",
+"Bill of lading"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The bill of lading is a special document used in sea transport. It serves as a receipt for goods shipped, evidence of the contract of carriage, and a document of title to the goods.",
+"pidgin": "Bill of lading na the correct paper wey shipping company dey give. E dey show say dem don collect the goods, e be like contract paper, and e fit transfer ownership of the goods too.",
+"py": null,
+"values": null,
+"id": "comv0902",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "One major advantage of pipeline transport over road transport when moving crude oil or gas over very long distances is that pipeline transport:",
+"options": [
+"Can carry passengers together with the goods",
+"Is generally cheaper per unit for bulk liquids or gases over long distances",
+"Is flexible enough to reach every remote village",
+"Requires frequent loading and unloading at stations"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Pipelines are built specifically for continuous movement of liquids and gases in bulk, so once installed, the cost per unit over long distances becomes very low compared to road transport which needs many trucks, drivers and fuel.",
+"pidgin": "Pipeline dey good well-well to carry liquid or gas for long distance because once dem build am, e go cheap pass road wey need plenty truck, driver and fuel to move the same quantity.",
+"py": null,
+"values": null,
+"id": "comv0903",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which type of warehouse is specifically used to store imported goods on which import duty has not yet been paid by the importer?",
+"options": [
+"Bonded warehouse",
+"Private warehouse",
+"Cold storage warehouse",
+"Public warehouse"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A bonded warehouse is a government-licensed facility where imported goods can be stored before import duties are paid, allowing importers to delay payment until the goods are actually released for sale.",
+"pidgin": "Bonded warehouse na the special store wey government approve, where dem dey keep imported goods before the importer pay duty. The duty no dey pay until the goods comot from there.",
+"py": null,
+"values": null,
+"id": "comv0904",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Mama Ngozi wants to move fresh tomatoes from Kano to Lagos as quickly as possible so they do not spoil before reaching the market. Which mode of transport would best serve her purpose, despite its higher cost?",
+"options": [
+"Rail transport",
+"Air transport",
+"Water transport",
+"Pipeline transport"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Perishable goods like tomatoes spoil quickly, so speed matters more than cost. Air transport is the fastest mode over long distances, reducing the time the tomatoes spend in transit and protecting their quality, even though it costs more than other options.",
+"pidgin": "Since tomatoes dey quick spoil, wetin dey important be say the journey go fast reach, no be say e go cheap. Air transport na the fastest way to carry am quick reach Lagos make e no spoil, even though e cost more.",
+"py": null,
+"values": null,
+"id": "comv0905",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following is a genuine disadvantage of road transport in Nigeria?",
+"options": [
+"Flexibility in scheduling trips at any convenient time",
+"Ability to reach remote villages easily",
+"High cost of maintenance due to accidents and poor road conditions",
+"Lower cost of operation over short distances"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Road transport often suffers from bad roads, frequent accidents, and vehicle breakdowns, which increase maintenance costs for vehicle owners. The other options listed are actually advantages of road transport, not disadvantages.",
+"pidgin": "Road transport get problem of bad road and accident wey dey make vehicle maintenance cost high. The other options na advantage of road transport, no be wahala.",
+"py": null,
+"values": null,
+"id": "comv0906",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Warehousing is often described as a value-adding service in commerce mainly because it:",
+"options": [
+"Increases the physical size of the goods stored",
+"Creates time utility by making goods available whenever they are needed",
+"Permanently transfers ownership of goods from seller to buyer",
+"Reduces the actual quantity of goods that were produced"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Value in commerce can be added through form, place, time or possession utility. Warehousing adds time utility because it holds goods safely between production and the moment they are actually demanded, making them available exactly when consumers need them.",
+"pidgin": "Commerce fit add value through form, place, time or possession. Warehouse dey add time value because e dey keep goods well until the time wey consumer go need am, so e go dey available anytime wey dem want am.",
+"py": null,
+"values": null,
+"id": "comv0907",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

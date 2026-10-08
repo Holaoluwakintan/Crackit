@@ -1,0 +1,138 @@
+{
+"subject": "literature",
+"topic": "Literary terms and genres (satire, allegory, fable, bildungsroman, picaresque)",
+"generated": 7,
+"kept": [
+{
+"q": "A short narrative, often featuring animals that speak and behave like humans, designed mainly to teach a clear moral lesson, is called a __________.",
+"options": [
+"Fable",
+"Satire",
+"Allegory",
+"Bildungsroman"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A fable is a brief tale, usually with animal characters, written to pass across a clear moral. This matches the definition in the question exactly.",
+"pidgin": "Fable na short story wey dey use animals wey dey behave like human beings to teach lesson. Na so dem explain am for the question.",
+"id": "litv0600",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Consider this line: 'The writer mocks greedy council chairmen by picturing them as vultures sharing a carcass meant for the poor.' Which literary term best names this use of biting humour and exaggeration to expose social vice?",
+"options": [
+"Elegy",
+"Satire",
+"Fable",
+"Allegory"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Satire uses humour, irony, and exaggeration to criticise human weaknesses or social problems, exactly as the vulture image does here. Elegy is a poem of mourning, which does not fit.",
+"pidgin": "Satire na when writer dey use sharp joke or exaggeration to criticise bad behaviour, like as e compare the chairmen to vulture. Elegy na for mourning, e no fit be the answer.",
+"id": "litv0601",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read this extract: 'Tunde, a clever rascal with no fixed home, wanders from one Lagos market to another, cheating traders, dodging policemen, and surviving only by his wits.' Which literary term best describes this kind of narrative?",
+"options": [
+"Bildungsroman",
+"Allegory",
+"Picaresque narrative",
+"Fable"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A picaresque narrative follows a roguish hero who moves from place to place, living by cunning in a loosely connected series of adventures, which matches Tunde's story exactly. It is not a bildungsroman because there is no clear moral growth shown.",
+"pidgin": "Picaresque story na about one trickster character wey dey waka from place to place, dey survive with cunny, just like Tunde. E no be bildungsroman because the story no show say Tunde dey grow or change for inside.",
+"id": "litv0602",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A novel traces Ngozi's life from a shy village girl of twelve, through her mistakes and growing wisdom at the university, to her becoming a confident woman of thirty. This type of novel, which focuses on a character's psychological and moral development, is called a __________.",
+"options": [
+"Fable",
+"Satire",
+"Picaresque novel",
+"Bildungsroman"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A bildungsroman follows a main character's growth from childhood or youth into mature adulthood, exactly as Ngozi's story does. Fable and satire do not centre on long personal growth, and a picaresque novel focuses more on roguish adventures than moral development.",
+"pidgin": "Bildungsroman na novel wey dey follow one character growth from young age reach adulthood, just like Ngozi own. Fable and satire no dey focus on dat kind long personal growth, and picaresque dey more about trickster adventure, no be moral growth.",
+"id": "litv0603",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "In a story, a kingdom ruled by Lion represents Nigeria, the foolish Hyena advisers represent corrupt ministers, and the suffering goats represent ordinary citizens suffering bad leadership. Which option best describes what the author is doing here?",
+"options": [
+"It is a pure fable because the animal characters simply speak like humans.",
+"It is a picaresque tale describing the Hyena's clever escapades.",
+"It is a political allegory that also employs satire to criticise real-life corruption.",
+"It is a bildungsroman tracing the Lion's psychological growth."
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Because the whole animal kingdom stands for Nigeria's political system, and the leaders' foolishness is being mocked to criticise real corruption, this combines allegory (extended symbolism) with satire (criticism through ridicule). It is more than a simple fable because the symbolism runs through the whole political structure, not just one short moral.",
+"pidgin": "Since the whole animal kingdom dey represent Nigeria political system, and dem dey use the leaders' foolishness to mock real corruption, na allegory wey also get satire inside. E pass simple fable because the symbol dey cover the whole political setup, no be just one short lesson.",
+"id": "litv0605",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Read this extract: 'The Minister for Roads commissioned a new bridge with a grand ceremony, brass band, and ribbon-cutting, even though the bridge had no road leading to it.' This extract primarily demonstrates which literary technique, and what is its chief purpose?",
+"options": [
+"Allegory, used mainly to teach children honesty.",
+"Satire, used to expose and ridicule the incompetence or deceit of a public official.",
+"Fable, used to show rivalry between greedy animal characters.",
+"Bildungsroman, used to depict a character's gradual growth into adulthood."
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The absurd image of celebrating a bridge that leads nowhere is used to mock and expose the Minister's incompetence, which is the chief purpose of satire. There are no animal characters or extended symbolic world for allegory or fable, and no personal growth shown for bildungsroman.",
+"pidgin": "The funny picture of dem dey celebrate bridge wey no get road reach am na to mock and expose the Minister own incompetence, and na so satire dey work. No animal character or long symbolic world dey here for allegory or fable, and no personal growth dey show for bildungsroman.",
+"id": "litv0606",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Both a fable and an allegory can use symbolic characters, but which feature best distinguishes a fable from an allegory?",
+"options": [
+"A fable is usually short, often with animal characters, and ends with a clearly stated moral, while an allegory is typically longer, human-centred, and spreads its symbolic meaning across the whole plot.",
+"A fable always deals with political satire while an allegory never does.",
+"A fable must be written in verse while an allegory must be written in prose.",
+"A fable has no symbolic meaning while an allegory depends entirely on symbolism."
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The key difference is length and structure: a fable is a short tale, often with talking animals, with its moral stated directly at the end, while an allegory is a longer, more complex narrative where the whole plot carries hidden symbolic meaning. The other options wrongly claim things that are not true about either form.",
+"pidgin": "The main difference na say fable short well-well, e get animal characters, and e dey state the moral plain-plain for the end. Allegory longer pass, e dey use human characters, and the whole story carry hidden meaning throughout. The other options no correct because dem dey claim wrong things about the two forms.",
+"id": "litv0604",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+"why": "ambiguous:Fables need not state their morals; allegories need not be long or human-centred.|Option A's 'human-centred' allegory claim is loose (e.g. Animal Farm), but A is clearly best"
+}
+]
+}

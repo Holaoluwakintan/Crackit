@@ -1,0 +1,169 @@
+{
+"subject": "crs",
+"topic": "Parables of Jesus",
+"ti": 10,
+"generated": 8,
+"kept": [
+{
+"q": "In the Parable of the Sower, Jesus explained that the seed which fell among thorns represented those who hear the word but later fail to bear fruit. What exactly happened to that seed?",
+"options": [
+"It withered because it had no root",
+"It was eaten by birds",
+"The thorns grew up and choked it",
+"It produced a hundredfold harvest"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Jesus said the seed among thorns represents people who hear the word, but the worries of life and love of riches (the thorns) grow up and choke it so it yields no fruit. This is found in Matthew 13:7 and 13:22.",
+"pidgin": "Jesus talk say the seed wey fall for thorns na im be people wey hear word but worry and love of money choke the word so e no bear fruit. Dis dey Matthew 13:7 and 13:22.",
+"id": "wcrs1000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the Parable of the Prodigal Son, what did the younger son do immediately after his father gave him his share of the property?",
+"options": [
+"He saved it for future use",
+"He travelled to a far country and wasted it in reckless living",
+"He gave it all to the poor in his village",
+"He invested it in his father's farmland"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "After collecting his portion, the younger son journeyed to a distant country where he squandered his wealth through wild and reckless living, which later led to his poverty. This is recorded in Luke 15:13.",
+"pidgin": "After the small son collect im share, e travel go far country go waste the money with bad life and enjoyment wey no make sense. Na dis one bring poverty come meet am, Luke 15:13 talk am.",
+"id": "wcrs1001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the Parable of the Good Samaritan, which two people passed by the wounded traveller on the road without helping him before the Samaritan arrived?",
+"options": [
+"A priest and a Levite",
+"A tax collector and a scribe",
+"A Pharisee and a Sadducee",
+"A merchant and a soldier"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Jesus said a priest and then a Levite both saw the wounded man but passed by on the other side without helping him, before the Samaritan showed mercy. This teaching is found in Luke 10:31-33.",
+"pidgin": "Jesus talk say na priest first pass, then Levite follow pass, but the two of dem no help the injured man until the Samaritan come show am mercy. Dis one dey Luke 10:31-33.",
+"id": "wcrs1002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the Parable of the Lost Sheep, how many sheep did the shepherd leave behind in the open field in order to go and search for the one sheep that had wandered away?",
+"options": [
+"Fifty",
+"Seventy",
+"Ten",
+"Ninety-nine"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The shepherd in the parable had a hundred sheep; when one went missing, he left the ninety-nine others to go and find the lost one, showing how much God values each soul. This is recorded in Luke 15:4.",
+"pidgin": "The shepherd get hundred sheep; when one miss, e leave the remaining ninety-nine go find the one wey lost, to show as God dey value every single soul. Na so e dey for Luke 15:4.",
+"id": "wcrs1003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the Parable of the Talents, the master shared his wealth among three servants before travelling. How many talents did the servant who received the smallest amount get?",
+"options": [
+"Two talents",
+"Three talents",
+"One talent",
+"Five talents"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The master gave five talents to one servant, two to another, and only one talent to the third, each according to his ability. This is found in Matthew 25:15.",
+"pidgin": "The master give one servant five talent, another one two talent, and the last one just one talent, according to as e fit carry am. Na so Matthew 25:15 talk am.",
+"id": "wcrs1004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A rich farmer in one of Jesus' parables planned to pull down his barns and build bigger ones to store his abundant harvest, but God called him a fool because he would die that same night. What key lesson does this parable mainly teach?",
+"options": [
+"The danger of trusting in riches instead of God",
+"The importance of saving for the future",
+"The need to build bigger barns for storage",
+"The reward that comes from hard work"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Parable of the Rich Fool warns against storing up treasure for oneself while neglecting one's relationship with God, since life and material wealth can end suddenly. This is taught in Luke 12:16-21.",
+"pidgin": "The Parable of the Rich Fool dey warn people say make dem no dey store riches for demsef forget God, because life and wealth fit end sharp sharp. Na dis one Luke 12:16-21 teach.",
+"id": "wcrs1005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the Parable of the Pharisee and the Tax Collector, both men went to the temple to pray, yet Jesus said the tax collector returned home justified before God rather than the Pharisee. What did the tax collector do that pleased God?",
+"options": [
+"He gave more money in tithes than the Pharisee",
+"He fasted twice a week like the Pharisee",
+"He prayed loudly in the temple so others could hear him",
+"He humbled himself and simply asked God for mercy"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Unlike the proud Pharisee who boasted of his own righteousness, the tax collector stood at a distance, beat his chest and humbly begged God for mercy, which is why Jesus said he, not the Pharisee, went home justified. This is in Luke 18:13-14.",
+"pidgin": "Unlike the proud Pharisee wey dey praise imsef, the tax collector stand far, beat im chest, and humbly beg God make E show am mercy, na im make Jesus talk say na im dey justified pass the Pharisee. Dis dey Luke 18:13-14.",
+"id": "wcrs1006",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the Parable of the Ten Virgins, five were described as wise and five as foolish while they waited for the bridegroom at night. What was the main difference between the wise and the foolish virgins?",
+"options": [
+"The wise virgins slept while they waited for the bridegroom",
+"The wise virgins took extra oil along with their lamps",
+"The wise virgins arrived at the wedding earlier than the foolish ones",
+"The wise virgins carried brighter lamps than the foolish ones"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Both groups fell asleep while waiting, but the wise virgins had brought extra oil in flasks for their lamps, so they were ready when the bridegroom suddenly arrived, unlike the foolish ones whose lamps ran out. This is recorded in Matthew 25:3-4.",
+"pidgin": "Both groups sleep while dem dey wait, but the wise virgins carry extra oil for their flask so dem ready when the bridegroom come sudden, but the foolish ones lamp just finish. Na so Matthew 25:3-4 talk am.",
+"id": "wcrs1007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

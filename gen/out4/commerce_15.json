@@ -1,0 +1,181 @@
+{
+"subject": "commerce",
+"topic": "Business documents, discounts and terms of trade",
+"ti": 15,
+"generated": 7,
+"kept": [
+{
+"q": "Alhaji Musa sells building materials in Kano. After supplying goods to a customer, he sends a document showing the names and quantities of goods, the unit price and the total amount the customer must pay before payment is made. What is this document called?",
+"options": [
+"Invoice",
+"Receipt",
+"Statement of account",
+"Credit note"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An invoice is issued by a seller to a buyer before payment, showing details of goods sold, quantity, price and the total amount due. A receipt is only given after payment has been made.",
+"pidgin": "Invoice na di paper wey seller give buyer before e pay, e dey show the goods, quantity, price and total wey e go pay. Receipt na wetin dem dey give after payment don happen.",
+"py": null,
+"values": null,
+"id": "wcom1500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Adaeze bought 20 bags of rice from a supplier, but when the goods arrived, 3 bags were damaged. She returned the damaged bags. Which document will the supplier send to her to show that the amount she owes has been reduced because of the returned goods?",
+"options": [
+"Debit note",
+"Credit note",
+"Waybill",
+"Local purchase order"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A credit note is issued by a seller to a buyer to reduce (credit) the amount owed when goods are returned or there has been an overcharge. A debit note works the other way, to increase the amount owed.",
+"pidgin": "Credit note na wetin seller dey send give buyer make im reduce the money wey e owe because goods don come back. Debit note na the one wey dey increase the money wey person owe.",
+"py": null,
+"values": null,
+"id": "wcom1501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A furniture dealer in Onitsha marks a set of chairs at a list price of ₦15,000 and allows a trade discount of 20% to a retailer who buys in bulk. How much will the retailer actually pay?",
+"options": [
+"₦12,000",
+"₦13,000",
+"₦10,000",
+"₦3,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Trade discount is 20% of ₦15,000 = ₦3,000. The retailer pays the list price minus the discount: ₦15,000 - ₦3,000 = ₦12,000.",
+"pidgin": "Trade discount na 20% of ₦15,000 wey be ₦3,000. So wetin retailer go pay na ₦15,000 minus ₦3,000 wey be ₦12,000.",
+"py": "15000*0.8",
+"values": [
+12000,
+13000,
+10000,
+3000
+],
+"id": "wcom1502",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Chidinma bought goods worth ₦40,000 from a wholesaler on the terms \"5% cash discount if payment is made within 10 days\". She paid the full amount on the 8th day. How much did she actually pay?",
+"options": [
+"₦38,000",
+"₦36,000",
+"₦42,000",
+"₦39,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Cash discount is 5% of ₦40,000 = ₦2,000. Since she paid within the 10-day period, she deducts this discount: ₦40,000 - ₦2,000 = ₦38,000.",
+"pidgin": "Cash discount na 5% of ₦40,000 wey be ₦2,000. Since she pay before the 10 days finish, she go minus the discount: ₦40,000 - ₦2,000 = ₦38,000.",
+"py": "40000*0.95",
+"values": [
+38000,
+36000,
+42000,
+39000
+],
+"id": "wcom1503",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "When goods are being transported from a seller's warehouse in Lagos to a buyer in Ibadan, which business document travels with the goods to show the driver and the receiving store the details and quantity of items being conveyed?",
+"options": [
+"Invoice",
+"Receipt",
+"Waybill",
+"Statement of account"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A waybill accompanies goods during transportation and lists the items, quantity and destination, so the carrier and receiver can confirm what is being delivered. It is different from an invoice, which is about billing for payment.",
+"pidgin": "Waybill na the paper wey dey follow goods as dem dey carry am go, e dey show the items, quantity and where e dey go. E different from invoice wey be about money wey person go pay.",
+"py": null,
+"values": null,
+"id": "wcom1504",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A wholesaler sells goods listed at ₦50,000 to a retailer. The wholesaler allows a trade discount of 10% for buying in bulk, and a further cash discount of 5% if payment is made within 14 days. If the retailer pays within 14 days, how much does he pay in total?",
+"options": [
+"₦42,750",
+"₦45,000",
+"₦40,000",
+"₦47,500"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "First deduct trade discount: ₦50,000 x 0.9 = ₦45,000. Then deduct cash discount on this new amount: ₦45,000 x 0.95 = ₦42,750. Trade discount is always applied first, then cash discount on the reduced price.",
+"pidgin": "First remove trade discount: ₦50,000 x 0.9 = ₦45,000. Then remove cash discount from the new amount: ₦45,000 x 0.95 = ₦42,750. Trade discount dey come first before cash discount.",
+"py": "50000*0.9*0.95",
+"values": [
+42750,
+45000,
+40000,
+47500
+],
+"id": "wcom1505",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "An invoice from a trading company in Enugu carries the term \"Net 30 days\". What does this term mean to the buyer?",
+"options": [
+"Full payment must be made within 30 days, with no discount allowed",
+"The buyer gets a 30% discount if payment is made within 30 days",
+"The buyer must pay 30% of the amount immediately as deposit",
+"The goods must be delivered to the buyer within 30 days"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "\"Net 30 days\" is a payment term meaning the full invoice amount is due within 30 days of the invoice date, and no cash discount applies for early payment. It only states a deadline, not a discount or delivery condition.",
+"pidgin": "\"Net 30 days\" mean say the buyer must pay the full money wey dey invoice within 30 days, no discount dey for am. E just be deadline, e no be about discount or delivery.",
+"py": null,
+"values": null,
+"id": "wcom1506",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

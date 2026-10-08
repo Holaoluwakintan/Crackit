@@ -1,0 +1,175 @@
+{
+"subject": "geography",
+"topic": "Weather and its elements",
+"ti": 5,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following instruments is used to measure the amount of rainfall received in a given area?",
+"options": [
+"Rain gauge",
+"Barometer",
+"Anemometer",
+"Hygrometer"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A rain gauge is a container marked with a scale that collects and measures the amount of rain that falls over a period of time. It is the standard instrument used in weather stations for this purpose.",
+"pidgin": "Rain gauge na the gadget wey dem dey use measure how much rain fall for one place. Na im be the correct answer because na im work be to collect rain water.",
+"py": null,
+"values": null,
+"id": "wgeo0500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which instrument is used by meteorologists to measure atmospheric pressure?",
+"options": [
+"Thermometer",
+"Barometer",
+"Rain gauge",
+"Wind vane"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A barometer measures the pressure exerted by the atmosphere. Changes in this pressure help in predicting weather conditions such as rain or clear skies.",
+"pidgin": "Barometer na the instrument wey dem dey use measure air pressure. E dey help predict if rain go fall or if weather go clear.",
+"py": null,
+"values": null,
+"id": "wgeo0501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "On a particular day in Sokoto, the highest temperature recorded was 38°C and the lowest was 22°C. What was the diurnal range of temperature for that day?",
+"options": [
+"14°C",
+"30°C",
+"16°C",
+"60°C"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Diurnal range of temperature is the difference between the highest and lowest temperature recorded in a day. Here, 38°C minus 22°C gives 16°C.",
+"pidgin": "Diurnal range na the difference between the highest and lowest temperature for one day. 38°C minus 22°C na 16°C, so C na correct answer.",
+"py": "38-22",
+"values": [
+14,
+30,
+16,
+60
+],
+"id": "wgeo0502",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In a standard weather station, instruments like the dry-bulb and wet-bulb thermometers are kept inside a wooden box called the Stevenson screen. What is the main purpose of this screen?",
+"options": [
+"To measure wind speed accurately",
+"To record the amount of sunshine hours",
+"To measure the direction wind blows from",
+"To protect the instruments from direct sunlight and rain while allowing free air circulation"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The Stevenson screen is a louvered wooden box that shields thermometers and other instruments from direct sunlight, rain and strong winds, while its slatted sides allow air to flow freely so that accurate readings of air temperature can be taken.",
+"pidgin": "Stevenson screen na wooden box wey get small holes for side, e dey protect the instruments from sun and rain but e still allow air waka reach the instruments well well. Na why option D correct.",
+"py": null,
+"values": null,
+"id": "wgeo0503",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which instrument is used to determine the direction from which the wind is blowing?",
+"options": [
+"Anemometer",
+"Wind vane",
+"Hygrometer",
+"Barograph"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A wind vane is a simple instrument with an arrow that points in the direction the wind is coming from. It is different from the anemometer, which measures wind speed, not direction.",
+"pidgin": "Wind vane na the instrument wey get arrow wey dey show where wind dey blow from. E different from anemometer wey dey measure how fast wind dey blow.",
+"py": null,
+"values": null,
+"id": "wgeo0504",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The temperature in Jos was recorded four times in one day as follows: 6am = 18°C, 12noon = 27°C, 6pm = 23°C, 12midnight = 16°C. Calculate the mean daily temperature for that day.",
+"options": [
+"21°C",
+"22°C",
+"20°C",
+"23.5°C"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Mean temperature is found by adding all the readings and dividing by the number of readings. 18+27+23+16 = 84, and 84 divided by 4 gives 21°C.",
+"pidgin": "To find mean temperature, you go add all the readings together then divide by how many readings dem be. 18+27+23+16 = 84, 84 divided by 4 na 21°C.",
+"py": "(18+27+23+16)/4",
+"values": [
+21,
+22,
+20,
+23.5
+],
+"id": "wgeo0505",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "On a cool harmattan morning in Kano, moisture in the air condenses into tiny water droplets that settle on blades of grass as dew. This condensation happens when the air cools down to a particular temperature known as the:",
+"options": [
+"Boiling point",
+"Melting point",
+"Dew point",
+"Freezing point"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The dew point is the temperature at which air becomes saturated with water vapour, causing the excess moisture to condense into liquid droplets such as dew. It is different from the boiling, melting or freezing points, which relate to changes of state in water itself, not to air saturation.",
+"pidgin": "Dew point na the temperature wey air go reach before e saturate well-well, make the water vapour turn to small-small water (dew). E no be the same thing as boiling, melting or freezing point wey dey about water change form.",
+"py": null,
+"values": null,
+"id": "wgeo0506",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

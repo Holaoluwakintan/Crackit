@@ -1,0 +1,174 @@
+{
+"subject": "geography",
+"topic": "Economic activities: agriculture, mining and manufacturing",
+"generated": 8,
+"kept": [
+{
+"q": "What is the main reason farmers practice crop rotation on their farmland?",
+"options": [
+"To increase the size of the farm",
+"To maintain and restore soil fertility",
+"To reduce the amount of rainfall received",
+"To increase the cost of labour needed"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Crop rotation involves growing different crops in sequence on the same land. This helps restore nutrients used up by previous crops and prevents soil exhaustion.",
+"pidgin": "Crop rotation na when farmer dey plant different crops for same land one after another. E dey help return nutrients wey old crop don use finish, so e dey keep the soil strong.",
+"py": null,
+"values": null,
+"id": "geov1600",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which solid mineral is mined in commercial quantity on the Jos Plateau in Nigeria?",
+"options": [
+"Gold",
+"Tin",
+"Diamond",
+"Uranium"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Jos Plateau in Plateau State is well known as the major area for tin mining in Nigeria, dating back to colonial times.",
+"pidgin": "Jos Plateau for Plateau State na the main place wey dem dey mine tin for Nigeria, since colonial time.",
+"py": null,
+"values": null,
+"id": "geov1601",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In shifting cultivation, farmers usually abandon a piece of land after some years mainly because of",
+"options": [
+"too much rainfall on the land",
+"decline in the fertility of the soil",
+"sudden increase in the local population",
+"a new government farming policy"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Shifting cultivation involves farming a plot until the soil nutrients are used up. Once yields fall due to reduced fertility, farmers move to a new plot and leave the old one to fallow.",
+"pidgin": "Shifting cultivation na when farmer dey use land until the soil nutrients don finish. Once yield begin reduce because soil no gree fertile again, farmer go move go another land make the old one rest.",
+"py": null,
+"values": null,
+"id": "geov1602",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Manufacturing industries that take raw materials and process them into finished goods used directly by households, such as bread, shoes or soap, are known as",
+"options": [
+"basic industries",
+"consumer goods industries",
+"extractive industries",
+"tertiary industries"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Consumer goods industries produce finished products meant for direct use by the final consumer, unlike basic industries that produce materials used by other industries.",
+"pidgin": "Consumer goods industries na the ones wey dey produce finish products wey person go direct use, like bread or soap. Basic industries na different thing, dem dey produce material wey other industries go still use.",
+"py": null,
+"values": null,
+"id": "geov1603",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "When choosing a location for a large iron and steel industry, the most important factor is usually",
+"options": [
+"nearness to a big market for finished goods",
+"nearness to raw materials such as iron ore and coal",
+"nearness to the coastline for tourism",
+"availability of cheap unskilled labour alone"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Iron and steel production uses bulky, heavy raw materials like iron ore and coal. Transporting these long distances is costly, so such industries are usually sited close to the raw material sources to save cost.",
+"pidgin": "Iron and steel industry dey use heavy raw material like iron ore and coal. To carry dis kind heavy material go far go cost plenty money, so dem dey build the factory near where dem dey get the raw material.",
+"py": null,
+"values": null,
+"id": "geov1604",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A cocoa farmer in Ondo State harvested 2400 kg of cocoa beans from his 3-hectare farm in one season. He sold all the beans at ₦1500 per kg, but spent ₦60000 on transporting the beans to the market. Calculate his net income from the sale.",
+"options": [
+"₦3,540,000",
+"₦3,600,000",
+"₦3,480,000",
+"₦3,660,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Total sales = 2400 kg x ₦1500 = ₦3,600,000. Net income = total sales minus transport cost = ₦3,600,000 - ₦60,000 = ₦3,540,000.",
+"pidgin": "Total money wey e sell = 2400 kg x ₦1500 = ₦3,600,000. Net income na when you minus the transport cost: ₦3,600,000 - ₦60,000 = ₦3,540,000.",
+"py": "2400*1500-60000",
+"values": [
+3540000,
+3600000,
+3480000,
+3660000
+],
+"id": "geov1605",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following best explains why most manufacturing industries in Nigeria are concentrated in Lagos rather than in the mineral-rich areas of the Middle Belt?",
+"options": [
+"Lagos has larger deposits of solid minerals than the Middle Belt",
+"Lagos has port facilities, a large market and well-developed infrastructure",
+"Lagos has more fertile agricultural land than the Middle Belt",
+"The Middle Belt has no skilled workers at all"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Industrial location depends on more than raw materials; it also needs good transport, access to markets, power and skilled labour. Lagos, as a port city with a huge population and strong infrastructure, offers these advantages, so it attracts industries even though it is not a mining area.",
+"pidgin": "To site industry no be only raw material matter; good road, market, light and workers dey important too. Lagos na port city with plenty people and better infrastructure, so industries dey prefer am pass mining area for Middle Belt.",
+"py": null,
+"values": null,
+"id": "geov1606",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which type of agricultural practice is best described as the rearing of animals, such as cattle, over large open grasslands with little or no cultivation of crops?",
+"options": [
+"Mixed farming",
+"Pastoral farming",
+"Plantation agriculture",
+"Subsistence farming"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Pastoral farming focuses mainly on raising livestock, often over wide grassland areas, with little or no crop cultivation. This is common among herders such as the Fulani in the Nigerian savanna.",
+"pidgin": "Pastoral farming na when person focus on rearing animal like cow for wide grassland, without plant crop. Na dis kind farming Fulani herders dey do for Nigeria savanna area.",
+"py": null,
+"values": null,
+"id": "geov1607",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

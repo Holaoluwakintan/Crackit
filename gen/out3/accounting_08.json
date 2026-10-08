@@ -1,0 +1,198 @@
+{
+"subject": "accounting",
+"topic": "Final accounts of a sole trader",
+"generated": 8,
+"kept": [
+{
+"q": "In the preparation of final accounts for a sole trader, which account is prepared first to determine the gross profit or gross loss for the period?",
+"options": [
+"Net profit or net loss account",
+"Trading account",
+"Capital account",
+"Statement of financial position"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The trading account compares net sales with the cost of goods sold to arrive at gross profit or gross loss. This is prepared before the profit and loss account, which calculates net profit.",
+"pidgin": "Trading account na im dem dey use compare sales with cost of goods wey dem sell tosabi gross profit or loss. Na after dis one dem go prepare profit and loss account to find net profit.",
+"py": null,
+"values": null,
+"id": "accv0800",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which formula correctly calculates the cost of goods sold in a sole trader's trading account?",
+"options": [
+"Opening stock minus Purchases plus Closing stock",
+"Closing stock plus Purchases minus Opening stock",
+"Opening stock plus Purchases minus Closing stock",
+"Opening stock plus Closing stock minus Purchases"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Cost of goods sold = Opening stock + Purchases - Closing stock. This represents the value of goods actually sold during the trading period.",
+"pidgin": "Cost of goods wey dem sell = Opening stock + Purchases - Closing stock. Na so dem go sabi di value of goods wey don enter market for di period.",
+"py": null,
+"values": null,
+"id": "accv0801",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Chidinma Enterprises recorded the following for the year: Sales ₦150,000; Opening stock ₦20,000; Purchases ₦90,000; Closing stock ₦15,000. What is the gross profit for the year?",
+"options": [
+"₦55,000",
+"₦95,000",
+"₦45,000",
+"₦65,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Cost of goods sold = 20,000 + 90,000 - 15,000 = ₦95,000. Gross profit = Sales - Cost of goods sold = 150,000 - 95,000 = ₦55,000.",
+"pidgin": "Cost of goods wey dem sell = 20,000 + 90,000 - 15,000 = ₦95,000. Gross profit = 150,000 - 95,000 = ₦55,000.",
+"py": "150000 - (20000+90000-15000)",
+"values": [
+55000,
+95000,
+45000,
+65000
+],
+"id": "accv0802",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A sole trader's gross profit for the year was ₦55,000. During the same period, the following expenses were incurred: Rent ₦10,000; Salaries ₦15,000; Discount allowed ₦2,000. What is the net profit for the year?",
+"options": [
+"₦42,000",
+"₦30,000",
+"₦25,000",
+"₦28,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Net profit = Gross profit - Total expenses = 55,000 - (10,000 + 15,000 + 2,000) = 55,000 - 27,000 = ₦28,000.",
+"pidgin": "Net profit = Gross profit minus all expenses = 55,000 - (10,000 + 15,000 + 2,000) = 55,000 - 27,000 = ₦28,000.",
+"py": "55000-(10000+15000+2000)",
+"values": [
+42000,
+30000,
+25000,
+28000
+],
+"id": "accv0803",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "Mr. Obi, a sole trader, paid ₦24,000 as rent during the year. At the end of the accounting year, he discovered that ₦4,000 of this amount was paid in advance for the following year. What amount should be charged as rent expense in the profit and loss account for the current year?",
+"options": [
+"₦24,000",
+"₦20,000",
+"₦28,000",
+"₦4,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The ₦4,000 is a prepayment relating to next year, so it must be deducted from the amount paid. Rent expense for the year = 24,000 - 4,000 = ₦20,000, in line with the matching/accrual concept.",
+"pidgin": "Di ₦4,000 na prepayment wey belong to next year, so dem go comot am from di money wey e pay. Rent for dis year = 24,000 - 4,000 = ₦20,000, because of di matching concept.",
+"py": "24000-4000",
+"values": [
+24000,
+20000,
+28000,
+4000
+],
+"id": "accv0804",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "At the end of the financial year, a sole trader's total assets were valued at ₦250,000 while her total liabilities amounted to ₦80,000. What is the value of her capital at that date?",
+"options": [
+"₦80,000",
+"₦330,000",
+"₦170,000",
+"₦250,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Using the accounting equation, Capital = Total Assets - Total Liabilities = 250,000 - 80,000 = ₦170,000.",
+"pidgin": "With di accounting equation, Capital = Total Assets - Total Liabilities = 250,000 - 80,000 = ₦170,000.",
+"py": "250000-80000",
+"values": [
+80000,
+330000,
+170000,
+250000
+],
+"id": "accv0805",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A sole trader bought equipment for ₦100,000 and depreciates it at 10% per annum using the straight line method. If the net profit before charging depreciation for the year was ₦60,000, what is the net profit after charging depreciation?",
+"options": [
+"₦60,000",
+"₦70,000",
+"₦40,000",
+"₦50,000"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Annual depreciation = 10% of ₦100,000 = ₦10,000. Net profit after depreciation = 60,000 - 10,000 = ₦50,000, since depreciation is an expense charged to the profit and loss account.",
+"pidgin": "Depreciation for di year = 10% of ₦100,000 = ₦10,000. Net profit after dem don remove depreciation = 60,000 - 10,000 = ₦50,000, because depreciation na expense wey dey enter profit and loss account.",
+"py": "60000 - 0.10*100000",
+"values": [
+60000,
+70000,
+40000,
+50000
+],
+"id": "accv0806",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following final account statements shows the assets, liabilities and capital of a sole trader as at a particular date?",
+"options": [
+"Trading account",
+"Profit and loss account",
+"Balance sheet (statement of financial position)",
+"Cash flow statement"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The balance sheet, also called the statement of financial position, shows the assets, liabilities and capital of a business as at a specific date, unlike the trading and profit and loss accounts which cover a period.",
+"pidgin": "Balance sheet, wey dem still dey call statement of financial position, na im dey show assets, liabilities and capital of business for one particular date, unlike trading and profit and loss account wey dey cover period.",
+"py": null,
+"values": null,
+"id": "accv0807",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

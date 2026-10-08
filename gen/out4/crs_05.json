@@ -1,0 +1,169 @@
+{
+"subject": "crs",
+"topic": "Solomon and the divided kingdom",
+"ti": 5,
+"generated": 8,
+"kept": [
+{
+"q": "At Gibeon, God appeared to Solomon in a dream and asked him to request anything he wanted. What did Solomon ask for?",
+"options": [
+"Long life and great riches",
+"Victory over all his enemies",
+"An understanding heart to judge the people well",
+"A large kingdom bigger than his father's"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Solomon asked God for an understanding heart to judge the people and to tell good from evil, instead of asking for riches or long life. God was pleased and gave him wisdom plus riches and honour. This is recorded in 1 Kings 3:5-9.",
+"pidgin": "Solomon no ask for money or long life, na wisdom heart wey go help am judge im people well-well im ask for. God like am well and e give am wisdom plus riches sef. Na 1 Kings 3:5-9 talk am.",
+"id": "wcrs0500",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "How many years did King Solomon spend to complete the building of the temple in Jerusalem?",
+"options": [
+"Three years",
+"Five years",
+"Seven years",
+"Ten years"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The Bible records that Solomon started the temple in the fourth year of his reign and finished it in the eleventh year, making it seven years. This is found in 1 Kings 6:38.",
+"pidgin": "Solomon start the temple for im fourth year as king and finish am for eleventh year, so na seven years total. E dey written for 1 Kings 6:38.",
+"id": "wcrs0501",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which foreign ruler travelled to Jerusalem to test Solomon's wisdom with difficult questions and was amazed by his riches and wisdom?",
+"options": [
+"Pharaoh of Egypt",
+"The Queen of Sheba",
+"King Hiram of Tyre",
+"The King of Babylon"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Queen of Sheba heard about Solomon's fame and came with hard questions to test him, and she was greatly impressed by his wisdom and wealth. This story is told in 1 Kings 10:1-9.",
+"pidgin": "Queen of Sheba hear about Solomon reputation so e come test am with hard questions, and im wisdom and wealth shock am well-well. The story dey for 1 Kings 10:1-9.",
+"id": "wcrs0502",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "According to the Bible, what was the main reason God told Solomon that his kingdom would be taken away from his descendants?",
+"options": [
+"He refused to pay tribute to neighbouring kings",
+"His foreign wives turned his heart to worship other gods",
+"He failed to complete the building of the temple",
+"He oppressed the poor with heavy taxes"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Solomon's many foreign wives turned his heart away from the Lord to worship idols like Ashtoreth and Molech, which angered God. Because of this sin, God told him the kingdom would be torn away, though not in his own lifetime. This is in 1 Kings 11:4-11.",
+"pidgin": "Solomon plenty foreign wives turn im mind comot from God make e begin worship idols like Ashtoreth and Molech. Na dis sin make God vex and tell am say im kingdom go tear comot, but no be for im own time. Dis dey for 1 Kings 11:4-11.",
+"id": "wcrs0503",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When the people asked Rehoboam to lighten the heavy labour his father Solomon had placed on them, whose advice did Rehoboam follow?",
+"options": [
+"The elders who had served his father Solomon",
+"The young men who grew up with him",
+"The prophet Ahijah of Shiloh",
+"His mother, Naamah the Ammonite"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Rehoboam rejected the gentle advice of the older elders and instead followed the harsh advice of the young men he grew up with, promising even heavier burdens. This foolish decision led directly to the division of the kingdom, as recorded in 1 Kings 12:8-14.",
+"pidgin": "Rehoboam no listen to the old elders wey advise am make e gentle, instead e follow im age-mates wey tell am make e dey harsh pass im papa. Na dis foolish choice cause the kingdom to split, 1 Kings 12:8-14 talk am.",
+"id": "wcrs0504",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "After the kingdom split into two, which tribe, apart from Judah, remained loyal to Rehoboam in the southern kingdom?",
+"options": [
+"Levi",
+"Ephraim",
+"Benjamin",
+"Dan"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "When the ten northern tribes followed Jeroboam, only the tribe of Benjamin remained with Judah under Rehoboam's rule, forming the southern kingdom. This grouping is confirmed in 1 Kings 12:21.",
+"pidgin": "When the ten northern tribes follow Jeroboam comot, na only Benjamin remain with Judah under Rehoboam for the southern kingdom. 1 Kings 12:21 confam dis one.",
+"id": "wcrs0505",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which prophet tore his new garment into twelve pieces and gave ten pieces to Jeroboam as a sign that he would rule over ten tribes of Israel?",
+"options": [
+"Nathan",
+"Ahijah",
+"Elijah",
+"Shemaiah"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The prophet Ahijah met Jeroboam on the road, tore his new garment into twelve pieces and gave him ten, symbolising that God would give Jeroboam ten tribes because of Solomon's idolatry. This event is recorded in 1 Kings 11:29-31.",
+"pidgin": "Prophet Ahijah meet Jeroboam for road, tear im new cloth into twelve pieces and give am ten, to show say God go give am ten tribes because of Solomon idol worship. Na 1 Kings 11:29-31 talk am.",
+"id": "wcrs0506",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "After becoming king over the ten northern tribes, what did Jeroboam do to stop the people from travelling to Jerusalem to worship?",
+"options": [
+"He built a rival temple in Shechem",
+"He set up two golden calves at Bethel and Dan",
+"He forbade the people from travelling south",
+"He appointed only Levites as his royal guards"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jeroboam feared losing his people's loyalty if they kept worshipping in Jerusalem, so he made two golden calves and placed them at Bethel and Dan for the people to worship instead. This act of idolatry is recorded in 1 Kings 12:28-29.",
+"pidgin": "Jeroboam fear say if im people dey always go Jerusalem for worship, dem go return go Rehoboam, so e make two gold calves and put dem for Bethel and Dan make dem worship instead. Na idolatry wey dey written for 1 Kings 12:28-29.",
+"id": "wcrs0507",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

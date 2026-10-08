@@ -1,0 +1,112 @@
+{
+"subject": "physics",
+"topic": "Gas laws",
+"generated": 4,
+"kept": [
+{
+"q": "A technician in a workshop in Kano compresses 600 cm^3 of air in a syringe at a constant temperature until its pressure rises from 100 kPa to a new value, reducing the volume to 300 cm^3. Using Boyle's law, calculate the new pressure of the air.",
+"options": [
+"50 kPa",
+"150 kPa",
+"200 kPa",
+"300 kPa"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Boyle's law: P1V1 = P2V2 at constant temperature. So P2 = (100 kPa x 600 cm^3) / 300 cm^3 = 200 kPa.",
+"pidgin": "Boyle law talk say P1V1 equal P2V2 if temperature no change. So P2 = (100 x 600)/300 = 200 kPa.",
+"py": "100*600/300",
+"values": [
+50,
+150,
+200,
+300
+],
+"id": "phyv1000",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A balloon seller in Lagos has a balloon containing 2.0 litres of gas at a pressure of 1.0 atm and a temperature of 300 K. The balloon is heated and compressed so that the pressure becomes 2.0 atm and the temperature rises to 450 K. Using the combined gas law, calculate the new volume of the gas.",
+"options": [
+"1.0 litre",
+"1.5 litres",
+"2.0 litres",
+"3.0 litres"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Combined gas law: P1V1/T1 = P2V2/T2, so V2 = V1 x (P1/P2) x (T2/T1) = 2.0 x (1.0/2.0) x (450/300) = 2.0 x 0.5 x 1.5 = 1.5 litres.",
+"pidgin": "Combined gas law say P1V1/T1 equal P2V2/T2. V2 = 2.0 x (1.0/2.0) x (450/300) = 1.5 litres.",
+"py": "2*(1/2)*(450/300)",
+"values": [
+1.0,
+1.5,
+2.0,
+3.0
+],
+"id": "phyv1001",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A steel cylinder contains 8.0 g of oxygen gas (molar mass = 32 g/mol) at a pressure of 2.0 x 10^5 Pa and a temperature of 300 K. Using the ideal gas equation PV = nRT, with R = 8.314 J/(mol K), calculate the volume occupied by the gas.",
+"options": [
+"3.12 x 10^-3 m^3",
+"1.56 x 10^-3 m^3",
+"6.24 x 10^-3 m^3",
+"4.68 x 10^-3 m^3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Number of moles n = mass/molar mass = 8.0/32 = 0.25 mol. From PV = nRT, V = nRT/P = (0.25 x 8.314 x 300) / (2.0 x 10^5) = 623.55 / 200000 = 3.12 x 10^-3 m^3.",
+"pidgin": "n = mass/molar mass = 8.0/32 = 0.25 mol. V = nRT/P = (0.25 x 8.314 x 300)/(2.0 x 10^5) = 3.12 x 10^-3 m^3.",
+"py": "(8/32)*8.314*300/200000",
+"values": [
+0.00311775,
+0.001558875,
+0.0062355,
+0.0046766
+],
+"id": "phyv1002",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A fixed mass of an ideal gas has its volume increased from V to 3V while its pressure is reduced from P to P/2. Using the combined gas law, find the ratio of the final absolute temperature to the initial absolute temperature of the gas.",
+"options": [
+"0.5",
+"1.0",
+"2.0",
+"1.5"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "From P1V1/T1 = P2V2/T2, the ratio T2/T1 = (P2V2)/(P1V1) = ((P/2)(3V))/(PV) = 3/2 = 1.5. So the final temperature is 1.5 times the initial temperature.",
+"pidgin": "From P1V1/T1 = P2V2/T2, T2/T1 = ((P/2)(3V))/(PV) = 3/2 = 1.5. So the final temperature na 1.5 times the first one.",
+"py": "(1/2*3)/(1*1)",
+"values": [
+0.5,
+1.0,
+2.0,
+1.5
+],
+"id": "phyv1003",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

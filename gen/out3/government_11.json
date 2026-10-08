@@ -1,0 +1,80 @@
+{
+"subject": "government",
+"topic": "Nationalism in Nigeria and West Africa",
+"generated": 4,
+"kept": [
+{
+"q": "Which newspaper, founded by Dr Nnamdi Azikiwe in 1937, became one of the most powerful tools for spreading nationalist ideas and criticising colonial rule across Nigeria?",
+"options": [
+"West African Pilot",
+"Daily Times",
+"The Comet",
+"Nigerian Tribune"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The West African Pilot, established by Azikiwe in 1937, used bold articles to awaken political awareness and attack colonial policies. It became a major voice for nationalist agitation before independence.",
+"pidgin": "Na West African Pilot, wey Azikiwe start am for 1937, dem dey use spread nationalist ideas and dey talk against colonial rule. E be like strong mouthpiece wey many Nigerians dey read.",
+"id": "govv1100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "The National Council of Nigeria and the Cameroons (NCNC), formed in 1944, was set up mainly to",
+"options": [
+"unite Nigerians and Cameroonians in a broad-based nationalist movement against colonial policies",
+"create a single political party meant only for Northern Nigeria",
+"promote exclusively cultural festivals among the Igbo people",
+"serve purely as a trade union for railway workers"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The NCNC brought together various Nigerian and Cameroonian groups to form a strong, nationwide movement demanding greater political participation and an end to colonial domination. It was not limited to one region or ethnic group.",
+"pidgin": "Dem form NCNC for 1944 to bring Nigerians and Cameroonians togeda so dem fit fight colonial rule as one big group. E no be only for one region or one tribe.",
+"id": "govv1101",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A major reason Nigerian nationalists strongly criticised the Richards Constitution of 1946 was that it",
+"options": [
+"introduced regionalism and major constitutional changes without adequate consultation with Nigerian leaders",
+"abolished all native courts across the country",
+"granted Nigeria full self-government ahead of schedule",
+"removed British officials completely from the Legislative Council"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Nigerian leaders were angry that Governor Richards introduced far-reaching changes, including dividing Nigeria into three regions, without proper consultation with them. This lack of consultation fuelled nationalist protests and demands for more Nigerian involvement in governance.",
+"pidgin": "Richards Constitution bring regionalism and big changes but e no first ask Nigerian leaders well well. Na dis kind one-sided decision make nationalists vex and dey agitate for better involvement.",
+"id": "govv1102",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "After the Second World War, many Nigerian ex-servicemen who had fought for Britain returned home to face unemployment and racial discrimination despite their wartime sacrifices. How did this situation mainly affect Nigerian nationalism?",
+"options": [
+"It made the ex-servicemen migrate permanently to Britain to seek better treatment",
+"It pushed many ex-servicemen to join and strengthen the agitation for self-rule and fair treatment",
+"It caused the ex-servicemen to form a new colonial police force loyal to Britain",
+"It made the colonial government immediately grant independence to avoid unrest"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Having fought and suffered for Britain, the ex-servicemen expected fair treatment and reward at home. Instead they faced neglect, so they joined nationalist movements, bringing discipline, organisation and urgency to the independence struggle.",
+"pidgin": "Dem soldiers wey fight for Britain come back meet no job and bad treatment for dia own country. Dat kain disappointment push many of dem to join nationalist struggle well well, add strong organisation give am.",
+"id": "govv1103",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

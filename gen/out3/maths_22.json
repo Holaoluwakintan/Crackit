@@ -1,0 +1,122 @@
+{
+"subject": "maths",
+"topic": "Statistics: mean, median, mode, range, variance and standard deviation",
+"generated": 4,
+"kept": [
+{
+"q": "In a test taken by 30 students in a school at Abeokuta, the mean score was 58. It was later discovered that one student's score of 48 had been wrongly recorded as 84. Find the corrected mean score of the class.",
+"options": [
+"59.2",
+"58",
+"57.2",
+"56.8"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The original total = 58 x 30 = 1740. Since 84 was written instead of 48, subtract 84 and add 48: 1740 - 84 + 48 = 1704. The corrected mean = 1704 / 30 = 56.8.",
+"pidgin": "Di original total na 58 x 30 = 1740. Dem bin write 84 instead of 48, so minus 84 add 48: 1740 - 84 + 48 = 1704. Di new mean na 1704 / 30 = 56.8.",
+"py": "(58*30 - 84 + 48)/30",
+"values": [
+59.2,
+58,
+57.2,
+56.8
+],
+"id": "matv2202",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A nurse recorded the ages (in years) of 9 patients attending a clinic in Enugu as follows: 22, 25, 22, 30, 28, 22, 35, 22, 40. What is the mode of these ages?",
+"options": [
+"22",
+"25",
+"28",
+"30"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Arrange the data and count how many times each value occurs. 22 appears four times, which is more than any other age, so 22 is the mode.",
+"pidgin": "If you look di data well, 22 dey show four times, pass all di oda ages wey dey there. So 22 na di mode.",
+"py": "(lambda data=[22,25,22,30,28,22,35,22,40]: max(set(data), key=data.count))()",
+"values": [
+22,
+25,
+28,
+30
+],
+"id": "matv2200",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "unsafe-py"
+}
+},
+"why": "python:unsafe-py"
+},
+{
+"q": {
+"q": "The scores of 7 players in a basketball shooting contest in Kaduna are: 14, 18, 9, 22, 17, 30, 11. Find the range of the scores.",
+"options": [
+"19",
+"21",
+"23",
+"30"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Range = highest score - lowest score. The highest is 30 and the lowest is 9, so Range = 30 - 9 = 21.",
+"pidgin": "Range na di biggest score minus di smallest one. Biggest na 30, smallest na 9, so Range = 30 - 9 = 21.",
+"py": "(lambda data=[14,18,9,22,17,30,11]: max(data)-min(data))()",
+"values": [
+19,
+21,
+23,
+30
+],
+"id": "matv2201",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "unsafe-py"
+}
+},
+"why": "python:unsafe-py"
+},
+{
+"q": {
+"q": "Calculate the standard deviation of the numbers 1, 2, 3, 4, 5, 6 and 7.",
+"options": [
+"4",
+"3",
+"1",
+"2"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Mean = (1+2+3+4+5+6+7)/7 = 28/7 = 4. The squared deviations from the mean are 9,4,1,0,1,4,9, which sum to 28. Variance = 28/7 = 4, so the standard deviation = sqrt(4) = 2.",
+"pidgin": "Mean na (1+2+3+4+5+6+7)/7 = 4. Di square of each deviation from mean na 9,4,1,0,1,4,9, wey sum give 28. Variance na 28/7 = 4, so standard deviation na sqrt(4) = 2.",
+"py": "(lambda data=[1,2,3,4,5,6,7]: (sum((x-sum(data)/len(data))**2 for x in data)/len(data))**0.5)()",
+"values": [
+4,
+3,
+1,
+2
+],
+"id": "matv2203",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "unsafe-py"
+}
+},
+"why": "python:unsafe-py"
+}
+]
+}

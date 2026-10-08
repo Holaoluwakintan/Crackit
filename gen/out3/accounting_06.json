@@ -1,0 +1,198 @@
+{
+"subject": "accounting",
+"topic": "Bank reconciliation statement",
+"generated": 8,
+"kept": [
+{
+"q": "A bank reconciliation statement is best described as a statement that...",
+"options": [
+"records all cash transactions of a business during a period",
+"reconciles the cash book balance with the bank statement balance by explaining the differences between them",
+"shows the total assets and liabilities of a business",
+"summarizes the profit or loss made by a business during a period"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A bank reconciliation statement is prepared to explain and agree the difference between the balance shown in the cash book and the balance shown on the bank statement. It does not record transactions, show assets/liabilities, or calculate profit.",
+"pidgin": "Bank reconciliation statement na di one wey dem dey use settle the gap between cash book balance and bank statement balance. E no be the one wey dem dey use record transactions, show property or calculate profit.",
+"py": null,
+"values": null,
+"id": "accv0600",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following is a common reason why the balance shown in a firm's cash book may differ from the balance shown on its bank statement on the same date?",
+"options": [
+"Cheques issued to suppliers but not yet presented for payment by the beneficiary",
+"Cash sales recorded in the sales day book",
+"Depreciation of fixed assets charged for the year",
+"Purchase of stock on credit from suppliers"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Unpresented cheques are already deducted in the cash book but have not yet been paid out by the bank, so they cause a timing difference between the two balances. Sales day book entries, depreciation and credit purchases do not affect the bank balance directly.",
+"pidgin": "Cheque wey business don issue but di person wey go collect am never carry am go bank, dat one go cause the cash book and bank statement to no match for that moment. The other options no concern bank balance at all.",
+"py": null,
+"values": null,
+"id": "accv0601",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Chidi's cash book showed a debit balance of ₦45,000 on 31 March. On comparing it with the bank statement, it was found that cheques of ₦12,000 issued to a supplier had not yet been presented for payment, while a cheque of ₦8,000 paid into the bank had not yet been credited by the bank. What is the balance shown on the bank statement?",
+"options": [
+"₦65,000",
+"₦41,000",
+"₦49,000",
+"₦25,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "To move from the cash book balance to the bank statement balance, add back unpresented cheques (they are still in the bank's favour) and subtract uncredited lodgements (not yet added by the bank). So ₦45,000 + ₦12,000 - ₦8,000 = ₦49,000.",
+"pidgin": "To waka from cash book balance go bank statement balance, you go add the cheque wey dem never present and comot the money wey dem pay but bank never credit am. So ₦45,000 + ₦12,000 - ₦8,000 = ₦49,000.",
+"py": "45000+12000-8000",
+"values": [
+65000,
+41000,
+49000,
+25000
+],
+"id": "accv0602",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A firm's bank statement showed a credit balance of ₦60,000 as at 30 April. It was discovered that cheques amounting to ₦15,000 issued to suppliers had not yet been presented for payment, while a lodgement of ₦5,000 paid into the bank had not yet been credited by the bank. What is the balance as shown in the firm's cash book?",
+"options": [
+"₦70,000",
+"₦40,000",
+"₦80,000",
+"₦50,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "To move from the bank statement balance to the cash book balance, subtract unpresented cheques and add uncredited lodgements. So ₦60,000 - ₦15,000 + ₦5,000 = ₦50,000.",
+"pidgin": "To waka from bank statement balance go cash book balance, comot the unpresented cheque and add the lodgement wey bank never credit. So ₦60,000 - ₦15,000 + ₦5,000 = ₦50,000.",
+"py": "60000-15000+5000",
+"values": [
+70000,
+40000,
+80000,
+50000
+],
+"id": "accv0603",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "Adaeze's cash book showed a balance of ₦72,000 before reconciliation. On checking the bank statement, she discovered that the bank had charged ₦1,500 as commission and credited ₦2,500 as interest on her deposit account, neither of which had been entered in the cash book. What is the adjusted cash book balance?",
+"options": [
+"₦73,000",
+"₦71,000",
+"₦70,000",
+"₦76,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Items appearing only on the bank statement, such as bank charges and interest, must be entered in the cash book to update it. Subtract the charge and add the interest: ₦72,000 - ₦1,500 + ₦2,500 = ₦73,000.",
+"pidgin": "Anything wey dey only for bank statement like charge and interest, you go enter am for cash book to update am. Comot the charge, add the interest: ₦72,000 - ₦1,500 + ₦2,500 = ₦73,000.",
+"py": "72000-1500+2500",
+"values": [
+73000,
+71000,
+70000,
+76000
+],
+"id": "accv0604",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Okon's cash book showed a debit balance of ₦90,000 on 30 June. Further checks revealed that: (i) bank charges of ₦2,000 had not been entered in the cash book, (ii) a customer's cheque for ₦10,000, already recorded in the cash book, was dishonoured by the bank, (iii) cheques totalling ₦18,000 issued to suppliers had not yet been presented for payment, and (iv) a deposit of ₦6,000 had not yet been credited by the bank. What is the balance shown on the bank statement?",
+"options": [
+"₦78,000",
+"₦90,000",
+"₦96,000",
+"₦84,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "First adjust the cash book for items known only from the bank statement: ₦90,000 - ₦2,000 (charges) - ₦10,000 (dishonoured cheque) = ₦78,000. Then reconcile to the bank statement by adding unpresented cheques and subtracting uncredited deposits: ₦78,000 + ₦18,000 - ₦6,000 = ₦90,000.",
+"pidgin": "First adjust the cash book with wetin bank statement show: ₦90,000 - ₦2,000 (charge) - ₦10,000 (dishonoured cheque) = ₦78,000. Then add the unpresented cheque and comot the deposit wey never enter bank: ₦78,000 + ₦18,000 - ₦6,000 = ₦90,000.",
+"py": "90000-2000-10000+18000-6000",
+"values": [
+78000,
+90000,
+96000,
+84000
+],
+"id": "accv0605",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A firm's bank statement showed a credit balance of ₦150,000 on 31 May. The following were discovered: cheques of ₦25,000 issued to suppliers had not yet been presented, a lodgement of ₦40,000 had not yet been credited by the bank, a standing order payment of ₦5,000 had not been entered in the cash book, and bank interest of ₦3,000 credited by the bank had also not been entered in the cash book. What was the cash book balance before these standing order and interest entries were made?",
+"options": [
+"₦165,000",
+"₦163,000",
+"₦167,000",
+"₦170,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "First find the adjusted cash book balance using timing differences: ₦150,000 - ₦25,000 + ₦40,000 = ₦165,000. This adjusted figure already includes the standing order and interest, so the original balance before those entries is ₦165,000 - ₦3,000 (interest) + ₦5,000 (standing order) = ₦167,000.",
+"pidgin": "First find the adjusted cash book balance using the timing wahala: ₦150,000 - ₦25,000 + ₦40,000 = ₦165,000. Dis one don already carry the standing order and interest inside, so the original balance before dem enter am na ₦165,000 - ₦3,000 (interest) + ₦5,000 (standing order) = ₦167,000.",
+"py": "150000-25000+40000-3000+5000",
+"values": [
+165000,
+163000,
+167000,
+170000
+],
+"id": "accv0606",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A business prepares a bank reconciliation statement mainly in order to...",
+"options": [
+"calculate the net profit of the business for the accounting period",
+"determine the value of closing stock at the end of the trading period",
+"compute the total amount of value added tax payable to government",
+"detect errors and fraud and ensure the accuracy of both the cash book and bank records"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Bank reconciliation helps identify errors, omissions, or fraud by comparing the cash book with the bank statement, ensuring both records are accurate. It has nothing to do with calculating profit, valuing stock, or computing VAT.",
+"pidgin": "Bank reconciliation dey help catch mistake, omission or fraud by comparing cash book and bank statement, so both of dem go correct well well. E no concern profit calculation, stock value, or VAT computation.",
+"py": null,
+"values": null,
+"id": "accv0607",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

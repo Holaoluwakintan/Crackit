@@ -1,0 +1,163 @@
+{
+"subject": "agric",
+"topic": "Animal production: classification and breeds",
+"ti": 10,
+"generated": 7,
+"kept": [
+{
+"q": "Farm animals such as cattle, sheep and goats are able to bring back partly digested food from their stomach into the mouth to chew it again (chewing the cud). Animals with this feeding behaviour are classified as:",
+"options": [
+"Ruminants",
+"Poultry birds",
+"Pigs",
+"Rabbits"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Ruminants like cattle, sheep and goats have a four-chambered stomach that allows them to chew the cud. Poultry, pigs and rabbits are monogastric animals with a single-chambered stomach, so they cannot ruminate.",
+"pidgin": "Cow, sheep and goat get four-chamber stomach wey dey make dem chew cud again; dem be ruminant. Fowl, pig and rabbit no be ruminant because dem get only one stomach.",
+"py": null,
+"values": null,
+"id": "wagr1000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these West African cattle breeds is widely reared in the humid forest and derived savanna zones of Nigeria because of its natural ability to resist trypanosomiasis (a disease spread by tsetse flies)?",
+"options": [
+"White Fulani",
+"N'dama",
+"Sokoto Gudali",
+"Red Bororo"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The N'dama is a small-bodied West African cattle breed noted for its strong natural trypanotolerance, which allows it to survive in tsetse-infested humid zones without heavy drug treatment. White Fulani, Sokoto Gudali and Red Bororo are mainly reared in the drier northern savanna.",
+"pidgin": "N'dama na small cow wey get natural power to resist tsetse fly sickness, na im make dem dey rear am for forest and derived savanna area. The other three breeds dey more for dry northern area.",
+"py": null,
+"values": null,
+"id": "wagr1001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A particular breed of goat found mainly in Sokoto State, Nigeria, is noted for giving birth to twins or triplets regularly and for producing skin that is highly valued for leather production. This breed is commonly called:",
+"options": [
+"West African Dwarf",
+"Sahel goat",
+"Red Sokoto",
+"Kalahari Red"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Red Sokoto goat, also known as the Maradi goat, is famous in Nigeria for its high prolificacy (multiple births) and its fine skin, which is exported for leather. The other breeds listed do not match this well-known description.",
+"pidgin": "Red Sokoto goat, wey dem still dey call Maradi goat, sabi born twins or triplets regularly and im skin dey very good for leather. Na so e get dis special name.",
+"py": null,
+"values": null,
+"id": "wagr1002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs Nkechi rears cattle mainly to sell for meat, and she does not milk them commercially. Breeds of cattle kept mainly for this purpose are classified under:",
+"options": [
+"Dairy breeds",
+"Dual-purpose breeds",
+"Draught breeds",
+"Beef breeds"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Cattle reared mainly for meat are called beef breeds. Dairy breeds are kept for milk, dual-purpose breeds give both milk and meat, while draught breeds are mainly used for farm work.",
+"pidgin": "Cow wey dem dey rear mainly for meat na beef breed. Dairy na for milk, dual-purpose na both milk and meat, draught na for farm work like pulling plough.",
+"py": null,
+"values": null,
+"id": "wagr1003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A livestock farmer in the derived savanna zone of South-West Nigeria wants to start cattle rearing without constantly treating his animals against trypanosomiasis, because exotic breeds are costly and not naturally resistant to the disease. Based on natural trypanotolerance, which of these breeds would be most suitable for him?",
+"options": [
+"Friesian",
+"Holstein",
+"N'dama",
+"White Fulani"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "N'dama cattle show a stronger natural trypanotolerance than White Fulani, making them better suited to tsetse-infested derived savanna areas with less need for drug treatment. Friesian and Holstein are exotic dairy breeds that are highly susceptible to trypanosomiasis.",
+"pidgin": "N'dama cow get beta natural resistance pass White Fulani against tsetse sickness, so e go survive well for derived savanna without too much drug. Friesian and Holstein na foreign breed wey sickness go quick catch.",
+"py": null,
+"values": null,
+"id": "wagr1004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Nigerian poultry farmers often keep an exotic layer breed that produces large numbers of white-shelled eggs but has a small, light body that makes it unsuitable for meat production. This breed is called:",
+"options": [
+"Rhode Island Red",
+"Plymouth Rock",
+"Sussex",
+"Leghorn"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The Leghorn is a light-bodied exotic chicken breed famous worldwide for its high output of white-shelled eggs, but it has poor meat yield. Rhode Island Red and Plymouth Rock, by contrast, are heavier dual-purpose breeds used for both eggs and meat.",
+"pidgin": "Leghorn na fowl wey dey lay plenty white egg but im body no big reach for meat production. Rhode Island Red and Plymouth Rock get bigger body wey good for meat and egg both.",
+"py": null,
+"values": null,
+"id": "wagr1005",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Catfish and tilapia are reared in ponds for food in many parts of Nigeria. Based on their natural habitat, these animals are classified under:",
+"options": [
+"Terrestrial livestock",
+"Aquatic livestock",
+"Avian livestock",
+"Apiculture"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Catfish and tilapia live and are reared in water, so they fall under aquatic livestock. Terrestrial livestock live on land, avian livestock refers to birds, and apiculture is bee-keeping.",
+"pidgin": "Catfish and tilapia dey live for water, so dem be aquatic livestock. Terrestrial na land animal, avian na bird, apiculture na bee-keeping.",
+"py": null,
+"values": null,
+"id": "wagr1006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

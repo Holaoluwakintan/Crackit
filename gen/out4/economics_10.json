@@ -1,0 +1,191 @@
+{
+"subject": "economics",
+"topic": "Population and labour market",
+"ti": 10,
+"generated": 7,
+"kept": [
+{
+"q": "In Nigeria, the official exercise carried out periodically to count and record the number of people living in the country, along with details such as their age, sex and occupation, is called the:",
+"options": [
+"Population census",
+"Population density",
+"Labour force survey",
+"Population projection"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A population census is the official counting and recording of all people in a country at a given time, including facts such as age, sex and occupation. Density, labour force survey and projection are different concepts.",
+"pidgin": "Population census na when government dey count and write down everybody for di kontri, including dia age, sex and work. E no be di same thing as density, labour force survey or projection.",
+"py": null,
+"values": null,
+"id": "weco1000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best describes the labour force of a country?",
+"options": [
+"All persons of working age (15-64 years) who are either employed or actively seeking work",
+"All persons living in the country, including children and the aged",
+"Only those workers employed in the formal, salaried sector",
+"Retired persons who still do occasional part-time jobs"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The labour force consists of working-age people who are employed plus those unemployed but actively looking for work. The other options wrongly include non-working groups or wrongly exclude job seekers.",
+"pidgin": "Labour force na people wey dey working age (15-64 years) wey dey work or dey find work. Di oda options include pikin and old people wey no suppose dey counted, or dem too narrow di meaning.",
+"py": null,
+"values": null,
+"id": "weco1001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The town of Isiama has a total population of 450,000 people and covers a land area of 1,500 square kilometres. Calculate the population density of the town.",
+"options": [
+"300 persons per km^2",
+"250 persons per km^2",
+"350 persons per km^2",
+"200 persons per km^2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Population density = total population ÷ land area = 450,000 ÷ 1,500 = 300 persons per km^2.",
+"pidgin": "Density na population divide by area: 450,000 ÷ 1,500 = 300 persons per km^2.",
+"py": "450000/1500",
+"values": [
+300,
+250,
+350,
+200
+],
+"id": "weco1002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In a certain year, the birth rate of a country was 35 per 1,000 people and the death rate was 15 per 1,000 people. Calculate the country's natural rate of population growth for that year.",
+"options": [
+"2%",
+"3.5%",
+"1.5%",
+"5%"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Natural growth rate = (birth rate - death rate) ÷ 1,000 × 100 = (35-15) ÷ 1,000 × 100 = 2%. This excludes migration and only considers births and deaths.",
+"pidgin": "Natural growth rate na (birth rate minus death rate) divide 1000 times 100: (35-15) ÷ 1000 × 100 = 2%. Migration no dey included, na only birth and death.",
+"py": "(35-15)/1000*100",
+"values": [
+2,
+3.5,
+1.5,
+5
+],
+"id": "weco1004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A country's population is said to have grown beyond its optimum level when a further increase in population causes:",
+"options": [
+"Total output to increase while average output (income) per head begins to fall",
+"Both total output and average output per head to rise together",
+"The labour force participation rate to increase steadily",
+"The dependency ratio to fall below 20%"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Optimum population is the level at which output per head is highest. Beyond this point, more people cause average income per head to fall even though total output may still rise, because resources are fixed. The other options do not describe this situation of overpopulation.",
+"pidgin": "Optimum population na di level wey average income per head dey highest. If population pass dis level, average income per head go begin fall even as total output still dey rise, because resources no dey increase same way. B, C and D no match dis explanation.",
+"py": null,
+"values": null,
+"id": "weco1005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a certain state, the working-age population (15-64 years) is 2,000,000. Out of this number, 1,200,000 people are either employed or actively seeking jobs, while the rest are full-time students, homemakers or persons who have given up looking for work. Calculate the labour force participation rate of the state.",
+"options": [
+"60%",
+"40%",
+"75%",
+"50%"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Labour force participation rate = (labour force ÷ working-age population) × 100 = 1,200,000 ÷ 2,000,000 × 100 = 60%. This shows the proportion of the working-age population that is economically active.",
+"pidgin": "Labour force participation rate na (labour force divide working-age population) times 100 = 1,200,000 ÷ 2,000,000 × 100 = 60%. Na im dey show how many working-age pesin dey economically active.",
+"py": "1200000/2000000*100",
+"values": [
+60,
+40,
+75,
+50
+],
+"id": "weco1006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A population survey of a country shows 40,000 people aged 0-14 years, 10,000 people aged 65 years and above, and 150,000 people aged 15-64 years. Calculate the age-dependency ratio of the country, to the nearest whole number percentage.",
+"options": [
+"33%",
+"25%",
+"50%",
+"40%"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Dependency ratio = (young + old population) ÷ working-age population × 100 = (40,000 + 10,000) ÷ 150,000 × 100 ≈ 33%. This shows how many dependants exist for every economically active person.",
+"pidgin": "Dependency ratio na (young + old) divide working age population times 100: (40,000+10,000) ÷ 150,000 × 100 = 33%. E dey show how many dependant dey for each working pesin.",
+"py": "(40000+10000)/150000*100",
+"values": [
+33,
+25,
+50,
+40
+],
+"id": "weco1003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+}
+]
+}

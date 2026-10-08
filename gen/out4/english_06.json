@@ -1,0 +1,149 @@
+{
+"subject": "english",
+"topic": "Prepositions and phrasal verbs",
+"ti": 6,
+"generated": 7,
+"kept": [
+{
+"q": "Chidi is good ___ Mathematics, so his classmates often ask him for help.",
+"options": [
+"with",
+"at",
+"on",
+"for"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "\"Good at\" is the correct collocation used when someone is skilled in a subject or activity.",
+"pidgin": "\"Good at\" na the correct one when you dey talk about person wey sabi one subject or work well.",
+"id": "weng0600",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "After a long meeting with the labour union, the government decided to CALL OFF the strike. What does the phrase in capitals mean?",
+"options": [
+"postpone",
+"announce",
+"cancel",
+"support"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "\"Call off\" means to cancel something that has been planned, such as a strike or a meeting.",
+"pidgin": "\"Call off\" mean to cancel something wey dem don plan, like strike or meeting.",
+"id": "weng0601",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The trader was accused ___ selling expired rice to customers at the market.",
+"options": [
+"of",
+"with",
+"for",
+"about"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "\"Accused of\" is the correct preposition that follows the verb \"accuse\" when referring to a wrongdoing.",
+"pidgin": "\"Accused of\" na the correct preposition wey dey follow \"accuse\" when you dey talk about wrong wey person do.",
+"id": "weng0602",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Ngozi had to LOOK UP the meaning of the word \"ubiquitous\" because she did not understand it. What does the phrase in capitals mean here?",
+"options": [
+"admire",
+"visit",
+"search for information about",
+"improve"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "In this sentence, \"look up\" means to search for information, especially in a reference book like a dictionary.",
+"pidgin": "For this sentence, \"look up\" mean to find information, especially inside book like dictionary.",
+"id": "weng0603",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The Minister of Education will arrive ___ Abuja tomorrow for the national conference.",
+"options": [
+"at",
+"on",
+"to",
+"in"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "\"Arrive in\" is used before the name of a country or a large city, while \"arrive at\" is used for smaller or specific places like a building or airport.",
+"pidgin": "\"Arrive in\" na the one wey dey follow country or big city name, but \"arrive at\" dey follow smaller place like building.",
+"id": "weng0604",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Okafor told her neighbour that she could no longer PUT UP WITH his loud music late at night. What does the phrase in capitals mean?",
+"options": [
+"tolerate",
+"install",
+"increase",
+"support"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "\"Put up with\" is a phrasal verb that means to tolerate or endure something unpleasant.",
+"pidgin": "\"Put up with\" na phrasal verb wey mean to tolerate or endure something wey no sweet.",
+"id": "weng0605",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The police commissioner ordered his men to LOOK INTO the case of the stolen motorcycle at Oshodi market. What does the phrase in capitals mean?",
+"options": [
+"supervise",
+"investigate",
+"visit",
+"ignore"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "\"Look into\" means to investigate or examine something carefully, which fits the context of the police checking a theft case.",
+"pidgin": "\"Look into\" mean to investigate or check something well, and e fit this matter of how police go check stolen motorcycle case.",
+"id": "weng0606",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

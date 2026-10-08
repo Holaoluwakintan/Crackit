@@ -1,0 +1,168 @@
+{
+"subject": "geography",
+"topic": "Structure of the earth; rocks and minerals",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is the thin, solid, outermost layer of the earth on which human beings, plants and animals live?",
+"options": [
+"Mantle",
+"Crust",
+"Outer core",
+"Inner core"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The crust is the thin, solid outer layer of the earth that forms the land surface and the ocean floor. It is much thinner than the mantle and core, which lie beneath it.",
+"pidgin": "Crust na di thin solid layer wey dey outside di earth wia we dey waka and build house. E dey thinner pass di mantle and core wey dey inside am.",
+"py": null,
+"values": null,
+"id": "geov0500",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Rocks that are formed when molten magma from inside the earth cools and solidifies, either on the surface or below it, are called?",
+"options": [
+"Sedimentary rocks",
+"Metamorphic rocks",
+"Igneous rocks",
+"Clastic rocks"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Igneous rocks form directly from the cooling and hardening of magma or lava. Examples include granite (cools slowly underground) and basalt (cools quickly on the surface).",
+"pidgin": "Igneous rocks na rocks wey form when magma cool and hard, either under ground or for di surface. Example na granite and basalt.",
+"py": null,
+"values": null,
+"id": "geov0501",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "The continental crust, which is lighter in density and rich in silica and aluminium, is commonly referred to by geographers as?",
+"options": [
+"Sima",
+"Nife",
+"Barysphere",
+"Sial"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The continental crust is called Sial because it is made mainly of silica (Si) and aluminium (Al) compounds. It is lighter than the oceanic crust (Sima), which is rich in silica and magnesium.",
+"pidgin": "Dem dey call continental crust 'Sial' because e dey get plenty silica (Si) and aluminium (Al). E light pass oceanic crust (Sima) wey get silica and magnesium.",
+"py": null,
+"values": null,
+"id": "geov0502",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Over many years, loose sand grains deposited by a river in the Niger Delta became compacted and cemented together by natural minerals to form a hard rock. This rock is best classified as?",
+"options": [
+"Granite",
+"Sandstone",
+"Basalt",
+"Marble"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Sandstone is a sedimentary rock formed when loose sand grains are compacted and cemented together over long periods. Granite and basalt are igneous rocks, while marble is metamorphic.",
+"pidgin": "Sandstone na sedimentary rock wey form when sand particles squeeze and cement togeda for long time. Granite and basalt na igneous rock, marble na metamorphic rock.",
+"py": null,
+"values": null,
+"id": "geov0503",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A block of limestone that is buried deep in the earth is subjected to intense heat and pressure over millions of years, changing its structure without melting it completely. The new rock formed is most likely to be?",
+"options": [
+"Shale",
+"Granite",
+"Limestone",
+"Marble"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Marble is a metamorphic rock formed when limestone is changed by heat and pressure without fully melting. This process recrystallises the minerals in the limestone into marble.",
+"pidgin": "Marble na metamorphic rock wey form when limestone meet heat and pressure wey change am without melt am well well. Di minerals inside limestone go recrystallise come be marble.",
+"py": null,
+"values": null,
+"id": "geov0504",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A geography student learns that the density of the earth's layers increases steadily from the surface towards the centre. Which sequence correctly arranges the earth's layers from the LEAST dense to the MOST dense?",
+"options": [
+"Crust, Mantle, Outer core, Inner core",
+"Inner core, Outer core, Mantle, Crust",
+"Mantle, Crust, Outer core, Inner core",
+"Crust, Outer core, Inner core, Mantle"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The crust is the lightest layer, followed by the mantle, then the outer core, with the inner core (mostly solid iron and nickel under extreme pressure) being the densest. Density increases steadily from the surface towards the centre of the earth.",
+"pidgin": "Crust na di lightest layer, den mantle, den outer core, and inner core (wey be solid iron and nickel wey pressure squeeze well well) na di heaviest. Density dey increase as e dey go inside towards di centre.",
+"py": null,
+"values": null,
+"id": "geov0505",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A piece of marble (a metamorphic rock) is heated until it melts completely into magma, and the magma is then allowed to cool and solidify into a new rock. What type of rock will this new rock be classified as?",
+"options": [
+"Metamorphic rock",
+"Sedimentary rock",
+"Igneous rock",
+"Mineral deposit"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Once a rock melts completely into magma, its original identity is destroyed. When this magma cools and solidifies, it always forms an igneous rock, regardless of what the rock was before melting.",
+"pidgin": "Once rock melt well well come be magma, e don lose im former identity. Wen dis magma cool come hard, na igneous rock e go become, no matter wetin di rock be before.",
+"py": null,
+"values": null,
+"id": "geov0506",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of the following best defines a mineral as used in the study of rocks?",
+"options": [
+"A rock formed from the cooling of magma",
+"A naturally occurring inorganic substance with a definite chemical composition and crystalline structure",
+"Any substance dug out of the ground for industrial use",
+"A layer of the earth located below the crust"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A mineral is a naturally occurring, inorganic substance with a fixed chemical composition and an orderly crystal structure, such as quartz or mica. Rocks are usually made up of a combination of different minerals.",
+"pidgin": "Mineral na natural, inorganic substance wey get fixed chemical composition and crystal arrangement, like quartz or mica. Rocks na combination of different minerals.",
+"py": null,
+"values": null,
+"id": "geov0507",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

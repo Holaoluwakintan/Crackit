@@ -1,0 +1,191 @@
+{
+"subject": "economics",
+"topic": "National income",
+"ti": 13,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following is NOT one of the three main methods used to measure national income?",
+"options": [
+"Output method",
+"Population method",
+"Income method",
+"Expenditure method"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "National income is measured using the output (product) method, income method and expenditure method. Population method does not exist as a way of calculating national income.",
+"pidgin": "Dem dey measure national income with output method, income method and expenditure method. Population method no be one of di correct methods.",
+"py": null,
+"values": null,
+"id": "weco1301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Gross National Product (GNP) is obtained from Gross Domestic Product (GDP) by:",
+"options": [
+"subtracting depreciation",
+"adding indirect taxes",
+"adding net income from abroad",
+"subtracting subsidies"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "GNP includes the income earned by citizens abroad minus income earned by foreigners within the country, so GNP = GDP + net income from abroad.",
+"pidgin": "GNP na GDP plus net income wey citizens dey earn for abroad minus wetin foreigners earn for inside di country. So we dey add net income from abroad to GDP to get GNP.",
+"py": null,
+"values": null,
+"id": "weco1302",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Nigeria's GDP for a particular year was ₦650 billion. In the same year, income earned by Nigerians working abroad was ₦45 billion, while income earned by foreigners working in Nigeria was ₦60 billion. What was Nigeria's GNP for that year?",
+"options": [
+"₦665 billion",
+"₦605 billion",
+"₦695 billion",
+"₦635 billion"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Net income from abroad = 45 - 60 = -15 billion. GNP = GDP + net income from abroad = 650 + (-15) = ₦635 billion.",
+"pidgin": "Net income from abroad be 45 minus 60 wey be -15 billion. GNP be GDP plus dat net income: 650 + (-15) = ₦635 billion.",
+"py": "650 + (45-60)",
+"values": [
+665,
+605,
+695,
+635
+],
+"id": "weco1303",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A country's Gross National Product (GNP) for a year was ₦800 billion, and the capital consumption allowance (depreciation) for the year was ₦50 billion. What was the country's Net National Product (NNP) for that year?",
+"options": [
+"₦750 billion",
+"₦850 billion",
+"₦700 billion",
+"₦800 billion"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "NNP is found by subtracting depreciation from GNP: NNP = GNP - Depreciation = 800 - 50 = ₦750 billion.",
+"pidgin": "NNP be GNP minus depreciation: 800 - 50 = ₦750 billion.",
+"py": "800-50",
+"values": [
+750,
+850,
+700,
+800
+],
+"id": "weco1304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A country's national income for a given year was ₦2,400,000,000 and its population was 8,000,000 people. What was the per capita income of the country?",
+"options": [
+"₦3,000",
+"₦30",
+"₦300",
+"₦30,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Per capita income = National income / Population = 2,400,000,000 / 8,000,000 = ₦300. This shows the average income each person would get if national income were shared equally.",
+"pidgin": "Per capita income na National income divide by Population: 2,400,000,000 / 8,000,000 = ₦300. Na im be di average money each person go get if dem share national income equally.",
+"py": "2400000000/8000000",
+"values": [
+3000,
+30,
+300,
+30000
+],
+"id": "weco1305",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A farmer in Benue State sells raw cassava to a processor for ₦2,000. The processor turns it into garri and sells it to a retailer for ₦5,000. The retailer then sells the garri to the final consumer for ₦7,000. Using the value-added method of calculating national income, what is the total value added along this production chain?",
+"options": [
+"₦14,000",
+"₦9,000",
+"₦12,000",
+"₦7,000"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Value added at each stage: farmer = ₦2,000 (no inputs), processor = 5,000 - 2,000 = ₦3,000, retailer = 7,000 - 5,000 = ₦2,000. Total value added = 2,000 + 3,000 + 2,000 = ₦7,000, which equals the final selling price, showing that the value-added method avoids double counting.",
+"pidgin": "Value wey each person add: farmer = ₦2,000, processor = 5,000 - 2,000 = ₦3,000, retailer = 7,000 - 5,000 = ₦2,000. If you add dem together: 2,000+3,000+2,000 = ₦7,000, na im be di final selling price, e show say value-added method no dey double count.",
+"py": "2000 + (5000-2000) + (7000-5000)",
+"values": [
+14000,
+9000,
+12000,
+7000
+],
+"id": "weco1306",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In Economics, 'national income' is best described as:",
+"options": [
+"total population of a country",
+"total value of goods and services produced in a country within a year",
+"total tax revenue collected by government",
+"total amount of money in circulation"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "National income measures the total value of all final goods and services produced by a country over a given period, usually one year. It is not about population, taxes or money supply.",
+"pidgin": "National income na di total value of all goods and services wey country produce for one year. E no be population, tax money or money wey dey circulate.",
+"py": null,
+"values": null,
+"id": "weco1300",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:B describes GDP, not strictly national income.|"
+}
+]
+}

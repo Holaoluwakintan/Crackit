@@ -1,0 +1,193 @@
+{
+"subject": "economics",
+"topic": "Costs and revenue",
+"ti": 7,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following is an example of a FIXED cost to a small garment-making business in Onitsha?",
+"options": [
+"Cost of fabric used for sewing",
+"Rent on the factory building",
+"Wages of tailors paid per piece of cloth sewn",
+"Cost of thread and buttons"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Fixed cost does not change with the level of output in the short run. Rent must be paid whether the firm sews many clothes or none at all, unlike fabric, wages per piece and thread which rise as output rises.",
+"pidgin": "Fixed cost na cost wey no dey change even if the factory produce plenty or small. Rent na im dey constant like that, but fabric, wages-per-piece and thread go dey increase as production increase.",
+"py": null,
+"values": null,
+"id": "weco0700",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Total revenue of a firm is best described as:",
+"options": [
+"Price per unit minus average cost of production",
+"Total fixed cost plus total variable cost",
+"Price per unit multiplied by the quantity of goods sold",
+"Total cost divided by the quantity produced"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Total revenue (TR) is the income a firm earns from sales, calculated as Price x Quantity Sold. The other options describe profit margin, total cost and average cost respectively, not total revenue.",
+"pidgin": "Total revenue na the money wey the business get from selling, e be Price multiply by the Quantity wey dem sell. The other options dey talk about profit, total cost and average cost, no be total revenue.",
+"py": null,
+"values": null,
+"id": "weco0701",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A palm-oil processor produces 50 litres of oil at a total cost of ₦15,000. What is the average cost of production per litre?",
+"options": [
+"₦150",
+"₦500",
+"₦750",
+"₦300"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Average cost = Total cost / Quantity produced = 15000/50 = ₦300. The other options come from wrong division of the figures given.",
+"pidgin": "Average cost = Total cost divide by Quantity, so na 15000/50 = ₦300. The other answers na from wrong division of the numbers.",
+"py": "15000/50",
+"values": [
+150,
+500,
+750,
+300
+],
+"id": "weco0702",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A bakery's total cost of producing 10 loaves of bread is ₦2,000. When it produces 11 loaves, total cost rises to ₦2,250. What is the marginal cost of the 11th loaf?",
+"options": [
+"₦250",
+"₦200",
+"₦2,250",
+"₦2,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Marginal cost is the extra cost of producing one more unit: MC = Change in Total Cost / Change in Quantity = (2250 - 2000)/(11 - 10) = ₦250.",
+"pidgin": "Marginal cost na the extra cost wey dem spend to produce one more unit: (2250 - 2000)/(11-10) = ₦250.",
+"py": "(2250-2000)/(11-10)",
+"values": [
+250,
+200,
+2250,
+2000
+],
+"id": "weco0703",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Mallam Yusuf sells 200 bags of rice at ₦1,500 per bag. His total cost of buying and transporting the rice was ₦250,000. What was his total profit?",
+"options": [
+"₦300,000",
+"₦50,000",
+"₦250,000",
+"₦550,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Total revenue = 200 x 1500 = ₦300,000. Profit = Total revenue - Total cost = 300,000 - 250,000 = ₦50,000.",
+"pidgin": "Total revenue = 200 x 1500 = ₦300,000. Profit = Total revenue minus Total cost = 300,000 - 250,000 = ₦50,000.",
+"py": "(200*1500)-250000",
+"values": [
+300000,
+50000,
+250000,
+550000
+],
+"id": "weco0704",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A soap-making company has a total fixed cost of ₦40,000. Each unit of soap sells for ₦400 and costs ₦200 to produce as variable cost. How many units must the company sell to break even?",
+"options": [
+"100 units",
+"800 units",
+"200 units",
+"400 units"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Break-even quantity = Fixed cost / (Price per unit - Variable cost per unit) = 40000/(400-200) = 40000/200 = 200 units. At this point total revenue equals total cost, so there is no profit or loss.",
+"pidgin": "Break-even quantity = Fixed cost divide by (Price minus Variable cost per unit) = 40000/(400-200) = 200 units. Na the point wey total revenue go balance total cost, no profit no loss.",
+"py": "40000/(400-200)",
+"values": [
+100,
+800,
+200,
+400
+],
+"id": "weco0705",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader selling bags of garri notices that when the price is ₦50 per bag, he sells 10 bags, giving total revenue of ₦500. When he reduces the price to ₦48 per bag, he sells 11 bags, giving total revenue of ₦528. What is the marginal revenue of the 11th bag sold?",
+"options": [
+"₦48",
+"₦50",
+"₦8",
+"₦28"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Marginal revenue is the extra revenue from selling one more unit: MR = Change in Total Revenue / Change in Quantity = (528 - 500)/(11 - 10) = ₦28. Note MR is less than the new price of ₦48 because the price cut applies to all units sold, not just the extra one.",
+"pidgin": "Marginal revenue na the extra money wey dem get from selling one more bag: (528-500)/(11-10) = ₦28. E dey less than the new price of ₦48 because the price wey e reduce apply to all the bags, no be only the extra one.",
+"py": "(528-500)/(11-10)",
+"values": [
+48,
+50,
+8,
+28
+],
+"id": "weco0706",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

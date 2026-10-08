@@ -1,0 +1,100 @@
+{
+"subject": "maths",
+"topic": "Binary operations (closure, identity, inverse)",
+"generated": 4,
+"kept": [
+{
+"q": "The binary operation * is defined on the set of odd positive integers by a * b = a + b (ordinary addition). Determine whether the set of odd positive integers is closed under *.",
+"options": [
+"No, since the sum of two odd numbers is always even",
+"Yes, since the sum of two odd numbers is always odd",
+"No, since the sum of two odd numbers is always odd",
+"Yes, since the sum of two odd numbers is always even"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Take two odd numbers, say 3 and 5: 3 + 5 = 8, which is even, not odd. So the result does not stay in the set of odd positive integers, hence the operation is not closed.",
+"pidgin": "If you add two odd numbers like 3 and 5, you go get 8, wey be even number, no be odd again. So the answer no dey inside the set again, meaning e no closed.",
+"py": null,
+"values": null,
+"id": "matv1300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A binary operation * is defined on the set of real numbers by x * y = x + y - 7. Find the identity element e for this operation.",
+"options": [
+"-7",
+"0",
+"7",
+"14"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "For identity e, x * e = x must hold for all x. So x + e - 7 = x, which gives e - 7 = 0, so e = 7. Checking: x * 7 = x + 7 - 7 = x, which confirms it.",
+"pidgin": "For identity e, x * e go equal x. So x + e - 7 = x means e - 7 = 0, e = 7. If you check: x * 7 = x + 7 - 7 = x, e correct.",
+"py": "7",
+"values": [
+-7,
+0,
+7,
+14
+],
+"id": "matv1301",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A binary operation * is defined on the set of real numbers by a * b = a + b - 2ab. The identity element for this operation is 0. Find the inverse of the element 3 under *.",
+"options": [
+"-3/5",
+"3/5",
+"5/3",
+"0"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The inverse x of 3 must satisfy 3 * x = 0 (the identity). So 3 + x - 2(3)x = 0, which gives 3 + x - 6x = 0, so 3 - 5x = 0, giving x = 3/5. Checking confirms this works.",
+"pidgin": "The inverse x of 3 must make 3 * x give the identity, 0. So 3 + x - 6x = 0, e be 3 - 5x = 0, so x = 3/5. If you check am, e go balance well.",
+"py": "3/5",
+"values": [
+-0.6,
+0.6,
+1.6667,
+0
+],
+"id": "matv1302",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Let S = {-1, 0, 1}. The binary operation * is defined on S by a * b = a times b (ordinary multiplication). Determine whether S is closed under *.",
+"options": [
+"No, because -1 x -1 = 1 is not in S",
+"No, because 0 x 1 = 0 is not in S",
+"Yes, but only for positive elements of S",
+"Yes, because all possible products of elements in S remain in S"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Check every pair: -1x-1=1, -1x0=0, -1x1=-1, 0x0=0, 0x1=0, 1x1=1. Every result (1, 0, -1) is already in S, so the operation is closed on S.",
+"pidgin": "If you multiply all the combinations: -1x-1=1, -1x0=0, -1x1=-1, 0x0=0, 0x1=0, 1x1=1, all the answers dey inside S. So the operation closed well well.",
+"py": null,
+"values": null,
+"id": "matv1303",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

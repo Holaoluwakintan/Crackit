@@ -1,0 +1,160 @@
+{
+"subject": "chemistry",
+"topic": "Rates of reaction",
+"ti": 10,
+"generated": 6,
+"kept": [
+{
+"q": "A catalyst is best described as a substance that",
+"options": [
+"increases the mass of the products formed",
+"speeds up a reaction without itself being used up permanently",
+"slows down a reaction and remains unchanged",
+"changes the identity of the products formed"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A catalyst provides an alternative reaction path with lower activation energy, so it speeds up the reaction but it is chemically unchanged at the end of the reaction.",
+"pidgin": "Catalyst na substance wey dey make reaction fast pass, but e no dey finish or change for the process; e remain the same after the reaction.",
+"py": null,
+"values": null,
+"id": "wche1001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During an experiment, zinc granules reacted with excess dilute hydrochloric acid. A pupil collected 48 cm^3 of hydrogen gas after 12 seconds. Calculate the average rate of the reaction in cm^3 per second.",
+"options": [
+"2 cm^3/s",
+"4 cm^3/s",
+"6 cm^3/s",
+"36 cm^3/s"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Rate = volume of gas produced / time taken = 48 cm^3 / 12 s = 4 cm^3/s.",
+"pidgin": "Rate = volume wey dem collect divide by time = 48 cm^3 / 12 s = 4 cm^3/s.",
+"py": "48/12",
+"values": [
+2,
+4,
+6,
+36
+],
+"id": "wche1002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A student compared the reaction of dilute hydrochloric acid with (i) a lump of calcium carbonate and (ii) powdered calcium carbonate of the same mass. The powdered form reacted much faster. What is the best explanation for this observation?",
+"options": [
+"The powdered form has a lower activation energy than the lump",
+"The powdered form has a larger surface area exposed to the acid, allowing more collisions per second",
+"The powdered form is more concentrated than the lump",
+"The powdered form has fewer particles than the lump"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Powdering the solid increases the total surface area in contact with the acid, so acid particles can collide with carbonate particles more often, increasing the rate of reaction.",
+"pidgin": "When dem grind the solid to powder, e get bigger surface area wey the acid go touch, so collision dey happen pass, dat na why rate increase.",
+"py": null,
+"values": null,
+"id": "wche1003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The rate of a particular reaction is found to double for every 10°C rise in temperature. If the rate of the reaction at 20°C is 2.0 mol/dm^3/s, what will be the rate at 50°C?",
+"options": [
+"4.0 mol/dm^3/s",
+"8.0 mol/dm^3/s",
+"16.0 mol/dm^3/s",
+"32.0 mol/dm^3/s"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The temperature rises by 50-20 = 30°C, which is 3 steps of 10°C. The rate doubles 3 times, so new rate = 2.0 x 2^3 = 2.0 x 8 = 16.0 mol/dm^3/s.",
+"pidgin": "Temperature increase na 50-20 = 30°C, wey be 3 times of 10°C. Since rate dey double for each 10°C, e go double 3 times: 2.0 x 2^3 = 16.0 mol/dm^3/s.",
+"py": "2.0 * (2**((50-20)//10))",
+"values": [
+4.0,
+8.0,
+16.0,
+32.0
+],
+"id": "wche1005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following does NOT affect the rate of a chemical reaction?",
+"options": [
+"Concentration of the reactants",
+"Temperature of the reaction mixture",
+"Colour of the reaction vessel",
+"Surface area of a solid reactant"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Rate of reaction depends on concentration, temperature, surface area, pressure and catalyst. The colour of the vessel has no effect on how fast particles collide or react.",
+"pidgin": "Rate of reaction dey depend on concentration, temperature, surface area, pressure and catalyst. Colour of the container no get anything to do with how fast particles dey react.",
+"py": null,
+"values": null,
+"id": "wche1000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Vessel colour can affect light-sensitive reactions.|"
+},
+{
+"q": {
+"q": "When calcium carbonate chips react with excess dilute hydrochloric acid in an open flask, the volume of carbon(IV) oxide gas collected is plotted against time. The graph rises steeply at first, then becomes less steep, and finally flattens out completely. What best explains why the curve becomes flatter as the reaction proceeds (before it levels off)?",
+"options": [
+"The temperature of the mixture keeps falling throughout the reaction",
+"The concentration of the acid keeps decreasing as it is used up, so fewer effective collisions occur",
+"The pressure inside the flask keeps rising and slows the particles down",
+"A catalyst in the mixture is gradually being used up"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "As the reaction proceeds, acid is consumed, so its concentration drops. Lower concentration means fewer acid particles per unit volume, reducing the frequency of effective collisions, which slows the rate until the acid (or chips) is used up.",
+"pidgin": "As reaction dey go, acid dey finish small small, so im concentration dey reduce. Less concentration mean say effective collision no too dey happen again, so the rate dey slow down reach where e go stop.",
+"py": null,
+"values": null,
+"id": "wche1004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Gas collection from an open flask is unspecified.|Acid is in excess, so shrinking CaCO3 surface also contributes, but B is the best option."
+}
+]
+}

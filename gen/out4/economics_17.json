@@ -1,0 +1,169 @@
+{
+"subject": "economics",
+"topic": "Agriculture and industry in West Africa",
+"ti": 17,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following is NOT a feature of subsistence agriculture as practised by many small-scale farmers in West Africa?",
+"options": [
+"Small farm size",
+"Use of simple tools like hoe and cutlass",
+"Production mainly for family consumption",
+"Large-scale mechanised production for export"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Subsistence farming is done on small plots using simple tools mainly to feed the farmer's family, not for export. Large-scale mechanised production for export is a feature of commercial agriculture, not subsistence farming.",
+"pidgin": "Subsistence farming na small farm wey dem dey use cutlass and hoe take farm, e dey for family chop, no be for export. Na commercial farming dey do big mechanised farming for export.",
+"py": null,
+"values": null,
+"id": "weco1700",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The type of industry that processes agricultural raw materials such as cocoa, cotton or palm fruits into finished or semi-finished goods is called a(n):",
+"options": [
+"Agro-based industry",
+"Extractive industry",
+"Service industry",
+"Construction industry"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Agro-based (agro-allied) industries use farm produce like cocoa, cotton and palm fruits as raw materials to manufacture products such as chocolate, textiles and vegetable oil. Extractive industries deal with minerals, not crops.",
+"pidgin": "Agro-based industry na the one wey dey use farm produce like cocoa, cotton and palm fruit take make products like chocolate and oil. Extractive industry na mineral matter, no be crops.",
+"py": null,
+"values": null,
+"id": "weco1701",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Under which land tenure system is land owned by the whole community, while individual members are only given the right to use portions of it for farming?",
+"options": [
+"Freehold tenure",
+"Communal land tenure",
+"Leasehold tenure",
+"Tenancy"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Under communal land tenure, land belongs to the whole community or family group, and members are allotted portions to farm but cannot sell it outright. This is common in many traditional West African societies.",
+"pidgin": "Communal land tenure na where the whole community or family dey own the land, dem go just give person portion make e farm am, but e no fit sell am. Na so e be for plenty traditional area for West Africa.",
+"py": null,
+"values": null,
+"id": "weco1702",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "'Land fragmentation', a major problem of agriculture in West Africa, refers to:",
+"options": [
+"Use of modern machinery on large consolidated farms",
+"Government acquisition of farmland for industrial estates",
+"Division of farmland into small scattered plots through inheritance",
+"Irrigation of dry farmland during the dry season"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Land fragmentation happens when farmland is repeatedly shared among children or relatives through inheritance, leaving each person with small, scattered plots. This makes mechanised, large-scale farming difficult.",
+"pidgin": "Land fragmentation na when dem dey share farmland give pikin or family members through inheritance, so each person go get small scatter land. Dis one dey make mechanised big farming hard to do.",
+"py": null,
+"values": null,
+"id": "weco1703",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A cocoa farmer in Ondo State harvested 3,600 kg of cocoa beans in a farming season. He sold all the beans at ₦1,350 per kg and spent a total of ₦1,200,000 on farm inputs, labour and transportation for the season. What was his net profit for the season?",
+"options": [
+"₦3,660,000",
+"₦4,860,000",
+"₦2,460,000",
+"₦1,200,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total revenue = 3,600 kg x ₦1,350 = ₦4,860,000. Net profit = Revenue - Cost = ₦4,860,000 - ₦1,200,000 = ₦3,660,000.",
+"pidgin": "Total money wey e sell am = 3,600 kg x ₦1,350 = ₦4,860,000. Profit be say minus the ₦1,200,000 wey e spend, e remain ₦3,660,000.",
+"py": "3600*1350 - 1200000",
+"values": [
+3660000,
+4860000,
+2460000,
+1200000
+],
+"id": "weco1704",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Many agro-based industries in West Africa are sited close to large urban centres rather than near the rural farms that supply their raw materials. Which of the following best explains this pattern?",
+"options": [
+"Rural areas lack enough farmland to grow raw materials",
+"Raw materials are actually more available in urban centres than in rural areas",
+"The government forbids industries from being sited in rural areas",
+"Urban centres offer better infrastructure, larger markets and skilled labour, which outweigh the cost of transporting raw materials from rural farms"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Although raw materials come from rural farms, industrialists prefer urban areas because of good roads, electricity, water supply, bigger markets and available skilled workers. These advantages often outweigh the extra cost of moving raw materials to the cities.",
+"pidgin": "Even though farm produce dey come from village, industry people like sabi for city because of better road, light, water, big market and skilled workers. Dis advantage pass the extra cost wey dem go use carry the raw material come city.",
+"py": null,
+"values": null,
+"id": "weco1705",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A cottage industry, common in many West African towns, is best described as one that:",
+"options": [
+"Is owned by government and managed by civil servants",
+"Is mainly operated by family members at home using simple tools and small capital",
+"Requires heavy imported machinery and large foreign investment",
+"Focuses mainly on exporting finished goods directly to Europe"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Cottage industries are small home-based businesses, such as local soap-making or weaving, run mostly by family labour with simple tools and little capital. They are not government-owned, do not rely on heavy foreign machinery, and usually serve local markets rather than export.",
+"pidgin": "Cottage industry na small business wey dem dey run for house, like soap making or weaving, wey family members dey use simple tools and small money do am. E no be government property, e no need big foreign machine, and e dey mostly serve local market, no be export.",
+"py": null,
+"values": null,
+"id": "weco1706",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

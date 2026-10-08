@@ -1,0 +1,186 @@
+{
+"subject": "commerce",
+"topic": "Purchase and sale: documents and terms of trade (trade discount, cash discount, CIF, FOB)",
+"generated": 8,
+"kept": [
+{
+"q": "Which document does a seller send to a buyer, showing the quantity, description and price of goods supplied, and the total amount the buyer owes?",
+"options": [
+"Invoice",
+"Receipt",
+"Credit note",
+"Debit note"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An invoice is the bill of sale a seller gives to a buyer, stating the goods supplied and the amount payable. It is different from a receipt, which only proves that payment has been made.",
+"pidgin": "Invoice na di paper wey seller give buyer, e show di goods wey dem supply and di money wey buyer go pay. E no be receipt, because receipt na wetin dem give after money don already pay.",
+"py": null,
+"values": null,
+"id": "comv0400",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Trade discount is best described as a reduction which a",
+"options": [
+"seller gives a buyer for paying cash promptly",
+"manufacturer or wholesaler gives off the list price to encourage retailers to buy in bulk",
+"bank gives a customer for operating a current account",
+"government gives a company for exporting goods"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Trade discount is a percentage reduction off the catalogue (list) price given by a manufacturer or wholesaler to a trade buyer, usually for buying in large quantities; it is not recorded separately in the books. Cash discount, on the other hand, is for prompt payment.",
+"pidgin": "Trade discount na percentage wey manufacturer or wholesaler dey remove from list price to encourage buyer wey buy plenty goods. E no be di one wey dem give for fast payment — that one na cash discount.",
+"py": null,
+"values": null,
+"id": "comv0401",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A wholesaler's list price for a batch of exercise books is ₦50,000. He grants Mr. Okafor, a retailer, a trade discount of 15% for buying in bulk. What is the amount of trade discount allowed?",
+"options": [
+"₦8,500",
+"₦6,500",
+"₦7,500",
+"₦5,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Trade discount = 15% of ₦50,000 = 0.15 x 50,000 = ₦7,500. This is the amount deducted from the list price before Mr. Okafor pays.",
+"pidgin": "Trade discount = 15% of ₦50,000 = 0.15 x 50,000 = ₦7,500. Na dis amount dem go remove from di list price before Okafor go pay.",
+"py": "50000*0.15",
+"values": [
+8500,
+6500,
+7500,
+5000
+],
+"id": "comv0402",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Chidinma's invoice for goods bought shows a price of ₦40,000. The supplier offers a 5% cash discount if payment is made within 14 days. If Chidinma pays within the 14 days, how much will she actually pay?",
+"options": [
+"₦39,000",
+"₦37,000",
+"₦36,500",
+"₦38,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Cash discount = 5% of ₦40,000 = ₦2,000. Amount payable = 40,000 - 2,000 = ₦38,000. This discount rewards Chidinma for paying promptly.",
+"pidgin": "Cash discount = 5% of ₦40,000 = ₦2,000. Wetin she go pay = 40,000 - 2,000 = ₦38,000. Na reward for fast payment.",
+"py": "40000*(1-0.05)",
+"values": [
+39000,
+37000,
+36500,
+38000
+],
+"id": "comv0403",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "In international trade documentation, the price quotation 'CIF' means that the quoted price covers which combination of costs?",
+"options": [
+"Cost, Investment and Freight",
+"Credit, Insurance and Finance",
+"Cost, Insurance and Freight",
+"Cost, Import and Freight"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "CIF stands for Cost, Insurance and Freight. It means the seller's quoted price already includes the cost of the goods, insurance during shipment, and freight (transport) charges up to the destination port.",
+"pidgin": "CIF mean Cost, Insurance and Freight. E mean say di price wey seller quote don already cover di goods cost, insurance wey dem use for di journey, and freight (transport) charge reach di destination port.",
+"py": null,
+"values": null,
+"id": "comv0404",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A Nigerian importer agrees to buy machinery on 'FOB' terms from a foreign supplier. Under this term, the seller's responsibility for the goods ends as soon as the goods",
+"options": [
+"arrive at the buyer's warehouse in Nigeria",
+"are loaded on board the ship at the port of shipment",
+"pass through customs in Nigeria",
+"are insured by the buyer"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "FOB means Free On Board. The seller's duty and cost responsibility end once the goods are loaded onto the ship at the port of shipment; after that, the buyer bears the freight, insurance and risk.",
+"pidgin": "FOB mean Free On Board. Seller responsibility end immediately dem load di goods for inside ship for di port wey dem dey ship from; after dat one, na buyer go carry freight, insurance and risk.",
+"py": null,
+"values": null,
+"id": "comv0405",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Mrs. Bello wants to buy goods listed at ₦100,000 from a wholesaler who allows a 10% trade discount, plus a further 5% cash discount for payment within 30 days. If Mrs. Bello pays within 30 days, how much will she pay in total?",
+"options": [
+"₦85,500",
+"₦90,000",
+"₦86,500",
+"₦81,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "First apply trade discount: 100,000 x (1 - 0.10) = ₦90,000. Then apply cash discount on this new amount: 90,000 x (1 - 0.05) = ₦85,500. Trade discount is deducted first, then cash discount is calculated on the reduced price.",
+"pidgin": "First remove trade discount: 100,000 x (1 - 0.10) = ₦90,000. Den remove cash discount from dat new amount: 90,000 x (1 - 0.05) = ₦85,500. Trade discount dey come first, cash discount go follow am on top di new price.",
+"py": "100000*0.9*0.95",
+"values": [
+85500,
+90000,
+86500,
+81000
+],
+"id": "comv0406",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Adaeze received an invoice for goods bought from a supplier, but on delivery she discovered that goods worth ₦6,000 were damaged and returned them. Which document will the supplier issue to Adaeze to reduce the amount she owes?",
+"options": [
+"Debit note",
+"Invoice",
+"Receipt",
+"Credit note"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "A credit note is issued by a seller to a buyer when goods are returned or an overcharge is corrected; it reduces the amount the buyer owes. A debit note, in contrast, is used to increase the amount owed, such as for undercharged goods.",
+"pidgin": "Credit note na wetin seller go give buyer when buyer return goods or when dem over-charge am; e go reduce wetin buyer owe. Debit note na di opposite, na im dem dey use increase wetin person owe, like when dem under-charge goods.",
+"py": null,
+"values": null,
+"id": "comv0407",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

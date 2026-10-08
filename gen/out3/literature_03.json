@@ -1,0 +1,134 @@
+{
+"subject": "literature",
+"topic": "Metre and versification: iambic, trochaic, couplet, quatrain, blank verse",
+"generated": 7,
+"kept": [
+{
+"q": "Blank verse is best defined as poetry that is written in which of the following forms?",
+"options": [
+"Unrhymed lines in iambic pentameter",
+"Rhymed lines in iambic pentameter",
+"Rhymed couplets in trochaic tetrameter",
+"Irregular lines with no fixed meter or rhyme"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Blank verse has a regular metre, usually iambic pentameter with ten syllables per line, but it does not rhyme. Option D describes free verse, not blank verse.",
+"pidgin": "Blank verse na poetry wey get regular beat (iambic pentameter) but e no get rhyme. Option D na free verse, no be blank verse.",
+"id": "litv0300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Read this quatrain: 'The river flows beyond the village gate / Its silver water glistens in the sun / The fishermen arrive before it's late / To cast their nets before the day is done.' Lines 1 and 3 rhyme with each other, while lines 2 and 4 rhyme with each other. What is this rhyme scheme called?",
+"options": [
+"Monorhyme",
+"Couplet rhyme",
+"Alternate rhyme",
+"Envelope rhyme"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "When the first and third lines rhyme, and the second and fourth lines rhyme (ABAB), this pattern is called alternate rhyme. Couplet rhyme is AABB, envelope rhyme is ABBA, and monorhyme is AAAA.",
+"pidgin": "When line 1 and 3 rhyme, then line 2 and 4 rhyme (ABAB), dem dey call am alternate rhyme. Couplet rhyme na AABB, envelope na ABBA, and monorhyme na AAAA.",
+"id": "litv0301",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Read this line: 'Mother, mother, hear my calling.' Each foot in the line consists of a stressed syllable followed by an unstressed syllable, and there are four such feet. What is the correct name for this metrical pattern?",
+"options": [
+"Iambic tetrameter",
+"Trochaic tetrameter",
+"Trochaic pentameter",
+"Iambic pentameter"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A foot with a stressed syllable followed by an unstressed one is a trochee, and four feet in a line make tetrameter, so the pattern is trochaic tetrameter. It cannot be iambic, since iambs begin with an unstressed syllable, and it is not pentameter, which would require five feet.",
+"pidgin": "Foot wey get stress before non-stress na trochee, and four of dat kain foot for one line na tetrameter. So na trochaic tetrameter, e no be iambic (wey dey start with non-stress) or pentameter (wey get five foot).",
+"id": "litv0302",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read this couplet: 'The moonlight bathed the silent, sleeping town, / And stars like diamonds on a velvet gown.' These two rhymed lines, written in iambic pentameter and expressing a complete thought, best illustrate which poetic form?",
+"options": [
+"Blank verse",
+"Free verse",
+"Quatrain",
+"Heroic couplet"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A heroic couplet is made up of two consecutive rhyming lines in iambic pentameter that usually complete a single idea, exactly as shown here. Blank verse does not rhyme, free verse has no fixed metre, and a quatrain requires four lines, not two.",
+"pidgin": "Heroic couplet na two lines wey rhyme, dey follow iambic pentameter, and dem dey complete one thought, as e dey show here. Blank verse no get rhyme, free verse no get fixed metre, and quatrain na four lines, no be two.",
+"id": "litv0303",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Consider this line: 'The farmer ploughs his field before the rain.' Counting the syllables and identifying the unstressed-stressed pattern, how many iambic feet does this line contain, and what is the resulting metre called?",
+"options": [
+"Four feet, iambic tetrameter",
+"Six feet, iambic hexameter",
+"Five feet, iambic pentameter",
+"Five feet, trochaic pentameter"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The line has ten syllables arranged as five unstressed-stressed pairs (the FAR-mer PLOUGHS his FIELD be-FORE the RAIN), which is iambic pentameter. It is not trochaic, since each foot starts on an unstressed syllable, and it has five feet, not four or six.",
+"pidgin": "The line get ten syllables wey arrange as five pairs of non-stress-stress (iamb), so na iambic pentameter. E no be trochaic because e start with non-stress, and na five foot, no be four or six.",
+"id": "litv0304",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Read this line of poetry: 'Weary, the travellers trudged along the road.' Although most of the line follows an iambic pattern, the opening foot 'WEA-ry' reverses this, beginning with a stressed syllable followed by an unstressed one. What is this kind of metrical variation called?",
+"options": [
+"Trochaic substitution",
+"Enjambment",
+"Caesura",
+"Spondaic foot"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "When a poet replaces an expected iamb with a trochee (stressed-unstressed) at the start of a line for emphasis, this is called trochaic substitution. A caesura is a pause within a line, enjambment is a sentence running over into the next line, and a spondee has two stressed syllables, not one stressed and one unstressed.",
+"pidgin": "When poet change the normal iamb to trochee (stress before non-stress) for emphasis, dem dey call am trochaic substitution. Caesura na pause inside line, enjambment na when sentence continue to next line, and spondee get two stress syllables, no be one stress one non-stress.",
+"id": "litv0305",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the line 'Dead calm fell quickly on the raging sea,' the words 'Dead calm' both carry a strong stress, breaking the expected iambic rhythm to emphasise the sudden stillness. What metrical foot do the words 'Dead calm' form?",
+"options": [
+"Trochee",
+"Anapest",
+"Dactyl",
+"Spondee"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "A spondee is a metrical foot made up of two stressed syllables, often used to slow a line down or add emphasis, exactly as 'Dead calm' does here. A trochee is stressed-unstressed, a dactyl is stressed-unstressed-unstressed, and an anapest is unstressed-unstressed-stressed.",
+"pidgin": "Spondee na foot wey get two stress syllables, wey dem dey use slow down line or add emphasis, just as 'Dead calm' show am here. Trochee na stress-nonstress, dactyl na stress-nonstress-nonstress, and anapest na nonstress-nonstress-stress.",
+"id": "litv0306",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

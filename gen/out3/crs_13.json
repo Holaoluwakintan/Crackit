@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "Exile and return: Ezekiel, Daniel, Ezra and Nehemiah",
+"generated": 8,
+"kept": [
+{
+"q": "In the book of Ezekiel, the prophet received his call and first vision from God while he was living among the exiles beside a particular river in Babylon. Which river was this?",
+"options": [
+"River Chebar",
+"River Jordan",
+"River Euphrates",
+"River Tigris"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Ezekiel was among the Jewish exiles by the River Chebar in Babylon when the heavens opened and he saw visions of God. This is recorded in Ezekiel 1:1-3.",
+"pidgin": "Ezekiel dey among the Jewish people wey dem carry go exile for Babylon, near River Chebar, when heaven open make e see vision. Na Ezekiel 1:1-3 talk am.",
+"id": "crsv1300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "King Nebuchadnezzar once had a troubling dream about a great statue with a head of gold, chest of silver, belly of bronze, legs of iron, and feet of iron mixed with clay. Who was able to tell the king both the dream and its meaning?",
+"options": [
+"Shadrach",
+"Daniel",
+"Ezekiel",
+"Belshazzar"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When none of the Babylonian wise men could reveal the king's dream, God showed it to Daniel in a night vision, and Daniel explained the dream and its meaning to Nebuchadnezzar. This story is found in Daniel chapter 2.",
+"pidgin": "When all the Babylon wise men no fit tell the king im dream, God show Daniel the dream for night and e explain am give the king. Na Daniel chapter 2 dey talk am.",
+"id": "crsv1301",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Nehemiah served as cupbearer to a Persian king before he requested permission to return and rebuild the walls of Jerusalem. Who was this king?",
+"options": [
+"Cyrus",
+"Darius",
+"Artaxerxes",
+"Xerxes"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Nehemiah was cupbearer to King Artaxerxes, and it was from this king that he obtained permission and letters to travel to Jerusalem and rebuild its walls. This is recorded in Nehemiah 2:1-8.",
+"pidgin": "Nehemiah na cupbearer to King Artaxerxes, na from dis king e take get permission and letters make e go Jerusalem rebuild the wall. Na Nehemiah 2:1-8 talk am.",
+"id": "crsv1302",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "After the wall of Jerusalem was completed, a scribe stood on a wooden platform at the Water Gate and read the Law of Moses aloud to the returned exiles from morning till midday. Who was this scribe?",
+"options": [
+"Nehemiah",
+"Haggai",
+"Zechariah",
+"Ezra"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Ezra the scribe read the Book of the Law of Moses to the assembled people at the Water Gate, and the Levites helped the people understand it. This event is recorded in Nehemiah 8:1-8.",
+"pidgin": "Na Ezra, di scribe, read di Law of Moses give di people wey gada for Water Gate, and di Levites help explain am. Dis one dey for Nehemiah 8:1-8.",
+"id": "crsv1303",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Which Babylonian king set up a golden image on the plain of Dura and commanded everyone to bow down and worship it, an order that Shadrach, Meshach, and Abednego refused to obey?",
+"options": [
+"Nebuchadnezzar",
+"Belshazzar",
+"Darius",
+"Cyrus"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "King Nebuchadnezzar set up a huge golden image and ordered all officials to worship it, but Shadrach, Meshach, and Abednego refused and were thrown into a fiery furnace. This account is in Daniel chapter 3.",
+"pidgin": "Na King Nebuchadnezzar set up di big golden image and tell everybody make dem worship am, but Shadrach, Meshach, and Abednego refuse, so dem throw dem inside fire furnace. Na Daniel chapter 3 talk am.",
+"id": "crsv1304",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A certain prophet in exile saw a vision of a valley full of dry bones that came together, received flesh, and were given breath to live again, symbolizing God's promise to restore the nation of Israel. Who was this prophet?",
+"options": [
+"Daniel",
+"Ezekiel",
+"Jeremiah",
+"Haggai"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ezekiel saw the famous vision of the valley of dry bones, which God used to show that He would bring the exiled nation of Israel back to life and restore it to its land. This is found in Ezekiel chapter 37.",
+"pidgin": "Na Ezekiel see di vision of di valley wey full with dry bones, wey God use show say E go bring back di nation of Israel to life and return dem to dia land. Na Ezekiel chapter 37 talk am.",
+"id": "crsv1305",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "While Nehemiah and the people were rebuilding the broken walls of Jerusalem, two local officials mocked and plotted to attack the workers in order to stop the project. Who were these two opponents?",
+"options": [
+"Rehum and Shimshai",
+"Haggai and Zechariah",
+"Sanballat and Tobiah",
+"Ezra and Zerubbabel"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Sanballat the Horonite and Tobiah the Ammonite mocked Nehemiah's building project and later conspired with others to attack Jerusalem, but Nehemiah organised the workers to guard and build at the same time. This is recorded in Nehemiah 4:1-9.",
+"pidgin": "Na Sanballat (Horonite) and Tobiah (Ammonite) dey mock Nehemiah im building work and dem later plan to attack Jerusalem, but Nehemiah arrange di workers make dem dey guard and build togeda. Na Nehemiah 4:1-9 talk am.",
+"id": "crsv1306",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "During a royal feast, mysterious handwriting appeared on the palace wall, and Daniel was called to interpret it as a sign that the kingdom would be taken away and divided. Which king received this frightening message?",
+"options": [
+"Nebuchadnezzar",
+"Cyrus",
+"Darius",
+"Belshazzar"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "At Belshazzar's feast, a hand wrote on the wall the words 'Mene, Mene, Tekel, Parsin,' and Daniel interpreted it to mean that Belshazzar's kingdom would be ended and divided between the Medes and Persians. That same night Belshazzar was killed, as told in Daniel chapter 5.",
+"pidgin": "For Belshazzar im feast, one hand write message for wall say 'Mene, Mene, Tekel, Parsin,' and Daniel explain say im kingdom go end and dem go divide am give Medes and Persians. Dat same night dem kill Belshazzar, na Daniel chapter 5 talk am.",
+"id": "crsv1307",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

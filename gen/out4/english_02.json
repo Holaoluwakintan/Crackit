@@ -1,0 +1,149 @@
+{
+"subject": "english",
+"topic": "Sentence completion: vocabulary",
+"ti": 2,
+"generated": 7,
+"kept": [
+{
+"q": "The chief invited all the elders to ______ the dispute between the two feuding families before it got out of hand.",
+"options": [
+"settle",
+"unsettle",
+"resettle",
+"settlement"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "'Settle' means to bring a disagreement to an end. The other options are wrong forms or change the meaning (unsettle means to disturb, resettle means to live in a new place again, and 'settlement' is a noun, not a verb).",
+"pidgin": "'Settle' mean to make peace or end quarrel. The other words no fit work here because 'unsettle' mean to cause trouble, 'resettle' na to relocate, and 'settlement' na noun, e no fit follow 'to'.",
+"id": "weng0200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Choose the word nearest in meaning to the word in capitals: The farmer's yam barn was completely EMPTY after the long famine.",
+"options": [
+"bare",
+"full",
+"heavy",
+"rotten"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "'Bare' means having nothing inside, which matches 'empty'. 'Full' is the opposite, while 'heavy' and 'rotten' describe weight or condition, not emptiness.",
+"pidgin": "'Bare' mean say nothing dey inside, na the same thing as 'empty'. 'Full' na opposite meaning, and 'heavy' or 'rotten' no talk about empty barn.",
+"id": "weng0201",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Ngozi was so ______ that she forgot her own birthday last week.",
+"options": [
+"forgetful",
+"memorable",
+"remembered",
+"forgetting"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "'Forgetful' is the adjective that describes someone who easily forgets things, fitting the sentence. 'Memorable' means easy to remember, 'remembered' and 'forgetting' are wrong grammatical forms here.",
+"pidgin": "'Forgetful' na adjective wey mean person wey dey quick forget. 'Memorable' mean say e easy to remember, and the other two no fit fit grammatically for that spot.",
+"id": "weng0202",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The governor's campaign speech was full of ______ promises that nobody believed again.",
+"options": [
+"empty",
+"heavy",
+"solid",
+"firm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "'Empty promises' is a common expression meaning promises that will not be kept. 'Heavy', 'solid' and 'firm' do not collocate with 'promises' in this idiomatic sense.",
+"pidgin": "'Empty promises' na common expression wey mean promise wey no go happen. 'Heavy', 'solid' and 'firm' no dey normally follow 'promises' like that.",
+"id": "weng0203",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Choose the word that is OPPOSITE in meaning to the word in capitals: The witness gave a very CREDIBLE account of the motor accident to the policemen.",
+"options": [
+"doubtful",
+"believable",
+"truthful",
+"honest"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "'Credible' means believable, so its opposite is 'doubtful', which means something hard to believe. 'Believable', 'truthful' and 'honest' are all close in meaning to 'credible', not opposite.",
+"pidgin": "'Credible' mean say na something wey person fit believe, so im opposite na 'doubtful' wey mean say e hard to believe. 'Believable', 'truthful' and 'honest' dey close to 'credible' meaning, no be opposite.",
+"id": "weng0204",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Eze advised his son to ______ his studies seriously if he wants to pass his WAEC examination with good grades.",
+"options": [
+"take",
+"make",
+"do",
+"have"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The correct collocation is 'take something seriously'. 'Make', 'do' and 'have' do not combine correctly with 'seriously' in standard English usage.",
+"pidgin": "The correct combination na 'take something seriously'. 'Make', 'do' and 'have' no dey follow 'seriously' well for correct English.",
+"id": "weng0205",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Choose the word that best completes the sentence: Despite the heavy rainfall, the farmers remained ______ in their resolve to finish planting before the big market day.",
+"options": [
+"adamant",
+"reluctant",
+"indifferent",
+"hesitant"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "'Adamant' means firmly determined not to change one's mind, which fits the farmers' strong resolve despite the rain. 'Reluctant', 'indifferent' and 'hesitant' all suggest unwillingness or lack of interest, which contradicts the idea of staying determined.",
+"pidgin": "'Adamant' mean say person don firmly decide and no go change mind, and dat one match the farmers wey still wan finish planting despite the rain. 'Reluctant', 'indifferent' and 'hesitant' mean say person no too wan do am, wey no match wit strong resolve.",
+"id": "weng0206",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

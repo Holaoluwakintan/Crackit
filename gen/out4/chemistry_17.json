@@ -1,0 +1,153 @@
+{
+"subject": "chemistry",
+"topic": "Chemistry, industry and the environment",
+"ti": 17,
+"generated": 6,
+"kept": [
+{
+"q": "In the industrial manufacture of ammonia by the Haber process, which substance is used as the catalyst to speed up the reaction between nitrogen and hydrogen?",
+"options": [
+"Platinum gauze",
+"Manganese(IV) oxide",
+"Finely divided iron",
+"Vanadium(V) oxide"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The Haber process combines nitrogen and hydrogen to form ammonia, and finely divided iron is the standard catalyst used to speed up this reaction without being consumed.",
+"pidgin": "Haber process na im dem dey use make ammonia from nitrogen and hydrogen, and dem dey use finely divided iron as catalyst to speed up the reaction.",
+"py": null,
+"values": null,
+"id": "wche1700",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which acid is manufactured industrially using the Contact process, in which sulphur(IV) oxide is catalytically oxidised to sulphur(VI) oxide using vanadium(V) oxide?",
+"options": [
+"Sulphuric(VI) acid",
+"Hydrochloric acid",
+"Nitric(V) acid",
+"Ethanoic acid"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Contact process converts sulphur(IV) oxide to sulphur(VI) oxide using vanadium(V) oxide as catalyst, and the sulphur(VI) oxide is then dissolved to produce sulphuric(VI) acid.",
+"pidgin": "Contact process na im dem dey convert sulphur(IV) oxide to sulphur(VI) oxide with vanadium(V) oxide catalyst, then dem use am make sulphuric(VI) acid.",
+"py": null,
+"values": null,
+"id": "wche1701",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Factories in Kaduna that burn coal and diesel containing sulphur impurities release a gas into the air. When this gas dissolves in rain water, it forms acid rain that damages buildings and crops. Which gas is mainly responsible?",
+"options": [
+"Carbon(IV) oxide",
+"Nitrogen",
+"Methane",
+"Sulphur(IV) oxide"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Burning fossil fuels with sulphur impurities releases sulphur(IV) oxide, which dissolves in rain water to form a dilute acid, giving acid rain.",
+"pidgin": "When fossil fuel wey get sulphur dey burn, e dey release sulphur(IV) oxide, and dis gas go mix with rain water make am turn acid rain.",
+"py": null,
+"values": null,
+"id": "wche1702",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A bag of fertilizer contains ammonium trioxonitrate(V), NH4NO3. Calculate the percentage by mass of nitrogen in the compound. (N = 14, H = 1, O = 16)",
+"options": [
+"17.5%",
+"35.0%",
+"46.7%",
+"70.0%"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Molar mass of NH4NO3 = 14+4+14+48 = 80. There are 2 nitrogen atoms, mass = 28. Percentage N = (28/80) x 100 = 35.0%.",
+"pidgin": "Molar mass of NH4NO3 na 80, and nitrogen wey dey inside na 28 (2 N atoms). So percentage na (28/80) x 100 = 35.0%.",
+"py": "28/80*100",
+"values": [
+17.5,
+35.0,
+46.7,
+70.0
+],
+"id": "wche1703",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A cement factory heats 500 kg of calcium trioxocarbonate(IV), CaCO3, strongly to decompose it into calcium oxide and carbon(IV) oxide. Calculate the mass of calcium oxide produced. (Ca = 40, C = 12, O = 16)",
+"options": [
+"280 kg",
+"240 kg",
+"320 kg",
+"220 kg"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "CaCO3 (molar mass 100) decomposes to give CaO (molar mass 56) in a 1:1 mole ratio. Mass of CaO = (56/100) x 500 kg = 280 kg.",
+"pidgin": "CaCO3 get molar mass 100 and e dey break down to CaO (molar mass 56) one-to-one. So mass of CaO = (56/100) x 500 kg = 280 kg.",
+"py": "500*56/100",
+"values": [
+280,
+240,
+320,
+220
+],
+"id": "wche1704",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Farmers along a river in Benue State apply excess nitrogenous fertilizer to their farms. Rain washes some of it into the river. What is the most likely effect of this on the aquatic life in the river?",
+"options": [
+"Increase in pH of the water to neutral",
+"Reduction in the water temperature",
+"Decrease in dissolved oxygen due to excessive algal growth",
+"Formation of an ozone layer over the river"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Excess fertilizer running into water causes eutrophication; algae grow rapidly, and when they die and decompose, bacteria use up the dissolved oxygen, killing fish and other aquatic organisms.",
+"pidgin": "When plenty fertilizer enter river, algae go grow well-well (eutrophication), and when dem die, bacteria go use up the oxygen for water, wey go kill fish and other aquatic animals.",
+"py": null,
+"values": null,
+"id": "wche1705",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

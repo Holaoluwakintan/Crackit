@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Post-independence, military rule and return to democracy",
+"ti": 15,
+"generated": 8,
+"kept": [
+{
+"q": "On what date did Nigeria officially gain independence from British colonial rule?",
+"options": [
+"October 1, 1960",
+"October 1, 1963",
+"January 15, 1966",
+"October 1, 1979"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Nigeria became an independent nation on October 1, 1960, though it remained a dominion under the British monarch until 1963. This date marks the end of direct colonial rule.",
+"pidgin": "Naija get independence on October 1, 1960. E still dey under British Queen small-small until 1963 when e become republic proper.",
+"id": "wgov1500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In which year did Nigeria officially become a republic, replacing the British monarch with an indigenous Head of State?",
+"options": [
+"1960",
+"1963",
+"1966",
+"1979"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Nigeria became a republic on October 1, 1963, with Dr Nnamdi Azikiwe as the first indigenous President, though Nigeria had gained independence earlier in 1960.",
+"pidgin": "Na 1963 Naija become republic, and Dr Nnamdi Azikiwe be di first President. Independence come before dat one for 1960.",
+"id": "wgov1501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which event of January 1966 brought the Nigerian First Republic to an abrupt end?",
+"options": [
+"The formation of the NPC-NCNC coalition",
+"The declaration of the Republic of Biafra",
+"The first military coup led by young army officers",
+"The declaration of a state of emergency in the Western Region"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "On January 15, 1966, a group of young army officers led a coup that toppled the civilian government of the First Republic, killing several top politicians and military leaders. This marked the beginning of military rule in Nigeria.",
+"pidgin": "On January 15, 1966, young army officers do coup wey finish di First Republic civilian government. Na dis one start military rule for Naija.",
+"id": "wgov1502",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What was the immediate cause of the Nigerian Civil War that lasted from 1967 to 1970?",
+"options": [
+"The Western Region demanded secession from the federation",
+"The Northern Region refused to join the federation",
+"The Mid-Western Region demanded creation of more states",
+"The Eastern Region declared itself an independent state known as Biafra"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Following the pogroms against Igbos and political tensions, the Eastern Region under Lt Col Odumegwu Ojukwu declared independence as the Republic of Biafra in 1967, leading to a civil war with the federal government.",
+"pidgin": "After di killings of Igbo people and political wahala, Eastern Region under Ojukwu declare demsef as Biafra for 1967. Na dis cause di civil war with Federal Government.",
+"id": "wgov1503",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Who, as Military Head of State, annulled the June 12, 1993 presidential election widely believed to have been won by Chief MKO Abiola?",
+"options": [
+"Ibrahim Babangida",
+"Sani Abacha",
+"Abdulsalami Abubakar",
+"Ernest Shonekan"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "General Ibrahim Babangida, who was Head of State at the time, annulled the June 12, 1993 election, triggering a major political crisis that eventually led to his stepping aside later that year.",
+"pidgin": "Na General Ibrahim Babangida, wey be Head of State at dat time, cancel di June 12, 1993 election. Dis action cause big political wahala wey make am step aside later dat year.",
+"id": "wgov1504",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "On what date did Nigeria formally return to civilian democratic rule after years of military governance, with Olusegun Obasanjo being inaugurated as President?",
+"options": [
+"October 1, 1999",
+"May 29, 1999",
+"January 1, 1999",
+"December 31, 1998"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Nigeria returned to democratic rule on May 29, 1999, when Olusegun Obasanjo was sworn in as President, marking the start of the Fourth Republic.",
+"pidgin": "Naija return to democracy on May 29, 1999, when Olusegun Obasanjo take oath as President. Dis start di Fourth Republic.",
+"id": "wgov1505",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Historians generally agree that one major reason military regimes repeatedly took over power during Nigeria's First and Second Republics was that:",
+"options": [
+"The constitution specifically allowed the military to govern every ten years",
+"Civilian leaders invited the military to rule as advisers",
+"Widespread corruption, electoral malpractice and inter-ethnic political crises weakened civilian governments",
+"The United Nations mandated military oversight of Nigeria's democracy"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Both the First and Second Republics suffered from rigged elections, corrupt practices and deep ethnic/regional rivalries, which weakened public confidence in civilian rule and gave the military an excuse to intervene. There was no constitutional or international mandate for military rule.",
+"pidgin": "Both First and Second Republic suffer from election rigging, corruption and ethnic wahala, wey weaken people trust for civilian government. Na dis kind situation give military excuse to enter power, no be say constitution or UN order am.",
+"id": "wgov1506",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which administration is credited with starting the transition programme that eventually produced the 1979 Constitution and handed power to the civilian Second Republic?",
+"options": [
+"Yakubu Gowon's administration",
+"Muhammadu Buhari's regime",
+"Ibrahim Babangida's regime",
+"The Murtala Mohammed/Olusegun Obasanjo regime"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "General Murtala Mohammed began the transition programme in 1975, and after his assassination in 1976, General Olusegun Obasanjo continued it, leading to the 1979 Constitution and handover to Shehu Shagari's civilian government.",
+"pidgin": "General Murtala Mohammed start di transition programme for 1975, and after dem kill am for 1976, Obasanjo continue am. Na dis bring di 1979 Constitution and handover to Shehu Shagari civilian government.",
+"id": "wgov1507",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

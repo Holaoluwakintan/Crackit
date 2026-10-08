@@ -1,0 +1,175 @@
+{
+"subject": "accounting",
+"topic": "Control accounts",
+"ti": 9,
+"generated": 7,
+"kept": [
+{
+"q": "What is the main purpose of preparing a control account in a business's accounting system?",
+"options": [
+"To replace personal ledger accounts completely",
+"To check the arithmetical accuracy of the personal ledgers and help locate errors",
+"To calculate the net profit of the business for the year",
+"To determine the value of closing stock at year end"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A control account is a summary account that shows the total of all individual accounts in a ledger. If its balance agrees with the total of the individual balances, it proves the ledger is arithmetically correct and helps in locating errors.",
+"pidgin": "Control account na summary account wey show total of all the small accounts for one ledger. If e balance well-well with the total of the individual balances, e dey show say the ledger correct and e fit help find where error dey.",
+"py": null,
+"values": null,
+"id": "wacc0900",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The Sales Ledger Control Account is also commonly known as the:",
+"options": [
+"Total Creditors Account",
+"Total Debtors Account",
+"Nominal Ledger Account",
+"Petty Cash Summary Account"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Sales Ledger Control Account summarises all individual customers' (debtors') accounts, so it is also called the Total Debtors Account.",
+"pidgin": "Sales Ledger Control Account dey summarise all the customers (debtors) accounts, so dem dey also call am Total Debtors Account.",
+"py": null,
+"values": null,
+"id": "wacc0901",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "At the start of the year, Chidinma Stores had total debtors of ₦185,000. During the year, credit sales amounted to ₦940,000, cash received from debtors was ₦820,000, discount allowed was ₦25,000, returns inwards was ₦30,000, and bad debts written off was ₦15,000. What is the closing balance of the Sales Ledger Control Account?",
+"options": [
+"₦195,000",
+"₦215,000",
+"₦235,000",
+"₦255,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Closing balance = Opening balance + Credit sales - Cash received - Discount allowed - Returns inwards - Bad debts = 185,000 + 940,000 - 820,000 - 25,000 - 30,000 - 15,000 = ₦235,000.",
+"pidgin": "Closing balance = Opening balance + Credit sales - Cash wey enter - Discount wey dem allow - Returns inwards - Bad debts = 185,000 + 940,000 - 820,000 - 25,000 - 30,000 - 15,000 = ₦235,000.",
+"py": "185000 + 940000 - 820000 - 25000 - 30000 - 15000",
+"values": [
+195000,
+215000,
+235000,
+255000
+],
+"id": "wacc0902",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "At the beginning of the year, Obiora Ventures owed creditors a total of ₦150,000. During the year, credit purchases amounted to ₦680,000, cash paid to suppliers was ₦600,000, discount received was ₦20,000, and returns outwards amounted to ₦18,000. What is the closing balance of the Purchases Ledger Control Account?",
+"options": [
+"₦172,000",
+"₦192,000",
+"₦212,000",
+"₦232,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Closing balance = Opening balance + Credit purchases - Cash paid - Discount received - Returns outwards = 150,000 + 680,000 - 600,000 - 20,000 - 18,000 = ₦192,000.",
+"pidgin": "Closing balance = Opening balance + Credit purchases - Cash wey dem pay - Discount wey dem receive - Returns outwards = 150,000 + 680,000 - 600,000 - 20,000 - 18,000 = ₦192,000.",
+"py": "150000 + 680000 - 600000 - 20000 - 18000",
+"values": [
+172000,
+192000,
+212000,
+232000
+],
+"id": "wacc0903",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following items appears on the DEBIT side of the Sales Ledger Control Account?",
+"options": [
+"Discount allowed to customers",
+"Returns inwards from customers",
+"Cheques received from customers that were later dishonoured",
+"Bad debts written off during the year"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A dishonoured cheque means the customer's debt is restored, so it increases debtors and is debited in the Sales Ledger Control Account. Discount allowed, returns inwards and bad debts all reduce debtors, so they appear on the credit side instead.",
+"pidgin": "When cheque bounce (dishonoured), e mean say the customer still owe, so e go increase the debtors and e go dey debit side of Sales Ledger Control Account. Discount allowed, returns inwards and bad debts dey reduce debtors, so dem dey for credit side.",
+"py": null,
+"values": null,
+"id": "wacc0904",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Bassey owes Kalu Enterprises ₦12,000 as a customer, but Kalu Enterprises also owes him ₦12,000 for goods supplied to the business. Both debts are set off (contra entry) against each other in the books. How will this set-off be recorded in the control accounts?",
+"options": [
+"Debited in the Sales Ledger Control Account and credited in the Purchases Ledger Control Account",
+"Credited in the Sales Ledger Control Account and debited in the Purchases Ledger Control Account",
+"Debited in both the Sales Ledger Control Account and the Purchases Ledger Control Account",
+"Credited in both the Sales Ledger Control Account and the Purchases Ledger Control Account"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A contra (set-off) entry reduces both the debtor and creditor balances by the same amount. Since the Sales Ledger Control Account credit side reduces debtors and the Purchases Ledger Control Account debit side reduces creditors, the set-off is credited in the Sales Ledger Control Account and debited in the Purchases Ledger Control Account.",
+"pidgin": "Contra entry dey reduce both the debtor and creditor balance with the same amount. Since credit side for Sales Ledger Control Account dey reduce debtors and debit side for Purchases Ledger Control Account dey reduce creditors, dem go credit am for Sales Ledger Control Account and debit am for Purchases Ledger Control Account.",
+"py": null,
+"values": null,
+"id": "wacc0905",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A credit sale of ₦5,000 to a customer, Mrs. Adaeze, was completely omitted from the Sales Day Book, the customer's personal account, and the Sales Ledger Control Account. Which of the following statements is correct about this error?",
+"options": [
+"It will be revealed immediately when the control account is prepared",
+"It will NOT be revealed by the control account because both the total and the individual accounts are equally affected",
+"It will cause the control account balance to be higher than the total of individual balances",
+"It will cause the control account balance to be lower than the total of individual balances"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since the transaction was omitted from every relevant book, both the control account total and the total of individual debtor balances are affected in the same way, so they will still agree. An error of complete omission is one of the errors a control account cannot detect.",
+"pidgin": "Since dem forget to record the transaction for every relevant book, both the control account total and the individual debtors' total go dey affected the same way, so dem go still agree. Error of complete omission na one of the errors wey control account no fit catch.",
+"py": null,
+"values": null,
+"id": "wacc0906",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

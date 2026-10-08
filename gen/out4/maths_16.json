@@ -1,0 +1,181 @@
+{
+"subject": "maths",
+"topic": "Mensuration: solids (volume and surface area)",
+"ti": 16,
+"generated": 6,
+"kept": [
+{
+"q": "A rectangular wooden box (cuboid) has length 8 cm, breadth 5 cm and height 4 cm. Find the volume of the box.",
+"options": [
+"120 cm^3",
+"160 cm^3",
+"140 cm^3",
+"180 cm^3"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Volume of a cuboid = length x breadth x height = 8 x 5 x 4 = 160 cm^3.",
+"pidgin": "Volume of cuboid na length x breadth x height, so 8 x 5 x 4 give 160 cm^3.",
+"py": "8*5*4",
+"values": [
+120,
+160,
+140,
+180
+],
+"id": "wmth1600",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A solid cube has each edge measuring 6 cm. Find the total surface area of the cube.",
+"options": [
+"144 cm^2",
+"180 cm^2",
+"216 cm^2",
+"196 cm^2"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Total surface area of a cube = 6 x (side)^2 = 6 x 6^2 = 6 x 36 = 216 cm^2.",
+"pidgin": "Total surface area of cube na 6 times side squared; 6 x 36 = 216 cm^2.",
+"py": "6*6**2",
+"values": [
+144,
+180,
+216,
+196
+],
+"id": "wmth1601",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A cylindrical water pipe has a radius of 7 cm and a height of 10 cm. Using pi = 22/7, find the volume of the cylinder.",
+"options": [
+"1540 cm^3",
+"1480 cm^3",
+"1340 cm^3",
+"1680 cm^3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Volume of a cylinder = pi r^2 h = 22/7 x 7^2 x 10 = 22 x 7 x 10 = 1540 cm^3.",
+"pidgin": "Volume of cylinder na pi r^2 h; 22/7 x 49 x 10 come give 1540 cm^3.",
+"py": "(22/7)*7**2*10",
+"values": [
+1540,
+1480,
+1340,
+1680
+],
+"id": "wmth1602",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A cone has base radius 3.5 cm and slant height 10 cm. Using pi = 22/7, find the curved surface area of the cone.",
+"options": [
+"154 cm^2",
+"120 cm^2",
+"100 cm^2",
+"110 cm^2"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Curved surface area of a cone = pi r l = 22/7 x 3.5 x 10 = 11 x 10 = 110 cm^2.",
+"pidgin": "CSA of cone na pi x r x l; 22/7 x 3.5 x 10 come give 110 cm^2.",
+"py": "(22/7)*3.5*10",
+"values": [
+154,
+120,
+100,
+110
+],
+"id": "wmth1603",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A rectangular water tank, open at the top, has internal length 12 m, breadth 8 m and height 5 m. Find the total surface area of the material (base and the four walls) needed to construct the tank.",
+"options": [
+"392 m^2",
+"320 m^2",
+"296 m^2",
+"280 m^2"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Since the tank has no top, total surface area = base + 4 walls = lb + 2(lh + bh) = (12x8) + 2[(12x5)+(8x5)] = 96 + 200 = 296 m^2.",
+"pidgin": "Since the tank no get top, total surface area na base plus di four walls = (12x8) + 2[(12x5)+(8x5)] = 96 + 200 = 296 m^2.",
+"py": "12*8 + 2*(12*5+8*5)",
+"values": [
+392,
+320,
+296,
+280
+],
+"id": "wmth1605",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A solid sphere has radius 6 cm. Using pi = 22/7, find the volume of the sphere to the nearest whole number.",
+"options": [
+"904 cm^3",
+"905 cm^3",
+"900 cm^3",
+"950 cm^3"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Volume of a sphere = 4/3 x pi x r^3 = 4/3 x 22/7 x 216 = 904.57..., which rounds to 905 cm^3.",
+"pidgin": "Volume of sphere na 4/3 pi r cube; e go give 904.57 wey round reach 905 cm^3.",
+"py": "round((4/3)*(22/7)*6**3)",
+"values": [
+904,
+905,
+900,
+950
+],
+"id": "wmth1604",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+}
+]
+}

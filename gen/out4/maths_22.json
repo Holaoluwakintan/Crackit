@@ -1,0 +1,174 @@
+{
+"subject": "maths",
+"topic": "Matrices and determinants",
+"ti": 22,
+"generated": 6,
+"kept": [
+{
+"q": "Given the matrix A = [[3,5],[2,7]], find the determinant of A.",
+"options": [
+"7",
+"9",
+"11",
+"21"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "For a 2x2 matrix [[a,b],[c,d]], det = ad - bc. So det(A) = (3)(7) - (5)(2) = 21 - 10 = 11.",
+"pidgin": "For 2x2 matrix [[a,b],[c,d]], det na ad minus bc. So det(A) = 3x7 minus 5x2 = 21 minus 10 = 11.",
+"py": "3*7-5*2",
+"values": [
+7,
+9,
+11,
+21
+],
+"id": "wmth2200",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Given A = [[2,-1],[4,3]] and B = [[1,6],[-2,5]], find A + B.",
+"options": [
+"[[3,5],[2,8]]",
+"[[1,7],[6,-2]]",
+"[[3,-5],[2,8]]",
+"[[3,5],[6,8]]"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Matrices are added by adding corresponding entries: top-left 2+1=3, top-right -1+6=5, bottom-left 4+(-2)=2, bottom-right 3+5=8. This gives [[3,5],[2,8]].",
+"pidgin": "To add matrix, you add the numbers wey dey same position: 2+1=3, -1+6=5, 4-2=2, 3+5=8. Answer na [[3,5],[2,8]].",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wmth2201",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "If A = [[1,2],[3,4]] and B = [[2,0],[1,3]], find the matrix product AB.",
+"options": [
+"[[4,6],[10,12]]",
+"[[2,6],[3,12]]",
+"[[4,6],[10,14]]",
+"[[2,0],[12,12]]"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Multiply row by column: top-left = 1x2+2x1=4, top-right = 1x0+2x3=6, bottom-left = 3x2+4x1=10, bottom-right = 3x0+4x3=12. So AB = [[4,6],[10,12]].",
+"pidgin": "Multiply row by column: top-left = 1x2+2x1=4, top-right = 1x0+2x3=6, bottom-left = 3x2+4x1=10, bottom-right = 3x0+4x3=12. So AB = [[4,6],[10,12]].",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wmth2202",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The matrix M = [[2,x],[x,8]] is singular (that is, its determinant is zero). Find the positive value of x.",
+"options": [
+"2",
+"4",
+"6",
+"8"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "For M to be singular, det(M) = 0, so (2)(8) - (x)(x) = 0, giving 16 - x^2 = 0, so x^2 = 16, x = 4 (taking the positive root).",
+"pidgin": "If matrix dey singular, det = 0. So (2)(8) minus x times x = 0, dat na 16 - x^2 = 0, so x^2 = 16, x = 4 (we take the positive value).",
+"py": "math.sqrt(16)",
+"values": [
+2,
+4,
+6,
+8
+],
+"id": "wmth2203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Given A = [[3,2],[4,3]], find the inverse of A, A^{-1}.",
+"options": [
+"[[3,-2],[-4,3]]",
+"[[3,2],[4,3]]",
+"[[-3,2],[4,-3]]",
+"[[1/3,1/2],[1/4,1/3]]"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "det(A) = (3)(3) - (2)(4) = 9 - 8 = 1. Since det = 1, A^{-1} = [[d,-b],[-c,a]] / det = [[3,-2],[-4,3]].",
+"pidgin": "det(A) = (3)(3) minus (2)(4) = 9 minus 8 = 1. Since det = 1, A^{-1} = [[d,-b],[-c,a]] divide by det, wey be [[3,-2],[-4,3]].",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wmth2204",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Using matrix method, solve the simultaneous equations 2x + 3y = 12 and x - y = 1 for x.",
+"options": [
+"1",
+"2",
+"3",
+"5"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "From x - y = 1, x = y + 1. Substitute into 2x + 3y = 12 to get 2(y+1) + 3y = 12, so 5y + 2 = 12, 5y = 10, y = 2. Then x = y + 1 = 3. This can also be obtained by Cramer's rule using the coefficient matrix [[2,3],[1,-1]] with determinant -5.",
+"pidgin": "From x - y = 1, x = y + 1. Put am inside 2x + 3y = 12, e go be 2(y+1) + 3y = 12, so 5y + 2 = 12, 5y = 10, y = 2. Then x = y + 1 = 3. You fit also use Cramer's rule with the matrix [[2,3],[1,-1]] wey get determinant -5.",
+"py": "(12*(-1)-3*1)/((2*(-1))-(3*1))",
+"values": [
+1,
+2,
+3,
+5
+],
+"id": "wmth2205",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

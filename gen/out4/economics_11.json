@@ -1,0 +1,176 @@
+{
+"subject": "economics",
+"topic": "Money, inflation and deflation",
+"ti": 11,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best explains the 'store of value' function of money?",
+"options": [
+"It allows goods and services to be exchanged without barter",
+"It enables individuals to keep wealth for future use without it losing value quickly",
+"It serves as a common measure for expressing the price of goods",
+"It allows debts to be settled at a future date"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Money acts as a store of value when people can save it today and use it later without the value disappearing (unlike perishable goods). Option A describes medium of exchange, C describes measure of value, and D describes standard for deferred payment.",
+"pidgin": "Money dey work as store of value when person fit keep am today still use am tomorrow without e dey spoil like food. Option A na medium of exchange, C na measure of value, D na standard for deferred payment.",
+"py": null,
+"values": null,
+"id": "weco1100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A situation in an economy where there is a persistent and continuous rise in the general price level of goods and services, causing the purchasing power of money to fall, is called:",
+"options": [
+"Inflation",
+"Deflation",
+"Disinflation",
+"Stagflation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Inflation is defined exactly as a persistent rise in the general price level, which reduces how much goods and services ₦1 can buy. Deflation is the opposite (falling prices), disinflation is a slowdown in the inflation rate, and stagflation combines inflation with stagnant growth.",
+"pidgin": "Inflation na when prices dey rise well-well for long time, so money no fit buy as e used to buy before. Deflation na when prices dey fall, disinflation na when inflation dey slow down, stagflation na when inflation dey mix with slow economic growth.",
+"py": null,
+"values": null,
+"id": "weco1101",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Using the quantity theory of money formula MV = PT, where M = money supply, V = velocity of circulation of money, P = general price level, and T = total number of transactions: In an economy, the money supply is ₦3,000,000, the velocity of circulation is 4, and the total number of transactions carried out in a year is 600,000. What is the general price level (P)?",
+"options": [
+"15",
+"12",
+"25",
+"20"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "From MV = PT, P = MV/T. So P = (3,000,000 x 4) / 600,000 = 12,000,000 / 600,000 = 20. The other options come from dividing or multiplying the wrong numbers.",
+"pidgin": "From MV = PT, we fit find P as MV/T. So P = (3,000,000 x 4) / 600,000 = 12,000,000 / 600,000 = 20. Di oda answers na from wrong calculation.",
+"py": "(3000000*4)/600000",
+"values": [
+15,
+12,
+25,
+20
+],
+"id": "weco1104",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following groups is most likely to benefit during a period of persistent inflation in an economy?",
+"options": [
+"Debtors who borrowed money before the inflation started",
+"Pensioners living on a fixed monthly pension",
+"Workers whose wages are fixed by long-term contracts",
+"Savers who keep their money in fixed deposit accounts"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "During inflation, the value of money falls, so debtors repay their loans with money that is worth less than when they borrowed it, which benefits them. Pensioners, fixed-wage workers, and savers with fixed deposits all suffer because their fixed incomes or savings buy less as prices rise.",
+"pidgin": "For inflation time, money value dey fall, so debtors go pay back their loan with money wey no cost reach wetin dem borrow — na so dem dey gain. Pensioners, fixed wage workers and savers with fixed deposit go suffer because their fixed money no go fit buy plenty tin again.",
+"py": null,
+"values": null,
+"id": "weco1105",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which statement correctly distinguishes deflation from disinflation?",
+"options": [
+"Deflation is a rise in the general price level while disinflation is a fall in the general price level",
+"Deflation means prices and inflation are both rising rapidly, while disinflation means they are both rising slowly",
+"Deflation is a persistent fall in the general price level, while disinflation is simply a slowdown in the rate at which prices are rising",
+"Deflation and disinflation both refer to the same continuous fall in the general price level of goods"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Deflation occurs when the general price level actually falls over time, while disinflation means prices are still rising but at a slower rate than before (inflation is reducing, not reversing). Option A reverses the definitions, and B and D confuse the two concepts as if they were identical or both rising.",
+"pidgin": "Deflation na when prices dey really fall for economy, but disinflation na when prices still dey rise but the speed don slow down (inflation rate dey reduce, e no reverse). Option A don mix up di definitions, B and D dey confuse di two words as if na one thing.",
+"py": null,
+"values": null,
+"id": "weco1106",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "During the Christmas festive season, many families in Onitsha market rushed to buy large quantities of rice and chicken for celebration, while the quantity supplied by traders stayed the same as usual. As a result, prices shot up sharply. This type of inflation is best described as:",
+"options": [
+"Cost-push inflation",
+"Imported inflation",
+"Demand-pull inflation",
+"Structural inflation"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Prices rose because buyers' demand increased sharply while supply stayed fixed, which is the main feature of demand-pull inflation. Cost-push inflation comes from rising production costs, imported inflation comes from rising prices of imported goods, and structural inflation comes from weaknesses in the economy's structure, none of which apply here.",
+"pidgin": "Prices go up because people wan buy pass wetin dey available, but supply no change — na so demand-pull inflation dey happen. Cost-push na from cost of production wey rise, imported inflation na from goods wey dem bring from abroad wey cost more, structural inflation na from problem for economy structure.",
+"py": null,
+"values": null,
+"id": "weco1102",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:A seasonal rise in specific prices does not establish inflation.|"
+},
+{
+"q": {
+"q": "When the government increased the pump price of fuel, transporters raised their fares, and this made the prices of foodstuffs brought from the farms to urban markets to increase as well. This type of inflation is called:",
+"options": [
+"Demand-pull inflation",
+"Cost-push inflation",
+"Creeping inflation",
+"Hyperinflation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Prices rose because the cost of production and transportation (fuel) increased, pushing up prices of goods; this is the key feature of cost-push inflation. Demand-pull inflation is caused by excess demand, creeping inflation refers to a slow mild rise, and hyperinflation refers to an extremely rapid uncontrolled rise, none of which describe this specific cause.",
+"pidgin": "Fuel price wey rise cause transport cost to rise, and e cause goods wey dem carry comot from farm reach market to cost more — na cost-push inflation be dat. Demand-pull na from plenty demand, creeping na small small rise, hyperinflation na wen prices rise too fast pass level.",
+"py": null,
+"values": null,
+"id": "weco1103",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:A one-off rise in transport and food prices does not establish inflation.|"
+}
+]
+}

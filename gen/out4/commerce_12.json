@@ -1,0 +1,169 @@
+{
+"subject": "commerce",
+"topic": "Warehousing",
+"ti": 12,
+"generated": 7,
+"kept": [
+{
+"q": "In Commerce, warehousing simply means the:",
+"options": [
+"storage of goods in a safe place until they are needed",
+"act of transporting goods from producer to consumer",
+"process of buying goods in bulk and selling in bits",
+"advertising of goods to attract customers"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Warehousing is the holding or keeping of goods safely in a store until they are required for sale or use. It is different from transporting, buying/selling in bits, or advertising, which are other trade activities.",
+"pidgin": "Warehousing na to keep goods well-well for one safe place until the time wey dem go need am. E no be about carry goods go buyer, buy-and-sell for small-small, or to advertise goods.",
+"py": null,
+"values": null,
+"id": "wcom1200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A type of warehouse where imported goods are kept under the watch of customs officers, and import duty is not paid until the goods are released for sale, is called a ___ warehouse.",
+"options": [
+"Private",
+"Public",
+"Cold storage",
+"Bonded"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "A bonded warehouse is controlled by customs officials and holds imported goods until the importer pays the required duty before release. This is different from private, public or cold storage warehouses, which do not focus on duty collection.",
+"pidgin": "Bonded warehouse na the one wey customs people dey control, and dem no go collect duty until the importer wan release the goods. E different from private, public or cold storage warehouse.",
+"py": null,
+"values": null,
+"id": "wcom1201",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best describes the importance of warehousing to trade?",
+"options": [
+"It increases the price of goods immediately they are produced",
+"It helps to bridge the time gap between production and consumption",
+"It makes goods available only during periods of scarcity",
+"It reduces the quality of goods that are stored"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Warehousing allows goods produced at one time to be stored and made available later when consumers need them, thereby linking production time with consumption time. It does not necessarily raise prices or reduce quality.",
+"pidgin": "Warehousing dey help connect the time wey dem produce goods and the time wey people go need am, so e dey fill the gap between production and when people go buy am. E no be say e go automatically raise price or spoil the goods.",
+"py": null,
+"values": null,
+"id": "wcom1202",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The document issued by a warehouse keeper to show that specific goods have been deposited in the warehouse, and which can also be used to transfer ownership of the goods to another person, is called a:",
+"options": [
+"Bill of lading",
+"Invoice",
+"Warehouse warrant",
+"Certificate of origin"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A warehouse warrant is proof that goods are stored in a named warehouse, and it can be endorsed to another person to transfer ownership without moving the goods physically. A bill of lading covers sea transport, an invoice is a bill for goods sold, and a certificate of origin shows where goods were produced.",
+"pidgin": "Warehouse warrant na the paper wey show say dem don keep particular goods for warehouse, and you fit sign am give another person to transfer ownership. Bill of lading na for sea transport, invoice na bill for goods wey dem sell, and certificate of origin na for where dem produce the goods.",
+"py": null,
+"values": null,
+"id": "wcom1203",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is a major advantage of a bonded warehouse to an importer who is not yet ready to sell his imported goods?",
+"options": [
+"He pays import duty in full before his goods can be stored",
+"He automatically loses ownership of the goods to the government",
+"He must sell the goods within 24 hours of arrival",
+"He can store the goods and delay payment of duty until he is ready to release them"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A bonded warehouse allows an importer to keep goods safely without paying duty immediately, only paying when the goods are actually released for sale. This gives the importer time and reduces pressure to sell quickly or raise money for duty at once.",
+"pidgin": "Bonded warehouse dey allow importer keep im goods well without paying duty sharp-sharp; e go only pay duty when e wan release the goods for market. This one dey give am time and e no go rush sell the goods or rush find money for duty.",
+"py": null,
+"values": null,
+"id": "wcom1204",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Chioma stored 180 crates of soft drinks in a public warehouse in Onitsha. The warehouse charges ₦25 per crate for the first 4 weeks, and ₦10 per crate for each additional week after that. If she left the crates in the warehouse for a total of 6 weeks, how much rent did she pay altogether?",
+"options": [
+"₦8,100",
+"₦7,200",
+"₦9,000",
+"₦6,300"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "First charge: 180 crates x ₦25 = ₦4,500 for the first 4 weeks. Extra weeks = 6 - 4 = 2 weeks, so extra charge = 180 x ₦10 x 2 = ₦3,600. Total rent = ₦4,500 + ₦3,600 = ₦8,100.",
+"pidgin": "First charge: 180 crates x ₦25 = ₦4,500 for the first 4 weeks. The extra weeks na 6 minus 4 = 2 weeks, so extra money = 180 x ₦10 x 2 = ₦3,600. Add dem together: ₦4,500 + ₦3,600 = ₦8,100.",
+"py": "180*25 + 180*10*2",
+"values": [
+8100,
+7200,
+9000,
+6300
+],
+"id": "wcom1205",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Alhaji Musa owns a large rice mill and built his own storage facility only to keep his company's bags of rice before they are sent out to his regular distributors. This type of warehouse is best described as a:",
+"options": [
+"Public warehouse",
+"Bonded warehouse",
+"Private warehouse",
+"Government warehouse"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A private warehouse is owned and used by one business solely for storing its own goods, as in Alhaji Musa's case. A public warehouse serves many different businesses, a bonded warehouse is for duty-unpaid imports, and a government warehouse belongs to the state.",
+"pidgin": "Private warehouse na the one wey one company build and use only for im own goods, like wetin Alhaji Musa do. Public warehouse na for many different businesses, bonded warehouse na for imported goods wey duty never pay, and government warehouse na property of government.",
+"py": null,
+"values": null,
+"id": "wcom1206",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

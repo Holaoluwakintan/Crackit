@@ -1,0 +1,169 @@
+{
+"subject": "economics",
+"topic": "Market structures (perfect competition, monopoly, oligopoly)",
+"ti": 8,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best describes a market structure where there are many buyers and sellers of a homogeneous (identical) product, with freedom of entry and exit for firms?",
+"options": [
+"Perfect competition",
+"Oligopoly",
+"Monopoly",
+"Monopolistic competition"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Perfect competition is a market with many buyers and sellers selling identical goods, and firms can enter or leave the market freely. No single firm can influence the price because each one is too small.",
+"pidgin": "Perfect competition na market wey get plenty buyer and seller wey dey sell the same kind product, and any company fit enter or comot anytime. No single company fit control the price because dem too small.",
+"py": null,
+"values": null,
+"id": "weco0800",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A market situation where a single firm is the sole producer of a commodity that has no close substitute is known as:",
+"options": [
+"Duopoly",
+"Monopoly",
+"Oligopoly",
+"Perfect competition"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Monopoly exists when only one firm controls the entire supply of a product and there is no close substitute, so the firm has full control over price and output.",
+"pidgin": "Monopoly na when one company alone dey control the whole supply of one product and no other product fit replace am. Na only that company dey fix the price and how much e go produce.",
+"py": null,
+"values": null,
+"id": "weco0801",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a key feature of an oligopolistic market such as the Nigerian telecommunications industry with a few dominant network providers?",
+"options": [
+"Firms produce identical products only",
+"Price is determined by market forces alone",
+"Firms are interdependent in their pricing and output decisions",
+"There are no barriers to entry"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "In oligopoly, because few large firms dominate the market, any pricing or output decision by one firm directly affects the others, so firms watch and react to each other's actions. This mutual dependence is called interdependence.",
+"pidgin": "For oligopoly, na few big companies dey control the market, so if one company change price or wetin e dey produce, e go affect the others. Dis kain connection na wetin dem call interdependence.",
+"py": null,
+"values": null,
+"id": "weco0802",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Under perfect competition, a single firm is described as a 'price taker' mainly because:",
+"options": [
+"The firm fixes its own price to maximize profit",
+"The government controls the price of the product",
+"There is only one firm supplying the whole market",
+"The firm's output is too small to influence the market price"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Since there are many small firms in perfect competition, each firm's output is a tiny fraction of total market supply. No single firm can raise or lower the market price by changing its own output, so each firm simply accepts (takes) the price set by the market.",
+"pidgin": "Because plenty small company dey for perfect competition, one company output no reach change the market price at all. So each company just dey accept the price wey the market set, na why dem call am 'price taker'.",
+"py": null,
+"values": null,
+"id": "weco0803",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is an example of a natural barrier to entry that can give rise to monopoly power?",
+"options": [
+"Exclusive ownership or control of a key raw material needed for production",
+"High level of competition among many sellers",
+"Government subsidy given equally to all new firms",
+"Free advertising offered by the firm to attract customers"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A natural barrier to entry occurs when one firm has sole control of a vital resource, such as a rare mineral deposit, which prevents other firms from entering the industry and competing. This gives the controlling firm monopoly power.",
+"pidgin": "Natural barrier to entry na when one company alone get control over important raw material, like rare mineral, so other company no fit enter the business to compete. Dis one go give the company monopoly power.",
+"py": null,
+"values": null,
+"id": "weco0804",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a certain industry, five firms share the market as follows: Firm P = 30%, Firm Q = 20%, Firm R = 25%, Firm S = 15%, Firm T = 10%. What is the four-firm concentration ratio (the combined market share of the four largest firms)?",
+"options": [
+"70%",
+"90%",
+"80%",
+"100%"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Arrange the shares from highest to lowest: P=30%, R=25%, Q=20%, S=15%, T=10%. The four largest are P, R, Q and S, so the four-firm concentration ratio = 30+25+20+15 = 90%.",
+"pidgin": "Arrange the shares from biggest to smallest: P=30%, R=25%, Q=20%, S=15%, T=10%. The four biggest na P, R, Q and S, so the four-firm concentration ratio = 30+25+20+15 = 90%.",
+"py": "30+25+20+15",
+"values": [
+70,
+90,
+80,
+100
+],
+"id": "weco0805",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The kinked demand curve theory in economics is mainly used to explain why firms in an oligopolistic market tend to:",
+"options": [
+"Always change prices frequently to attract customers",
+"Produce at the lowest possible cost always",
+"Keep their prices stable once set, fearing how rivals will react",
+"Earn zero economic profit in the long run"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The kinked demand curve theory shows that if an oligopolist raises its price, rivals will not follow, so it loses many customers; but if it lowers its price, rivals will match it, so it gains little. This makes firms prefer to keep prices stable rather than risk a price war.",
+"pidgin": "Kinked demand curve theory show say if oligopolist increase price, im rival no go follow am, so e go lose plenty customer; but if e reduce price, rival go follow am reduce theirs too, so e no go gain plenty. Na why most of dem prefer to leave price steady instead of start price war.",
+"py": null,
+"values": null,
+"id": "weco0806",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,147 @@
+{
+"subject": "chemistry",
+"topic": "Organic functional groups (alcohols, acids, esters) and polymers",
+"ti": 15,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following functional groups is present in all alcohols (alkanols)?",
+"options": [
+"-OH (hydroxyl group)",
+"-COOH (carboxyl group)",
+"-CHO (aldehyde group)",
+"-COO- (ester linkage)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Alcohols are organic compounds whose molecules contain the hydroxyl group, -OH, attached to a carbon chain. The other groups belong to acids, aldehydes and esters respectively, not alcohols.",
+"pidgin": "Alcohol na compound wey get -OH group for im molecule. The other groups na for acid, aldehyde and ester, no be alcohol.",
+"py": null,
+"values": null,
+"id": "wche1500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "To which homologous series does ethanoic acid, CH3COOH, belong?",
+"options": [
+"Alkanols",
+"Alkenes",
+"Alkanoic acids",
+"Alkyl alkanoates"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Ethanoic acid contains the carboxyl group -COOH, which is the functional group that defines the alkanoic acid (carboxylic acid) homologous series. Alkanols have -OH and alkyl alkanoates (esters) have -COO-.",
+"pidgin": "Ethanoic acid get -COOH group, na im be the mark for alkanoic acid family. Alkanol get -OH while ester (alkyl alkanoate) get -COO-.",
+"py": null,
+"values": null,
+"id": "wche1501",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When ethanol reacts with ethanoic acid in the presence of a few drops of concentrated trioxosulphate(VI) acid as catalyst, the products formed are:",
+"options": [
+"methyl ethanoate and water",
+"ethyl ethanoate and water",
+"ethoxyethane and hydrogen",
+"ethane and oxygen"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "This is esterification: an alcohol reacts with a carboxylic acid, with conc. H2SO4 as catalyst and dehydrating agent, to form an ester and water. Ethanol + ethanoic acid gives ethyl ethanoate (the ester) and water.",
+"pidgin": "Dis na esterification: alcohol plus acid, wit conc. H2SO4 as catalyst, dey form ester and water. So ethanol plus ethanoic acid go give ethyl ethanoate and water.",
+"py": null,
+"values": null,
+"id": "wche1502",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following compounds is an ester?",
+"options": [
+"CH3COOH (ethanoic acid)",
+"CH3CH2OH (ethanol)",
+"CH3CHO (ethanal)",
+"CH3COOCH3 (methyl ethanoate)"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Esters have the general functional group -COO- joining two carbon chains, as seen in CH3COOCH3 (methyl ethanoate). The other compounds are a carboxylic acid, an alcohol and an aldehyde respectively.",
+"pidgin": "Ester get -COO- group wey dey join two carbon chain, like for CH3COOCH3 (methyl ethanoate). The other ones na acid, alcohol and aldehyde.",
+"py": null,
+"values": null,
+"id": "wche1503",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following polymers is produced by condensation polymerisation, with a small molecule such as water lost during the reaction?",
+"options": [
+"Polyethene (polythene)",
+"Polyvinyl chloride (PVC)",
+"Nylon",
+"Polystyrene"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Nylon is made by condensation polymerisation of a diamine and a dicarboxylic acid, with water eliminated as each bond forms. Polyethene, PVC and polystyrene are all addition polymers formed from alkene-type monomers with no by-product lost.",
+"pidgin": "Nylon dey form from condensation polymerisation, wia diamine and diacid dey join and water dey comot. Polyethene, PVC and polystyrene na addition polymer, no by-product dey comot.",
+"py": null,
+"values": null,
+"id": "wche1504",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student prepares an ester by reacting methanoic acid with methanol. The product is methyl methanoate, HCOOCH3. What is the molar mass of this ester? [H=1, C=12, O=16]",
+"options": [
+"60 g/mol",
+"74 g/mol",
+"46 g/mol",
+"32 g/mol"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Methyl methanoate, HCOOCH3, has the formula C2H4O2. Molar mass = (2 x 12) + (4 x 1) + (2 x 16) = 24 + 4 + 32 = 60 g/mol.",
+"pidgin": "Methyl methanoate, HCOOCH3, na C2H4O2. Molar mass = (2 x 12) + (4 x 1) + (2 x 16) = 24 + 4 + 32 = 60 g/mol.",
+"py": "2*12 + 4*1 + 2*16",
+"values": [
+60,
+74,
+46,
+32
+],
+"id": "wche1505",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

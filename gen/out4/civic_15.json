@@ -1,0 +1,149 @@
+{
+"subject": "civic",
+"topic": "Civil society and popular participation",
+"ti": 15,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines 'civil society' as used in Civic Education?",
+"options": [
+"A group of citizens who voluntarily organize to pursue shared interests, independent of government control",
+"A government agency that collects taxes and fines from citizens",
+"The armed forces that defend the country from external attack",
+"A political party that contests elections to form government"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Civil society refers to voluntary associations formed by citizens, separate from government, to pursue common interests such as human rights, welfare or development. It is not a government body, the military, or a political party.",
+"pidgin": "Civil society na when citizens come together by themselves, no be government, to chase common interest. E no be government agency, army or political party.",
+"id": "wciv1500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these organisations is commonly classified as a civil society organisation in Nigeria?",
+"options": [
+"Independent National Electoral Commission",
+"Nigeria Labour Congress",
+"Nigeria Police Force",
+"Federal Ministry of Justice"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Nigeria Labour Congress is a voluntary association of workers that is not part of government, making it a civil society organisation. INEC, the Police, and the Ministry of Justice are government bodies.",
+"pidgin": "Nigeria Labour Congress na workers association wey no be part of government, so e be civil society. INEC, Police and Ministry of Justice na government bodies.",
+"id": "wciv1501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "One major feature that distinguishes civil society organisations from political parties is that civil society organisations...",
+"options": [
+"do not seek to win political power or form government",
+"are funded solely by the federal government",
+"must register with INEC as political parties",
+"are directly controlled by the ruling government"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Civil society groups advocate for causes and influence policy but do not contest elections to control government, unlike political parties. This is their key distinguishing feature.",
+"pidgin": "Civil society groups dey advocate for cause but dem no dey contest election to rule. Na wetin different dem from political party wey dey struggle for power.",
+"id": "wciv1502",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Popular participation in governance is best demonstrated when citizens...",
+"options": [
+"refuse to pay any form of tax to government",
+"wait silently for government officials to solve community problems alone",
+"vote during elections and contribute opinions at town hall meetings",
+"avoid getting involved in any public issue at all"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Popular participation means citizens actively taking part in governance through actions like voting and attending community meetings to express views. Avoiding involvement or refusing civic duties is the opposite of participation.",
+"pidgin": "Popular participation mean say citizens dey actively show face for governance, like to vote and talk their mind for town hall meeting. To dey avoid everything no be participation.",
+"id": "wciv1503",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is a major importance of civil society organisations to a democratic government?",
+"options": [
+"They take over the duties of the three arms of government",
+"They check government excesses and promote accountability",
+"They are responsible for printing the national currency",
+"They appoint judges to the Supreme Court"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Civil society organisations watch over government actions, expose corruption, and demand accountability, strengthening democracy. They do not perform official government functions like printing money or appointing judges.",
+"pidgin": "Civil society dey watch government, expose corruption and push for accountability. Dem no dey print money or appoint judges, na government work be that.",
+"id": "wciv1504",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In Ogbomoso town, a group of market women formed an association to press the local government to repair a bad road. They gathered signatures, organised peaceful protests, and met council officials, but did not contest for any political office. This association is best described as:",
+"options": [
+"a political party",
+"a pressure group within civil society",
+"an arm of the local government",
+"a security outfit"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The market women's association used peaceful advocacy methods to influence government decisions without seeking political office, which is the exact definition of a pressure group within civil society. It is not a political party, government arm, or security outfit.",
+"pidgin": "Di market women use peaceful protest and meeting to push government, but dem no wan rule. Na so pressure group for civil society dey work, e no be political party or government arm.",
+"id": "wciv1505",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following situations would most likely discourage effective popular participation in governance?",
+"options": [
+"Regular free and fair elections",
+"Widespread illiteracy and low civic awareness among citizens",
+"The existence of independent civil society organisations",
+"Availability of several registered political parties"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "When citizens lack education and civic awareness, they cannot understand their rights or effectively engage in governance, which weakens popular participation. Free elections, civil society groups, and multiple parties actually encourage participation.",
+"pidgin": "If people no sabi read or no get civic awareness, dem no fit sabi dia rights or join governance well. Free election, civil society and plenty parties na things wey dey help participation, no be wahala.",
+"id": "wciv1506",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

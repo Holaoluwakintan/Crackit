@@ -1,0 +1,186 @@
+{
+"subject": "accounting",
+"topic": "Accounting concepts and conventions",
+"generated": 8,
+"kept": [
+{
+"q": "Which accounting concept states that a business is treated as a unit separate and distinct from its owner(s), so that the owner's personal transactions are not mixed with the business records?",
+"options": [
+"Going concern concept",
+"Business entity concept",
+"Money measurement concept",
+"Consistency concept"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The business entity concept says the business is a separate accounting unit from the owner. This is why an owner's personal spending, like school fees, is not recorded in the business books.",
+"pidgin": "Business entity concept dey talk say business na separate thing from di owner. Na why owner personal spending, like school fees, no go enter business book.",
+"py": null,
+"values": null,
+"id": "accv0100",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Alhaja Fatima's company is expected to continue operating for the foreseeable future, so its assets are recorded at cost rather than at the price they would fetch if the business were to be closed down immediately. Which accounting concept is being applied?",
+"options": [
+"Prudence concept",
+"Realization concept",
+"Going concern concept",
+"Materiality concept"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The going concern concept assumes the business will continue to operate indefinitely, so assets are valued at cost of use, not forced sale/liquidation value.",
+"pidgin": "Going concern concept dey assume say business go still dey operate for future, so dem go value assets based on cost, no be say business wan close now-now.",
+"py": null,
+"values": null,
+"id": "accv0101",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A company has used the straight-line method of depreciation for its delivery vans for the past five years. Which accounting concept requires that the company should NOT switch to the reducing balance method without good reason, and must disclose any such change?",
+"options": [
+"Consistency concept",
+"Accrual concept",
+"Dual aspect concept",
+"Objectivity concept"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The consistency concept requires that once an accounting method is adopted, it should be applied from one period to another so that financial statements can be compared over time. Changes must be justified and disclosed.",
+"pidgin": "Consistency concept say once company choose one method, dem must dey use am every year so dat people fit compare di accounts well-well. If dem wan change am, dem must give good reason and talk am open.",
+"py": null,
+"values": null,
+"id": "accv0102",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Alhaji Musa has 100 bags of rice in his store at the end of the year. Each bag cost ₦5,000 to buy, but due to a fall in market price, each bag can now only be sold for ₦4,500 (net realizable value). Under the prudence concept, at what value should the closing stock of rice be reported in the financial statements?",
+"options": [
+"₦500,000",
+"₦450,000",
+"₦475,000",
+"₦950,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The prudence concept requires stock to be valued at the lower of cost and net realizable value. Since ₦4,500 (NRV) is lower than ₦5,000 (cost), stock = 100 x ₦4,500 = ₦450,000.",
+"pidgin": "Prudence concept say make dem use di lower price between cost and net realizable value for stock. Since ₦4,500 dey lower pass ₦5,000, dem go use am: 100 x ₦4,500 = ₦450,000.",
+"py": "100*4500",
+"values": [
+500000,
+450000,
+475000,
+950000
+],
+"id": "accv0103",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Mr. Okafor's accountant refused to record the 'excellent team spirit' of the company's staff as an asset in the statement of financial position of Okafor Ventures. This refusal is best explained by which accounting concept?",
+"options": [
+"Matching concept",
+"Money measurement concept",
+"Materiality concept",
+"Prudence concept"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The money measurement concept states that only items that can be expressed in monetary terms are recorded in the accounts. Team spirit, though valuable, cannot be reliably measured in naira, so it is excluded.",
+"pidgin": "Money measurement concept say na only tins wey you fit put money value go enter di account. Team spirit, even though e good, you no fit put naira figure on top am, so e no go enter book.",
+"py": null,
+"values": null,
+"id": "accv0104",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Chika Stores paid ₦180,000 as rent covering the period 1 October 2023 to 30 September 2024 (12 equal months). If the company's financial year ends on 31 December 2023, how much rent expense should be charged to the 2023 financial statements under the matching (accrual) concept?",
+"options": [
+"₦45,000",
+"₦135,000",
+"₦180,000",
+"₦90,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Only the rent relating to the 2023 period (October, November, December = 3 months) should be charged to 2023, the rest is a prepayment for 2024. Monthly rent = ₦180,000/12 = ₦15,000, so 3 months = ₦45,000.",
+"pidgin": "Na only di rent wey belong to 2023 (Oct, Nov, Dec = 3 months) go enter 2023 account, di rest na prepayment for 2024. One month rent = ₦180,000/12 = ₦15,000, so 3 months = ₦45,000.",
+"py": "180000*3/12",
+"values": [
+45000,
+135000,
+180000,
+90000
+],
+"id": "accv0105",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Adaeze Enterprises bought a small stapler for ₦1,500, expected to last for 5 years. Instead of recording it as a non-current asset and spreading its cost through depreciation, the accountant charged the full ₦1,500 as an expense in the year it was bought. Which accounting concept justifies this treatment?",
+"options": [
+"Consistency concept",
+"Materiality concept",
+"Going concern concept",
+"Dual aspect concept"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The materiality concept allows items of very small (insignificant) value to be treated in the simplest way, such as charging them off as an expense immediately, since treating them as an asset would not meaningfully affect the financial statements.",
+"pidgin": "Materiality concept allow small small amount wey no go really affect di account to dey treated simple way, like to just charge am as expense one time, instead of to dey spread am as asset for years.",
+"py": null,
+"values": null,
+"id": "accv0106",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A business has total assets of ₦800,000 and total liabilities of ₦350,000. Applying the dual aspect (accounting equation) concept, what is the value of the owner's capital (equity)?",
+"options": [
+"₦450,000",
+"₦1,150,000",
+"₦350,000",
+"₦800,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The dual aspect concept is expressed as Assets = Liabilities + Capital. Rearranging, Capital = Assets - Liabilities = ₦800,000 - ₦350,000 = ₦450,000.",
+"pidgin": "Dual aspect concept na Assets = Liabilities + Capital. If you rearrange am, Capital = Assets - Liabilities = ₦800,000 - ₦350,000 = ₦450,000.",
+"py": "800000-350000",
+"values": [
+450000,
+1150000,
+350000,
+800000
+],
+"id": "accv0107",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

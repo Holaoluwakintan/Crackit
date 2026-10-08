@@ -1,0 +1,171 @@
+{
+"subject": "physics",
+"topic": "Motion: speed, velocity, acceleration and equations of motion",
+"ti": 2,
+"generated": 6,
+"kept": [
+{
+"q": "A danfo bus travels a distance of 150 km in 3 hours at a constant speed. Calculate the speed of the bus.",
+"options": [
+"45 km/h",
+"50 km/h",
+"55 km/h",
+"500 km/h"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Speed = distance / time = 150 km / 3 h = 50 km/h.",
+"pidgin": "Speed na distance divide by time: 150 km divide by 3 h = 50 km/h.",
+"py": "150/3",
+"values": [
+45,
+50,
+55,
+500
+],
+"id": "wphy0200",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following best defines velocity of a moving body?",
+"options": [
+"rate of change of distance with time",
+"rate of change of speed with time",
+"rate of change of displacement with time",
+"rate of change of acceleration with time"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Velocity is a vector quantity defined as the rate of change of displacement (distance in a specified direction) with time, unlike speed which only considers distance.",
+"pidgin": "Velocity na how fast displacement (distance with direction) dey change with time, e get direction unlike speed.",
+"py": null,
+"values": null,
+"id": "wphy0201",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidi drives from Enugu to Onitsha, a distance of 120 km, in 2 hours. He returns to Enugu along the same route in 3 hours. Calculate his average speed for the whole journey.",
+"options": [
+"40 km/h",
+"42 km/h",
+"60 km/h",
+"48 km/h"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Total distance = 120 km + 120 km = 240 km, total time = 2 h + 3 h = 5 h. Average speed = total distance / total time = 240/5 = 48 km/h.",
+"pidgin": "Total distance na 240 km, total time na 5 hours, so average speed = 240/5 = 48 km/h.",
+"py": "240/5",
+"values": [
+40,
+42,
+60,
+48
+],
+"id": "wphy0202",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A motorcycle increases its velocity uniformly from 5 m/s to 25 m/s in 4 seconds. Calculate its acceleration.",
+"options": [
+"5 m/s^2",
+"4 m/s^2",
+"6 m/s^2",
+"7.5 m/s^2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Acceleration a = (v - u)/t = (25 - 5)/4 = 20/4 = 5 m/s^2.",
+"pidgin": "Acceleration = (v minus u) divide by time = (25-5)/4 = 5 m/s^2.",
+"py": "(25-5)/4",
+"values": [
+5,
+4,
+6,
+7.5
+],
+"id": "wphy0203",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A car starts from rest and accelerates uniformly at 2 m/s^2 for 10 seconds. Calculate the distance it covers in this time.",
+"options": [
+"80 m",
+"200 m",
+"100 m",
+"120 m"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Using s = ut + (1/2)at^2 with u = 0, a = 2 m/s^2, t = 10 s: s = 0 + 0.5 x 2 x 10^2 = 100 m.",
+"pidgin": "Use s = ut + 1/2 at^2, since u = 0: s = 0.5 x 2 x 10^2 = 100 m.",
+"py": "0*10+0.5*2*10**2",
+"values": [
+80,
+200,
+100,
+120
+],
+"id": "wphy0204",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A football is kicked vertically upward with an initial velocity of 20 m/s. Taking g = 10 m/s^2 and ignoring air resistance, calculate the maximum height reached by the ball.",
+"options": [
+"10 m",
+"20 m",
+"40 m",
+"400 m"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At maximum height, final velocity v = 0. Using v^2 = u^2 - 2gh: 0 = 20^2 - 2(10)h, so 20h = 400, giving h = 20 m.",
+"pidgin": "For the highest point, v = 0. From v^2 = u^2 - 2gh: 0 = 400 - 20h, so h = 400/20 = 20 m.",
+"py": "20**2/(2*10)",
+"values": [
+10,
+20,
+40,
+400
+],
+"id": "wphy0205",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

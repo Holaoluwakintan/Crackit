@@ -1,0 +1,168 @@
+{
+"subject": "accounting",
+"topic": "Source documents and books of original entry",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes a 'source document' in accounting?",
+"options": [
+"A document that provides evidence of a business transaction and contains details used to record it in the books",
+"A summary document prepared after the final accounts have been drawn up",
+"A document used only to prepare the trial balance",
+"A document issued only by commercial banks to their customers"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A source document is the original evidence of a transaction (e.g. invoice, receipt, cheque) from which entries are first made in the books of original entry. It is prepared at the time the transaction happens, not after final accounts.",
+"pidgin": "Source document na the first paper wey show say transaction happen, e dey contain all the details wey dem go use enter am for book. E no be summary wey dem do after final accounts.",
+"py": null,
+"values": null,
+"id": "accv0200",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which source document is prepared by a seller and sent to a buyer when goods are sold on credit?",
+"options": [
+"Receipt",
+"Invoice",
+"Credit note",
+"Debit note"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An invoice is the document a seller issues to a buyer showing details of goods sold on credit, including quantity, price and amount owed. A receipt is for cash already paid, while credit and debit notes are for adjustments after the sale.",
+"pidgin": "Invoice na the paper wey the seller give the buyer wen e sell goods on credit, e dey show quantity, price and the amount wey the buyer owe. Receipt na for when money don already pay, while credit and debit note na for correction after sale.",
+"py": null,
+"values": null,
+"id": "accv0201",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Chidinma bought goods worth ₦40,000 on credit from Mama Nkechi's store. Three days later, she returned damaged goods worth ₦5,000 to the store. Which source document will Mama Nkechi issue to Chidinma to acknowledge the returned goods?",
+"options": [
+"Invoice",
+"Debit note",
+"Credit note",
+"Local purchase order"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When a seller receives returned goods from a customer, the seller issues a credit note to reduce the amount the customer owes. A debit note would instead be issued by the buyer or to increase a customer's debt.",
+"pidgin": "Wen seller receive goods wey customer return, dem go give am credit note to reduce the money wey e owe. Debit note na different thing, na to increase wetin customer owe or wen buyer dey send am.",
+"py": null,
+"values": null,
+"id": "accv0202",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Baba Sule's business was undercharged by ₦2,000 on an invoice for goods it bought on credit from a supplier. Which document will the supplier send to Baba Sule to correct this undercharge?",
+"options": [
+"Credit note",
+"Receipt",
+"Debit note",
+"Statement of account"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A debit note is issued when a seller wants to increase the amount a buyer owes, such as correcting an undercharge on a previous invoice. A credit note does the opposite, reducing the amount owed.",
+"pidgin": "Debit note na wetin seller go send wen e wan increase wetin buyer owe, like wen dem undercharge am for invoice before. Credit note na im dey do the opposite, e dey reduce the debt.",
+"py": null,
+"values": null,
+"id": "accv0203",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "All credit purchases of goods meant for resale are first recorded, from the source documents, in which book of original entry before being posted to the ledger?",
+"options": [
+"Sales journal",
+"Cash book",
+"Purchases journal",
+"Journal proper"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The purchases journal (also called purchases day book) is used to record all credit purchases of goods meant for resale, based on invoices received from suppliers. Cash purchases go to the cash book instead.",
+"pidgin": "Purchases journal na where dem dey first write all credit purchases of goods wey dem wan resale, based on invoice wey supplier give. Cash purchases na im dey enter cash book.",
+"py": null,
+"values": null,
+"id": "accv0204",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "When a trading business returns goods earlier bought on credit back to its supplier, in which book of original entry will this transaction first be recorded?",
+"options": [
+"Sales journal",
+"Returns outwards journal",
+"Returns inwards journal",
+"Purchases journal"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Goods returned to a supplier are called returns outwards (or purchases returns) from the buyer's point of view, and are recorded in the returns outwards journal using the debit note received. Returns inwards journal is for goods customers return to the business.",
+"pidgin": "Wen business return goods wey e buy on credit back to supplier, na returns outwards (purchases returns) dem dey call am, and dem go record am for returns outwards journal based on debit note. Returns inwards na for wen customer return goods come back to the business.",
+"py": null,
+"values": null,
+"id": "accv0205",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "On the same day, Alhaji Musa's shop sold goods on credit worth ₦45,000 to Tunde, and also received a cheque of ₦30,000 from Ngozi in settlement of an old debt. In which books of original entry will these two transactions, respectively, first be recorded?",
+"options": [
+"Cash book, then sales journal",
+"Sales journal, then cash book",
+"Purchases journal, then cash book",
+"Sales journal, then journal proper"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The credit sale to Tunde is first entered in the sales journal because it is a credit sale of goods. The cheque received from Ngozi is a cash/bank receipt, so it goes straight into the cash book, not the sales journal again.",
+"pidgin": "The credit sale wey dem give Tunde na im dem go first enter inside sales journal because na credit sale of goods. The cheque wey come from Ngozi na cash/bank money wey enter, so na cash book e go enter, no be sales journal again.",
+"py": null,
+"values": null,
+"id": "accv0206",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following transactions would normally be recorded in the journal proper (general journal) rather than in any special book of original entry?",
+"options": [
+"Credit sale of goods to a customer",
+"Purchase of a delivery van on credit for business use",
+"Cash purchase of office stationery",
+"Credit purchase of goods meant for resale"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The journal proper records transactions that do not fit the special books, such as the credit purchase of a fixed (non-current) asset like a delivery van, since it is not goods for resale. Credit sales, credit purchases of trading goods, and cash transactions each have their own special books.",
+"pidgin": "Journal proper na where dem dey record transactions wey no fit enter the special books, like wen business buy delivery van on credit, because the van no be goods for resale. Credit sales, credit purchase of trading goods and cash transactions get their own special books.",
+"py": null,
+"values": null,
+"id": "accv0207",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

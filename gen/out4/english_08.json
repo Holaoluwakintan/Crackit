@@ -1,0 +1,149 @@
+{
+"subject": "english",
+"topic": "Sentence interpretation (meaning of sentences)",
+"ti": 8,
+"generated": 7,
+"kept": [
+{
+"q": "What is the meaning of this sentence? \"It was not until Ngozi got to Lagos that she realized she had forgotten her certificates at home.\"",
+"options": [
+"Ngozi realized she had forgotten her certificates before she left for Lagos.",
+"Ngozi forgot her certificates only after she got to Lagos.",
+"Ngozi did not realize she had forgotten her certificates until she arrived in Lagos.",
+"Ngozi never forgot her certificates at home."
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The phrase 'not until... that' shows the realization only happened when Ngozi got to Lagos, not before. So she discovered her mistake after arriving, not before leaving.",
+"pidgin": "Di phrase 'not until... that' mean say na when Ngozi reach Lagos she come notice say she forget her certificates. E no be say she don already know before she travel.",
+"id": "weng0800",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the meaning of this sentence? \"Chidi is yet to finish his assignment.\"",
+"options": [
+"Chidi has finished his assignment already.",
+"Chidi has not finished his assignment.",
+"Chidi refused to do his assignment.",
+"Chidi will never finish his assignment."
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "'Yet to finish' means the action has not happened at the time of speaking. It simply means Chidi has not completed the assignment, with no suggestion of refusal or permanence.",
+"pidgin": "'Yet to finish' mean say di work never complete as dem dey talk am. E just mean Chidi never finish di assignment, no be say e refuse to do am.",
+"id": "weng0801",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the meaning of this sentence? \"Mr. Okafor is not unaware of the problems facing his business.\"",
+"options": [
+"Mr. Okafor does not know about the problems facing his business.",
+"Mr. Okafor is aware of the problems facing his business.",
+"Mr. Okafor has refused to solve the problems facing his business.",
+"Mr. Okafor is confused about his business problems."
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The sentence uses a double negative: 'not' + 'unaware'. Two negatives cancel out to give a positive meaning, so Mr. Okafor is indeed aware of the problems.",
+"pidgin": "Dis sentence get double negative: 'not' and 'unaware'. Wen you join two negative togeda, e turn to positive, so e mean Mr. Okafor sabi di problems well well.",
+"id": "weng0802",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the meaning of this sentence? \"Hardly had the teacher entered the class when the students began to make noise.\"",
+"options": [
+"The students made noise before the teacher entered the class.",
+"The students stopped making noise when the teacher entered.",
+"The students began making noise soon after the teacher entered the class.",
+"The teacher made noise before entering the class."
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "'Hardly... when' shows that two actions happened almost at the same time, with the second one (noise-making) following immediately after the first (teacher entering). So the noise started right after the teacher came in.",
+"pidgin": "'Hardly... when' dey show say two things happen almost same time, but di noise start immediately after teacher enter class. So di noise no come before, e come after small time.",
+"id": "weng0803",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the meaning of this sentence? \"Had Musa studied harder, he would have passed the examination.\"",
+"options": [
+"Musa studied hard and passed the examination.",
+"Musa did not study hard, so he failed the examination.",
+"Musa studied hard but still failed the examination.",
+"Musa will study harder next time to pass."
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "This is a conditional sentence (third conditional) showing an unreal past situation. Since Musa did not study harder, the implied result is that he failed the examination.",
+"pidgin": "Dis na conditional sentence wey dey show something wey no happen for di past. Since Musa no study hard, e mean say e fail di exam.",
+"id": "weng0804",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the meaning of this sentence? \"The chief's speech was nothing but empty promises.\"",
+"options": [
+"The chief's speech was full of useful ideas.",
+"The chief's speech contained only promises that will not be fulfilled.",
+"The chief refused to make any promises in his speech.",
+"The chief's speech was very short."
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "'Nothing but' means 'only'. 'Empty promises' means promises with no real intention of being kept. So the speech was made up only of promises that will likely not be fulfilled.",
+"pidgin": "'Nothing but' mean 'only'. 'Empty promises' mean promises wey no get real intention to fulfil. So di whole speech na just promises wey no go happen.",
+"id": "weng0805",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the meaning of this sentence? \"Were it not for the timely intervention of the police, the fight between the two communities would have escalated.\"",
+"options": [
+"The police did not intervene, so the fight escalated.",
+"The police's intervention came too late to stop the fight.",
+"The fight escalated despite the police's intervention.",
+"The police intervened on time and this prevented the fight from escalating."
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "This is a conditional sentence showing a situation that did not happen because something else prevented it. The police did intervene on time, and because of that timely action, the fight did not get worse.",
+"pidgin": "Dis na conditional sentence wey dey show say one thing no happen because another thing stop am. Police intervene on time, na im make di fight no escalate.",
+"id": "weng0806",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

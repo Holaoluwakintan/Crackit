@@ -1,0 +1,84 @@
+{
+"subject": "economics",
+"topic": "Theory of production: factors of production, laws of returns, division of labour",
+"generated": 3,
+"kept": [
+{
+"q": "In economics, the payment made to the factor of production known as land (natural resources) for its contribution to the production process is called",
+"options": [
+"Rent",
+"Wages",
+"Interest",
+"Profit"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Land is the natural factor of production, and the income it earns is called rent. Wages go to labour, interest to capital, and profit to the entrepreneur.",
+"pidgin": "Land na the natural resource wey dem dey use for production, and the money wey e dey earn na rent. Wages na for labour, interest na for capital, profit na for entrepreneur.",
+"py": null,
+"values": null,
+"id": "ecov0600",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A furniture workshop in Owerri employs 6 carpenters who together produce 180 chairs in one week. Assuming all carpenters are equally skilled, what is the average product per carpenter for the week?",
+"options": [
+"30 chairs",
+"25 chairs",
+"36 chairs",
+"20 chairs"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Average product = Total product divided by number of workers = 180 chairs divided by 6 carpenters = 30 chairs per carpenter.",
+"pidgin": "Average product na total output divide by number of workers: 180 chairs divide by 6 carpenters = 30 chairs per carpenter.",
+"py": "180/6",
+"values": [
+30,
+25,
+36,
+20
+],
+"id": "ecov0601",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A bakery in Kano records the following total product (TP) of bread (in loaves) as it adds workers to a fixed-size oven room:\n1 worker = 20 loaves, 2 workers = 45 loaves, 3 workers = 75 loaves, 4 workers = 100 loaves, 5 workers = 120 loaves, 6 workers = 135 loaves.\nAt which number of workers does the law of diminishing returns begin to set in?",
+"options": [
+"3 workers",
+"4 workers",
+"5 workers",
+"6 workers"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Marginal product (extra output per extra worker) is 20, 25, 30, 25, 20, 15 for workers 1 to 6. MP rises from worker 1 to worker 3 (20 to 30) then falls to 25 when the 4th worker is added, so diminishing returns begin at the 4th worker.",
+"pidgin": "Marginal product (extra output wey each new worker dey add) na 20, 25, 30, 25, 20, 15 for worker 1 to 6. E dey rise reach worker 3 (30) then e drop to 25 when dem add the 4th worker, so na from the 4th worker diminishing returns start.",
+"py": "(lambda MP=[20,25,30,25,20,15]: next(k+1 for k in range(1,6) if MP[k]<MP[k-1]))()",
+"values": [
+3,
+4,
+5,
+6
+],
+"id": "ecov0602",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "unsafe-py"
+}
+},
+"why": "python:unsafe-py"
+}
+]
+}

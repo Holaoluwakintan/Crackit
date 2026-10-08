@@ -1,0 +1,163 @@
+{
+"subject": "commerce",
+"topic": "Production: types and factors",
+"ti": 1,
+"generated": 7,
+"kept": [
+{
+"q": "In Commerce, production is best described as the process of:",
+"options": [
+"buying goods cheaply and selling them at a higher price",
+"creating utility by making goods and services available to satisfy human wants",
+"storing goods safely until customers are ready to buy them",
+"moving goods from the farm to the market"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Production is any economic activity that creates utility (value) by making goods or services available for consumption, whether through growing, making, moving, storing or selling. It is not just buying-and-selling or storage alone.",
+"pidgin": "Production na any work wey dey create value make goods and services dey available for people to use. E no be only buy-and-sell or keeping goods for store.",
+"py": null,
+"values": null,
+"id": "wcom0100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following activities is an example of primary production?",
+"options": [
+"Baking of bread inside a factory in Aba",
+"Catching of fish by fishermen along the Badagry coast",
+"Selling of ankara fabrics at Balogun market",
+"Processing of palm fruits into palm oil in a mill"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Primary production involves extracting raw materials directly from nature, such as fishing, farming and mining. Baking bread and processing palm fruits are secondary (manufacturing) production, while selling fabric is tertiary (commerce/distributive trade).",
+"pidgin": "Primary production na when you dey collect raw material straight from nature, like fishing or farming. To bake bread or process palm oil na secondary production, and to sell cloth na tertiary.",
+"py": null,
+"values": null,
+"id": "wcom0101",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Tunde grows cassava on his farm, Ngozi processes the cassava into garri in her mill, and Chidi then transports the garri to Mile 12 market and sells it to traders. Whose activity represents secondary production?",
+"options": [
+"Tunde's activity",
+"Ngozi's activity",
+"Chidi's activity",
+"All three activities equally"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Secondary production involves changing raw materials into a new, more useful form, such as processing cassava into garri. Tunde's farming is primary production, while Chidi's transporting and selling is tertiary production.",
+"pidgin": "Secondary production na when you change raw material into another useful form, like to process cassava become garri. Tunde dey do primary (farming) and Chidi dey do tertiary (selling/transport).",
+"py": null,
+"values": null,
+"id": "wcom0102",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Among the four major factors of production, which one earns rent as its reward for being used in the production process?",
+"options": [
+"Labour",
+"Capital",
+"Land",
+"Entrepreneur"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Land, which includes all natural resources, earns rent when it is used by others for farming, building or mining. Labour earns wages, capital earns interest, and the entrepreneur earns profit.",
+"pidgin": "Land, wey be all natural resources, dey earn rent when people use am for farm or building. Labour get wages, capital get interest, entrepreneur get profit.",
+"py": null,
+"values": null,
+"id": "wcom0103",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best illustrates indirect production?",
+"options": [
+"A farmer eating the yam he harvested with his own family",
+"A fisherman selling part of his catch to a trader who resells it to consumers",
+"A woman cooking food only for her own household",
+"A carpenter making a chair for his personal use at home"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Indirect production occurs when goods are produced not for the producer's own use but for exchange through a market, often passing through middlemen before reaching the final consumer. The other options describe direct production, where goods are consumed by the producer without any exchange.",
+"pidgin": "Indirect production na when person produce goods not for im own use but to sell am through market, maybe pass through middleman reach the final consumer. The other options na direct production, wey mean say the producer na im dey use the goods.",
+"py": null,
+"values": null,
+"id": "wcom0104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Obi's shoe factory breaks down production into many small, repetitive tasks so that each worker performs only one simple operation all day. A major disadvantage of this extreme form of division of labour is that workers may:",
+"options": [
+"produce shoes of better quality because of specialization",
+"become bored and lose interest due to the monotony of repeating the same task",
+"earn higher wages because output per worker increases",
+"reduce the overall cost of producing each pair of shoes"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "While division of labour can raise output and lower unit cost, performing the same narrow task repeatedly often leads to boredom, fatigue and loss of job satisfaction, which can reduce morale and increase errors or absenteeism. The other options describe benefits, not disadvantages, of division of labour.",
+"pidgin": "Even though division of labour fit increase output and reduce cost, to dey repeat one same small work every day fit make worker tire and bore, and e fit reduce how dem dey work well. The other options na advantages, no be wahala.",
+"py": null,
+"values": null,
+"id": "wcom0105",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Alhaji Musa invests ₦500,000 of his own savings to start a poultry business. Unlike his workers who receive a fixed monthly wage regardless of the business outcome, Alhaji Musa bears the risk of losing his capital if the business fails. The reward he receives for bearing this risk and organising the business is called:",
+"options": [
+"rent",
+"interest",
+"profit",
+"wages"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Profit is the reward for the entrepreneur, who organises other factors of production and bears the risk of loss. Unlike wages (fixed payment for labour), interest (payment for capital) or rent (payment for land), profit is uncertain and depends on how well the business performs.",
+"pidgin": "Profit na the entrepreneur im reward, because na im dey organise everything and carry the risk of loss. E no be like wages (for labour), interest (for capital) or rent (for land) wey dem sure of; profit fit high or fit even no come at all.",
+"py": null,
+"values": null,
+"id": "wcom0106",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

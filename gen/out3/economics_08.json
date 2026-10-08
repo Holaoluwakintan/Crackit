@@ -1,0 +1,80 @@
+{
+"subject": "economics",
+"topic": "Market structures: perfect competition, monopoly, oligopoly",
+"generated": 3,
+"kept": [
+{
+"q": "Which of the following is a distinguishing structural feature of a monopoly market, as opposed to perfect competition?",
+"options": [
+"There is only one firm in the industry producing a product with no close substitute",
+"There are many firms producing identical products",
+"Firms are price takers with no control over price",
+"Entry and exit of firms are completely free"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A monopoly exists when a single firm controls the entire supply of a product that has no close substitute, and entry is usually blocked. This is different from perfect competition, where many firms sell identical goods and entry is free.",
+"pidgin": "Monopoly na when one company dey control the whole market and nobody fit easily enter the business, plus the product no get close substitute. For perfect competition, na plenty companies dey sell the same type of goods and anybody fit enter.",
+"py": null,
+"values": null,
+"id": "ecov0800",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A perfectly competitive firm in Kano sells groundnut oil at the prevailing market price of ₦100 per unit. Its total cost function is TC = 20Q + 2Q^2, where Q is the quantity produced per day. What output level maximizes the firm's profit?",
+"options": [
+"15 units",
+"20 units",
+"25 units",
+"10 units"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Under perfect competition, profit is maximized where Marginal Cost (MC) equals Price (since P = MR). MC = d(TC)/dQ = 20 + 4Q. Setting 20 + 4Q = 100 gives 4Q = 80, so Q = 20 units.",
+"pidgin": "For perfect competition, profit dey maximum when Marginal Cost (MC) equal Price. MC = 20 + 4Q, so if you set am equal to 100, 4Q go be 80, and Q go be 20 units.",
+"py": "(100-20)/4",
+"values": [
+15,
+20,
+25,
+10
+],
+"id": "ecov0801",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "In Nigeria's cement industry, suppose four leading firms control the following percentages of total market sales: Firm A, 40%; Firm B, 25%; Firm C, 20%; Firm D, 10%, while many small firms share the remaining 5%. What is the four-firm concentration ratio (CR4) of this market, and what type of market structure does this ratio suggest?",
+"options": [
+"CR4 = 85%, indicating an oligopoly",
+"CR4 = 90%, indicating perfect competition",
+"CR4 = 100%, indicating a monopoly",
+"CR4 = 95%, indicating an oligopoly"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The four-firm concentration ratio is found by adding the market shares of the four largest firms: 40% + 25% + 20% + 10% = 95%. A CR4 this high (close to total market control by a few firms) is typical of an oligopoly, not perfect competition or pure monopoly.",
+"pidgin": "To find CR4, you just add the market share of the four biggest companies: 40% + 25% + 20% + 10% = 95%. Since few companies dey control almost everything, na oligopoly be dis, no be perfect competition or pure monopoly.",
+"py": "40+25+20+10",
+"values": [
+85,
+90,
+100,
+95
+],
+"id": "ecov0802",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

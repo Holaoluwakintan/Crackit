@@ -1,0 +1,134 @@
+{
+"subject": "literature",
+"topic": "Poetic forms: sonnet, ode, elegy, ballad, epic, lyric, free verse",
+"generated": 7,
+"kept": [
+{
+"q": "A poem written to praise, honour, or celebrate a person, object, event, or abstract idea, usually in an elevated and dignified tone, is called a/an:",
+"options": [
+"Elegy",
+"Ode",
+"Ballad",
+"Epic"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An ode is a formal poem of praise or celebration, often addressed directly to its subject in a dignified, elevated style. An elegy mourns the dead, a ballad tells a story in song-like form, and an epic is a long heroic narrative.",
+"pidgin": "Ode na poem wey dem write to praise or celebrate person, thing, or event, with serious and high tone. Elegy na for mourning dead person, ballad na story wey dem fit sing, epic na long heroic story.",
+"id": "litv0200",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which poetic form traditionally tells a story in simple four-line stanzas, often meant to be sung, and frequently uses a repeated refrain?",
+"options": [
+"Ballad",
+"Sonnet",
+"Ode",
+"Lyric"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A ballad is a narrative poem, usually in four-line stanzas, meant to be sung or recited, with a repeated refrain. A sonnet has fourteen lines, an ode praises a subject, and a lyric expresses personal feeling without necessarily telling a story.",
+"pidgin": "Ballad na poem wey dey tell story for simple four-line stanzas, e fit be song, and e dey repeat one line (refrain) well well. Sonnet na fourteen lines, ode na for praise, lyric na for personal feeling.",
+"id": "litv0201",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following is NOT a typical feature of an epic poem?",
+"options": [
+"Invocation of a muse or divine power at the beginning",
+"A hero with extraordinary or superhuman qualities",
+"A strict fourteen-line structure with a single rhyme scheme",
+"A vast setting spanning nations, the underworld, or the cosmos"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Epics are long narrative poems with heroic deeds, divine invocations, and vast settings; they are not limited to fourteen lines. A strict fourteen-line structure with one rhyme scheme describes a sonnet, not an epic.",
+"pidgin": "Epic na long story poem wey get hero with special power, dem dey call on god/muse, and e dey cover plenty places. Fourteen-line with one rhyme na sonnet feature, no be epic own.",
+"id": "litv0202",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Adaeze writes a short twelve-line poem using 'I' throughout to express her private joy on the day her first child was born. There is no story being told, only her inner feelings. This poem is best described as a:",
+"options": [
+"Ballad",
+"Epic",
+"Elegy",
+"Lyric"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A lyric poem expresses the personal thoughts and emotions of a single speaker, often using 'I', without necessarily telling a story. Since Adaeze's poem shares only her private feelings, it is a lyric, not a narrative form like ballad or epic, or a mournful elegy.",
+"pidgin": "Lyric poem na where person dey show im own personal feeling, dem dey use 'I' well well, no story inside. Since Adaeze just dey share her joy, na lyric, e no be ballad, epic, or elegy wey be for sadness.",
+"id": "litv0203",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Read this extract:\n\n'Young Tunde set out at break of day,\nTo find his father lost at sea;\nThree nights he rowed through storm and spray,\nSinging, \"Come home, come home to me.\"'\n\nThis stanza, which narrates a dramatic event in simple rhymed quatrains with a repeated refrain-like line, is best classified as an example of a:",
+"options": [
+"Sonnet",
+"Ode",
+"Ballad",
+"Free verse"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The stanza tells a dramatic story in simple, rhymed four-line form with a refrain-like repeated line ('Come home, come home to me'), which are the hallmarks of a ballad. It is not a sonnet (no fourteen lines), an ode (no praise/celebration), or free verse (it has rhyme and set rhythm).",
+"pidgin": "Dis stanza dey tell story for simple four-line rhyme, and e get repeated line like refrain - na ballad features be dat. E no be sonnet (no fourteen lines), no be ode (no praise), and e no be free verse (e get rhyme and rhythm).",
+"id": "litv0204",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which poetic form often opens with a direct address to an object, person, or abstract quality (for example, 'O Sun, you rule the sky with golden fire') and maintains a tone of celebration or reflection throughout?",
+"options": [
+"Ode",
+"Epic",
+"Ballad",
+"Elegy"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "An ode commonly begins with a direct, elevated address to its subject and keeps a celebratory or reflective tone from start to finish. An epic is a long heroic narrative, a ballad tells a story, and an elegy mourns loss.",
+"pidgin": "Ode dey often start by directly dey call im subject (like 'O Sun') with high and praising tone throughout. Epic na long heroic story, ballad na story poem, elegy na for mourning.",
+"id": "litv0205",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Read this extract:\n\n'The market woman counts her coins\nslowly\nunder the Lagos sun\nno rhyme stops her weary hands\nonly the weight of hunger moves her forward'\n\nThis poem has no regular meter and no rhyme scheme, yet its line breaks create emphasis and rhythm. It is best classified as:",
+"options": [
+"Sonnet",
+"Free verse",
+"Ballad",
+"Ode"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Free verse poetry does not follow a fixed meter or rhyme scheme, but it still uses line breaks and natural speech rhythm to create effect, as shown in this extract. A sonnet needs fourteen lines, a ballad needs rhyme and narrative structure, and an ode needs a celebratory address, none of which appear here.",
+"pidgin": "Free verse no get fixed meter or rhyme, but e still dey use line break to create rhythm and emphasis, like wetin dis extract show. Sonnet need fourteen lines, ballad need rhyme and story, ode need praise tone - none of dem dey here.",
+"id": "litv0206",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

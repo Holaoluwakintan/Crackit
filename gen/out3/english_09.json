@@ -1,0 +1,123 @@
+{
+"subject": "english",
+"topic": "Adjectives, adverbs and word order",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the option with the correct order of adjectives to complete the sentence: Mr. Adeyemi bought a ______ table for his new office in Lagos.",
+"options": [
+"beautiful large wooden",
+"large wooden beautiful",
+"wooden large beautiful",
+"large beautiful wooden"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "In English, adjectives usually follow the order: opinion, size, material. 'Beautiful' is opinion, 'large' is size, and 'wooden' is material, so this order is correct.",
+"pidgin": "For English, adjective dey follow order: opinion, size, material. 'Beautiful' na opinion, 'large' na size, 'wooden' na material, so this order correct well well.",
+"id": "engv0900",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best completes the sentence: Ngozi ______ attends the morning assembly because she lives very far from the school.",
+"options": [
+"is rarely",
+"rarely is",
+"rarely",
+"does rarely"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The adverb of frequency 'rarely' comes directly before the main verb 'attends' when there is no auxiliary verb present. 'Rarely attends' is the correct natural structure.",
+"pidgin": "When no auxiliary verb dey, adverb of frequency like 'rarely' go stand before the main verb. So 'rarely attends' na the correct way to arrange am.",
+"id": "engv0901",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the option that best completes the sentence: The baby slept ______ throughout the stormy night.",
+"options": [
+"peace",
+"peacefully",
+"peaceful",
+"peacefulness"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The word that describes how the baby slept (a verb) must be an adverb. 'Peacefully' is the adverb form, while 'peaceful' is an adjective that cannot modify a verb.",
+"pidgin": "The word wey go describe how the baby sleep (verb) must be adverb. 'Peacefully' na the adverb, but 'peaceful' na adjective wey no fit modify verb.",
+"id": "engv0903",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the option with the correct order of adjectives to complete the sentence: The village chief owns a ______ hut.",
+"options": [
+"mud old round",
+"round old mud",
+"old mud round",
+"old round mud"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The usual adjective order is age, shape, then material. 'Old' shows age, 'round' shows shape, and 'mud' shows material, so 'old round mud' follows the correct sequence.",
+"pidgin": "The normal adjective order na age, shape, then material. 'Old' na age, 'round' na shape, 'mud' na material, so 'old round mud' follow the correct order.",
+"id": "engv0905",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the sentence: Of the two candidates interviewed for the scholarship, Tunde performed ______.",
+"options": [
+"well",
+"best",
+"more better",
+"better"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Since only two candidates are being compared, the comparative form 'better' should be used, not the superlative 'best'. 'More better' is grammatically wrong because 'better' already shows comparison.",
+"pidgin": "Since na only two candidates dem compare, na comparative 'better' we go use, no be superlative 'best'. 'More better' no correct because 'better' don already show comparison.",
+"id": "engv0902",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+"why": "ambiguous:A is also grammatical.|"
+},
+{
+"q": {
+"q": "Choose the option that has the correct order of adverbials to complete the sentence: The students practised their drama ______ for the inter-house competition.",
+"options": [
+"yesterday in the hall quietly",
+"in the hall quietly yesterday",
+"quietly in the hall yesterday",
+"quietly yesterday in the hall"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The standard order of adverbials in English is manner, then place, then time (MPT). 'Quietly' (manner), 'in the hall' (place), and 'yesterday' (time) follow this correct order.",
+"pidgin": "The normal order wey adverbials dey follow na manner, place, then time (MPT). 'Quietly' (manner), 'in the hall' (place), 'yesterday' (time) follow this correct order.",
+"id": "engv0904",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+"why": "ambiguous:Other adverbial orders are possible.|"
+}
+]
+}

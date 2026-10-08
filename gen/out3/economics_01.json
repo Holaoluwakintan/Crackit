@@ -1,0 +1,68 @@
+{
+"subject": "economics",
+"topic": "Economic systems (capitalism, socialism, mixed economy)",
+"generated": 3,
+"kept": [
+{
+"q": "An economic system is best defined as the:",
+"options": [
+"way a society organizes itself to decide what, how and for whom to produce",
+"method a country uses to design its national flag",
+"process of printing new currency notes",
+"list of goods a country exports to other nations"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An economic system is simply the way a society is organized to solve the basic economic problems of what, how and for whom to produce. It does not relate to flags, printing money, or export lists.",
+"pidgin": "Economic system na how society arrange itself to decide wetin to produce, how to produce am, and who go chop am. E no concern flag, money printing or export list.",
+"py": null,
+"values": null,
+"id": "ecov0100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Alhaji Musa owns a private poultry farm in Kano and sells eggs at prices he sets based on demand and supply. At the same time, the Federal Government owns and runs the national railway corporation and sets minimum wage laws that all employers, including Alhaji Musa, must obey. This arrangement best describes a:",
+"options": [
+"pure capitalist economy",
+"pure socialist economy",
+"mixed economy",
+"subsistence economy"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Here, private individuals own businesses and set prices (a capitalist feature), while the government owns some enterprises and regulates the private sector (a socialist feature). This combination of private and public control is exactly what defines a mixed economy.",
+"pidgin": "For dis case, private person dey run business and fix price (capitalism side), but government too dey run railway and dey make law wey private business must follow (socialism side). When both dey togeda like dis, na mixed economy be dat.",
+"py": null,
+"values": null,
+"id": "ecov0101",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In a centrally planned economy, the government alone fixes production targets for all goods without using market prices as a guide. Suppose planners set the yearly target for garri production far below what consumers actually want to buy. Which outcome is most likely to follow immediately in that economy?",
+"options": [
+"Garri prices fall sharply because of oversupply",
+"Garri becomes abundant and is exported in large quantities",
+"A shortage of garri occurs, leading to queues or rationing",
+"Private traders quickly increase garri supply to meet demand"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Without market prices to signal true demand, planners can easily set output too low, so the quantity available falls short of what people want. This mismatch causes shortages, forcing the use of queues or rationing, a common weakness of command economies.",
+"pidgin": "Since dem no dey use market price to guide production, planners fit set garri production too low pass wetin people need. Dis one go cause shortage, so people go dey queue or government go ration am, na common problem for command economy.",
+"py": null,
+"values": null,
+"id": "ecov0102",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

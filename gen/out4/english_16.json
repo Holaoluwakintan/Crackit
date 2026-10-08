@@ -1,0 +1,149 @@
+{
+"subject": "english",
+"topic": "Oral English: emphatic stress and intonation",
+"ti": 16,
+"generated": 7,
+"kept": [
+{
+"q": "In spoken English, emphatic stress is mainly used to",
+"options": [
+"give special importance to a particular word in a sentence",
+"make a word sound longer",
+"show that a sentence is a question",
+"separate words in a list"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Emphatic stress means saying one word louder or stronger than the others to highlight it or show it is important. It is not about length, questions, or lists.",
+"pidgin": "Emphatic stress na when you talk one word louder pass di oda ones so dat e go show say dat word important. E no concern how long word be, or question, or list.",
+"id": "weng1600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these sentences would normally be spoken with a RISING intonation from start to end?",
+"options": [
+"What is your name?",
+"Where do you live?",
+"Who ate the rice?",
+"Did Chidinma travel to Lagos?"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Yes/No questions like 'Did Chidinma travel to Lagos?' are said with a rising tune because the answer is simply yes or no. The other options are Wh- questions, which take a falling tune.",
+"pidgin": "Yes or No question like 'Did Chidinma travel to Lagos?' dey use rising tune because di answer na just yes or no. Di oda ones na Wh- questions wey dey take falling tune.",
+"id": "weng1601",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr Eze said that Amina bought the bag, but in fact it was Kemi who bought the bag. If Funke wants to correct Mr Eze by emphasising the right person, which word should she stress?",
+"options": [
+"BOUGHT",
+"BAG",
+"KEMI",
+"SAID"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The mistake is about who did the buying, not what was bought or the action itself. So the word 'KEMI' must carry the emphatic stress to correct the wrong information.",
+"pidgin": "Di mistake na about who buy di bag, e no concern wetin dem buy or di action. So na 'KEMI' suppose carry di stress to correct di wrong tin wey Mr Eze talk.",
+"id": "weng1602",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Adaeze asks her brother, 'You will attend the wedding, won't you?' and says the tag 'won't you' with a FALLING tone. What does this falling tone suggest?",
+"options": [
+"Adaeze is certain and only wants her brother to confirm",
+"Adaeze is unsure and is genuinely asking a question",
+"Adaeze is asking a plain yes/no question",
+"Adaeze is reading out a list of items"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A falling tone on a tag question shows the speaker already believes the statement is true and just wants agreement. A rising tone would instead show real doubt.",
+"pidgin": "When tag question get falling tone, e mean say di speaker don already believe say di tin na true, e just wan make di oda person agree. If e be rising tone, e go show say di speaker dey really doubt.",
+"id": "weng1603",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following statements about question intonation is CORRECT?",
+"options": [
+"Wh- questions are usually said with a rising tone",
+"Yes/No questions are usually said with a falling tone",
+"All questions must end with a rising tone",
+"Wh- questions are usually said with a falling tone"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Questions that begin with Wh- words (who, what, where, why, how) are normally said with a falling tone, while Yes/No questions take a rising tone. So option D is the correct rule.",
+"pidgin": "Questions wey start with Wh- words (who, wetin, where, why, how) dey take falling tone, while Yes/No questions dey take rising tone. So option D na di correct rule.",
+"id": "weng1604",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Musa is reading out a shopping list: 'I bought rice, beans, garri and oil.' Which intonation pattern is the correct way to say this list?",
+"options": [
+"Rising tone on every item, including 'oil'",
+"Rising tone on each item except 'oil', which falls",
+"Falling tone on every item, including 'oil'",
+"Falling tone on each item except 'oil', which rises"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In a list, each item before the last one is said with a rising tone to show more items are coming, while the final item takes a falling tone to show the list has ended.",
+"pidgin": "For list, every item before di last one dey take rising tone to show say more items dey come, while di last item dey take falling tone to show say di list don finish.",
+"id": "weng1605",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A man says, 'I did not say he stole the money.' If he wants to make it clear that SOMEONE ELSE said it, and not him, which word in the sentence should carry the emphatic stress?",
+"options": [
+"DID",
+"SAY",
+"I",
+"STOLE"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "To show that another person, not the speaker, made the statement, the pronoun 'I' must be stressed. Stressing other words like 'stole' would instead question whether the money was actually stolen.",
+"pidgin": "To show say na anoda person talk am, no be di speaker, dem must stress di word 'I'. If dem stress 'stole' instead, e go mean say dem dey doubt whether dem actually steal di money.",
+"id": "weng1606",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

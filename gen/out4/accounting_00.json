@@ -1,0 +1,169 @@
+{
+"subject": "accounting",
+"topic": "Nature, users and concepts of accounting",
+"ti": 0,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best describes accounting as a discipline practised by a book-keeper like Mrs. Nkechi in her provision store at Onitsha?",
+"options": [
+"The process of identifying, recording, classifying and summarising financial transactions to provide information for decision making",
+"The process of recording only the cash transactions of a business",
+"The act of preparing tax returns for government agencies",
+"The process of checking financial statements for fraud after they are prepared"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Accounting is defined as the process of identifying, recording, classifying, summarising and interpreting financial transactions to give useful information to users. The other options describe only a narrow part of accounting work, not the full discipline.",
+"pidgin": "Accounting na the process wey dem dey identify, record, classify and summarise money matter for business so dat people fit use am take decision. The other options na small small part of the work, dem no cover the whole thing.",
+"py": null,
+"values": null,
+"id": "wacc0000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Hassan Textiles Ltd wants to borrow ₦2,000,000 from First Trust Bank to expand its shop in Kano. Before granting the loan, the bank studies the company's financial statements. In this situation, First Trust Bank is acting as what type of user of accounting information?",
+"options": [
+"An internal user",
+"A government agency",
+"An external user",
+"A management staff"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "External users are people outside the day-to-day running of the business who use its financial statements, such as banks, suppliers and investors. The bank is not part of Hassan Textiles' management, so it is an external user assessing credit worthiness.",
+"pidgin": "External user na person wey no dey inside the company management but still dey use the account to take decision, like bank, supplier or investor. Since the bank no be staff of Hassan Textiles, dem be external user wey wan check if the company fit pay back loan.",
+"py": null,
+"values": null,
+"id": "wacc0001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which accounting concept assumes that a business, such as Obi Stores in Enugu, will continue to operate for the foreseeable future and will not be forced to close down or sell off its assets suddenly?",
+"options": [
+"Prudence concept",
+"Going concern concept",
+"Materiality concept",
+"Realisation concept"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The going concern concept assumes a business will continue operating into the foreseeable future, which is why assets are valued at cost rather than forced-sale (liquidation) value. Prudence, materiality and realisation deal with other accounting matters, not business continuity.",
+"pidgin": "Going concern concept na the idea say the business go continue to dey run well well for future, e no go just close down sharp sharp. Na why dem dey value asset for normal price, no be quick-quick sale price. The other options no concern business continuity.",
+"py": null,
+"values": null,
+"id": "wacc0002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidinma's Fashion House pays rent of ₦60,000 in December 2023 to cover the months of January, February and March 2024. Which accounting concept requires that this ₦60,000 be treated as a prepayment and charged as an expense in the 2024 financial year, not in 2023?",
+"options": [
+"Dual aspect concept",
+"Going concern concept",
+"Money measurement concept",
+"Matching (accrual) concept"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The matching (accrual) concept states that expenses should be recognised in the period they relate to, not necessarily when cash is paid. Since the rent covers 2024, it must be matched against 2024's income, not 2023's, so it is shown as a prepayment in 2023.",
+"pidgin": "Matching concept talk say expense suppose dey record for the period wey e concern, no be the period wey dem pay the cash. Since the rent na for 2024, dem go record am as prepayment for 2023 account, no be as expense for 2023.",
+"py": null,
+"values": null,
+"id": "wacc0003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "For five years, Danjuma Ventures used the straight-line method to depreciate its delivery van. In the sixth year, without any disclosure in the notes to the accounts, the business suddenly switched to the reducing balance method. This action goes against which accounting concept?",
+"options": [
+"Prudence concept",
+"Consistency concept",
+"Entity concept",
+"Realisation concept"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The consistency concept requires that once an accounting method is adopted, it should be applied the same way from one period to another, and any change should be disclosed. Changing the depreciation method without disclosure breaks this rule, making comparison of accounts difficult.",
+"pidgin": "Consistency concept talk say once business choose one method, dem suppose dey use am every year, and if dem wan change am, dem must talk am for the notes. Since Danjuma Ventures change am just like that without explanation, e don break consistency concept.",
+"py": null,
+"values": null,
+"id": "wacc0004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "At the end of the year, Mr. Eze's inventory of rice cost him ₦150,000 to buy, but because of a sudden fall in market price, it can now only be sold for ₦120,000. According to the prudence concept, at what value should this inventory be shown in the financial statements?",
+"options": [
+"₦150,000",
+"₦135,000",
+"₦120,000",
+"₦270,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The prudence concept requires inventory to be valued at the lower of cost or net realisable value, so losses are not overstated as profit. Here, cost is ₦150,000 but net realisable value is ₦120,000, so the lower figure, ₦120,000, is used.",
+"pidgin": "Prudence concept talk say dem suppose value inventory with whichever one dey lower between cost and the price wey e fit sell. Cost na ₦150,000 but the sell price don fall reach ₦120,000, so dem go use ₦120,000 wey be the smaller one.",
+"py": "min(150000,120000)",
+"values": [
+150000,
+135000,
+120000,
+270000
+],
+"id": "wacc0005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Alhaji Musa owns a provisions business. One day he withdraws ₦50,000 from the business bank account to pay his daughter's school fees. Which accounting concept requires that this withdrawal be recorded as drawings in the business books and not treated as a business expense?",
+"options": [
+"Historical cost concept",
+"Money measurement concept",
+"Dual aspect concept",
+"Business entity concept"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The business entity concept treats the business as separate from its owner, so the owner's personal spending, like school fees, is not a business expense but drawings from the owner's capital. This keeps the business's own financial position accurate and separate from Alhaji Musa's personal affairs.",
+"pidgin": "Business entity concept dey separate the business from the owner, so wetin the owner spend for im personal matter, like school fees, no be business expense; na drawings from im capital. This one dey make sure say the business account no mix up with the owner personal money.",
+"py": null,
+"values": null,
+"id": "wacc0006",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

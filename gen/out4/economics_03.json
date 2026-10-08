@@ -1,0 +1,175 @@
+{
+"subject": "economics",
+"topic": "Supply",
+"ti": 3,
+"generated": 7,
+"kept": [
+{
+"q": "In Economics, supply refers to which of the following?",
+"options": [
+"The total quantity of goods produced by a country in a year",
+"The quantity of a commodity that producers are willing and able to offer for sale at a given price within a particular period",
+"The quantity of a commodity that consumers desire to purchase at a given price",
+"The stock of unsold goods kept in a trader's warehouse"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Supply is about sellers, not buyers or warehouse stock. It must involve both willingness and ability to sell at a stated price over a time period.",
+"pidgin": "Supply na about sellers, no be buyers or goods wey dey warehouse. E must involve say seller wan sell and fit sell am for one particular price within one period.",
+"py": null,
+"values": null,
+"id": "weco0300",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The law of supply states that, other things being equal, as the price of a commodity rises, the quantity supplied of that commodity will:",
+"options": [
+"fall",
+"remain unchanged",
+"rise",
+"fall to zero"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The law of supply shows a direct relationship between price and quantity supplied: higher price encourages producers to supply more because it is more profitable.",
+"pidgin": "Law of supply talk say price and quantity supplied dey waka together: if price go up, sellers go wan supply more because profit go sweet them.",
+"py": null,
+"values": null,
+"id": "weco0301",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following will most likely lead to an increase in the supply of cassava in Oyo State?",
+"options": [
+"An increase in the price of fertilizer used by farmers",
+"An outbreak of army worm attack on cassava farms",
+"An increase in tax imposed on cassava farmers",
+"The discovery of a new high-yielding cassava variety by farmers"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A high-yielding variety means farmers can harvest more cassava from the same land and inputs, directly increasing supply. The other options (higher input cost, pest attack, higher tax) all reduce supply.",
+"pidgin": "If farmers get better cassava type wey dey yield well, dem go harvest pass before for the same land, so supply go increase. The other options go reduce supply because dem go raise cost or spoil farm.",
+"py": null,
+"values": null,
+"id": "weco0302",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Adaeze, a tomato seller at Mile 12 market, offers more baskets of tomatoes for sale when the price rises from ₦200 to ₦300 per basket, while all other factors remain constant. This situation best illustrates a:",
+"options": [
+"shift of the supply curve to the right",
+"shift of the supply curve to the left",
+"movement along the supply curve",
+"decrease in supply"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Since only the price changed (other factors stayed the same), the change in quantity supplied is shown as a movement along the existing supply curve, not a shift.",
+"pidgin": "Na only price change, other things no change, so the change for quantity wey she supply na movement for the same supply curve, e no be shift.",
+"py": null,
+"values": null,
+"id": "weco0303",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The price of a bag of rice increased from ₦28,000 to ₦32,000. As a result, a trader's weekly supply of rice increased from 50 bags to 60 bags. What is the price elasticity of supply?",
+"options": [
+"1.4",
+"0.7",
+"1.0",
+"2.0"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Percentage change in quantity = (10/50) x 100 = 20%. Percentage change in price = (4000/28000) x 100 = 14.3%. Elasticity = 20/14.3 = 1.4.",
+"pidgin": "Percentage change for quantity = (10/50) x 100 = 20%. Percentage change for price = (4000/28000) x 100 = 14.3%. Elasticity = 20 divide by 14.3 = 1.4.",
+"py": "(10/50)/(4000/28000)",
+"values": [
+1.4,
+0.7,
+1.0,
+2.0
+],
+"id": "weco0304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "If the coefficient of price elasticity of supply of a commodity is calculated to be 0.6, the supply of the commodity is said to be:",
+"options": [
+"perfectly elastic",
+"unitary elastic",
+"elastic",
+"inelastic"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Any elasticity coefficient less than 1 means that quantity supplied changes proportionately less than price, which is called inelastic supply.",
+"pidgin": "If the elasticity number dey less pass 1, e mean say the quantity wey dem supply no dey change well-well pass the price change, dem dey call am inelastic.",
+"py": null,
+"values": null,
+"id": "weco0305",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The supply function for a commodity is given as Qs = -20 + 5P, where Qs is the quantity supplied in units per week and P is the price in naira per unit. What is the minimum price at which producers will be willing to supply the commodity (that is, when Qs = 0)?",
+"options": [
+"₦2",
+"₦4",
+"₦5",
+"₦20"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Set Qs = 0: 0 = -20 + 5P, so 5P = 20, giving P = 4. Below this price, producers are not willing to supply any unit of the commodity.",
+"pidgin": "Make Qs = 0: 0 = -20 + 5P, so 5P = 20, P go be 4. If price dey below 4, producers no go wan supply the commodity at all.",
+"py": "(0 - (-20)) / 5",
+"values": [
+2,
+4,
+5,
+20
+],
+"id": "weco0306",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

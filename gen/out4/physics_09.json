@@ -1,0 +1,171 @@
+{
+"subject": "physics",
+"topic": "Density, pressure, upthrust and flotation",
+"ti": 9,
+"generated": 6,
+"kept": [
+{
+"q": "A block of wood has a mass of 450 g and a volume of 500 cm^3. What is the density of the wood in kg/m^3?",
+"options": [
+"1800 kg/m^3",
+"0.9 kg/m^3",
+"450 kg/m^3",
+"900 kg/m^3"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Density = mass/volume = 450 g / 500 cm^3 = 0.9 g/cm^3. Converting to kg/m^3, multiply by 1000, giving 900 kg/m^3.",
+"pidgin": "Density na mass divide by volume = 450g/500cm^3 = 0.9 g/cm^3. If you change am to kg/m^3, you go multiply by 1000, e go be 900 kg/m^3.",
+"py": "450/500*1000",
+"values": [
+1800,
+0.9,
+450,
+900
+],
+"id": "wphy0900",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A tank in Mrs. Okafor's shop contains water (density 1000 kg/m^3) up to a depth of 2.5 m. Taking g = 10 m/s^2, calculate the pressure exerted by the water at the bottom of the tank.",
+"options": [
+"25000 N/m^2",
+"2500 N/m^2",
+"250000 N/m^2",
+"25 N/m^2"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Pressure in a liquid is P = h x density x g = 2.5 x 1000 x 10 = 25000 N/m^2. This is the correct application of the liquid pressure formula.",
+"pidgin": "Pressure for liquid na P = h x density x g = 2.5 x 1000 x 10 = 25000 N/m^2. Na dis formula dem dey use calculate am.",
+"py": "2.5*1000*10",
+"values": [
+25000,
+2500,
+250000,
+25
+],
+"id": "wphy0901",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A stone weighs 8 N in air. When it is fully lowered into a beaker of water, it weighs 5 N. What is the upthrust on the stone?",
+"options": [
+"13 N",
+"8 N",
+"3 N",
+"5 N"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Upthrust is the loss in weight when an object is immersed in a liquid, so Upthrust = Weight in air - Weight in water = 8 N - 5 N = 3 N.",
+"pidgin": "Upthrust na di weight wey di stone lose for water, so Upthrust = Weight for air - Weight for water = 8N - 5N = 3N.",
+"py": "8-5",
+"values": [
+13,
+8,
+3,
+5
+],
+"id": "wphy0902",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A metal object of volume 200 cm^3 is completely submerged in a liquid of density 1.25 g/cm^3. Taking g = 10 m/s^2, calculate the upthrust on the object.",
+"options": [
+"250 N",
+"25 N",
+"0.25 N",
+"2.5 N"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Mass of liquid displaced = density x volume = 1.25 g/cm^3 x 200 cm^3 = 250 g = 0.25 kg. By Archimedes' principle, Upthrust = mg = 0.25 kg x 10 m/s^2 = 2.5 N.",
+"pidgin": "Mass of liquid wey e push comot = density x volume = 1.25 x 200 = 250 g = 0.25 kg. Upthrust = mg = 0.25 x 10 = 2.5 N, na so Archimedes principle take work.",
+"py": "(1.25*200/1000)*10",
+"values": [
+250,
+25,
+0.25,
+2.5
+],
+"id": "wphy0903",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A block of plastic floats on water with 3/5 of its volume submerged. If the density of water is 1000 kg/m^3, what is the density of the plastic block?",
+"options": [
+"600 kg/m^3",
+"1667 kg/m^3",
+"400 kg/m^3",
+"300 kg/m^3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For a floating body, the fraction submerged equals the ratio of the body's density to the liquid's density: fraction = density of object / density of liquid. So density of plastic = (3/5) x 1000 = 600 kg/m^3.",
+"pidgin": "For floating object, di fraction wey dey inside liquid = density of object / density of liquid. So density of di plastic = (3/5) x 1000 = 600 kg/m^3.",
+"py": "0.6*1000",
+"values": [
+600,
+1666.6667,
+400,
+300
+],
+"id": "wphy0904",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which law in Physics states that a floating body displaces a weight of fluid exactly equal to its own weight?",
+"options": [
+"Pascal's principle",
+"Boyle's law",
+"Law of flotation",
+"Charles' law"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The law of flotation states that a floating object displaces its own weight of the fluid in which it floats, which is why ships made of steel can float even though steel itself is denser than water.",
+"pidgin": "Law of flotation talk say any floating object go push comot liquid wey weight equal to im own weight, na why big steel ship fit float for water sef.",
+"py": null,
+"values": null,
+"id": "wphy0905",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

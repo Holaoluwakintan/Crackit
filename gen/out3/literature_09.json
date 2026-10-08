@@ -1,0 +1,134 @@
+{
+"subject": "literature",
+"topic": "African oral literature: folktales, proverbs, praise poetry, dirge",
+"generated": 7,
+"kept": [
+{
+"q": "In African oral tradition, what is the primary purpose of a dirge sung during funeral rites?",
+"options": [
+"to entertain children before bedtime",
+"to settle land disputes between families",
+"to mourn and console the bereaved while celebrating the life of the deceased",
+"to announce a new yam festival"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A dirge is a funeral song that expresses grief while also praising the good deeds of the dead person. It helps the community mourn together and find comfort.",
+"pidgin": "Dirge na song wey dem dey sing for burial to show sorrow and also praise the person wey don die. E dey help the community cry together and comfort each other.",
+"id": "litv0900",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Consider this original proverb: 'The hen that forgets the hawk's shadow will end up in its claws.' What lesson does this proverb primarily teach?",
+"options": [
+"carelessness and forgetfulness of past dangers can lead to disaster",
+"farmers should always rear more poultry",
+"hawks are more powerful than hens in nature",
+"elders deserve respect from the young"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The proverb warns that if you forget a past danger (the hawk's shadow), you may fall victim to it again. It is teaching vigilance and the need to remember lessons from the past.",
+"pidgin": "The proverb dey warn say if you forget wetin almost harm you before, e fit catch you again. E dey teach person make dem always dey alert and no forget old lessons.",
+"id": "litv0901",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In many African societies, praise poetry that celebrates the lineage, achievements and heroism of kings or warriors is traditionally performed by a specially trained oral artist attached to the royal court. What is this performer generally called?",
+"options": [
+"narrator",
+"minstrel",
+"chorus leader",
+"griot (praise-singer)"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A griot (also called a praise-singer) is a professional oral historian and performer in many African cultures, trained to chant the praises and genealogy of rulers and heroes. The other options describe general performers, not this specific royal oral artist.",
+"pidgin": "Griot na professional oral artist wey dem train well-well to dey sing praise and history of kings and warriors. The other options na just general performers, dem no be the special royal praise-singer.",
+"id": "litv0902",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Read this short dirge extract: 'Death came like a thief in the market, and silence sat on every tongue; the drums that danced for Chief Adeyemi's yam festival are now draped in black cloth, weeping without tears.' Which literary device is most dominant in this extract?",
+"options": [
+"hyperbole",
+"personification",
+"irony",
+"onomatopoeia"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The poet gives human actions to non-human things: 'silence sat' and the drums 'weeping without tears'. Giving human qualities to objects or ideas is personification, which is the main device used here to show deep grief.",
+"pidgin": "The poet give human action to things wey no be human, like 'silence sat' and drums wey dey 'weep without tears'. To give object or idea human quality na personification, and na im be the main device for this extract.",
+"id": "litv0903",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which performance feature is most associated with African oral folktales, where the storyteller chants a line and the audience responds with a fixed phrase or refrain?",
+"options": [
+"soliloquy",
+"monologue",
+"call-and-response",
+"aside"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Call-and-response is a key feature of oral storytelling performance, where the narrator says a line and the audience answers together. This makes the folktale a shared, participatory experience rather than a one-person act.",
+"pidgin": "Call-and-response na important feature for oral storytelling, where the storyteller go talk one line and audience go answer together. E dey make the folktale be something everybody dey do together, no be just one person dey talk.",
+"id": "litv0904",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Many Yoruba and Igbo folktales begin with a fixed opening formula (such as a short chant or question) before the main story starts. What is the chief function of this formula?",
+"options": [
+"to signal the start of a performance and draw the audience into a shared imaginative world",
+"to provide historical facts about the community's founding",
+"to state the moral lesson of the story in advance",
+"to introduce the full name of the antagonist"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The opening formula is a performance signal that tells listeners the storytelling session has begun and invites them to enter the make-believe world of the tale together with the narrator. It is not meant to give facts or reveal the moral early.",
+"pidgin": "The opening formula na signal wey dey tell listeners say storytelling don start, and e dey invite dem to enter the make-believe world together with the storyteller. E no be to give historical fact or reveal moral lesson before time.",
+"id": "litv0905",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Study this original proverb: 'A single broom straw cannot sweep a compound, but many straws bound together can clear the dirtiest yard.' Which figure of speech is mainly used here to pass across the message about unity?",
+"options": [
+"simile",
+"hyperbole",
+"apostrophe",
+"metaphor"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The proverb directly compares a single straw to a lone individual and bound straws to a united community, without using 'like' or 'as'. A direct, implied comparison like this is a metaphor, not a simile which would need 'like' or 'as'.",
+"pidgin": "The proverb dey compare one straw to one person wey dey alone, and many straw wey dem tie together to community wey unite, but e no use 'like' or 'as'. Dis kain direct comparison na metaphor, e no be simile wey suppose get 'like' or 'as'.",
+"id": "litv0906",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

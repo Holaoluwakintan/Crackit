@@ -1,0 +1,169 @@
+{
+"subject": "crs",
+"topic": "Miracles of Jesus",
+"ti": 9,
+"generated": 8,
+"kept": [
+{
+"q": "At the pool called Bethesda in Jerusalem, Jesus healed a man who had suffered from his sickness for how many years before he was made whole?",
+"options": [
+"12 years",
+"38 years",
+"40 years",
+"18 years"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The man had been sick for thirty-eight years before Jesus healed him and told him to take up his bed and walk. This is recorded in John 5:5-9.",
+"pidgin": "Di man don dey sick for thirty-eight years before Jesus heal am and tell am make e carry im mat waka. Dis dey for John 5:5-9.",
+"id": "wcrs0900",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When Jesus fed a large crowd near the Sea of Galilee with a boy's food items, the boy brought five loaves of bread and how many fish?",
+"options": [
+"3 fish",
+"7 fish",
+"2 fish",
+"5 fish"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A young boy provided five barley loaves and two small fish, which Jesus multiplied to feed over five thousand people. This miracle is found in John 6:9-13.",
+"pidgin": "One small boy bring five bread and two fish, na dis one Jesus multiply feed plenty people wey pass five thousand. Dis miracle dey for John 6:9-13.",
+"id": "wcrs0901",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When Jesus was called to the house of a synagogue official whose daughter had just died, what did Jesus say about the girl's condition before He raised her back to life?",
+"options": [
+"She has been dead too long",
+"She needs more prayers",
+"She will wake up tomorrow",
+"She is only sleeping"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Jesus said the girl was only sleeping, even though mourners laughed at Him, and then He raised her up by the hand. This miracle is recorded in Mark 5:39-42.",
+"pidgin": "Jesus talk say di girl dey sleep nothing more, even though people wey dey cry begin laugh am, den e raise am wit im hand. Dis dey for Mark 5:39-42.",
+"id": "wcrs0902",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which miracle of Jesus teaches that He could heal a sick person without being physically present at that person's location?",
+"options": [
+"Healing of the centurion's servant",
+"Healing of blind Bartimaeus",
+"Cleansing of the ten lepers",
+"Healing of the woman with the issue of blood"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A Roman centurion in Capernaum asked Jesus to only 'say the word' and his servant would be healed, showing great faith, and Jesus healed the servant from a distance. This is in Matthew 8:5-13.",
+"pidgin": "One Roman centurion for Capernaum beg Jesus make e just 'talk word' make im servant better, e no need waka go house, Jesus bless am well well because of im faith. Dis dey for Matthew 8:5-13.",
+"id": "wcrs0903",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What key lesson do Christians learn from the miracle where Jesus calmed the storm on the Sea of Galilee while His disciples panicked in the boat?",
+"options": [
+"Fishermen should avoid storms",
+"Jesus has power over nature",
+"Prayer prevents storms",
+"The disciples lacked courage"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus rebuked the wind and said 'Peace, be still', and the sea became calm, showing His authority over nature. This event teaches believers to trust in His power, as recorded in Mark 4:35-41.",
+"pidgin": "Jesus talk give di wind and sea say 'Peace, quiet down', e kwa quiet, dis show say e get power over nature. Di lesson na make believers trust am, e dey for Mark 4:35-41.",
+"id": "wcrs0904",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In John chapter 9, Jesus healed a man who had been blind from birth. When His disciples asked whether the man's own sin or his parents' sin caused the blindness, what reason did Jesus give instead?",
+"options": [
+"He sinned before birth",
+"His parents refused to worship God",
+"That God's work might be displayed in his life",
+"The man doubted God's power"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Jesus rejected the idea that sin caused the blindness and said it happened so that the works of God could be revealed in the man's life. This teaching is found in John 9:1-3.",
+"pidgin": "Jesus no gree say na sin cause di blindness, e talk say na so dat God works go show for di man life. Dis teaching dey for John 9:1-3.",
+"id": "wcrs0905",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Before Jesus raised Lazarus from the dead at Bethany, how many days had Lazarus already spent in the tomb?",
+"options": [
+"One day",
+"Seven days",
+"Two days",
+"Four days"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Martha told Jesus that Lazarus had been in the tomb four days and that his body would already be decaying, yet Jesus still raised him. This is recorded in John 11:39.",
+"pidgin": "Martha tell Jesus say Lazarus don dey tomb reach four days, im body don begin smell, but Jesus still raise am. Dis dey for John 11:39.",
+"id": "wcrs0906",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Jesus performed His first recorded miracle, turning water into wine, at a wedding feast held in which town?",
+"options": [
+"Cana",
+"Bethany",
+"Nazareth",
+"Capernaum"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Jesus turned water into wine at a wedding in Cana of Galilee after His mother told Him the wine had finished. This was His first miracle, recorded in John 2:1-11.",
+"pidgin": "Jesus turn water to wine for wedding wey dey Cana for Galilee, afta im mama tell am say wine don finish. Na im first miracle, e dey for John 2:1-11.",
+"id": "wcrs0907",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,106 @@
+{
+"subject": "physics",
+"topic": "Scalars and vectors, resolution of forces",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following physical quantities is a vector quantity?",
+"options": [
+"Distance",
+"Speed",
+"Displacement",
+"Energy"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A vector quantity must have both magnitude and direction. Displacement tells you how far and in which direction an object has moved, unlike distance, speed and energy which are scalars (magnitude only).",
+"pidgin": "Vector quantity na quantity wey get both size and direction. Displacement get direction (e dey tell where the body move go), but distance, speed and energy na scalar, dem no get direction.",
+"py": null,
+"values": null,
+"id": "phyv0100",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Musa pulls a loaded wheelbarrow using a rope inclined at 30 degrees to the horizontal ground. If the tension in the rope is 40 N, what is the horizontal component of this force (the part that moves the wheelbarrow forward)?",
+"options": [
+"34.64 N",
+"23.09 N",
+"20.00 N",
+"40.00 N"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The horizontal component of a force F at angle theta to the horizontal is F cos(theta). Here F = 40 N and theta = 30 degrees, so horizontal component = 40 x cos30 = 40 x (sqrt(3)/2) = 34.64 N.",
+"pidgin": "The horizontal component of force na F cos(theta). Here F = 40 N, theta = 30°, so e be 40 x cos30 = 40 x sqrt(3)/2 = 34.64 N.",
+"py": "40*math.cos(math.radians(30))",
+"values": [
+34.64,
+23.09,
+20.0,
+40.0
+],
+"id": "phyv0101",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Two forces of magnitude 10 N and 15 N act at the same point on an object, with an angle of 120 degrees between their directions. Calculate the magnitude of the resultant force.",
+"options": [
+"18.03 N",
+"21.79 N",
+"5.00 N",
+"13.23 N"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Use the cosine rule for resultant of two forces: R^2 = P^2 + Q^2 + 2PQcos(theta). Here R^2 = 10^2 + 15^2 + 2(10)(15)cos(120) = 100 + 225 - 150 = 175, so R = sqrt(175) = 13.23 N.",
+"pidgin": "We go use cosine rule: R^2 = P^2 + Q^2 + 2PQcos(theta). So R^2 = 100 + 225 + 2(10)(15)cos120 = 325 - 150 = 175, R = sqrt(175) = 13.23 N.",
+"py": "math.sqrt(10**2+15**2+2*10*15*math.cos(math.radians(120)))",
+"values": [
+18.03,
+21.79,
+5.0,
+13.23
+],
+"id": "phyv0102",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "A small object is held in equilibrium on a smooth table by three forces: a force of 9 N acting due east, a force of 12 N acting due north, and a third force F. Calculate the magnitude of F needed to keep the object in equilibrium.",
+"options": [
+"21 N",
+"15 N",
+"9 N",
+"12 N"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since the 9 N and 12 N forces are at right angles, their resultant is sqrt(9^2 + 12^2) = sqrt(81+144) = sqrt(225) = 15 N. For equilibrium, the third force F must be equal in magnitude but opposite in direction to this resultant, so F = 15 N.",
+"pidgin": "Since 9 N and 12 N dey form right angle, their resultant na sqrt(9^2+12^2) = sqrt(225) = 15 N. For the body to dey balance (equilibrium), F must equal this resultant for size, just dey face opposite direction, so F = 15 N.",
+"py": "math.sqrt(9**2+12**2)",
+"values": [
+21,
+15,
+9,
+12
+],
+"id": "phyv0103",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Hormones in animals and plants",
+"generated": 4,
+"kept": [
+{
+"q": "Alhaji Musa, a known diabetic patient in Kano, was rushed to the clinic with very high blood sugar level after eating a heavy meal of pounded yam. The doctor gave him an injection to quickly lower the blood sugar level. Which hormone was most likely administered to him?",
+"options": [
+"Insulin",
+"Glucagon",
+"Adrenaline",
+"Thyroxine"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Insulin is the hormone that lowers blood glucose by helping body cells take up glucose and by promoting its storage as glycogen in the liver. Glucagon, adrenaline and thyroxine all tend to raise blood glucose level instead.",
+"pidgin": "Insulin na im dey reduce blood sugar because e dey help body cells take in glucose and e dey help liver store am as glycogen. Glucagon, adrenaline and thyroxine na dem dey increase blood sugar instead.",
+"id": "biov1200",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "During a biology practical at a school fish pond in Abeokuta, students noticed that some tadpoles kept in a tank remained in the gill-breathing stage for many months, failing to grow legs or lose their tails, even though they were well fed. This developmental problem is most likely caused by a deficiency of which hormone?",
+"options": [
+"Growth hormone",
+"Thyroxine",
+"Insulin",
+"Progesterone"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Thyroxine, produced by the thyroid gland, controls metamorphosis in amphibians such as frogs, triggering the loss of the tail and gills and growth of legs. Without enough thyroxine, a tadpole stays in its larval stage despite good feeding.",
+"pidgin": "Thyroxine na the hormone wey dey control change (metamorphosis) for frog tadpole, e dey make tail and gill disappear as legs dey grow. If thyroxine no reach, tadpole go just dey tadpole stage even if dem feed am well.",
+"id": "biov1201",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "During a long trek from Zaria to a nearby village under hot sun, a student becomes severely dehydrated. His kidney tubules respond by reabsorbing more water back into the blood, so that only a small volume of concentrated urine is produced. Which hormone is directly responsible for this response, and where is it released from?",
+"options": [
+"Aldosterone, released from the adrenal cortex",
+"Antidiuretic hormone (ADH), released from the posterior pituitary gland",
+"Insulin, released from the pancreas",
+"Oxytocin, released from the posterior pituitary gland"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "ADH (antidiuretic hormone), released from the posterior pituitary gland, acts on the kidney tubules to increase water reabsorption, producing concentrated urine when the body is dehydrated. Aldosterone mainly controls sodium reabsorption, insulin controls blood sugar, and oxytocin causes uterine contraction, not water balance.",
+"pidgin": "ADH (antidiuretic hormone) wey posterior pituitary gland dey release na im dey make kidney tubules reabsorb more water so urine go concentrate when body don dehydrate. Aldosterone na sodium e dey control, insulin na blood sugar, oxytocin na womb contraction, dem no be the one wey dey control water for dehydration.",
+"id": "biov1202",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A plant scientist at a tissue culture laboratory in Ibadan wants to multiply plantlets quickly from a small piece of plant tissue by encouraging rapid cell division in the culture medium. Which plant hormone should be added in higher concentration to achieve this effect?",
+"options": [
+"Auxin",
+"Abscisic acid",
+"Cytokinin",
+"Ethylene"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Cytokinins are plant hormones that mainly stimulate cell division (cytokinesis) and are used in tissue culture to multiply shoots and plantlets rapidly. Auxin mainly promotes cell elongation, abscisic acid induces dormancy, and ethylene is linked to fruit ripening, not cell division.",
+"pidgin": "Cytokinin na the hormone wey dey push cell division well-well, dem dey use am for tissue culture make plantlets multiply fast. Auxin na cell elongation e dey do, abscisic acid dey cause dormancy, ethylene dey cause fruit ripening, no be cell division.",
+"id": "biov1203",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

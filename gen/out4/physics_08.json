@@ -1,0 +1,159 @@
+{
+"subject": "physics",
+"topic": "Gravitational field and simple harmonic motion",
+"ti": 8,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following best defines gravitational field intensity (gravitational field strength) at a point?",
+"options": [
+"The force experienced per unit mass placed at that point",
+"The force experienced per unit charge placed at that point",
+"The energy stored per unit mass at that point",
+"The force experienced per unit area at that point"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Gravitational field strength is defined as the gravitational force acting on a unit mass placed at a point in the field. It is measured in N/kg, which also equals m/s^2.",
+"pidgin": "Gravitational field strength na the force wey dey act on one kilogram mass for that point. E dey measured for N/kg, wey be same as m/s^2.",
+"py": null,
+"values": null,
+"id": "wphy0800",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A boy's school bag has a mass of 60 kg (including books) and weighs W on the Earth's surface, where g = 10 m/s^2. If the bag is taken to a height above the Earth's surface where the gravitational field strength reduces to one-quarter of its surface value, what is the new weight of the bag?",
+"options": [
+"150 N",
+"300 N",
+"600 N",
+"900 N"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Weight on Earth's surface = mg = 60 x 10 = 600 N. At the height given, g becomes 10/4 = 2.5 m/s^2, so new weight = 60 x 2.5 = 150 N.",
+"pidgin": "For surface, weight = mg = 60 x 10 = 600 N. For that height, g don reduce to 2.5 m/s^2, so new weight = 60 x 2.5 = 150 N.",
+"py": "60*10/4",
+"values": [
+150,
+300,
+600,
+900
+],
+"id": "wphy0801",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A simple pendulum has a length of 4 m. Taking g as pi^2 m/s^2, calculate the period of oscillation of the pendulum.",
+"options": [
+"2 s",
+"3 s",
+"4 s",
+"8 s"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "T = 2*pi*sqrt(l/g) = 2*pi*sqrt(4/pi^2) = 2*pi*(2/pi) = 4 s. The pi cancels neatly because g was given as pi^2 m/s^2.",
+"pidgin": "T = 2*pi*sqrt(l/g) = 2*pi*sqrt(4/pi^2) = 2*pi*(2/pi) = 4 s. The pi cancel well-well because dem give g as pi^2 m/s^2.",
+"py": "2*math.pi*math.sqrt(4/math.pi**2)",
+"values": [
+2,
+3,
+4,
+8
+],
+"id": "wphy0802",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In simple harmonic motion, what is meant by the 'amplitude' of the motion?",
+"options": [
+"The maximum displacement of the oscillating body from its mean (rest) position",
+"The time taken for one complete oscillation",
+"The number of oscillations made per second",
+"The distance between two successive points moving in phase"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Amplitude is the greatest distance the oscillating body moves away from its equilibrium (mean) position during simple harmonic motion.",
+"pidgin": "Amplitude na the biggest distance wey the body waka comot from im resting position when e dey oscillate.",
+"py": null,
+"values": null,
+"id": "wphy0803",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A particle performs simple harmonic motion with amplitude 5 cm and angular frequency 2 rad/s. Using v = omega*sqrt(A^2 - x^2), calculate the speed of the particle when its displacement from the mean position is 3 cm.",
+"options": [
+"4 cm/s",
+"6 cm/s",
+"8 cm/s",
+"10 cm/s"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "v = omega*sqrt(A^2 - x^2) = 2*sqrt(5^2 - 3^2) = 2*sqrt(25-9) = 2*sqrt(16) = 2*4 = 8 cm/s.",
+"pidgin": "v = omega*sqrt(A^2 - x^2) = 2*sqrt(25-9) = 2*sqrt(16) = 2*4 = 8 cm/s.",
+"py": "2*math.sqrt(5**2-3**2)",
+"values": [
+4,
+6,
+8,
+10
+],
+"id": "wphy0804",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A simple pendulum has a period T when swinging on the Earth's surface, where the gravitational field strength is 10 m/s^2. If the same pendulum (same length) is taken to a planet where the gravitational field strength is 2.5 m/s^2, what is the new period in terms of T?",
+"options": [
+"T/4",
+"T/2",
+"2T",
+"4T"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Since T is proportional to 1/sqrt(g), the ratio of new period to old period is sqrt(g_earth/g_planet) = sqrt(10/2.5) = sqrt(4) = 2. So the new period is 2T; a weaker gravitational field makes the pendulum swing more slowly.",
+"pidgin": "T dey proportional to 1/sqrt(g), so new period divide old period give sqrt(10/2.5) = sqrt(4) = 2. So new period na 2T; weak gravity make the pendulum swing slow-slow.",
+"py": null,
+"values": null,
+"id": "wphy0805",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,112 @@
+{
+"subject": "maths",
+"topic": "Logarithms",
+"generated": 4,
+"kept": [
+{
+"q": "Evaluate log_2(1/8).",
+"options": [
+"-3",
+"3",
+"-4",
+"1/3"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "1/8 = 2^(-3), so log_2(1/8) = -3. This is because log_2(2^(-3)) simply gives the power, -3.",
+"pidgin": "1/8 be 2^(-3), so log_2(1/8) na -3. Na di power wey dey on top 2 be di answer.",
+"py": "math.log2(1/8)",
+"values": [
+-3,
+3,
+-4,
+0.3333333333333333
+],
+"id": "matv0300",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Given that log_10(5) = 0.6990, find the value of log_10(20).",
+"options": [
+"0.6990",
+"1.3010",
+"1.6990",
+"2.6990"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Write 20 as 100/5. So log_10(20) = log_10(100) - log_10(5) = 2 - 0.6990 = 1.3010.",
+"pidgin": "20 na 100/5. So log_10(20) = log_10(100) - log_10(5) = 2 - 0.6990 = 1.3010.",
+"py": "2 - 0.6990",
+"values": [
+0.699,
+1.301,
+1.699,
+2.699
+],
+"id": "matv0301",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Solve the equation log_2(x) + log_2(x - 2) = 3, where x is greater than 2.",
+"options": [
+"2",
+"-2",
+"4",
+"8"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Combine the logs: log_2(x(x-2)) = 3, so x(x-2) = 2^3 = 8. This gives x^2 - 2x - 8 = 0, which factorises as (x-4)(x+2) = 0. Since x must be greater than 2, x = 4 (x = -2 is rejected).",
+"pidgin": "Combine di logs: log_2(x(x-2)) = 3, so x(x-2) = 8. E give x^2 - 2x - 8 = 0, wey factor to (x-4)(x+2) = 0. Since x must bigger pass 2, x = 4 (we no fit use -2).",
+"py": "4",
+"values": [
+2,
+-2,
+4,
+8
+],
+"id": "matv0302",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "If log_3(x) = log_9(81), find the value of x.",
+"options": [
+"3",
+"27",
+"81",
+"9"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "First evaluate log_9(81): since 81 = 9^2, log_9(81) = 2. So log_3(x) = 2, which means x = 3^2 = 9.",
+"pidgin": "First find log_9(81): 81 be 9^2, so log_9(81) = 2. So log_3(x) = 2, dat one mean x = 3^2 = 9.",
+"py": "9",
+"values": [
+3,
+27,
+81,
+9
+],
+"id": "matv0303",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

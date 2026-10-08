@@ -1,0 +1,174 @@
+{
+"subject": "geography",
+"topic": "Earth movements: folding, faulting, earthquakes and vulcanicity",
+"generated": 8,
+"kept": [
+{
+"q": "Folding of rock layers in the Earth's crust is mainly caused by which type of earth movement?",
+"options": [
+"Horizontal compressive forces pushing rock layers together",
+"Vertical forces lifting a block of land upward only",
+"Sudden release of volcanic gases underground",
+"Surface erosion by rivers and wind over time"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Folding happens when horizontal compressive forces squeeze rock layers, causing them to bend into upfolds (anticlines) and downfolds (synclines). Erosion and gas release do not fold rock layers.",
+"pidgin": "Na when force dey push rock layers from side to side dem go bend, dat one na folding. Erosion and gas no fit cause folding.",
+"py": null,
+"values": null,
+"id": "geov0600",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which instrument is specifically used by scientists to detect and record the strength (magnitude) of earthquake waves?",
+"options": [
+"Barometer",
+"Seismograph",
+"Anemometer",
+"Hygrometer"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A seismograph records the vibrations produced by earthquakes and is used to measure their magnitude. The other instruments measure pressure, wind speed, and humidity respectively, not earthquakes.",
+"pidgin": "Seismograph na di instrument wey dem dey use measure earthquake strength. Di oda ones na for pressure, wind and humidity, no be for earthquake.",
+"py": null,
+"values": null,
+"id": "geov0601",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "During faulting, a block of land that sinks down and lies lower than the surrounding land, bounded on both sides by parallel faults, is called a:",
+"options": [
+"Horst",
+"Graben",
+"Anticline",
+"Syncline"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A graben (also called a rift valley) is a depressed block of land that has sunk between two parallel faults. A horst is the opposite, a raised block, while anticline and syncline are fold features, not fault features.",
+"pidgin": "Graben na land wey sink down between two parallel fault lines, dem dey call am rift valley too. Horst na di opposite, na raised land, while anticline and syncline na for folding, no be fault.",
+"py": null,
+"values": null,
+"id": "geov0602",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which landform results from intrusive vulcanicity, where magma squeezes between two existing rock layers and solidifies there without ever reaching the Earth's surface?",
+"options": [
+"Volcanic cone",
+"Caldera",
+"Sill",
+"Lava plateau"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A sill is a sheet of solidified magma that forms when magma intrudes horizontally between existing rock layers and cools underground. Volcanic cones, calderas, and lava plateaus are all extrusive features formed on the surface.",
+"pidgin": "Sill na when magma enter between rock layers under ground and cool there, e no reach surface. Volcanic cone, caldera and lava plateau na extrusive features wey dey show for surface.",
+"py": null,
+"values": null,
+"id": "geov0603",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "An upward fold (ridge-shaped bend) of rock strata, where the oldest rock layers are exposed at the core after erosion has stripped away the younger layers, is known as a/an:",
+"options": [
+"Syncline",
+"Anticline",
+"Horst",
+"Rift valley"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "An anticline is an upfold where rock layers arch upward, and once eroded, the oldest rocks are exposed at its centre. A syncline is a downfold, while horst and rift valley relate to faulting, not folding.",
+"pidgin": "Anticline na upfold wey rock arch go up, and after erosion, di oldest rock go dey center. Syncline na downfold, while horst and rift valley na for faulting matter.",
+"py": null,
+"values": null,
+"id": "geov0604",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Geographers sometimes find that in a folded landscape, the highest hills actually sit where the original synclines (troughs) were, while the original anticlines (crests) form valleys. What best explains this relief inversion?",
+"options": [
+"Anticlines contain denser rock that sinks over time, turning them into valleys",
+"The crest of an anticline is stretched and cracked by tension, making it erode faster than the compressed rock of the syncline",
+"Synclines are always made of volcanic rock that cannot be worn away",
+"Rivers naturally flow uphill from anticlines into nearby synclines"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At the crest of an anticline, rock layers are stretched and develop cracks, which weakens them and makes them erode more easily than the compressed, less-fractured rock in the syncline trough. Over long periods, this can reverse the original relief so synclines become hills and anticlines become valleys.",
+"pidgin": "For anticline crest, di rock dey stretch and crack, dis one dey make am weak and e dey erode fast pass di rock for syncline wey dem press together. As time dey go, dis fit turn di hill to valley and di valley to hill, na so relief inversion dey happen.",
+"py": null,
+"values": null,
+"id": "geov0605",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A seismograph station recorded that the primary (P) waves of an earthquake arrived 4 minutes before the secondary (S) waves. If the P-wave travels at 8 km per second and the S-wave travels at 4 km per second, calculate the distance of the station from the earthquake's epicentre.",
+"options": [
+"1920 km",
+"960 km",
+"480 km",
+"2400 km"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Convert 4 minutes to seconds: 4 x 60 = 240 s. Using distance = (Vp x Vs / (Vp - Vs)) x time difference = (8x4/(8-4)) x 240 = 8 x 240 = 1920 km. This formula accounts for the fact that the faster P-wave pulls ahead of the S-wave as distance increases.",
+"pidgin": "Change 4 minutes to seconds: 4 x 60 = 240 s. Use di formula distance = (Vp x Vs divide by (Vp - Vs)) x time wey dem take reach = (8x4/(8-4)) x 240 = 8 x 240 = 1920 km. Dis formula show say di faster P-wave go dey front pass di S-wave as distance dey increase.",
+"py": "(8*4/(8-4))*240",
+"values": [
+1920,
+960,
+480,
+2400
+],
+"id": "geov0606",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Which type of volcano has a low, broad, gently sloping profile because it is built up from highly fluid lava that flows easily over long distances before solidifying?",
+"options": [
+"Composite (strato) volcano",
+"Cinder cone volcano",
+"Shield volcano",
+"Caldera"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A shield volcano is formed from very fluid basaltic lava that spreads out widely before cooling, giving it a broad, gentle, dome-like shape similar to a warrior's shield. Composite volcanoes have steeper sides from alternating ash and lava, cinder cones are steep and made of loose fragments, and a caldera is a collapsed crater, not a volcano type built by flowing lava.",
+"pidgin": "Shield volcano dey form from very watery lava wey dey spread far before e cool down, so e dey broad and flat like shield. Composite volcano get steep side from ash and lava mix, cinder cone na loose fragments wey steep, and caldera na collapsed crater, e no be type of volcano wey lava flow build.",
+"py": null,
+"values": null,
+"id": "geov0607",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

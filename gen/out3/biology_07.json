@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Excretion: kidney, skin, lungs and excretion in plants",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following organs in the human excretory system is mainly responsible for removing excess carbon(IV) oxide and water vapour from the blood through exhalation?",
+"options": [
+"Kidney",
+"Lungs",
+"Liver",
+"Skin"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The lungs remove carbon(IV) oxide, a waste product of respiration, and some water vapour when we breathe out. The kidney removes urea and excess water as urine, while the skin removes sweat. The liver mainly detoxifies substances rather than directly excreting gases.",
+"pidgin": "Na lungs dey remove the excess carbon(IV) oxide and water vapour when person dey breathe out. Kidney dey remove urea as urine, skin dey sweat, liver na for detox work. So lungs be the correct answer.",
+"id": "biov0700",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "During a routine medical test, a student's urine sample tested positive for glucose even though his blood glucose level was normal. This suggests damage to which part of the nephron, which normally reabsorbs almost all filtered glucose back into the blood?",
+"options": [
+"Glomerulus",
+"Proximal convoluted tubule",
+"Loop of Henle",
+"Collecting duct"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The proximal convoluted tubule (PCT) is responsible for reabsorbing glucose, amino acids and ions from the filtrate back into the blood. If it is damaged, glucose that should be reabsorbed leaks into the urine even when blood glucose is normal. The glomerulus only filters blood, it does not reabsorb.",
+"pidgin": "Na proximal convoluted tubule (PCT) dey reabsorb glucose back into blood. If e damage, glucose go dey leak comot for urine even if blood sugar normal. Glomerulus na just for filtration, e no dey reabsorb anything.",
+"id": "biov0701",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In human skin, the coiled glands that produce sweat and release it through narrow ducts onto the skin surface for evaporative cooling are mainly located in which layer?",
+"options": [
+"Epidermis",
+"Dermis",
+"Cuticle",
+"Stratum corneum"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Sweat glands are coiled structures found in the dermis, the layer below the epidermis that contains blood vessels, nerve endings and hair follicles. Their ducts pass through the epidermis to release sweat on the skin surface. The epidermis and stratum corneum are mainly protective, dead-cell layers without glands.",
+"pidgin": "Sweat glands dey inside the dermis, the layer wey dey under epidermis, where blood vessels and hair follicles dey too. The duct from the gland go pass through epidermis before sweat go reach outside. Epidermis and stratum corneum na just protective dead cells, no gland dey there.",
+"id": "biov0702",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A patient's kidney scan shows that the loop of Henle has lost its normal function due to tissue damage, but the glomerulus and proximal convoluted tubule are still working well. Which of the following processes would be most directly affected?",
+"options": [
+"Filtration of blood plasma into the Bowman's capsule",
+"Reabsorption of glucose and amino acids into blood",
+"Establishment of the salt concentration gradient in the medulla",
+"Secretion of excess hydrogen ions into the filtrate"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The loop of Henle's main job is to pump salts out to create a concentration gradient in the kidney medulla, which allows water to be reabsorbed later in the collecting duct. If it is damaged, this gradient cannot form properly, so the kidney struggles to produce concentrated urine. Filtration happens at the glomerulus and glucose reabsorption happens at the PCT, both unaffected here.",
+"pidgin": "Loop of Henle work na to pump salt comot so dat e go create concentration gradient for medulla, wey go later help reabsorb water for collecting duct. If loop of Henle spoil, dat gradient no go form well, so kidney no go fit concentrate urine well. Filtration dey happen for glomerulus, glucose reabsorption dey happen for PCT, dem no affected here.",
+"id": "biov0703",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Growth, plant and animal hormones",
+"ti": 12,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following best defines growth in living organisms?",
+"options": [
+"A temporary increase in size that can later be reversed",
+"A permanent and irreversible increase in size and dry weight of an organism",
+"An increase in body weight caused only by water absorption",
+"The production of new cells without any increase in overall size"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Growth is a permanent, irreversible increase in size, mass and dry weight due to addition of new cells and materials. Water uptake alone (swelling) is temporary and not true growth.",
+"pidgin": "Growth na permanent increase wey no fit come back for size, body weight and dry weight of living thing. If na only water enter body make e swell, e no be real growth because e fit go back.",
+"id": "wbio1200",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which plant hormone is mainly responsible for cell elongation in the shoot tip and causes a growing shoot to bend towards a source of light?",
+"options": [
+"Auxin",
+"Gibberellin",
+"Cytokinin",
+"Abscisic acid"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Auxin is produced at the shoot tip and promotes cell elongation. Its unequal distribution towards the shaded side makes that side grow faster, bending the shoot towards light (phototropism).",
+"pidgin": "Auxin dey produce for shoot tip, e dey make cell dey long well well. E dey pack more for the shaded side, so dat side go grow pass, make the shoot bend go where light dey.",
+"id": "wbio1201",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer notices that some maize seedlings in his farm in Kaduna are unusually short compared to others. If he wants to make these dwarf seedlings grow as tall as the normal ones, which hormone would most likely help by promoting stem elongation?",
+"options": [
+"Auxin",
+"Gibberellin",
+"Ethylene",
+"Abscisic acid"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Gibberellins are well known for promoting stem elongation, and applying them to genetically dwarf plants can make them grow tall like normal varieties. This is a classic effect used in agriculture.",
+"pidgin": "Gibberellin na the hormone wey sabi make stem grow long. If dem apply am for short (dwarf) plant, e fit make the plant grow tall like the normal ones.",
+"id": "wbio1202",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A young boy shows signs of stunted growth and slow mental development because his thyroid gland is not producing enough hormone. Which hormone is deficient in this boy?",
+"options": [
+"Insulin",
+"Thyroxine",
+"Adrenaline",
+"Growth hormone"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Thyroxine, secreted by the thyroid gland, controls metabolic rate and is essential for normal physical and mental growth in children. Its deficiency in childhood causes cretinism, marked by stunted growth and poor mental development.",
+"pidgin": "Thyroxine na the hormone wey the thyroid gland dey produce, e dey control how body dey use energy and e important for growth and brain. If pikin no get am well, e fit cause short body and slow brain, dem dey call am cretinism.",
+"id": "wbio1203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A potted seedling was kept in a closed box with a small opening that allowed light to enter from only one side. After several days, the shoot was observed to bend towards the opening. This bending happens because auxin produced at the shoot tip...",
+"options": [
+"accumulates more on the illuminated side, making it grow faster than the shaded side",
+"accumulates more on the shaded side, making it elongate faster than the illuminated side, so the shoot curves towards the light",
+"is produced only on the illuminated side and has no effect on the shaded side",
+"remains equally distributed on both sides, so bending is not caused by auxin at all"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Auxin moves away from the light to the shaded side of the shoot. The shaded side therefore has more auxin and its cells elongate faster than those on the lit side, pushing the tip to curve towards the light. This unequal growth, not light itself, causes the bending.",
+"pidgin": "Auxin dey waka comot from where light dey go the shaded side of the shoot. So the shaded side get more auxin, the cells for there grow pass the one wey light dey shine on. Na im make the shoot bend go where light dey.",
+"id": "wbio1204",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the typical S-shaped (sigmoid) growth curve of a population of organisms, which phase shows the population size increasing most rapidly, that is, the fastest rate of growth?",
+"options": [
+"Lag phase",
+"Log (exponential) phase",
+"Stationary phase",
+"Decline phase"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In the log (exponential) phase, organisms have plenty of food and space, so they reproduce rapidly and population size increases at its fastest rate. The lag phase is slow adjustment, while the stationary and decline phases show levelling off or reduction.",
+"pidgin": "For log (exponential) phase, food and space still dey plenty, so the organisms dey multiply quick quick, na there population dey increase pass. Lag phase na slow start, while stationary and decline phase na where e stop to increase or e begin reduce.",
+"id": "wbio1205",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

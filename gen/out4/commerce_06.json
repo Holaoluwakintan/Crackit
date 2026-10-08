@@ -1,0 +1,175 @@
+{
+"subject": "commerce",
+"topic": "Money, banking and finance",
+"ti": 6,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following is NOT a function of money?",
+"options": [
+"Medium of exchange",
+"Store of value",
+"Standard for deferred payment",
+"Means of creating employment"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Money works as a medium of exchange, a store of value, and a standard for deferred payment. Creating employment is the work of businesses, government and investment, not a function of money itself.",
+"pidgin": "Money dey help as medium of exchange, store of value, and standard for deferred payment. But to create employment na work for business and government, e no be function of money.",
+"py": null,
+"values": null,
+"id": "wcom0600",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which bank in Nigeria is known as the banker to the government and to other banks, and also controls the nation's money supply?",
+"options": [
+"Commercial bank",
+"Central Bank of Nigeria",
+"Merchant bank",
+"Microfinance bank"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Central Bank of Nigeria (CBN) acts as banker to the government and to commercial banks, issues currency, and controls money supply through monetary policy. Commercial, merchant and microfinance banks serve the public, not the government or other banks.",
+"pidgin": "Central Bank of Nigeria (CBN) na banker to government and to the other banks, e dey control how much money dey circulate. Commercial, merchant and microfinance banks dey serve ordinary customers, not government or other banks.",
+"py": null,
+"values": null,
+"id": "wcom0601",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a characteristic of good money?",
+"options": [
+"Perishability",
+"Heaviness",
+"Divisibility",
+"Irregular supply"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Good money must be divisible into smaller units so it can be used for both large and small transactions. Money that perishes quickly, is heavy to carry, or has irregular supply cannot serve its purpose well.",
+"pidgin": "Good money suppose divisible well-well so e fit use for big and small transaction. Money wey dey spoil quick, wey heavy to carry, or wey no dey available well no good as money.",
+"py": null,
+"values": null,
+"id": "wcom0602",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A commercial bank receives an initial deposit of ₦50,000 from a customer. If the Central Bank's required cash reserve ratio is 20%, what is the maximum total deposits the banking system can create from this initial deposit, assuming the credit multiplier process runs fully?",
+"options": [
+"₦250,000",
+"₦200,000",
+"₦100,000",
+"₦300,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The credit multiplier is 1 divided by the reserve ratio, which is 1/0.20 = 5. Maximum total deposits = initial deposit x multiplier = 50,000 x 5 = ₦250,000.",
+"pidgin": "Credit multiplier na 1 divide by reserve ratio, wey be 1/0.20 = 5. So maximum total deposit = 50,000 x 5 = ₦250,000.",
+"py": "50000/0.2",
+"values": [
+250000,
+200000,
+100000,
+300000
+],
+"id": "wcom0603",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of these financial instruments is mainly used by a current account holder to withdraw money from the bank over the counter?",
+"options": [
+"Promissory note",
+"Bill of exchange",
+"Cheque",
+"Dividend warrant"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A cheque is a written order used by a current account holder to instruct the bank to pay out cash or transfer money. A promissory note, bill of exchange, and dividend warrant serve other purposes such as credit agreements or share payments.",
+"pidgin": "Cheque na written instruction wey current account owner dey use tell bank make dem pay cash or transfer money. Promissory note, bill of exchange and dividend warrant get different use, no be for counter withdrawal.",
+"py": null,
+"values": null,
+"id": "wcom0604",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best describes inflation?",
+"options": [
+"A persistent fall in the general price level",
+"A persistent rise in the general price level",
+"A rise in the exchange rate of the naira",
+"A fall in the interest rate charged by banks"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Inflation is a continuous and general increase in the prices of goods and services over time, which reduces the purchasing power of money. A fall in prices is deflation, not inflation.",
+"pidgin": "Inflation na when price of goods and services dey rise rise continuously, e dey reduce wetin money fit buy. If price dey fall, na deflation, no be inflation.",
+"py": null,
+"values": null,
+"id": "wcom0605",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Chiamaka Okafor borrowed ₦120,000 from her cooperative society at a simple interest rate of 15% per annum for 2 years. Calculate the total amount she will repay at the end of the loan period.",
+"options": [
+"₦156,000",
+"₦150,000",
+"₦144,000",
+"₦162,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Simple interest = (Principal x Rate x Time)/100 = (120,000 x 15 x 2)/100 = ₦36,000. Total repayment = Principal + Interest = 120,000 + 36,000 = ₦156,000.",
+"pidgin": "Simple interest = (Principal x Rate x Time)/100 = (120,000 x 15 x 2)/100 = ₦36,000. Total wey she go pay back = 120,000 + 36,000 = ₦156,000.",
+"py": "120000 + (120000*15*2)/100",
+"values": [
+156000,
+150000,
+144000,
+162000
+],
+"id": "wcom0606",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Growth and development, germination",
+"generated": 4,
+"kept": [
+{
+"q": "During the germination of a cowpea seed planted in a school farm, the cotyledons are lifted above the soil surface and later turn green before withering. This type of seed germination is best described as:",
+"options": [
+"Epigeal germination",
+"Hypogeal germination",
+"Cryptogeal germination",
+"Vivipary"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "When the cotyledons are pushed up above the soil due to elongation of the hypocotyl, it is called epigeal germination, as seen in cowpea and beans. In hypogeal germination, the cotyledons stay below the soil, as in maize.",
+"pidgin": "When di cotyledon come up reach ground level because di hypocotyl don stretch, dem dey call am epigeal germination, like wey dem dey see for cowpea and beans. For hypogeal own, di cotyledon dey remain for inside ground, like maize.",
+"id": "biov1000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A farmer in Jos soaked healthy maize seeds, placed them in moist, well-aerated soil, and kept the pot inside a dark store at room temperature. After five days, the seeds germinated successfully. Which of the following factors, although necessary for later growth of the seedling into a green plant, was NOT essential for the germination itself?",
+"options": [
+"Water",
+"Oxygen",
+"Sunlight",
+"Suitable temperature"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Germination only requires water (for imbibition), oxygen (for respiration) and a suitable temperature (for enzyme activity). Sunlight is needed later for photosynthesis once the seedling is green, but the seed can germinate in darkness using stored food.",
+"pidgin": "Germination only need water (make seed swell), oxygen (for breathing/respiration) and correct temperature (make enzymes work well). Sunlight go dey needed later when di plant don green well for photosynthesis, but di seed fit germinate for darkness because e dey use im stored food.",
+"id": "biov1001",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A bean seedling measured 2 cm tall on the first day it was observed. By the eleventh day, it had grown to 20 cm. Assuming the seedling grew at a constant rate throughout this period, calculate its average daily growth rate.",
+"options": [
+"1.5 cm/day",
+"1.8 cm/day",
+"2.0 cm/day",
+"2.2 cm/day"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The increase in height is 20 cm - 2 cm = 18 cm, and this happened over 11 - 1 = 10 days. So the average daily growth rate is 18 cm divided by 10 days, which equals 1.8 cm/day.",
+"pidgin": "Di height wey e add na 20 cm - 2 cm = 18 cm, and dis one happen for 11 - 1 = 10 days. So di average growth rate per day na 18 cm divide by 10 days, wey be 1.8 cm/day.",
+"id": "biov1002",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following statements correctly distinguishes development from growth in a germinating bean seedling?",
+"options": [
+"Development is a reversible process while growth is always irreversible",
+"Development involves qualitative changes such as differentiation of cells into root, stem and leaf tissues, while growth is an irreversible increase in size or dry mass",
+"Growth only occurs in animals while development only occurs in plants",
+"Development refers only to an increase in the number of seeds produced by the plant"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Growth is strictly a permanent, irreversible increase in size, length or dry mass of an organism. Development, on the other hand, involves qualitative changes where unspecialised cells differentiate into specialised tissues and organs, such as roots, stems and leaves in a seedling.",
+"pidgin": "Growth na permanent and irreversible increase for size, length or dry mass of organism. Development na wen simple cells dey change to different kind tissues and organs, like root, stem and leaf, for di seedling - na quality change, no be just size change.",
+"id": "biov1003",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

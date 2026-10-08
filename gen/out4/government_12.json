@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Pre-colonial political systems (Hausa-Fulani, Yoruba, Igbo)",
+"ti": 12,
+"generated": 8,
+"kept": [
+{
+"q": "In the pre-colonial Hausa-Fulani political system, what title was given to the traditional ruler of an emirate?",
+"options": [
+"Emir",
+"Oba",
+"Eze",
+"Obi"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "After Usman dan Fodio's jihad of 1804 established the Sokoto Caliphate, the ruler of each emirate under the Caliphate was called an Emir. This title replaced the earlier Hausa title of 'Sarki'.",
+"pidgin": "Afta di jihad wey Usman dan Fodio lead for 1804 wey bring Sokoto Caliphate, dem dey call di ruler of each emirate 'Emir'. Dis title take ova from di old Hausa title 'Sarki'.",
+"id": "wgov1200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What title is given to the traditional ruler of a Yoruba kingdom such as Oyo or Ife?",
+"options": [
+"Emir",
+"Oba",
+"Igwe",
+"Obi"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In Yoruba land, the traditional ruler of a kingdom is called an Oba. He is seen as a sacred figure and the symbol of unity for his people.",
+"pidgin": "For Yoruba land, dem dey call di king of any kingdom 'Oba'. Dem dey see am as sacred person wey unite im pipo.",
+"id": "wgov1201",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which statement best describes the pre-colonial Igbo political system compared to the Hausa-Fulani and Yoruba systems?",
+"options": [
+"It was a centralized monarchy ruled by one king",
+"It was a caliphate controlled by a religious head",
+"It was an acephalous system in which power was shared among councils of elders and age-grades",
+"It was a federation of emirates under one Sultan"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Unlike the Hausa-Fulani and Yoruba, who had centralized kingdoms, most Igbo communities had no single central ruler. Power was shared among elders, age-grades, title societies and village assemblies.",
+"pidgin": "Unlike Hausa-Fulani and Yoruba wey get central king, most Igbo community no get one central ruler. Dem dey share power among elders, age-grade, title societies and village meeting.",
+"id": "wgov1202",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Who led the Islamic jihad of 1804 that overthrew the Hausa kings and led to the establishment of the Sokoto Caliphate?",
+"options": [
+"Mungo Park",
+"Ahmadu Bello",
+"Muhammadu Rumfa",
+"Usman dan Fodio"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Usman dan Fodio, a Fulani Islamic scholar, led the 1804 jihad against the Hausa kings for practising what he saw as impure Islam. This led to the creation of the Sokoto Caliphate.",
+"pidgin": "Usman dan Fodio, Fulani Islamic teacher, lead di 1804 jihad against Hausa kings wey im claim say dem no dey practise correct Islam. Na dis jihad bring Sokoto Caliphate.",
+"id": "wgov1203",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the Old Oyo Empire, which body of chiefs had the power to check the excesses of the Alaafin and could present him with an empty calabash or parrot eggs as a sign that he should end his own life?",
+"options": [
+"Oyo Mesi",
+"Ogboni society",
+"Egbe Omo Oduduwa",
+"Ilari (palace messengers)"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Oyo Mesi, led by the Bashorun, was a council of seven senior chiefs who acted as a check on the Alaafin's power. If he became tyrannical, they could present him with symbols demanding that he take his own life.",
+"pidgin": "Oyo Mesi, wey Bashorun dey lead, na council of seven senior chiefs wey dey check di Alaafin power. If e start to dey do wayo rulership, dem fit give am sign make e kill imself.",
+"id": "wgov1204",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best explains why the pre-colonial Igbo political system is often described as 'republican' compared to the Hausa-Fulani and Yoruba systems?",
+"options": [
+"Igbo communities were ruled only by hereditary kings from royal families",
+"Political authority among the Igbo was shared among elders, age-grades and title-holders rather than concentrated in one hereditary ruler",
+"Igbo villages paid tribute to one central emperor who controlled them all",
+"Igbo rulers were appointed directly by Islamic clerics as in the Sokoto Caliphate"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A republican system spreads power among many people instead of one ruler. Since Igbo authority rested with councils of elders, age-grades and title societies rather than a single hereditary monarch, it is called republican, unlike the centralized Hausa-Fulani and Yoruba monarchies.",
+"pidgin": "Republican system na when power dey spread among plenty pipo instead of one ruler. Since Igbo authority dey with elders, age-grade and title societies instead of one hereditary king, dem dey call am republican, unlike Hausa-Fulani and Yoruba wey get central king.",
+"id": "wgov1205",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Among the riverine Igbo communities such as Onitsha, unlike most other Igbo areas, the traditional ruler bears which title, showing some monarchical influence?",
+"options": [
+"Emir",
+"Oba",
+"Obi",
+"Oloye"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Onitsha and some neighbouring riverine Igbo communities, influenced by contact with Benin and Igala, developed a more centralized kingship and call their ruler 'Obi', unlike the acephalous structure of most Igbo towns.",
+"pidgin": "Onitsha and some riverine Igbo town, because of dia contact with Benin and Igala, get more central kingship and dem dey call dia ruler 'Obi', unlike oda Igbo town wey no get central king.",
+"id": "wgov1206",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the Hausa language, what does the traditional title 'Sarki', used before the Islamic reforms introduced the title of Emir, mean?",
+"options": [
+"Village head",
+"Chief priest",
+"Military general",
+"King or supreme ruler"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Before Usman dan Fodio's jihad, the Hausa states were ruled by kings called 'Sarki', meaning king or supreme ruler of a Hausa state. After the jihad, the title Emir was introduced for rulers under the Sokoto Caliphate.",
+"pidgin": "Before Usman dan Fodio jihad, Hausa states dey ruled by kings wey dem dey call 'Sarki', wey mean king or supreme ruler. Afta di jihad, dem bring di title 'Emir' for rulers under Sokoto Caliphate.",
+"id": "wgov1207",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

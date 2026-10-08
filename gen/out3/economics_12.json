@@ -1,0 +1,80 @@
+{
+"subject": "economics",
+"topic": "Public finance: taxation, budget and public debt",
+"generated": 3,
+"kept": [
+{
+"q": "Public debt can be classified based on the source of borrowing. Which of the following best describes an external public debt?",
+"options": [
+"Money borrowed by government from the Central Bank of Nigeria",
+"Money borrowed from citizens through the sale of treasury bills",
+"Money borrowed from foreign governments and international financial institutions such as the World Bank",
+"Money owed by government to local contractors for completed projects"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "External debt is money a government owes to lenders outside the country, such as foreign governments or bodies like the World Bank. Internal debt, on the other hand, is owed to lenders within the country, such as citizens or the central bank.",
+"pidgin": "External debt na money wey government borrow from outside country, like foreign government or World Bank. Internal debt na money wey government borrow from inside the country, like citizens or CBN.",
+"py": null,
+"values": null,
+"id": "ecov1200",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Mallam Sule's taxable annual income is ₦3,200,000. Under a progressive tax system, the first ₦800,000 of taxable income is taxed at 7%, the next ₦1,000,000 is taxed at 11%, and any amount above ₦1,800,000 is taxed at 15%. Calculate Mallam Sule's total tax payable for the year.",
+"options": [
+"₦376,000",
+"₦352,000",
+"₦400,000",
+"₦328,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Tax on the first ₦800,000 at 7% = ₦56,000. Tax on the next ₦1,000,000 at 11% = ₦110,000. The remaining income is ₦3,200,000 - ₦1,800,000 = ₦1,400,000, taxed at 15% = ₦210,000. Total tax = 56,000 + 110,000 + 210,000 = ₦376,000.",
+"pidgin": "Step by step: first 800k dem tax 7% e give 56,000. Next 1,000,000 dem tax 11% e give 110,000. Wetin remain na 1,400,000 (3,200,000 minus 1,800,000), dem tax am 15% e give 210,000. If you add everything you go get 376,000.",
+"py": "800000*0.07 + 1000000*0.11 + (3200000-1800000)*0.15",
+"values": [
+376000,
+352000,
+400000,
+328000
+],
+"id": "ecov1201",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "In a particular fiscal year, the Federal Government of Nigeria budgeted total expenditure of ₦61 billion while total revenue collected was ₦45 billion. To finance the shortfall, the government obtained a loan of ₦10 billion from a development bank, and the remaining balance was financed by drawing down its reserves. How much was drawn from the reserves?",
+"options": [
+"₦16 billion",
+"₦10 billion",
+"₦4 billion",
+"₦6 billion"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Budget deficit = expenditure - revenue = 61 - 45 = 16 billion. The loan already covers 10 billion of this deficit, so the amount drawn from reserves = 16 - 10 = 6 billion.",
+"pidgin": "Budget deficit na wetin dem spend minus wetin dem collect: 61-45=16 billion. Dem don already get loan of 10 billion, so wetin remain wey go come from reserves na 16-10=6 billion.",
+"py": "(61-45)-10",
+"values": [
+16,
+10,
+4,
+6
+],
+"id": "ecov1202",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,198 @@
+{
+"subject": "accounting",
+"topic": "Manufacturing accounts",
+"generated": 8,
+"kept": [
+{
+"q": "What is the main purpose of preparing a manufacturing account in a set of final accounts?",
+"options": [
+"To determine the cost of production of goods manufactured during the period",
+"To calculate the net profit of the business for the year",
+"To show the financial position of the business at a particular date",
+"To record the day-to-day cash transactions of the business"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The manufacturing account is prepared by firms that make their own goods to find out the total cost of producing those goods before they are transferred to the trading account. It is not the same as the profit and loss account or the balance sheet.",
+"pidgin": "Dem dey use manufacturing account to find out how much e cost to produce the goods for that period. E no be profit and loss account or balance sheet, na just to sabi production cost.",
+"py": null,
+"values": null,
+"id": "accv1300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following items is NOT included when computing the prime cost in a manufacturing account?",
+"options": [
+"Cost of direct materials consumed",
+"Direct labour (factory wages)",
+"Direct expenses such as royalties paid per unit produced",
+"Rent of the factory building"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Prime cost = direct materials + direct labour + direct expenses. Factory rent is an indirect cost, so it is treated as a factory overhead, not part of prime cost.",
+"pidgin": "Prime cost na direct material add direct labour add direct expenses. Factory rent na overhead, e no dey enter prime cost at all.",
+"py": null,
+"values": null,
+"id": "accv1301",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Alhaji Musa's furniture factory in Kano recorded the following for the year: direct materials consumed ₦180,000, direct labour ₦95,000, and direct expenses (royalty paid per unit produced) ₦15,000. Calculate the prime cost.",
+"options": [
+"₦275,000",
+"₦290,000",
+"₦210,000",
+"₦110,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Prime cost = direct materials + direct labour + direct expenses = 180,000 + 95,000 + 15,000 = ₦290,000. All three direct cost elements must be added together.",
+"pidgin": "Prime cost na material add labour add expenses: 180,000 + 95,000 + 15,000 = ₦290,000. You must add all three direct costs make e complete.",
+"py": "180000+95000+15000",
+"values": [
+275000,
+290000,
+210000,
+110000
+],
+"id": "accv1302",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Opeyemi Ventures, a soap manufacturing company in Lagos, had an opening stock of raw materials of ₦60,000, purchased raw materials worth ₦420,000 during the year, and had a closing stock of raw materials of ₦90,000. Calculate the cost of raw materials consumed.",
+"options": [
+"₦480,000",
+"₦330,000",
+"₦390,000",
+"₦570,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Cost of materials consumed = Opening stock + Purchases - Closing stock = 60,000 + 420,000 - 90,000 = ₦390,000. You must deduct the closing stock because it was not used up during the year.",
+"pidgin": "Material wey dem use = Opening stock + Purchase - Closing stock = 60,000 + 420,000 - 90,000 = ₦390,000. Make sure you minus the closing stock because dem never use am.",
+"py": "60000+420000-90000",
+"values": [
+480000,
+330000,
+390000,
+570000
+],
+"id": "accv1303",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following is a correct example of a direct expense in a manufacturing account?",
+"options": [
+"Rent of factory building",
+"Depreciation of factory machinery",
+"Royalty paid to a patent owner based on the number of units produced",
+"Salary of factory supervisor"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A direct expense is a cost directly linked to the production of each unit, such as royalties paid per unit manufactured. Rent, depreciation and supervisor salary are indirect costs classified as factory overheads.",
+"pidgin": "Direct expense na cost wey dey attach straight to every unit wey dem produce, like royalty wey dem pay per unit. Rent, depreciation and supervisor salary na overhead, e no direct.",
+"py": null,
+"values": null,
+"id": "accv1304",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Chinedu Industries Ltd compiled the following figures for the year: Prime cost ₦260,000; Factory overheads ₦140,000; Opening work-in-progress ₦40,000; Closing work-in-progress ₦60,000. Calculate the cost of production.",
+"options": [
+"₦380,000",
+"₦440,000",
+"₦400,000",
+"₦420,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Cost of production = Prime cost + Factory overheads + Opening WIP - Closing WIP = 260,000 + 140,000 + 40,000 - 60,000 = ₦380,000. The opening WIP is added because it was finished this year, while closing WIP is removed because it is still unfinished.",
+"pidgin": "Cost of production = Prime cost + Overheads + Opening WIP - Closing WIP = 260,000+140,000+40,000-60,000 = ₦380,000. Opening WIP don finish so you add am, closing WIP never finish so you minus am.",
+"py": "260000+140000+40000-60000",
+"values": [
+380000,
+440000,
+400000,
+420000
+],
+"id": "accv1305",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Yusuf Manufacturing Company produced goods at a total cost of production of ₦720,000. These finished goods were transferred to the trading account at a market (transfer) value of ₦900,000. Calculate the factory profit on the goods produced.",
+"options": [
+"₦900,000",
+"₦720,000",
+"₦1,620,000",
+"₦180,000"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Factory profit = Market value (transfer price) - Cost of production = 900,000 - 720,000 = ₦180,000. This profit is credited to the manufacturing account and shown separately in the profit and loss account.",
+"pidgin": "Factory profit = Market value minus Cost of production = 900,000 - 720,000 = ₦180,000. Na dis profit dem go credit for manufacturing account and show am separately for profit and loss account.",
+"py": "900000-720000",
+"values": [
+900000,
+720000,
+1620000,
+180000
+],
+"id": "accv1306",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "A manufacturing company transfers its finished goods from the factory to the warehouse at a mark-up of 25% on cost. At the end of the year, the closing stock of finished goods in the warehouse, valued at transfer price, was ₦250,000. Calculate the provision for unrealised profit (stock reserve) to be created on this closing stock.",
+"options": [
+"₦62,500",
+"₦50,000",
+"₦200,000",
+"₦100,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A 25% mark-up on cost means profit is 1/5 of the transfer price (since transfer price = cost x 1.25, profit/transfer price = 0.25/1.25 = 1/5). So unrealised profit = 250,000 x 1/5 = ₦50,000. A common mistake is to take 25% straight of 250,000, which wrongly treats mark-up as margin.",
+"pidgin": "25% mark-up on cost mean say profit na 1/5 of the transfer price (because transfer price = cost x 1.25, so profit/transfer price = 0.25/1.25 = 1/5). So unrealised profit = 250,000 x 1/5 = ₦50,000. If you just take 25% of 250,000 straight, you don mix mark-up with margin, na wrong way.",
+"py": "250000*(1/5)",
+"values": [
+62500,
+50000,
+200000,
+100000
+],
+"id": "accv1307",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

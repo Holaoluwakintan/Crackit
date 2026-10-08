@@ -1,0 +1,112 @@
+{
+"subject": "physics",
+"topic": "Sound waves, resonance and echoes",
+"generated": 4,
+"kept": [
+{
+"q": "For a listener to hear a distinct echo (that is, a reflected sound heard separately from the original sound), the human ear needs the reflected sound to arrive at least 0.1 s after the direct sound. If the speed of sound in air is 340 m/s, what is the minimum distance between the listener and the reflecting wall for a distinct echo to be heard?",
+"options": [
+"17 m",
+"34 m",
+"8.5 m",
+"68 m"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The sound travels to the wall and back in 0.1 s, so distance = speed x time / 2 = 340 x 0.1 / 2 = 17 m. This is the shortest gap between listener and wall that still gives a separate echo.",
+"pidgin": "The sound go waka reach wall and come back for 0.1 s, so distance be speed x time divide by 2 = 340 x 0.1 / 2 = 17 m. Na the shortest gap wey go still make you hear clear echo.",
+"py": "340*0.1/2",
+"values": [
+17,
+34,
+8.5,
+68
+],
+"id": "phyv1400",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A closed pipe (closed at one end, open at the other) has a length of 42.5 cm. If the speed of sound in air is 340 m/s, calculate the fundamental frequency produced by this pipe.",
+"options": [
+"400 Hz",
+"200 Hz",
+"100 Hz",
+"50 Hz"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "For a closed pipe, the fundamental wavelength is 4 times the length, so wavelength = 4 x 0.425 m = 1.7 m. Frequency = speed / wavelength = 340 / 1.7 = 200 Hz.",
+"pidgin": "For closed pipe, the first wavelength na 4 times the length, so wavelength = 4 x 0.425 = 1.7 m. Frequency = speed / wavelength = 340 / 1.7 = 200 Hz.",
+"py": "340/(4*0.425)",
+"values": [
+400,
+200,
+100,
+50
+],
+"id": "phyv1401",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "In a resonance tube experiment with a vibrating tuning fork, the first position of resonance (shortest air column) is found at 12 cm and the next position of resonance is found at 46 cm, measured from the open end of the tube. If the speed of sound in air is 340 m/s, what is the frequency of the tuning fork?",
+"options": [
+"250 Hz",
+"1000 Hz",
+"500 Hz",
+"750 Hz"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The distance between two successive resonance positions equals half a wavelength, so half-wavelength = 46 - 12 = 34 cm, giving wavelength = 68 cm = 0.68 m. Frequency = speed / wavelength = 340 / 0.68 = 500 Hz.",
+"pidgin": "The gap between the two resonance points na half wavelength, so half-wavelength = 46 - 12 = 34 cm, wavelength = 68 cm = 0.68 m. Frequency = speed / wavelength = 340 / 0.68 = 500 Hz.",
+"py": "340/(2*(0.46-0.12))",
+"values": [
+250,
+1000,
+500,
+750
+],
+"id": "phyv1402",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Ngozi stands somewhere between two tall cliffs that are 850 m apart, in a straight line with both cliffs. She claps once and hears the first echo after 2 seconds and the second echo (from the other cliff) after 3 seconds. Taking the speed of sound as 340 m/s, how far is Ngozi from the nearer cliff?",
+"options": [
+"510 m",
+"850 m",
+"170 m",
+"340 m"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Distance to nearer cliff = speed x time / 2 = 340 x 2 / 2 = 340 m, since sound travels there and back in 2 s. Checking: distance to farther cliff = 340 x 3 / 2 = 510 m, and 340 + 510 = 850 m, which matches the given gap between the cliffs, confirming the answer.",
+"pidgin": "Distance to the near cliff = speed x time / 2 = 340 x 2 / 2 = 340 m, because sound waka go and come back for 2 s. If you check, distance to the far cliff = 340 x 3 / 2 = 510 m, and 340 + 510 = 850 m wey match the gap wey dem give, so e correct.",
+"py": "340*2/2",
+"values": [
+510,
+850,
+170,
+340
+],
+"id": "phyv1403",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

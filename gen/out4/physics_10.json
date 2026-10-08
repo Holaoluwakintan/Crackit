@@ -1,0 +1,165 @@
+{
+"subject": "physics",
+"topic": "Temperature, thermometers and thermal expansion",
+"ti": 10,
+"generated": 6,
+"kept": [
+{
+"q": "The normal human body temperature is 37°C. What is this temperature on the Kelvin scale?",
+"options": [
+"310 K",
+"300 K",
+"283 K",
+"250 K"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "To change Celsius to Kelvin, add 273. So 37°C + 273 = 310 K.",
+"pidgin": "To change from Celsius go Kelvin, you go add 273. So 37°C + 273 = 310 K.",
+"py": "37+273",
+"values": [
+310,
+300,
+283,
+250
+],
+"id": "wphy1000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Mercury is commonly used in liquid-in-glass thermometers mainly because of which property?",
+"options": [
+"It is a poor conductor of heat",
+"It expands uniformly over a wide range of temperature",
+"It has a very high specific heat capacity",
+"It freezes at a very high temperature"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A good thermometric liquid must expand evenly as temperature rises so that equal temperature changes give equal changes in length (uniform scale). Mercury does this very well over a wide range.",
+"pidgin": "Good liquid wey dem go use for thermometer must expand well-well as the temperature dey rise, so that the scale go balance. Mercury dey do this one well for plenty temperature range.",
+"py": null,
+"values": null,
+"id": "wphy1001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A steel rod of length 2 m is at a temperature of 20°C. If the linear expansivity of steel is 1.2 x 10^-5 per K, calculate the increase in the length of the rod when it is heated to 120°C.",
+"options": [
+"1.2 mm",
+"4.8 mm",
+"2.4 mm",
+"0.24 mm"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Use ΔL = L x alpha x ΔT. Here ΔT = 120 - 20 = 100 K, so ΔL = 2 x 1.2x10^-5 x 100 = 0.0024 m = 2.4 mm.",
+"pidgin": "Use ΔL = L x alpha x ΔT. ΔT = 120 - 20 = 100 K, so ΔL = 2 x 1.2x10^-5 x 100 = 0.0024 m, wey be 2.4 mm.",
+"py": "2*1.2e-5*100*1000",
+"values": [
+1.2,
+4.8,
+2.4,
+0.24
+],
+"id": "wphy1002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A bimetallic strip is made by firmly joining a brass strip and an iron strip together along their length, with brass expanding more than iron for the same rise in temperature. When the strip is heated evenly, which way does it bend?",
+"options": [
+"It bends towards the brass side",
+"It remains straight",
+"It bends outward uniformly",
+"It bends towards the iron side"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Since brass expands more than iron for the same temperature rise, the brass side becomes longer than the iron side. This forces the strip to curve, with the brass on the outside of the curve, so the strip bends towards the iron (the metal that expanded less).",
+"pidgin": "Since brass dey expand pass iron for the same temperature rise, the brass side go longer pass the iron side. This one go make the strip curve, brass go dey outside the curve, so the strip go bend go the iron side (the one wey expand less).",
+"py": null,
+"values": null,
+"id": "wphy1003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A liquid has a real (absolute) cubical expansivity of 1.8 x 10^-4 per K. When it is heated inside a glass container, the glass itself has a cubical expansivity of 2.7 x 10^-5 per K. What is the apparent cubical expansivity of the liquid as observed in the glass container?",
+"options": [
+"1.53 x 10^-4 per K",
+"2.07 x 10^-4 per K",
+"1.53 x 10^-5 per K",
+"2.07 x 10^-5 per K"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Apparent expansivity = Real expansivity of liquid - cubical expansivity of container, because the container also expands and makes the liquid's level rise less than it really should. So apparent = 1.8x10^-4 - 2.7x10^-5 = 1.53x10^-4 per K.",
+"pidgin": "Apparent expansivity = Real expansivity of the liquid minus the cubical expansivity of the container, because the container sef dey expand small, e dey reduce wetin we see. So apparent = 1.8x10^-4 - 2.7x10^-5 = 1.53x10^-4 per K.",
+"py": "1.8e-4 - 2.7e-5",
+"values": [
+0.000153,
+0.000207,
+1.53e-05,
+2.07e-05
+],
+"id": "wphy1004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A mercury-in-glass thermometer was wrongly calibrated so that the lower fixed point reads 2°C instead of 0°C, and the upper fixed point reads 102°C instead of 100°C. When this faulty thermometer is dipped into a liquid, it shows a reading of 56°C. What is the true temperature of the liquid?",
+"options": [
+"50°C",
+"54°C",
+"56°C",
+"58°C"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "True temperature = [(observed reading - lower fixed point reading) / (upper fixed point reading - lower fixed point reading)] x 100. So True temp = (56 - 2)/(102 - 2) x 100 = 54/100 x 100 = 54°C.",
+"pidgin": "True temperature = [(wetin thermometer show - the lower fixed point reading) divide by (upper fixed point reading minus lower fixed point reading)] x 100. So True temp = (56 - 2)/(102 - 2) x 100 = 54/100 x 100 = 54°C.",
+"py": "(56-2)/(102-2)*100",
+"values": [
+50,
+54,
+56,
+58
+],
+"id": "wphy1005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

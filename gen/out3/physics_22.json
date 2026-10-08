@@ -1,0 +1,106 @@
+{
+"subject": "physics",
+"topic": "Atomic and nuclear physics: radioactivity and half-life",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following radioactive emissions has the greatest ionizing power but the least penetrating power, being stopped by a thin sheet of paper or a few centimetres of air?",
+"options": [
+"Alpha particles",
+"Beta particles",
+"Gamma rays",
+"X-rays"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Alpha particles are heavy and carry a +2 charge, so they interact strongly with matter and ionize it a lot, but this also makes them lose energy quickly and get stopped easily, even by paper. Beta and gamma radiations penetrate further but ionize less per collision.",
+"pidgin": "Alpha particle dey heavy well-well and get +2 charge, so e dey ionize matter plenty, but e dey lose energy quick so paper fit stop am. Beta and gamma dey waka pass am but dem no too ionize reach alpha.",
+"py": null,
+"values": null,
+"id": "phyv2200",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A radioactive isotope used in a Lagos teaching hospital has an initial mass of 800 g. If its half-life is 6 hours, what mass of the isotope remains after 18 hours, assuming no other process removes the material?",
+"options": [
+"400 g",
+"200 g",
+"100 g",
+"50 g"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "18 hours divided by the half-life of 6 hours gives 3 half-lives. After each half-life the mass halves, so 800 g becomes 400 g, then 200 g, then 100 g after 3 half-lives.",
+"pidgin": "18 hours divide by 6 hours half-life na 3 half-lives. Every half-life the mass dey cut by half: 800 to 400, 400 to 200, 200 to 100 g after the third one.",
+"py": "800*(0.5)**3",
+"values": [
+400,
+200,
+100,
+50
+],
+"id": "phyv2201",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "The half-life of a certain radioactive substance is 20 days. Using ln 2 = 0.693, calculate its decay constant correct to 3 decimal places.",
+"options": [
+"0.035 per day",
+"0.0693 per day",
+"0.347 per day",
+"0.0035 per day"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The decay constant is given by lambda = ln2 / half-life = 0.693 / 20 = 0.0347, which rounds to 0.035 per day to 3 decimal places.",
+"pidgin": "Decay constant na lambda = ln2 divide by half-life = 0.693/20 = 0.0347, wey round go 0.035 per day for 3 decimal places.",
+"py": "round(0.693/20,3)",
+"values": [
+0.035,
+0.0693,
+0.347,
+0.0035
+],
+"id": "phyv2202",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "An archaeologist found a wooden carving from an old settlement near Ile-Ife whose carbon-14 activity is only 12.5% of the activity measured in a freshly cut piece of the same type of wood. If the half-life of carbon-14 is 5730 years, estimate the age of the carving.",
+"options": [
+"17190 years",
+"11460 years",
+"22920 years",
+"5730 years"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "12.5% equals 1/8, and (1/2)^3 = 1/8, so 3 half-lives have passed. Age = 3 x 5730 years = 17190 years.",
+"pidgin": "12.5% na 1/8, and (1/2) raise to 3 na 1/8, so na 3 half-lives don pass. Age = 3 x 5730 years = 17190 years.",
+"py": "3*5730",
+"values": [
+17190,
+11460,
+22920,
+5730
+],
+"id": "phyv2203",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

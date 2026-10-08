@@ -1,0 +1,74 @@
+{
+"subject": "economics",
+"topic": "Basic concepts: scarcity, choice, scale of preference and opportunity cost",
+"generated": 3,
+"kept": [
+{
+"q": "In a certain rural community in Kebbi State, there is enough borehole water to meet only half of the residents' daily needs, so the community leaders have introduced a rationing system so that everyone gets some water each day. Which basic economic concept does this situation best illustrate?",
+"options": [
+"Scarcity",
+"Specialization",
+"Division of labour",
+"Economic growth"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Scarcity means that resources (like the borehole water) are not enough to meet all the wants of the people, forcing rationing. This is different from choice, which is about deciding among alternatives, though scarcity leads to the need for choice.",
+"pidgin": "Scarcity na when resource no reach to cover everybody need, like as the borehole water no reach everybody, dem go ration am. Na because water no plenty reach make dem dey share am small small.",
+"py": null,
+"values": null,
+"id": "ecov0000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Bola receives a weekend allowance of N5,000 and ranks her wants in this order of importance: 1st - a textbook costing N3,500; 2nd - transport top-up costing N2,000; 3rd - snacks costing N1,200; 4th - a movie ticket costing N1,000. She uses her allowance to buy only the textbook, her most preferred want. What is the opportunity cost of her decision?",
+"options": [
+"The snacks she did not buy",
+"The transport top-up she did not buy",
+"The movie ticket she did not buy",
+"The textbook she eventually bought"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Opportunity cost is the value of the next best alternative that is given up when a choice is made, not everything forgone or the item chosen itself. Since transport top-up is Bola's second most preferred want after the textbook, it is her opportunity cost.",
+"pidgin": "Opportunity cost na the next best thing wey person sacrifice when e choose one option. Since transport top-up na the number 2 thing wey Bola rank after textbook, na im be her opportunity cost, no be snacks or movie ticket.",
+"py": null,
+"values": null,
+"id": "ecov0001",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A fresh graduate from Ahmadu Bello University receives four job offers with the following annual salaries: Oil company, N3,000,000; Commercial bank, N2,400,000; NGO, N2,100,000; Teaching job, N1,800,000. If he accepts the oil company job, what is the monetary value of his opportunity cost?",
+"options": [
+"N2,400,000",
+"N2,100,000",
+"N1,800,000",
+"N7,300,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Opportunity cost is the value of the single next best alternative forgone, not the sum of all other alternatives. Among the three jobs not chosen, the bank job (N2,400,000) is the highest-paying, so it represents the true opportunity cost; adding up all three forgone salaries (N7,300,000) is a common mistake.",
+"pidgin": "Opportunity cost na the one best option wey person leave, no be the total of everything wey e no choose. Among the remaining three jobs, bank job (N2,400,000) pay pass, so na im be the real opportunity cost, no be when you add all the three together to get N7,300,000.",
+"py": "max(2400000, 2100000, 1800000)",
+"values": [
+2400000,
+2100000,
+1800000,
+7300000
+],
+"id": "ecov0002",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

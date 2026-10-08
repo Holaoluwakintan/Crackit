@@ -1,0 +1,174 @@
+{
+"subject": "commerce",
+"topic": "Business units: sole proprietorship and partnership",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes a sole proprietorship business?",
+"options": [
+"A business owned by many shareholders who buy shares in it",
+"A business owned and managed by a single individual who provides capital, bears all risks and takes all profits",
+"A business formed by two or more persons who sign a deed of partnership",
+"A business owned and run by the government for public service"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A sole proprietorship is a one-man business. The owner supplies the capital, makes all decisions, takes all the profit and also bears all the losses and risks alone.",
+"pidgin": "Sole proprietorship na business wey one person dey own. E be the one wey bring money, e dey control everything, e dey chop the profit and e dey carry the loss too.",
+"py": null,
+"values": null,
+"id": "comv1100",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In a sole proprietorship, the owner is often called the sole trader because",
+"options": [
+"He alone provides the capital, bears the risk and controls the entire business",
+"He must register the business with the Corporate Affairs Commission before he can start trading",
+"He shares the profit of the business equally with his employees",
+"He is appointed by government officials to manage the business on their behalf"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The word 'sole' means 'only one'. The sole trader is the only owner, so he alone contributes capital, controls the business and bears the risk of success or failure.",
+"pidgin": "'Sole' mean 'only one person'. So na the sole trader alone dey bring capital, dey control the business and e be im one dey carry the risk.",
+"py": null,
+"values": null,
+"id": "comv1101",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of these is a major advantage that a sole proprietorship has over a partnership business?",
+"options": [
+"It can raise larger amounts of capital for expansion",
+"It enjoys perpetual existence even after the owner dies",
+"Decisions can be made quickly since only one person controls the business",
+"Business losses are shared among many owners, reducing individual burden"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Because a sole proprietor does not need to consult partners, he can take decisions fast, which is an advantage over partnerships where decisions may be delayed due to consultation among partners.",
+"pidgin": "Since na one person dey run the business, im fit take decision sharp sharp without to dey consult other people, unlike partnership wey all partners go first discuss before decision.",
+"py": null,
+"values": null,
+"id": "comv1102",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Mama Chidinma runs a provision store alone as a sole trader. If the business fails and its debts are more than the value of the business assets, what will happen to her personal properties such as her car and house?",
+"options": [
+"They are fully protected by law from the business creditors",
+"The government will seize them and hold them in trust for her",
+"They will automatically be shared among her relatives to settle the debt",
+"They can be sold by creditors to offset the outstanding business debts"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A sole proprietor has unlimited liability. This means there is no legal separation between her personal and business assets, so creditors can go after her personal property to recover unpaid business debts.",
+"pidgin": "Sole trader get unlimited liability. E mean say im business property and im personal property na the same thing for law, so creditors fit sell im personal things like car and house make dem recover their money.",
+"py": null,
+"values": null,
+"id": "comv1103",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "The written document that spells out the terms and conditions guiding the operation of a partnership, such as how profits will be shared and how capital will be contributed, is called the",
+"options": [
+"Memorandum of association",
+"Certificate of incorporation",
+"Partnership deed",
+"Prospectus"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The partnership deed (also called articles of partnership) is the agreement signed by partners stating how the business will operate, including profit-sharing ratios and capital contributions.",
+"pidgin": "Partnership deed na the paper wey the partners sign wey dey show how dem go share profit, how dem go bring capital and how the business go run.",
+"py": null,
+"values": null,
+"id": "comv1104",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Alhaji Musa and Mr. Eze formed a partnership business. Their partnership deed states that profit should be shared in the ratio 3:2 between Alhaji Musa and Mr. Eze respectively. If the business made a total profit of ₦150,000 for the year, how much will Alhaji Musa receive?",
+"options": [
+"₦90,000",
+"₦60,000",
+"₦75,000",
+"₦50,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The ratio 3:2 has a total of 5 parts. Alhaji Musa's share is 3 parts out of 5, so his amount is (3/5) x 150,000 = 90,000.",
+"pidgin": "3:2 ratio get total of 5 parts. Alhaji Musa own na 3 parts out of 5, so im money na (3/5) x 150,000 wey be 90,000.",
+"py": "150000*3/5",
+"values": [
+90000,
+60000,
+75000,
+50000
+],
+"id": "comv1105",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "In a partnership business, a partner who contributes capital and is known to the public as a partner, but does not take any active part in the daily running or management of the business, is called a",
+"options": [
+"Active partner",
+"Nominal partner",
+"Limited partner",
+"Sleeping (dormant) partner"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "A sleeping or dormant partner invests capital and shares in profit and liability like other partners, but he does not take part in the day-to-day management of the business, unlike an active partner.",
+"pidgin": "Sleeping partner na im bring money enter the business and e dey share profit and liability, but e no dey involve for the everyday work of the business unlike active partner.",
+"py": null,
+"values": null,
+"id": "comv1106",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Under Nigerian company law (Companies and Allied Matters Act), what is the maximum number of persons generally allowed to form an ordinary trading partnership, excluding special professional partnerships such as law or accounting firms?",
+"options": [
+"10 persons",
+"20 persons",
+"50 persons",
+"There is no maximum limit"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Nigerian law generally limits ordinary trading partnerships to a maximum of 20 persons, though certain professional partnerships like law firms and accounting firms may exceed this limit.",
+"pidgin": "Nigerian law talk say ordinary trading partnership no suppose pass 20 persons, but some professional ones like lawyers and accountants fit pass that number.",
+"py": null,
+"values": null,
+"id": "comv1107",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

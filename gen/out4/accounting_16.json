@@ -1,0 +1,181 @@
+{
+"subject": "accounting",
+"topic": "Interpretation of accounts (ratios)",
+"ti": 16,
+"generated": 7,
+"kept": [
+{
+"q": "In financial accounting, which ratio best measures a business's ability to settle its short-term debts as they fall due?",
+"options": [
+"Current ratio",
+"Gross profit ratio",
+"Net profit ratio",
+"Return on capital employed"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The current ratio compares current assets to current liabilities, showing if a business can pay its short-term debts. The other ratios measure profitability, not liquidity.",
+"pidgin": "Current ratio na im dem dey use check if business fit pay im short-term debt. Di oda ones na for profit, dem no dey show liquidity.",
+"py": null,
+"values": null,
+"id": "wacc1600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which formula correctly gives the gross profit margin of a business?",
+"options": [
+"(Gross profit / Sales) x 100",
+"(Net profit / Sales) x 100",
+"(Gross profit / Cost of sales) x 100",
+"(Sales / Gross profit) x 100"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Gross profit margin is calculated by dividing gross profit by sales and multiplying by 100 to express it as a percentage. This shows how much profit is made on sales before other expenses.",
+"pidgin": "Gross profit margin na when you divide gross profit by sales multiply by 100. E dey show how much profit dem make before oda expenses.",
+"py": null,
+"values": null,
+"id": "wacc1601",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Alhaji Musa's business has current assets of ₦180,000 and current liabilities of ₦90,000 as at 31st December. What is the current ratio?",
+"options": [
+"2:1",
+"1:2",
+"0.5:1",
+"3:1"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Current ratio = Current assets ÷ Current liabilities = ₦180,000 ÷ ₦90,000 = 2:1. This means the business has ₦2 of current assets for every ₦1 of current liabilities.",
+"pidgin": "Current ratio = Current assets divide by Current liabilities = 180,000 divide by 90,000 = 2:1. E mean say business get ₦2 current asset for every ₦1 current liability.",
+"py": null,
+"values": null,
+"id": "wacc1602",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidinma Enterprises recorded sales of ₦500,000 and cost of sales of ₦350,000 for the year. What is the gross profit margin?",
+"options": [
+"30%",
+"25%",
+"40%",
+"70%"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Gross profit = Sales - Cost of sales = ₦500,000 - ₦350,000 = ₦150,000. Gross profit margin = (150,000 / 500,000) x 100 = 30%.",
+"pidgin": "Gross profit = Sales minus Cost of sales = 500,000 - 350,000 = 150,000. Gross profit margin = (150,000/500,000) x 100 = 30%.",
+"py": "(500000-350000)/500000*100",
+"values": [
+30,
+25,
+40,
+70
+],
+"id": "wacc1603",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader's statement of financial position shows current assets of ₦240,000, which includes closing stock of ₦60,000, and current liabilities of ₦120,000. What is the acid test (quick) ratio?",
+"options": [
+"1.5:1",
+"2:1",
+"1:1",
+"0.5:1"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Quick assets = Current assets - Stock = ₦240,000 - ₦60,000 = ₦180,000. Acid test ratio = 180,000 ÷ 120,000 = 1.5:1, since stock is excluded for being less liquid.",
+"pidgin": "Quick assets = Current assets minus Stock = 240,000 - 60,000 = 180,000. Acid test ratio = 180,000 divide by 120,000 = 1.5:1, because stock no too liquid so dem remove am.",
+"py": null,
+"values": null,
+"id": "wacc1604",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Okafor and Sons made a net profit of ₦80,000 on a capital employed of ₦400,000 during the year. What is the return on capital employed (ROCE)?",
+"options": [
+"20%",
+"15%",
+"25%",
+"10%"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "ROCE = (Net profit / Capital employed) x 100 = (80,000 / 400,000) x 100 = 20%. This shows how efficiently the capital invested in the business is generating profit.",
+"pidgin": "ROCE = (Net profit divide by Capital employed) x 100 = (80,000/400,000) x 100 = 20%. E dey show how di money wey dem put for business dey work well to bring profit.",
+"py": "80000/400000*100",
+"values": [
+20,
+15,
+25,
+10
+],
+"id": "wacc1605",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A supermarket had an average stock of ₦50,000 and a cost of sales of ₦400,000 for the year. How many times did the stock turn over during the year?",
+"options": [
+"8 times",
+"6 times",
+"10 times",
+"4 times"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Rate of stock turnover = Cost of sales / Average stock = ₦400,000 / ₦50,000 = 8 times. This means the business sold and replaced its stock 8 times during the year.",
+"pidgin": "Rate of stock turnover = Cost of sales divide by Average stock = 400,000/50,000 = 8 times. E mean say business sell and replace im stock 8 times for that year.",
+"py": "400000/50000",
+"values": [
+8,
+6,
+10,
+4
+],
+"id": "wacc1606",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

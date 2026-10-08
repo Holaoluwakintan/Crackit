@@ -1,0 +1,136 @@
+{
+"subject": "biology",
+"topic": "Classification of living things",
+"ti": 3,
+"generated": 6,
+"kept": [
+{
+"q": "Which arrangement correctly shows the taxonomic hierarchy from the largest (most inclusive) group to the smallest (least inclusive) group?",
+"options": [
+"Kingdom, Phylum, Class, Order, Family, Genus, Species",
+"Species, Genus, Family, Order, Class, Phylum, Kingdom",
+"Kingdom, Class, Phylum, Order, Family, Genus, Species",
+"Phylum, Kingdom, Order, Class, Genus, Family, Species"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The standard taxonomic hierarchy, from broadest to most specific, is Kingdom, Phylum, Class, Order, Family, Genus, Species. This order groups organisms from very general categories down to very specific ones.",
+"pidgin": "Di correct order from di biggest group to di smallest na Kingdom, Phylum, Class, Order, Family, Genus, Species. Dis one dey arrange tins from general to specific.",
+"id": "wbio0300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is the smallest and most basic unit used in the classification of living things?",
+"options": [
+"Genus",
+"Family",
+"Species",
+"Class"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Species is the smallest unit of classification and consists of organisms that can interbreed freely to produce fertile offspring. Genus, Family, and Class are larger groups that contain many species.",
+"pidgin": "Species na di smallest unit wey dem dey use classify living tins, e be organisms wey fit mate well-well produce pikin wey fit still born pikin. Genus, Family, and Class don already big pass species.",
+"id": "wbio0301",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student wants to write the scientific name of the Nile tilapia fish correctly, given that its genus is 'Oreochromis' and its species name is 'niloticus'. Which of the options below follows the correct rule of binomial nomenclature?",
+"options": [
+"oreochromis Niloticus",
+"Oreochromis niloticus",
+"OREOCHROMIS NILOTICUS",
+"niloticus Oreochromis"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In binomial nomenclature, the genus name is written first with a capital letter, followed by the species name in small letters. So 'Oreochromis niloticus' is correct, while the other options break this rule.",
+"pidgin": "For binomial nomenclature, di genus name go come first wit capital letter, den di species name go follow wit small letter. So 'Oreochromis niloticus' na di correct way, di oda ones no follow di rule.",
+"id": "wbio0302",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Two newly discovered insects, Ayo's beetle and Bimbo's beetle, are found to belong to the same Order but different Families. Based on the rules of the taxonomic hierarchy, which of the following must also be true about these two insects?",
+"options": [
+"They must belong to the same Species",
+"They must belong to the same Genus",
+"They must belong to the same Class",
+"They must belong to the same Family"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In the taxonomic hierarchy, Order is nested inside Class, so organisms sharing the same Order must also share the same Class, Phylum and Kingdom. However, being in the same Order does not force them to share the same Family, Genus or Species, since those are smaller, more specific groups.",
+"pidgin": "For taxonomic hierarchy, Order dey inside Class, so if two organisms dey same Order, dem go still dey same Class, Phylum and Kingdom. But e no mean say dem go dey same Family, Genus or Species, becos dat one dey more specific pass Order.",
+"id": "wbio0305",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following features is mainly used to separate organisms in Kingdom Fungi from those in Kingdom Plantae?",
+"options": [
+"Presence of a nucleus in their cells",
+"Cell wall made of chitin instead of cellulose",
+"Ability to carry out photosynthesis",
+"Having a multicellular body"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Fungi have cell walls made of chitin, while plants have cell walls made of cellulose; this is a key difference used in classification. Both kingdoms may have nuclei and multicellular bodies, so these are not distinguishing features.",
+"pidgin": "Fungi get cell wall wey dem make wit chitin, but plant get cellulose cell wall; na dis one dem dey use separate dem for classification. Both of dem fit get nucleus and multicellular body, so dat one no be di main difference.",
+"id": "wbio0303",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:C is also a commonly used distinction.|C is also defensible: fungi lack chlorophyll and cannot photosynthesise, a standard distinguishing feature"
+},
+{
+"q": {
+"q": "A biology teacher shows her class four animals: a dog, a wolf, a fox and a jackal. All four belong to the same Family (Canidae), but only the dog and the wolf share the same Genus, Canis. Based on this information, which statement is most accurate?",
+"options": [
+"The dog and the wolf are more closely related to each other than to the fox and the jackal",
+"All four animals are equally related to one another",
+"The fox and the jackal are more closely related to the dog and the wolf than to each other",
+"The dog and the wolf cannot interbreed because they share the same Genus"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Organisms that share the same Genus are more closely related than those that only share a Family. Since the dog and wolf are in the same Genus (Canis), they are more closely related to each other than to the fox or jackal, which belong to different genera.",
+"pidgin": "Organisms wey share di same Genus close pass dem wey only share Family. Since dog and wolf dey di same Genus (Canis), dem close pass fox and jackal wey dey different genus.",
+"id": "wbio0304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Some jackals also belong to Canis.|Factual error: jackals (e.g., golden jackal, Canis aureus) are in genus Canis"
+}
+]
+}

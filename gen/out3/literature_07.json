@@ -1,0 +1,134 @@
+{
+"subject": "literature",
+"topic": "Appreciation of an original short unseen poem (quote 2 to 6 original lines in the question)",
+"generated": 7,
+"kept": [
+{
+"q": "Read the lines below and answer the question that follows: 'The weary road stretches beneath my feet, Groaning softly with each traveller's beat.' What figure of speech is used in these lines?",
+"options": [
+"Personification",
+"Simile",
+"Metaphor",
+"Hyperbole"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The road is given a human quality of 'groaning', which only living things can do. Giving human actions to a non-living thing is personification.",
+"pidgin": "Dem give road human action, say e dey 'groan'. Only person or animal fit groan, so na personification be dis.",
+"id": "litv0700",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Read the lines below and answer the question that follows: 'The market women call out their wares, Their voices rising above all cares. The children run about in play, Laughing loudly through the day.' What is the rhyme scheme of this four-line stanza?",
+"options": [
+"ABAB",
+"AABB",
+"ABBA",
+"ABCB"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Lines 1 and 2 end with 'wares' and 'cares' which rhyme, while lines 3 and 4 end with 'play' and 'day' which also rhyme. This pairing gives the pattern AABB.",
+"pidgin": "Line 1 and 2 dey rhyme (wares, cares), line 3 and 4 dey rhyme too (play, day). Na so e be AABB.",
+"id": "litv0701",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read the lines below and answer the question that follows: 'Her anger flashed like lightning in the sky, Then vanished swiftly as clouds drift by.' Which figure of speech is most clearly used here?",
+"options": [
+"Metaphor",
+"Personification",
+"Simile",
+"Onomatopoeia"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The comparison uses the word 'like' to compare anger to lightning, which is a direct feature of simile. Metaphor would not use 'like' or 'as' to compare.",
+"pidgin": "Dem use 'like' to compare anger to lightning, dat na simile. If na metaphor, dem for no use 'like' at all.",
+"id": "litv0702",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Read the lines below and answer the question that follows: 'The silent sea sways softly in the night, Singing secrets to the pale moonlight.' Which sound device dominates these lines?",
+"options": [
+"Alliteration",
+"Assonance",
+"Rhyme",
+"Consonance"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Several words begin with the same 's' sound: 'silent', 'sea', 'sways', 'softly', 'singing', 'secrets'. Repetition of the same initial consonant sound in nearby words is alliteration.",
+"pidgin": "Many words start with 's' sound: silent, sea, sways, softly, singing, secrets. Wen word dey start with same sound like dis, na alliteration.",
+"id": "litv0703",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Read the lines below and answer the question that follows: 'Ash and smoke cover the burnt-out farm, No bird sings to break the morning calm.' What mood do these lines create?",
+"options": [
+"Joyful and festive",
+"Calm and peaceful",
+"Gloomy and desolate",
+"Hopeful and triumphant"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The images of ash, smoke, a burnt farm, and the absence of birdsong all suggest destruction and emptiness. These details combine to create a gloomy, desolate mood rather than a happy one.",
+"pidgin": "Ash, smoke, burnt farm and no bird dey sing — all dis show say something bad happen. Na sad and empty mood dis one dey bring, no be happy one.",
+"id": "litv0704",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Read the lines below and answer the question that follows: 'The caged bird beats its wings against the bars, Dreaming of a sky scattered with stars.' In the context of this poem, what does the caged bird most likely symbolize?",
+"options": [
+"The joy of captivity",
+"The poet's love for music",
+"The longing for freedom despite confinement",
+"The beauty of the night sky"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A caged bird that dreams of the open sky represents someone trapped who still yearns to be free. The struggle against the bars shows a desire for liberty that is being denied, making freedom the deeper symbolic meaning.",
+"pidgin": "Bird wey dey cage but still dey dream of open sky mean say e still wan dey free. Di way e dey struggle with di bars show say e wan liberty, so na freedom e dey symbolize.",
+"id": "litv0705",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Read the lines below and answer the question that follows: 'O mighty river, carry my plea afar, To lands beyond the rising morning star.' Which figure of speech is used when the speaker directly addresses the river in this way?",
+"options": [
+"Apostrophe",
+"Personification",
+"Hyperbole",
+"Metonymy"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The speaker is directly speaking to the river, an object that cannot respond, which is the definition of apostrophe. This differs from personification, which requires giving the river actual human qualities or actions, not just speaking to it.",
+"pidgin": "Di speaker dey yarn di river direct as if e fit hear and answer, dat na apostrophe. E no be personification because dem no give river any human action, dem just dey talk to am.",
+"id": "litv0706",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

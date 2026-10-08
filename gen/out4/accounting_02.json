@@ -1,0 +1,180 @@
+{
+"subject": "accounting",
+"topic": "Double entry and the ledger",
+"ti": 2,
+"generated": 7,
+"kept": [
+{
+"q": "In double entry bookkeeping, when a trader in Onitsha buys goods worth ₦20,000 for cash, which entry is correct?",
+"options": [
+"Debit Cash account, Credit Purchases account",
+"Debit Purchases account, Credit Cash account",
+"Debit Sales account, Credit Cash account",
+"Debit Cash account, Credit Sales account"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Purchases is an expense/asset coming into the business, so it is debited. Cash is going out, so it is credited. This follows the rule: debit what comes in, credit what goes out.",
+"pidgin": "Purchases na something wey enter business so dem go debit am. Cash dey comot so dem go credit am. Na the rule be that - debit wetin enter, credit wetin comot.",
+"py": null,
+"values": null,
+"id": "wacc0200",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The book of account that contains all the individual accounts (personal, real and nominal) of a business is called the?",
+"options": [
+"Journal",
+"Cash book",
+"Ledger",
+"Trial balance"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The ledger is the principal book of accounts where all transactions are classified and recorded under separate accounts. The journal only records transactions before posting, while the trial balance is a list of balances, not a book of accounts.",
+"pidgin": "Ledger na the main book wey get all the accounts (personal, real and nominal) wey business use record transactions. Journal na where dem first write am before dem post am go ledger, trial balance na just list of balances.",
+"py": null,
+"values": null,
+"id": "wacc0201",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a personal account in the ledger of a business?",
+"options": [
+"Rent account",
+"Furniture account",
+"Chidi's account (a debtor)",
+"Sales account"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Personal accounts relate to individuals, firms or organisations, such as Chidi, who owes the business money as a debtor. Rent and Sales are nominal accounts while Furniture is a real account.",
+"pidgin": "Personal account na account wey concern person, company or organisation, like Chidi wey owe business money as debtor. Rent and Sales na nominal accounts, Furniture na real account.",
+"py": null,
+"values": null,
+"id": "wacc0202",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the ledger, an increase in a liability account, such as a Loan account, is normally recorded on which side?",
+"options": [
+"Debit side",
+"Credit side",
+"Both sides equally",
+"Neither side"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Liabilities increase on the credit side and decrease on the debit side, following the double entry rule for liabilities. A loan received increases what the business owes, so it is credited.",
+"pidgin": "Liability dey increase for credit side and e dey reduce for debit side, na so double entry rule take be for liability. If business collect loan, wetin e owe increase, so dem go credit am.",
+"py": null,
+"values": null,
+"id": "wacc0204",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best describes the golden rule applied to a real account (such as Furniture or Motor Vehicle account) in double entry bookkeeping?",
+"options": [
+"Debit the receiver, credit the giver",
+"Debit what comes in, credit what goes out",
+"Debit all expenses, credit all incomes",
+"Debit the giver, credit the receiver"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Real accounts deal with assets, so the rule is to debit what comes into the business and credit what goes out. The rule about receiver and giver applies to personal accounts, while expenses and incomes apply to nominal accounts.",
+"pidgin": "Real account na about assets, so the rule be say debit wetin enter business and credit wetin comot. The receiver and giver rule na for personal account, expenses and incomes na for nominal account.",
+"py": null,
+"values": null,
+"id": "wacc0206",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Okafor's account in the ledger of Adaeze Enterprises showed a total debit side of ₦45,000 and a total credit side of ₦32,000 before balancing. What balance should be carried down on this account?",
+"options": [
+"₦77,000 debit",
+"₦13,000 debit",
+"₦13,000 credit",
+"₦45,000 debit"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "To balance the account, subtract the smaller side from the bigger side: ₦45,000 minus ₦32,000 equals ₦13,000. Since the debit side is bigger, the balance carried down is a debit balance of ₦13,000.",
+"pidgin": "To balance the account, you go minus the small side from the big side: ₦45,000 minus ₦32,000 na ₦13,000. Since debit side big pass, the balance wey dem carry down na debit balance of ₦13,000.",
+"py": "45000-32000",
+"values": [
+77000,
+13000,
+13000,
+45000
+],
+"id": "wacc0203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:|Debit balance is ₦13,000, but 'carried down' (c/d) is entered on the credit side, so C is also defensible; should say 'balance brought down'"
+},
+{
+"q": {
+"q": "The Rent account of a trader in Kano showed the following for the month of March: March 1, balance brought forward ₦8,000 (debit); March 15, rent paid by cash ₦15,000 (debit); March 28, rent refund received ₦3,000 (credit). What balance should be carried down on the Rent account at the end of March?",
+"options": [
+"₦26,000 debit",
+"₦20,000 debit",
+"₦23,000 debit",
+"₦20,000 credit"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Add the debit entries: ₦8,000 plus ₦15,000 equals ₦23,000, then subtract the credit refund of ₦3,000 to get ₦20,000. Since the debit side is still bigger, the balance carried down is a debit balance of ₦20,000.",
+"pidgin": "Add the debit entries: ₦8,000 plus ₦15,000 na ₦23,000, then minus the ₦3,000 wey dem refund (credit) you go reach ₦20,000. Since debit side still bigger, the balance wey carry down na debit of ₦20,000.",
+"py": "8000+15000-3000",
+"values": [
+26000,
+20000,
+23000,
+20000
+],
+"id": "wacc0205",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:|Debit balance is ₦20,000, but 'carried down' (c/d) is entered on the credit side, so D is also defensible; should say 'balance brought down'"
+}
+]
+}

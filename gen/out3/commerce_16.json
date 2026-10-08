@@ -1,0 +1,174 @@
+{
+"subject": "commerce",
+"topic": "Elements of business management: functions and organisation",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is NOT one of the basic functions of management as identified by classical management theorists such as Henri Fayol?",
+"options": [
+"Planning",
+"Organising",
+"Marketing",
+"Controlling"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Fayol's classical functions of management are planning, organising, commanding/directing, coordinating and controlling. Marketing is a specific business function (like production or finance), not a general management function.",
+"pidgin": "Fayol im management functions na planning, organising, directing, coordinating and controlling. Marketing na business function wey dey under one department, e no be general management function.",
+"py": null,
+"values": null,
+"id": "comv1600",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In a typical business organisation, the level of management that is directly responsible for the day-to-day supervision of workers on the factory floor is called the:",
+"options": [
+"Top management",
+"Middle management",
+"Lower (supervisory) management",
+"Board of directors"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Lower or supervisory management works closest to the workers and handles daily, routine supervision of operations. Top management sets overall policy, while middle management coordinates between the two levels.",
+"pidgin": "Lower or supervisory management na dem dey close to di workers, dem dey handle daily, normal supervision of work. Top management na dem dey set big policy, middle management dey connect top and lower level.",
+"py": null,
+"values": null,
+"id": "comv1601",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Mrs Adaeze, the Managing Director of a Lagos-based bakery, has the Production Manager, Sales Manager and Finance Manager reporting directly to her. The number of people who report directly to Mrs Adaeze is referred to as her:",
+"options": [
+"Scalar chain",
+"Line of authority",
+"Span of control",
+"Delegation ratio"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Span of control is the number of subordinates that a manager directly supervises. Here, Mrs Adaeze directly supervises three managers, so her span of control is 3.",
+"pidgin": "Span of control na di number of people wey dey report directly to one manager. Mrs Adaeze get three managers wey dey report to am, so her span of control na three.",
+"py": null,
+"values": null,
+"id": "comv1602",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A company structures its staff into separate departments such as Production, Marketing, Finance and Human Resources, with each department head being an expert in that specific area. This type of organisational structure is called:",
+"options": [
+"Line organisation",
+"Functional organisation",
+"Matrix organisation",
+"Committee organisation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Functional organisation groups workers according to the specialised activity or function they perform, such as marketing or finance. This allows specialists to head each department based on their expertise.",
+"pidgin": "Functional organisation na when dem group workers based on di specific work wey dem dey do, like marketing or finance. Na why specialist dey head each department.",
+"py": null,
+"values": null,
+"id": "comv1603",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "The management principle which states that each employee should receive orders from only one superior at a time is known as the principle of:",
+"options": [
+"Span of control",
+"Unity of command",
+"Scalar chain",
+"Division of labour"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Unity of command means every worker should take instructions from one boss only, to avoid confusion and conflicting orders. This principle was strongly emphasised by Henri Fayol.",
+"pidgin": "Unity of command mean say each worker suppose dey take order from just one boss, so dat confusion no go dey. Na Fayol talk am well well.",
+"py": null,
+"values": null,
+"id": "comv1604",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A trading company reorganised its staff so that the Marketing Manager gives marketing instructions to workers in every department, while the Production Manager gives production instructions to the same workers. Soon, many workers began receiving conflicting orders from both managers on the same day. This confusion is a common weakness of which type of organisational structure?",
+"options": [
+"Line organisation",
+"Functional organisation",
+"Line and staff organisation",
+"Decentralised organisation"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In functional organisation, specialist managers give orders across departments based on their area of expertise, which can break the principle of unity of command and cause conflicting instructions to the same workers. This is a well-known drawback of pure functional structures compared to line organisation.",
+"pidgin": "For functional organisation, different specialist managers dey give order for different departments based on their area, so dem fit break unity of command and workers go dey confuse with different order. Na common wahala for functional structure pass line organisation.",
+"py": null,
+"values": null,
+"id": "comv1605",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Delegation of authority in an organisation best means that a manager:",
+"options": [
+"Permanently transfers ownership of the business to a subordinate",
+"Gives a subordinate the right to take certain decisions within set limits, while the manager remains ultimately responsible",
+"Gives up all control and responsibility over a department forever",
+"Employs new staff to replace an underperforming worker"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Delegation means a manager passes down specific authority to a subordinate to make decisions within agreed limits, but the manager still carries final responsibility for the outcome. It does not mean giving away ownership or permanent control.",
+"pidgin": "Delegation mean say manager go give subordinate small power make e fit take some decision within di limit wey dem agree, but di manager still carry final responsibility. E no mean say manager don give away ownership forever.",
+"py": null,
+"values": null,
+"id": "comv1606",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Alhaji Musa's transport company has 1 General Manager who directly supervises 3 Branch Managers. Each of the 3 Branch Managers directly supervises 6 drivers. What is the total number of people in the company, including the General Manager?",
+"options": [
+"18",
+"21",
+"22",
+"25"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Total = General Manager + Branch Managers + Drivers = 1 + 3 + (3 x 6) = 1 + 3 + 18 = 22. Counting every level of the organisation gives 22 people in total.",
+"pidgin": "Total = General Manager + Branch Managers + Drivers = 1 + 3 + (3 x 6) = 1 + 3 + 18 = 22. If you count everybody for di organisation structure, you go reach 22 people.",
+"py": "1 + 3 + (3*6)",
+"values": [
+18,
+21,
+22,
+25
+],
+"id": "comv1607",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

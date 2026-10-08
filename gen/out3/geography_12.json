@@ -1,0 +1,168 @@
+{
+"subject": "geography",
+"topic": "Vegetation and soils of the world",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following vegetation types is found in regions near the equator that receive heavy rainfall of over 2000mm annually, with high temperatures throughout the year, and is characterized by tall trees forming a continuous canopy with little undergrowth?",
+"options": [
+"Savanna grassland",
+"Tropical rainforest",
+"Temperate grassland",
+"Tundra"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Tropical rainforest grows in equatorial areas with heavy, well-distributed rainfall and constant high temperature, producing tall trees and a thick canopy. Savanna, temperate grassland and tundra occur in drier or colder climates that cannot support this type of forest.",
+"pidgin": "Tropical rainforest dey grow for equator area wey get plenty rain pass 2000mm every year and hot weather throughout. Na why e get tall trees wey form thick canopy. Savanna, temperate grass and tundra no get dis kain climate.",
+"py": null,
+"values": null,
+"id": "geov1200",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In soil science, the process by which plant nutrients and minerals are washed down from the topsoil to the lower soil layers by heavy, continuous rainfall is called ______.",
+"options": [
+"Leaching",
+"Evaporation",
+"Weathering",
+"Erosion"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Leaching is the downward movement of soluble nutrients through the soil caused by heavy rainfall, common in tropical areas. Weathering breaks down rocks, erosion removes soil from the surface, and evaporation is loss of water, not nutrient movement.",
+"pidgin": "Leaching na when heavy rain wash plant food (nutrients) comot from top soil go down. Weathering na when rock dey break, erosion na when soil dey carry comot from surface, and evaporation na water wey dey comot as vapour.",
+"py": null,
+"values": null,
+"id": "geov1201",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Laterite soils, which are common in most parts of tropical Nigeria, are mainly formed as a result of which of the following processes?",
+"options": [
+"Accumulation of calcium carbonate due to low rainfall",
+"Freezing and thawing of the soil surface",
+"Intense leaching under high rainfall and temperature, leaving behind iron and aluminium oxides",
+"Deposition of volcanic ash"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "In the tropics, heavy rainfall and high temperature cause intense leaching that removes soluble minerals, leaving behind insoluble iron and aluminium oxides that give laterite its reddish colour. Calcium carbonate build-up and freeze-thaw are features of dry and cold climates, not the humid tropics.",
+"pidgin": "For tropics, heavy rain and hot weather dey wash away soluble minerals, leave only iron and aluminium oxide wey make laterite red. Calcium carbonate dey build up for dry area, freeze-thaw na for cold area, no be tropics.",
+"py": null,
+"values": null,
+"id": "geov1202",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of the following best describes the savanna (tropical grassland) vegetation belt found in the middle belt of Nigeria?",
+"options": [
+"Evergreen trees with dense canopy and no grass cover",
+"Short grasses and mosses with no trees due to permafrost",
+"Cacti and succulent plants adapted to less than 250mm annual rainfall",
+"Tall grasses with scattered drought-resistant trees, adapted to a distinct wet and dry season"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Savanna has tall grasses and widely spaced trees that can survive the long dry season, reflecting the alternating wet and dry seasons of the middle belt. Evergreen dense forest, permafrost tundra and desert cacti belong to completely different climatic zones.",
+"pidgin": "Savanna get tall grass and small-small trees wey fit survive long dry season, because the area get clear wet and dry season. Evergreen forest, tundra and desert cacti na for different climate entirely.",
+"py": null,
+"values": null,
+"id": "geov1203",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A mature soil profile is divided into layers called horizons. Which horizon, usually darkest in colour, contains the highest amount of organic matter (humus) and is the layer from which minerals are leached downward?",
+"options": [
+"A horizon (topsoil)",
+"B horizon (subsoil)",
+"C horizon (weathered parent material)",
+"Bedrock"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The A horizon is the topsoil, rich in humus from decayed plants and animals, giving it a dark colour, and it is where leaching of minerals begins. The B horizon receives the leached minerals, the C horizon is only partly weathered rock, and bedrock is unweathered solid rock.",
+"pidgin": "A horizon na the topsoil wey get plenty humus from dead plant and animal, so e dark in colour, and na from here minerals dey leach go down. B horizon na where the minerals land, C horizon na half-weathered rock, bedrock na solid rock wey never weather.",
+"py": null,
+"values": null,
+"id": "geov1204",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Temperate deciduous forests, found in regions such as Western Europe, shed their leaves at a particular time of year. What is the main reason trees in this vegetation belt lose their leaves annually?",
+"options": [
+"To increase photosynthesis during summer",
+"To reduce water loss and conserve energy during the cold winter months",
+"To prevent attack by desert locusts",
+"Because of excessive annual rainfall above 3000mm"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In winter, the ground water often freezes, making it hard for roots to absorb water, so trees shed their leaves to reduce transpiration and save energy until warmer, wetter conditions return in spring. Photosynthesis actually reduces in winter, locusts are not a factor in temperate Europe, and rainfall there is moderate, not excessive.",
+"pidgin": "For winter, water for ground dey freeze so the roots no fit drink water well, dat na why the trees dey comot their leaves to reduce water loss and save energy till spring come. Photosynthesis dey reduce for winter, locust no be di issue for Europe, and rain there no too plenty reach 3000mm.",
+"py": null,
+"values": null,
+"id": "geov1205",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Desert soils, such as those found in the Sahara, usually accumulate calcium carbonate near the surface instead of the minerals being leached away. Which climatic condition is mainly responsible for this?",
+"options": [
+"Heavy rainfall and high temperature",
+"Permanent snow cover",
+"Low rainfall and high evaporation rate",
+"High humidity throughout the year"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "In deserts, rainfall is very low and evaporation is very high, so water rising to the surface carries dissolved calcium carbonate which is then deposited near the top instead of being washed deep down. Heavy rainfall, snow cover and high humidity would instead encourage leaching, not accumulation.",
+"pidgin": "For desert, rain no too dey and evaporation too high, so water wey dey rise go surface dey carry calcium carbonate wey e dey drop near top instead of e wash am go deep down. Heavy rain, snow or high humidity for suppose cause leaching, no be accumulation.",
+"py": null,
+"values": null,
+"id": "geov1206",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Mediterranean vegetation, found around the Mediterranean Sea and parts of South Africa, must survive hot dry summers and mild wet winters. Which plant feature best helps these plants cope with the dry summer season?",
+"options": [
+"Broad thin leaves that maximize transpiration",
+"Shallow roots that spread only on the soil surface",
+"Absence of roots entirely",
+"Small, thick, waxy leaves that reduce transpiration"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Mediterranean plants are sclerophyllous, having small, thick, waxy leaves that cut down water loss through transpiration during the long dry summer. Broad thin leaves would increase water loss, shallow surface roots would dry out quickly, and plants cannot survive without roots at all.",
+"pidgin": "Mediterranean plants get small, thick, waxy leaves wey dey reduce how much water dey comot as transpiration during the long dry summer. Broad thin leaves go cause more water loss, shallow roots for surface go quick dry, and no plant fit survive without root at all.",
+"py": null,
+"values": null,
+"id": "geov1207",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

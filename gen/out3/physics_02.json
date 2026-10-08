@@ -1,0 +1,106 @@
+{
+"subject": "physics",
+"topic": "Motion: speed, velocity, acceleration and equations of motion",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following statements correctly distinguishes speed from velocity?",
+"options": [
+"Speed is a vector quantity while velocity is a scalar quantity",
+"Both speed and velocity are scalar quantities",
+"Speed is a scalar quantity while velocity is a vector quantity",
+"Both speed and velocity are vector quantities"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Speed only tells how fast an object moves (magnitude only), so it is a scalar. Velocity includes both magnitude and direction, so it is a vector. This is the standard physics definition.",
+"pidgin": "Speed na just how fast something dey move, e no get direction, so na scalar. Velocity get both how fast and the direction, so na vector quantity.",
+"py": null,
+"values": null,
+"id": "phyv0200",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "An okada (motorcycle) starts from rest and accelerates uniformly, reaching a velocity of 18 m/s after 6 seconds. Calculate the distance it covers during this time.",
+"options": [
+"27 m",
+"54 m",
+"108 m",
+"18 m"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since motion is uniformly accelerated from rest, average velocity = (u+v)/2 = (0+18)/2 = 9 m/s. Distance = average velocity x time = 9 x 6 = 54 m.",
+"pidgin": "Since e start from rest and dey accelerate evenly, average velocity = (0+18)/2 = 9 m/s. Distance = 9 x 6 = 54 m.",
+"py": "((0+18)/2)*6",
+"values": [
+27,
+54,
+108,
+18
+],
+"id": "phyv0201",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A driver travels the first half of a journey from Benin to Asaba at a steady speed of 40 km/h and the second half at a steady speed of 60 km/h. What is the average speed for the whole journey?",
+"options": [
+"48 km/h",
+"50 km/h",
+"100 km/h",
+"20 km/h"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For equal distances at different speeds, average speed = (2 x v1 x v2)/(v1+v2), not the simple average. So average speed = (2 x 40 x 60)/(40+60) = 4800/100 = 48 km/h.",
+"pidgin": "Since na equal distance for both parts, you no go just add the two speeds divide by 2. Correct formula na (2 x v1 x v2)/(v1+v2) = (2x40x60)/100 = 48 km/h.",
+"py": "2*40*60/(40+60)",
+"values": [
+48,
+50,
+100,
+20
+],
+"id": "phyv0202",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A ball is thrown vertically upward with an initial velocity of 20 m/s. Taking g = 10 m/s^2 and ignoring air resistance, find the total time taken for the ball to return to the point where it was thrown.",
+"options": [
+"2 s",
+"4 s",
+"6 s",
+"8 s"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Time to reach the highest point is u/g = 20/10 = 2 s. By symmetry of motion under gravity, the time to fall back equals the time to rise, so total time = 2 x 2 s = 4 s.",
+"pidgin": "Time wey e go take reach the highest point na u/g = 20/10 = 2 s. Because the up and down motion dey symmetric, total time wey e go take come back = 2 x 2 = 4 s.",
+"py": "2*(20/10)",
+"values": [
+2,
+4,
+6,
+8
+],
+"id": "phyv0203",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,169 @@
+{
+"subject": "crs",
+"topic": "Moses, the Exodus and the covenant",
+"ti": 2,
+"generated": 8,
+"kept": [
+{
+"q": "As a baby, Moses was placed in a basket made of papyrus reeds and set among the reeds along a river bank to save him from Pharaoh's order to kill Hebrew baby boys. Who found and adopted him?",
+"options": [
+"Pharaoh's daughter",
+"Pharaoh's wife",
+"Jethro's daughter",
+"Miriam's friend"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Pharaoh's daughter came to bathe at the river, saw the basket, and took Moses as her own son. This is recorded in Exodus 2:5-10.",
+"pidgin": "Na Pharaoh daughter come bath for river, she see the basket wey carry Moses and she pick am as her own pikin. Dis story dey for Exodus 2:5-10.",
+"id": "wcrs0200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "While keeping the flock of his father-in-law Jethro near Horeb, Moses saw a bush that was burning but not consumed by the fire. What did God instruct Moses to do before approaching?",
+"options": [
+"Build an altar first",
+"Remove his sandals because the ground was holy",
+"Call the elders of Israel",
+"Offer a lamb as sacrifice"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "God told Moses to remove his sandals because he was standing on holy ground. This encounter is found in Exodus 3:5.",
+"pidgin": "God tell Moses make e comot im sandals because the ground na holy ground. Na so e dey for Exodus 3:5.",
+"id": "wcrs0201",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "God sent a series of plagues on Egypt to compel Pharaoh to release the Israelites. Which of the following was the final and most severe plague that finally made Pharaoh let the people go?",
+"options": [
+"Plague of locusts",
+"Plague of darkness",
+"Death of the firstborn",
+"Plague of boils"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The tenth and final plague was the death of every firstborn in Egypt, which broke Pharaoh's resistance. This is recorded in Exodus 12:29-32.",
+"pidgin": "Di tenth and last plague na death of all firstborn for Egypt, and na dat one make Pharaoh release di Israelites. E dey for Exodus 12:29-32.",
+"id": "wcrs0202",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During the first Passover in Egypt, the Israelites were instructed to apply blood on their doorposts. What was the purpose of this blood marking?",
+"options": [
+"To identify Hebrew houses for tax collection",
+"To cause the death angel to pass over their homes without killing their firstborn",
+"To signal the time for departure",
+"To show which houses needed food supplies"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The blood on the doorposts was a sign so that the destroying angel would pass over the houses of the Israelites and spare their firstborn. This is found in Exodus 12:13.",
+"pidgin": "Di blood wey dem put for doorpost na sign make di angel of death pass over dia house and no kill dia firstborn. E dey for Exodus 12:13.",
+"id": "wcrs0203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "After leading the Israelites out of Egypt, Moses went up a mountain where God gave him the Ten Commandments written on tablets of stone. What is the name of this mountain?",
+"options": [
+"Mount Carmel",
+"Mount Sinai",
+"Mount Nebo",
+"Mount Ararat"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "God gave Moses the Ten Commandments on Mount Sinai, as recorded in Exodus 19 and 20.",
+"pidgin": "Na for Mount Sinai God give Moses di Ten Commandments, and e dey for Exodus 19 and 20.",
+"id": "wcrs0204",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When the Israelites reached the Red Sea with Pharaoh's army pursuing them, God instructed Moses to stretch out his hand over the sea. What immediately happened as a result?",
+"options": [
+"The sea turned to blood",
+"The sea became calm for swimming",
+"The sea was divided, making a dry path for the people to cross",
+"A storm destroyed Pharaoh's chariots instantly"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When Moses stretched his hand over the sea, God drove the water back with a strong wind, dividing the sea so the Israelites could cross on dry ground. This is in Exodus 14:21.",
+"pidgin": "Wen Moses stretch im hand ova di sea, God use strong wind divide di sea so dat di Israelites fit cross for dry ground. E dey for Exodus 14:21.",
+"id": "wcrs0205",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "While Moses was on the mountain receiving God's instructions for a long period, the Israelites grew impatient and asked Aaron to make them a god they could see. What did Aaron make for them?",
+"options": [
+"A silver serpent",
+"A bronze altar",
+"A golden calf",
+"A wooden ark"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Aaron collected gold earrings from the people and molded them into a golden calf, which the Israelites worshipped. This act of idolatry is recorded in Exodus 32:1-4.",
+"pidgin": "Aaron collect gold earrings from di pipo and melt am make golden calf, wey di Israelites begin worship. Dis idolatry story dey for Exodus 32:1-4.",
+"id": "wcrs0206",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "At Mount Sinai, God established a covenant with Israel through Moses, promising to make them His special people if they obeyed His laws. Based on the terms of this covenant, what was Israel's primary responsibility in return for God's protection and blessing?",
+"options": [
+"To build a permanent temple immediately",
+"To obey God's commandments and keep His statutes",
+"To conquer all neighbouring nations",
+"To offer human sacrifices yearly"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The covenant at Sinai required Israel to keep God's commandments and statutes in order to remain His chosen people and receive His blessings. This conditional agreement is stated in Exodus 19:5-6.",
+"pidgin": "Di covenant for Sinai tell Israel say dem must obey God commandments and statutes make dem remain im chosen pipo and receive im blessings. Dis agreement dey for Exodus 19:5-6.",
+"id": "wcrs0207",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

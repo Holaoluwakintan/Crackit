@@ -1,0 +1,163 @@
+{
+"subject": "agric",
+"topic": "Crop pests and diseases",
+"ti": 7,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines a crop pest in agricultural science?",
+"options": [
+"Any organism that attacks, damages or reduces the yield and quality of cultivated crops",
+"Any organism that is deliberately introduced to improve soil fertility",
+"Any insect that helps in the pollination of flowers",
+"Any plant grown together with the main crop to provide shade"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A crop pest is any living organism, such as an insect, rodent or nematode, that damages crops and lowers farm yield or quality. Helpful organisms like pollinators are not pests.",
+"pidgin": "Crop pest na any living thing wey dey damage farm crop and reduce how much the farmer go harvest. Pollinator like bee no be pest because e dey help the plant.",
+"py": null,
+"values": null,
+"id": "wagr0700",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these insect pests is most commonly associated with damage to stored cowpea grains in Nigerian farm stores?",
+"options": [
+"Tsetse fly",
+"Cowpea weevil (Callosobruchus maculatus)",
+"Root-knot nematode",
+"Variegated grasshopper"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The cowpea weevil bores into stored cowpea seeds, laying eggs that hatch into larvae which eat the grain from inside. Tsetse fly attacks animals, nematodes attack roots, and the grasshopper attacks growing field crops, not stored grains.",
+"pidgin": "Cowpea weevil na the main insect wey dey spoil cowpea wey farmer don store for barn, e dey bore inside the seed lay egg. Tsetse fly dey worry animal, nematode dey chop root, grasshopper dey chop fresh leaf for farm, no be store grain.",
+"py": null,
+"values": null,
+"id": "wagr0701",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Cassava mosaic disease, which shows up as yellow-green mottling and leaf distortion on cassava plants, is caused by a virus that is mainly spread from plant to plant by which vector?",
+"options": [
+"Whitefly",
+"Mealybug",
+"Aphid",
+"Leafhopper"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Cassava mosaic virus is transmitted mainly by the whitefly, which feeds on infected plants and carries the virus to healthy ones. The other insects named are vectors or pests of different crops and diseases.",
+"pidgin": "Na whitefly dey carry cassava mosaic virus comot from sick plant go healthy one as e dey suck leaf. The other insects dey disturb different crops, no be cassava mosaic.",
+"py": null,
+"values": null,
+"id": "wagr0702",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A tomato farmer in Jos notices that pest attack on his tomatoes is very severe every planting season because he plants tomato on the same plot year after year. Which cultural practice would best help reduce this pest build-up without the use of chemicals?",
+"options": [
+"Continue planting tomato on the same plot every season",
+"Practise crop rotation by alternating tomato with a non-host crop like maize",
+"Reduce plant spacing so pests cannot move between plants",
+"Apply more fertiliser than the recommended rate each season"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Crop rotation breaks the pest's life cycle by removing its preferred host (tomato) from the plot for a season, starving pests that depend on that specific crop. Continuous planting of the same crop only allows pests to build up further.",
+"pidgin": "If farmer rotate tomato with maize, the pest wey dey chop only tomato go lack food and die small small. If e just dey plant tomato every season, the pest go dey plenty pass before.",
+"py": null,
+"values": null,
+"id": "wagr0703",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following symptoms is typical of a fungal disease on crops, and can help a farmer distinguish it from a bacterial disease?",
+"options": [
+"Presence of powdery or woolly fungal growth (mycelium) on the leaf or stem surface",
+"Water-soaked lesions that ooze a slimy, foul-smelling bacterial exudate when cut",
+"Yellow mosaic patterns on leaves accompanied by severe leaf curling",
+"Pale, stunted growth caused only by lack of nitrogen in the soil"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Fungal diseases often show visible powdery, woolly or cottony growth (mycelium or spores) on the plant surface, such as in powdery mildew. Bacterial diseases typically show slimy ooze, while mosaic and curling are typical of viral diseases, and nutrient deficiency is not a disease at all.",
+"pidgin": "Fungus disease dey show as powder-powder or wool-wool growth for leaf or stem, like powdery mildew. Bacteria disease dey show slimy water-water sore, mosaic and curling na virus own, and lack of nitrogen no be disease.",
+"py": null,
+"values": null,
+"id": "wagr0704",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A groundnut farmer in Kano rotates groundnut with maize every planting season instead of planting groundnut continuously on the same plot. Which of the following best explains why this practice reduces the incidence of groundnut diseases?",
+"options": [
+"Maize roots release chemicals that permanently kill all soil organisms",
+"Rotation removes the specific host crop for a season, starving groundnut-specific pathogens and breaking their life cycle",
+"Maize makes the soil so acidic that no pathogen of any kind can ever survive",
+"Rotation actually increases the population of groundnut-specific pathogens in the soil"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Many crop pathogens are host-specific, meaning they need a particular crop to survive and multiply. By planting a different crop (maize) that is not a host, the pathogen's life cycle is interrupted and its population in the soil declines before groundnut is planted again.",
+"pidgin": "Many disease-causing organism need im special host crop to survive. If farmer plant maize for that plot instead of groundnut every season, the groundnut-disease organism no go get food, so dem go reduce before groundnut come back again.",
+"py": null,
+"values": null,
+"id": "wagr0705",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A cassava farmer notices that his cassava leaves have developed yellow-green mosaic patches, with the leaves curling and the plants looking stunted, while a nearby maize plot on the same farm shows no such symptoms. Based on these symptoms, which type of disease-causing organism is most likely responsible for the cassava plants' condition?",
+"options": [
+"Bacterium",
+"Virus",
+"Nematode",
+"Fungus"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Mosaic patterns, leaf curling and stunting without ooze or powdery growth are classic signs of a viral disease, such as cassava mosaic virus, which is crop-specific and spread by whitefly. Bacteria usually cause slimy rot, nematodes attack roots causing galls, and fungi usually show visible mould growth.",
+"pidgin": "Mosaic colour, leaf wey dey curl, and stunted growth without any slime or powder na clear sign of virus disease like cassava mosaic, wey whitefly dey carry go spread. Bacteria dey cause slimy rot, nematode dey affect root with swelling, fungus dey show mould for leaf.",
+"py": null,
+"values": null,
+"id": "wagr0706",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

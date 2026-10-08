@@ -1,0 +1,106 @@
+{
+"subject": "maths",
+"topic": "Integration (indefinite and definite, area under a curve)",
+"generated": 4,
+"kept": [
+{
+"q": "Evaluate the indefinite integral: ∫(5x^4 - 3x^2 + 2) dx",
+"options": [
+"x^5 - x^3 + 2x + C",
+"5x^5 - 3x^3 + 2x + C",
+"x^5 + x^3 + 2x + C",
+"x^4 - x^3 + 2x + C"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Integrate each term using the power rule: integral of 5x^4 is x^5, integral of -3x^2 is -x^3, and integral of 2 is 2x. Add the constant of integration C to get x^5 - x^3 + 2x + C.",
+"pidgin": "Use power rule for each term: 5x^4 go become x^5, -3x^2 go become -x^3, and 2 go become 2x. Add C because na indefinite integral, so answer na x^5 - x^3 + 2x + C.",
+"py": null,
+"values": null,
+"id": "matv2100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Chidinma wants to find the area bounded by the curve y = x^2 + 1, the x-axis, and the lines x = 0 and x = 2. Find this area.",
+"options": [
+"10/3",
+"14/3",
+"16/3",
+"4"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Area = ∫ from 0 to 2 of (x^2+1) dx = [x^3/3 + x] from 0 to 2 = (8/3 + 2) - 0 = 14/3. This fraction cannot be simplified further.",
+"pidgin": "Area = integral from 0 to 2 of (x^2+1) dx = [x^3/3 + x] from 0 to 2 = (8/3 + 2) - 0 = 14/3. No way to make the fraction smaller again.",
+"py": "8/3 + 2",
+"values": [
+3.3333333333333335,
+4.666666666666667,
+5.333333333333333,
+4
+],
+"id": "matv2101",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Evaluate the definite integral: ∫ from 1 to 3 of (4x - 1) dx",
+"options": [
+"10",
+"12",
+"14",
+"16"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Integrate to get 2x^2 - x. At x=3: 2(9) - 3 = 15. At x=1: 2(1) - 1 = 1. Subtract: 15 - 1 = 14.",
+"pidgin": "Integrate am to get 2x^2 - x. Put x=3: 2(9)-3 = 15. Put x=1: 2(1)-1 = 1. Minus them: 15 - 1 = 14.",
+"py": "(2*3**2 - 3) - (2*1**2 - 1)",
+"values": [
+10,
+12,
+14,
+16
+],
+"id": "matv2102",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Find the area enclosed between the curve y = 4x - x^2 and the x-axis.",
+"options": [
+"32/3",
+"16/3",
+"64/3",
+"8"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The curve meets the x-axis where 4x - x^2 = 0, giving x = 0 and x = 4. Area = integral from 0 to 4 of (4x - x^2) dx = [2x^2 - x^3/3] from 0 to 4 = (32 - 64/3) - 0 = 32/3.",
+"pidgin": "The curve touch x-axis where 4x - x^2 = 0, so x = 0 and x = 4. Area = integral from 0 to 4 of (4x - x^2) dx = [2x^2 - x^3/3] from 0 to 4 = (32 - 64/3) - 0 = 32/3.",
+"py": "2*4**2 - (4**3)/3",
+"values": [
+10.666666666666666,
+5.333333333333333,
+21.333333333333332,
+8
+],
+"id": "matv2103",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

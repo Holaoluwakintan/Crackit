@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Colonial rule in Nigeria (indirect rule, colonial constitutions)",
+"ti": 13,
+"generated": 8,
+"kept": [
+{
+"q": "Indirect rule, the system of using existing traditional rulers to administer colonies on behalf of the British, was mainly introduced and developed in Nigeria by:",
+"options": [
+"Lord Lugard",
+"Hugh Clifford",
+"Arthur Richards",
+"Oliver Lyttleton"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Lord Lugard first used indirect rule in Northern Nigeria and later extended it to other parts of the country. The other men were later colonial governors linked to different constitutions, not the founder of indirect rule.",
+"pidgin": "Na Lord Lugard first use indirect rule for Northern Nigeria before im later spread am give other areas. Di oda men na governors wey later bring different constitutions, dem no be di one wey start am.",
+"id": "wgov1300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In Northern Nigeria, the British carried out indirect rule mainly through the existing:",
+"options": [
+"Warrant Chiefs",
+"Emirs",
+"District Officers",
+"Resident Commissioners"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The North already had a centralized Emirate system, so the British ruled through the Emirs who collected taxes and kept law and order for them. Warrant Chiefs were used in the East, not the North.",
+"pidgin": "Northern Nigeria don get strong Emirate system before, so British use di Emirs rule di people, dem go collect tax and keep order. Warrant Chiefs na for Eastern Nigeria dem use.",
+"id": "wgov1301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A major reason indirect rule did not work well in many parts of Eastern Nigeria was that the area:",
+"options": [
+"rejected all European goods",
+"lacked centralized traditional rulers like the emirs in the North",
+"had no contact with the British at all",
+"produced no cash crops for trade"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Most Igbo communities were organised in small, independent village groups without powerful central chiefs, unlike the Emirates in the North. This made it hard for the British to find suitable local rulers to use for indirect rule.",
+"pidgin": "Most Igbo communities na small village wey dey rule demsef, dem no get one big central chief like di Emirs for North. Dis one make am hard for British to find correct local ruler to use run indirect rule.",
+"id": "wgov1302",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The artificial chiefs created by the British in Eastern Nigeria, who had no traditional authority but were given power to collect tax and judge cases, were called:",
+"options": [
+"Emirs",
+"District Heads",
+"Warrant Chiefs",
+"Resident Officers"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Because the East had no central chiefs, the British appointed some men as Warrant Chiefs and gave them a warrant (certificate) of authority. Many of these men were not respected traditional leaders, which caused resentment.",
+"pidgin": "Since East no get central chief, British pick some men give dem 'warrant' (paper) of power, dem call dem Warrant Chiefs. Many of dis men no be real traditional leader, so people vex plenty.",
+"id": "wgov1303",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The unpopular Warrant Chief system and fear of new taxation on women in Eastern Nigeria eventually led to the:",
+"options": [
+"Amalgamation of 1914",
+"Aba Women's Riot of 1929",
+"Lagos Treaty of Cession",
+"Berlin Conference"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Women in Aba and nearby towns protested in 1929 against the Warrant Chiefs and the rumour that the British wanted to tax women, leading to the famous Aba Women's Riot. The other events are unrelated to this protest.",
+"pidgin": "Women for Aba and nearby towns vex for 1929 because of Warrant Chiefs and rumour say British wan tax women, dis one bring di famous Aba Women Riot. Di oda events no connect to dis protest.",
+"id": "wgov1304",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The event in which the British joined the Northern and Southern Protectorates of Nigeria into one country took place in the year:",
+"options": [
+"1900",
+"1906",
+"1914",
+"1922"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Lord Lugard carried out the amalgamation of the Northern and Southern Protectorates in 1914, creating the single colony known as Nigeria. This is a well known fixed date in Nigerian colonial history.",
+"pidgin": "Na for 1914 Lord Lugard join Northern and Southern Protectorates together make dem be one Nigeria. Dis date na correct well known fact for Nigerian history.",
+"id": "wgov1305",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Among the colonial constitutions, the one that first divided Nigeria into regions (North, East and West) for administrative and representative purposes was the:",
+"options": [
+"Clifford Constitution of 1922",
+"Richards Constitution of 1946",
+"Macpherson Constitution of 1951",
+"Lyttleton Constitution of 1954"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Richards Constitution of 1946 is remembered for introducing regionalism by creating Regional Houses of Assembly for the North, East and West. The Clifford Constitution came before regionalism, while Macpherson and Lyttleton came after and built on it.",
+"pidgin": "Richards Constitution of 1946 na im first bring regionalism, e create Regional House of Assembly for North, East and West. Clifford Constitution come before regionalism start, while Macpherson and Lyttleton come later build on top am.",
+"id": "wgov1306",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The Lyttleton Constitution of 1954 is best remembered in Nigerian history for:",
+"options": [
+"introducing the first Legislative Council in Nigeria",
+"establishing a true federal system with regions having separate legislative lists",
+"ending indirect rule completely across Nigeria",
+"granting Nigeria full independence from Britain"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The Lyttleton Constitution of 1954 made Nigeria a proper federation, giving the Regions their own legislative powers over certain matters (regional list) while the centre kept others. It did not end indirect rule or grant independence, and the Legislative Council existed long before 1954.",
+"pidgin": "Lyttleton Constitution of 1954 make Nigeria become real federation, e give Regions power to make law for some matters wey be regional list, while centre still hold im own. E no end indirect rule or give independence, and Legislative Council don dey before 1954 sef.",
+"id": "wgov1307",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

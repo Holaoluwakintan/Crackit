@@ -1,0 +1,204 @@
+{
+"subject": "accounting",
+"topic": "Incomplete records and single entry",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the single entry/incomplete records system of bookkeeping?",
+"options": [
+"A system in which every transaction is recorded twice, as debit and credit, in full compliance with double entry principles",
+"A system in which only the owner's capital account is updated at year end",
+"A system in which some transactions are not fully recorded, so not all accounts needed to prepare a trial balance are available",
+"A system used exclusively by multinational companies instead of double entry"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Incomplete records (single entry) means the trader has not kept full double entry books, so some accounts (like a complete trial balance) cannot be prepared directly. The accountant must reconstruct missing figures using available documents like cash books and bank statements.",
+"pidgin": "Incomplete record na when the business no keep full double entry book, so some account no dey complete to make trial balance straight. Accountant go use the small info wey dey there (like cash book) to find the missing figures.",
+"py": null,
+"values": null,
+"id": "accv1200",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A trader who does not keep proper double entry records wants to determine his capital at the start of the trading year. Which document should he prepare?",
+"options": [
+"Trial balance",
+"Statement of affairs",
+"Bank reconciliation statement",
+"Manufacturing account"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A statement of affairs lists all assets and liabilities to find capital (Assets minus Liabilities) when full records are not kept. It serves the same purpose as a balance sheet in a single entry system.",
+"pidgin": "Statement of affairs na the list wey show all assets and liabilities so dem fit calculate capital (Assets minus Liabilities) when the business no get full record. E dey work like balance sheet for single entry system.",
+"py": null,
+"values": null,
+"id": "accv1201",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Alhaji Musa does not keep complete accounting records for his provisions business. On 1 January 2023, his assets and liabilities were as follows: Premises N800,000; Stock of goods N150,000; Trade debtors N90,000; Cash at bank N60,000; Trade creditors N70,000; Bank loan N200,000. Using the statement of affairs method, calculate his capital as at 1 January 2023.",
+"options": [
+"N830,000",
+"N1,100,000",
+"N270,000",
+"N1,370,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total assets = 800,000+150,000+90,000+60,000 = 1,100,000. Total liabilities = 70,000+200,000 = 270,000. Capital = Assets - Liabilities = 1,100,000 - 270,000 = 830,000.",
+"pidgin": "Total assets na 800,000+150,000+90,000+60,000 = 1,100,000. Total liabilities na 70,000+200,000 = 270,000. Capital na Assets minus Liabilities = 1,100,000 - 270,000 = 830,000.",
+"py": "(800000+150000+90000+60000) - (70000+200000)",
+"values": [
+830000,
+1100000,
+270000,
+1370000
+],
+"id": "accv1202",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Mrs Chidinma's business had an opening capital of N500,000 and a closing capital of N650,000 for the year ended 31 December 2023. During the year, she introduced additional capital of N40,000 into the business and withdrew N30,000 for personal use. Calculate the net profit made by the business for the year.",
+"options": [
+"N110,000",
+"N180,000",
+"N150,000",
+"N140,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Profit = (Closing capital + Drawings) - (Opening capital + Additional capital) = (650,000+30,000) - (500,000+40,000) = 680,000 - 540,000 = 140,000. Drawings reduce capital so they are added back, while new capital introduced is removed before comparing with the opening figure.",
+"pidgin": "Profit na (Closing capital + Drawings) minus (Opening capital + New capital) = (650,000+30,000) - (500,000+40,000) = 680,000 - 540,000 = 140,000. Since drawings dey reduce capital, we add am back, and we remove the new capital wey she bring before we compare.",
+"py": "(650000+30000) - (500000+40000)",
+"values": [
+110000,
+180000,
+150000,
+140000
+],
+"id": "accv1203",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "The following information was extracted from the books of Oga Peters Stores, which keeps incomplete records: Trade debtors at 1 January 2023, N45,000; Trade debtors at 31 December 2023, N60,000; Cash received from debtors during the year, N380,000; Discount allowed, N5,000; Returns inwards, N8,000. Using the total debtors account, calculate the credit sales for the year.",
+"options": [
+"N403,000",
+"N408,000",
+"N400,000",
+"N378,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In the total debtors account: Opening debtors + Credit sales = Cash received + Discount allowed + Returns inwards + Closing debtors. So Credit sales = 380,000+5,000+8,000+60,000-45,000 = 408,000.",
+"pidgin": "For total debtors account: Opening debtors + Credit sales = Cash wey dem receive + Discount allowed + Returns inwards + Closing debtors. So Credit sales = 380,000+5,000+8,000+60,000-45,000 = 408,000.",
+"py": "380000+5000+8000+60000-45000",
+"values": [
+403000,
+408000,
+400000,
+378000
+],
+"id": "accv1204",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "The following information relates to Amaka Ventures, which operates a single entry system: Trade creditors at 1 January 2023, N72,000; Trade creditors at 31 December 2023, N95,000; Cash paid to creditors during the year, N460,000; Discount received, N10,000; Returns outwards, N12,000. Using the total creditors account, calculate the credit purchases for the year.",
+"options": [
+"N495,000",
+"N493,000",
+"N505,000",
+"N459,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In the total creditors account: Opening creditors + Credit purchases = Cash paid + Discount received + Returns outwards + Closing creditors. So Credit purchases = 460,000+10,000+12,000+95,000-72,000 = 505,000.",
+"pidgin": "For total creditors account: Opening creditors + Credit purchases = Cash wey dem pay + Discount received + Returns outwards + Closing creditors. So Credit purchases = 460,000+10,000+12,000+95,000-72,000 = 505,000.",
+"py": "460000+10000+12000+95000-72000",
+"values": [
+495000,
+493000,
+505000,
+459000
+],
+"id": "accv1205",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "At 1 January 2023, Mrs Bello's business had total assets of N920,000 and total liabilities of N220,000. At 31 December 2023, her total assets were N1,000,000 and total liabilities were N170,000. During the year, she introduced additional capital of N50,000 and the business earned a net profit of N160,000. Calculate the total drawings made during the year.",
+"options": [
+"N80,000",
+"N30,000",
+"N130,000",
+"N210,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Opening capital = 920,000-220,000 = 700,000. Closing capital = 1,000,000-170,000 = 830,000. Closing capital = Opening capital + Additional capital + Profit - Drawings, so Drawings = (700,000+50,000+160,000) - 830,000 = 910,000-830,000 = 80,000.",
+"pidgin": "Opening capital = 920,000-220,000 = 700,000. Closing capital = 1,000,000-170,000 = 830,000. Since Closing capital = Opening capital + New capital + Profit - Drawings, Drawings = (700,000+50,000+160,000) - 830,000 = 910,000-830,000 = 80,000.",
+"py": "((920000-220000)+50000+160000) - (1000000-170000)",
+"values": [
+80000,
+30000,
+130000,
+210000
+],
+"id": "accv1206",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader sells goods at a mark-up of 25% on cost. If the cost of goods sold for the year was N240,000, calculate the value of sales for the year.",
+"options": [
+"N320,000",
+"N180,000",
+"N250,000",
+"N300,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Mark-up of 25% on cost means Sales = Cost + 25% of Cost = 240,000 x 1.25 = 300,000. This is different from a 25% margin on sales, which would give a different (higher) sales figure.",
+"pidgin": "Mark-up of 25% on cost mean Sales = Cost + 25% of Cost = 240,000 x 1.25 = 300,000. E different from 25% margin on sales wey for give bigger sales figure.",
+"py": "240000*1.25",
+"values": [
+320000,
+180000,
+250000,
+300000
+],
+"id": "accv1207",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

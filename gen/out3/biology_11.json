@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Coordination: nervous system, reflex action and sense organs",
+"generated": 4,
+"kept": [
+{
+"q": "In a typical neurone (nerve cell), which part contains the nucleus and most of the cell organelles, and directs the general metabolic activities needed to keep the cell alive?",
+"options": [
+"Axon",
+"Cell body (soma)",
+"Dendrite",
+"Myelin sheath"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The cell body (soma) houses the nucleus and organelles like mitochondria and ribosomes. The axon carries impulses away, while dendrites receive impulses, but neither contains the main store of organelles.",
+"pidgin": "The cell body (soma) na im get the nucleus and the organelles like mitochondria and ribosomes. Axon dey carry message comot, dendrite dey receive am, but na cell body get the main organelles.",
+"id": "biov1100",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "During biology practical at a secondary school in Enugu, a teacher explains the difference between reflex actions and voluntary actions. Which statement correctly describes a reflex action?",
+"options": [
+"It is a slow, conscious response that is first analysed by the cerebrum",
+"It is an involuntary, rapid, automatic response that does not require conscious thought",
+"It always requires the impulse to first pass through the cerebrum before a response is produced",
+"It occurs only when a person deliberately decides to move a body part"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A reflex action is an automatic, fast response to a stimulus that bypasses conscious thinking, usually controlled by the spinal cord. Voluntary actions, unlike reflexes, involve the cerebrum and conscious decision-making.",
+"pidgin": "Reflex action na automatic quick response wey no need person think first, mostly the spinal cord dey control am. Voluntary action na the one wey cerebrum dey control when person decide to do something with mind.",
+"id": "biov1101",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A student notices that nerve impulses travel much faster along a myelinated neurone than along an unmyelinated neurone of the same diameter. Which of the following best explains this difference in speed?",
+"options": [
+"Myelinated neurones contain more mitochondria along the axon to release extra ATP for faster diffusion",
+"The impulse jumps rapidly from one node of Ranvier to the next (saltatory conduction), so depolarisation covers less actual membrane distance",
+"Myelin sheath reduces the resistance of the axon membrane, allowing sodium ions to leak out more easily everywhere",
+"Myelinated axons have sodium channels spread evenly along the whole length of the membrane, unlike unmyelinated axons"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Myelin insulates the axon except at the nodes of Ranvier, so the impulse appears to jump from node to node; this is called saltatory conduction and it greatly increases speed. The other options describe things that either do not happen or would not speed up conduction.",
+"pidgin": "Myelin dey cover the axon well well except for the nodes of Ranvier, so the impulse dey jump from node to node - dem dey call am saltatory conduction - and e dey make the message waka faster. The other options no fit cause the speed wey dem talk.",
+"id": "biov1102",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following correctly matches a human sense organ with the main type of receptor found in it?",
+"options": [
+"Eye - chemoreceptors",
+"Ear - photoreceptors",
+"Nose - chemoreceptors",
+"Skin - photoreceptors"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The nose contains chemoreceptors in the olfactory epithelium that detect chemical molecules in the air as smell. The eye has photoreceptors (rods and cones), while the ear has mechanoreceptors for sound and balance, not photoreceptors.",
+"pidgin": "Nose get chemoreceptors wey dey detect chemical wey dey air as smell. Eye get photoreceptors (rods and cones), ear get mechanoreceptors for sound and balance, no be photoreceptors.",
+"id": "biov1103",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

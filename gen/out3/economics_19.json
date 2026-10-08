@@ -1,0 +1,68 @@
+{
+"subject": "economics",
+"topic": "International economic organisations (ECOWAS, AfDB, IMF, World Bank, OPEC, WTO)",
+"generated": 3,
+"kept": [
+{
+"q": "The Economic Community of West African States (ECOWAS) was formally established in 1975 by the Treaty of Lagos. In which city is the ECOWAS Commission (headquarters) currently located?",
+"options": [
+"Abuja, Nigeria",
+"Accra, Ghana",
+"Lome, Togo",
+"Dakar, Senegal"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "ECOWAS was founded in Lagos in 1975, but its permanent headquarters (the ECOWAS Commission) is sited in Abuja, Nigeria. The other cities host other regional bodies or were just meeting venues, not the headquarters.",
+"pidgin": "Dem form ECOWAS for Lagos for 1975, but di main headquarters (ECOWAS Commission) dey Abuja, Nigeria. Di oda cities no be where di headquarters dey.",
+"py": null,
+"values": null,
+"id": "ecov1900",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "The World Bank Group has several affiliate institutions with different functions. Which of these institutions specifically provides interest-free loans and grants to the world's poorest developing countries to support social and economic development?",
+"options": [
+"International Finance Corporation (IFC)",
+"International Development Association (IDA)",
+"International Monetary Fund (IMF)",
+"Multilateral Investment Guarantee Agency (MIGA)"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The IDA is the arm of the World Bank Group that gives interest-free (concessional) loans and grants to the poorest countries. IFC deals with private sector investment, MIGA provides investment insurance, and the IMF is a separate institution dealing with balance of payments issues, not a World Bank affiliate.",
+"pidgin": "IDA na di World Bank arm wey dey give free-interest loan and grant to di poorest kontries. IFC dey support private business, MIGA dey insure investment, and IMF na separate body wey dey handle balance of payment wahala.",
+"py": null,
+"values": null,
+"id": "ecov1901",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A developing country's currency has depreciated sharply, causing severe balance of payments difficulties. The government approaches the International Monetary Fund (IMF) for emergency financial assistance. Based on typical IMF loan conditionalities designed to restore macroeconomic stability, which policy package would the country most likely be required to adopt?",
+"options": [
+"Increase fuel and electricity subsidies to protect citizens from hardship",
+"Reduce government spending and allow further currency adjustment to restore competitiveness",
+"Raise import tariffs sharply to protect local industries from foreign competition",
+"Nationalise all commercial banks to directly control the money supply"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "IMF conditionalities typically require fiscal discipline (cutting government spending/subsidies) and market-driven exchange rate adjustment to correct balance of payments problems. Increasing subsidies, raising tariffs, or nationalising banks would worsen fiscal deficits or distort markets, which goes against IMF's standard stabilisation approach.",
+"pidgin": "IMF dey ask kontri to cut government spending and allow di currency adjust well-well so dem fit become competitive again. To increase subsidy, raise tariff, or nationalise banks go only make di budget wahala and market problem worse, na im be why dem no go gree am.",
+"py": null,
+"values": null,
+"id": "ecov1902",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

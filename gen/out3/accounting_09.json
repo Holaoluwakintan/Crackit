@@ -1,0 +1,192 @@
+{
+"subject": "accounting",
+"topic": "Adjustments: accruals, prepayments, bad debts and provision for doubtful debts",
+"generated": 8,
+"kept": [
+{
+"q": "An accrued expense in accounting is best described as:",
+"options": [
+"Expense paid in advance before it is due",
+"Income received before it is earned",
+"Expense incurred during the accounting period but not yet paid",
+"Income earned but not yet received"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "An accrued expense is one that has been incurred (used/consumed) during the period but has not yet been paid for by year end, e.g. an unpaid electricity bill. It is shown as a current liability in the statement of financial position.",
+"pidgin": "Accrued expense na expense wey don happen (dem don use am) for this period but dem never pay for am before year end, like light bill wey never pay. Dem go show am as current liability.",
+"py": null,
+"values": null,
+"id": "accv0900",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A prepaid expense in accounting is best described as:",
+"options": [
+"Expense incurred but not yet paid",
+"Income received in advance",
+"Expense that has been written off as bad debt",
+"Payment made in the current period for a service to be enjoyed in a future period"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "A prepaid expense is money paid in the current period for a benefit or service that will be enjoyed in a future accounting period, e.g. rent paid in advance. It is shown as a current asset.",
+"pidgin": "Prepaid expense na money wey dem pay now but the service or benefit go dey for future period, like rent wey dem pay before time. Dem go show am as current asset.",
+"py": null,
+"values": null,
+"id": "accv0901",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Alhaji Musa paid ₦180,000 as rent during the year, and this amount covers 15 months from January of the current year to March of the following year. If his accounting year ends on 31 December, what amount should be charged as rent expense in the income statement for the year?",
+"options": [
+"₦180,000",
+"₦144,000",
+"₦36,000",
+"₦162,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Total rent paid (₦180,000) covers 15 months, so monthly rent = 180,000/15 = ₦12,000. Expense for the 12 months of the accounting year = 12,000 x 12 = ₦144,000. The remaining 3 months (₦36,000) is a prepayment carried to next year.",
+"pidgin": "Total rent wey dem pay na ₦180,000 for 15 months. One month rent na 180,000/15 = ₦12,000. For the 12 months wey concern dis year, expense na 12,000 x 12 = ₦144,000. The remaining 3 months (₦36,000) na prepayment.",
+"py": "180000/15*12",
+"values": [
+180000,
+144000,
+36000,
+162000
+],
+"id": "accv0902",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "During the year, a trader paid electricity bills amounting to ₦260,000. At the end of the year, an additional bill of ₦35,000 relating to the current year had not yet been paid. What is the total electricity expense to be charged in the income statement for the year?",
+"options": [
+"₦260,000",
+"₦225,000",
+"₦295,000",
+"₦35,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Total electricity expense for the year = cash paid (₦260,000) plus the accrued bill not yet paid (₦35,000) = ₦295,000. The accrual concept matches expenses to the period they relate to, regardless of when cash is paid.",
+"pidgin": "Total electricity cost for the year na wetin dem pay (₦260,000) plus the bill wey never pay (₦35,000) = ₦295,000. Accounting rule talk say we go match expense to the period wey e belong, no matter if dem don pay am or not.",
+"py": "260000+35000",
+"values": [
+260000,
+225000,
+295000,
+35000
+],
+"id": "accv0903",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Chidinma Traders wrote off ₦25,000 as bad debt during the year. Which of the following correctly states the effect of this transaction on the final accounts?",
+"options": [
+"Increase in net profit and increase in debtors",
+"Decrease in net profit and decrease in debtors",
+"Decrease in net profit and increase in debtors",
+"Increase in net profit and decrease in debtors"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Writing off bad debts is treated as an expense, so it reduces net profit. It also reduces the debtors (receivables) balance because the amount owed is no longer expected to be recovered.",
+"pidgin": "When dem write off bad debt, e dey reduce profit because na expense. E also dey reduce debtors balance because dem no go fit collect dat money again.",
+"py": null,
+"values": null,
+"id": "accv0904",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "At the end of the year, trade debtors amounted to ₦500,000. The business decided to maintain a provision for doubtful debts at 5% of debtors. The previous year's provision was ₦18,000. What amount will be charged to the income statement (profit and loss account) as provision for doubtful debts for the current year?",
+"options": [
+"₦25,000",
+"₦18,000",
+"₦32,000",
+"₦7,000"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "New provision required = 5% x ₦500,000 = ₦25,000. Previous provision was ₦18,000. Since the new provision is higher, the increase of ₦25,000 - ₦18,000 = ₦7,000 is the amount charged as an additional expense in the income statement.",
+"pidgin": "New provision wey dem need na 5% x ₦500,000 = ₦25,000. Last year own na ₦18,000. Since new one pass old one, the increase of ₦25,000 - ₦18,000 = ₦7,000 na the amount wey dem go charge as expense this year.",
+"py": "500000*0.05-18000",
+"values": [
+25000,
+18000,
+32000,
+7000
+],
+"id": "accv0905",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "Trade debtors before adjustment stood at ₦620,000. During the year, further bad debts of ₦20,000 were discovered and must be written off. The business then wants to maintain a provision for doubtful debts at 4% of the remaining debtors. What is the net trade debtors figure to be reported in the statement of financial position after all adjustments?",
+"options": [
+"₦576,000",
+"₦585,000",
+"₦596,000",
+"₦600,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "First remove the further bad debts: ₦620,000 - ₦20,000 = ₦600,000. New provision = 4% x ₦600,000 = ₦24,000. Net debtors in the statement of financial position = ₦600,000 - ₦24,000 = ₦576,000.",
+"pidgin": "First commot the new bad debt: ₦620,000 - ₦20,000 = ₦600,000. New provision na 4% x ₦600,000 = ₦24,000. Net debtors for balance sheet na ₦600,000 - ₦24,000 = ₦576,000.",
+"py": "(620000-20000) - 0.04*(620000-20000)",
+"values": [
+576000,
+585000,
+596000,
+600000
+],
+"id": "accv0906",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A prepaid expense at the end of the accounting year is shown in the statement of financial position as:",
+"options": [
+"Current liability",
+"Non-current asset",
+"Current asset",
+"Deduction from capital"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A prepaid expense represents a benefit or service already paid for but not yet consumed, so it is a resource the business will benefit from in future - hence it is reported as a current asset.",
+"pidgin": "Prepaid expense na benefit wey dem don pay for but never use am finish, so na asset wey business go still enjoy later - na why dem dey show am as current asset.",
+"py": null,
+"values": null,
+"id": "accv0907",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

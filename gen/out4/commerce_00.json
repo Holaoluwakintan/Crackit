@@ -1,0 +1,163 @@
+{
+"subject": "commerce",
+"topic": "Introduction to commerce and occupations",
+"ti": 0,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines commerce?",
+"options": [
+"The sum of all activities connected with the distribution of goods and services from the producer to the final consumer",
+"The production of raw materials needed by industries",
+"The simple buying and selling of goods only",
+"The study of how government raises and spends revenue"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Commerce covers trade (buying and selling) and all the aids to trade such as transport, banking, insurance, warehousing and advertising that help move goods from producers to consumers. It is wider than just buying and selling.",
+"pidgin": "Commerce na everything wey dey help goods and service waka from the person wey produce am go reach the final buyer. E no be just buying and selling alone, e include transport, bank, insurance and the rest.",
+"py": null,
+"values": null,
+"id": "wcom0000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Occupations can be grouped into commerce, industry and direct service. Which of the following is an example of a direct service occupation?",
+"options": [
+"A banker who grants loans to cocoa farmers in Ondo State",
+"A doctor who treats patients at a general hospital in Enugu",
+"A warehouse keeper who stores bags of rice before sale",
+"A trader who exports palm oil to Ghana"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Direct services are personal services rendered straight to people without passing through trade or its aids, such as medicine, teaching and legal practice. Banking, warehousing and trading are all aids to trade or commercial activities, not direct services.",
+"pidgin": "Direct service na wen person dey serve another person their self-self, like doctor wey dey treat patient. Banking, warehouse and trading na aids to trade, dem no be direct service.",
+"py": null,
+"values": null,
+"id": "wcom0001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Alhaji Musa owns a company that mines tin ore on the Jos Plateau and sells the raw ore to processing firms. His business belongs to which class of industry?",
+"options": [
+"Manufacturing industry",
+"Constructive industry",
+"Extractive industry",
+"Service industry"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Extractive industries obtain raw materials directly from the land, sea or air, such as mining, fishing and lumbering. Since Alhaji Musa simply mines and sells raw tin ore without processing it, his business is an extractive industry.",
+"pidgin": "Extractive industry na the one wey dey collect raw material from ground, water or air, like mining. Since Alhaji Musa just dey mine tin ore and sell am raw, na extractive industry be dat.",
+"py": null,
+"values": null,
+"id": "wcom0002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT regarded as an aid to trade?",
+"options": [
+"Transportation",
+"Insurance",
+"Advertising",
+"Farming"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Aids to trade are services that make buying and selling easier, such as transport, insurance, banking, warehousing and advertising. Farming is a production activity (primary production), not a service that assists trade.",
+"pidgin": "Aids to trade na services wey dey make trade sweet, like transport, insurance and advertising. Farming na production work, e no be aid to trade.",
+"py": null,
+"values": null,
+"id": "wcom0003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A Nigerian company imports textile materials from China and, without using them, re-exports the same materials to Chad. What type of trade is this company engaged in?",
+"options": [
+"Entrepot trade",
+"Import trade",
+"Export trade",
+"Wholesale trade"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Entrepot trade occurs when a country imports goods from one country and re-exports them, in the same or slightly altered form, to another country without consuming them. The Nigerian company here is simply acting as a middleman between China and Chad.",
+"pidgin": "Entrepot trade na wen country import goods come re-export am go another country without using am. Na so dis Nigeria company take dey do am between China and Chad.",
+"py": null,
+"values": null,
+"id": "wcom0004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Ibeh harvests large quantities of yam in October, but the demand for the yam is highest during the Christmas period in December. Which activity solves the hindrance to trade created by this difference in time between production and consumption?",
+"options": [
+"Transportation",
+"Warehousing",
+"Advertising",
+"Banking"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The gap between the time goods are produced and the time they are needed is the hindrance of time, and it is overcome by warehousing, which stores goods safely until they are required. Transport solves distance problems, advertising solves lack of information, and banking solves finance problems, so they do not fit this situation.",
+"pidgin": "The problem na say the yam ready for October but people need am for December, na hindrance of time. Warehousing na im dey solve am because e go store the yam well well until December reach. Transport, advertising and banking no fit solve dis kind problem.",
+"py": null,
+"values": null,
+"id": "wcom0005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A company in Nnewi assembles motorcycles using parts imported from abroad and sells the finished motorcycles to dealers. What type of occupation is this company engaged in?",
+"options": [
+"Extractive occupation",
+"Genetic occupation",
+"Commercial occupation",
+"Manufacturing occupation"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Manufacturing involves changing raw materials or parts into finished or more useful goods, which is exactly what the Nnewi company does by assembling imported parts into motorcycles. Extractive occupations get raw materials from nature, genetic occupations involve breeding plants/animals, and commercial occupations deal with trade and its aids, none of which matches assembling motorcycles.",
+"pidgin": "Manufacturing na wen dem take raw material or parts turn am to finish product, like dis company wey dey assemble motorcycle from imported parts. Extractive na for raw material from nature, genetic na for breeding, commercial na for trade matter, none of dem match dis one.",
+"py": null,
+"values": null,
+"id": "wcom0006",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,134 @@
+{
+"subject": "literature",
+"topic": "Tone, mood, theme and diction",
+"generated": 7,
+"kept": [
+{
+"q": "In literary studies, 'tone' is best defined as:",
+"options": [
+"The writer's or speaker's attitude towards the subject matter or audience",
+"The arrangement of words to form a rhythm",
+"The physical setting described in a story",
+"The moral lesson taught by a text"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Tone is the attitude a writer or speaker shows towards the subject or the audience, often revealed through word choice and style. It is different from setting or rhythm, which are separate literary elements.",
+"pidgin": "Tone na how the writer or speaker feel about the matter wey dem dey talk about or the audience. E no be about where the story happen or how the words dey rhyme.",
+"id": "litv1000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Read this short extract: 'Mama Chidinma wiped her brow and smiled as she counted the few naira notes, grateful for another day's market.' The dominant tone of this passage is:",
+"options": [
+"Despair and hopelessness",
+"Mockery and scorn",
+"Contentment and gratitude",
+"Anger and bitterness"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The words 'smiled' and 'grateful' show that Mama Chidinma is happy and thankful despite having little money. This shows a tone of contentment, not sadness or anger.",
+"pidgin": "The words 'smiled' and 'grateful' show say Mama Chidinma happy and e dey thank God even though na small money she get. So the tone na gratitude, no be sadness or vex.",
+"id": "litv1001",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of the following best describes 'mood' in a literary work?",
+"options": [
+"The grammatical structure of sentences used by the author",
+"The central lesson the author wants readers to learn",
+"The writer's personal opinion about a character",
+"The emotional atmosphere created for the reader by the setting, events or language"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Mood is the overall emotional atmosphere that a piece of writing creates for the reader, often built through setting, imagery and word choice. It is not the same as theme or sentence structure.",
+"pidgin": "Mood na the general feeling wey the story give the reader, e dey come from the setting, the event and the kind words wey the writer use. E no be the same as theme or how sentence arrange.",
+"id": "litv1002",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Read this extract: 'The children scampered across the dusty compound, their laughter rippling like a stream in the harmattan breeze.' The diction used in this passage can best be described as:",
+"options": [
+"Archaic and obscure",
+"Simple, concrete and vivid",
+"Formal and legalistic",
+"Highly technical and scientific"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The words used ('scampered', 'rippling', 'harmattan breeze') are everyday words that create a clear, lively picture. This shows simple, vivid diction suited to describing children playing.",
+"pidgin": "The words wey dem use ('scampered', 'rippling', 'harmattan breeze') na common words wey paint clear and lively picture. Na simple but vivid diction, e match well for how pikin dey play.",
+"id": "litv1003",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read this extract: 'Chief Obaro, the so-called 'friend of the poor', dashed out one bag of garri to flood victims while ten photographers captured his generosity for the newspapers.' The tone of this passage is:",
+"options": [
+"Celebratory and joyful",
+"Sarcastic and mocking",
+"Mournful and tragic",
+"Romantic and tender"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The phrase 'so-called friend of the poor' and the emphasis on photographers rather than real help suggest the writer is making fun of the chief's fake generosity. This creates a sarcastic, mocking tone rather than a sincere celebration.",
+"pidgin": "The phrase 'so-called friend of the poor' and as e dey focus on photographers instead of real help show say the writer dey mock the chief fake kindness. Na sarcastic tone, e no be real celebration.",
+"id": "litv1004",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read this short poem extract: 'Though the storm tore my roof and scattered my yams, / I rise each dawn to plant again, / For the soil still remembers my hands.' The theme most clearly expressed in these lines is:",
+"options": [
+"Betrayal among friends",
+"Resilience and perseverance",
+"Jealousy and rivalry",
+"Vanity and pride"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The speaker loses property to a storm but keeps rising every morning to start again, showing determination despite hardship. This points to the theme of resilience and perseverance, not betrayal or jealousy.",
+"pidgin": "The speaker lose property to storm but e still dey wake up every morning to start again, this show strong mind despite wahala. Na resilience and perseverance be the theme, e no be betrayal or jealousy matter.",
+"id": "litv1005",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read this extract: 'Verily, the farmer did toileth upon his field till the sun didst set, and his sweat did water the yam mounds like unto the rains of old.' Given that this describes an ordinary farmer's daily work, the choice of elevated, archaic diction mainly creates which effect?",
+"options": [
+"A solemn, historically accurate record of farming methods",
+"A scientific explanation of soil fertility",
+"A mock-heroic, slightly humorous effect by exaggerating an ordinary activity",
+"A romantic declaration of love between two people"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Using grand, old-fashioned words like 'verily' and 'toileth' to describe simple farm work is exaggerated for a plain task. This mismatch between lofty language and ordinary action creates a mock-heroic, humorous effect, not a serious historical or scientific account.",
+"pidgin": "To use big, old-style grammar like 'verily' and 'toileth' just to talk about ordinary farm work na exaggeration for simple matter. Wetin dey happen be say the grand language dey clash with the small task, so e bring mock-heroic, funny effect, no be serious history or science matter.",
+"id": "litv1006",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

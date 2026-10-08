@@ -1,0 +1,172 @@
+{
+"subject": "geography",
+"topic": "Environmental resources, conservation and hazards",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is an example of a renewable natural resource?",
+"options": [
+"Coal",
+"Crude oil",
+"Solar energy",
+"Natural gas"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Renewable resources can be replenished naturally within a short time. Solar energy comes continuously from the sun and never runs out, unlike coal, crude oil and natural gas which take millions of years to form.",
+"pidgin": "Renewable resource na di one wey fit come back quick quick by itself. Solar energy dey come from sun anytime, but coal, crude oil and natural gas na fossil fuel wey need plenty years to form.",
+"py": null,
+"values": null,
+"id": "geov1300",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "The deliberate planting of trees on land that previously had no forest cover, mainly to combat desert encroachment, is called?",
+"options": [
+"Reforestation",
+"Afforestation",
+"Deforestation",
+"Overgrazing"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Afforestation means planting trees in an area that did not have forest before. Reforestation, on the other hand, means replanting trees in an area where forest existed before but was cleared.",
+"pidgin": "Afforestation na when dem plant tree for land wey never get forest before. Reforestation na when dem replant tree for place wey forest dey before but dem don clear am.",
+"py": null,
+"values": null,
+"id": "geov1301",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which human activity is most directly responsible for accelerating desertification in the Sahel region of northern Nigeria?",
+"options": [
+"Construction of dams",
+"Deep sea fishing",
+"Urban housing estates",
+"Overgrazing by livestock"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Overgrazing strips the land of its protective grass cover, leaving the soil bare and exposed to wind erosion. This weakens the soil's ability to hold moisture and speeds up the southward spread of desert conditions in the Sahel.",
+"pidgin": "When animal dem dey overgraze, dem dey finish all di grass wey dey cover ground. E go make soil naked and wind go easily blow am comot, so desert go dey spread fast for Sahel area.",
+"py": null,
+"values": null,
+"id": "geov1302",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A natural hazard caused by a sudden release of energy within the earth's crust, resulting in shaking of the ground, is known as?",
+"options": [
+"Volcanic eruption",
+"Landslide",
+"Earthquake",
+"Tsunami"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "An earthquake happens when stored energy along faults in the earth's crust is suddenly released, causing the ground to shake. A tsunami may result from an earthquake under the sea but is a different, secondary hazard.",
+"pidgin": "Earthquake na when energy wey dey hide inside earth crust burst comot suddenly, e go make ground shake. Tsunami fit happen after earthquake wey occur for sea, but na different hazard from earthquake.",
+"py": null,
+"values": null,
+"id": "geov1304",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which Nigerian state in the southeast is most noted for severe gully erosion problems caused by its loose, sandy soil and heavy rainfall?",
+"options": [
+"Sokoto",
+"Anambra",
+"Borno",
+"Bauchi"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Anambra State sits on soft, sandy, poorly consolidated soil and receives heavy rainfall typical of southeastern Nigeria, making it very prone to deep gully erosion. Sokoto, Borno and Bauchi are drier northern states where desertification, not gully erosion, is the main hazard.",
+"pidgin": "Anambra State get soft sandy soil wey no dey strong, plus plenty rain wey dey fall for southeast, so gully erosion dey serious reach there. Sokoto, Borno and Bauchi dey north where desertification na di main wahala, no be gully erosion.",
+"py": null,
+"values": null,
+"id": "geov1305",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following resources is classified as non-renewable because it takes millions of years to form and cannot be replenished within a human lifetime?",
+"options": [
+"Wind",
+"Timber",
+"Fish",
+"Natural gas"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Natural gas is a fossil fuel formed from decayed organic matter over millions of years, so once used up it cannot be quickly replaced. Wind, timber and fish can all regenerate or be renewed within a much shorter time.",
+"pidgin": "Natural gas na fossil fuel wey come from dead plant and animal wey don stay for ground plenty millions years, so once e finish e no fit quick come back. Wind, timber and fish fit renew within short time.",
+"py": null,
+"values": null,
+"id": "geov1306",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Mangrove forests along the Niger Delta coastline help protect communities from coastal flooding and storm surges mainly because of which feature?",
+"options": [
+"Their dense, tangled root systems reduce wave energy and trap sediments",
+"Their tall trunks block strong winds from reaching the shore",
+"Their leaves absorb carbon dioxide, reducing global warming",
+"Their roots release oxygen that supports fish populations"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Mangrove roots form a thick tangled network along the shoreline that physically slows down incoming waves and traps sediments, reducing the force of storm surges on the land. Their trunks are not particularly tall, and carbon absorption or oxygen release does not directly stop flooding.",
+"pidgin": "Mangrove roots dey tangle well-well for shoreline, e dey slow down wave and trap sand, so di storm surge no go strong reach land. Di trunk no tall pass like dat, and carbon absorption or oxygen no be wetin dey directly stop flood.",
+"py": null,
+"values": null,
+"id": "geov1307",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which soil conservation method is most effective in reducing erosion on steeply sloping farmland?",
+"options": [
+"Contour ploughing (terracing)",
+"Monocropping",
+"Bush burning",
+"Ploughing straight down the slope"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Contour ploughing (terracing) involves farming across the slope in level steps, which slows down the speed of runoff water and reduces soil loss. Ploughing straight down the slope instead speeds up water flow and worsens erosion.",
+"pidgin": "Contour ploughing (terracing) na when farmer dey farm for level steps wey cross di hill, e dey slow down water wey dey run down and e dey reduce how soil dey wash comot. If you plough straight down di slope, e go make water run faster and erosion go worse.",
+"py": null,
+"values": null,
+"id": "geov1303",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+"why": "ambiguous:Contour ploughing and terracing are distinct methods.|Option conflates contour ploughing with terracing (distinct methods)"
+}
+]
+}

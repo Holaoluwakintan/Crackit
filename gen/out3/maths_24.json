@@ -1,0 +1,116 @@
+{
+"subject": "maths",
+"topic": "Probability",
+"generated": 4,
+"kept": [
+{
+"q": "In Mrs. Adeyemi's JS3 class, there are 15 boys and 10 girls, making 25 students in all. If one student is picked at random to collect the class register, what is the probability that the student picked is a girl?",
+"options": [
+"1/2",
+"2/5",
+"3/5",
+"1/5"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Total students = 25, number of girls = 10. Probability = 10/25 = 2/5.",
+"pidgin": "Total students na 25, and girls na 10. So probability = 10/25 wey be 2/5.",
+"py": "10/25",
+"values": [
+0.5,
+0.4,
+0.6,
+0.2
+],
+"id": "matv2400",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A basket at Mile 12 market contains 7 oranges and 5 mangoes, all looking identical from outside. Chidi picks two fruits one after another without replacement. What is the probability that both fruits picked are oranges?",
+"options": [
+"49/144",
+"7/12",
+"7/22",
+"7/11"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "P(first orange) = 7/12. Since it is not replaced, P(second orange) = 6/11. Multiply: (7/12) x (6/11) = 42/132 = 7/22.",
+"pidgin": "First pick orange na 7/12. Since e no put am back, second pick orange na 6/11. Multiply (7/12) x (6/11) give 42/132 wey be 7/22.",
+"py": "(7/12)*(6/11)",
+"values": [
+0.3403,
+0.5833,
+0.3182,
+0.6364
+],
+"id": "matv2401",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A committee of 3 people is to be selected at random from a group of 5 boys and 4 girls in a school club. What is the probability that the committee contains at least 2 girls?",
+"options": [
+"1/3",
+"5/14",
+"2/7",
+"17/42"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Total ways to choose 3 from 9 people = C(9,3) = 84. Ways with exactly 2 girls and 1 boy = C(4,2) x C(5,1) = 6 x 5 = 30. Ways with exactly 3 girls = C(4,3) = 4. At least 2 girls = 30 + 4 = 34. Probability = 34/84 = 17/42.",
+"pidgin": "Total ways to pick 3 from 9 people na C(9,3) = 84. Ways wey get exactly 2 girls and 1 boy na C(4,2) x C(5,1) = 30. Ways wey get all 3 girls na C(4,3) = 4. At least 2 girls na 30 + 4 = 34. Probability = 34/84 = 17/42.",
+"py": "(math.comb(4,2)*math.comb(5,1)+math.comb(4,3))/math.comb(9,3)",
+"values": [
+0.3333,
+0.3571,
+0.2857,
+0.4048
+],
+"id": "matv2403",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A fair six-sided die, numbered 1 to 6, is rolled once. What is the probability that the number obtained is greater than 4 OR is an even number?",
+"options": [
+"2/3",
+"1/2",
+"5/6",
+"1/3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Numbers greater than 4 are {5,6}. Even numbers are {2,4,6}. Combining without repeating the common value 6 gives {2,4,5,6}, which is 4 outcomes out of 6. So probability = 4/6 = 2/3.",
+"pidgin": "Numbers wey pass 4 na {5,6}. Even numbers na {2,4,6}. If you combine them well-well (no double count 6), you go get {2,4,5,6}, na 4 out of 6. So probability = 4/6 = 2/3.",
+"py": "len({2,4,5,6})/6",
+"values": [
+0.6667,
+0.5,
+0.8333,
+0.3333
+],
+"id": "matv2402",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+}
+]
+}

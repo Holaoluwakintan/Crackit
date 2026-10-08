@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "The birth and early life of Jesus; John the Baptist",
+"generated": 8,
+"kept": [
+{
+"q": "Who was sent by God to announce to Mary that she would give birth to Jesus?",
+"options": [
+"Angel Michael",
+"Angel Gabriel",
+"Angel Raphael",
+"Angel Uriel"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Bible says the angel Gabriel was sent by God to Mary in Nazareth to tell her she would conceive and bear a son called Jesus. This is recorded in Luke 1:26-31.",
+"pidgin": "Bible talk say na Angel Gabriel God send go met Mary for Nazareth to tell am say she go born Jesus. E dey Luke 1:26-31.",
+"id": "crsv1400",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "According to the Gospel of Luke, in which town was Jesus born?",
+"options": [
+"Nazareth",
+"Jerusalem",
+"Bethlehem",
+"Capernaum"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Luke 2:4-7 records that Jesus was born in Bethlehem, the city of David, when Joseph and Mary travelled there for the census. This fulfilled an Old Testament prophecy about the Messiah's birthplace.",
+"pidgin": "Luke 2:4-7 talk say na for Bethlehem, David im city, dem born Jesus when Joseph and Mary go there for census. E match wetin dem prophesy before.",
+"id": "crsv1401",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Why did Joseph take Mary to Bethlehem shortly before Jesus was born?",
+"options": [
+"To register for a census ordered by Caesar Augustus",
+"To celebrate the Passover feast",
+"To visit Elizabeth and Zechariah",
+"To pay temple tax to the priests"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Luke 2:1-5 explains that Caesar Augustus ordered a census of the whole Roman world, so Joseph had to go to Bethlehem, his ancestral town, to be registered with Mary.",
+"pidgin": "Luke 2:1-5 explain say Caesar Augustus order census for the whole Roman world, so Joseph gatz go Bethlehem, im papa town, to register with Mary.",
+"id": "crsv1402",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "What did John the Baptist eat while he lived in the wilderness?",
+"options": [
+"Bread and fish",
+"Manna and quail",
+"Figs and olives",
+"Locusts and wild honey"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Matthew 3:4 describes John the Baptist's diet in the wilderness as locusts and wild honey, showing his simple, disciplined lifestyle as a prophet.",
+"pidgin": "Matthew 3:4 talk say John the Baptist dey chop locust and wild honey for wilderness, dis one show say im life simple and strict as prophet.",
+"id": "crsv1403",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "What three gifts did the wise men present to the infant Jesus in Bethlehem?",
+"options": [
+"Silver, oil and spices",
+"Gold, frankincense and myrrh",
+"Wheat, wine and oil",
+"Linen, gold and incense"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Matthew 2:11 records that the wise men from the East worshipped the child Jesus and gave him gifts of gold, frankincense and myrrh, symbols fitting a king, priest, and one who would suffer.",
+"pidgin": "Matthew 2:11 talk say the wise men from East worship baby Jesus and give am gold, frankincense and myrrh, gifts wey fit king, priest and person wey go suffer.",
+"id": "crsv1404",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Why was Zechariah unable to speak after the angel Gabriel visited him in the temple?",
+"options": [
+"He was struck ill by a sudden fever",
+"He had taken a vow of silence",
+"He doubted the angel's message about John's birth",
+"He was overcome with joy and could not talk"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Luke 1:18-20 shows that Zechariah questioned Gabriel's message because he and Elizabeth were old, so the angel made him mute until John was born as a sign and a consequence of his unbelief.",
+"pidgin": "Luke 1:18-20 show say Zechariah doubt wetin Gabriel talk because him and Elizabeth don old finish, so angel make am dumb until John born, as sign and punishment for im doubt.",
+"id": "crsv1405",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Herod the king ordered the killing of baby boys aged two years and under in Bethlehem. Based on the biblical account, what was Herod's main motive for this action?",
+"options": [
+"He feared that a rival king had been born who would threaten his throne",
+"He wanted to reduce the population for easier taxation",
+"He was carrying out an order from the Roman governor",
+"He wanted to punish the shepherds for spreading false news"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Matthew 2:3-16 shows Herod was troubled when the wise men asked about the newborn 'king of the Jews', so out of fear for his throne he ordered the massacre of young boys in Bethlehem to eliminate the perceived rival.",
+"pidgin": "Matthew 2:3-16 show say Herod vex and fear when wise men ask about the new 'king of the Jews', so because e fear say dem go comot im throne, e order make dem kill the small pikin boys for Bethlehem.",
+"id": "crsv1406",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "When Simeon blessed the infant Jesus in the temple, he told Mary that 'a sword will pierce through your own soul also.' Based on the context of Luke's Gospel, what did Simeon mean by this statement?",
+"options": [
+"Mary would suffer great sorrow because of what would happen to her son",
+"Mary would be persecuted by Herod's soldiers",
+"Mary would lose her life while fleeing to Egypt",
+"Mary would be rejected by her own family"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Luke 2:34-35 links Simeon's words to the rejection and suffering Jesus would face, which would cause Mary deep personal grief, especially seen later at the crucifixion. It is a prophecy of a mother's sorrow, not physical harm to her.",
+"pidgin": "Luke 2:34-35 connect Simeon im talk to the suffer and rejection wey Jesus go face, wey go make Mary heart pain well well, especially wen dem crucify Jesus later. Na prophecy about mama sorrow, no be say person go wound Mary physically.",
+"id": "crsv1407",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

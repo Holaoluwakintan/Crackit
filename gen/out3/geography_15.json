@@ -1,0 +1,168 @@
+{
+"subject": "geography",
+"topic": "Settlements: types, functions and patterns",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best defines a settlement in Geography?",
+"options": [
+"A place where human beings live together permanently or semi-permanently while carrying out their daily activities",
+"A place where people reside temporarily only for trading purposes",
+"A large city with more than one million inhabitants",
+"An area reserved exclusively for farming activities"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A settlement is any place, small or large, where people live and carry out activities like farming, trading or working, either permanently or for a long period. It is not limited to big cities or temporary trading spots.",
+"pidgin": "Settlement na any place wey people dey stay permanently or for long time, as dem dey do their daily work like farming or trading. E no be only big city or temporary trade spot.",
+"py": null,
+"values": null,
+"id": "geov1500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the study of settlement functions, which of the following is NOT regarded as a basic function performed by settlements?",
+"options": [
+"Residential function",
+"Volcanic function",
+"Administrative function",
+"Commercial function"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Settlements commonly perform functions such as residential (housing people), administrative (governance) and commercial (trade). 'Volcanic function' is not a settlement function at all; it is a geological process, not something a settlement does.",
+"pidgin": "Settlement dey perform functions like residential (people dey live there), administrative (government matter) and commercial (business/trade). 'Volcanic function' no be real settlement function, na geology thing.",
+"py": null,
+"values": null,
+"id": "geov1501",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A settlement pattern where houses and buildings are closely clustered together, often around a market square, well, or road junction for mutual security and easy social interaction, is known as:",
+"options": [
+"Dispersed pattern",
+"Linear pattern",
+"Nucleated pattern",
+"Radial pattern"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A nucleated settlement pattern has houses tightly grouped together around a central point such as a market, water source, or crossroads, usually for security, social interaction, or shared resources. This is different from scattered (dispersed) or line-shaped (linear) patterns.",
+"pidgin": "Nucleated settlement pattern na where houses dey pack together for one central point like market, well or junction, mostly for security and easy interaction. E different from scatter (dispersed) or straight-line (linear) pattern.",
+"py": null,
+"values": null,
+"id": "geov1502",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In some farming communities, families live far apart from one another, each household close to its own farmland, with no central cluster of houses. This type of settlement pattern is called:",
+"options": [
+"Nucleated pattern",
+"Linear pattern",
+"Compact pattern",
+"Dispersed pattern"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "When houses are scattered far apart, each close to the farmland it serves, this is called a dispersed (or scattered) settlement pattern. It is common in areas where farmers need to live close to their individual plots rather than grouping together.",
+"pidgin": "When houses dey spread far from each other, each house close to the farm wey e dey use, dem dey call am dispersed (scatter) settlement pattern. E common for places wey farmer need stay near im own farmland.",
+"py": null,
+"values": null,
+"id": "geov1503",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Settlements that grow up in a straight or elongated form along a road, railway line, or river bank, such that the houses follow the course of the road or river, display a ___ settlement pattern.",
+"options": [
+"Linear pattern",
+"Nucleated pattern",
+"Dispersed pattern",
+"Circular pattern"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A linear settlement pattern occurs when houses are built in a line following a route such as a road, railway, or river, because the route provides easy access to transport, water, or trade. This gives the settlement an elongated shape rather than a compact or scattered one.",
+"pidgin": "Linear settlement pattern na when houses dey follow line along road, railway or river, because the route dey give better access to transport, water or trade. E go make the settlement get long shape instead of round or scatter shape.",
+"py": null,
+"values": null,
+"id": "geov1504",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In Geography, which statement correctly describes the term 'site' of a settlement, as distinct from its 'situation'?",
+"options": [
+"It is the relative position of a settlement compared to other settlements, roads, and resources around it",
+"It is the actual physical ground or spot on which a settlement is built, including local features like a hill, river bank, or valley",
+"It refers only to the total population living in the settlement",
+"It refers to the official administrative boundary drawn around the settlement"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The 'site' of a settlement is the exact physical spot of land it occupies, such as a hilltop, river bank, or valley floor, which affected why it was first built there. 'Situation', on the other hand, describes its position relative to other places, roads, and resources, so the two terms must not be confused.",
+"pidgin": "'Site' of settlement na the exact ground wey dem build am on top, like hilltop, river bank or valley, wey influence why dem first build there. 'Situation' na im position relative to other place and road, so no mix the two terms.",
+"py": null,
+"values": null,
+"id": "geov1505",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "According to central place theory, some towns act as 'central places' offering a wider range of higher-order goods and services (like specialist hospitals or universities) than surrounding smaller towns. The main reason for this is that such central places usually have:",
+"options": [
+"A location on the coast, which is compulsory for every central place",
+"Volcanic soil that makes farming more productive there",
+"An earlier founding date than all surrounding towns",
+"Larger market areas (hinterlands) with more people able to support higher-order functions"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Central place theory explains that bigger towns serve larger hinterlands (surrounding areas) with more customers, which is enough to support expensive, specialised services like universities or big hospitals. Smaller towns with fewer customers can only support everyday, lower-order services like small shops.",
+"pidgin": "Central place theory talk say big towns dey serve bigger area (hinterland) wey get plenty customer, and dat one go support costly special service like university or big hospital. Small towns wey no get plenty customer go just support small everyday service like small shop.",
+"py": null,
+"values": null,
+"id": "geov1506",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Which of the following best distinguishes an urban settlement from a rural settlement?",
+"options": [
+"An urban settlement has a small population mainly engaged in farming",
+"An urban settlement is always located directly beside a river",
+"An urban settlement has a relatively large population mainly engaged in non-agricultural activities such as trade, administration, and industry",
+"An urban settlement has no schools, hospitals, or other social amenities"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Urban settlements (towns and cities) typically have large populations whose main work is non-farming activities like trade, government jobs, and industry, along with many social amenities. Rural settlements, by contrast, are smaller and mainly depend on farming.",
+"pidgin": "Urban settlement (towns and cities) dey get plenty people wey dey do non-farming work like trade, government job and industry, plus plenty social amenities. Rural settlement na small one wey mainly dey depend on farming.",
+"py": null,
+"values": null,
+"id": "geov1507",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

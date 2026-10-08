@@ -1,0 +1,94 @@
+{
+"subject": "chemistry",
+"topic": "Chemical bonding",
+"generated": 4,
+"kept": [
+{
+"q": "Which type of chemical bond is formed when two non-metal atoms share a pair of electrons, with each atom contributing one electron to the shared pair?",
+"options": [
+"Ionic bond",
+"Covalent bond",
+"Metallic bond",
+"Hydrogen bond"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A covalent bond forms when two non-metal atoms each contribute one electron to a shared pair, so the pair is mutually owned. Ionic bonds involve electron transfer, metallic bonds involve a sea of delocalised electrons, and hydrogen bonds are weak intermolecular attractions, not true chemical bonds between atoms within a molecule.",
+"pidgin": "Covalent bond na when two non-metal atoms share electron pair, each one give one electron. Ionic bond na when electron dey transfer, metallic bond na sea of free electrons, hydrogen bond na weak force between molecules, no be real bond inside one molecule.",
+"py": null,
+"values": null,
+"id": "chev0400",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "The electronegativity values of hydrogen and chlorine are 2.1 and 3.0 respectively. Given that a difference greater than 1.7 usually indicates an ionic bond while a smaller difference indicates a covalent bond, what type of bond exists in hydrogen chloride (HCl)?",
+"options": [
+"Ionic bond",
+"Non-polar covalent bond",
+"Polar covalent bond",
+"Metallic bond"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The electronegativity difference is 3.0 minus 2.1, which equals 0.9. Since 0.9 is less than 1.7, the bond is covalent, but because the difference is not zero, the electron pair is unequally shared, making it a polar covalent bond.",
+"pidgin": "The difference na 3.0 minus 2.1 wey give 0.9. Since 0.9 dey less pass 1.7, e no be ionic bond, na covalent. But because the difference no be zero, electron no dey share equally, so na polar covalent bond.",
+"py": null,
+"values": null,
+"id": "chev0401",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Xenon tetrafluoride (XeF4) has a central xenon atom bonded to four fluorine atoms. Xenon has 8 valence electrons. Using the formula: total electron pairs around the central atom = (valence electrons of central atom + number of bonded atoms) / 2, and subtracting the number of bonding pairs, how many lone pairs of electrons are on the central xenon atom?",
+"options": [
+"0",
+"1",
+"2",
+"3"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Total electron pairs around Xe = (8 + 4) / 2 = 6. Since 4 of these pairs are used in bonding to the 4 fluorine atoms, the remaining lone pairs = 6 - 4 = 2. These 2 lone pairs give XeF4 its square planar shape.",
+"pidgin": "Total electron pairs around Xe na (8 + 4) / 2 = 6. Since 4 out of the 6 dey used for bonding to the 4 fluorine atoms, the remaining lone pairs na 6 - 4 = 2. Na these 2 lone pairs make XeF4 take square planar shape.",
+"py": "(8+4)//2 - 4",
+"values": [
+0,
+1,
+2,
+3
+],
+"id": "chev0402",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "During the formation of the ammonium ion (NH4+), the nitrogen atom in ammonia uses its lone pair of electrons to bond with an incoming hydrogen ion (H+), which has no electron of its own to contribute. What type of bond is formed between the nitrogen atom and this particular hydrogen atom?",
+"options": [
+"Ionic bond",
+"Coordinate (dative) covalent bond",
+"Metallic bond",
+"Non-polar covalent bond"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A coordinate (dative) covalent bond forms when only one atom supplies both electrons of the shared pair. Here, nitrogen alone donates its lone pair to the empty orbital of H+, so this specific N-H bond is dative, even though it becomes identical to the other N-H bonds afterward.",
+"pidgin": "Coordinate (dative) covalent bond na when one atom alone give both electrons wey dem go share. Here, nitrogen alone donate im lone pair give the empty orbital of H+, so dis particular N-H bond na dative bond, even though e go later be like the other N-H bonds.",
+"py": null,
+"values": null,
+"id": "chev0403",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

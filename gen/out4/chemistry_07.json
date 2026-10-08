@@ -1,0 +1,162 @@
+{
+"subject": "chemistry",
+"topic": "Oxidation and reduction",
+"ti": 7,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following best defines oxidation in terms of electron transfer?",
+"options": [
+"gain of electrons",
+"loss of electrons",
+"gain of protons",
+"loss of protons"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Oxidation is the process in which an atom, ion or molecule loses electrons. This loss causes the oxidation number of the species to increase.",
+"pidgin": "Oxidation na when atom, ion or molecule lose electron. Wen electron comot, di oxidation number go increase.",
+"py": null,
+"values": null,
+"id": "wche0700",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Determine the oxidation number of manganese in potassium tetraoxomanganate(VII), KMnO4.",
+"options": [
+"+2",
+"+4",
+"+6",
+"+7"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Potassium is +1 and the four oxygens total -8 (4 x -2). For the neutral compound, +1 + Mn - 8 = 0, so Mn = +7.",
+"pidgin": "Potassium na +1, di four oxygen togeda na -8 (4 x -2). Since compound neutral, +1 + Mn - 8 = 0, so Mn = +7.",
+"py": "-(1 + 4*(-2))",
+"values": [
+2,
+4,
+6,
+7
+],
+"id": "wche0702",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In the reaction Zn(s) + CuSO4(aq) -> ZnSO4(aq) + Cu(s), which substance acts as the oxidizing agent?",
+"options": [
+"CuSO4",
+"Zn",
+"ZnSO4",
+"Cu"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Zinc loses electrons and is oxidized, while the Cu2+ ion in CuSO4 gains those electrons and is reduced. The species that is reduced (accepts electrons) is the oxidizing agent, so CuSO4 is the oxidizing agent.",
+"pidgin": "Zinc dey lose electron so im dey oxidize, while Cu2+ for CuSO4 dey collect di electron so im dey reduce. Di one wey dey collect electron na im be oxidizing agent, so na CuSO4.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wche0703",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the ionic equation MnO4^-(aq) + 5Fe2+(aq) + 8H+(aq) -> Mn2+(aq) + 5Fe3+(aq) + 4H2O(l), how does the oxidation number of manganese change?",
+"options": [
+"increases by 5",
+"decreases by 5",
+"increases by 2",
+"decreases by 2"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Manganese starts as +7 in MnO4^- and ends as +2 in Mn2+. The change is 2 - 7 = -5, meaning the oxidation number decreases by 5, showing manganese is reduced.",
+"pidgin": "Manganese start as +7 for MnO4^- and e end as +2 for Mn2+. Di change na 2 - 7 = -5, meaning di oxidation number reduce by 5, so manganese don undergo reduction.",
+"py": null,
+"values": null,
+"id": "wche0704",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following reactions is a redox (oxidation-reduction) reaction?",
+"options": [
+"NaOH(aq) + HCl(aq) -> NaCl(aq) + H2O(l)",
+"AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq)",
+"Zn(s) + 2HCl(aq) -> ZnCl2(aq) + H2(g)",
+"BaCl2(aq) + Na2SO4(aq) -> BaSO4(s) + 2NaCl(aq)"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In Zn + 2HCl, zinc changes from 0 to +2 (oxidized) while hydrogen changes from +1 to 0 (reduced), so electrons are transferred. The other three reactions are simple acid-base or double decomposition (precipitation) reactions with no change in oxidation numbers.",
+"pidgin": "For Zn + 2HCl, zinc change from 0 to +2 (oxidation) while hydrogen change from +1 to 0 (reduction), so electron transfer dey happen. Di oda three na just acid-base or double decomposition wey no get change for oxidation number.",
+"py": null,
+"values": null,
+"id": "wche0705",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "What is the oxidation number of sulphur in H2SO4 (Oladipo was asked this in his chemistry test)?",
+"options": [
+"+2",
+"+4",
+"+6",
+"-2"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Hydrogen is +1 (2 x +1 = +2) and oxygen is -2 (4 x -2 = -8). Since the compound is neutral, S + 2 - 8 = 0, so S = +6.",
+"pidgin": "Hydrogen na +1 (2 x +1 = +2), oxygen na -2 (4 x -2 = -8). Since di compound no get charge, S + 2 - 8 = 0, so S = +6.",
+"py": "2*1 + 4*(-2); x = -(2*1 + 4*(-2))",
+"values": [
+2,
+4,
+6,
+-2
+],
+"id": "wche0701",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+}
+]
+}

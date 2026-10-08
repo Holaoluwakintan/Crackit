@@ -1,0 +1,75 @@
+const { chromium } = require('/home/user/node_modules/playwright-core');
+const fs = require('fs');
+const OUT = process.argv[2], BASE = process.argv[3] || 'http://localhost:4173', BASE2 = process.argv[4] || 'http://localhost:4174';
+const sess = JSON.parse(fs.readFileSync('/tmp/cx_sess.json', 'utf8'));
+(async () => {
+  const dir = process.env.HOME + '/.cache/ms-playwright/chromium_headless_shell-1243';
+  const exe = fs.readdirSync(dir).map(d => dir + '/' + d + '/chrome-headless-shell').filter(p => fs.existsSync(p))[0];
+  const browser = await chromium.launch({ executablePath: exe, args: ['--no-sandbox', '--disable-dev-shm-usage'] });
+  const ctx = await browser.newContext({ viewport: { width: 360, height: 800 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true,
+    userAgent: 'Mozilla/5.0 (Linux; Android 15; Redmi A5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Mobile Safari/537.36' });
+  const page = await ctx.newPage();
+  const errs = [], log = [];
+  page.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
+  page.on('pageerror', e => errs.push('PAGEERROR ' + e.message));
+  page.on('dialog', d => d.accept(d.type() === 'prompt' ? 'Answer key looks wrong (test report)' : undefined));
+  const shot = async (n, full = false) => { await page.waitForTimeout(350); await page.screenshot({ path: `${OUT}/v3-${n}.png`, fullPage: full }); log.push('shot ' + n); };
+  const ow = async (n) => { if (await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth + 1)) errs.push('OVERFLOW on ' + n); };
+  const go = async (h) => { await page.evaluate(h => { location.hash = h; }, h); await page.waitForTimeout(500); };
+  const t0 = Date.now();
+  await page.goto(BASE + '/', { waitUntil: 'networkidle' });
+  log.push('home load ms ' + (Date.now() - t0));
+  await shot('01-home-guest'); await ow('home');
+  await shot('02-home-guest-full', true);
+  await go('#/account'); await page.waitForSelector('.gbtn'); await shot('03-account-guest'); await ow('account');
+  await go('#/practice'); await shot('04-subjects', true); await ow('practice');
+  await go('#/practice/crs'); await page.click('.seg.tiny button:has-text("Hard")'); await page.waitForTimeout(200); await shot('05-topics-crs-hard'); await ow('topics');
+  await page.click('a.btn.primary.big'); await page.waitForSelector('.opts .opt');
+  const qtext1 = await page.textContent('.qtext');
+  await page.click('.star'); await shot('06-practice-q');
+  for (let i = 0; i < 6; i++) {
+    await page.waitForSelector('.opts .opt:not([disabled])');
+    const opts = await page.$$('.opts .opt');
+    await opts[i % 4].click();
+    await page.waitForSelector('.verdict');
+    if (i === 0) { await shot('07-practice-answered'); await ow('practice-q'); await page.click('.qfoot .linkbtn'); await page.waitForTimeout(800); log.push('report: ' + (await page.textContent('.qfoot'))); }
+    await page.click('button.btn.primary.big.center');
+  }
+  await go('#/wrong'); await shot('08-wrong-list'); await ow('wrong');
+  const wrongN = await page.$$eval('.card.row', els => els.length);
+  log.push('wrong list rows ' + wrongN);
+  if (wrongN) { await page.click('.card.row'); await page.waitForSelector('.opts .opt'); await shot('09-retry-wrong'); }
+  await go('#/saved'); await shot('10-saved'); await ow('saved');
+  await go('#/mock'); await page.waitForSelector('.check');
+  for (const s of ['Mathematics', 'Physics', 'Chemistry']) await page.click(`label.check:has-text("${s}")`);
+  for (const s of ['Christian Religious Studies', 'Commerce', 'Principles of Accounts']) await page.click(`label.check:has-text("${s}")`);
+  await shot('11-mock-setup', true); await ow('mock');
+  await page.click('button:has-text("Start exam")'); await page.waitForSelector('.exam .qcard');
+  const tabs = await page.$$eval('.tabs button', b => b.map(x => x.textContent));
+  log.push('mock tabs ' + JSON.stringify(tabs));
+  const totalQ = await page.textContent('.gridhead span'); log.push('mock ' + totalQ);
+  await page.keyboard.press('b'); await page.keyboard.press('n'); await page.keyboard.press('c');
+  await shot('12-mock-exam'); await ow('exam');
+  await page.click('button.submit'); await page.click('.sheet button.primary'); await page.waitForSelector('.score .ring');
+  await shot('13-mock-result');
+  await go('#/progress'); await shot('14-progress', true);
+  await go('#/'); await shot('15-home-after-practice');
+  await page.evaluate(s => localStorage.setItem('crackit:auth:v1', JSON.stringify(s)), sess);
+  await page.reload({ waitUntil: 'networkidle' }); await page.waitForTimeout(2500);
+  await shot('16-home-signed-in');
+  await go('#/account'); await page.waitForTimeout(1500); await shot('17-account-signed-in'); await ow('account-in');
+  log.push('sync label: ' + (await page.textContent('.sync')));
+  const local = await page.evaluate(() => JSON.parse(localStorage.getItem('crackit:progress:v1')));
+  fs.writeFileSync('/tmp/cx_local.json', JSON.stringify({ practiced: local.practiced, history: local.history.length, bm: local.bm, wrongN: Object.values(local.wrong).filter(x => x > 0).length, days: local.days }));
+  await page.evaluate(() => localStorage.removeItem('crackit:auth:v1'));
+  await page.goto(BASE + '/?fresh=1#/account', { waitUntil: 'networkidle' }); await page.waitForSelector('.gbtn');
+  await Promise.all([page.waitForNavigation({ timeout: 20000 }).catch(() => null), page.click('.gbtn')]);
+  await page.waitForTimeout(3000);
+  log.push('google click -> ' + page.url().slice(0, 90));
+  await shot('18-google-redirect-today');
+  const p2 = await ctx.newPage(); await p2.goto(BASE2 + '/#/account', { waitUntil: 'networkidle' }); await p2.waitForTimeout(1200);
+  await p2.screenshot({ path: `${OUT}/v3-19-account-before-google-fix.png` }); log.push('shot 19');
+  await page.goto(BASE + '/privacy/', { waitUntil: 'networkidle' }); await shot('20-privacy');
+  console.log(JSON.stringify({ log, errs, qtext1: qtext1.slice(0, 80) }, null, 1));
+  await browser.close();
+})().catch(e => { console.error('WALK FAIL', e); process.exit(1); });

@@ -1,0 +1,174 @@
+{
+"subject": "geography",
+"topic": "Climate types and their classification",
+"generated": 8,
+"kept": [
+{
+"q": "Which scientist developed the most widely used system of classifying world climates, based mainly on temperature and precipitation patterns?",
+"options": [
+"Wladimir Koppen",
+"C. W. Thornthwaite",
+"Arthur Strahler",
+"Alfred Wegener"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Wladimir Koppen, a German climatologist, developed the most widely used climate classification system. He grouped climates using temperature and rainfall data together with vegetation patterns.",
+"pidgin": "Wladimir Koppen na the German climatologist wey develop di classification wey pipo dey use pass. E use temperature and rainfall data plus vegetation to group di climates.",
+"py": null,
+"values": null,
+"id": "geov1100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following is a typical feature of the equatorial climate type, found in areas like the Niger Delta region of Nigeria?",
+"options": [
+"A single short rainy season followed by a long dry season",
+"Two rainfall maxima in a year with no distinct dry season",
+"Annual rainfall below 250mm with a very dry atmosphere",
+"A large diurnal temperature range of more than 20°C"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The equatorial climate has two rainfall peaks (around the equinoxes) because the sun is overhead twice a year, giving heavy rainfall almost all year with no long dry season. This differs from savanna and desert climates.",
+"pidgin": "Equatorial climate get two rain peak for di year because sun dey overhead twice, so rain dey fall almost di whole year without long dry season. Na dis one different am from savanna and desert climate.",
+"py": null,
+"values": null,
+"id": "geov1101",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "The tropical continental climate (Sudan type) found in northern Nigeria, around towns like Kano and Sokoto, is best described by which of the following?",
+"options": [
+"Rainfall occurs throughout the year with no dry season",
+"Rainfall exceeds 2000mm annually with high humidity all year",
+"A single wet season occurs during the high-sun period, followed by a long dry season",
+"Temperature remains constant throughout the year with little seasonal change"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Sudan (tropical continental) climate has one rainy season linked to the overhead sun and the moist monsoon wind, followed by a long dry season dominated by the dry Harmattan wind from the Sahara. This gives it a clear wet and dry seasonal pattern, unlike the equatorial type.",
+"pidgin": "Sudan (tropical continental) climate get one rainy season wey dey follow when sun dey overhead and moist wind dey blow, then long dry season follow am wen Harmattan dey blow from Sahara. So di climate get clear wet and dry season, unlike equatorial type.",
+"py": null,
+"values": null,
+"id": "geov1102",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of the following best describes the Mediterranean climate type?",
+"options": [
+"Hot wet summers and cool dry winters",
+"Cold wet summers and hot dry winters",
+"Uniform rainfall throughout the year with moderate temperature",
+"Warm dry summers and mild wet winters"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The Mediterranean climate is marked by warm, dry summers (because subtropical high pressure dominates) and mild, wet winters (because westerly winds and depressions bring rain). This seasonal reversal of rainfall is its key identifying feature.",
+"pidgin": "Mediterranean climate get warm dry summer (because subtropical high pressure dey control am) and mild wet winter (because westerly wind and depression dey bring rain). Na dis change of rain pattern be im main identity.",
+"py": null,
+"values": null,
+"id": "geov1103",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A meteorological station in northern Nigeria recorded a mean monthly temperature of 18°C in its coolest month (January) and 32°C in its hottest month (May, before the rains). Calculate the annual temperature range of this station.",
+"options": [
+"14°C",
+"4°C",
+"50°C",
+"18°C"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Annual temperature range = highest mean monthly temperature minus lowest mean monthly temperature = 32°C - 18°C = 14°C. A range this size is common in tropical continental (Sudan) climates away from the coast, unlike the small range seen in equatorial coastal areas.",
+"pidgin": "Annual temperature range = di highest mean monthly temperature minus di lowest one = 32°C - 18°C = 14°C. Dis kain big range dey common for tropical continental (Sudan) climate wey far from coast, unlike small range wey dey equatorial coastal area.",
+"py": "32-18",
+"values": [
+14,
+4,
+50,
+18
+],
+"id": "geov1104",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following best distinguishes the tropical monsoon climate from the equatorial climate?",
+"options": [
+"Monsoon climate occurs only at the poles while equatorial climate occurs at the equator",
+"Monsoon climate has a short dry season caused by seasonal reversal of wind direction, while equatorial climate has rainfall spread fairly evenly all year",
+"Monsoon climate has lower total annual rainfall than equatorial climate",
+"Equatorial climate has four distinct seasons while monsoon climate has only one season"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Monsoon climates (like in parts of Asia) experience a reversal of wind direction between seasons, giving a short but clear dry season alongside very heavy monsoon rains. Equatorial climates lack this wind reversal, so rainfall is heavy and fairly even throughout the year without a marked dry spell.",
+"pidgin": "Monsoon climate (like for some parts of Asia) get wind wey dey change direction between seasons, so e get short but clear dry season plus heavy monsoon rain. Equatorial climate no get dis wind change, so rain dey heavy and even throughout di year without clear dry period.",
+"py": null,
+"values": null,
+"id": "geov1105",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Hot desert climates, such as that of the Sahara, typically have a very large diurnal (daily) temperature range compared to equatorial climates. Which of the following best explains this?",
+"options": [
+"Desert areas have thick cloud cover that traps heat at night",
+"Deserts are located at high altitudes where temperature is always low",
+"Clear skies and lack of vegetation in deserts allow rapid heat loss at night and rapid heating by day",
+"Deserts receive more rainfall than equatorial regions, increasing humidity and temperature range"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Deserts have clear skies and very little cloud or vegetation, so there is nothing to trap heat at night, causing temperatures to fall sharply, while intense direct sunlight during the day heats the bare ground quickly. This gives a large daily (diurnal) temperature range, unlike cloudy, humid equatorial areas where heat is retained at night.",
+"pidgin": "Desert get clear sky and almost no cloud or plant, so nothing dey trap heat for night, e dey make temperature drop sharply, while strong sun for daytime dey heat di bare ground quick quick. Na so e dey give big daily (diurnal) range, unlike cloudy humid equatorial area wey heat dey stay for night.",
+"py": null,
+"values": null,
+"id": "geov1106",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In the Koppen system of climate classification, climate types are mainly grouped based on which two factors?",
+"options": [
+"Longitude and altitude",
+"Population density and vegetation type",
+"Ocean currents and wind direction alone",
+"Temperature and precipitation patterns"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Koppen's system classifies world climates mainly by comparing mean monthly and annual temperature with the amount and seasonal distribution of precipitation. These two factors determine the major climate groups such as equatorial, arid, warm temperate, and polar.",
+"pidgin": "Koppen system dey classify world climate mainly by comparing mean monthly and annual temperature with how much rain dey fall and wen e dey fall. Na dis two factors dey determine di main climate groups like equatorial, arid, warm temperate, and polar.",
+"py": null,
+"values": null,
+"id": "geov1107",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

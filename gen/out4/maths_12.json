@@ -1,0 +1,177 @@
+{
+"subject": "maths",
+"topic": "Sequences and series (AP and GP)",
+"ti": 12,
+"generated": 6,
+"kept": [
+{
+"q": "Find the 10th term of the Arithmetic Progression (AP): 3, 7, 11, 15, ...",
+"options": [
+"39",
+"43",
+"35",
+"41"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The nth term of an AP is Tn = a + (n-1)d. Here a = 3, d = 4, n = 10, so T10 = 3 + 9(4) = 3 + 36 = 39.",
+"pidgin": "For AP, dem dey add d small-small; here d = 4 and first term a = 3. So 10th term na 3 + 9 times 4 wey give 39.",
+"py": "3 + (10-1)*4",
+"values": [
+39,
+43,
+35,
+41
+],
+"id": "wmth1200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "What is the common ratio of the Geometric Progression (GP): 5, 15, 45, 135, ...?",
+"options": [
+"5",
+"3",
+"9",
+"15"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The common ratio r is found by dividing any term by the term before it. r = 15/5 = 3, and this works for all other pairs too (45/15 = 3).",
+"pidgin": "To find common ratio, you dey divide term by the one before am. 15 divide by 5 na 3, and e match for the other terms too.",
+"py": "15/5",
+"values": [
+5,
+3,
+9,
+15
+],
+"id": "wmth1201",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Find the sum of the first 15 terms of the AP: 2, 5, 8, 11, ...",
+"options": [
+"330",
+"360",
+"345",
+"315"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Sum of AP: Sn = (n/2)[2a + (n-1)d]. Here a = 2, d = 3, n = 15, so S15 = (15/2)[4 + 14(3)] = (15/2)(46) = 345.",
+"pidgin": "We use Sn = (n/2)[2a + (n-1)d]. Put a = 2, d = 3, n = 15: Sn = (15/2)(4 + 42) = (15/2)(46) = 345.",
+"py": "(15/2)*(2*2+(15-1)*3)",
+"values": [
+330,
+360,
+345,
+315
+],
+"id": "wmth1202",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Find the 6th term of the GP: 2, 6, 18, 54, ...",
+"options": [
+"162",
+"324",
+"1458",
+"486"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The nth term of a GP is Tn = a * r^(n-1). Here a = 2, r = 3, n = 6, so T6 = 2 * 3^5 = 2 * 243 = 486.",
+"pidgin": "For GP, Tn = a times r raised to (n-1). a = 2, r = 3, n = 6: T6 = 2 times 3 power 5 = 2 times 243 = 486.",
+"py": "2*3**5",
+"values": [
+162,
+324,
+1458,
+486
+],
+"id": "wmth1203",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In an AP, the 3rd term is 18 and the 7th term is 38. Find the first term of the sequence.",
+"options": [
+"10",
+"8",
+"12",
+"6"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Using Tn = a + (n-1)d: T3 = a + 2d = 18 and T7 = a + 6d = 38. Subtracting gives 4d = 20, so d = 5. Then a = 18 - 2(5) = 8.",
+"pidgin": "We get two equations: a + 2d = 18 and a + 6d = 38. If you subtract, 4d = 20, so d = 5. Then a = 18 - 10 = 8.",
+"py": "18 - 2*((38-18)/4)",
+"values": [
+10,
+8,
+12,
+6
+],
+"id": "wmth1204",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A GP has first term 16 and common ratio 1/4. Find the sum to infinity of the GP.",
+"options": [
+"16/3",
+"20",
+"32/3",
+"64/3"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "For a GP with |r| < 1, sum to infinity S = a/(1-r). Here a = 16, r = 1/4, so S = 16 / (3/4) = 16 * 4/3 = 64/3.",
+"pidgin": "Since r (1/4) small pass 1, we fit find sum to infinity: S = a/(1-r) = 16 divide by 3/4, wey be 16 times 4/3 = 64/3.",
+"py": "16/(1-1/4)",
+"values": [
+5.333333333333333,
+20,
+10.666666666666666,
+21.333333333333332
+],
+"id": "wmth1205",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

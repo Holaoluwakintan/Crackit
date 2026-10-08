@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Respiration",
+"ti": 7,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following best defines respiration in living organisms?",
+"options": [
+"The intake of food substances into the body for use",
+"The breakdown of food substances to release energy for life processes",
+"The removal of metabolic waste products from the body",
+"The building up of complex molecules from simple ones"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Respiration is the process by which cells break down food (like glucose) to release energy needed for life activities such as growth and movement. It is not the same as feeding, excretion or building up of molecules.",
+"pidgin": "Respiration na how cell dey break down food to release energy wey body need to work and move. E no be the same thing as eating, waste removal or building up molecule.",
+"id": "wbio0700",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In which cell organelle does aerobic respiration mainly take place?",
+"options": [
+"Mitochondrion",
+"Nucleus",
+"Ribosome",
+"Golgi apparatus"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The mitochondrion is often called the 'powerhouse of the cell' because it is where most aerobic respiration occurs and ATP (energy) is produced. The nucleus controls cell activities, ribosomes make proteins, and the Golgi apparatus packages substances.",
+"pidgin": "Mitochondrion na the 'power house' of cell, na there most aerobic respiration dey happen make energy (ATP) come out. Nucleus dey control cell, ribosome dey make protein, Golgi apparatus dey package things.",
+"id": "wbio0701",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following word equations correctly represents aerobic respiration?",
+"options": [
+"Carbon dioxide + Water -> Glucose + Oxygen (energy absorbed)",
+"Glucose -> Ethanol + Carbon dioxide (energy released)",
+"Glucose + Oxygen -> Carbon dioxide + Water (energy released)",
+"Glucose -> Lactic acid (energy released)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Aerobic respiration uses oxygen to fully break down glucose into carbon dioxide and water, releasing a large amount of energy. The first option describes photosynthesis, while the other two describe anaerobic respiration in yeast and in muscles respectively.",
+"pidgin": "Aerobic respiration dey use oxygen to break glucose finish into carbon dioxide and water, e dey release plenty energy. First option na photosynthesis, the other two na anaerobic respiration for yeast and for muscle.",
+"id": "wbio0702",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During the local brewing of burukutu (a traditional Nigerian alcoholic drink) from guinea corn, yeast cells respire anaerobically on the sugars present. Which pair of substances is produced as the main end-products of this process?",
+"options": [
+"Lactic acid and water",
+"Carbon dioxide and water",
+"Oxygen and glucose",
+"Ethanol (alcohol) and carbon dioxide"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "When yeast respires without oxygen (anaerobic respiration), it breaks down sugar into ethanol (alcohol) and carbon dioxide, a process called fermentation. This is the basis for brewing drinks like burukutu and palm wine.",
+"pidgin": "When yeast dey respire without oxygen (anaerobic respiration), e dey break sugar turn ethanol (alcohol) and carbon dioxide, dem dey call am fermentation. Na this process dem dey use brew burukutu and palm wine.",
+"id": "wbio0703",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In an experiment, a locust was placed in a respirometer. During one hour, it consumed 60 cm^3 of oxygen and produced 48 cm^3 of carbon dioxide. Calculate the respiratory quotient (RQ) of the locust.",
+"options": [
+"1.25",
+"0.8",
+"1.8",
+"0.48"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Respiratory Quotient (RQ) = volume of CO2 produced / volume of O2 consumed = 48/60 = 0.8. This value is typical for respiration involving a mixture of carbohydrates and fats.",
+"pidgin": "Respiratory Quotient (RQ) = volume of CO2 wey come out divide by volume of O2 wey enter = 48/60 = 0.8. This number dey normal when body dey use carbohydrate and fat mix for respiration.",
+"id": "wbio0704",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidi sprinted 100 metres during an inter-house sports competition in his school. After the race, he continued to breathe heavily and rapidly for some minutes even though he had stopped running. Which of the following best explains this observation?",
+"options": [
+"His lungs were filled with excess carbon dioxide from photosynthesis",
+"His muscles switched completely to aerobic respiration during the sprint",
+"His muscles had respired anaerobically, producing lactic acid that created an oxygen debt which must be repaid",
+"His body temperature dropped suddenly, increasing his breathing rate"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "During intense exercise, oxygen supply to muscles cannot keep up with demand, so muscles respire anaerobically and build up lactic acid, creating an 'oxygen debt'. After the race, fast heavy breathing supplies extra oxygen to break down the lactic acid and repay this debt.",
+"pidgin": "When person dey run fast-fast, the oxygen wey enter body no dey reach muscle sharp-sharp, so muscle go respire anaerobically make lactic acid build up, dem dey call am 'oxygen debt'. After race, the fast breathing na to bring extra oxygen come clear the lactic acid and pay back the debt.",
+"id": "wbio0705",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

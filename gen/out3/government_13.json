@@ -1,0 +1,80 @@
+{
+"subject": "government",
+"topic": "Post-independence constitutions (1963, 1979, 1999) and federalism in Nigeria",
+"generated": 4,
+"kept": [
+{
+"q": "Under the 1963 Republican Constitution, who became Nigeria's Head of State, replacing the British monarch who had been represented by a Governor-General?",
+"options": [
+"Prime Minister",
+"President",
+"Premier",
+"Governor"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The 1963 Constitution made Nigeria a republic, so the Queen was replaced by a Nigerian President as Head of State. The Prime Minister remained Head of Government, while Premiers headed the regions.",
+"pidgin": "1963 Constitution turn Nigeria to republic, so Nigerian President take over as Head of State instead of di Queen. Prime Minister still dey as Head of Government, Premiers dey lead di regions.",
+"id": "govv1300",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following matters falls under the Concurrent Legislative List in the 1999 Constitution, meaning both the National Assembly and a State House of Assembly can validly make laws on it?",
+"options": [
+"Currency and coinage",
+"External affairs",
+"Electricity generation and distribution",
+"Immigration"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Electricity generation and distribution is on the Concurrent List, so both federal and state legislatures can make laws on it, though federal law prevails if there is a conflict. Currency, external affairs and immigration are strictly on the Exclusive List for the federal government alone.",
+"pidgin": "Electricity generation and distribution dey for Concurrent List, so both National Assembly and State Assembly fit make law on top am, but federal law go win if clash happen. Currency, external affairs and immigration na only federal government fit touch dem, dem dey Exclusive List.",
+"id": "govv1301",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "The federal character principle, first entrenched in the 1979 Constitution and retained in the 1999 Constitution, was mainly introduced to achieve which of the following?",
+"options": [
+"Fair representation of Nigeria's various ethnic and state groups in government appointments",
+"Equal distribution of mineral resources among the states",
+"Automatic creation of more states to balance population figures",
+"Direct election of traditional rulers into the Senate"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The federal character principle requires that appointments to federal institutions reflect the diversity of Nigeria's states and ethnic groups, preventing domination by any single group. It is about representation in government, not resource sharing, state creation, or electing traditional rulers.",
+"pidgin": "Federal character principle mean say wen dem dey appoint people for federal jobs, dem must carry all states and ethnic groups follow, so one group no go dominate. E no concern resource sharing, state creation, or election of traditional rulers.",
+"id": "govv1302",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "At independence in 1960, Nigeria was a federation of three regions - Northern, Eastern and Western. Which additional region was created shortly before the 1963 Republican Constitution took effect, bringing the total number of regions to four?",
+"options": [
+"North-Central Region",
+"Niger Delta Region",
+"Benue Region",
+"Mid-Western Region"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The Mid-Western Region was carved out of the former Western Region in 1963, making Nigeria a four-region federation just before the Republican Constitution came into force. The other options are not regions that existed at that time.",
+"pidgin": "Dem carve Mid-Western Region comot from di old Western Region for 1963, so Nigeria become four-region federation before di Republican Constitution start. Di oda options no be regions wey dey exist dat time.",
+"id": "govv1303",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

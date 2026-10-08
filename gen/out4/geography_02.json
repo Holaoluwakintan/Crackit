@@ -1,0 +1,167 @@
+{
+"subject": "geography",
+"topic": "Rocks and minerals",
+"ti": 2,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following rocks is formed when molten magma or lava cools and solidifies, either beneath or on the earth's surface?",
+"options": [
+"Igneous rock",
+"Sedimentary rock",
+"Metamorphic rock",
+"Clastic rock"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Igneous rocks are formed directly from the cooling and solidification of magma (below the surface) or lava (on the surface). Examples include granite and basalt. Sedimentary and metamorphic rocks are formed by different processes.",
+"pidgin": "Igneous rock na di one wey come from magma or lava wey cool down turn solid. Granite and basalt na correct example. Sedimentary and metamorphic rocks get different formation process entirely.",
+"py": null,
+"values": null,
+"id": "wgeo0200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these rocks is a common example of a sedimentary rock formed mainly from the compacted remains of marine organisms and calcium-rich deposits?",
+"options": [
+"Granite",
+"Limestone",
+"Marble",
+"Gneiss"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Limestone is a sedimentary rock formed mainly from compacted shells, coral and calcium carbonate deposits in water. Granite is igneous, while marble and gneiss are metamorphic rocks.",
+"pidgin": "Limestone na sedimentary rock wey dey form from shell, coral and calcium carbonate wey dey pack together for water. Granite na igneous rock, while marble and gneiss na metamorphic rocks.",
+"py": null,
+"values": null,
+"id": "wgeo0201",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Marble, which is widely used for flooring and sculpture, is produced when limestone undergoes which process?",
+"options": [
+"Rapid cooling of molten rock at the surface",
+"Compaction of sand and shell particles only",
+"Metamorphism involving intense heat and pressure",
+"Crystallization of magma deep underground"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Marble is a metamorphic rock formed when limestone is subjected to great heat and pressure deep within the earth's crust, causing recrystallization of the calcite minerals. This is different from simple compaction or magma cooling.",
+"pidgin": "Marble na metamorphic rock wey dey form when limestone meet plenty heat and pressure for inside earth, make di calcite minerals recrystallize. E no be simple compaction or magma wey cool down.",
+"py": null,
+"values": null,
+"id": "wgeo0203",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The rock cycle shows how rocks change from one type to another over geological time. Which sequence correctly shows an igneous rock being weathered into sediments, then compacted into a new rock type, and finally altered by heat and pressure into another rock type?",
+"options": [
+"Sedimentary rock changes to igneous rock, then to metamorphic rock",
+"Metamorphic rock changes to sedimentary rock, then to igneous rock",
+"Igneous rock changes to metamorphic rock, then to sedimentary rock",
+"Igneous rock changes to sedimentary rock, then to metamorphic rock"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "In the rock cycle, igneous rock can weather and erode into sediments, which are compacted into sedimentary rock; this sedimentary rock can later be subjected to heat and pressure to form metamorphic rock. This is the correct natural order described in the question.",
+"pidgin": "For rock cycle, igneous rock fit weather turn sediment, dat sediment go press together become sedimentary rock; later heat and pressure fit change am to metamorphic rock. Na dis order di question dey yan about.",
+"py": null,
+"values": null,
+"id": "wgeo0204",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which mineral has historically been the major reason for large-scale mining activities on the Jos Plateau in Nigeria?",
+"options": [
+"Coal",
+"Gold",
+"Tin (cassiterite)",
+"Limestone"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Jos Plateau in Nigeria is well known historically for large deposits of tin ore (cassiterite), which attracted major mining activities from the colonial era onwards. Coal is mainly associated with Enugu, not Jos.",
+"pidgin": "Jos Plateau for Nigeria popular well-well for tin ore (cassiterite) wey dem dey mine since colonial time. Coal na Enugu area dem dey find am pass, no be Jos.",
+"py": null,
+"values": null,
+"id": "wgeo0205",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student examined a rock sample and noted these features: it is very hard, has tightly interlocking crystals, shows no visible layering, and it fizzes (releases gas bubbles) when a few drops of dilute acid are placed on it. Which rock is this sample most likely to be?",
+"options": [
+"Granite",
+"Marble",
+"Shale",
+"Sandstone"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Marble is made of calcite, which reacts with dilute acid to release carbon dioxide gas (fizzing). Its interlocking crystal texture with no layering comes from metamorphism of limestone, unlike granite (igneous, no fizz) or shale/sandstone (sedimentary, usually layered).",
+"pidgin": "Marble get calcite wey dey react with acid make e fizz (release gas). Di interlocking crystal and no layering show say na metamorphism happen to limestone turn marble, unlike granite wey no dey fizz or shale/sandstone wey get layers.",
+"py": null,
+"values": null,
+"id": "wgeo0206",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A geography student found a rock sample that contained visible layers of sand, shell fragments and plant remains. This rock most likely contains fossils because it formed through which process?",
+"options": [
+"Limestone formed by deposition and compaction of sediments",
+"Granite formed by rapid crystallization",
+"Basalt formed by sudden cooling of lava",
+"Quartzite formed by recrystallization under heat"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Sedimentary rocks like limestone form in layers as sediments, shells and organic remains settle and get compacted over time, which traps and preserves fossils. Igneous and metamorphic rocks involve heat/pressure that destroys such remains.",
+"pidgin": "Sedimentary rock like limestone dey form for layers as sediment, shell and organic things dey settle and press together, so fossil fit dey inside. Igneous and metamorphic rock get heat wey go spoil the fossil remains.",
+"py": null,
+"values": null,
+"id": "wgeo0202",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Sedimentary layers do not specifically identify limestone.|Options awkwardly pair rock names with processes, but A is clearly best"
+}
+]
+}

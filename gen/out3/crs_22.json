@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "Themes from the Epistles: justification by faith, law and grace, love, spiritual gifts",
+"generated": 8,
+"kept": [
+{
+"q": "According to Romans 5:1, what do believers obtain with God as a result of being justified by faith?",
+"options": [
+"Peace with God",
+"Wealth and honour",
+"Long life on earth",
+"Authority over nations"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Romans 5:1 says, 'Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ.' Justification by faith restores a right relationship with God, bringing peace, not material gain.",
+"pidgin": "Romans 5:1 talk say, 'Now wey dem don justify us through faith, we get peace with God through Jesus Christ.' E no talk about money or power, na peace with God dem get.",
+"id": "crsv2200",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In 1 Corinthians 13:13, Paul lists faith, hope and love as things that remain, but which one does he say is the greatest?",
+"options": [
+"Faith",
+"Love",
+"Hope",
+"Wisdom"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "1 Corinthians 13:13 clearly states that faith, hope and love remain, 'but the greatest of these is love.' This shows love as the supreme Christian virtue above faith and hope.",
+"pidgin": "1 Corinthians 13:13 talk say faith, hope and love dey remain, but love pass dem all. So love na the greatest among the three.",
+"id": "crsv2201",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "According to 1 Corinthians 12:7, for what purpose did the Holy Spirit give different spiritual gifts to believers?",
+"options": [
+"For personal pride",
+"For material wealth",
+"For the common good of all believers",
+"For political influence"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "1 Corinthians 12:7 says, 'the manifestation of the Spirit is given to each one for the profit of all.' Spiritual gifts are meant to benefit the whole church body, not individual gain.",
+"pidgin": "1 Corinthians 12:7 talk say the Spirit dey show himself for everybody good, not for one person alone. So spiritual gifts na for help everybody for church, no be for pride or money.",
+"id": "crsv2202",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "According to Galatians 3:24, what role did the law play before the coming of Christ?",
+"options": [
+"It saved all who obeyed it perfectly",
+"It replaced the need for grace",
+"It condemned believers forever",
+"It served as a tutor to lead people to Christ"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Galatians 3:24 says, 'the law was our schoolmaster to bring us unto Christ, that we might be justified by faith.' The law prepared people to recognise their need for a Saviour.",
+"pidgin": "Galatians 3:24 talk say the law be like teacher wey dey guide people go meet Christ, so dat faith go justify dem. The law no be final solution, na preparation for Christ.",
+"id": "crsv2203",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "According to Romans 3:23, what have all human beings done, making them fall short of the glory of God?",
+"options": [
+"Sinned",
+"Worshipped idols only",
+"Rejected the law of Moses",
+"Refused to build temples"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Romans 3:23 states, 'For all have sinned, and come short of the glory of God.' This verse establishes the universal need for justification through Christ, since no one is sinless.",
+"pidgin": "Romans 3:23 talk say everybody don sin, and dem no reach the glory of God. Na why everybody need Christ make dem fit stand well before God.",
+"id": "crsv2204",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In Galatians 2:16, Paul argues that a person is justified before God not by works of the law but through what?",
+"options": [
+"Good deeds alone",
+"Faith in Jesus Christ",
+"Observing Jewish festivals",
+"Offering animal sacrifices"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Galatians 2:16 says a person 'is not justified by the works of the law, but by faith in Jesus Christ.' Paul emphasises that trust in Christ, not legal observance, brings right standing with God; this is central to the law-versus-grace debate in the Epistles.",
+"pidgin": "Galatians 2:16 talk say person no dey justify through law work, na through faith for Jesus Christ. Paul dey show say na trust for Christ dey bring better relationship with God, no be say you follow law well-well.",
+"id": "crsv2205",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In Romans 12:6-8, Paul lists gifts that differ according to the grace given to each believer. According to this passage, how should a person with the gift of giving exercise it?",
+"options": [
+"With teaching and knowledge",
+"With bold leadership only",
+"With liberality and simplicity",
+"With cheerful mercy to strangers"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Romans 12:8 instructs that the one who gives should do so 'with liberality' (simplicity, generosity). Paul matches each gift with a fitting manner of exercising it, showing that gifts must be used appropriately and sincerely, not for show.",
+"pidgin": "Romans 12:8 talk say the one wey get gift of giving make e dey give with open heart, no be small-small or grudging. Paul show say each gift get the correct way wey person go use am well.",
+"id": "crsv2206",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "According to John 1:17, through whom did grace and truth come, in contrast to the law which came through Moses?",
+"options": [
+"Moses",
+"Elijah",
+"Abraham",
+"Jesus Christ"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "John 1:17 says, 'For the law was given by Moses, but grace and truth came by Jesus Christ.' This verse highlights the New Testament contrast between the law under Moses and grace brought by Christ.",
+"pidgin": "John 1:17 talk say na through Moses the law come, but grace and truth come through Jesus Christ. Dis verse show the difference between law wey Moses bring and grace wey Christ bring.",
+"id": "crsv2207",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Variation and heredity: Mendelian genetics, crosses and ratios",
+"generated": 4,
+"kept": [
+{
+"q": "In guinea pigs, black coat colour (B) is dominant over white coat colour (b). A heterozygous black guinea pig (Bb) is mated with a white guinea pig (bb). What phenotypic ratio is expected among the offspring?",
+"options": [
+"3 black : 1 white",
+"1 black : 1 white",
+"9 black : 3 white",
+"1 black : 2 mixed : 1 white"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "This is a test cross: Bb x bb gives gametes B and b from one parent, and only b from the other. The offspring genotypes are Bb and bb in equal numbers, so the phenotype ratio is 1 black : 1 white.",
+"pidgin": "Na test cross be dis: Bb x bb. Di gametes na B and b from one side, b only from di oda side. Di offspring go be Bb and bb for equal number, so e go be 1 black to 1 white.",
+"id": "biov1700",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A pea plant heterozygous for seed shape and seed colour (RrYy, round and yellow) is crossed with another plant that is also RrYy. Out of 320 seeds produced, how many are expected to be round with green seed colour (recessive colour trait)?",
+"options": [
+"20 seeds",
+"60 seeds",
+"180 seeds",
+"240 seeds"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "RrYy x RrYy is a dihybrid cross giving a 9:3:3:1 ratio (round yellow : round green : wrinkled yellow : wrinkled green). Round green takes the 3/16 share, so 3/16 x 320 = 60 seeds.",
+"pidgin": "RrYy x RrYy na dihybrid cross wey go give 9:3:3:1 ratio. Round green na di 3/16 portion, so 3/16 x 320 = 60 seeds.",
+"id": "biov1701",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In a certain breed of fowl, two genes on different chromosomes control feather traits: C (coloured feathers) is dominant over c (white feathers), and B (barred pattern) is dominant over b (non-barred). A fowl with genotype CcBb is mated with a fowl with genotype ccbb. What fraction of the offspring is expected to show white, non-barred feathers (ccbb)?",
+"options": [
+"1/16",
+"1/4",
+"3/8",
+"9/16"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "CcBb x ccbb is a dihybrid test cross, which always produces four phenotypic classes in equal proportion (1:1:1:1). Therefore ccbb offspring make up 1/4 of the total.",
+"pidgin": "CcBb x ccbb na dihybrid test cross, and e go always give four phenotype types for equal share (1:1:1:1). So ccbb go be 1/4 of all di offspring.",
+"id": "biov1702",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which statement correctly describes Mendel's Law of Independent Assortment?",
+"options": [
+"Alleles of the same gene separate from each other during gamete formation",
+"Alleles of genes located on different chromosomes assort independently into gametes",
+"One allele always masks the expression of the other allele in a heterozygote",
+"Genes located close together on the same chromosome are inherited together"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Law of Independent Assortment states that genes for different traits, found on different chromosome pairs, are distributed to gametes independently of one another. Option A describes segregation, option C describes dominance, and option D describes linkage, not independent assortment.",
+"pidgin": "Di Law of Independent Assortment talk say genes wey dey different chromosome dey enter gametes independently, no connection. Option A na segregation, option C na dominance, option D na linkage - dem no be independent assortment.",
+"id": "biov1703",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

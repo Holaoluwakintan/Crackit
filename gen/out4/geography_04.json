@@ -1,0 +1,172 @@
+{
+"subject": "geography",
+"topic": "Rivers, coasts, deserts and other landforms",
+"ti": 4,
+"generated": 7,
+"kept": [
+{
+"q": "In the study of rivers, the point where a river begins its journey, usually in highlands or hills, is called the river's:",
+"options": [
+"Mouth",
+"Source",
+"Watershed",
+"Confluence"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The source is where a river starts, often from a spring, melting snow or hill slope. The mouth is where it ends, while a watershed is the boundary separating river basins.",
+"pidgin": "Di source na where river dey start from, like for hill or spring. Mouth na where e dey enter sea, so dem no be di same thing.",
+"py": null,
+"values": null,
+"id": "wgeo0400",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A long, low ridge of sand and shingle built by waves and currents across the entrance of a bay, often trapping water behind it to form a lagoon, is known as a:",
+"options": [
+"Spit",
+"Cliff",
+"Bar",
+"Headland"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A bar is a depositional ridge that stretches completely across a bay, cutting it off from the open sea and often creating a lagoon behind it. A spit is similar but only partly closes the bay, leaving one end open.",
+"pidgin": "Bar na sand ridge wey block di whole mouth of bay, e fit make lagoon form behind am. Spit no close am well well, na only part e dey block.",
+"py": null,
+"values": null,
+"id": "wgeo0401",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A river valley that is deep, narrow and V-shaped, with steep sides, rapids and waterfalls but no floodplain, best represents which stage of river development?",
+"options": [
+"Youthful stage",
+"Mature stage",
+"Old stage",
+"Senile stage"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In the youthful stage, the river has strong vertical erosion power, cutting deep V-shaped valleys with rapids and waterfalls. Floodplains and meanders only develop later, in the mature and old stages.",
+"pidgin": "For youthful stage, river dey cut down strong strong, e dey make deep V-shape valley wit waterfall and rapids. Floodplain and meander go come later for mature and old stage.",
+"py": null,
+"values": null,
+"id": "wgeo0402",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A crescent-shaped sand dune found in hot deserts, with its horns pointing in the direction the wind is blowing towards, and formed where sand supply is limited, is called a:",
+"options": [
+"Seif dune",
+"Yardang",
+"Wadi",
+"Barchan"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A barchan is a crescent-shaped dune with horns pointing downwind, formed by wind action where sand is scarce and the surface is fairly flat. A seif dune is long and ridge-like, a yardang is a wind-eroded rock ridge, and a wadi is a dry desert valley.",
+"pidgin": "Barchan na crescent shape sand dune wey im horns dey point to where wind dey blow go. E dey form where sand no too plenty. Seif dune be long ridge, yardang na rock wey wind carve, wadi na dry valley.",
+"py": null,
+"values": null,
+"id": "wgeo0403",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "At the mouth of a river, sediments carried downstream are deposited in the sea or lake, building up a low, flat, fan-shaped area of new land often cut by several distributary channels. This landform is called a:",
+"options": [
+"Floodplain",
+"Levee",
+"Delta",
+"Meander"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A delta forms at a river mouth where the river loses speed on entering a standing water body and drops its load of sediment, building new land split by distributaries. A floodplain forms along the river's middle and lower course, while a levee is a raised bank beside the channel.",
+"pidgin": "Delta dey form for river mouth, where river slow down as e enter sea and e drop di sand wey e carry, dat one build new land wey distributary dey cut across. Floodplain na for di river body, levee na raised bank for river side.",
+"py": null,
+"values": null,
+"id": "wgeo0405",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A meander loop becomes so tightly curved that the narrow neck of land between two bends is eventually broken through by the river during a flood, straightening the main channel. The abandoned loop is later sealed off at both ends by silt deposits, leaving a crescent-shaped body of standing water. What is this water body called?",
+"options": [
+"Oxbow lake",
+"Crater lake",
+"Lagoon",
+"Delta lake"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "An oxbow lake forms exactly this way: a cut-off meander loop that is sealed off from the main river channel by deposition, leaving a curved, still lake. A crater lake forms in a volcanic crater, and a lagoon forms behind a coastal bar, so they are not formed by river meanders.",
+"pidgin": "Oxbow lake na when meander loop cut off from di main river channel, den silt close di two ends make crescent lake remain. Crater lake dey form inside volcano crater, lagoon dey form behind coastal bar, so na river meander cause oxbow lake, no be dem.",
+"py": null,
+"values": null,
+"id": "wgeo0406",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A river flows from a source at an altitude of 1,200 metres above sea level down to the sea at 150 metres above sea level, covering a horizontal distance of 350 kilometres. What is the average gradient of the river in metres per kilometre?",
+"options": [
+"1 m/km",
+"3 m/km",
+"5 m/km",
+"7 m/km"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Total fall in height = 1200 - 150 = 1050 metres. Gradient = fall ÷ distance = 1050 ÷ 350 = 3 metres per kilometre. This shows how steeply the river descends on average along its whole course.",
+"pidgin": "Di total drop na 1200 - 150 = 1050 metres. Gradient na drop divide by distance: 1050 ÷ 350 = 3 metres per kilometre. Na so we take know how di river dey fall for im whole length.",
+"py": "(1200-150)/350",
+"values": [
+1,
+3,
+5,
+7
+],
+"id": "wgeo0404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Drop is 1,050 m, giving 3 m/km; the sea is not 150 m above sea level.|Factual error: sea level is 0 m, not 150 m. Using 150 m gives 1050/350 = 3 m/km; using 0 m gives about 3.43 m/km."
+}
+]
+}

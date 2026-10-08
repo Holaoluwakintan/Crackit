@@ -1,0 +1,190 @@
+{
+"subject": "economics",
+"topic": "Elasticity of demand and supply",
+"ti": 4,
+"generated": 7,
+"kept": [
+{
+"q": "In Economics, what does 'price elasticity of demand' measure?",
+"options": [
+"The responsiveness of quantity supplied to a change in the price of the good",
+"The responsiveness of quantity demanded to a change in the price of the good",
+"The responsiveness of quantity demanded to a change in consumers' income",
+"The responsiveness of quantity demanded to a change in the price of a related good"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Price elasticity of demand (PED) shows how much the quantity demanded of a good changes when its own price changes. The other options describe elasticity of supply, income elasticity and cross elasticity respectively.",
+"pidgin": "Price elasticity of demand na how quantity wey people dey demand for one good go change if di price of dat same good change. Di oda options na for supply, income and cross elasticity, no be price elasticity of demand.",
+"py": null,
+"values": null,
+"id": "weco0400",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The price of a tuber of yam in Oyingbo market rises from ₦500 to ₦600. This leads to an increase in quantity supplied from 150 tubers to 180 tubers per week. Calculate the coefficient of price elasticity of supply.",
+"options": [
+"0.8",
+"1.2",
+"1.5",
+"1.0"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Percentage change in quantity supplied = (180-150)/150 x 100 = 20%. Percentage change in price = (600-500)/500 x 100 = 20%. Elasticity of supply = 20/20 = 1.0, which is unitary elastic.",
+"pidgin": "Quantity wey dem supply change be (180-150)/150 x 100 = 20%. Price change be (600-500)/500 x 100 = 20%. So elasticity = 20/20 = 1.0, na unitary elastic.",
+"py": "(20/100)/(20/100)",
+"values": [
+0.8,
+1.2,
+1.5,
+1.0
+],
+"id": "weco0402",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A demand curve is drawn as a straight vertical line, showing that no matter how the price of the good changes, the quantity demanded stays exactly the same. What type of demand does this represent?",
+"options": [
+"Perfectly inelastic demand",
+"Perfectly elastic demand",
+"Unitary elastic demand",
+"Relatively elastic demand"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A vertical demand curve means quantity demanded does not change at all when price changes, which is the definition of perfectly inelastic demand. This gives a price elasticity coefficient of zero.",
+"pidgin": "If di demand curve dey stand straight up and down, e mean say quantity wey people wan buy no dey change at all even if price change. Dat one na perfectly inelastic demand, elasticity be zero.",
+"py": null,
+"values": null,
+"id": "weco0403",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following goods is likely to have the most inelastic demand among people in Nigeria?",
+"options": [
+"A foreign holiday package",
+"Table salt",
+"A brand new saloon car",
+"A designer wristwatch"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Table salt is a basic necessity with no close substitute and takes a small share of income, so people keep buying almost the same amount even when its price changes. The other goods are luxuries with substitutes, making their demand more elastic.",
+"pidgin": "Salt na necessity wey no get substitute and e no cost plenty for person pocket, so people go still buy am even if price change small. Di oda tins na luxury wey get substitutes, so dem go dey elastic pass salt.",
+"py": null,
+"values": null,
+"id": "weco0404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The price of tea increases by 10%. As a result, the quantity demanded of coffee (a substitute good) increases by 15%. Calculate the coefficient of cross elasticity of demand between tea and coffee.",
+"options": [
+"-1.5",
+"0.67",
+"1.5",
+"2.5"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Cross elasticity of demand = percentage change in quantity demanded of coffee divided by percentage change in price of tea = 15/10 = 1.5. The positive value confirms that tea and coffee are substitute goods, as expected.",
+"pidgin": "Cross elasticity = percentage wey quantity of coffee change divide by percentage wey price of tea change = 15/10 = 1.5. Di positive answer show say tea and coffee na substitute goods.",
+"py": "15/10",
+"values": [
+-1.5,
+0.67,
+1.5,
+2.5
+],
+"id": "weco0405",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Mrs Okafor's monthly income rises from ₦40,000 to ₦50,000. As a result, her demand for rice increases from 20kg to 24kg per month. Calculate the coefficient of income elasticity of demand for rice.",
+"options": [
+"1.25",
+"1.0",
+"-0.8",
+"0.8"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Percentage change in quantity demanded = (24-20)/20 x 100 = 20%. Percentage change in income = (50000-40000)/40000 x 100 = 25%. Income elasticity = 20/25 = 0.8, a positive value less than 1, showing rice is a normal necessity good.",
+"pidgin": "Quantity wey demand change be (24-20)/20 x 100 = 20%. Income change be (50000-40000)/40000 x 100 = 25%. Income elasticity = 20/25 = 0.8, na positive but e small pass 1, so rice na normal necessity good.",
+"py": "20/25",
+"values": [
+1.25,
+1.0,
+-0.8,
+0.8
+],
+"id": "weco0406",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The price of a basket of pepper in Mile 12 market rises from ₦200 to ₦250. As a result, the quantity demanded falls from 100 baskets to 80 baskets per day. Calculate the coefficient of price elasticity of demand (ignore the negative sign).",
+"options": [
+"1.0",
+"1.25",
+"0.8",
+"0.5"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Percentage change in quantity = (80-100)/100 x 100 = -20%. Percentage change in price = (250-200)/200 x 100 = 25%. PED = 20/25 = 0.8 (ignoring the negative sign).",
+"pidgin": "Quantity change be (80-100)/100 x 100 = -20%. Price change be (250-200)/200 x 100 = 25%. So PED = 20/25 = 0.8, we no use di negative sign.",
+"py": "abs((-20/100)/(25/100))",
+"values": [
+1.0,
+1.25,
+0.8,
+0.5
+],
+"id": "weco0401",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Initial-value method gives 0.8; midpoint method gives 1.0.|"
+}
+]
+}

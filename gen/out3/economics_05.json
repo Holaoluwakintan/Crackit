@@ -1,0 +1,86 @@
+{
+"subject": "economics",
+"topic": "Price determination, equilibrium, price control and elasticity",
+"generated": 3,
+"kept": [
+{
+"q": "In a certain market in Onitsha, the demand function for a bag of rice is Qd = 80 - 4P, while the supply function is Qs = -10 + 6P, where Q is quantity in bags and P is price in thousands of naira. What is the equilibrium quantity of rice bags?",
+"options": [
+"36 bags",
+"40 bags",
+"44 bags",
+"50 bags"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "At equilibrium, Qd = Qs, so 80 - 4P = -10 + 6P. Solving gives 90 = 10P, so P = 9. Substitute P = 9 into either equation: Q = 80 - 4(9) = 80 - 36 = 44 bags.",
+"pidgin": "For equilibrium, Qd must equal Qs, so 80 - 4P = -10 + 6P. If you solve am, 90 = 10P, P = 9. Put P = 9 back inside any equation, Q = 80 - 36 = 44 bags.",
+"py": "80 - 4*9",
+"values": [
+36,
+40,
+44,
+50
+],
+"id": "ecov0500",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "In a local market for yam tubers, the demand function is Qd = 100 - 2P and the supply function is Qs = -20 + 3P, where P is price in naira per tuber. Equilibrium price is ₦24 and equilibrium quantity is 52 tubers. If the government fixes a minimum price of ₦30 per tuber to protect yam farmers, what will be the size of the resulting surplus?",
+"options": [
+"10 tubers",
+"20 tubers",
+"30 tubers",
+"40 tubers"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "At P = 30, Qd = 100 - 2(30) = 40, and Qs = -20 + 3(30) = 70. Since the price floor is above equilibrium, suppliers want to sell more than buyers want to buy, creating a surplus = Qs - Qd = 70 - 40 = 30 tubers.",
+"pidgin": "When P = 30, Qd = 100 - 60 = 40, and Qs = -20 + 90 = 70. Since minimum price pass equilibrium price, farmers go wan sell pass wetin people wan buy, so surplus = 70 - 40 = 30 tubers.",
+"py": "(-20 + 3*30) - (100 - 2*30)",
+"values": [
+10,
+20,
+30,
+40
+],
+"id": "ecov0501",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "The price of a cup of beans in Kano market falls from ₦200 to ₦160, and as a result, the quantity demanded rises from 50 cups to 70 cups per day. Using the midpoint (arc) method, calculate the price elasticity of demand (ignore the negative sign) and state the type of elasticity it represents.",
+"options": [
+"0.67, inelastic demand",
+"1.0, unit elastic demand",
+"1.5, elastic demand",
+"2.0, elastic demand"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Percentage change in quantity = (70-50)/((70+50)/2) = 20/60 = 0.333. Percentage change in price = (160-200)/((160+200)/2) = -40/180 = -0.222. Dividing gives elasticity = 0.333/0.222 = 1.5, which is greater than 1, so demand is elastic.",
+"pidgin": "Change for quantity = (70-50)/((70+50)/2) = 20/60 = 0.333. Change for price = (160-200)/((160+200)/2) = -40/180 = -0.222. If you divide, elasticity = 0.333/0.222 = 1.5, and since e pass 1, e mean say demand elastic.",
+"py": "((70-50)/((70+50)/2)) / ((200-160)/((200+160)/2))",
+"values": [
+0.67,
+1.0,
+1.5,
+2.0
+],
+"id": "ecov0502",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

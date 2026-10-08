@@ -1,0 +1,177 @@
+{
+"subject": "maths",
+"topic": "Linear and simultaneous equations",
+"ti": 9,
+"generated": 6,
+"kept": [
+{
+"q": "Solve for x: 4x - 9 = 15.",
+"options": [
+"4",
+"6",
+"7",
+"9"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Add 9 to both sides: 4x = 24. Divide both sides by 4: x = 6.",
+"pidgin": "Add 9 go the two sides make e be 4x = 24. Divide by 4, you go see x = 6.",
+"py": "(15+9)/4",
+"values": [
+4,
+6,
+7,
+9
+],
+"id": "wmth0900",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Solve for x: 3(2x - 1) = 21.",
+"options": [
+"3",
+"5",
+"4",
+"8"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Open the bracket: 6x - 3 = 21. Add 3 to both sides: 6x = 24, so x = 4.",
+"pidgin": "Open the bracket make 6x - 3 = 21. Add 3 to both sides, 6x = 24, so x = 4.",
+"py": "(21+3)/6",
+"values": [
+3,
+5,
+4,
+8
+],
+"id": "wmth0901",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "If 2x + 3y = 12 and x - y = 1, find the value of y.",
+"options": [
+"2",
+"3",
+"4",
+"1"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "From the second equation, x = y + 1. Substitute into the first: 2(y+1) + 3y = 12, giving 5y + 2 = 12, so 5y = 10 and y = 2.",
+"pidgin": "From second equation, x = y + 1. Put am inside first equation: 2(y+1) + 3y = 12, e go be 5y + 2 = 12, so 5y = 10, y = 2.",
+"py": "10/5",
+"values": [
+2,
+3,
+4,
+1
+],
+"id": "wmth0902",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Amaka bought 3 oranges and 2 mangoes for ₦170. On another day she bought 2 oranges and 3 mangoes for ₦180 at the same prices. What is the cost of one orange?",
+"options": [
+"₦20",
+"₦25",
+"₦35",
+"₦30"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Let orange = x, mango = y. 3x+2y=170 and 2x+3y=180. Multiply the first by 3 and second by 2, then subtract to get 5x = 150, so x = ₦30.",
+"pidgin": "Make orange = x, mango = y. 3x+2y=170 and 2x+3y=180. Multiply first by 3, second by 2, subtract am, you go see 5x = 150, so x = ₦30.",
+"py": "(170*3 - 2*180)/(3*3 - 2*2)",
+"values": [
+20,
+25,
+35,
+30
+],
+"id": "wmth0903",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "If 5x + 3y = 19 and 2x - y = 1, find the value of x + y.",
+"options": [
+"4",
+"6",
+"5",
+"7"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "From the second equation, y = 2x - 1. Substitute into the first: 5x + 3(2x-1) = 19, which gives 11x = 22, so x = 2 and y = 3. Thus x + y = 5.",
+"pidgin": "From second equation, y = 2x - 1. Put am for first equation: 5x + 3(2x-1) = 19, e go be 11x = 22, so x = 2 and y = 3. So x + y = 5.",
+"py": "((22/11) + (2*(22/11)-1))",
+"values": [
+4,
+6,
+5,
+7
+],
+"id": "wmth0904",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Solve for x: (x+1)/3 - (x-2)/4 = 1.",
+"options": [
+"2",
+"3",
+"1",
+"4"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Multiply through by 12 (LCM of 3 and 4): 4(x+1) - 3(x-2) = 12. This simplifies to x + 10 = 12, so x = 2.",
+"pidgin": "Multiply everything by 12 (LCM of 3 and 4): 4(x+1) - 3(x-2) = 12. E go simplify to x + 10 = 12, so x = 2.",
+"py": "12-10",
+"values": [
+2,
+3,
+1,
+4
+],
+"id": "wmth0905",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

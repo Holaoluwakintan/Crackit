@@ -1,0 +1,168 @@
+{
+"subject": "geography",
+"topic": "Landforms of running water",
+"generated": 8,
+"kept": [
+{
+"q": "A river meander develops such a tight loop that the narrow neck of land between the two bends is eventually eroded through during a flood. The river then takes the shorter, straighter path, and the abandoned loop is sealed off from the main channel, forming a crescent-shaped lake beside the river. What is this crescent-shaped lake called?",
+"options": [
+"Oxbow lake",
+"River delta",
+"Floodplain",
+"Waterfall"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "When a meander neck is cut through, the old loop is separated from the main flow and remains as a curved, crescent-shaped lake. This feature is called an oxbow lake. It is a classic landform of the middle to lower course of a river.",
+"pidgin": "When river cut through the narrow neck of one big bend, the old bend go turn to separate curve-shaped lake wey dem dey call oxbow lake. Na common feature for where river dey meander well-well. E no be delta, floodplain or waterfall.",
+"py": null,
+"values": null,
+"id": "geov0800",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the upper (youthful) course of a river, the river mostly cuts straight down into the land rather than sideways, because its energy is used mainly for vertical erosion over a steep gradient. Which landform is typically produced by this process?",
+"options": [
+"River delta",
+"V-shaped valley",
+"Floodplain",
+"River levee"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In the youthful stage, a river has high energy and a steep slope, so it erodes downward quickly, cutting a narrow, steep-sided valley shaped like the letter V. Deltas, floodplains and levees belong to the middle or lower course where lateral erosion and deposition dominate.",
+"pidgin": "For the upper part of river (young stage), the river dey cut down straight (vertical erosion) because of steep slope and plenty energy, so e go form narrow valley wey resemble letter V. Delta, floodplain and levee na for middle/lower course where deposition dey happen.",
+"py": null,
+"values": null,
+"id": "geov0801",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A river flows across land where a layer of hard, resistant rock lies on top of a layer of soft, less resistant rock, both lying roughly horizontal across the river's path. Over time, the soft rock beneath is worn away faster by the flowing water, undercutting the hard rock layer above it until it collapses, and the process repeats as the river retreats upstream. Which landform does this process best explain?",
+"options": [
+"River delta",
+"Floodplain",
+"Waterfall",
+"River meander"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Differential erosion of hard rock over soft rock causes undercutting and periodic collapse of the hard rock ledge, creating a sudden vertical drop in the river's course. This is exactly how a waterfall (with a plunge pool) forms and migrates upstream over time.",
+"pidgin": "Because soft rock dey wear away fast pass the hard rock wey dey on top am, the hard rock go dey hang until e break/collapse, and this process go continue to happen as river dey move backward. Na so waterfall dey form, no be delta, floodplain or meander.",
+"py": null,
+"values": null,
+"id": "geov0802",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "As a river flows around a bend in its middle course, the water flows fastest on the outer side of the bend, causing erosion there, while it flows slowest on the inner side, allowing sand and silt to be deposited there forming a point bar. Over many years this process makes the river channel develop a winding, snake-like shape. What is this winding shape of the channel called?",
+"options": [
+"Braided channel",
+"Gorge",
+"River levee",
+"Meander"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Faster current on the outer bank erodes it, while slower current on the inner bank deposits sediment as a point bar; repeating this on successive bends produces a winding, snake-like channel pattern called a meander. A gorge, levee and braided channel are different landforms formed by different processes.",
+"pidgin": "Fast water for outside bend dey erode am, slow water for inside bend dey drop sand (point bar); if this dey happen for many bends, the river go bend-bend like snake. Na so meander dey form, e no be gorge, levee or braided channel.",
+"py": null,
+"values": null,
+"id": "geov0803",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A river carrying a heavy load of sediment enters a calm sea with weak tides and currents, so that it can no longer carry all its load. The sediment drops and builds up at the river's mouth, sometimes splitting the river into several smaller channels called distributaries. Which landform is formed as a result?",
+"options": [
+"River delta",
+"Waterfall",
+"Pothole",
+"River terrace"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "When a sediment-laden river meets calm water with weak currents, it deposits its load at its mouth instead of carrying it further, building up a low, fan-shaped or triangular landform often crossed by distributaries. This landform is called a delta, as seen at the mouth of the River Niger.",
+"pidgin": "When river wey carry plenty sediment enter calm sea wey no get strong current, e go drop the sediment for the mouth, sometimes e go divide to small channels (distributaries). Na so delta dey form, like River Niger delta.",
+"py": null,
+"values": null,
+"id": "geov0804",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Due to a fall in sea level, a river that had previously been flowing sluggishly across a wide floodplain starts to cut downward again into its own former floodplain. This leaves flat, step-like platforms of the old floodplain standing on both sides of the new, deeper valley, well above the current river level. What term best describes these raised, flat platforms?",
+"options": [
+"River deltas",
+"River terraces",
+"River levees",
+"Potholes"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A fall in sea level (or land uplift) lowers the river's base level, causing renewed downward erosion (rejuvenation) into its old floodplain. The remnants of the old floodplain left standing above the new, narrower valley are called river terraces. Deltas, levees and potholes are unrelated features formed by different processes.",
+"pidgin": "When sea level fall, the river go get new energy to cut down again inside im old floodplain (rejuvenation). The leftover flat parts of the old floodplain wey remain for both sides, up high pass the new river level, na river terraces. E no be delta, levee or pothole.",
+"py": null,
+"values": null,
+"id": "geov0805",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "River A has a steeper gradient and greater erosive power than its neighbour, River B, which shares a common watershed (divide) with it. Over a long period, River A erodes headward through the watershed until it breaks into the upper valley of River B, diverting River B's headwaters into River A's channel. Downstream of this point, River B's original valley is left dry or carries only a small stream. What is this process called?",
+"options": [
+"Deltaic deposition",
+"Braiding",
+"River capture (drainage piracy)",
+"Meandering"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A river with a steeper gradient erodes headward faster and can break through the watershed into a neighbouring river's valley, diverting its headwaters; this is called river capture or drainage piracy. The captured river's former course beyond the capture point is left as a dry or under-fit valley called a wind gap.",
+"pidgin": "Because River A get steeper slope, e get more power to cut backward (headward erosion) until e break enter River B valley and carry B headwaters comot. Na so dem dey call river capture (drainage piracy); the dry valley wey remain na wind gap.",
+"py": null,
+"values": null,
+"id": "geov0806",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "During repeated flooding, a river overflows its banks and the fastest-flowing, coarser sediment settles close to the channel edges while finer material spreads further onto the floodplain. Over many floods this builds up raised, ridge-like banks running along both sides of the river channel. What are these raised ridges called?",
+"options": [
+"Potholes",
+"Gorges",
+"Oxbow lakes",
+"River levees"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Repeated flooding deposits coarse sediment nearer the channel (because the river loses energy quickly once it leaves the channel), building raised ridges along the banks called levees. Potholes, gorges and oxbow lakes are formed by erosion or channel-cutting processes, not by this kind of flood deposition.",
+"pidgin": "Anytime river flood, the coarse sediment dey settle near the bank while fine sediment dey spread far; if this dey repeat, e go build raised ridge for both sides of the channel wey dem call levees. Pothole, gorge and oxbow lake no be the same thing with levee.",
+"py": null,
+"values": null,
+"id": "geov0807",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Ecology: ecosystems, food chains, food webs and energy flow",
+"generated": 4,
+"kept": [
+{
+"q": "In a pond ecosystem at Awba Dam, Ibadan, which of the following statements correctly describes a food chain?",
+"options": [
+"A single pathway showing how energy and nutrients pass from one organism to another, starting with a producer",
+"A network of interconnected feeding relationships linking many different food chains together",
+"A group of organisms living in the same habitat that feed on one another in no particular order",
+"A diagram showing only the total body mass of organisms present at each feeding level"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A food chain is a simple, straight-line sequence showing the transfer of energy from a producer to a series of consumers. It is not a network (that is a food web) and it does not show mass, only energy/feeding order.",
+"pidgin": "Food chain na simple straight line wey show how energy dey pass from plant go to animals one by one. E no be network (dat one na food web), and e no be about weight of animal.",
+"id": "biov1300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Consider this food chain observed on a maize farm near Kano: Maize plant -> Grasshopper -> Lizard -> Hawk. What trophic level does the lizard occupy?",
+"options": [
+"Producer",
+"Primary consumer",
+"Secondary consumer",
+"Tertiary consumer"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The maize plant is the producer, the grasshopper (which eats maize) is the primary consumer, and the lizard (which eats the grasshopper) becomes the secondary consumer. The hawk, eating the lizard, is the tertiary consumer.",
+"pidgin": "Maize na producer, grasshopper wey chop maize na primary consumer, lizard wey chop grasshopper na secondary consumer. Hawk wey chop lizard na tertiary consumer.",
+"id": "biov1301",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In a grassland ecosystem, the primary consumers (grasshoppers) contain a total of 8,000 kJ of stored energy. Applying the standard ten percent rule of energy transfer between trophic levels, how much energy would be available to the secondary consumers (lizards) that feed on these grasshoppers?",
+"options": [
+"80 kJ",
+"800 kJ",
+"8,000 kJ",
+"80,000 kJ"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Only about 10 percent of energy is transferred from one trophic level to the next, the rest is lost as heat during respiration and other life activities. So 10 percent of 8,000 kJ equals 800 kJ.",
+"pidgin": "Na only like 10 percent of energy dey pass from one level go di next one, di rest dey waste as heat. So 10 percent of 8,000 kJ na 800 kJ.",
+"id": "biov1302",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following best explains why the pyramid of energy for any ecosystem is always upright, unlike the pyramid of numbers which can sometimes be inverted (for example, one large tree supporting thousands of insects)?",
+"options": [
+"Energy is progressively lost as heat at each trophic level, so producers must always contain more total energy than the consumers above them",
+"Producers always have smaller individual body sizes, which makes their population numbers appear higher than consumers",
+"Decomposers return all lost energy back to the producers, keeping energy levels constant at every trophic stage",
+"Consumers generally store more energy than producers because they feed on organisms from several trophic levels at once"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "At every feeding stage, a large portion of energy is lost as heat through respiration, so the energy available keeps reducing up the chain. This means producers must always hold the most energy, making the pyramid of energy always upright, even when numbers or biomass pyramids are inverted.",
+"pidgin": "Every time food dey pass from one level go another, plenty energy dey waste as heat through respiration. So energy go always dey reduce as e dey go up, meaning producers go always get the most energy, and the energy pyramid go always dey upright, even if numbers pyramid fit upside down.",
+"id": "biov1303",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

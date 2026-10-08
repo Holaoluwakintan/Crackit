@@ -1,0 +1,149 @@
+{
+"subject": "civic",
+"topic": "Traffic regulations and road safety",
+"ti": 14,
+"generated": 7,
+"kept": [
+{
+"q": "What does the abbreviation FRSC stand for in Nigeria's road transport system?",
+"options": [
+"Federal Road Safety Corps",
+"Federal Road Security Commission",
+"Federal Roads and Signals Corps",
+"Federal Registration of Safety Commission"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "FRSC is the Federal Road Safety Corps, the government agency responsible for traffic regulation, road safety education and enforcement of traffic laws in Nigeria.",
+"pidgin": "FRSC na Federal Road Safety Corps, na dem be di government agency wey dey control traffic and road safety matter for Nigeria.",
+"id": "wciv1400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "At a standard traffic light, which colour instructs a driver to come to a complete stop?",
+"options": [
+"Green",
+"Red",
+"Amber/Yellow",
+"Blue"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Red at a traffic light means drivers must stop completely before the stop line until the light changes to green. Amber warns of a change, while green permits movement.",
+"pidgin": "Red light for traffic light mean say driver must stop well-well before e go move again. Amber dey warn say light wan change, green na for go.",
+"id": "wciv1401",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A triangular road sign with a red border and an exclamation mark (!) in the centre is placed along a highway. What does this sign mean to drivers?",
+"options": [
+"Overtaking is permitted ahead",
+"Fuel station is located nearby",
+"There is a general hazard ahead and drivers should be careful",
+"The road ahead is closed to all vehicles"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A triangular sign with a red border and an exclamation mark is a general warning sign; it tells drivers to be cautious because a hazard may be ahead, unlike signs showing a fuel station or road closure.",
+"pidgin": "Triangle sign wey get red border and \"!\" mark na general warning sign; e dey tell driver make dem careful because danger fit dey ahead, e no be fuel station or road closure sign.",
+"id": "wciv1402",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When a traffic warden stops a motorist on a Nigerian highway for a routine check, which document is the driver legally required to present to show he is permitted to drive?",
+"options": [
+"National identity card",
+"Voter's registration card",
+"Local government indigene certificate",
+"Valid driver's licence"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A valid driver's licence is the legal document that proves a person is trained and permitted to drive; it is what traffic officers check, unlike a voter's card or indigene certificate which have nothing to do with driving.",
+"pidgin": "Valid driver licence na legal paper wey show say person fit drive well; na im traffic police go ask for, but voter card or indigene certificate no concern driving.",
+"id": "wciv1403",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a common and well-known cause of road traffic accidents on Nigerian roads?",
+"options": [
+"Overloading of vehicles beyond their carrying capacity",
+"Regular servicing of vehicle brakes",
+"Strict obedience to posted speed limits",
+"Consistent use of seat belts by passengers"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Overloading a vehicle beyond its capacity makes it hard to control, strains the tyres and brakes, and is a frequent cause of accidents, while the other options actually promote safety.",
+"pidgin": "When vehicle carry load pass wetin e suppose carry, e go hard make driver control am well and e go strain tyre and brake; na one common reason wey dey cause accident, di other options na safety things.",
+"id": "wciv1404",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A driver is moving at a high speed on a rain-soaked road when a child suddenly runs onto the road 20 metres ahead. Why is this driver more likely to hit the child than a driver moving slowly in the same situation?",
+"options": [
+"Higher speed reduces the distance needed to stop",
+"Higher speed increases the stopping distance needed, making it harder to stop in time",
+"Wet roads increase tyre grip at high speed, making stopping easier",
+"The driver's reaction time improves greatly at higher speed"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At higher speed a vehicle needs a longer distance to stop, and a wet road reduces tyre grip even further, so the driver cannot stop quickly enough to avoid hitting the child.",
+"pidgin": "If vehicle dey waka fast, e go need more distance before e go fit stop, and if road dey wet, tyre no go grip road well; so driver no fit stop on time to avoid di pikin.",
+"id": "wciv1405",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "At an uncontrolled T-junction without traffic lights or signs, a car on a minor road wants to join a major road just as another car is approaching on the major road. According to standard road safety practice, what should the driver on the minor road do?",
+"options": [
+"Continue driving since the major road vehicle should give way",
+"Insist on entering first because his vehicle is bigger",
+"Give way to the vehicle already on the major road",
+"Enter first since he arrived at the junction earlier"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Standard road safety practice requires a vehicle joining a major road from a minor road to give way to traffic already moving on the major road, in order to prevent collisions at uncontrolled junctions.",
+"pidgin": "Normal road safety rule na say vehicle wey dey enter major road from minor road must give way to di one wey dey already for major road, so dat accident no go happen for junction wey no get traffic light.",
+"id": "wciv1406",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

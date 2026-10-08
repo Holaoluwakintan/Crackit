@@ -1,0 +1,94 @@
+{
+"subject": "chemistry",
+"topic": "Separation of mixtures and purification",
+"generated": 4,
+"kept": [
+{
+"q": "Hauwa mixes palm oil with water in a container and notices the oil floats as a separate layer above the water, with no visible mixing at the boundary. Which laboratory technique is most suitable for separating the palm oil from the water?",
+"options": [
+"Simple distillation",
+"Separating funnel",
+"Filtration",
+"Sublimation"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Palm oil and water are immiscible liquids that form two distinct layers because of different densities. A separating funnel allows the denser liquid (water) to be run off from the bottom tap, leaving the oil behind. Filtration and sublimation are for solid-liquid or solid-solid mixtures, not immiscible liquids.",
+"pidgin": "Palm oil and water no dey mix, dem go dey settle as two layers because dem get different density. Separating funnel go help you drain the water wey dey below first, leave the oil. Filtration and sublimation no fit work here because na liquid mixture.",
+"py": null,
+"values": null,
+"id": "chev0000",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A student has a solid mixture of iodine crystals and common salt (sodium chloride). Iodine changes directly from solid to vapour on gentle heating and then solidifies again on a cold surface, while sodium chloride does not. Which technique is most appropriate for separating the iodine from the mixture?",
+"options": [
+"Sublimation",
+"Simple distillation",
+"Crystallization",
+"Decantation"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Sublimation is used when one component of a solid mixture turns directly into vapour on heating without melting, while the other does not. Iodine sublimes easily, so heating the mixture lets iodine vapour escape and condense on a cold surface, leaving the salt behind. Distillation and decantation are for liquid mixtures, and crystallization needs dissolving in a solvent first.",
+"pidgin": "Sublimation na the method wey dem dey use when one part of solid mixture fit turn to gas straight without melting, but the other one no fit. Iodine dey sublime easily, so if you heat the mixture, iodine go turn vapour and later condense for cold surface, salt go remain. Distillation and decantation na for liquid mixtures, crystallization need solvent first.",
+"py": null,
+"values": null,
+"id": "chev0001",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A sample of impure common salt contaminated with sand weighs 20.0 g. The sample is dissolved in water, filtered to remove the insoluble sand, and the filtrate is evaporated to dryness, yielding 15.0 g of pure sodium chloride crystals. What is the percentage purity of the original salt sample?",
+"options": [
+"60%",
+"75%",
+"80%",
+"90%"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Percentage purity equals the mass of pure substance recovered divided by the mass of the original impure sample, multiplied by 100. Here, (15.0 g / 20.0 g) x 100 = 75%. This shows that only 75% of the original 20.0 g sample was actually sodium chloride, the rest being sand.",
+"pidgin": "Percentage purity na the mass of the pure substance wey you recover divide by the mass of the original impure sample, multiply by 100. So (15.0 g / 20.0 g) x 100 = 75%. Na so we know say na 75% of the 20.0 g be real sodium chloride, the remaining na sand.",
+"py": "(15.0/20.0)*100",
+"values": [
+60,
+75,
+80,
+90
+],
+"id": "chev0002",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A student stirs a mixture of fine sand and common salt in water until the salt dissolves completely, then filters the mixture. The sand is retained on the filter paper as residue, while the filtrate contains dissolved salt in water. Which process should the student carry out next to recover solid salt from the filtrate?",
+"options": [
+"Decantation",
+"Sublimation",
+"Evaporation to dryness",
+"Paper chromatography"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The filtrate is a solution of salt dissolved in water, so heating it until all the water evaporates leaves behind the solid salt crystals. Decantation only separates liquids from settled solids without dissolving, sublimation is for substances that vaporise directly from solid, and chromatography separates components based on different movement rates on paper, not for recovering a dissolved solid.",
+"pidgin": "The filtrate na solution wey salt dissolve inside water, so if you heat am make water evaporate finish, the solid salt go remain as crystals. Decantation na just to pour out liquid from settled solid, sublimation na for substance wey dey change from solid to gas direct, and chromatography na for separate components wey dey move different speed, e no fit recover dissolved solid.",
+"py": null,
+"values": null,
+"id": "chev0003",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

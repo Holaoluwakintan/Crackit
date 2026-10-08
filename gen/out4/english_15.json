@@ -1,0 +1,149 @@
+{
+"subject": "english",
+"topic": "Oral English: word stress",
+"ti": 15,
+"generated": 7,
+"kept": [
+{
+"q": "Which syllable is stressed in the word in capitals: EXPORT (used as a noun meaning goods sent to another country)?",
+"options": [
+"First syllable",
+"Second syllable",
+"Both syllables equally",
+"Neither syllable is stressed"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "As a noun, EXPORT is stressed on the first syllable: EX-port. When it is used as a verb (to export goods), the stress moves to the second syllable, ex-PORT.",
+"pidgin": "As noun, EXPORT dey stress for first syllable: EX-port. If e be verb (to export something), na second syllable dem go stress: ex-PORT.",
+"id": "weng1500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidi said, 'The soldiers plan to REBEL against the unjust government.' In the word REBEL as used in this sentence (a verb meaning to rise up against authority), which syllable is stressed?",
+"options": [
+"First syllable",
+"Second syllable",
+"Both syllables equally",
+"Stress depends on the speaker's accent"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "REBEL used as a verb is stressed on the second syllable: re-BEL. The noun form, meaning a person who resists authority, is stressed on the first syllable: REB-el.",
+"pidgin": "As verb, REBEL dey stress for second syllable: re-BEL. But as noun (person wey dey fight authority), na first syllable dem go stress: REB-el.",
+"id": "weng1501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following words has its main stress on a different syllable from the other three?\nA. HOSPITAL\nB. ELEPHANT\nC. UMBRELLA\nD. CALENDAR",
+"options": [
+"HOSPITAL",
+"ELEPHANT",
+"UMBRELLA",
+"CALENDAR"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "HOSPITAL, ELEPHANT and CALENDAR are all stressed on the first syllable (HOS-pi-tal, EL-e-phant, CAL-en-dar). UMBRELLA is different because it is stressed on the second syllable: um-BREL-la.",
+"pidgin": "HOSPITAL, ELEPHANT and CALENDAR dem all dey stress for first syllable. But UMBRELLA no be like dat; na second syllable dem dey stress: um-BREL-la.",
+"id": "weng1502",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The words PHOTOGRAPH, PHOTOGRAPHY and PHOTOGRAPHIC share the same root but their stress changes with the suffix added. In the word PHOTOGRAPHY, which syllable carries the main stress?",
+"options": [
+"First syllable (pho)",
+"Fourth syllable (phy)",
+"Third syllable (ra)",
+"Second syllable (tog)"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "PHOTOGRAPH is stressed on the first syllable (PHO-to-graph), but adding '-y' shifts the stress to the second syllable in PHOTOGRAPHY: pho-TOG-ra-phy. This shows how a suffix can move the stress in a word.",
+"pidgin": "PHOTOGRAPH dey stress for first syllable (PHO-to-graph), but as dem add '-y' make am PHOTOGRAPHY, the stress shift go second syllable: pho-TOG-ra-phy. Na so suffix fit change where stress dey.",
+"id": "weng1503",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which syllable is stressed in the word in capitals: BLACKBOARD (the writing board used by teachers in a classroom)?",
+"options": [
+"First syllable",
+"Second syllable",
+"Both syllables equally",
+"Neither syllable"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "BLACKBOARD is a compound noun, and compound nouns in English are usually stressed on the first part: BLACK-board. This is different from a simple phrase like 'a black board,' where both words can carry stress.",
+"pidgin": "BLACKBOARD na compound noun, and compound noun dem dey normally stress for the first part: BLACK-board. E different from ordinary phrase like 'a black board' where both words fit get stress.",
+"id": "weng1504",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the word EDUCATION, which syllable carries the main stress?",
+"options": [
+"First syllable (ed)",
+"Second syllable (u)",
+"Third syllable (ca)",
+"Fourth syllable (tion)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "EDUCATION has four syllables: ed-u-CA-tion. Words ending in '-tion' are usually stressed on the syllable just before the ending, which here is 'ca', making the third syllable the stressed one.",
+"pidgin": "EDUCATION get four syllables: ed-u-CA-tion. Words wey dey end for '-tion' dey normally stress the syllable before the ending, so na third syllable 'ca' carry the stress.",
+"id": "weng1505",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In which of the following sentences is the word RECORD stressed on the second syllable?\nA. Ngozi broke the world RECORD for the 100-metre race.\nB. The clerk had to RECORD all the names in the register.\nC. Please keep a RECORD of your daily expenses.\nD. The teacher kept an attendance RECORD for the term.",
+"options": [
+"Ngozi broke the world RECORD for the 100-metre race.",
+"The clerk had to RECORD all the names in the register.",
+"Please keep a RECORD of your daily expenses.",
+"The teacher kept an attendance RECORD for the term."
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "RECORD used as a verb (meaning to write something down) is stressed on the second syllable: re-CORD, as in sentence B. In the other sentences, RECORD is used as a noun, stressed on the first syllable: REC-ord.",
+"pidgin": "RECORD wey be verb (meaning to write something down) dey stress for second syllable: re-CORD, as e dey for sentence B. For the other sentences, RECORD na noun, so na first syllable dem dey stress: REC-ord.",
+"id": "weng1506",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

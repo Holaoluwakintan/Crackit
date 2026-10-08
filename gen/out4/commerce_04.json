@@ -1,0 +1,175 @@
+{
+"subject": "commerce",
+"topic": "Foreign trade and its documents",
+"ti": 4,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines foreign trade?",
+"options": [
+"Buying and selling of goods within one country",
+"Exchange of goods and services between two or more countries",
+"Trade carried out only through barter",
+"Trade limited to goods produced by government agencies"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Foreign trade simply means the exchange of goods and services across the borders of two or more countries, such as Nigeria trading with China or Ghana. Option A describes home trade, not foreign trade.",
+"pidgin": "Foreign trade na when goods and services dey exchange between two or more kontri, like Nigeria dey trade with China. Option A na just home trade, e no concern foreign trade.",
+"py": null,
+"values": null,
+"id": "wcom0400",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which document serves as evidence of a contract of carriage of goods by sea, and also acts as a title (proof of ownership) to the goods being shipped?",
+"options": [
+"Certificate of origin",
+"Letter of credit",
+"Bill of lading",
+"Bill of entry"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A bill of lading is issued by the shipping company to the exporter as proof that goods have been loaded on board a ship; it also acts as a document of title, so whoever holds it can claim the goods. The other documents serve different purposes like payment guarantee or origin declaration.",
+"pidgin": "Bill of lading na the paper wey show say goods don enter ship, and e dey also show say person wey hold am get right to the goods. The other papers dey do different work like payment or where goods come from.",
+"py": null,
+"values": null,
+"id": "wcom0401",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A trader in Kano wants to import packaged rice from Thailand. Which document will officially show the country where the rice was actually grown and processed?",
+"options": [
+"Certificate of origin",
+"Bill of lading",
+"Airway bill",
+"Indent"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The certificate of origin is issued to state the country in which goods were produced or manufactured, which helps customs apply the correct duty or trade agreement rules. A bill of lading only shows that goods were shipped, not where they were made.",
+"pidgin": "Certificate of origin na the paper wey dey show the kontri wia dem produce the goods, e dey help custom know the correct duty to charge. Bill of lading na just show say dem don ship the goods, e no show wia e come from.",
+"py": null,
+"values": null,
+"id": "wcom0402",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following documents is issued by a bank to guarantee that an exporter will be paid once the agreed shipping documents are presented?",
+"options": [
+"Proforma invoice",
+"Bill of entry",
+"Charter party",
+"Letter of credit"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A letter of credit is a bank's written guarantee of payment to the exporter once the required shipping documents, such as the bill of lading, are produced. This reduces the risk of non-payment in international trade, unlike a proforma invoice which is just a price quotation.",
+"pidgin": "Letter of credit na wetin bank dey give to promise say dem go pay the exporter once e bring the correct shipping papers. E dey reduce fear of no payment for foreign trade, unlike proforma invoice wey just dey show price.",
+"py": null,
+"values": null,
+"id": "wcom0403",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In foreign trade, which document does an importer complete and submit to the customs authorities to formally declare goods being brought into the country?",
+"options": [
+"Bill of lading",
+"Certificate of origin",
+"Bill of entry",
+"Indent"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A bill of entry is the official document an importer fills and submits to customs, declaring details such as the type, quantity and value of goods being imported, so that duty can be assessed. It is different from the bill of lading, which is a shipping document from the carrier.",
+"pidgin": "Bill of entry na the paper wey importer go fill give customs to declare the goods wey e dey bring enter kontri, so dem fit calculate duty. E different from bill of lading wey be shipping paper from the carrier.",
+"py": null,
+"values": null,
+"id": "wcom0404",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A Nigerian company agreed to buy machinery from Germany at a Free On Board (FOB) price of ₦500,000. The freight charge from Germany to Lagos port is ₦60,000, while the insurance premium on the goods is ₦15,000. What is the Cost, Insurance and Freight (CIF) price of the machinery?",
+"options": [
+"₦500,000",
+"₦575,000",
+"₦560,000",
+"₦515,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "CIF price equals FOB price plus freight plus insurance: ₦500,000 + ₦60,000 + ₦15,000 = ₦575,000. CIF always includes all these costs up to the destination port, unlike FOB which stops at the point of loading.",
+"pidgin": "CIF price na FOB price add freight add insurance: 500,000 + 60,000 + 15,000 = 575,000. CIF dey cover everything reach the destination port, unlike FOB wey dey stop for where dem load the ship.",
+"py": "500000+60000+15000",
+"values": [
+500000,
+575000,
+560000,
+515000
+],
+"id": "wcom0405",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In a particular trading year, Nigeria exported goods worth ₦2,400,000 and imported goods worth ₦1,850,000. What was Nigeria's balance of trade for that year?",
+"options": [
+"₦1,850,000 deficit",
+"₦4,250,000 surplus",
+"₦2,400,000 surplus",
+"₦550,000 surplus"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Balance of trade is calculated as total value of exports minus total value of imports: ₦2,400,000 - ₦1,850,000 = ₦550,000. Since exports are greater than imports, this is a surplus (favourable balance of trade).",
+"pidgin": "Balance of trade na export value minus import value: 2,400,000 - 1,850,000 = 550,000. Since export pass import, na surplus (favourable balance of trade) dem get.",
+"py": "2400000-1850000",
+"values": [
+1850000,
+4250000,
+2400000,
+550000
+],
+"id": "wcom0406",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

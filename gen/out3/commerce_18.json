@@ -1,0 +1,168 @@
+{
+"subject": "commerce",
+"topic": "Legal aspects of business: contract, agency, sale of goods and hire purchase",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is NOT generally regarded as an essential element required for a valid contract?",
+"options": [
+"Offer and acceptance by the parties",
+"Consideration moving from the parties",
+"Legal capacity of the parties to contract",
+"An implied warranty attached to goods sold"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "A valid contract needs offer and acceptance, consideration, capacity and intention to create legal relations. An implied warranty is a term that may apply in sale of goods, not a general requirement for forming any contract.",
+"pidgin": "For contract to dey valid, e need offer and acceptance, consideration, capacity and intention. Implied warranty na something wey dey apply for sale of goods matter, e no be general rule for all contract.",
+"py": null,
+"values": null,
+"id": "comv1800",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "In the law of contract, what does 'consideration' mean?",
+"options": [
+"Something of value given by one party in return for a promise made by the other",
+"The price written on the receipt of a transaction",
+"The written document used to record an agreement",
+"The person who witnesses the signing of an agreement"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Consideration is the value (money, goods, service or a promise) that each party gives in exchange for the other party's promise. Without consideration, most simple contracts cannot be enforced.",
+"pidgin": "Consideration na the value wey one party give in exchange for the promise wey the other party give. If no consideration, the ordinary contract no fit stand for court.",
+"py": null,
+"values": null,
+"id": "comv1801",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Mrs Adaeze appoints Tunde to sell her goods and agrees to pay him extra commission if he personally guarantees that buyers will pay for the goods they collect on credit. What type of agent is Tunde in this arrangement?",
+"options": [
+"A universal agent",
+"A del credere agent, because he guarantees payment to the principal for extra pay",
+"A sub-agent appointed by another agent",
+"An agent of necessity"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A del credere agent receives extra commission for guaranteeing that customers he sells to on credit will pay. This is different from a general or universal agent, who simply has wide or unlimited powers without such a guarantee.",
+"pidgin": "Del credere agent na agent wey dey collect extra commission because e dey guarantee say the customer go pay the money wey e owe. Na different thing from universal agent wey just get wide power to act.",
+"py": null,
+"values": null,
+"id": "comv1802",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Under the Sale of Goods Law, when goods are sold by description (for example, 'a bag of 50kg rice, Mama Gold brand'), there is an implied condition that the goods delivered must:",
+"options": [
+"be of merchantable quality only, regardless of description",
+"be fit for the buyer's particular purpose only",
+"correspond with the description given at the time of sale",
+"be free from any charge or encumbrance in favour of a third party"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When goods are sold by description, the law implies a condition that the actual goods delivered must match that description. If a trader delivers a different brand or weight from what was described, the buyer can reject the goods.",
+"pidgin": "When dem sell goods with description, na condition say the goods wey dem bring must match the description. If the trader bring different brand or weight, buyer fit reject am.",
+"py": null,
+"values": null,
+"id": "comv1803",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Chidi bought a generator on hire purchase from Emeka Stores and had paid only part of the instalments. Before completing payment, Chidi sold the generator to Ngozi, who bought it in good faith believing Chidi was the owner. Under hire purchase law, who has the better title to the generator?",
+"options": [
+"Ngozi, because she bought in good faith and did not know about the agreement",
+"Chidi, because he was in physical possession of the generator",
+"Emeka Stores, because ownership of goods under hire purchase remains with the seller until the final instalment is paid",
+"Nobody has title; the generator automatically becomes abandoned property"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Under hire purchase, the hirer (Chidi) only has possession, not ownership, until all instalments are paid. Since he had no ownership, he could not transfer a better title than he had (nemo dat quod non habet), so Emeka Stores remains the rightful owner.",
+"pidgin": "For hire purchase, the person wey dey pay installment (Chidi) no be owner until e finish pay everything, na only possession e get. Since e no be owner, e no fit sell wetin e no get, so Emeka Stores still remain the real owner.",
+"py": null,
+"values": null,
+"id": "comv1804",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of the following types of contract must generally be evidenced in writing before it can be enforced in court?",
+"options": [
+"A contract for the sale of a bag of rice at the market",
+"A contract of guarantee, where one person promises to pay another's debt if that person defaults",
+"An oral agreement to repair a bicycle for ₦500",
+"A verbal agreement to supply firewood to a neighbour"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Contracts of guarantee are special contracts that the law requires to be evidenced in writing (in line with the Statute of Frauds principle) before they can be enforced, unlike most simple everyday contracts which can be oral.",
+"pidgin": "Contract of guarantee na special one wey law say must dey written down before court go enforce am, unlike ordinary everyday contract wey fit dey verbal.",
+"py": null,
+"values": null,
+"id": "comv1805",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Musa, a 16-year-old secondary school student, enters into a contract to buy a motorcycle (not a necessary item for him) on credit. Under the general law of contract, what is the status of this contract as regards Musa?",
+"options": [
+"It is valid and fully enforceable against Musa like any adult's contract",
+"It is binding on Musa's parents alone, since he is still a minor",
+"It is void and unenforceable against Musa, as he lacks capacity for non-necessary contracts",
+"It becomes valid automatically once Musa turns 25 years old"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A minor generally lacks full legal capacity to contract. Except for contracts for necessaries or beneficial contracts of service, agreements made by a minor for non-necessary items are void and cannot be enforced against the minor.",
+"pidgin": "Minor no get full capacity to enter contract. Apart from necessaries or beneficial service contract, any contract wey minor enter for non-necessary thing no valid and court no go enforce am against am.",
+"py": null,
+"values": null,
+"id": "comv1806",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which statement best explains the doctrine of 'caveat emptor' as applied in the law of sale of goods?",
+"options": [
+"The seller must refund the buyer at any time the buyer is dissatisfied",
+"The buyer is automatically protected by an unlimited seller's warranty",
+"The buyer has no right to reject goods, however defective they may be",
+"The buyer must examine goods carefully before buying, since the seller is not generally liable for defects the buyer ought to have discovered"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Caveat emptor means 'let the buyer beware'. It places the responsibility on the buyer to check goods carefully before purchase, as the seller is not automatically liable for obvious defects, except where implied conditions under the Sale of Goods Law are broken.",
+"pidgin": "Caveat emptor mean say 'make buyer dey careful'. E mean say na buyer responsibility to check the goods well before e buy, because seller no dey automatically liable for defect wey buyer suppose don see, except where the law implied conditions apply.",
+"py": null,
+"values": null,
+"id": "comv1807",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

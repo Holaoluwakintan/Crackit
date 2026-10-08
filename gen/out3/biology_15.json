@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Population ecology, adaptation and tropical biomes in Nigeria",
+"generated": 4,
+"kept": [
+{
+"q": "Which term best describes a population growth pattern in which numbers increase rapidly at first, then slow down and level off as food, space and other resources become limited, producing an S-shaped curve when plotted on a graph?",
+"options": [
+"Exponential growth",
+"Logistic growth",
+"Linear growth",
+"Oscillating growth"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Logistic growth shows a fast rise followed by a flattening-off as the environment's carrying capacity is reached, giving an S-shaped curve. Exponential growth keeps rising without limit, while linear growth increases by equal amounts, not a curve.",
+"pidgin": "Logistic growth na when population dey grow fast for beginning, then e go slow down as food and space no dey again, e go make S-shape for graph. Exponential growth no get limit, e just dey rise and rise.",
+"id": "biov1500",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "During a locust outbreak, agricultural officers in Lagos State counted 350 locusts within a farmland area of 5 hectares. What is the population density of the locusts in this farmland?",
+"options": [
+"70 locusts per hectare",
+"35 locusts per hectare",
+"175 locusts per hectare",
+"50 locusts per hectare"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Population density is calculated as total number of organisms divided by area, so 350 locusts divided by 5 hectares equals 70 locusts per hectare. This gives a direct measure of how crowded the locust population is in that space.",
+"pidgin": "Population density na number of organism divide by the area. So 350 divide by 5 hectares give 70 locusts per hectare. Na so we take know how the locusts crowd for that farmland.",
+"id": "biov1501",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following scenarios observed in Yankari Game Reserve best illustrates interspecific competition?",
+"options": [
+"Two male lions fighting over a lioness within the same pride",
+"A lion and a spotted hyena both feeding on the carcass of a dead buffalo",
+"A mother elephant guarding her calf from approaching predators",
+"Weaver birds of the same species building nests close together on one tree"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Interspecific competition happens between individuals of different species struggling for the same limited resource, as seen when a lion and a hyena both want the same carcass. The other options involve members of the same species, which is intraspecific interaction, not interspecific competition.",
+"pidgin": "Interspecific competition na when two different species dey fight for the same resource, like lion and hyena wey both wan chop the same dead buffalo. The other options na same species dey compete, so na intraspecific, not interspecific.",
+"id": "biov1502",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In parts of Oyo and Ogun States, continuous bush burning and clearing of forest land for farming over many years have gradually changed what used to be tropical rainforest into an area dominated by grasses with scattered trees. What is this human-influenced transitional biome called?",
+"options": [
+"Derived savanna",
+"Mangrove swamp forest",
+"Climax rainforest",
+"Sahel savanna"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Derived savanna forms when human activities such as repeated bush burning and farming destroy rainforest, allowing grasses to replace trees over time, especially at the forest-savanna boundary in southwestern Nigeria. It differs from Sahel savanna, which occurs naturally in the far north due to low rainfall, not human disturbance.",
+"pidgin": "Derived savanna na when human activity like bush burning and farming don clear rainforest make grass take over, e dey happen for the border between forest and savanna for southwest Nigeria. E different from Sahel savanna wey dey form naturally for far north because of low rain, no be because of human wahala.",
+"id": "biov1503",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

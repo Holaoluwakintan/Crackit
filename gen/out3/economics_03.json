@@ -1,0 +1,74 @@
+{
+"subject": "economics",
+"topic": "Theory of demand: law of demand, determinants, shifts and movements",
+"generated": 3,
+"kept": [
+{
+"q": "In demand theory, economists assume that all other factors affecting demand (such as income, taste and prices of related goods) remain unchanged while studying how price affects quantity demanded. This assumption is called",
+"options": [
+"Ceteris paribus",
+"Diminishing marginal utility",
+"Opportunity cost",
+"Law of diminishing returns"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Ceteris paribus means 'other things being equal'. It allows economists to isolate the effect of price on quantity demanded by holding other determinants constant. Without this assumption, the law of demand could not be clearly stated.",
+"pidgin": "Ceteris paribus mean say 'make other things remain the same'. E dey help economist check only how price dey affect quantity wey people wan buy, while e hold other factors steady. Na dis assumption make law of demand dey clear.",
+"py": null,
+"values": null,
+"id": "ecov0300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "The demand function for a bag of rice in a market in Onitsha is given as Qd = 60 - 3P, where Qd is quantity demanded in bags and P is price in thousands of naira. What quantity of rice will be demanded when the price is ₦8,000 per bag?",
+"options": [
+"36 bags",
+"24 bags",
+"44 bags",
+"52 bags"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Substitute P = 8 into Qd = 60 - 3P: Qd = 60 - (3 x 8) = 60 - 24 = 36 bags. This shows how a specific price level determines the exact quantity demanded along the demand curve.",
+"pidgin": "Put P = 8 inside Qd = 60 - 3P: Qd = 60 - (3 x 8) = 60 - 24 = 36 bags. Na so you take find the quantity wey people go demand for dat price.",
+"py": "60 - 3*8",
+"values": [
+36,
+24,
+44,
+52
+],
+"id": "ecov0301",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Suppose that in the same month, the average income of households in Jos rises, and at the same time the price of cooking gas (a complement to gas cookers) falls sharply. Assuming gas cookers are a normal good, what will most likely happen to the demand curve for gas cookers?",
+"options": [
+"It will shift to the right, showing an increase in demand",
+"It will shift to the left, showing a decrease in demand",
+"It will remain unchanged because the two effects cancel out",
+"There will only be a movement along the same demand curve"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A rise in income increases demand for a normal good, shifting its demand curve rightward. A fall in the price of a complement (cooking gas) also increases demand for gas cookers, shifting the curve further right. Since both forces push in the same direction, the demand curve for gas cookers shifts right, not left or unchanged.",
+"pidgin": "When income increase, people go wan buy more normal good like gas cooker, so demand curve go shift go right. Wen price of cooking gas (wey be complement) also drop, e go still make people buy more gas cooker, so curve go shift right again. Since both factors dey push same direction, the demand curve go shift right, e no go cancel out or just move along same curve.",
+"py": null,
+"values": null,
+"id": "ecov0302",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

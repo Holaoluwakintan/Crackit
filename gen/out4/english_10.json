@@ -1,0 +1,153 @@
+{
+"subject": "english",
+"topic": "Register: vocabulary of fields (sports, law, medicine, banking, etc.)",
+"ti": 10,
+"generated": 7,
+"kept": [
+{
+"q": "In banking, the word in capitals is used in this sentence: 'Before the loan was approved, the bank manager asked Mrs. Adaeze to provide some COLLATERAL.' The word in capitals means nearest to:",
+"options": [
+"security pledged for a loan",
+"interest rate charged",
+"profit margin",
+"account balance"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Collateral is an asset (like land or a car) that a borrower offers to a bank as security for a loan. If the borrower fails to repay, the bank can sell the collateral.",
+"pidgin": "Collateral na property wey person give bank as guarantee before dem go gree give am loan. If person no pay back, bank fit sell the property.",
+"id": "weng1000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In legal register, the person who brings a civil case to court against another person is called the:",
+"options": [
+"defendant",
+"plaintiff",
+"magistrate",
+"witness"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The plaintiff is the one who starts a civil lawsuit, while the defendant is the person being sued. A magistrate judges the case, and a witness gives testimony.",
+"pidgin": "Plaintiff na the person wey carry case go court against another person. Defendant na the one wey dem sue, magistrate na judge, witness na the one wey go testify.",
+"id": "weng1002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A doctor tells a patient's family, 'The PROGNOSIS for her recovery is good.' The word in capitals is nearest in meaning to:",
+"options": [
+"record of patient's medical history",
+"list of medicines prescribed",
+"result of a laboratory test",
+"forecast about the likely course of a disease"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Prognosis refers to a doctor's prediction of how a disease or illness is likely to develop or end, not a medical record or test result.",
+"pidgin": "Prognosis na doctor own prediction of how the sickness go turn out, e no be patient history or test result.",
+"id": "weng1003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A bank in Lagos holds large sums in government bonds that take months to sell, while another bank keeps most of its funds in cash and short-term treasury bills that can be accessed within days. In banking terms, the second bank has higher:",
+"options": [
+"solvency",
+"liquidity",
+"profitability",
+"collateral"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Liquidity means how quickly an asset can be turned into cash to meet urgent obligations. The second bank can access cash faster, so it has higher liquidity, while solvency relates to total assets exceeding liabilities, not speed of conversion.",
+"pidgin": "Liquidity na how quick asset fit turn to cash. The second bank get money wey e fit use sharp sharp, so im liquidity high pass. Solvency na different thing, e be say your asset pass your debt.",
+"id": "weng1004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "After the trial, the judge said, 'The court hereby grants an ACQUITTAL to the accused.' The word in capitals means:",
+"options": [
+"declaration of not guilty",
+"sentencing to prison",
+"filing of a lawsuit",
+"cross-examination of a witness"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "An acquittal means the court has found the accused person not guilty and he is set free. It is the opposite of a conviction or sentencing.",
+"pidgin": "Acquittal mean say court don declare say the person no guilty, so dem go free am. Na opposite of when dem convict or sentence person.",
+"id": "weng1005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the passage and answer the question that follows: During the inter-house sports competition at Government Secondary School, Kaduna, Tunde suffered a slight injury in the 100-metre race. The coach quickly brought in another athlete to take his place so that the Blue House team would not lose vital points. What is the athlete who replaces Tunde called in sports register?",
+"options": [
+"referee",
+"captain",
+"substitute",
+"linesman"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A substitute is a player who comes in to replace another player during a competition, which is exactly what happened to Tunde in the passage.",
+"pidgin": "Substitute na the player wey enter replace another player for competition, na wetin happen to Tunde for the passage.",
+"id": "weng1006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "During a football match commentary, the commentator shouts, 'That was a clear offside!' In sports register, a player is OFFSIDE when:",
+"options": [
+"he commits a foul tackle on an opponent",
+"he scores a goal from outside the penalty area",
+"he is nearer to the opponent's goal line than both the ball and the second-last defender when the ball is played to him",
+"he receives a yellow card from the referee"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Offside is a football rule that applies to a player's position relative to the ball and defenders, not to fouls or cards. A player is offside if he is ahead of the second-last defender and the ball when a teammate passes to him.",
+"pidgin": "Offside na football rule wey dey talk about where player dey stand, e no be about foul or card. If player dey pass the second-to-last defender before im teammate pass am ball, na offside be that.",
+"id": "weng1001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Offside also requires the opponent’s half and active involvement; exceptions apply.|"
+}
+]
+}

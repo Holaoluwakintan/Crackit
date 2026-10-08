@@ -1,0 +1,165 @@
+{
+"subject": "maths",
+"topic": "Sets and Venn diagrams",
+"ti": 4,
+"generated": 6,
+"kept": [
+{
+"q": "Given that P = {2, 4, 6, 8, 10, 12} and Q = {3, 6, 9, 12, 15}, find P ∩ Q.",
+"options": [
+"{6, 12}",
+"{2, 3, 4, 6, 8, 9, 10, 12, 15}",
+"{2, 4, 8, 10}",
+"{3, 9, 15}"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "P ∩ Q means the elements that appear in both sets. Checking both lists, only 6 and 12 appear in P and Q.",
+"pidgin": "P ∩ Q na di elements wey dey inside both sets. If you check well, na only 6 and 12 dey common for di two sets.",
+"py": null,
+"values": null,
+"id": "wmth0400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The universal set is U = {1,2,3,4,5,6,7,8,9,10}. If A = {2,4,6,8,10}, find A' (the complement of A in U).",
+"options": [
+"{1,3,5,7,9}",
+"{2,4,6,8,10}",
+"{1,2,3,4,5}",
+"{} (empty set)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The complement A' contains all elements in U that are NOT in A. Since A has all the even numbers, A' must have all the odd numbers: 1,3,5,7,9.",
+"pidgin": "A' na everything wey dey inside U but e no dey inside A. Since A get all di even numbers, A' go be all di odd numbers: 1,3,5,7,9.",
+"py": null,
+"values": null,
+"id": "wmth0401",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a class of 50 students at Government Secondary School, Abeokuta, 32 students offer Mathematics, 28 offer Physics, and 15 offer both subjects. How many students offer neither Mathematics nor Physics?",
+"options": [
+"3",
+"5",
+"8",
+"10"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Students offering at least one subject = 32 + 28 - 15 = 45 (using the union rule to avoid double counting the 15 who do both). So students offering neither = 50 - 45 = 5.",
+"pidgin": "Students wey dey offer at least one subject = 32 + 28 - 15 = 45, because we no wan count di 15 wey do both subjects twice. So di ones wey no offer any = 50 - 45 = 5.",
+"py": "50-(32+28-15)",
+"values": [
+3,
+5,
+8,
+10
+],
+"id": "wmth0402",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In a survey of 40 traders at Onitsha Main Market, 25 traders sell rice, 18 sell beans, and 10 sell both rice and beans. How many traders sell only rice?",
+"options": [
+"8",
+"10",
+"15",
+"18"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Traders who sell only rice means those selling rice minus those who sell both rice and beans. So only rice = 25 - 10 = 15.",
+"pidgin": "Traders wey sell only rice na dem wey sell rice minus di ones wey sell both rice and beans. So na 25 - 10 = 15.",
+"py": "25-10",
+"values": [
+8,
+10,
+15,
+18
+],
+"id": "wmth0403",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A set has exactly 5 elements. How many subsets (including the empty set and the set itself) can be formed from this set?",
+"options": [
+"10",
+"16",
+"25",
+"32"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A set with n elements has 2^n subsets. Here n = 5, so the number of subsets = 2^5 = 32.",
+"pidgin": "If set get n elements, di subsets wey e get na 2^n. Here n = 5, so subsets = 2^5 = 32.",
+"py": "2**5",
+"values": [
+10,
+16,
+25,
+32
+],
+"id": "wmth0404",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In a school of 100 students, 45 study French, 50 study Yoruba, and 40 study Hausa. Among these, 15 study both French and Yoruba, 20 study both Yoruba and Hausa, 10 study both French and Hausa, and 5 study all three languages. How many students study none of the three languages?",
+"options": [
+"5",
+"10",
+"15",
+"20"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Using the three-set rule: Number studying at least one = 45+50+40-15-20-10+5 = 95. So students studying none = 100 - 95 = 5.",
+"pidgin": "Using di three-set formula: Students wey study at least one language = 45+50+40-15-20-10+5 = 95. So di ones wey no study any language = 100 - 95 = 5.",
+"py": "100-(45+50+40-15-20-10+5)",
+"values": [
+5,
+10,
+15,
+20
+],
+"id": "wmth0405",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

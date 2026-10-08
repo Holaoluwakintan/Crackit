@@ -1,0 +1,113 @@
+{
+"subject": "physics",
+"topic": "Photoelectric effect and energy quantisation",
+"generated": 4,
+"kept": [
+{
+"q": "In Einstein's photoelectric equation, hf = W0 + KE(max), what does the term W0 represent?",
+"options": [
+"The total energy carried by the incident photon",
+"The minimum energy needed to free an electron from the metal surface (the work function)",
+"The maximum kinetic energy of the emitted photoelectron",
+"The frequency of the incident radiation"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "W0 is called the work function. It is the least amount of energy an electron needs to escape from the metal surface. The photon energy hf supplies this, and any extra energy becomes the electron's kinetic energy.",
+"pidgin": "W0 na di work function. Na di smallest energy wey electron need before e fit comot from di metal. Di photon energy hf dey give dis one, any extra energy become kinetic energy of di electron.",
+"py": null,
+"values": null,
+"id": "phyv2300",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A photon of energy 4.5 eV strikes a metal surface whose work function is 1.9 eV. Using mass of electron m = 9.11 x 10^-31 kg and 1 eV = 1.6 x 10^-19 J, calculate the maximum speed of the emitted photoelectron.",
+"options": [
+"2.3 x 10^5 m/s",
+"4.8 x 10^5 m/s",
+"1.9 x 10^6 m/s",
+"9.6 x 10^5 m/s"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Max KE = 4.5 eV - 1.9 eV = 2.6 eV = 2.6 x 1.6x10^-19 = 4.16x10^-19 J. Using KE = 1/2 m v^2, v = sqrt(2KE/m) = sqrt(2 x 4.16x10^-19 / 9.11x10^-31) which gives about 9.6 x 10^5 m/s.",
+"pidgin": "Max KE = 4.5 eV - 1.9 eV = 2.6 eV = 2.6 x 1.6x10^-19 = 4.16x10^-19 J. From KE = 1/2 m v^2, v = sqrt(2KE/m) = sqrt(2 x 4.16x10^-19 / 9.11x10^-31) wey give about 9.6 x 10^5 m/s.",
+"py": "math.sqrt(2*(4.5-1.9)*1.6e-19/9.11e-31)",
+"values": [
+230000.0,
+480000.0,
+1900000.0,
+956000.0
+],
+"id": "phyv2303",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A photon of light has a wavelength of 400 nm. Using h = 6.63 x 10^-34 Js, c = 3.0 x 10^8 m/s and 1 eV = 1.6 x 10^-19 J, calculate the energy of this photon in electron-volts (eV).",
+"options": [
+"3.1 eV",
+"1.55 eV",
+"6.2 eV",
+"0.31 eV"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Photon energy E = hc/lambda = (6.63x10^-34 x 3.0x10^8)/(400x10^-9) = 4.97x10^-19 J. Dividing by 1.6x10^-19 J per eV gives about 3.1 eV.",
+"pidgin": "Energy of photon E = hc/lambda = (6.63x10^-34 x 3.0x10^8)/(400x10^-9) = 4.97x10^-19 J. If you divide am by 1.6x10^-19 J (1 eV), you go get about 3.1 eV.",
+"py": "(6.63e-34*3.0e8/(400e-9))/1.6e-19",
+"values": [
+3.1,
+1.55,
+6.2,
+0.31
+],
+"id": "phyv2301",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+},
+{
+"q": {
+"q": "Light of frequency 7.5 x 10^14 Hz shines on a clean metal plate whose work function is 2.3 eV. Using h = 6.63 x 10^-34 Js and 1 eV = 1.6 x 10^-19 J, calculate the stopping potential needed to stop the fastest photoelectrons.",
+"options": [
+"3.1 V",
+"1.62 V",
+"0.81 V",
+"2.3 V"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Photon energy E = hf = 6.63x10^-34 x 7.5x10^14 = 4.97x10^-19 J, which is about 3.1 eV. Max KE = 3.1 eV - 2.3 eV (work function) = 0.8 eV. Since stopping potential in volts equals KE in eV, Vs is about 0.81 V.",
+"pidgin": "Photon energy E = hf = 6.63x10^-34 x 7.5x10^14 = 4.97x10^-19 J, wey be like 3.1 eV. Max KE = 3.1 eV - 2.3 eV (work function) = 0.8 eV. Since stopping potential (in volts) dey equal KE (in eV), Vs don be about 0.81 V.",
+"py": "((6.63e-34*7.5e14)/1.6e-19) - 2.3",
+"values": [
+3.1,
+1.62,
+0.81,
+2.3
+],
+"id": "phyv2302",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+}
+]
+}

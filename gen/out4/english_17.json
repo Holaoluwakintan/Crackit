@@ -1,0 +1,149 @@
+{
+"subject": "english",
+"topic": "Oral English: rhymes and homophones",
+"ti": 17,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following words rhymes with the word in capitals: CHAIR?",
+"options": [
+"CHEER",
+"FAIR",
+"CHOIR",
+"CAR"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "FAIR is pronounced /feə/, which has the same ending sound as CHAIR /tʃeə/. The other words end with different vowel sounds.",
+"pidgin": "FAIR dey sound /feə/ and e match CHAIR /tʃeə/ for the back part. The other words no get that same sound.",
+"id": "weng1700",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Choose the word that is a homophone of the word in capitals: SEA.",
+"options": [
+"SEE",
+"SIT",
+"SAY",
+"SO"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "SEA and SEE are pronounced exactly the same way, /siː/, but have different spellings and meanings. The other options sound different from SEA.",
+"pidgin": "SEA and SEE get the same sound /siː/ but dem no mean the same thing. The other words sound different.",
+"id": "weng1701",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following words rhymes with the word in capitals: FEAR?",
+"options": [
+"BEAR",
+"FAIR",
+"FUR",
+"YEAR"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "FEAR /fɪə/ and YEAR /jɪə/ share the same ending sound. BEAR and FAIR end in /eə/, while FUR ends in a totally different sound.",
+"pidgin": "FEAR and YEAR get the same back sound /ɪə/. BEAR and FAIR get different sound /eə/, and FUR no even close at all.",
+"id": "weng1702",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Choose the word that is a homophone of the word in capitals: WEAK.",
+"options": [
+"WICK",
+"WAKE",
+"WEEK",
+"WORK"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "WEAK and WEEK are both pronounced /wiːk/, even though one refers to strength and the other to a period of seven days. The other options have different vowel sounds.",
+"pidgin": "WEAK and WEEK dey sound the same /wiːk/, but one mean say person no strong, the other one mean seven days. The other words no sound like am.",
+"id": "weng1703",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following words rhymes with the word in capitals: BOUGHT?",
+"options": [
+"BOAT",
+"TAUGHT",
+"BOUT",
+"BOUGH"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "BOUGHT /bɔːt/ and TAUGHT /tɔːt/ both end with the same long vowel and consonant sound. BOAT, BOUT and BOUGH all have different vowel sounds from BOUGHT.",
+"pidgin": "BOUGHT and TAUGHT get the same ending sound /ɔːt/. BOAT, BOUT and BOUGH no get that kain sound.",
+"id": "weng1704",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Three of the following words rhyme with one another while one does not. Which word does NOT rhyme with the others: TOUGH, ROUGH, ENOUGH, COUGH?",
+"options": [
+"TOUGH",
+"ROUGH",
+"ENOUGH",
+"COUGH"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "TOUGH, ROUGH and ENOUGH are all pronounced with the /ʌf/ sound at the end, but COUGH is pronounced with /ɒf/, which is a different vowel sound. This shows that 'ough' spelling does not always give the same sound in English.",
+"pidgin": "TOUGH, ROUGH and ENOUGH dey end with /ʌf/ sound, but COUGH dey end with /ɒf/ which be different vowel. Na so 'ough' spelling fit sound different-different for English.",
+"id": "weng1705",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chief Nduka was a wise ruler who was loved by his people. Choose the correct homophone to complete the sentence: 'The king began his ___ at a young age, and his people respected him greatly.'",
+"options": [
+"REIGN",
+"RAIN",
+"REIN",
+"RUNG"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "REIGN means the period a king or queen rules, which fits the sentence about the king's rule. RAIN refers to water falling from the sky, REIN is used to control a horse, and these are all homophones of REIGN but wrong in meaning here.",
+"pidgin": "REIGN mean the time wey king or queen dey rule, and na im fit the sentence well. RAIN na water wey dey fall from sky, REIN na the thing wey dem dey use control horse; all of dem sound like REIGN but dem no fit the meaning here.",
+"id": "weng1706",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

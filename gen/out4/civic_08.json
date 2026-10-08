@@ -1,0 +1,149 @@
+{
+"subject": "civic",
+"topic": "Public service and its challenges",
+"ti": 8,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines 'public service' as used in Civic Education?",
+"options": [
+"The totality of government agencies and institutions established to implement policies and deliver services to citizens",
+"All religious organizations that provide charity services to members",
+"Private companies licensed to execute government contracts",
+"Trade unions that represent workers across various industries"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Public service refers to government ministries, departments and agencies set up to carry out government policies and provide services like health, education and security to the people. The other options describe private or voluntary bodies, not government institutions.",
+"pidgin": "Public service na all the government ministries and agencies wey dem set up to carry out government policies and give services like health, education and security to the people. The other options na private or voluntary bodies, no be government ones.",
+"id": "wciv0800",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A key feature of public service is that civil servants are expected to be politically neutral. This means a civil servant should",
+"options": [
+"resign from office anytime a new political party takes over government",
+"serve the government of the day loyally regardless of which political party is in power",
+"campaign openly for the political party he supports",
+"refuse to carry out policies made by an opposition-led government"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Political neutrality means civil servants are permanent staff who serve whichever government is in power without taking sides. This ensures continuity and stability of government business.",
+"pidgin": "Political neutrality mean say civil servant na permanent staff wey go serve whichever government dey power, no matter the party. Dis one dey ensure say government work no go stop or scatter when new party come.",
+"id": "wciv0801",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A major challenge of public service in Nigeria is bureaucratic bottleneck, often called 'red tape'. This refers to",
+"options": [
+"fast and transparent approval of official documents",
+"a reduction in the number of official procedures needed",
+"the use of only one signature to approve all files",
+"excessive and rigid official procedures that cause unnecessary delay in service delivery"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Red tape describes too many unnecessary official steps and approvals that slow down the delivery of services to the public. It is a common complaint against public service in many countries, including Nigeria.",
+"pidgin": "Red tape na when too many unnecessary official steps and approvals dey slow down how government dey give service to people. Na common complain against public service for many country, Nigeria inclusive.",
+"id": "wciv0802",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which Nigerian body is specifically responsible for receiving and verifying the asset declaration forms of public officers before and after they leave office?",
+"options": [
+"Economic and Financial Crimes Commission (EFCC)",
+"Independent Corrupt Practices and Other Related Offences Commission (ICPC)",
+"Code of Conduct Bureau (CCB)",
+"Nigeria Police Force"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Code of Conduct Bureau is the agency set up to receive, keep and verify asset declaration forms of public officers as required by the Constitution. EFCC and ICPC mainly investigate and prosecute corruption, while the Police handle general law enforcement.",
+"pidgin": "Code of Conduct Bureau na the agency wey dem set up to collect, keep and check asset declaration forms of public officers as the Constitution talk am. EFCC and ICPC dey more on investigate and prosecute corruption, while Police dey handle general law enforcement.",
+"id": "wciv0803",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When a public officer gives undue preference to members of his own family or ethnic group in employment or promotion instead of considering merit, this challenge in public service is called",
+"options": [
+"nepotism",
+"transparency",
+"accountability",
+"meritocracy"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Nepotism is the practice of favouring relatives or members of one's ethnic group over more qualified persons when giving jobs or promotions. It weakens efficiency and fairness in public service.",
+"pidgin": "Nepotism na when person dey favour im family or im tribe people pass better qualified person for job or promotion. E dey spoil efficiency and fairness for public service.",
+"id": "wciv0804",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Eze, a civil servant in a state Ministry of Education, complains that her monthly salary cannot meet her family needs, so she now collects bribes from contractors before approving their files. This scenario best illustrates which challenge of public service?",
+"options": [
+"Over-staffing of ministries",
+"Poor remuneration leading to corrupt practices",
+"Excessive workload on senior staff",
+"Lack of job security for workers"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Low salaries can push some civil servants into demanding bribes to survive, which is a common cause of corruption in public service. The scenario shows a direct link between poor pay and Mrs. Eze's corrupt behaviour.",
+"pidgin": "Low salary fit push some civil servant make dem dey collect bribe just to survive, and na common reason wey dey cause corruption for public service. The story show clear connection between Mrs. Eze poor pay and her corrupt act.",
+"id": "wciv0805",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Alhaji Sule, a farmer in Kebbi State, waited eight months to collect his fertilizer subsidy voucher because his application had to pass through eleven different offices for approval. Which reform would MOST effectively solve this type of challenge in public service delivery?",
+"options": [
+"Employing more junior staff in each of the eleven offices",
+"Introducing e-governance to simplify and reduce bureaucratic procedures",
+"Increasing the number of offices the file must pass through",
+"Transferring the farmer's file to a private company for safe keeping"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The problem is too many bureaucratic steps causing delay, so the best solution is to simplify processes using e-governance (online applications and tracking), which cuts down unnecessary stages. Adding more staff or more offices would not remove the root cause, which is the long, rigid procedure.",
+"pidgin": "The real problem na too many bureaucratic steps wey dey cause delay, so the best solution na to use e-governance (online application and tracking) make the process short well well. To add more staff or more offices no go solve am because the main wahala na the long, stiff procedure.",
+"id": "wciv0806",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

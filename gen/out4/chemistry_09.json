@@ -1,0 +1,153 @@
+{
+"subject": "chemistry",
+"topic": "Energy changes in reactions",
+"ti": 9,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following best describes an exothermic reaction?",
+"options": [
+"a reaction that releases heat to the surroundings",
+"a reaction that absorbs heat from the surroundings",
+"a reaction that requires continuous heating to proceed",
+"a reaction that only occurs at very high temperature"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An exothermic reaction gives out heat energy to the surroundings, so the surroundings get warmer. This is the standard definition used in WAEC chemistry.",
+"pidgin": "Exothermic reaction na reaction wey dey release heat go the surrounding, so the environment go hot small. Na so WAEC chemistry dey define am.",
+"py": null,
+"values": null,
+"id": "wche0900",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following processes is endothermic?",
+"options": [
+"combustion of methane gas in air",
+"dissolving ammonium nitrate (NH4NO3) in water",
+"neutralization of sodium hydroxide with hydrochloric acid",
+"rusting of an iron nail exposed to air and moisture"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "When ammonium nitrate dissolves in water, it absorbs heat from the water, making the solution feel cold. Combustion, neutralization and rusting all release heat, so they are exothermic.",
+"pidgin": "When ammonium nitrate dissolve for water, e dey absorb heat from the water make solution cold. Combustion, neutralization and rusting dey release heat, so dem be exothermic.",
+"py": null,
+"values": null,
+"id": "wche0901",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student dissolves a sample of sodium hydroxide pellets in 100 cm^3 of water in a plastic cup calorimeter. The temperature of the water rises from 25°C to 33°C. Given that the specific heat capacity of water is 4.2 J/g°C and the density of water is 1 g/cm^3, calculate the quantity of heat released during the dissolution.",
+"options": [
+"2100 J",
+"4200 J",
+"3360 J",
+"840 J"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Mass of water = 100 g (density 1 g/cm3). Temperature change = 33 - 25 = 8°C. Heat = mc(delta T) = 100 x 4.2 x 8 = 3360 J.",
+"pidgin": "Mass of water na 100 g because density na 1 g/cm3. Temperature change na 33 minus 25 wey be 8°C. Heat = mc(delta T) = 100 x 4.2 x 8 = 3360 J.",
+"py": "100*4.2*8",
+"values": [
+2100,
+4200,
+3360,
+840
+],
+"id": "wche0902",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Using the bond energies H-H = 436 kJ/mol, Cl-Cl = 242 kJ/mol and H-Cl = 431 kJ/mol, calculate the enthalpy change, delta H, for the reaction: H2(g) + Cl2(g) -> 2HCl(g)",
+"options": [
+"+184 kJ/mol",
+"-862 kJ/mol",
+"+678 kJ/mol",
+"-184 kJ/mol"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Delta H = (bonds broken) - (bonds formed) = (436 + 242) - (2 x 431) = 678 - 862 = -184 kJ/mol. The negative sign shows the reaction releases energy, so it is exothermic.",
+"pidgin": "Delta H = (bonds wey break) - (bonds wey form) = (436 + 242) - (2 x 431) = 678 - 862 = -184 kJ/mol. The minus sign show say the reaction dey release energy, so na exothermic.",
+"py": "(436+242)-2*431",
+"values": [
+184,
+-862,
+678,
+-184
+],
+"id": "wche0903",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In the energy level diagram for a certain reaction, the reactants are at an energy level of 50 kJ, the products are at 20 kJ, and the peak of the curve representing the activated complex is at 90 kJ. What is the activation energy of the forward reaction, and is the overall reaction exothermic or endothermic?",
+"options": [
+"Activation energy = 40 kJ; the reaction is exothermic",
+"Activation energy = 70 kJ; the reaction is endothermic",
+"Activation energy = 40 kJ; the reaction is endothermic",
+"Activation energy = 30 kJ; the reaction is exothermic"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Activation energy is the difference between the peak and the reactants: 90 - 50 = 40 kJ. Since products (20 kJ) are lower in energy than reactants (50 kJ), the reaction releases energy overall, making it exothermic.",
+"pidgin": "Activation energy na the gap between the peak and reactants: 90 - 50 = 40 kJ. Since products (20 kJ) dey lower pass reactants (50 kJ), the reaction dey release energy overall, so na exothermic.",
+"py": null,
+"values": null,
+"id": "wche0904",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A catalyst increases the rate of a chemical reaction mainly by",
+"options": [
+"increasing the activation energy required for the reaction",
+"providing an alternative reaction pathway with a lower activation energy",
+"increasing the temperature of the reacting substances",
+"increasing the concentration of the reactants"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A catalyst works by offering a different route for the reaction that needs less activation energy, so more molecules can react successfully. It does not change the temperature or concentration of reactants.",
+"pidgin": "Catalyst dey work by giving another road for the reaction wey need less activation energy, so plenty molecules fit react well well. E no dey change temperature or concentration of the reactants.",
+"py": null,
+"values": null,
+"id": "wche0905",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

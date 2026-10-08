@@ -1,0 +1,80 @@
+{
+"subject": "economics",
+"topic": "Population: theories, census and structure",
+"generated": 3,
+"kept": [
+{
+"q": "In population studies, what name is given to the official, periodic, and systematic process of counting every person in a country, usually recording details such as age, sex, and occupation, at a specific point in time?",
+"options": [
+"Census",
+"Sample survey",
+"Vital registration",
+"Population projection"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A census is the complete count of all persons in a country at a particular time, including details like age, sex and occupation. A sample survey only covers part of the population, while vital registration tracks births/deaths continuously, not a one-time count.",
+"pidgin": "Census na di full and official count of everybody for one kontri, dem go record di age, sex and wetin dem dey do. Sample survey no cover everybody, and vital registration na continuous recording, e no be one-time full count.",
+"py": null,
+"values": null,
+"id": "ecov1700",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A town in Delta State has a total population of 80,000. Out of this, 20,000 are children aged 0-14 years and 10,000 are elderly persons aged 65 years and above. The remaining people make up the working-age population. What is the dependency ratio of the town, expressed as a percentage?",
+"options": [
+"60%",
+"40%",
+"75%",
+"50%"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Working-age population = 80,000 - 20,000 - 10,000 = 50,000. Dependency ratio = (children + elderly) / working-age population x 100 = (20,000 + 10,000) / 50,000 x 100 = 60%. This shows that for every 100 working people, there are 60 dependants to support.",
+"pidgin": "Working-age people = 80,000 minus 20,000 minus 10,000 = 50,000. Dependency ratio = (children + old people) divide working-age, multiply by 100 = 30,000/50,000 x 100 = 60%. So na 60 dependants for every 100 working people.",
+"py": "(20000+10000)/50000*100",
+"values": [
+60.0,
+40.0,
+75.0,
+50.0
+],
+"id": "ecov1701",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A developing country's population is growing at a constant annual rate of 2.5%. Using the simple 'Rule of 70' (Doubling time = 70 / annual growth rate), approximately how many years will it take for the country's population to double in size?",
+"options": [
+"28 years",
+"35 years",
+"20 years",
+"14 years"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Using the Rule of 70: Doubling time = 70 / 2.5 = 28 years. This rule gives a quick estimate of how long a growing quantity, like population, takes to double at a given constant percentage growth rate. A higher growth rate always means a shorter doubling time.",
+"pidgin": "Dem dey use Rule of 70: Doubling time = 70 divide by 2.5 = 28 years. Dis rule na fast way to sabi how long population go take double if di growth rate no change. If growth rate high pass, e go take shorter time to double.",
+"py": "70/2.5",
+"values": [
+28.0,
+35.0,
+20.0,
+14.0
+],
+"id": "ecov1702",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

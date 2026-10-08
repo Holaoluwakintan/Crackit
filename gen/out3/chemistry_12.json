@@ -1,0 +1,104 @@
+{
+"subject": "chemistry",
+"topic": "Water, hardness of water and solubility",
+"generated": 4,
+"kept": [
+{
+"q": "Permanent hardness of water, caused mainly by dissolved calcium and magnesium tetraoxosulphate(VI) salts, can be removed by adding which of the following substances to precipitate the ions as insoluble carbonates?",
+"options": [
+"Sodium trioxocarbonate(IV) (washing soda)",
+"Sodium chloride",
+"Dilute tetraoxosulphate(VI) acid",
+"Potassium trioxonitrate(V)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Washing soda (Na2CO3) reacts with Ca2+ and Mg2+ ions in water to form insoluble CaCO3 and MgCO3, which settle out and remove permanent hardness. The other substances either do not react with these ions or would make the water worse.",
+"pidgin": "Washing soda (Na2CO3) de react wit di Ca2+ and Mg2+ wey dey water, e go form CaCO3 and MgCO3 wey no dey dissolve, so dem go settle down. Di oda options no fit do dis kain reaction well.",
+"py": null,
+"values": null,
+"id": "chev1200",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "The solubility of potassium chloride (KCl) in water at 25°C is 34 g per 100 g of water. What mass of KCl is needed to form a saturated solution with 250 g of water at this same temperature?",
+"options": [
+"68 g",
+"100 g",
+"85 g",
+"34 g"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Solubility is given per 100 g of water, so scale up: 250 g water is 2.5 times 100 g. Multiply 34 g by 2.5 to get 85 g of KCl needed to saturate the solution.",
+"pidgin": "Dem talk say 34 g KCl dey dissolve for 100 g water. 250 g water na 2.5 times 100 g, so multiply 34 g by 2.5 to get 85 g.",
+"py": "34*(250/100)",
+"values": [
+68,
+100,
+85,
+34
+],
+"id": "chev1201",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A chemistry teacher in Enugu tested two water samples with the same amount of soap solution. Sample A formed a thick lather almost immediately, while Sample B needed far more soap before any lather appeared and produced a sticky scum on top. Based on this observation, what can be concluded about Sample B?",
+"options": [
+"Sample B is pure, soft water with no dissolved ions",
+"Sample B contains dissolved calcium and/or magnesium salts causing hardness",
+"Sample B is distilled water used for laboratory experiments",
+"Sample B contains only dissolved oxygen gas"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Hard water contains Ca2+ and/or Mg2+ ions which react with soap to form an insoluble scum instead of lather. The need for extra soap before lathering, plus the scum formed, are classic signs of hard water caused by these dissolved salts.",
+"pidgin": "Hard water get Ca2+ and Mg2+ wey de react wit soap make scum instead of lather. Di fact say Sample B need plenty soap before e lather, and e still form scum, show say e get dis kain dissolved salts.",
+"py": null,
+"values": null,
+"id": "chev1202",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The solubility of calcium tetraoxosulphate(VI), CaSO4, in water at 25°C is 0.67 g per 100 cm^3 of solution. Calculate the solubility of CaSO4 in mol/dm^3 at this temperature. [Ca = 40, S = 32, O = 16]",
+"options": [
+"0.0049 mol/dm^3",
+"0.49 mol/dm^3",
+"4.9 mol/dm^3",
+"0.049 mol/dm^3"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "First convert 0.67 g per 100 cm^3 to per dm^3 (1000 cm^3): 0.67 x 10 = 6.7 g/dm^3. Molar mass of CaSO4 = 40 + 32 + (16x4) = 136 g/mol. Dividing, 6.7/136 = 0.049 mol/dm^3.",
+"pidgin": "First change 0.67 g per 100 cm^3 to per dm^3 (1000 cm^3): 0.67 x 10 = 6.7 g/dm^3. CaSO4 molar mass na 40+32+64=136 g/mol. 6.7 divide by 136 give 0.049 mol/dm^3.",
+"py": "(0.67*10)/136",
+"values": [
+0.0049,
+0.49,
+4.9,
+0.049
+],
+"id": "chev1203",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+}
+]
+}

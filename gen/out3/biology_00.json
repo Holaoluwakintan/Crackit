@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Variety of organisms: classification and the five kingdoms",
+"generated": 4,
+"kept": [
+{
+"q": "A student describes an organism as eukaryotic, mostly multicellular, autotrophic, and possessing a rigid cell wall made of cellulose. In Whittaker's five-kingdom system, this organism most likely belongs to kingdom:",
+"options": [
+"Plantae",
+"Fungi",
+"Monera",
+"Protista"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Plants are eukaryotic, mostly multicellular, make their own food by photosynthesis, and have cell walls made of cellulose. Fungi have chitin walls and feed by absorption, while Monera and Protista are mostly unicellular.",
+"pidgin": "Plant na eukaryote wey get plenty cells, dem dey make dia own food (autotroph) and dia cell wall na cellulose. Fungi na chitin wall and dem no dey make food, while Monera and Protista mostly be single cell organisms.",
+"id": "biov0000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Arrange the following taxonomic categories in the correct order starting from the broadest (most inclusive) group to the narrowest (most specific) group: Class, Genus, Order, Phylum.",
+"options": [
+"Phylum, Class, Order, Genus",
+"Class, Phylum, Genus, Order",
+"Genus, Order, Class, Phylum",
+"Order, Phylum, Class, Genus"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In the hierarchy of classification, Phylum is broader than Class, Class is broader than Order, and Order is broader than Genus. So the correct sequence from broadest to narrowest is Phylum, Class, Order, Genus.",
+"pidgin": "For classification ladder, Phylum big pass Class, Class big pass Order, and Order big pass Genus. So the correct order na Phylum, Class, Order, Genus from big to small.",
+"id": "biov0001",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Under the microscope, Miss Adaeze observes a single-celled organism with a true nucleus and green chloroplasts, but the organism does not move and stays attached to pond debris. To which kingdom should this organism most likely be assigned?",
+"options": [
+"Plantae",
+"Protista",
+"Monera",
+"Fungi"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since the organism is eukaryotic but unicellular, it cannot be Plantae, which requires multicellularity. Many algae in kingdom Protista are unicellular, have chloroplasts, and some do not actively move, matching this description.",
+"pidgin": "Since the organism get true nucleus but e be just one cell, e no fit be Plantae wey get plenty cells. Many algae for Protista na single cell, get green chloroplast, and some no dey waka, so e match well well.",
+"id": "biov0002",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Both Amoeba (a protist) and earthworm (an animal) are heterotrophic and eukaryotic, yet they are placed in different kingdoms. Which feature best justifies this separation?",
+"options": [
+"Earthworm shows specialized tissues and organs formed from many differentiated cells, while Amoeba remains a single undifferentiated cell",
+"Earthworm can move while Amoeba cannot move at all",
+"Earthworm has a cell membrane while Amoeba lacks one",
+"Earthworm reproduces asexually while Amoeba reproduces only sexually"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Both organisms are heterotrophic eukaryotes, so nutrition alone cannot separate them. The real difference is that animals like earthworms develop many specialised tissues and organs from differentiated cells, while protists like Amoeba remain single-celled without such organisation.",
+"pidgin": "Both of dem dey heterotroph and eukaryote, so nutrition no fit separate dem. The main difference na say earthworm get special tissues and organs wey come from plenty different cells, but Amoeba remain just one cell without any organisation like that.",
+"id": "biov0003",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

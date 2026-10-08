@@ -1,0 +1,168 @@
+{
+"subject": "commerce",
+"topic": "Banking: types of banks, services, cheques and the Central Bank",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following banks is the only one authorized by law to issue legal tender currency notes and coins in Nigeria?",
+"options": [
+"Bank of Industry",
+"Central Bank of Nigeria",
+"First Bank of Nigeria",
+"Nigerian Export-Import Bank"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Central Bank of Nigeria (CBN) has the sole legal right to print and issue Nigeria's currency. Other banks such as First Bank only accept deposits and lend money; they cannot print currency.",
+"pidgin": "Na only Central Bank of Nigeria (CBN) get permission by law to print and bring out Naira notes and coins. Other banks like First Bank just dey collect money and give loan, dem no fit print money.",
+"py": null,
+"values": null,
+"id": "comv0600",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A cheque has two parallel lines drawn across its face with the words 'Not Negotiable' written between the lines. What type of cheque is this?",
+"options": [
+"Bearer cheque",
+"Open cheque",
+"Crossed cheque",
+"Stale cheque"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Drawing two parallel lines across a cheque is called crossing, and it means the cheque must be paid only into a bank account, not cashed over the counter. This makes the cheque safer against theft.",
+"pidgin": "When you draw two lines for cheque face like that, dem dey call am crossed cheque. E mean say the money must enter bank account, dem no fit cash am for counter. E dey make the cheque safe from thief.",
+"py": null,
+"values": null,
+"id": "comv0601",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of the following activities is NOT normally carried out by the Central Bank of Nigeria?",
+"options": [
+"Issuing and controlling the national currency",
+"Acting as banker to the Federal Government",
+"Acting as lender of last resort to commercial banks",
+"Accepting savings deposits from ordinary members of the public"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The CBN deals mainly with the government and commercial banks, not with individual members of the public. Accepting personal savings is the work of commercial banks like GTBank or Zenith Bank, not the CBN.",
+"pidgin": "CBN dey work with government and the commercial banks, e no dey open account for ordinary person. To collect person savings na work for commercial bank like GTBank or Zenith Bank, no be CBN work.",
+"py": null,
+"values": null,
+"id": "comv0602",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Mr Okafor wrote a cheque of ₦50,000 to Mrs Bello, but when she took it to the bank, the bank refused to pay because Mr Okafor's account had only ₦10,000. What type of cheque is this?",
+"options": [
+"Dishonoured cheque",
+"Crossed cheque",
+"Stale cheque",
+"Post-dated cheque"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A cheque that a bank refuses to pay because the drawer's account lacks sufficient funds is called a dishonoured cheque. It has nothing to do with crossing, age, or a future date on the cheque.",
+"pidgin": "When bank refuse to pay cheque because the person wey write am no get enough money for im account, dem dey call am dishonoured cheque. E no concern crossing, how old the cheque be, or any future date for am.",
+"py": null,
+"values": null,
+"id": "comv0603",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A bank that specializes in giving medium and long-term loans mainly for industrial and agricultural projects, instead of focusing on short-term deposits from the general public, is best classified as a ______.",
+"options": [
+"merchant bank",
+"commercial bank",
+"savings bank",
+"development bank"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Development banks, such as the Bank of Industry, exist specifically to finance long-term industrial and agricultural development, unlike commercial banks which focus on everyday deposits and short-term loans. Merchant banks mainly serve large businesses with corporate finance, not project-based long-term loans for development.",
+"pidgin": "Development bank like Bank of Industry na im dey give long-term loan for industry and farming matter. Commercial bank dey focus on everyday saving and short loan, while merchant bank dey handle big company money matter, no be long-term development loan.",
+"py": null,
+"values": null,
+"id": "comv0604",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Which of the following is a direct service that commercial banks provide to their customers?",
+"options": [
+"Safekeeping of customers' valuables in strong rooms",
+"Printing of the national currency",
+"Fixing the national minimum wage",
+"Collection of import duties on behalf of government"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Commercial banks offer safe-keeping of valuables such as jewellery and documents in their strong rooms or safe deposit boxes as a customer service. Printing currency, fixing wages, and collecting duties are government or CBN functions, not commercial bank services.",
+"pidgin": "Commercial bank dey keep people valuable things like jewelry and important papers safe inside dia strong room, na one of dia service be dat. To print money, fix minimum wage, or collect duty na government or CBN work, no be commercial bank own.",
+"py": null,
+"values": null,
+"id": "comv0605",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "The Central Bank of Nigeria is often described as the 'lender of last resort' to commercial banks. This mainly means that the CBN lends money to a commercial bank, when the bank cannot get funds anywhere else, in order to ______.",
+"options": [
+"increase the commercial bank's yearly profit",
+"reduce the amount government spends yearly",
+"prevent the collapse of the banking system",
+"encourage more foreign investors to open accounts"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "If a commercial bank cannot meet its obligations and no one else will lend to it, its failure could cause panic and spread to other banks. The CBN steps in as the final source of funds to keep that bank, and the whole banking system, stable and trusted.",
+"pidgin": "If commercial bank no fit pay wetin e owe and nobody wan lend am money again, e fit cause wahala wey go spread go other banks. CBN go come lend the bank money as last option so that the whole banking system no go scatter.",
+"py": null,
+"values": null,
+"id": "comv0606",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A cheque was issued six months ago but has still not been presented to the bank for payment. The bank is now likely to refuse payment because the cheque has become a ______.",
+"options": [
+"crossed cheque",
+"open cheque",
+"blank cheque",
+"stale cheque"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "A cheque that has not been presented for payment within a reasonable time, usually six months, is called a stale cheque, and banks normally refuse to honour it. Crossed, open, and blank cheques describe other features of a cheque, not its age.",
+"pidgin": "Cheque wey don tey reach like six months wey nobody bring am go bank, dem dey call am stale cheque, and bank no go gree pay am again. Crossed, open, and blank cheque na different matter entirely, e no concern how old the cheque be.",
+"py": null,
+"values": null,
+"id": "comv0607",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

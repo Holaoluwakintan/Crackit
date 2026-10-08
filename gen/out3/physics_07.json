@@ -1,0 +1,106 @@
+{
+"subject": "physics",
+"topic": "Elasticity and Hooke's law",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following best states Hooke's law for an elastic material?",
+"options": [
+"The extension produced in a material is directly proportional to the applied force, provided the elastic limit is not exceeded",
+"The extension produced in a material is inversely proportional to the applied force at all times",
+"The stress in a material is always equal to its strain regardless of the force applied",
+"The extension produced in a material increases without limit as the applied force increases"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Hooke's law says that within the elastic limit, extension (or compression) is directly proportional to the applied force. Beyond the elastic limit, this proportionality breaks down and the material may deform permanently.",
+"pidgin": "Hooke's law talk say as long as the material never pass its elastic limit, the extension go dey proportional to the force wey dem apply. If e pass the limit, the proportion no go hold again.",
+"py": null,
+"values": null,
+"id": "phyv0700",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A spring stretches by 8.0 cm when a force of 40 N is applied to it, without exceeding its elastic limit. Calculate the force constant (spring constant) of the spring.",
+"options": [
+"500 N/m",
+"5 N/m",
+"320 N/m",
+"0.2 N/m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Force constant k = F/x. First convert 8.0 cm to metres: 8.0 cm = 0.08 m. So k = 40 N / 0.08 m = 500 N/m.",
+"pidgin": "k = F/x. Convert 8.0 cm to metre: 0.08 m. So k = 40/0.08 = 500 N/m.",
+"py": "40/0.08",
+"values": [
+500,
+5,
+320,
+0.2
+],
+"id": "phyv0701",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Two identical springs, Chidi's spring A and Chidi's spring B, each have a force constant of 250 N/m. They are joined side by side (in parallel) and used to support a single load, so that both springs stretch by the same amount. Calculate the effective force constant of the combination.",
+"options": [
+"500 N/m",
+"125 N/m",
+"250 N/m",
+"1000 N/m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "For springs in parallel, the effective force constant is the sum of the individual constants: k_eff = k1 + k2 = 250 + 250 = 500 N/m. This is because both springs share the load and stretch equally, so their stiffnesses add up.",
+"pidgin": "For springs wey dey side by side (parallel), the total k na the sum of the two: 250 + 250 = 500 N/m. The two springs dey carry the load together so their stiffness just add up.",
+"py": "250+250",
+"values": [
+500,
+125,
+250,
+1000
+],
+"id": "phyv0702",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A metal wire of length 2.0 m and cross-sectional area 1.0 mm^2 stretches by 1.0 mm when a force of 100 N is applied, without exceeding its elastic limit. Calculate the Young's modulus of the wire material.",
+"options": [
+"2.0 x 10^11 N/m^2",
+"1.0 x 10^11 N/m^2",
+"4.0 x 10^11 N/m^2",
+"2.0 x 10^10 N/m^2"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Young's modulus E = (F x L) / (A x e). Convert units: A = 1.0 mm^2 = 1.0 x 10^-6 m^2, e = 1.0 mm = 1.0 x 10^-3 m. So E = (100 x 2.0) / (1.0 x 10^-6 x 1.0 x 10^-3) = 200 / (1.0 x 10^-9) = 2.0 x 10^11 N/m^2.",
+"pidgin": "E = (F x L)/(A x e). Convert area to 1.0 x 10^-6 m^2 and extension to 1.0 x 10^-3 m. E = (100 x 2.0)/(1.0x10^-6 x 1.0x10^-3) = 200/1.0x10^-9 = 2.0 x 10^11 N/m^2.",
+"py": "(100*2.0)/((1.0e-6)*(1.0e-3))",
+"values": [
+200000000000.0,
+100000000000.0,
+400000000000.0,
+20000000000.0
+],
+"id": "phyv0703",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

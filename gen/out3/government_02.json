@@ -1,0 +1,80 @@
+{
+"subject": "government",
+"topic": "Organs of government and separation of powers, checks and balances",
+"generated": 4,
+"kept": [
+{
+"q": "In a modern democratic state, which arm of government is primarily saddled with the responsibility of carrying out and enforcing the laws made by the legislature?",
+"options": [
+"The Executive",
+"The Legislature",
+"The Judiciary",
+"The Civil Service Commission"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The executive arm, headed by the President or Governor and the ministries/agencies under it, is responsible for implementing and enforcing laws. The legislature makes laws while the judiciary interprets them.",
+"pidgin": "Na Executive dey carry out and enforce di laws wey Legislature don make. Legislature na im dey make law, Judiciary na im dey interpret am.",
+"id": "govv0200",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Under the Nigerian presidential system, if the President withholds assent to a bill passed by the National Assembly, the bill can still become law if the National Assembly does which of the following?",
+"options": [
+"Sends the bill directly to the Supreme Court for approval",
+"Passes the bill again with a two-thirds majority vote in each chamber",
+"Asks the Vice President to sign the bill instead",
+"Submits the bill to the state Houses of Assembly for ratification"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "This is a classic check on executive power: if the President refuses to sign a bill, the National Assembly can override the veto by repassing it with a two-thirds majority in both the Senate and House of Representatives. This makes the bill law without presidential assent.",
+"pidgin": "If President no gree sign bill, National Assembly fit override am if dem pass di bill again with two-third majority for both Senate and House of Reps. Na dis one go make di bill become law even without President signature.",
+"id": "govv0201",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which constitutional power enables a State House of Assembly to remove a sitting Governor from office before the end of his tenure, where he is found guilty of gross misconduct?",
+"options": [
+"Impeachment",
+"Veto",
+"Judicial review",
+"Dissolution"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Impeachment is the legislative process by which a State House of Assembly can remove a Governor found guilty of gross misconduct, following constitutional procedures. This is a key check on the executive by the legislature.",
+"pidgin": "Impeachment na di process wey State House of Assembly dey use remove Governor wey dem find guilty of serious misconduct. Na im be check wey Legislature get on Executive.",
+"id": "govv0202",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In a certain country, the same body makes the laws, directly enforces them through its own agents, and also sits to judge disputes arising from those laws, without any separate institution checking it. This arrangement most clearly violates which principle of government?",
+"options": [
+"Separation of powers",
+"Federalism",
+"Rule of law",
+"Fundamental human rights"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Separation of powers requires that lawmaking, law enforcement, and adjudication be handled by three distinct, independent arms (legislature, executive, judiciary). When one body performs all three functions without checks, this concentration of power directly violates the doctrine of separation of powers.",
+"pidgin": "Separation of powers mean say three different arms (Legislature, Executive, Judiciary) suppose dey handle law-making, enforcement and judgment separately. If one body dey do everything alone without check, e don break dis principle well well.",
+"id": "govv0203",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

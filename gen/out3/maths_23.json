@@ -1,0 +1,112 @@
+{
+"subject": "maths",
+"topic": "Permutations and combinations",
+"generated": 4,
+"kept": [
+{
+"q": "A school librarian wants to arrange 4 different Mathematics textbooks in a row on a shelf. In how many ways can this be done?",
+"options": [
+"24",
+"12",
+"48",
+"16"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Since all 4 books are different and order matters, the number of arrangements is 4! = 4x3x2x1 = 24.",
+"pidgin": "Since all di 4 books different and arrangement matter, na 4! we go use = 4x3x2x1 = 24.",
+"py": "math.factorial(4)",
+"values": [
+24,
+12,
+48,
+16
+],
+"id": "matv2300",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A school football club has 6 boys and 5 girls. A mixed team of 4 is to be chosen to represent the club such that exactly 2 boys and 2 girls are selected. In how many ways can this team be formed?",
+"options": [
+"200",
+"120",
+"150",
+"180"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Choose 2 boys from 6: C(6,2)=15. Choose 2 girls from 5: C(5,2)=10. Multiply the two results: 15 x 10 = 150.",
+"pidgin": "Pick 2 boys from 6: C(6,2)=15. Pick 2 girls from 5: C(5,2)=10. Multiply dem: 15 x 10 = 150.",
+"py": "math.comb(6,2)*math.comb(5,2)",
+"values": [
+200,
+120,
+150,
+180
+],
+"id": "matv2301",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Find the number of distinct ways the letters of the word ABUJA can be arranged.",
+"options": [
+"120",
+"24",
+"30",
+"60"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "ABUJA has 5 letters with the letter A repeated twice. The number of distinct arrangements is 5!/2! = 120/2 = 60.",
+"pidgin": "ABUJA get 5 letters, but letter A dey repeat two times. Di distinct arrangements na 5!/2! = 120/2 = 60.",
+"py": "math.factorial(5)//math.factorial(2)",
+"values": [
+120,
+24,
+30,
+60
+],
+"id": "matv2302",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "A school is to send a delegation of 5 students out of 8 students to a competition. Among the 8 students are Chidi and Ngozi, who are known rivals and must not both be chosen together in the same delegation. How many valid delegations can be formed?",
+"options": [
+"56",
+"36",
+"20",
+"40"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Total ways to choose any 5 from 8 is C(8,5)=56. Ways where both Chidi and Ngozi are included: choose the remaining 3 from the other 6 students, C(6,3)=20. Subtract the unwanted cases: 56-20=36.",
+"pidgin": "Total ways to pick 5 from 8 na C(8,5)=56. Di ways wey Chidi and Ngozi go dey together na C(6,3)=20 (pick remaining 3 from di other 6). So we remove di bad ones: 56-20=36.",
+"py": "math.comb(8,5)-math.comb(6,3)",
+"values": [
+56,
+36,
+20,
+40
+],
+"id": "matv2303",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

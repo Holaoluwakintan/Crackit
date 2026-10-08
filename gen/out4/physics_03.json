@@ -1,0 +1,174 @@
+{
+"subject": "physics",
+"topic": "Newton's laws, momentum and impulse",
+"ti": 3,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following statements correctly describes Newton's first law of motion?",
+"options": [
+"A body continues in its state of rest or uniform motion in a straight line unless an external force acts on it",
+"For every action there is an equal and opposite reaction",
+"The rate of change of momentum of a body is directly proportional to the net force applied on it",
+"The total momentum of an isolated system remains constant unless acted upon by an external force"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Newton's first law is about inertia: a body stays at rest or keeps moving at constant velocity in a straight line until a net external force changes that state. The other options describe the third law, second law, and conservation of momentum respectively.",
+"pidgin": "Newton first law na about inertia: body go stay for rest or continue to dey move for straight line with same speed until one force come change am. The other options na for third law, second law and momentum conservation.",
+"py": null,
+"values": null,
+"id": "wphy0300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A net force of 15 N acts on a block of mass 3 kg resting on a smooth table. Calculate the acceleration produced in the block.",
+"options": [
+"3 m/s^2",
+"5 m/s^2",
+"45 m/s^2",
+"0.2 m/s^2"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "By Newton's second law, F = ma, so a = F/m = 15/3 = 5 m/s^2.",
+"pidgin": "Newton second law tell us say F = ma, so a = F/m = 15/3 = 5 m/s^2.",
+"py": "15/3",
+"values": [
+3,
+5,
+45,
+0.2
+],
+"id": "wphy0301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A delivery truck of mass 1200 kg moves along the Lagos-Ibadan expressway with a velocity of 10 m/s. Calculate the momentum of the truck.",
+"options": [
+"120 kg m/s",
+"1200 kg m/s",
+"12000 kg m/s",
+"10 kg m/s"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Momentum = mass x velocity = 1200 kg x 10 m/s = 12000 kg m/s.",
+"pidgin": "Momentum = mass x velocity = 1200 kg x 10 m/s = 12000 kg m/s.",
+"py": "1200*10",
+"values": [
+120,
+1200,
+12000,
+10
+],
+"id": "wphy0302",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A 2 kg ball moving at 6 m/s collides head-on with a stationary 4 kg ball. After collision, the two balls stick together and move with a common velocity. Calculate this common velocity.",
+"options": [
+"2 m/s",
+"4 m/s",
+"3 m/s",
+"1.5 m/s"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "By conservation of momentum: m1u1 + m2u2 = (m1+m2)v, so (2x6 + 4x0) = (2+4)v, giving 12 = 6v, so v = 2 m/s.",
+"pidgin": "Momentum conservation: m1u1 + m2u2 = (m1+m2)v, so (2x6 + 4x0) = (2+4)v, e mean 12 = 6v, so v = 2 m/s.",
+"py": "(2*6+4*0)/(2+4)",
+"values": [
+2,
+4,
+3,
+1.5
+],
+"id": "wphy0304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A hunter's gun of mass 4 kg fires a bullet of mass 0.02 kg. The bullet leaves the gun with a speed of 400 m/s. If the gun and bullet were both at rest before firing, calculate the magnitude of the recoil velocity of the gun.",
+"options": [
+"8 m/s",
+"2 m/s",
+"0.5 m/s",
+"4 m/s"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Total momentum before firing is zero, so momentum of bullet equals momentum of gun in the opposite direction: 0.02 x 400 = 4 x v, giving v = 8/4 = 2 m/s.",
+"pidgin": "Before dem shoot, total momentum na zero, so bullet momentum go equal gun momentum for opposite direction: 0.02 x 400 = 4 x v, so v = 8/4 = 2 m/s.",
+"py": "0.02*400/4",
+"values": [
+8,
+2,
+0.5,
+4
+],
+"id": "wphy0305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A footballer kicks a stationary-direction football of mass 0.5 kg which was moving at 8 m/s, changing its velocity to 20 m/s in the same direction. Calculate the impulse given to the ball by the kick.",
+"options": [
+"10 Ns",
+"14 Ns",
+"4 Ns",
+"6 Ns"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Impulse equals change in momentum: m(v - u) = 0.5 x (20 - 8) = 0.5 x 12 = 6 Ns.",
+"pidgin": "Impulse na change in momentum: m(v - u) = 0.5 x (20 - 8) = 0.5 x 12 = 6 Ns.",
+"py": "0.5*(20-8)",
+"values": [
+10,
+14,
+4,
+6
+],
+"id": "wphy0303",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:“Stationary-direction” conflicts with the stated initial speed of 8 m/s.|garbled wording 'stationary-direction'; answer still clear"
+}
+]
+}

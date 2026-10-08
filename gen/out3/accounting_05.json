@@ -1,0 +1,192 @@
+{
+"subject": "accounting",
+"topic": "Petty cash book and the imprest system",
+"generated": 8,
+"kept": [
+{
+"q": "Under the petty cash imprest system, the petty cashier is given a fixed sum of money at the start of each period, spends part of it on small office expenses, and is later given back exactly what was spent so that the fund returns to the same fixed amount. What is this system called?",
+"options": [
+"The imprest system",
+"The double entry system",
+"The trial balance system",
+"The control account system"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The imprest system is where a fixed float is given, spent, and then topped up by the exact amount spent, so the float always starts each new period at the same fixed level. This is the standard method for handling petty (small) cash.",
+"pidgin": "Imprest system na where dem give petty cashier fixed money, e go spend small-small for office, den dem go refund am the exact money wey e spend so the float go remain same level every time.",
+"py": null,
+"values": null,
+"id": "accv0500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the operation of the petty cash imprest system, the amount given to the petty cashier by the head/main cashier at the end of a period to replace the exact total spent during that period, so as to restore the float to its fixed level, is called the?",
+"options": [
+"Imprest",
+"Reimbursement",
+"Float",
+"Balance brought down"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The reimbursement is the top-up money given back to the petty cashier equal to actual expenditure, restoring the float to the agreed fixed imprest amount. The imprest itself is the original fixed sum, while the float is the cash physically on hand at any time.",
+"pidgin": "Reimbursement na the money wey dem give back to petty cashier wey match the money e don spend, so the float go return to the fixed imprest amount. Imprest na the original fixed money, float na the cash wey dey hand at any time.",
+"py": null,
+"values": null,
+"id": "accv0501",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Mama Chidinma operates the office petty cash book with a fixed imprest of ₦8,000. During the week she made the following payments: Postage ₦1,200; Stationery ₦950; Transport ₦1,800; Cleaning materials ₦550. How much must the head cashier give her at the end of the week to restore her imprest to ₦8,000?",
+"options": [
+"₦4,500",
+"₦3,500",
+"₦5,000",
+"₦4,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total expenditure = 1,200 + 950 + 1,800 + 550 = ₦4,500. Under the imprest system, reimbursement always equals the total amount actually spent, not any other figure.",
+"pidgin": "Total money wey she spend = 1,200 + 950 + 1,800 + 550 = ₦4,500. Under imprest system, the reimbursement go always equal the total money wey dem spend.",
+"py": "1200+950+1800+550",
+"values": [
+4500,
+3500,
+5000,
+4000
+],
+"id": "accv0502",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A petty cashier holds a fixed imprest of ₦10,000. During one week, he made the following payments: Transport ₦2,300; Postage ₦750; Entertainment ₦1,150; Sundry expenses ₦300. What is the balance in hand in the petty cash book before the head cashier reimburses him?",
+"options": [
+"₦5,500",
+"₦4,500",
+"₦6,000",
+"₦5,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total spent = 2,300 + 750 + 1,150 + 300 = ₦4,500. Balance in hand = Imprest - Total spent = 10,000 - 4,500 = ₦5,500, which is the figure carried down before top-up.",
+"pidgin": "Total wey e spend = 2,300 + 750 + 1,150 + 300 = ₦4,500. Balance wey remain = 10,000 - 4,500 = ₦5,500, na im dem go carry down before dem reimburse am.",
+"py": "10000 - (2300+750+1150+300)",
+"values": [
+5500,
+4500,
+6000,
+5000
+],
+"id": "accv0503",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Alhaji Musa's office petty cash imprest is fixed at ₦12,000. At the start of a new month, before receiving any reimbursement, the petty cashier still had ₦1,500 left over from the previous month. How much must the head cashier give him so that his float returns to the full imprest of ₦12,000?",
+"options": [
+"₦10,500",
+"₦13,500",
+"₦1,500",
+"₦12,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The float must total ₦12,000. Since ₦1,500 is already in hand, the reimbursement needed is 12,000 - 1,500 = ₦10,500. Giving the full ₦12,000 again would wrongly double the float.",
+"pidgin": "Float suppose reach ₦12,000 total. Since ₦1,500 dey hand already, wetin dem go add na 12,000 - 1,500 = ₦10,500. If dem give the full 12,000 again, e go double the float wrongly.",
+"py": "12000-1500",
+"values": [
+10500,
+13500,
+1500,
+12000
+],
+"id": "accv0504",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A company's petty cash imprest is fixed at ₦9,000. At the end of the month, the analysis columns of the petty cash book show the following totals: Postage ₦620; Stationery ₦980; Travelling ₦1,450; Cleaning ₦350; Sundry expenses ₦200. Assuming the petty cash book balances correctly, how much will the head cashier reimburse at the end of the month?",
+"options": [
+"₦3,600",
+"₦5,400",
+"₦4,600",
+"₦3,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Total expenditure = 620 + 980 + 1,450 + 350 + 200 = ₦3,600. Under the imprest system, the sum of the analysis columns must equal the total payments column, and this total is exactly what is reimbursed to restore the ₦9,000 imprest, regardless of the imprest figure itself.",
+"pidgin": "Total wey dem spend = 620 + 980 + 1,450 + 350 + 200 = ₦3,600. Under imprest system, the analysis columns total suppose match the total payment column, and na this total dem go reimburse make imprest return to ₦9,000.",
+"py": "620+980+1450+350+200",
+"values": [
+3600,
+5400,
+4600,
+3000
+],
+"id": "accv0505",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following is NOT a genuine advantage of operating the petty cash imprest system in a business office?",
+"options": [
+"It reduces the workload on the main/head cashier",
+"It allows large capital expenditures such as machinery purchases to be recorded through it",
+"It limits the amount of cash that can be lost or misused at a time",
+"It simplifies the control and checking of small routine payments"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The petty cash imprest system is designed only for small, routine, day-to-day office expenses like postage and stationery, not for large capital items such as machinery, which must pass through the main cash book or bank account. The other three options are real, well-known benefits of the system.",
+"pidgin": "Petty cash imprest system na for small small office spending like postage and stationery, e no be for big capital things like machine, wey suppose pass through main cash book or bank. The other three options na real correct advantages.",
+"py": null,
+"values": null,
+"id": "accv0506",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In a petty cash book, the special columns used to classify and group each small payment under headings such as postage, stationery, travelling, and cleaning, in order to make posting to the ledger easier, are called?",
+"options": [
+"Analysis columns",
+"Folio columns",
+"Trial balance columns",
+"Suspense columns"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Analysis columns are the side-by-side columns in a petty cash book that break down each payment into its expense type, making it simple to total each type of expense and post it to the correct ledger account.",
+"pidgin": "Analysis columns na the columns for petty cash book wey dem dey use divide each payment according to the type of expense, e dey make am easy to total each expense type and post am go the correct ledger account.",
+"py": null,
+"values": null,
+"id": "accv0507",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

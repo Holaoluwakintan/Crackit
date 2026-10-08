@@ -1,0 +1,74 @@
+{
+"subject": "economics",
+"topic": "National income: GDP, GNP, NNP and methods of measurement",
+"generated": 3,
+"kept": [
+{
+"q": "Which of the following statements best defines Gross Domestic Product (GDP)?",
+"options": [
+"The total market value of all final goods and services produced by the citizens of a country, whether at home or abroad, in a given year",
+"The total market value of all final goods and services produced within a country after deducting depreciation of capital",
+"The total income received by a country's citizens after deducting taxes and adding subsidies",
+"The total market value of all final goods and services produced within the geographical boundaries of a country in a given year, regardless of the nationality of the producers"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "GDP measures the total value of final goods and services produced within a country's borders in a year, no matter who produced them (citizens or foreigners). The other options describe GNP, NNP, and disposable income instead of GDP.",
+"pidgin": "GDP na di total value of all final goods and services wey dem produce inside one country border for one year, no matter who produce am (citizen or foreigner). The other options dey describe GNP, NNP or disposable income instead.",
+"py": null,
+"values": null,
+"id": "ecov0900",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "In a given year, Nigeria's GDP was ₦500 billion. The net factor income from abroad was negative ₦20 billion, meaning foreigners earned more income from activities in Nigeria than Nigerians earned abroad. If capital depreciation for the year was ₦40 billion, what was the Net National Product (NNP) for that year?",
+"options": [
+"₦460 billion",
+"₦440 billion",
+"₦480 billion",
+"₦520 billion"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "First find GNP = GDP + net factor income from abroad = 500 + (-20) = ₦480 billion. Then NNP = GNP - depreciation = 480 - 40 = ₦440 billion.",
+"pidgin": "First find GNP = GDP + net factor income from abroad = 500 + (-20) = 480 billion naira. Then minus depreciation make e be NNP = 480 - 40 = 440 billion naira.",
+"py": "500 + (-20) - 40",
+"values": [
+460,
+440,
+480,
+520
+],
+"id": "ecov0901",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "An economics teacher in Kaduna told her students that when national income is correctly computed using the output, income, and expenditure methods, all three approaches should give the same total value for a given year. Which of the following best explains why this equality holds?",
+"options": [
+"Because national income statisticians always round off figures to the nearest billion naira",
+"Because government deliberately adjusts the three figures to match international standards",
+"Because what is spent by one group of economic agents becomes income to another group, which in turn equals the value of output produced",
+"Because indirect taxes are automatically added to all three methods before final computation"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "National income flows in a circle: firms produce output, which is sold for money (expenditure), and that money becomes income for workers and resource owners (income). Because of this circular flow, the output, income, and expenditure methods should, in theory, all add up to the same total.",
+"pidgin": "National income dey flow like circle: company produce output, dem sell am for money (expenditure), and dat money come become income for worker and resource owner (income). Because of dis circle flow, output, income and expenditure method suppose give the same total value.",
+"py": null,
+"values": null,
+"id": "ecov0902",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

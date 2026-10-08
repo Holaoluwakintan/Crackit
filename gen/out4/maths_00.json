@@ -1,0 +1,159 @@
+{
+"subject": "maths",
+"topic": "Number bases",
+"ti": 0,
+"generated": 6,
+"kept": [
+{
+"q": "Convert 23 (base ten) to base two.",
+"options": [
+"11101two",
+"11011two",
+"10111two",
+"10011two"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "23 = 16+4+2+1. Dividing 23 repeatedly by 2 gives remainders 1,1,1,0,1 (reading bottom to top), so 23 = 10111two.",
+"pidgin": "23 na 16+4+2+1. If you divide 23 by 2 plenty times, the remainders wey you go read from bottom to top na 10111, so 23 be 10111two.",
+"py": null,
+"values": null,
+"id": "wmth0000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is 1101two when converted to base ten?",
+"options": [
+"11",
+"14",
+"12",
+"13"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "1101two = 1*2^3 + 1*2^2 + 0*2^1 + 1*2^0 = 8+4+0+1 = 13.",
+"pidgin": "1101 for base two mean 1*8 + 1*4 + 0*2 + 1*1, wey be 13.",
+"py": "1*2**3+1*2**2+0*2**1+1*2**0",
+"values": [
+11,
+14,
+12,
+13
+],
+"id": "wmth0001",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Add 234five and 143five, giving your answer in base five.",
+"options": [
+"432five",
+"423five",
+"342five",
+"433five"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Convert to base ten: 234five = 2*25+3*5+4 = 69, and 143five = 1*25+4*5+3 = 48. Their sum is 117, which converts back to 432five since 4*25+3*5+2 = 117.",
+"pidgin": "Change the two numbers to base ten: 234five na 69, 143five na 48. Add dem na 117. If you change 117 back to base five e go be 432five.",
+"py": null,
+"values": null,
+"id": "wmth0002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Convert 101101two to base ten.",
+"options": [
+"43",
+"47",
+"45",
+"41"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "101101two = 1*2^5+0*2^4+1*2^3+1*2^2+0*2^1+1*2^0 = 32+0+8+4+0+1 = 45.",
+"pidgin": "101101 for base two na 32+0+8+4+0+1, wey be 45.",
+"py": "1*2**5+0*2**4+1*2**3+1*2**2+0*2**1+1*2**0",
+"values": [
+43,
+47,
+45,
+41
+],
+"id": "wmth0003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In a certain base n, the two-digit number 42n is equal to 34 in base ten. Find the value of n.",
+"options": [
+"6",
+"7",
+"9",
+"8"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "42n means 4*n + 2. Setting 4n+2 = 34 gives 4n = 32, so n = 8. Since the digits 4 and 2 are both less than 8, the base is valid.",
+"pidgin": "42 for base n mean 4*n + 2. If we set 4n+2 = 34, 4n = 32, so n = 8. Since 4 and 2 small pass 8, the base dey correct.",
+"py": "(34-2)//4",
+"values": [
+6,
+7,
+9,
+8
+],
+"id": "wmth0004",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Convert 0.75 (base ten) to base two.",
+"options": [
+"0.101two",
+"0.11two",
+"0.011two",
+"0.001two"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Multiply the fraction by 2 repeatedly: 0.75*2 = 1.5 (take 1, remainder 0.5), then 0.5*2 = 1.0 (take 1, remainder 0). Reading the digits taken gives 0.11two.",
+"pidgin": "Multiply the fraction by 2 again and again: 0.75*2 = 1.5 (pick 1, remainder 0.5), then 0.5*2 = 1.0 (pick 1, remainder 0). The digits wey you pick na 0.11two.",
+"py": null,
+"values": null,
+"id": "wmth0005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

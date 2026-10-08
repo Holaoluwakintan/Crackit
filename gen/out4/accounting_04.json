@@ -1,0 +1,184 @@
+{
+"subject": "accounting",
+"topic": "Cash book and bank reconciliation",
+"ti": 4,
+"generated": 7,
+"kept": [
+{
+"q": "What is the main purpose of a cash book in a business?",
+"options": [
+"To record only cash purchases",
+"To record all cash and bank transactions as they occur",
+"To record only transactions on credit",
+"To summarise the fixed assets of the business"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The cash book is a book of original entry that records all cash and bank receipts and payments in order of date. It also serves as a ledger account for cash and bank.",
+"pidgin": "Cash book na book wey dem dey use record all cash and bank money wey enter or comot, as e dey happen. E dey also serve as ledger for cash and bank.",
+"py": null,
+"values": null,
+"id": "wacc0400",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT usually found as a column in a three-column cash book?",
+"options": [
+"Discount column",
+"Cash column",
+"Bank column",
+"Sales column"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "A three-column cash book has discount, cash and bank columns on both the debit and credit sides. Sales are recorded in the sales day book or sales ledger, not directly as a cash book column.",
+"pidgin": "Three-column cash book get discount, cash and bank columns for both sides. Sales no be column for cash book, na for sales day book or sales ledger.",
+"py": null,
+"values": null,
+"id": "wacc0401",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Chukwu's cash book showed a debit balance of ₦45,000 at the start of the month. During the month, she recorded cash sales of ₦120,000 and cash purchases of ₦85,000 directly in the cash book, with no other transactions. What is the closing balance of the cash book?",
+"options": [
+"₦80,000",
+"₦45,000",
+"₦120,000",
+"₦250,000"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Closing balance = Opening balance + Receipts - Payments = 45,000 + 120,000 - 85,000 = ₦80,000.",
+"pidgin": "Closing balance = Opening balance + wetin enter - wetin comot = 45,000 + 120,000 - 85,000 = ₦80,000.",
+"py": "45000+120000-85000",
+"values": [
+80000,
+45000,
+120000,
+250000
+],
+"id": "wacc0402",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A cheque that has been issued by a business and recorded in the cash book, but which has not yet been presented at the bank for payment, is known as a/an:",
+"options": [
+"Uncredited cheque",
+"Unpresented cheque",
+"Dishonoured cheque",
+"Stale cheque"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An unpresented cheque is one already written out and entered in the cash book by the business but which the receiver has not yet taken to the bank for payment, so it does not yet appear on the bank statement.",
+"pidgin": "Unpresented cheque na cheque wey business don write and enter for cash book, but the person wey carry am never go bank collect money, so e never show for bank statement.",
+"py": null,
+"values": null,
+"id": "wacc0403",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When a business owner withdraws ₦10,000 cash from the bank for office use, this is entered on the debit side of the cash column and the credit side of the bank column of the same cash book, on the same date. This type of entry is called:",
+"options": [
+"Reconciliation entry",
+"Contra entry",
+"Journal entry",
+"Adjusting entry"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A contra entry occurs when a transaction affects both the cash and bank columns of the same cash book, such as withdrawing cash from the bank or paying cash into the bank. It is marked with a 'C' in the folio column.",
+"pidgin": "Contra entry na when one transaction touch both cash and bank columns for the same cash book, like when you comot cash from bank or pay cash enter bank. Dem dey mark am with letter 'C' for folio column.",
+"py": null,
+"values": null,
+"id": "wacc0404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The bank column of Alhaji Musa's cash book showed a debit balance of ₦60,000 on 30th June. On comparing it with the bank statement, it was found that: a cheque of ₦8,000 issued to a supplier had not yet been presented; a cheque of ₦15,000 paid into the bank had not yet been credited; the bank had credited interest of ₦1,000 not yet recorded in the cash book; and the bank had charged ₦500 commission not yet recorded in the cash book. What is the adjusted cash book balance?",
+"options": [
+"₦60,500",
+"₦60,000",
+"₦75,000",
+"₦44,500"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Only items missing from the cash book (bank interest and bank charges) are used to adjust it; unpresented cheques and uncredited lodgements only affect the bank statement side. Adjusted balance = 60,000 + 1,000 - 500 = ₦60,500.",
+"pidgin": "Na only the items wey never dey for cash book (bank interest and bank charges) dem go use adjust am; unpresented cheque and uncredited lodgement na for bank statement side. Adjusted balance = 60,000 + 1,000 - 500 = ₦60,500.",
+"py": "60000+1000-500",
+"values": [
+60500,
+60000,
+75000,
+44500
+],
+"id": "wacc0405",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Chief Okafor's bank statement showed a credit balance of ₦150,000 as at 31st May. Cheques issued but not yet presented for payment amounted to ₦35,000, while a cash deposit of ₦20,000 paid into the bank had not yet appeared on the bank statement. The bank also deducted ₦2,000 as commission on turnover, which had not yet been entered in Chief Okafor's cash book. What is the correct (adjusted) cash book balance?",
+"options": [
+"₦133,000",
+"₦135,000",
+"₦137,000",
+"₦150,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "First reconcile to the cash book position: Bank statement balance + uncredited lodgement - unpresented cheques = 150,000 + 20,000 - 35,000 = 135,000. Since the bank already deducted ₦2,000 commission that the cash book has not yet recorded, the cash book balance must also be reduced by ₦2,000, giving 135,000 - 2,000 = ₦133,000.",
+"pidgin": "First balance am like this: Bank statement balance + money wey never credit - cheque wey never present = 150,000 + 20,000 - 35,000 = 135,000. Since bank don already remove ₦2,000 commission wey cash book never record, make we still remove am for cash book: 135,000 - 2,000 = ₦133,000.",
+"py": "150000+20000-35000-2000",
+"values": [
+133000,
+135000,
+137000,
+150000
+],
+"id": "wacc0406",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

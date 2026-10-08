@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "Parental responsibility and the call of Samuel (Eli, Samuel, David)",
+"generated": 8,
+"kept": [
+{
+"q": "In the Bible story of Samuel's birth, who was the woman that prayed earnestly at Shiloh and vowed to dedicate her son to God's service if she had a child?",
+"options": [
+"Hannah",
+"Deborah",
+"Abigail",
+"Miriam"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Hannah was barren and prayed at Shiloh, promising to give her son to the Lord. God answered her prayer and she had Samuel. This is recorded in 1 Samuel 1:10-20.",
+"pidgin": "Hannah na the woman wey no get pikin, she pray for Shiloh say if she born pikin she go give am to God. God hear her prayer, she born Samuel. Dis dey for 1 Samuel 1:10-20.",
+"id": "crsv0500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "After Samuel was weaned, his mother took him to the house of the Lord to live and serve. Who was the priest in charge there at that time?",
+"options": [
+"Eli",
+"Samuel",
+"Ahimelech",
+"Zadok"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Hannah brought young Samuel to Eli the priest at Shiloh, where the boy grew up ministering before the Lord. This is found in 1 Samuel 1:24-28.",
+"pidgin": "Hannah carry small Samuel go met Eli di priest for Shiloh, na dia e grow dey serve God. Dis one dey 1 Samuel 1:24-28.",
+"id": "crsv0501",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "On the night God first called Samuel, the boy ran to his guardian three times thinking he had been summoned by him. Who did Samuel mistakenly think was calling him?",
+"options": [
+"Eli",
+"His father Elkanah",
+"Hophni",
+"Phinehas"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "God called Samuel at night, but because Samuel was not yet familiar with God's voice, he ran to Eli three times before Eli realised it was the Lord calling. This is in 1 Samuel 3:1-9.",
+"pidgin": "God call Samuel for night but Samuel no sabi na God dey call am, so e run go meet Eli three times. Na Eli later realise say na God dey call am. E dey 1 Samuel 3:1-9.",
+"id": "crsv0502",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "What wrongdoing did Eli's sons, Hophni and Phinehas, commit at the tabernacle which angered God against Eli's household?",
+"options": [
+"They refused to offer sacrifices at all",
+"They took the best portions of sacrificial meat for themselves and committed immorality with women at the entrance of the tent of meeting",
+"They worshipped idols openly in the temple",
+"They stole the ark of the covenant and sold it"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Hophni and Phinehas abused their priestly office by seizing choice meat meant for God before it was offered and by sleeping with women who served at the tabernacle entrance. This corruption is described in 1 Samuel 2:12-17 and 22.",
+"pidgin": "Hophni and Phinehas dey collect di better meat wey suppose go God before dem offer am, dem sef dey sleep with women wey dey serve for tabernacle gate. Dis bad bad tin dey 1 Samuel 2:12-17 and 22.",
+"id": "crsv0503",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "God rebuked Eli for failing in his parental duty concerning his wicked sons. What exactly was Eli's fault as a father, according to the account?",
+"options": [
+"He disowned his sons publicly",
+"He knew of his sons' sins but only mildly rebuked them without restraining them",
+"He encouraged his sons to leave the priesthood",
+"He gave all his wealth to his sons instead of to God"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Eli was aware that his sons were sinning greatly but only spoke weak words of caution and did not stop them, honouring his sons above God. This failure of parental discipline brought judgement on his house, as shown in 1 Samuel 2:22-25 and 2:29.",
+"pidgin": "Eli sabi say im children dey do bad but im just dey warn dem small small, e no stop dem well well. Because e honour im pikin pass God, judgement come fall on im house. Dis dey 1 Samuel 2:22-25 and 2:29.",
+"id": "crsv0504",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "As a consequence of Eli's failure to restrain his sons, what tragic event happened to Hophni and Phinehas in a battle against the Philistines?",
+"options": [
+"They both repented and became priests of the Lord again",
+"They both died on the same day and the ark of God was captured",
+"They escaped to Egypt and lived in exile",
+"They were made kings over Israel"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In the battle at Aphek, the Israelites were defeated, Hophni and Phinehas were killed, and the ark of the covenant was captured by the Philistines, fulfilling God's judgement on Eli's house. This is recorded in 1 Samuel 4:10-11.",
+"pidgin": "Dem fight war for Aphek, Israel lose, Hophni and Phinehas die di same day, and di ark of God enter enemy hand. Na dis God warning come pass for 1 Samuel 4:10-11.",
+"id": "crsv0505",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "When God sent Samuel to anoint a new king from the sons of Jesse in Bethlehem, what important lesson did God teach Samuel about choosing a leader?",
+"options": [
+"That the tallest and strongest son should always be chosen",
+"That man looks at the outward appearance, but the Lord looks at the heart",
+"That only the firstborn son could be anointed king",
+"That wealth and family status determine God's choice"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "When Samuel was impressed by Eliab's appearance, God corrected him, saying that people judge by looks but God judges the heart, leading to David, the youngest shepherd boy, being chosen. This teaching is in 1 Samuel 16:6-7.",
+"pidgin": "Wen Samuel see Eliab e tink say na im be di one, but God tell am say human dey check outside, but God dey check inside heart. Na so David, di small boy wey dey herd sheep, come dey chosen. E dey 1 Samuel 16:6-7.",
+"id": "crsv0506",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Before he was anointed king, what was David's main occupation when Samuel came to his father's house in Bethlehem?",
+"options": [
+"He was a soldier in Saul's army",
+"He was tending his father's sheep in the field",
+"He was studying under the prophets in Ramah",
+"He was a farmer growing wheat"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "David was the youngest son and was out keeping the sheep when Samuel came to Jesse's house, so he was sent for and anointed. This is found in 1 Samuel 16:11-13.",
+"pidgin": "David na di last born and e dey bush dey herd sheep wen Samuel come to dia house, dem send person go call am, dem come anoint am. Dis one dey 1 Samuel 16:11-13.",
+"id": "crsv0507",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

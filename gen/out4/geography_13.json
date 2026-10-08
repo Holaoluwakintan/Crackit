@@ -1,0 +1,176 @@
+{
+"subject": "geography",
+"topic": "Transportation and trade",
+"ti": 13,
+"generated": 7,
+"kept": [
+{
+"q": "Which mode of transport is most suitable for conveying crude oil over long distances, such as from oil fields in the Niger Delta to refineries or export terminals?",
+"options": [
+"Pipeline",
+"Railway",
+"Road",
+"Air"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Pipelines are specially built to carry liquids and gases like crude oil continuously over long distances at low cost. Road, rail and air transport are not designed for bulk liquid cargo of this nature.",
+"pidgin": "Pipeline na the correct answer because dem build am well well to dey carry liquid like crude oil for long distance cheap cheap. Road, rail and air no fit carry am well like that.",
+"py": null,
+"values": null,
+"id": "wgeo1300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The exchange of goods and services between two or more different countries is best described as what type of trade?",
+"options": [
+"Barter trade",
+"International trade",
+"Retail trade",
+"Internal trade"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "International trade is trade that takes place across national boundaries, between one country and another. Internal and retail trade happen within a country, while barter trade simply means exchanging goods without money.",
+"pidgin": "International trade na when goods and services dey exchange between different countries. Internal and retail trade dey happen inside one country, while barter trade just mean exchange goods without money.",
+"py": null,
+"values": null,
+"id": "wgeo1301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the major advantage of water transport over road transport when moving bulky goods like timber and cement over long distances?",
+"options": [
+"It is faster than road transport",
+"It gives greater flexibility of routes",
+"It has lower cost per tonne for bulky goods",
+"It is less affected by weather conditions"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Water transport can carry very large loads at once, which greatly reduces the cost per tonne compared to road transport. It is actually slower, less flexible in route choice, and more affected by weather such as storms.",
+"pidgin": "Water transport fit carry plenty load for once, so e dey cheap pass road transport for each tonne. But e slow pass road, e no too flexible, and weather like storm fit affect am well well.",
+"py": null,
+"values": null,
+"id": "wgeo1302",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A railway line is to be built through a rugged highland area with steep slopes, such as parts of the Jos Plateau. Which physical factor would most limit the construction of this railway?",
+"options": [
+"Low population density in the area",
+"High cost of tunneling and constructing gentle gradients",
+"Absence of mineral resources along the route",
+"Heavy rainfall throughout the year"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Railways need fairly gentle, even gradients to allow trains to move safely and efficiently. In rugged highlands, engineers must cut tunnels, build bridges and level slopes, which greatly raises construction cost and difficulty, more than population or rainfall issues.",
+"pidgin": "Train need gentle road wey no too steep to waka well. For rugged highland, dem go need tunnel, bridge and level di ground, wey go cost plenty money and wahala pass population or rain matter.",
+"py": null,
+"values": null,
+"id": "wgeo1305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a major function of the Economic Community of West African States (ECOWAS) with regard to trade among member countries?",
+"options": [
+"To regulate international air traffic rules",
+"To control global crude oil prices",
+"To promote free movement of goods and persons among member states",
+"To build railway lines linking Europe and West Africa"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "ECOWAS was formed mainly to encourage economic cooperation and integration, including free movement of goods, services and persons among West African member states. It does not control global oil prices or manage worldwide air traffic.",
+"pidgin": "ECOWAS main work na to encourage economic cooperation and free movement of goods, services and people among West African member countries. Dem no dey control world oil price or world air traffic.",
+"py": null,
+"values": null,
+"id": "wgeo1306",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Entrepot trade is best described as a situation in which a country...",
+"options": [
+"exchanges goods directly without using money",
+"produces goods only for its own home consumption",
+"bans the export of certain goods to protect local industries",
+"imports goods mainly to process and then re-export them to other countries"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Entrepot trade involves a country or port importing goods not for local use but to process, repackage or simply re-export them to other countries, often earning commission or added value. This is common in major trading ports.",
+"pidgin": "Entrepot trade na when country dey import goods, process or pack am, then export am go other country, no be for dem own use. E dey common for big trading ports.",
+"py": null,
+"values": null,
+"id": "wgeo1303",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Entrepot trade does not require processing before re-export.|Entrepot trade is re-export with little or no processing; 'mainly to process' is inaccurate"
+},
+{
+"q": {
+"q": "In a particular year, Nigeria exported goods worth ₦450 billion and imported goods worth ₦380 billion. What was Nigeria's balance of trade for that year?",
+"options": [
+"₦70 billion favourable",
+"₦70 billion unfavourable",
+"₦830 billion favourable",
+"₦380 billion unfavourable"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Balance of trade = value of exports minus value of imports = 450 - 380 = ₦70 billion. Since exports are greater than imports, the balance is favourable (a trade surplus).",
+"pidgin": "Balance of trade = export minus import = 450 - 380 = ₦70 billion. Since export pass import, e be favourable balance, dat na surplus.",
+"py": "450-380",
+"values": [
+70,
+70,
+830,
+380
+],
+"id": "wgeo1304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+}
+]
+}

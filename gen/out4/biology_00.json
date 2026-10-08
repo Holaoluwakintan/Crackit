@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Living things: characteristics and organisation of life",
+"ti": 0,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following is NOT a characteristic common to all living things?",
+"options": [
+"Respiration",
+"Excretion",
+"Locomotion",
+"Growth"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "All living things respire, excrete waste and grow, but not all of them move their whole body from one place to another. For example, plants are rooted to the soil and do not show locomotion, yet they are still alive.",
+"pidgin": "All living things dey breathe, dey waste out and dey grow, but no be all of dem dey waka comot one place go another place. Plant dey stay for ground, e no dey waka, but e still dey alive well well.",
+"id": "wbio0000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Arrange the following levels of biological organisation in order from the simplest to the most complex: (i) Organ (ii) Cell (iii) Tissue (iv) Organ system",
+"options": [
+"ii, iii, i, iv",
+"i, ii, iii, iv",
+"iv, i, iii, ii",
+"iii, ii, i, iv"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The correct order of organisation, from simplest to most complex, is cell, tissue, organ, then organ system. Cells group to form tissues, tissues group to form organs, and organs group to form organ systems.",
+"pidgin": "The correct order na cell, then tissue, then organ, then organ system. Cells join together make tissue, tissue join make organ, organ join make organ system.",
+"id": "wbio0001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A toddler in a market in Enugu accidentally touched a hot stove and immediately pulled her hand away. This quick reaction to a stimulus is an example of which characteristic of living things?",
+"options": [
+"Nutrition",
+"Excretion",
+"Reproduction",
+"Irritability (sensitivity)"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Irritability, also called sensitivity, is the ability of a living thing to detect a stimulus (like heat) and respond to it. The toddler sensed the heat from the stove and quickly withdrew her hand, showing this characteristic.",
+"pidgin": "Irritability (or sensitivity) na when living thing sense something (like heat) and respond quick quick. The small pikin sense the hot stove and comot im hand fast, na so irritability dey show.",
+"id": "wbio0002",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A single-celled amoeba increases in size over several hours, after which its nucleus divides and the cell splits into two identical daughter cells. This observation best illustrates a combination of which two characteristics of living things?",
+"options": [
+"Growth and reproduction",
+"Nutrition and excretion",
+"Respiration and growth",
+"Movement and nutrition"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The increase in size of the amoeba shows growth, while the splitting into two identical daughter cells shows reproduction (asexual, by binary fission). Both characteristics occur together in this process.",
+"pidgin": "The amoeba wey dey enlarge na growth, and the one wey split to two identical cells na reproduction (binary fission). So the two characteristics, growth and reproduction, dey happen together for this process.",
+"id": "wbio0003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the human body, many red blood cells group together and work with blood plasma to transport oxygen and nutrients round the body. This grouping of similar cells performing a common function is best described as a",
+"options": [
+"Organ",
+"Tissue",
+"Organ system",
+"Organelle"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A tissue is a group of similar cells working together to perform a common function. Red blood cells and plasma working together to transport substances form blood, which is a tissue.",
+"pidgin": "Tissue na when similar cells come together to do one common work. Red blood cells and plasma wey dey carry oxygen and food go body na blood, and blood na tissue.",
+"id": "wbio0004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A potted maize seedling placed close to a classroom window was observed, after some days, to bend and grow towards the direction of the incoming sunlight. Which characteristic of living things is primarily demonstrated by this behaviour?",
+"options": [
+"Excretion",
+"Irritability (response to stimuli)",
+"Reproduction",
+"Respiration"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The seedling bending towards light is a response to a stimulus (light), which is called irritability or sensitivity. Although growth movements are involved, the key characteristic being shown is the plant's ability to detect and respond to the light stimulus.",
+"pidgin": "The seedling wey bend go where light dey show say e dey respond to stimulus (light), and dat one na irritability or sensitivity. Although growth dey involved small, the main characteristic wey dey show na how the plant fit sense and respond to the light.",
+"id": "wbio0005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

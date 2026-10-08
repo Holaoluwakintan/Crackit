@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Electoral systems and electoral bodies",
+"ti": 7,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes an 'electoral system'?",
+"options": [
+"A set of laws guiding the conduct of civil servants",
+"The method by which votes are cast and seats or offices are allocated to determine winners in an election",
+"A register containing the names of all registered political parties",
+"The body that supervises the conduct of a national population census"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An electoral system is simply the method or rule used to turn votes cast by voters into actual winners of seats or offices. It is not about civil servants, party registers, or census.",
+"pidgin": "Electoral system na di way wey dem dey use votes wey people cast decide who win election or seat. E no be about civil servant rules, party list, or census.",
+"id": "wgov0700",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In Nigeria, which body is constitutionally empowered to organize, undertake and supervise elections into the offices of President, Governors, and members of the National and State Assemblies?",
+"options": [
+"Independent National Electoral Commission (INEC)",
+"National Population Commission",
+"Code of Conduct Bureau",
+"State Independent Electoral Commission (SIEC)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "INEC is the federal body set up by the Nigerian Constitution to conduct elections at the national level, including Presidential, Governorship and National/State Assembly elections. SIEC only handles Local Government elections, while the other two bodies have different functions entirely.",
+"pidgin": "INEC na di body wey Constitution give power to conduct election for President, Governor, National and State Assembly. SIEC na for Local Government election only, and di other two bodies no dey do election work at all.",
+"id": "wgov0701",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Under the Proportional Representation electoral system, seats in the legislature are mainly allocated to political parties based on:",
+"options": [
+"The seniority of each party's candidates",
+"The geographical size of the constituency",
+"The percentage of total votes each party scores in the election",
+"The number of years each party has existed"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Proportional Representation shares out legislative seats in proportion to the percentage of votes each party receives nationwide or in a region. This way, a party with 20% of votes gets roughly 20% of the seats, unlike First-Past-The-Post.",
+"pidgin": "Proportional Representation dey share seat for legislature based on di percentage of votes each party score. If party get 20% of votes, dem go roughly give am 20% of di seats, no be like First-Past-The-Post.",
+"id": "wgov0702",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is the best example of an indirect election conducted through an Electoral College, instead of direct voting by the electorate?",
+"options": [
+"Election of the President of the United States by the Electoral College",
+"Election of a Nigerian Local Government Chairman by direct adult suffrage",
+"Election of members of the Nigerian House of Representatives by direct adult suffrage",
+"Election of a Nigerian State Governor through direct adult suffrage"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In the American system, ordinary voters actually choose 'electors' in each state, and it is these electors who formally elect the President; this is an indirect, Electoral College method. The other three options are all direct elections where voters themselves choose the winner.",
+"pidgin": "For America, di ordinary voters dey choose 'electors' for each state, and na dem go now officially vote President; dat one na indirect, Electoral College style. Di other three options na direct election wia voters demsef dey pick di winner.",
+"id": "wgov0703",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a Federal Constituency election conducted under the First-Past-The-Post (FPTP) system, four candidates scored as follows out of 100,000 valid votes cast: Okafor - 35,000; Bello - 30,000; Yusuf - 20,000; Adeyemi - 15,000. Who should be declared the winner, and why?",
+"options": [
+"Okafor, because he scored the highest number of votes, even though it is less than half of the total votes cast",
+"Bello, because his votes added to Yusuf's votes are greater than Okafor's votes",
+"Adeyemi, because FPTP protects the interest of the smallest candidate",
+"No winner should be declared, since no candidate scored up to 50% of total votes"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "FPTP declares the candidate with the highest single number of votes (a simple plurality) as winner, even if that number is less than 50% of total votes. Okafor's 35,000 is more than any other single candidate's score, so he wins, regardless of what other candidates' votes add up to.",
+"pidgin": "FPTP dey declare di candidate wey score di highest number of votes as winner, even if e no reach 50% of total votes. Okafor im 35,000 pass any other single candidate, so na im go win, no matter wetin di others add up to.",
+"id": "wgov0704",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A fresh election conducted to fill a legislative seat that becomes vacant between general elections, due to the death or resignation of the former occupant, is known as a:",
+"options": [
+"General election",
+"By-election",
+"Run-off election",
+"Referendum"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A by-election is held specifically to fill a single vacant seat that falls empty outside the normal election cycle, often because the former holder died, resigned, or was removed. It is different from a general election, which covers many seats at once.",
+"pidgin": "By-election na election wey dem conduct to fill one seat wey become empty before im time, maybe because di person wey dey hold am die, resign, or dem remove am. E different from general election wey cover plenty seats at once.",
+"id": "wgov0705",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a major pre-election function performed by an electoral body such as INEC?",
+"options": [
+"Appointing ministers to the Federal Executive Council",
+"Delimiting constituencies and compiling the voters' register",
+"Prosecuting corruption cases in the regular law courts",
+"Approving the national budget presented by the Executive arm of government"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Before any election, INEC must mark out constituency boundaries (delimitation) and prepare an accurate voters' register. Appointing ministers, prosecuting cases, and approving budgets belong to other arms of government, not the electoral body.",
+"pidgin": "Before any election, INEC must draw constituency boundary (delimitation) and prepare correct voters' register. To appoint minister, prosecute case, or approve budget na work for other arm of government, no be electoral body work.",
+"id": "wgov0706",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a certain state, the ruling party deliberately redraws the boundaries of a constituency so that opposition supporters, who used to be concentrated together in one area, are now scattered across several other constituencies, making them a minority everywhere and reducing their chances of winning any seat. This practice is called:",
+"options": [
+"Delimitation",
+"Franchise",
+"Gerrymandering",
+"Suffrage"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Gerrymandering is the deliberate, unfair manipulation of constituency boundaries to give one party or group an electoral advantage over another. Ordinary delimitation is a neutral, lawful exercise, but when it is done dishonestly to weaken an opponent's voting strength, it becomes gerrymandering.",
+"pidgin": "Gerrymandering na wen dem purposely change constituency boundary anyhow to favour one party pass di other. Normal delimitation na fair work, but if dem do am dirty style to weaken opposition voters, dat one don turn gerrymandering.",
+"id": "wgov0707",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,86 @@
+{
+"subject": "economics",
+"topic": "Tools of analysis: tables, graphs, mean, median and mode",
+"generated": 3,
+"kept": [
+{
+"q": "The weekly savings (in ₦) of five traders in a market in Kano are: 400, 600, 500, 700, and 800. What is the arithmetic mean of their savings?",
+"options": [
+"₦580",
+"₦600",
+"₦620",
+"₦700"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Add all the values: 400+600+500+700+800 = 3000. Divide by the number of traders (5): 3000/5 = 600. So the mean saving is ₦600.",
+"pidgin": "Add all di money together: 400+600+500+700+800 = 3000. Divide am by 5 (di number of traders): 3000/5 = 600. So di mean na ₦600.",
+"py": "(400+600+500+700+800)/5",
+"values": [
+580,
+600,
+620,
+700
+],
+"id": "ecov0200",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "The ages (in years) of eight workers in a company are: 22, 25, 23, 28, 26, 24, 30, and 27. What is the median age of the workers?",
+"options": [
+"25",
+"24.5",
+"25.5",
+"26"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "First arrange the ages in order: 22,23,24,25,26,27,28,30. Since there are 8 (even) values, the median is the average of the 4th and 5th values, which are 25 and 26. So median = (25+26)/2 = 25.5.",
+"pidgin": "First arrange di ages from small to big: 22,23,24,25,26,27,28,30. Since na 8 people (even number), median na average of di 4th and 5th number, wey be 25 and 26. So median = (25+26)/2 = 25.5.",
+"py": "(25+26)/2",
+"values": [
+25,
+24.5,
+25.5,
+26
+],
+"id": "ecov0201",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "In a secondary school, Class A has 20 students with an average height of 150 cm, while Class B has 30 students with an average height of 160 cm. If the two classes are combined, what is the mean height of all the students?",
+"options": [
+"155 cm",
+"156 cm",
+"158 cm",
+"152 cm"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "To find the combined mean, first find the total height for each class: Class A = 20 x 150 = 3000 cm, Class B = 30 x 160 = 4800 cm. Add the totals: 3000+4800 = 7800 cm. Divide by the total number of students (20+30=50): 7800/50 = 156 cm. This is a weighted mean, not a simple average of 150 and 160.",
+"pidgin": "To find di combined mean, first calculate total height for each class: Class A = 20 x 150 = 3000 cm, Class B = 30 x 160 = 4800 cm. Add dem together: 3000+4800 = 7800 cm. Divide by total number of students (20+30=50): 7800/50 = 156 cm. Na weighted mean be dis, no be simple average of 150 and 160.",
+"py": "(20*150+30*160)/50",
+"values": [
+155,
+156,
+158,
+152
+],
+"id": "ecov0202",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

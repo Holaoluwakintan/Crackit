@@ -1,0 +1,169 @@
+{
+"subject": "commerce",
+"topic": "Transport",
+"ti": 9,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following is a major mode of transport used in Nigeria for moving goods and people?",
+"options": [
+"Banking",
+"Road",
+"Insurance",
+"Warehousing"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Road transport is one of the main ways of moving goods and people from one place to another. Banking, insurance and warehousing are aids to trade, not modes of transport.",
+"pidgin": "Road transport na one of the main way wey dem dey use carry goods and people go anywhere. Banking, insurance and warehousing na aids to trade, dem no be transport.",
+"py": null,
+"values": null,
+"id": "wcom0900",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A document issued by a shipping company to acknowledge that goods have been received on board a ship for carriage to another port is called a",
+"options": [
+"waybill",
+"bill of lading",
+"invoice",
+"charter party"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A bill of lading is the document a shipping company gives as proof that goods have been loaded on a ship for sea transport. A waybill is used for road or rail transport, while an invoice shows price details, and a charter party is a contract for hiring a whole ship.",
+"pidgin": "Bill of lading na the paper wey shipping company dey give as proof say dem don load goods inside ship for sea transport. Waybill na for road or rail, invoice na for price, charter party na contract to hire whole ship.",
+"py": null,
+"values": null,
+"id": "wcom0901",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is the most suitable mode of transport for moving crude oil from an oil field to a refinery over a long distance?",
+"options": [
+"Pipeline",
+"Air transport",
+"Road transport",
+"Rail transport"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Pipelines are specially built to carry liquids and gases such as crude oil, petrol and water over long distances continuously and cheaply. Road, rail and air transport are not designed for bulk liquid movement like this.",
+"pidgin": "Pipeline na the one wey dem dey build specially to carry liquid and gas like crude oil, petrol and water for far distance, e cheap well well. Road, rail and air no fit carry plenty liquid like that.",
+"py": null,
+"values": null,
+"id": "wcom0902",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A trader in Onitsha hires a lorry to carry her goods to Lagos. The transport company charges ₦500 per kg for the first 50kg and ₦300 per kg for every additional kg above 50kg. If her load weighs 80kg, how much will she pay in total?",
+"options": [
+"₦25,000",
+"₦30,000",
+"₦34,000",
+"₦40,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "First 50kg costs 50 x ₦500 = ₦25,000. The remaining 30kg (80 - 50) costs 30 x ₦300 = ₦9,000. Total = ₦25,000 + ₦9,000 = ₦34,000.",
+"pidgin": "First 50kg na 50 x 500 = 25,000 naira. The remaining 30kg (80 minus 50) na 30 x 300 = 9,000 naira. Add dem together you go get 34,000 naira.",
+"py": "50*500 + 30*300",
+"values": [
+25000,
+30000,
+34000,
+40000
+],
+"id": "wcom0903",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In sea transport, the extra charge paid by an importer when his ship is delayed beyond the agreed loading or unloading time at a port is called",
+"options": [
+"freight",
+"demurrage",
+"premium",
+"commission"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Demurrage is the penalty charge paid when a ship stays longer than the agreed time at the port for loading or unloading. Freight is the normal charge for carrying goods, while premium and commission relate to insurance and selling agents respectively.",
+"pidgin": "Demurrage na the extra money wey dem go pay if ship stay pass the time wey dem agree for port to load or unload. Freight na the normal charge to carry goods, premium na insurance money and commission na agent payment.",
+"py": null,
+"values": null,
+"id": "wcom0904",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a disadvantage of air transport compared to road transport in Nigeria?",
+"options": [
+"It is faster for long distances",
+"It cannot be used for perishable goods",
+"It is cheaper for bulky goods over short distances",
+"It requires heavy capital investment and high operating cost"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Air transport needs expensive aircraft, airports and trained staff, making it very costly to set up and run. It is actually fast and good for perishable goods, but not cheap for bulky, short-distance loads, which makes options A, B and C wrong.",
+"pidgin": "Air transport need expensive aeroplane, airport and trained workers, so e cost plenty money to start and run. E dey fast and e good for perishable goods, but e no cheap for heavy load wey dey travel short distance, so the other options no correct.",
+"py": null,
+"values": null,
+"id": "wcom0905",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A carrier's right to hold on to a customer's goods until the agreed transport charges have been fully paid is known as",
+"options": [
+"carrier's lien",
+"freight note",
+"consignment note",
+"way leave"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A carrier's lien is the legal right of a transporter to keep goods until the owner pays the agreed transport charges. A freight note shows the amount charged, a consignment note describes the goods being sent, and way leave refers to permission to lay pipelines or cables across land.",
+"pidgin": "Carrier's lien na the right wey transporter get to hold goods until owner pay the transport money wey dem agree. Freight note na paper wey show the charge, consignment note na paper wey describe the goods, way leave na permission to lay pipe or cable pass land.",
+"py": null,
+"values": null,
+"id": "wcom0906",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

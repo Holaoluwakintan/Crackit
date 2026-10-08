@@ -1,0 +1,94 @@
+{
+"subject": "chemistry",
+"topic": "Non-metals: hydrogen, oxygen, nitrogen, sulphur, chlorine and their compounds",
+"generated": 4,
+"kept": [
+{
+"q": "A student heats zinc granules with dilute tetraoxosulphate(VI) acid in a test tube and collects the gas produced. When a lighted splint is brought near the mouth of the tube, a 'pop' sound is heard. Which gas was produced and confirmed by this test?",
+"options": [
+"Hydrogen gas",
+"Oxygen gas",
+"Carbon(IV) oxide gas",
+"Chlorine gas"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Hydrogen gas gives a characteristic 'pop' sound when a lighted splint is placed near it, because it burns rapidly in air. Oxygen relights a glowing splint, CO2 puts out a flame, and chlorine bleaches damp litmus; none of these give a pop sound.",
+"pidgin": "Hydrogen gas na the one wey dey give 'pop' sound when you bring fire near am, because e dey burn quick quick for air. Oxygen go relight glowing splint, CO2 go kill fire, chlorine go bleach litmus paper; na only hydrogen dey pop.",
+"py": null,
+"values": null,
+"id": "chev1400",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the industrial manufacture of ammonia by the Haber process, nitrogen gas and hydrogen gas are combined at about 450°C and 200 atmospheres in the presence of a catalyst to speed up the reaction. Which substance is used as this catalyst?",
+"options": [
+"Finely divided iron",
+"Platinum gauze",
+"Vanadium(V) oxide",
+"Manganese(IV) oxide"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In the Haber process, finely divided iron (often with small amounts of promoters like K2O or Al2O3) is used as the catalyst to speed up the reaction between N2 and H2 to form NH3. Platinum gauze is used for ammonia oxidation in the Ostwald process, vanadium(V) oxide is used in the Contact process for SO3 production, and manganese(IV) oxide is used to decompose hydrogen peroxide or potassium chlorate(V).",
+"pidgin": "For Haber process, dem dey use finely divided iron as catalyst make N2 and H2 fast react to form NH3. Platinum gauze na for Ostwald process wey dem dey oxidize ammonia, vanadium(V) oxide na for Contact process wey dey make SO3, and MnO2 na for decompose hydrogen peroxide or KClO3.",
+"py": null,
+"values": null,
+"id": "chev1401",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Potassium trioxochlorate(V), KClO3, decomposes on heating according to the equation: 2KClO3 -> 2KCl + 3O2. If 2.0 moles of KClO3 decompose completely, what volume of oxygen gas is produced at standard temperature and pressure (s.t.p.), given that 1 mole of gas occupies 22.4 dm3 at s.t.p.?",
+"options": [
+"67.2 dm3",
+"44.8 dm3",
+"22.4 dm3",
+"33.6 dm3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "From the equation, 2 mol KClO3 produces 3 mol O2, so 2.0 mol KClO3 also produces 3.0 mol O2. Volume of O2 at s.t.p. = 3.0 mol x 22.4 dm3/mol = 67.2 dm3. The other options come from wrong mole ratios or using only part of the stoichiometry.",
+"pidgin": "From the equation, 2 mol KClO3 dey give 3 mol O2, so 2.0 mol KClO3 go give 3.0 mol O2 too. Volume of O2 for s.t.p. = 3.0 x 22.4 = 67.2 dm3. Other options na from wrong ratio mistake.",
+"py": "3 * 22.4",
+"values": [
+67.2,
+44.8,
+22.4,
+33.6
+],
+"id": "chev1402",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "When sulphur(IV) oxide gas is passed into acidified potassium tetraoxomanganate(VII) solution, the purple colour of the solution fades. What role is sulphur(IV) oxide playing in this reaction?",
+"options": [
+"It acts as a reducing agent and is oxidised to the sulphate(VI) ion",
+"It acts as an oxidising agent and is reduced to sulphur",
+"It acts as a drying agent that removes water from the solution",
+"It acts only as a bleaching agent similar to chlorine water"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Sulphur(IV) oxide is a good reducing agent; it reduces the purple manganate(VII) ion (MnO4-) to colourless Mn2+ ion while SO2 itself is oxidised from the +4 to the +6 oxidation state, forming sulphate(VI) ions. This fading of colour is a standard test for SO2 and for reducing agents in general.",
+"pidgin": "Sulphur(IV) oxide na good reducing agent; e dey reduce the purple MnO4- ion to colourless Mn2+, while SO2 im self dey oxidise from +4 to +6 to become sulphate(VI) ion. Na why the purple colour dey fade, and na common test for reducing agent.",
+"py": null,
+"values": null,
+"id": "chev1403",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

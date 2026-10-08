@@ -1,0 +1,153 @@
+{
+"subject": "chemistry",
+"topic": "Hydrocarbons (alkanes, alkenes, alkynes, benzene)",
+"ti": 14,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following is the correct general molecular formula for the homologous series of alkanes?",
+"options": [
+"CnH2n+2",
+"CnH2n",
+"CnH2n-2",
+"CnHn"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Alkanes are saturated hydrocarbons containing only single carbon-carbon bonds. Their general formula is CnH2n+2, for example methane (CH4, n=1) and ethane (C2H6, n=2).",
+"pidgin": "Alkane na saturated hydrocarbon wey get only single bond between di carbon atoms. Dat na why dia general formula na CnH2n+2, like methane CH4 and ethane C2H6.",
+"py": null,
+"values": null,
+"id": "wche1400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the IUPAC name of the hydrocarbon with structural formula CH3-CH2-CH=CH2?",
+"options": [
+"But-1-ene",
+"But-2-ene",
+"Prop-1-ene",
+"Pent-1-ene"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The compound has 4 carbon atoms with a double bond starting at the first carbon from the end, so it is named but-1-ene. The 'but' shows 4 carbons and '1-ene' shows the double bond position.",
+"pidgin": "Di compound get 4 carbon atoms and di double bond start from di first carbon, so dem go call am but-1-ene. 'But' mean 4 carbons, '1-ene' show say di double bond dey for position one.",
+"py": null,
+"values": null,
+"id": "wche1401",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following statements correctly distinguishes alkenes from alkanes?",
+"options": [
+"Alkenes decolourise bromine water rapidly while alkanes do not react with it under the same conditions",
+"Alkanes burn with a more luminous and sooty flame than alkenes",
+"Alkenes are saturated hydrocarbons while alkanes are unsaturated",
+"Alkanes undergo addition reactions readily while alkenes undergo substitution reactions"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Alkenes contain a C=C double bond that is easily broken by addition reactions, so they quickly decolourise bromine water (orange to colourless). Alkanes, being saturated, do not react with bromine water under the same mild conditions.",
+"pidgin": "Alkene get C=C double bond wey dey easy to break through addition reaction, so e go quick turn bromine water from orange to no colour. Alkane na saturated hydrocarbon, e no go react with bromine water under dat same condition.",
+"py": null,
+"values": null,
+"id": "wche1402",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which property of benzene explains why it does not readily undergo addition reactions like typical alkenes, despite its ring appearing to have three double bonds?",
+"options": [
+"Benzene has a high boiling point",
+"Benzene's delocalized pi electrons give it extra (aromatic) stability",
+"Benzene is a saturated hydrocarbon",
+"Benzene contains only single bonds between its carbon atoms"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The six pi electrons in benzene are delocalized evenly around the ring, making it unusually stable. This stability makes benzene resistant to addition reactions and favours substitution reactions instead.",
+"pidgin": "Di six pi electrons for benzene dey spread evenly round di ring, dis one dey make am stable well-well. Because of dis stability, benzene no dey easily do addition reaction, e dey prefer substitution reaction instead.",
+"py": null,
+"values": null,
+"id": "wche1403",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "An alkene with general formula CnH2n was found to contain 85.7% carbon by mass and has a molar mass of 42 g/mol. What is the value of n? [C = 12, H = 1]",
+"options": [
+"2",
+"3",
+"4",
+"5"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Molar mass of CnH2n is 14n, so 14n = 42 gives n = 3. Checking: %C = (12x3)/(14x3) x100 = 85.7%, which matches the given data, confirming n = 3 (propene, C3H6).",
+"pidgin": "Molar mass of CnH2n na 14n, so 14n = 42 mean n = 3. If you check am, %C = (12x3)/(14x3) x100 = 85.7%, e match wetin dem give, so n = 3 (propene, C3H6).",
+"py": "42/14",
+"values": [
+2,
+3,
+4,
+5
+],
+"id": "wche1404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Propane burns completely in excess oxygen according to the equation: C3H8 + 5O2 -> 3CO2 + 4H2O. What mass of carbon(IV) oxide is produced when 0.5 mole of propane burns completely? [C = 12, O = 16]",
+"options": [
+"44g",
+"66g",
+"88g",
+"132g"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "From the equation, 1 mole of propane produces 3 moles of CO2, so 0.5 mole produces 1.5 moles of CO2. Mass of CO2 = 1.5 x 44 = 66g.",
+"pidgin": "From di equation, 1 mole propane dey produce 3 mole CO2, so 0.5 mole go produce 1.5 mole CO2. Mass of CO2 = 1.5 x 44 = 66g.",
+"py": "0.5*3*44",
+"values": [
+44,
+66,
+88,
+132
+],
+"id": "wche1405",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

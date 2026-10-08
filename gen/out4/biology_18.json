@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Pests, diseases and public health",
+"ti": 18,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following insects is the vector responsible for transmitting the parasite that causes malaria in humans?",
+"options": [
+"Female Anopheles mosquito",
+"Tsetse fly",
+"Housefly",
+"Male Culex mosquito"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The female Anopheles mosquito carries the Plasmodium parasite and passes it into the blood of a person when it bites to feed. Male mosquitoes do not bite humans because they feed on plant nectar, not blood.",
+"pidgin": "Na female Anopheles mosquito dey carry the Plasmodium parasite wey dey cause malaria, e dey enter person body when e bite. Male mosquito no dey bite human because e dey feed on nectar from plant.",
+"id": "wbio1800",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A pest can be best defined as any organism that",
+"options": [
+"lives permanently inside another organism without harming it",
+"competes with man for food, destroys his crops or transmits disease",
+"decomposes dead organic matter in the soil",
+"helps in pollination of flowering plants"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A pest is any organism that is harmful to man, either by destroying his crops, stored food, animals or by spreading disease. Decomposers and pollinators are usually beneficial, not harmful.",
+"pidgin": "Pest na any living thing wey dey cause wahala for man, like e go spoil im crop, food, animal or spread sickness. Decomposer and pollinator dey help man, dem no be pest.",
+"id": "wbio1801",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these diseases is mainly spread through contaminated water and poor sanitation?",
+"options": [
+"Measles",
+"Cholera",
+"Tuberculosis",
+"Tetanus"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Cholera is caused by Vibrio cholerae bacteria that spread through water or food contaminated with faecal matter, especially where sanitation is poor. Measles and tuberculosis spread through air droplets, while tetanus enters through wounds.",
+"pidgin": "Cholera na sickness wey Vibrio cholerae bacteria dey cause, e dey spread through water or food wey shit don enter, especially where sanitation no good. Measles and TB dey spread through air, tetanus dey enter through wound.",
+"id": "wbio1802",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A school health club in Enugu wants to reduce the breeding of mosquitoes around the hostel compound. Which of the following practices would be most effective?",
+"options": [
+"Spraying the classrooms with insecticide once a term",
+"Clearing stagnant water in drains and covering water storage containers",
+"Planting more flowering shrubs near the hostel",
+"Increasing the number of dustbins around the compound"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Mosquitoes lay their eggs in stagnant water, so removing or covering such water stops the larvae from developing into adults. Spraying classrooms only kills adult mosquitoes temporarily and does not stop new ones from breeding.",
+"pidgin": "Mosquito dey lay egg for still water, so if you clear am or cover am well, the larvae no go fit grow to adult mosquito. To spray classroom just dey kill the adult ones small time, e no dey stop new ones from breeding.",
+"id": "wbio1803",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Okafor's farm recorded heavy loss of yam tubers due to rot caused by nematodes in the soil. Which farming practice would best help reduce this pest's population before the next planting season?",
+"options": [
+"Crop rotation with a non-host crop such as maize",
+"Continuous planting of yam on the same plot every season",
+"Applying excess nitrogen fertilizer to the soil",
+"Reducing the spacing between yam plants"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Crop rotation with a crop that nematodes cannot feed on, such as maize, breaks their life cycle because they lose their host and their population reduces over time. Planting yam continuously keeps feeding the nematodes and allows them to multiply.",
+"pidgin": "If Mr. Okafor rotate im farm make e plant maize wey nematode no fit chop, the nematode no go get food again and e go reduce small small. But if e dey plant yam every season for the same land, e dey give the nematode food to continue to multiply.",
+"id": "wbio1804",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A community recorded an outbreak of a disease that caused yellowing of the eyes, dark urine and fatigue among residents who often ate shellfish from a polluted river. Which disease is most likely responsible?",
+"options": [
+"Guinea worm infection",
+"Hepatitis A",
+"Onchocerciasis",
+"Schistosomiasis"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Hepatitis A is a liver infection caused by a virus found in water or food, such as shellfish, contaminated by faecal matter, and it causes jaundice (yellow eyes), dark urine and tiredness because the liver is affected. Guinea worm, onchocerciasis and schistosomiasis do not cause jaundice as their main symptom.",
+"pidgin": "Hepatitis A na liver sickness wey virus dey cause, e dey enter body through water or food like shellfish wey don mix with shit, and e dey make eye yellow, urine dark and body weak because liver don spoil. Guinea worm, onchocerciasis and schistosomiasis no dey cause jaundice like dat.",
+"id": "wbio1805",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

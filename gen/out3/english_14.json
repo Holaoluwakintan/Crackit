@@ -1,0 +1,120 @@
+{
+"subject": "english",
+"topic": "Oral English: emphatic stress (the word in CAPITALS is stressed; which question does the sentence answer)",
+"generated": 6,
+"kept": [
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the most appropriate answer.\n\nChidi gave his SISTER the textbook.",
+"options": [
+"To whom did Chidi give the textbook?",
+"What did Chidi give his sister?",
+"Who gave the textbook to Chidi's sister?",
+"Where did Chidi give the textbook?"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The stress is on SISTER, the person who received the textbook. So the sentence answers a question about who received it, that is, 'To whom did Chidi give the textbook?'",
+"pidgin": "Na SISTER dem put mouth for am, and she na the person wey receive the textbook. So the question wey fit am na 'To whom did Chidi give the textbook?'",
+"id": "engv1400",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the most appropriate answer.\n\nOur teacher will travel to Kano NEXT WEEK.",
+"options": [
+"Where will our teacher travel to?",
+"When will our teacher travel to Kano?",
+"Who will travel to Kano?",
+"Why will our teacher travel to Kano?"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "NEXT WEEK tells us the time of the journey. The sentence therefore answers a question about when the teacher will travel, not where, who, or why.",
+"pidgin": "NEXT WEEK na the time wey dem go travel. So the sentence dey answer question about when the teacher go travel, no be where, who or why.",
+"id": "engv1401",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the most appropriate answer.\n\nThe farmer planted CASSAVA on his land.",
+"options": [
+"Where did the farmer plant cassava?",
+"Who planted cassava on his land?",
+"What did the farmer plant on his land?",
+"When did the farmer plant cassava?"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "CASSAVA is the crop that was planted, so the stress highlights what was planted. The matching question must ask 'What did the farmer plant on his land?'",
+"pidgin": "CASSAVA na the thing wey the farmer plant, so the stress show what e plant. The question wey match am na 'What did the farmer plant on his land?'",
+"id": "engv1402",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the most appropriate answer.\n\nMr. Eze himself repaired the GENERATOR before the visitors arrived.",
+"options": [
+"What did Mr. Eze himself repair before the visitors arrived?",
+"Who repaired the generator before the visitors arrived?",
+"When did Mr. Eze repair the generator?",
+"Why did Mr. Eze repair the generator?"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Although 'himself' could suggest emphasis on the doer, the capitalised word here is GENERATOR, the object repaired. So the correct question must ask what was repaired, not who did it.",
+"pidgin": "Even though 'himself' fit make you think say na who dem dey emphasise, na GENERATOR dem capitalise, wey be the thing wey e fix. So the correct question na wetin dem fix, no be who fix am.",
+"id": "engv1404",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the most appropriate answer.\n\nThe headmaster, not the class teacher, gave Ngozi the AWARD.",
+"options": [
+"Who gave Ngozi the award?",
+"To whom did the headmaster give the award?",
+"What did the headmaster give Ngozi?",
+"Why did Ngozi receive the award?"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Though the phrase 'not the class teacher' seems to stress the giver, the capitalised word is AWARD, the thing given. The sentence therefore answers 'What did the headmaster give Ngozi?'",
+"pidgin": "Even as 'not the class teacher' fit make you think say na the person wey give am dem dey emphasise, na AWARD dem capitalise, wey be the tin wey e give. So the question na 'What did the headmaster give Ngozi?'",
+"id": "engv1405",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the most appropriate answer.\n\nFunmi wrote the letter WITH a pencil.",
+"options": [
+"What did Funmi write?",
+"Who wrote the letter?",
+"When did Funmi write the letter?",
+"With what did Funmi write the letter?"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The stress on WITH a pencil points to the instrument used for writing. This matches a question asking about the means or tool, 'With what did Funmi write the letter?'",
+"pidgin": "The stress for WITH a pencil dey show the tin wey she use write. E match the question wey ask about the tool, 'With what did Funmi write the letter?'",
+"id": "engv1403",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+"why": "ambiguous:|Stress on the preposition WITH is contrastive (e.g. with vs without); 'With what...?' would require stress on PENCIL"
+}
+]
+}

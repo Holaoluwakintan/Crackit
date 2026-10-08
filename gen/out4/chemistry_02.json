@@ -1,0 +1,147 @@
+{
+"subject": "chemistry",
+"topic": "Chemical bonding",
+"ti": 2,
+"generated": 6,
+"kept": [
+{
+"q": "Which type of chemical bond is formed when one atom transfers electron(s) to another atom, producing oppositely charged ions that attract each other?",
+"options": [
+"Covalent bond",
+"Ionic bond",
+"Metallic bond",
+"Hydrogen bond"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An ionic bond is formed when a metal atom loses electrons to a non-metal atom, forming a cation and an anion. The oppositely charged ions then attract strongly, as seen in NaCl.",
+"pidgin": "Ionic bond na when metal atom comot electron give non-metal atom, so cation and anion go form. Dis two ion wey get opposite charge go attract each other strong, like for NaCl.",
+"py": null,
+"values": null,
+"id": "wche0200",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these compounds contains only covalent bonds between its atoms?",
+"options": [
+"Sodium chloride (NaCl)",
+"Magnesium oxide (MgO)",
+"Carbon(IV) oxide (CO2)",
+"Potassium bromide (KBr)"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "CO2 is made up of two non-metals, carbon and oxygen, which share electrons to form covalent bonds. NaCl, MgO and KBr are all formed between a metal and a non-metal, so they are ionic compounds.",
+"pidgin": "CO2 na from two non-metal, carbon and oxygen, wey share electron make covalent bond. NaCl, MgO and KBr na metal join non-metal, so dem be ionic compound.",
+"py": null,
+"values": null,
+"id": "wche0201",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a chlorine molecule, Cl2, each chlorine atom originally has 7 electrons in its outermost shell. When the two atoms combine by sharing one pair of electrons, how many electrons appear to surround each chlorine atom in the molecule, according to the octet rule?",
+"options": [
+"6",
+"7",
+"8",
+"2"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Each chlorine atom has 7 electrons of its own plus 1 shared electron from the other atom, giving it 8 electrons around it. This satisfies the octet rule, making the molecule stable.",
+"pidgin": "Each chlorine atom get im own 7 electron plus 1 wey dem share from the other atom, so e go reach 8 electron around am. Dis one follow the octet rule wey make the molecule stable.",
+"py": "7+1",
+"values": [
+6,
+7,
+8,
+2
+],
+"id": "wche0202",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following is NOT a typical property of ionic compounds?",
+"options": [
+"High melting and boiling points",
+"Conduct electricity when molten or dissolved in water",
+"Good solubility in polar solvents like water",
+"Low melting point and high volatility"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Ionic compounds have strong electrostatic forces between ions, which give them high melting points, not low ones. Low melting point and easy evaporation (volatility) are features of simple covalent/molecular compounds instead.",
+"pidgin": "Ionic compound get strong force wey hold di ions, so dem get high melting point, no be low one. Low melting point and quick evaporation na property of covalent compound.",
+"py": null,
+"values": null,
+"id": "wche0203",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The electronegativity values of four elements are: Potassium (K) = 0.8, Hydrogen (H) = 2.1, Carbon (C) = 2.5, Oxygen (O) = 3.5. Based on these values, which pair of elements would form a bond with the greatest ionic character?",
+"options": [
+"Potassium and Oxygen",
+"Carbon and Hydrogen",
+"Carbon and Oxygen",
+"Potassium and Hydrogen"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The larger the electronegativity difference between two atoms, the more ionic the bond. K and O have the largest difference (3.5 - 0.8 = 2.7), which is greater than for the other pairs, so their bond is most ionic.",
+"pidgin": "Di bigger di difference for electronegativity, na so di bond go dey more ionic. K and O get di biggest difference (3.5 - 0.8 = 2.7) pass di oda pairs, so dia bond go dey most ionic.",
+"py": null,
+"values": null,
+"id": "wche0204",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Diamond and graphite are both allotropes of carbon, yet graphite conducts electricity while diamond does not. Which statement best explains this difference in terms of bonding?",
+"options": [
+"Graphite has ionic bonds between its layers while diamond has only covalent bonds",
+"In graphite, each carbon atom forms three covalent bonds leaving one delocalised electron free to move, while in diamond each carbon forms four covalent bonds with no free electrons",
+"Diamond has metallic bonding while graphite has purely covalent bonding",
+"Graphite contains free-moving ions while diamond does not contain any ions"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In graphite, each carbon atom bonds to only three other carbon atoms, so one electron per atom is delocalised and free to move between layers, allowing it to conduct electricity. In diamond, each carbon forms four strong covalent bonds, using up all electrons so none are free to carry charge.",
+"pidgin": "For graphite, each carbon atom bond to only three oda carbon, so one electron go free waka within di layers, dat one make am conduct current. For diamond, each carbon bond strong to four oda carbon, so all di electrons dey used up, no free electron remain to carry current.",
+"py": null,
+"values": null,
+"id": "wche0205",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,80 @@
+{
+"subject": "economics",
+"topic": "Money: functions, demand for money, inflation and deflation",
+"generated": 3,
+"kept": [
+{
+"q": "Chief Nwosu sold his yams and kept part of the proceeds in a savings account so that he could use the money to pay his daughter's school fees two years later. This use of money is best described as money performing the function of a:",
+"options": [
+"Medium of exchange",
+"Store of value",
+"Unit of account",
+"Standard of deferred payment"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Money acts as a store of value when it is kept aside to be used for spending in the future without losing (much) of its usefulness. Chief Nwosu is saving the money to use later, so this is the store of value function, not buying something now (medium of exchange) or pricing goods (unit of account).",
+"pidgin": "Money dey work as store of value when person keep am well-well to use am later, no be to buy something now-now. Since Chief Nwosu kon save the money make e use am two years later, na store of value be dis, no be unit of account or medium of exchange.",
+"py": null,
+"values": null,
+"id": "ecov1000",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In an economy, the total money supply is ₦200,000,000 and the velocity of circulation of money is 5. If the total output of goods and services produced in the economy is 2,500,000 units, use the Quantity Theory of Money (MV = PQ) to find the average price level per unit.",
+"options": [
+"₦250",
+"₦400",
+"₦500",
+"₦1,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Using MV = PQ, P = MV/Q = (200,000,000 x 5) / 2,500,000 = 1,000,000,000 / 2,500,000 = ₦400. This is the only value that satisfies the equation with the given figures.",
+"pidgin": "Dem use MV=PQ formula: P = MV/Q = (200,000,000 x 5) / 2,500,000 = ₦400. Na di correct answer wey match di figures wey dem give.",
+"py": "(200_000_000*5)/2_500_000",
+"values": [
+250,
+400,
+500,
+1000
+],
+"id": "ecov1001",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A commercial bank in Lagos offers a nominal interest rate of 15 percent per annum on fixed deposits, while the prevailing inflation rate in the economy is 9 percent per annum. Using the simple Fisher relationship (Nominal rate = Real rate + Inflation rate), what is the approximate real interest rate earned by a depositor?",
+"options": [
+"24%",
+"15%",
+"9%",
+"6%"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "From the Fisher equation, Real rate = Nominal rate - Inflation rate = 15% - 9% = 6%. This shows the true increase in the depositor's purchasing power after accounting for inflation, which is lower than the nominal rate quoted by the bank.",
+"pidgin": "From Fisher equation, Real rate = Nominal rate minus Inflation rate = 15% - 9% = 6%. Na dis one show di real power wey depositor get after dem remove inflation, e dey smaller pass di nominal rate wey bank talk.",
+"py": "15-9",
+"values": [
+24,
+15,
+9,
+6
+],
+"id": "ecov1002",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,156 @@
+{
+"subject": "crs",
+"topic": "Trial, death, resurrection and ascension of Jesus",
+"generated": 8,
+"kept": [
+{
+"q": "During the trial of Jesus, the Roman governor who asked the crowd, 'What shall I do with Jesus who is called Christ?' and later washed his hands to show he was innocent of Jesus' blood was",
+"options": [
+"Pontius Pilate",
+"Herod Antipas",
+"Caiaphas",
+"Felix"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Pontius Pilate was the Roman governor who tried Jesus, found no fault in Him, but gave in to the crowd's demand and washed his hands. This is recorded in Matthew 27:24.",
+"pidgin": "Na Pontius Pilate be di Roman governor wey judge Jesus. E no see wetin Jesus do wrong but e still gree hand Am over, so e wash hand to show say e no gilti. Matthew 27:24 talk am.",
+"id": "crsv1900",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "On the way to Golgotha, the soldiers forced a passer-by from Cyrene to carry the cross of Jesus. What was this man's name?",
+"options": [
+"Barnabas",
+"Simon",
+"Andrew",
+"Lazarus"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Simon of Cyrene was compelled by the soldiers to carry the cross of Jesus to Golgotha. This event is recorded in Mark 15:21.",
+"pidgin": "Na Simon of Cyrene dem force make e carry Jesus cross go Golgotha. Mark 15:21 tell us dis story.",
+"id": "crsv1901",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "After Jesus died, a rich member of the Jewish council who had secretly believed in Him went to Pilate to request His body for burial. Who was this man?",
+"options": [
+"Nicodemus",
+"Joseph of Arimathea",
+"Gamaliel",
+"Simeon"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Joseph of Arimathea, a respected council member, asked Pilate for Jesus' body and buried it in his own new tomb. This is recorded in Matthew 27:57-60.",
+"pidgin": "Joseph of Arimathea, wey be big man for di Jewish council, go beg Pilate make e give am Jesus body so e fit bury Am for im own new tomb. Matthew 27:57-60 talk am.",
+"id": "crsv1902",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "On the morning of the resurrection, the person who first saw the risen Jesus and was sent to tell the other disciples was",
+"options": [
+"Mary Magdalene",
+"Peter",
+"John",
+"Thomas"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Mary Magdalene was the first to see the risen Jesus near the empty tomb, and He instructed her to go and tell the disciples. This is recorded in John 20:14-18.",
+"pidgin": "Mary Magdalene na di first person wey see Jesus after e resurrect, near di empty tomb. Jesus tell am make e go tell di oda disciples. John 20:14-18 talk am.",
+"id": "crsv1904",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "One disciple refused to believe that Jesus had risen until he could see and touch the nail prints in Jesus' hands and side. Who was this disciple?",
+"options": [
+"Philip",
+"Thomas",
+"Bartholomew",
+"James"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Thomas doubted the resurrection until he personally saw and touched Jesus' wounds, after which he confessed, 'My Lord and my God.' This is recorded in John 20:24-28.",
+"pidgin": "Thomas no gree believe say Jesus don resurrect until e see and touch di wound for Jesus hand and side. Afta dat e talk say 'My Lord and my God.' John 20:24-28 talk am.",
+"id": "crsv1905",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "At the exact moment Jesus died on the cross, a significant event happened in the temple that symbolised that access to God was now open to all people. What was this event?",
+"options": [
+"The temple was destroyed by fire",
+"The veil of the temple was torn in two",
+"The ark of the covenant disappeared",
+"The priests fled from the temple"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At the moment Jesus died, the veil of the temple separating the Holy Place from the Most Holy Place was torn from top to bottom, symbolising direct access to God through Jesus. This is recorded in Matthew 27:51.",
+"pidgin": "Di moment wey Jesus die, di curtain wey dey separate di Holy Place from di Most Holy Place for temple tear from up reach down. Dis one show say people fit now come near God through Jesus. Matthew 27:51 talk am.",
+"id": "crsv1906",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Just before His ascension, Jesus led His disciples out to a particular location near Jerusalem where He gave them final instructions and was then taken up into heaven. Where was this place?",
+"options": [
+"Mount Sinai",
+"Mount of Olives",
+"Mount Gerizim",
+"Mount Carmel"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Jesus led His disciples to the Mount of Olives, near Bethany, where He blessed them and was taken up into heaven while they watched. This is recorded in Luke 24:50-51 and Acts 1:9-12.",
+"pidgin": "Jesus carry Im disciples go Mount of Olives, near Bethany, where e bless dem and den dem see Am as e dey rise go heaven. Luke 24:50-51 and Acts 1:9-12 talk am.",
+"id": "crsv1907",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "According to the gospel accounts, how many days did the risen Jesus remain on earth, appearing to His disciples, before He ascended into heaven?",
+"options": [
+"Three days",
+"Seven days",
+"Forty days",
+"Fifty days"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Acts 1:3 states that Jesus showed Himself alive to His disciples for forty days after His resurrection before ascending to heaven. This period allowed Him to teach them about the kingdom of God.",
+"pidgin": "Acts 1:3 talk say Jesus show Imsef alive to Im disciples for forty days after e resurrect before e ascend go heaven. Na dis time e dey teach dem about God kingdom.",
+"id": "crsv1903",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+"why": "ambiguous:Forty days is stated in Acts, not the Gospels.|The forty days come from Acts 1:3, not the gospel accounts; the stem misattributes the source."
+}
+]
+}

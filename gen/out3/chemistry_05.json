@@ -1,0 +1,112 @@
+{
+"subject": "chemistry",
+"topic": "Stoichiometry and the mole concept",
+"generated": 4,
+"kept": [
+{
+"q": "Calculate the number of moles of magnesium atoms present in 6.0 g of magnesium metal. [Mg = 24]",
+"options": [
+"0.25 mol",
+"0.5 mol",
+"4.0 mol",
+"0.025 mol"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Number of moles = mass / molar mass = 6.0 / 24 = 0.25 mol. This is a direct application of the mole formula.",
+"pidgin": "Moles = mass divide molar mass = 6.0/24 = 0.25 mol. Na straight formula work be dis.",
+"py": "6.0/24",
+"values": [
+0.25,
+0.5,
+4.0,
+0.025
+],
+"id": "chev0500",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "100 cm3 of 0.4 mol/dm3 hydrochloric acid solution is mixed with 300 cm3 of distilled water. Assuming the volumes are additive, what is the concentration of the resulting solution?",
+"options": [
+"0.1 mol/dm3",
+"0.2 mol/dm3",
+"0.4 mol/dm3",
+"0.133 mol/dm3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Moles of HCl = 0.4 mol/dm3 x 0.1 dm3 = 0.04 mol. Total volume after mixing = 0.1 + 0.3 = 0.4 dm3. New concentration = 0.04/0.4 = 0.1 mol/dm3.",
+"pidgin": "Moles of HCl wey dey inside = 0.4 x 0.1 = 0.04 mol. Total volume don become 0.4 dm3. So new concentration = 0.04/0.4 = 0.1 mol/dm3.",
+"py": "(0.4*0.1)/(0.1+0.3)",
+"values": [
+0.1,
+0.2,
+0.4,
+0.133
+],
+"id": "chev0501",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Propane gas burns completely in oxygen according to the equation: C3H8(g) + 5O2(g) -> 3CO2(g) + 4H2O(g). If 0.2 mol of propane is completely burnt, how many moles of oxygen gas are required?",
+"options": [
+"1.0 mol",
+"0.2 mol",
+"2.0 mol",
+"0.5 mol"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "From the equation, 1 mol C3H8 reacts with 5 mol O2. So 0.2 mol C3H8 needs 0.2 x 5 = 1.0 mol O2.",
+"pidgin": "For the equation, 1 mol propane dey react with 5 mol O2. So 0.2 mol propane go need 0.2 x 5 = 1.0 mol O2.",
+"py": "5*0.2",
+"values": [
+1.0,
+0.2,
+2.0,
+0.5
+],
+"id": "chev0502",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Aluminium reacts with chlorine gas according to: 2Al(s) + 3Cl2(g) -> 2AlCl3(s). A chemist, Mr. Danjuma, mixes 5.4 g of aluminium with 7.1 g of chlorine gas in a sealed container and allows the reaction to go to completion. What mass of aluminium chloride, AlCl3, is formed? [Al = 27, Cl = 35.5]",
+"options": [
+"8.9 g",
+"13.35 g",
+"17.8 g",
+"4.45 g"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Moles Al = 5.4/27 = 0.2 mol, moles Cl2 = 7.1/71 = 0.1 mol. Required ratio Cl2:Al is 3:2 = 1.5, but available ratio is 0.1/0.2 = 0.5, so Cl2 is the limiting reagent. From 3 mol Cl2 giving 2 mol AlCl3, 0.1 mol Cl2 gives (2/3) x 0.1 = 0.0667 mol AlCl3, mass = 0.0667 x 133.5 = 8.9 g.",
+"pidgin": "Moles Al = 5.4/27 = 0.2 mol, moles Cl2 = 7.1/71 = 0.1 mol. The ratio wey dem need na 3:2 = 1.5, but wetin dem get na 0.5, so Cl2 na di limiting reagent. 0.1 mol Cl2 go produce (2/3) x 0.1 = 0.0667 mol AlCl3, wey be 8.9 g.",
+"py": "133.5*(2/3)*0.1",
+"values": [
+8.9,
+13.35,
+17.8,
+4.45
+],
+"id": "chev0503",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

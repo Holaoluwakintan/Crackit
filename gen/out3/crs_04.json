@@ -1,0 +1,156 @@
+{
+"subject": "crs",
+"topic": "Divine providence, guidance and protection (Exodus and the wilderness)",
+"generated": 8,
+"kept": [
+{
+"q": "During the wilderness journey, what visible sign did God use to guide the Israelites by day and by night respectively?",
+"options": [
+"A pillar of cloud by day and a pillar of fire by night",
+"A bright star by day and a burning bush by night",
+"A rainbow by day and a bright star by night",
+"A flock of eagles by day and a pillar of smoke by night"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "God led the Israelites with a pillar of cloud during the day to guide them and a pillar of fire at night to give them light, showing His constant guidance. This is recorded in Exodus 13:21.",
+"pidgin": "God yan use cloud pillar guide dem for daytime and fire pillar for night time. E be like say God dey show say He dey always lead dem. Dis dey Exodus 13:21.",
+"id": "crsv0400",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "God provided bread from heaven called manna for the Israelites in the wilderness. On which day of the week were they told not to go out to gather it because none would fall?",
+"options": [
+"The first day",
+"The third day",
+"The sixth day",
+"The seventh day (Sabbath)"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "God commanded that no manna would fall on the seventh day, the Sabbath, because the people had gathered a double portion the day before. This taught them to rest and trust God's provision, as recorded in Exodus 16:26.",
+"pidgin": "God talk say manna no go fall for seventh day wey be Sabbath, because dem don already gather double portion the day before. Dis teach dem to rest and trust God, Exodus 16:26.",
+"id": "crsv0402",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Besides manna, God also provided meat for the Israelites to eat in the wilderness. What kind of bird covered the camp in the evening for this purpose?",
+"options": [
+"Doves",
+"Quails",
+"Pigeons",
+"Sparrows"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In the evening, quails came up and covered the camp, giving the Israelites meat to eat alongside the manna that fell in the morning. This shows God's full provision for their needs, as seen in Exodus 16:13.",
+"pidgin": "For evening time, quails come cover the camp give dem meat chop, join the manna wey dey fall for morning. Na God dey provide everything dem need, Exodus 16:13.",
+"id": "crsv0403",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "When Pharaoh's army pursued the Israelites to the Red Sea, God made a way of escape for them. What natural means did God use to divide the sea so they could cross on dry ground?",
+"options": [
+"A sudden earthquake",
+"A strong east wind blowing all night",
+"A heavy downpour of rain",
+"A thick fog that confused the Egyptians"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "God sent a strong east wind that blew all night, driving the sea back and making the waters stand like walls so the Israelites could walk through on dry ground. This great act of protection is recorded in Exodus 14:21.",
+"pidgin": "God send strong east wind wey blow throughout the night, e push the sea back make water stand like wall so Israelites fit waka pass for dry ground. Na big protection, Exodus 14:21.",
+"id": "crsv0404",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "At Marah, the Israelites found water but could not drink it because it was bitter. What did Moses do, as instructed by God, to make the water sweet and drinkable?",
+"options": [
+"He prayed and poured oil into the water",
+"He threw a piece of wood into the water",
+"He sprinkled salt into the water",
+"He struck the water with his staff"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "God showed Moses a piece of wood, and when he threw it into the bitter water at Marah, the water became sweet and fit to drink. This miracle demonstrated God's care in providing good water for His people, as found in Exodus 15:23-25.",
+"pidgin": "God show Moses one wood, when e throw am inside the bitter water for Marah, the water sweet come fit drink. Dis miracle show say God dey care for Im people, Exodus 15:23-25.",
+"id": "crsv0405",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "During the battle between Israel and the Amalekites, Moses stood on a hill with his hands raised, and as long as he held them up, Israel prevailed. Who helped to hold up his tired hands so Israel could win the battle?",
+"options": [
+"Joshua and Caleb",
+"Nadab and Abihu",
+"Aaron and Hur",
+"Eleazar and Ithamar"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When Moses grew tired, Aaron and Hur held up his hands on both sides until sunset, which helped Israel to defeat the Amalekites. This shows how God used human cooperation alongside His divine power to protect His people, as recorded in Exodus 17:11-12.",
+"pidgin": "When Moses hand tire, Aaron and Hur hold im hand up from both sides till sun set, and e help Israel win the Amalekites. God use human effort join im power to protect im people, Exodus 17:11-12.",
+"id": "crsv0406",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "When fiery serpents bit many Israelites in the wilderness because of their complaints, God told Moses to make a bronze serpent and put it on a pole. What did a bitten person need to do in order to be healed?",
+"options": [
+"Touch the pole with their right hand",
+"Look at the bronze serpent",
+"Offer a lamb as sacrifice immediately",
+"Drink water mixed with ashes from the serpent"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "God instructed that anyone bitten by a serpent who looked at the bronze serpent on the pole would live. This act of faith in looking brought healing and protection from death, as recorded in Numbers 21:8-9.",
+"pidgin": "God talk say anybody wey snake bite, if e look the bronze snake wey dey the pole, e go live. Na faith to look bring healing and protection from death, Numbers 21:8-9.",
+"id": "crsv0407",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "At Rephidim, when the people complained of thirst, God told Moses to strike a rock with his staff so that water could flow out for the people to drink. Where did this event take place?",
+"options": [
+"Mount Sinai",
+"Horeb",
+"Kadesh-barnea",
+"Mount Nebo"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "God instructed Moses to strike the rock in Horeb with his staff, and water came out for the thirsty people, showing God's provision in the wilderness. This is found in Exodus 17:6.",
+"pidgin": "God tell Moses make e hit rock for Horeb with im staff, water come comot give the thirsty people. Na God provision for wilderness, e dey Exodus 17:6.",
+"id": "crsv0401",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:|Ex 17:6 says Horeb, but Horeb is often identified with Mount Sinai, so A is arguable; stem already names Rephidim"
+}
+]
+}

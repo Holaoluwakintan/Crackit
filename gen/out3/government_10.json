@@ -1,0 +1,80 @@
+{
+"subject": "government",
+"topic": "Colonial administration: indirect rule, British and French policies",
+"generated": 4,
+"kept": [
+{
+"q": "Under British colonial policy in Africa, which statement best defines the system known as Indirect Rule?",
+"options": [
+"Direct administration of colonies by European officials without any local involvement",
+"Governing the people through existing traditional rulers who worked under the supervision of colonial officials",
+"Granting full citizenship and voting rights of the colonial power to all Africans",
+"Complete military occupation with no form of local administration at all"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Indirect Rule meant the British ruled through traditional chiefs and emirs, who took orders from colonial Residents. This saved money and manpower while still keeping real control in British hands.",
+"pidgin": "Indirect Rule na where British dey rule through native chiefs and emirs, but dem dey report to British Residents. E dey save British money and workers, but British still dey hold the real power.",
+"id": "govv1000",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Lord Lugard chose to model Indirect Rule in Northern Nigeria on an existing political structure because it already had organised chiefs, courts and tax systems. Which structure was this?",
+"options": [
+"The Sokoto Caliphate emirate system",
+"The Igbo village council system",
+"The Yoruba obaship confederacy",
+"The Benin palace guild system"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Sokoto Caliphate already had emirs, Islamic courts and an organised tax (zakat/jangali) system before the British arrived. Lugard simply placed British Residents above the emirs instead of creating a new system from scratch.",
+"pidgin": "Sokoto Caliphate already get emirs, courts and tax system before British come. Lugard just put British Resident on top of the emirs instead of starting new system.",
+"id": "govv1001",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Unlike the British, the French ran their West African colonies as a highly centralised and direct system of administration. This means that:",
+"options": [
+"African traditional kingdoms kept full independent authority over their territories",
+"French colonies used the same House of Chiefs arrangement as the British colonies",
+"All real administrative power flowed from Paris through appointed French officials, with African chiefs acting only as agents carrying out orders",
+"Local rulers in French colonies could make laws without approval from Paris"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "French policy treated colonies as extensions of France itself, so power was centralised in Paris and passed down through Governors-General to French-appointed chiefs. These chiefs had no independent authority like emirs under British Indirect Rule; they simply executed French orders.",
+"pidgin": "French dey see their colonies as part of France, so power dey come from Paris through French Governor to the chiefs wey dem appoint. Dis chiefs no get independent power like emirs for British system; dem just dey carry out French orders.",
+"id": "govv1002",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Because Eastern Nigeria lacked large centralised kingdoms like those in the North, the British created a new class of local government agents to help collect tax and keep order. These agents were called:",
+"options": [
+"Emirs",
+"Residents",
+"District Officers",
+"Warrant Chiefs"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Since many Eastern communities were organised in small, independent village groups rather than centralised kingdoms, the British appointed local men and gave them a 'warrant' of authority to act as chiefs, even where such a position never existed before. These became known as Warrant Chiefs.",
+"pidgin": "For Eastern Nigeria, plenty communities no get big central kingdom like North. So British go appoint some men, give dem 'warrant' make dem act as chief, even though such position no dey before. Na dem be Warrant Chiefs.",
+"id": "govv1003",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,156 @@
+{
+"subject": "crs",
+"topic": "The baptism, temptation and call of the disciples",
+"generated": 8,
+"kept": [
+{
+"q": "Who baptized Jesus Christ at the River Jordan?",
+"options": [
+"John the Baptist",
+"Philip the Evangelist",
+"Andrew the fisherman",
+"Peter the apostle"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "John the Baptist baptized Jesus at the River Jordan, as recorded in Matthew 3:13-17. John had been preaching repentance and baptizing people before Jesus came to him.",
+"pidgin": "John the Baptist na im baptize Jesus for River Jordan, dis one dey for Matthew 3:13-17. John bin dey preach say make people repent before Jesus come meet am.",
+"id": "crsv1500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "At the baptism of Jesus in the River Jordan, what came down upon Him from heaven?",
+"options": [
+"A pillar of fire",
+"The Holy Spirit like a dove",
+"An angel with a sword",
+"A bright cloud of smoke"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "As soon as Jesus came out of the water, the Holy Spirit descended on Him like a dove, confirming His identity as the Son of God. This is recorded in Matthew 3:16.",
+"pidgin": "As Jesus comot for water, Holy Spirit come descend on top am like dove. Na dis one confirm say na God Son, as e dey for Matthew 3:16.",
+"id": "crsv1501",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "How many days did Jesus fast in the wilderness before the devil came to tempt Him?",
+"options": [
+"Twenty days",
+"Thirty days",
+"Forty days",
+"Fifty days"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The Bible records that Jesus fasted for forty days and forty nights in the wilderness before the devil came to tempt Him. This is found in Matthew 4:2.",
+"pidgin": "Bible talk say Jesus fast for forty days and forty nights for wilderness before devil come tempt am. Na dis one dey for Matthew 4:2.",
+"id": "crsv1502",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "After Jesus' baptism, a voice spoke from heaven. What did the voice declare?",
+"options": [
+"\"This is my beloved Son, in whom I am well pleased\"",
+"\"This is the prophet greater than Moses\"",
+"\"This is the king who will rule Israel\"",
+"\"This is the priest after Melchizedek's order\""
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Immediately after the Holy Spirit descended on Jesus, a voice from heaven said, 'This is my beloved Son, in whom I am well pleased.' This confirmed God's approval of Jesus before He began His public ministry. See Matthew 3:17.",
+"pidgin": "As Holy Spirit come descend, voice from heaven talk say 'This na my beloved Son wey I dey well pleased with.' Na so God show say E approve Jesus before E begin im ministry. Check Matthew 3:17.",
+"id": "crsv1503",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "While calling His first disciples by the Sea of Galilee, Jesus found Simon Peter and his brother Andrew doing what?",
+"options": [
+"Mending their torn fishing nets",
+"Casting their net into the sea",
+"Selling their catch of fish at the market",
+"Building a new wooden boat"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus saw Simon Peter and Andrew casting their net into the sea, because they were fishermen, and He called them to follow Him. This is recorded in Matthew 4:18.",
+"pidgin": "Jesus see Simon Peter and Andrew as dem dey throw dia net inside sea, because na fishermen dem be, and E call dem make dem follow am. Na dis one dey for Matthew 4:18.",
+"id": "crsv1504",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "What promise did Jesus give to Simon Peter and Andrew when He called them to follow Him?",
+"options": [
+"\"I will make you rulers over Israel\"",
+"\"I will make you fishers of men\"",
+"\"I will make you teachers of the law\"",
+"\"I will make you judges of the twelve tribes\""
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus told Peter and Andrew, 'Follow me, and I will make you fishers of men,' meaning they would now lead people to God instead of catching fish. This is in Matthew 4:19.",
+"pidgin": "Jesus tell Peter and Andrew say, 'Follow me, I go make una fishers of men,' meaning say dem go dey bring people come God instead of catching fish. Na dis one dey for Matthew 4:19.",
+"id": "crsv1505",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "James and John, the sons of Zebedee, were called by Jesus while they were doing what in their boat?",
+"options": [
+"Mending their fishing nets with their father",
+"Teaching the people about the law",
+"Counting money they had collected as tax",
+"Sleeping after a long night of fishing"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Jesus saw James and John in a boat with their father Zebedee, mending their nets, and He called them. They immediately left the boat and their father to follow Jesus. This shows their quick obedience, recorded in Matthew 4:21-22.",
+"pidgin": "Jesus see James and John for boat with dia papa Zebedee, as dem dey mend dia net, E come call dem. Dem leave di boat and dia papa sharp sharp follow Jesus, dis one show say dem obey quick. Na dis one dey for Matthew 4:21-22.",
+"id": "crsv1507",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the wilderness, after Jesus refused to turn stones into bread, the devil took Him to a high place and tempted Him to do what next?",
+"options": [
+"Jump down from the pinnacle of the temple",
+"Turn water into wine for the crowd",
+"Build an altar and offer sacrifice",
+"Call down fire from heaven"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "After the first temptation about bread, the devil took Jesus to the pinnacle of the temple and told Him to throw Himself down, tempting Him to test God's protection. Jesus refused, quoting Scripture. This order is recorded in Matthew 4:5-7.",
+"pidgin": "After di first temptation about bread, devil carry Jesus go di top of temple come tell am make E jump down, to test if God go protect am. Jesus refuse, e quote Scripture back. Na so e dey for Matthew 4:5-7.",
+"id": "crsv1506",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+"why": "ambiguous:Matthew and Luke give different temptation orders.|Follows Matthew's order; Luke places the pinnacle temptation third"
+}
+]
+}

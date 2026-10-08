@@ -1,0 +1,190 @@
+{
+"subject": "economics",
+"topic": "International trade and balance of payments",
+"ti": 15,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines 'balance of trade' for a country?",
+"options": [
+"The difference between the value of a country's visible exports and visible imports",
+"The total value of all goods and services bought and sold by a country in a year",
+"The difference between a country's total exports and total foreign investments",
+"The total amount of foreign exchange earned from tourism and shipping services"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Balance of trade deals only with visible (physical) goods, that is, the value of exported goods minus the value of imported goods. It does not include services or investment flows.",
+"pidgin": "Balance of trade na the difference wey dey between the value of goods wey country sell comot (export) and the one wey e bring in (import). E no include services or investment.",
+"py": null,
+"values": null,
+"id": "weco1500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these transactions is an example of invisible trade for Nigeria?",
+"options": [
+"Exportation of crude oil to the United States",
+"Importation of rice from Thailand",
+"Payment of freight charges to a foreign shipping company",
+"Exportation of cocoa beans to the Netherlands"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Invisible trade involves services rather than physical goods. Paying a foreign shipping company for freight is a service transaction, unlike the export/import of crude oil, rice or cocoa which are visible (physical) goods.",
+"pidgin": "Invisible trade na about service, no be physical goods. To pay foreign shipping company for freight na service, but crude oil, rice and cocoa na physical goods wey dem dey export or import.",
+"py": null,
+"values": null,
+"id": "weco1501",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a particular year, a country exported goods worth ₦620 million and imported goods worth ₦545 million. What was the country's balance of trade, where a positive figure means a surplus and a negative figure means a deficit?",
+"options": [
+"₦1,165 million",
+"-₦75 million",
+"₦965 million",
+"₦75 million"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Balance of trade = value of exports minus value of imports = 620 - 545 = ₦75 million, which is a surplus because exports exceed imports.",
+"pidgin": "Balance of trade na export minus import: 620 - 545 = ₦75 million. Na surplus because export pass import.",
+"py": "620-545",
+"values": [
+1165,
+-75,
+965,
+75
+],
+"id": "weco1502",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A country's export price index is 150 while its import price index is 120, with the base year index equal to 100. Calculate the country's terms of trade.",
+"options": [
+"80",
+"125",
+"100",
+"270"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Terms of trade = (export price index / import price index) x 100 = (150/120) x 100 = 125. A figure above 100 shows favourable terms of trade for the country.",
+"pidgin": "Terms of trade = (export price index / import price index) x 100 = (150/120) x 100 = 125. Since e pass 100, e mean say the terms of trade favour the country.",
+"py": "(150/120)*100",
+"values": [
+80,
+125,
+100,
+270
+],
+"id": "weco1503",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Ghana can produce one tonne of cocoa using fewer resources than Nigeria, while Nigeria can produce one barrel of crude oil using fewer resources than Ghana. If both countries specialise in the good they produce more efficiently and trade with each other, which trade theory is best illustrated?",
+"options": [
+"Theory of absolute advantage",
+"Infant industry argument",
+"Balance of payments theory",
+"Multiplier theory of trade"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Since each country uses fewer resources to produce one particular good compared to the other country, this is a case of absolute advantage, where each country specialises in the good it produces most efficiently in absolute terms.",
+"pidgin": "Because each country dey use less resources to produce one particular good pass the other country, na absolute advantage be dis, where each country go specialise for the good wey e sabi produce best.",
+"py": null,
+"values": null,
+"id": "weco1504",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A country's export price index was 140 in Year 1 but fell to 112 in Year 2, while its import price index was 100 in Year 1 and rose to 112 in Year 2. By how many points did the terms of trade fall between Year 1 and Year 2?",
+"options": [
+"12",
+"28",
+"56",
+"40"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Terms of trade Year 1 = (140/100) x 100 = 140. Terms of trade Year 2 = (112/112) x 100 = 100. The fall in terms of trade = 140 - 100 = 40 points, showing the country's trading position worsened.",
+"pidgin": "Terms of trade Year 1 = (140/100) x 100 = 140. Terms of trade Year 2 = (112/112) x 100 = 100. The fall na 140 - 100 = 40 points, e mean say the country trading position don bad pass before.",
+"py": "(140/100*100)-(112/112*100)",
+"values": [
+12,
+28,
+56,
+40
+],
+"id": "weco1506",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In a given year, a country recorded the following figures in million naira: visible exports = 500, visible imports = 420, invisible exports (services) = 80, invisible imports (services) = 110. Calculate the balance on current account, where a positive value means a surplus and a negative value means a deficit.",
+"options": [
+"130",
+"-30",
+"50",
+"-190"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Current account balance = (visible exports + invisible exports) - (visible imports + invisible imports) = (500+80) - (420+110) = 580 - 530 = 50, a surplus of ₦50 million.",
+"pidgin": "Current account balance = (visible export + invisible export) - (visible import + invisible import) = (500+80) - (420+110) = 580 - 530 = 50. Na surplus of ₦50 million.",
+"py": "(500+80)-(420+110)",
+"values": [
+130,
+-30,
+50,
+-190
+],
+"id": "weco1505",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Income and transfers omitted; 50 is the goods-and-services balance.|"
+}
+]
+}

@@ -1,0 +1,196 @@
+{
+"subject": "accounting",
+"topic": "Final accounts of a sole trader",
+"ti": 6,
+"generated": 7,
+"kept": [
+{
+"q": "In the final accounts of a sole trader, the trading account is mainly prepared to determine which of the following?",
+"options": [
+"Gross profit or gross loss",
+"Net profit or net loss",
+"The financial position of the business",
+"The total capital employed in the business"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The trading account compares sales with the cost of goods sold to find gross profit or gross loss. Net profit is found later in the profit and loss account.",
+"pidgin": "Trading account na for compare sales with cost of goods wey dem sell, so e dey show gross profit or gross loss. Na profit and loss account dey show net profit.",
+"py": null,
+"values": null,
+"id": "wacc0600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidinma Stores recorded sales of ₦150,000 and cost of sales of ₦90,000 for the year. What is the gross profit?",
+"options": [
+"₦60,000",
+"₦240,000",
+"₦90,000",
+"₦150,000"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Gross profit = Sales - Cost of sales = ₦150,000 - ₦90,000 = ₦60,000.",
+"pidgin": "Gross profit = Sales minus Cost of sales = ₦150,000 - ₦90,000 = ₦60,000.",
+"py": "150000-90000",
+"values": [
+60000,
+240000,
+90000,
+150000
+],
+"id": "wacc0601",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader's records show: Opening stock ₦20,000, Purchases ₦80,000, Closing stock ₦15,000. What is the cost of sales for the year?",
+"options": [
+"₦85,000",
+"₦115,000",
+"₦95,000",
+"₦75,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Cost of sales = Opening stock + Purchases - Closing stock = ₦20,000 + ₦80,000 - ₦15,000 = ₦85,000.",
+"pidgin": "Cost of sales = Opening stock + Purchases - Closing stock = ₦20,000 + ₦80,000 - ₦15,000 = ₦85,000.",
+"py": "20000+80000-15000",
+"values": [
+85000,
+115000,
+95000,
+75000
+],
+"id": "wacc0602",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In the final accounts of a sole trader, how is closing stock usually treated?",
+"options": [
+"It is shown as a debit in the trading account and a liability in the balance sheet",
+"It is shown as a credit in the trading account and a current asset in the balance sheet",
+"It is shown as a debit in the profit and loss account and a liability in the balance sheet",
+"It is shown as a credit in the profit and loss account and a current liability in the balance sheet"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Closing stock reduces cost of sales, so it is credited in the trading account, and it also appears as a current asset in the balance sheet since it is goods still unsold.",
+"pidgin": "Closing stock dey reduce cost of sales, so dem go credit am for trading account, and e go also appear as current asset for balance sheet because na goods wey never sell.",
+"py": null,
+"values": null,
+"id": "wacc0604",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "On 1 October, a trader paid ₦36,000 insurance premium covering 12 months from that date. If the trader's financial year ends on 31 December the same year, what amount should be treated as prepaid insurance at year end?",
+"options": [
+"₦27,000",
+"₦9,000",
+"₦18,000",
+"₦36,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Only 3 months (October to December) relate to the current year, leaving 9 months prepaid. Prepaid amount = ₦36,000 x 9/12 = ₦27,000.",
+"pidgin": "Na 3 months (October to December) concern this year, so 9 months remain as prepaid. Prepaid = ₦36,000 x 9/12 = ₦27,000.",
+"py": "36000*9/12",
+"values": [
+27000,
+9000,
+18000,
+36000
+],
+"id": "wacc0605",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Bisi started the year with a capital of ₦500,000. During the year, she made a net profit of ₦120,000, introduced additional capital of ₦30,000 and made drawings of ₦45,000. What is her closing capital at year end?",
+"options": [
+"₦605,000",
+"₦575,000",
+"₦650,000",
+"₦545,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Closing capital = Opening capital + Net profit + Additional capital - Drawings = ₦500,000 + ₦120,000 + ₦30,000 - ₦45,000 = ₦605,000.",
+"pidgin": "Closing capital = Opening capital + Net profit + Extra capital - Drawings = ₦500,000 + ₦120,000 + ₦30,000 - ₦45,000 = ₦605,000.",
+"py": "500000+120000+30000-45000",
+"values": [
+605000,
+575000,
+650000,
+545000
+],
+"id": "wacc0606",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Musa Enterprises had a gross profit of ₦70,000. During the year, rent paid was ₦10,000, wages ₦15,000 and discount allowed ₦5,000. What is the net profit for the year?",
+"options": [
+"₦40,000",
+"₦55,000",
+"₦30,000",
+"₦100,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Net profit = Gross profit - Total expenses = ₦70,000 - (₦10,000 + ₦15,000 + ₦5,000) = ₦70,000 - ₦30,000 = ₦40,000.",
+"pidgin": "Net profit = Gross profit minus Total expenses = ₦70,000 - (₦10,000 + ₦15,000 + ₦5,000) = ₦40,000.",
+"py": "70000-(10000+15000+5000)",
+"values": [
+40000,
+55000,
+30000,
+100000
+],
+"id": "wacc0603",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Wages may already be included in gross profit as a direct cost.|"
+}
+]
+}

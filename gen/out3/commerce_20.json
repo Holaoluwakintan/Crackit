@@ -1,0 +1,172 @@
+{
+"subject": "commerce",
+"topic": "Business environment, ethics and social responsibility",
+"generated": 8,
+"kept": [
+{
+"q": "Which term refers to the sum total of all internal and external factors—such as customers, government policy, culture, and competitors—that affect how a business organization operates and achieves its goals?",
+"options": [
+"Business environment",
+"Business cycle",
+"Business policy",
+"Business ethics"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The business environment is the combination of all internal and external forces that surround and influence a firm's operations. It includes things like customers, suppliers, laws, technology, and competitors.",
+"pidgin": "Business environment na all di inside and outside things wey dey affect how company dey operate, like customer, law, and competitor. E no be business cycle, policy or ethics.",
+"py": null,
+"values": null,
+"id": "comv2000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following is best classified as an INTERNAL business environment factor, rather than an external one?",
+"options": [
+"Government tax policy",
+"Organizational culture",
+"Exchange rate fluctuation",
+"Competitor's pricing strategy"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Organizational culture is created and controlled from within the business itself, unlike taxes, exchange rates, and competitor pricing which come from outside forces the firm cannot directly control.",
+"pidgin": "Organizational culture na something wey dey inside di company, so na internal factor. Tax policy, exchange rate and competitor price na external things wey dey come from outside.",
+"py": null,
+"values": null,
+"id": "comv2001",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Alhaji Musa's furniture workshop in Aba had to spend extra money installing waste-treatment equipment after the state government passed a new environmental sanitation law. This situation shows the influence of which business environment factor?",
+"options": [
+"Technological factor",
+"Social factor",
+"Legal factor",
+"Natural factor"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A government law forcing businesses to meet certain standards is a legal factor, because it comes from government legislation that firms must obey, affecting how they operate.",
+"pidgin": "Na government law force am to buy waste equipment, so na legal factor dey affect am, because law na government rule wey business must obey.",
+"py": null,
+"values": null,
+"id": "comv2002",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Business ethics in commerce is best described as",
+"options": [
+"strategies for maximizing profit regardless of method",
+"government laws regulating the import and export of goods",
+"methods used by firms to advertise and promote products",
+"rules and principles guiding fair and moral conduct in business dealings"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Business ethics deals with moral standards and fairness in how a business treats its workers, customers, and the public, not just profit-making or advertising methods.",
+"pidgin": "Business ethics na di moral rules wey dey guide how business dey treat worker, customer and public well-well, e no be just profit or advertisement matter.",
+"py": null,
+"values": null,
+"id": "comv2003",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A bank in Enugu sponsors free medical check-ups for residents of its host community every year, even though this is not required by any law. Which is the MAIN reason businesses undertake such social responsibility activities?",
+"options": [
+"To build goodwill and trust with the host community",
+"To avoid paying workers their full wages",
+"To eliminate rival businesses from the market",
+"To reduce the amount of tax the company pays"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Companies carry out voluntary community projects mainly to create a good image, earn public trust, and maintain a healthy relationship with the people around them, which can also boost long-term business success.",
+"pidgin": "Di main reason why company dey do free medical or community project na to build good name and trust with di people around dem, even though law no force dem.",
+"py": null,
+"values": null,
+"id": "comv2004",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A textile factory in Kaduna pays all its statutory taxes promptly and provides steady employment for over 400 workers, yet it releases untreated dye chemicals into a stream used by nearby farmers for irrigation, damaging their crops. This situation best shows the company fulfilling its ___ responsibility while neglecting its ___ responsibility.",
+"options": [
+"legal; economic",
+"ethical; economic",
+"economic; social",
+"social; legal"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Paying taxes and creating jobs are economic contributions to society, but harming farmers' livelihoods through pollution shows a failure in social responsibility, which is about caring for community welfare.",
+"pidgin": "Di factory dey pay tax and give people work, dat na economic responsibility, but e dey spoil farmers crop with waste, dat one na failure for social responsibility wey suppose protect community welfare.",
+"py": null,
+"values": null,
+"id": "comv2006",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "According to Carroll's pyramid of corporate social responsibility, which responsibility forms the FOUNDATION (base) that every business must first satisfy before pursuing the others?",
+"options": [
+"Philanthropic responsibility",
+"Ethical responsibility",
+"Legal responsibility",
+"Economic responsibility"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Carroll's pyramid places economic responsibility (being profitable and providing goods/services people need) as the base, because a business must first survive financially before it can obey laws, act ethically, or give to charity.",
+"pidgin": "For Carroll pyramid, economic responsibility (to make profit and provide goods/service) na di foundation, because business must first survive financially before e fit follow law, act ethical or do charity.",
+"py": null,
+"values": null,
+"id": "comv2007",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A beverage company in Onitsha discharges its untreated waste into a nearby stream used by villagers for drinking and fishing. At the time, there is no specific law banning this particular waste disposal method. From a business ethics viewpoint, the company's action is best described as",
+"options": [
+"Illegal and unethical",
+"Legal but unethical",
+"Legal and ethical",
+"Illegal but ethical"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since no law currently bans the act, it is legal; however, harming innocent villagers' health and water source is morally wrong, making it unethical. Legality and morality are not always the same thing.",
+"pidgin": "Since no law dey ban di waste thing now, e dey legal, but e no good morally because e dey harm villagers water and health, so e be legal but unethical.",
+"py": null,
+"values": null,
+"id": "comv2005",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:No specific ban does not establish legality.|"
+}
+]
+}

@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Coordination: nervous system and reflexes",
+"ti": 13,
+"generated": 6,
+"kept": [
+{
+"q": "In a neuron, which part receives nerve impulses from neighbouring neurons and passes them towards the cell body?",
+"options": [
+"Axon",
+"Dendrite",
+"Axon terminal",
+"Myelin sheath"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Dendrites are branch-like extensions that receive impulses from other neurons and carry them towards the cell body. The axon carries impulses away from the cell body instead.",
+"pidgin": "Dendrite na di one wey dey receive message from oda neurons go di cell body. Axon na di one wey dey carry di message comot from cell body.",
+"id": "wbio1300",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these human actions is a reflex action?",
+"options": [
+"Writing an examination answer",
+"Withdrawing the hand quickly after touching a hot pot",
+"Walking to the market",
+"Solving a mathematics problem"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A reflex action is a quick, automatic response to a stimulus that does not require conscious thought. Withdrawing the hand from a hot pot happens instantly without thinking, unlike writing, walking or solving maths which are voluntary actions.",
+"pidgin": "Reflex action na quick response wey body dey do automatic, no need to think. To quick remove hand from hot pot na reflex, but to waka or write exam na thing wey person dey think before e do am.",
+"id": "wbio1301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student is asked to arrange the events of a simple reflex arc in the correct order, starting from when a stimulus is detected to when a response is produced. The events are: (1) effector produces a response, (2) receptor detects the stimulus, (3) relay neuron in the spinal cord processes the impulse, (4) sensory neuron carries the impulse to the spinal cord, (5) motor neuron carries the impulse to the effector. What is the correct order?",
+"options": [
+"2, 4, 3, 5, 1",
+"1, 2, 3, 4, 5",
+"2, 3, 4, 5, 1",
+"4, 2, 3, 1, 5"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In a reflex arc, the receptor first detects the stimulus, the sensory neuron carries the impulse to the spinal cord, the relay neuron processes it, the motor neuron carries it to the effector, and the effector finally produces the response. This gives the order 2, 4, 3, 5, 1.",
+"pidgin": "Di correct order na: receptor go first detect di stimulus, den sensory neuron go carry di message go spinal cord, relay neuron go process am, motor neuron go carry am go effector, den effector go bring out di response. So na 2,4,3,5,1.",
+"id": "wbio1302",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The small gap between two adjacent neurons, across which a nerve impulse is transmitted by means of chemical substances, is called the",
+"options": [
+"node of Ranvier",
+"myelin sheath",
+"synapse",
+"axon terminal"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The synapse is the junction between two neurons where chemical substances called neurotransmitters cross the gap to pass the impulse from one neuron to the next. The node of Ranvier and myelin sheath are found along the axon, not between two neurons.",
+"pidgin": "Synapse na di small gap between two neurons where chemical substance (neurotransmitter) dey carry message from one neuron go anoda one. Node of Ranvier and myelin sheath dey inside di axon, no be between two neurons.",
+"id": "wbio1303",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which part of the human brain is mainly responsible for maintaining balance and coordinating muscular movements, such as when riding a bicycle?",
+"options": [
+"Cerebrum",
+"Cerebellum",
+"Hypothalamus",
+"Medulla oblongata"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The cerebellum controls balance, posture and coordination of voluntary muscular movements. The cerebrum deals with thinking and memory, the hypothalamus regulates body temperature and hunger, while the medulla oblongata controls involuntary actions like heartbeat and breathing.",
+"pidgin": "Cerebellum na di part wey dey control balance and how muscle dey coordinate well-well, like for bicycle riding. Cerebrum dey handle thinking, hypothalamus dey control temperature and hunger, medulla oblongata dey control heartbeat and breathing.",
+"id": "wbio1304",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During a knee-jerk reflex test, a doctor taps the tendon just below a patient's kneecap and the patient's lower leg kicks forward almost immediately, without the patient thinking about it. Which feature of the reflex arc best explains why the response happens so quickly?",
+"options": [
+"The impulse passes through many relay neurons in the cerebrum before reaching the muscle",
+"The impulse bypasses the brain and travels through only a few neurons in the spinal cord",
+"The impulse is carried slowly by hormones through the bloodstream",
+"The sensory neuron contracts the muscle directly without passing through any synapse"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In a simple reflex like the knee-jerk, the impulse travels a short path through the spinal cord only, involving very few neurons and synapses, and does not go to the brain for conscious processing. This short pathway makes the response very fast compared to actions controlled by the brain.",
+"pidgin": "Dis knee-jerk reflex dey fast because di message no reach brain at all, e just dey pass small-small neurons for inside spinal cord. Since di road wey di message take dey short, di response go sharp pass action wey brain go first process.",
+"id": "wbio1305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

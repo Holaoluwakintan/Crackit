@@ -1,0 +1,100 @@
+{
+"subject": "maths",
+"topic": "Quadratic equations (roots, sum and product of roots)",
+"generated": 4,
+"kept": [
+{
+"q": "A quadratic equation has sum of roots equal to 5 and product of roots equal to -6. Which of the following is the quadratic equation?",
+"options": [
+"x^2 + 5x + 6 = 0",
+"x^2 + 5x - 6 = 0",
+"x^2 - 5x - 6 = 0",
+"x^2 - 5x + 6 = 0"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "If the roots sum to 5 and multiply to -6, the equation is x^2 - (sum)x + (product) = 0, that is x^2 - 5x + (-6) = 0, which gives x^2 - 5x - 6 = 0.",
+"pidgin": "If sum of di roots na 5 and product na -6, di formula be x^2 - (sum)x + (product) = 0. So e be x^2 - 5x - 6 = 0.",
+"py": null,
+"values": null,
+"id": "matv0900",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "If alpha and beta are the roots of the equation x^2 - 5x + 3 = 0, find the value of alpha^2 + beta^2.",
+"options": [
+"19",
+"25",
+"13",
+"22"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "From the equation, alpha+beta = 5 and alpha*beta = 3. Using alpha^2+beta^2 = (alpha+beta)^2 - 2(alpha*beta) = 25 - 6 = 19.",
+"pidgin": "From di equation, alpha+beta = 5 and alpha*beta = 3. Alpha^2+beta^2 = (alpha+beta)^2 - 2(alpha*beta) = 25 - 6 = 19.",
+"py": "5**2 - 2*3",
+"values": [
+19,
+25,
+13,
+22
+],
+"id": "matv0901",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "In the equation x^2 - (k+1)x + 8 = 0, one root is twice the other. Find the positive value of k.",
+"options": [
+"3",
+"7",
+"-5",
+"5"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Let the roots be p and 2p. Product = 2p^2 = 8, so p^2 = 4 and p = 2 (taking the positive case). Sum = 3p = k+1, so k+1 = 6, giving k = 5.",
+"pidgin": "Make we call di roots p and 2p. Product = 2p^2 = 8, so p^2 = 4, p = 2 (we take di positive one). Sum = 3p = k+1, so k+1 = 6, dat mean k = 5.",
+"py": "3*math.sqrt(8/2)-1",
+"values": [
+3,
+7,
+-5,
+5
+],
+"id": "matv0902",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "If alpha and beta are the roots of 2x^2 - 9x + 4 = 0, find the quadratic equation whose roots are 1/alpha and 1/beta.",
+"options": [
+"2x^2 - 9x + 4 = 0",
+"4x^2 - 9x + 2 = 0",
+"4x^2 + 9x + 2 = 0",
+"x^2 - 9x + 2 = 0"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "From the equation, alpha+beta = 9/2 and alpha*beta = 2. The new sum is (alpha+beta)/(alpha*beta) = (9/2)/2 = 9/4, and the new product is 1/(alpha*beta) = 1/2. So the new equation is x^2 - (9/4)x + 1/2 = 0, which becomes 4x^2 - 9x + 2 = 0 after multiplying by 4.",
+"pidgin": "From di equation, alpha+beta = 9/2 and alpha*beta = 2. New sum na (alpha+beta)/(alpha*beta) = 9/4, new product na 1/(alpha*beta) = 1/2. So di new equation na x^2 - (9/4)x + 1/2 = 0, wey turn to 4x^2 - 9x + 2 = 0 wen you multiply am by 4.",
+"py": null,
+"values": null,
+"id": "matv0903",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

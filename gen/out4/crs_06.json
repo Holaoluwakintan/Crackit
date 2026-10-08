@@ -1,0 +1,169 @@
+{
+"subject": "crs",
+"topic": "Prophets: Elijah, Elisha, Amos, Hosea, Isaiah and Jeremiah",
+"ti": 6,
+"generated": 8,
+"kept": [
+{
+"q": "While Elijah hid by the brook Cherith during the famine, who brought him bread and meat morning and evening?",
+"options": [
+"Ravens",
+"Angels",
+"The widow of Zarephath",
+"Doves"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "God commanded ravens to feed Elijah with bread and meat by the brook Cherith. This showed God's care for His prophet even in a time of famine. See 1 Kings 17:4-6.",
+"pidgin": "God tell ravens make dem carry bread and meat come give Elijah for mor ning and evening wen e dey hide for Cherith. Na so God take show say E dey care for im prophet even for hungry time. Check 1 Kings 17:4-6.",
+"id": "wcrs0600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Before Elijah was taken up to heaven, what did Elisha specifically ask him for?",
+"options": [
+"A new mantle",
+"His staff",
+"Double portion of his spirit",
+"A chariot of fire"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Elisha asked Elijah for a double portion of his spirit so that he could continue the prophetic work powerfully. Elijah told him this was a hard request but granted it. See 2 Kings 2:9-10.",
+"pidgin": "Elisha beg Elijah make e give am double portion of im spirit so e fit continue the prophet work well well. Elijah tell am say na hard thing but e still grant am. Check 2 Kings 2:9-10.",
+"id": "wcrs0601",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Naaman, the Syrian army commander, was healed of leprosy after dipping himself seven times in which river, as Elisha instructed?",
+"options": [
+"Nile",
+"Jordan",
+"Euphrates",
+"Tigris"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Elisha told Naaman to wash seven times in the River Jordan, and his skin became clean like a young boy's. This miracle showed the power of God working through Elisha's word. See 2 Kings 5:10-14.",
+"pidgin": "Elisha tell Naaman make e go wash imsef seven times for River Jordan, and im skin come clean like small pikin own. Na so God power take show through Elisha word. Check 2 Kings 5:10-14.",
+"id": "wcrs0602",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When Amaziah the priest told Amos to stop prophesying and go back home, how did Amos describe his original occupation before God called him?",
+"options": [
+"A priest's son",
+"A royal scribe",
+"A Levite teacher",
+"A herdsman and dresser of sycamore trees"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Amos told Amaziah that he was not a trained prophet by profession but a herdsman and a dresser of sycamore trees whom God took and sent to prophesy. This shows God can call ordinary people for His work. See Amos 7:14-15.",
+"pidgin": "Amos tell Amaziah say im no be prophet by training, na herdsman and sycamore tree dresser wey God carry send message. Dis one show say God fit use ordinary person for im work. Check Amos 7:14-15.",
+"id": "wcrs0603",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "God commanded Hosea to marry Gomer, a woman given to unfaithfulness. What did this marriage symbolize about Israel?",
+"options": [
+"Israel's unfaithfulness to God",
+"God's rejection of marriage",
+"The importance of forgiveness among couples",
+"Blessing of large families"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Hosea's marriage to Gomer was a living picture of Israel's spiritual unfaithfulness to God through idol worship, while God still loved and wanted to restore them. See Hosea 1:2-3.",
+"pidgin": "Hosea marriage to Gomer na picture wey show how Israel no faithful to God because dem dey worship idol, but God still love dem and wan bring dem back. Check Hosea 1:2-3.",
+"id": "wcrs0604",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In Isaiah's vision of God's glory in the temple, what did a seraphim use to touch his lips to take away his guilt?",
+"options": [
+"A golden cup",
+"Holy water",
+"A live coal taken with tongs from the altar",
+"A scroll"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A seraphim flew to Isaiah with a live coal taken with tongs from the altar and touched his lips, declaring his guilt removed and sin atoned for. This prepared him to accept God's call. See Isaiah 6:6-7.",
+"pidgin": "One seraphim carry live coal wey e use tongs take from altar come touch Isaiah mouth, e talk say im guilt don comot and sin don clear. Dis one make am ready to answer God call. Check Isaiah 6:6-7.",
+"id": "wcrs0605",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When God called Jeremiah to be a prophet to the nations, what excuse did Jeremiah initially give for not wanting to accept the task?",
+"options": [
+"He had no family",
+"He was sick",
+"He lacked education",
+"He was too young"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Jeremiah told God he did not know how to speak because he was only a youth, but God assured him He would be with him and put words in his mouth. See Jeremiah 1:6-9.",
+"pidgin": "Jeremiah tell God say e no sabi how to talk because e still young, but God tell am say E go dey with am and go put word for im mouth. Check Jeremiah 1:6-9.",
+"id": "wcrs0606",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which prophet called down fire from heaven to consume two groups of fifty soldiers sent by King Ahaziah to arrest him?",
+"options": [
+"Elisha",
+"Elijah",
+"Isaiah",
+"Amos"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "King Ahaziah sent soldiers to arrest Elijah, but Elijah called fire down from heaven that consumed them, showing God's protection over His prophet. See 2 Kings 1:9-12.",
+"pidgin": "King Ahaziah send soja come arrest Elijah, but Elijah call fire from heaven wey burn dem finish. Na so God take protect im prophet. Check 2 Kings 1:9-12.",
+"id": "wcrs0607",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

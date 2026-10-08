@@ -1,0 +1,209 @@
+{
+"subject": "literature",
+"topic": "Literary genres and their features",
+"ti": 0,
+"generated": 10,
+"kept": [
+{
+"q": "Which of the following is NOT regarded as one of the three major genres of literature?",
+"options": [
+"Biography",
+"Prose",
+"Drama",
+"Poetry"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Poetry, prose and drama are the three major genres of literature. Biography is simply a type of prose writing, not a separate major genre.",
+"pidgin": "Poetry, prose and drama na di three main genre of literature. Biography na just one kind prose work, e no be im own major genre.",
+"id": "wlit0000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A piece of literature written mainly to be performed before an audience on stage, using dialogue and stage directions, is best classified as a work of...",
+"options": [
+"Poetry",
+"Drama",
+"Prose fiction",
+"Oratory"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Drama is the genre of literature written for performance, made up of dialogue between characters and stage directions to guide actors.",
+"pidgin": "Drama na di genre of literature wey dem write make dem perform am for stage, e get dialogue between characters and stage directions wey dey guide di actors.",
+"id": "wlit0001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read this line: 'The old fisherman's hands were cracked maps of a thousand storms.' Which figure of speech is used here?",
+"options": [
+"Simile",
+"Personification",
+"Metaphor",
+"Onomatopoeia"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The fisherman's hands are directly called 'maps' without using 'like' or 'as', so this is a metaphor, a direct comparison between two unlike things.",
+"pidgin": "Dem call di fisherman hand 'maps' straight straight, dem no use 'like' or 'as', so na metaphor, na direct comparison between two different things.",
+"id": "wlit0002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In drama, what do we call a speech given by a character who is alone on stage, in which he reveals his true inner thoughts and feelings to the audience?",
+"options": [
+"Dialogue",
+"Monologue",
+"Aside",
+"Soliloquy"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A soliloquy is spoken by a character alone on stage to express private thoughts to the audience, while a monologue can be delivered even when other characters are present.",
+"pidgin": "Soliloquy na speech wey character dey talk when e dey alone for stage, to show im private mind to audience; monologue fit happen even if oda characters dey stage.",
+"id": "wlit0003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read this extract: 'Ngozi set down her basket. Suddenly, she was eight years old again, running barefoot through her grandmother's compound, the smell of fresh cocoyam stew filling the air.' Which narrative technique is shown here?",
+"options": [
+"Flashback",
+"Foreshadowing",
+"Stream of consciousness",
+"Dramatic irony"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The writer takes Ngozi (and the reader) back to an earlier time in her childhood; this technique of returning to a past event is called a flashback.",
+"pidgin": "Di writer carry Ngozi (and di reader) go back to one time wey happen before for her childhood; dis kain go-back-to-past-event na flashback.",
+"id": "wlit0004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which term describes a long narrative poem that celebrates the heroic deeds and adventures of a great legendary figure?",
+"options": [
+"Sonnet",
+"Epic",
+"Elegy",
+"Ode"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An epic is a long narrative poem that tells the story of a hero's great deeds, often involving adventure, war or grand journeys.",
+"pidgin": "Epic na long poem wey dey tell story of one hero great work, e dey often involve adventure, war or big journey.",
+"id": "wlit0005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a story, the character who stands against the main character and causes conflict in the plot is called the...",
+"options": [
+"Protagonist",
+"Narrator",
+"Antagonist",
+"Confidant"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The antagonist is the character who opposes the protagonist (the main character), and this opposition creates the conflict that drives the story.",
+"pidgin": "Antagonist na di character wey dey stand against di protagonist (main character), and dis opposition na im dey cause di conflict wey dey push di story.",
+"id": "wlit0006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read this extract: 'Chief Okafor smiled warmly at the villagers who had gathered to celebrate the man they did not know he had secretly poisoned.' Which type of irony is illustrated here?",
+"options": [
+"Verbal irony",
+"Situational irony",
+"Cosmic irony",
+"Dramatic irony"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The reader knows Chief Okafor poisoned the man, but the villagers celebrating do not know this; this gap between what the audience knows and what the characters know is dramatic irony.",
+"pidgin": "Reader know say Chief Okafor poison di man, but di villagers wey dey celebrate no know; dis kain gap wey dey between wetin audience know and wetin character know na dramatic irony.",
+"id": "wlit0007",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which type of poem is written specifically to mourn and honour someone who has died?",
+"options": [
+"Elegy",
+"Ode",
+"Ballad",
+"Lyric"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "An elegy is a poem composed to mourn the death of a person and to honour their memory.",
+"pidgin": "Elegy na poem wey dem write to mourn person wey don die and to honour di person memory.",
+"id": "wlit0008",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these best describes prose as a literary genre?",
+"options": [
+"Writing arranged in rhyming lines with a regular rhythm",
+"Ordinary written or spoken language without a formal metrical structure",
+"Writing meant only to be performed before a live audience",
+"A short poem expressing personal feelings"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Prose is ordinary written or spoken language, organised into sentences and paragraphs, without the formal metre or rhyme scheme found in poetry.",
+"pidgin": "Prose na normal written or spoken language, wey dem arrange for sentences and paragraphs, e no get di formal rhythm or rhyme wey poetry get.",
+"id": "wlit0009",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

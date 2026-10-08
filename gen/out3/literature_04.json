@@ -1,0 +1,138 @@
+{
+"subject": "literature",
+"topic": "Drama: types (tragedy, comedy, tragicomedy, farce) and dramatic terms (soliloquy, aside, catharsis, hamartia)",
+"generated": 7,
+"kept": [
+{
+"q": "Which term best describes a play that combines serious, near-tragic situations with comic elements, often resolving happily by the end?",
+"options": [
+"Tragicomedy",
+"Melodrama",
+"Farce",
+"Satire"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Tragicomedy blends tragedy and comedy, usually ending on a hopeful note. Melodrama exaggerates emotion, farce relies on slapstick, and satire mocks vices or follies.",
+"pidgin": "Tragicomedy na play wey mix serious and funny matter together, e dey end well well. Melodrama na when emotion too much, farce na craze-craze acting, satire na when dem dey mock bad behaviour.",
+"id": "litv0400",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In drama, what do we call a brief remark that a character makes directly to the audience (or to another character) which the other characters on stage are assumed not to hear?",
+"options": [
+"Monologue",
+"Aside",
+"Prologue",
+"Epilogue"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An aside is a short comment meant only for the audience, unheard by other characters on stage. A monologue is a longer speech heard by all, while prologue and epilogue are opening and closing remarks.",
+"pidgin": "Aside na small tok wey character dey give audience, but the oda people for stage no go hear am. Monologue na long tok wey everybody dey hear; prologue na intro, epilogue na closing tok.",
+"id": "litv0401",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A travelling theatre group in Onitsha stages a play where two servants keep mistaking each other for their masters, leading to a wild chase involving falling ladders, swapped costumes, and a goat that disrupts a wedding. The audience roars with laughter at the sheer absurdity, even though the plot makes little logical sense. Which type of drama is being performed?",
+"options": [
+"Tragedy",
+"Comedy of manners",
+"Tragicomedy",
+"Farce"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The play's reliance on exaggerated physical comedy, mistaken identity, and improbable events purely for laughter, without concern for plot logic, is typical of farce.",
+"pidgin": "The play dey use craze-craze mistake and wild wahala make people laugh, no mind say the story no too make sense — na so farce be.",
+"id": "litv0403",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "In a short play, Prince Tunde ignores every warning from his elders about his excessive pride, insisting that no misfortune can ever touch him. His stubborn pride eventually leads him to make a fatal decision that costs him his throne. Which literary term best describes the cause of Prince Tunde's downfall?",
+"options": [
+"Hamartia",
+"Nemesis",
+"Catharsis",
+"Denouement"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Hamartia refers to the tragic flaw, here excessive pride, that leads to a hero's downfall. Nemesis is the punishment that follows, catharsis is the audience's emotional release, and denouement is the resolution of the plot.",
+"pidgin": "Hamartia na the mistake or bad character (like too much pride) wey dey cause the hero downfall. Nemesis na the punishment wey follow, catharsis na when audience feel relief, denouement na how the story end.",
+"id": "litv0404",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "At the end of a tragedy, the audience watches the proud general Babatunde lose everything he loves because of his own stubbornness. As the lights dim, many in the hall are seen wiping tears, yet they leave the theatre feeling strangely calm and relieved, as though a heavy weight has lifted from their hearts. Which term best explains this emotional experience of the audience?",
+"options": [
+"Hamartia",
+"Catharsis",
+"Nemesis",
+"Hubris"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Catharsis is the emotional release or purification the audience feels after experiencing pity and fear during a tragedy. Hamartia is the hero's flaw, nemesis is retribution, and hubris is excessive pride.",
+"pidgin": "Catharsis na the kind relief or 'free belle' feeling wey audience dey get after dem cry for the tragedy. Hamartia na the hero mistake, nemesis na the punishment, hubris na too much pride.",
+"id": "litv0405",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In a tragedy, a hardworking farmer named Emeka loses his entire harvest not because of any fault of his own, but because of an unexpected flood caused by heavy rains. Which statement correctly explains why this situation does NOT illustrate hamartia?",
+"options": [
+"Because hamartia only occurs in comedies, not tragedies",
+"Because Emeka's downfall should have been caused by an inner flaw or error in judgement, not an external accident",
+"Because hamartia requires the hero to die at the end of the play",
+"Because hamartia can only be caused by excessive ambition"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Hamartia specifically refers to a tragic flaw or error in judgement coming from within the character, not misfortune caused by external forces like natural disasters. Emeka's loss results from chance, not a personal flaw.",
+"pidgin": "Hamartia na mistake or weakness wey dey inside the character, e no be outside accident like flood. Since na flood cause Emeka loss, na misfortune, no be hamartia.",
+"id": "litv0406",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Read this extract: CHIEF BALOGUN: (turning briefly to the audience) 'She believes I have forgiven her betrayal, but before the market closes today, she will know my true anger.' (He turns back and smiles warmly at his wife.) Which dramatic device is illustrated by Chief Balogun's words to the audience?",
+"options": [
+"Soliloquy",
+"Flashback",
+"Aside",
+"Foreshadowing"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Because Chief Balogun speaks directly to the audience while his wife remains unaware, this is an aside. It is not a soliloquy, since he is not alone, and not a flashback, since there is no return to a past event.",
+"pidgin": "Because Chief Balogun dey tok give audience while im wife no hear am, na aside be dat. E no be soliloquy because im no dey alone, and e no be flashback because no past event dey show.",
+"id": "litv0402",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+"why": "ambiguous:The words are an aside but also foreshadow his anger.|"
+}
+]
+}

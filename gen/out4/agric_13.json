@@ -1,0 +1,173 @@
+{
+"subject": "agric",
+"topic": "Animal health and diseases",
+"ti": 13,
+"generated": 7,
+"kept": [
+{
+"q": "A poultry farmer at Ogbomoso kept 250 chickens in a deep litter house. During an outbreak of Newcastle disease, 45 birds died within two weeks before treatment started. What was the mortality rate of the flock?",
+"options": [
+"18%",
+"20%",
+"15%",
+"22%"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Mortality rate = (number of dead birds / total number of birds) x 100 = (45/250) x 100 = 18%. This shows how serious the Newcastle disease outbreak was in the flock.",
+"pidgin": "Mortality rate na (number wey die / total number) x 100 = (45/250) x 100 = 18%. Na so e take show say Newcastle disease kill plenty of the birds.",
+"py": "45/250*100",
+"values": [
+18,
+20,
+15,
+22
+],
+"id": "wagr1300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following diseases of farm animals is caused by a virus?",
+"options": [
+"Anthrax",
+"Newcastle disease",
+"Coccidiosis",
+"Mastitis"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Newcastle disease is caused by a virus that attacks the respiratory and nervous systems of poultry. Anthrax is bacterial, coccidiosis is caused by a protozoan parasite, and mastitis is usually bacterial.",
+"pidgin": "Newcastle disease na virus dey cause am, e dey attack chicken breathing and nerve system. Anthrax na bacteria, coccidiosis na protozoa parasite, mastitis too na bacteria mostly.",
+"py": null,
+"values": null,
+"id": "wagr1301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following insects is responsible for transmitting trypanosomiasis (nagana) among cattle reared in the Guinea Savanna belt of Nigeria?",
+"options": [
+"Mosquito",
+"Tick",
+"Tsetse fly",
+"Louse"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Trypanosomiasis, also called nagana, is caused by a trypanosome parasite that is spread by the bite of the tsetse fly. This is why cattle rearing is difficult in tsetse-infested areas of Nigeria.",
+"pidgin": "Trypanosomiasis wey dem dey call nagana na trypanosome parasite dey cause am, and na tsetse fly bite dey spread am. Na why cattle rearing hard for area wey get plenty tsetse fly.",
+"py": null,
+"values": null,
+"id": "wagr1302",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A veterinary officer examines a herd of cattle at a Fulani settlement near Jos and finds blisters on the mouth, tongue and the skin between the hooves, with the animals salivating heavily and limping. Which disease is most likely responsible for these signs?",
+"options": [
+"Anthrax",
+"Rinderpest",
+"Blackleg",
+"Foot and mouth disease"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Blisters in the mouth and between the hooves, together with excessive salivation and lameness, are the classic signs of foot and mouth disease, a highly contagious viral disease of cloven-hoofed animals. Anthrax causes sudden death with bleeding from body openings, rinderpest causes severe diarrhoea, and blackleg affects the muscles with swelling.",
+"pidgin": "Blister for mouth and between the hoof, plus plenty saliva and limping leg, na clear sign of foot and mouth disease, wey be virus disease wey dey disturb animal wey get split hoof. Anthrax dey kill sudden sudden with blood from body holes, rinderpest dey cause serious running stomach, blackleg dey affect muscle with swelling.",
+"py": null,
+"values": null,
+"id": "wagr1303",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the most effective way to prevent a contagious disease from entering an existing herd when new animals are being introduced onto a farm?",
+"options": [
+"Quarantine the new animals for some weeks before mixing them with the herd",
+"Give the new animals extra feed immediately on arrival",
+"Brand the new animals for easy identification",
+"Cull all old animals in the herd before the new ones arrive"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Quarantine means keeping newly bought animals separate and observing them for signs of disease before allowing them to join the main herd. This prevents any hidden infection from spreading to healthy animals.",
+"pidgin": "Quarantine mean say make you separate the new animal small time make you dey watch am well well before you mix am with the main herd. Na im dey stop any hidden sickness from spread go the healthy ones.",
+"py": null,
+"values": null,
+"id": "wagr1304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In animal health studies, what term describes an organism, such as a fly or tick, that carries and transfers disease-causing organisms from a sick animal to a healthy one without itself showing the disease?",
+"options": [
+"Host",
+"Vector",
+"Parasite",
+"Pathogen"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A vector is a living carrier, such as the tsetse fly or tick, that transmits a pathogen from one animal to another. The vector itself usually does not suffer from the disease it transmits.",
+"pidgin": "Vector na living thing, like tsetse fly or tick, wey dey carry sickness organism from one animal go another one. The vector sef no dey show the sickness wey e dey carry.",
+"py": null,
+"values": null,
+"id": "wagr1305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of these livestock diseases can also infect human beings who handle sick or dead animals, making it a zoonotic disease?",
+"options": [
+"Coccidiosis",
+"Newcastle disease",
+"Anthrax",
+"Fowl pox"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Anthrax is a zoonotic disease because its spores can infect humans who touch, skin or eat meat from an infected animal. Coccidiosis, Newcastle disease and fowl pox mainly affect birds or specific animals and are not easily passed to humans.",
+"pidgin": "Anthrax na zoonotic disease because the spore fit enter human wey touch, skin or chop meat from sick animal. Coccidiosis, Newcastle disease and fowl pox dey mostly affect bird or particular animal and no dey easily pass go human.",
+"py": null,
+"values": null,
+"id": "wagr1306",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Newcastle disease can also infect humans, usually causing conjunctivitis.|Newcastle disease can cause mild human conjunctivitis, but anthrax is the standard answer"
+}
+]
+}

@@ -1,0 +1,175 @@
+{
+"subject": "agric",
+"topic": "Soil formation, texture and properties",
+"ti": 2,
+"generated": 7,
+"kept": [
+{
+"q": "Over long periods of time, rocks are broken down into smaller fragments through the action of agents such as temperature changes, rainfall, wind and plant roots. This natural breakdown process, which is the first stage of soil formation, is called?",
+"options": [
+"Leaching",
+"Erosion",
+"Weathering",
+"Decomposition"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Weathering is the physical, chemical and biological breakdown of rocks into smaller particles that later form soil. Erosion only moves particles, it does not break rocks, while leaching and decomposition are different soil processes.",
+"pidgin": "Weathering na how rock dey break small small to smaller pieces before e become soil. Erosion na just to carry the particles comot, e no dey break the rock, so the correct answer na weathering.",
+"py": null,
+"values": null,
+"id": "wagr0200",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In agricultural science, soil texture is best defined as the",
+"options": [
+"relative proportion of sand, silt and clay particles in a soil",
+"amount of organic matter present in a soil",
+"way soil particles are grouped into crumbs or clods",
+"capacity of a soil to hold water against gravity"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Soil texture refers specifically to the proportion of the three mineral particle sizes - sand, silt and clay - in a soil sample. The other options describe soil structure, organic matter content or water-holding capacity, which are different soil properties.",
+"pidgin": "Soil texture na how much sand, silt and clay dey inside the soil. The other options na about structure, organic matter or water capacity, no be texture.",
+"py": null,
+"values": null,
+"id": "wagr0201",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following correctly arranges soil particles in order of decreasing size, that is, from the largest particle to the smallest particle?",
+"options": [
+"Clay, silt, sand",
+"Silt, sand, clay",
+"Clay, sand, silt",
+"Sand, silt, clay"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Sand particles are the largest, followed by silt, while clay particles are the smallest and finest. This order is important because it determines properties like drainage, aeration and water retention of a soil.",
+"pidgin": "Sand na the biggest particle, silt dey follow, clay na the smallest one. Na dis order dey affect how water and air dey pass through the soil.",
+"py": null,
+"values": null,
+"id": "wagr0202",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr Danjuma, a soil scientist, analysed a soil sample taken from a farm near Ogbomoso and found that it contains 50% sand and 20% clay by weight. What percentage of the sample is silt?",
+"options": [
+"20%",
+"30%",
+"40%",
+"50%"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The three fractions (sand, silt and clay) must add up to 100%. Since sand is 50% and clay is 20%, silt = 100% - 50% - 20% = 30%.",
+"pidgin": "Sand, silt and clay suppose add up reach 100%. Since sand na 50% and clay na 20%, silt go be 100% - 50% - 20% = 30%.",
+"py": "100-50-20",
+"values": [
+20,
+30,
+40,
+50
+],
+"id": "wagr0203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A soil that has formed directly from the underlying parent rock and has remained at the same location, without being carried away by agents such as wind, water or gravity, is known as",
+"options": [
+"Transported soil",
+"Alluvial soil",
+"Residual soil",
+"Colluvial soil"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Residual soil develops in place from the weathering of the parent rock beneath it and stays where it is formed. Alluvial, colluvial and transported soils are all moved from their original site by water, gravity or other agents.",
+"pidgin": "Residual soil na the one wey form from the rock wey dey under am and e no carry comot to anywhere. Alluvial, colluvial and transported soil na the ones wey water or gravity don carry comot.",
+"py": null,
+"values": null,
+"id": "wagr0204",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer in Benue State observed that his clay soil stays wet for several days after rainfall, while the sandy soil on the next plot dries up quickly. Which property of clay particles mainly explains this difference?",
+"options": [
+"Small particle size with a large surface area",
+"Large particle size with a small surface area",
+"High permeability that allows water to pass through quickly",
+"Low porosity caused by very large air spaces"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Clay particles are very small and fine, giving them a large total surface area that attracts and holds water tightly, so clay soils drain slowly and stay wet longer. Sandy soils have larger particles with less surface area, so water drains through faster.",
+"pidgin": "Clay particle small well well, so im surface area big, e fit hold plenty water tight. Na im make clay soil dey wet for many days, unlike sand wey get big particle and water dey waka pass am quick quick.",
+"py": null,
+"values": null,
+"id": "wagr0205",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a practical class, students collected an oven-dried soil core sample with a mass of 180 g and a volume of 120 cm^3. Calculate the bulk density of the soil sample.",
+"options": [
+"1.2 g/cm^3",
+"0.67 g/cm^3",
+"2.0 g/cm^3",
+"1.5 g/cm^3"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Bulk density = mass of dry soil / volume of soil = 180 g / 120 cm^3 = 1.5 g/cm^3. The other options come from using the wrong values or inverting the formula.",
+"pidgin": "Bulk density = mass of the dry soil divide by the volume = 180g / 120cm^3 = 1.5 g/cm^3. The other options na from wrong calculation or if person flip the formula.",
+"py": "180/120",
+"values": [
+1.2,
+0.67,
+2.0,
+1.5
+],
+"id": "wagr0206",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

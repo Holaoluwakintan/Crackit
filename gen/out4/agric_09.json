@@ -1,0 +1,176 @@
+{
+"subject": "agric",
+"topic": "Forestry",
+"ti": 9,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines forestry as practised in West Africa?",
+"options": [
+"The science and practice of establishing, managing and conserving forests for timber and other benefits",
+"The rearing of livestock such as goats and sheep inside forest reserves",
+"The act of clearing forest land completely for food crop production",
+"The study of wild animals found in the forest only"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Forestry is the branch of agriculture concerned with planting, managing, protecting and harvesting trees in a sustainable way. It covers timber and non-timber products, not just animals or crop farming.",
+"pidgin": "Forestry na di science wey dey teach how to plant, manage and take care of trees so dat dem go dey available for long time. E no be only about animals or clearing bush for farming.",
+"py": null,
+"values": null,
+"id": "wagr0900",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is a common non-timber forest product harvested from Nigerian forests?",
+"options": [
+"Crude petroleum",
+"Gum arabic",
+"Limestone",
+"Granite"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Gum arabic is a natural resin tapped from certain tree species like Acacia senegal and is a well-known non-timber forest product in Nigeria. Petroleum, limestone and granite are mineral resources, not forest products.",
+"pidgin": "Gum arabic na resin wey dem dey tap from tree like Acacia senegal, and na forest product. Petroleum, limestone and granite na mineral resources, dem no come from forest.",
+"py": null,
+"values": null,
+"id": "wagr0901",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer in Benue State grows maize and cassava between rows of Gliricidia trees on the same piece of land, with the trees also providing fodder for his goats. This farming system is best described as:",
+"options": [
+"Monocropping",
+"Shifting cultivation",
+"Agroforestry",
+"Crop rotation"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Agroforestry is the deliberate combination of trees with crops and/or livestock on the same land to improve productivity and soil fertility. This is different from monocropping, shifting cultivation and crop rotation, which do not necessarily involve trees.",
+"pidgin": "Agroforestry na when farmer dey plant tree together with crop or animal for the same land. E different from monocropping, shifting cultivation or crop rotation wey no must get tree inside.",
+"py": null,
+"values": null,
+"id": "wagr0903",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "One major reason why state governments in Nigeria establish forest reserves such as Omo Forest Reserve is to:",
+"options": [
+"Encourage indiscriminate felling of economic trees",
+"Protect and manage forest resources against overexploitation",
+"Convert the land permanently to urban housing estates",
+"Prevent farmers from ever practising agroforestry nearby"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Forest reserves are set aside mainly to protect forest resources from overexploitation and to ensure sustainable supply of timber and other forest products. They are not meant to encourage indiscriminate felling or to be converted into housing estates.",
+"pidgin": "Dem dey create forest reserve mainly to protect forest resources so dat people no go cut tree anyhow. E no be to encourage waste-waste cutting of tree or turn the land to housing estate.",
+"py": null,
+"values": null,
+"id": "wagr0904",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A forestry officer wants to plant teak seedlings on a one-hectare plot at Gambari Forest Reserve using a spacing of 5 metres by 4 metres between seedlings. Given that 1 hectare equals 10,000 square metres, how many seedlings are required for the plot?",
+"options": [
+"400",
+"450",
+"500",
+"600"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Each seedling occupies an area of 5 m x 4 m = 20 square metres. Dividing the total plot area by the area per seedling gives 10,000 / 20 = 500 seedlings.",
+"pidgin": "Each seedling go take space wey be 5m x 4m = 20 square metres. If you divide the whole plot (10,000 square metres) by 20, you go get 500 seedlings.",
+"py": "10000//(5*4)",
+"values": [
+400,
+450,
+500,
+600
+],
+"id": "wagr0906",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following is the major cause of deforestation in many Nigerian forest areas?",
+"options": [
+"Government afforestation programmes",
+"Uncontrolled logging and clearing of forest for farmland",
+"Establishment of forest reserves by the state",
+"Planting of fast-growing exotic tree species",
+"Protection of endangered tree species by law"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Deforestation mainly results from human activities such as excessive timber logging and clearing forests for farming or settlement. Afforestation, forest reserves and legal protection are measures that help to prevent deforestation, not cause it.",
+"pidgin": "Deforestation dey happen mostly because of too much logging and when people clear forest for farm or house. Afforestation, forest reserve and law wey protect tree na dem dey stop deforestation, no be cause am.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A teak plantation in Oyo State was established in the year 2000. If teak has a rotation age of 18 years, in which year should the trees normally be harvested for timber?",
+"options": [
+"2015",
+"2018",
+"2020",
+"2025"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Rotation age is the number of years a tree crop takes from planting to maturity before it is harvested. Adding the rotation age (18 years) to the planting year (2000) gives 2000 + 18 = 2018.",
+"pidgin": "Rotation age na the number of years wey tree go take grow reach matured age before dem go cut am. If you add 18 years to 2000, you go reach 2018.",
+"py": "2000+18",
+"values": [
+2015,
+2018,
+2020,
+2025
+],
+"id": "wagr0905",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+}
+]
+}

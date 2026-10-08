@@ -1,0 +1,178 @@
+{
+"subject": "geography",
+"topic": "ECOWAS and the geography of West Africa",
+"generated": 8,
+"kept": [
+{
+"q": "ECOWAS (Economic Community of West African States) was formally established after the signing of a treaty in which year?",
+"options": [
+"1963",
+"1975",
+"1980",
+"1990"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "ECOWAS was created in 1975 when the Treaty of Lagos was signed by West African leaders to promote economic cooperation and integration in the region.",
+"pidgin": "Na for 1975 dem sign di Treaty of Lagos wey bring ECOWAS come be. Dis treaty na im start di economic cooperation for West Africa.",
+"py": null,
+"values": null,
+"id": "geov2100",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "The permanent headquarters (secretariat) of ECOWAS is located in which city?",
+"options": [
+"Accra, Ghana",
+"Abuja, Nigeria",
+"Dakar, Senegal",
+"Lome, Togo"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The ECOWAS Commission's headquarters is in Abuja, the capital of Nigeria, which also reflects Nigeria's leading role in founding and funding the organisation.",
+"pidgin": "ECOWAS headquarters dey Abuja, Nigeria. Nigeria na one of di major founder and sponsor of ECOWAS.",
+"py": null,
+"values": null,
+"id": "geov2101",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "How many West African countries originally signed the Treaty of Lagos in 1975 to form ECOWAS?",
+"options": [
+"10",
+"12",
+"15",
+"18"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Fifteen West African countries, including Nigeria, Ghana, Senegal and others, signed the Treaty of Lagos in 1975 to establish ECOWAS as a regional economic bloc.",
+"pidgin": "Fifteen (15) kontri for West Africa, like Nigeria, Ghana and Senegal, sign di Treaty of Lagos for 1975 wey bring ECOWAS come.",
+"py": "15",
+"values": [
+10,
+12,
+15,
+18
+],
+"id": "geov2102",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following West African countries has no direct access to the Atlantic Ocean, making it a landlocked country?",
+"options": [
+"Ghana",
+"Niger",
+"Senegal",
+"Sierra Leone"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Niger is surrounded entirely by other countries (Algeria, Libya, Chad, Nigeria, Benin, Burkina Faso and Mali) and has no coastline, unlike Ghana, Senegal and Sierra Leone which all border the Atlantic Ocean.",
+"pidgin": "Niger no get any coastline, e dey surrounded by other kontris like Nigeria, Chad, Mali and Algeria. Ghana, Senegal and Sierra Leone all get sea coast.",
+"py": null,
+"values": null,
+"id": "geov2103",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A geography student wants to list a group of West African countries that are ALL landlocked (no coastline on the Atlantic Ocean or Gulf of Guinea). Which option below contains ONLY landlocked countries?",
+"options": [
+"Mali, Niger, Burkina Faso",
+"Mali, Ghana, Togo",
+"Niger, Benin, Burkina Faso",
+"Burkina Faso, Liberia, Mali"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Mali, Niger and Burkina Faso are the three landlocked countries in West Africa with no sea access. Ghana, Togo, Benin and Liberia all have coastlines along the Atlantic Ocean or Gulf of Guinea, so any option mixing them in is wrong.",
+"pidgin": "Mali, Niger and Burkina Faso no get sea for dia border at all, na dem be landlocked for West Africa. Ghana, Togo, Benin and Liberia all get coast, so any option wey mix dem no correct.",
+"py": null,
+"values": null,
+"id": "geov2104",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Starting from the Nigerian coast and moving northward towards the Sahel region, rainfall decreases steadily. Which sequence correctly shows the natural vegetation belts in the order they appear from south (coast) to north?",
+"options": [
+"Mangrove forest - Rainforest - Guinea savanna - Sudan savanna - Sahel savanna",
+"Rainforest - Mangrove forest - Sahel savanna - Sudan savanna - Guinea savanna",
+"Guinea savanna - Rainforest - Mangrove forest - Sudan savanna - Sahel savanna",
+"Sahel savanna - Sudan savanna - Guinea savanna - Rainforest - Mangrove forest"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "As rainfall decreases from the coast to the far north, vegetation changes from mangrove swamp forest along the coast, to rainforest, then guinea savanna, sudan savanna and finally sahel savanna near the desert edge. This order matches the actual rainfall gradient across Nigeria and West Africa.",
+"pidgin": "As rain dey reduce from coast go north, di vegetation dey change from mangrove for coast, go rainforest, den guinea savanna, sudan savanna, finish with sahel savanna near desert side. Na dis order follow di rainfall pattern well well.",
+"py": null,
+"values": null,
+"id": "geov2106",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Because of different colonial histories, ECOWAS member states mainly use three official languages for government business. Which of these languages is NOT one of the main official languages used across ECOWAS countries?",
+"options": [
+"English",
+"French",
+"Portuguese",
+"Spanish"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "West African countries were colonised mainly by Britain, France and Portugal, so English, French and Portuguese remain the main official languages used in ECOWAS states. Spanish was not a major colonial language in West Africa.",
+"pidgin": "West Africa get British, French and Portuguese colonial masters, so English, French and Portuguese na di main official languages. Spanish no be major colonial language for West Africa at all.",
+"py": null,
+"values": null,
+"id": "geov2107",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Nigeria shares an international land border with three West and Central African countries. Which of the following countries does NOT share a border with Nigeria?",
+"options": [
+"Benin Republic",
+"Niger Republic",
+"Chad",
+"Ghana"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Nigeria's land borders are with Benin Republic to the west, Niger Republic to the north, Chad and Cameroon to the east and northeast. Ghana is further west and does not touch Nigeria's borders.",
+"pidgin": "Nigeria border na wit Benin, Niger and Chad (and Cameroon). Ghana no near Nigeria at all, e dey far west, so e no fit share border wit Nigeria.",
+"py": null,
+"values": null,
+"id": "geov2105",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+"why": "ambiguous:Nigeria borders four countries, not three.|Stem error: Nigeria borders four countries (Benin, Niger, Chad, Cameroon), not three"
+}
+]
+}

@@ -1,0 +1,193 @@
+{
+"subject": "accounting",
+"topic": "Accounts of not-for-profit organisations",
+"ti": 11,
+"generated": 7,
+"kept": [
+{
+"q": "Not-for-profit organisations such as clubs and societies prepare an account that summarises all cash and bank receipts and payments during a financial year, usually showing the opening and closing cash/bank balances. What is this account called?",
+"options": [
+"Receipts and Payments account",
+"Income and Expenditure account",
+"Statement of financial position",
+"Trial balance"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Receipts and Payments account is a summary of the cash book of a not-for-profit organisation. It records all cash received and paid during the year, whether capital or revenue in nature.",
+"pidgin": "Receipts and Payments account na summary of all the cash wey the club receive and pay out for the year. E be like cash book, e no separate capital and revenue items.",
+"py": null,
+"values": null,
+"id": "wacc1100",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the accounts of a social club, the account that matches the income earned and expenditure incurred during the year (on accrual basis), regardless of when cash was actually received or paid, and shows a surplus or deficit, is called the ______.",
+"options": [
+"Receipts and Payments account",
+"Income and Expenditure account",
+"Appropriation account",
+"Cash book"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Income and Expenditure account is the non-profit equivalent of a trading firm's Profit and Loss account. It is prepared on accrual basis and shows surplus (income > expenditure) or deficit (expenditure > income).",
+"pidgin": "Income and Expenditure account na like Profit and Loss account for business wey dey make profit. Dem dey use accrual basis, so e go show surplus or deficit, no be cash basis.",
+"py": null,
+"values": null,
+"id": "wacc1101",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "At 1st January, Ikeja Social Club had the following: Club building ₦500,000, Furniture and fittings ₦80,000, Cash at bank ₦45,000, and Amount owing to a supplier ₦25,000. What was the club's accumulated fund at 1st January?",
+"options": [
+"₦600,000",
+"₦625,000",
+"₦545,000",
+"₦650,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Accumulated fund = Total assets - Total liabilities = (500,000 + 80,000 + 45,000) - 25,000 = 625,000 - 25,000 = ₦600,000. It is the non-profit equivalent of capital.",
+"pidgin": "Accumulated fund = Total assets minus Total liabilities. Assets be 500,000+80,000+45,000=625,000, minus the 25,000 wey dem owe = ₦600,000.",
+"py": "500000+80000+45000-25000",
+"values": [
+600000,
+625000,
+545000,
+650000
+],
+"id": "wacc1102",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A town union received ₦85,000 cash as subscriptions during the year. Subscriptions owing (unpaid) by members stood at ₦12,000 at the start of the year and ₦18,000 at the end of the year. What amount should be recorded as subscription income in the Income and Expenditure account for the year?",
+"options": [
+"₦79,000",
+"₦91,000",
+"₦85,000",
+"₦97,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Subscription income = Cash received - Opening arrears + Closing arrears = 85,000 - 12,000 + 18,000 = ₦91,000. The opening arrears were already earned last year, while closing arrears belong to this year's income.",
+"pidgin": "Subscription income = Cash wey dem collect minus the old debt (opening arrears) plus the new debt (closing arrears) = 85,000 - 12,000 + 18,000 = ₦91,000.",
+"py": "85000-12000+18000",
+"values": [
+79000,
+91000,
+85000,
+97000
+],
+"id": "wacc1103",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A sports club's bar recorded the following for the year: Bar sales ₦200,000, Cost of bar goods sold ₦140,000, and Bar running expenses (wages and sundries) ₦20,000. What is the bar profit to be transferred to the Income and Expenditure account?",
+"options": [
+"₦40,000",
+"₦60,000",
+"₦20,000",
+"₦160,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Bar profit = Sales - Cost of goods sold - Bar expenses = 200,000 - 140,000 - 20,000 = ₦40,000. This net bar profit (not the gross profit) is what is transferred to the Income and Expenditure account.",
+"pidgin": "Bar profit = Sales minus Cost of goods sold minus Bar expenses = 200,000 - 140,000 - 20,000 = ₦40,000. Na dis net figure dem go carry go the Income and Expenditure account.",
+"py": "200000-140000-20000",
+"values": [
+40000,
+60000,
+20000,
+160000
+],
+"id": "wacc1104",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Lagos Tennis Club received ₦60,000 as a life membership fee from a new member. The club's policy is to spread life membership fees over 5 years as income, since members enjoy benefits over that period. How much should be credited to the Income and Expenditure account for the current year?",
+"options": [
+"₦60,000",
+"₦12,000",
+"₦6,000",
+"₦15,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since the fee is spread equally over 5 years, the annual amount recognised as income = 60,000 / 5 = ₦12,000. The remaining ₦48,000 stays in the statement of financial position as deferred income (life membership fund) until future years.",
+"pidgin": "Since dem dey share the ₦60,000 for 5 years, yearly income = 60,000 ÷ 5 = ₦12,000. The remaining ₦48,000 go stay for balance sheet as deferred income until e reach the following years.",
+"py": "60000/5",
+"values": [
+60000,
+12000,
+6000,
+15000
+],
+"id": "wacc1105",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A social club's Income and Expenditure account for the year showed the following: Subscriptions ₦150,000, Donations ₦20,000, Bar profit ₦40,000; Salaries ₦60,000, Rent ₦30,000, Printing and stationery ₦15,000, Depreciation ₦10,000. What was the club's surplus for the year?",
+"options": [
+"₦95,000",
+"₦210,000",
+"₦115,000",
+"₦75,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Total income = 150,000 + 20,000 + 40,000 = ₦210,000. Total expenditure = 60,000 + 30,000 + 15,000 + 10,000 = ₦115,000. Surplus = 210,000 - 115,000 = ₦95,000, which is added to the accumulated fund.",
+"pidgin": "Total income = 150,000+20,000+40,000 = ₦210,000. Total expenditure = 60,000+30,000+15,000+10,000 = ₦115,000. Surplus = 210,000-115,000 = ₦95,000, dem go add am to accumulated fund.",
+"py": "(150000+20000+40000)-(60000+30000+15000+10000)",
+"values": [
+95000,
+210000,
+115000,
+75000
+],
+"id": "wacc1106",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,84 @@
+{
+"subject": "government",
+"topic": "Nigeria's constitutional development (1922 to 1960)",
+"generated": 4,
+"kept": [
+{
+"q": "The Richards Constitution of 1945 is chiefly remembered in Nigeria's constitutional history for introducing which feature?",
+"options": [
+"The principle of regionalism by grouping Nigeria into three regions for legislative discussion",
+"Direct election of members into the Legislative Council by the people",
+"A full federal system with regional premiers and cabinets",
+"Internal self-government for all three regions at the same time"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Richards' main contribution was dividing Nigeria into Northern, Western and Eastern regions, each with its own House for discussing bills before they went to the central Legislative Council. Direct elections, premiers and self-government came much later under other constitutions.",
+"pidgin": "Richards Constitution main work na to divide Nigeria into three regions wey go dey discuss bills before dem reach central council. Election by all people, premiers and self-government come later under other constitutions.",
+"id": "govv1201",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "By the end of the 1957 Constitutional Conference, which two regions of Nigeria had been granted internal self-government ahead of the North?",
+"options": [
+"Western and Eastern regions",
+"Northern and Western regions",
+"Eastern and Northern regions",
+"Western region alone, with no other region granted self-government"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Western and Eastern Regions achieved internal self-government in 1957 because their leaders pushed strongly for early self-rule. The Northern Region, due to concerns about readiness in education and administration, delayed and only got internal self-government in 1959.",
+"pidgin": "Western and Eastern Region get internal self-government for 1957 because dia leaders push hard for am. Northern Region fear say dem no ready well-well for education and administration, so dem get their own self-government for 1959.",
+"id": "govv1202",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "During the constitutional talks leading to Nigeria's independence, Northern Region leaders were initially reluctant to accept an early self-government date (such as 1956) proposed by some Southern politicians. What was the main reason for this reluctance?",
+"options": [
+"They feared the North lagged behind in Western education and trained manpower needed to run a modern government",
+"They wanted the North to break away completely and form a separate country",
+"They preferred that the British continue to rule Nigeria indefinitely without any change",
+"They insisted that the federal capital be relocated from Lagos to the North before any self-government talks"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Northern leaders, aware that Western education and the civil service had developed more in the South, worried that early self-government would let Southern-trained Nigerians dominate a united Nigeria. This made them push for a slower, phased approach rather than outright secession or permanent colonial rule.",
+"pidgin": "Northern leaders sabi say Western education and civil service dey more for South, so dem fear say South go dominate if self-government come too fast. Na why dem want slow slow process, no be say dem wan break away or make British stay forever.",
+"id": "govv1203",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In what year did the Richards Constitution come into operation in Nigeria, replacing the Clifford Constitution?",
+"options": [
+"1922",
+"1945",
+"1951",
+"1954"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Richards Constitution, named after Governor Arthur Richards, took effect in 1945. It replaced the 1922 Clifford Constitution and introduced regionalism into Nigeria's political system.",
+"pidgin": "Na 1945 Richards Constitution start, e come replace di 1922 Clifford Constitution. Dis one bring regionalism enter Nigeria politics.",
+"id": "govv1200",
+"check": {
+"s1": "X",
+"s2": "X"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

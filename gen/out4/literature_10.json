@@ -1,0 +1,209 @@
+{
+"subject": "literature",
+"topic": "Tone, mood, theme and subject matter",
+"ti": 10,
+"generated": 10,
+"kept": [
+{
+"q": "In literary studies, what does the term 'tone' mean?",
+"options": [
+"The writer's attitude towards the subject matter or the audience",
+"The physical setting where the story takes place",
+"The order in which events happen in the plot",
+"The main message the writer wants readers to learn"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Tone refers to the writer's or speaker's attitude towards the subject or the reader. It can be serious, playful, sarcastic, sad, and so on. It is different from setting, plot or theme.",
+"pidgin": "Tone na how the writer or speaker feel about the matter wey e dey talk about, e fit be vex tone, happy tone, mock tone. E no be where story happen or how story arrange.",
+"id": "wlit1000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best defines 'mood' in a literary work?",
+"options": [
+"The sequence of events arranged by the writer",
+"The atmosphere or feeling that a piece of writing creates in the reader",
+"The full list of characters that appear in a play",
+"The central idea or message a writer wants to pass across"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Mood is the overall feeling or atmosphere a reader experiences while reading a text, such as fear, joy or sadness. It is created through word choice, setting and imagery.",
+"pidgin": "Mood na the kain feeling wey the story give the person wey dey read am, e fit be fear, happiness or sadness. Na the words and the picture wey the writer paint dey cause am.",
+"id": "wlit1001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read this extract: 'The old hut stood alone on the hill, its roof sagging like the shoulders of a tired old man, windows staring like empty eyes into the grey evening.' What mood does this extract create?",
+"options": [
+"Joyful and lively",
+"Hopeful and bright",
+"Eerie and desolate",
+"Humorous and playful"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Words like 'alone', 'sagging', 'tired', 'empty eyes' and 'grey evening' build a lonely, gloomy and frightening atmosphere. This shows an eerie and desolate mood, not a happy or funny one.",
+"pidgin": "The kain words wey dem use like 'alone', 'tired', 'empty eyes' and 'grey evening' dey show one fearful, lonely feeling. So the mood na eerie and desolate, e no be happy or funny one.",
+"id": "wlit1002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A father says to his son, 'Oh wonderful! You have failed your exams again, just what this family needed.' What tone is the father expressing?",
+"options": [
+"Genuine gratitude",
+"Sarcasm",
+"Fear",
+"Admiration"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The father does not really mean 'wonderful'; he is using the opposite of what he feels to mock the situation. This is sarcasm, a tone used to express the opposite meaning for mocking effect.",
+"pidgin": "The papa no mean say na correct thing, im dey use 'wonderful' to mock the pikin wey fail exam. Na sarcasm, where person talk the opposite of wetin im mean to mock person.",
+"id": "wlit1003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which statement best describes the 'theme' of a literary work?",
+"options": [
+"The particular event or topic the writer chooses to describe",
+"The central message or underlying idea the writer communicates through the work",
+"The historical period during which the work was written",
+"The list of literary devices the writer uses"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Theme is the central or underlying idea, lesson or message that runs through a literary work, such as love, betrayal or greed. It is more abstract than the actual story being told.",
+"pidgin": "Theme na the main message or lesson wey dey inside the story, like love, betrayal or greed. E dey different from the actual story wey dem tell, because theme na the deep idea.",
+"id": "wlit1004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following correctly explains the difference between 'subject matter' and 'theme' in a literary work?",
+"options": [
+"Subject matter is the actual topic or story being presented while theme is the underlying message or idea behind it",
+"Subject matter is the writer's attitude to the reader while theme is the setting of the story",
+"Subject matter is the moral lesson while theme is just a summary of the plot",
+"Subject matter and theme always mean the exact same thing in every text"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Subject matter is what the work is actually about on the surface, such as a war or a wedding, while theme is the deeper message the writer wants to pass across using that subject matter.",
+"pidgin": "Subject matter na the real topic wey the story dey talk about for surface, like war or wedding, but theme na the deep message wey the writer wan pass through that topic.",
+"id": "wlit1005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read this extract: 'Mama smiled and patted my head, but her eyes refused to meet mine, and her hand trembled slightly as she said, \"Everything will be fine, my son.\"' What is the overall tone of this extract?",
+"options": [
+"Confident and reassuring",
+"Anxious concealed beneath forced calm",
+"Angry and bitter",
+"Celebratory and triumphant"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Although Mama's words sound comforting, her trembling hand and avoiding eyes contradict her calm words, showing that she is actually worried. The true tone is anxiety hidden under a forced calm, not real confidence.",
+"pidgin": "Even though Mama talk say everything go fine, her shaking hand and the way she no fit look the pikin for eye show say she dey fear. So the real tone na worry wey she dey hide under fake calmness, e no be real confidence.",
+"id": "wlit1006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read this extract: 'The market square buzzed with laughter, drums rolled, and children in colourful aso-ebi ran between the stalls chasing one another, while the aroma of roasted corn filled the air.' What mood does this passage create?",
+"options": [
+"Festive and joyful",
+"Gloomy and tense",
+"Mysterious and suspenseful",
+"Sorrowful and quiet"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Details like laughter, rolling drums, colourful clothes, playing children and the smell of roasted corn all point to a lively celebration. These images create a festive and joyful mood.",
+"pidgin": "The laughter, drum wey dey roll, fine clothes, pikin wey dey play and the smell of roasted corn dey show say na celebration dey happen. All these things na the festive and joyful mood.",
+"id": "wlit1007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A short story tells of Chief Obi, who spent his whole life gathering wealth and refused to help his brothers even during their hardship. On his deathbed, surrounded by riches but with no family beside him, he wept alone. Which theme best fits this story?",
+"options": [
+"The reward of hard work",
+"The emptiness of greed and the importance of kinship",
+"The beauty of traditional titles",
+"The dangers of travelling abroad"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Chief Obi's wealth could not bring him comfort or family love at the end of his life, showing that greed without care for relatives leads to loneliness. The theme is about the emptiness of greed and the value of family ties.",
+"pidgin": "Even though Chief Obi get plenty money, e no get family beside am when e dey die, because e be greedy person wey no help im brothers. The theme na say greed na empty thing and family relationship important pass money.",
+"id": "wlit1008",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A wife shouts at her husband, 'How dare you waste the little money we have on gambling, while your children go hungry!' What is the tone of the wife in this statement?",
+"options": [
+"Indifferent",
+"Reproachful",
+"Admiring",
+"Playful"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The wife is scolding and blaming her husband strongly for his careless action, which shows a reproachful (rebuking) tone. She is clearly not indifferent, playful or showing admiration.",
+"pidgin": "The wife dey blame and scold her husband seriously because of the gambling wey e do while children dey hungry. That kain blaming attitude na reproachful tone, e no be indifferent, play-play or admiration.",
+"id": "wlit1009",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

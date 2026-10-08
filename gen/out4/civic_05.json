@@ -1,0 +1,153 @@
+{
+"subject": "civic",
+"topic": "Democracy, elections and political participation",
+"ti": 5,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines democracy?",
+"options": [
+"Government by the military council",
+"Government of the people, by the people and for the people",
+"Government controlled by one political party",
+"Government based on hereditary succession to the throne"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Democracy is a system where the people choose their leaders and the leaders rule with the consent of the people. This classic definition shows that power belongs to the citizens.",
+"pidgin": "Democracy na system wey di pipo dem get power to choose dia leaders, and di leaders dey rule with di pipo consent. Na dis definition show say power na for di citizens.",
+"id": "wciv0500",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which body is constitutionally responsible for organising and conducting elections into federal and state offices in Nigeria?",
+"options": [
+"Economic and Financial Crimes Commission (EFCC)",
+"Independent National Electoral Commission (INEC)",
+"National Drug Law Enforcement Agency (NDLEA)",
+"Independent Corrupt Practices Commission (ICPC)"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "INEC is the independent body set up to register voters, conduct elections and announce results in Nigeria. The other agencies deal with crime, drugs and corruption, not elections.",
+"pidgin": "INEC na di body wey dey register voters, conduct election and announce result for Nigeria. Di oda agencies dey handle crime, drug and corruption matter, no be election.",
+"id": "wciv0501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "According to the Nigerian constitution, what is the minimum voting age for a citizen to be registered and vote in elections?",
+"options": [
+"16 years",
+"18 years",
+"21 years",
+"25 years"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The 1999 Constitution (as amended) fixes the voting age at 18 years. Once a citizen turns 18, he or she can register with INEC and vote.",
+"pidgin": "Di 1999 Constitution (wey dem amend) talk say voting age na 18 years. Once citizen reach 18, e fit register with INEC and vote.",
+"id": "wciv0502",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the main purpose of using the secret ballot system during elections?",
+"options": [
+"To allow a voter to cast more than one vote",
+"To protect the privacy of a voter's choice from intimidation",
+"To make result collation faster for INEC officials",
+"To permit voters to openly declare their choice before everyone"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The secret ballot lets a voter mark his choice privately so that no one can intimidate, bribe or victimise him because of how he voted. It protects free choice, not speed or multiple voting.",
+"pidgin": "Secret ballot make voter mark im choice for private so nobody go fit threaten, bribe or punish am because of how e vote. Na im dey protect free choice, no be about speed or multiple voting.",
+"id": "wciv0503",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT an example of political participation by a citizen?",
+"options": [
+"Voting during a general election",
+"Joining and paying dues to a registered political party",
+"Contesting for a seat in the State House of Assembly",
+"Deliberately refusing to pay approved taxes to government"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Political participation involves lawful activities like voting, joining parties and contesting elections that help citizens take part in governance. Refusing to pay tax is tax evasion, an offence, not a form of political participation.",
+"pidgin": "Political participation na lawful tin like voting, joining party and contesting election wey make citizen take part for governance. To refuse pay tax na tax evasion, na offence, e no be political participation.",
+"id": "wciv0504",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During campaign for a local government chairmanship election in Enugu State, Chief Okoro's agents were seen sharing bags of rice and cash of ₦2,000 to voters, promising more money if they thumb-print for him on election day. Which electoral malpractice does this describe?",
+"options": [
+"Gerrymandering",
+"Vote buying",
+"Ballot box snatching",
+"Multiple registration"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Giving voters money or gifts to influence how they vote is called vote buying, a common electoral malpractice. Gerrymandering concerns unfair drawing of constituency boundaries, not cash gifts, so it does not fit here.",
+"pidgin": "To give voters money or gift make dem vote one way na vote buying, one common electoral malpractice. Gerrymandering na about how dem dey draw constituency boundary unfair, e no concern cash gift, so e no fit be di answer.",
+"id": "wciv0505",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The Nigerian constitution states that a person must be at least 35 years old to contest for the office of President. Adaeze was born in May 1998. If Nigeria's presidential election holds in February 2033, what will be Adaeze's exact age at the time of the election, and will she be eligible to contest?",
+"options": [
+"35 years old; she is eligible",
+"34 years old; she is not yet eligible",
+"36 years old; she is eligible",
+"33 years old; she is not eligible"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "From May 1998 to May 2032 is 34 complete years, and her 35th birthday will only occur in May 2033, which is after the February 2033 election. So at election time she is still 34 and does not yet meet the age requirement.",
+"pidgin": "From May 1998 to May 2032 na 34 complete years, and she go clock 35 only for May 2033, wey dey after di February 2033 election. So for di election time, she still be 34, she never reach di age wey constitution talk.",
+"id": "wciv0506",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:|Outdated premise: the Not Too Young To Run amendment (2018) lowered the presidential minimum age to 30, so she would actually be eligible at 34."
+}
+]
+}

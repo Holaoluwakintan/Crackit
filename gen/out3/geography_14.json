@@ -1,0 +1,186 @@
+{
+"subject": "geography",
+"topic": "Population: distribution, growth and migration",
+"generated": 8,
+"kept": [
+{
+"q": "In population geography, population density is best defined as:",
+"options": [
+"rate of population growth",
+"number of people per unit area of land",
+"total number of people in a country",
+"number of migrants per year"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Population density measures how many people live in a given unit area, usually expressed as persons per square kilometre. It is not the same as total population, growth rate, or migration figures.",
+"pidgin": "Population density na how many people dey live for one particular size of land, like per square kilometre. E no be di same thing as total population, growth rate, or migration number.",
+"py": null,
+"values": null,
+"id": "geov1400",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "The movement of people from rural villages to towns and cities mainly in search of jobs, education and better amenities is called:",
+"options": [
+"transhumance",
+"nomadism",
+"rural-urban migration",
+"emigration"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Rural-urban migration is movement within the same country from villages to cities. Transhumance and nomadism involve herders moving with animals, while emigration means leaving one's own country for another.",
+"pidgin": "Rural-urban migration na when people dey waka comot from village go city for better work, school and amenities. Transhumance and nomadism na about herdsmen and animals, while emigration na when person leave im country go another country.",
+"py": null,
+"values": null,
+"id": "geov1401",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A town in Delta State has a population of 450,000 people and occupies a land area of 150 square kilometres. What is the population density of the town?",
+"options": [
+"3,000 persons per sq km",
+"300 persons per sq km",
+"30,000 persons per sq km",
+"1,500 persons per sq km"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Population density = population divided by land area = 450,000 / 150 = 3,000 persons per square kilometre.",
+"pidgin": "Population density na population divide by land area: 450,000 divide by 150 be 3,000 persons per square kilometre.",
+"py": "450000/150",
+"values": [
+3000,
+300,
+30000,
+1500
+],
+"id": "geov1402",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following physical factors is most likely to encourage DENSE population settlement in an area?",
+"options": [
+"Presence of tsetse fly infestation",
+"Frequent volcanic eruptions",
+"Extreme desert climate",
+"Fertile soil suitable for farming"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Fertile soil supports good crop yields and food security, attracting many settlers and farmers. Tsetse fly, volcanic eruptions and desert climate instead discourage settlement because they threaten health, safety, and farming.",
+"pidgin": "Fertile soil dey support good harvest and food, so e dey attract plenty people come settle. Tsetse fly, volcano and desert no good for health, safety and farming, so dem dey chase settlers comot.",
+"py": null,
+"values": null,
+"id": "geov1403",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Which of the following is a PUSH factor responsible for migration of people from rural areas to urban centres?",
+"options": [
+"High rate of unemployment in rural areas",
+"Presence of better educational facilities in the city",
+"Availability of modern hospitals in urban centres",
+"Attraction of social amenities in towns"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Push factors are negative conditions in the place people are leaving, such as unemployment in rural areas. The other options describe attractive conditions in the city, which are pull factors, not push factors.",
+"pidgin": "Push factor na bad condition for di place wey person dey comot from, like unemployment for village. Di other options na good tins for city wey dey pull people go there, dem be pull factors not push factors.",
+"py": null,
+"values": null,
+"id": "geov1404",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A country's population is growing at an annual rate of 3.5%. Using the rule of 70 (doubling time = 70 divided by growth rate), estimate how many years it will take for the population to double.",
+"options": [
+"35 years",
+"20 years",
+"14 years",
+"10 years"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Using the rule of 70: doubling time = 70 / 3.5 = 20 years. This simple method estimates how long a population needs to double at a constant growth rate.",
+"pidgin": "Use rule of 70: doubling time = 70 divide by 3.5 = 20 years. Dis method dey help estimate how long population go take double if growth rate no change.",
+"py": "70/3.5",
+"values": [
+35,
+20,
+14,
+10
+],
+"id": "geov1405",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "In a certain year, a country recorded a crude birth rate of 42 per 1000 people and a crude death rate of 14 per 1000 people. What was the rate of natural increase of the population, expressed as a percentage?",
+"options": [
+"4.2%",
+"1.4%",
+"5.6%",
+"2.8%"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Natural increase rate = (birth rate - death rate) / 1000 x 100 = (42 - 14) / 1000 x 100 = 2.8%. This shows the yearly growth from births and deaths only, ignoring migration.",
+"pidgin": "Natural increase rate = (birth rate minus death rate) divide by 1000 times 100 = (42 - 14)/1000 x 100 = 2.8%. Na di growth wey come from birth and death only, e no include migration.",
+"py": "(42-14)/1000*100",
+"values": [
+4.2,
+1.4,
+5.6,
+2.8
+],
+"id": "geov1406",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "Fulani herdsmen in parts of Nigeria often move their cattle seasonally from the dry northern savanna to wetter southern grasslands in search of pasture and water, before returning home later in the year. This type of movement is called:",
+"options": [
+"transhumance",
+"shifting cultivation",
+"urbanization",
+"emigration"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Transhumance is the seasonal movement of pastoralists and their livestock between fixed areas to find pasture and water. Shifting cultivation involves farming, urbanization is growth of towns, and emigration is leaving one's country.",
+"pidgin": "Transhumance na when herdsmen and dia cattle dey waka seasonally between fixed places to find grass and water. Shifting cultivation na about farming, urbanization na growth of towns, and emigration na when person comot from im own country.",
+"py": null,
+"values": null,
+"id": "geov1407",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

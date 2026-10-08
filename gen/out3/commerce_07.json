@@ -1,0 +1,172 @@
+{
+"subject": "commerce",
+"topic": "Money: evolution, functions and qualities",
+"generated": 8,
+"kept": [
+{
+"q": "In the history of trade, before money was invented, people exchanged goods directly for other goods without using any medium of exchange. What is this system of exchange called?",
+"options": [
+"Hire purchase",
+"Trade by barter",
+"Deferred payment",
+"Commodity exchange"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Trade by barter is the direct exchange of goods for goods without using money. It was the earliest method of trade before money was invented. The other options involve money or credit arrangements, which came after barter.",
+"pidgin": "Trade by barter na when person dey swap im goods for another goods, no money dey involve. Na the first kind trade before money come. The other options need money or credit wey come later.",
+"py": null,
+"values": null,
+"id": "comv0700",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following is NOT one of the four main functions of money as studied in Commerce?",
+"options": [
+"Medium of exchange",
+"Store of value",
+"Standard for deferred payment",
+"Means of production"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The four main functions of money are medium of exchange, measure of value (unit of account), store of value, and standard for deferred payment. Means of production refers to land, labour and capital used to produce goods, which is not a function of money.",
+"pidgin": "Money get only four main functions: medium of exchange, unit of account, store of value, and standard for deferred payment. Means of production na land, labour and capital wey dem dey use produce goods, e no be money function.",
+"py": null,
+"values": null,
+"id": "comv0701",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "One of the major problems of trade by barter is that a person who wants to exchange his goods must find another person who has what he wants and also wants what he is offering at the same time. What is this problem called?",
+"options": [
+"Lack of store of value",
+"Lack of unit of account",
+"Lack of double coincidence of wants",
+"Lack of portability"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Under barter, trade can only happen when two people's needs match exactly at the same time; this is called lack of double coincidence of wants. Money solved this by acting as a universally accepted medium of exchange.",
+"pidgin": "For barter, trade fit only happen if the two people wey dey exchange goods need exactly wetin each other get at the same time; dem dey call am lack of double coincidence of wants. Money solve dis wahala because everybody dey accept am.",
+"py": null,
+"values": null,
+"id": "comv0702",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A ₦1000 note can be exchanged for five ₦200 notes or ten ₦100 notes without any loss in value. Which quality of money does this situation illustrate?",
+"options": [
+"Durability",
+"Acceptability",
+"Divisibility",
+"Scarcity"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Divisibility means money can be broken into smaller units of lower value without losing its total worth. The example of ₦1000 being exchanged for smaller notes of equal total value shows this quality clearly.",
+"pidgin": "Divisibility mean say money fit break into smaller units wey no go lose value. The example of ₦1000 wey you fit change to smaller notes wey still equal am show dis quality well well.",
+"py": null,
+"values": null,
+"id": "comv0703",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Alhaji Musa owns a cow worth ₦150,000 and wants to buy a bag of rice worth ₦30,000 from Mama Nkechi. Under trade by barter, Alhaji Musa cannot give out just a part of the cow to Mama Nkechi without killing the whole animal. This situation illustrates which problem of trade by barter?",
+"options": [
+"Lack of double coincidence of wants",
+"Lack of standard for deferred payment",
+"Lack of a common measure of value",
+"Problem of indivisibility of goods"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Some goods like a live cow cannot be broken into smaller parts to match a lower value without destroying them; this is the problem of indivisibility. Money solves this because it can be divided into smaller denominations.",
+"pidgin": "Some goods like live cow no fit break into small-small parts for lower value without you kill am; na dis dem dey call indivisibility problem. Money solve am because you fit break am into smaller notes or coins.",
+"py": null,
+"values": null,
+"id": "comv0704",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Considering the historical evolution of money from trade by barter to modern electronic money, which stage came immediately before the widespread use of paper money (banknotes) in most economies?",
+"options": [
+"Trade by barter",
+"Metallic money",
+"Commodity money",
+"Electronic money/plastic money"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The generally accepted order of evolution is: trade by barter, commodity money, metallic money (coins made of gold, silver, etc.), paper money, and finally electronic/plastic money. Metallic money therefore directly preceded paper money.",
+"pidgin": "The order wey money develop be: trade by barter, commodity money, metallic money (coins wey dem make from gold, silver), paper money, then electronic/plastic money. So metallic money na im come before paper money.",
+"py": null,
+"values": null,
+"id": "comv0705",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which quality of money makes it possible for a trader to carry ₦50,000 in his pocket to the market instead of carrying bags of grains of equivalent value?",
+"options": [
+"Durability",
+"Scarcity",
+"Acceptability",
+"Portability"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Portability means money is light and easy to carry from one place to another, unlike bulky goods such as bags of grains. This makes trade faster and more convenient than carrying heavy goods for exchange.",
+"pidgin": "Portability mean say money dey light and e dey easy to carry from one place go another, unlike bags of grains wey heavy. Dis one make trade fast and easy pass when you go carry heavy goods.",
+"py": null,
+"values": null,
+"id": "comv0707",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Two ₦500 notes printed in different years and used in different towns in Nigeria still have exactly the same size, design, colour and purchasing power. Which quality of money is being described here?",
+"options": [
+"Homogeneity",
+"Divisibility",
+"Portability",
+"Malleability"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Homogeneity means every unit of money of the same denomination looks alike and has equal value everywhere, regardless of when or where it was printed. This builds trust and makes money easy to accept anywhere.",
+"pidgin": "Homogeneity mean say every money wey get the same value go dey look the same and get equal value anywhere, no matter when dem print am. Dis one dey build trust make people accept am everywhere.",
+"py": null,
+"values": null,
+"id": "comv0706",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+"why": "ambiguous:Equal face value does not guarantee equal purchasing power across towns.|"
+}
+]
+}

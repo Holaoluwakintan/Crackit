@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Nutrient cycles (carbon, nitrogen, water)",
+"ti": 17,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following processes directly returns carbon(IV) oxide to the atmosphere during the carbon cycle?",
+"options": [
+"Photosynthesis by green plants",
+"Respiration by living organisms",
+"Absorption of carbon by the soil",
+"Formation of limestone in the sea"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Respiration breaks down food and releases carbon(IV) oxide as a waste product into the air. Photosynthesis does the opposite by removing carbon(IV) oxide from the air. Limestone formation and soil absorption do not release the gas back to the atmosphere.",
+"pidgin": "Respiration na im dey bring carbon(IV) oxide comot back to air as waste. Photosynthesis na im dey remove the gas from air, so na opposite. Limestone and soil no dey release the gas like that.",
+"id": "wbio1700",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The process by which atmospheric nitrogen gas is converted into a form that plants can use is called:",
+"options": [
+"Ammonification",
+"Nitrogen fixation",
+"Denitrification",
+"Nitrification"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Nitrogen fixation is the process that changes free nitrogen gas in the air into nitrogen compounds like ammonia or nitrates that plants can absorb. Ammonification produces ammonia from dead organisms, while denitrification releases nitrogen gas back to air. Nitrification converts ammonia to nitrates, not atmospheric nitrogen directly.",
+"pidgin": "Nitrogen fixation na the process wey dey change the nitrogen gas for air to form wey plant fit use. Ammonification na from dead things dem dey make ammonia, denitrification dey release nitrogen gas back to air. Nitrification na to change ammonia to nitrate, e no be from air nitrogen.",
+"id": "wbio1701",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a school farm at Nkwerre, Mrs. Okafor observed root nodules on cowpea plants. These nodules contain bacteria that help the plant by:",
+"options": [
+"Breaking down dead leaves into humus",
+"Converting nitrates back to nitrogen gas",
+"Fixing atmospheric nitrogen into usable nitrogen compounds",
+"Absorbing excess water from the soil"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Leguminous plants like cowpea have root nodules containing Rhizobium bacteria that fix nitrogen gas from the air into nitrogen compounds the plant can use. This is why legumes can grow well even in poor soils. The other options describe different processes not linked to root nodules.",
+"pidgin": "Cowpea na legume, and the bacteria for im root nodule dey take nitrogen gas from air change am to form wey plant go fit use. Na why legume dey grow well even for bad soil. The other options no relate to wetin dey happen for root nodule.",
+"id": "wbio1702",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which stage of the water cycle involves the loss of water vapour from the leaves of plants?",
+"options": [
+"Condensation",
+"Precipitation",
+"Transpiration",
+"Evaporation"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Transpiration is specifically the loss of water vapour from plant leaves through tiny pores called stomata. Evaporation refers to water loss from open surfaces like rivers and oceans, not plant leaves. Condensation and precipitation are stages that occur in the atmosphere, not at the leaf surface.",
+"pidgin": "Transpiration na when water vapour dey comot from plant leaf through stomata. Evaporation na water wey dey comot from river or ocean surface, no be from leaf. Condensation and precipitation dey happen for sky, no be for leaf.",
+"id": "wbio1703",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer notices that his waterlogged rice field has a bad smell and his crop yield reduces despite applying nitrate fertilizer. This is most likely because:",
+"options": [
+"Nitrifying bacteria convert ammonia to nitrates faster in waterlogged soil",
+"Denitrifying bacteria thrive in the oxygen-poor soil and release nitrogen gas into the air",
+"Nitrogen-fixing bacteria in root nodules stop working in wet soil",
+"Water dissolves all the nitrate and washes it permanently out of the field"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Waterlogged soil has little oxygen, which favours denitrifying bacteria that convert nitrates back into nitrogen gas, reducing the nitrogen available to the rice plants. This explains both the yield loss and the smell from anaerobic bacterial activity. The other options do not correctly explain the oxygen-poor condition's effect on nitrogen loss.",
+"pidgin": "When soil waterlogged, oxygen dey reduce, and dat kind condition good for denitrifying bacteria wey dey change nitrate back to nitrogen gas, so e dey reduce nitrogen wey rice go use. Na why yield go reduce and bad smell go dey from the bacteria work. The other options no explain the low oxygen effect well.",
+"id": "wbio1704",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a stable ecosystem, the amount of carbon(IV) oxide released into the atmosphere by respiration is roughly balanced by the amount removed through photosynthesis. If deforestation drastically reduces the number of trees in an area, what is the most likely long-term effect on the carbon cycle in that area?",
+"options": [
+"Carbon(IV) oxide levels in the atmosphere will decrease steadily",
+"Oxygen levels will rise sharply above normal levels",
+"Carbon(IV) oxide levels in the atmosphere will increase over time",
+"The rate of respiration by animals will reduce to compensate"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Trees remove carbon(IV) oxide from the air through photosynthesis, so fewer trees mean less carbon(IV) oxide is absorbed while respiration continues to release it. This imbalance causes carbon(IV) oxide to build up in the atmosphere over time. Animal respiration rates do not naturally reduce to fix this imbalance.",
+"pidgin": "Trees dey use photosynthesis take absorb carbon(IV) oxide, so if trees reduce, less gas go dey absorb but respiration still dey release am. This mean say carbon(IV) oxide go dey accumulate for air with time. Animal respiration no go just reduce to balance am.",
+"id": "wbio1705",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

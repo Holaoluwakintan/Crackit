@@ -1,0 +1,141 @@
+{
+"subject": "maths",
+"topic": "Logical reasoning (statements and truth values)",
+"ti": 14,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following sentences is a statement in logic (that is, a sentence that can be judged as either true or false)?",
+"options": [
+"What a beautiful day!",
+"Abuja is the capital of Nigeria.",
+"Open the window, please.",
+"Is Lagos the largest city in Nigeria?"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A statement in logic must be a declarative sentence that is either true or false, not a command, question or exclamation. 'Abuja is the capital of Nigeria' is declarative and can be checked as true, so it is a statement. The other options are a command, a request and an exclamation.",
+"pidgin": "For logic, statement na sentence wey fit be true or false. 'Abuja is the capital of Nigeria' na declarative sentence wey we fit check say e be true, so e be statement. The others na command, question and exclamation, dem no be statement.",
+"py": null,
+"values": null,
+"id": "wmth1400",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the correct negation of the statement: 'All students in the class passed the exam'?",
+"options": [
+"No student passed the exam.",
+"All students failed the exam.",
+"Some students passed the exam.",
+"Some students did not pass the exam."
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The negation of 'All' is 'Some...not'. To deny that every student passed, it is enough that at least one student did not pass, which is exactly 'Some students did not pass the exam'. 'No student passed' is too strong, since it denies everyone passing, not just claims one failed.",
+"pidgin": "To negate 'All' statement, you dey use 'Some...not'. To deny say everybody pass, na enough say at least one student no pass, wey be 'Some students did not pass the exam'. 'No student passed' too strong, e dey deny everybody wey pass, no be just one.",
+"py": null,
+"values": null,
+"id": "wmth1401",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Let p be the statement '15 is divisible by 3' and q be the statement '15 is divisible by 4'. What is the truth value of the compound statement 'p AND q' (p ∧ q)?",
+"options": [
+"False, because 15 is not divisible by 4",
+"True, because 15 is divisible by 3",
+"False, because 15 is not divisible by 3",
+"True, because both statements relate to 15"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "p is True because 15 ÷ 3 = 5 exactly, but q is False because 15 ÷ 4 = 3.75, not a whole number. For 'AND' (conjunction) to be true, both parts must be true; since q is false, the whole statement p ∧ q is False.",
+"pidgin": "p true because 15 ÷ 3 = 5 well well, but q false because 15 ÷ 4 = 3.75, no be whole number. For 'AND' to be true, both side must be true; since q false, the whole p ∧ q na False.",
+"py": null,
+"values": null,
+"id": "wmth1402",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Let p be the statement 'Kano is located in the Northern part of Nigeria' (True) and q be the statement 'Kano is a coastal city' (False). What is the truth value of the compound statement 'p OR q' (p ∨ q)?",
+"options": [
+"False, because both p and q are false",
+"True, because both p and q are true",
+"True, because p is true",
+"False, because q is false"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "For an 'OR' (disjunction) statement to be true, only one of the two parts needs to be true. Since p ('Kano is in the North') is true, p ∨ q is True regardless of the truth value of q.",
+"pidgin": "For 'OR' statement to be true, na only one side need to be true. Since p ('Kano dey Northern part') na true, p ∨ q na True, no matter weather q true or false.",
+"py": null,
+"values": null,
+"id": "wmth1403",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the converse of the statement: 'If a number is divisible by 10, then it is divisible by 5'?",
+"options": [
+"A number is divisible by 10 if and only if it is divisible by 5.",
+"If a number is divisible by 5, then it is divisible by 10.",
+"If a number is not divisible by 10, then it is not divisible by 5.",
+"If a number is not divisible by 5, then it is not divisible by 10."
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The converse of 'If p, then q' is formed by swapping the two parts to get 'If q, then p'. So the converse of 'If divisible by 10, then divisible by 5' is 'If divisible by 5, then divisible by 10'. Note this converse is actually false (e.g. 15 is divisible by 5 but not 10), but the question only asks for the correct form of the converse.",
+"pidgin": "Converse of 'If p, then q' na to swap the two parts make e be 'If q, then p'. So converse of 'If e divisible by 10, then e divisible by 5' na 'If e divisible by 5, then e divisible by 10'. Even though this converse no dey always true (like 15), na still the correct converse form wey dem ask.",
+"py": null,
+"values": null,
+"id": "wmth1404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Let p be the statement 'Lagos is a city in Nigeria' (True) and q be the statement '2 + 2 = 5' (False). What is the truth value of the compound statement: (NOT p AND q) OR (p AND NOT q)?",
+"options": [
+"The statement is both true and false",
+"Cannot be determined without more information",
+"False",
+"True"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Since p is True, NOT p is False, so (NOT p AND q) = False AND False = False. Since q is False, NOT q is True, so (p AND NOT q) = True AND True = True. Joining with OR: False OR True = True, so the whole statement is True.",
+"pidgin": "Since p True, NOT p na False, so (NOT p AND q) = False AND False = False. Since q False, NOT q na True, so (p AND NOT q) = True AND True = True. Combine with OR: False OR True = True, so the whole statement na True.",
+"py": null,
+"values": null,
+"id": "wmth1405",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

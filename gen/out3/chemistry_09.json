@@ -1,0 +1,106 @@
+{
+"subject": "chemistry",
+"topic": "Energy changes in reactions",
+"generated": 4,
+"kept": [
+{
+"q": "During a chemical reaction, bonds in the reactants are broken (which requires energy) and new bonds form in the products (which releases energy). If the energy released when new bonds form is greater than the energy needed to break the old bonds, the reaction is classified as:",
+"options": [
+"Endothermic",
+"Exothermic",
+"Catalytic",
+"Photochemical"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "When bond-forming releases more energy than bond-breaking absorbs, the overall reaction gives out energy to the surroundings. This makes the reaction exothermic, with a negative enthalpy change (delta H).",
+"pidgin": "If the energy wey dem release when new bond form pass the one wey dem use break old bond, na extra energy dey comot go environment. That one na exothermic reaction, delta H go negative.",
+"py": null,
+"values": null,
+"id": "chev0900",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "For the reaction N2(g) + 3H2(g) -> 2NH3(g), the bond energies are: N≡N = 945 kJ/mol, H-H = 436 kJ/mol, and N-H = 391 kJ/mol. Using bond energy data, calculate the enthalpy change of the reaction.",
+"options": [
+"-93 kJ/mol",
+"+93 kJ/mol",
+"-2253 kJ/mol",
+"+2346 kJ/mol"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Energy to break bonds (reactants) = 945 + 3(436) = 2253 kJ/mol. Energy released forming bonds (products, 6 N-H bonds) = 6(391) = 2346 kJ/mol. Enthalpy change = bonds broken minus bonds formed = 2253 - 2346 = -93 kJ/mol, showing the reaction is exothermic.",
+"pidgin": "Energy wey go break the bond for reactant side = 945 + 3(436) = 2253 kJ/mol. Energy wey go release when the 6 N-H bond form = 6(391) = 2346 kJ/mol. Delta H = 2253 - 2346 = -93 kJ/mol, na exothermic reaction.",
+"py": "(945+3*436)-(6*391)",
+"values": [
+-93,
+93,
+-2253,
+2346
+],
+"id": "chev0901",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "In a school laboratory experiment, Amaka dissolved 5.35 g of ammonium chloride (molar mass = 53.5 g/mol) in water to make exactly 100 g of solution inside a well-insulated cup. The temperature of the solution fell from 30°C to 24°C. If the specific heat capacity of the solution is 4.2 J/g°C, calculate the molar enthalpy change of solution for ammonium chloride.",
+"options": [
+"+25.2 kJ/mol",
+"-25.2 kJ/mol",
+"+2.52 kJ/mol",
+"-252 kJ/mol"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Heat absorbed by the solution: q = mcΔT = 100 x 4.2 x 6 = 2520 J. Moles of NH4Cl used = 5.35/53.5 = 0.1 mol. Molar enthalpy = 2520/0.1 = 25200 J/mol = +25.2 kJ/mol. The temperature fell, meaning the solution absorbed heat from its surroundings, so the process is endothermic (positive delta H).",
+"pidgin": "Heat wey the solution chop: q = mcΔT = 100 x 4.2 x 6 = 2520 J. Mole of NH4Cl wey dem use = 5.35/53.5 = 0.1 mol. Molar enthalpy = 2520/0.1 = 25200 J/mol = +25.2 kJ/mol. Since temperature drop, e mean say the solution dey absorb heat, so na endothermic process, delta H positive.",
+"py": "(100*4.2*6)/(5.35/53.5)/1000",
+"values": [
+25.2,
+-25.2,
+2.52,
+-252
+],
+"id": "chev0902",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Given the standard enthalpies of formation: C3H8(g) = -104 kJ/mol, CO2(g) = -393 kJ/mol, H2O(l) = -286 kJ/mol, and O2(g) = 0 kJ/mol, use Hess's Law to calculate the standard enthalpy change for the complete combustion reaction: C3H8(g) + 5O2(g) -> 3CO2(g) + 4H2O(l).",
+"options": [
+"-2219 kJ/mol",
+"-2323 kJ/mol",
+"+2219 kJ/mol",
+"-2115 kJ/mol"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Delta H = (sum of products' ΔHf) - (sum of reactants' ΔHf) = [3(-393) + 4(-286)] - [(-104) + 0] = (-1179 - 1144) - (-104) = -2323 + 104 = -2219 kJ/mol. This large negative value shows the combustion of propane is strongly exothermic.",
+"pidgin": "Delta H = (total ΔHf for products) - (total ΔHf for reactants) = [3(-393) + 4(-286)] - [(-104) + 0] = -2323 + 104 = -2219 kJ/mol. Dis big negative number show say the burning of propane dey release plenty heat, na exothermic reaction well well.",
+"py": "(3*-393+4*-286)-(-104+0)",
+"values": [
+-2219,
+-2323,
+2219,
+-2115
+],
+"id": "chev0903",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

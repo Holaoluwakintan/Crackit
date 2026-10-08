@@ -1,0 +1,133 @@
+{
+"subject": "biology",
+"topic": "Nutrition in plants (photosynthesis, mineral nutrition)",
+"ti": 4,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following is the green pigment found in chloroplasts that traps light energy for photosynthesis?",
+"options": [
+"Carotene",
+"Chlorophyll",
+"Xanthophyll",
+"Anthocyanin"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Chlorophyll is the green pigment found in chloroplasts that absorbs light energy (mainly red and blue light) for photosynthesis. Carotene, xanthophyll and anthocyanin are other plant pigments but they do not directly trap light for photosynthesis.",
+"pidgin": "Chlorophyll na di green pigment wey dey inside chloroplast wey dey catch light energy for photosynthesis. Carotene, xanthophyll and anthocyanin na other pigments but dem no dey directly use light make photosynthesis happen.",
+"id": "wbio0400",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which pair of substances are the raw materials used by green plants during photosynthesis?",
+"options": [
+"Oxygen and glucose",
+"Nitrogen and water",
+"Carbon dioxide and water",
+"Oxygen and mineral salts"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Photosynthesis uses carbon dioxide (from the air) and water (from the soil) as raw materials, together with light energy and chlorophyll, to produce glucose and oxygen. Oxygen and glucose are products, not raw materials.",
+"pidgin": "Photosynthesis dey use carbon dioxide (from air) and water (from soil) as di raw materials, plus light and chlorophyll, to produce glucose and oxygen. Oxygen and glucose na products, dem no be raw materials.",
+"id": "wbio0401",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In which part of the chloroplast does the light-dependent stage of photosynthesis mainly take place?",
+"options": [
+"Stroma",
+"Mitochondria",
+"Nucleus",
+"Grana (thylakoid membranes)"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The light-dependent reactions of photosynthesis occur on the thylakoid membranes, which are stacked together to form the grana inside the chloroplast. The stroma, by contrast, is where the light-independent (dark) reactions take place.",
+"pidgin": "Di light stage of photosynthesis dey happen for thylakoid membrane wey dem stack together to form grana inside chloroplast. Na stroma na where di dark stage (light-independent) dey happen.",
+"id": "wbio0403",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student destarched a potted plant by keeping it in the dark for 48 hours. One leaf was then covered on both sides with black paper, leaving the rest of the leaf exposed, and the plant was placed in sunlight for several hours. The covered leaf was later removed, boiled in water, decolourised in alcohol, and tested with iodine solution. What result should the student expect?",
+"options": [
+"The whole leaf turns blue-black with iodine",
+"The covered part remains brown-orange while the uncovered part turns blue-black",
+"The whole leaf remains brown-orange after testing",
+"The covered part turns blue-black while the uncovered part remains brown-orange"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Covering part of the leaf with black paper stops light from reaching that part, so no photosynthesis occurs there and no starch is made; iodine will not turn that part blue-black, it stays brown-orange. The uncovered part receives light, makes starch, and turns blue-black with iodine.",
+"pidgin": "If you cover part of di leaf with black paper, light no go reach dat part, so photosynthesis no go happen and no starch go form; iodine no go turn dat part blue-black, e go remain brown-orange. Di part wey light reach go get starch and turn blue-black when you put iodine.",
+"id": "wbio0404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In an experiment with aquatic plants in a pond, it was observed that at low light intensity, the rate of photosynthesis increased steadily as light intensity increased. However, beyond a certain light intensity, further increases in light no longer raised the rate of photosynthesis, even though carbon dioxide and water were still available. This observation best illustrates which concept?",
+"options": [
+"The law of limiting factors",
+"The process of respiration",
+"Osmotic potential of the cell",
+"Mineral salt deficiency"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "At low light intensity, light is the limiting factor, so increasing it raises the rate of photosynthesis. Beyond a certain point, another factor (such as carbon dioxide concentration or temperature) becomes limiting instead, so the rate levels off even though light keeps increasing. This is the law of limiting factors.",
+"pidgin": "For low light, light na di limiting factor, so as e dey increase, photosynthesis rate dey increase. But after certain point, another factor (like carbon dioxide or temperature) go become di limiting one, so di rate go level off even as light still dey increase. Na so dem dey call di law of limiting factors.",
+"id": "wbio0405",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A farmer in Kebbi State noticed that the older leaves of his maize plants turned yellow (chlorotic) while the younger leaves at the top remained green. This symptom is most likely caused by a deficiency of which mineral element?",
+"options": [
+"Nitrogen",
+"Magnesium",
+"Potassium",
+"Phosphorus"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Nitrogen is needed to make chlorophyll and proteins. When nitrogen is deficient, the plant moves the little nitrogen it has from older leaves to the younger growing parts, so older leaves turn yellow first while young leaves stay green. Magnesium deficiency instead causes interveinal yellowing where the veins remain green.",
+"pidgin": "Nitrogen dey needed make chlorophyll and protein. If e no dey enough, plant go carry di small nitrogen wey remain go di young leaves, make older leaves turn yellow first while young ones still green. Magnesium wahala go cause yellow between di veins but di veins self go still green.",
+"id": "wbio0402",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Magnesium deficiency can also cause chlorosis of older leaves.|Magnesium deficiency also causes chlorosis of older leaves first; option B is defensible"
+}
+]
+}

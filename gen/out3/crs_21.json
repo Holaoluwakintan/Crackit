@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "Paul's conversion, missionary journeys and the Council of Jerusalem",
+"generated": 8,
+"kept": [
+{
+"q": "Before his dramatic conversion to Christianity, the apostle Paul was commonly known by what Hebrew name?",
+"options": [
+"Saul",
+"Simon",
+"Stephen",
+"Silas"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Paul was originally called Saul, a Pharisee who persecuted the early church before his conversion. After his conversion he became known as Paul. This is recorded in Acts 13:9.",
+"pidgin": "Before Paul convert, dem dey call am Saul, na Pharisee wey dey persecute church people. After e convert, dem begin call am Paul. E dey for Acts 13:9.",
+"id": "crsv2100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "On the road to which city did Saul see a bright light from heaven and hear the voice of Jesus, leading to his conversion?",
+"options": [
+"Jerusalem",
+"Damascus",
+"Antioch",
+"Tarsus"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Saul was travelling to Damascus to arrest Christians when a light from heaven shone around him and Jesus spoke to him. This encounter is found in Acts 9:3-4.",
+"pidgin": "Saul dey waka go Damascus to arrest Christians when light shine from heaven and Jesus talk to am. E dey for Acts 9:3-4.",
+"id": "crsv2101",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "After Saul was struck blind on the road to Damascus, which disciple did God send to pray for him, restore his sight and baptize him?",
+"options": [
+"Barnabas",
+"Timothy",
+"Ananias",
+"Silas"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "God sent Ananias, a disciple in Damascus, to lay hands on Saul so his sight could be restored and he could be filled with the Holy Spirit and baptized. This is recorded in Acts 9:10-18.",
+"pidgin": "God send Ananias, one disciple wey dey Damascus, to lay hand for Saul body make im eye open and im receive Holy Spirit and baptism. E dey for Acts 9:10-18.",
+"id": "crsv2102",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Who was sent out together with Paul by the church at Antioch to begin his first missionary journey?",
+"options": [
+"Timothy",
+"Silas",
+"Titus",
+"Barnabas"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The Holy Spirit instructed the church at Antioch to set apart Barnabas and Saul for missionary work, and they were sent out together. This is recorded in Acts 13:1-3.",
+"pidgin": "Holy Spirit talk make Antioch church separate Barnabas and Saul for mission work, and dem send dem together. E dey for Acts 13:1-3.",
+"id": "crsv2103",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "What was the main issue that was debated at the Council of Jerusalem concerning Gentile believers?",
+"options": [
+"Whether Gentiles should be circumcised and keep the law of Moses",
+"Whether Paul should be arrested by the Roman authorities",
+"Whether Peter should become the sole leader of the church",
+"Whether the Sabbath day should be completely abolished"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Some believers from Judea taught that Gentile converts must be circumcised and keep the law of Moses to be saved, which caused a sharp dispute that was brought before the apostles and elders at Jerusalem. This is recorded in Acts 15:1-5.",
+"pidgin": "Some Jewish believers teach say Gentile converts must circumcise and keep Moses law before dem fit save, and dis cause plenty argument wey carry go apostles and elders for Jerusalem. E dey for Acts 15:1-5.",
+"id": "crsv2104",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "At the end of the Council of Jerusalem, the apostles sent a letter to Gentile believers listing a few requirements. Which of the following was NOT included in that letter?",
+"options": [
+"Abstain from blood",
+"Be circumcised according to the law of Moses",
+"Abstain from meat of animals that have been strangled",
+"Abstain from food that has been polluted by idols"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The Jerusalem council decided that Gentiles did not need to be circumcised, but only asked them to avoid food offered to idols, blood, meat of strangled animals, and sexual immorality. Circumcision was deliberately left out of the requirements. This is recorded in Acts 15:28-29.",
+"pidgin": "Di council for Jerusalem decide say Gentiles no need circumcise, dem only tell dem make dem avoid food wey dem offer to idols, blood, meat of animal wey dem strangle, and sexual sin. Circumcision no dey inside di list at all. E dey for Acts 15:28-29.",
+"id": "crsv2105",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "What trade or occupation did Paul practice to earn a living while carrying out his missionary work?",
+"options": [
+"Fishing",
+"Carpentry",
+"Tentmaking",
+"Farming"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Paul worked as a tentmaker alongside Aquila and Priscilla in Corinth, which allowed him to support himself financially during his ministry. This is recorded in Acts 18:3.",
+"pidgin": "Paul be tentmaker, e dey work together with Aquila and Priscilla for Corinth so e fit take care of imself financially while e dey do ministry. E dey for Acts 18:3.",
+"id": "crsv2106",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "During the Council of Jerusalem, Peter argued strongly that Gentile believers should not be forced to keep the law of Moses. What was the main basis of his argument?",
+"options": [
+"Gentiles were generally wealthier and more influential than Jewish believers",
+"The law of Moses had already been officially abolished by the Roman government",
+"Paul had threatened to leave the church if the law was imposed on Gentiles",
+"Gentiles had already received the Holy Spirit just as the Jewish believers did"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Peter reminded the council that God had already shown approval of the Gentiles by giving them the Holy Spirit just as He did to the Jews, without requiring them to keep the law first, proving that salvation is through grace. This reasoning is found in Acts 15:7-11.",
+"pidgin": "Peter remind di council say God don already show say e accept Gentiles because e give dem Holy Spirit just like e give di Jews, without make dem keep law first, dis show say salvation na through grace. Dis reasoning dey for Acts 15:7-11.",
+"id": "crsv2107",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

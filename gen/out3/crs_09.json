@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "Elijah, Elisha and the fight against idolatry (Ahab, Jezebel, Naaman)",
+"generated": 8,
+"kept": [
+{
+"q": "Which king of Israel married Jezebel and allowed the worship of Baal to spread in his kingdom?",
+"options": [
+"Ahab",
+"Jehu",
+"Omri",
+"Jehoshaphat"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Ahab, son of Omri, married Jezebel, a Sidonian princess, and she influenced him to promote Baal worship in Israel. This made God send Elijah to confront him. See 1 Kings 16:30-33.",
+"pidgin": "Ahab na di king wey marry Jezebel, and she make am support Baal worship for Israel. Na dis one make God send Elijah go meet am. Check 1 Kings 16:30-33.",
+"id": "crsv0900",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "During a severe famine which God sent as judgment on Ahab's idolatry, at which brook did ravens bring Elijah bread and meat morning and evening?",
+"options": [
+"Brook Kishon",
+"Brook Cherith",
+"River Jabbok",
+"River Jordan"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "God commanded Elijah to hide by the Brook Cherith, east of the Jordan, where ravens fed him during the drought caused by Ahab's idol worship. This is recorded in 1 Kings 17:2-6.",
+"pidgin": "God tell Elijah make e hide for Brook Cherith, east side of Jordan, and ravens dey bring am food during di hunger wey come because of Ahab idol worship. E dey for 1 Kings 17:2-6.",
+"id": "crsv0901",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "On Mount Carmel, Elijah challenged the prophets of Baal to a contest by fire to prove who the true God was. How many prophets of Baal did Elijah confront and later kill at the brook Kishon?",
+"options": [
+"400",
+"850",
+"450",
+"500"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Bible records that Elijah challenged 450 prophets of Baal on Mount Carmel, and after fire fell to prove God's power, he had them killed at the brook Kishon. See 1 Kings 18:19 and 18:40.",
+"pidgin": "Bible talk say Elijah challenge 450 prophets of Baal for Mount Carmel, and after fire fall come prove say God na true God, dem kill all di prophets for Kishon river. See 1 Kings 18:19, 18:40.",
+"id": "crsv0902",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Naaman, a highly respected army commander, suffered from a serious skin disease that made him seek help from the prophet Elisha. What disease did Naaman have?",
+"options": [
+"Blindness",
+"Paralysis",
+"Deafness",
+"Leprosy"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Naaman, commander of the army of Syria (Aram), was a great man but was a leper. He went to Elisha in Israel seeking healing. This is found in 2 Kings 5:1.",
+"pidgin": "Naaman, wey be big army commander for Syria, be leper, and dat na why e go meet Elisha for Israel make e cure am. E dey for 2 Kings 5:1.",
+"id": "crsv0903",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "To heal Naaman of his disease, Elisha sent a messenger instructing him to perform a specific act in the River Jordan. How many times was Naaman told to dip himself in the river before he was healed?",
+"options": [
+"Three times",
+"Ten times",
+"Seven times",
+"Five times"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Elisha's instruction through his servant was for Naaman to wash in the Jordan seven times, and after he obeyed, his flesh became clean like a child's. This is recorded in 2 Kings 5:10 and 5:14.",
+"pidgin": "Elisha tell Naaman make e go wash for Jordan river seven times, and after e do am, im skin come clean like small pikin own. E dey for 2 Kings 5:10, 5:14.",
+"id": "crsv0904",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "After Naaman was healed and offered gifts which Elisha refused, one of Elisha's servants secretly ran after Naaman to collect silver and clothing by deceit, and was punished with leprosy as a result. Who was this servant?",
+"options": [
+"Obadiah",
+"Jehu",
+"Gehazi",
+"Micaiah"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Gehazi, Elisha's servant, lied to Naaman to collect silver and garments which Elisha had refused, and as punishment, Naaman's leprosy clung to Gehazi and his descendants forever. See 2 Kings 5:20-27.",
+"pidgin": "Gehazi, Elisha servant, tell lie make e collect silver and cloth from Naaman wey Elisha don already reject. Because of dat, Naaman im leprosy come enter Gehazi and im children forever. Check 2 Kings 5:20-27.",
+"id": "crsv0905",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Jezebel arranged for false witnesses to accuse Naboth of a serious crime so that he would be stoned to death and Ahab could seize his vineyard. What false crime did the witnesses accuse Naboth of committing?",
+"options": [
+"Theft from the royal treasury",
+"Adultery with a palace servant",
+"Cursing God and the king",
+"Murder of a fellow Israelite"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Jezebel hired two false witnesses to testify that Naboth had cursed God and the king, a crime punishable by stoning, so that Ahab could unjustly take his vineyard after his death. This is recorded in 1 Kings 21:10-13.",
+"pidgin": "Jezebel arrange two fake witness make dem lie say Naboth curse God and di king, wey be crime wey get stoning as punishment, so Ahab fit take im vineyard after dem kill am. E dey for 1 Kings 21:10-13.",
+"id": "crsv0906",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "After Jezebel threatened to kill Elijah following the contest on Mount Carmel, Elijah fled in fear and journeyed forty days to a mountain where God spoke to him in a still small voice. Which mountain was this?",
+"options": [
+"Mount Tabor",
+"Mount Gilboa",
+"Mount Carmel",
+"Mount Horeb"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Fearing Jezebel's threat, Elijah ran to Mount Horeb (also called Sinai), where God revealed Himself not in wind, earthquake or fire, but in a still small voice. This is found in 1 Kings 19:8-12.",
+"pidgin": "Because Elijah fear Jezebel threat, e run go Mount Horeb (wey dem also dey call Sinai), where God show imself to am no be for wind, earthquake or fire, but for small gentle voice. E dey for 1 Kings 19:8-12.",
+"id": "crsv0907",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

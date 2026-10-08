@@ -1,0 +1,159 @@
+{
+"subject": "english",
+"topic": "Tenses and verb forms",
+"ti": 5,
+"generated": 7,
+"kept": [
+{
+"q": "By the time the headmaster arrived, the students ___ the hall.",
+"options": [
+"had cleaned",
+"have cleaned",
+"has cleaned",
+"cleaned"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Two past actions are compared, and the cleaning happened before the headmaster's arrival. The earlier past action takes the past perfect tense 'had cleaned'.",
+"pidgin": "Two past actions dey here, and di cleaning happen before headmaster come. Di action wey happen first must use past perfect 'had cleaned'.",
+"id": "weng0500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidinma ___ to the market every Saturday.",
+"options": [
+"go",
+"goes",
+"going",
+"gone"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The sentence describes a habitual action in the present, and the subject 'Chidinma' is third person singular, so the verb must agree and take 's' — 'goes'.",
+"pidgin": "Dis na habit wey Chidinma dey do every Saturday, and she na third person singular, so di verb must carry 's' — 'goes'.",
+"id": "weng0501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Since 2015, Mr. Okafor ___ English in this school.",
+"options": [
+"teaches",
+"taught",
+"has taught",
+"is teaching"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The word 'since' with a specific year shows an action that started in the past and continues till now, which requires the present perfect tense 'has taught'.",
+"pidgin": "Di word 'since' with year show say di action start since den dey continue till now, so e need present perfect 'has taught'.",
+"id": "weng0502",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "If the farmers ___ early, the crops would have yielded more.",
+"options": [
+"plant",
+"planted",
+"have planted",
+"had planted"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "This is a third conditional sentence that talks about an unreal past situation. The 'if' clause must use the past perfect 'had planted' to match 'would have yielded' in the main clause.",
+"pidgin": "Dis na third conditional wey dey talk about something wey no happen for past. Di 'if' part must use 'had planted' to match 'would have yielded' for di main clause.",
+"id": "weng0503",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "By next June, I ___ from this school for two years.",
+"options": [
+"will have graduated",
+"have graduated",
+"graduated",
+"will graduate"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The sentence talks about an action that will be completed before a specific future time (next June). This requires the future perfect tense 'will have graduated'.",
+"pidgin": "Di sentence dey talk about action wey go don finish before one future time (next June). Dat one need future perfect 'will have graduated'.",
+"id": "weng0504",
+"check": {
+"s1": "X",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Adaeze said that she ___ the assignment before the teacher collected it.",
+"options": [
+"finishes",
+"had finished",
+"has finished",
+"finished"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In reported speech, when one past action happens before another past action (collecting the assignment), the earlier action must be in the past perfect tense — 'had finished'.",
+"pidgin": "For reported speech, if one past action happen before anoda past action (wen teacher collect di assignment), di first action must take past perfect — 'had finished'.",
+"id": "weng0505",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:D is also defensible with 'before'.|"
+},
+{
+"q": {
+"q": "The chairman insisted that the treasurer ___ the accounts before the meeting.",
+"options": [
+"submits",
+"submitted",
+"submit",
+"will submit"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "After verbs like 'insist', 'suggest', or 'demand' that express a strong wish or command, the subjunctive form of the verb (base form without 's') is used, regardless of the subject — hence 'submit'.",
+"pidgin": "After words like 'insist', 'suggest' or 'demand' wey show strong wish or command, di verb go use subjunctive form (base form, no 's'), no matter di subject — so na 'submit'.",
+"id": "weng0506",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:B also works if 'insisted' means asserted.|"
+}
+]
+}

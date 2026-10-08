@@ -1,0 +1,100 @@
+{
+"subject": "chemistry",
+"topic": "Organic chemistry: alcohols, carboxylic acids, esters, fats and soaps",
+"generated": 4,
+"kept": [
+{
+"q": "Which functional group is present in all carboxylic acids and is responsible for their acidic properties?",
+"options": [
+"-OH (hydroxyl)",
+"-COOH (carboxyl)",
+"-CHO (aldehyde)",
+"-COO- (ester linkage)"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Carboxylic acids all contain the -COOH group. This group can release a proton (H+) from the O-H part, making the compound acidic. The other groups belong to alcohols, aldehydes and esters respectively.",
+"pidgin": "All carboxylic acid get -COOH group inside dem. Na dis group dey release H+ make the compound acidic. The other options na for alcohol, aldehyde and ester, no be acid.",
+"py": null,
+"values": null,
+"id": "chev1700",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Complete oxidation of ethanol (C2H5OH, molar mass = 46 g/mol) with an oxidizing agent converts it fully to ethanoic acid (CH3COOH, molar mass = 60 g/mol). If 23 g of pure ethanol is completely oxidized, what mass of ethanoic acid is produced, assuming 100% conversion?",
+"options": [
+"15 g",
+"23 g",
+"30 g",
+"60 g"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Moles of ethanol = 23/46 = 0.5 mol. Since one mole of ethanol gives one mole of ethanoic acid, moles of acid = 0.5 mol. Mass of acid = 0.5 x 60 = 30 g.",
+"pidgin": "Moles of ethanol = 23/46 = 0.5 mol. One mole ethanol dey give one mole ethanoic acid, so acid na 0.5 mol too. Mass of acid = 0.5 x 60 = 30 g.",
+"py": "(23/46)*60",
+"values": [
+15,
+23,
+30,
+60
+],
+"id": "chev1701",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A housewife in a village with hard water (containing dissolved Ca2+ and Mg2+ ions) notices that ordinary soap forms a sticky scum and does not lather well when used to wash clothes. What is the chemical reason for this observation?",
+"options": [
+"Soap reacts with Ca2+ and Mg2+ ions to form insoluble calcium and magnesium stearates",
+"Hard water increases the pH of the soap solution, destroying the soap molecule",
+"Soap molecules evaporate faster in hard water due to higher boiling point",
+"Ca2+ and Mg2+ ions dissolve the hydrocarbon tail of the soap molecule"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Soap is the sodium or potassium salt of a long-chain fatty acid. In hard water, the soluble sodium stearate reacts with Ca2+ and Mg2+ to form insoluble calcium/magnesium stearate, which is the scum. This scum wastes soap and prevents proper lathering.",
+"pidgin": "Soap na sodium salt of long chain fatty acid. For hard water, the soap dey react with Ca2+ and Mg2+ ions to form insoluble calcium/magnesium stearate - na dat one be the scum. Dis scum dey waste soap and e no gree lather well.",
+"py": null,
+"values": null,
+"id": "chev1702",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In a laboratory experiment, 1.0 mole of ethanoic acid (CH3COOH) is refluxed with excess ethanol in the presence of a few drops of concentrated tetraoxosulphate(VI) acid as catalyst to form ethyl ethanoate (molar mass = 88 g/mol). If the esterification reaction proceeds with a 75% yield based on the ethanoic acid used, what mass of ethyl ethanoate is actually obtained?",
+"options": [
+"22.0 g",
+"44.0 g",
+"66.0 g",
+"88.0 g"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "From the equation, 1 mole of ethanoic acid reacting completely would give 1 mole (88 g) of ethyl ethanoate as the theoretical yield. Since the actual yield is 75%, mass obtained = 0.75 x 88 = 66 g. This shows that esterification is a reversible reaction that rarely goes to completion.",
+"pidgin": "From the equation, 1 mole ethanoic acid go produce 1 mole (88 g) ethyl ethanoate if e complete well well - na dat be theoretical yield. Since na 75% yield dem get, mass wey dem get = 0.75 x 88 = 66 g. Dis show say esterification na reversible reaction wey no dey always complete.",
+"py": "0.75*88",
+"values": [
+22.0,
+44.0,
+66.0,
+88.0
+],
+"id": "chev1703",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

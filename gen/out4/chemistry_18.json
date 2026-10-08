@@ -1,0 +1,141 @@
+{
+"subject": "chemistry",
+"topic": "Qualitative analysis (tests for ions and gases)",
+"ti": 18,
+"generated": 6,
+"kept": [
+{
+"q": "A student bubbles a colourless gas through freshly prepared lime water (calcium hydroxide solution) in a test tube. The lime water turns milky (cloudy white). Which gas was most likely passed through the lime water?",
+"options": [
+"Oxygen",
+"Carbon(IV) oxide",
+"Hydrogen",
+"Nitrogen"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Carbon(IV) oxide (CO2) reacts with lime water to form a white insoluble precipitate of calcium trioxocarbonate(IV), CaCO3, which makes the solution milky. This is the standard confirmatory test for CO2 gas.",
+"pidgin": "CO2 gas dey turn lime water milky because e dey form white CaCO3 precipitate wey no dey dissolve. Na the standard test wey dem dey use check CO2 for lab.",
+"py": null,
+"values": null,
+"id": "wche1800",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A gas with a choking smell is produced when ammonium chloride is heated with sodium hydroxide solution. When a piece of moist red litmus paper is held near the mouth of the test tube, the paper turns blue. Which gas is being tested for?",
+"options": [
+"Chlorine gas",
+"Sulphur(IV) oxide",
+"Ammonia gas",
+"Hydrogen chloride gas"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Ammonia gas (NH3) is alkaline and has a sharp, choking smell; it turns moist red litmus paper blue. This is the classic test used to confirm the presence of ammonium ions in a compound.",
+"pidgin": "Ammonia gas get strong choking smell and e be alkaline, so e dey turn wet red litmus paper to blue. Na so dem dey test for ammonium ion for compound.",
+"py": null,
+"values": null,
+"id": "wche1801",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidinma was given two separate solutions labelled X and Y. Solution X contains iron(II) sulphate while solution Y contains iron(III) chloride, but the labels have fallen off. She adds sodium hydroxide solution dropwise to each. Which observation would correctly help her identify solution Y?",
+"options": [
+"A dirty green precipitate forms, insoluble in excess NaOH",
+"A reddish-brown precipitate forms, insoluble in excess NaOH",
+"A white precipitate forms, which dissolves in excess NaOH",
+"No precipitate forms at all"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Iron(III) ions (Fe3+) react with sodium hydroxide to give a reddish-brown precipitate of Fe(OH)3, which does not dissolve in excess NaOH. Iron(II) ions instead give a dirty green precipitate of Fe(OH)2, so the reddish-brown colour identifies solution Y as iron(III) chloride.",
+"pidgin": "Fe3+ ion dey react with NaOH give reddish-brown precipitate (Fe(OH)3) wey no dey dissolve for excess NaOH. Fe2+ go give dirty green precipitate instead, so reddish-brown na im go show say na Fe3+ dey solution Y.",
+"py": null,
+"values": null,
+"id": "wche1802",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A colourless salt solution is suspected to contain chloride ions. Dilute trioxonitrate(V) acid (dilute nitric acid) is added, followed by silver trioxonitrate(V) solution. A white precipitate forms. To confirm that the precipitate is indeed silver chloride and not another silver salt, what should be done next?",
+"options": [
+"Heat the precipitate strongly until it melts",
+"Add excess dilute hydrochloric acid and observe if the precipitate increases",
+"Add dilute (aqueous) ammonia solution and observe if the precipitate dissolves",
+"Add excess sodium chloride solution and observe the colour change"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Silver chloride is a white precipitate that readily dissolves in dilute aqueous ammonia solution to form a soluble complex, [Ag(NH3)2]+. This solubility in dilute ammonia distinguishes it from silver carbonate or silver sulphate precipitates, confirming the presence of chloride ions.",
+"pidgin": "Silver chloride na white precipitate wey dey dissolve for dilute ammonia solution because e dey form soluble complex. Dis solubility test dey confirm say na chloride ion dey inside, e dey different from other silver salts.",
+"py": null,
+"values": null,
+"id": "wche1803",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Two white solid salts, P and Q, are each suspected to be either sodium trioxosulphate(IV) (sodium sulphite) or sodium tetraoxosulphate(VI) (sodium sulphate). Dilute hydrochloric acid is added to each solid separately. Salt P produces a colourless gas with a sharp, choking smell that turns acidified potassium heptaoxomanganate(VII) (potassium permanganate) solution from purple to colourless. Salt Q shows no visible reaction. What can be correctly concluded?",
+"options": [
+"P is sodium sulphate and Q is sodium sulphite",
+"P is sodium sulphite and Q is sodium sulphate",
+"Both P and Q are sodium sulphate",
+"Both P and Q are sodium sulphite"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Sulphite ions (SO3^2-) react with dilute HCl to release sulphur(IV) oxide gas (SO2), which has a choking smell and decolourises acidified potassium permanganate due to its reducing property. Sulphate ions (SO4^2-) do not react with dilute HCl because they are already fully oxidised, so Q showing no reaction must be sodium sulphate.",
+"pidgin": "Sulphite ion (SO3^2-) dey react with dilute HCl produce SO2 gas wey get choking smell and e dey decolourise potassium permanganate because e be reducing agent. Sulphate ion no dey react with dilute HCl at all, so Q wey no show reaction na sodium sulphate.",
+"py": null,
+"values": null,
+"id": "wche1804",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Two colourless salt solutions, R and S, are each known to contain either zinc(II) ions or lead(II) ions. When potassium iodide solution is added dropwise to each, solution R produces a bright yellow precipitate while solution S shows no visible precipitate. Based on this observation, which statement is correct?",
+"options": [
+"R contains Zn2+ and S contains Pb2+",
+"R contains Pb2+ and S contains Zn2+",
+"Both R and S contain Pb2+",
+"Both R and S contain Zn2+"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Lead(II) ions react with potassium iodide to form a characteristic bright yellow precipitate of lead(II) iodide, PbI2. Zinc(II) ions do not form a precipitate with potassium iodide since zinc iodide is soluble, so solution S with no precipitate must contain Zn2+.",
+"pidgin": "Lead(II) ion dey react with potassium iodide give bright yellow precipitate (PbI2). Zinc ion no dey form any precipitate with potassium iodide because zinc iodide dey soluble, so S wey no get precipitate na Zn2+ dey inside.",
+"py": null,
+"values": null,
+"id": "wche1805",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,149 @@
+{
+"subject": "english",
+"topic": "Comprehension: a short original passage written into the question",
+"ti": 18,
+"generated": 7,
+"kept": [
+{
+"q": "Read the passage and answer the question that follows:\n\nAdaeze, a young graduate from Nnewi, returned to her village determined to change local farming methods. While most elders still relied on crude tools and age-old superstitions, she introduced simple irrigation and organic fertilizers. At first, the villagers mocked her, calling her efforts a WASTE of time. However, after her maize farm yielded three times more than others, many began to seek her advice. Adaeze's quiet confidence and patience eventually earned her the respect she had initially been denied. Her story became a lesson to the community that KNOWLEDGE, not age alone, could bring progress.\n\nWhat was Adaeze's occupation or background as described in the passage?",
+"options": [
+"a young graduate who introduced new farming methods",
+"a teacher",
+"a nurse",
+"a village elder"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The passage clearly states that Adaeze was a young graduate who returned to her village and introduced new farming methods like irrigation and organic fertilizers.",
+"pidgin": "Di passage talk am clear sey Adaeze na young graduate wey come back im village come bring new farming method like irrigation and organic fertilizer.",
+"id": "weng1800",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nAdaeze, a young graduate from Nnewi, returned to her village determined to change local farming methods. While most elders still relied on crude tools and age-old superstitions, she introduced simple irrigation and organic fertilizers. At first, the villagers mocked her, calling her efforts a WASTE of time. However, after her maize farm yielded three times more than others, many began to seek her advice. Adaeze's quiet confidence and patience eventually earned her the respect she had initially been denied. Her story became a lesson to the community that KNOWLEDGE, not age alone, could bring progress.\n\nAccording to the passage, how did the villagers first react to Adaeze's efforts?",
+"options": [
+"They praised her",
+"They mocked her",
+"They ignored her completely",
+"They reported her to the chief"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The passage says the villagers mocked her and called her efforts a waste of time when she first started.",
+"pidgin": "Di passage talk sey di villagers mock am and call am waste of time wen she just start.",
+"id": "weng1801",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nAdaeze, a young graduate from Nnewi, returned to her village determined to change local farming methods. While most elders still relied on crude tools and age-old superstitions, she introduced simple irrigation and organic fertilizers. At first, the villagers mocked her, calling her efforts a WASTE of time. However, after her maize farm yielded three times more than others, many began to seek her advice. Adaeze's quiet confidence and patience eventually earned her the respect she had initially been denied. Her story became a lesson to the community that KNOWLEDGE, not age alone, could bring progress.\n\nWhy did the villagers eventually begin to seek Adaeze's advice?",
+"options": [
+"She had more land than others",
+"She paid villagers to praise her",
+"Her farm produced far more maize than others' farms",
+"The elders instructed them to consult her"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The passage states that after her maize farm yielded three times more than others, the villagers started seeking her advice. This shows her success, not land size or payment, convinced them.",
+"pidgin": "Di passage talk sey afta her maize farm yield pass di oda ones well well, na im dem start to dey ask her advice. Na her success convince dem, no be land or money.",
+"id": "weng1802",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nAdaeze, a young graduate from Nnewi, returned to her village determined to change local farming methods. While most elders still relied on crude tools and age-old superstitions, she introduced simple irrigation and organic fertilizers. At first, the villagers mocked her, calling her efforts a WASTE of time. However, after her maize farm yielded three times more than others, many began to seek her advice. Adaeze's quiet confidence and patience eventually earned her the respect she had initially been denied. Her story became a lesson to the community that KNOWLEDGE, not age alone, could bring progress.\n\nWhich of the following is nearest in meaning to the word in capitals, WASTE, as used in the passage?",
+"options": [
+"valuable use",
+"quick action",
+"wise decision",
+"useless expenditure"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "In the passage, the villagers believed Adaeze's efforts had no value, meaning they thought it was a useless expenditure of time and energy.",
+"pidgin": "Insaid di passage, di villagers believe sey wetin Adaeze dey do no get value, meaning sey na useless waste of time and energy.",
+"id": "weng1803",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nAdaeze, a young graduate from Nnewi, returned to her village determined to change local farming methods. While most elders still relied on crude tools and age-old superstitions, she introduced simple irrigation and organic fertilizers. At first, the villagers mocked her, calling her efforts a WASTE of time. However, after her maize farm yielded three times more than others, many began to seek her advice. Adaeze's quiet confidence and patience eventually earned her the respect she had initially been denied. Her story became a lesson to the community that KNOWLEDGE, not age alone, could bring progress.\n\nWhat attitude did the villagers show towards Adaeze at the beginning of the story?",
+"options": [
+"skeptical and mocking",
+"supportive",
+"indifferent",
+"fearful"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The passage shows that the villagers doubted and made fun of Adaeze's methods at first, calling her efforts a waste of time, which shows a skeptical and mocking attitude.",
+"pidgin": "Di passage show sey di villagers doubt and dey mock Adaeze method for di beginning, dem call am waste of time, na so dem dey show sey dem no believe am and dem dey laugh am.",
+"id": "weng1804",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nAdaeze, a young graduate from Nnewi, returned to her village determined to change local farming methods. While most elders still relied on crude tools and age-old superstitions, she introduced simple irrigation and organic fertilizers. At first, the villagers mocked her, calling her efforts a WASTE of time. However, after her maize farm yielded three times more than others, many began to seek her advice. Adaeze's quiet confidence and patience eventually earned her the respect she had initially been denied. Her story became a lesson to the community that KNOWLEDGE, not age alone, could bring progress.\n\nWhat is the main lesson the passage conveys to the community?",
+"options": [
+"Elders are always right",
+"Knowledge and determination can lead to progress regardless of age",
+"Farming is only meant for men",
+"Age determines wisdom"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The last sentence of the passage directly states that the community learned that knowledge, not age alone, could bring progress, which supports the idea that knowledge and determination matter more than age.",
+"pidgin": "Di last sentence for di passage talk am clear sey di community learn sey na knowledge, no be age alone, fit bring progress, so na im be di main lesson.",
+"id": "weng1805",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nAdaeze, a young graduate from Nnewi, returned to her village determined to change local farming methods. While most elders still relied on crude tools and age-old superstitions, she introduced simple irrigation and organic fertilizers. At first, the villagers mocked her, calling her efforts a WASTE of time. However, after her maize farm yielded three times more than others, many began to seek her advice. Adaeze's quiet confidence and patience eventually earned her the respect she had initially been denied. Her story became a lesson to the community that KNOWLEDGE, not age alone, could bring progress.\n\nWhich of the following is nearest in meaning to the word in capitals, KNOWLEDGE, as used in the passage?",
+"options": [
+"wealth",
+"authority",
+"information and skill",
+"tradition"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In the passage, Adaeze's success was due to the modern farming information and skill she gained from her education, not wealth, authority or tradition. This shows that knowledge here means practical information and skill.",
+"pidgin": "For di passage, Adaeze success na because of di modern farming sense and skill wey she learn from school, no be money, power or tradition. So knowledge for here mean practical sense and skill.",
+"id": "weng1806",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

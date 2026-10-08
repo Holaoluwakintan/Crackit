@@ -1,0 +1,165 @@
+{
+"subject": "physics",
+"topic": "Friction, moments and equilibrium",
+"ti": 6,
+"generated": 6,
+"kept": [
+{
+"q": "Alhaji Musa pushes a heavy wooden crate across a cemented floor at Kano market. The force that opposes the relative sliding motion between the crate and the floor is called",
+"options": [
+"friction",
+"tension",
+"normal reaction",
+"centripetal force"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Friction is the force that opposes relative motion or the tendency of motion between two surfaces in contact. It acts along the surface, opposite to the direction of sliding.",
+"pidgin": "Friction na di force wey dey oppose as surface dey slide for anoda surface. Na im dey slow di crate down for ground.",
+"py": null,
+"values": null,
+"id": "wphy0600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A wooden block of mass 4 kg rests on a horizontal bench. A horizontal force of 12 N is just enough to make the block start to slide. Taking g = 10 m/s^2, what is the coefficient of friction between the block and the bench?",
+"options": [
+"0.12",
+"1.2",
+"0.3",
+"3.0"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Limiting friction F = μmg. So μ = F/(mg) = 12/(4 x 10) = 12/40 = 0.3.",
+"pidgin": "Dem use F = μmg. So μ = 12/(4 x 10) = 12/40 = 0.3.",
+"py": "12/(4*10)",
+"values": [
+0.12,
+1.2,
+0.3,
+3.0
+],
+"id": "wphy0601",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A technician uses a spanner to tighten a bolt. He applies a force of 50 N perpendicular to the spanner at a distance of 0.2 m from the bolt. What is the moment of the force about the bolt?",
+"options": [
+"100 N m",
+"10 N m",
+"0.4 N m",
+"250 N m"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Moment of a force = force x perpendicular distance from the pivot = 50 N x 0.2 m = 10 N m.",
+"pidgin": "Moment = force x distance wey dey perpendicular from di pivot = 50 N x 0.2 m = 10 N m.",
+"py": "50*0.2",
+"values": [
+100,
+10,
+0.4,
+250
+],
+"id": "wphy0602",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A uniform plank of length 4 m is balanced on a pivot placed exactly at its centre. A boy of weight 300 N sits at a point 1.5 m from the pivot on one side. At what distance from the pivot, on the other side, must a girl of weight 250 N sit for the plank to balance?",
+"options": [
+"1.5 m",
+"2.0 m",
+"1.25 m",
+"1.8 m"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "By the principle of moments, clockwise moment = anticlockwise moment: 300 x 1.5 = 250 x d, so d = 450/250 = 1.8 m.",
+"pidgin": "Dem use principle of moments: 300 x 1.5 = 250 x d, so d = 450/250 = 1.8 m.",
+"py": "300*1.5/250",
+"values": [
+1.5,
+2.0,
+1.25,
+1.8
+],
+"id": "wphy0603",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following is NOT a necessary condition for a rigid body acted upon by several coplanar forces to be in equilibrium?",
+"options": [
+"The sum of the forces in any chosen direction must be zero",
+"The sum of clockwise moments about any point must equal the sum of anticlockwise moments about that point",
+"The body must be completely at rest",
+"The sum of the forces perpendicular to any chosen direction must also be zero"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A body can be in equilibrium while moving with constant velocity (dynamic equilibrium), so it need not be at rest. The true conditions are that the resultant force and resultant moment about any point are both zero.",
+"pidgin": "Body fit dey equilibrium even if e dey move with constant speed, so e no need to dey rest. Wetin must happen na say total force and total moment for any point must be zero.",
+"py": null,
+"values": null,
+"id": "wphy0604",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A uniform metre rule of weight 1.0 N is freely pivoted (balanced) at the 40 cm mark. A load of 3.0 N is hung at the 10 cm mark. The weight of the rule acts at its centre, the 50 cm mark. Calculate the position (in cm from the zero end) where a force of 2.0 N must be applied, on the side away from the load, to keep the rule in equilibrium.",
+"options": [
+"80 cm mark",
+"60 cm mark",
+"90 cm mark",
+"70 cm mark"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Anticlockwise moment from the load = 3.0 x (40-10) = 90 N cm. Clockwise moment from the rule's weight = 1.0 x (50-40) = 10 N cm. The 2.0 N force must supply the remaining 80 N cm clockwise, so its distance from the pivot = 80/2 = 40 cm, giving a position of 40 + 40 = 80 cm from the zero end.",
+"pidgin": "Anticlockwise moment from load = 3.0 x (40-10) = 90 N cm. Clockwise moment from rule weight = 1.0 x (50-40) = 10 N cm. Di 2.0 N force need to balance di remaining 80 N cm, so e distance from pivot = 80/2 = 40 cm, e go land for 40 + 40 = 80 cm mark.",
+"py": "40 + (3.0*(40-10) - 1.0*(50-40))/2.0",
+"values": [
+80,
+60,
+90,
+70
+],
+"id": "wphy0605",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

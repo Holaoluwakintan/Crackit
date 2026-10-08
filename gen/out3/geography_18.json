@@ -1,0 +1,172 @@
+{
+"subject": "geography",
+"topic": "Geography of Nigeria: location, relief, drainage, climate and vegetation",
+"generated": 8,
+"kept": [
+{
+"q": "Nigeria is located approximately between which lines of latitude and longitude?",
+"options": [
+"Latitude 4°N to 14°N, Longitude 3°E to 15°E",
+"Latitude 4°S to 14°S, Longitude 3°W to 15°W",
+"Latitude 10°N to 20°N, Longitude 0° to 10°E",
+"Latitude 0° to 10°N, Longitude 10°W to 0°"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Nigeria lies in West Africa, north of the Equator and east of the Greenwich Meridian. Its location is commonly given as about 4°N to 14°N and 3°E to 15°E.",
+"pidgin": "Nigeria dey West Africa, e dey north of Equator and east of Greenwich line. Dem dey always show am as 4°N to 14°N and 3°E to 15°E.",
+"py": null,
+"values": null,
+"id": "geov1800",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following countries shares a common land border with Nigeria?",
+"options": [
+"Ghana",
+"Chad",
+"Senegal",
+"Mali"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Nigeria's neighbours are Benin (west), Niger (north), Chad (north-east, around Lake Chad) and Cameroon (east). Ghana, Senegal and Mali do not touch Nigeria's border.",
+"pidgin": "Nigeria neighbours na Benin, Niger, Chad (near Lake Chad) and Cameroon. Ghana, Senegal and Mali no dey border Nigeria at all.",
+"py": null,
+"values": null,
+"id": "geov1801",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which plateau contains Chappal Waddi, the highest point in Nigeria?",
+"options": [
+"Jos Plateau",
+"Obudu Plateau",
+"Mambilla Plateau",
+"Biu Plateau"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Chappal Waddi, Nigeria's highest peak, is found on the Mambilla Plateau in Taraba State. Jos, Obudu and Biu are other plateaus but are not the location of this peak.",
+"pidgin": "Chappal Waddi, wey be di highest point for Nigeria, dey for Mambilla Plateau for Taraba State. Jos, Obudu and Biu na other plateau wey no be di correct answer.",
+"py": null,
+"values": null,
+"id": "geov1802",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "At which Nigerian town do River Niger and River Benue meet to form the famous Y-shaped confluence?",
+"options": [
+"Onitsha",
+"Jebba",
+"Yola",
+"Lokoja"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "River Niger and River Benue meet at Lokoja in Kogi State, forming a Y-shaped confluence. This is a well-known landmark in Nigerian geography.",
+"pidgin": "River Niger and River Benue dey meet for Lokoja, Kogi State, and dem form Y-shape confluence. Na popular landmark for Nigeria geography.",
+"py": null,
+"values": null,
+"id": "geov1803",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Which climate type, according to the Koppen classification, best describes most of Nigeria's climate, with its distinct wet and dry seasons?",
+"options": [
+"Tropical savanna climate (Aw)",
+"Tropical rainforest climate (Af)",
+"Semi-arid steppe climate (BS)",
+"Mediterranean climate (Cs)"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Most of Nigeria experiences a tropical wet-and-dry (savanna) climate, classified as Aw, with a clear rainy season and dry season. Only the far south-east has true rainforest climate and only the far north edges into semi-arid conditions.",
+"pidgin": "Most part of Nigeria get tropical savanna climate (Aw) wey get clear rainy season and dry season. Na only small south-east get real rainforest climate, and small north part near semi-arid.",
+"py": null,
+"values": null,
+"id": "geov1804",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "The amount of annual rainfall in Nigeria generally decreases from the coast in the south towards the far north. What is the MAIN reason for this pattern?",
+"options": [
+"The south has more rivers than the north",
+"The north has more mountains that block rainfall",
+"Moisture-laden winds from the Atlantic Ocean lose moisture as they move further inland and northward",
+"The south receives rainfall only from the Harmattan wind"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Rain-bearing south-west winds from the Atlantic Ocean carry moisture that is progressively lost as the winds travel inland, so places far from the coast (like the north) get less rainfall. This, combined with the shorter stay of the moist air mass in the north, explains the decrease.",
+"pidgin": "Di rain-wind wey carry moisture from Atlantic Ocean dey lose im moisture as e dey travel go inland. So place wey far from sea, like north, dey get less rain pass south wey near sea.",
+"py": null,
+"values": null,
+"id": "geov1806",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of the following best explains why the northern parts of Nigeria experience a longer dry season than the southern parts?",
+"options": [
+"The north is closer to the equator",
+"The north has higher rainfall throughout the year",
+"The north has more rainforest vegetation to retain moisture",
+"The north is farther from the moderating influence of the sea and is more affected by the dry continental Harmattan wind for a longer period"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The north is far inland, away from the sea, so the moist south-west monsoon winds reach it late and leave early, while the dry, dusty Harmattan wind from the Sahara blows over it for a longer time. This gives the north a longer dry season than the south.",
+"pidgin": "North dey far from sea, so di wet wind from south-west no dey reach dia quick and e dey leave early, while di dry Harmattan wind from Sahara dey blow for long time. Dat na why north dry season dey longer pass south own.",
+"py": null,
+"values": null,
+"id": "geov1807",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A student travelling by road from Lagos in the south to Sokoto in the far north of Nigeria would pass through natural vegetation belts in which correct order?",
+"options": [
+"Sahel savanna, sudan savanna, guinea savanna, tropical rainforest, mangrove swamp forest",
+"Mangrove swamp forest, tropical rainforest, guinea savanna, sudan savanna, sahel savanna",
+"Tropical rainforest, mangrove swamp forest, sudan savanna, guinea savanna, sahel savanna",
+"Guinea savanna, mangrove swamp forest, tropical rainforest, sahel savanna, sudan savanna"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Nigeria's vegetation changes with decreasing rainfall from south to north: mangrove swamp along the coast, then tropical rainforest, guinea savanna, sudan savanna, and finally sahel savanna in the far north near Sokoto.",
+"pidgin": "As rain dey reduce from south go north, vegetation dey change: mangrove swamp for coast, then rainforest, guinea savanna, sudan savanna, and sahel savanna for far north near Sokoto.",
+"py": null,
+"values": null,
+"id": "geov1805",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:Correct south-to-north sequence, but a route to Sokoto need not enter Sahel savanna.|"
+}
+]
+}

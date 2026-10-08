@@ -1,0 +1,100 @@
+{
+"subject": "maths",
+"topic": "Sets and Venn diagrams (two and three sets)",
+"generated": 4,
+"kept": [
+{
+"q": "Let the universal set be U = {1,2,3,4,5,6,7,8,9,10}. Let A = {2,4,6,8,10} and B = {1,2,3,5,7}. Find A' ∩ B (that is, the complement of A, intersected with B).",
+"options": [
+"{2,4,6,8,10}",
+"{1,3,5,7}",
+"{1,2,3,5,7,9}",
+"{9}"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A' means everything in U that is not in A, so A' = {1,3,5,7,9}. Now intersect this with B = {1,2,3,5,7}: the common elements are {1,3,5,7}.",
+"pidgin": "A' na everything wey dey U but no dey A, so A' = {1,3,5,7,9}. Now find wetin dey both A' and B = {1,2,3,5,7}: na {1,3,5,7} dem get together.",
+"py": null,
+"values": null,
+"id": "matv0500",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In a class of 45 students in a secondary school in Enugu, every student offers at least one of Mathematics or English Language. If 28 students offer Mathematics and 22 offer English Language, how many students offer Mathematics only?",
+"options": [
+"17",
+"28",
+"23",
+"5"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Since every student offers at least one subject, n(M union E) = 45. Using n(M)+n(E)-n(M and E) = n(M union E): 28+22-n(M and E)=45, so n(M and E) = 5. Mathematics only = 28 - 5 = 23.",
+"pidgin": "Since na at least one subject every student take, n(M union E) = 45. From 28+22-n(M and E)=45, we get n(M and E) = 5. So Maths only = 28 - 5 = 23.",
+"py": "28 - (28 + 22 - 45)",
+"values": [
+17,
+28,
+23,
+5
+],
+"id": "matv0501",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "In a survey of traders at Onitsha main market, 50 sell Garri, 40 sell Beans, and 35 sell Rice. Among these, 15 sell both Garri and Beans, 12 sell both Beans and Rice, 10 sell both Garri and Rice, and 5 sell all three products. How many traders sell exactly two of the three products?",
+"options": [
+"32",
+"15",
+"37",
+"22"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Exactly two products means subtracting those in all three from each pair overlap: (Garri and Beans only) = 15-5=10, (Beans and Rice only) = 12-5=7, (Garri and Rice only) = 10-5=5. Adding these: 10+7+5 = 22.",
+"pidgin": "Exactly two products mean say we go remove the ones wey dey inside all three from each pair: (Garri and Beans only) = 15-5=10, (Beans and Rice only) = 12-5=7, (Garri and Rice only) = 10-5=5. Add dem: 10+7+5 = 22.",
+"py": "(15-5)+(12-5)+(10-5)",
+"values": [
+32,
+15,
+37,
+22
+],
+"id": "matv0502",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "In a two-set Venn diagram, U is the universal set shown as a rectangle, with two overlapping circles A and B drawn inside it. Which set notation correctly describes the region that lies outside both circles A and B, but is still inside the rectangle representing U?",
+"options": [
+"A' ∩ B'",
+"A ∪ B",
+"A ∩ B",
+"A' ∪ B"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The region outside both circles is the complement of their union, written as (A union B)'. By De Morgan's law, (A union B)' = A' intersection B', which describes the area outside both A and B but still within U.",
+"pidgin": "The part wey dey outside the two circles na the complement of their union, (A union B)'. By De Morgan law, (A union B)' = A' intersection B', wey be the area wey no dey inside A or B but e still dey inside U.",
+"py": null,
+"values": null,
+"id": "matv0503",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Transport in plants and animals: blood, heart, xylem and phloem, transpiration",
+"generated": 4,
+"kept": [
+{
+"q": "Which component of mammalian blood is mainly responsible for carrying oxygen from the lungs to the body tissues?",
+"options": [
+"Red blood cells",
+"White blood cells",
+"Platelets",
+"Plasma proteins"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Red blood cells contain haemoglobin, which combines with oxygen in the lungs to form oxyhaemoglobin. This oxyhaemoglobin is then carried in the blood and releases oxygen to the tissues. White blood cells fight infection, platelets help clotting, and plasma proteins have other roles like clotting and immunity.",
+"pidgin": "Red blood cells get haemoglobin wey dey combine with oxygen for lungs to form oxyhaemoglobin. Na dis oxyhaemoglobin dey carry go tissues to release oxygen. White blood cells na for fight infection, platelets na for clotting, plasma protein get oda work.",
+"id": "biov0500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following correctly describes a structural difference between arteries and veins in mammals?",
+"options": [
+"Arteries have thinner walls and many valves, while veins have thick muscular walls",
+"Arteries have thick muscular walls and no valves, while veins have thinner walls with valves",
+"Veins always carry blood at higher pressure than arteries",
+"Arteries have a wider lumen than veins in all parts of the body"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Arteries carry blood away from the heart under high pressure, so they need thick muscular and elastic walls and do not need valves because blood flows in one strong direction. Veins carry blood back to the heart under low pressure, so they have thinner walls and valves to prevent backflow.",
+"pidgin": "Arteries dey carry blood comot from heart under high pressure, so dem get thick muscular wall and dem no need valve because blood dey flow one direction strong. Veins dey carry blood go back to heart under low pressure, so dem get thin wall plus valves to stop blood from flowing back.",
+"id": "biov0501",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In the human heart, which structures prevent the backflow of blood from the ventricles into the atria during ventricular contraction?",
+"options": [
+"Semilunar valves",
+"Bicuspid and tricuspid valves",
+"Valves found in the veins",
+"The pericardium"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The bicuspid (mitral) valve is between the left atrium and left ventricle, while the tricuspid valve is between the right atrium and right ventricle. When the ventricles contract, these valves close to stop blood from flowing back into the atria. Semilunar valves instead prevent backflow from the arteries into the ventricles.",
+"pidgin": "Bicuspid valve dey between left atrium and left ventricle, tricuspid valve dey between right atrium and right ventricle. Wen ventricle contract, dis valves go close so blood no go back enter atria. Semilunar valve na for stop blood from flowing back from artery enter ventricle.",
+"id": "biov0502",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A farmer in Benue State cut a leafy branch from a tall tree and quickly stood it in a bucket of water without first cutting the stem under water. Within a short time, the leaves wilted even though there was plenty of water in the bucket. Which of the following best explains this observation?",
+"options": [
+"Air entered the xylem vessels at the cut surface and broke the continuous water column, stopping the pull of water up the stem",
+"Callose blocked the phloem sieve tubes and prevented water movement",
+"The stomata on the leaves closed permanently as soon as the branch was cut",
+"Root pressure increased sharply and pushed water back down the stem"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Water moves up the xylem as a continuous column held together by cohesion between water molecules, pulled up by transpiration from the leaves (cohesion-tension theory). If the stem is cut in air, air bubbles enter the xylem vessels and break this water column, so water can no longer be pulled up even if the base is later placed in water. This is why cuttings are usually cut under water to keep the column unbroken.",
+"pidgin": "Water dey climb go up xylem as one continuous column wey cohesion (water molecules sticking together) and transpiration dey pull from leaf (cohesion-tension theory). If dem cut di stem for air, air go enter di xylem vessels break di water column, so water no fit climb again even if dem later put di stem for water. Na why dem dey cut cuttings under water make di column no break.",
+"id": "biov0503",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

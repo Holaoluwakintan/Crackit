@@ -1,0 +1,111 @@
+{
+"subject": "physics",
+"topic": "Electrostatics and capacitors",
+"generated": 4,
+"kept": [
+{
+"q": "A parallel-plate capacitor is charged by a battery and then disconnected so that the charge on it stays constant. If the plate separation is then doubled (with the charge unchanged), what happens to the potential difference across the plates?",
+"options": [
+"It doubles",
+"It is halved",
+"It remains the same",
+"It quadruples"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Capacitance C = epsilon0 A/d, so doubling d halves C. Since charge Q is fixed and V = Q/C, halving C makes V double. This shows V and d are directly related when Q is constant.",
+"pidgin": "C = epsilon0 A/d, so if d double, C go reduce to half. Since Q no change, V = Q/C, so when C reduce to half, V go double.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyv1700",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Three capacitors of capacitance 4 microfarad, 5 microfarad and 6 microfarad are connected in parallel across a battery. Calculate the equivalent capacitance of the combination.",
+"options": [
+"1.62 microfarad",
+"9 microfarad",
+"15 microfarad",
+"5 microfarad"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "For capacitors in parallel, the equivalent capacitance is the sum of the individual capacitances: C = 4 + 5 + 6 = 15 microfarad. Parallel connection simply adds up capacitance values, unlike series connection.",
+"pidgin": "For parallel capacitors, you just add dem together: 4 + 5 + 6 = 15 microfarad. Na simple addition, no reciprocal wahala like series own.",
+"py": "4+5+6",
+"values": [
+1.62,
+9,
+15,
+5
+],
+"id": "phyv1701",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Two point charges of +2 x 10^-6 C and +3 x 10^-6 C are placed 0.3 m apart in air. Using k = 9 x 10^9 N m^2/C^2, calculate the electrostatic force between them.",
+"options": [
+"0.18 N",
+"1.2 N",
+"6 N",
+"0.6 N"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "By Coulomb's law, F = k q1 q2 / r^2 = (9x10^9 x 2x10^-6 x 3x10^-6) / (0.3)^2 = (9x10^9 x 6x10^-12) / 0.09 = 0.054/0.09 = 0.6 N. Remember to square the distance, not just use it directly.",
+"pidgin": "Coulomb law: F = k q1 q2 / r^2 = (9x10^9 x 2x10^-6 x 3x10^-6) / (0.3)^2 = 0.054/0.09 = 0.6 N. Make sure you square the distance, no just use am as e be.",
+"py": "9e9*2e-6*3e-6/(0.3**2)",
+"values": [
+0.18,
+1.2,
+6,
+0.6
+],
+"id": "phyv1702",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "A parallel-plate capacitor of capacitance 8 microfarad is charged to a potential difference of 200 V and then disconnected from the battery, so its charge stays fixed. A dielectric slab of dielectric constant 4 is now inserted completely between the plates. Calculate the new potential difference across the capacitor.",
+"options": [
+"50 V",
+"800 V",
+"200 V",
+"12.5 V"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "When the dielectric slab is inserted, the new capacitance becomes C' = 4 x 8 = 32 microfarad, but the charge Q stays the same because the battery is disconnected. Using V = Q/C, since C increases 4 times, V decreases 4 times: V' = 200/4 = 50 V. Many students wrongly multiply instead of dividing since C increased.",
+"pidgin": "Once dielectric enter, capacitance go increase to 4 x 8 = 32 microfarad, but charge Q no change because battery don disconnect. V = Q/C, so if C increase 4 times, V go reduce 4 times: V' = 200/4 = 50 V. No dey multiply am, na divide because C don increase.",
+"py": "200/4",
+"values": [
+50,
+800,
+200,
+12.5
+],
+"id": "phyv1703",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

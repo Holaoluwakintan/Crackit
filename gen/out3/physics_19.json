@@ -1,0 +1,112 @@
+{
+"subject": "physics",
+"topic": "Electrical energy and power, cost of electricity",
+"generated": 4,
+"kept": [
+{
+"q": "A fluorescent lamp in a classroom is rated 40 W. If it is left switched on for 6 hours a day, calculate the electrical energy it consumes in one day, in kilowatt-hours (kWh).",
+"options": [
+"0.24 kWh",
+"2.4 kWh",
+"0.4 kWh",
+"240 kWh"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Energy (kWh) = Power (kW) x Time (h). Power = 40 W = 0.04 kW, so Energy = 0.04 x 6 = 0.24 kWh.",
+"pidgin": "Energy for kWh = Power (for kW) multiply Time (for hour). 40 W na 0.04 kW, so 0.04 x 6 give 0.24 kWh.",
+"py": "40/1000*6",
+"values": [
+0.24,
+2.4,
+0.4,
+240
+],
+"id": "phyv1900",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "In Mama Chidi's shop, a 1000 W pressing iron is used for 30 minutes, a 1500 W water heater is used for 20 minutes, and a 60 W bulb is used for 5 hours. If electricity costs ₦60 per kWh, calculate the total cost of running these three appliances.",
+"options": [
+"₦70.00",
+"₦84.00",
+"₦78.00",
+"₦90.00"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Convert each appliance's usage to kWh: iron = 1000 W x 0.5 h = 500 Wh; heater = 1500 W x (20/60) h = 500 Wh; bulb = 60 W x 5 h = 300 Wh. Total = 1300 Wh = 1.3 kWh. Cost = 1.3 x ₦60 = ₦78.00.",
+"pidgin": "Change each appliance time go hour: iron = 1000 W x 0.5 h = 500 Wh, heater = 1500 W x (20/60) h = 500 Wh, bulb = 60 W x 5 h = 300 Wh. Total na 1300 Wh wey be 1.3 kWh. Cost = 1.3 x ₦60 = ₦78.00.",
+"py": "((1000*0.5 + 1500*(20/60) + 60*5)/1000)*60",
+"values": [
+70.0,
+84.0,
+78.0,
+90.0
+],
+"id": "phyv1901",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A resistor of fixed resistance R is connected across a voltage source and dissipates power P. If the voltage across the resistor is doubled while R stays the same, by what factor does the power dissipated increase?",
+"options": [
+"2",
+"4",
+"8",
+"1/2"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Power is given by P = V^2/R. If V doubles, V^2 becomes 4 times as large, so the new power is 4 times the original power, since R does not change.",
+"pidgin": "Power na P = V^2/R. If V double, V^2 go be 4 times wetin e be before, so power go also increase by 4 times since R no change.",
+"py": "4",
+"values": [
+2,
+4,
+8,
+0.5
+],
+"id": "phyv1902",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader compares an old incandescent bulb rated 100 W with a new LED bulb rated 20 W, both giving the same brightness. Each bulb is used for 8 hours daily for 30 days, and electricity costs ₦50 per kWh. Calculate how much money the trader saves in those 30 days by using the LED bulb instead of the incandescent bulb.",
+"options": [
+"₦1,200.00",
+"₦240.00",
+"₦1,440.00",
+"₦960.00"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Incandescent energy = 100 W x 8 h x 30 = 24000 Wh = 24 kWh, costing 24 x ₦50 = ₦1200. LED energy = 20 W x 8 h x 30 = 4800 Wh = 4.8 kWh, costing 4.8 x ₦50 = ₦240. Savings = ₦1200 - ₦240 = ₦960.",
+"pidgin": "Incandescent energy = 100 W x 8 h x 30 = 24 kWh, e go cost 24 x ₦50 = ₦1200. LED energy = 20 W x 8 h x 30 = 4.8 kWh, e go cost 4.8 x ₦50 = ₦240. Wetin dem save = ₦1200 - ₦240 = ₦960.",
+"py": "((100*8*30/1000)*50) - ((20*8*30/1000)*50)",
+"values": [
+1200.0,
+240.0,
+1440.0,
+960.0
+],
+"id": "phyv1903",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

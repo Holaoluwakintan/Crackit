@@ -1,0 +1,116 @@
+{
+"subject": "english",
+"topic": "Idioms and idiomatic expressions: meaning of the expression",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the option that best explains the expression in quotes. The ₦5,000 donation from the small trader was just 'a drop in the ocean' compared to what the flood victims in Kogi State actually needed.",
+"options": [
+"an amount that is too small to make any real difference",
+"a generous gift that solved the problem completely",
+"a secret contribution that nobody noticed",
+"a payment that was made under pressure"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The idiom 'a drop in the ocean' describes something that is very small or insignificant compared to what is required. The donation, though kind, could not meet the huge needs of the flood victims.",
+"pidgin": "Dis idiom 'a drop in the ocean' mean say something too small compare to wetin dem need. Di money wey di trader give na small thing compare to wetin di flood victims really need.",
+"id": "engv0600",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best explains the expression in quotes. When Afrobeats became popular worldwide, many upcoming musicians in Nigeria 'jumped on the bandwagon' and started releasing similar songs.",
+"options": [
+"refused to follow a popular trend",
+"joined an activity simply because it has become popular",
+"started a new trend that others copied",
+"criticized people who were already doing something"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "'Jump on the bandwagon' means to join something because it has suddenly become fashionable or successful, not because of personal originality. The musicians copied the trend rather than creating it.",
+"pidgin": "'Jump on the bandwagon' mean say person join one trend just because e don popular, no be say na im start am. Di musicians just follow di Afrobeats wave wey don already dey hot.",
+"id": "engv0601",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the option that best explains the expression in quotes. The detectives spent three days on what turned out to be 'a wild goose chase' before they realised the suspect had never left Lagos.",
+"options": [
+"a dangerous mission that put lives at risk",
+"a quick investigation that produced results",
+"a useless search that wastes time and effort",
+"a well-planned operation carried out secretly"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A 'wild goose chase' is a pointless pursuit that wastes time because the thing being searched for is not where it is thought to be. The three days spent searching led nowhere, since the suspect never left Lagos.",
+"pidgin": "'Wild goose chase' mean say person dey waste time to search for something wey no dey where dem think say e dey. Di three days wey detectives use search na waste, because di suspect never leave Lagos sotey.",
+"id": "engv0602",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the option that best explains the expression in quotes. The new smartphone Tunde wanted would 'cost an arm and a leg', so he decided to save for it slowly.",
+"options": [
+"cause physical injury to the buyer",
+"require a doctor's attention before purchase",
+"be difficult to find in shops",
+"be extremely expensive"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "'Cost an arm and a leg' simply means something is very expensive. Tunde had to save money because the phone's price was very high, not because of any injury or scarcity.",
+"pidgin": "'Cost an arm and a leg' mean say something cost plenty money. Na im make Tunde decide to dey save small small because di phone price too high.",
+"id": "engv0603",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Choose the option that best explains the expression in quotes. Grandma Ngozi said she visits her village in Anambra 'once in a blue moon' because she now lives and works in Lagos.",
+"options": [
+"very rarely",
+"every single month without fail",
+"only during the rainy season",
+"whenever she feels sad"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "'Once in a blue moon' means something that happens very rarely or hardly ever. Since Grandma Ngozi now stays in Lagos, her visits to the village have become uncommon.",
+"pidgin": "'Once in a blue moon' mean say something no dey happen often, e dey rare. Since Grandma Ngozi don move go Lagos, her visit to village don scarce.",
+"id": "engv0604",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best explains the expression in quotes. After months of indecision, the young entrepreneur finally decided to 'take the bull by the horns' and confront the suppliers who kept delaying her goods.",
+"options": [
+"avoid a problem until it disappears on its own",
+"face a difficult situation boldly and directly",
+"seek help from a more powerful person",
+"blame someone else for a problem"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "'Take the bull by the horns' means to deal with a difficult or risky situation with courage instead of avoiding it. The entrepreneur stopped delaying and directly confronted the suppliers causing her trouble.",
+"pidgin": "'Take the bull by the horns' mean to face wahala head-on with courage, no dey run from am. Di entrepreneur no run again, she go straight meet di suppliers wey dey delay her goods.",
+"id": "engv0605",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

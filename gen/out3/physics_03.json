@@ -1,0 +1,106 @@
+{
+"subject": "physics",
+"topic": "Projectiles and circular motion",
+"generated": 4,
+"kept": [
+{
+"q": "At the highest point of the path of a projectile launched at an angle to the horizontal (ignoring air resistance), which statement is TRUE?",
+"options": [
+"The vertical component of velocity is zero",
+"The horizontal component of velocity is zero",
+"The total velocity of the projectile is zero",
+"The acceleration of the projectile is zero"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "At the highest point, the projectile stops rising but still moves forward. This means the vertical velocity becomes zero while the horizontal velocity stays the same (since there is no horizontal force). The acceleration due to gravity still acts downward throughout the flight.",
+"pidgin": "For the highest point, the thing no dey climb again but e still dey move forward. So the up-down (vertical) speed na zero, but the side-to-side (horizontal) speed still dey there. Gravity still dey pull am down the whole time.",
+"py": null,
+"values": null,
+"id": "phyv0300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "An athlete in Kaduna throws a javelin with an initial speed of 24 m/s at an angle of 30° to the horizontal. Taking g = 10 m/s^2, calculate the maximum height reached by the javelin.",
+"options": [
+"7.2 m",
+"14.4 m",
+"3.6 m",
+"28.8 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Maximum height H = (u sin theta)^2 / (2g). Here u sin30 = 24 x 0.5 = 12 m/s. So H = 12^2 / (2 x 10) = 144/20 = 7.2 m.",
+"pidgin": "Formula for max height na H = (u sin theta)^2 / (2g). u sin30 = 24 x 0.5 = 12 m/s. So H = 144/20 = 7.2 m.",
+"py": "(24*math.sin(math.radians(30)))**2/(2*10)",
+"values": [
+7.2,
+14.4,
+3.6,
+28.8
+],
+"id": "phyv0301",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A small disc in a physics demonstration at a Lagos school rotates uniformly, completing 300 revolutions every minute. What is its angular velocity in rad/s?",
+"options": [
+"10 pi rad/s",
+"5 pi rad/s",
+"20 pi rad/s",
+"2.5 pi rad/s"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Angular velocity omega = 2 pi N / 60, where N is revolutions per minute. So omega = 2 pi x 300 / 60 = 2 pi x 5 = 10 pi rad/s.",
+"pidgin": "Angular speed omega = 2 pi N / 60, N na revolutions per minute. So omega = 2 pi x 300 / 60 = 2 pi x 5 = 10 pi rad/s.",
+"py": "2*math.pi*300/60",
+"values": [
+31.41592653589793,
+15.707963267948966,
+62.83185307179586,
+7.853981633974483
+],
+"id": "phyv0302",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A car of mass 800 kg goes round a banked curve of radius 50 m at a constant speed of 20 m/s. The curve is banked at an angle such that the car needs no help from friction to stay on the track. Taking g = 10 m/s^2, calculate tan(theta), where theta is the banking angle.",
+"options": [
+"0.80",
+"1.25",
+"0.40",
+"2.00"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For a car on a frictionless banked curve, tan theta = v^2 / (r g). Substituting values: tan theta = 20^2 / (50 x 10) = 400/500 = 0.8. Notice the mass of the car is not needed because it cancels out in the derivation.",
+"pidgin": "For banked road wey no need friction, tan theta = v^2 / (r g). So tan theta = 20^2 / (50 x 10) = 400/500 = 0.8. The mass of the car no dey affect the answer because e dey cancel for the equation.",
+"py": "20**2/(50*10)",
+"values": [
+0.8,
+1.25,
+0.4,
+2.0
+],
+"id": "phyv0303",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

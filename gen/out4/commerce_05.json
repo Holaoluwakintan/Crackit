@@ -1,0 +1,169 @@
+{
+"subject": "commerce",
+"topic": "Business units (sole trader, partnership, companies, cooperatives)",
+"ti": 5,
+"generated": 7,
+"kept": [
+{
+"q": "Chidinma runs a small provision store in Nnewi. She owns the business alone, takes all the profits, and is personally responsible for all debts if the business fails. What type of business unit is this?",
+"options": [
+"Sole proprietorship",
+"Partnership",
+"Private limited company",
+"Cooperative society"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A sole proprietorship is owned and controlled by one person who enjoys all profits but also bears unlimited liability for debts. Chidinma's situation matches this exactly.",
+"pidgin": "Na one person dey run the business, e dey chop all the profit and e go pay all debt if the business fail. Na so sole proprietorship be.",
+"py": null,
+"values": null,
+"id": "wcom0500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a major disadvantage of a sole proprietorship compared to a joint stock company?",
+"options": [
+"It requires many legal documents to start",
+"It has limited capital for expansion",
+"It must publish its accounts yearly",
+"Its profit must be shared with many shareholders"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A sole trader depends mostly on personal savings and small loans, so the business often lacks enough capital to expand, unlike companies that can raise funds from many shareholders. The other options describe features of companies, not sole proprietorships.",
+"pidgin": "Sole trader dey use im own money and small loan, so e no get plenty capital to expand pass companies wey fit raise money from shareholders. The other options na things wey concern company, no be sole trader.",
+"py": null,
+"values": null,
+"id": "wcom0501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a partnership business, what is the main legal document that states how profits and losses will be shared among the partners?",
+"options": [
+"Memorandum of Association",
+"Partnership deed",
+"Certificate of incorporation",
+"Articles of Association"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The partnership deed (or partnership agreement) is the document that spells out how profits, losses, and duties are shared among partners. The other documents listed belong to registered companies, not partnerships.",
+"pidgin": "Na partnership deed dey show how dem go share profit and loss among the partners. The other papers na for company, no be partnership.",
+"py": null,
+"values": null,
+"id": "wcom0502",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Four friends in Ibadan want to start a business where each one's liability for business debts will be limited to the amount of capital they invested, and the business can continue to exist even if one of them dies. Which business unit best suits their need?",
+"options": [
+"General partnership",
+"Sole proprietorship",
+"Private limited liability company",
+"Cooperative thrift society"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A private limited liability company has a separate legal existence from its owners, so it does not end when a member dies, and shareholders' liability is limited to their shares. A general partnership does not automatically give limited liability to all partners.",
+"pidgin": "Private limited company get im own legal identity wey no go end when one owner die, and the liability na only to how much capital dem put. General partnership no dey give automatic limited liability like that.",
+"py": null,
+"values": null,
+"id": "wcom0503",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A cooperative society in Benue State wants to raise money for its members to buy farm inputs at a cheaper rate and share any surplus based on how much business each member did with the society, not on shares owned. Which principle of cooperative societies does this describe?",
+"options": [
+"One member one vote",
+"Limited return on capital",
+"Distribution of surplus by patronage",
+"Open and voluntary membership"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Cooperative societies share surplus (profit) according to the amount of business (patronage) each member transacted with the society, not according to shares held, which is different from how companies pay dividends. This encourages members to use the cooperative's services more.",
+"pidgin": "Cooperative society dey share surplus based on how much business the member do with am, no be how much share e hold. Na so e dey encourage members to patronize the cooperative well well.",
+"py": null,
+"values": null,
+"id": "wcom0504",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A partnership in Kano has three partners: Musa contributed capital only and takes no part in management, while Bala and Yusuf manage the business daily and also contributed capital. What type of partner is Musa?",
+"options": [
+"Active partner",
+"Sleeping (dormant) partner",
+"Nominal partner",
+"General partner"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A sleeping (dormant) partner contributes capital and shares profits but does not take part in the daily management of the business, exactly like Musa. An active or general partner, by contrast, is involved in running the business.",
+"pidgin": "Sleeping partner na im put money but e no dey involve for daily running of the business, just like Musa. Active or general partner dey help run the business every day.",
+"py": null,
+"values": null,
+"id": "wcom0505",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A joint stock company in Lagos has 50,000 ordinary shares of ₦20 each fully subscribed and paid for. If the company declares a total dividend of ₦250,000 for the year, what is the dividend paid per share?",
+"options": [
+"₦2.50",
+"₦4.00",
+"₦5.00",
+"₦10.00"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Total dividend divided by number of shares gives dividend per share: 250,000 / 50,000 = ₦5.00 per share. The ₦20 price of each share is not needed for this calculation since dividend is shared equally per share, not based on share price alone in this question.",
+"pidgin": "You go divide total dividend by number of shares: 250,000 / 50,000 = ₦5.00 for each share. The ₦20 wey be price of share no relevant here, na per-share calculation.",
+"py": "250000/50000",
+"values": [
+2.5,
+4.0,
+5.0,
+10.0
+],
+"id": "wcom0506",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

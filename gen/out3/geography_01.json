@@ -1,0 +1,190 @@
+{
+"subject": "geography",
+"topic": "Map reading: contours, relief, gradient and cross-sections",
+"generated": 8,
+"kept": [
+{
+"q": "On a topographical map, a contour line is best described as a line that joins places of equal...",
+"options": [
+"height above sea level",
+"rainfall amount",
+"temperature",
+"population density"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A contour line links points on the map that have the same elevation above sea level. It is the standard way maps show relief without using pictures or shading.",
+"pidgin": "Contour line na line wey join places wey get the same height from sea level. Na so maps dey show relief without picture or shading.",
+"py": null,
+"values": null,
+"id": "geov0100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "On a topographical map, contour lines that are drawn very close together (tightly packed) within a small area indicate that the land in that area has a...",
+"options": [
+"gentle slope",
+"flat plain",
+"steep slope",
+"river confluence"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "When contour lines are packed close together, it means height changes quickly over a short horizontal distance, which is the definition of a steep slope. Widely spaced contours would instead show a gentle slope.",
+"pidgin": "When contour lines close well-well for short distance, e mean say height dey change fast-fast, na so steep slope be. If contour lines dey far apart, na gentle slope.",
+"py": null,
+"values": null,
+"id": "geov0101",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "On a map drawn to a scale of 1:50,000, two points A and B are 6 cm apart. Point A is 150 m above sea level and point B is 450 m above sea level. What is the gradient between A and B, expressed as 1 in n?",
+"options": [
+"1 in 10",
+"1 in 30",
+"1 in 100",
+"1 in 5"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Ground distance = 6 cm x 50,000 = 300,000 cm = 3000 m. Vertical interval = 450 - 150 = 300 m. Gradient = ground distance / vertical rise = 3000/300 = 10, so the gradient is 1 in 10.",
+"pidgin": "Ground distance = 6 x 50,000 = 300,000 cm = 3000 m. Height wey dem climb = 450 - 150 = 300 m. Gradient = 3000/300 = 10, so na 1 in 10.",
+"py": "(6*50000/100)/(450-150)",
+"values": [
+10,
+30,
+100,
+5
+],
+"id": "geov0102",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A map shows a series of contour lines with the following successive values written on them: 100 m, 150 m, 200 m, 250 m. What is the contour interval used on this map?",
+"options": [
+"25 m",
+"50 m",
+"100 m",
+"150 m"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The contour interval is the constant difference in height between one contour line and the next. Here, 150 - 100 = 50 m, and this same gap (200-150, 250-200) is maintained throughout, so the interval is 50 m.",
+"pidgin": "Contour interval na the constant height gap between one contour line and the next one. 150 - 100 = 50 m, and the gap stay the same throughout, so the interval na 50 m.",
+"py": "150-100",
+"values": [
+25,
+50,
+100,
+150
+],
+"id": "geov0103",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "On a map, a group of contour lines form several concentric (nested) circles, one inside the other. The outermost circle is labelled 200 m and the value increases steadily to 400 m on the innermost circle. This pattern most likely represents...",
+"options": [
+"a river valley",
+"a plateau",
+"a hill",
+"a depression"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When contour values increase from the outside towards the centre of concentric circles, it shows the land is rising towards a high point in the middle, which is typical of a hill. A depression would show the opposite pattern, with values decreasing inward.",
+"pidgin": "When the contour numbers dey increase from outside go inside for nested circles, e mean say the land dey rise go up for the middle, na so hill be. If na depression, the numbers for inside go dey smaller.",
+"py": null,
+"values": null,
+"id": "geov0104",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "On a topographical map, contour lines are seen bending sharply to form a V-shape. The pointed tip of each V points towards the higher contour values (uphill), and a blue stream line runs through the point of the V. This feature most likely represents...",
+"options": [
+"a spur",
+"a ridge",
+"a hill summit",
+"a river valley"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "When contours bend into a V that points towards higher ground and a stream flows through the bend, the land is cut by water flowing downhill, which is the classic sign of a river valley. A spur or ridge would instead show the V pointing towards lower ground (downhill).",
+"pidgin": "When contour dey bend like V wey dey point go higher ground, and river dey pass through the bend, na river valley be that, because water dey cut through as e dey flow down. Spur or ridge go show V wey dey point go lower ground instead.",
+"py": null,
+"values": null,
+"id": "geov0105",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A map has a scale of 1:20,000. Two points, P and Q, are 5 cm apart on the map. P is 550 m above sea level while Q is 350 m above sea level. Calculate the gradient between P and Q, expressed as 1 in n.",
+"options": [
+"1 in 20",
+"1 in 5",
+"1 in 50",
+"1 in 10"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Ground distance = 5 cm x 20,000 = 100,000 cm = 1000 m. Vertical interval = 550 - 350 = 200 m. Gradient = 1000/200 = 5, so the gradient is 1 in 5, which is a fairly steep slope.",
+"pidgin": "Ground distance = 5 x 20,000 = 100,000 cm = 1000 m. Height difference = 550 - 350 = 200 m. Gradient = 1000/200 = 5, so na 1 in 5, e be steep slope small.",
+"py": "(5*20000/100)/(550-350)",
+"values": [
+20,
+5,
+50,
+10
+],
+"id": "geov0106",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A straight line is drawn across a map, crossing contour lines with the following values in order: 50 m, 100 m, 150 m, 200 m, 150 m, 100 m, 50 m. If a cross-section is drawn along this line, which shape would the profile most likely show?",
+"options": [
+"The profile rises steeply then forms a flat plateau at the top",
+"The profile shows a continuous rise without any fall",
+"The profile shows a valley, falling then rising again",
+"The profile rises gradually to a peak at the centre, then falls gradually on the other side, forming a symmetric hill shape"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The heights rise steadily from 50 m to a peak of 200 m in the middle, then fall back down steadily to 50 m, in a mirror pattern. This matches a cross-section of a hill that is roughly symmetric in shape, not a plateau or a valley.",
+"pidgin": "The heights dey rise small small from 50 m reach 200 m for the middle, then e come fall back down to 50 m, like mirror. Na cross-section of hill wey level well like that, e no be plateau or valley.",
+"py": null,
+"values": null,
+"id": "geov0107",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+"why": "ambiguous:Contour spacing is unknown; symmetry and steepness cannot be determined.|'gradually' not determinable without contour spacing, but D is clearly best"
+}
+]
+}

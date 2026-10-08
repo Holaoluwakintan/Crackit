@@ -1,0 +1,80 @@
+{
+"subject": "government",
+"topic": "Basic concepts: power, authority, legitimacy, sovereignty, democracy",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following best defines 'power' as used in political science?",
+"options": [
+"The ability to compel obedience or influence behaviour, with or without the consent of the people",
+"The right to rule that is accepted and respected by citizens",
+"The supreme and final authority of a state over its territory",
+"The moral justification given for occupying a public office"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Power is simply the capacity to make others act in a certain way, whether they agree or not. This can be through force, influence, or control, unlike authority which needs acceptance.",
+"pidgin": "Power na just the fit to make people do wetin you want, whether dem agree or no agree. E fit come from force or control, e no need people gree like authority.",
+"id": "govv0000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Oba Adewale became the traditional ruler of his community strictly according to age-long customs passed down for generations. His subjects obey him mainly because they hold deep respect for these inherited customs and rites. Which type of authority does this scenario best illustrate?",
+"options": [
+"Charismatic authority",
+"Traditional authority",
+"Legal-rational authority",
+"Coercive authority"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Traditional authority is based on long-established customs and practices handed down over time, which people respect and obey. Oba Adewale's authority comes from custom, not from personal charm or written law.",
+"pidgin": "Traditional authority na the one wey base on old custom wey don dey since. People dey obey Oba Adewale because of old tradition, no be because of law or because im get special charm.",
+"id": "govv0001",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In the fictional state of Edu, the ruling party won an election, but international observers confirmed widespread rigging. Citizens and opposition groups rejected the result and refused to recognise the new government, even though it legally held the instruments of power. This situation best illustrates a government that has:",
+"options": [
+"Legal power but lacks legitimacy",
+"Legitimacy but lacks sovereignty",
+"Absolute sovereignty but no power",
+"Democratic authority without power"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The government controls state machinery (power) and may even be recognised under the law, but because citizens reject its moral right to rule due to rigging, it lacks legitimacy. Legitimacy depends on popular acceptance, not just legal control.",
+"pidgin": "The government get the power and even legal backing, but because people no gree say the election dey fair, dem no accept the government as rightful. So dem get power but legitimacy no dey, because legitimacy need people support.",
+"id": "govv0002",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Under the Nigerian constitution, even when a political party has a large majority in the National Assembly, it cannot pass laws that strip citizens of fundamental rights such as freedom of speech or fair hearing. This arrangement best demonstrates which democratic principle?",
+"options": [
+"Tyranny of the majority",
+"Rule of law and constitutionalism",
+"Direct democracy",
+"Totalitarian rule"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Rule of law and constitutionalism means that government power, even a majority government, is limited by the constitution and must respect citizens' basic rights. This stops majority rule from becoming oppressive.",
+"pidgin": "Rule of law and constitutionalism mean say even if one party get majority for Assembly, the constitution go still limit dia power so dem no fit cheat people out of dia basic rights. E dey protect minority from majority wahala.",
+"id": "govv0003",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

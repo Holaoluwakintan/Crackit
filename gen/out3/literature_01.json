@@ -1,0 +1,134 @@
+{
+"subject": "literature",
+"topic": "Sound devices in poetry: rhyme, alliteration, assonance, onomatopoeia",
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines 'onomatopoeia' as used in poetry?",
+"options": [
+"A word whose sound imitates or suggests the action or thing it describes",
+"A repetition of consonant sounds at the beginning of neighbouring words",
+"A repetition of vowel sounds within non-rhyming words",
+"A matching of sounds at the end of two or more lines"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Onomatopoeia is when a word's sound copies the sound of the thing it names, like 'buzz' or 'bang'. The other options describe alliteration, assonance, and rhyme respectively.",
+"pidgin": "Onomatopoeia na word wey im sound resemble the thing wey e dey describe, like 'buzz' or 'bang'. The other options na for alliteration, assonance, and rhyme.",
+"id": "litv0100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the sentence, 'Chinedu's cat crept cautiously across the compound,' which sound device is most clearly displayed?",
+"options": [
+"Assonance",
+"Alliteration",
+"Onomatopoeia",
+"End rhyme"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The repeated 'c' sound at the start of 'cat', 'crept', 'cautiously', and 'across' shows alliteration. There is no imitation of a sound, no repeated internal vowel pattern, and no rhyme at line ends.",
+"pidgin": "The 'c' sound wey dey repeat for front of 'cat', 'crept', 'cautiously', and 'across' na alliteration. No sound dey imitated, no vowel pattern dey repeat, and no end rhyme dey there.",
+"id": "litv0101",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read this line: 'The old goat roams alone on the stony road.' Which sound device is created by the repeated vowel sound in 'old', 'goat', 'roams', 'alone', and 'stony road'?",
+"options": [
+"Alliteration",
+"Consonance",
+"Onomatopoeia",
+"Assonance"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The repeated long 'o' vowel sound inside these words, even though the surrounding consonants differ, is assonance. Alliteration deals with starting consonants, not internal vowels, so it does not fit here.",
+"pidgin": "The long 'o' sound wey dey repeat inside these words, even though the consonants no be the same, na assonance. Alliteration na about first consonant sound, e no fit be the answer here.",
+"id": "litv0102",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Read the stanza below and identify its rhyme scheme:\n'The market women sell their wares\nThe children run about in play\nThe trader counts his naira shares\nThe sun sinks low at close of day'",
+"options": [
+"AABB",
+"ABBA",
+"ABCB",
+"ABAB"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Line 1 ends with 'wares' and line 3 ends with 'shares' (A), while line 2 ends with 'play' and line 4 ends with 'day' (B). This alternating pattern of A-B-A-B is the ABAB rhyme scheme.",
+"pidgin": "Line 1 ('wares') and line 3 ('shares') rhyme as A, while line 2 ('play') and line 4 ('day') rhyme as B. This kind of take-turns pattern na ABAB rhyme scheme.",
+"id": "litv0103",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "In the sentence, 'The kettle hissed and the firewood crackled in the kitchen,' which pair of words best illustrates onomatopoeia?",
+"options": [
+"kettle and kitchen",
+"hissed and crackled",
+"firewood and kitchen",
+"the and in"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "'Hissed' and 'crackled' are words that imitate the actual sounds they describe, which is the definition of onomatopoeia. The other word pairs are ordinary nouns or function words with no sound-imitating quality.",
+"pidgin": "'Hissed' and 'crackled' na words wey dey copy the real sound wey dem dey describe, and na so onomatopoeia dey work. The other words na just normal nouns or small words, dem no dey imitate any sound.",
+"id": "litv0104",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Study this sentence carefully: 'Baba's broom brushed beneath the bamboo bed, making a soft swish.' Which statement correctly describes the sound devices used in the two parts of the sentence?",
+"options": [
+"Alliteration dominates the first part; onomatopoeia dominates the ending",
+"Assonance dominates the first part; alliteration dominates the ending",
+"Onomatopoeia dominates the first part; assonance dominates the ending",
+"Rhyme dominates the first part; alliteration dominates the ending"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The repeated 'b' sound in 'Baba's', 'broom', 'brushed', 'beneath', 'bamboo', and 'bed' is alliteration, while 'swish' imitates the actual sound of the broom moving, which is onomatopoeia. No rhyme or vowel-repetition pattern is the main feature in either part.",
+"pidgin": "The 'b' sound wey dey repeat for 'Baba's', 'broom', 'brushed', 'beneath', 'bamboo', and 'bed' na alliteration, while 'swish' dey copy the real sound wey the broom make, so na onomatopoeia. No rhyme or vowel pattern be the main thing for any of the two parts.",
+"id": "litv0105",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Consider these two lines: 'The wind blew cold across the mead / Yet no one dared to intercede.' Although 'mead' and 'intercede' are spelt differently, a student notices they share the exact same rhyming sound at the end. What type of rhyme is this?",
+"options": [
+"Eye rhyme",
+"Slant rhyme",
+"Internal rhyme",
+"Perfect rhyme"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Perfect rhyme occurs when the final sounds of words match exactly, regardless of spelling; here 'mead' and 'intercede' both end in the same vowel and consonant sound. Eye rhyme would require similar spelling but different sounds, which is not the case here.",
+"pidgin": "Perfect rhyme na when the last sound of words match well-well, even if the spelling no be the same; 'mead' and 'intercede' get the same ending sound. Eye rhyme go need similar spelling but different sound, wey no be wetin we get here.",
+"id": "litv0106",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

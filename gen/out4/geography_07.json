@@ -1,0 +1,173 @@
+{
+"subject": "geography",
+"topic": "Soils",
+"ti": 7,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following is NOT usually listed among the major factors responsible for the formation of soil?",
+"options": [
+"Climate",
+"Parent rock",
+"Population density of the area",
+"Activities of living organisms"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Soil formation (pedogenesis) is controlled by climate, parent rock, relief, living organisms and time. Population density affects how soil is used, not how it is formed, so it is not a factor of soil formation.",
+"pidgin": "How soil dey form na climate, parent rock, relief, living things and time dey cause am. Population density na about how many people dey use the land, e no dey form soil.",
+"py": null,
+"values": null,
+"id": "wgeo0701",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A geography teacher tells her class that soil texture refers specifically to a certain property of soil. Which statement correctly defines soil texture?",
+"options": [
+"The way soil particles are arranged into crumbs or clods",
+"The relative proportion of sand, silt and clay particles in a soil sample",
+"The colour of the soil as seen with the naked eye",
+"The level of acidity or alkalinity of the soil"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Soil texture is determined by the proportions of sand, silt and clay particles in the soil, which decides whether it is sandy, loamy or clayey. The arrangement into crumbs is called soil structure, not texture.",
+"pidgin": "Soil texture na how sand, silt and clay particles mix inside the soil, e be the one wey tell us if soil na sandy, loamy or clay. The way the particles dey arrange into crumbs na soil structure, no be texture.",
+"py": null,
+"values": null,
+"id": "wgeo0702",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Laterite soils, which are common in many parts of tropical West Africa including Nigeria, mainly develop as a result of which process?",
+"options": [
+"Accumulation of frozen organic matter in cold regions",
+"Heavy leaching of silica under intense rainfall, leaving behind iron and aluminium oxides",
+"Wind-blown deposition of fine desert particles",
+"Chemical weathering of limestone rocks alone"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In areas with heavy rainfall and high temperatures, silica is washed (leached) out of the soil, leaving behind iron and aluminium oxides that give laterite its reddish colour and hard crust. This process is typical of tropical regions like West Africa.",
+"pidgin": "Where rain dey plenty and e hot well well, water go wash away silica from soil, leave iron and aluminium oxide wey make laterite red and hard. Na this kind thing dey happen for tropical place like West Africa.",
+"py": null,
+"values": null,
+"id": "wgeo0703",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer in Benue State has a sloping farmland that suffers heavy soil erosion during the rainy season. Which farming practice would best reduce the erosion by slowing down the speed of running water down the slope?",
+"options": [
+"Shifting cultivation",
+"Contour ploughing (ploughing along the slope's contour lines)",
+"Continuous bush burning before planting",
+"Monocropping of maize every season"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Contour ploughing involves making ridges or furrows that run across the slope rather than up and down it. This traps water and slows its flow, reducing soil erosion on sloping land.",
+"pidgin": "Contour ploughing na when farmer make ridge across the slope instead of up and down. E dey hold water make e no run fast, so e dey reduce how soil dey wash away for slope land.",
+"py": null,
+"values": null,
+"id": "wgeo0704",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A moist soil sample taken from a farm in Oyo State has a total volume of 500 cm^3. Laboratory analysis shows that air spaces occupy 150 cm^3 and water occupies 100 cm^3, while the rest of the volume is made up of solid soil particles. What percentage of the sample is made up of solid particles?",
+"options": [
+"50%",
+"30%",
+"45%",
+"20%"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Solid particles = total volume minus (air + water) = 500 - (150 + 100) = 250 cm^3. Percentage of solids = (250/500) x 100 = 50%.",
+"pidgin": "Solid particles na total volume minus (air add water) = 500 - (150 + 100) = 250 cm^3. Percentage of solid = (250/500) x 100 = 50%.",
+"py": "((500-150-100)/500)*100",
+"values": [
+50,
+30,
+45,
+20
+],
+"id": "wgeo0705",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A farmer near Kano tests his soil and finds that the pH is 4.5, which is too acidic for his maize crop that grows best at pH 6 to 7. Which treatment would most likely help to correct this soil for better maize growth?",
+"options": [
+"Adding lime (calcium carbonate) to the soil",
+"Adding sulphur to the soil",
+"Adding common table salt to the soil",
+"Adding more decomposed organic acid to the soil"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Lime (calcium carbonate) reacts with excess hydrogen ions in acidic soil, raising the pH towards neutral. This makes the soil less acidic and more suitable for crops like maize that prefer a pH close to neutral.",
+"pidgin": "Lime (calcium carbonate) dey react with the excess hydrogen wey dey make soil acidic, e go raise the pH go near neutral. This one go make the soil better for maize wey like pH wey near neutral.",
+"py": null,
+"values": null,
+"id": "wgeo0706",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In a typical soil profile, which horizon is the uppermost layer, usually dark in colour and richest in humus (decayed organic matter)?",
+"options": [
+"Horizon A (topsoil)",
+"Horizon B (subsoil)",
+"Horizon C (weathered parent material)",
+"Bedrock (solid unweathered rock)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The topsoil, known as Horizon A, lies on top of the soil profile. It is dark because it contains the most humus from decomposed plants and animals, and it is where most plant roots and nutrients are found.",
+"pidgin": "Na Horizon A dey on top for soil profile. E dark because na there humus (rotten leaves and animal waste) concentrate well well, and na there plant roots dey get food.",
+"py": null,
+"values": null,
+"id": "wgeo0700",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:An O horizon, when present, lies above A and is richer in humus.|"
+}
+]
+}

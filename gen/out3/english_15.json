@@ -1,0 +1,116 @@
+{
+"subject": "english",
+"topic": "Oral English: rhymes (choose the word that rhymes with the given word)",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the word that rhymes with the word in capitals: BREAK",
+"options": [
+"CAKE",
+"BEAK",
+"BLACK",
+"BRICK"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "BREAK is pronounced /breɪk/. CAKE is pronounced /keɪk/, so both end with the same 'eɪk' sound. BEAK, BLACK and BRICK have different vowel sounds.",
+"pidgin": "BREAK dey sound as /breɪk/. CAKE too dey end with /eɪk/ sound, so dem match. BEAK, BLACK and BRICK no get that same sound.",
+"id": "engv1500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the word that rhymes with the word in capitals: KNEE",
+"options": [
+"SEA",
+"NEW",
+"NIGH",
+"NET"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "KNEE is pronounced /niː/, with a long 'ee' sound. SEA is pronounced /siː/, which has the same ending sound. NEW, NIGH and NET all have different vowel sounds.",
+"pidgin": "KNEE dey sound /niː/, with long 'ee'. SEA too get that same /iː/ sound for back. NEW, NIGH and NET no match am.",
+"id": "engv1501",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the word that rhymes with the word in capitals: COMB",
+"options": [
+"WOMB",
+"HOME",
+"COMMA",
+"COMMON"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "COMB is pronounced /koʊm/, with a silent 'b'. HOME is pronounced /hoʊm/, which matches this sound exactly. WOMB has a different vowel sound (/wuːm/), while COMMA and COMMON do not end in the same way.",
+"pidgin": "COMB dey sound /koʊm/, the 'b' no dey pronounce. HOME too be /hoʊm/, na the same sound be dat. WOMB get different vowel sound, and COMMA with COMMON no match am at all.",
+"id": "engv1502",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the word that rhymes with the word in capitals: SWORD",
+"options": [
+"WORD",
+"WORLD",
+"BOARD",
+"SWARM"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "SWORD is pronounced /sɔːrd/; the 'w' is silent. BOARD is also pronounced /bɔːrd/, giving the same ending sound. WORD, WORLD and SWARM all have different vowel sounds from SWORD.",
+"pidgin": "SWORD dey sound /sɔːrd/, the 'w' no dey pronounce. BOARD too be /bɔːrd/, so dem rhyme well well. WORD, WORLD and SWARM no get that same sound.",
+"id": "engv1503",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the word that rhymes with the word in capitals: YACHT",
+"options": [
+"CHAT",
+"ROT",
+"COAT",
+"YACHTING"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "YACHT is pronounced /jɒt/, not as its spelling suggests. ROT is also pronounced /rɒt/, which matches the ending sound exactly. CHAT, COAT and YACHTING have different vowel sounds.",
+"pidgin": "YACHT dey sound /jɒt/, e no follow as e spell. ROT too be /rɒt/, so the sound match well. CHAT, COAT and YACHTING get different vowel sound entirely.",
+"id": "engv1504",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the word that rhymes with the word in capitals: CHOIR",
+"options": [
+"FIRE",
+"CHORUS",
+"QUIET",
+"CHOP"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "CHOIR is pronounced /ˈkwaɪər/, ending in the same sound as FIRE, which is pronounced /ˈfaɪər/. CHORUS, QUIET and CHOP all have endings that sound nothing like this.",
+"pidgin": "CHOIR dey sound /ˈkwaɪər/, e dey end like FIRE wey be /ˈfaɪər/. CHORUS, QUIET and CHOP dia ending no resemble am at all.",
+"id": "engv1505",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

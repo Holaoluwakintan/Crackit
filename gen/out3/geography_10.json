@@ -1,0 +1,198 @@
+{
+"subject": "geography",
+"topic": "Weather and climate: elements, instruments and calculations",
+"generated": 8,
+"kept": [
+{
+"q": "Which instrument is used to measure atmospheric pressure?",
+"options": [
+"Anemometer",
+"Barometer",
+"Hygrometer",
+"Rain gauge"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A barometer measures the pressure of the atmosphere, which helps forecast weather changes. The anemometer measures wind speed, the hygrometer measures humidity, and the rain gauge measures rainfall.",
+"pidgin": "Barometer na the instrument wey dem dey use measure air pressure. Anemometer na for wind speed, hygrometer na for humidity, rain gauge na for rainfall.",
+"py": null,
+"values": null,
+"id": "geov1000",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following is NOT an element of weather but rather a factor that influences climate?",
+"options": [
+"Temperature",
+"Humidity",
+"Latitude",
+"Rainfall"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Temperature, humidity and rainfall are elements of weather that can be measured day to day. Latitude is a factor that controls climate (through sunlight and temperature patterns) but is not itself a weather element.",
+"pidgin": "Temperature, humidity and rainfall na weather elements wey you fit measure every day. Latitude na factor wey dey affect climate, e no be weather element.",
+"py": null,
+"values": null,
+"id": "geov1001",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which instrument is used to determine the direction from which the wind is blowing?",
+"options": [
+"Anemometer",
+"Wind vane",
+"Barometer",
+"Hygrometer"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The wind vane has an arrow that turns to point in the direction the wind is coming from. The anemometer measures wind speed, not direction, while the barometer and hygrometer measure pressure and humidity respectively.",
+"pidgin": "Wind vane get arrow wey dey turn show where wind dey come from. Anemometer na for wind speed, barometer na for pressure, hygrometer na for humidity.",
+"py": null,
+"values": null,
+"id": "geov1002",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "On a certain day in Kano, the maximum temperature recorded was 36°C while the minimum temperature was 22°C. What is the diurnal (daily) temperature range for that day?",
+"options": [
+"8°C",
+"12°C",
+"14°C",
+"58°C"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Diurnal temperature range is found by subtracting the minimum temperature from the maximum temperature: 36°C minus 22°C equals 14°C. This tells us how much the temperature varied within that single day.",
+"pidgin": "To find daily range, you minus minimum temperature from maximum: 36°C minus 22°C na 14°C. Na so you go know how temperature change within that day.",
+"py": "36-22",
+"values": [
+8,
+12,
+14,
+58
+],
+"id": "geov1003",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "The mean monthly temperature of the hottest month in a town is 34°C, while that of the coldest month is 26°C. Calculate the annual temperature range of the town.",
+"options": [
+"4°C",
+"6°C",
+"8°C",
+"60°C"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Annual temperature range is the difference between the hottest month's mean temperature and the coldest month's mean temperature: 34°C minus 26°C equals 8°C.",
+"pidgin": "Annual temperature range na difference between the hottest month temperature and the coldest month temperature: 34°C minus 26°C na 8°C.",
+"py": "34-26",
+"values": [
+4,
+6,
+8,
+60
+],
+"id": "geov1004",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "The temperature of a town was recorded four times in a day as follows: 6am = 18°C, 12noon = 32°C, 6pm = 28°C, 12midnight = 14°C. Calculate the mean daily temperature for that town.",
+"options": [
+"20°C",
+"21°C",
+"23°C",
+"25°C"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "To find the mean, add all four readings together and divide by the number of readings: (18+32+28+14) = 92, and 92 divided by 4 equals 23°C.",
+"pidgin": "To find the mean, add all the four readings together: (18+32+28+14) = 92, then divide am by 4, you go get 23°C.",
+"py": "(18+32+28+14)/4",
+"values": [
+20,
+21,
+23,
+25
+],
+"id": "geov1005",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "At a certain height in the atmosphere, the air contains 9 grammes of water vapour per kilogram of air, while the maximum amount of water vapour the air could hold at that same temperature is 12 grammes per kilogram. Calculate the relative humidity of the air at that point.",
+"options": [
+"25%",
+"60%",
+"75%",
+"90%"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Relative humidity is calculated as the actual water vapour content divided by the maximum possible water vapour content, multiplied by 100: (9/12) x 100 equals 75%. This shows the air is holding 75% of the moisture it could possibly hold at that temperature.",
+"pidgin": "Relative humidity na the actual water vapour wey dey air divide by the maximum e fit hold, times 100: (9/12) x 100 na 75%. Na so e show say the air don carry 75% of the water e fit hold.",
+"py": "9/12*100",
+"values": [
+25,
+60,
+75,
+90
+],
+"id": "geov1006",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "The total rainfall recorded at a weather station for the months of June, July and August were 180mm, 210mm and 150mm respectively. Calculate the mean monthly rainfall for these three months.",
+"options": [
+"150mm",
+"170mm",
+"180mm",
+"540mm"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "To find the mean monthly rainfall, add the three monthly totals and divide by 3: (180+210+150) = 540, and 540 divided by 3 equals 180mm. Note that 540mm is only the total, not the mean, which is a common mistake candidates should avoid.",
+"pidgin": "To find the mean monthly rainfall, add the three months totals: (180+210+150) = 540, then divide am by 3, you go get 180mm. Make you no mistake 540mm as the answer, na only the total, e no be the mean.",
+"py": "(180+210+150)/3",
+"values": [
+150,
+170,
+180,
+540
+],
+"id": "geov1007",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

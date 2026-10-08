@@ -1,0 +1,168 @@
+{
+"subject": "commerce",
+"topic": "Elements of marketing: marketing concept and marketing mix",
+"generated": 8,
+"kept": [
+{
+"q": "What is the main focus of the modern marketing concept as practised by businesses in Nigeria?",
+"options": [
+"Satisfying customer needs and wants profitably",
+"Producing goods as cheaply as possible",
+"Increasing the number of advertisements only",
+"Selling whatever the factory produces"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The marketing concept puts the customer first, aiming to identify and satisfy their needs while still making profit for the business. It is different from just focusing on production or pushing sales.",
+"pidgin": "Marketing concept mean say business go first find out wetin customer want, then satisfy am make profit still enter. E no be just to produce cheap or push sell-sell.",
+"py": null,
+"values": null,
+"id": "comv1700",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "The marketing mix is often summarised as the '4Ps'. Which of the following is NOT one of the 4Ps?",
+"options": [
+"Product",
+"Price",
+"Place",
+"Profit"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The 4Ps of marketing are Product, Price, Place and Promotion. Profit is a business goal but it is not one of the 4Ps elements of the marketing mix.",
+"pidgin": "The 4Ps na Product, Price, Place and Promotion. Profit na result wey business dey find, but e no be part of the 4Ps.",
+"py": null,
+"values": null,
+"id": "comv1701",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Which element of the marketing mix is concerned with the channels used to move goods from the producer to the final consumer?",
+"options": [
+"Product",
+"Price",
+"Place",
+"Promotion"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Place deals with distribution, that is, how goods move from the producer, through middlemen like wholesalers and retailers, to reach the final consumer. Product is about the item itself, while Price and Promotion are different elements.",
+"pidgin": "Place na the one wey dey handle how goods dey waka comot from producer reach the final consumer, through wholesalers and retailers. Product na about the item, Price na cost, Promotion na how dem advertise am.",
+"py": null,
+"values": null,
+"id": "comv1702",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A furniture maker in Aba reduces the cost of his chairs during the Christmas season so that more customers can afford to buy. This decision mainly concerns which element of the marketing mix?",
+"options": [
+"Product",
+"Price",
+"Promotion",
+"Place"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Reducing the amount customers pay for the chairs is a pricing decision, since price refers to the amount charged for a product. It is not about changing the product itself, its distribution, or its advertisement.",
+"pidgin": "To reduce how much customer go pay na Price decision, because Price na the amount wey dem dey charge for product. E no be about the chair design, how e dey reach market, or advert.",
+"py": null,
+"values": null,
+"id": "comv1703",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following activities by a soft drink company best illustrates the 'promotion' element of the marketing mix?",
+"options": [
+"Designing a new bottle shape for the drink",
+"Running a radio jingle to inform customers about the drink",
+"Building a warehouse closer to retailers in Kano",
+"Charging ₦150 per bottle instead of ₦200"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Promotion involves communicating with customers to inform, persuade or remind them about a product, and a radio jingle is a clear example of this. The other options relate to product design, place/distribution, and price respectively.",
+"pidgin": "Promotion na when business dey inform or persuade customer about product, and radio jingle na clear example of that. The other options dey talk about product design, distribution (place), and price.",
+"py": null,
+"values": null,
+"id": "comv1704",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Chioma, an entrepreneur, first studies what her customers want before producing her organic honey, then designs the product, price, packaging and distribution to satisfy those needs while still making profit. This approach best illustrates the:",
+"options": [
+"Production concept",
+"Selling concept",
+"Marketing concept",
+"Product concept"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Chioma starts from customer needs before producing and arranging the full marketing mix, which is the essence of the marketing concept. The selling and production concepts focus more on pushing output or sales rather than starting from customer needs.",
+"pidgin": "Chioma first check wetin customers want before she produce and arrange product, price, packaging and distribution, na so marketing concept take be. Selling and production concepts dey focus on pushing output or sales instead of customer need first.",
+"py": null,
+"values": null,
+"id": "comv1705",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A company believes that as long as it produces goods cheaply and makes them widely available, customers will automatically buy, without studying their specific needs. This belief reflects the:",
+"options": [
+"Marketing concept",
+"Production concept",
+"Societal marketing concept",
+"Selling concept"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The production concept assumes that customers mainly want cheap, widely available products, so the business focuses on efficiency and mass production rather than studying actual customer needs. This is different from the marketing concept, which starts with understanding the customer.",
+"pidgin": "Production concept na when business believe say if goods cheap and dey everywhere, customers go just buy, without the business first check wetin customer really want. E different from marketing concept wey dey start from understanding customer.",
+"py": null,
+"values": null,
+"id": "comv1706",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "For a bottled water company, which of the following best represents the 'product' element of its marketing mix?",
+"options": [
+"The route trucks use to deliver water to shops in Lagos",
+"The actual bottle of water, including its branding, size and quality",
+"The amount charged per bottle at retail outlets",
+"The billboard adverts used to create awareness of the water"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Product refers to the actual good or service offered, including its features such as branding, size and quality, which satisfies the customer's need. The delivery route is 'place', the amount charged is 'price', and the billboard is 'promotion'.",
+"pidgin": "Product na the actual item wey dem dey sell, with im branding, size and quality, wey dey satisfy customer need. The delivery route na 'place', the amount na 'price', and the billboard na 'promotion'.",
+"py": null,
+"values": null,
+"id": "comv1707",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

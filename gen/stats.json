@@ -1,0 +1,229 @@
+{
+ "english": {
+  "generated": 360,
+  "kept": 284,
+  "rejected": 76,
+  "reasons": {
+   "ambiguous": 18,
+   "audit": 11,
+   "bad-shape": 5,
+   "duplicate": 23,
+   "trivial-oral": 2,
+   "disagree": 17
+  },
+  "unaudited": 0,
+  "answer_letters": {
+   "D": 66,
+   "B": 74,
+   "A": 74,
+   "C": 70
+  }
+ },
+ "maths": {
+  "generated": 375,
+  "kept": 299,
+  "rejected": 76,
+  "reasons": {
+   "disagree": 30,
+   "audit": 14,
+   "py-error": 7,
+   "py-disagrees-key": 6,
+   "values-mismatch-text": 2,
+   "duplicate-value": 6,
+   "ambiguous": 1,
+   "bad-shape": 1,
+   "bad-values": 2,
+   "python": 6,
+   "solver1-disagrees": 1
+  },
+  "unaudited": 0,
+  "answer_letters": {
+   "B": 76,
+   "A": 75,
+   "C": 75,
+   "D": 73
+  }
+ },
+ "physics": {
+  "generated": 312,
+  "kept": 279,
+  "rejected": 33,
+  "reasons": {
+   "disagree": 12,
+   "py-disagrees-key": 8,
+   "audit": 4,
+   "ambiguous": 4,
+   "duplicate-value": 2,
+   "python": 3
+  },
+  "unaudited": 0,
+  "answer_letters": {
+   "C": 71,
+   "D": 69,
+   "A": 69,
+   "B": 70
+  }
+ },
+ "chemistry": {
+  "generated": 280,
+  "kept": 258,
+  "rejected": 22,
+  "reasons": {
+   "disagree": 7,
+   "manual": 1,
+   "audit": 8,
+   "py-disagrees-key": 4,
+   "solver1-disagrees": 1,
+   "python": 1
+  },
+  "unaudited": 0,
+  "answer_letters": {
+   "B": 66,
+   "D": 63,
+   "C": 65,
+   "A": 64
+  }
+ },
+ "biology": {
+  "generated": 336,
+  "kept": 320,
+  "rejected": 16,
+  "reasons": {
+   "audit": 10,
+   "bad-shape": 2,
+   "ambiguous": 2,
+   "disagree": 1,
+   "solver1-disagrees": 1
+  },
+  "unaudited": 0,
+  "answer_letters": {
+   "B": 84,
+   "A": 80,
+   "D": 77,
+   "C": 79
+  }
+ },
+ "economics": {
+  "generated": 315,
+  "kept": 301,
+  "rejected": 14,
+  "reasons": {
+   "audit": 3,
+   "disagree": 5,
+   "bad-shape": 1,
+   "ambiguous": 3,
+   "python": 1,
+   "solver1-disagrees": 1
+  },
+  "unaudited": 0,
+  "answer_letters": {
+   "B": 77,
+   "C": 75,
+   "D": 74,
+   "A": 75
+  }
+ },
+ "government": {
+  "generated": 288,
+  "kept": 271,
+  "rejected": 17,
+  "reasons": {
+   "audit": 6,
+   "disagree": 4,
+   "ambiguous": 4,
+   "solver1-disagrees": 3
+  },
+  "unaudited": 0,
+  "answer_letters": {
+   "D": 67,
+   "B": 68,
+   "A": 66,
+   "C": 70
+  }
+ },
+ "literature": {
+  "generated": 286,
+  "kept": 277,
+  "rejected": 9,
+  "reasons": {
+   "disagree": 2,
+   "audit": 4,
+   "duplicate": 1,
+   "ambiguous": 2
+  },
+  "unaudited": 0,
+  "answer_letters": {
+   "B": 69,
+   "C": 69,
+   "D": 69,
+   "A": 70
+  }
+ },
+ "crs": {
+  "generated": 193,
+  "kept": 186,
+  "rejected": 7,
+  "reasons": {
+   "ambiguous": 5,
+   "solver1-disagrees": 2
+  },
+  "unaudited": 0,
+  "answer_letters": {
+   "A": 48,
+   "D": 46,
+   "B": 46,
+   "C": 46
+  }
+ },
+ "commerce": {
+  "generated": 168,
+  "kept": 161,
+  "rejected": 7,
+  "reasons": {
+   "ambiguous": 6,
+   "python": 1
+  },
+  "unaudited": 0,
+  "answer_letters": {
+   "D": 39,
+   "A": 41,
+   "C": 39,
+   "B": 42
+  }
+ },
+ "accounting": {
+  "generated": 168,
+  "kept": 161,
+  "rejected": 7,
+  "reasons": {
+   "python": 1,
+   "ambiguous": 4,
+   "solver1-disagrees": 1,
+   "solver2-disagrees": 1
+  },
+  "unaudited": 0,
+  "answer_letters": {
+   "C": 39,
+   "A": 41,
+   "B": 40,
+   "D": 41
+  }
+ },
+ "geography": {
+  "generated": 176,
+  "kept": 169,
+  "rejected": 7,
+  "reasons": {
+   "ambiguous": 5,
+   "bad-shape": 1,
+   "solver1-disagrees": 1
+  },
+  "unaudited": 0,
+  "answer_letters": {
+   "B": 42,
+   "D": 42,
+   "A": 42,
+   "C": 43
+  }
+ }
+}

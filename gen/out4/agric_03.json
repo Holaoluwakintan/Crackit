@@ -1,0 +1,169 @@
+{
+"subject": "agric",
+"topic": "Soil fertility, fertilisers and manures",
+"ti": 3,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best describes soil fertility?",
+"options": [
+"The capacity of soil to supply nutrients needed for healthy crop growth",
+"The weight of soil particles per hectare",
+"The number of earthworms found in a soil sample",
+"The colour of the topsoil layer"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Soil fertility refers to the ability of soil to provide the nutrients and conditions that crops need to grow well. The other options do not define fertility.",
+"pidgin": "Soil fertility na how di soil fit give di nutrients wey crop need to grow well. Di oda options no dey explain fertility at all.",
+"py": null,
+"values": null,
+"id": "wagr0300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer in Benue State notices that her maize farm has poor growth even though she applies fertilizer regularly. Which of the following is NOT a likely cause of continued low fertility?",
+"options": [
+"Severe leaching of nutrients on sandy soil",
+"Continuous cropping without rest",
+"Planting a legume like cowpea before maize",
+"Removal of topsoil through erosion"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Planting a legume like cowpea before maize actually improves soil fertility through nitrogen fixation, so it is not a cause of low fertility. The other three options reduce soil fertility.",
+"pidgin": "To plant legume like cowpea before maize dey add nitrogen to soil, e no dey cause low fertility. But di oda three things dey reduce di soil fertility well well.",
+"py": null,
+"values": null,
+"id": "wagr0301",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which nutrient element in NPK fertilizer is most easily lost from the soil through leaching because it exists mainly as a soluble nitrate ion?",
+"options": [
+"Nitrogen",
+"Phosphorus",
+"Potassium",
+"Calcium"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Nitrogen, especially in the nitrate form (NO3-), dissolves easily in water and is washed down below the root zone, which is why it is most prone to leaching. Phosphorus and potassium are less mobile in soil.",
+"pidgin": "Nitrogen, especially as nitrate, dey mix well well with water so rain fit wash am comot from where di roots dey. Phosphorus and potassium no dey move like that inside soil.",
+"py": null,
+"values": null,
+"id": "wagr0302",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer applies fertilizer at the rate of 300 kg per hectare on his 4-hectare rice farm in Niger State. If each kilogram of the fertilizer costs ₦180, what is the total cost of fertilizer for the whole farm?",
+"options": [
+"₦216,000",
+"₦180,000",
+"₦120,000",
+"₦240,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Total fertilizer needed = 300 kg/ha x 4 ha = 1200 kg. Total cost = 1200 kg x ₦180 = ₦216,000.",
+"pidgin": "Total fertilizer wey dem go need = 300kg x 4 hectare = 1200kg. Total money = 1200kg x ₦180 = ₦216,000.",
+"py": "300*4*180",
+"values": [
+216000,
+180000,
+120000,
+240000
+],
+"id": "wagr0303",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following farm practices helps to improve soil fertility while also reducing soil erosion on a sloppy farmland?",
+"options": [
+"Planting cover crops such as centrosema",
+"Bush burning before planting",
+"Continuous monocropping of maize",
+"Deep ploughing across the slope every season"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Cover crops like centrosema protect the soil surface from erosion while adding organic matter and nitrogen to improve fertility. Bush burning and monocropping instead reduce soil fertility over time.",
+"pidgin": "Cover crop like centrosema dey cover di soil so erosion no go carry am, e dey also add organic matter and nitrogen go soil. Bush burning and monocropping dey spoil di soil instead.",
+"py": null,
+"values": null,
+"id": "wagr0304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Farmyard manure is generally considered better than chemical fertilizer for long-term soil improvement mainly because it",
+"options": [
+"improves soil structure and adds organic matter in addition to supplying nutrients",
+"acts faster than chemical fertilizer in supplying nutrients to crops",
+"contains a higher percentage of nitrogen than urea",
+"is completely free of any disease-causing organisms"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Farmyard manure improves soil texture, water-holding capacity and adds humus while slowly releasing nutrients, which benefits the soil over a longer period. Chemical fertilizers act faster but do not improve soil structure.",
+"pidgin": "Farmyard manure dey improve how di soil dey arrange and e dey add organic matter wey dey helep soil hold water, e dey release nutrients small small for long time. Chemical fertilizer dey work fast but e no dey improve soil structure.",
+"py": null,
+"values": null,
+"id": "wagr0305",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A crop that performs best in slightly acidic soil (pH 6.0-6.5) is being grown by a farmer who repeatedly applies ammonium sulphate fertilizer over several years. What long-term effect should the farmer expect on the soil pH?",
+"options": [
+"The soil will become more acidic over time",
+"The soil will become more alkaline over time",
+"The soil pH will remain completely unchanged",
+"The soil will become neutral regardless of the original pH"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Ammonium sulphate is an acid-forming fertilizer; repeated use releases hydrogen ions into the soil, lowering the pH and making the soil more acidic over time. This can eventually harm crops that need near-neutral conditions.",
+"pidgin": "Ammonium sulphate na fertilizer wey dey make soil acidic small small as farmer dey use am plenty times, e dey release hydrogen ions wey dey lower di pH. If dem no control am, e fit spoil crop wey need pH wey no too acidic.",
+"py": null,
+"values": null,
+"id": "wagr0306",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

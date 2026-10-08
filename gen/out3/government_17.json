@@ -1,0 +1,80 @@
+{
+"subject": "government",
+"topic": "International organisations: UN, AU, ECOWAS, Commonwealth, OPEC",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following international organisations has its membership restricted only to countries located on the African continent?",
+"options": [
+"African Union (AU)",
+"Commonwealth of Nations",
+"Organization of the Petroleum Exporting Countries (OPEC)",
+"United Nations (UN)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The African Union is made up only of African states, unlike the UN, Commonwealth, and OPEC, which have members from different continents. This makes it a purely continental organisation.",
+"pidgin": "African Union na only African kontries dey inside am. UN, Commonwealth, and OPEC get members from different continents, but AU na only Africa.",
+"id": "govv1700",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Under the ECOWAS Protocol on Free Movement of Persons, what right is granted to citizens of member states travelling within the sub-region?",
+"options": [
+"Automatic citizenship of any member state after six months",
+"The right to vote in the national elections of any member state",
+"The right to enter and stay in another member state for up to 90 days without a visa",
+"The right to hold a government ministerial post in another member state"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The ECOWAS Protocol allows citizens of member states to enter another member country visa-free and stay for up to 90 days, promoting regional integration. It does not grant automatic citizenship, voting rights, or government positions.",
+"pidgin": "ECOWAS Protocol give citizens power to waka enter another member kontri witout visa and stay for 90 days. E no mean say dem go automatically become citizen, vote, or hold government post.",
+"id": "govv1701",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A member country of OPEC wants to help raise the global price of crude oil. Based on OPEC's usual method of controlling oil prices, what should this country do?",
+"options": [
+"Increase its production above its agreed quota",
+"Comply with an OPEC-agreed cut in its production quota",
+"Withdraw from OPEC and sell oil at any price it wants",
+"Fix oil prices directly with each buyer nation"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "OPEC controls global oil prices mainly by agreeing on production quotas among members; cutting output reduces supply and pushes prices up. Increasing production or acting independently would work against this goal.",
+"pidgin": "OPEC dey control oil price by make members agree to cut how much oil dem go produce; if supply reduce, price go rise. If kontri increase production or waka comot to sell anyhow, e no go help raise price.",
+"id": "govv1702",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "The Commonwealth of Nations mainly promotes cooperation among its member countries in which of these areas?",
+"options": [
+"Formation of a joint military defence pact",
+"Adoption of a single currency and customs union",
+"Religious integration policies for all members",
+"Democracy, human rights, trade and development cooperation"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The Commonwealth focuses on promoting democracy, human rights, trade, and development among its member states, which share historical ties to Britain. It is not a military alliance, a currency union, or a religious body.",
+"pidgin": "Commonwealth dey focus on promote democracy, human rights, trade, and development among im members wey get historical connection to Britain. E no be military alliance, currency union, or religious group.",
+"id": "govv1703",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

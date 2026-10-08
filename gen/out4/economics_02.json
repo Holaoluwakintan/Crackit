@@ -1,0 +1,179 @@
+{
+"subject": "economics",
+"topic": "Demand",
+"ti": 2,
+"generated": 7,
+"kept": [
+{
+"q": "In Economics, demand for a commodity means:",
+"options": [
+"the desire to own a commodity regardless of price",
+"the quantity of a commodity a producer is willing to sell",
+"the willingness and ability of a consumer to buy a commodity at a given price",
+"the total stock of a commodity available in the market"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Demand is not just wanting something; it must be backed by the ability (money) and willingness to pay for it at a particular price. This makes option C the correct economic meaning of demand.",
+"pidgin": "Demand no just mean say you wan buy something. You must get money and also willing to pay for am for that price. Na so economics take explain demand, so C correct.",
+"py": null,
+"values": null,
+"id": "weco0200",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "According to the law of demand, if the price of garri falls while other factors remain constant, the quantity of garri demanded will:",
+"options": [
+"decrease",
+"remain the same",
+"increase",
+"fall to zero"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The law of demand states that price and quantity demanded move in opposite directions, so a fall in price normally leads to a rise in quantity demanded, other things being equal.",
+"pidgin": "Law of demand talk say price and quantity demanded dey move for opposite direction. If price fall, people go wan buy more, so quantity demanded go increase.",
+"py": null,
+"values": null,
+"id": "weco0201",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The demand for bricklayers in Lagos tends to rise whenever there is an increase in building construction activities. This situation best illustrates:",
+"options": [
+"composite demand",
+"derived demand",
+"joint demand",
+"competitive demand"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Derived demand occurs when the demand for one good or service depends on the demand for another good it helps to produce. Bricklayers are demanded because of the demand for buildings, so their demand is 'derived' from building construction.",
+"pidgin": "Derived demand na when demand for one thing dey depend on demand for another thing. Bricklayers dey needed because people wan build house, so na from building construction dem get their demand. B correct.",
+"py": null,
+"values": null,
+"id": "weco0203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The price of a bag of garri in Mile 12 market increased from ₦2,000 to ₦2,400 per bag. As a result, the quantity demanded per week fell from 50 bags to 40 bags. Using the percentage method, calculate the price elasticity of demand (ignore the negative sign).",
+"options": [
+"0.5",
+"1.0",
+"1.5",
+"2.0"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Percentage change in quantity demanded = (40-50)/50 = -20%. Percentage change in price = (2400-2000)/2000 = 20%. Elasticity = 20%/20% = 1.0, meaning demand is unit elastic.",
+"pidgin": "Quantity demanded change by -20% (from 50 to 40), price also change by 20% (from 2000 to 2400). Divide the two percentages, you go get 1.0, na unit elastic demand.",
+"py": "abs(((40-50)/50)/((2400-2000)/2000))",
+"values": [
+0.5,
+1.0,
+1.5,
+2.0
+],
+"id": "weco0204",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Garri is the main staple food for many low-income families in a certain community. When the price of garri falls sharply, some of these families actually buy less garri because their real income rises enough for them to afford better foods like rice and beans instead. This behaviour, which contradicts the normal law of demand, best describes garri as:",
+"options": [
+"a normal good",
+"a Giffen good",
+"a complementary good",
+"a luxury good"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A Giffen good is a special inferior good where quantity demanded falls when price falls, because the resulting rise in real income makes consumers switch to better substitutes. This is the exact situation described for garri, so it is a Giffen good.",
+"pidgin": "Giffen good na special kind inferior good wey when price fall, people go buy am less, because their real money don increase well-well make dem fit buy better food like rice. Na so e happen for garri here, so B correct.",
+"py": null,
+"values": null,
+"id": "weco0205",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The demand schedule for oranges in a local market shows: at ₦25 per orange, 80 oranges are demanded per day; at ₦30 per orange, 60 oranges are demanded per day. Using the percentage method, calculate the price elasticity of demand between these two prices (ignore the negative sign).",
+"options": [
+"0.8",
+"1.0",
+"1.25",
+"1.5"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Percentage change in quantity demanded = (60-80)/80 = -25%. Percentage change in price = (30-25)/25 = 20%. Elasticity = 25%/20% = 1.25, so demand is elastic (greater than 1).",
+"pidgin": "Quantity demanded change by -25% (from 80 to 60), price change by 20% (from 25 to 30). When you divide 25% by 20%, you go get 1.25, demand na elastic one.",
+"py": "abs(((60-80)/80)/((30-25)/25))",
+"values": [
+0.8,
+1.0,
+1.25,
+1.5
+],
+"id": "weco0206",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Mrs. Adaeze always buys a tube of toothpaste together with a toothbrush, even though each is used separately for a different purpose. This relationship between toothpaste and toothbrush illustrates:",
+"options": [
+"derived demand",
+"joint demand",
+"composite demand",
+"competitive demand"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Joint (complementary) demand occurs when two goods are usually bought and used together, such as toothpaste and toothbrush, or bread and butter. An increase in demand for one tends to increase demand for the other.",
+"pidgin": "Joint demand na when two goods dey used together, like toothpaste and toothbrush. If people dey buy more toothbrush, dem go also buy more toothpaste, so B correct.",
+"py": null,
+"values": null,
+"id": "weco0202",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:|Stem wrongly says the goods are used separately for different purposes; joint demand means goods used together"
+}
+]
+}

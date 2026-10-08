@@ -1,0 +1,192 @@
+{
+"subject": "geography",
+"topic": "Elementary surveying and GIS",
+"generated": 8,
+"kept": [
+{
+"q": "Surveying, as used in geography and land studies, is best described as the science and art of ____.",
+"options": [
+"measuring distances only with a tape",
+"determining the relative positions, distances, and directions of points on or near the earth's surface",
+"drawing freehand maps without any measurement",
+"classifying rocks and minerals found in an area"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Surveying involves finding out how points on land relate to one another in terms of position, distance, and direction, so that accurate maps and plans can be made. It is not just measuring with a tape or drawing freehand.",
+"pidgin": "Surveying na science and art wey dem dey use find how points for land relate with each other for position, distance and direction. E pass just measuring with tape or free hand drawing.",
+"py": null,
+"values": null,
+"id": "geov0300",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In a simple chain survey carried out by a class of SS2 students in Enugu, which instrument is mainly used to measure horizontal distances between survey stations?",
+"options": [
+"Theodolite",
+"Ranging pole",
+"Chain or tape",
+"Prismatic compass"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The chain (or tape) is the basic tool for measuring horizontal distances in chain surveying. The theodolite measures angles, the ranging pole helps in sighting a straight line, and the compass measures bearings, not distance.",
+"pidgin": "Chain or tape na the main tool wey dem dey use measure the ground distance for chain survey. Theodolite na for angle, ranging pole na for sight straight line, compass na for bearing, no be distance.",
+"py": null,
+"values": null,
+"id": "geov0301",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "During a field survey near Abeokuta, a student took the bearing of point B from point A and recorded it as 040°. What is the bearing of point A from point B (the back bearing)?",
+"options": [
+"220°",
+"040°",
+"140°",
+"320°"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The back bearing is found by adding 180° to the forward bearing when it is less than 180°. So 040° + 180° = 220°. This 220° is the bearing of A as seen from B.",
+"pidgin": "To find back bearing when the first bearing small pass 180°, you go add 180° to am. So 040° + 180° = 220°, na so you go take find bearing of A from B.",
+"py": "(40+180)%360",
+"values": [
+220,
+40,
+140,
+320
+],
+"id": "geov0302",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A topographical map of a part of Kano State has a scale of 1:50,000. If the distance between two settlements on the map is 4 cm, what is the actual distance between them on the ground, in kilometres?",
+"options": [
+"4 km",
+"0.5 km",
+"2 km",
+"20 km"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Actual distance = map distance x scale = 4 cm x 50,000 = 200,000 cm. Converting to km: 200,000 cm ÷ 100,000 (since 1 km = 100,000 cm) = 2 km.",
+"pidgin": "Real distance = map distance x scale = 4cm x 50,000 = 200,000cm. If you convert am to km, 200,000 ÷ 100,000 = 2km, since 1km be 100,000cm.",
+"py": "(4*50000)/100000",
+"values": [
+4,
+0.5,
+2,
+20
+],
+"id": "geov0303",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A cocoa farm in Ondo State is represented on a map of scale 1:25,000 as a rectangle measuring 6 cm by 4 cm. What is the actual area of the farm on the ground, in square kilometres?",
+"options": [
+"1.5 km^2",
+"3.0 km^2",
+"0.75 km^2",
+"6.0 km^2"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Actual length = 6 cm x 25,000 = 150,000 cm = 1.5 km. Actual width = 4 cm x 25,000 = 100,000 cm = 1 km. Area = 1.5 km x 1 km = 1.5 km^2.",
+"pidgin": "Real length = 6cm x 25,000 = 150,000cm = 1.5km. Real width = 4cm x 25,000 = 100,000cm = 1km. Area = 1.5km x 1km = 1.5 km^2.",
+"py": "(6*25000/100000)*(4*25000/100000)",
+"values": [
+1.5,
+3.0,
+0.75,
+6.0
+],
+"id": "geov0304",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "In Geographic Information System (GIS) studies taught in Nigerian secondary schools, the acronym GIS stands for ____.",
+"options": [
+"Geographic Information System",
+"Global Imaging Survey",
+"Geological Interpretation Service",
+"Geometric Information Survey"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "GIS means Geographic Information System, a computer-based tool used to capture, store, analyse, and display spatial (location-based) data such as maps of towns, roads, and rivers.",
+"pidgin": "GIS mean Geographic Information System, na computer tool wey dem dey use capture, store, analyse and show spatial data like map of towns, roads and rivers.",
+"py": null,
+"values": null,
+"id": "geov0305",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which surveying instrument is specifically designed to measure both horizontal and vertical angles accurately during land levelling and mapping exercises?",
+"options": [
+"Chain",
+"Ranging pole",
+"Theodolite",
+"Prismatic compass"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The theodolite is built to measure both horizontal and vertical angles precisely, which is essential in detailed land surveys. The chain measures length, ranging poles mark alignment, and the compass gives direction only.",
+"pidgin": "Theodolite na the instrument wey dem make specially to measure horizontal and vertical angle well-well. Chain na for length, ranging pole na for alignment, compass na for direction only.",
+"py": null,
+"values": null,
+"id": "geov0306",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A group of surveying students carried out a closed traverse survey of a plot of land with 5 sides in Jos. When they added up all the interior angles they measured in the field, they got 538°. Given that the correct sum of interior angles of a closed traverse with n sides should be (n-2) x 180°, what is the angular error in their survey?",
+"options": [
+"2°",
+"4°",
+"1°",
+"5°"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For n = 5 sides, the correct sum should be (5-2) x 180° = 540°. The students measured 538°, so the error = 540° - 538° = 2°, which must be distributed among the angles to correct the survey.",
+"pidgin": "For n = 5 sides, the correct total suppose be (5-2) x 180° = 540°. Dem measure 538°, so the error na 540° - 538° = 2°, wey dem go share am well among the angles to correct the survey.",
+"py": "(5-2)*180 - 538",
+"values": [
+2,
+4,
+1,
+5
+],
+"id": "geov0307",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

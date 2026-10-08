@@ -1,0 +1,181 @@
+{
+"subject": "commerce",
+"topic": "Foreign trade: procedures, documents and balance of payments",
+"generated": 8,
+"kept": [
+{
+"q": "Which document serves as evidence of a contract of carriage of goods by sea, acts as a receipt for the goods shipped, and also serves as a document of title to the goods?",
+"options": [
+"Bill of Lading",
+"Bill of Exchange",
+"Bill of Sight",
+"Certificate of Origin"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A Bill of Lading is issued by the shipping company to the exporter. It proves that goods have been loaded on board a ship and can be used to transfer ownership of the goods.",
+"pidgin": "Bill of Lading na di paper wey shipping company give di exporter wen dem don load di goods for ship. E dey show say di goods dey for ship and e fit transfer ownership of di goods.",
+"py": null,
+"values": null,
+"id": "comv0300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In foreign trade, which document states the country in which goods being exported were actually manufactured or produced?",
+"options": [
+"Letter of Credit",
+"Certificate of Origin",
+"Consular Invoice",
+"Import Licence"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A Certificate of Origin shows the country where goods were manufactured. It is important for customs duty purposes and for checking trade agreements between countries.",
+"pidgin": "Certificate of Origin na di paper wey show di kontri wey dem produce di goods. Customs dey use am to check duty and trade agreement between kontris.",
+"py": null,
+"values": null,
+"id": "comv0301",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Chinwe, an importer in Lagos, wants her bank to guarantee payment to her overseas supplier once the supplier presents shipping documents proving goods have been sent as agreed. Which document should her bank issue to the supplier?",
+"options": [
+"Bill of Lading",
+"Certificate of Origin",
+"Letter of Credit",
+"Charter Party"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A Letter of Credit is a guarantee from the importer's bank to pay the exporter once agreed conditions, such as submission of correct shipping documents, are met. It reduces the risk of non-payment in foreign trade.",
+"pidgin": "Letter of Credit na guarantee wey di importer bank dey give say dem go pay di exporter once di correct documents don show. E dey reduce risk say exporter no go collect money.",
+"py": null,
+"values": null,
+"id": "comv0302",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "If the total value of a country's visible imports is less than the total value of its visible exports within a given year, this situation is best described as a",
+"options": [
+"balance of payments deficit",
+"unfavourable balance of trade",
+"balance of payments surplus",
+"favourable balance of trade"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "When visible exports exceed visible imports, the country has earned more from selling goods abroad than it spent on buying them, which is called a favourable balance of trade.",
+"pidgin": "When di goods wey kontri sell abroad pass wetin e buy from abroad, dem dey call am favourable balance of trade because di kontri don make surplus for di trade.",
+"py": null,
+"values": null,
+"id": "comv0303",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Which of the following items is classified as an invisible item in a country's balance of payments account?",
+"options": [
+"Export of crude oil",
+"Import of machinery",
+"Export of cocoa",
+"Income earned from tourism services"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Invisible items are services, not physical goods, such as tourism, insurance, banking and shipping services. Crude oil, machinery and cocoa are all tangible goods, so they are visible trade items.",
+"pidgin": "Invisible items na services, no be real goods wey you fit touch, like tourism, insurance and shipping. Crude oil, machinery and cocoa na physical goods, so na visible trade.",
+"py": null,
+"values": null,
+"id": "comv0304",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A JAMB candidate was asked to distinguish between balance of trade and balance of payments. Which statement correctly explains the difference?",
+"options": [
+"Balance of trade covers only visible items while balance of payments covers both visible and invisible items",
+"Balance of trade covers invisible items while balance of payments covers only visible items",
+"Balance of trade and balance of payments mean exactly the same thing",
+"Balance of trade is wider in scope than balance of payments"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Balance of trade records only visible items, that is, physical goods exported and imported. Balance of payments is broader because it records both visible items and invisible items like services, interest, and capital movements.",
+"pidgin": "Balance of trade na only visible items, wey be physical goods wey dem export and import. Balance of payments wide pass am because e include both visible and invisible items like services and capital movement.",
+"py": null,
+"values": null,
+"id": "comv0306",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In a particular trading year, Nigeria's visible exports amounted to ₦450 billion while her visible imports amounted to ₦520 billion. What was Nigeria's balance of trade position for that year?",
+"options": [
+"Deficit of ₦970 billion",
+"Surplus of ₦970 billion",
+"Deficit of ₦70 billion",
+"Surplus of ₦70 billion"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Balance of trade = Visible exports minus Visible imports = 450 - 520 = -70 billion. Since imports are greater than exports, there is a deficit of ₦70 billion, meaning the balance of trade is unfavourable.",
+"pidgin": "Balance of trade = Exports minus Imports = 450 - 520 = -70 billion. Since imports pass exports, e mean say na deficit of ₦70 billion, so di balance of trade no favour Nigeria.",
+"py": "520-450",
+"values": [
+970,
+970,
+70,
+70
+],
+"id": "comv0305",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "Which document is used by customs officers to assess the amount of import duty payable on goods before the goods are cleared from the port?",
+"options": [
+"Airway Bill",
+"Charter Party",
+"Consular Invoice",
+"Bill of Entry"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A Bill of Entry is completed by the importer or agent and submitted to customs. It contains details of the goods, which customs officers use to calculate and assess import duty before clearing the goods.",
+"pidgin": "Bill of Entry na paper wey importer or im agent dey fill give customs. E get details of di goods wey customs go use calculate di duty wey dem go pay before dem clear di goods.",
+"py": null,
+"values": null,
+"id": "comv0307",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+"why": "ambiguous:A consular invoice can also be used to assess import duty.|Consular invoice is also described in texts as used by customs to assess import duty"
+}
+]
+}

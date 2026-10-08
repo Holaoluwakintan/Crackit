@@ -1,0 +1,112 @@
+{
+"subject": "maths",
+"topic": "Circle geometry and circle theorems (describe figures fully in words)",
+"generated": 4,
+"kept": [
+{
+"q": "ABCD is a cyclic quadrilateral, meaning all four points A, B, C and D lie on the circumference of the same circle, with the vertices taken in that order round the circle. If angle A (angle DAB) is 108°, what is the size of angle C (angle BCD), the angle opposite to angle A?",
+"options": [
+"36°",
+"54°",
+"72°",
+"108°"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Opposite angles of a cyclic quadrilateral are supplementary, so they add up to 180°. Angle C = 180° - 108° = 72°.",
+"pidgin": "For cyclic quadrilateral, the two opposite angles must add up to 180 degrees. So angle C = 180 - 108 = 72 degrees.",
+"py": "180-108",
+"values": [
+36,
+54,
+72,
+108
+],
+"id": "matv1600",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A tangent line touches a circle at point P. A chord PQ is drawn from P into the circle such that the angle between the tangent and the chord PQ is 42°. R is a point on the major arc PQ, that is, the arc of the circle that lies on the far side of the chord away from where the 42° angle was measured. What is the size of angle PRQ?",
+"options": [
+"42°",
+"48°",
+"84°",
+"138°"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "By the alternate segment theorem, the angle between a tangent and a chord equals the angle in the alternate segment. So angle PRQ, which is in the alternate segment to the 42° angle, is also 42°.",
+"pidgin": "The alternate segment theorem talk say angle between tangent and chord go equal the angle for the other segment. So angle PRQ na 42 degrees too.",
+"py": "42",
+"values": [
+42,
+48,
+84,
+138
+],
+"id": "matv1601",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "In a circle with centre O, two tangents are drawn from an external point T, touching the circle at points A and B. If OA = 5 cm (the radius) and OT = 13 cm (the distance from the centre to the external point), what is the length of the tangent TA?",
+"options": [
+"8 cm",
+"10 cm",
+"11 cm",
+"12 cm"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A radius drawn to the point of tangency is perpendicular to the tangent, so triangle OAT is right-angled at A. By Pythagoras, TA = sqrt(OT^2 - OA^2) = sqrt(169 - 25) = sqrt(144) = 12 cm.",
+"pidgin": "Because the radius dey perpendicular to the tangent, triangle OAT get right angle for A. Using Pythagoras, TA = sqrt(13^2 - 5^2) = sqrt(144) = 12 cm.",
+"py": "math.sqrt(13**2-5**2)",
+"values": [
+8,
+10,
+11,
+12
+],
+"id": "matv1602",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "From an external point E, two straight lines are drawn so that each one cuts through a circle at two points. The first line meets the circle first at point A and then at point B, with EA = 6 cm and AB = 4 cm. The second line meets the circle first at point C and then at point D, with EC = 5 cm. What is the length of CD?",
+"options": [
+"6 cm",
+"7 cm",
+"8 cm",
+"9 cm"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "By the intersecting secants theorem, EA x EB = EC x ED, where EB = EA + AB = 6 + 4 = 10. So 6 x 10 = 5 x ED, giving ED = 60/5 = 12 cm. Then CD = ED - EC = 12 - 5 = 7 cm.",
+"pidgin": "The secants rule talk say EA x EB go equal EC x ED, and EB = 6+4 = 10. So 6 x 10 = 5 x ED, make ED = 12 cm. Then CD = ED - EC = 12 - 5 = 7 cm.",
+"py": "(6*(6+4))/5 - 5",
+"values": [
+6,
+7,
+8,
+9
+],
+"id": "matv1603",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,171 @@
+{
+"subject": "physics",
+"topic": "Heat capacity and latent heat",
+"ti": 11,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following best defines the heat capacity of a body?",
+"options": [
+"the quantity of heat required to raise the temperature of the whole body by 1 K",
+"the quantity of heat needed to raise the temperature of 1 kg of a substance by 1 K",
+"the quantity of heat needed to melt 1 kg of a substance without changing its temperature",
+"the quantity of heat lost per second by a hot body"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Heat capacity is the total quantity of heat needed to raise the temperature of a particular body (not per kg) by 1 K. It depends on the mass and specific heat capacity of the whole body.",
+"pidgin": "Heat capacity na di total heat wey dem need to raise di temperature of di whole body (not per kg) by 1 K. E depend on di mass and specific heat capacity of di body.",
+"py": null,
+"values": null,
+"id": "wphy1100",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A block of metal has a mass of 2 kg and specific heat capacity of 400 J/kgK. Calculate the heat capacity of the block.",
+"options": [
+"400 J/K",
+"800 J/K",
+"1600 J/K",
+"200 J/K"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Heat capacity C = mass x specific heat capacity = 2 kg x 400 J/kgK = 800 J/K.",
+"pidgin": "Heat capacity C = mass x specific heat capacity = 2 kg x 400 J/kgK = 800 J/K.",
+"py": "2*400",
+"values": [
+400,
+800,
+1600,
+200
+],
+"id": "wphy1101",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A kettle contains 3 kg of water at 25°C. Calculate the quantity of heat required to raise the temperature of the water to 85°C. [Specific heat capacity of water = 4200 J/kgK]",
+"options": [
+"504000 J",
+"630000 J",
+"756000 J",
+"378000 J"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Heat required Q = mcΔθ = 3 x 4200 x (85-25) = 3 x 4200 x 60 = 756000 J.",
+"pidgin": "Heat wey dem need Q = mcΔθ = 3 x 4200 x (85-25) = 3 x 4200 x 60 = 756000 J.",
+"py": "3*4200*60",
+"values": [
+504000,
+630000,
+756000,
+378000
+],
+"id": "wphy1102",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Calculate the quantity of heat required to melt 0.5 kg of ice completely at its melting point. [Specific latent heat of fusion of ice = 334,000 J/kg]",
+"options": [
+"334000 J",
+"83500 J",
+"668000 J",
+"167000 J"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Heat needed Q = mL = 0.5 x 334000 = 167000 J. This heat changes the state of the ice without changing its temperature.",
+"pidgin": "Heat wey dem need Q = mL = 0.5 x 334000 = 167000 J. Dis heat dey change di state of di ice but e no dey change di temperature.",
+"py": "0.5*334000",
+"values": [
+334000,
+83500,
+668000,
+167000
+],
+"id": "wphy1103",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A 2 kg block of ice at -5°C is to be completely converted to water at 15°C. Using specific heat capacity of ice = 2100 J/kgK, specific latent heat of fusion of ice = 334,000 J/kg, and specific heat capacity of water = 4200 J/kgK, calculate the total quantity of heat required.",
+"options": [
+"815000 J",
+"794000 J",
+"689000 J",
+"147000 J"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Three stages: (1) warm ice from -5°C to 0°C: 2x2100x5 = 21000 J. (2) melt ice at 0°C: 2x334000 = 668000 J. (3) warm water from 0°C to 15°C: 2x4200x15 = 126000 J. Total = 21000+668000+126000 = 815000 J.",
+"pidgin": "E get three stages: (1) warm di ice from -5°C to 0°C: 2x2100x5 = 21000 J. (2) melt di ice for 0°C: 2x334000 = 668000 J. (3) warm di water from 0°C to 15°C: 2x4200x15 = 126000 J. If you add dem, total na 815000 J.",
+"py": "(2*2100*5)+(2*334000)+(2*4200*15)",
+"values": [
+815000,
+794000,
+689000,
+147000
+],
+"id": "wphy1104",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A metal block of heat capacity 200 J/K at 80°C is dropped into a liquid of heat capacity 800 J/K at 20°C inside a well-lagged container. Assuming no heat is lost to the surroundings, calculate the final common temperature of the mixture.",
+"options": [
+"50°C",
+"32°C",
+"26°C",
+"44°C"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Heat lost by metal = heat gained by liquid: 200(80-T) = 800(T-20). Expanding gives 16000-200T = 800T-16000, so 32000 = 1000T, giving T = 32°C.",
+"pidgin": "Heat wey metal lose = heat wey liquid gain: 200(80-T) = 800(T-20). If you expand am: 16000-200T = 800T-16000, so 32000=1000T, T=32°C.",
+"py": "(200*80+800*20)/(200+800)",
+"values": [
+50,
+32,
+26,
+44
+],
+"id": "wphy1105",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

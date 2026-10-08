@@ -1,0 +1,87 @@
+{
+"subject": "economics",
+"topic": "Natural resources and the petroleum industry in Nigeria",
+"generated": 3,
+"kept": [
+{
+"q": "In which decade did crude oil overtake agricultural products (like cocoa and groundnut) as Nigeria's leading foreign exchange earner?",
+"options": [
+"1950s",
+"1960s",
+"1970s",
+"1990s"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "After the Nigerian Civil War, the oil boom of the 1970s pushed crude oil export earnings far above those from agriculture. Before this, agriculture (cocoa, groundnut, palm produce) was Nigeria's main foreign exchange source.",
+"pidgin": "After di civil war, na for 1970s crude oil begin bring plenty money pass agriculture. Before that time na agriculture (cocoa, groundnut) dey bring the main foreign exchange.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "ecov1600",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "When a country's heavy reliance on crude oil exports causes its currency to appreciate, making other export goods like cocoa or textiles too expensive for foreign buyers, this economic phenomenon is best described as",
+"options": [
+"Import substitution",
+"Terms of trade deterioration",
+"Dutch Disease",
+"Balance of payments surplus"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Dutch Disease occurs when a booming resource sector (like oil) causes currency appreciation, which then hurts other export sectors by making them less price-competitive abroad. This weakens diversification of the economy away from oil.",
+"pidgin": "Dutch Disease na wetin dey happen when oil money make naira strong, so e make other exports like cocoa cost too much for foreign buyers. Dis one dey make am hard for economy to depend on something apart from oil.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "ecov1602",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Nigeria produces an average of 2.5 million barrels of crude oil per day. If each barrel is sold at $70 and the exchange rate is ₦1500 to $1, what is the approximate daily revenue in naira?",
+"options": [
+"₦175 billion",
+"₦200 billion",
+"₦262.5 billion",
+"₦300 billion"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "First find dollar revenue: 2.5 million barrels x $70 = $175 million. Convert to naira: $175 million x ₦1500 = ₦262.5 billion. This is a direct multiplication using the given figures.",
+"pidgin": "First calculate dollar money: 2.5 million barrels x $70 = $175 million. Now convert am to naira: $175 million x ₦1500 = ₦262.5 billion. Na simple multiplication be dat.",
+"py": "2.5e6*70*1500/1e9",
+"values": [
+175,
+200,
+262.5,
+300
+],
+"id": "ecov1601",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+"why": "ambiguous:₦262.5 billion; 2.5 million barrels/day is not Nigeria’s current average output.|"
+}
+]
+}

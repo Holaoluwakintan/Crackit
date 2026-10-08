@@ -1,0 +1,149 @@
+{
+"subject": "english",
+"topic": "Lexis: antonyms (opposite in meaning)",
+"ti": 1,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the options is most nearly OPPOSITE in meaning to the word in capitals?\n\nGENEROUS",
+"options": [
+"Stingy",
+"Kind",
+"Wealthy",
+"Charitable"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Generous means willing to give freely to others. Stingy means unwilling to give or spend, so it is the direct opposite.",
+"pidgin": "Generous mean say person like give freely. Stingy mean say person no wan give at all, so na the opposite.",
+"id": "weng0100",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the options is most nearly OPPOSITE in meaning to the word in capitals?\n\nANCIENT",
+"options": [
+"Old",
+"Historic",
+"Modern",
+"Antique"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Ancient means very old or belonging to a long time ago. Modern means belonging to present times, which is the exact opposite.",
+"pidgin": "Ancient mean say something old well-well from long time. Modern mean say e dey happen now, so na the opposite.",
+"id": "weng0101",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The road leading to Mr. Eze's farm was so NARROW that two vehicles could not pass through it at the same time. Choose the option that is OPPOSITE in meaning to the word in capitals.",
+"options": [
+"Short",
+"Long",
+"Smooth",
+"Wide"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Narrow means having a small width. Wide means having a large width, so it is the correct opposite of narrow in this context.",
+"pidgin": "Narrow mean say the road no big reach. Wide mean say e big well-well, so na im be the opposite.",
+"id": "weng0102",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During the debate, Chief Obi's remarks were very HARSH, and many of the students felt discouraged afterwards. Choose the option that is OPPOSITE in meaning to the word in capitals.",
+"options": [
+"Loud",
+"Gentle",
+"Clear",
+"Brief"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Harsh means severe or unkind in manner. Gentle means mild and kind, which makes it the correct opposite in this sentence.",
+"pidgin": "Harsh mean say the talk hard or unkind. Gentle mean say e soft and kind, so na the correct opposite.",
+"id": "weng0103",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Adeyemi is known among her neighbours to be very FRUGAL with her household money. Choose the option that is OPPOSITE in meaning to the word in capitals.",
+"options": [
+"Careful",
+"Wasteful",
+"Poor",
+"Simple"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Frugal means careful and economical when spending money. Wasteful means spending carelessly without control, which is its opposite.",
+"pidgin": "Frugal mean say person dey careful how e dey spend money. Wasteful mean say person dey spend anyhow, so na opposite.",
+"id": "weng0104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chief Balogun was a TACITURN man who hardly spoke at village meetings, preferring to sit quietly and listen. Choose the option that is OPPOSITE in meaning to the word in capitals.",
+"options": [
+"Silent",
+"Calm",
+"Serious",
+"Talkative"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Taciturn describes someone who speaks very little. Talkative describes someone who speaks a lot, making it the true opposite. Silent and calm are close to taciturn in meaning, not opposite to it.",
+"pidgin": "Taciturn na person wey no dey talk plenty. Talkative na person wey dey always talk, so na im be the real opposite. Silent and calm resemble taciturn, dem no be opposite.",
+"id": "weng0105",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Ngozi's answer to the question was so AMBIGUOUS that the examiner could not tell exactly what she meant. Choose the option that is OPPOSITE in meaning to the word in capitals.",
+"options": [
+"Confusing",
+"Short",
+"Clear",
+"Wrong"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Ambiguous means having more than one possible meaning or being unclear. Clear means easy to understand, which is the direct opposite. Confusing has a similar meaning to ambiguous, so it cannot be the opposite.",
+"pidgin": "Ambiguous mean say the answer no clear or e fit mean plenty things. Clear mean say e easy to understand, so na the opposite. Confusing resemble ambiguous, e no fit be the opposite.",
+"id": "weng0106",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

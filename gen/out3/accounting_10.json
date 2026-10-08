@@ -1,0 +1,180 @@
+{
+"subject": "accounting",
+"topic": "Depreciation of non-current assets and disposals",
+"generated": 8,
+"kept": [
+{
+"q": "In accounting, depreciation of a non-current asset is best described as:",
+"options": [
+"The fall in the resale value of the asset in the open market",
+"The systematic allocation of the cost of the asset over its useful life",
+"The amount set aside each year to buy a new asset",
+"The cost of repairing and maintaining the asset"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Depreciation is an accounting process that spreads the cost of a non-current asset over the years it is used to earn income. It is not the same as a fall in market value, saving for replacement, or repair costs.",
+"pidgin": "Depreciation na how dem dey spread the cost of asset for the years wey the business go use am. E no be say the market price of the asset fall, and e no be money wey dem dey keep to buy new one or to repair am.",
+"py": null,
+"values": null,
+"id": "accv1000",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Under the straight line method of depreciation, the annual depreciation charge is calculated as:",
+"options": [
+"(Cost of asset - Estimated residual value) divided by the estimated useful life",
+"Net book value multiplied by a fixed percentage every year",
+"Cost of asset divided by the number of years the asset has been used",
+"Market value of the asset minus its cost"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The straight line method charges an equal amount of depreciation each year, found by subtracting the residual (scrap) value from the cost and dividing by the useful life in years.",
+"pidgin": "Straight line method dey give equal depreciation every year. You go minus the scrap value from the cost, then divide the answer by the number of years wey the asset go dey used.",
+"py": null,
+"values": null,
+"id": "accv1001",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Mrs Adaeze bought a sewing machine for her tailoring shop in Onitsha for ₦450,000. It has an estimated useful life of 5 years and an estimated residual value of ₦50,000. Using the straight line method, what is the annual depreciation charge?",
+"options": [
+"₦80,000",
+"₦90,000",
+"₦100,000",
+"₦70,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Annual depreciation = (Cost - Residual value) / Useful life = (450,000 - 50,000) / 5 = 400,000 / 5 = ₦80,000.",
+"pidgin": "Annual depreciation = (Cost minus Residual value) divided by Useful life = (450,000 - 50,000) / 5 = 400,000 / 5 = ₦80,000.",
+"py": "(450000-50000)/5",
+"values": [
+80000,
+90000,
+100000,
+70000
+],
+"id": "accv1002",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A grinding machine bought by Baba Yusuf for ₦200,000 is depreciated at 10% per annum using the reducing balance method. What is the net book value of the machine at the end of the second year?",
+"options": [
+"₦162,000",
+"₦160,000",
+"₦180,000",
+"₦170,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Year 1: 200,000 x 0.90 = 180,000. Year 2: 180,000 x 0.90 = 162,000. The reducing balance method applies the rate to the net book value, not the original cost, each year.",
+"pidgin": "Year 1: 200,000 x 0.90 = 180,000. Year 2: 180,000 x 0.90 = 162,000. Reducing balance dey apply the rate on the balance wey remain, no be the original cost every time.",
+"py": "200000*0.9*0.9",
+"values": [
+162000,
+160000,
+180000,
+170000
+],
+"id": "accv1003",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A delivery van owned by Chika Ventures cost ₦120,000 and had accumulated depreciation of ₦80,000 at the date of disposal. The van was sold for ₦50,000. What is the result of this disposal?",
+"options": [
+"Profit on disposal of ₦10,000",
+"Loss on disposal of ₦10,000",
+"Profit on disposal of ₦30,000",
+"Loss on disposal of ₦30,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Net book value = Cost - Accumulated depreciation = 120,000 - 80,000 = 40,000. Since the van was sold for 50,000, which is higher than the net book value, there is a profit of 50,000 - 40,000 = 10,000.",
+"pidgin": "Net book value = Cost minus Accumulated depreciation = 120,000 - 80,000 = 40,000. Dem sell the van for 50,000, wey pass the net book value, so na profit of 50,000 - 40,000 = 10,000.",
+"py": null,
+"values": null,
+"id": "accv1004",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Alhaji Musa's transport company notices that its buses lose a much bigger portion of their value in the first two years of use than in later years, due to heavy early usage and quick technological wear. Which depreciation method best matches this pattern of value loss?",
+"options": [
+"Straight line method",
+"Revaluation method",
+"Reducing balance method",
+"Units of production method based only on distance travelled"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The reducing balance method charges higher depreciation in the earlier years because it applies a fixed percentage to a reducing net book value, matching assets that lose value quickly at first, such as vehicles.",
+"pidgin": "Reducing balance method dey charge higher depreciation for the early years because e dey apply percentage on the balance wey remain, wey still high for early years. This one match assets wey dey lose value fast for beginning, like motor.",
+"py": null,
+"values": null,
+"id": "accv1005",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Okonkwo Enterprises bought a printing machine for ₦300,000 with an estimated useful life of 6 years and no residual value, using the straight line method. The machine was sold after 3 years of use for ₦170,000. What was the result of the disposal?",
+"options": [
+"Profit on disposal of ₦20,000",
+"Loss on disposal of ₦20,000",
+"Profit on disposal of ₦50,000",
+"Loss on disposal of ₦10,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Annual depreciation = 300,000/6 = 50,000. After 3 years, accumulated depreciation = 150,000, so net book value = 300,000 - 150,000 = 150,000. The machine was sold for 170,000, giving a profit of 170,000 - 150,000 = 20,000.",
+"pidgin": "Annual depreciation = 300,000/6 = 50,000. After 3 years, accumulated depreciation = 150,000, so net book value = 300,000 - 150,000 = 150,000. Dem sell am for 170,000, so profit = 170,000 - 150,000 = 20,000.",
+"py": null,
+"values": null,
+"id": "accv1006",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "When a non-current asset is sold, which journal entry correctly transfers the accumulated depreciation on that asset out of the accumulated depreciation account into the disposal account?",
+"options": [
+"Debit Accumulated Depreciation account; Credit Disposal account",
+"Debit Disposal account; Credit Accumulated Depreciation account",
+"Debit Asset account; Credit Accumulated Depreciation account",
+"Debit Bank account; Credit Accumulated Depreciation account"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "To close off accumulated depreciation on disposal, the accumulated depreciation account is debited (to reduce its balance to zero for that asset) and the disposal account is credited with the same amount.",
+"pidgin": "To clear the accumulated depreciation when dem sell asset, you go debit Accumulated Depreciation account (make e balance reach zero for that asset) and credit the Disposal account with the same amount.",
+"py": null,
+"values": null,
+"id": "accv1007",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

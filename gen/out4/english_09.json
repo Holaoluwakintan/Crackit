@@ -1,0 +1,153 @@
+{
+"subject": "english",
+"topic": "Pronouns, question tags and determiners",
+"ti": 9,
+"generated": 7,
+"kept": [
+{
+"q": "Ngozi and ___ are planning to visit Kano next week.",
+"options": [
+"me",
+"I",
+"myself",
+"mine"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The pronoun is the subject of the verb 'are planning', so the subject form 'I' is correct. 'Me' is an object pronoun, 'myself' is reflexive, and 'mine' shows possession, none of which fit here.",
+"pidgin": "The pronoun na subject for the verb 'are planning', so na 'I' dey correct. 'Me' na object pronoun, 'myself' na reflexive, 'mine' na possession, dem no fit fit here.",
+"id": "weng0900",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Emeka is the best footballer in our school, ___?",
+"options": [
+"isn't he",
+"doesn't he",
+"is he",
+"isn't it"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The main statement is positive and uses the verb 'is', so the tag must be negative and use the same auxiliary verb 'is' with the matching pronoun 'he'. 'Isn't he' is the correct tag.",
+"pidgin": "The main statement na positive and e dey use 'is', so the tag suppose negative and use the same 'is' with 'he'. 'Isn't he' na the correct tag.",
+"id": "weng0901",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The farmers have not harvested their yams, ___?",
+"options": [
+"have they",
+"haven't they",
+"do they",
+"don't they"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Since the statement is negative ('have not harvested'), the tag must be positive, using the same auxiliary verb 'have' and the pronoun 'they'. So 'have they' is correct.",
+"pidgin": "Since the statement negative ('have not harvested'), the tag suppose positive, with the same 'have' and pronoun 'they'. So 'have they' na the correct one.",
+"id": "weng0902",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "There is ___ sugar left in the tin, so we cannot make more tea.",
+"options": [
+"few",
+"a few",
+"little",
+"many"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "'Sugar' is an uncountable noun, so 'few' and 'a few' (used for countable nouns) are wrong. 'Little' shows almost none is left, which matches the reason given for not making more tea.",
+"pidgin": "'Sugar' na uncountable noun, so 'few' and 'a few' (wey dey work for countable noun) no fit work. 'Little' show say almost nothing remain, and e match why dem no fit make more tea.",
+"id": "weng0903",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Bola looked at ___ in the mirror before leaving for the party.",
+"options": [
+"her",
+"herself",
+"hers",
+"she"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since Bola is both the person doing the looking and the one being looked at, a reflexive pronoun is needed. 'Herself' correctly shows the action reflects back on the subject.",
+"pidgin": "Since na Bola dey look and na im body she dey look, reflexive pronoun dey needed. 'Herself' show well well say the action dey return back to the subject.",
+"id": "weng0904",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Let's finish this assignment before the teacher returns, ___?",
+"options": [
+"shall we",
+"will we",
+"do we",
+"won't we"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Sentences beginning with 'Let's' (a suggestion) always take the special tag 'shall we', regardless of whether the sentence is positive or negative. This is a fixed exception in English grammar.",
+"pidgin": "Any sentence wey start with 'Let's' (as suggestion) always dey take the special tag 'shall we', no matter if e positive or negative. Na fixed exception for English grammar.",
+"id": "weng0905",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "___ of the students in the class passed the examination, but a significant number failed.",
+"options": [
+"Few",
+"A few",
+"Little",
+"Much"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "'Few' has a negative meaning, showing that only a small, insufficient number passed, which matches the contrast with 'a significant number failed'. 'A few' would wrongly suggest a positive, satisfactory number passed.",
+"pidgin": "'Few' get negative meaning, e show say na small number wey no reach well pass, and e match the contrast with 'significant number failed'. 'A few' for wrongly show say good number pass well.",
+"id": "weng0906",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

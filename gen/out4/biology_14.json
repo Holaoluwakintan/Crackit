@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Sense organs (eye, ear, skin)",
+"ti": 14,
+"generated": 6,
+"kept": [
+{
+"q": "Which part of the human eye controls the amount of light that enters the eye?",
+"options": [
+"Retina",
+"Iris",
+"Cornea",
+"Lens"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The iris is the coloured, muscular part of the eye that widens or narrows the pupil to control how much light enters. The retina receives the image, the cornea refracts light, and the lens focuses it, but none of these controls light quantity.",
+"pidgin": "Na iris dey control how much light dey enter eye, e be like the colourful part wey dey open or close the pupil. Retina na where image dey land, cornea and lens dey bend light make e focus well, but na only iris dey control light amount.",
+"id": "wbio1400",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which structure in the human ear is mainly responsible for maintaining body balance?",
+"options": [
+"Cochlea",
+"Eardrum (tympanic membrane)",
+"Semicircular canals",
+"Auditory nerve"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The semicircular canals contain fluid that moves when the head changes position, sending balance signals to the brain. The cochlea deals with hearing, the eardrum vibrates with sound, and the auditory nerve only carries sound signals.",
+"pidgin": "Na semicircular canals get the liquid wey dey move anytime head change position, e dey send balance message go brain. Cochlea na for hearing, eardrum na im dey vibrate with sound, auditory nerve na only sound message e dey carry.",
+"id": "wbio1401",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which layer of the human skin contains sweat glands, hair follicles and blood vessels?",
+"options": [
+"Epidermis",
+"Dermis",
+"Subcutaneous (fatty) layer",
+"Cuticle"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The dermis is the thicker inner layer of the skin that houses sweat glands, hair follicles, blood vessels and nerve endings. The epidermis is the outer protective layer without these structures, while the subcutaneous layer mainly stores fat.",
+"pidgin": "Na dermis, the inner layer wey thick, get sweat glands, hair follicles, blood vessels and nerves. Epidermis na the outer layer wey dey protect body, e no get all these things, while the fat layer wey dey under dey store fat.",
+"id": "wbio1402",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Ngozi walks straight from a dark cinema hall into bright afternoon sunlight. What immediate change occurs in her eyes?",
+"options": [
+"The pupil dilates to allow more light in",
+"The lens becomes more convex to focus near objects",
+"The pupil constricts to reduce the amount of light entering",
+"The cornea thickens to block excess light"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "In bright light, the circular muscles of the iris contract, making the pupil smaller (constrict) to reduce the amount of light entering and protect the retina. Dilation happens in dim light, not bright light, and the cornea does not thicken to control light.",
+"pidgin": "When light bright reach, the round muscle for iris go tighten make pupil small (constrict) so e go reduce the light wey dey enter, to protect retina. Na for dark place pupil dey dilate (open big), cornea no dey thicken to block light.",
+"id": "wbio1403",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During a cultural dance in his village, Chidi spins round quickly many times and immediately feels dizzy and unsteady when he stops. Which structure is mainly responsible for this feeling of imbalance?",
+"options": [
+"Cochlea, because it is responsible for hearing",
+"Semicircular canals, because the fluid inside keeps moving briefly after he stops spinning",
+"Pinna, because it collects and directs sound waves",
+"Eustachian tube, because it equalizes air pressure in the middle ear"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The semicircular canals contain fluid (endolymph) that moves as the head turns; when Chidi suddenly stops, the fluid keeps moving for a short time, sending false balance signals to the brain, causing dizziness. The cochlea, pinna and Eustachian tube are involved in hearing or pressure, not balance.",
+"pidgin": "Semicircular canals get liquid (endolymph) wey dey move as head dey turn; when Chidi stop sharp-sharp, the liquid still dey move small small, e go send wrong balance message go brain make e feel dizzy. Cochlea, pinna and Eustachian tube na for hearing and pressure, no be balance.",
+"id": "wbio1404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "On a very hot afternoon in Lagos, Bisi notices her skin looking flushed as the blood vessels near the skin surface widen (vasodilation). What is the main effect of this vasodilation?",
+"options": [
+"It reduces blood flow to the skin to conserve body heat",
+"It increases heat loss from the body through radiation at the skin surface",
+"It makes the hair erector muscles contract to trap warm air",
+"It stops the sweat glands from releasing sweat"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When blood vessels near the skin surface widen (vasodilate), more warm blood flows close to the surface, allowing more body heat to escape by radiation, which helps cool the body. This is the opposite of conserving heat, and it does not involve hair erector muscles or stopping sweating, which would actually increase to cool the body further.",
+"pidgin": "When blood vessels near skin surface open wide (vasodilate), plenty warm blood dey flow near the surface, e go make heat waste comot from body through radiation, so body go cool down. E no be heat-conserving action, and e no concern hair muscle or stopping sweat — sweating go even increase to help cool body.",
+"id": "wbio1405",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

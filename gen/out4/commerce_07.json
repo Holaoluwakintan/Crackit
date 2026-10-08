@@ -1,0 +1,175 @@
+{
+"subject": "commerce",
+"topic": "The stock exchange and capital market",
+"ti": 7,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best describes the Nigerian Stock Exchange?",
+"options": [
+"An organized market for buying and selling existing stocks and shares",
+"A market for buying and selling second-hand goods",
+"A place where only newly registered companies hold their first meeting",
+"A government agency that fixes prices of goods"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The stock exchange is a formal, organized market where existing shares, stocks and other securities are bought and sold. It is not about second-hand goods or price control.",
+"pidgin": "Stock exchange na proper organized market where people dey buy and sell shares wey don already dey exist. E no concern second-hand goods or price control.",
+"py": null,
+"values": null,
+"id": "wcom0700",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A document issued to an investor as proof that he/she owns a stated number of shares in a company is called a:",
+"options": [
+"Bill of lading",
+"Promissory note",
+"Share certificate",
+"Insurance policy"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A share certificate is the official document that shows how many shares a person owns in a company. The other documents listed are used in transport, borrowing and insurance matters, not ownership of shares.",
+"pidgin": "Share certificate na di paper wey show say person get shares for one company. Di other documents na for transport, borrowing or insurance, dem no concern share ownership.",
+"py": null,
+"values": null,
+"id": "wcom0701",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The capital market, unlike the money market, mainly provides funds for:",
+"options": [
+"Short-term needs such as treasury bills",
+"Foreign currency exchange only",
+"Trading in consumer goods",
+"Long-term needs such as shares and debentures"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The capital market deals with long-term financial instruments like shares and debentures used to finance long-term business projects, while the money market handles short-term instruments like treasury bills.",
+"pidgin": "Capital market na for long-term funds like shares and debentures wey business dey use for long-term projects. Na money market dey handle short-term things like treasury bills.",
+"py": null,
+"values": null,
+"id": "wcom0702",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Danjuma works for a licensed firm that buys and sells shares on the stock exchange on behalf of clients, earning commission on each transaction. Mr. Danjuma is best described as a:",
+"options": [
+"Registrar",
+"Stockbroker",
+"Issuing house",
+"Trustee"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A stockbroker is a licensed agent who buys and sells shares for clients on the stock exchange and earns commission. A registrar keeps shareholders' records, an issuing house helps float new shares, and a trustee manages property for beneficiaries.",
+"pidgin": "Stockbroker na di licensed person wey dey buy and sell shares for client for stock exchange and e dey collect commission. Registrar na di one wey dey keep shareholders record, issuing house dey help float new shares, trustee dey manage property for beneficiary.",
+"py": null,
+"values": null,
+"id": "wcom0703",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When a company sells its shares to the public for the very first time through the stock exchange machinery, this activity takes place in the:",
+"options": [
+"Buying and selling of existing shares only",
+"Trading of commodities like cocoa and palm oil",
+"New issues (primary) market",
+"Foreign exchange market"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The new issues market, also called the primary market, is where companies sell new shares or debentures to the public for the first time to raise fresh capital. The secondary market is where existing shares already issued are later traded among investors.",
+"pidgin": "New issues market (primary market) na where company dey sell new shares to public for di first time to raise money. Na secondary market dem dey use trade shares wey don already dey circulate.",
+"py": null,
+"values": null,
+"id": "wcom0704",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A share of Zenith Textile Plc is quoted on the stock exchange at ₦25.00 per share. The company pays an annual dividend of ₦2.50 per share. Calculate the dividend yield on the share.",
+"options": [
+"8%",
+"12%",
+"15%",
+"10%"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Dividend yield = (Dividend per share / Market price per share) x 100 = (2.50/25) x 100 = 10%. This tells an investor the return they get from dividends relative to the share's market price.",
+"pidgin": "Dividend yield = (Dividend per share / Market price) x 100 = (2.50/25) x 100 = 10%. Na im dey show how much return investor dey get from dividend compare to di share price.",
+"py": "(2.5/25)*100",
+"values": [
+8,
+12,
+15,
+10
+],
+"id": "wcom0705",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Chidi has ₦60,000.00 which he wants to invest in shares quoted on the stock exchange at ₦30.00 per share. How many shares can he buy with this amount, ignoring any brokerage fees?",
+"options": [
+"2000",
+"1800",
+"2200",
+"2500"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Number of shares = Total amount available / Price per share = 60,000 / 30 = 2000 shares. Brokerage fees are ignored, so the full amount is used to calculate the number of shares.",
+"pidgin": "Number of shares = Total money / Price per share = 60,000 / 30 = 2000 shares. Dem no add brokerage fee, so na di full money dem use calculate di shares.",
+"py": "60000/30",
+"values": [
+2000,
+1800,
+2200,
+2500
+],
+"id": "wcom0706",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

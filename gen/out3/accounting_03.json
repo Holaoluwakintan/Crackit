@@ -1,0 +1,190 @@
+{
+"subject": "accounting",
+"topic": "Double entry principle and the ledger",
+"generated": 8,
+"kept": [
+{
+"q": "The double entry principle in accounting states that every business transaction has a dual effect. Which of the following best describes this principle?",
+"options": [
+"One account is affected, either debited or credited",
+"Two accounts are affected, one debited and the other credited",
+"Three accounts are affected, all debited",
+"Two accounts are affected, both credited"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Double entry means every transaction affects at least two accounts: one account is debited while another is credited by the same amount. This keeps the accounting equation balanced.",
+"pidgin": "Double entry mean say every transaction dey touch at least two accounts: dem go debit one, dem go credit another one with the same amount. Na so the accounting equation go still balance.",
+"py": null,
+"values": null,
+"id": "accv0300",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following correctly states one of the basic rules of double entry for a personal account?",
+"options": [
+"Debit the receiver, credit the giver",
+"Debit what goes out, credit what comes in",
+"Debit all expenses, credit all assets",
+"Debit all liabilities, credit all expenses"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "For personal accounts, the rule is 'debit the receiver, credit the giver', because the person receiving value owes the business, while the one giving value is being paid or credited.",
+"pidgin": "For personal account, the rule be say make you debit the person wey receive, credit the person wey give. Na because the receiver dey owe the business, while the giver dey get credit.",
+"py": null,
+"values": null,
+"id": "accv0301",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Adaeze Stores bought office equipment worth ₦150,000 and paid immediately by cheque. Which two accounts are affected and how should the entries be made?",
+"options": [
+"Debit Office Equipment account; Credit Bank account",
+"Debit Bank account; Credit Office Equipment account",
+"Debit Cash account; Credit Office Equipment account",
+"Debit Office Equipment account; Credit Cash account"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Office equipment (an asset) is coming into the business, so it is debited. Payment is by cheque, so the Bank account (an asset going out) is credited.",
+"pidgin": "Office equipment na asset wey dey enter business, so dem go debit am. Dem pay with cheque, so e mean money dey comot from Bank, so Bank account go dey credit.",
+"py": null,
+"values": null,
+"id": "accv0302",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "The Furniture account of Bello Ventures for the month of March showed the following: Debit side - Balance b/d ₦45,000, Purchase of furniture on credit ₦25,000. Credit side - Furniture sold for cash ₦10,000. What is the balance carried down (c/d) on the Furniture account at the end of the month?",
+"options": [
+"₦60,000",
+"₦70,000",
+"₦80,000",
+"₦35,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total debit entries = 45,000 + 25,000 = 70,000. Subtract the credit entry of 10,000 (furniture sold) to get the balance c/d: 70,000 - 10,000 = ₦60,000.",
+"pidgin": "Total wey dem debit na 45,000 + 25,000 = 70,000. Comot the 10,000 wey dem credit (furniture wey dem sell), you go remain with 70,000 - 10,000 = ₦60,000.",
+"py": "45000+25000-10000",
+"values": [
+60000,
+70000,
+80000,
+35000
+],
+"id": "accv0303",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "In the classification of ledger accounts, the Rent Expense account is best described as a ___ account.",
+"options": [
+"Real",
+"Personal",
+"Nominal",
+"Capital"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Nominal accounts deal with expenses, losses, income, and gains. Rent paid is an expense, so Rent Expense account is a nominal account.",
+"pidgin": "Nominal account na for expenses, losses, income and gains. Rent wey dem pay na expense, so Rent Expense account na nominal account.",
+"py": null,
+"values": null,
+"id": "accv0304",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A sole trader, Mr. Yakubu, withdraws ₦20,000 cash from the business for his personal use. Which account should be debited to record this transaction?",
+"options": [
+"Capital account",
+"Drawings account",
+"Cash account",
+"Bank account"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When an owner takes money for personal use, the Drawings account is debited to show a reduction in the owner's investment, while the Cash account is credited since cash is going out.",
+"pidgin": "When owner carry money comot for personal use, dem go debit Drawings account to show say the owner don reduce im capital, while Cash account go dey credit because cash don comot.",
+"py": null,
+"values": null,
+"id": "accv0305",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Chinedu's Cash account for the month of June showed the following: Debit side - Balance b/d ₦120,000, Cash sales ₦85,000. Credit side - Purchases ₦60,000, Rent paid ₦15,000, Wages ₦20,000. What is the balance c/d (closing balance) on the Cash account?",
+"options": [
+"₦110,000",
+"₦95,000",
+"₦205,000",
+"₦85,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Total debit entries = 120,000 + 85,000 = 205,000. Total credit entries = 60,000 + 15,000 + 20,000 = 95,000. Balance c/d = 205,000 - 95,000 = ₦110,000.",
+"pidgin": "Total debit na 120,000 + 85,000 = 205,000. Total credit na 60,000 + 15,000 + 20,000 = 95,000. Balance c/d na 205,000 - 95,000 = ₦110,000.",
+"py": "120000+85000-(60000+15000+20000)",
+"values": [
+110000,
+95000,
+205000,
+85000
+],
+"id": "accv0306",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "While preparing a trial balance, Mrs. Okoro found that the total of the debit column was ₦560,000 while the total of the credit column was ₦545,000. She opened a Suspense account to make the trial balance agree. What amount, and on which side, appears in the Suspense account?",
+"options": [
+"₦15,000 debit",
+"₦15,000 credit",
+"₦560,000 credit",
+"₦545,000 debit"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The credit column is short by 560,000 - 545,000 = ₦15,000. To make the trial balance agree, this ₦15,000 is added to the credit side as a credit balance in the Suspense account.",
+"pidgin": "Credit column dey short by 560,000 - 545,000 = ₦15,000. Make trial balance balance well, dem go add the ₦15,000 for credit side as credit balance inside Suspense account.",
+"py": "560000-545000",
+"values": [
+15000,
+15000,
+560000,
+545000
+],
+"id": "accv0307",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+}
+]
+}

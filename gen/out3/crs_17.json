@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "Parables of Jesus",
+"generated": 8,
+"kept": [
+{
+"q": "In the Parable of the Sower as told by Jesus, what happened to the seed that fell on good ground?",
+"options": [
+"It brought forth fruit, some thirtyfold, some sixty, some a hundred",
+"It was quickly eaten by birds",
+"It sprang up but withered for lack of root",
+"It was choked by thorns before it could grow"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Jesus explained that seed on good ground represents those who hear the word and understand it, producing abundant fruit. This is recorded in Matthew 13:8 and 13:23.",
+"pidgin": "Jesus talk say the seed wey fall on good ground go yield plenty fruit, thirty, sixty or hundred times. Na people wey hear and understand God word be dis, Matthew 13:8 and 13:23.",
+"id": "crsv1700",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the Parable of the Prodigal Son, how did the father react immediately he saw his younger son returning home?",
+"options": [
+"He ran to him, embraced and kissed him",
+"He sent a servant to interrogate him first",
+"He refused to come out of the house",
+"He told the elder son to go and welcome him instead"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The father, moved with compassion, ran to meet his returning son, embraced and kissed him even before the son finished his confession. This shows God's readiness to forgive repentant sinners, as seen in Luke 15:20.",
+"pidgin": "The father see am from far, im run go meet am, hug am and kiss am before the son even finish im talk. E dey show say God dey ready to forgive person wey repent, na Luke 15:20 talk am.",
+"id": "crsv1701",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the Parable of the Good Samaritan, which two people passed by the wounded traveler without helping him before the Samaritan arrived?",
+"options": [
+"A priest and a Levite",
+"A tax collector and a Pharisee",
+"A scribe and a lawyer",
+"A rabbi and a merchant"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Jesus said a priest and a Levite both saw the wounded man and passed by on the other side, ignoring him, before the Samaritan stopped to help. This is found in Luke 10:31-33.",
+"pidgin": "Jesus talk say na priest and Levite first see the injured man but dem pass am for the other side, no help am. Na the Samaritan man later stop to help am, Luke 10:31-33.",
+"id": "crsv1702",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the Parable of the Lost Sheep, how many sheep did the shepherd leave behind in order to search for the one that was missing?",
+"options": [
+"Ninety-nine",
+"Fifty",
+"Seventy",
+"Twelve"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Jesus said the shepherd who had a hundred sheep left the ninety-nine to go and search for the one that was lost until he found it. This teaches God's concern for every individual sinner, Luke 15:4.",
+"pidgin": "Jesus talk say the shepherd wey get hundred sheep leave ninety-nine make e go find the one wey miss. E dey show say God dey care for every sinner, Luke 15:4.",
+"id": "crsv1703",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the Parable of the Talents, how many talents did the servant who eventually buried his talent in the ground receive from his master?",
+"options": [
+"One",
+"Two",
+"Five",
+"Ten"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The master gave five talents to one servant, two to another, and one talent to the third servant, who went and buried his in the ground instead of trading with it. This is recorded in Matthew 25:15 and 25:18.",
+"pidgin": "The master give one servant five talent, another one two talent, and the third servant one talent, wey im go bury inside ground instead of use am do business. Na Matthew 25:15 and 25:18 talk am.",
+"id": "crsv1704",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the Parable of the Wheat and the Tares, at what point did the master instruct his servants to separate the weeds from the wheat?",
+"options": [
+"At harvest time",
+"Immediately after planting the seeds",
+"During the rainy season while both were still growing",
+"Before the seeds had sprouted"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The master told his servants to let both grow together until harvest, so the wheat would not be uprooted along with the weeds; separation would happen at harvest when reapers could tell them apart clearly. This is found in Matthew 13:30.",
+"pidgin": "The master tell im servants make dem leave both wheat and weed grow together until harvest time, so dat dem no go mistakenly pull the wheat comot. Na for harvest time dem go separate dem well well, Matthew 13:30.",
+"id": "crsv1705",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the Parable of the Rich Man and Lazarus, what did the rich man request from Abraham while he was suffering in torment?",
+"options": [
+"That Lazarus dip his finger in water to cool his tongue",
+"That his riches and property be returned to him",
+"That Lazarus be sent back to earth to rule as king",
+"That Abraham personally forgive his past sins"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The rich man, in agony, begged Abraham to send Lazarus to dip his finger in water and cool his tongue, but Abraham reminded him of the great gulf fixed between them. This teaches about the finality of judgement after death, as seen in Luke 16:24.",
+"pidgin": "The rich man wey dey suffer beg Abraham make e send Lazarus come dip im finger for water come cool im tongue, but Abraham talk say big gap dey between dem wey nobody fit cross. E dey teach say after death, judgement no get change again, Luke 16:24.",
+"id": "crsv1706",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the Parable of the Ten Virgins, what mainly distinguished the wise virgins from the foolish ones?",
+"options": [
+"The wise virgins carried extra oil along with their lamps",
+"The wise virgins were much younger than the foolish ones",
+"The wise virgins slept less while waiting for the bridegroom",
+"The wise virgins had lamps that were naturally brighter"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The wise virgins brought extra oil in vessels along with their lamps, so they were ready when the bridegroom arrived at midnight, while the foolish ones ran out of oil. This teaches the importance of being spiritually prepared, as recorded in Matthew 25:3-4.",
+"pidgin": "Na extra oil the wise virgins carry for container join their lamp, so when the bridegroom come midnight, dem dey ready, but the foolish ones oil finish. E dey teach say make person always dey ready spiritually, Matthew 25:3-4.",
+"id": "crsv1707",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

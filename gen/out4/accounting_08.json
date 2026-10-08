@@ -1,0 +1,187 @@
+{
+"subject": "accounting",
+"topic": "Depreciation of non-current assets",
+"ti": 8,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines depreciation of a non-current asset in financial accounting?",
+"options": [
+"The amount of cash set aside to replace a non-current asset when it wears out",
+"The systematic allocation of the cost of a non-current asset over its useful life",
+"The fall in the market value of an asset caused by inflation",
+"The total amount spent on repairing and maintaining a non-current asset"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Depreciation is an accounting process that spreads (allocates) the cost of a non-current asset over the years it is expected to be used. It is not cash saved, not a maintenance cost, and not just a market value change.",
+"pidgin": "Depreciation na how dem dey share the cost of asset across the years wey e go dey used. E no be money wey dem dey keep aside, e no be repair cost, and e no be market value wahala.",
+"py": null,
+"values": null,
+"id": "wacc0800",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidi Motors bought a delivery van for ₦1,800,000. The van has an estimated useful life of 8 years and an expected residual (scrap) value of ₦200,000 at the end of its life. Using the straight line method, what is the annual depreciation charge?",
+"options": [
+"₦200,000",
+"₦225,000",
+"₦180,000",
+"₦250,000"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Straight line depreciation = (Cost - Residual value) / Useful life = (1,800,000 - 200,000) / 8 = 1,600,000 / 8 = ₦200,000 per year.",
+"pidgin": "Straight line depreciation = (Cost minus Scrap value) divided by number of years = (1,800,000 - 200,000)/8 = 1,600,000/8 = ₦200,000 every year.",
+"py": "(1800000-200000)/8",
+"values": [
+200000,
+225000,
+180000,
+250000
+],
+"id": "wacc0801",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A machine costing ₦500,000 is depreciated at 20% per annum using the reducing balance method. What is the net book value of the machine at the end of the second year?",
+"options": [
+"₦320,000",
+"₦400,000",
+"₦300,000",
+"₦360,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Year 1: 500,000 x (1-0.20) = 400,000. Year 2: 400,000 x (1-0.20) = 320,000. The reducing balance method applies the rate to the book value remaining after the previous year's depreciation, not to the original cost.",
+"pidgin": "Year 1: 500,000 x 0.80 = 400,000. Year 2: 400,000 x 0.80 = 320,000. For reducing balance, dem dey use the rate on the balance wey remain, no be on the original cost.",
+"py": "500000*(0.8)**2",
+"values": [
+320000,
+400000,
+300000,
+360000
+],
+"id": "wacc0802",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following is NOT a cause of depreciation of a non-current asset?",
+"options": [
+"Wear and tear arising from usage",
+"Obsolescence due to new technology",
+"Passage of time (effluxion of time)",
+"Increase in the market price of the asset due to inflation"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Depreciation is caused by wear and tear, obsolescence and time passing. A rise in market price due to inflation is not a cause of depreciation; it is actually a form of appreciation, not an accounting depreciation cause.",
+"pidgin": "Depreciation dey happen because of wear and tear, old technology, and time wey don pass. If market price rise because of inflation, na appreciation, e no be reason for depreciation.",
+"py": null,
+"values": null,
+"id": "wacc0803",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Adaeze Enterprises bought office equipment for ₦960,000 on 1st January 2021. The equipment has an estimated useful life of 6 years with no residual value, and the straight line method is used. The company's financial year ends on 31st December. What is the net book value of the equipment as at 31st December 2023?",
+"options": [
+"₦480,000",
+"₦320,000",
+"₦640,000",
+"₦400,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Annual depreciation = 960,000 / 6 = 160,000. By 31st December 2023, three full years (2021, 2022, 2023) have passed, so accumulated depreciation = 160,000 x 3 = 480,000. Net book value = 960,000 - 480,000 = ₦480,000.",
+"pidgin": "Every year depreciation = 960,000 / 6 = 160,000. From 2021 to 2023 na 3 years, so total depreciation = 160,000 x 3 = 480,000. Net book value = 960,000 - 480,000 = ₦480,000.",
+"py": "960000 - (960000/6)*3",
+"values": [
+480000,
+320000,
+640000,
+400000
+],
+"id": "wacc0804",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In the books of a business, what is the correct double entry to record the annual depreciation charge on a non-current asset?",
+"options": [
+"Debit the non-current asset account; Credit the depreciation expense account",
+"Debit the depreciation expense account; Credit the provision for depreciation account",
+"Debit the provision for depreciation account; Credit the bank account",
+"Debit the bank account; Credit the non-current asset account"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Depreciation is an expense, so it is debited to the depreciation expense (profit or loss) account, while the accumulated amount is credited to the provision for depreciation account, which reduces the asset's net book value in the statement of financial position.",
+"pidgin": "Depreciation na expense, so dem go debit depreciation expense account, then credit provision for depreciation account. Na this provision account dey reduce the asset value for statement of financial position.",
+"py": null,
+"values": null,
+"id": "wacc0805",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "An asset was bought for ₦800,000. After two years of depreciation using the reducing balance method, its net book value is ₦512,000. What annual rate of depreciation was used?",
+"options": [
+"20%",
+"25%",
+"36%",
+"10%"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Let r be the rate. 800,000 x (1-r)^2 = 512,000, so (1-r)^2 = 512,000/800,000 = 0.64. Taking the square root, 1-r = 0.8, so r = 0.2, which is 20%.",
+"pidgin": "Make r be the rate. 800,000 x (1-r)^2 = 512,000, so (1-r)^2 = 0.64. Find square root, 1-r = 0.8, so r = 0.2, wey be 20%.",
+"py": "(1 - math.sqrt(512000/800000))*100",
+"values": [
+20,
+25,
+36,
+10
+],
+"id": "wacc0806",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

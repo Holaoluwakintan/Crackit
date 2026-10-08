@@ -1,0 +1,174 @@
+{
+"subject": "physics",
+"topic": "Magnetism and electromagnetic induction",
+"ti": 19,
+"generated": 6,
+"kept": [
+{
+"q": "Which of these materials is NOT attracted by a magnet?",
+"options": [
+"Brass",
+"Iron",
+"Nickel",
+"Cobalt"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Iron, nickel and cobalt are ferromagnetic materials that are strongly attracted to a magnet. Brass is an alloy of copper and zinc, both of which are non-magnetic, so brass is not attracted.",
+"pidgin": "Iron, nickel and cobalt na magnetic materials wey magnet go pull well-well. Brass na mixture of copper and zinc, dem no be magnetic, so magnet no go pull am.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wphy1900",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "An unmagnetized steel nail is held close to, but not touching, a strong bar magnet. After some time, the nail becomes magnetized even though it never touched the magnet. This process is called",
+"options": [
+"electromagnetic induction",
+"magnetic induction",
+"magnetic saturation",
+"magnetic hysteresis"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Magnetic induction is the process by which a magnetic material becomes magnetized simply by being placed near (not touching) a magnet, due to the magnet's field. Electromagnetic induction instead refers to producing an EMF/current from a changing magnetic field in a conductor.",
+"pidgin": "Magnetic induction na when magnetic material dey become magnet just because e dey near another magnet, even without touch am. Electromagnetic induction na different thing, e dey talk about EMF or current wey changing field dey produce for wire.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wphy1901",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A coil of 200 turns is placed in a magnetic field. The magnetic flux linking the coil changes from 0.02 Wb to 0.08 Wb in 0.3 seconds. Calculate the average EMF induced in the coil, using EMF = N x (change in flux)/(time).",
+"options": [
+"20V",
+"4V",
+"40V",
+"60V"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Change in flux = 0.08 - 0.02 = 0.06 Wb. EMF = N x (delta Phi / t) = 200 x (0.06/0.3) = 200 x 0.2 = 40V.",
+"pidgin": "Change in flux na 0.08 minus 0.02 = 0.06 Wb. EMF = N x (delta Phi divide t) = 200 x (0.06/0.3) = 200 x 0.2 = 40V.",
+"py": "200*(0.08-0.02)/0.3",
+"values": [
+20,
+4,
+40,
+60
+],
+"id": "wphy1902",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A bar magnet is pushed, north pole first, into a solenoid that is connected to a sensitive galvanometer. According to Lenz's law, the induced current that flows in the solenoid acts in a direction that",
+"options": [
+"aids the motion of the magnet",
+"has no effect on the magnet",
+"moves at twice the magnet's speed",
+"opposes the motion of the magnet"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Lenz's law states that the direction of an induced current is always such that it opposes the change (the motion) that produced it. So the solenoid's induced current creates a magnetic field that pushes back against the incoming magnet, opposing its motion.",
+"pidgin": "Lenz's law talk say the induced current go always resist the motion wey cause am. So the solenoid go produce field wey dey push back the magnet, e no go help the magnet motion.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wphy1903",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A transformer has a primary coil of 1000 turns and a secondary coil of 100 turns. The primary is connected to a 240V supply and draws a current of 2A. Assuming the transformer is 100% efficient, calculate the current flowing in the secondary coil.",
+"options": [
+"20A",
+"0.2A",
+"2A",
+"200A"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "First find secondary voltage: Vs = Vp x (Ns/Np) = 240 x (100/1000) = 24V. Since input power equals output power (100% efficient): Vp x Ip = Vs x Is, so Is = (240 x 2)/24 = 20A.",
+"pidgin": "First find Vs: Vs = Vp x (Ns/Np) = 240 x (100/1000) = 24V. Since input power equal output power (100% efficient): Vp x Ip = Vs x Is, so Is = (240 x 2)/24 = 20A.",
+"py": "(240*2)/((240*100)/1000)",
+"values": [
+20,
+0.2,
+2,
+200
+],
+"id": "wphy1904",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A straight metal rod of length 0.5m moves with a velocity of 4 m/s at right angles to a uniform magnetic field of flux density 0.2T. Calculate the EMF induced across the ends of the rod, using EMF = B x L x v.",
+"options": [
+"4.0V",
+"0.4V",
+"0.04V",
+"40V"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "EMF = B x L x v = 0.2 x 0.5 x 4 = 0.4V. The rod cutting across the field lines generates this motional EMF because it is moving perpendicular to the field.",
+"pidgin": "EMF = B x L x v = 0.2 x 0.5 x 4 = 0.4V. The rod wey dey cut the field lines go generate this EMF because e dey move perpendicular to the field.",
+"py": "0.2*0.5*4",
+"values": [
+4.0,
+0.4,
+0.04,
+40
+],
+"id": "wphy1905",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

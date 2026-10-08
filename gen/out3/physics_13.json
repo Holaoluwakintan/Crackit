@@ -1,0 +1,111 @@
+{
+"subject": "physics",
+"topic": "Waves: properties and types",
+"generated": 4,
+"kept": [
+{
+"q": "A vibrating tuning fork produces a wave that completes one full oscillation every 0.02 seconds. What is the frequency of the wave?",
+"options": [
+"25 Hz",
+"50 Hz",
+"100 Hz",
+"200 Hz"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Frequency is the reciprocal of period, f = 1/T. Here T = 0.02 s, so f = 1/0.02 = 50 Hz.",
+"pidgin": "Frequency na 1 divide by period, f = 1/T. T be 0.02 s, so f = 1/0.02 = 50 Hz.",
+"py": "1/0.02",
+"values": [
+25,
+50,
+100,
+200
+],
+"id": "phyv1300",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A water wave in a ripple tank has a frequency of 25 Hz and a wavelength of 2 m. Calculate the speed of the wave.",
+"options": [
+"50 m/s",
+"12.5 m/s",
+"27 m/s",
+"100 m/s"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Wave speed is found using v = f x wavelength. So v = 25 Hz x 2 m = 50 m/s.",
+"pidgin": "To find wave speed, use v = f x wavelength. So v = 25 Hz x 2 m = 50 m/s.",
+"py": "25*2",
+"values": [
+50,
+12.5,
+27,
+100
+],
+"id": "phyv1301",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Market women in Onitsha can hear a vendor's voice across a busy, dusty stall, but radio signals from a nearby FM station can reach the moon (in principle) without any air at all. Which statement correctly explains this difference?",
+"options": [
+"Sound waves are mechanical and need a material medium, while radio waves are electromagnetic and can travel through vacuum",
+"Sound waves travel faster than radio waves in air",
+"Radio waves are mechanical waves that need air to travel",
+"Sound waves can travel through a vacuum just like radio waves"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Sound is a mechanical wave, so it needs particles of a medium (like air) to vibrate and transfer energy. Radio waves are electromagnetic waves, which do not need any medium and can travel through empty space.",
+"pidgin": "Sound na mechanical wave, e need particles for medium (like air) before e fit waka. Radio wave na electromagnetic wave, e no need medium at all, e fit pass through empty space.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyv1302",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A sound wave of frequency 500 Hz travels in air at a speed of 340 m/s. It then enters water, where its speed increases to 1500 m/s. Since the frequency of a wave does not change when it moves from one medium to another, what is the wavelength of the sound wave inside the water?",
+"options": [
+"3 m",
+"0.34 m",
+"1.5 m",
+"6 m"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Frequency stays the same across the boundary, only speed and wavelength change. Using v = f x wavelength, wavelength = v/f = 1500/500 = 3 m.",
+"pidgin": "Frequency no dey change when wave cross from one medium go another, na speed and wavelength go change. Use v = f x wavelength, so wavelength = 1500/500 = 3 m.",
+"py": "1500/500",
+"values": [
+3,
+0.34,
+1.5,
+6
+],
+"id": "phyv1303",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

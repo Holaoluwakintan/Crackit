@@ -1,0 +1,175 @@
+{
+"subject": "physics",
+"topic": "Refraction, lenses and optical instruments",
+"ti": 16,
+"generated": 6,
+"kept": [
+{
+"q": "A ray of light travels from air into a glass block of refractive index 1.5. If the angle of incidence is 30°, calculate the angle of refraction. (sin 30° = 0.5)",
+"options": [
+"19.5°",
+"30.0°",
+"48.6°",
+"60.0°"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Using n = sin i / sin r, we get sin r = sin i / n = 0.5 / 1.5 = 0.333. Taking the inverse sine gives r = 19.5°.",
+"pidgin": "Dem use n = sin i / sin r, so sin r = 0.5/1.5 = 0.333. If you find inverse sine of 0.333, you go get r = 19.5°.",
+"py": "math.degrees(math.asin(0.5/1.5))",
+"values": [
+19.5,
+30.0,
+48.6,
+60.0
+],
+"id": "wphy1600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A converging (convex) lens has a focal length of 10 cm. An object is placed 15 cm from the lens. Using the lens formula 1/f = 1/u + 1/v, calculate the distance of the image from the lens.",
+"options": [
+"6 cm",
+"10 cm",
+"25 cm",
+"30 cm"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "1/v = 1/f - 1/u = 1/10 - 1/15 = (3-2)/30 = 1/30, so v = 30 cm. This means the image forms 30 cm from the lens.",
+"pidgin": "1/v = 1/10 - 1/15 = 1/30, so v = 30 cm. Na so the image dey form 30 cm from the lens.",
+"py": "1/(1/10-1/15)",
+"values": [
+6,
+10,
+25,
+30
+],
+"id": "wphy1602",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A convex lens forms a real, inverted image 6 cm high from an object that is 2 cm high. Calculate the linear magnification produced by the lens.",
+"options": [
+"0.33",
+"2",
+"3",
+"4"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Linear magnification, m = image height / object height = 6/2 = 3. This tells us the image is 3 times bigger than the object.",
+"pidgin": "Magnification, m = image height divide object height = 6/2 = 3. E mean say the image big pass the object by 3 times.",
+"py": "6/2",
+"values": [
+0.33,
+2,
+3,
+4
+],
+"id": "wphy1603",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The refractive index of a certain type of glass is 1.5. Calculate the critical angle for light travelling from the glass into air. (sin C = 1/n)",
+"options": [
+"30.0°",
+"41.8°",
+"48.6°",
+"60.0°"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "sin C = 1/n = 1/1.5 = 0.667. Taking the inverse sine of 0.667 gives C = 41.8°, which is the critical angle for total internal reflection to just occur.",
+"pidgin": "sin C = 1/1.5 = 0.667. If you find inverse sine, you go get C = 41.8°, na so total internal reflection go just begin.",
+"py": "math.degrees(math.asin(1/1.5))",
+"values": [
+30.0,
+41.8,
+48.6,
+60.0
+],
+"id": "wphy1604",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In a compound microscope, which of the following best describes the function of the objective lens?",
+"options": [
+"It magnifies the final image formed by the eyepiece for direct viewing",
+"It forms a real, inverted and magnified image of the object close to the eyepiece",
+"It reduces the size of the object so it can fit into the eyepiece",
+"It bends light rays from distant objects so they appear closer, like in a telescope"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The objective lens, which is closest to the object, forms a real, inverted and magnified image near the eyepiece; the eyepiece then further magnifies this image for the eye to view. The other options describe the eyepiece or unrelated functions.",
+"pidgin": "The objective lens wey dey close to the object go form real, upside-down and bigger image near the eyepiece; na the eyepiece go then magnify am more for eye to see. The other options na the eyepiece work or no relate at all.",
+"py": null,
+"values": null,
+"id": "wphy1605",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A fisherman standing by the Epe lagoon notices that the water appears to be 1.2 m deep when viewed vertically from above, although the actual depth is 1.6 m. Calculate the refractive index of the lagoon water.",
+"options": [
+"0.75",
+"1.33",
+"1.60",
+"2.67"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Refractive index n = real depth / apparent depth = 1.6 / 1.2 = 1.33. This is a standard way of finding refractive index using apparent depth.",
+"pidgin": "n = real depth divide by apparent depth = 1.6/1.2 = 1.33. Na so dem dey calculate refractive index with apparent depth.",
+"py": "1.6/1.2",
+"values": [
+0.75,
+1.33,
+1.6,
+2.67
+],
+"id": "wphy1601",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+}
+]
+}

@@ -1,0 +1,180 @@
+{
+"subject": "geography",
+"topic": "Transportation and trade",
+"generated": 8,
+"kept": [
+{
+"q": "Which mode of transport is generally the cheapest for moving bulky goods such as crude oil or grains over very long distances, provided a suitable route exists?",
+"options": [
+"Road transport",
+"Water transport",
+"Air transport",
+"Railway transport"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Water transport (sea and inland waterways) can carry very large loads at once with low fuel cost per tonne, making it the cheapest for bulky goods over long distances. Road and air transport cost more per tonne for the same load.",
+"pidgin": "Water transport na the cheapest way to carry plenty heavy load for far distance because one ship fit carry plenty tonnes at once. Road and air cost more money for the same load.",
+"py": null,
+"values": null,
+"id": "geov1700",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Trade that takes place between two or more different countries is best described as?",
+"options": [
+"Local trade",
+"International trade",
+"Barter trade",
+"Retail trade"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "International trade is trade carried out between different countries, involving exchange of goods and services across national borders. Local trade happens within one country or community.",
+"pidgin": "International trade na when two or more kontri dey exchange goods and services among demsef. Local trade na inside one kontri or community.",
+"py": null,
+"values": null,
+"id": "geov1701",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following is the major factor that has limited the extensive development of railway networks in most West African countries?",
+"options": [
+"High cost of construction and maintenance",
+"Total absence of mineral resources to transport",
+"Uniform flat relief across the whole region",
+"Excessive rainfall throughout the entire year"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Building and maintaining railway lines requires huge capital for tracks, bridges, tunnels and rolling stock, which most West African governments find difficult to afford widely. The other options are not generally true for the whole region.",
+"pidgin": "To build and maintain railway need plenty money for rail, bridge and train wagon, and many West African kontri no get enough money for this. The other reasons no dey true for whole region.",
+"py": null,
+"values": null,
+"id": "geov1702",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A country imports goods from one nation and, without processing them, re-exports the same goods to another country. This type of trade is called?",
+"options": [
+"Visible trade",
+"Entrepot trade",
+"Invisible trade",
+"Balance of trade"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Entrepot trade occurs when a country acts as a middleman, importing goods and re-exporting them unchanged to earn profit, often using its good port facilities. Singapore is a classic example of this type of trade.",
+"pidgin": "Entrepot trade na when one kontri just dey import goods come dey comot am again to another kontri without changing am, dem just dey use their good port to make profit. Singapore na good example.",
+"py": null,
+"values": null,
+"id": "geov1703",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Alhaji Musa bought 50 bags of rice at ₦18,000 per bag in Lagos. He spent ₦2,500 per bag to transport all the bags to Maiduguri. He later sold each bag at ₦24,000 in Maiduguri. What was his total profit on all 50 bags?",
+"options": [
+"₦175,000",
+"₦300,000",
+"₦125,000",
+"₦250,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Total cost per bag = 18000 + 2500 = 20500. Profit per bag = 24000 - 20500 = 3500. Total profit for 50 bags = 3500 x 50 = 175000.",
+"pidgin": "Total cost for one bag na 18000 + 2500 = 20500. Profit for one bag na 24000 - 20500 = 3500. If you multiply 3500 by 50 bags, you go get 175000 total profit.",
+"py": "((24000-(18000+2500))*50)",
+"values": [
+175000,
+300000,
+125000,
+250000
+],
+"id": "geov1704",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of these is NOT a true advantage of railway transport over road transport for moving goods?",
+"options": [
+"Lower cost per tonne for bulk haulage over long distances",
+"Ability to move very heavy and bulky loads at once",
+"Less affected by traffic congestion on highways",
+"Door-to-door delivery directly to a customer's house without reloading"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Railway transport is fixed to its tracks and stations, so goods usually need to be reloaded onto trucks for final delivery to a house, unlike road transport which can go door-to-door. The other three are real advantages of rail over road.",
+"pidgin": "Train dey follow only rail line and station, so dem must still carry the goods go another vehicle before e reach person house, unlike road wey fit go straight door-to-door. The other three options na correct advantage of rail pass road.",
+"py": null,
+"values": null,
+"id": "geov1705",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Which major West African river serves as an important inland waterway linking Nigeria with countries such as Niger and Mali for the movement of goods and passengers?",
+"options": [
+"River Cross",
+"River Ogun",
+"River Niger",
+"River Osun"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The River Niger is one of the longest rivers in West Africa and flows through several countries including Mali, Niger and Nigeria, making it an important route for inland water transport and trade. The other rivers listed are mainly local to Nigeria.",
+"pidgin": "River Niger na one of the longest river for West Africa, e dey pass through Mali, Niger and Nigeria, so e dey help for water transport and trade among dis kontris. The other rivers dey mostly inside Nigeria only.",
+"py": null,
+"values": null,
+"id": "geov1706",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A delivery truck travels from Town A to Town B, a distance of 240 km, at a speed of 60 km/h. It returns from Town B to Town A along the same route at a speed of 40 km/h. What was the truck's average speed for the whole round trip?",
+"options": [
+"48 km/h",
+"50 km/h",
+"45 km/h",
+"52 km/h"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Time going = 240/60 = 4 hours. Time returning = 240/40 = 6 hours. Total distance = 480 km, total time = 10 hours, so average speed = 480/10 = 48 km/h.",
+"pidgin": "Time wey e take go na 240/60 = 4 hours, time wey e take return na 240/40 = 6 hours. Total distance na 480 km and total time na 10 hours, so average speed na 480/10 = 48 km/h.",
+"py": "(240+240)/((240/60)+(240/40))",
+"values": [
+48,
+50,
+45,
+52
+],
+"id": "geov1707",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

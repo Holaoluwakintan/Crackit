@@ -1,0 +1,159 @@
+{
+"subject": "physics",
+"topic": "Scalars and vectors",
+"ti": 1,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following statements correctly defines a scalar quantity?",
+"options": [
+"A quantity that has magnitude only, with no direction",
+"A quantity that has both magnitude and direction",
+"A quantity that is always added using the parallelogram law",
+"A quantity whose value changes when its direction changes"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A scalar quantity is described completely by its magnitude (size) alone, with no direction attached, e.g. mass, time, and speed. Options B, C and D all describe properties of vector quantities, not scalars.",
+"pidgin": "Scalar na quantity wey get size (magnitude) only, e no get direction at all. Examples be mass, time and speed. The other options dey talk about vector wey get direction too.",
+"py": null,
+"values": null,
+"id": "wphy0100",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a vector quantity?",
+"options": [
+"Mass",
+"Displacement",
+"Energy",
+"Time"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Displacement has both magnitude and a specific direction (e.g. 10 m east), making it a vector. Mass, energy and time are scalar quantities because they only have magnitude.",
+"pidgin": "Displacement na vector because e get both size and direction (e dey tell you where the object end up). Mass, energy and time na scalar quantities, dem no get direction.",
+"py": null,
+"values": null,
+"id": "wphy0101",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Two forces of magnitude 3 N and 4 N act on a particle such that they are perpendicular to each other. Calculate the magnitude of their resultant force.",
+"options": [
+"1 N",
+"2.5 N",
+"5 N",
+"7 N"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Since the two forces are perpendicular, Pythagoras' theorem applies: Resultant = sqrt(3^2 + 4^2) = sqrt(9 + 16) = sqrt(25) = 5 N. Simply adding or subtracting the forces (giving 7 N or 1 N) is wrong because they do not act along the same line.",
+"pidgin": "Since the two forces dey perpendicular (90 degrees to each other), we go use Pythagoras theorem: Resultant = sqrt(3^2 + 4^2) = sqrt(25) = 5N. If you just add (7N) or subtract (1N) the forces, e no correct because dem no dey for same line.",
+"py": "math.sqrt(3**2 + 4**2)",
+"values": [
+1,
+2.5,
+5,
+7
+],
+"id": "wphy0102",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Chinedu walks 8 m due east and then 6 m due north. Calculate the magnitude of his total displacement from his starting point.",
+"options": [
+"7 m",
+"14 m",
+"2 m",
+"10 m"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "East and north are perpendicular directions, so Pythagoras' theorem gives the displacement: sqrt(8^2 + 6^2) = sqrt(64 + 36) = sqrt(100) = 10 m. Adding the distances directly (14 m) ignores the fact that they are vectors in different directions.",
+"pidgin": "East and north dey perpendicular to each other, so we use Pythagoras: sqrt(8^2 + 6^2) = sqrt(64+36) = sqrt(100) = 10m. If you just add the two distances (14m), e wrong because na vector quantities wey dey different direction.",
+"py": "math.sqrt(8**2 + 6**2)",
+"values": [
+7,
+14,
+2,
+10
+],
+"id": "wphy0103",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A force of 20 N acts on an object at an angle of 30 degrees above the horizontal. Using cos30 = sqrt(3)/2 and sin30 = 1/2, calculate the magnitude of the horizontal component of this force.",
+"options": [
+"10.0 N",
+"17.3 N",
+"11.5 N",
+"20.0 N"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The horizontal component of a force is given by F cos(theta) = 20 x cos30 = 20 x (sqrt(3)/2) = 10sqrt(3), which is about 17.3 N. Using sin30 instead of cos30 wrongly gives 10.0 N, which is actually the vertical component.",
+"pidgin": "Horizontal component na F cos(theta) = 20 x cos30 = 20 x (sqrt(3)/2) = 10sqrt(3), wey be like 17.3N. If you mistakenly use sin30 you go get 10.0N, but na vertical component be that one.",
+"py": "20*math.sqrt(3)/2",
+"values": [
+10.0,
+17.3,
+11.5,
+20.0
+],
+"id": "wphy0104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Three forces, P, Q and R, act on a point object and keep it in equilibrium. Which statement correctly describes the vector relationship between these three forces?",
+"options": [
+"When drawn head-to-tail in order, P, Q and R form a closed triangle",
+"The sum P + Q + R, when drawn head-to-tail, must always point due north",
+"The three forces must all have exactly equal magnitudes",
+"The three forces must all act along the same straight line"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "For an object in equilibrium under three forces, the vector sum of the forces is zero. This means that when the force vectors are drawn head-to-tail (one after another), they form a closed triangle, with no gap left between the start of the first vector and the end of the last. Equal magnitudes or acting on one straight line are not required.",
+"pidgin": "If object dey for equilibrium under three forces, e mean say the total (vector sum) of the forces na zero. So if you draw the vectors head-to-tail one after the other, dem go close up well-well make closed triangle. The forces no need to get equal size or dey same straight line.",
+"py": null,
+"values": null,
+"id": "wphy0105",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

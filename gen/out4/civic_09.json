@@ -1,0 +1,153 @@
+{
+"subject": "civic",
+"topic": "Law enforcement agencies and courts",
+"ti": 9,
+"generated": 7,
+"kept": [
+{
+"q": "Which government agency is specifically charged with controlling traffic and reducing road accidents on Nigerian highways?",
+"options": [
+"Nigeria Immigration Service",
+"Federal Road Safety Corps (FRSC)",
+"Nigeria Customs Service",
+"Nigeria Security and Civil Defence Corps"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The FRSC was established to manage traffic, enforce road safety rules, and reduce accidents on Nigerian roads. The other agencies handle immigration matters, border goods, and civil defence respectively.",
+"pidgin": "FRSC na the agency wey dem set up to control traffic and reduce accident for Nigerian roads. The other agencies dey handle immigration, goods for border, and civil defence.",
+"id": "wciv0901",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Amina's younger sister was lured abroad with a fake job offer and forced into labour against her will. Which agency should the family report this case to for investigation and the victim's rescue?",
+"options": [
+"Economic and Financial Crimes Commission (EFCC)",
+"National Drug Law Enforcement Agency (NDLEA)",
+"National Agency for the Prohibition of Trafficking in Persons (NAPTIP)",
+"Independent Corrupt Practices Commission (ICPC)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "NAPTIP was specifically set up to prevent human trafficking, protect and rehabilitate victims, and prosecute traffickers. EFCC handles financial crimes, NDLEA handles drugs, and ICPC handles corruption by public officers.",
+"pidgin": "NAPTIP na the agency wey dem make to stop human trafficking, help victims, and chase people wey dey traffic persons. EFCC na for money crime, NDLEA na for drug, ICPC na for corruption by government workers.",
+"id": "wciv0902",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A customs officer at a Nigerian port is found collecting bribes from importers before clearing their goods. Which agency has the primary mandate to investigate this type of corrupt practice by a public officer?",
+"options": [
+"Federal Road Safety Corps (FRSC)",
+"Independent Corrupt Practices and Other Related Offences Commission (ICPC)",
+"National Drug Law Enforcement Agency (NDLEA)",
+"Nigeria Security and Civil Defence Corps"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The ICPC was created mainly to investigate and prosecute corrupt practices such as bribery and gratification among public officers. The other agencies deal with road safety, drug offences and civil defence, not corruption cases.",
+"pidgin": "ICPC na the agency wey get mandate to investigate and prosecute corruption like bribe-taking among government workers. The other agencies dey handle road safety, drug matter and civil defence, no be corruption.",
+"id": "wciv0903",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which Nigerian court has original jurisdiction to try serious offences such as murder and treason, which carry the death penalty if proven?",
+"options": [
+"Magistrate Court",
+"Customary Court",
+"High Court",
+"Area Court"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The High Court has unlimited original jurisdiction to try capital offences like murder and treason. Magistrate, Customary and Area Courts have limited powers and cannot try such serious capital cases.",
+"pidgin": "High Court get full power to first try serious case like murder and treason wey fit lead to death sentence. Magistrate, Customary and Area Court no get that kind power.",
+"id": "wciv0904",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chief Obi, a local government chairman, is accused of diverting public funds meant for community boreholes into his personal bank account. Which agency is primarily empowered to investigate and prosecute this act of corruption by a public office holder?",
+"options": [
+"Nigeria Police Force",
+"Independent Corrupt Practices and Other Related Offences Commission (ICPC)",
+"Federal Road Safety Corps (FRSC)",
+"Nigeria Security and Civil Defence Corps"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The ICPC's core mandate is to investigate and prosecute corrupt practices, such as diversion of public funds, committed by public officers. Although the police may assist, the specialised body for this specific offence is the ICPC, not the FRSC or Civil Defence Corps.",
+"pidgin": "ICPC main work na to investigate and prosecute corruption like when public officer divert government money. Police fit help, but the special agency wey dey handle this kain case na ICPC, no be FRSC or Civil Defence.",
+"id": "wciv0905",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Malam Bello and his brother are disputing the sharing of their late father's property under Islamic law in Sokoto State. If the case is first decided at the Sharia Court, to which court should an unsatisfied party appeal?",
+"options": [
+"Federal High Court",
+"Sharia Court of Appeal",
+"Customary Court of Appeal",
+"Supreme Court"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Matters decided under Islamic personal law at the Sharia Court are appealed to the Sharia Court of Appeal, which specially handles such cases. The Federal High Court and Customary Court of Appeal deal with different matters, while the Supreme Court is the final appellate court, not the first appeal stage.",
+"pidgin": "Any case wey dem decide under Islamic law for Sharia Court, if person no gree, e go appeal go Sharia Court of Appeal wey be the correct court for that kain matter. Federal High Court and Customary Court of Appeal na for different matter, and Supreme Court na final court, no be first appeal.",
+"id": "wciv0906",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "What is the primary function of the Nigeria Police Force as stated in the Nigerian Constitution?",
+"options": [
+"Collection of company income tax",
+"Maintenance of law and order and protection of lives and property",
+"Construction and maintenance of federal highways",
+"Regulation of the Nigerian Stock Exchange"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Nigeria Police Force exists mainly to keep peace, enforce the law, and protect citizens and their property. Tax collection, road construction and stock market regulation belong to other bodies.",
+"pidgin": "Nigeria Police Force work na to keep peace, enforce law, and protect people and property. E no be them dey collect tax, build road or control stock market.",
+"id": "wciv0900",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:These duties are specified in the Police Act, not expressly in the Constitution.|Police duties are detailed in the Police Act; the Constitution (s.214) establishes the Force"
+}
+]
+}

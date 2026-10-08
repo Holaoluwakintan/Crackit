@@ -1,0 +1,106 @@
+{
+"subject": "chemistry",
+"topic": "Electrolysis and Faraday's laws",
+"generated": 4,
+"kept": [
+{
+"q": "According to Faraday's first law of electrolysis, the mass of a substance liberated or deposited at an electrode during electrolysis is directly proportional to the:",
+"options": [
+"temperature of the electrolyte",
+"concentration of the electrolyte",
+"quantity of electricity passed through the electrolyte",
+"distance between the two electrodes"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Faraday's first law states that mass deposited is proportional to the quantity of electric charge (Q = It) passed through the electrolyte. Temperature, concentration and electrode spacing may affect the rate of the reaction but are not the direct proportionality stated by the law.",
+"pidgin": "Faraday first law talk say the mass wey dey comot for electrode dey proportional to the quantity of charge (Q=It) wey pass enter the electrolyte. Temperature, concentration and distance no be wetin the law dey talk about.",
+"py": null,
+"values": null,
+"id": "chev0800",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Calculate the mass of aluminium deposited at the cathode when a steady current of 10.0 A is passed through molten aluminium oxide for 2 hours. [Al = 27, F = 96500 C/mol]",
+"options": [
+"2.24 g",
+"6.72 g",
+"20.15 g",
+"0.75 g"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Charge Q = It = 10 x 7200 = 72000 C. Moles of electrons = 72000/96500 = 0.746 mol. Since Al3+ + 3e- gives Al, moles of Al = 0.746/3 = 0.249 mol, so mass = 0.249 x 27 = 6.72 g.",
+"pidgin": "Charge Q = It = 10 x 7200 = 72000 C. Mole of electron = 72000/96500 = 0.746 mol. Since Al3+ need 3 electron to turn Al, mole of Al = 0.746/3 = 0.249 mol, mass = 0.249 x 27 = 6.72 g.",
+"py": "(10*2*3600/96500/3)*27",
+"values": [
+2.24,
+6.72,
+20.15,
+0.75
+],
+"id": "chev0801",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Two electrolytic cells, one containing molten aluminium chloride and the other containing aqueous copper(II) sulphate, are connected in series using inert electrodes. If 0.09 mole of aluminium is deposited in the first cell, calculate the mass of copper deposited in the second cell during the same period. [Cu = 64]",
+"options": [
+"4.32 g",
+"5.76 g",
+"17.28 g",
+"8.64 g"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Same charge passes through both cells. Al3+ + 3e- -> Al, so 0.09 mol Al needs 0.09 x 3 = 0.27 mol electrons. Cu2+ + 2e- -> Cu, so moles of Cu = 0.27/2 = 0.135 mol, mass = 0.135 x 64 = 8.64 g.",
+"pidgin": "Na the same charge dey pass through both cell. Al3+ + 3e- -> Al, so 0.09 mol Al go need 0.27 mol electron. Cu2+ + 2e- -> Cu, so mol of Cu = 0.27/2 = 0.135 mol, mass = 0.135 x 64 = 8.64 g.",
+"py": "(0.09*3/2)*64",
+"values": [
+4.32,
+5.76,
+17.28,
+8.64
+],
+"id": "chev0802",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "The Faraday constant (F) is the quantity of electric charge carried by one mole of electrons. If the charge on a single electron is 1.6 x 10^-19 C and the Avogadro number is 6.0 x 10^23 per mole, calculate the value of the Faraday constant.",
+"options": [
+"96000 C/mol",
+"9600 C/mol",
+"960000 C/mol",
+"9.6 C/mol"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Faraday constant F = Avogadro number x charge on one electron = 6.0 x 10^23 x 1.6 x 10^-19 = 9.6 x 10^4 C/mol = 96000 C/mol, which is close to the standard value of 96500 C/mol.",
+"pidgin": "Faraday constant F = Avogadro number x charge for one electron = 6.0 x 10^23 x 1.6 x 10^-19 = 9.6 x 10^4 C/mol = 96000 C/mol, wey close to the standard 96500 C/mol.",
+"py": "6.0e23 * 1.6e-19",
+"values": [
+96000,
+9600,
+960000,
+9.6
+],
+"id": "chev0803",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,153 @@
+{
+"subject": "physics",
+"topic": "Basic electronics (semiconductors, diodes)",
+"ti": 21,
+"generated": 6,
+"kept": [
+{
+"q": "Which pair of elements below are the semiconductor materials most commonly used in manufacturing diodes and transistors?",
+"options": [
+"Copper and Aluminium",
+"Iron and Nickel",
+"Silicon and Germanium",
+"Sulphur and Phosphorus"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Silicon and Germanium have four valence electrons and their conductivity lies between that of conductors and insulators, making them ideal for doping to produce diodes and transistors. Copper, Aluminium, Iron and Nickel are good conductors, not semiconductors.",
+"pidgin": "Silicon and Germanium na the semiconductor materials wey dem dey use make diode and transistor because dem get four valence electrons. Copper, Aluminium, Iron and Nickel na conductors, dem no be semiconductor.",
+"py": null,
+"values": null,
+"id": "wphy2100",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A pure (intrinsic) silicon crystal is doped with a pentavalent impurity such as phosphorus, which has five valence electrons. What type of semiconductor is formed?",
+"options": [
+"n-type semiconductor",
+"p-type semiconductor",
+"intrinsic semiconductor",
+"an insulator"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A pentavalent impurity (5 valence electrons) donates an extra free electron to the silicon lattice, increasing the number of free negative charge carriers. This produces an n-type semiconductor, where electrons are the majority carriers.",
+"pidgin": "Pentavalent impurity like phosphorus get five valence electrons, so e dey give extra free electron to the silicon. This one dey make n-type semiconductor, where electron na the majority carrier.",
+"py": null,
+"values": null,
+"id": "wphy2101",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A p-n junction diode is connected in forward bias, meaning the positive terminal of the battery is joined to the p-type side and the negative terminal to the n-type side. What happens to the depletion region and the current flow?",
+"options": [
+"The depletion region widens and current flows easily",
+"The depletion region stays unchanged and current flows in reverse",
+"The depletion region widens and no current flows",
+"The depletion region narrows and current flows easily"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "In forward bias, the applied voltage pushes majority carriers toward the junction, which reduces (narrows) the depletion region and allows current to flow easily through the diode. In reverse bias the opposite happens, the depletion region widens and current is blocked.",
+"pidgin": "For forward bias, the voltage dey push the majority carriers go the junction, so the depletion region dey narrow and current dey waka well well. If na reverse bias, depletion region go widen and current no go flow.",
+"py": null,
+"values": null,
+"id": "wphy2102",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In an electronic circuit used to charge a phone battery, a junction diode is included mainly to:",
+"options": [
+"Amplify weak signals",
+"Convert alternating current into direct current",
+"Store electrical charge",
+"Oscillate at a fixed frequency"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A junction diode only allows current to flow in one direction (forward bias) and blocks it in the other (reverse bias). This property is used for rectification, converting AC from the mains into DC needed to charge the battery.",
+"pidgin": "Diode dey only allow current to flow for one direction and e dey block am for the other direction. Na so e dey rectify AC come DC wey dem dey use charge phone battery.",
+"py": null,
+"values": null,
+"id": "wphy2103",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A simple half-wave rectifier circuit is connected to an alternating current supply of frequency 50 Hz. What is the frequency of the rectified (output) voltage pulses produced by the circuit?",
+"options": [
+"25 Hz",
+"100 Hz",
+"50 Hz",
+"200 Hz"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A half-wave rectifier allows only one half of each AC cycle to pass through, producing one output pulse for every complete input cycle. Therefore the output frequency equals the input frequency, which is 50 Hz.",
+"pidgin": "Half-wave rectifier dey allow only one half of the AC cycle pass, so na one pulse e dey give for every complete cycle. That means the output frequency go still be 50 Hz, same as the input.",
+"py": "50",
+"values": [
+25,
+100,
+50,
+200
+],
+"id": "wphy2104",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A full-wave bridge rectifier made of four diodes is connected to an alternating current mains supply of frequency 60 Hz. What is the frequency of the output pulses produced by this rectifier?",
+"options": [
+"120 Hz",
+"60 Hz",
+"30 Hz",
+"240 Hz"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A full-wave bridge rectifier uses both halves (positive and negative) of each AC cycle, producing two output pulses for every one input cycle. So the output frequency is twice the supply frequency: 2 x 60 Hz = 120 Hz.",
+"pidgin": "Full-wave bridge rectifier dey use both the positive and negative half of the AC cycle, so e dey produce two pulses for every one cycle wey enter. That means output frequency na 2 x 60 Hz = 120 Hz.",
+"py": "60*2",
+"values": [
+120,
+60,
+30,
+240
+],
+"id": "wphy2105",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

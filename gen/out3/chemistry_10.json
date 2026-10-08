@@ -1,0 +1,94 @@
+{
+"subject": "chemistry",
+"topic": "Rates of reaction",
+"generated": 4,
+"kept": [
+{
+"q": "Nkechi reacted the same mass of marble (calcium trioxocarbonate(IV)) with excess dilute hydrochloric acid, using the same volume and concentration of acid and the same temperature in each of four separate experiments. The only thing she changed was the physical form of the marble. In which case would the reaction with the acid be fastest?",
+"options": [
+"Marble used as one large single lump",
+"Marble broken into medium-sized chips",
+"Marble crushed into fine powder",
+"Marble left as a few small irregular chunks"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Crushing the marble into fine powder gives it the largest total surface area exposed to the acid. A bigger surface area means more acid particles can collide with the solid at the same time, so the reaction goes fastest.",
+"pidgin": "When you grind the marble to powder, e get plenty surface wey the acid fit touch at once. More surface area mean more collision between acid and marble, so e go react fast pass.",
+"py": null,
+"values": null,
+"id": "chev1000",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "For a certain reaction, the rate doubles for every 10°C rise in temperature. If the rate of the reaction at 20°C is 0.02 mol dm^-3 s^-1, what will the rate be at 50°C?",
+"options": [
+"0.08 mol dm^-3 s^-1",
+"0.16 mol dm^-3 s^-1",
+"0.32 mol dm^-3 s^-1",
+"0.04 mol dm^-3 s^-1"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The temperature rises by 50 - 20 = 30°C, which is three lots of 10°C. The rate doubles each time, so the overall factor is 2^3 = 8. New rate = 0.02 x 8 = 0.16 mol dm^-3 s^-1.",
+"pidgin": "Temperature rise na 30°C, wey be three times of 10°C. Since rate dey double every 10°C, we multiply by 2 three times: 2x2x2 = 8. So new rate be 0.02 x 8 = 0.16 mol dm^-3 s^-1.",
+"py": "0.02 * 2**((50-20)/10)",
+"values": [
+0.08,
+0.16,
+0.32,
+0.04
+],
+"id": "chev1001",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Excess granulated zinc is added to 50 cm^3 of 2.0 mol dm^-3 hydrochloric acid in a flask, and the volume of hydrogen gas produced is recorded against time until the reaction stops. Which description best fits the shape of the graph obtained, and the reason for it?",
+"options": [
+"The graph is a straight line through the origin throughout, because zinc is in excess and its amount does not change",
+"The graph rises steeply at first, then gradually levels off to a flat plateau, because the acid concentration falls as it is used up, slowing and finally stopping the reaction",
+"The graph is flat at first and then rises sharply near the end, because the reaction only starts after the acid is fully consumed",
+"The graph falls steadily from a high value to zero, because the volume of gas already collected is used up over time"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "At the start, acid concentration is highest, so collisions and gas production are fastest, giving a steep rise. As the acid is consumed (zinc is in excess), its concentration drops, the rate slows, and the curve flattens into a plateau when the acid runs out and gas production stops.",
+"pidgin": "For start, acid plenty well well, so reaction dey fast and gas dey comot quick, na why the graph rise steep. As time dey go, acid dey finish (zinc still plenty), so rate dey slow small small until the acid finish well well and the graph flat out.",
+"py": null,
+"values": null,
+"id": "chev1002",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In a kinetics experiment for the reaction A + B -> products, three trials gave the following initial rates: Trial 1: [A] = 0.10 mol/dm^3, [B] = 0.10 mol/dm^3, rate = 0.002 mol dm^-3 s^-1. Trial 2: [A] = 0.20 mol/dm^3, [B] = 0.10 mol/dm^3, rate = 0.008 mol dm^-3 s^-1. Trial 3: [A] = 0.10 mol/dm^3, [B] = 0.20 mol/dm^3, rate = 0.002 mol dm^-3 s^-1. What is the overall order of the reaction?",
+"options": [
+"Zero order",
+"First order",
+"Second order",
+"Third order"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Comparing trials 1 and 2, doubling [A] (with [B] fixed) quadruples the rate (0.002 to 0.008), so the order with respect to A is 2 (since 2^2 = 4). Comparing trials 1 and 3, doubling [B] (with [A] fixed) does not change the rate, so the order with respect to B is 0. Overall order = 2 + 0 = 2.",
+"pidgin": "If you compare trial 1 and 2, when [A] double, rate quadruple (0.002 to 0.008), so order for A na 2 (because 2^2 = 4). If you compare trial 1 and 3, when [B] double, rate no change, so order for B na zero. Total order = 2 + 0 = 2.",
+"py": null,
+"values": null,
+"id": "chev1003",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

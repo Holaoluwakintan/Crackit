@@ -1,0 +1,209 @@
+{
+"subject": "literature",
+"topic": "Unseen prose: an ORIGINAL short extract written into the question",
+"ti": 8,
+"generated": 10,
+"kept": [
+{
+"q": "Read the following extract carefully and answer the question that follows:\n\n\"The sun had barely lifted its head above the iroko trees when Mama Ngozi began her journey to Oye market. Her basket, heavy with yams and bitter leaf, pressed into her shoulder like an old debt that refused to be forgotten. She walked without looking back, for she knew that behind her lay a compound of hungry mouths waiting for the coins she would bring home. By the time she reached the market gate, her wrapper was soaked with sweat, yet her eyes still shone with the stubborn hope of a woman who had buried two husbands and raised five children alone.\"\n\nWhich point of view does the narrator use to tell this story?",
+"options": [
+"First person narrator, a character in the story",
+"Third person omniscient narrator",
+"Second person narrator addressing the reader directly",
+"First person plural narrator using 'we'"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The narrator is not a character in the story but knows Mama Ngozi's private thoughts, feelings and past life (that she buried two husbands and raised five children). This all-knowing outside view is third person omniscient.",
+"pidgin": "Di one wey dey tell di story no be character inside di story, but e sabi Mama Ngozi mind and her past wella (like say she bury two husband). Na dat kind all-knowing style be third person omniscient.",
+"id": "wlit0800",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the following extract carefully and answer the question that follows:\n\n\"The sun had barely lifted its head above the iroko trees when Mama Ngozi began her journey to Oye market. Her basket, heavy with yams and bitter leaf, pressed into her shoulder like an old debt that refused to be forgotten. She walked without looking back, for she knew that behind her lay a compound of hungry mouths waiting for the coins she would bring home. By the time she reached the market gate, her wrapper was soaked with sweat, yet her eyes still shone with the stubborn hope of a woman who had buried two husbands and raised five children alone.\"\n\nIn this extract, the word 'compound' refers to:",
+"options": [
+"A chemical mixture of substances",
+"A walled sports arena used for competitions",
+"A family's house and household members",
+"A piece of farmland used for planting crops"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "In Nigerian everyday usage, a 'compound' means a family home together with the people living there. This fits the context of 'hungry mouths waiting' for Mama Ngozi at home.",
+"pidgin": "For Naija language, 'compound' mean di house and di family wey dey inside am. E match wit di 'hungry mouths' wey dey wait for Mama Ngozi for house.",
+"id": "wlit0801",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the following extract carefully and answer the question that follows:\n\n\"The sun had barely lifted its head above the iroko trees when Mama Ngozi began her journey to Oye market. Her basket, heavy with yams and bitter leaf, pressed into her shoulder like an old debt that refused to be forgotten. She walked without looking back, for she knew that behind her lay a compound of hungry mouths waiting for the coins she would bring home. By the time she reached the market gate, her wrapper was soaked with sweat, yet her eyes still shone with the stubborn hope of a woman who had buried two husbands and raised five children alone.\"\n\nThe expression 'pressed into her shoulder like an old debt that refused to be forgotten' is an example of which figure of speech?",
+"options": [
+"Metaphor",
+"Simile",
+"Hyperbole",
+"Onomatopoeia"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The comparison uses the word 'like' to compare the heaviness of the basket to an old unforgettable debt. Any comparison using 'like' or 'as' is a simile.",
+"pidgin": "Di sentence use di word 'like' to compare di basket weight to old debt. Anytime dem use 'like' or 'as' to compare two tins, na simile.",
+"id": "wlit0802",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the following extract carefully and answer the question that follows:\n\n\"The sun had barely lifted its head above the iroko trees when Mama Ngozi began her journey to Oye market. Her basket, heavy with yams and bitter leaf, pressed into her shoulder like an old debt that refused to be forgotten. She walked without looking back, for she knew that behind her lay a compound of hungry mouths waiting for the coins she would bring home. By the time she reached the market gate, her wrapper was soaked with sweat, yet her eyes still shone with the stubborn hope of a woman who had buried two husbands and raised five children alone.\"\n\nWhich theme is most strongly suggested by Mama Ngozi's journey and attitude in this extract?",
+"options": [
+"Perseverance and sacrifice for one's family",
+"Betrayal among market women",
+"The dangers of travelling at dawn",
+"Conflict between tradition and modernity"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Mama Ngozi trudges a long distance under hardship, carrying a heavy load, purely so she can feed her children. Her 'stubborn hope' despite past losses shows the theme of perseverance and sacrifice.",
+"pidgin": "Mama Ngozi dey trek far with heavy load just so she fit feed her pikin dem. Her hope wey no gree quench despite wetin she don pass through na perseverance and sacrifice.",
+"id": "wlit0803",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the following extract carefully and answer the question that follows:\n\n\"The sun had barely lifted its head above the iroko trees when Mama Ngozi began her journey to Oye market. Her basket, heavy with yams and bitter leaf, pressed into her shoulder like an old debt that refused to be forgotten. She walked without looking back, for she knew that behind her lay a compound of hungry mouths waiting for the coins she would bring home. By the time she reached the market gate, her wrapper was soaked with sweat, yet her eyes still shone with the stubborn hope of a woman who had buried two husbands and raised five children alone.\"\n\nMama Ngozi's decision to walk 'without looking back' is best understood as symbolizing:",
+"options": [
+"Her fear of wild animals hiding in the forest",
+"Her forgetfulness of the way back home",
+"Her anger towards her late husbands",
+"Her firm determination to provide for her family despite hardship"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The phrase is not literal fear or forgetfulness; it reflects her refusal to be weakened by thinking about the burden and hungry children behind her. Reading it alongside her 'stubborn hope', it symbolizes resolve and determination to keep moving forward for her family's sake.",
+"pidgin": "Di sentence no mean say she fear animal or she forget road. E dey show say she no wan allow di wahala for house slow her down, so e be symbol of strong determination to provide for her family.",
+"id": "wlit0804",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the following extract carefully and answer the question that follows:\n\n\"Chidi stood at the riverbank, his fishing net trailing in the water like a tired old man's hand. Each evening for thirty years, he had come to this same spot, and each evening the river had given him just enough to keep hunger at bay but never enough to make him proud. Tonight, however, something tugged hard at the net, and his heart leapt like a drum struck by an eager hand. 'Could this be the day?' he whispered to the darkening sky, his voice trembling between fear and joy.\"\n\nWhere is this extract set?",
+"options": [
+"By a riverbank in the evening",
+"Inside a classroom at noon",
+"At a busy market in the morning",
+"In a courtroom during a trial"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The extract clearly states Chidi 'stood at the riverbank' and mentions 'each evening', showing the setting is by a river in the evening.",
+"pidgin": "Di extract talk say Chidi 'stood at di riverbank' and e mention 'each evening', so di setting na riverside for evening time.",
+"id": "wlit0805",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the following extract carefully and answer the question that follows:\n\n\"Chidi stood at the riverbank, his fishing net trailing in the water like a tired old man's hand. Each evening for thirty years, he had come to this same spot, and each evening the river had given him just enough to keep hunger at bay but never enough to make him proud. Tonight, however, something tugged hard at the net, and his heart leapt like a drum struck by an eager hand. 'Could this be the day?' he whispered to the darkening sky, his voice trembling between fear and joy.\"\n\nThe expression 'his fishing net trailing in the water like a tired old man's hand' contains which figure of speech?",
+"options": [
+"Metaphor",
+"Simile",
+"Personification",
+"Alliteration"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The word 'like' is used to compare the net to a tired old man's hand, which makes this a simile, not a direct metaphor or personification.",
+"pidgin": "Dem use 'like' to compare di net to old man hand, so na simile, no be metaphor or personification.",
+"id": "wlit0806",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the following extract carefully and answer the question that follows:\n\n\"Chidi stood at the riverbank, his fishing net trailing in the water like a tired old man's hand. Each evening for thirty years, he had come to this same spot, and each evening the river had given him just enough to keep hunger at bay but never enough to make him proud. Tonight, however, something tugged hard at the net, and his heart leapt like a drum struck by an eager hand. 'Could this be the day?' he whispered to the darkening sky, his voice trembling between fear and joy.\"\n\nThe mood created in the final lines of the extract, when the net is tugged and Chidi whispers to the sky, is best described as:",
+"options": [
+"Calm and indifferent",
+"Boring and monotonous",
+"Tense and hopeful",
+"Angry and bitter"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The sudden tug, the leaping heart, and the trembling whisper between 'fear and joy' create excitement mixed with uncertainty, which is a tense and hopeful mood.",
+"pidgin": "Di sudden pull for net, di heart wey leap, and di voice wey dey shake between fear and joy, all dey show say mood na tense and hopeful one.",
+"id": "wlit0807",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the following extract carefully and answer the question that follows:\n\n\"Chidi stood at the riverbank, his fishing net trailing in the water like a tired old man's hand. Each evening for thirty years, he had come to this same spot, and each evening the river had given him just enough to keep hunger at bay but never enough to make him proud. Tonight, however, something tugged hard at the net, and his heart leapt like a drum struck by an eager hand. 'Could this be the day?' he whispered to the darkening sky, his voice trembling between fear and joy.\"\n\nThe rhetorical question 'Could this be the day?' mainly serves to:",
+"options": [
+"Show that Chidi has given up fishing forever",
+"Provide factual information about the river's depth",
+"Mock Chidi's thirty years of fishing",
+"Heighten suspense and reveal Chidi's inner hope and anxiety"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "A rhetorical question is not asked to get an answer but to express feeling. Here it builds suspense about what Chidi has caught and shows the mixture of hope and anxiety inside him after thirty years of waiting.",
+"pidgin": "Rhetorical question no dey ask for answer, e dey show feeling. Dis one dey build suspense about wetin Chidi catch and e dey show di hope and worry wey dey inside am afta thirty years.",
+"id": "wlit0808",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the following extract carefully and answer the question that follows:\n\n\"Chidi stood at the riverbank, his fishing net trailing in the water like a tired old man's hand. Each evening for thirty years, he had come to this same spot, and each evening the river had given him just enough to keep hunger at bay but never enough to make him proud. Tonight, however, something tugged hard at the net, and his heart leapt like a drum struck by an eager hand. 'Could this be the day?' he whispered to the darkening sky, his voice trembling between fear and joy.\"\n\nThis extract is best classified under which genre of literature?",
+"options": [
+"Prose fiction",
+"Dramatic monologue",
+"Lyric poetry",
+"Epic poetry"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The passage is written in ordinary narrative sentences describing a character and event in story form, without being arranged in verse or spoken as a stage performance. This makes it prose fiction.",
+"pidgin": "Dem write di passage with normal story sentences wey dey describe character and event, e no be poem lines or stage talk, so na prose fiction.",
+"id": "wlit0809",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

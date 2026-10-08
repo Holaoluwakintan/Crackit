@@ -1,0 +1,149 @@
+{
+"subject": "civic",
+"topic": "Constitutional democracy and the pillars of democracy",
+"ti": 7,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines constitutional democracy?",
+"options": [
+"A system where the military controls government activities",
+"A system of government in which power is exercised according to the provisions of a written or unwritten constitution",
+"A system where only one political party is allowed to exist",
+"A system where a king makes all laws without any limitation"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Constitutional democracy means government operates under the rules and limits set out in a constitution, which guides how power is used and shared. This prevents any leader or group from ruling without restriction.",
+"pidgin": "Constitutional democracy na when government dey rule according to wetin constitution talk, no be anyhow power. The constitution dey guide how dem go use power so nobody go rule anyhow.",
+"id": "wciv0700",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT generally regarded as a pillar of democracy?",
+"options": [
+"Rule of law",
+"Independent judiciary",
+"Hereditary monarchy",
+"Free and fair elections"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Hereditary monarchy, where leadership passes automatically through family bloodline, is not a feature of democracy. Democracy is built on rule of law, independent judiciary, and free elections, which allow the people to choose and check their leaders.",
+"pidgin": "Hereditary monarchy, wey mean say leadership dey pass from family to family, no be democracy pillar. Democracy dey built on rule of law, independent judiciary and free election wey allow people choose their leader.",
+"id": "wciv0701",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the principle of separation of powers under a constitutional democracy, which pairing of an arm of government with its major function is correct?",
+"options": [
+"Judiciary - makes laws for the country",
+"Legislature - implements government programmes",
+"Executive - enforces and implements laws made by the legislature",
+"Legislature - interprets the constitution during court cases"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Under separation of powers, the executive is the arm responsible for enforcing and implementing laws, the legislature makes laws, and the judiciary interprets them. Mixing up these roles would wrongly combine the duties of different arms.",
+"pidgin": "Under separation of powers, executive na the arm wey dey enforce and carry out laws, legislature dey make the laws, while judiciary dey interpret am. If you mix the roles, e go wrong.",
+"id": "wciv0702",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The rule of law, as a pillar of democracy, mainly means that",
+"options": [
+"everyone, including government officials, is subject to the law",
+"the president can set aside court judgements whenever he wishes",
+"only poor citizens are bound to obey the law",
+"laws of the land apply strictly during election periods only"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Rule of law means no one, not even the highest government official, is above the law; everyone is equally subject to it and can be held accountable. This ensures fairness and justice for all citizens.",
+"pidgin": "Rule of law mean say nobody dey above the law, even the president or governor. Everybody, big or small, must follow the law and fit face consequence if dem break am.",
+"id": "wciv0703",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which Nigerian body is primarily responsible for organising and conducting elections at the federal and state levels, in line with constitutional democracy?",
+"options": [
+"Economic and Financial Crimes Commission",
+"Independent Corrupt Practices Commission",
+"National Drug Law Enforcement Agency",
+"Independent National Electoral Commission"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The Independent National Electoral Commission (INEC) is the constitutional body saddled with organising, conducting and supervising elections in Nigeria. The other agencies listed deal with corruption and drug-related matters, not elections.",
+"pidgin": "INEC (Independent National Electoral Commission) na the body wey constitution give work to organise and conduct election for Nigeria. The other agencies dey handle corruption and drug matters, no be election.",
+"id": "wciv0704",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Checks and balances exist in a constitutional democracy so that no single arm of government becomes too powerful. Which of the following scenarios best illustrates this principle in action?",
+"options": [
+"The judiciary reviews and declares an act of the National Assembly unconstitutional after examining it",
+"The legislature passes a budget and the executive implements it without any form of review",
+"The executive appoints all judges without any legislative screening or approval",
+"The legislature is barred by law from questioning any action of the executive"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "When the judiciary reviews and can strike down a law passed by the legislature for being unconstitutional, it shows one arm checking the excesses of another, which is the essence of checks and balances. The other options describe situations where one arm has unchecked power, which goes against this principle.",
+"pidgin": "When judiciary check law wey legislature pass and reject am because e no follow constitution, na so checks and balances dey work, one arm dey check the other. The other options show one arm wey get power wey nobody fit check, wey no be checks and balances.",
+"id": "wciv0705",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Adeyemi, a civics teacher, tells her class that true constitutional democracy exists only when citizens can freely criticise government policies through newspapers, radio and television without fear of arrest. This statement best relates to which pillar of democracy?",
+"options": [
+"Federal character principle",
+"Fiscal federalism",
+"Freedom of the press",
+"Judicial precedent"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Freedom of the press allows citizens and journalists to express opinions and criticise government actions through the media without being punished. This openness helps keep government accountable, which is central to constitutional democracy.",
+"pidgin": "Freedom of the press mean say citizens and journalists fit talk their mind and criticise government through media without dem arrest dem. E dey help make government accountable, and na important part of constitutional democracy.",
+"id": "wciv0706",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

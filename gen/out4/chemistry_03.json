@@ -1,0 +1,171 @@
+{
+"subject": "chemistry",
+"topic": "Stoichiometry and the mole concept",
+"ti": 3,
+"generated": 6,
+"kept": [
+{
+"q": "Calculate the number of moles of sodium hydroxide, NaOH, present in 20 g of the compound. [Na = 23, O = 16, H = 1]",
+"options": [
+"0.5 mol",
+"0.8 mol",
+"1.5 mol",
+"2.0 mol"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Molar mass of NaOH = 23 + 16 + 1 = 40 g/mol. Number of moles = mass/molar mass = 20/40 = 0.5 mol.",
+"pidgin": "Molar mass of NaOH na 23+16+1 = 40 g/mol. Moles = mass over molar mass = 20/40 = 0.5 mol.",
+"py": "20/40",
+"values": [
+0.5,
+0.8,
+1.5,
+2.0
+],
+"id": "wche0300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "What is the mass of 0.25 mole of calcium trioxocarbonate(IV), CaCO3? [Ca = 40, C = 12, O = 16]",
+"options": [
+"10 g",
+"25 g",
+"40 g",
+"100 g"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Molar mass of CaCO3 = 40 + 12 + (16x3) = 100 g/mol. Mass = moles x molar mass = 0.25 x 100 = 25 g.",
+"pidgin": "Molar mass of CaCO3 na 40+12+(16x3) = 100 g/mol. Mass = moles x molar mass = 0.25 x 100 = 25 g.",
+"py": "0.25*100",
+"values": [
+10,
+25,
+40,
+100
+],
+"id": "wche0301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Calculate the number of molecules present in 4.4 g of carbon(IV) oxide, CO2. [C = 12, O = 16, Avogadro's number = 6.02 x 10^23 mol^-1]",
+"options": [
+"6.02 x 10^21 molecules",
+"6.02 x 10^22 molecules",
+"6.02 x 10^23 molecules",
+"1.204 x 10^23 molecules"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Molar mass of CO2 = 12 + (16x2) = 44 g/mol. Moles = 4.4/44 = 0.1 mol. Number of molecules = 0.1 x 6.02x10^23 = 6.02x10^22 molecules.",
+"pidgin": "Molar mass of CO2 na 12+(16x2) = 44 g/mol. Moles = 4.4/44 = 0.1 mol. Number of molecules = 0.1 x 6.02x10^23 = 6.02x10^22 molecules.",
+"py": "0.1*6.02e23",
+"values": [
+6.02e+21,
+6.02e+22,
+6.02e+23,
+1.204e+23
+],
+"id": "wche0302",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "What volume, at standard temperature and pressure (s.t.p), will be occupied by 0.2 mole of oxygen gas, O2? [Molar volume of a gas at s.t.p = 22.4 dm3/mol]",
+"options": [
+"2.24 dm3",
+"4.48 dm3",
+"11.2 dm3",
+"22.4 dm3"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Volume = number of moles x molar volume = 0.2 x 22.4 dm3/mol = 4.48 dm3.",
+"pidgin": "Volume = number of moles x molar volume = 0.2 x 22.4 dm3/mol = 4.48 dm3.",
+"py": "0.2*22.4",
+"values": [
+2.24,
+4.48,
+11.2,
+22.4
+],
+"id": "wche0303",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Magnesium reacts with excess hydrochloric acid according to the equation: Mg + 2HCl -> MgCl2 + H2. If 3.0 g of magnesium reacts completely with excess acid, calculate the volume of hydrogen gas produced at s.t.p. [Mg = 24, Molar volume of a gas at s.t.p = 22.4 dm3/mol]",
+"options": [
+"1.4 dm3",
+"2.8 dm3",
+"5.6 dm3",
+"11.2 dm3"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Moles of Mg = 3.0/24 = 0.125 mol. From the equation, 1 mole Mg produces 1 mole H2, so moles of H2 = 0.125 mol. Volume of H2 = 0.125 x 22.4 = 2.8 dm3.",
+"pidgin": "Moles of Mg = 3.0/24 = 0.125 mol. From the equation, 1 mole Mg go give 1 mole H2, so moles of H2 = 0.125 mol. Volume of H2 = 0.125 x 22.4 = 2.8 dm3.",
+"py": "(3.0/24)*22.4",
+"values": [
+1.4,
+2.8,
+5.6,
+11.2
+],
+"id": "wche0304",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A compound was found to contain, by mass, 40% carbon, 6.7% hydrogen and 53.3% oxygen. Determine the empirical formula of the compound. [C = 12, H = 1, O = 16]",
+"options": [
+"CH2O",
+"C2H4O2",
+"CHO",
+"C3H6O3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Divide each percentage by its atomic mass: C = 40/12 = 3.33, H = 6.7/1 = 6.7, O = 53.3/16 = 3.33. Dividing by the smallest value (3.33) gives C:H:O = 1:2:1, so the empirical formula is CH2O.",
+"pidgin": "Divide each percentage by im atomic mass: C = 40/12 = 3.33, H = 6.7/1 = 6.7, O = 53.3/16 = 3.33. Divide everything by the smallest number (3.33) e go give C:H:O = 1:2:1, so empirical formula na CH2O.",
+"py": null,
+"values": null,
+"id": "wche0305",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

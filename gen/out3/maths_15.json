@@ -1,0 +1,112 @@
+{
+"subject": "maths",
+"topic": "Euclidean geometry: angles, triangles and polygons (describe figures fully in words)",
+"generated": 4,
+"kept": [
+{
+"q": "In triangle ABC, AB = AC (the triangle is isosceles with AB and AC as the two equal sides). If angle BAC (the angle between the two equal sides) is 48°, find angle ABC.",
+"options": [
+"48°",
+"66°",
+"84°",
+"96°"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Since AB = AC, the base angles ABC and ACB are equal. The three angles sum to 180°, so each base angle = (180 - 48)/2 = 66°.",
+"pidgin": "Since AB = AC, the two base angles (ABC and ACB) go dey equal. All three angles must add to 180°, so each base angle = (180 - 48)/2 = 66°.",
+"py": "(180-48)/2",
+"values": [
+48,
+66,
+84,
+96
+],
+"id": "matv1500",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A regular polygon has 9 sides. Calculate the total number of diagonals that can be drawn inside the polygon.",
+"options": [
+"18",
+"24",
+"27",
+"36"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The number of diagonals of a polygon with n sides is given by n(n-3)/2. For n = 9, this gives 9(9-3)/2 = 9x6/2 = 27.",
+"pidgin": "The formula for diagonals na n(n-3)/2. If n = 9, e go be 9(9-3)/2 = 9x6/2 = 27.",
+"py": "9*(9-3)//2",
+"values": [
+18,
+24,
+27,
+36
+],
+"id": "matv1501",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A convex hexagon (6-sided polygon) has its 6 exterior angles forming an arithmetic progression, increasing by 10° from one angle to the next around the polygon. If the smallest exterior angle is 35°, find the largest exterior angle.",
+"options": [
+"65°",
+"75°",
+"80°",
+"85°"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The exterior angles form an AP: 35, 45, 55, 65, 75, 85 (6 terms, common difference 10). Checking the sum: 35+45+55+65+75+85 = 360, which agrees with the rule that exterior angles of any convex polygon sum to 360°. The largest angle is 85°.",
+"pidgin": "The exterior angles be AP: 35, 45, 55, 65, 75, 85 (6 terms, common difference 10). If you add them, e go give 360°, wey match the rule say exterior angles of any convex polygon must sum to 360°. So the biggest angle na 85°.",
+"py": "35 + 5*10",
+"values": [
+65,
+75,
+80,
+85
+],
+"id": "matv1502",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "In triangle LMN, angle LMN = 72° and angle LNM = 54°. The bisector of angle MLN meets side MN at point K, splitting angle MLN into two equal parts. Find the size of angle MLK.",
+"options": [
+"27°",
+"54°",
+"63°",
+"108°"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "First find angle MLN: 180 - 72 - 54 = 54°. Since LK bisects this angle, angle MLK = 54/2 = 27°.",
+"pidgin": "First calculate angle MLN: 180 - 72 - 54 = 54°. Since LK dey cut the angle into two equal parts, angle MLK = 54/2 = 27°.",
+"py": "(180-72-54)/2",
+"values": [
+27,
+54,
+63,
+108
+],
+"id": "matv1503",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

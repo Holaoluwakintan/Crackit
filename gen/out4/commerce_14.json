@@ -1,0 +1,163 @@
+{
+"subject": "commerce",
+"topic": "Consumer protection",
+"ti": 14,
+"generated": 7,
+"kept": [
+{
+"q": "In Commerce, what is the main meaning of 'consumer protection'?",
+"options": [
+"Measures put in place to safeguard buyers from exploitation by producers and sellers",
+"A government plan to increase taxes on imported goods",
+"A method used by firms to calculate the cost of production",
+"A policy that allows sellers to fix prices without control"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Consumer protection refers to all the laws, agencies and actions set up to protect buyers from being cheated, harmed or exploited by sellers and producers. The other options describe unrelated business or tax activities.",
+"pidgin": "Consumer protection na all the laws and actions wey dem use protect buyers from sellers wey wan cheat dem. The other options na about tax and pricing wey no concern protection of buyer.",
+"py": null,
+"values": null,
+"id": "wcom1400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which government agency in Nigeria is mainly responsible for checking that food and drugs sold to the public are safe for consumption?",
+"options": [
+"Federal Inland Revenue Service",
+"National Agency for Food and Drug Administration and Control (NAFDAC)",
+"Nigerian Stock Exchange",
+"Central Bank of Nigeria"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "NAFDAC is the agency charged with regulating and controlling the quality, safety and sale of food, drugs and related products in Nigeria. The other bodies deal with tax collection, stock trading and banking, not product safety.",
+"pidgin": "NAFDAC na the agency wey dey check say food and drugs wey dem dey sell for Nigeria safe for people. The other agencies dey handle tax, shares and banking, no be product safety.",
+"py": null,
+"values": null,
+"id": "wcom1401",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "One basic right that consumer protection gives to a buyer is the right to",
+"options": [
+"fix the selling price of any product he buys",
+"be heard and have his complaints addressed when a product is faulty",
+"determine how much profit a trader should make",
+"control how a factory produces its goods"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Consumer protection guarantees the buyer the right to complain and be listened to when a product does not meet expectation or is defective. Fixing prices, profits or production belongs to the seller or producer, not the buyer.",
+"pidgin": "Consumer get right to complain and make dem hear am when product bad or no correct. To fix price, profit or production na seller or producer work, no be buyer own.",
+"py": null,
+"values": null,
+"id": "wcom1402",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The Latin saying 'let the buyer beware', which warns consumers to examine goods carefully before buying, is known as",
+"options": [
+"Caveat emptor",
+"Caveat venditor",
+"Bona fide",
+"Ad valorem"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Caveat emptor is the Latin phrase meaning 'let the buyer beware', reminding consumers to inspect goods before purchase since protection may be limited. Caveat venditor means 'let the seller beware', while bona fide and ad valorem are unrelated commercial terms.",
+"pidgin": "Caveat emptor na Latin wey mean 'make buyer dey careful' before e buy something. Caveat venditor mean make seller dey careful, while bona fide and ad valorem na different business terms entirely.",
+"py": null,
+"values": null,
+"id": "wcom1403",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT a genuine method of protecting consumers in the marketplace?",
+"options": [
+"Standardizing weights and measures used by traders",
+"Allowing advertisers to exaggerate product benefits without proof",
+"Forming consumer associations to handle collective complaints",
+"Making laws against the adulteration of goods"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Allowing false or exaggerated advertising actually harms consumers instead of protecting them, so it is not a genuine protection method. Standardizing measures, forming associations and anti-adulteration laws are all real consumer protection measures.",
+"pidgin": "To allow advert wey dey lie or exaggerate go harm consumer instead of protect am, so e no be real protection method. The other three na correct ways wey dem dey use protect consumer.",
+"py": null,
+"values": null,
+"id": "wcom1404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Adaeze bought a bag of rice labelled 50kg, but when she weighed it at home, it measured only 45kg. Which Nigerian agency is most relevant in addressing this kind of consumer problem?",
+"options": [
+"Standards Organisation of Nigeria (SON)",
+"Nigerian Copyright Commission",
+"Nigerian Ports Authority",
+"National Pension Commission"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "SON is responsible for setting and enforcing standard weights, measures and quality for goods sold in Nigeria, so a short-weight bag of rice falls under its duty. The other agencies deal with copyright, ports operations and pensions, which are unrelated.",
+"pidgin": "SON na the agency wey dey make sure say weight and measure of goods correct, so rice wey no reach 50kg na dia work. Di oda agencies dey handle copyright, port and pension matter, no be weight wahala.",
+"py": null,
+"values": null,
+"id": "wcom1405",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A trader sells used (fairly used) phones to customers without telling them the phones are not brand new, so buyers pay prices meant for new phones. Which consumer right has been most directly violated?",
+"options": [
+"Right to choose from a variety of goods",
+"Right to accurate information about the product",
+"Right to representation in government policy",
+"Right to a clean and safe environment"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "By hiding the true condition of the phones, the trader denies buyers correct information needed to make an informed decision, which directly violates the right to information. Choice, political representation and environmental rights are not the issue described here.",
+"pidgin": "The trader hide the true condition of the phone from buyer, so e don break the right to correct information wey go help buyer decide well. The other rights no match wetin dey happen for this story.",
+"py": null,
+"values": null,
+"id": "wcom1406",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

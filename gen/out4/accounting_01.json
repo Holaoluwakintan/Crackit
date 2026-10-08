@@ -1,0 +1,175 @@
+{
+"subject": "accounting",
+"topic": "Source documents and books of original entry",
+"ti": 1,
+"generated": 7,
+"kept": [
+{
+"q": "A trader sold goods on credit to a customer. Which source document will the trader prepare and send to the customer, showing the quantity, description, unit price and total amount of the goods sold?",
+"options": [
+"Credit note",
+"Invoice",
+"Debit note",
+"Local purchase order"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An invoice is the source document a seller issues to a buyer for goods sold on credit. It shows quantity, price, trade discount and total amount owed.",
+"pidgin": "Invoice na di paper wey seller dey write give buyer wen e sell goods on credit. E go show di quantity, price and di total money wey buyer go pay.",
+"py": null,
+"values": null,
+"id": "wacc0100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following source documents is used to acknowledge that cash or cheque has been received from a customer in settlement of a debt?",
+"options": [
+"Receipt",
+"Invoice",
+"Credit note",
+"Statement of account"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A receipt is issued by the person receiving money to confirm that payment (cash or cheque) has been received from the payer.",
+"pidgin": "Receipt na di document wey di person wey collect money dey give to show say e don receive di money from di person wey pay.",
+"py": null,
+"values": null,
+"id": "wacc0101",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Alhaji Musa sold goods worth ₦30,000 on credit to Mrs Chioma. Mrs Chioma later returned goods worth ₦4,000 because they were the wrong size. Which document will Alhaji Musa send to Mrs Chioma to reduce the amount she owes?",
+"options": [
+"Debit note",
+"Invoice",
+"Credit note",
+"Receipt"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A credit note is issued by the seller to reduce a customer's debt when goods are returned or an overcharge is corrected. Here, Alhaji Musa (seller) reduces Mrs Chioma's balance by ₦4,000.",
+"pidgin": "Credit note na wetin seller dey use reduce di money wey customer owe am wen customer return goods. Na Alhaji Musa go send am give Mrs Chioma to reduce her debt by ₦4,000.",
+"py": null,
+"values": null,
+"id": "wacc0102",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A supplier's invoice to Bayo Stores understated the price of some goods supplied, so the total amount charged was less than the correct amount. Which document will the supplier send to Bayo Stores to correct this error and increase the amount owed?",
+"options": [
+"Receipt",
+"Statement of account",
+"Credit note",
+"Debit note"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A debit note is sent when an amount owed needs to be increased, such as when an invoice was undercharged. It informs the buyer that more money is now owed.",
+"pidgin": "Debit note na wetin dem dey use when di money wey person owe need increase, like wen invoice no charge well. E go tell Bayo Stores say dem owe more money now.",
+"py": null,
+"values": null,
+"id": "wacc0103",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which book of original entry is used to record credit purchases of goods bought for resale, before the entries are posted to the individual suppliers' accounts in the purchases ledger?",
+"options": [
+"Journal proper",
+"Sales day book",
+"Purchases day book",
+"Cash book"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The purchases day book (purchases journal) records all credit purchases of goods meant for resale, using details from suppliers' invoices, before posting to the purchases ledger.",
+"pidgin": "Purchases day book na where dem dey first write credit purchases of goods wey business buy to resell, before dem post am go di purchases ledger.",
+"py": null,
+"values": null,
+"id": "wacc0104",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chief Okafor's petty cashier operates an imprest system with a fixed float of ₦15,000. During the week, the following payments were made from petty cash: stationery ₦2,300, transport ₦3,750, postage stamps ₦1,450, and refreshment for staff ₦2,000. How much will the chief cashier reimburse the petty cashier at the end of the week to restore the imprest to its original level?",
+"options": [
+"₦5,500",
+"₦9,500",
+"₦15,000",
+"₦11,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Under the imprest system, reimbursement equals total expenses paid out, not the balance remaining. Total expenses = 2,300+3,750+1,450+2,000 = ₦9,500, so this amount restores the float to ₦15,000.",
+"pidgin": "For imprest system, dem go only refund di total money wey petty cashier don spend. Total spend = 2,300+3,750+1,450+2,000 = ₦9,500, so na dat money dem go give am back make di float reach ₦15,000 again.",
+"py": "2300+3750+1450+2000",
+"values": [
+5500,
+9500,
+15000,
+11000
+],
+"id": "wacc0105",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Golden Enterprises received an invoice of ₦68,000 for goods bought on credit from Zenith Traders. Golden Enterprises later returned damaged goods worth ₦12,000 to Zenith Traders and received a credit note for this amount. What is the net amount Golden Enterprises will finally pay to Zenith Traders for this transaction?",
+"options": [
+"₦56,000",
+"₦68,000",
+"₦80,000",
+"₦12,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A credit note reduces the amount a buyer owes when goods are returned. Net amount payable = ₦68,000 (invoice) minus ₦12,000 (credit note) = ₦56,000.",
+"pidgin": "Credit note dey reduce di money wey buyer owe wen e return goods. So di net money wey Golden Enterprises go pay = ₦68,000 minus ₦12,000 = ₦56,000.",
+"py": "68000-12000",
+"values": [
+56000,
+68000,
+80000,
+12000
+],
+"id": "wacc0106",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

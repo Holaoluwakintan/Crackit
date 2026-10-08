@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Basic concepts: power, authority, legitimacy and sovereignty",
+"ti": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In Government, 'power' is best defined as:",
+"options": [
+"the legal right to rule a state",
+"the ability to influence or control the behaviour of others, even against their will",
+"the recognition given to a ruler by his people",
+"the supreme authority of a state over its territory"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Power is the capacity to make people act in a certain way, whether they agree or not. It does not need to be legal or accepted to exist, unlike authority or legitimacy.",
+"pidgin": "Power na the fit to make people do wetin you want, even if dem no agree. E no need to be legal or dem to accept am before e dey there.",
+"id": "wgov0000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Authority is different from mere power mainly because authority:",
+"options": [
+"is always backed by military force",
+"is the legitimate right to exercise power and command obedience",
+"cannot be challenged by any citizen",
+"exists only in a democratic system of government"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Authority is power that is recognised as lawful or rightful. A person in authority is obeyed because people accept his right to command, not just because he can force them.",
+"pidgin": "Authority na power wey people accept say e correct. Dem dey obey the person because dem believe say e get the right to command, no be say na only force e dey use.",
+"id": "wgov0001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Legitimacy in government refers to:",
+"options": [
+"the ability to use force to control citizens",
+"the general acceptance by the people that a government has the right to rule",
+"the independence of a state from foreign control",
+"the power to make laws for a country"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Legitimacy means the people see a government's rule as rightful and proper, usually because it followed accepted rules like free elections or tradition.",
+"pidgin": "Legitimacy na when the citizens agree say the government get correct right to dey rule, mostly because the government follow accepted process like free election.",
+"id": "wgov0002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Sovereignty, as used in Government studies, is best described as:",
+"options": [
+"the supreme and final authority within a state",
+"the right of citizens to vote during elections",
+"the ability of a government to collect taxes from citizens",
+"the influence a leader has over members of his cabinet"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Sovereignty is the highest and final authority in a state, above which there is no other power, either inside the country or from outside, that the state must obey.",
+"pidgin": "Sovereignty na the highest and final power for inside one state, no other power — whether from inside or outside — fit control am.",
+"id": "wgov0003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which situation best illustrates the external sovereignty of Nigeria as a state?",
+"options": [
+"The National Assembly making laws for the whole federation",
+"Nigeria's independence from control by Britain or any other foreign power",
+"The President appointing ministers to head government ministries",
+"The judiciary interpreting the provisions of the 1999 Constitution"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "External sovereignty means a state is free from control by any outside power and relates freely with other nations as an equal. Nigeria's independence from Britain shows this freedom from foreign control.",
+"pidgin": "External sovereignty mean say no foreign country fit control the state again. Nigeria wey don free from Britain control na clear example of external sovereignty.",
+"id": "wgov0004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A state's internal sovereignty is shown when the government:",
+"options": [
+"signs a trade treaty with another country",
+"exercises supreme authority over all persons and groups within its own territory",
+"joins an international body like the African Union",
+"receives diplomatic recognition from other nations"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Internal sovereignty concerns supreme control inside the state itself, over all citizens, institutions and groups within its borders. Treaties and recognition deal with external sovereignty, not internal.",
+"pidgin": "Internal sovereignty na when government get final power for inside im own territory, over all the people and groups dem. Treaty and recognition na external sovereignty matter.",
+"id": "wgov0005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Major Danjuma took over the government of a fictional West African country through a military coup. He fully controls the armed forces and can enforce his orders, but most citizens see his government as unlawful and refuse to cooperate with it. This situation best shows that Major Danjuma has:",
+"options": [
+"power without legitimacy",
+"authority without power",
+"sovereignty without authority",
+"legitimacy without power"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Danjuma can force obedience (power) because he controls the army, but the people do not accept his rule as rightful, so he lacks legitimacy. This is a classic case of power without legitimacy.",
+"pidgin": "Danjuma get the army so e fit force people to obey am — na power. But the citizens no gree say im rule correct, so e no get legitimacy. Na power without legitimacy be dis.",
+"id": "wgov0006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a certain country, the constitution clearly states that the National Assembly holds supreme law-making power. In practice, however, powerful political godfathers and pressure groups actually decide most government policies behind the scenes. This situation best illustrates the difference between:",
+"options": [
+"internal sovereignty and external sovereignty",
+"legal sovereignty and political sovereignty",
+"power and legitimacy",
+"de jure government and de facto government"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Legal sovereignty is the authority officially recognised by the constitution or law (the National Assembly). Political sovereignty is the real, actual power behind government decisions (the godfathers/pressure groups), which may differ from who holds power on paper.",
+"pidgin": "Legal sovereignty na the power wey constitution talk say National Assembly get on paper. Political sovereignty na the real power wey dey behind the scene — for dis case na the godfathers and pressure groups. Na so e different be dis.",
+"id": "wgov0007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

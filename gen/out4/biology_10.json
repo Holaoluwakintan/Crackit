@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Reproduction in plants (flowers, pollination, fruits, seeds)",
+"ti": 10,
+"generated": 6,
+"kept": [
+{
+"q": "In a typical flower, which part develops into the fruit after successful fertilization has taken place?",
+"options": [
+"Ovary",
+"Ovule",
+"Stigma",
+"Anther"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "After fertilization, the ovary wall grows and develops into the fruit, while the ovules inside become the seeds. The stigma and anther do not form the fruit; they are involved in pollination only.",
+"pidgin": "After fertilization, na the ovary waka turn to fruit, while the ovules wey dey inside turn to seeds. Stigma and anther no dey form fruit, na only pollination work dem dey do.",
+"id": "wbio1000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Adebayo noticed that a bee carried pollen grains from the anther of a hibiscus flower in her garden to the stigma of another hibiscus flower growing on a different hibiscus plant nearby. This type of pollen transfer is called?",
+"options": [
+"Self-pollination",
+"Cross-pollination",
+"Autogamy",
+"Cleistogamy"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Cross-pollination is the transfer of pollen grains from the anther of a flower on one plant to the stigma of a flower on another plant of the same species. Self-pollination and autogamy happen within the same flower or same plant, while cleistogamy refers to pollination in flowers that never open.",
+"pidgin": "Cross-pollination na when pollen comot from anther of flower for one plant go land for stigma of flower for another plant wey be the same species. Self-pollination na when e happen inside the same flower or plant, while cleistogamy na pollination wey happen for flower wey never open at all.",
+"id": "wbio1001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following floral features is an adaptation that helps a flower to be pollinated by wind?",
+"options": [
+"Brightly coloured petals to attract insects",
+"Production of sweet-smelling nectar",
+"Large feathery stigma that hangs outside the flower",
+"Sticky pollen grains produced in small quantities"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Wind-pollinated flowers have large, feathery stigmas that hang out of the flower to easily trap pollen grains floating in the air. They also produce light, dry pollen in large amounts, and usually lack bright colours, nectar or scent since they do not need to attract insects.",
+"pidgin": "Flower wey wind dey pollinate get big, feathery stigma wey dey hang comot from the flower so e fit catch pollen wey dey fly for air. Dem dey produce light, dry pollen for plenty quantity, and dem no need bright colour, nectar or sweet smell because na wind go carry dem, no be insect.",
+"id": "wbio1002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A mango fruit has a soft fleshy outer covering, a juicy middle layer, and a single hard stony endocarp that encloses the seed. This type of fruit is correctly classified as a?",
+"options": [
+"Berry",
+"Pod",
+"Drupe",
+"Capsule"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A drupe is a fleshy fruit with a hard, stony endocarp enclosing a single seed, like mango and coconut. A berry has no hard endocarp (seeds are embedded directly in soft pulp), a pod is a dry dehiscent legume fruit, and a capsule is a dry fruit that splits open at maturity.",
+"pidgin": "Drupe na fleshy fruit wey get hard stony endocarp wey dey cover one seed, like mango and coconut. Berry no get hard endocarp (seeds dey inside soft pulp), pod na dry legume fruit wey dey open, capsule na dry fruit wey dey split open when e ripe.",
+"id": "wbio1003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Some leguminous plants such as Bauhinia (camel's foot plant) produce pods that dry up, twist and suddenly burst open with force, scattering their seeds some distance away from the parent plant. This method of seed dispersal is best described as?",
+"options": [
+"Wind dispersal",
+"Water dispersal",
+"Animal dispersal",
+"Mechanical (explosive) dispersal"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "When the pod dries and twists, tension builds up inside it until it bursts open suddenly, throwing the seeds some distance away without the help of wind, water or animals. This is called mechanical or explosive dispersal because the plant itself generates the force.",
+"pidgin": "As the pod dry and twist, force dey build up inside am until e burst open sharp sharp, e go throway the seeds far small without wind, water or animal helep. Na so dem dey call am mechanical or explosive dispersal because na the plant itself dey generate the force.",
+"id": "wbio1004",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Tunde wanted to germinate maize seeds for a school project. He soaked the seeds overnight, wrapped them in moist cotton wool, and sealed them tightly inside an airtight polythene bag which he kept at room temperature for one week. At the end of the week, the seeds had absorbed water and swollen but had still failed to germinate. Which condition necessary for germination was most likely lacking?",
+"options": [
+"Suitable temperature",
+"Adequate water",
+"Sufficient oxygen",
+"Presence of light"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Sealing the seeds in an airtight bag prevented fresh air from getting in, so the oxygen needed for aerobic respiration during germination quickly got used up. Water and temperature were clearly adequate since the seeds swelled at room temperature, and light is not required for germination.",
+"pidgin": "As Tunde seal the bag tight, fresh air no fit enter, so the oxygen wey the seeds need for respiration quick finish. Water and temperature no be problem at all because the seeds swell well for room temperature, and light no dey important for germination sef.",
+"id": "wbio1005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,309 @@
+{
+ "english": {
+  "generated": 133,
+  "shipped": 115,
+  "dropped": 18,
+  "reasons": {
+   "ambiguous": 10,
+   "solver1-disagrees": 2,
+   "duplicate": 6
+  },
+  "python_verified": 0,
+  "difficulty": {
+   "e": 43,
+   "m": 47,
+   "h": 25
+  },
+  "answer_letters": {
+   "D": 29,
+   "C": 28,
+   "A": 29,
+   "B": 29
+  }
+ },
+ "maths": {
+  "generated": 138,
+  "shipped": 128,
+  "dropped": 10,
+  "reasons": {
+   "python": 8,
+   "solver2-disagrees": 1,
+   "ambiguous": 1
+  },
+  "python_verified": 91,
+  "difficulty": {
+   "e": 44,
+   "m": 53,
+   "h": 31
+  },
+  "answer_letters": {
+   "C": 33,
+   "D": 32,
+   "B": 30,
+   "A": 33
+  }
+ },
+ "civic": {
+  "generated": 119,
+  "shipped": 114,
+  "dropped": 5,
+  "reasons": {
+   "solver1-disagrees": 2,
+   "ambiguous": 3
+  },
+  "python_verified": 0,
+  "difficulty": {
+   "e": 38,
+   "m": 46,
+   "h": 30
+  },
+  "answer_letters": {
+   "D": 28,
+   "B": 28,
+   "C": 29,
+   "A": 29
+  }
+ },
+ "biology": {
+  "generated": 126,
+  "shipped": 121,
+  "dropped": 5,
+  "reasons": {
+   "ambiguous": 5
+  },
+  "python_verified": 0,
+  "difficulty": {
+   "e": 42,
+   "m": 51,
+   "h": 28
+  },
+  "answer_letters": {
+   "C": 29,
+   "B": 31,
+   "A": 31,
+   "D": 30
+  }
+ },
+ "physics": {
+  "generated": 132,
+  "shipped": 126,
+  "dropped": 6,
+  "reasons": {
+   "python": 2,
+   "ambiguous": 3,
+   "same-as-jamb-bank": 1
+  },
+  "python_verified": 85,
+  "difficulty": {
+   "e": 46,
+   "m": 49,
+   "h": 31
+  },
+  "answer_letters": {
+   "B": 32,
+   "C": 31,
+   "A": 32,
+   "D": 31
+  }
+ },
+ "chemistry": {
+  "generated": 120,
+  "shipped": 112,
+  "dropped": 8,
+  "reasons": {
+   "python": 3,
+   "ambiguous": 4,
+   "solver1-disagrees": 1
+  },
+  "python_verified": 40,
+  "difficulty": {
+   "e": 37,
+   "m": 50,
+   "h": 25
+  },
+  "answer_letters": {
+   "D": 27,
+   "A": 28,
+   "B": 29,
+   "C": 28
+  }
+ },
+ "agric": {
+  "generated": 119,
+  "shipped": 116,
+  "dropped": 3,
+  "reasons": {
+   "bad-shape": 1,
+   "python": 1,
+   "ambiguous": 1
+  },
+  "python_verified": 27,
+  "difficulty": {
+   "e": 42,
+   "m": 48,
+   "h": 26
+  },
+  "answer_letters": {
+   "A": 29,
+   "D": 28,
+   "B": 29,
+   "C": 30
+  }
+ },
+ "economics": {
+  "generated": 133,
+  "shipped": 120,
+  "dropped": 13,
+  "reasons": {
+   "ambiguous": 9,
+   "python": 4
+  },
+  "python_verified": 37,
+  "difficulty": {
+   "e": 37,
+   "m": 51,
+   "h": 32
+  },
+  "answer_letters": {
+   "B": 30,
+   "A": 30,
+   "D": 30,
+   "C": 30
+  }
+ },
+ "government": {
+  "generated": 136,
+  "shipped": 130,
+  "dropped": 6,
+  "reasons": {
+   "same-as-jamb-bank": 1,
+   "bad-shape": 1,
+   "ambiguous": 4
+  },
+  "python_verified": 0,
+  "difficulty": {
+   "e": 52,
+   "m": 53,
+   "h": 25
+  },
+  "answer_letters": {
+   "A": 33,
+   "C": 32,
+   "B": 33,
+   "D": 32
+  }
+ },
+ "literature": {
+  "generated": 120,
+  "shipped": 108,
+  "dropped": 12,
+  "reasons": {
+   "solver1-disagrees": 1,
+   "bad-shape": 1,
+   "same-as-jamb-bank": 1,
+   "duplicate": 8,
+   "ambiguous": 1
+  },
+  "python_verified": 0,
+  "difficulty": {
+   "e": 43,
+   "m": 45,
+   "h": 20
+  },
+  "answer_letters": {
+   "D": 26,
+   "A": 27,
+   "B": 29,
+   "C": 26
+  }
+ },
+ "crs": {
+  "generated": 128,
+  "shipped": 123,
+  "dropped": 5,
+  "reasons": {
+   "ambiguous": 4,
+   "same-as-jamb-bank": 1
+  },
+  "python_verified": 0,
+  "difficulty": {
+   "e": 44,
+   "m": 58,
+   "h": 21
+  },
+  "answer_letters": {
+   "D": 31,
+   "C": 31,
+   "A": 31,
+   "B": 30
+  }
+ },
+ "commerce": {
+  "generated": 119,
+  "shipped": 115,
+  "dropped": 4,
+  "reasons": {
+   "solver1-disagrees": 1,
+   "bad-shape": 1,
+   "ambiguous": 2
+  },
+  "python_verified": 18,
+  "difficulty": {
+   "e": 38,
+   "m": 49,
+   "h": 28
+  },
+  "answer_letters": {
+   "D": 29,
+   "C": 29,
+   "B": 29,
+   "A": 28
+  }
+ },
+ "accounting": {
+  "generated": 119,
+  "shipped": 112,
+  "dropped": 7,
+  "reasons": {
+   "ambiguous": 3,
+   "solver2-disagrees": 1,
+   "python": 1,
+   "solver1-disagrees": 1,
+   "same-as-jamb-bank": 1
+  },
+  "python_verified": 53,
+  "difficulty": {
+   "e": 41,
+   "m": 41,
+   "h": 30
+  },
+  "answer_letters": {
+   "D": 27,
+   "A": 28,
+   "B": 30,
+   "C": 27
+  }
+ },
+ "geography": {
+  "generated": 126,
+  "shipped": 115,
+  "dropped": 11,
+  "reasons": {
+   "ambiguous": 7,
+   "python": 3,
+   "same-as-jamb-bank": 1
+  },
+  "python_verified": 23,
+  "difficulty": {
+   "e": 38,
+   "m": 51,
+   "h": 26
+  },
+  "answer_letters": {
+   "A": 30,
+   "C": 28,
+   "B": 28,
+   "D": 29
+  }
+ }
+}

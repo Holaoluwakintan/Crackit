@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Cell division (mitosis and meiosis)",
+"ti": 2,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following best describes the main purpose of mitosis in a growing yam plant?",
+"options": [
+"To produce gametes for reproduction",
+"To reduce the chromosome number by half",
+"To produce two genetically identical daughter cells for growth and repair",
+"To introduce genetic variation among offspring"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Mitosis is the type of cell division that produces two daughter cells identical to the parent cell. It is responsible for growth, repair of worn-out tissues, and asexual reproduction, not for making gametes or creating variation.",
+"pidgin": "Mitosis na the cell division wey dey produce two daughter cells wey be exact copy of the parent cell. E dey help plant grow and repair damaged tissue, e no be for making gametes or variation.",
+"id": "wbio0200",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During which stage of mitosis do the chromosomes line up at the equator (middle) of the cell before they separate?",
+"options": [
+"Prophase",
+"Metaphase",
+"Anaphase",
+"Telophase"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In metaphase, the chromosomes arrange themselves at the equatorial plate of the cell, attached to spindle fibres, ready to be pulled apart in anaphase.",
+"pidgin": "For metaphase, the chromosomes go line up for the middle (equator) of the cell, dem don attach to spindle fibre, waiting make dem separate for anaphase.",
+"id": "wbio0201",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A body cell of a cassava plant contains 36 chromosomes. How many chromosomes will each gamete produced through meiosis in this plant contain?",
+"options": [
+"9",
+"18",
+"36",
+"72"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Meiosis reduces the chromosome number by half to produce gametes with the haploid number. Since the body (diploid) cell has 36 chromosomes, each gamete will have 36/2 = 18 chromosomes.",
+"pidgin": "Meiosis dey reduce chromosome number by half make gametes get haploid number. Since the body cell get 36 chromosomes, each gamete go get 36/2 = 18 chromosomes.",
+"id": "wbio0202",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is a key difference between mitosis and meiosis?",
+"options": [
+"Mitosis occurs only in animals while meiosis occurs only in plants",
+"Mitosis produces four daughter cells while meiosis produces two",
+"Mitosis maintains the chromosome number while meiosis reduces it by half",
+"Mitosis involves crossing over while meiosis does not"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Mitosis produces two daughter cells with the same chromosome number as the parent cell (diploid to diploid), while meiosis reduces the chromosome number by half to produce haploid gametes. Crossing over occurs in meiosis, not mitosis, and both processes occur in plants and animals.",
+"pidgin": "Mitosis dey produce two daughter cells wey get the same chromosome number as the parent (diploid to diploid), but meiosis dey reduce the number by half make e produce haploid gametes. Crossing over dey happen for meiosis, no be mitosis.",
+"id": "wbio0203",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student observed that offspring from the same pair of groundnut plants show different seed sizes and colours. Which event during meiosis mainly causes this kind of variation?",
+"options": [
+"Formation of a single spindle fibre in each cell",
+"Crossing over and independent assortment of chromosomes",
+"Equal division of cytoplasm during telophase",
+"Replication of DNA before meiosis begins"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Crossing over exchanges genetic material between homologous chromosomes, and independent assortment shuffles chromosomes randomly into gametes. These two events together create new combinations of genes, leading to variation among offspring of the same parents.",
+"pidgin": "Crossing over dey exchange gene material between homologous chromosomes, and independent assortment dey mix up chromosomes anyhow enter gametes. Dis two tins together dey create new combination of genes wey cause variation among offspring from the same parents.",
+"id": "wbio0204",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "An organism has a diploid chromosome number of 24. After meiosis I is completed, what will be the chromosome number in each resulting cell, and how many chromatids will each chromosome have at that point?",
+"options": [
+"24 chromosomes, 1 chromatid each",
+"12 chromosomes, 2 chromatids each",
+"12 chromosomes, 1 chromatid each",
+"24 chromosomes, 2 chromatids each"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In meiosis I, homologous chromosomes separate, halving the chromosome number from 24 to 12. However, sister chromatids only separate in meiosis II, so at the end of meiosis I each chromosome still has 2 chromatids.",
+"pidgin": "For meiosis I, homologous chromosomes dey separate, so the number go reduce from 24 to 12. But sister chromatids go only separate for meiosis II, so after meiosis I, each chromosome still get 2 chromatids.",
+"id": "wbio0205",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

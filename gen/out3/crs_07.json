@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "Kings David and Solomon: achievements and failures",
+"generated": 8,
+"kept": [
+{
+"q": "In the Bible, which young shepherd from Bethlehem defeated the Philistine giant Goliath with a sling and a stone?",
+"options": [
+"David",
+"Solomon",
+"Saul",
+"Jonathan"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "David, the youngest son of Jesse, killed Goliath with a sling and stone, showing his trust in God's power rather than weapons. This event is recorded in 1 Samuel 17.",
+"pidgin": "David, wey be Jesse im last pikin, use sling and stone kill Goliath. E trust God power pass weapon. Dis story dey 1 Samuel 17.",
+"id": "crsv0700",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Before David became king, whose father owned the sheep that David used to guard in the fields near Bethlehem?",
+"options": [
+"Samuel",
+"Jesse",
+"Saul",
+"Eliab"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "David was the son of Jesse, and he used to tend his father's sheep before Samuel anointed him as king. This background is found in 1 Samuel 16 and 17.",
+"pidgin": "David papa na Jesse, and e dey guard im papa sheep before Samuel anoint am as king. Dis one dey 1 Samuel 16 and 17.",
+"id": "crsv0701",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "When God offered Solomon anything he wished for at the start of his reign, what did Solomon specifically request?",
+"options": [
+"Long life",
+"Riches and honour",
+"Wisdom to judge the people well",
+"Victory over his enemies"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Solomon asked God for an understanding heart to judge Israel rightly instead of asking for riches or long life. God was pleased and gave him wisdom plus riches and honour as a bonus. This is recorded in 1 Kings 3:5-14.",
+"pidgin": "Solomon no ask for money or long life, e ask God for wisdom make e fit judge Israel well. God happy and e give am wisdom plus riches and honour on top. Dis story dey 1 Kings 3:5-14.",
+"id": "crsv0702",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "King David committed a grave sin by taking another man's wife and then arranging for the woman's husband to die in battle. What was the name of this loyal soldier whom David had killed?",
+"options": [
+"Joab",
+"Abner",
+"Uriah",
+"Amasa"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "David took Bathsheba, the wife of Uriah the Hittite, and then arranged for Uriah to be killed in battle to hide his sin. This story is recorded in 2 Samuel 11.",
+"pidgin": "David take Bathsheba, wey be Uriah the Hittite wife, then e arrange make dem kill Uriah for war so e fit hide im sin. Dis one dey 2 Samuel 11.",
+"id": "crsv0703",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which prophet was sent by God to confront King David over his sin involving Bathsheba, using a parable about a poor man's only lamb?",
+"options": [
+"Gad",
+"Nathan",
+"Samuel",
+"Elijah"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Nathan the prophet told David a parable about a rich man who took a poor man's only lamb, which made David realise and confess his own sin against Uriah and Bathsheba. This confrontation is found in 2 Samuel 12.",
+"pidgin": "Prophet Nathan tell David parable about one rich man wey take poor man im only lamb, and David come realise say na im dey do dat kind sin. Dis confrontation dey 2 Samuel 12.",
+"id": "crsv0704",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which great structure in Jerusalem did King Solomon build as the most notable achievement of his reign, fulfilling his father David's desire?",
+"options": [
+"The royal palace",
+"The city wall",
+"The Temple of the Lord",
+"The ark of the covenant"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Solomon built the magnificent Temple in Jerusalem, fulfilling what David had wished to do but was not permitted by God to carry out. The building of the Temple is described in 1 Kings 6.",
+"pidgin": "Solomon build the fine Temple for Jerusalem, wey be wetin David wan do but God no gree am do am. Dem describe how dem build di Temple for 1 Kings 6.",
+"id": "crsv0705",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of King David's own sons rebelled against him and temporarily seized the throne, forcing David to flee Jerusalem?",
+"options": [
+"Amnon",
+"Absalom",
+"Solomon",
+"Adonijah"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Absalom, David's son, organised a rebellion, took over Jerusalem, and forced his father to flee across the Jordan for a time. This revolt and its consequences are narrated in 2 Samuel 15 to 18.",
+"pidgin": "Absalom, David pikin, start rebellion, take over Jerusalem, and e make David run cross Jordan for some time. Dis rebellion and wetin happen dey 2 Samuel 15 to 18.",
+"id": "crsv0706",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Despite his great wisdom, King Solomon's reign ended with a serious spiritual failure that provoked God's anger. What was this failure?",
+"options": [
+"He refused to build the Temple",
+"He married many foreign wives who turned his heart to worship other gods",
+"He fought too many unnecessary wars",
+"He gave away the ark of the covenant"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Solomon married many foreign women, and in his old age they turned his heart away from the Lord to worship idols, which angered God greatly. This failure is recorded in 1 Kings 11.",
+"pidgin": "Solomon marry plenty foreign wives, and as e dey old, dem turn im mind comot from God go idol worship, wey vex God well well. Dis failure dey 1 Kings 11.",
+"id": "crsv0707",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

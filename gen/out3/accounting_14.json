@@ -1,0 +1,198 @@
+{
+"subject": "accounting",
+"topic": "Accounts of not-for-profit organisations",
+"generated": 8,
+"kept": [
+{
+"q": "Which financial statement prepared by a not-for-profit organisation is a summary of all cash and bank receipts and payments during a financial year, and is similar in structure to a cash book with a debit and credit side?",
+"options": [
+"Income and Expenditure Account",
+"Receipts and Payments Account",
+"Statement of Financial Position",
+"Subscriptions Account"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Receipts and Payments Account records only cash/bank movements for the year, both capital and revenue items, without adjusting for accruals. It opens with the cash balance brought forward and closes with the balance carried down.",
+"pidgin": "Na Receipts and Payments Account dem dey use record only cash wey enter and cash wey comot for the year, e no de adjust for wetin dem owe or wetin dem don pay before. E be like cash book wey show opening and closing balance.",
+"py": null,
+"values": null,
+"id": "accv1400",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In the final accounts of a social club, the amount that corresponds to the 'capital' of a sole trader, representing accumulated surpluses and capital receipts over the years, is called the:",
+"options": [
+"Trading Surplus",
+"Subscription Fund",
+"Accumulated Fund",
+"Entrance Reserve"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Since a not-for-profit organisation has no owner contributing capital, the equivalent balancing figure in its statement of financial position is called the Accumulated Fund, built up from surpluses, donations and capital receipts over time.",
+"pidgin": "Because club no get owner wey put capital, dem dey call the balancing figure for their balance sheet 'Accumulated Fund'. Na from surplus, donation and capital money wey don enter years dem build am.",
+"py": null,
+"values": null,
+"id": "accv1401",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Oke-Ira Social Club's statement of affairs at the start of the year showed: Clubhouse ₦500,000; Furniture ₦80,000; Cash at bank ₦20,000; and Subscriptions received in advance ₦10,000 (a liability). What was the club's Accumulated Fund at that date?",
+"options": [
+"₦590,000",
+"₦610,000",
+"₦600,000",
+"₦570,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Accumulated Fund = Total Assets minus Total Liabilities = (500,000 + 80,000 + 20,000) − 10,000 = 600,000 − 10,000 = ₦590,000. This is the opening capital balance for the club.",
+"pidgin": "Accumulated Fund na Total Assets minus Total Liabilities: (500,000 + 80,000 + 20,000) minus 10,000 = 600,000 minus 10,000 = ₦590,000.",
+"py": "500000+80000+20000-10000",
+"values": [
+590000,
+610000,
+600000,
+570000
+],
+"id": "accv1402",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Ajayi Sports Club's cash book showed subscriptions received of ₦150,000 during the year. At the start of the year, ₦12,000 was owed by members and ₦5,000 had been paid in advance for the current year. At the end of the year, ₦18,000 was still owed by members and ₦8,000 had been paid in advance for next year. What is the subscription income to be shown in the Income and Expenditure Account for the year?",
+"options": [
+"₦153,000",
+"₦147,000",
+"₦159,000",
+"₦150,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Income = Cash received − Opening owing + Closing owing + Opening advance − Closing advance = 150,000 − 12,000 + 18,000 + 5,000 − 8,000 = ₦153,000. This adjusts cash receipts to the true amount earned for the year.",
+"pidgin": "Income wey belong this year = Cash wey enter minus wetin dem owe before plus wetin dem still owe now plus advance wey dem pay before minus advance wey dem pay now: 150,000 − 12,000 + 18,000 + 5,000 − 8,000 = ₦153,000.",
+"py": "150000-12000+18000+5000-8000",
+"values": [
+153000,
+147000,
+159000,
+150000
+],
+"id": "accv1403",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Idera Tennis Club's constitution states that entrance fees paid by new members are to be treated as capital receipts, not revenue income. How should the entrance fees received during the year be treated in the club's final accounts?",
+"options": [
+"Credited to the Income and Expenditure Account as ordinary income",
+"Added directly to the Accumulated Fund in the statement of financial position",
+"Deducted from subscriptions received in the Receipts and Payments Account",
+"Shown as a current liability in the statement of financial position"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Where the constitution classifies entrance fees as capital in nature, they are not passed through the Income and Expenditure Account; instead they are added straight to the Accumulated Fund, increasing the club's long-term reserve.",
+"pidgin": "Since the club rules talk say entrance fee na capital money, e no go enter Income and Expenditure Account; instead, dem go add am straight to the Accumulated Fund for the balance sheet.",
+"py": null,
+"values": null,
+"id": "accv1404",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Falconry Social Club's Receipts and Payments Account for the year showed: Subscriptions received ₦300,000; Donations received ₦50,000; Rent paid ₦80,000; Salaries paid ₦120,000; Stationery paid ₦10,000. Additional information: Subscriptions owing (not yet received) at year end ₦5,000; Depreciation on equipment for the year ₦20,000. There were no subscriptions in advance. What is the surplus of income over expenditure for the year?",
+"options": [
+"₦110,000",
+"₦125,000",
+"₦140,000",
+"₦105,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Income = Subscriptions (300,000+5,000 owing)=305,000 + Donations 50,000 = 355,000. Expenditure = Rent 80,000 + Salaries 120,000 + Stationery 10,000 + Depreciation 20,000 = 230,000. Surplus = 355,000 − 230,000 = ₦125,000. Depreciation is a non-cash expense that must still be charged even though it is not in the cash account.",
+"pidgin": "Income = Subscriptions (300,000+5,000 wey dem still owe)=305,000 plus Donation 50,000 = 355,000. Expenditure = Rent 80,000 + Salary 120,000 + Stationery 10,000 + Depreciation 20,000 = 230,000. Surplus = 355,000 minus 230,000 = ₦125,000. Even though depreciation no be cash, dem still must charge am.",
+"py": "(300000+5000+50000)-(80000+120000+10000+20000)",
+"values": [
+110000,
+125000,
+140000,
+105000
+],
+"id": "accv1405",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Greenfield Recreation Club runs a bar for its members. During the year: Bar sales were ₦400,000; Opening stock of drinks was ₦30,000; Purchases of drinks were ₦250,000; Closing stock of drinks was ₦40,000; Bar wages paid were ₦25,000. What was the net profit made on the bar for the year?",
+"options": [
+"₦160,000",
+"₦110,000",
+"₦135,000",
+"₦145,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Cost of goods sold = Opening stock + Purchases − Closing stock = 30,000+250,000−40,000 = 240,000. Gross bar profit = Sales − Cost of goods sold = 400,000−240,000 = 160,000. Net bar profit = Gross profit − Bar wages = 160,000−25,000 = ₦135,000.",
+"pidgin": "Cost of goods wey dem sell = Opening stock + Purchase minus Closing stock = 30,000+250,000 minus 40,000 = 240,000. Gross profit = Sales minus that cost = 400,000 minus 240,000 = 160,000. Net profit = Gross profit minus bar wages = 160,000 minus 25,000 = ₦135,000.",
+"py": "(400000-(30000+250000-40000))-25000",
+"values": [
+160000,
+110000,
+135000,
+145000
+],
+"id": "accv1406",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Unity Club received ₦100,000 as life membership fees from a member during the year. The club's policy is to spread life membership fees over 10 years in the Income and Expenditure Account. What amount should be credited to the Income and Expenditure Account for the current year in respect of this fee?",
+"options": [
+"₦100,000",
+"₦10,000",
+"₦50,000",
+"₦20,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since the club spreads the ₦100,000 life membership fee equally over 10 years, the amount credited each year is 100,000 divided by 10 = ₦10,000. The remaining balance is carried forward as a liability (deferred income) in the statement of financial position.",
+"pidgin": "Since the club dey share the ₦100,000 life membership fee for 10 years, the money wey go enter Income and Expenditure Account every year na 100,000 divide by 10 = ₦10,000. The remaining balance go dey carry forward as liability for balance sheet.",
+"py": "100000/10",
+"values": [
+100000,
+10000,
+50000,
+20000
+],
+"id": "accv1407",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

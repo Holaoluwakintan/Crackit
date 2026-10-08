@@ -1,0 +1,156 @@
+{
+"subject": "crs",
+"topic": "Leadership: Joseph, Moses, Joshua and the Judges (Deborah, Gideon, Samson)",
+"generated": 8,
+"kept": [
+{
+"q": "According to Genesis, Joseph was how many years old when he stood before Pharaoh and began to serve as governor over Egypt?",
+"options": [
+"25 years old",
+"40 years old",
+"30 years old",
+"35 years old"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The Bible records that Joseph was thirty years old when he stood before Pharaoh, king of Egypt, and began his work of managing Egypt's affairs. This is found in Genesis 41:46.",
+"pidgin": "Bible talk say Joseph na thirty years old when e stand before Pharaoh begin manage Egypt matter. Dis dey for Genesis 41:46.",
+"id": "crsv0300",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "For how many pieces of silver did Joseph's brothers sell him to the Ishmaelite merchants on their way to Egypt?",
+"options": [
+"20 pieces of silver",
+"10 pieces of silver",
+"30 pieces of silver",
+"15 pieces of silver"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Joseph's brothers sold him to the Ishmaelite traders for twenty pieces of silver, as recorded in Genesis 37:28. This act of betrayal later led to Joseph's rise in Egypt.",
+"pidgin": "Joseph brothers sell am for twenty pieces of silver give the Ishmaelite traders, as e dey Genesis 37:28. Dis betrayal na wetin later make Joseph rise for Egypt.",
+"id": "crsv0301",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "When baby Moses was placed in a basket and set afloat on the River Nile, who found and rescued him?",
+"options": [
+"Miriam, his sister",
+"Pharaoh's daughter",
+"Pharaoh's wife",
+"Zipporah, his future wife"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Exodus 2:5 tells us that Pharaoh's daughter came down to bathe at the river, saw the basket, and had it brought to her, thereby rescuing baby Moses. His sister Miriam was watching nearby and arranged for their mother to nurse him.",
+"pidgin": "Exodus 2:5 talk say na Pharaoh daughter come bathe for river, she see the basket come carry am, so she save baby Moses. Im sister Miriam dey watch from far come arrange say their mama go breastfeed am.",
+"id": "crsv0302",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Among the twelve men Moses sent to spy out the land of Canaan, which two gave a good report of confidence that Israel could conquer the land?",
+"options": [
+"Caleb and Joshua",
+"Caleb and Phinehas",
+"Joshua and Aaron",
+"Caleb and Othniel"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Numbers 14:6-9 records that only Joshua and Caleb, out of the twelve spies, trusted God's promise and urged the people not to fear the inhabitants of Canaan. The other ten spies brought a discouraging report.",
+"pidgin": "Numbers 14:6-9 show say na only Joshua and Caleb, out of the twelve spy, trust God promise come tell the people make dem no fear the people wey dey Canaan. The remaining ten spy bring bad report wey discourage the people.",
+"id": "crsv0303",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which woman served as a judge and prophetess in Israel, and led the nation to victory over Sisera and the army of Jabin, king of Canaan?",
+"options": [
+"Deborah",
+"Miriam",
+"Huldah",
+"Jael"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Judges 4 records that Deborah was a prophetess and judge of Israel who, together with Barak, led Israel to defeat Sisera's army. She held court under a palm tree between Ramah and Bethel.",
+"pidgin": "Judges 4 talk say Deborah na prophetess and judge for Israel wey, together with Barak, lead Israel win Sisera army. She dey sit under palm tree between Ramah and Bethel judge people.",
+"id": "crsv0304",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Before Gideon attacked the Midianites, God reduced his army from 32,000 to 300 men. What test did God use to select the final 300 men at the water?",
+"options": [
+"Those who knelt down fully to drink",
+"Those who lapped water with their tongue like a dog",
+"Those who refused to drink at all",
+"Those who carried torches while drinking"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Judges 7:5-7 explains that God told Gideon to separate the men who lapped water with their tongue like a dog, putting their hand to their mouth, from those who knelt down to drink. The 300 who lapped were chosen to fight.",
+"pidgin": "Judges 7:5-7 explain say God tell Gideon make e separate the men wey lap water with their tongue like dog, wey put hand for mouth, from those wey kneel down drink. Na the 300 wey lap water God choose fight.",
+"id": "crsv0305",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "During the conquest of Jericho under Joshua's leadership, how many times did the Israelites march around the city on the seventh day before its walls collapsed?",
+"options": [
+"Three times",
+"Twelve times",
+"Once only",
+"Seven times"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Joshua 6:15-16 records that on the seventh day, the Israelites marched around Jericho seven times, and after the seventh time, the priests blew the trumpets and the walls fell down flat. On the other six days they had marched around only once.",
+"pidgin": "Joshua 6:15-16 talk say for the seventh day, Israel people match round Jericho seven times, and after the seventh time, the priests blow trumpet make the wall fall flat. For the other six days na only once dem dey match round am.",
+"id": "crsv0307",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "What was the true source of Samson's great physical strength, according to the account of his life among the Israelites?",
+"options": [
+"His iron chains",
+"His uncut hair as a sign of his Nazarite vow",
+"His sandals given by his father",
+"The jawbone of a donkey he carried"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Judges 16:17 shows that Samson's strength came from his Nazarite vow to God, of which his uncut hair was the visible sign. When Delilah had his hair cut, his strength left him.",
+"pidgin": "Judges 16:17 show say Samson strength come from im Nazarite vow to God, and im hair wey no cut na the sign of the vow. When Delilah cut im hair, im strength comot.",
+"id": "crsv0306",
+"check": {
+"s1": "X",
+"s2": "B"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

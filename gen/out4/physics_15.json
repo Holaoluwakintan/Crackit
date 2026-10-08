@@ -1,0 +1,176 @@
+{
+"subject": "physics",
+"topic": "Light: reflection and plane/curved mirrors",
+"ti": 15,
+"generated": 6,
+"kept": [
+{
+"q": "A student standing in front of a plane mirror in Kaduna observes her image. Which of the following is NOT a correct property of the image formed by a plane mirror?",
+"options": [
+"It is virtual",
+"It is laterally inverted",
+"It is the same size as the object",
+"It is diminished (smaller than the object)"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "A plane mirror always forms an image that is the same size as the object, so it cannot be diminished. The image is virtual and laterally inverted, but never smaller or larger than the object.",
+"pidgin": "Plane mirror dey always give image wey match the object size, e no fit be smaller pass am. Dat image na virtual and e dey laterally flip, but e no dey shrink.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wphy1500",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A ray of light hits a plane mirror making an angle of 35° with the surface of the mirror (not the normal). What is the angle of reflection?",
+"options": [
+"35°",
+"55°",
+"70°",
+"90°"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The angle given is measured from the mirror surface, so the angle of incidence (from the normal) is 90° - 35° = 55°. By the law of reflection, the angle of reflection equals the angle of incidence, which is 55°.",
+"pidgin": "Dem give angle from the mirror surface, so to find the one wey dey from normal, we do 90° - 35° = 55°. Law of reflection talk say angle of reflection go equal angle of incidence, so e remain 55°.",
+"py": "90-35",
+"values": [
+35,
+55,
+70,
+90
+],
+"id": "wphy1501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Two plane mirrors are arranged so that they are inclined to each other at an angle of 60°. An object, a small coin, is placed between them. How many images of the coin will be formed?",
+"options": [
+"4",
+"5",
+"6",
+"7"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "For two inclined mirrors, the number of images formed is given by (360/angle) - 1. Using 360/60 - 1 = 6 - 1 = 5, five images are formed.",
+"pidgin": "When mirror two dey lean for each other, number of images na (360 divide by the angle) minus 1. 360/60 give 6, minus 1 na 5 images.",
+"py": "360/60 - 1",
+"values": [
+4,
+5,
+6,
+7
+],
+"id": "wphy1502",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A concave mirror used in a torchlight reflector has a radius of curvature of 40 cm. What is the focal length of this mirror?",
+"options": [
+"10 cm",
+"20 cm",
+"40 cm",
+"80 cm"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "For a curved mirror, the focal length is half the radius of curvature, so f = R/2. With R = 40 cm, f = 40/2 = 20 cm.",
+"pidgin": "For curve mirror, focal length na half of the radius of curvature, so f = R/2. R be 40 cm, so f = 40/2 = 20 cm.",
+"py": "40/2",
+"values": [
+10,
+20,
+40,
+80
+],
+"id": "wphy1503",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "An object is placed 15 cm in front of a concave mirror, and a real image is formed 30 cm from the mirror on the same side. Using the mirror formula 1/f = 1/u + 1/v, calculate the focal length of the mirror.",
+"options": [
+"10 cm",
+"15 cm",
+"20 cm",
+"25 cm"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Using 1/f = 1/u + 1/v = 1/15 + 1/30 = 2/30 + 1/30 = 3/30 = 1/10, so f = 10 cm. This shows the focal length is less than both the object and image distances, as expected for a concave mirror producing a real image.",
+"pidgin": "We take 1/f = 1/15 + 1/30 = 2/30 + 1/30 = 3/30 = 1/10, so f = 10 cm. Dis one show say focal length small pass both object and image distance, wey correct for concave mirror wey form real image.",
+"py": "1/(1/15 + 1/30)",
+"values": [
+10,
+15,
+20,
+25
+],
+"id": "wphy1504",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "An object of height 2 cm is placed 20 cm in front of a concave mirror whose focal length is 10 cm. Using the mirror formula and magnification relation (m = v/u = image height/object height), find the height of the image formed.",
+"options": [
+"1 cm",
+"2 cm",
+"3 cm",
+"4 cm"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "From the mirror formula, 1/f = 1/u + 1/v gives 1/10 = 1/20 + 1/v, so 1/v = 1/20, meaning v = 20 cm. The magnification m = v/u = 20/20 = 1, so the image height equals the object height, which is 2 cm (the image is real and inverted but same size).",
+"pidgin": "From mirror formula, 1/10 = 1/20 + 1/v, so 1/v = 1/20, meaning v = 20 cm. Magnification m = v/u = 20/20 = 1, so image height go match object height wey be 2 cm (image real and e flip, but size no change).",
+"py": "(1/(1/10 - 1/20))/20*2",
+"values": [
+1,
+2,
+3,
+4
+],
+"id": "wphy1505",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,168 @@
+{
+"subject": "commerce",
+"topic": "Production: types and factors of production",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is NOT regarded as one of the four basic factors of production in Commerce?",
+"options": [
+"Land",
+"Labour",
+"Capital",
+"Money"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The four factors of production are land, labour, capital and entrepreneur. Money is not a factor on its own; it is only a tool used to acquire capital goods for production.",
+"pidgin": "The four main factors of production na land, labour, capital and entrepreneur. Money no be factor by itself, na just tool wey dem dey use buy capital goods.",
+"py": null,
+"values": null,
+"id": "comv0100",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Production that involves the extraction or gathering of raw materials directly from nature, such as mining, fishing, and crop farming, is classified as ______ production.",
+"options": [
+"Primary",
+"Secondary",
+"Tertiary",
+"Quaternary"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Primary production deals with the direct extraction of natural resources like minerals, fish, and crops from land and water. Secondary production processes these raw materials, while tertiary production provides services.",
+"pidgin": "Primary production na when dem comot raw materials straight from nature, like mining, fishing and farming. Secondary na when dem process the raw materials, tertiary na services.",
+"py": null,
+"values": null,
+"id": "comv0101",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Chidinma owns a small factory in Aba where raw cassava tubers are processed into garri for sale to retailers. This activity is best classified as ______ production.",
+"options": [
+"Primary",
+"Secondary",
+"Tertiary",
+"Extractive"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Secondary production involves transforming raw materials like cassava into finished or semi-finished goods such as garri through manufacturing or processing. It happens after primary production supplies the raw cassava.",
+"pidgin": "Secondary production na when dem change raw material (cassava) to finished product (garri) through processing. Na after primary production don bring the raw cassava.",
+"py": null,
+"values": null,
+"id": "comv0102",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "What is the reward paid to a person who supplies capital for use in production?",
+"options": [
+"Rent",
+"Wage",
+"Interest",
+"Profit"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Interest is the payment made to the owner of capital for its use in production. Rent goes to land, wage goes to labour, and profit goes to the entrepreneur.",
+"pidgin": "Interest na the payment wey dem dey give owner of capital for how im capital help production. Rent na for land, wage na for labour, profit na for entrepreneur.",
+"py": null,
+"values": null,
+"id": "comv0103",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which factor of production is primarily responsible for taking business risks, organizing the other factors, and making key managerial decisions in a firm?",
+"options": [
+"Land",
+"Labour",
+"Capital",
+"Entrepreneur"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The entrepreneur combines land, labour and capital, bears the risk of production, and makes major business decisions in hope of earning profit. The other three factors cannot organize themselves without the entrepreneur.",
+"pidgin": "Entrepreneur na im dey combine land, labour and capital, e dey carry risk, e dey make important business decisions so im fit make profit. Without entrepreneur, the other factors no fit organize themselves.",
+"py": null,
+"values": null,
+"id": "comv0104",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Mallam Sule has spent 15 years as a traditional blacksmith making farm hoes and cutlasses. When demand for his tools dropped sharply because farmers now prefer imported tractors, he could not easily switch to become a tractor mechanic without undergoing years of fresh training. This situation best illustrates which characteristic of labour as a factor of production?",
+"options": [
+"Occupational immobility of labour",
+"Geographical immobility of labour",
+"Division of labour",
+"Specialization of labour"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Occupational immobility of labour occurs when a worker cannot easily move from one type of job to another because of lack of the required skills or training. Mallam Sule cannot shift from blacksmithing to mechanics without retraining, which shows this characteristic clearly.",
+"pidgin": "Occupational immobility of labour na when worker no fit easily change im job to another type of work because im no get the skill or training for the new work. Mallam Sule no fit just become mechanic without fresh training, so na occupational immobility be dat.",
+"py": null,
+"values": null,
+"id": "comv0105",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In Commerce, the factor of production known as 'land' refers to ______.",
+"options": [
+"only the soil used for crop farming",
+"all free gifts of nature used in production, such as soil, water, forests and minerals",
+"buildings and structures erected by man on a site",
+"money invested in purchasing landed property"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In Commerce and Economics, land covers all natural resources provided by nature and used in production, not just soil. This includes water bodies, forests, minerals, climate, and sunlight.",
+"pidgin": "For Commerce, land no mean soil alone, e cover all natural resources wey nature give for production use, like water, forest, minerals and climate.",
+"py": null,
+"values": null,
+"id": "comv0106",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following is an example of tertiary production?",
+"options": [
+"Tin mining in Jos",
+"Baking of bread in a bakery",
+"Banking services offered by a commercial bank",
+"Fishing along the coast of Lagos"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Tertiary production involves the provision of services such as banking, transport, and insurance that support primary and secondary production. Mining and fishing are examples of primary production, while baking is secondary production.",
+"pidgin": "Tertiary production na about services like banking, transport and insurance wey dey support primary and secondary production. Mining and fishing na primary, baking na secondary.",
+"py": null,
+"values": null,
+"id": "comv0107",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,149 @@
+{
+"subject": "english",
+"topic": "Lexis: synonyms (nearest in meaning)",
+"ti": 0,
+"generated": 7,
+"kept": [
+{
+"q": "From the words lettered A to D, choose the word that is nearest in meaning to the word in CAPITALS.\n\n'The headmaster was COMMENDED for his excellent leadership during the school's anniversary.'",
+"options": [
+"praised",
+"criticized",
+"punished",
+"ignored"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "To be COMMENDED means to be praised or spoken well of for doing something good. The headmaster was praised for his good leadership, so 'praised' fits best.",
+"pidgin": "COMMENDED mean say dem praise you for something good wey you do. Dem praise the headmaster because e lead well, so 'praised' na the correct answer.",
+"id": "weng0000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the words lettered A to D, choose the word that is nearest in meaning to the word in CAPITALS.\n\n'Chidi's ABUNDANT wealth did not change his simple lifestyle.'",
+"options": [
+"scarce",
+"plentiful",
+"hidden",
+"borrowed"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "ABUNDANT means existing in large quantity, that is, plentiful. Chidi had a lot of wealth, so 'plentiful' is the correct synonym.",
+"pidgin": "ABUNDANT mean say e plenty well well. Chidi get plenty money, so 'plentiful' na the correct word wey mean the same thing.",
+"id": "weng0001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the words lettered A to D, choose the word that is nearest in meaning to the word in CAPITALS.\n\n'The old bridge was so FRAGILE that the council banned heavy vehicles from using it.'",
+"options": [
+"strong",
+"wide",
+"delicate",
+"expensive"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "FRAGILE means easily broken or weak, hence 'delicate'. The bridge could easily collapse, which is why heavy vehicles were banned, so the sentence supports weakness, not strength.",
+"pidgin": "FRAGILE mean say e fit break quick quick, na weak thing. Na why dem ban heavy motor from the bridge, so 'delicate' na the correct answer, no be 'strong'.",
+"id": "weng0002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the words lettered A to D, choose the word that is nearest in meaning to the word in CAPITALS.\n\n'Many villagers felt RELUCTANT to leave their ancestral home despite the flood warning.'",
+"options": [
+"eager",
+"determined",
+"prepared",
+"unwilling"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "RELUCTANT means unwilling or hesitant to do something. The villagers did not want to leave their home even with the flood warning, so 'unwilling' fits perfectly.",
+"pidgin": "RELUCTANT mean say person no won do something, e dey hesitate. The villagers no won leave their house even with the flood warning, so 'unwilling' na the correct answer.",
+"id": "weng0003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the words lettered A to D, choose the word that is nearest in meaning to the word in CAPITALS.\n\n'The governor's speech was full of AMBIGUOUS statements that confused many listeners.'",
+"options": [
+"unclear",
+"clear",
+"short",
+"loud"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "AMBIGUOUS means having more than one possible meaning, which causes confusion, so it is close to 'unclear'. The sentence says the statements confused listeners, confirming that they were not clear.",
+"pidgin": "AMBIGUOUS mean say the thing fit mean plenty different way, e dey confuse person. Since e confuse the listeners, the correct word na 'unclear', no be 'clear'.",
+"id": "weng0004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the words lettered A to D, choose the word that is nearest in meaning to the word in CAPITALS.\n\n'Mrs. Okafor's BLUNT comments during the meeting embarrassed some staff members.'",
+"options": [
+"polite",
+"direct",
+"vague",
+"gentle"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In this context, BLUNT does not mean 'not sharp'; it means speaking in a very straightforward, plain way without softening the message. This directness is what embarrassed the staff, so 'direct' is the best synonym here.",
+"pidgin": "For this sentence, BLUNT no mean 'no sharp', e mean say person talk true-true without softening am. Na why the comment embarrass the staff, so 'direct' na the correct answer.",
+"id": "weng0005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the words lettered A to D, choose the word that is nearest in meaning to the word in CAPITALS.\n\n'The journalist's CANDID report revealed the truth about the company's failures.'",
+"options": [
+"biased",
+"lengthy",
+"honest",
+"secret"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "CANDID means truthful and straightforward, especially when the truth may be unpleasant. Since the report revealed the real truth about the company's failures, 'honest' is the closest meaning, not 'biased' or 'secret'.",
+"pidgin": "CANDID mean say person talk true thing even if e no sweet. Since the report show the real truth about the company wahala, 'honest' na the correct word, no be 'biased' or 'secret'.",
+"id": "weng0006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

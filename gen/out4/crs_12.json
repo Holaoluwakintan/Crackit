@@ -1,0 +1,169 @@
+{
+"subject": "crs",
+"topic": "Trials, death and resurrection of Jesus",
+"ti": 12,
+"generated": 8,
+"kept": [
+{
+"q": "Who was the Roman governor that presided over the trial of Jesus Christ before He was sentenced to death?",
+"options": [
+"Pontius Pilate",
+"Herod Antipas",
+"Caiaphas",
+"Felix"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Pontius Pilate was the Roman governor of Judea who heard Jesus' case and later ordered His crucifixion. This is recorded in Matthew 27:2 and John 18:29.",
+"pidgin": "Pontius Pilate na di Roman governor wey hear Jesus case and later order say make dem crucify am. Dis one dey for Matthew 27:2 and John 18:29.",
+"id": "wcrs1200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During the trial of Jesus, which of His disciples denied knowing Him three times?",
+"options": [
+"John",
+"Peter",
+"Andrew",
+"Thomas"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Peter denied Jesus three times while Jesus was being tried, just as Jesus had earlier predicted. This is found in Luke 22:54-62.",
+"pidgin": "Peter na im deny Jesus three times while dem dey try Jesus, just as Jesus don tell am before. Dis one dey for Luke 22:54-62.",
+"id": "wcrs1201",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Immediately after His arrest in the Garden of Gethsemane, before whom was Jesus first taken for questioning?",
+"options": [
+"Pontius Pilate",
+"Herod Antipas",
+"Annas, the father-in-law of Caiaphas",
+"The Roman centurion"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "After His arrest, Jesus was first taken to Annas before being sent to Caiaphas the high priest. This order of events is recorded in John 18:12-13.",
+"pidgin": "After dem arrest Jesus, dem first carry am go Annas before dem later send am go Caiaphas di high priest. Dis order dey John 18:12-13.",
+"id": "wcrs1202",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Who was compelled by the Roman soldiers to carry the cross of Jesus to the place of crucifixion?",
+"options": [
+"Joseph of Arimathea",
+"Nicodemus",
+"Barabbas",
+"Simon of Cyrene"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Simon of Cyrene was forced by the soldiers to carry the cross when Jesus could no longer bear it. This is recorded in Matthew 27:32 and Luke 23:26.",
+"pidgin": "Simon of Cyrene na im soldiers force make e carry di cross when Jesus body no fit again. Dis one dey for Matthew 27:32 and Luke 23:26.",
+"id": "wcrs1203",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What inscription did Pilate order to be written and placed above Jesus on the cross?",
+"options": [
+"Jesus of Nazareth, King of the Jews",
+"This is the Son of God",
+"Jesus, the Prophet of Galilee",
+"Behold the Lamb of God"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Pilate ordered the inscription 'Jesus of Nazareth, King of the Jews' to be placed above Jesus on the cross, written in Hebrew, Latin and Greek. This is recorded in John 19:19.",
+"pidgin": "Pilate order say make dem write 'Jesus of Nazareth, King of di Jews' put for top di cross, dem write am for Hebrew, Latin and Greek. Dis one dey John 19:19.",
+"id": "wcrs1204",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Why did Pilate wash his hands in front of the crowd during the trial of Jesus?",
+"options": [
+"To follow Jewish purification customs before judgement",
+"To show that he was not guilty of condemning an innocent man",
+"To prepare himself for the Passover feast",
+"To calm the angry crowd before releasing Barabbas"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Pilate washed his hands to publicly declare that he was innocent of Jesus' blood, even though he still handed Him over to be crucified. This act is recorded in Matthew 27:24.",
+"pidgin": "Pilate wash im hand well-well to show say im no get hand for Jesus blood, even though na im still hand Jesus over make dem crucify am. Dis one dey Matthew 27:24.",
+"id": "wcrs1205",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "According to the Gospel of John, who was the first person Jesus appeared to after His resurrection?",
+"options": [
+"Peter",
+"Thomas",
+"Mary Magdalene",
+"John the beloved disciple"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "John's Gospel records that Jesus first appeared to Mary Magdalene at the tomb after His resurrection, before He appeared to the other disciples. This is found in John 20:11-16.",
+"pidgin": "John Gospel show say Mary Magdalene na di first person wey Jesus show imself to for di tomb after e resurrect, before e later show for di oda disciples. Dis one dey John 20:11-16.",
+"id": "wcrs1206",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What was the name of the place, meaning 'the place of a skull', where Jesus was crucified?",
+"options": [
+"Gethsemane",
+"Bethany",
+"Mount of Olives",
+"Golgotha"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Jesus was crucified at Golgotha, a place whose name means 'the place of a skull'. This is recorded in Mark 15:22 and John 19:17.",
+"pidgin": "Dem crucify Jesus for Golgotha, wey im name mean 'di place of skull'. Dis one dey Mark 15:22 and John 19:17.",
+"id": "wcrs1207",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

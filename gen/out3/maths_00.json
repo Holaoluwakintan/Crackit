@@ -1,0 +1,110 @@
+{
+"subject": "maths",
+"topic": "Number bases (conversion and arithmetic in bases 2 to 9)",
+"generated": 4,
+"kept": [
+{
+"q": "Convert the binary number 101101 (base 2) to base 10.",
+"options": [
+"44",
+"45",
+"46",
+"53"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "101101 in base 2 means 1x32 + 0x16 + 1x8 + 1x4 + 0x2 + 1x1 = 32+8+4+1 = 45. So the base 10 value is 45.",
+"pidgin": "101101 for base 2 mean 1x32 + 0x16 + 1x8 + 1x4 + 0x2 + 1x1 = 32+8+4+1 = 45. So e be 45 for base 10.",
+"py": "1*32+0*16+1*8+1*4+0*2+1*1",
+"values": [
+44,
+45,
+46,
+53
+],
+"id": "matv0000",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Multiply 23 (base 5) by 3 (base 5), leaving your answer in base 5.",
+"options": [
+"123 base 5",
+"134 base 5",
+"124 base 5",
+"114 base 5"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "23 base 5 = 2x5+3 = 13 in base 10, and 3 base 5 = 3. Multiplying gives 13 x 3 = 39. Converting 39 back to base 5: 39 = 1x25 + 2x5 + 4, so the answer is 124 base 5.",
+"pidgin": "23 for base 5 na 2x5+3 = 13 for base 10, and 3 base 5 na 3. 13 x 3 = 39. If you convert 39 go back to base 5: 39 = 1x25 + 2x5 + 4, e be 124 base 5.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matv0001",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In a certain base x, the number 341 (base x) is equal to 133 in base ten. Find the value of x.",
+"options": [
+"6",
+"5",
+"7",
+"8"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "341 base x means 3x^2 + 4x + 1. Setting this equal to 133 gives 3x^2 + 4x - 132 = 0. Using the quadratic formula, the discriminant is 16 + 1584 = 1600, sqrt(1600) = 40, so x = (-4+40)/6 = 6.",
+"pidgin": "341 for base x mean 3x^2 + 4x + 1. If you set am equal to 133, you go get 3x^2 + 4x - 132 = 0. Solve am with quadratic formula, discriminant na 16+1584=1600, sqrt na 40, so x = (-4+40)/6 = 6.",
+"py": "(-4 + math.sqrt(16+4*3*132))/(2*3)",
+"values": [
+6,
+5,
+7,
+8
+],
+"id": "matv0002",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Evaluate 101011 (base 2) minus 1101 (base 2), leaving your answer in base 2.",
+"options": [
+"11100 base 2",
+"11010 base 2",
+"10110 base 2",
+"11110 base 2"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "101011 base 2 = 32+8+2+1 = 43 in base 10, and 1101 base 2 = 8+4+1 = 13. So 43 - 13 = 30. Converting 30 back to base 2 gives 16+8+4+2 = 11110 base 2.",
+"pidgin": "101011 for base 2 na 32+8+2+1 = 43 for base 10, and 1101 base 2 na 8+4+1 = 13. So 43 - 13 = 30. If you convert 30 go back to base 2, e be 16+8+4+2 = 11110 base 2.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matv0003",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

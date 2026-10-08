@@ -1,0 +1,169 @@
+{
+"subject": "agric",
+"topic": "Meaning and importance of agriculture",
+"ti": 0,
+"generated": 7,
+"kept": [
+{
+"q": "Agricultural science can best be defined as the study of:",
+"options": [
+"the production, processing and marketing of crops and livestock for human use",
+"only the rearing of animals for meat and milk",
+"the buying and selling of farm produce in local markets",
+"the construction of farm buildings and structures"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Agriculture covers growing crops and rearing animals, and also processing and marketing them. Options B, C and D only mention one small part of agriculture, not the whole meaning.",
+"pidgin": "Agric na how dem dey grow crop and animal, process am and sell am make people use. B, C and D na just small part of am, dem no cover everything.",
+"py": null,
+"values": null,
+"id": "wagr0000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT a major reason why agriculture is important to Nigeria's economy?",
+"options": [
+"It provides food for the growing population",
+"It supplies raw materials to agro-based industries",
+"It earns foreign exchange through export of crops like cocoa",
+"It reduces the number of children born into farming families"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Agriculture provides food, raw materials and foreign exchange, these are well known benefits. Reducing birth rate is not a function of agriculture, so it is the odd one out.",
+"pidgin": "Agric dey give food, raw materials and e dey bring money from export like cocoa. But to reduce how many pikin dey born no be work wey agric dey do, na im make D wrong one.",
+"py": null,
+"values": null,
+"id": "wagr0001",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer in Benue State grows yam, cassava and maize mainly to feed his household, with little or nothing sold. This type of farming is best described as:",
+"options": [
+"mechanized farming",
+"subsistence farming",
+"commercial farming",
+"plantation farming"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Subsistence farming is farming done mainly to feed the farmer's family, with small or no surplus for sale. Commercial and plantation farming are done mainly for profit on a large scale, and mechanized farming refers to the use of machines, not the purpose of farming.",
+"pidgin": "Subsistence farming na when farmer dey farm mainly to feed im family, no be to sell plenty. Commercial and plantation farming na for big business, while mechanized farming na about machine wey dem dey use, no be the reason why dem dey farm.",
+"py": null,
+"values": null,
+"id": "wagr0002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is an example of agriculture serving as a source of raw materials for industry?",
+"options": [
+"Cotton being used to produce textiles in a textile mill",
+"Yam being pounded and eaten with egusi soup at home",
+"Maize being roasted and sold by the roadside",
+"Cocoa beans being exported directly without any processing"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "When cotton from the farm is taken to a textile mill to make clothes, agriculture is directly supplying raw material to industry. The other options describe food being eaten or sold directly, not used as industrial raw material.",
+"pidgin": "When cotton from farm go textile factory make dem use am produce cloth, na so agric dey give industry raw material. The other options na just food wey dem dey chop or sell as e be, no be industry work.",
+"py": null,
+"values": null,
+"id": "wagr0003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Danjuma has 50 hectares of land and employs tractors, combine harvesters and irrigation pumps to produce rice for sale to companies in large quantities. This practice is best classified as:",
+"options": [
+"mechanized commercial farming",
+"bush fallowing",
+"shifting cultivation",
+"subsistence mixed farming"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The use of machines like tractors and combine harvesters on a large scale for profit is called mechanized commercial farming. Bush fallowing and shifting cultivation involve resting land traditionally without heavy machinery, and subsistence farming is for feeding the family, not selling to companies.",
+"pidgin": "Since Mr. Danjuma dey use tractor, combine harvester and irrigation pump on 50 hectares to produce rice wey e go sell to companies, na mechanized commercial farming be dat. Bush fallowing and shifting cultivation no involve plenty machine, and subsistence farming no be for business.",
+"py": null,
+"values": null,
+"id": "wagr0004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A town has 4,000 people directly employed on farms out of a total working population of 10,000. What percentage of the working population is engaged in agriculture as a source of employment?",
+"options": [
+"20%",
+"40%",
+"60%",
+"80%"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Percentage employed in agriculture = (4000/10000) x 100 = 40%. This shows agriculture's importance as it employs a large share of the working population.",
+"pidgin": "To find percentage, e be (4000/10000) x 100 = 40%. Dis one show say agric dey employ plenty people for di town.",
+"py": "(4000/10000)*100",
+"values": [
+20,
+40,
+60,
+80
+],
+"id": "wagr0005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Agriculture is said to contribute to national development mainly through all of these EXCEPT:",
+"options": [
+"provision of employment opportunities for both rural and urban dwellers",
+"generation of government revenue through export duties on cash crops",
+"direct control of the exchange rate of the naira by the Central Bank",
+"supply of food that helps keep the population healthy and productive"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Agriculture supports employment, government revenue and food supply, these are standard contributions to national development. The Central Bank, not agriculture, directly controls the exchange rate, even though agricultural exports can influence foreign exchange earnings indirectly.",
+"pidgin": "Agric dey give work, e dey bring money give government, e dey give food wey dey make people strong. But na Central Bank dey directly control naira exchange rate, agric no be the one dey do dat one directly, even though e fit affect am small small.",
+"py": null,
+"values": null,
+"id": "wagr0006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

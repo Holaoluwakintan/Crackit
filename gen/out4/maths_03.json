@@ -1,0 +1,153 @@
+{
+"subject": "maths",
+"topic": "Surds",
+"ti": 3,
+"generated": 6,
+"kept": [
+{
+"q": "Simplify sqrt(50) to its simplest surd form.",
+"options": [
+"2sqrt(5)",
+"5sqrt(2)",
+"10sqrt(5)",
+"25sqrt(2)"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "50 = 25 x 2, and 25 is a perfect square. So sqrt(50) = sqrt(25) x sqrt(2) = 5sqrt(2).",
+"pidgin": "50 = 25 x 2, and 25 na perfect square. So sqrt(50) = sqrt(25) x sqrt(2) = 5sqrt(2).",
+"py": null,
+"values": null,
+"id": "wmth0300",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Simplify sqrt(18) + sqrt(8), leaving your answer in simplest surd form.",
+"options": [
+"5sqrt(2)",
+"5sqrt(4)",
+"3sqrt(6)",
+"2sqrt(13)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "sqrt(18) = sqrt(9x2) = 3sqrt(2) and sqrt(8) = sqrt(4x2) = 2sqrt(2). Adding like surds: 3sqrt(2) + 2sqrt(2) = 5sqrt(2).",
+"pidgin": "sqrt(18) = 3sqrt(2) and sqrt(8) = 2sqrt(2) because 9 and 4 na perfect squares. Add the two surds wey be same type: 3sqrt(2) + 2sqrt(2) = 5sqrt(2).",
+"py": null,
+"values": null,
+"id": "wmth0301",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidinma was asked to rationalize the denominator of 3/sqrt(5). What is the correct result?",
+"options": [
+"3sqrt(5)",
+"3sqrt(5)/5",
+"sqrt(5)/3",
+"5sqrt(3)/3"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Multiply numerator and denominator by sqrt(5): (3 x sqrt(5))/(sqrt(5) x sqrt(5)) = 3sqrt(5)/5. This removes the surd from the denominator.",
+"pidgin": "Multiply top and bottom by sqrt(5): (3 x sqrt(5))/(sqrt(5) x sqrt(5)) = 3sqrt(5)/5. Na so you take remove surd from bottom.",
+"py": null,
+"values": null,
+"id": "wmth0302",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Evaluate sqrt(3) x sqrt(12).",
+"options": [
+"sqrt(15)",
+"36",
+"6",
+"2sqrt(3)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "sqrt(3) x sqrt(12) = sqrt(3 x 12) = sqrt(36) = 6. Multiplying surds first then taking the square root gives a whole number here.",
+"pidgin": "sqrt(3) x sqrt(12) = sqrt(3 x 12) = sqrt(36) = 6. If you multiply the two numbers under the root first, you go see say e be perfect square.",
+"py": "math.sqrt(36)",
+"values": [
+3.8729833462074166,
+36,
+6,
+3.4641016151377544
+],
+"id": "wmth0303",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A student in Kaduna is asked to rationalize 1/(sqrt(7) - sqrt(5)). Which of the following is the simplified result?",
+"options": [
+"(sqrt(7)+sqrt(5))/2",
+"(sqrt(7)-sqrt(5))/2",
+"sqrt(7)+sqrt(5)",
+"(sqrt(7)+sqrt(5))/12"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Multiply top and bottom by the conjugate (sqrt(7)+sqrt(5)): denominator becomes (sqrt(7))^2 - (sqrt(5))^2 = 7 - 5 = 2. So the result is (sqrt(7)+sqrt(5))/2.",
+"pidgin": "Multiply top and bottom by the conjugate (sqrt(7)+sqrt(5)): bottom go become (sqrt(7))^2 - (sqrt(5))^2 = 7 - 5 = 2. So answer be (sqrt(7)+sqrt(5))/2.",
+"py": null,
+"values": null,
+"id": "wmth0304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "If x = 2 + sqrt(3), find the value of x + 1/x.",
+"options": [
+"4",
+"2sqrt(3)",
+"4 + 2sqrt(3)",
+"2"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "1/x = 1/(2+sqrt(3)). Multiply by the conjugate (2-sqrt(3)) over itself: 1/x = (2-sqrt(3))/(4-3) = 2 - sqrt(3). So x + 1/x = (2+sqrt(3)) + (2-sqrt(3)) = 4.",
+"pidgin": "1/x = 1/(2+sqrt(3)). Multiply with conjugate (2-sqrt(3)) for top and bottom: 1/x = (2-sqrt(3))/(4-3) = 2 - sqrt(3). So x + 1/x = (2+sqrt(3)) + (2-sqrt(3)) = 4, the sqrt(3) go cancel.",
+"py": "(2+math.sqrt(3)) + 1/(2+math.sqrt(3))",
+"values": [
+4,
+3.4641016151377544,
+7.464101615137754,
+2
+],
+"id": "wmth0305",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

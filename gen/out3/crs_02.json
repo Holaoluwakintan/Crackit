@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "God's covenants with Noah, Abraham and Israel at Sinai",
+"generated": 8,
+"kept": [
+{
+"q": "According to Genesis chapter 9, what sign did God give Noah as a seal of His covenant never to destroy the earth again by flood?",
+"options": [
+"A rainbow in the sky",
+"A pillar of fire",
+"A burning bush",
+"An ark of wood"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "God set the rainbow in the clouds as a sign of His covenant with Noah and every living creature. This is recorded in Genesis 9:12-13.",
+"pidgin": "God put rainbow for sky as sign of im covenant with Noah. Na for Genesis 9:12-13 dem write am.",
+"id": "crsv0200",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "God commanded Abraham to practice circumcision as the sign of His covenant with him. According to Genesis 17, on which part of the body was this sign to be performed?",
+"options": [
+"The ear",
+"The hand",
+"The forehead",
+"The flesh of the foreskin"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "God told Abraham that every male among his household should be circumcised in the flesh of the foreskin as a sign of the covenant. This is found in Genesis 17:10-11.",
+"pidgin": "God tell Abraham say make every man for im house cut dia foreskin as sign of di covenant. Na Genesis 17:10-11 talk am.",
+"id": "crsv0201",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "At Mount Sinai, through whom did God give the Ten Commandments to the Israelites as part of the covenant relationship?",
+"options": [
+"Aaron",
+"Joshua",
+"Moses",
+"Caleb"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "God called Moses up to Mount Sinai and gave him the Ten Commandments as the terms of the covenant for the Israelites. This is recorded in Exodus chapter 20.",
+"pidgin": "God call Moses go top Mount Sinai give am di Ten Commandments for di Israelites. Na Exodus chapter 20 tok am.",
+"id": "crsv0202",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In the covenant God made with Abraham in Genesis 15, what did God use to illustrate how numerous Abraham's descendants would become?",
+"options": [
+"The sand of the sea",
+"The dust of the ground",
+"The stars of the sky",
+"The leaves of the trees"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "God brought Abraham outside and told him to count the stars if he could, saying his offspring would be just as numerous. This promise is recorded in Genesis 15:5.",
+"pidgin": "God carry Abraham commot, show am star for sky, tell am say im pikin dem go plenty like dat. Na Genesis 15:5 talk am.",
+"id": "crsv0203",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Before giving the Ten Commandments, God told the Israelites at Sinai that if they obeyed His voice and kept His covenant, they would become a special possession among all nations and also be called by what title, according to Exodus 19?",
+"options": [
+"A kingdom of priests and a holy nation",
+"A nation of warriors and kings",
+"A land of milk and honey",
+"A chosen company of prophets"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "God promised that if Israel obeyed and kept the covenant, they would be His treasured possession, a kingdom of priests and a holy nation. This condition is stated in Exodus 19:5-6.",
+"pidgin": "God tell Israel say if dem obey and keep di covenant, dem go be im special property, kingdom of priest and holy nation. Na Exodus 19:5-6 tok am.",
+"id": "crsv0204",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "After the flood, God told Noah that He would never again use a flood to destroy all living creatures. This promise shows that the Noahic covenant was primarily an expression of God's what towards creation?",
+"options": [
+"Judgement",
+"Punishment",
+"Mercy and preservation",
+"Wealth"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "God's promise not to destroy the earth by flood again shows His mercy and commitment to preserve life on earth despite human sin. This is seen in Genesis 9:11, where God binds Himself to this promise.",
+"pidgin": "God promise say e no go use flood destroy world again, dis show say e get mercy and e wan preserve life. Na Genesis 9:11 talk am.",
+"id": "crsv0205",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Comparing the covenant God made with Abraham and the covenant He made with Israel at Sinai, a key difference is that the Abrahamic covenant was based mainly on God's unconditional promise, while the Sinai covenant required the Israelites to do what in order to enjoy its blessings?",
+"options": [
+"Build a temple first",
+"Offer human sacrifices",
+"Obey God's laws and commandments",
+"Conquer all neighbouring nations"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Unlike the promise-based covenant with Abraham, the Sinai covenant was conditional, requiring Israel's obedience to God's laws to enjoy the covenant blessings, as stated in Exodus 19:5. Abraham's covenant depended on God's faithfulness, while Sinai depended also on Israel's response.",
+"pidgin": "Di covenant wey God make with Abraham na promise wey no get condition, but di one for Sinai need say Israel go obey God laws before dem go enjoy di blessing, as Exodus 19:5 talk am. Na di obedience be di difference.",
+"id": "crsv0206",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Abraham was circumcised as a sign that he accepted God's covenant. According to Genesis 17:24, how old was Abraham when this circumcision took place?",
+"options": [
+"75 years old",
+"86 years old",
+"99 years old",
+"120 years old"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The Bible specifically records that Abraham was ninety-nine years old when he was circumcised in obedience to God's covenant command. This detail is found in Genesis 17:24.",
+"pidgin": "Bible tok clear say Abraham na ninety-nine years old when dem circumcise am as e obey God covenant. Na Genesis 17:24 get dis detail.",
+"id": "crsv0207",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,149 @@
+{
+"subject": "civic",
+"topic": "Human trafficking",
+"ti": 11,
+"generated": 7,
+"kept": [
+{
+"q": "Human trafficking is best defined as:",
+"options": [
+"the legal recruitment of workers for overseas employment with full documentation",
+"the illegal recruitment, transportation, or harbouring of persons through force, deceit, or coercion for exploitation",
+"the voluntary migration of citizens seeking greener pastures abroad",
+"a government programme for resettling internally displaced persons"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Human trafficking involves using force, deceit, or coercion to recruit, move, or exploit people, usually for labour or sexual exploitation. Legal migration or voluntary travel is not trafficking because consent and proper process are present.",
+"pidgin": "Human trafficking na when dem use force, lie or trick carry person comot, move am or use am do work wey e no gree for. E different from proper legal travel wia everything follow correct process.",
+"id": "wciv1100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which Nigerian government agency is primarily responsible for investigating and prosecuting human trafficking cases?",
+"options": [
+"Nigeria Drug Law Enforcement Agency (NDLEA)",
+"Economic and Financial Crimes Commission (EFCC)",
+"National Agency for the Prohibition of Trafficking in Persons (NAPTIP)",
+"Independent Corrupt Practices and Other Related Offences Commission (ICPC)"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "NAPTIP was specifically established to prevent, investigate, and prosecute human trafficking offences in Nigeria. NDLEA handles drug matters, EFCC handles financial crimes, and ICPC deals with corruption.",
+"pidgin": "NAPTIP na the agency wey dem set up well-well to fight human trafficking for Nigeria. NDLEA dey face drugs, EFCC dey face money crimes, ICPC dey face corruption.",
+"id": "wciv1101",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a major push factor that makes young Nigerians vulnerable to human trafficking?",
+"options": [
+"poverty and unemployment in their communities",
+"strong family support systems",
+"access to quality free education",
+"effective community policing"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Poverty and lack of jobs make young people desperate for better opportunities, so they easily fall for traffickers' false promises of good jobs abroad. The other options describe protective factors that reduce vulnerability, not causes.",
+"pidgin": "Poverty and lack of work na the main reason wey dey push young people to follow traffickers wey dey promise better life. The other options na things wey dey protect people, no be wetin dey cause the problem.",
+"id": "wciv1102",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A major consequence of human trafficking on its victims is:",
+"options": [
+"improved economic status and wealth",
+"enhanced respect in their home community",
+"automatic free citizenship in the destination country",
+"psychological trauma and serious health risks"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Trafficking victims often suffer abuse, forced labour, or sexual exploitation, leading to deep psychological trauma and health problems. They rarely gain wealth, respect, or citizenship; instead they are usually exploited and left worse off.",
+"pidgin": "Trafficking victims dey suffer mental wahala and health problems because of the abuse wey dem face. Dem no dey get money, respect or citizenship, instead dem dey suffer pass before.",
+"id": "wciv1103",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Traffickers most commonly lure their victims by:",
+"options": [
+"offering genuine scholarships with verified documents",
+"making false promises of well-paid jobs abroad",
+"using open recruitment through government job boards",
+"advertising strictly through accredited travel agencies"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Traffickers deceive victims with attractive but fake job offers abroad to gain their trust before exploiting them. Genuine scholarships, government recruitment, and accredited agencies follow proper legal processes and are not trafficking tactics.",
+"pidgin": "Traffickers dey use sweet lie of good work for abroad to catch people trust before dem go exploit am. Real scholarship, government job or correct travel agency no be wetin traffickers dey use.",
+"id": "wciv1104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidinma was promised a job as a hairdresser in a foreign country by an agent who, on arrival, seized her international passport and told her she must work without pay for two years to repay the cost of her travel before she can be free. This situation best illustrates:",
+"options": [
+"debt bondage, which is a recognised form of human trafficking",
+"a normal apprenticeship arrangement",
+"a standard international employment contract",
+"a voluntary labour exchange scheme"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Seizing a victim's passport and forcing unpaid labour to 'repay a debt' is a classic trafficking method called debt bondage. A real apprenticeship or legal contract would involve agreed pay, freedom of movement, and the worker's documents remaining with them.",
+"pidgin": "When dem seize person international passport make e work free to pay 'debt', na debt bondage, na one kind trafficking be dat. Proper apprenticeship or contract go get agreed pay and the person go still hold im passport.",
+"id": "wciv1105",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which international legal instrument is most directly concerned with defining and combating trafficking in persons?",
+"options": [
+"Universal Declaration of Human Rights",
+"Geneva Convention",
+"African Charter on Human and Peoples' Rights",
+"UN Protocol to Prevent, Suppress and Punish Trafficking in Persons"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The UN Protocol (also known as the Palermo Protocol) specifically defines trafficking in persons and sets out measures for its prevention and punishment. The other instruments deal with broader human rights or war-related matters, not trafficking specifically.",
+"pidgin": "The UN Protocol (Palermo Protocol) na the one wey specifically explain wetin trafficking be and how to fight am. The other ones dey talk about general human rights or war matters, no be trafficking straight.",
+"id": "wciv1106",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

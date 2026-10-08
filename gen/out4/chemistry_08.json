@@ -1,0 +1,157 @@
+{
+"subject": "chemistry",
+"topic": "Electrolysis",
+"ti": 8,
+"generated": 6,
+"kept": [
+{
+"q": "During electrolysis, at which electrode does reduction (gain of electrons) take place?",
+"options": [
+"Cathode",
+"Anode",
+"Anion",
+"Salt bridge"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The cathode is connected to the negative terminal of the battery, so positive ions (cations) move there and gain electrons, which is reduction. Oxidation (loss of electrons) happens at the anode instead.",
+"pidgin": "Cathode na where reduction dey happen because positive ions (cations) dey go there collect electron. Na opposite thing dey happen for anode, wey be oxidation.",
+"py": null,
+"values": null,
+"id": "wche0801",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Molten lead(II) bromide, PbBr2, is electrolysed using inert graphite electrodes. What product is formed at the cathode?",
+"options": [
+"Bromine gas",
+"Lead metal",
+"Hydrogen gas",
+"Oxygen gas"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In molten PbBr2 there are only Pb2+ and Br- ions present (no water). Pb2+ ions move to the cathode and gain electrons to form lead metal, while Br- ions move to the anode and are oxidised to bromine gas.",
+"pidgin": "Since na only Pb2+ and Br- ions dey inside the melt (no water), the Pb2+ go go cathode take electron turn to lead metal. Na the Br- dey go anode become bromine gas.",
+"py": null,
+"values": null,
+"id": "wche0802",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the electrolysis of dilute aqueous sodium chloride using inert electrodes, which ion is discharged at the cathode instead of the sodium ion?",
+"options": [
+"Na+ ion",
+"H+ ion",
+"OH- ion",
+"Cl- ion"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Sodium is more reactive than hydrogen, so Na+ stays in solution while H+ (from water) is preferentially discharged at the cathode to form hydrogen gas. This follows the rule of selective (preferential) discharge based on position in the electrochemical series.",
+"pidgin": "Sodium reactive pass hydrogen, so Na+ no dey discharge; na the H+ wey come from water dey discharge for cathode produce hydrogen gas. Na the rule of selective discharge dey explain am.",
+"py": null,
+"values": null,
+"id": "wche0803",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A steady current of 5 amperes is passed through a solution of copper(II) sulphate for 3860 seconds using inert electrodes. Calculate the mass of copper deposited at the cathode. [1 Faraday = 96500 C/mol, Cu = 64, Cu2+ requires 2 electrons per atom deposited]",
+"options": [
+"3.2 g",
+"6.4 g",
+"12.8 g",
+"1.28 g"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Charge, Q = I x t = 5 x 3860 = 19300 C. Moles of electrons = 19300/96500 = 0.2 mol. Since Cu2+ + 2e- gives Cu, moles of Cu = 0.2/2 = 0.1 mol, so mass = 0.1 x 64 = 6.4 g.",
+"pidgin": "Charge Q = I x t = 5 x 3860 = 19300 C. Moles of electron = 19300/96500 = 0.2 mol. Since na 2 electrons per Cu2+, moles of Cu = 0.1 mol, mass = 0.1 x 64 = 6.4 g.",
+"py": "(5*3860/96500)*(64/2)",
+"values": [
+3.2,
+6.4,
+12.8,
+1.28
+],
+"id": "wche0804",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Two electrolytic cells are connected in series: the first contains silver nitrate solution and the second contains copper(II) sulphate solution. If the same quantity of electricity deposits 0.54 g of silver in the first cell, what mass of copper is deposited in the second cell? [Ag = 108, Cu = 64; Ag+ + e- -> Ag; Cu2+ + 2e- -> Cu]",
+"options": [
+"0.08 g",
+"0.32 g",
+"0.16 g",
+"1.28 g"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Moles of Ag deposited = 0.54/108 = 0.005 mol, and since 1 electron deposits 1 Ag atom, moles of electrons passed = 0.005 mol. The same charge passes through the series circuit, so moles of Cu = 0.005/2 = 0.0025 mol (because Cu needs 2 electrons per atom), giving mass = 0.0025 x 64 = 0.16 g.",
+"pidgin": "Moles of Ag wey deposit = 0.54/108 = 0.005 mol, and na 1 electron dey deposit 1 Ag atom, so moles of electron wey pass = 0.005 mol. Na the same charge dey pass for the two cells wey dey series, so moles of Cu = 0.005/2 = 0.0025 mol, mass = 0.0025 x 64 = 0.16 g.",
+"py": "(0.54/108)/2*64",
+"values": [
+0.08,
+0.32,
+0.16,
+1.28
+],
+"id": "wche0805",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best defines electrolysis?",
+"options": [
+"The decomposition of a compound by heating it strongly",
+"The decomposition of an electrolyte into its ions by the passage of electric current",
+"The combination of two elements to form a new compound",
+"The dissolving of an ionic solid in water to form a solution"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Electrolysis is the chemical decomposition of an electrolyte (molten or in solution) when an electric current is passed through it. The current supplies energy to break the compound into its ions, which move to the electrodes.",
+"pidgin": "Electrolysis na when electric current pass through an electrolyte make e break into ions. Na the current dey give the energy wey dey separate the compound, no be heat or mixing.",
+"py": null,
+"values": null,
+"id": "wche0800",
+"check": {
+"s1": "X",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

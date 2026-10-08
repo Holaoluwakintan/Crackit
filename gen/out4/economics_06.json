@@ -1,0 +1,169 @@
+{
+"subject": "economics",
+"topic": "Theory of production and factors of production",
+"ti": 6,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following is NOT one of the four factors of production recognized in Economics?",
+"options": [
+"Land",
+"Labour",
+"Capital",
+"Money"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Economics recognizes four factors of production: land, labour, capital and entrepreneur. Money is not itself a factor; it is only used as a medium of exchange to acquire the real factors of production.",
+"pidgin": "Economics get only four factors: land, labour, capital and entrepreneur. Money no be factor, na just wetin dem dey use buy the real factors.",
+"py": null,
+"values": null,
+"id": "weco0600",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In Economics, which factor payment is given to the entrepreneur for organizing the other factors of production and bearing business risk?",
+"options": [
+"Profit",
+"Rent",
+"Wage",
+"Interest"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Profit is the reward for entrepreneurship because the entrepreneur takes risks and coordinates land, labour and capital. Rent is for land, wage for labour, and interest for capital.",
+"pidgin": "Profit na wetin entrepreneur dey collect because e dey carry risk and arrange the other factors. Rent na for land, wage na for labour, interest na for capital.",
+"py": null,
+"values": null,
+"id": "weco0601",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A cocoa farmer in Ondo State has a fixed 4-hectare farmland. He hires workers one at a time and records the following total output in bags of cocoa: 1 worker = 8 bags, 2 workers = 18 bags, 3 workers = 26 bags, 4 workers = 30 bags, 5 workers = 30 bags. At which number of workers does the law of diminishing returns begin to set in (that is, where marginal product first starts to fall)?",
+"options": [
+"2nd worker",
+"3rd worker",
+"4th worker",
+"5th worker"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The marginal product (extra bags per extra worker) is 8, 10, 8, 4, 0 for workers 1 to 5. It rises from the 1st to the 2nd worker (8 to 10) then falls from the 3rd worker (10 to 8), so diminishing returns set in at the 3rd worker.",
+"pidgin": "Extra bags wey each new worker add na 8, 10, 8, 4, 0. E rise from first to second worker (8 to 10) then e begin fall from the 3rd worker (10 to 8), so diminishing returns start from the 3rd worker.",
+"py": null,
+"values": null,
+"id": "weco0602",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best describes 'division of labour' in a production process?",
+"options": [
+"Combining all production tasks into one worker's job",
+"Sharing profit equally among all the workers",
+"Breaking down a production process into separate tasks performed by different workers",
+"Rotating workers regularly to prevent them from specializing"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Division of labour means splitting a production process into smaller tasks so that different workers specialize in each part, which increases efficiency and total output.",
+"pidgin": "Division of labour mean say dem go break the work process into small small parts make different worker specialize for each part, dis one dey increase efficiency and output.",
+"py": null,
+"values": null,
+"id": "weco0603",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A palm oil factory's total product is 48 units when 6 workers are employed, and 42 units when 5 workers are employed. What is the marginal product of the 6th worker?",
+"options": [
+"5",
+"7",
+"6",
+"8"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Marginal product = change in total product / change in number of workers = (48 - 42) / (6 - 5) = 6. So the 6th worker added 6 extra units to total output.",
+"pidgin": "Marginal product = change for total product divide by change for worker = (48 - 42) / 1 = 6. So the 6th worker add 6 extra units.",
+"py": "48-42",
+"values": [
+5,
+7,
+6,
+8
+],
+"id": "weco0604",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which stage of production involves converting raw materials, such as cotton, into finished goods, such as clothes?",
+"options": [
+"Tertiary production",
+"Primary production",
+"Extractive production",
+"Secondary production"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Secondary production is the stage where raw materials are processed or manufactured into finished or semi-finished goods, such as turning cotton into clothes. Primary production deals with extraction, while tertiary production covers services.",
+"pidgin": "Secondary production na when dem process raw materials turn am to finished goods, like cotton to clothes. Primary na extraction, tertiary na services.",
+"py": null,
+"values": null,
+"id": "weco0605",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the theory of production, which statement correctly describes the 'long run' period for a firm?",
+"options": [
+"The firm can vary all its factors of production, including land and capital",
+"The firm can vary labour only while land stays fixed",
+"The firm can vary land and capital only while labour stays fixed",
+"The firm cannot vary any factor of production at all"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In the long run, a firm has enough time to change all its factors of production, including land and capital, unlike in the short run where at least one factor (often land or capital) remains fixed.",
+"pidgin": "For long run, firm get enough time to change all im factors of production, including land and capital, unlike short run where one factor (land or capital) go still dey fixed.",
+"py": null,
+"values": null,
+"id": "weco0606",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,211 @@
+{
+"subject": "geography",
+"topic": "The earth in the solar system: rotation, revolution, latitude, longitude and time",
+"generated": 8,
+"kept": [
+{
+"q": "Approximately how long does it take the earth to complete one full rotation on its axis, which produces day and night?",
+"options": [
+"24 hours",
+"365 1/4 days",
+"28 days",
+"12 hours"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The earth rotates once on its axis in about 24 hours. This spinning motion is what causes day and night as different parts of the earth face or turn away from the sun.",
+"pidgin": "Earth dey do one complete turn for im axis for like 24 hours. Na dis turning dey cause day and night as different parts of earth dey face or comot from sun.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov0400",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "The earth's revolution around the sun, combined with the tilt of its axis, mainly causes which of the following?",
+"options": [
+"Day and night",
+"Change in seasons",
+"Ocean tides",
+"Earthquakes"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "As the earth moves round the sun in about 365 1/4 days, its tilted axis makes different parts of the earth receive more or less direct sunlight at different times of the year, giving rise to seasons.",
+"pidgin": "As earth dey waka round sun for like 365 1/4 days, the way im axis dey tilt make different part of earth receive sun well-well for different time, na so season dey change.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov0401",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Town A is located on longitude 15°E and Town B is located on longitude 45°W. If the local time at Town A is 12:00 noon, what is the local time at Town B?",
+"options": [
+"4:00pm",
+"12:00noon",
+"8:00am",
+"4:00am"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Total longitude difference = 15 + 45 = 60°. Since 15° equals 1 hour, 60° equals 4 hours. Town B is west of Town A, so its time is behind: 12:00 noon minus 4 hours = 8:00am.",
+"pidgin": "Total longitude wey dey between dem na 15+45=60°. Since 15° na 1 hour, 60° go be 4 hours. Town B dey west, so im time dey behind: 12noon minus 4hrs = 8am.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov0402",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of the following is NOT a line of latitude?",
+"options": [
+"Equator (0°)",
+"Tropic of Cancer (23.5°N)",
+"Tropic of Capricorn (23.5°S)",
+"Prime Meridian (0°)"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Lines of latitude run parallel to the Equator and measure positions north or south. The Prime Meridian, however, is a line of longitude used to measure positions east or west, so it is not a latitude.",
+"pidgin": "Latitude lines dey run parallel to Equator, dem dey show north-south position. Prime Meridian na longitude line wey dey show east-west position, so e no be latitude.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov0403",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Lagos is located on longitude 3°E. Town X has a local time that is 2 hours ahead of Lagos' local time. What is the approximate longitude of Town X?",
+"options": [
+"33°E",
+"27°E",
+"33°W",
+"2°E"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A time difference of 2 hours equals 2 x 15° = 30° of longitude. Since Town X's time is ahead, it lies to the east of Lagos, so its longitude = 3°E + 30° = 33°E.",
+"pidgin": "Time wey different na 2hrs, e equal 2x15=30° longitude. Since Town X time dey ahead, e dey east of Lagos, so im longitude na 3°E+30°=33°E.",
+"py": "3+2*15",
+"values": [
+33,
+27,
+-33,
+2
+],
+"id": "geov0404",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "The circumference of the earth at the equator is approximately 40,000 km, and the earth completes one full rotation in about 24 hours. What is the approximate linear speed of a point on the equator, in km/h?",
+"options": [
+"833 km/h",
+"1667 km/h",
+"2500 km/h",
+"1000 km/h"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Speed = distance / time = 40000 km / 24 hours = 1666.67 km/h, which rounds to about 1667 km/h. This shows how fast points on the equator move as the earth spins.",
+"pidgin": "Speed = distance divide time = 40000km/24hours = 1666.67 km/h, wey round up go 1667 km/h. Na so fast point for equator dey move as earth dey spin.",
+"py": "40000/24",
+"values": [
+833,
+1667,
+2500,
+1000
+],
+"id": "geov0405",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Greenwich Mean Time (GMT) is best described as what?",
+"options": [
+"Local time at the Equator",
+"Local time at the International Date Line",
+"Local time at longitude 0°",
+"Local time at the Tropic of Cancer"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "GMT is the local time at the Prime Meridian, which is longitude 0°, passing through Greenwich in London. It is used as the reference point for calculating time differences across the world.",
+"pidgin": "GMT na the local time for Prime Meridian, wey be longitude 0°, wey dey pass through Greenwich London. Dem dey use am as reference to calculate time difference for other places.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov0406",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "What is the maximum value that a line of latitude can have, measured from the Equator?",
+"options": [
+"60°",
+"180°",
+"23.5°",
+"90°"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Latitude is measured from 0° at the Equator to 90° at either the North Pole or the South Pole, so 90° is the highest possible latitude value.",
+"pidgin": "Dem dey measure latitude from 0° for Equator go reach 90° for North Pole or South Pole, so 90° na the highest value wey latitude fit be.",
+"py": "90",
+"values": [
+60,
+180,
+23.5,
+90
+],
+"id": "geov0407",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

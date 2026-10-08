@@ -1,0 +1,80 @@
+{
+"subject": "government",
+"topic": "Local government in Nigeria",
+"generated": 4,
+"kept": [
+{
+"q": "According to the 1999 Constitution of the Federal Republic of Nigeria (as amended), how many local government areas are officially recognised in the country?",
+"options": [
+"768",
+"774",
+"780",
+"792"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The 1999 Constitution lists exactly 774 local government areas in Nigeria. This number is fixed in the constitution and is a basic fact every candidate should know.",
+"pidgin": "Di 1999 Constitution show say Nigeria get 774 local government areas. Dis number dey fixed inside di constitution, na basic fact wey every candidate suppose sabi.",
+"id": "govv1500",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following is a major advantage of the local government system of administration in Nigeria?",
+"options": [
+"It brings government and its services closer to the people at the grassroots",
+"It removes the need for state governments to exist",
+"It concentrates all legislative powers in the hands of the federal government",
+"It eliminates the role of traditional rulers in community affairs"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Local government is the tier of government closest to the people in villages and towns, so it helps deliver services like primary healthcare, markets and sanitation directly to them. The other options describe things local government does not do.",
+"pidgin": "Local government na di tier of government wey close pass to di people for village and town, so e dey bring services like health post, market and clean environment reach dem direct. Di other options no be wetin local government dey do.",
+"id": "govv1501",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the 1999 Constitution of Nigeria, the specific functions assigned to local government councils are contained in which schedule?",
+"options": [
+"Second Schedule",
+"Third Schedule",
+"Fourth Schedule",
+"Fifth Schedule"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Fourth Schedule of the 1999 Constitution spells out the functions of local government councils, such as construction of roads, markets and primary education. Candidates must know this because it is often tested directly.",
+"pidgin": "Di Fourth Schedule of di 1999 Constitution na im dey list di work wey local government councils suppose do, like road, market and primary school. Dis one dey common for exam so candidates need sabi am well.",
+"id": "govv1502",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Local government in Nigeria is commonly described as the 'third tier' of government. This description is based mainly on the fact that it:",
+"options": [
+"has the smallest population compared to the federal and state governments",
+"occupies the third level in the hierarchical structure of government, below the federal and state governments",
+"was the third tier of government to be created historically in Nigeria",
+"generates the third largest share of government revenue in the country"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The term 'third tier' refers to local government's position in the structure of governance, coming after the federal government (first tier) and the state government (second tier). It is about rank in the governmental hierarchy, not about population, history of creation, or revenue size.",
+"pidgin": "Dem dey call local government 'third tier' because of how e dey sit for di government structure, after federal (first tier) and state (second tier). E no concern population, history of how dem create am, or how much money e dey generate.",
+"id": "govv1503",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

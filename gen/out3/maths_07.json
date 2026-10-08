@@ -1,0 +1,112 @@
+{
+"subject": "maths",
+"topic": "Variation (direct, inverse, joint, partial)",
+"generated": 4,
+"kept": [
+{
+"q": "F varies directly as the square of t. If F = 50 when t = 5, find the value of F when t = 8.",
+"options": [
+"128",
+"100",
+"80",
+"64"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Since F varies as t^2, F = k*t^2. Using F = 50 when t = 5: 50 = k*25, so k = 2. When t = 8, F = 2*64 = 128.",
+"pidgin": "Since F dey vary as t^2, we get F = k*t^2. We use 50 = k*25 to find k = 2. When t = 8, F = 2*64 = 128.",
+"py": "(50/5**2) * 8**2",
+"values": [
+128,
+100,
+80,
+64
+],
+"id": "matv0700",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "The time T taken by Chidinma to drive from Enugu to Onitsha varies inversely as her average speed S. If T = 3 hours when S = 60 km/h, find T when S = 90 km/h.",
+"options": [
+"4 hours",
+"2 hours",
+"1.5 hours",
+"2.5 hours"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Since T varies inversely as S, T*S = k (constant). Using T = 3, S = 60: k = 180. When S = 90, T = 180/90 = 2 hours.",
+"pidgin": "T dey vary inverse to S, so T*S = k. From T=3, S=60, we get k=180. When S=90, T = 180/90 = 2 hours.",
+"py": "(3*60)/90",
+"values": [
+4,
+2,
+1.5,
+2.5
+],
+"id": "matv0701",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "The cost C of tiling a rectangular floor varies jointly as its length L and its breadth B. It costs ₦9000 to tile a floor that is 6 metres long and 3 metres wide. Find the cost of tiling a floor that is 8 metres long and 5 metres wide.",
+"options": [
+"₦15000",
+"₦18000",
+"₦20000",
+"₦24000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Since C varies jointly as L and B, C = kLB. Using 9000 = k*6*3, k = 500. For L = 8, B = 5: C = 500*8*5 = 20000.",
+"pidgin": "C dey vary jointly as L and B, so C = kLB. From 9000 = k*6*3, we get k = 500. For L=8, B=5: C = 500*8*5 = 20000.",
+"py": "(9000/(6*3))*8*5",
+"values": [
+15000,
+18000,
+20000,
+24000
+],
+"id": "matv0702",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "The total cost C (in naira) of producing x bags of garri is partly constant and partly varies directly as x. When x = 10, C = ₦7000, and when x = 20, C = ₦12000. Find the cost of producing 15 bags.",
+"options": [
+"₦9000",
+"₦10000",
+"₦8500",
+"₦9500"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Let C = a + bx. From the two equations: 10b + a = 7000 and 20b + a = 12000. Subtracting gives 10b = 5000, so b = 500 and a = 2000. For x = 15: C = 2000 + 500*15 = 9500.",
+"pidgin": "Make C = a + bx. From 10b+a=7000 and 20b+a=12000, we subtract make we see 10b=5000, so b=500 and a=2000. For x=15: C = 2000 + 500*15 = 9500.",
+"py": "( (12000-7000)/(20-10) )*15 + (7000 - 10*((12000-7000)/(20-10)))",
+"values": [
+9000,
+10000,
+8500,
+9500
+],
+"id": "matv0703",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

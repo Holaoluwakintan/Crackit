@@ -1,0 +1,106 @@
+{
+"subject": "physics",
+"topic": "Refraction, total internal reflection and lenses",
+"generated": 4,
+"kept": [
+{
+"q": "A ray of light passes from a less dense medium into a denser medium, bending towards the normal. Which of the following correctly defines the refractive index, n, of the denser medium with respect to the less dense medium?",
+"options": [
+"n = sine of angle of incidence / sine of angle of refraction",
+"n = sine of angle of refraction / sine of angle of incidence",
+"n = speed of light in denser medium / speed of light in less dense medium",
+"n = angle of incidence / angle of refraction"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Refractive index from a rarer to a denser medium is defined as the ratio of the sine of the angle of incidence (in the rarer medium) to the sine of the angle of refraction (in the denser medium). This is Snell's law, n = sin i / sin r. Using angles directly (not their sines) or speeds the wrong way round gives incorrect definitions.",
+"pidgin": "Refractive index na sine of angle of incidence divide by sine of angle of refraction, dat one na Snell's law. If you use di angle demsef (no sine) or you flip di speed ratio, e go wrong.",
+"py": null,
+"values": null,
+"id": "phyv1600",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A beam of light travels from air into a transparent liquid of refractive index 1.6. The angle of incidence in air is 53° (take sin 53° = 0.80). Calculate the angle of refraction in the liquid, to the nearest whole degree.",
+"options": [
+"19°",
+"30°",
+"37°",
+"48°"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "By Snell's law, n = sin i / sin r, so sin r = sin i / n = 0.80 / 1.6 = 0.5. Taking the inverse sine of 0.5 gives r = 30°. The light bends towards the normal because it enters a denser medium, so the refraction angle must be smaller than 53°.",
+"pidgin": "Snell's law talk say sin r = sin i / n = 0.80/1.6 = 0.5, so r = arcsin(0.5) = 30°. Since di light dey enter denser medium, di angle must reduce pass 53°, and 30° fit am well.",
+"py": "math.degrees(math.asin(0.8/1.6))",
+"values": [
+19,
+30,
+37,
+48
+],
+"id": "phyv1601",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A diver under a swimming pool shines a torchlight upward towards the water surface. The refractive index of water with respect to air is 4/3. Calculate the critical angle for the water-air boundary, to the nearest 0.1°.",
+"options": [
+"41.8°",
+"45.0°",
+"48.6°",
+"53.1°"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "At the critical angle, light travels along the surface, meaning the angle of refraction is 90°. Since n(water to air) = 1/n(water) relative to air = 1/(4/3) = 3/4, we use sin C = 1/n = 3/4 = 0.75, giving C = arcsin(0.75) = 48.6°. Beyond this angle, total internal reflection occurs instead of the light escaping into the air.",
+"pidgin": "Critical angle na di angle wey di refracted ray go dey waka follow di surface (90°). Since water get refractive index 4/3 relative to air, sin C = 1/(4/3) = 0.75, so C = arcsin(0.75) = 48.6°. Pass dat angle, na total internal reflection go happen.",
+"py": "math.degrees(math.asin(3/4))",
+"values": [
+41.8,
+45.0,
+48.6,
+53.1
+],
+"id": "phyv1602",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "An object of height 2 cm is placed 15 cm in front of a converging (convex) lens of focal length 10 cm. Using the lens formula 1/f = 1/v + 1/u (with u, v and f all taken as positive for a real object and real image), calculate the height of the image formed.",
+"options": [
+"2 cm",
+"3 cm",
+"4 cm",
+"6 cm"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "From 1/f = 1/v + 1/u: 1/10 = 1/v + 1/15, so 1/v = 1/10 - 1/15 = 1/30, giving v = 30 cm. Magnification m = v/u = 30/15 = 2. Image height = m x object height = 2 x 2 cm = 4 cm.",
+"pidgin": "From 1/f = 1/v + 1/u: 1/10 = 1/v + 1/15, so 1/v = 1/30, dat mean v = 30 cm. Magnification m = v/u = 30/15 = 2, so image height = 2 x 2 cm = 4 cm.",
+"py": "2 * ((1/((1/10) - (1/15))) / 15)",
+"values": [
+2,
+3,
+4,
+6
+],
+"id": "phyv1603",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

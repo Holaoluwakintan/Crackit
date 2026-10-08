@@ -1,0 +1,171 @@
+{
+"subject": "maths",
+"topic": "Modular arithmetic",
+"ti": 13,
+"generated": 6,
+"kept": [
+{
+"q": "What is the remainder when 29 is divided by 6? That is, find r such that 29 ≡ r (mod 6), where 0 ≤ r < 6.",
+"options": [
+"5",
+"4",
+"3",
+"6"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Divide 29 by 6: 6 x 4 = 24, and 29 - 24 = 5. So 29 ≡ 5 (mod 6).",
+"pidgin": "Divide 29 by 6: 6 x 4 = 24, 29 minus 24 na 5. So 29 ≡ 5 (mod 6).",
+"py": "29 % 6",
+"values": [
+5,
+4,
+3,
+6
+],
+"id": "wmth1300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Evaluate 17 mod 5.",
+"options": [
+"3",
+"2",
+"4",
+"1"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "17 divided by 5 gives 3 remainder 2, since 5 x 3 = 15 and 17 - 15 = 2. So 17 mod 5 = 2.",
+"pidgin": "17 divide by 5 na 3 remainder 2, because 5 x 3 = 15, 17 minus 15 na 2. So 17 mod 5 = 2.",
+"py": "17 % 5",
+"values": [
+3,
+2,
+4,
+1
+],
+"id": "wmth1301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "If 23 ≡ x (mod 7), find the value of x such that 0 ≤ x < 7.",
+"options": [
+"5",
+"4",
+"2",
+"3"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "7 x 3 = 21, and 23 - 21 = 2, so x = 2. This is the smallest non-negative remainder when 23 is divided by 7.",
+"pidgin": "7 x 3 = 21, 23 minus 21 na 2, so x = 2. Na the remainder wey remain when 23 divide by 7.",
+"py": "23 % 7",
+"values": [
+5,
+4,
+2,
+3
+],
+"id": "wmth1302",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader records her sales as 8 and 13 in two different weeks. Find the value of (8 + 13) mod 6.",
+"options": [
+"1",
+"5",
+"2",
+"3"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "First add: 8 + 13 = 21. Then divide 21 by 6: 6 x 3 = 18, and 21 - 18 = 3. So (8+13) mod 6 = 3.",
+"pidgin": "First add am: 8 + 13 = 21. Then divide 21 by 6: 6 x 3 = 18, 21 minus 18 na 3. So (8+13) mod 6 = 3.",
+"py": "(8+13) % 6",
+"values": [
+1,
+5,
+2,
+3
+],
+"id": "wmth1303",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Find the value of x, where 0 ≤ x < 5, that satisfies 3x ≡ 2 (mod 5).",
+"options": [
+"4",
+"1",
+"2",
+"3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Test values from 0 to 4: when x = 4, 3 x 4 = 12, and 12 mod 5 = 2, which matches. So x = 4 is the solution.",
+"pidgin": "Try values from 0 to 4: when x = 4, 3 x 4 = 12, and 12 mod 5 = 2, e match. So x = 4 na the answer.",
+"py": "(2 * pow(3,-1,5)) % 5",
+"values": [
+4,
+1,
+2,
+3
+],
+"id": "wmth1304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In a certain Igbo market town, market days follow a 4-day cycle in this fixed order: Eke, Orie, Afor, Nkwo, then it repeats. If today is Eke (counted as day 0), what market day will it be exactly 30 days from today?",
+"options": [
+"Orie",
+"Afor",
+"Nkwo",
+"Eke"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The cycle has 4 days, so find 30 mod 4. Since 4 x 7 = 28, 30 - 28 = 2, so the remainder is 2. Counting Eke=0, Orie=1, Afor=2, the day is Afor.",
+"pidgin": "The cycle na 4 days, so find 30 mod 4. 4 x 7 = 28, 30 minus 28 na 2, so remainder na 2. If Eke=0, Orie=1, Afor=2, then the day na Afor.",
+"py": null,
+"values": null,
+"id": "wmth1305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,169 @@
+{
+"subject": "crs",
+"topic": "The early church: Pentecost, Peter, Stephen and Philip",
+"ti": 13,
+"generated": 8,
+"kept": [
+{
+"q": "On the day of Pentecost, as recorded in Acts chapter 2, what visible sign appeared and rested on each of the disciples when the Holy Spirit came upon them?",
+"options": [
+"Tongues of fire",
+"A bright shining star",
+"A rainbow in the sky",
+"A dove descending"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Bible says divided tongues like fire appeared and sat on each of the disciples, and they were filled with the Holy Spirit. This is recorded in Acts 2:1-4.",
+"pidgin": "Bible talk say tongue of fire come show and sidon on top each of di disciples wen Holy Spirit full dem. Dis dey for Acts 2:1-4.",
+"id": "wcrs1300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "After Peter preached his sermon on the day of Pentecost, about how many people believed and were added to the church through baptism?",
+"options": [
+"five hundred",
+"one hundred and twenty",
+"three thousand",
+"twelve"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Acts 2:41 records that those who gladly received Peter's message were baptised, and about three thousand souls were added to the church that day.",
+"pidgin": "Acts 2:41 talk say people wey hear Peter sermon take am serious, dem baptise dem, and around three thousand people join di church dat day.",
+"id": "wcrs1301",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When Philip went down to preach the gospel of Christ in a certain city, the people gave him great attention because of the miracles he performed, and there was great joy in that city. Which city was this?",
+"options": [
+"Antioch",
+"Samaria",
+"Caesarea",
+"Joppa"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Acts 8:5-8 records that Philip preached Christ in Samaria, cast out unclean spirits and healed the sick, which brought great joy to the city.",
+"pidgin": "Acts 8:5-8 show say na Samaria Philip go preach Christ, e cast out bad spirit and heal sick people, and di whole city dey happy well well.",
+"id": "wcrs1302",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Peter and John healed a man who had been lame from birth as they went into the temple to pray. At which gate of the temple was this man sitting to beg for alms?",
+"options": [
+"Golden Gate",
+"Water Gate",
+"Beautiful Gate",
+"Sheep Gate"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Acts 3:2 states that the lame man was laid daily at the gate of the temple called Beautiful, where he asked alms of those entering.",
+"pidgin": "Acts 3:2 talk say dem dey carry di lame man put everyday for di gate wey dem call Beautiful Gate, make e dey beg money from people wey wan enter temple.",
+"id": "wcrs1303",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Stephen was dragged before the Jewish council (Sanhedrin) after false witnesses accused him of blasphemy. According to Acts chapter 6, what two things did they claim he spoke against?",
+"options": [
+"the king and the Roman army",
+"the prophets and the angels",
+"the temple and the law of Moses",
+"the Sabbath and tithing"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Acts 6:13-14 says the false witnesses claimed Stephen spoke blasphemous words against the holy temple and the law, saying Jesus would destroy the temple and change the customs of Moses.",
+"pidgin": "Acts 6:13-14 show say di false witness dem claim say Stephen talk bad against di temple and di law of Moses, say Jesus go destroy di temple and change dia custom.",
+"id": "wcrs1304",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The apostles appointed seven men full of the Holy Spirit and wisdom (including Stephen and Philip) to serve tables after a complaint arose in the early church. Who were complaining of being neglected in the daily distribution of food?",
+"options": [
+"the Hebrew widows",
+"the Grecian (Hellenistic) widows",
+"the Roman soldiers' wives",
+"the priests' families"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Acts 6:1 records that the Grecian Jews complained against the Hebrews because their widows were being overlooked in the daily distribution of food, leading to the appointment of seven men to handle the task fairly.",
+"pidgin": "Acts 6:1 talk say na di Grecian widows dey complain say dem no dey share food give dem well, dat na why dem choose seven men wey get Holy Spirit to handle di matter.",
+"id": "wcrs1305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "On his way from Jerusalem, an Ethiopian official in charge of the treasury of Candace, queen of the Ethiopians, was reading from an Old Testament book when Philip met him and explained the scripture to him. Which book was he reading?",
+"options": [
+"Psalms",
+"Jeremiah",
+"Isaiah",
+"Genesis"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Acts 8:27-35 records that the Ethiopian eunuch was reading from the prophet Isaiah, specifically about the suffering servant, and Philip used this passage to preach Jesus to him.",
+"pidgin": "Acts 8:27-35 show say di Ethiopian official dey read from book of Isaiah, di part wey talk about suffering servant, and Philip use am take preach Jesus give am.",
+"id": "wcrs1306",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Before Pentecost, the disciples were hiding behind locked doors for fear of the Jewish leaders. After receiving the Holy Spirit, Peter stood boldly before a large crowd and openly preached about Jesus Christ. What important lesson about the Holy Spirit does this change in Peter's behaviour teach?",
+"options": [
+"The Holy Spirit makes believers no longer need to pray",
+"The Holy Spirit gives believers power and boldness to witness for Christ",
+"The Holy Spirit works only through church leaders",
+"The Holy Spirit removes all future suffering from believers"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The contrast between the fearful disciples before Pentecost and the bold preaching of Peter afterward (Acts 2:14-41) shows that the Holy Spirit empowers believers with courage and boldness to witness, as Jesus had earlier promised in Acts 1:8.",
+"pidgin": "Before Pentecost, di disciples dey hide for fear, but after Holy Spirit come, Peter come dey bold preach for public (Acts 2:14-41). Dis show say Holy Spirit dey give believers power and mind to testify about Jesus, just as Jesus promise for Acts 1:8.",
+"id": "wcrs1307",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

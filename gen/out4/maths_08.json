@@ -1,0 +1,141 @@
+{
+"subject": "maths",
+"topic": "Algebraic expressions, factorisation and change of subject",
+"ti": 8,
+"generated": 6,
+"kept": [
+{
+"q": "Simplify the expression: 3(2x - 5) - 2(x - 4)",
+"options": [
+"4x + 7",
+"4x - 7",
+"8x - 7",
+"4x - 23"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Expand: 3(2x-5) = 6x - 15, and 2(x-4) = 2x - 8. Subtracting: 6x - 15 - (2x - 8) = 6x - 15 - 2x + 8 = 4x - 7.",
+"pidgin": "Open di bracket: 3(2x-5) give 6x - 15, and 2(x-4) give 2x - 8. When you minus am: 6x - 15 - 2x + 8 = 4x - 7.",
+"py": null,
+"values": null,
+"id": "wmth0800",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Factorise completely: x^2 + 7x + 10",
+"options": [
+"(x - 2)(x - 5)",
+"(x + 1)(x + 10)",
+"(x + 2)(x + 5)",
+"(x + 10)(x - 1)"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "We need two numbers that multiply to 10 and add to 7; these are 2 and 5. So x^2 + 7x + 10 = (x + 2)(x + 5).",
+"pidgin": "We need two numbers wey go multiply give 10 and add give 7; na 2 and 5. So x^2 + 7x + 10 = (x + 2)(x + 5).",
+"py": null,
+"values": null,
+"id": "wmth0801",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The period of a simple pendulum is given by T = 2*pi*sqrt(l/g), where l is the length of the pendulum and g is acceleration due to gravity. Make l the subject of the formula.",
+"options": [
+"l = gT^2/(4*pi^2)",
+"l = 4*pi^2*g/T^2",
+"l = gT^2/(2*pi)",
+"l = (gT)^2/(4*pi^2)"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Divide both sides by 2*pi: T/(2*pi) = sqrt(l/g). Square both sides: T^2/(4*pi^2) = l/g. Multiply through by g: l = gT^2/(4*pi^2).",
+"pidgin": "Divide both side by 2*pi make you get T/(2*pi) = sqrt(l/g). Square am: T^2/(4*pi^2) = l/g. Multiply both side by g, you go see l = gT^2/(4*pi^2).",
+"py": null,
+"values": null,
+"id": "wmth0802",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Factorise completely: ab + ac - b^2 - bc",
+"options": [
+"(a + b)(b - c)",
+"(a - b)(b - c)",
+"(a + b)(b + c)",
+"(a - b)(b + c)"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Group the terms: a(b + c) - b(b + c). Since (b + c) is common, factorise to get (a - b)(b + c).",
+"pidgin": "Group di terms: a(b + c) - b(b + c). Since (b + c) dey common for both, you go factor am give (a - b)(b + c).",
+"py": null,
+"values": null,
+"id": "wmth0803",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Given that y = (3x + 2)/(x - 1), make x the subject of the formula.",
+"options": [
+"x = (y - 2)/(y + 3)",
+"x = (y + 2)/(y - 3)",
+"x = (y + 2)/(y + 3)",
+"x = (y - 2)/(y - 3)"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Cross multiply: y(x - 1) = 3x + 2, so yx - y = 3x + 2. Collect x terms: yx - 3x = y + 2, giving x(y - 3) = y + 2. Divide by (y - 3): x = (y + 2)/(y - 3).",
+"pidgin": "Cross multiply: y(x - 1) = 3x + 2, e go be yx - y = 3x + 2. Pack all x together: yx - 3x = y + 2, na im be x(y - 3) = y + 2. Divide both side by (y - 3): x = (y + 2)/(y - 3).",
+"py": null,
+"values": null,
+"id": "wmth0804",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Simplify the algebraic fraction: (x^2 - 9)/(x^2 - x - 6)",
+"options": [
+"(x - 3)/(x + 2)",
+"(x + 3)/(x - 2)",
+"(x + 3)/(x + 2)",
+"(x - 3)/(x - 2)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Factorise top and bottom: x^2 - 9 = (x - 3)(x + 3) and x^2 - x - 6 = (x - 3)(x + 2). Cancel the common factor (x - 3) to get (x + 3)/(x + 2).",
+"pidgin": "Factorise top and bottom: x^2 - 9 = (x - 3)(x + 3) and x^2 - x - 6 = (x - 3)(x + 2). Cancel di common (x - 3), you remain with (x + 3)/(x + 2).",
+"py": null,
+"values": null,
+"id": "wmth0805",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

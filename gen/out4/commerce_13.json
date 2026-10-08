@@ -1,0 +1,163 @@
+{
+"subject": "commerce",
+"topic": "Middlemen and aids to trade",
+"ti": 13,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best describes a middleman in trade?",
+"options": [
+"A person or firm that stands between the producer and the final consumer in the distribution of goods",
+"A government agency that regulates prices of goods",
+"A bank that provides loans to producers",
+"An insurance company that covers business risks"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A middleman is anyone who links the producer to the final consumer in the chain of distribution, such as a wholesaler, retailer or agent. Banks, government price agencies and insurance companies do not perform this linking role.",
+"pidgin": "Middleman na person or firm wey dey between the producer and the person wey go finally use the goods, e.g wholesaler or retailer. Bank, government price agency and insurance company no dey do this kain work.",
+"py": null,
+"values": null,
+"id": "wcom1300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is classified as an aid to trade rather than a middleman?",
+"options": [
+"Wholesaler",
+"Warehousing",
+"Retailer",
+"Commission agent"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Warehousing is a service that supports trade by storing goods, so it is an aid to trade, not a middleman. Wholesalers, retailers and commission agents are middlemen because they stand between producers and consumers and take part in buying and selling.",
+"pidgin": "Warehousing na service wey dey help trade by storing goods, so e be aid to trade, e no be middleman. Wholesaler, retailer and commission agent na middlemen because dem dey buy and sell between producer and consumer.",
+"py": null,
+"values": null,
+"id": "wcom1301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "One major function of a wholesaler in the chain of distribution is to",
+"options": [
+"manufacture goods in bulk for sale",
+"advertise products directly to final consumers only",
+"buy in bulk from producers and sell in smaller quantities to retailers",
+"insure goods against loss during production"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A wholesaler buys goods in large quantities directly from producers and breaks them into smaller lots to sell to retailers. The wholesaler does not manufacture goods, and advertising to final consumers and insuring goods are not his core function.",
+"pidgin": "Wholesaler dey buy plenty goods straight from producer, then e go break am small small sell am to retailer. Wholesaler no dey manufacture goods, and e no be im job to advertise to final consumer or insure goods.",
+"py": null,
+"values": null,
+"id": "wcom1302",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Adeyemi negotiates the sale of goods between a textile producer in Kano and a trader in Onitsha but never takes ownership of the goods and earns a commission for each deal. Mr. Adeyemi is best described as a(n)",
+"options": [
+"wholesaler",
+"retailer",
+"del credere agent",
+"broker"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A broker brings buyer and seller together and earns a commission but does not take possession or ownership of the goods, which matches Mr. Adeyemi's role exactly. A wholesaler and retailer actually buy and own the goods, while a del credere agent takes on the risk of bad debts for the goods he handles.",
+"pidgin": "Broker na im dey bring buyer and seller together make dem agree, e dey collect commission but e no dey own the goods, na so Mr. Adeyemi work be. Wholesaler and retailer dey actually buy and own goods, while del credere agent dey carry the risk if buyer no pay.",
+"py": null,
+"values": null,
+"id": "wcom1303",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT a function of warehousing as an aid to trade?",
+"options": [
+"Granting loans to small-scale producers",
+"Storing goods until they are needed by the market",
+"Providing a steady supply of goods throughout the year",
+"Protecting goods from damage and deterioration"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Warehousing deals with storage, protection and steady supply of goods, not with lending money, which is the function of banks. Therefore granting loans is not a function of warehousing.",
+"pidgin": "Warehousing na about storing, protecting and making sure say goods dey available throughout the year, e no be about lending money, na bank dey do dat one. So granting loan no be warehousing function.",
+"py": null,
+"values": null,
+"id": "wcom1304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A manufacturer of soft drinks in Lagos decides to sell directly to final consumers through his own retail shops, removing wholesalers and retailers from his distribution chain. Which of the following is a likely disadvantage of this decision?",
+"options": [
+"The manufacturer will enjoy reduced cost of distribution immediately",
+"Consumers will receive goods at a higher quality standard than before",
+"The manufacturer will need to set up and manage many retail outlets himself, increasing his workload and capital requirement",
+"Middlemen will automatically earn higher profits from the new arrangement"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "When a manufacturer removes middlemen, he must now perform their storage, transport and selling functions himself, which means setting up many shops and spending more capital and effort. Product quality does not automatically improve, distribution costs usually rise at first rather than fall, and middlemen who are removed earn nothing from the new system.",
+"pidgin": "If manufacturer remove middlemen, e go need to do the work wey dem dey do before, like storage, transport and selling, so e go need open plenty shop and spend more money and energy. Quality no go automatically improve, cost go first rise instead of reduce, and the middlemen wey don comot no go earn anything again.",
+"py": null,
+"values": null,
+"id": "wcom1305",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Alhaji Musa owns a textile warehouse in Kano. He wants to protect his stock against loss from fire outbreak and also wants funds to expand his business without using his personal savings. Which two aids to trade will directly help him achieve these needs respectively?",
+"options": [
+"Transportation and advertising",
+"Insurance and banking",
+"Communication and warehousing",
+"Insurance and transportation"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Insurance covers his stock against losses like fire outbreak, while banking provides loans and credit facilities for business expansion. Transportation, advertising, communication and warehousing serve other purposes such as moving goods, promoting sales and storage, not covering fire risk or providing expansion funds.",
+"pidgin": "Insurance go cover im goods if fire burn am, while bank go give am loan make e expand business without im savings. Transportation, advertising, communication and warehousing dey do other things like carry goods, advertise or store goods, dem no dey cover fire risk or give expansion money.",
+"py": null,
+"values": null,
+"id": "wcom1306",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

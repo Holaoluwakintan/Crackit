@@ -1,0 +1,169 @@
+{
+"subject": "crs",
+"topic": "Christian living: faith, love, works and civic duty (James, Peter, Romans)",
+"ti": 15,
+"generated": 8,
+"kept": [
+{
+"q": "According to James 2:26, faith without works is like what?",
+"options": [
+"A dead body without the spirit",
+"A flickering lamp without oil",
+"A tree without roots",
+"A ship without an anchor"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "James 2:26 says 'faith without works is dead, as the body without the spirit is dead also.' This teaches that true faith must show itself through good deeds.",
+"pidgin": "James 2:26 talk say faith wey no get work na like body wey no get spirit, e don die. Dis one dey teach say real faith must show for action.",
+"id": "wcrs1500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In Romans 13:1, Christians are told to submit to governing authorities mainly because",
+"options": [
+"there is no power except from God",
+"all rulers are perfectly righteous",
+"obeying leaders brings instant riches",
+"civil laws are greater than God's law"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Romans 13:1 states that there is no authority except from God, and the authorities that exist have been established by Him. This is why believers are told to submit to them as part of civic duty.",
+"pidgin": "Romans 13:1 talk say no power dey wey no come from God, na God put all authorities for their position. Na why believer go dey submit to dem as part of im civic duty.",
+"id": "wcrs1501",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "According to 1 Peter 4:8, what does love do?",
+"options": [
+"It covers a multitude of sins",
+"It guarantees long life for believers",
+"It removes every form of suffering",
+"It replaces the need for faith"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "1 Peter 4:8 says to have fervent love among yourselves, for love covers a multitude of sins. This teaches that genuine love helps believers overlook and forgive one another's faults.",
+"pidgin": "1 Peter 4:8 talk say make una get strong love for una midst because love dey cover plenty sin. E mean say if you get real love, you go fit forgive person im wrongdoing.",
+"id": "wcrs1502",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In James 2:21, Abraham was said to be justified by works when he did what?",
+"options": [
+"Offered his son Isaac on the altar",
+"Built an altar and called on God's name",
+"Left Haran for an unknown land",
+"Paid tithes to Melchizedek"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "James 2:21 says Abraham was justified by works when he offered his son Isaac on the altar, showing that his faith was proved real by his obedient action.",
+"pidgin": "James 2:21 talk say Abraham get justification through work when e carry im son Isaac go altar. Na dat action show say im faith na real one.",
+"id": "wcrs1503",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "According to Romans 12:2, instead of being conformed to this world, believers should be",
+"options": [
+"transformed by the renewing of their mind",
+"baptized repeatedly in the Holy Spirit",
+"strengthened only through fasting",
+"justified by keeping the Mosaic law"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Romans 12:2 instructs believers not to be conformed to the pattern of this world but to be transformed by the renewing of their mind, so they can discern God's good and acceptable will.",
+"pidgin": "Romans 12:2 talk say make believer no follow dis world pattern, make dem change through di renewing of dia mind. Na dat way dem go fit know God im good and perfect will.",
+"id": "wcrs1504",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In James chapter 2, which Old Testament woman was justified by works for hiding the messengers and sending them out another way?",
+"options": [
+"Rahab",
+"Deborah",
+"Esther",
+"Ruth"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "James 2:25 gives Rahab the harlot as an example of justification by works because she hid the spies sent to Jericho and helped them escape safely.",
+"pidgin": "James 2:25 give Rahab di harlot as example of work wey show real faith, because she hide di spies wey dem send go Jericho and help dem run comot safe.",
+"id": "wcrs1505",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "According to 1 Peter 2:20, which type of suffering brings no credit before God?",
+"options": [
+"Suffering for doing wrong",
+"Suffering for doing good",
+"Suffering for the gospel's sake",
+"Suffering for righteousness' sake"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "1 Peter 2:20 explains that there is no credit in patiently enduring punishment for doing wrong; it is suffering for doing good that is commendable before God. The verse contrasts the two kinds of suffering to show which pleases God.",
+"pidgin": "1 Peter 2:20 explain say no credit dey if you suffer because you do bad thing; na when you suffer for doing good e dey pleasing to God. Di verse dey compare di two kain suffer to show which one God dey happy with.",
+"id": "wcrs1506",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student argues that James' teaching that 'faith without works is dead' contradicts Paul's teaching in Romans that a person is justified by faith. Which statement best resolves this apparent conflict?",
+"options": [
+"James and Paul both agree that genuine, living faith naturally produces good works",
+"James rejects Paul's teaching on salvation by grace completely",
+"Paul teaches that works alone, without faith, can save a person",
+"James teaches that keeping the Mosaic law alone brings salvation"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Paul (Romans) stresses that salvation begins with faith, while James stresses that real faith must show itself in works; both agree genuine faith is never alone but produces a changed, obedient life. The two teachings complement rather than contradict each other.",
+"pidgin": "Paul (for Romans) dey talk say salvation dey start with faith, while James dey talk say real faith go show itself through work; both of dem agree say true faith no fit stay alone, e go produce change and obedience. So di two teaching dey match, dem no dey contradict each other.",
+"id": "wcrs1507",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

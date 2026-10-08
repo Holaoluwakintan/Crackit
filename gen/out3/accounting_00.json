@@ -1,0 +1,168 @@
+{
+"subject": "accounting",
+"topic": "Nature, users and significance of accounting",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best defines accounting as a discipline?",
+"options": [
+"The process of recording, classifying, summarizing and interpreting financial transactions",
+"The process of only recording cash transactions in a diary",
+"The process of preparing government budgets alone",
+"The process of calculating company taxes only"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Accounting is the systematic process of recording, classifying, summarizing and interpreting financial data so that users can make informed decisions. The other options describe only a small part of this process, not the whole discipline.",
+"pidgin": "Accounting na the process wey dem dey record, classify, summarize and interpret financial transactions well-well. The other options na just small part of am, dem no cover everything.",
+"py": null,
+"values": null,
+"id": "accv0000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of these is classified as an INTERNAL user of accounting information?",
+"options": [
+"Tax authorities",
+"Management of the business",
+"Trade creditors",
+"Prospective investors"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Internal users are people inside the organisation, such as management, who use accounting information daily for planning and control. Tax authorities, creditors and investors are outside the business, so they are external users.",
+"pidgin": "Internal users na people wey dey inside the business, like management, wey dey use the information every day for planning and control. Tax people, creditors and investors dey outside the business, so na external users dem be.",
+"py": null,
+"values": null,
+"id": "accv0001",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A bank manager wants to decide whether to grant a loan to Chidinma's Bakery in Enugu. Which accounting information will be most useful to the bank manager?",
+"options": [
+"The minutes of the last staff meeting",
+"The advertising jingles used by the bakery",
+"The statement of financial position showing assets and liabilities",
+"The names of the bakery's suppliers"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A lender needs to know the business's financial strength before giving a loan, and the statement of financial position shows assets, liabilities and net worth. Staff meeting minutes, jingles and supplier names do not reveal financial soundness.",
+"pidgin": "Person wey wan give loan need know how strong the business be for money matter, and na the statement of financial position go show the assets, liabilities and net worth. Staff meeting gist, jingle and supplier names no fit show financial strength.",
+"py": null,
+"values": null,
+"id": "accv0002",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which branch of accounting is mainly concerned with ascertaining the cost of producing goods and services in order to help management control expenses?",
+"options": [
+"Financial accounting",
+"Public sector accounting",
+"Auditing",
+"Cost accounting"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Cost accounting focuses on calculating and controlling the cost of production so that management can set prices and reduce waste. Financial accounting reports overall results, auditing checks accuracy, and public sector accounting deals with government funds.",
+"pidgin": "Cost accounting dey focus on how to calculate and control production cost so management fit set price and reduce waste. Financial accounting na for general report, auditing na to check am, public sector accounting na for government money.",
+"py": null,
+"values": null,
+"id": "accv0003",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Bookkeeping is different from accounting mainly because bookkeeping:",
+"options": [
+"involves only the recording of day-to-day business transactions",
+"involves interpreting financial statements for decision making",
+"involves preparing tax returns for government",
+"involves auditing financial statements"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Bookkeeping is simply the clerical task of recording daily transactions in the books of account, while accounting goes further to classify, summarize and interpret the data for decision making. Tax preparation and auditing are separate specialised activities, not bookkeeping itself.",
+"pidgin": "Bookkeeping na just the work of recording daily transactions for book, but accounting pass am because e dey classify, summarize and interpret the data make people fit decide well. Tax preparation and auditing na different work entirely, no be bookkeeping.",
+"py": null,
+"values": null,
+"id": "accv0004",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Trade union leaders representing workers at Zenith Textiles Plc want to negotiate for better wages. Which accounting information would be most relevant to support their case?",
+"options": [
+"The personal bank statements of the managing director",
+"The company's profit and loss account showing the level of profit made",
+"The company's logo and marketing slogan",
+"The list of raw materials suppliers"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Employees and their unions use the profit and loss account to see how profitable the company is, which helps them argue for a fair share through better wages. The director's personal account, the logo and the supplier list have nothing to do with wage justification.",
+"pidgin": "Workers and dem union go use the profit and loss account to see how the company dey make money, so dem fit argue say make dem get better pay. The director personal account, logo and supplier list no get anything to do with wage matter.",
+"py": null,
+"values": null,
+"id": "accv0005",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "One of the following is NOT a significance (importance) of accounting to a business organisation. Which one?",
+"options": [
+"It helps in ascertaining profit or loss",
+"It helps in planning and decision making",
+"It helps in controlling the weather for farming activities",
+"It helps in assessing the financial position of the business"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Accounting deals with financial records and decision-making, not with natural events like weather, which is outside its scope. The other three options are genuine benefits that accounting provides to a business.",
+"pidgin": "Accounting na about money matter and decision, e no be about weather wey be natural thing wey accounting no fit control. The other three options na real benefits wey accounting dey give business.",
+"py": null,
+"values": null,
+"id": "accv0006",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Why are external auditors considered important users of accounting information in a company?",
+"options": [
+"They need the records to fix the selling prices of goods",
+"They need the records to supervise the daily production process",
+"They need the records to recruit new staff for the company",
+"They need the records to verify that the financial statements give a true and fair view"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "External auditors examine a company's accounting records and statements independently to confirm that they present a true and fair view, which protects shareholders and other stakeholders. Setting prices, supervising production and recruiting staff are management duties, not the auditor's role.",
+"pidgin": "External auditors dey check company books independently to confirm say the financial statements show true and fair view, and dis one dey protect shareholders and other people wey get interest. To set price, supervise production or recruit staff na management work, no be auditor work.",
+"py": null,
+"values": null,
+"id": "accv0007",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

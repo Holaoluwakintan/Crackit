@@ -1,0 +1,123 @@
+{
+"subject": "english",
+"topic": "Pronouns and question tags",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the option that best completes the gap. I am the class prefect this term, _____?",
+"options": [
+"aren't I",
+"am I",
+"isn't it",
+"are I not"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The statement uses 'I am', so the tag must use 'I' with the opposite polarity. The correct short form is 'aren't I', which is the standard way English speakers form this tag. 'Am I' and 'are I not' are not grammatically acceptable tags.",
+"pidgin": "Since the sentence talk 'I am', the tag suppose be 'I' but turn the polarity. 'Aren't I' na the correct and common way to tag am. 'Am I' and 'are I not' no dey correct at all.",
+"id": "engv0800",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best completes the gap. Musa injured _____ while playing football at the school field.",
+"options": [
+"hisself",
+"himself",
+"him",
+"his"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The subject 'Musa' and the object refer to the same person, so a reflexive pronoun is needed. 'Himself' is the correct reflexive form for a singular male subject. 'Hisself' is not standard English, and 'him' or 'his' do not show the reflexive meaning.",
+"pidgin": "Musa na the same person wey do the action and still receive am, so we need reflexive pronoun. 'Himself' na the correct one for singular man. 'Hisself' no be correct English, and 'him' or 'his' no fit show say na himself he injure.",
+"id": "engv0801",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the option that best completes the gap. Let's finish this assignment before the test, _____?",
+"options": [
+"will we",
+"won't we",
+"shall we",
+"don't we"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "When a sentence begins with 'Let's' to suggest a joint action, the standard question tag is 'shall we', regardless of the main verb's tense. This is a fixed exception in English grammar. The other options do not follow this special rule for 'let's' sentences.",
+"pidgin": "When sentence start with 'Let's' to suggest say make we do something together, the correct tag na 'shall we', no matter the tense of the main verb. Na special grammar rule be dat for 'let's' sentences. The other options no follow dis special rule.",
+"id": "engv0804",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the option that best completes the gap. The teacher _____ class performed best in the quiz was transferred to another school.",
+"options": [
+"who",
+"whom",
+"which",
+"whose"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The gap requires a possessive relative pronoun because it shows ownership: the class belongs to the teacher. 'Whose' is used to show possession for people. 'Who' and 'whom' refer to people but do not show possession, and 'which' is used for things, not people.",
+"pidgin": "The gap need possessive relative pronoun because e dey show say the class na the teacher own. 'Whose' na the one wey dem dey use show possession for person. 'Who' and 'whom' na for person but dem no show possession, and 'which' na for things, no be person.",
+"id": "engv0805",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap. Each of the students must submit _____ project before Friday.",
+"options": [
+"their",
+"its",
+"his or her",
+"our"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "'Each' is a singular indefinite pronoun, so it needs a singular possessive pronoun. In formal English, 'his or her' is used because the gender of the students is unknown. 'Their' is informal and 'its' and 'our' do not match the meaning of 'each'.",
+"pidgin": "'Each' na singular word, so e need singular possessive pronoun. For formal English, 'his or her' dey used because we no know the gender. 'Their' na informal one, and 'its' or 'our' no fit match wetin 'each' mean.",
+"id": "engv0802",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+"why": "ambiguous:Singular 'their' is also acceptable.|Singular 'their' is common in modern usage, but the formal JAMB key is 'his or her'."
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap. You used to live in Kaduna, _____?",
+"options": [
+"usedn't you",
+"weren't you",
+"don't you",
+"didn't you"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "'Used to' behaves like a past tense verb in question tags, so the auxiliary 'did' is used with its negative short form. 'Didn't you' correctly matches the past action described. The other options either use the wrong tense or an incorrect form.",
+"pidgin": "'Used to' dey behave like past tense verb when we dey form tag question, so we go use 'did' with 'not'. 'Didn't you' correctly match the past action for the sentence. The other options use wrong tense or wrong form.",
+"id": "engv0803",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+"why": "ambiguous:'Usedn't you' is also defensible in British English.|'usedn't you' (A) is also defensible in traditional British grammar."
+}
+]
+}

@@ -1,0 +1,174 @@
+{
+"subject": "crs",
+"topic": "Obedience and disobedience: Saul and David",
+"generated": 9,
+"kept": [
+{
+"q": "In the Bible, who anointed Saul to become the first king of Israel?",
+"options": [
+"Samuel",
+"Nathan",
+"Eli",
+"Gad"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Samuel, the prophet and judge, anointed Saul with oil and declared him ruler over Israel. This event is recorded in 1 Samuel 10:1.",
+"pidgin": "Samuel na the prophet wey pour oil for Saul head make him be king. Na for 1 Samuel 10:1 e dey.",
+"id": "crsv0600",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "God commanded Saul through Samuel to completely destroy the Amalekites and all their possessions, including livestock. What did Saul do instead?",
+"options": [
+"He killed everyone and everything as instructed",
+"He spared King Agag and kept the best sheep and cattle",
+"He refused to fight the Amalekites",
+"He gave all the animals to the Levites"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Saul disobeyed God's clear command by sparing Agag and keeping the best animals, claiming they were for sacrifice. This disobedience is recorded in 1 Samuel 15:9.",
+"pidgin": "Saul no obey wetin God talk; instead e spare Agag and the best animals, e no kill everything. Na dis one dey 1 Samuel 15:9.",
+"id": "crsv0601",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "What was the main reason God rejected Saul as king over Israel?",
+"options": [
+"Saul was too young to rule",
+"Saul disobeyed God's instructions regarding the Amalekites",
+"Saul lost a major battle against the Philistines",
+"Saul refused to marry Michal"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Saul's disobedience in sparing Agag and the best livestock, against God's direct command, led to his rejection as king. Samuel told him that obedience is better than sacrifice in 1 Samuel 15:22-23.",
+"pidgin": "Na because Saul no obey God command about the Amalekites make God reject am as king. Samuel tell am say obedience pass sacrifice, na 1 Samuel 15:22-23.",
+"id": "crsv0602",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Before his final battle against the Philistines, Saul disobeyed God's law by consulting whom for guidance?",
+"options": [
+"The prophet Nathan",
+"The high priest Abiathar",
+"The medium at Endor",
+"The prophet Elijah"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Saul, desperate for guidance since God would not answer him, visited a medium at Endor to call up Samuel's spirit, an act forbidden by God's law. This is recorded in 1 Samuel 28:7.",
+"pidgin": "Saul go meet the medium for Endor because God no dey answer am again, but na forbidden thing be dat. Na 1 Samuel 28:7 e dey.",
+"id": "crsv0604",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Samuel told Saul that 'to obey is better than sacrifice.' What important lesson does this statement teach?",
+"options": [
+"Sacrifices are no longer necessary in worship",
+"Obeying God's instructions matters more than performing religious rituals",
+"Kings are exempted from offering sacrifices",
+"Sacrifices should only be offered by priests, not kings"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Samuel's statement teaches that true devotion to God is shown through obedience to His word, not just through outward religious acts like sacrifice. Saul had sacrificed animals but disobeyed God's specific command, showing his heart was not right. This is found in 1 Samuel 15:22.",
+"pidgin": "Samuel talk say to obey God pass to just dey offer sacrifice. E dey show say wetin God want na your obedience, no be only outside show of religion. Na 1 Samuel 15:22.",
+"id": "crsv0605",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "David's sin involving Bathsheba led him to arrange the death of which man in battle?",
+"options": [
+"Nabal",
+"Uriah the Hittite",
+"Abner",
+"Amasa"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "David committed adultery with Bathsheba and, to cover his sin, arranged for her husband Uriah the Hittite to be killed in battle. This story and its consequences are recorded in 2 Samuel 11.",
+"pidgin": "David commit adultery with Bathsheba and e arrange make dem kill her husband Uriah for war to cover im sin. Na for 2 Samuel 11.",
+"id": "crsv0606",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Despite his father Saul's hatred and jealousy toward David, which of Saul's sons remained a loyal and faithful friend to David?",
+"options": [
+"Ishbosheth",
+"Jonathan",
+"Malchishua",
+"Abinadab"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Jonathan, Saul's son, loved David as his own soul and protected him from Saul's anger, showing loyalty even though it meant going against his father's wishes. This friendship is described in 1 Samuel 18:1-3 and 1 Samuel 20.",
+"pidgin": "Jonathan, Saul pikin, love David well well and e protect am from Saul anger, even though na im papa. Na for 1 Samuel 18:1-3 and 1 Samuel 20 e dey.",
+"id": "crsv0607",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "After David became king, what act of disobedience to God did he commit that led to a plague on Israel?",
+"options": [
+"He built an altar to foreign gods",
+"He conducted a census of Israel without God's approval",
+"He refused to bring the Ark of the Covenant to Jerusalem",
+"He appointed his son as a priest"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "David ordered a census of the fighting men of Israel, an act that displeased God, possibly because it showed pride in military strength rather than trust in God. As a result, a plague struck Israel, killing many people, as recorded in 2 Samuel 24.",
+"pidgin": "David count the fighting men of Israel without God approval, e be like say e dey trust im army strength instead of God. Na so plague come kill many people, na for 2 Samuel 24.",
+"id": "crsv0608",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "When David found Saul sleeping in a cave at En Gedi with an opportunity to kill him, what did David do instead to show respect for the Lord's anointed?",
+"options": [
+"He killed Saul immediately",
+"He cut off a piece of Saul's robe",
+"He woke Saul up and challenged him to a duel",
+"He stole Saul's sword and fled silently"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "David chose to spare Saul's life because he respected him as God's anointed king, cutting only a piece of his robe as proof he could have killed him. This is found in 1 Samuel 24:4-5.",
+"pidgin": "David no kill Saul because e respect am as the person wey God anoint; instead e just cut small part of im robe. Na for 1 Samuel 24:4-5.",
+"id": "crsv0603",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:Saul was relieving himself in the cave, not sleeping.|Factual error: at En Gedi Saul entered the cave to relieve himself, not to sleep (1 Sam 24); the sleeping incident (1 Sam 26) was in Saul's camp"
+}
+]
+}

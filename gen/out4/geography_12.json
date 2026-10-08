@@ -1,0 +1,163 @@
+{
+"subject": "geography",
+"topic": "Settlement",
+"ti": 12,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best describes a nucleated settlement?",
+"options": [
+"Houses built in a straight line along a road",
+"Houses scattered far apart from one another across farmland",
+"Houses closely clustered together around a central point such as a market, water source or place of worship",
+"Houses built only inside river valleys"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A nucleated settlement is one where houses and buildings are grouped closely together around a central feature like a market, well or shrine. This clustering happens because people want to be near a shared resource or facility.",
+"pidgin": "Nucleated settlement na where houses pack together near one common place like market, well or shrine. Na because people wan dey close to that important place make dem build like that.",
+"py": null,
+"values": null,
+"id": "wgeo1200",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a major factor that influences where the site of a new settlement is first chosen?",
+"options": [
+"Availability of water supply",
+"Population of the whole country",
+"Type of government in power",
+"Literacy rate of the people"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Early settlers always looked for places with a reliable source of water for drinking, cooking, washing and farming before building a settlement. Without water, a settlement cannot survive, so it is a key site factor.",
+"pidgin": "People wey dey find where to settle go first check if water dey near, because dem need am for drink, cook and farm. Without water, settlement no fit survive, so e dey important well well.",
+"py": null,
+"values": null,
+"id": "wgeo1201",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Onitsha grew into an important settlement partly because it developed at the point along the River Niger where traders and travellers cross by bridge, and where goods brought from different directions are exchanged before being sent out to other towns. Based on this description, which major function does Onitsha perform?",
+"options": [
+"Mining function",
+"Defence function",
+"Religious function",
+"Collecting and distributing (route/market) function"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A settlement located at a crossing point on a river, where goods are gathered and then sent out to other places, is performing a collecting-and-distributing or route-centre function. This is common for towns built at bridging points like Onitsha on the River Niger.",
+"pidgin": "When town dey grow for river crossing point, where traders dey bring goods come exchange am before dem send am go other towns, na collecting and distributing (route centre) function the town dey perform. Na so Onitsha take dey important for trade for Niger area.",
+"py": null,
+"values": null,
+"id": "wgeo1202",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following pairs correctly matches a settlement pattern with its correct description?",
+"options": [
+"Dispersed pattern - houses scattered far apart, often one family to a farm",
+"Linear pattern - houses built in a circular arrangement around a point",
+"Nucleated pattern - houses built in a single line along a valley",
+"Radial pattern - isolated homesteads scattered with no particular arrangement"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A dispersed settlement pattern is one where individual houses or homesteads are widely scattered, usually because each family lives on its own farmland rather than close to neighbours. The other options wrongly swap the descriptions with the wrong pattern names.",
+"pidgin": "Dispersed pattern na when houses scatter far from each other, mostly because each family dey live for dia own farmland. The other options mix up the correct description with the wrong pattern name.",
+"py": null,
+"values": null,
+"id": "wgeo1203",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A certain settlement was built on top of a hill, with swampy land surrounding it on all sides. What is the most likely reason the early settlers chose this site?",
+"options": [
+"Easy access to markets in nearby towns",
+"Defence against attack and protection from seasonal flooding",
+"Fertile soil for large-scale farming",
+"Nearness to a major seaport"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Hilltops surrounded by swamps are naturally difficult for enemies or wild animals to approach, and they stay dry during floods. Early communities often chose such sites mainly for safety and protection rather than for farming or trade convenience.",
+"pidgin": "Hill wey swamp surround dey hard for enemy or wild animal to enter, and e no dey flood easily. Old communities dey choose dat kind place mainly for safety, no be for farming or market reasons.",
+"py": null,
+"values": null,
+"id": "wgeo1204",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a region, a village has only one primary school and a weekly market; a town in the same region has a secondary school, a general hospital and a daily market; while the regional city has a university, specialist hospitals and several large markets. Which factor best explains why the city offers far more functions and services than the village?",
+"options": [
+"The city has a smaller population to serve than the village",
+"The city is located farther away from all major roads",
+"The city has fewer administrative buildings than the village",
+"The city has a larger population and a wider sphere of influence, requiring more services"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "In a settlement hierarchy, higher-order settlements like cities serve a much larger population and a wider surrounding area, so they need and can support more specialised services such as universities and specialist hospitals. Villages, with small populations and limited reach, only need basic low-order services.",
+"pidgin": "For settlement hierarchy, big settlement like city dey serve plenty people and wide area, so e need plenty special services like university and specialist hospital. Village small small, dem just need basic things like primary school and small market.",
+"py": null,
+"values": null,
+"id": "wgeo1205",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a cocoa-farming community, a geography class observed that houses are built very far apart from one another, with each family living directly on its own large cocoa farmland instead of gathering in a central village. Which settlement pattern best describes this arrangement, and why?",
+"options": [
+"Nucleated settlement, because of communal land ownership",
+"Linear settlement, because houses follow the road network",
+"Dispersed settlement, because of the nature of extensive farming",
+"Radial settlement, because houses surround a central market"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "When farming requires large pieces of land, families tend to live right on their farms rather than travelling daily from a central village, which spreads the houses far apart. This widely scattered arrangement, caused by the need for extensive land, is called a dispersed settlement pattern.",
+"pidgin": "Where farming need plenty land, families go just dey live for dia own farm instead of waka come and go from one central village. That kind wide scattered arrangement, wey land need cause am, na dispersed settlement pattern.",
+"py": null,
+"values": null,
+"id": "wgeo1206",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

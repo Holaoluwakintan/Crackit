@@ -1,0 +1,168 @@
+{
+"subject": "geography",
+"topic": "West Africa and ECOWAS",
+"ti": 17,
+"generated": 7,
+"kept": [
+{
+"q": "Where is the headquarters of ECOWAS located?",
+"options": [
+"Accra, Ghana",
+"Abuja, Nigeria",
+"Lome, Togo",
+"Dakar, Senegal"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The ECOWAS Secretariat (Commission) is headquartered in Abuja, the capital of Nigeria. Accra, Lome and Dakar are important West African cities but none hosts the ECOWAS headquarters.",
+"pidgin": "ECOWAS main office dey Abuja, Nigeria capital. Accra, Lome and Dakar na big towns but no be where ECOWAS dey.",
+"py": null,
+"values": null,
+"id": "wgeo1701",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which treaty led to the formation of ECOWAS?",
+"options": [
+"Treaty of Lagos",
+"Treaty of Rome",
+"Treaty of Versailles",
+"Treaty of Abuja"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Treaty of Lagos, signed in 1975 by West African heads of state, created ECOWAS. The Treaty of Rome formed the European Economic Community, Versailles ended World War I issues, and the Treaty of Abuja (1991) later established the African Economic Community, not ECOWAS.",
+"pidgin": "Na Treaty of Lagos bring ECOWAS come for 1975. Treaty of Rome na for Europe, Versailles na for World War, and Abuja Treaty na for African Economic Community wey come later.",
+"py": null,
+"values": null,
+"id": "wgeo1702",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following West African countries has no direct access to the sea (is landlocked)?",
+"options": [
+"Nigeria",
+"Ghana",
+"Niger",
+"Senegal"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Niger lies in the interior of West Africa and is surrounded by other countries with no coastline on the sea. Nigeria, Ghana and Senegal all border the Atlantic Ocean.",
+"pidgin": "Niger no get coastline, e dey inside land surrounded by other kontri. Nigeria, Ghana and Senegal all dey touch Atlantic Ocean.",
+"py": null,
+"values": null,
+"id": "wgeo1703",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "West Africa, as a region, is bounded in the south by the Atlantic Ocean and in the north by which major physical feature?",
+"options": [
+"Mediterranean Sea",
+"Sahara Desert",
+"Indian Ocean",
+"Red Sea"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "West Africa's northern boundary merges into the Sahara Desert, which separates it from North Africa, while the Atlantic Ocean forms its southern and western limits. The Mediterranean, Indian Ocean and Red Sea are nowhere near West Africa.",
+"pidgin": "West Africa dey meet Sahara Desert for north side, and Atlantic Ocean dey for south. Mediterranean, Indian Ocean and Red Sea no near West Africa at all.",
+"py": null,
+"values": null,
+"id": "wgeo1704",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The main objective behind the founding of ECOWAS was to:",
+"options": [
+"form a single political government for member states",
+"promote economic cooperation and integration to raise the standard of living of member states",
+"establish a joint military command to fight external enemies",
+"unite member states under one official religion"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "ECOWAS was primarily set up for economic integration, such as free movement of goods, services and people, to improve living standards across West Africa. It was not created for political union, military command alone, or religious unity, although it later added security protocols.",
+"pidgin": "ECOWAS purpose na to help economy join together, make goods, people and services move free, so people life go better. E no be for one political government, military command or religion.",
+"py": null,
+"values": null,
+"id": "wgeo1705",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A geography student travelling by road from the Guinea Coast of West Africa northward to the edge of the Sahara Desert will pass through vegetation belts in which correct order?",
+"options": [
+"Mangrove swamp, Rainforest, Guinea savanna, Sudan savanna, Sahel savanna",
+"Sahel savanna, Sudan savanna, Guinea savanna, Rainforest, Mangrove swamp",
+"Rainforest, Mangrove swamp, Sahel savanna, Sudan savanna, Guinea savanna",
+"Guinea savanna, Rainforest, Mangrove swamp, Sudan savanna, Sahel savanna"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Moving from the coast inland and northward, rainfall decreases steadily, so vegetation changes from mangrove swamp near the coast, through rainforest, then Guinea savanna, Sudan savanna, and finally Sahel savanna close to the Sahara. This order follows the decreasing rainfall gradient from south to north.",
+"pidgin": "As you dey waka comot coast go north, rain dey reduce small small, so vegetation go change from mangrove swamp, rainforest, Guinea savanna, Sudan savanna, reach Sahel savanna near Sahara. Na di rain amount dey arrange dis belts like dat.",
+"py": null,
+"values": null,
+"id": "wgeo1706",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In what year was the Economic Community of West African States (ECOWAS) formally established?",
+"options": [
+"1963",
+"1975",
+"1980",
+"1990"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "ECOWAS was founded in 1975 when the Treaty of Lagos was signed by West African leaders to promote economic cooperation in the region. 1963 marks the founding of the OAU, while 1980 and 1990 are unrelated dates.",
+"pidgin": "Dem form ECOWAS for 1975 wen dem sign di Treaty of Lagos. 1963 na wen OAU start, so e no be ECOWAS date.",
+"py": null,
+"values": null,
+"id": "wgeo1700",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "no-py"
+}
+},
+"why": "python:no-py"
+}
+]
+}

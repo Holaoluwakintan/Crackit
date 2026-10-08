@@ -1,0 +1,168 @@
+{
+"subject": "geography",
+"topic": "Landforms of wind, glaciation and coasts",
+"generated": 8,
+"kept": [
+{
+"q": "Which of these desert landforms is produced mainly by WIND DEPOSITION, forming a crescent-shaped mound of sand whose 'horns' point in the direction the wind is blowing?",
+"options": [
+"Barchan dune",
+"Zeugen",
+"Yardang",
+"Cirque"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A barchan is a crescent-shaped sand dune built up by wind deposition where sand supply is limited and wind direction is fairly constant. Zeugen and yardang are erosional features carved by wind, while a cirque is a glacial landform, not a wind feature.",
+"pidgin": "Barchan na sand hill wey wind dey deposit, e dey look like crescent moon, and e horns dey point to where wind dey blow go. Zeugen and yardang na erosion landform wey wind carve, cirque na glacier landform.",
+"py": null,
+"values": null,
+"id": "geov0900",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In a desert region, wind-blown sand wears away softer rock faster than harder rock where the rock bands lie VERTICALLY, roughly parallel to the direction of the prevailing wind. This leaves long, streamlined, ridge-like masses of rock aligned with the wind. What is this landform called?",
+"options": [
+"Mushroom rock",
+"Yardang",
+"Zeugen",
+"Barchan"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A yardang is a streamlined, ridge-shaped rock mass formed when wind erosion acts on rock bands that run parallel to the wind direction. Zeugen instead form from horizontally layered rock, and mushroom rocks result from stronger erosion near the base.",
+"pidgin": "Yardang na long rock ridge wey wind carve where the rock layers dey stand straight, dey follow the wind direction. Zeugen na from rock wey dey lie flat, mushroom rock na from strong erosion for the rock bottom.",
+"py": null,
+"values": null,
+"id": "geov0901",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "On a mountainside, ice collects in a hollow and through freeze-thaw weathering and plucking at the back wall, a deep, armchair-shaped basin is carved out, often with a rock lip at its open end that may later hold a small lake. What is this glacial landform called?",
+"options": [
+"Fjord",
+"Arete",
+"Cirque (corrie)",
+"Drumlin"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A cirque (also called a corrie) is a bowl-shaped hollow carved by glacial ice through plucking and freeze-thaw action, usually with a rock lip at the front. A fjord is a flooded glacial valley, an arete is a sharp ridge, and a drumlin is a depositional mound.",
+"pidgin": "Cirque na the bowl-shape hollow wey ice dey carve for mountain side through plucking and freeze-thaw. Fjord na glacier valley wey water don enter, arete na sharp ridge, drumlin na small hill wey ice deposit leave.",
+"py": null,
+"values": null,
+"id": "geov0902",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Along a coastline, longshore drift carries sand past a bend in the shore and deposits it in open water, building a narrow ridge of sand that is attached to the land at one end but has a free, often hooked, end projecting into the sea. What is this coastal landform called?",
+"options": [
+"Tombolo",
+"Bar",
+"Lagoon",
+"Spit"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A spit is a narrow ridge of sand or shingle attached to the coast at one end, built by longshore drift depositing material beyond a change in coastline direction. A bar joins two headlands fully across a bay, a tombolo joins the mainland to an island, and a lagoon is the water body often trapped behind such features.",
+"pidgin": "Spit na long sand ridge wey dey attach to land for one side, but the other side dey free, dey enter sea; longshore drift build am. Bar dey join two headland fully, tombolo dey join mainland to island, lagoon na water wey dey trap behind these features.",
+"py": null,
+"values": null,
+"id": "geov0903",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A long, narrow, very deep inlet of the sea, bordered by steep rocky cliffs, is formed when a glacier that had carved a deep U-shaped valley all the way to the coast melts away and the sea later rises to flood the lower part of that valley. What is this coastal landform called?",
+"options": [
+"Fjord",
+"Ria",
+"Estuary",
+"Delta"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A fjord forms when a glacially-carved U-shaped valley is flooded by the sea, giving steep sides and great depth. A ria is a flooded river valley (V-shaped, not glacial), an estuary is a tidal river mouth, and a delta is built from river sediment deposition.",
+"pidgin": "Fjord na when sea water enter the U-shape valley wey glacier don carve, e get steep side and e deep well well. Ria na flooded river valley (V-shape), estuary na river mouth wey tide dey enter, delta na where river deposit sediment.",
+"py": null,
+"values": null,
+"id": "geov0904",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "At a point along the Nigerian coastline, waves keep pushing sand toward a small offshore island until the sand ridge finally grows long enough to join the island permanently to the mainland. What is the resulting landform called?",
+"options": [
+"Spit",
+"Tombolo",
+"Bay bar",
+"Barrier beach"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A tombolo is a sand or shingle ridge formed by wave deposition that links an offshore island to the mainland. A spit has a free end not attached to another landmass, a bay bar seals off a whole bay, and a barrier beach lies parallel offshore without necessarily joining an island.",
+"pidgin": "Tombolo na sand ridge wey waves build wey join island to mainland well well. Spit get free end wey no join any island, bay bar dey close whole bay, barrier beach dey lie for offshore without joining island.",
+"py": null,
+"values": null,
+"id": "geov0905",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In a desert area, hard and soft rock occur in alternating bands lying HORIZONTALLY (parallel to the ground surface). Over time, wind-blown sand wears away the softer rock faster than the harder rock, leaving flat-topped blocks of hard rock standing on narrower pedestals of the remaining softer rock. What is this landform called?",
+"options": [
+"Yardang",
+"Barchan",
+"Zeugen",
+"Inselberg"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Zeugen form where horizontal layers of hard and soft rock are unevenly eroded by wind, leaving table-like hard rock blocks on thinner soft-rock bases. Yardangs instead come from vertically aligned rock bands parallel to wind direction, barchans are depositional dunes, and inselbergs are isolated hills left after extensive weathering, not specifically a wind-erosion feature.",
+"pidgin": "Zeugen dey form where hard and soft rock dey lie flat for ground, wind go wear the soft one pass the hard one, leave table-like hard rock for top thin soft-rock base. Yardang na from rock wey stand straight dey follow wind, barchan na deposited sand hill, inselberg na lone hill wey weathering leave.",
+"py": null,
+"values": null,
+"id": "geov0906",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "As a glacier advances down a valley and then stops advancing, it drops the rocky debris it has been carrying right at its farthest point reached, building a ridge that marks the maximum extent of the ice before it began to retreat. What is this depositional landform called?",
+"options": [
+"Lateral moraine",
+"Medial moraine",
+"Ground moraine",
+"Terminal moraine"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "A terminal moraine is the ridge of debris deposited at the farthest point reached by a glacier, marking its maximum advance. A lateral moraine forms along the valley sides, a medial moraine forms where two glaciers merge, and ground moraine is debris spread beneath the ice over the valley floor.",
+"pidgin": "Terminal moraine na the ridge of debris wey glacier drop for the farthest point e reach before e start to comot. Lateral moraine dey form for valley side, medial moraine dey form where two glacier join, ground moraine na debris wey spread for valley floor under the ice.",
+"py": null,
+"values": null,
+"id": "geov0907",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

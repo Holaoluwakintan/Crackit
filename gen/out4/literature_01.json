@@ -1,0 +1,209 @@
+{
+"subject": "literature",
+"topic": "Prose: narrative techniques and plot structure",
+"ti": 1,
+"generated": 10,
+"kept": [
+{
+"q": "In a prose narrative, what is the term for the opening part of the story where the writer introduces the setting, main characters, and necessary background information?",
+"options": [
+"Climax",
+"Exposition",
+"Resolution",
+"Rising action"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Exposition is the beginning part of a story that gives the setting, characters, and background needed to understand the plot. It comes before the rising action and climax.",
+"pidgin": "Exposition na the beginning part of story wey dey show the setting, characters and background wey go help person understand the story. E dey come before rising action and climax.",
+"id": "wlit0100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A novel written in the first-person point of view is best described as one that is narrated by:",
+"options": [
+"an all-knowing narrator who stands outside the story",
+"a character who refers to himself as 'I' and takes part in the action",
+"a narrator who only reports what one character thinks, without using 'I'",
+"a narrator who speaks directly to the reader as 'you' throughout"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "First-person narration means the story is told by a character inside the story who uses 'I' to describe events and his or her own experience. This is different from third-person narration where the narrator stays outside the action.",
+"pidgin": "First-person narration mean say na character wey dey inside the story dey tell am, e dey use 'I' to talk the events and wetin e experience. E different from third-person wey narrator dey outside the story.",
+"id": "wlit0101",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the passage: 'Chidi sat under the mango tree, staring blankly at his school certificate. Suddenly, his mind drifted back to the afternoon, ten years earlier, when his mother had sold her wrapper to pay his school fees.' Which narrative technique is used here?",
+"options": [
+"Foreshadowing",
+"Flashback",
+"Suspense",
+"Anticlimax"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The passage moves from the present (Chidi under the mango tree) back to an earlier event (ten years before). This movement backward in time to an earlier event is called a flashback.",
+"pidgin": "The passage move from present time (Chidi under mango tree) go back to wetin happen ten years before. That kain movement go back for time na wetin dem dey call flashback.",
+"id": "wlit0102",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the passage: 'As Ngozi packed her bag for the journey, she paused and shivered, feeling that something terrible awaited her at the end of the road, though she could not explain why.' This sentence is best described as an example of:",
+"options": [
+"Flashback",
+"Foreshadowing",
+"Dramatic irony",
+"Epiphany"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ngozi's uneasy feeling hints at trouble that has not yet happened, preparing the reader for future events. This hinting at what will happen later in the story is called foreshadowing.",
+"pidgin": "Ngozi her uneasy feeling dey hint say trouble dey come, even though e never happen. This kain hint about wetin go happen later na foreshadowing.",
+"id": "wlit0103",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In Freytag's pyramid of plot structure, the point of greatest tension or turning point in a story, after which events begin to move toward the end, is called the:",
+"options": [
+"Exposition",
+"Denouement",
+"Climax",
+"Falling action"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The climax is the highest point of tension or conflict in a story, the turning point after which the action begins to wind down toward the resolution.",
+"pidgin": "Climax na the highest point of tension or wahala for story, the turning point wey after am the story go begin move towards how e go end.",
+"id": "wlit0104",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A story that opens suddenly in the middle of an important action, with earlier events only explained later through narration or flashback, is said to begin:",
+"options": [
+"in medias res",
+"in chronological order",
+"with a frame narrative",
+"with an epilogue"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "'In medias res' is a Latin term meaning 'in the middle of things'. It describes a story that starts in the middle of the action rather than from the very beginning.",
+"pidgin": "'In medias res' na Latin term wey mean 'for the middle of thing'. E dey describe story wey start for the middle of action instead of from the very beginning.",
+"id": "wlit0105",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the passage: 'Rain... the market... Mama's voice calling... no, that was years ago... the bus is late... will Baba forgive me... the smell of roasted corn...' Which narrative technique best describes this passage?",
+"options": [
+"Dramatic monologue",
+"Stream of consciousness",
+"Epistolary narration",
+"Third-person omniscient narration"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The passage shows a character's thoughts jumping quickly between the present, memories, and random impressions without clear order. This free, unorganised flow of a character's thoughts is called stream of consciousness.",
+"pidgin": "The passage show how character thoughts dey jump quick-quick between present, memory, and random tins without order. This kain free flow of thought na stream of consciousness.",
+"id": "wlit0106",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following options correctly arranges the typical order of events in the traditional (Freytag) plot structure?",
+"options": [
+"Climax, exposition, rising action, falling action, resolution",
+"Exposition, rising action, climax, falling action, resolution",
+"Rising action, exposition, climax, resolution, falling action",
+"Resolution, rising action, exposition, climax, falling action"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The standard plot structure begins with exposition (introduction), moves through rising action (building conflict), reaches the climax (turning point), then falling action, and ends with resolution. Option B follows this correct order.",
+"pidgin": "Normal plot structure dey start with exposition (introduction), e go through rising action (wahala dey build), reach climax (turning point), then falling action, e go end with resolution. Option B follow this correct order.",
+"id": "wlit0107",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the passage: 'I swear I never touched the money. Everyone in the village lied about me, even though I had counted the naira notes twice before hiding them under my mattress that same morning.' Based on this passage, the narrator can best be described as:",
+"options": [
+"omniscient, because he knows everyone's thoughts",
+"unreliable, because his own words contradict his claim of innocence",
+"objective, because he reports only facts without feeling",
+"reliable, because he speaks in the first person"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The narrator claims innocence, yet he admits to counting and hiding the money himself, which contradicts his claim. When a narrator's own words cannot be fully trusted because of such contradictions, he is called an unreliable narrator.",
+"pidgin": "The narrator talk say im no touch the money, but e confess say na im count and hide the money, wey contradict wetin e talk. When narrator word no fit trust because of this kain contradiction, dem dey call am unreliable narrator.",
+"id": "wlit0108",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A novel told entirely through letters exchanged between characters — for example, one where two friends, Bisi and Tolu, write to each other about their lives in Lagos and Kano — is known as what type of narrative?",
+"options": [
+"Epistolary novel",
+"Picaresque novel",
+"Bildungsroman",
+"Frame narrative"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A novel told completely through letters, diary entries, or similar documents is called an epistolary novel. The example given, with Bisi and Tolu writing letters to each other, fits this definition exactly.",
+"pidgin": "Novel wey dem tell completely through letters, diary, or similar documents na epistolary novel. The example wey dem give, with Bisi and Tolu dey write letter to each other, match this definition well well.",
+"id": "wlit0109",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

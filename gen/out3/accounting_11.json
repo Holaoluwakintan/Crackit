@@ -1,0 +1,192 @@
+{
+"subject": "accounting",
+"topic": "Control accounts and self-balancing ledgers",
+"generated": 8,
+"kept": [
+{
+"q": "What is the main purpose of preparing a control account in a business's accounting system?",
+"options": [
+"To replace the need for keeping individual customers' or suppliers' accounts",
+"To check the arithmetical accuracy of a subsidiary ledger and help locate errors",
+"To calculate the net profit of the business for the year",
+"To record only cash transactions of the business"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A control account is a summary account that shows the total of all debtors or creditors. Its balance should agree with the total of individual balances in the subsidiary ledger, so it helps to check accuracy and trace errors.",
+"pidgin": "Control account na summary account wey show total of all debtors or creditors. Im balance suppose match the total wey dem get for the individual accounts, so e dey help to check mistake.",
+"py": null,
+"values": null,
+"id": "accv1100",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Chief Bello's Sales Ledger Control Account shows: opening debit balance ₦45,000; credit sales ₦120,000; cash received from debtors ₦95,000; discount allowed ₦5,000; returns inward ₦8,000; bad debts written off ₦2,000. What is the closing balance of the account?",
+"options": [
+"₦55,000",
+"₦57,000",
+"₦65,000",
+"₦60,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Closing balance = Opening balance + Credit sales - Cash received - Discount allowed - Returns inward - Bad debts = 45,000+120,000-95,000-5,000-8,000-2,000 = ₦55,000.",
+"pidgin": "Closing balance = Opening balance + Credit sales - Cash wey dem collect - Discount allowed - Returns inward - Bad debt = 45,000+120,000-95,000-5,000-8,000-2,000 = ₦55,000.",
+"py": "45000+120000-95000-5000-8000-2000",
+"values": [
+55000,
+57000,
+65000,
+60000
+],
+"id": "accv1101",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Nkem Traders' Purchases Ledger Control Account shows: opening credit balance ₦30,000; credit purchases ₦85,000; cash paid to creditors ₦60,000; discount received ₦3,000; returns outward ₦4,000. What is the closing balance of the account?",
+"options": [
+"₦52,000",
+"₦55,000",
+"₦48,000",
+"₦45,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Closing balance = Opening balance + Credit purchases - Cash paid - Discount received - Returns outward = 30,000+85,000-60,000-3,000-4,000 = ₦48,000.",
+"pidgin": "Closing balance = Opening balance + Credit purchases - Cash wey dem pay - Discount wey dem receive - Returns outward = 30,000+85,000-60,000-3,000-4,000 = ₦48,000.",
+"py": "30000+85000-60000-3000-4000",
+"values": [
+52000,
+55000,
+48000,
+45000
+],
+"id": "accv1102",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "In the Sales Ledger Control Account, which of the following items is correctly recorded on the credit side?",
+"options": [
+"Credit sales to customers",
+"Dishonoured cheques from debtors",
+"Opening balance of debtors brought forward",
+"Cash received from debtors"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Cash received from debtors reduces the amount owed, so it is a credit entry in the Sales Ledger Control Account. Credit sales, dishonoured cheques and opening debtor balances all increase debtors and are debit entries.",
+"pidgin": "Cash wey debtor pay dey reduce wetin e owe, so na credit entry for Sales Ledger Control Account. Credit sales, dishonoured cheques and opening balance dey increase debtors so na debit entries.",
+"py": null,
+"values": null,
+"id": "accv1103",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Oga Emeka's Sales Ledger Control Account shows: opening balance ₦60,000; credit sales ₦200,000; cash received from debtors ₦180,000; discount allowed ₦6,000; returns inward ₦10,000; closing balance ₦58,000. What amount of bad debts was written off during the period?",
+"options": [
+"₦6,000",
+"₦4,000",
+"₦8,000",
+"₦10,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Closing balance = Opening + Sales - Cash received - Discount - Returns - Bad debts. So 58,000 = 60,000+200,000-180,000-6,000-10,000-Bad debts, giving 58,000 = 64,000 - Bad debts, so Bad debts = ₦6,000.",
+"pidgin": "Closing balance = Opening + Sales - Cash - Discount - Returns - Bad debt. So 58,000 = 60,000+200,000-180,000-6,000-10,000-Bad debt, e go be 58,000 = 64,000 - Bad debt, so Bad debt na ₦6,000.",
+"py": "60000+200000-180000-6000-10000-58000",
+"values": [
+6000,
+4000,
+8000,
+10000
+],
+"id": "accv1104",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Which statement best describes a self-balancing ledger system?",
+"options": [
+"A system where only one ledger is maintained for the whole business",
+"A system where each ledger (e.g. sales, purchases, general) contains its own control account so that each ledger can be proved to balance independently of the others",
+"A system where control accounts are prepared only once, at the end of the business's life",
+"A system where subsidiary books such as the sales day book are no longer required"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In a self-balancing ledger system, each ledger has a control account that summarises the double entries affecting it, allowing each ledger to be balanced on its own without needing the other ledgers. This helps in locating errors quickly.",
+"pidgin": "For self-balancing ledger system, each ledger get im own control account wey summarize the entries wey affect am, so each ledger fit balance on im own without needing the other ledgers. Dis dey help to quick find mistake.",
+"py": null,
+"values": null,
+"id": "accv1105",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Mrs Chidinma Okafor owes a business ₦18,000 as recorded in the Sales Ledger, and the business also owes her ₦18,000 for goods she supplied, as recorded in the Purchases Ledger, since she is both a customer and a supplier. The two parties agree to set off ₦12,000 of this mutual debt through a contra entry. What amount will appear on the credit side of the Sales Ledger Control Account as the contra entry?",
+"options": [
+"₦18,000",
+"₦12,000",
+"₦6,000",
+"₦24,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A contra entry sets off a debtor balance against a creditor balance for the same person. The amount actually set off is ₦12,000, so this is the figure credited in the Sales Ledger Control Account (reducing debtors) and debited in the Purchases Ledger Control Account (reducing creditors).",
+"pidgin": "Contra entry na to set off debtor balance against creditor balance for the same person. The amount wey dem set off na ₦12,000, so na im dem go credit for Sales Ledger Control Account (e dey reduce debtors) and debit am for Purchases Ledger Control Account (e dey reduce creditors).",
+"py": "12000",
+"values": [
+18000,
+12000,
+6000,
+24000
+],
+"id": "accv1106",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "The balance carried down on the Sales Ledger Control Account should normally agree with which of the following?",
+"options": [
+"The total of the balances extracted from the individual debtors' accounts in the sales ledger",
+"The total of the balances in the purchases ledger",
+"The net profit figure shown in the statement of profit or loss",
+"The closing balance shown on the bank statement"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Sales Ledger Control Account is a summary of all individual debtors' accounts, so its closing balance must equal the total of the balances of individual debtors' accounts in the sales ledger. If they differ, there is an error somewhere.",
+"pidgin": "Sales Ledger Control Account na summary of all the individual debtors' accounts, so im closing balance suppose match the total of the individual debtors' balances for sales ledger. If dem no match, e mean say mistake dey somewhere.",
+"py": null,
+"values": null,
+"id": "accv1107",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

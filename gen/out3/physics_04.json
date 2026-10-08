@@ -1,0 +1,109 @@
+{
+"subject": "physics",
+"topic": "Newton's laws, momentum and impulse",
+"generated": 4,
+"kept": [
+{
+"q": "A boy named Chidi pushes against a classroom wall with a force of 50 N, but the wall does not move. Which statement correctly illustrates Newton's third law of motion in this situation?",
+"options": [
+"The wall pushes back on Chidi with a force of 50 N in the opposite direction",
+"The wall pushes back on Chidi with a smaller force of about 25 N",
+"The wall exerts no force on Chidi since it is fixed and cannot move",
+"The force Chidi applies is converted into heat energy by the wall"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Newton's third law states that for every action there is an equal and opposite reaction. Since Chidi pushes the wall with 50 N, the wall pushes back on him with an equal force of 50 N in the opposite direction, even though the wall does not move.",
+"pidgin": "Newton third law tell us say action equal reaction but for opposite direction. So if Chidi push wall with 50 N, wall go push am back with 50 N too, even though wall no move.",
+"py": null,
+"values": null,
+"id": "phyv0400",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A constant force of 20 N acts on a body of mass 4 kg which is initially at rest, for a time of 0.5 s on a smooth horizontal surface. Calculate the velocity attained by the body at the end of this time.",
+"options": [
+"2.5 m/s",
+"5.0 m/s",
+"10.0 m/s",
+"8.0 m/s"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Impulse = Force x time = 20 N x 0.5 s = 10 kg m/s. Since impulse equals change in momentum, 10 = mass x velocity = 4 x v, so v = 10/4 = 2.5 m/s.",
+"pidgin": "Impulse be say Force times time: 20 x 0.5 = 10 kg m/s. Since impulse na change in momentum, 10 = 4 x v, so v = 10/4 = 2.5 m/s.",
+"py": "(20*0.5)/4",
+"values": [
+2.5,
+5.0,
+10.0,
+8.0
+],
+"id": "phyv0401",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A car of mass 800 kg moving at 20 m/s is brought to rest by applying a constant braking force of 2000 N. Calculate the time taken for the car to come to a complete stop.",
+"options": [
+"8 s",
+"4 s",
+"10 s",
+"16 s"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "From Newton's second law, deceleration a = F/m = 2000/800 = 2.5 m/s^2. Using v = u - at with v = 0, u = 20 m/s: 0 = 20 - 2.5t, so t = 20/2.5 = 8 s.",
+"pidgin": "From Newton second law, deceleration a = F/m = 2000/800 = 2.5 m/s^2. Use v = u - at, where v be 0 and u be 20 m/s: 0 = 20 - 2.5t, so t = 20/2.5 = 8 s.",
+"py": "20/(2000/800)",
+"values": [
+8,
+4,
+10,
+16
+],
+"id": "phyv0403",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A fisherman of mass 60 kg is standing on a stationary canoe of mass 40 kg floating on calm water at Oguta Lake. He jumps off the canoe horizontally with a velocity of 3 m/s. Assuming no external resistance from the water, calculate the recoil velocity of the canoe immediately after he jumps.",
+"options": [
+"4.5 m/s",
+"3.0 m/s",
+"6.0 m/s",
+"2.0 m/s"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "By conservation of momentum, total momentum before jumping is zero since both are at rest. So momentum of fisherman equals momentum of canoe in the opposite direction: 60 x 3 = 40 x v, giving v = 180/40 = 4.5 m/s.",
+"pidgin": "Momentum conservation: before na zero momentum since both dey rest. So 60 x 3 = 40 x v, make v = 180/40 = 4.5 m/s, canoe go recoil for opposite side.",
+"py": "(60*3)/40",
+"values": [
+4.5,
+3.0,
+6.0,
+2.0
+],
+"id": "phyv0402",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+"why": "ambiguous:3 m/s reference frame unspecified; A assumes velocity relative to water.|"
+}
+]
+}

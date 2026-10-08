@@ -1,0 +1,153 @@
+{
+"subject": "civic",
+"topic": "Political apathy",
+"ti": 6,
+"generated": 7,
+"kept": [
+{
+"q": "In Civic Education, what is meant by \"political apathy\"?",
+"options": [
+"Active involvement of citizens in politics and elections",
+"A lack of interest or unwillingness of citizens to take part in political activities",
+"The formation of new political parties before an election",
+"Strict enforcement of electoral laws by INEC"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Political apathy means citizens show little or no interest in political matters such as voting, campaigns or joining parties. It is the opposite of active political participation.",
+"pidgin": "Political apathy na when people no get interest for politics, like voting or joining party. E dey opposite to when people dey actively take part for politics.",
+"id": "wciv0600",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a common cause of political apathy among young Nigerians today?",
+"options": [
+"High level of civic education in schools",
+"Disappointment caused by leaders who fail to fulfil campaign promises",
+"Regular conduct of free and fair elections",
+"Strong enforcement of the electoral laws"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "When politicians make promises during campaigns but fail to deliver after winning, citizens, especially youths, become discouraged and lose interest in future political activities. This disappointment is a major cause of apathy.",
+"pidgin": "When politicians promise plenty things during campaign but no do am after dem win, people go vex and lose interest for politics. Na so this kind disappointment dey cause apathy.",
+"id": "wciv0601",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is a major effect of widespread political apathy on a democratic nation?",
+"options": [
+"It strengthens the legitimacy of elected leaders",
+"It leads to the emergence of leaders who do not truly represent the wishes of the majority",
+"It increases the overall voter turnout during elections",
+"It automatically improves government accountability"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When many eligible citizens refuse to vote or participate, a small group decides who leads, so the winners may not truly reflect the wishes of the wider population. This weakens the representative nature of democracy.",
+"pidgin": "If plenty people no vote or no participate, na small group go decide who go rule, so the winner no really represent everybody wish. This dey weaken democracy.",
+"id": "wciv0603",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During election week, Mrs. Chioma, a trader in Onitsha, refuses to go out to vote because she is afraid of being attacked by thugs who usually cause violence at her polling unit. Which cause of political apathy does this situation best illustrate?",
+"options": [
+"Widespread illiteracy among voters",
+"Fear arising from insecurity and political violence",
+"Strong religious beliefs against voting",
+"Excessive civic education by the government"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Mrs. Chioma's refusal to vote is directly linked to fear of violence at the polling unit, which is a case of insecurity discouraging participation. This is different from illiteracy or religion, which are not mentioned in the scenario.",
+"pidgin": "Mrs. Chioma no vote because she fear say thugs go attack am for polling unit, na insecurity dey make her stay away. E no be say na illiteracy or religion cause am, na fear of violence.",
+"id": "wciv0604",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these measures would most effectively help reduce political apathy in a community?",
+"options": [
+"Increasing the cost of obtaining a voter's card",
+"Organising regular civic and voter enlightenment programmes",
+"Reducing press freedom during election periods",
+"Delaying the announcement of election results indefinitely"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Civic and voter enlightenment programmes educate citizens on the importance of participation, which builds interest and confidence in the political process. The other options would discourage participation rather than encourage it.",
+"pidgin": "When dem dey teach people civic education and voter awareness, e dey make people understand why dem suppose participate for politics. The other options go instead discourage people from participating.",
+"id": "wciv0605",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a certain Local Government Area, only 2 out of every 10 registered voters came out to vote during the council election, because most people said they no longer trusted any of the candidates. What does this situation best show about the effect of political apathy?",
+"options": [
+"It improves the quality of electoral administration",
+"It strengthens grassroots democracy at the local level",
+"It weakens the legitimacy of the officials who eventually get elected",
+"It guarantees that the best candidate will always win"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "When only a small fraction (2 out of 10, that is 20%) of voters turn out, the winning candidate is chosen by a very small minority, which reduces the moral authority and legitimacy of the elected official. This shows how apathy can damage democratic representation.",
+"pidgin": "If na only 2 out of 10 people (20%) come vote, e mean say small small people choose the winner, so the person wey win no really get strong legitimacy. Na so apathy dey spoil democratic representation.",
+"id": "wciv0606",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following actions is NOT an example of political apathy?",
+"options": [
+"Refusing to register as a voter during INEC registration exercise",
+"Staying away deliberately from political rallies",
+"Casting one's vote during a general election",
+"Refusing to join any political party"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Political apathy involves avoiding political activities, but voting is an act of participation, not apathy. The other three options show a withdrawal from political life.",
+"pidgin": "Political apathy na when person dey avoid politics, but to vote na participation, e no be apathy. The other three options show say person no wan involve for politics.",
+"id": "wciv0602",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Avoiding rallies or party membership need not indicate apathy.|"
+}
+]
+}

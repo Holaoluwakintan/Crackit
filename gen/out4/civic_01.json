@@ -1,0 +1,149 @@
+{
+"subject": "civic",
+"topic": "National consciousness, identity and unity",
+"ti": 1,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best describes 'national consciousness' as used in Civic Education?",
+"options": [
+"Loyalty to one's ethnic group above the nation",
+"Awareness and pride in belonging to one's country",
+"Knowledge of the local government by-laws",
+"Preference for one's state over others"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "National consciousness means being aware of, and proud of, belonging to one's country as a whole, not just to a smaller group. It makes citizens see themselves first as Nigerians.",
+"pidgin": "National consciousness na say you know and dey proud say you be citizen of your country, no be just your tribe or state. E make person see imself as Nigerian first.",
+"id": "wciv0100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The National Pledge, which Nigerian pupils recite in schools, is mainly meant to express the reciter's:",
+"options": [
+"Obedience to the school head teacher",
+"Respect for traditional rulers only",
+"Commitment to loyalty and service to Nigeria",
+"Support for a particular political party"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The National Pledge is a promise of loyalty, faithfulness and service to Nigeria as a united nation. It is not tied to any school authority, traditional ruler or political party.",
+"pidgin": "National Pledge na promise wey show say you go loyal, faithful and ready to serve Nigeria well well. E no be about school head teacher, king or any political party.",
+"id": "wciv0101",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these attitudes poses the greatest threat to national unity in a multi-ethnic country like Nigeria?",
+"options": [
+"Inter-ethnic marriage between citizens",
+"Celebration of national festivals by all groups",
+"Ethnic bigotry and tribalism in public appointments",
+"Use of a common official language in government offices"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Ethnic bigotry and tribalism create division because people are favoured or rejected based on tribe instead of merit. This weakens trust and cooperation among Nigerians from different groups.",
+"pidgin": "Ethnic bigotry and tribalism dey cause division because dem dey favour or reject people because of tribe instead of merit. Dis one dey spoil trust and cooperation among Nigerians.",
+"id": "wciv0102",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is correctly described as a symbol of Nigeria's national identity?",
+"options": [
+"The green-white-green national flag",
+"The coat of arms of Lagos State",
+"The badge of a private secondary school",
+"The logo of a local government council"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The green-white-green flag represents the whole of Nigeria and is recognised internationally as a national symbol. State and local symbols only represent smaller parts of the country.",
+"pidgin": "Di green-white-green flag na symbol wey represent di whole Nigeria, and di world sabi am well well. State or local government symbols na just for small part of di country.",
+"id": "wciv0103",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The federal character principle, as applied in Nigeria's public service appointments, is mainly designed to:",
+"options": [
+"Make sure every state gets equal share of oil revenue",
+"Ensure fair representation of the different states and ethnic groups in government positions",
+"Allow only the most populated states to control key offices",
+"Give preference to candidates from the ruling party"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Federal character is a constitutional principle that ensures no single ethnic group, state or section dominates public appointments, so that all parts of Nigeria feel included. It is about representation, not revenue sharing or party politics.",
+"pidgin": "Federal character na constitutional rule wey make sure say no single tribe, state or area dey control public appointment alone, so dat everybody for Nigeria go feel say dem dey part of am. E no be about sharing oil money or party politics.",
+"id": "wciv0104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During postings, some officials of the National Youth Service Corps (NYSC) decide to always post corps members to serve only in their own states of origin, instead of mixing them across different states. This practice would mainly defeat the scheme's original aim of:",
+"options": [
+"Reducing graduate unemployment",
+"Teaching corps members a new trade",
+"Promoting national integration among young Nigerians",
+"Supplying free labour to rural communities"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "NYSC was set up so graduates can live and work outside their home areas, mix with other cultures, and build friendships across Nigeria. Posting people only to their own states removes this cross-cultural exposure and weakens national integration.",
+"pidgin": "Dem start NYSC make graduates fit live and work outside dia own area so dem go mix wit other culture and make friend across Nigeria. If dem only post pesin go im own state, e go spoil dis cross-cultural mixing wey dey build national integration.",
+"id": "wciv0105",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A community leader in a Nigerian town encourages young people to marry across ethnic lines, insists that government offices attend to everyone in a common language, and ensures job opportunities are not based on tribe. These actions by the leader are best described as efforts to promote:",
+"options": [
+"Political party loyalty",
+"National integration",
+"State autonomy",
+"Local government reform"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Encouraging inter-ethnic marriage, a common language and tribe-free opportunities are all ways of bringing different groups together as one people, which is exactly what national integration means. None of the actions relate to party loyalty, state autonomy or local government structure.",
+"pidgin": "To support marriage across tribe, common language for office, and job wey no depend on tribe, na way to bring different people togeda as one, and dat na wetin national integration mean. Di actions no concern party loyalty, state autonomy or local government matter.",
+"id": "wciv0106",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

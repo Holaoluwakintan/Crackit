@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Evolution",
+"ti": 20,
+"generated": 6,
+"kept": [
+{
+"q": "In biology, which of the following best describes 'evolution'?",
+"options": [
+"Sudden change in an organism within one generation due to injury",
+"Gradual change in the inherited characteristics of organisms over many generations, which can lead to new species",
+"Seasonal change in the colour of an organism's skin",
+"Change in the diet of an organism as it grows older"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Evolution is the slow, continuous change in the inherited traits of a population over long periods, which can eventually lead to new species. It is not a change that happens within a single organism's lifetime.",
+"pidgin": "Evolution na as living things dey change small-small for inherited traits over plenty generations, until e fit bring new kind species. E no be sudden change wey one animal go experience for im own lifetime.",
+"id": "wbio2000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "According to Charles Darwin's theory of natural selection, which statement best explains why certain organisms survive and reproduce more successfully than others in a given environment?",
+"options": [
+"Organisms with inherited traits best suited to their environment survive and pass on these traits to their offspring",
+"All organisms in a population have equal chances of survival regardless of their traits",
+"Organisms acquire new traits during their lifetime and pass these directly to their offspring",
+"Organisms that reproduce the most always have the weakest traits"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Natural selection states that organisms with favourable inherited traits are better suited to survive and reproduce in their environment, passing these traits to the next generation. This is often summarised as 'survival of the fittest.'",
+"pidgin": "Darwin talk say na organisms wey get better inherited traits for their environment go survive well well and born pikin wey go carry dat trait. Dis one na im dem dey call 'survival of the fittest.'",
+"id": "wbio2001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A Lamarckian (pre-Darwin) explanation for the long neck of the modern giraffe would state that:",
+"options": [
+"Giraffes with naturally longer necks were better suited to escape predators and survived",
+"Giraffes stretched their necks to reach high leaves during their lifetime, and this acquired longer neck was passed directly to their offspring",
+"Random mutation produced long necks, which were then favoured by the environment",
+"Giraffes migrated to areas with taller trees, so their offspring were instantly born with longer necks"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Lamarck's theory of inheritance of acquired characteristics proposed that body changes gained during an organism's life, such as neck-stretching, could be passed on to offspring. Modern genetics has disproved this idea, unlike Darwin's natural selection.",
+"pidgin": "Lamarck theory talk say giraffe dey stretch dia neck throughout dia life to reach high leaves, and dat stretched neck dem go pass give their pikin direct. Science don show say dis idea no correct, unlike Darwin own.",
+"id": "wbio2002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Adeyemi, a biology teacher, showed his students the bone structure of a man's arm, a bat's wing, and a whale's flipper. Although these limbs look different and perform different functions, they all share the same basic arrangement of bones (humerus, radius, ulna, and digits). This similarity is best explained as evidence of:",
+"options": [
+"Convergent evolution, where unrelated organisms independently evolve similar structures for the same function",
+"Analogous structures that evolved separately for the same function in unrelated species",
+"Artificial selection carried out deliberately by early humans on these animals",
+"Common ancestry, where these organisms evolved from a shared ancestor and later adapted the same basic limb structure for different functions"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Structures with the same basic plan but different functions in different species are called homologous structures. They provide strong evidence of common ancestry, since the basic design was inherited from a shared ancestor and later modified for different uses.",
+"pidgin": "When different animals get the same bone arrangement but the limb dey do different work, we dey call am homologous structures. Dis one na strong evidence say dem get common ancestor wey dem inherit the basic design from, before e later change for different work.",
+"id": "wbio2003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Before industrialisation, the peppered moth population in parts of England was mostly light-coloured, blending well with lichen-covered tree trunks. After industrial pollution darkened the tree trunks with soot, the dark-coloured form of the moth became more common. What is the best explanation for this change?",
+"options": [
+"Pollution directly changed the moths' genes, turning light moths into dark moths within one generation",
+"Dark moths were better camouflaged against the sooty trunks, so they were less likely to be eaten by predators, survived and reproduced more, passing the dark trait to their offspring",
+"Light moths deliberately changed their colour to match the new environment to avoid predators",
+"Dark moths migrated into the area from other countries and completely replaced the light moths"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "This is a classic case of natural selection known as industrial melanism. Dark moths were camouflaged against soot-darkened tree trunks, so predators found them harder to spot, meaning more dark moths survived and reproduced, increasing their numbers in the population.",
+"pidgin": "Dis na clear example of natural selection wey dem dey call industrial melanism. Dark moths blend well with the dirty black trees, so bird no too see dem to chop. Na why dark moths survive more and born plenty pikin, so dia number increase well well.",
+"id": "wbio2004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In humans, the appendix is a small, finger-like structure attached to the large intestine. It has little or no digestive function in modern humans but is believed to have helped digest plant material in human ancestors. Structures like the appendix, which have lost most of their original function through evolution, are called:",
+"options": [
+"Vestigial structures",
+"Homologous structures",
+"Analogous structures",
+"Adaptive structures"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Vestigial structures are body parts that have become reduced and lost most or all of their original function during evolution, but are still present because they were useful in ancestral species. The appendix is a classic human example.",
+"pidgin": "Vestigial structures na body parts wey don reduce and lose their original work small-small as evolution dey happen, but dem still dey there because dem useful for our ancestors. Appendix na correct example for human being.",
+"id": "wbio2005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

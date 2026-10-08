@@ -1,0 +1,153 @@
+{
+"subject": "english",
+"topic": "Idioms and idiomatic expressions",
+"ti": 7,
+"generated": 7,
+"kept": [
+{
+"q": "Mrs. Okafor told her son, 'Stop BEATING ABOUT THE BUSH and tell me exactly what happened at school.' What does the idiom in capitals mean?",
+"options": [
+"Wasting time unnecessarily",
+"Avoiding talking about the main point directly",
+"Telling lies on purpose",
+"Refusing to listen to advice"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "'Beating about the bush' means avoiding the main subject instead of speaking directly about it. Mrs. Okafor wants her son to stop delaying and say the real matter.",
+"pidgin": "'Beating about the bush' mean say person no wan talk the real matter straight. Mrs. Okafor want make her son stop to dey delay and talk wetin really happen.",
+"id": "weng0700",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When Kemi heard that she had passed her WASSCE with distinctions, she said she was ON CLOUD NINE. What does the idiom in capitals mean?",
+"options": [
+"Very tired",
+"Deeply confused",
+"Extremely happy",
+"Extremely worried"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "'On cloud nine' is an idiom that means being extremely happy or overjoyed about something. Kemi felt this way because she passed with distinctions.",
+"pidgin": "'On cloud nine' mean say person happy well well, like say the person dey fly for sky. Kemi feel like that because she pass her WASSCE well.",
+"id": "weng0701",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Although Ada and Efe used to be close friends, they are now ______ because of a disagreement over their late father's land.",
+"options": [
+"at daggers drawn",
+"birds of a feather",
+"hand in glove",
+"two peas in a pod"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "'At daggers drawn' means to be in a state of open hostility or disagreement with someone. The other options all describe closeness or similarity, which does not fit the quarrel described.",
+"pidgin": "'At daggers drawn' mean say two people dey fight or no dey agree at all. The other options mean say people close well well, so dem no fit fit this story of quarrel.",
+"id": "weng0702",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During a board meeting at a Lagos firm, the chairman accidentally mentioned the secret plan to merge two companies before the official announcement was made. Which idiom best describes what the chairman did?",
+"options": [
+"He let the cat out of the bag",
+"He kicked the bucket",
+"He buried the hatchet",
+"He turned over a new leaf"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "'Let the cat out of the bag' means to reveal a secret, usually by accident. This fits the chairman revealing the merger plan before it was officially announced.",
+"pidgin": "'Let the cat out of the bag' mean say person don expose secret, sometimes na mistake. Na so the chairman talk the merger matter before dem announce am.",
+"id": "weng0704",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Three of the following idioms mean 'to work very hard', while one has a different meaning. Which one is the odd one out?",
+"options": [
+"Burn the midnight oil",
+"Work like a horse",
+"Sit on the fence",
+"Move heaven and earth"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "'Sit on the fence' means to remain neutral or undecided about an issue, not to work hard. The other three idioms all describe putting in great effort or working very hard.",
+"pidgin": "'Sit on the fence' mean say person no wan choose side, e no dey about hard work. The other three idioms dey talk about person wey dey work hard well well.",
+"id": "weng0705",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "After failing Woodwork badly in her mock examination, Ngozi decided to TURN OVER A NEW LEAF. What does the idiom in capitals mean?",
+"options": [
+"To give up completely on her studies",
+"To begin to behave or work in a better way",
+"To seek transfer to another school",
+"To repeat the examination immediately"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "'Turn over a new leaf' means to change one's behaviour for the better, often after a mistake or failure. Ngozi is choosing to improve after her poor result.",
+"pidgin": "'Turn over a new leaf' mean say person don decide to change for better, especially after mistake. Na so Ngozi wan improve after she fail her mock.",
+"id": "weng0706",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Chief Balogun is known in Ogbomoso for his reliability; once he makes a promise, he ______.",
+"options": [
+"lets the cat out of the bag",
+"throws in the towel",
+"beats about the bush",
+"keeps it to the letter"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "'Keep a promise to the letter' means to fulfil it exactly and completely. This matches Chief Balogun's reputation for being reliable and true to his word.",
+"pidgin": "'Keep am to the letter' mean say person go do the promise exactly as e talk am, no gree-gree. This one fit Chief Balogun wey be reliable person.",
+"id": "weng0703",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:|'keeps it to the letter' is not a standard idiom; 'keeps his word' or 'follows it to the letter' would be correct"
+}
+]
+}

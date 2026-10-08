@@ -1,0 +1,169 @@
+{
+"subject": "agric",
+"topic": "Animal nutrition",
+"ti": 11,
+"generated": 7,
+"kept": [
+{
+"q": "In farm animal nutrition, which class of food nutrient is the chief and cheapest source of energy supplied mainly through cereals like maize and guinea corn?",
+"options": [
+"Carbohydrate",
+"Protein",
+"Vitamin",
+"Mineral"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Carbohydrates, found in cereals like maize and guinea corn, are broken down to give energy for body activities. Proteins are mainly for growth and repair, while vitamins and minerals are needed in small amounts for regulation, not as the main energy source.",
+"pidgin": "Carbohydrate dem dey give animal energy well-well, especially from maize and guinea corn. Protein na for growth and body repair, while vitamin and mineral na small-small quantity wey dey regulate body work.",
+"py": null,
+"values": null,
+"id": "wagr1100",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following feedstuffs is classified as a roughage commonly given to cattle and goats in Nigeria?",
+"options": [
+"Maize grain",
+"Groundnut cake",
+"Guinea grass",
+"Fish meal"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Roughages are bulky feeds that are high in fibre and low in energy, such as guinea grass, elephant grass and hay. Maize, groundnut cake and fish meal are concentrates because they are low in fibre and high in energy or protein.",
+"pidgin": "Roughage na bulky feed wey get plenty fibre but small energy, like guinea grass or elephant grass. Maize, groundnut cake and fish meal na concentrate because dem get small fibre but plenty energy or protein.",
+"py": null,
+"values": null,
+"id": "wagr1101",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A poultry farmer wants to formulate a ration that is very rich in protein to boost growth of her broilers. Which of the following ingredients would best serve this purpose?",
+"options": [
+"Maize offal",
+"Soyabean meal",
+"Palm kernel oil",
+"Rice bran"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Soyabean meal contains about 40-45% crude protein, making it one of the richest plant protein sources used in poultry feed formulation. Maize offal, palm kernel oil and rice bran are mainly energy sources, not protein-rich ingredients.",
+"pidgin": "Soyabean meal get plenty protein, around 40-45%, so e dey very good for poultry feed wey need growth. Maize offal, palm kernel oil and rice bran na energy feed, dem no get plenty protein like soyabean meal.",
+"py": null,
+"values": null,
+"id": "wagr1102",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A young goat raised without enough sunlight and lacking vitamin D in its feed develops weak, bent bones. What condition is this?",
+"options": [
+"Rickets",
+"Night blindness",
+"Goitre",
+"Anaemia"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Vitamin D helps the body absorb calcium and phosphorus needed for strong bone formation. A deficiency in young growing animals causes rickets, which shows as soft, weak and bent bones.",
+"pidgin": "Vitamin D dey help body absorb calcium and phosphorus wey bone need to strong well. If young animal no get enough vitamin D, e go get rickets, wey make im bone soft and bend.",
+"py": null,
+"values": null,
+"id": "wagr1103",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Alhaji Musa wants to mix maize (which contains 9% crude protein) with fish meal (which contains 54% crude protein) to produce a poultry ration containing exactly 18% crude protein. If he uses 80 kg of maize, how many kilogrammes of fish meal must he add?",
+"options": [
+"10 kg",
+"15 kg",
+"20 kg",
+"25 kg"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Let x be the kg of fish meal needed. Setting up the protein balance: 80(0.09) + x(0.54) = 0.18(80 + x). Solving gives 7.2 + 0.54x = 14.4 + 0.18x, so 0.36x = 7.2, and x = 20 kg of fish meal.",
+"pidgin": "Make we call fish meal wey e go add x. We balance di protein: 80(0.09) + x(0.54) = 0.18(80 + x). If you solve am, 0.36x = 7.2, so x = 20 kg fish meal wey e go add.",
+"py": "(80*(0.18-0.09))/(0.54-0.18)",
+"values": [
+10,
+15,
+20,
+25
+],
+"id": "wagr1104",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following best describes a balanced ration for farm animals?",
+"options": [
+"A feed made up of only roughages given freely",
+"A feed given without any restriction on quantity",
+"A feed that supplies all required nutrients in the correct proportion for maintenance and production",
+"A feed made up of only concentrates like maize and soyabean"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A balanced ration contains the right amounts and proportions of carbohydrates, proteins, fats, vitamins and minerals needed for the animal's maintenance, growth, and production. It is not based on using only one feed type like roughage or concentrate alone.",
+"pidgin": "Balanced ration na feed wey get all di correct nutrient - carbohydrate, protein, fat, vitamin and mineral - for animal maintenance, growth and production. E no be only roughage or only concentrate wey dem go use.",
+"py": null,
+"values": null,
+"id": "wagr1105",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A ruminant such as a cow can digest fibrous roughages like dried guinea corn stalk better than a non-ruminant such as a pig. What is the main reason for this difference?",
+"options": [
+"Ruminants have a longer small intestine than pigs",
+"Ruminants have specialised stomach chambers containing microorganisms that break down cellulose",
+"Ruminants produce more saliva than pigs during feeding",
+"Ruminants chew food twice without any microbial action in the gut"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Ruminants have a compound stomach (rumen, reticulum, omasum and abomasum) that houses bacteria and protozoa capable of breaking down cellulose in fibrous feeds through fermentation. Pigs lack this microbial chamber, so they cannot efficiently digest high-fibre roughages.",
+"pidgin": "Ruminant get special stomach wey get four parts (rumen, reticulum, omasum, abomasum) wey get bacteria and protozoa wey dey break down cellulose through fermentation. Pig no get dis kain special stomach, na why e no fit digest fibre feed well like ruminant.",
+"py": null,
+"values": null,
+"id": "wagr1106",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

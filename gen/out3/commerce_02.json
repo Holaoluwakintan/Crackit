@@ -1,0 +1,174 @@
+{
+"subject": "commerce",
+"topic": "Home trade: retail and wholesale trade",
+"generated": 8,
+"kept": [
+{
+"q": "What does the term 'home trade' mean in Commerce?",
+"options": [
+"Buying and selling of goods within the boundaries of one country",
+"Buying and selling of goods between two or more countries",
+"Exchange of goods for goods without the use of money",
+"Trade carried out only by government agencies"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Home trade is trade that takes place within the borders of a single country, as opposed to foreign trade which involves more than one country. Example is a trader in Kano selling to a buyer in Lagos.",
+"pidgin": "Home trade na trade wey dey happen inside one kontri only. E different from foreign trade wey dey cross kontri border. E.g trader for Kano wey dey sell to buyer for Lagos.",
+"py": null,
+"values": null,
+"id": "comv0200",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Home trade is usually divided into two main branches. Which pair correctly names these branches?",
+"options": [
+"Import trade and export trade",
+"Retail trade and wholesale trade",
+"Visible trade and invisible trade",
+"Entrepot trade and bilateral trade"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Within a country, home trade is split into wholesale trade (buying and selling in large quantities) and retail trade (buying and selling in small quantities to final consumers).",
+"pidgin": "Home trade get two main parts: wholesale trade (dem dey buy and sell plenty-plenty) and retail trade (dem dey sell small-small to final consumer).",
+"py": null,
+"values": null,
+"id": "comv0201",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following best describes wholesale trade?",
+"options": [
+"Selling directly to final consumers in very small units",
+"Buying goods from retailers in order to resell them to producers",
+"Buying goods in bulk from producers and selling in smaller quantities to retailers",
+"Exchanging goods between two trading countries"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A wholesaler buys goods in large quantities directly (or almost directly) from producers at a lower price, then sells in smaller quantities to retailers, acting as a middleman between producer and retailer.",
+"pidgin": "Wholesaler dey buy plenty goods from producer cheap-cheap, then e go sell small-small quantity give retailer. E be like middle man between producer and retailer.",
+"py": null,
+"values": null,
+"id": "comv0202",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Mrs Adaeze, a retailer in Onitsha market, prefers to buy her stock from a wholesaler instead of directly from the manufacturer. One key service the wholesaler provides her is that he...",
+"options": [
+"Fixes the final retail price of all goods for her",
+"Manufactures special goods only for her shop",
+"Collects value added tax on her behalf for government",
+"Breaks bulk goods into smaller units that she can afford and store"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A major function of the wholesaler is breaking bulk, that is, dividing large quantities bought from producers into smaller units that small retailers like Mrs Adaeze can afford to buy and have space to store.",
+"pidgin": "Wholesaler dey break bulk, meaning e go divide the plenty goods wey e buy from producer into small-small units wey retailer fit buy and get space to keep.",
+"py": null,
+"values": null,
+"id": "comv0203",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A particular type of trader has no fixed shop. He moves from one village or street to another, carrying goods such as wristwatches and clothes to sell directly to customers wherever he finds them. This type of trader is called a/an...",
+"options": [
+"Chain store operator",
+"Itinerant trader",
+"Cooperative retailer",
+"Department store owner"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "An itinerant trader, also called a hawker or peddler, has no permanent business premises. He moves about from place to place selling his goods, which is common in many Nigerian towns and markets.",
+"pidgin": "Itinerant trader (hawker) no get fixed shop. E dey carry im goods waka from place to place to sell am wherever e see customer, common for many Nigerian towns.",
+"py": null,
+"values": null,
+"id": "comv0204",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which statement correctly describes the main function of a retailer in the chain of distribution?",
+"options": [
+"The retailer manufactures raw materials into finished goods",
+"The retailer buys goods only from foreign producers",
+"The retailer breaks bulk and sells goods in small quantities to final consumers",
+"The retailer controls the price fixed by government for all goods"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The retailer is the last link between the wholesaler (or producer) and the final consumer. His main job is to break bulk further and sell goods in small, convenient quantities, such as selling a single tin of milk instead of a full carton.",
+"pidgin": "Retailer na the last person before final consumer. Im main work na to break the goods wey e buy small-small so e fit sell am like one tin milk instead of full carton.",
+"py": null,
+"values": null,
+"id": "comv0205",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Chidi, a retailer, buys a carton of provisions from a wholesaler for ₦9,000. He divides the carton into 20 equal units to sell. If Chidi wants to make a total profit of ₦2,000 on the whole carton, at what price must he sell each unit?",
+"options": [
+"₦550",
+"₦450",
+"₦500",
+"₦600"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Total amount Chidi needs from selling all units = cost + profit = 9000 + 2000 = 11000. Dividing this by the 20 units gives 11000/20 = 550 naira per unit.",
+"pidgin": "The total money wey Chidi suppose collect = cost add profit = 9000 + 2000 = 11000 naira. If you divide 11000 by the 20 units, e go be 550 naira for each unit.",
+"py": "(9000+2000)/20",
+"values": [
+550,
+450,
+500,
+600
+],
+"id": "comv0206",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A wholesaler renders several useful services to the producer who supplies him goods. Which of the following is NOT one of such services?",
+"options": [
+"Giving the producer feedback and information about market demand",
+"Relieving the producer of the need to keep large stocks by buying in bulk",
+"Serving as a ready outlet for goods produced in large quantities",
+"Granting direct control over retail prices to the final consumers"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Wholesalers help producers by buying in bulk, storing goods, providing market feedback and acting as an outlet for mass production. However, giving final consumers direct control over retail prices is not a service a wholesaler renders to a producer; it is not even a real trade function.",
+"pidgin": "Wholesaler dey help producer by buying plenty goods, keeping stock, and giving market information. But to give final consumer power to control retail price no be wetin wholesaler dey do for producer; e no even dey happen for real trade.",
+"py": null,
+"values": null,
+"id": "comv0207",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

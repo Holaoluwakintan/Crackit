@@ -1,0 +1,68 @@
+{
+"subject": "economics",
+"topic": "Industrialisation, location of industries and business organisations",
+"generated": 3,
+"kept": [
+{
+"q": "Mama Ngozi's bakery buys flour, sugar and other light ingredients, but the baked bread that comes out is bulkier and heavier to transport in large quantities to many customers across town. Based on the theory of industrial location, where would such a bakery most likely be sited to reduce cost?",
+"options": [
+"Close to the market where the bread will be sold",
+"Close to the flour mill that supplies raw flour",
+"Close to the sugar plantation",
+"Close to the river that supplies water for baking"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Industries whose finished products are bulkier or heavier than their raw materials are called weight-gaining industries. They are usually sited near the market to reduce the cost of transporting the heavier finished goods. Bread baking is a good example of this.",
+"pidgin": "Industry wey dem dey call weight-gaining dey make product wey heavy pass di raw materials. Dem go rather build near market so dem no go waste money to carry heavy bread go far. Na why bakery dey near market pass raw material source.",
+"py": null,
+"values": null,
+"id": "ecov1500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "When a limited liability company is being registered in Nigeria, the document that spells out the internal rules of the company, including how directors are appointed, how meetings are conducted and the rights of shareholders, is known as the:",
+"options": [
+"Memorandum of Association",
+"Articles of Association",
+"Certificate of Incorporation",
+"Prospectus"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Memorandum of Association defines the company's relationship with the outside world, such as its name, objectives and capital. The Articles of Association, on the other hand, contain the internal rules guiding how the company is run, including directors' duties and shareholders' rights. This makes option B the correct answer.",
+"pidgin": "Memorandum of Association dey show how company relate with outside world, like im name and wetin e wan do. Articles of Association na di one wey get di inside rules like how directors go work and how shareholders go get their rights. So na Articles of Association be di answer.",
+"py": null,
+"values": null,
+"id": "ecov1501",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A soft-drink company uses large quantities of water (which is heavy and bulky) to produce its finished bottled drinks, which are even heavier and bulkier than the water and sugar used to make them. Applying the principle of weight-gaining and weight-losing industries to decide factory location, where should this company most likely site its bottling plant?",
+"options": [
+"Near the market where the drinks will be sold",
+"Near the source of sugar used in production",
+"Exactly halfway between the sugar source and the market",
+"Near the seaport where sugar is imported"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Because the finished bottled drinks are heavier and bulkier than the raw materials, this is a weight-gaining industry. Weight-gaining industries locate near the market to avoid the high cost of transporting the heavier finished product over long distances. Locating near raw materials or midway would increase transport cost for the bulkier final goods.",
+"pidgin": "Since di finished drinks dey heavier pass di raw materials wey dem use make am, na weight-gaining industry be dis. Weight-gaining industries dey site near market so dem no go spend plenty money to carry di heavy finished product go far. If dem build am near sugar source or for middle, e go cost more to transport di heavier product.",
+"py": null,
+"values": null,
+"id": "ecov1502",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

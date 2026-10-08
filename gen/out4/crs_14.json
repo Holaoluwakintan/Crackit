@@ -1,0 +1,169 @@
+{
+"subject": "crs",
+"topic": "Paul's conversion, journeys and letters",
+"ti": 14,
+"generated": 8,
+"kept": [
+{
+"q": "What was the name of Paul before his dramatic conversion to Christianity?",
+"options": [
+"Silas",
+"Saul",
+"Stephen",
+"Simon"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Before his conversion, Paul was known as Saul of Tarsus, a persecutor of the church. After he met Jesus, he became known as Paul. This is recorded in Acts 13:9.",
+"pidgin": "Before Paul convert, dem dey call am Saul of Tarsus, and he be person wey dey persecute church. After he meet Jesus, dem start to call am Paul. E dey for Acts 13:9.",
+"id": "wcrs1400",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "On which road did Paul encounter the risen Christ, an event that led to his conversion?",
+"options": [
+"Road to Jericho",
+"Road to Emmaus",
+"Road to Damascus",
+"Road to Joppa"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Saul was travelling to Damascus to arrest Christians when a bright light from heaven shone on him and Jesus spoke to him. This encounter is recorded in Acts 9:3-4.",
+"pidgin": "Saul dey waka go Damascus to arrest Christians when bright light from heaven shine for am and Jesus talk to am. Dis story dey for Acts 9:3-4.",
+"id": "wcrs1401",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Who was sent by God to visit Saul in Damascus, restore his sight, and baptize him?",
+"options": [
+"Barnabas",
+"Ananias",
+"Timothy",
+"Silas"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "God spoke to a disciple named Ananias in a vision and sent him to lay hands on Saul so he could receive his sight and be filled with the Holy Spirit. He then baptized Saul. This is in Acts 9:17-18.",
+"pidgin": "God talk to one disciple wey dem call Ananias for vision and send am go lay hand for Saul so he go see again and receive Holy Spirit. Na him baptize Saul. Dis one dey for Acts 9:17-18.",
+"id": "wcrs1402",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Who accompanied Paul on his first missionary journey as recorded in the book of Acts?",
+"options": [
+"Timothy and Titus",
+"Barnabas and John Mark",
+"Silas and Luke",
+"Priscilla and Aquila"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Holy Spirit set apart Barnabas and Saul (Paul) for missionary work, and John Mark joined them as their helper. This journey is described in Acts 13:2-5.",
+"pidgin": "Holy Spirit set Barnabas and Saul (Paul) apart for missionary work, and John Mark join dem as helper. Dis journey dey for Acts 13:2-5.",
+"id": "wcrs1403",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In which city were the followers of Christ first called 'Christians'?",
+"options": [
+"Jerusalem",
+"Antioch",
+"Corinth",
+"Ephesus"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "After Barnabas and Saul taught many people in the city, the disciples were first called Christians at Antioch. This fact is stated in Acts 11:26.",
+"pidgin": "After Barnabas and Saul teach plenty people for dat city, na for Antioch dem first call the disciples 'Christians'. Dis one dey for Acts 11:26.",
+"id": "wcrs1404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Paul's letter to the Philippians, often described as full of joy despite hardship, was written while he was:",
+"options": [
+"teaching in the school of Tyrannus",
+"shipwrecked on an island",
+"imprisoned in Rome",
+"staying in Corinth with Priscilla and Aquila"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Paul wrote to the Philippians while he was a prisoner, yet he encouraged them to rejoice always, showing his faith despite his chains. This background is reflected in Philippians 1:12-13.",
+"pidgin": "Paul write to Philippi church as prisoner, but he still tell dem make dem dey rejoice always, dis one show say he still get strong faith even for chain. Dis background dey for Philippians 1:12-13.",
+"id": "wcrs1405",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "On his way to Rome as a prisoner, Paul's ship was wrecked near which island, where he later healed the sick?",
+"options": [
+"Cyprus",
+"Crete",
+"Malta",
+"Sicily"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "During a storm, the ship carrying Paul to Rome wrecked, and all on board safely reached the island of Malta, where Paul healed many people, including the father of the chief official. This is recorded in Acts 28:1.",
+"pidgin": "During heavy storm, the ship wey dey carry Paul go Rome wreck, but everybody land well for Malta island, and Paul heal plenty people dia, including the chief official papa. Dis one dey for Acts 28:1.",
+"id": "wcrs1406",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Paul's letter to the Galatians was mainly written to correct believers who were being misled to think that:",
+"options": [
+"Christ had not truly risen from the dead",
+"gentile believers must be circumcised and keep the law of Moses to be saved",
+"the second coming of Christ had already taken place",
+"spiritual gifts were no longer needed in the church"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "False teachers had convinced some Galatian believers that they needed circumcision and obedience to the Mosaic law in addition to faith in Christ for salvation. Paul firmly corrected this error, teaching that salvation is by faith alone. This teaching is found in Galatians 2:16 and 5:1-4.",
+"pidgin": "Some false teachers don confuse some Galatia believers say dem need circumcision and must obey Moses law before dem fit save, no be only faith for Christ. Paul correct dis mistake, e teach say na only faith fit save person. Dis teaching dey for Galatians 2:16 and 5:1-4.",
+"id": "wcrs1407",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

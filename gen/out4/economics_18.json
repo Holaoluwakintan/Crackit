@@ -1,0 +1,199 @@
+{
+"subject": "economics",
+"topic": "Economic organisations (ECOWAS, AU, OPEC, IMF, World Bank)",
+"ti": 18,
+"generated": 7,
+"kept": [
+{
+"q": "In what year was the Economic Community of West African States (ECOWAS) established?",
+"options": [
+"1963",
+"1975",
+"1980",
+"1991"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "ECOWAS was formed in 1975 through the Treaty of Lagos, signed by West African countries to promote economic co-operation and integration in the sub-region.",
+"pidgin": "Na for 1975 dem form ECOWAS, through di Treaty of Lagos, make West African kontri dem fit work together for economy matter.",
+"py": "1975",
+"values": [
+1963,
+1975,
+1980,
+1991
+],
+"id": "weco1800",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "OPEC is an acronym that stands for which of the following?",
+"options": [
+"Organisation of Petroleum Exporting Countries",
+"Organisation for Promoting Export Co-operation",
+"Organisation of Palm-oil Exporting Countries",
+"Organisation of Pan-African Economic Co-operation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "OPEC means the Organisation of Petroleum Exporting Countries, a body formed by major oil-producing nations to coordinate and unify petroleum policies.",
+"pidgin": "OPEC na Organisation of Petroleum Exporting Countries, na di kontri wey dey produce crude oil come form am to arrange dia oil policy together.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "weco1801",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The headquarters of the Economic Community of West African States (ECOWAS) is located in which city?",
+"options": [
+"Accra, Ghana",
+"Lagos, Nigeria",
+"Abuja, Nigeria",
+"Addis Ababa, Ethiopia"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "ECOWAS has its secretariat headquarters in Abuja, Nigeria, after it moved from Lagos when Nigeria changed its capital city.",
+"pidgin": "ECOWAS headquarters dey Abuja, Nigeria, dem move am from Lagos come Abuja after Nigeria change im capital.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "weco1802",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A member country of the International Monetary Fund (IMF) is experiencing a severe shortage of foreign exchange needed to pay for essential imports. Which type of assistance would the IMF most likely provide to this country?",
+"options": [
+"A long-term loan to build new industries",
+"A short-term loan to correct the balance of payments problem",
+"A grant to fund free education for its citizens",
+"A permanent subsidy on all its exports"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The IMF's main role is to give short-term financial support to countries facing balance of payments difficulties, unlike the World Bank, which gives long-term development loans.",
+"pidgin": "IMF dey give short-term loan to kontri wey dey find am hard to balance dia foreign payment, e no be im work to build industry or give free school money, na World Bank dey do long-term loan.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "weco1803",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best describes the main function of the World Bank?",
+"options": [
+"It provides long-term loans for development projects such as roads, dams and schools",
+"It sets production quotas for crude oil among member states",
+"It settles political disputes between African countries",
+"It issues a common currency for its member countries"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The World Bank mainly gives long-term loans to developing countries to fund infrastructure and development projects like roads, power plants and schools.",
+"pidgin": "World Bank dey give long-term loan make kontri fit build road, dam, school and odas, e no be oil quota matter or political wahala be dia work.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "weco1804",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The African Union (AU) has its headquarters in which city?",
+"options": [
+"Abuja, Nigeria",
+"Addis Ababa, Ethiopia",
+"Accra, Ghana",
+"Cairo, Egypt"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The African Union, which replaced the Organisation of African Unity, has its headquarters in Addis Ababa, Ethiopia.",
+"pidgin": "African Union headquarters dey Addis Ababa, Ethiopia, na dis organisation replace di old OAU.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "weco1805",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the International Monetary Fund (IMF), a member country's voting power is determined mainly by the size of its financial quota contribution. If Nigeria contributes a larger quota to the IMF than another member country, what is the most likely outcome?",
+"options": [
+"Nigeria will have greater voting power than that country",
+"Both countries will automatically have equal voting rights",
+"The other country will have greater voting power than Nigeria",
+"Voting power has nothing to do with quota size"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In the IMF, voting power is linked directly to a country's quota contribution; the bigger the quota a country pays, the greater its voting strength in IMF decisions. Since Nigeria's quota is larger, it will enjoy greater voting power than the other country.",
+"pidgin": "For IMF, di money (quota) wey kontri put dey decide how much vote dem go get; bigger quota mean bigger vote. So if Nigeria quota pass di oda kontri own, Nigeria go get more vote pass dem.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "weco1806",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

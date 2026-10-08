@@ -1,0 +1,209 @@
+{
+"subject": "literature",
+"topic": "Poetry: forms (sonnet, ode, elegy, ballad, epic)",
+"ti": 5,
+"generated": 10,
+"kept": [
+{
+"q": "Which poetic form is traditionally made up of fourteen lines, usually written in iambic pentameter, and often deals with themes of love or deep personal feeling?",
+"options": [
+"Sonnet",
+"Ode",
+"Ballad",
+"Epic"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A sonnet is a fixed poetic form of exactly fourteen lines, commonly in iambic pentameter. Odes, ballads and epics do not have this fixed fourteen-line structure.",
+"pidgin": "Sonnet na poem wey get fourteen lines, wey dem dey write for iambic pentameter, e dey talk about love or deep feelings. Ode, ballad and epic no get dat kain fourteen-line fixed style.",
+"id": "wlit0500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which poetic form is traditionally written to mourn and pay tribute to someone who has died, often reflecting on loss and grief?",
+"options": [
+"Ode",
+"Elegy",
+"Ballad",
+"Epic"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An elegy is a poem of mourning, written to lament the dead and reflect on loss. Ode celebrates, ballad tells a story, and epic recounts heroic deeds.",
+"pidgin": "Elegy na poem wey dem dey write to mourn person wey don die, e dey show sorrow and loss. Ode na praise poem, ballad na story poem, epic na hero poem.",
+"id": "wlit0501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which poetic form is a long narrative poem that celebrates the heroic deeds of a legendary or historical figure, often involving gods, long journeys and great battles?",
+"options": [
+"Sonnet",
+"Elegy",
+"Epic",
+"Ode"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "An epic is a long narrative poem about heroic deeds, often featuring gods and grand adventures, such as journeys and wars. Sonnets, elegies and odes are usually much shorter and do not focus on long heroic narratives.",
+"pidgin": "Epic na long story poem wey dey talk about hero wey do big things, sometimes with gods and big war or journey. Sonnet, elegy and ode dey short and no be about long hero story.",
+"id": "wlit0502",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best describes a ballad?",
+"options": [
+"A poem of fourteen lines with a strict, fixed rhyme scheme",
+"A poem written in elevated language to praise a person, object or idea",
+"A long poem recounting the heroic adventures of a legendary hero",
+"A short narrative poem, often meant to be sung, with simple rhyme and sometimes a repeated refrain"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A ballad is a short, song-like narrative poem with simple language, rhyme and often a refrain that repeats. The other options describe a sonnet, an ode and an epic respectively.",
+"pidgin": "Ballad na short story poem wey dem fit sing, e get simple rhyme and sometimes repeated line (refrain). The other options na for sonnet, ode and epic.",
+"id": "wlit0503",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which statement best captures the main feature of an ode as a poetic form?",
+"options": [
+"It has a dignified, elevated tone that praises or celebrates a person, object or idea",
+"It has a solemn tone that mourns someone who has died",
+"It must have a fixed structure of exactly fourteen lines",
+"It tells a story in simple language, often with dialogue and a refrain"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "An ode is known for its dignified and elevated tone used to praise or celebrate someone or something, like a river, a hero, or an idea. The other options describe an elegy, a sonnet and a ballad.",
+"pidgin": "Ode na poem wey get big, respectful tone wey dey praise person or thing. Di other options na for elegy, sonnet and ballad.",
+"id": "wlit0504",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the extract below and answer the question that follows:\n\n\"The moon rose over Kaduna town,\nA soldier marched with gun held tight,\nHis mother wept and called him down,\nBut he was gone into the night.\"\n\nWhich poetic form does this extract best represent?",
+"options": [
+"Epic",
+"Sonnet",
+"Ode",
+"Ballad"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The extract tells a short story in simple quatrain form with alternating rhyme (town/down, tight/night), which is typical of a ballad. It is too short to be an epic and does not have the praise tone of an ode or the fourteen-line structure of a sonnet.",
+"pidgin": "Di extract dey tell short story for simple four-line stanza wey rhyme dey alternate (town/down, tight/night), na so ballad be. E too short to be epic, e no get praise tone like ode, e no also get fourteen lines like sonnet.",
+"id": "wlit0505",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A particular type of sonnet follows the rhyme scheme ABAB CDCD EFEF GG, made up of three quatrains followed by a rhyming couplet that usually delivers a twist, summary, or conclusion. This type of sonnet is known as the...",
+"options": [
+"Shakespearean (English) sonnet",
+"Petrarchan sonnet",
+"Spenserian sonnet",
+"Miltonic sonnet"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The Shakespearean (English) sonnet has three quatrains and a final rhyming couplet, following the pattern ABAB CDCD EFEF GG. The Petrarchan sonnet instead divides into an octave and a sestet, usually without a closing couplet of this kind.",
+"pidgin": "Shakespearean sonnet get three quatrains plus one rhyming couplet for di end, di pattern be ABAB CDCD EFEF GG. Petrarchan sonnet dey different, e get octave and sestet, e no close with dat kain couplet.",
+"id": "wlit0506",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the extract below and answer the question that follows:\n\n\"O mighty river, giver of life and yam,\nFlow on forever, blessed be your name,\nYour waters feed our farms from dawn to dusk,\nWe sing your praise, O river, without husk.\"\n\nThis extract is best classified as an example of which poetic form?",
+"options": [
+"Elegy",
+"Ode",
+"Ballad",
+"Epic"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The extract directly addresses the river in an elevated, celebratory tone, praising it for its life-giving power, which is the key feature of an ode. It is not mourning a death (elegy), telling a simple story (ballad), or recounting heroic deeds (epic).",
+"pidgin": "Di extract dey talk directly to di river for big, praise-praise tone, e dey celebrate di river because e dey give life, na so ode be. E no be about death (elegy), e no be simple story (ballad), e no also be about hero wahala (epic).",
+"id": "wlit0507",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following features is commonly found at the opening of a traditional epic poem?",
+"options": [
+"A refrain that is repeated after every stanza",
+"A rhyming couplet that summarises the poem's moral lesson",
+"An invocation in which the poet calls on a muse or divine power for inspiration",
+"A dialogue between two mourners expressing grief"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Traditional epics often open with an invocation, where the poet asks a muse or divine power for inspiration to tell the heroic story. Refrains are typical of ballads, rhyming couplets of sonnets, and mourning dialogue of elegies.",
+"pidgin": "Traditional epic dey normally start with invocation, where di poet dey call muse or divine power make e helep am tell di hero story. Refrain na for ballad, rhyming couplet na for sonnet, and mourning dialogue na for elegy.",
+"id": "wlit0508",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following correctly matches a poetic form with its typical subject matter or purpose?",
+"options": [
+"Elegy - celebration of a wedding ceremony",
+"Ode - lament for someone who has died",
+"Sonnet - a long heroic narrative involving gods",
+"Ballad - a story told in simple song-like verse"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "A ballad is a story told in simple, song-like verse, which correctly matches its purpose. Elegy is for mourning (not weddings), ode is for praise (not lament), and sonnet is short, not a long heroic narrative like an epic.",
+"pidgin": "Ballad na story wey dem dey tell for simple song-like verse, so e match well well. Elegy na for mourning (no be wedding), ode na for praise (no be lament), and sonnet dey short, e no be long hero story like epic.",
+"id": "wlit0509",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

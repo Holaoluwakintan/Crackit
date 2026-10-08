@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "Creation and the sovereignty of God (Genesis 1-2)",
+"generated": 8,
+"kept": [
+{
+"q": "According to Genesis chapter one, on which day of creation did God make light and separate it from darkness?",
+"options": [
+"First day",
+"Second day",
+"Fourth day",
+"Sixth day"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "On the first day, God said 'Let there be light' and separated light from darkness, calling them day and night. This is recorded in Genesis 1:3-5.",
+"pidgin": "For first day, God talk say make light dey, e separate am from darkness, e call dem day and night. Dis one dey for Genesis 1:3-5.",
+"id": "crsv0000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the creation account of Genesis chapter one, what name did God give to the dry land that appeared when the waters were gathered together?",
+"options": [
+"Garden",
+"Heaven",
+"Earth",
+"Eden"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "God called the dry land 'Earth' and the gathered waters 'Seas', as recorded in Genesis 1:9-10. This happened on the third day of creation.",
+"pidgin": "God call the dry ground 'Earth' and the water wey gather together 'Seas', dis dey for Genesis 1:9-10. Na for third day dis one happen.",
+"id": "crsv0001",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "According to Genesis chapter two, what material did God use to form the first man, Adam?",
+"options": [
+"Rib bone",
+"Dust of the ground",
+"Water from a river",
+"Clay from a potter's wheel"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Genesis 2:7 says the Lord God formed man from the dust of the ground and breathed into his nostrils the breath of life, and man became a living being.",
+"pidgin": "Genesis 2:7 talk say God form man from dust wey dey ground, e blow breath enter im nose, man become living being.",
+"id": "crsv0002",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In Genesis chapter two, why did God decide to make a woman as a companion for Adam?",
+"options": [
+"Because Adam asked for a helper",
+"Because it was not good for man to be alone",
+"Because the animals rejected Adam",
+"Because Adam was unable to name the animals alone"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "God said, 'It is not good that man should be alone; I will make him a helper comparable to him.' This is found in Genesis 2:18, leading to the creation of Eve.",
+"pidgin": "God talk say 'e no good make man dey alone; I go make helper wey fit am.' Dis one dey for Genesis 2:18, na im lead to how Eve come dey.",
+"id": "crsv0003",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "According to Genesis chapter two, what responsibility did God give Adam regarding the living creatures in the Garden of Eden?",
+"options": [
+"To sacrifice them to God",
+"To give them names",
+"To build shelters for them",
+"To teach them to multiply"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "God brought every beast and bird to Adam to see what he would call them, and whatever Adam called each creature became its name. This is recorded in Genesis 2:19-20.",
+"pidgin": "God bring every animal and bird come to Adam make e see wetin e go call dem, and the name wey Adam call am na im remain. Dis dey for Genesis 2:19-20.",
+"id": "crsv0004",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Reading the creation narrative in Genesis chapter one carefully, which of these shows that God created mainly by the power of His spoken word, demonstrating His sovereignty?",
+"options": [
+"God said, 'Let there be...' and it was so",
+"God consulted with the angels before each creation",
+"God used materials that already existed in heaven",
+"God rested before starting each new work"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Throughout Genesis chapter one, the phrase 'And God said... and it was so' repeats for each act of creation, showing that His word alone had the power to bring things into existence, proving His sovereign authority over all creation.",
+"pidgin": "For Genesis chapter one, di phrase 'God talk... e happen so' dey repeat for every creation, e show say na im word get power to bring tin come dey, dis show say God get full control (sovereignty) ova everytin.",
+"id": "crsv0005",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Based on the correct order of events in Genesis chapter one, which of the following was created before the sun, moon, and stars were made?",
+"options": [
+"Fish of the sea",
+"Cattle and beasts of the earth",
+"Light",
+"Mankind"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Light was created on the first day (Genesis 1:3-5), while the sun, moon, and stars were created later on the fourth day (Genesis 1:14-19). This shows light existed before these heavenly bodies were formed.",
+"pidgin": "Light na im God create for first day (Genesis 1:3-5), but sun, moon and stars na for fourth day dem come (Genesis 1:14-19). So light dey before dis heavenly bodies.",
+"id": "crsv0006",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "According to Genesis chapter two, the river that flowed out of Eden divided into four headwaters. Which of these rivers was described as flowing round the whole land of Havilah, a place known for gold?",
+"options": [
+"Gihon",
+"Tigris",
+"Euphrates",
+"Pishon"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Genesis 2:11 specifically names the Pishon as the river that surrounded the whole land of Havilah, where there was gold. The other three rivers mentioned, Gihon, Tigris and Euphrates, are described differently in the passage.",
+"pidgin": "Genesis 2:11 talk say na Pishon river dey waka round di whole land of Havilah, where gold dey. Di oda rivers wey dem mention, Gihon, Tigris and Euphrates, get different description for di passage.",
+"id": "crsv0007",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

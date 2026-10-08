@@ -1,0 +1,163 @@
+{
+"subject": "geography",
+"topic": "Environmental resources, hazards and conservation",
+"ti": 8,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following natural resources is classified as renewable?",
+"options": [
+"Crude oil",
+"Natural gas",
+"Sunlight",
+"Coal"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Renewable resources can be replaced naturally within a short time or are not used up, like sunlight, wind and water. Crude oil, natural gas and coal are fossil fuels that take millions of years to form, so they are non-renewable.",
+"pidgin": "Renewable resource na di one wey fit replace quick or no dey finish, like sunlight, wind and water. Crude oil, gas and coal na fossil fuel wey take plenty millions of years to form, so dem no dey renewable.",
+"py": null,
+"values": null,
+"id": "wgeo0800",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the Sahel region of West Africa, which human activity contributes most to the spread of desertification?",
+"options": [
+"Afforestation programmes",
+"Overgrazing by livestock",
+"Terracing of farmland",
+"Crop rotation"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Overgrazing removes the grass cover that protects the soil, leaving it bare and exposed to wind erosion, which speeds up desert encroachment. Afforestation, terracing and crop rotation are conservation practices that actually reduce desertification.",
+"pidgin": "Overgrazing dey remove di grass wey dey cover and protect di soil, so di soil go bare and wind go easily blow am comot, dis one dey speed up desert spreading. Afforestation, terracing and crop rotation na good conservation methods wey dey reduce desertification.",
+"py": null,
+"values": null,
+"id": "wgeo0801",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which farming method is most effective for controlling soil erosion on a steep hillside farm in a hilly part of Nigeria such as the Jos Plateau?",
+"options": [
+"Planting crops in straight rows running up and down the slope",
+"Constructing terraces across the slope",
+"Removing all vegetation before planting",
+"Burning the bush before cultivation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Terracing breaks a steep slope into flat steps, which slows down the speed of surface run-off and reduces soil erosion. Planting up-and-down the slope, clearing vegetation and bush burning all leave the soil loose and expose it to faster run-off and erosion.",
+"pidgin": "Terracing dey turn steep slope to flat steps, e dey slow down how water dey run so e no go wash away di soil quick. If you plant up-and-down di slope, clear di bush or burn am, di soil go loose and run-off go wash am away fast.",
+"py": null,
+"values": null,
+"id": "wgeo0802",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is an example of a man-made (human-induced) environmental hazard?",
+"options": [
+"Earthquake",
+"Oil spillage from a damaged pipeline",
+"Volcanic eruption",
+"Tsunami"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Oil spillage happens because of human activities such as poor pipeline maintenance or vandalism, so it is man-made. Earthquakes, volcanic eruptions and tsunamis are natural hazards caused by processes inside the earth, not by human action.",
+"pidgin": "Oil spillage dey happen because of human activity like bad pipeline maintenance or vandalism, so na man-made hazard. Earthquake, volcanic eruption and tsunami na natural hazard wey dey come from inside di earth, no be human cause am.",
+"py": null,
+"values": null,
+"id": "wgeo0803",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "One major long-term effect of large-scale deforestation on the climate of an area is that it leads to",
+"options": [
+"an increase in soil fertility",
+"a reduction in local rainfall",
+"an increase in wildlife population",
+"an improvement in underground water quality"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Trees release moisture into the air through transpiration, which helps in cloud formation and rainfall. When forests are cleared on a large scale, less moisture enters the atmosphere, so the area tends to receive less rainfall over time.",
+"pidgin": "Trees dey release water vapour go air through transpiration, and dis one dey help cloud form and bring rain. If dem clear plenty forest, less water vapour go dey enter air, so di place rainfall go reduce small small.",
+"py": null,
+"values": null,
+"id": "wgeo0804",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farming community in a dry part of northern Nigeria has noticed over 20 years that crop yields are falling, the water table is dropping, and sand dunes are creeping closer to their farmland. Which conservation measure would best address this problem?",
+"options": [
+"Constructing shelterbelts and planting drought-resistant trees around the farmland",
+"Allowing more cattle to graze freely on the remaining grassland",
+"Clearing more bush to expand land for mechanised farming",
+"Draining nearby wetlands to create more irrigation channels"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Shelterbelts (rows of trees) break the force of the wind, reduce soil moisture loss, and stop sand dunes from advancing onto farmland, while drought-resistant trees help restore vegetation cover. The other options would worsen the problem by removing more vegetation or increasing pressure on the land and water.",
+"pidgin": "Shelterbelt (tree rows) dey break wind force, reduce how moisture dey comot from soil, and e dey stop sand dunes from reaching di farmland, and drought-resistant trees go help bring back vegetation. Di other options go make di matter worse because dem go remove more plants or put more pressure for land and water.",
+"py": null,
+"values": null,
+"id": "wgeo0805",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Severe gully erosion is a common environmental hazard in parts of southeastern Nigeria (such as Anambra and Imo States) but less common in the drier parts of northern Nigeria. Which reason best explains this difference?",
+"options": [
+"The north receives higher annual rainfall than the south",
+"The south has loose, sandy soils combined with high rainfall intensity",
+"The north has steeper slopes than the south",
+"The south has more rocky terrain that resists erosion"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Southeastern Nigeria has loose, poorly compacted sandy/lateritic soils, and it also receives heavy, intense rainfall; the combination of weak soil structure and strong run-off cuts deep gullies. The north, by contrast, has lower rainfall and often more compact or rocky soils, so gully erosion is less severe there.",
+"pidgin": "Southeast Nigeria get loose sandy or lateritic soil wey no tight well, plus heavy strong rain, so di soil dey easily wash comot make deep gully. North get less rain and di soil dey more hard or rocky, so gully erosion no too plenty for dia side.",
+"py": null,
+"values": null,
+"id": "wgeo0806",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

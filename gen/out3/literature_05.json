@@ -1,0 +1,134 @@
+{
+"subject": "literature",
+"topic": "Prose fiction: plot, setting, characterisation, point of view, narrative techniques",
+"generated": 7,
+"kept": [
+{
+"q": "In prose fiction, what is 'plot' best defined as?",
+"options": [
+"The sequence of related events arranged by the writer to show conflict and resolution",
+"The physical location and historical period in which a story occurs",
+"The complete list of characters appearing in a narrative",
+"A summary of the author's personal life experiences"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Plot is the arrangement of events in a story, usually built around conflict leading to a climax and resolution. It is different from setting, characters, or the author's biography.",
+"pidgin": "Plot na how di story events dey arrange, wey dey show wahala and how e resolve. E no be di same thing as setting, character list, or author life story.",
+"id": "litv0500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A story is narrated entirely using 'I', and the narrator is a character who takes part in the events being described. Which point of view is this?",
+"options": [
+"Third-person omniscient point of view",
+"Third-person limited point of view",
+"First-person point of view",
+"Second-person point of view"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "When the narrator uses 'I' and is directly involved in the story's action, this is first-person point of view. Third-person narrators use 'he/she/they', while second-person uses 'you'.",
+"pidgin": "When narrator dey use 'I' and e dey inside di story as character, na first-person point of view. Third-person dey use 'he/she/they', second-person dey use 'you'.",
+"id": "litv0501",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In the study of prose fiction, the term 'setting' refers to which of the following?",
+"options": [
+"The order in which events are narrated to the reader",
+"The time, place, and social environment within which the story's action occurs",
+"The central message or lesson the writer wants readers to learn",
+"The list of conflicts experienced by the protagonist"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Setting covers when and where a story happens, including the social conditions surrounding the characters. It is not the same as plot order, theme, or conflict.",
+"pidgin": "Setting na di time, place, and social condition wey di story happun. E no be di order of events, theme, or conflict.",
+"id": "litv0502",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read this sentence: 'Before Ngozi left for her exam, she paused at the door, feeling a strange chill, as though something unpleasant awaited her return.' Which narrative technique does this sentence best illustrate?",
+"options": [
+"Flashback",
+"Foreshadowing",
+"Stream of consciousness",
+"Dramatic irony"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The sentence hints at trouble to come later in the story, which is foreshadowing. It is not a flashback because it does not describe a past event, and it is not a free flow of thoughts (stream of consciousness).",
+"pidgin": "Dis sentence dey hint say wahala dey come later, na foreshadowing be dat. E no be flashback because e no dey talk about past event, and e no be stream of consciousness wey be free thought flow.",
+"id": "litv0503",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A narrator whose account of the story's events cannot be fully trusted by readers, often because of bias, limited knowledge, or personal instability, is best described as a(n)?",
+"options": [
+"Unreliable narrator",
+"Omniscient narrator",
+"Objective narrator",
+"Reliable narrator"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "An unreliable narrator gives a biased or questionable account of events, making readers doubt the truth of the story. This is different from an omniscient or objective narrator, who are usually trusted sources of information.",
+"pidgin": "Unreliable narrator na im be di one wey im gist no dey correct well-well, because of bias or wetin im no sabi. E different from omniscient or objective narrator wey dey give better correct gist.",
+"id": "litv0504",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Read this extract: 'Chidi remembered, as if it were yesterday, the day his father had sold the family's only goat to pay his school fees. The market woman's voice still echoed in his mind: \"This goat go bring better future for your pikin.\"' Which narrative technique is mainly used in this extract?",
+"options": [
+"Foreshadowing",
+"Flashback",
+"Suspense",
+"Dramatic monologue"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The extract interrupts the present story to recall an earlier event in Chidi's past, which is a flashback. It is not foreshadowing because it looks backward, not forward, and it is not suspense or a dramatic monologue.",
+"pidgin": "Di extract dey pause di present story to show one event wey don happun before, na flashback. E no be foreshadowing because e dey look back, no be forward, and e no be suspense or dramatic monologue.",
+"id": "litv0505",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read this extract: 'Mrs. Adebayo counted the change twice, frowned, and quietly slipped two extra naira notes into her bag when the trader looked away.' What does this extract mainly reveal about Mrs. Adebayo's character?",
+"options": [
+"Her honesty and generosity",
+"Her carelessness with money",
+"Her dishonest tendency",
+"Her poverty and desperation"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Her action of secretly keeping extra money that was not hers shows dishonesty. This is characterisation through action, where what a character does reveals their true nature, rather than the writer stating it directly.",
+"pidgin": "Di fact say she quietly keep extra money wey no be hers show say she no dey honest. Na characterisation through action, where wetin character do dey show real person wey dem be, no be say writer talk am straight.",
+"id": "litv0506",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

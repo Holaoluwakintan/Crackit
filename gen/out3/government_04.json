@@ -1,0 +1,80 @@
+{
+"subject": "government",
+"topic": "Rule of law and fundamental human rights",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following fundamental rights guaranteed under Chapter IV of the 1999 Constitution of Nigeria (as amended) CANNOT be suspended or taken away even during a declared state of emergency?",
+"options": [
+"Right to freedom of movement",
+"Right to freedom of expression and the press",
+"Right to the dignity of the human person",
+"Right to freedom of association"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The right to dignity of the human person (freedom from torture and inhuman treatment) is a non-derogable right; it stays protected no matter the circumstance. Rights like movement, expression and association can be lawfully restricted during emergencies for public safety.",
+"pidgin": "Right to dignity of human person (no torture, no inhuman treatment) na right wey dem no fit remove at all, even for emergency time. But freedom of movement, expression and association fit dey limited small during emergency for safety reasons.",
+"id": "govv0400",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Chief Okafor was arrested by the police in Enugu and kept in detention for three weeks without being charged before any court, even though the Constitution requires that a suspect be brought to court within a reasonable time. Which principle of the rule of law has been breached in this situation?",
+"options": [
+"Separation of powers between the three arms of government",
+"Equality of all citizens regardless of social status",
+"Supremacy of customary law over statutory law",
+"Protection of personal liberty through due process of law"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The rule of law demands that a person's liberty can only be taken away through due legal process, including timely arraignment in court. Holding Chief Okafor for three weeks without charge violates this protection of personal liberty, not the other listed principles.",
+"pidgin": "Rule of law talk say dem fit only take person liberty if dem follow correct legal process, like to charge am to court on time. Since dem hold Chief Okafor pass three weeks without charge, na the protection of personal liberty dem break, no be the other ones.",
+"id": "govv0401",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Under the principle of equality before the law in a democracy, every citizen is ordinarily expected to be subject to the same legal process. However, the 1999 Constitution of Nigeria grants one category of public officer a temporary immunity from civil and criminal proceedings while serving in office. Which officer enjoys this immunity?",
+"options": [
+"The Senate President",
+"A serving State Governor",
+"The Inspector-General of Police",
+"The Chief Justice of Nigeria"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Section 308 of the 1999 Constitution grants immunity from legal proceedings to the President, Vice President, Governors and Deputy Governors while they remain in office. The Senate President, IGP and Chief Justice do not enjoy this special constitutional immunity.",
+"pidgin": "Section 308 of di Constitution give immunity from court case to President, Vice President, Governors and Deputy Governors as dem dey office. Senate President, IGP and Chief Justice no get dis kain special immunity.",
+"id": "govv0402",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Suppose the National Assembly passes an Act that directly conflicts with the fundamental rights provisions contained in Chapter IV of the 1999 Constitution. Based on the rule of law principle of constitutional supremacy, what is the likely legal outcome for that Act?",
+"options": [
+"The Act becomes automatically void to the extent of its inconsistency with the Constitution",
+"The Act remains fully valid until the same Assembly chooses to repeal it",
+"The Act overrides the Constitution because the Assembly represents the people",
+"The Act can only take effect after the President personally approves it"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Section 1(3) of the 1999 Constitution states that any law inconsistent with the Constitution is void to the extent of the inconsistency, because the Constitution is supreme over every other law, including Acts of the National Assembly. This reflects the rule of law idea that no law-making body is above the Constitution.",
+"pidgin": "Section 1(3) of di Constitution talk say any law wey no match wit di Constitution na im go cancel for di part wey clash, becos Constitution na di highest law pass any Act. Dis one show say even National Assembly no fit pass law wey go pass di Constitution.",
+"id": "govv0403",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

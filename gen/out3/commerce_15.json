@@ -1,0 +1,168 @@
+{
+"subject": "commerce",
+"topic": "Trade associations, chambers of commerce and consumer protection",
+"generated": 8,
+"kept": [
+{
+"q": "A trade association is best described as a body formed by firms engaged in the same line of business mainly to:",
+"options": [
+"Act as a government agency that fixes prices for goods",
+"Protect and promote the common interests of its members",
+"Organise consumers to boycott certain goods",
+"Serve as a labour union for factory workers"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A trade association is a voluntary body of firms or traders in the same industry who join together to protect and promote their common business interests, such as sharing information and negotiating with government.",
+"pidgin": "Trade association na group wey business people wey dey do the same kain work come form together, so dem go fit protect and push their common interest, like how dem go dey yarn with government.",
+"py": null,
+"values": null,
+"id": "comv1500",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "The acronym NACCIMA, a well-known umbrella body for business organisations in Nigeria, stands for:",
+"options": [
+"National Council of Commerce and Industry in Mining Affairs",
+"Nigerian Agency for Consumer and Commercial Industry Matters",
+"Nigerian Association of Chambers of Commerce, Industry, Mines and Agriculture",
+"National Association for Chambers of Commerce, Insurance and Marketing Affairs"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "NACCIMA stands for Nigerian Association of Chambers of Commerce, Industry, Mines and Agriculture, which is a national umbrella organisation that brings together various chambers of commerce and trade bodies across Nigeria.",
+"pidgin": "NACCIMA mean Nigerian Association of Chambers of Commerce, Industry, Mines and Agriculture. Na the big umbrella body wey dey join different chambers of commerce and trade bodies for Nigeria together.",
+"py": null,
+"values": null,
+"id": "comv1501",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of the following is NOT a typical function performed by a chamber of commerce for its members?",
+"options": [
+"Settling trade disputes among members",
+"Representing business interests to government",
+"Organising trade fairs and exhibitions",
+"Manufacturing goods for sale to the public"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A chamber of commerce is an association that promotes trade, settles disputes, organises fairs and speaks to government on behalf of businesses; it does not itself manufacture or sell goods, since that is the role of individual member firms.",
+"pidgin": "Chamber of commerce na body wey dey push trade, settle wahala, organise trade fair and talk for business people front of government; e no be manufacturer, na the member companies dey make and sell their own goods.",
+"py": null,
+"values": null,
+"id": "comv1502",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A major function of the Consumer Protection Council (or similar consumer protection agency) in Nigeria is to:",
+"options": [
+"Fix minimum wage for workers in private companies",
+"Investigate complaints from consumers against poor quality or harmful goods",
+"Grant soft loans to small-scale traders",
+"Issue import licences to foreign companies"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Consumer protection agencies exist mainly to safeguard the interest of buyers by receiving and investigating complaints about substandard, unsafe or harmful goods and services sold to the public.",
+"pidgin": "Consumer protection agency work na to protect the buyer, so dem dey receive and investigate complain wey consumers bring about bad quality or harmful goods wey dem buy.",
+"py": null,
+"values": null,
+"id": "comv1503",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "One major advantage a small trader, Mama Ngozi, enjoys by joining her local traders' association is that the association can:",
+"options": [
+"Automatically exempt her from paying company income tax",
+"Guarantee her a direct government supply contract",
+"Provide free transportation of her goods across states",
+"Give members collective bargaining power to get better terms from suppliers"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Trade associations negotiate on behalf of many small traders at once, so members often get better prices, credit terms or discounts from suppliers than they could get bargaining alone.",
+"pidgin": "Trade association dey yarn with suppliers for behalf of plenty traders together, so members fit get better price, credit or discount pass if na them one go bargain alone.",
+"py": null,
+"values": null,
+"id": "comv1504",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Some soap manufacturers in Aba form a trade association and then secretly agree among themselves to fix a high common price and limit the quantity of soap each member produces. This action would most likely lead to:",
+"options": [
+"Exploitation of consumers through higher prices and reduced choice",
+"Automatic increase in the quality of soap produced",
+"A reduction in soap prices due to healthy competition",
+"Improved bargaining power for consumers over the manufacturers"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "When members of a trade association collude to fix prices and restrict output, they behave like a cartel, which harms consumers by raising prices and limiting the amount and variety of goods available; this is exactly the kind of practice consumer protection bodies try to prevent.",
+"pidgin": "If the soap makers come join hand fix high price and limit how much soap dem go produce, na cartel behaviour be that, and e go make price go up and consumer go get less choice, that na why consumer protection body dey fight this kain gragra.",
+"py": null,
+"values": null,
+"id": "comv1505",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "The key difference between a trade association and a trade union is that:",
+"options": [
+"Trade association fixes workers' wages while trade union fixes consumer prices",
+"Trade association and trade union are formed only by the government",
+"Trade association is for employers or firms in the same trade while trade union is for workers or employees",
+"Trade association represents consumers while trade union represents employers"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A trade association is made up of business owners or firms in the same line of trade protecting business interests, while a trade union is made up of employees who join together to protect workers' welfare and bargain with employers over wages and conditions.",
+"pidgin": "Trade association na for business owners or company wey dey do same trade, dem dey protect business interest; trade union na for workers wey join hand protect their welfare and bargain with employer for wages and condition of service.",
+"py": null,
+"values": null,
+"id": "comv1506",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of the following is recognised as a basic right of consumers that consumer protection laws seek to guarantee?",
+"options": [
+"The right to manufacture competing products freely without registration",
+"The right to safety from goods that are hazardous to health",
+"The right to personally fix the selling price of goods bought in a shop",
+"The right to stop other consumers from buying certain goods"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "One of the basic rights of a consumer is the right to safety, meaning they should be protected from goods and services that could harm their health or life, such as expired drugs or unsafe electrical appliances.",
+"pidgin": "One of the basic right wey consumer get na right to safety, meaning say make dem no suffer from goods wey fit harm their body, like expired medicine or bad electrical gadget.",
+"py": null,
+"values": null,
+"id": "comv1507",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

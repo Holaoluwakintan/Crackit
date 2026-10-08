@@ -1,0 +1,169 @@
+{
+"subject": "geography",
+"topic": "Regional geography of Nigeria",
+"ti": 16,
+"generated": 7,
+"kept": [
+{
+"q": "The Sokoto-Rima river basin, known for its wheat and rice irrigation schemes, is located in which geographical region of Nigeria?",
+"options": [
+"North-West",
+"South-South",
+"South-East",
+"North-Central"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Sokoto-Rima basin lies in Sokoto and Kebbi States, which are in the North-West geopolitical region of Nigeria. This area is known for irrigation farming such as the Bakolori project.",
+"pidgin": "Sokoto-Rima river basin dey for Sokoto and Kebbi States, wey be North-West region of Nigeria. Na there dem dey do irrigation farming like Bakolori project.",
+"py": null,
+"values": null,
+"id": "wgeo1600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which type of natural vegetation is most characteristic of the Niger Delta region of Nigeria?",
+"options": [
+"Guinea savanna",
+"Mangrove swamp forest",
+"Sahel savanna",
+"Montane vegetation"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Niger Delta is a low-lying, waterlogged coastal area with many creeks and estuaries, which supports mangrove swamp forest. This vegetation has stilt roots that survive in salty, tidal water.",
+"pidgin": "Niger Delta na low coastal area wey get plenty creeks and water, so e get mangrove swamp forest. Dis kain tree get stilt roots wey fit survive for salty water.",
+"py": null,
+"values": null,
+"id": "wgeo1601",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The Jos Plateau in north-central Nigeria became economically important in the colonial and post-colonial period mainly because of large-scale commercial mining of which mineral?",
+"options": [
+"Coal",
+"Limestone",
+"Tin",
+"Gold"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Jos Plateau is well known across West Africa for its rich deposits of tin (and associated columbite), which attracted large mining activities from colonial times. This gave Jos the nickname 'Tin City'.",
+"pidgin": "Jos Plateau dey famous for tin mining (and columbite) since colonial time, na why dem dey call Jos 'Tin City'. Na dis mineral mining make di area important economically.",
+"py": null,
+"values": null,
+"id": "wgeo1602",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The Jos Plateau is noticeably cooler than many surrounding lowland areas of Nigeria that share a similar latitude. What is the main reason for this cooler climate?",
+"options": [
+"Nearness to the sea",
+"Dense forest cover",
+"Ocean currents",
+"High altitude"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Temperature generally falls as altitude increases. The Jos Plateau stands at a much higher elevation (over 1,200 metres in places) than the surrounding lowlands, so it experiences cooler temperatures even though it is far from the coast.",
+"pidgin": "As altitude dey increase, temperature dey reduce. Jos Plateau high pass di lowlands wey surround am (pass 1,200 metres for some places), na why e cold reach even though e no near sea.",
+"py": null,
+"values": null,
+"id": "wgeo1603",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A geography teacher tells her class that Nigeria lies approximately between latitude 4 degrees North and latitude 14 degrees North. Based on this information, what is the approximate north-south latitudinal extent of the country?",
+"options": [
+"6°",
+"10°",
+"8°",
+"4°"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The latitudinal extent is found by subtracting the lower latitude from the higher one: 14°N minus 4°N equals 10°. This 10-degree spread explains why Nigeria has varied climate and vegetation from the coast to the far north.",
+"pidgin": "To find di extent, you go minus di smaller latitude from di bigger one: 14 take away 4 na 10°. Na dis 10 degree spread na im cause why Nigeria get different climate and vegetation from coast reach far north.",
+"py": "14-4",
+"values": [
+6,
+10,
+8,
+4
+],
+"id": "wgeo1604",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The confluence town of Lokoja, where River Niger meets River Benue, is often used by geographers to explain Nigeria's regional divisions. Which statement best explains the geographical significance of this confluence point?",
+"options": [
+"It is where River Niger and River Benue meet, forming a Y-shaped drainage pattern that divides the country into regions",
+"It marks the boundary between forest and savanna only",
+"It is the source of both River Niger and River Benue",
+"It marks the southern coastline of Nigeria"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "River Niger flows from the north-west and River Benue flows from the north-east, joining at Lokoja to form a Y-shape. This drainage pattern is commonly used to describe how the two rivers roughly separate Nigeria into northern and southern regions.",
+"pidgin": "River Niger dey come from north-west, River Benue dey come from north-east, dem go meet for Lokoja make Y-shape. Dis pattern na im dem dey use explain how di rivers dey roughly separate Nigeria into north and south regions.",
+"py": null,
+"values": null,
+"id": "wgeo1605",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following states is NOT part of the Niger Delta region of Nigeria?",
+"options": [
+"Bayelsa",
+"Delta",
+"Kano",
+"Rivers"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Kano State is located in the far north of Nigeria, within the Sudan savanna region, far from the coastal, oil-producing Niger Delta. Bayelsa, Delta and Rivers States are all core Niger Delta states.",
+"pidgin": "Kano State dey far north, inside Sudan savanna area, e no near di coastal oil-producing Niger Delta. Bayelsa, Delta and Rivers na di main Niger Delta states.",
+"py": null,
+"values": null,
+"id": "wgeo1606",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

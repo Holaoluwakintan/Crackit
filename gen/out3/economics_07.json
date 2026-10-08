@@ -1,0 +1,80 @@
+{
+"subject": "economics",
+"topic": "Costs and revenue: fixed, variable, marginal and average cost",
+"generated": 3,
+"kept": [
+{
+"q": "Which of the following best describes variable cost of production in a firm, such as a bakery in Jos that buys flour and sugar?",
+"options": [
+"A cost that stays the same no matter how much is produced",
+"A cost that changes directly as the level of output changes",
+"A cost that is paid only when the firm closes down completely",
+"A cost that is spread evenly and never changes per unit"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Variable cost is the cost that rises or falls with the quantity produced, such as raw materials. Fixed cost, not variable cost, stays the same regardless of output.",
+"pidgin": "Variable cost na the one wey go up or down as the output change, like raw materials wey dem dey buy. Na fixed cost dey stay same no matter the output.",
+"py": null,
+"values": null,
+"id": "ecov0700",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A furniture maker in Benin City produces wooden chairs. When output increases from 40 chairs to 41 chairs, total cost rises from ₦82,000 to ₦84,500. What is the marginal cost of producing the 41st chair?",
+"options": [
+"₦2,000",
+"₦3,000",
+"₦2,500",
+"₦82,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Marginal cost is the change in total cost divided by the change in quantity. Here, (₦84,500 - ₦82,000) / (41 - 40) = ₦2,500.",
+"pidgin": "Marginal cost na the change for total cost divide by the change for quantity. So (₦84,500 - ₦82,000) / 1 = ₦2,500.",
+"py": "84500-82000",
+"values": [
+2000,
+3000,
+2500,
+82000
+],
+"id": "ecov0701",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A cassava processing firm in Enugu has a total fixed cost of ₦45,000, which does not change with the level of output. At what level of output will the firm's average fixed cost (AFC) equal exactly ₦150 per unit?",
+"options": [
+"150 units",
+"450 units",
+"600 units",
+"300 units"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Average fixed cost is total fixed cost divided by quantity, so AFC = TFC/Q. Setting 150 = 45,000/Q and solving gives Q = 45,000/150 = 300 units.",
+"pidgin": "Average fixed cost na total fixed cost divide by quantity, so AFC = TFC/Q. If we put 150 = 45,000/Q, we go solve am make Q = 45,000/150 = 300 units.",
+"py": "45000/150",
+"values": [
+150,
+450,
+600,
+300
+],
+"id": "ecov0702",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,106 @@
+{
+"subject": "physics",
+"topic": "Quantity of heat: specific heat capacity and latent heat",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following best defines the specific heat capacity of a substance?",
+"options": [
+"The quantity of heat required to melt a unit mass of the substance without a change in temperature.",
+"The quantity of heat required to raise the temperature of a unit mass of the substance by one degree without a change of state.",
+"The quantity of heat required to raise the temperature of the substance to its boiling point.",
+"The quantity of heat released when the substance changes from liquid to solid."
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Specific heat capacity is defined as the heat needed to raise the temperature of 1 kg of a substance by 1 K (or 1°C), with no change of state occurring. Options about melting or boiling describe latent heat, not specific heat capacity.",
+"pidgin": "Specific heat capacity na the heat wey you need to raise temperature of 1 kg of substance by 1 degree, no change of state dey happen. The other options dey talk about melting or boiling wey be latent heat matter, no be specific heat capacity.",
+"py": null,
+"values": null,
+"id": "phyv1100",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A metal sample of mass 0.4 kg is heated from 20°C to 100°C by supplying 14,400 J of heat energy, with no change of state occurring. Calculate the specific heat capacity of the metal in J kg^-1 K^-1.",
+"options": [
+"360",
+"450",
+"500",
+"400"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Use Q = mcΔT, so c = Q/(mΔT). ΔT = 100 - 20 = 80°C. c = 14400/(0.4 x 80) = 14400/32 = 450 J/kg/K.",
+"pidgin": "We use Q = mcΔT, so c = Q/(mΔT). ΔT = 100 - 20 = 80°C. c = 14400/(0.4 x 80) = 14400/32 = 450 J/kg/K.",
+"py": "14400/(0.4*80)",
+"values": [
+360,
+450,
+500,
+400
+],
+"id": "phyv1101",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A sample of water of mass 0.25 kg at 100°C absorbs 5.65 x 10^5 J of heat energy and is completely converted to steam at 100°C, with no change in temperature. Calculate the specific latent heat of vaporization of the water, in J kg^-1.",
+"options": [
+"2.26 x 10^6",
+"1.13 x 10^6",
+"4.52 x 10^6",
+"2.825 x 10^5"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "For a change of state at constant temperature, Q = mL, so L = Q/m. L = 5.65 x 10^5 / 0.25 = 2.26 x 10^6 J/kg.",
+"pidgin": "For change of state wey temperature no dey change, Q = mL, so L = Q/m. L = 5.65 x 10^5 / 0.25 = 2.26 x 10^6 J/kg.",
+"py": "5.65e5/0.25",
+"values": [
+2260000.0,
+1130000.0,
+4520000.0,
+282500.0
+],
+"id": "phyv1102",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A 0.5 kg block of ice at 0°C is dropped into 1.5 kg of water at 30°C inside a well-insulated flask, so that no heat is lost to the surroundings. Given that the specific latent heat of fusion of ice is 3.36 x 10^5 J kg^-1 and the specific heat capacity of water is 4200 J kg^-1 K^-1, determine the final steady temperature of the mixture after all the ice has melted.",
+"options": [
+"2.5°C",
+"5.0°C",
+"0.0°C",
+"15.0°C"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Heat lost by the warm water equals heat used to melt the ice plus heat used to warm the melted ice to the final temperature T. Setting up: 1.5(4200)(30-T) = 0.5(336000) + 0.5(4200)T. This gives 189000 - 6300T = 168000 + 2100T, so 21000 = 8400T, and T = 2.5°C.",
+"pidgin": "Heat wey the warm water lose go equal the heat wey melt the ice plus the heat wey warm the melted ice reach final temperature T. If you set am up: 1.5(4200)(30-T) = 0.5(336000) + 0.5(4200)T, e go give 189000 - 6300T = 168000 + 2100T, so 21000 = 8400T, meaning T = 2.5°C.",
+"py": "(1.5*4200*30 - 0.5*3.36e5)/((1.5+0.5)*4200)",
+"values": [
+2.5,
+5.0,
+0.0,
+15.0
+],
+"id": "phyv1103",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

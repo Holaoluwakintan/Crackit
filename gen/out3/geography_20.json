@@ -1,0 +1,216 @@
+{
+"subject": "geography",
+"topic": "Geography of Nigeria: transport, trade and tourism",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is the major means of transporting crude oil from oil fields to export terminals in Nigeria?",
+"options": [
+"Pipeline",
+"Railway",
+"Road transport",
+"Air transport"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Crude oil and petroleum products are mostly moved through pipelines from oil fields to terminals and refineries. Pipelines are cheap, continuous and safe for liquids over long distances compared to road, rail or air.",
+"pidgin": "Dem dey use pipeline carry crude oil comot from oil field go terminal. E cheap, e dey run anytime, and e better pass road, train or airplane for liquid like oil.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov2000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "The busiest seaport in Nigeria, located in Lagos State, handling the largest volume of import and export trade, is the:",
+"options": [
+"Calabar Port",
+"Apapa Port",
+"Port Harcourt Port",
+"Warri Port"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Apapa Port in Lagos is Nigeria's busiest seaport because Lagos is the commercial nerve centre of the country, with the highest concentration of industries and population, so most goods pass through it.",
+"pidgin": "Apapa Port for Lagos na the port wey busy pass for Nigeria because Lagos na the main commercial centre, plenty industry and people dey there, so plenty goods dey pass there.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov2001",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In international trade, when the value of a country's imports exceeds the value of its exports over a given period, this situation is called:",
+"options": [
+"favourable balance of trade",
+"trade surplus",
+"balance of payments surplus",
+"unfavourable balance of trade"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "When imports (money spent abroad) are more than exports (money earned from abroad), the country has an unfavourable (or adverse) balance of trade. A favourable balance or surplus would mean exports exceed imports instead.",
+"pidgin": "If import (money wey dem spend abroad) pass export (money wey dem earn), na unfavourable balance of trade be dat. If export pass import, na favourable balance instead.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov2003",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Which of these factors best explains why road transport carries a much larger share of goods and passenger traffic within Nigeria than railway transport does?",
+"options": [
+"Railway wagons have a smaller carrying capacity than trucks",
+"The road network is more extensive and reaches remote rural areas that railway lines do not cover",
+"Roads are generally cheaper to construct and maintain than railway tracks",
+"Government policy deliberately favours road transport over railway transport"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Nigeria's road network spreads into almost every town and village, including remote rural farming areas, while railway lines are fixed to only a few routes connecting major cities. This flexibility and wider coverage make road transport dominant, not wagon size or cost alone.",
+"pidgin": "Road network dey reach almost every town and village for Nigeria, even remote village, but railway line only dey follow few routes between big cities. Na dis wide coverage and flexibility make road transport dey carry pass, no be only wagon size or cost.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov2005",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Nigeria's trade whereby goods are imported from one country and later re-exported to another country without being substantially used or processed locally is best described as:",
+"options": [
+"bilateral trade",
+"barter trade",
+"entrepot trade",
+"multilateral trade"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Entrepot trade happens when a country imports goods mainly to re-export them to a third country, often using its port facilities as a transit point, rather than consuming the goods itself.",
+"pidgin": "Entrepot trade na when country import goods just to re-export am go another country, dem dey use their port as transit point, no be say dem go use the goods for inside their own country.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov2006",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A major seasonal obstacle to the use of rivers such as the Niger and Benue for large-scale inland waterway transport in Nigeria is:",
+"options": [
+"excessive rainfall causing flooding of the river banks",
+"the high cost of fuel needed to power the boats",
+"presence of numerous bridges that block the passage of vessels",
+"low water levels during the dry season due to reduced river discharge"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "During the dry season, rainfall reduces drastically, causing the volume and depth of rivers like the Niger and Benue to fall, which makes it difficult for large vessels to navigate safely. This seasonal shallowness, not flooding or bridges, is the key constraint on year-round water transport.",
+"pidgin": "For dry season, rain dey reduce well well, so river like Niger and Benue dey shallow and small, e no go gree big boat pass well. Na dis seasonal shallow water, no be flood or bridge, be the main problem for water transport throughout the year.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov2007",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The first railway line in Nigeria linked Lagos to which northern city, forming the main backbone of Nigeria's railway network?",
+"options": [
+"Jos",
+"Zaria",
+"Kano",
+"Kaduna"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The pioneer Nigerian railway line (the western line) connected Lagos to Kano, opening up the northern region for trade in groundnuts and cotton to the southern ports. This line remains the main railway backbone of the country.",
+"pidgin": "The first railway line for Nigeria na from Lagos reach Kano, wey open up the north make dem fit carry groundnut and cotton come the south ports. Na dis line be the main backbone of Nigeria railway.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov2002",
+"check": {
+"s1": "X",
+"s2": "C"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Which national park in Nigeria, located in Bauchi State, is well known for safari tourism and is home to elephants, lions and other wildlife?",
+"options": [
+"Yankari National Park",
+"Obudu Cattle Ranch",
+"Cross River National Park",
+"Kainji Lake National Park"
+],
+"answer": "A",
+"difficulty": "easy",
+"difficulty_check": "",
+"explanation": "Yankari National Park in Bauchi State is Nigeria's most popular game reserve, famous for its elephants, lions, warm springs and safari tours. The other options are tourist sites but located in different states and known for different features.",
+"pidgin": "Yankari National Park wey dey Bauchi State na the popular game reserve for Nigeria, famous for elephant, lion, warm spring and safari. The other ones na tourist site but dem dey other states and dem get different features.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geov2004",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+"why": "ambiguous:Yankari is now a game reserve, not a national park.|"
+}
+]
+}

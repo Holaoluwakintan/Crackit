@@ -1,0 +1,134 @@
+{
+"subject": "literature",
+"topic": "Appreciation of an original short unseen prose or drama extract (quote a short original extract in the question)",
+"generated": 7,
+"kept": [
+{
+"q": "Read the prose extract below and answer the question that follows:\n\n'I walked into the examination hall, my palms sweating, my heart pounding like a talking drum at a festival. I had not read a single page the night before.'\n\nFrom which point of view is this extract narrated?",
+"options": [
+"First person point of view",
+"Third person omniscient point of view",
+"Second person point of view",
+"Third person limited point of view"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The narrator uses 'I' and 'my', showing that he is telling his own story as a participant. This is the mark of first person narration.",
+"pidgin": "The narrator dey use 'I' and 'my' to tell im own story as person wey dey inside the matter. Na so first person narration dey show.",
+"id": "litv0800",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Read the extract below and answer the question that follows:\n\n'Her voice, when she finally spoke, was as soft as the whisper of wind through dry cornstalks, yet it carried the weight of a judge's gavel.'\n\nWhich figure of speech is used in 'as soft as the whisper of wind through dry cornstalks'?",
+"options": [
+"Metaphor",
+"Simile",
+"Personification",
+"Hyperbole"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The comparison uses the word 'as' to directly liken her voice to the wind's whisper. Any comparison that uses 'as' or 'like' is a simile.",
+"pidgin": "Dem compare the voice to wind whisper with the word 'as'. Any comparison wey use 'as' or 'like' na simile.",
+"id": "litv0801",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read the drama extract below and answer the question that follows:\n\n(Unknown to TOYIN, her UNCLE FEMI is standing just outside the door, listening quietly.)\nTOYIN: (laughing, waving a folded paper) Relax, Bisi! Uncle Femi will never find out I forged his signature on this contract.\n\nWhich dramatic technique is most clearly demonstrated in this extract?",
+"options": [
+"Soliloquy",
+"Comic relief",
+"Dramatic irony",
+"Flashback"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The audience knows, through the stage direction, that Uncle Femi is listening, but Toyin does not know this. This gap between what the audience knows and what the character knows is dramatic irony.",
+"pidgin": "Audience sabi say Uncle Femi dey listen, but Toyin no know. This gap between wetin audience sabi and wetin the character sabi na dramatic irony.",
+"id": "litv0802",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Read the drama extract below and answer the question that follows:\n\nCHIEF DANJUMA: (banging his walking stick on the floor) In my sixty years on this earth, I have never bowed to any man, and I will not start with a boy who has not even grown a beard!\n\nWhat does this speech reveal about Chief Danjuma's character?",
+"options": [
+"He is humble and accommodating",
+"He is fearful and indecisive",
+"He is generous and forgiving",
+"He is proud and stubborn"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Chief Danjuma boasts about never bowing to anyone and refuses to yield to a younger man. His words and forceful action (banging his stick) show pride and stubbornness.",
+"pidgin": "Chief Danjuma dey boast say im never bow for anybody, and e no wan bow now to small boy. The way e talk and bang im stick show say e proud and e hard head.",
+"id": "litv0803",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Read the prose extract below and answer the question that follows:\n\n'Mama warned her never to take the bush path after dusk, but Ngozi laughed off the warning, humming a cheerful tune as the sun began to sink behind the hills.'\n\nWhat literary technique does the writer use here to hint at trouble ahead for Ngozi?",
+"options": [
+"Foreshadowing",
+"Flashback",
+"Epilogue",
+"Anti-climax"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The warning about the bush path and the setting sun create a sense of coming danger before it actually happens. This hinting at future events is called foreshadowing.",
+"pidgin": "The warning about bush path and the sun wey dey set dey give hint say wahala dey come before e even happen. This kain hint na foreshadowing.",
+"id": "litv0804",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Read the prose extract below and answer the question that follows:\n\n'The compound was silent except for the distant hoot of an owl; cobwebs draped the abandoned well like a funeral shroud, and the moonlight cast long, trembling shadows across the cracked walls.'\n\nWhat mood does this extract create?",
+"options": [
+"Joyful",
+"Eerie",
+"Romantic",
+"Comic"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Details like the owl's hoot, cobwebs like a funeral shroud, and trembling shadows all create a frightening, ghostly atmosphere. This combination of details produces an eerie mood.",
+"pidgin": "Details like owl hoot, cobwebs wey be like funeral cloth, and shadow wey dey shake all dey bring scary feeling. This kain feeling na eerie mood.",
+"id": "litv0805",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read the prose extract below and answer the question that follows:\n\n'Why did I say yes? Perhaps it was the money, perhaps it was fear, or perhaps—no, it was definitely the money. I should have refused. I should have walked away. But here I am, trapped in my own foolishness.'\n\nWhich narrative technique is being used in this extract?",
+"options": [
+"Dramatic monologue",
+"Dialogue",
+"Interior monologue",
+"Exposition"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The passage shows the character's private, unspoken thoughts and self-questioning, without any other character present. This direct presentation of a character's inner thoughts in prose is called interior monologue, unlike a dramatic monologue which is a spoken poetic address to a silent listener.",
+"pidgin": "The passage show the character im own private thought wey e no talk out to anybody. This kain way wey writer show person inside-mind thought na interior monologue, e different from dramatic monologue wey be poem wey person dey talk give silent listener.",
+"id": "litv0806",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

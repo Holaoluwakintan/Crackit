@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Political parties and party systems",
+"ti": 5,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best defines a political party?",
+"options": [
+"A group of wealthy individuals who meet to discuss business opportunities",
+"An organised group of people who share similar beliefs and aim to win political power through elections",
+"A club formed by civil servants to negotiate salary increases",
+"A court-appointed body that settles disputes between citizens"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A political party is an organised group with a common ideology that seeks to gain control of government by winning elections. The other options describe economic, social or judicial bodies, not political parties.",
+"pidgin": "Political party na organised group wey share same belief and wan rule kontri through election. Di oda ones na business, work union or court matter, dem no be political party.",
+"id": "wgov0500",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a key feature of a one-party system of government?",
+"options": [
+"Many parties compete freely for votes during elections",
+"Only one political party is legally allowed to exist and contest elections",
+"Two strong parties take turns to form government",
+"Political parties are banned while the military rules directly"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In a one-party system, the law permits only a single party to operate, so there is no room for other parties to contest elections. This is different from a multi-party or two-party system where more than one party competes.",
+"pidgin": "For one-party system, na only one party de law allow make e dey operate and contest election. E different from multi-party or two-party system wey get plenty parties de compete.",
+"id": "wgov0501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which country is widely recognised as a classic example of the two-party system, where two major parties have dominated national politics for a long time?",
+"options": [
+"Nigeria during the Fourth Republic",
+"United States of America",
+"People's Republic of China",
+"Federal Republic of Nigeria under military rule"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The USA is a classic two-party state because the Democratic Party and Republican Party have dominated its politics for a very long time, even though smaller parties exist. China has one dominant party, while Nigeria's Fourth Republic has several active parties.",
+"pidgin": "USA na classic two-party kontri because Democratic Party and Republican Party don dey control dia politics for long time, even though small parties dey. China get only one strong party, Nigeria Fourth Republic get plenty parties.",
+"id": "wgov0502",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these statements correctly describes a multi-party system of government?",
+"options": [
+"Only two parties are allowed to contest any election",
+"A single party rules without any form of opposition",
+"Several political parties exist and may form coalitions to govern",
+"Parties are forbidden from campaigning in public places"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A multi-party system allows several parties to exist and contest elections, and since no single party may win an outright majority, parties often form coalition governments. The other options describe one-party or two-party features, not multi-party systems.",
+"pidgin": "Multi-party system mean say plenty parties dey exist and dem fit contest election, and since one party fit no win outright majority, dem fit join hand form coalition government. Di oda options na one-party or two-party features.",
+"id": "wgov0503",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During Nigeria's Second Republic (1979-1983), five major parties — NPN, UPN, NPP, GNPP and PRP — contested national elections, each drawing support from different regions. This arrangement best illustrates which type of party system?",
+"options": [
+"One-party system",
+"Two-party system",
+"Multi-party system",
+"Dominant single-party system"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Having five active parties contesting elections at the same time, with none enjoying a legal monopoly, shows a multi-party system. This is unlike a two-party system, which has only two major contenders, or a one-party system, which allows just one party.",
+"pidgin": "Since five parties (NPN, UPN, NPP, GNPP, PRP) dey contest election togeda, with no party wey get sole right to rule, na multi-party system be dat. E no be two-party (wey get only two big parties) or one-party (wey get only one party).",
+"id": "wgov0504",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a major function of political parties in a democratic society?",
+"options": [
+"Collecting personal income tax from workers",
+"Selecting and presenting candidates for public elective offices",
+"Issuing national identity cards to citizens",
+"Printing and distributing the national currency"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "One core function of political parties is to screen and nominate candidates who will stand for election into public offices. Tax collection, ID cards and currency printing are government or agency functions, not party functions.",
+"pidgin": "One key work wey political party dey do na to select and present candidate wey go contest public office. Tax collection, ID card and money printing na government or agency work, no be party work.",
+"id": "wgov0505",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "How does a political party mainly differ from a pressure group?",
+"options": [
+"A political party seeks to win elections and control government, while a pressure group only tries to influence government policy without seeking power",
+"A pressure group always has more registered members than any political party",
+"Political parties do not prepare manifestoes, but pressure groups do",
+"Pressure groups contest elections directly, while political parties only lobby government officials"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A political party's main goal is to win elections and form government, whereas a pressure group tries to influence government decisions without seeking to control power itself. The other options reverse or wrongly state the true relationship.",
+"pidgin": "Political party main aim na to win election and control government, but pressure group just dey try influence government decision without wanting to rule. Di oda options don mix up di correct relationship.",
+"id": "wgov0506",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a major criticism often raised against the one-party system of government?",
+"options": [
+"It leads to wasteful spending because too many parties campaign at once",
+"It tends to promote dictatorship since there is no strong opposition to check the ruling party",
+"It makes elections too expensive due to the large number of contesting parties",
+"It encourages frequent change of government through coalition collapse"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Because only one party is allowed in a one-party system, there is no organised opposition to challenge the ruling party's decisions, which can easily lead to abuse of power and dictatorship. The other options actually describe problems linked with multi-party systems, not one-party systems.",
+"pidgin": "Since na only one party dem allow for one-party system, no strong opposition dey to check di ruling party, and dis fit cause am to turn dictatorship. Di oda options na problem wey dey more common for multi-party system, no be one-party.",
+"id": "wgov0507",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,149 @@
+{
+"subject": "civic",
+"topic": "Nigerian national symbols and federal institutions",
+"ti": 16,
+"generated": 7,
+"kept": [
+{
+"q": "In the Nigerian national flag, which consists of two vertical green stripes with a white stripe in between, what does the green colour symbolise?",
+"options": [
+"The agricultural wealth and fertile land of Nigeria",
+"The unity of the three regions of Nigeria",
+"The peace and honesty of Nigerians",
+"The mineral resources found in Nigeria"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The green colour on the Nigerian flag stands for the country's rich agricultural land and natural wealth. The white stripe in the middle represents peace and unity.",
+"pidgin": "Di green colour for Nigeria flag na im show say Nigeria get rich farmland and natural wealth. Di white for middle na im dey show peace and unity.",
+"id": "wciv1600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which Nigerian student designed the national flag that was officially adopted in 1960?",
+"options": [
+"Taiwo Akinkunmi",
+"Herbert Macaulay",
+"Nnamdi Azikiwe",
+"Obafemi Awolowo"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Taiwo Akinkunmi, a Nigerian student studying in London, designed the national flag which won a national competition before independence in 1960. The other three were prominent nationalist leaders, not the flag's designer.",
+"pidgin": "Na Taiwo Akinkunmi, one Nigerian student wey dey study for London, design di flag wey win competition before independence for 1960. Di oda three na big nationalist leaders, dem no design di flag.",
+"id": "wciv1601",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "On the Nigerian coat of arms, the black shield is divided by a silver wavy band representing River Niger and River Benue. What does the black colour of the shield represent?",
+"options": [
+"The strength of the nation",
+"The fertile black soil of Nigeria",
+"The unity of over 250 ethnic groups",
+"The wealth from crude oil"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "On the coat of arms, the black shield represents Nigeria's rich, fertile soil which supports agriculture. The eagle above the shield represents strength, while the horses on both sides represent dignity.",
+"pidgin": "Di black shield for di coat of arms na im dey show di rich, fertile soil wey Nigeria get wey good for farming. Di eagle wey dey on top na im dey show strength, while di horses na dignity.",
+"id": "wciv1602",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which federal agency has the primary responsibility of controlling the cultivation, processing, sale and trafficking of hard drugs in Nigeria?",
+"options": [
+"Federal Road Safety Corps (FRSC)",
+"National Agency for the Prohibition of Trafficking in Persons (NAPTIP)",
+"Economic and Financial Crimes Commission (EFCC)",
+"National Drug Law Enforcement Agency (NDLEA)"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The NDLEA was established specifically to enforce laws against the cultivation, processing, sale, trafficking and use of hard drugs in Nigeria. FRSC handles road safety, NAPTIP deals with human trafficking, and EFCC handles financial crimes.",
+"pidgin": "NDLEA na di agency wey dem set up to fight against planting, processing, selling and trafficking of hard drugs for Nigeria. FRSC na road safety, NAPTIP na human trafficking, EFCC na financial crime.",
+"id": "wciv1603",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A 15-year-old girl, Blessing, is rescued after being forced to work without pay in another state by a woman who promised her a better life. Which federal agency is saddled with investigating and prosecuting this type of case?",
+"options": [
+"Economic and Financial Crimes Commission (EFCC)",
+"Independent Corrupt Practices Commission (ICPC)",
+"National Agency for the Prohibition of Trafficking in Persons (NAPTIP)",
+"Federal Road Safety Corps (FRSC)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "NAPTIP was created to combat human trafficking and forced labour, especially cases involving women and children like Blessing's. EFCC deals with financial crimes, ICPC with corruption, and FRSC with road matters.",
+"pidgin": "NAPTIP na im dem set up to fight human trafficking and forced labour, especially wen e concern woman and pikin like Blessing. EFCC na financial crime, ICPC na corruption, FRSC na road matter.",
+"id": "wciv1604",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Eze, a federal civil servant, is caught collecting ₦2 million from a contractor in exchange for approving a government contract without due process. Which federal institution has primary responsibility for investigating this kind of corrupt practice by a public officer?",
+"options": [
+"Economic and Financial Crimes Commission (EFCC)",
+"Independent Corrupt Practices Commission (ICPC)",
+"National Drug Law Enforcement Agency (NDLEA)",
+"Federal Character Commission"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The ICPC was specifically established to investigate and prosecute corrupt practices committed by public officers in the course of their official duties, such as bribery for contracts. The EFCC mainly handles broader economic and financial crimes like money laundering and fraud across both public and private sectors.",
+"pidgin": "ICPC na di one wey dem set up to investigate and prosecute corrupt practice wey public officer do for dia work, like dis bribe for contract matter. EFCC na im dey handle bigger economic and financial crime like money laundering and fraud for public and private sector.",
+"id": "wciv1605",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The Federal Government wants to ensure that appointments into a newly created federal parastatal reflect the diverse ethnic and state composition of Nigeria, so that no single group dominates. Which federal institution is constitutionally charged with overseeing this arrangement?",
+"options": [
+"Federal Character Commission",
+"Independent National Electoral Commission (INEC)",
+"National Population Commission",
+"Revenue Mobilisation, Allocation and Fiscal Commission"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The Federal Character Commission is specifically established to ensure fair representation of Nigeria's diverse states and ethnic groups in federal appointments and institutions. INEC handles elections, the Population Commission handles census, and the Fiscal Commission handles revenue sharing formulas.",
+"pidgin": "Federal Character Commission na im dem set up to make sure say different state and ethnic group dey well represent for federal appointment. INEC na election matter, Population Commission na census, Fiscal Commission na revenue sharing.",
+"id": "wciv1606",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,178 @@
+{
+"subject": "accounting",
+"topic": "Public sector accounting",
+"generated": 8,
+"kept": [
+{
+"q": "Public sector accounting can best be described as the process of:",
+"options": [
+"recording, classifying and reporting the financial transactions of government and its agencies",
+"recording only the profit made by private limited liability companies",
+"preparing final accounts for sole traders and partnerships",
+"computing personal income tax payable by individual workers"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Public sector accounting deals with how government ministries, departments and agencies record, classify and report their revenues and expenditures. It is different from private sector accounting which focuses on profit-making businesses.",
+"pidgin": "Public sector accounting na how government ministries and agencies dey record, classify and report their money matters. E different from private company accounting wey dey focus on profit.",
+"py": null,
+"values": null,
+"id": "accv1800",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following is NOT a normal source of revenue to the Nigerian government?",
+"options": [
+"Taxes collected from citizens and companies",
+"Royalties from crude oil and mineral resources",
+"Grants-in-aid from foreign governments or agencies",
+"Dividend earned personally by a private citizen from his own shares in a company"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Taxes, royalties and grants-in-aid are all recognised government revenue sources. A private citizen's personal dividend income belongs to him, not to government, so it is not government revenue.",
+"pidgin": "Tax, royalty and grants na correct government money. But if person get im own shares for company and e dey collect dividend, na im personal money, e no be government revenue.",
+"py": null,
+"values": null,
+"id": "accv1801",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "The annual law passed by the National Assembly which authorises the government to spend money from the Consolidated Revenue Fund for a given fiscal year is called the:",
+"options": [
+"Finance (Control and Management) Act",
+"Appropriation Act",
+"Audit Act",
+"Treasury Circular"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Appropriation Act is the annual budget law that gives government legal approval to withdraw and spend money from the Consolidated Revenue Fund. Without it, spending would be unauthorised.",
+"pidgin": "Na Appropriation Act be di yearly law wey National Assembly dey pass make government fit spend money from Consolidated Revenue Fund. Without am, government no get permission to spend.",
+"py": null,
+"values": null,
+"id": "accv1802",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which government fund holds all revenues collected by the Federal Government except those specifically allocated by law to other funds such as the Development Fund?",
+"options": [
+"Contingency Fund",
+"Consolidated Revenue Fund",
+"Sinking Fund",
+"Capital Fund"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Consolidated Revenue Fund is the main pool into which all federal government revenue is paid, except amounts that the law directs into other special funds like the Development Fund or Contingency Fund.",
+"pidgin": "Consolidated Revenue Fund na di main place where all federal government money dey enter, except di ones wey law don already arrange make e go anoda fund like Development Fund.",
+"py": null,
+"values": null,
+"id": "accv1803",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In government accounting, capital expenditure refers mainly to spending on:",
+"options": [
+"salaries and wages of civil servants",
+"routine maintenance of office equipment",
+"construction of new roads, bridges and purchase of long-term assets",
+"payment of pensions and gratuities to retirees"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Capital expenditure is spending that creates or adds long-lasting assets for government, such as new roads, bridges, buildings and equipment that will be used for many years. Salaries, maintenance and pensions are recurrent expenditure.",
+"pidgin": "Capital expenditure na money wey government dey spend to build new road, bridge, or buy long-term assets wey go last for many years. Salary, maintenance and pension na recurrent expenditure.",
+"py": null,
+"values": null,
+"id": "accv1804",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "The Federal Government of Nigeria approved a total budget of ₦12,000,000,000 for a fiscal year. If recurrent expenditure takes up 65% of the total budget, how much naira is allocated to capital expenditure?",
+"options": [
+"₦4,200,000,000",
+"₦7,800,000,000",
+"₦3,900,000,000",
+"₦6,000,000,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Capital expenditure share = 100% - 65% = 35%. So capital expenditure = 35% of ₦12,000,000,000 = 0.35 x 12,000,000,000 = ₦4,200,000,000.",
+"pidgin": "Capital expenditure percentage na 100% - 65% = 35%. So e go be 0.35 x ₦12,000,000,000 = ₦4,200,000,000.",
+"py": "12000000000*0.35",
+"values": [
+4200000000,
+7800000000,
+3900000000,
+6000000000
+],
+"id": "accv1805",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "The Treasury Single Account (TSA) policy was introduced by the Nigerian government mainly to:",
+"options": [
+"increase the number of bank accounts operated by ministries",
+"consolidate all government revenues into one central account for easier monitoring and control",
+"allow each government agency to keep separate commercial bank accounts for its revenue",
+"reduce the amount of tax paid by government parastatals"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "TSA brings all government revenue from different ministries and agencies into one unified account at the Central Bank. This makes it easier for government to monitor cash flow, prevent leakages and improve accountability.",
+"pidgin": "TSA na policy wey dey gather all government money from different ministries put am for one account for Central Bank. Dis one make am easy to monitor money, stop leakage, and improve accountability.",
+"py": null,
+"values": null,
+"id": "accv1807",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which government officer is constitutionally responsible for auditing the accounts of ministries and agencies, and for reporting the findings to the National Assembly?",
+"options": [
+"Accountant-General of the Federation",
+"Auditor-General for the Federation",
+"Minister of Finance",
+"Director of Budget"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Auditor-General for the Federation independently examines and reports on government accounts to the National Assembly, to ensure public funds are properly used. The Accountant-General, on the other hand, keeps and manages the accounts.",
+"pidgin": "Na Auditor-General for di Federation dey check government accounts and report go National Assembly, to make sure public money dey well used. Accountant-General na im dey manage di accounts proper.",
+"py": null,
+"values": null,
+"id": "accv1806",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:The Constitution excludes some agencies from direct audit by the Auditor-General.|"
+}
+]
+}

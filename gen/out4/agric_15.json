@@ -1,0 +1,181 @@
+{
+"subject": "agric",
+"topic": "Agricultural economics, marketing and finance",
+"ti": 15,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines agricultural economics?",
+"options": [
+"The study of how farmers use limited resources to produce, distribute and consume agricultural goods and services",
+"The study of soil types suitable for crop production",
+"The study of breeding techniques for livestock improvement",
+"The study of pest and disease control methods in crops"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Agricultural economics deals with decisions farmers make about scarce resources like land, labour and capital to produce and market farm goods. Soil study, breeding and pest control belong to other branches of agriculture, not economics.",
+"pidgin": "Agric economics na how farmer dey use the small resources wey dem get (land, labour, money) to produce and sell farm goods. Soil, breeding and pest matter na for other agric branches, no be economics.",
+"py": null,
+"values": null,
+"id": "wagr1500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the market at Oja Oba, if the price of a basin of garri rises sharply while other factors remain unchanged, what will happen to the quantity demanded by buyers, according to the law of demand?",
+"options": [
+"It will increase",
+"It will remain constant",
+"It will decrease",
+"It will fluctuate randomly"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The law of demand states that as price rises, quantity demanded falls, assuming other factors stay the same. Buyers will cut down purchases of garri because it has become more expensive.",
+"pidgin": "Law of demand talk say if price go up, people go buy less, as long as other things no change. So if garri cost more, buyers go reduce wetin dem dey buy.",
+"py": null,
+"values": null,
+"id": "wagr1501",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT one of the basic factors of production in agriculture?",
+"options": [
+"Land",
+"Labour",
+"Capital",
+"Marketing"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The basic factors of production are land, labour, capital and entrepreneurship. Marketing is an economic activity that uses these factors to move produce to consumers, but it is not itself a factor of production.",
+"pidgin": "The main factors of production na land, labour, capital and entrepreneurship. Marketing na activity wey dey use these factors to carry produce reach consumer, e no be factor of production by itself.",
+"py": null,
+"values": null,
+"id": "wagr1502",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmers' cooperative society in a rural community usually provides all of the following benefits to members EXCEPT:",
+"options": [
+"Easier access to credit facilities at low interest",
+"Bulk purchase of farm inputs at reduced cost",
+"Increased individual farm size through continuous land fragmentation",
+"Better bargaining power when selling produce"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Cooperatives help members get cheap credit, buy inputs in bulk and sell produce at better prices together. Land fragmentation actually reduces farm size and is a problem, not a benefit of cooperative membership.",
+"pidgin": "Cooperative dey help members get cheap loan, buy input together cheap, and sell their produce well because dem get bargaining power. But land fragmentation dey make farm small-small, na problem, e no be benefit.",
+"py": null,
+"values": null,
+"id": "wagr1503",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Alhaji Garba kept the following poultry farm records for one production cycle: Feed cost ₦45,000; Drugs and vaccines ₦8,000; Labour ₦12,000; Day-old chicks ₦25,000. He sold birds and eggs for a total of ₦120,000. Calculate his profit for the cycle.",
+"options": [
+"₦20,000",
+"₦30,000",
+"₦35,000",
+"₦40,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Total cost = 45000 + 8000 + 12000 + 25000 = ₦90,000. Profit = Total revenue − Total cost = 120000 − 90000 = ₦30,000.",
+"pidgin": "Add all the cost: 45000 + 8000 + 12000 + 25000 = ₦90,000. Profit na the money wey remain after you remove cost from sales: 120000 − 90000 = ₦30,000.",
+"py": "120000 - (45000+8000+12000+25000)",
+"values": [
+20000,
+30000,
+35000,
+40000
+],
+"id": "wagr1504",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A farm cooperative in Ogbomoso bought a tractor for ₦2,400,000. The tractor has an estimated useful life of 8 years and an expected salvage value of ₦400,000 at the end of its life. Using the straight line method, calculate the annual depreciation of the tractor.",
+"options": [
+"₦200,000",
+"₦250,000",
+"₦300,000",
+"₦350,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Straight line depreciation = (Cost − Salvage value) ÷ Useful life = (2,400,000 − 400,000) ÷ 8 = 2,000,000 ÷ 8 = ₦250,000 per year.",
+"pidgin": "Straight line depreciation formula na (Cost minus Salvage value) divide by Useful life: (2,400,000 − 400,000) ÷ 8 = 2,000,000 ÷ 8 = ₦250,000 every year.",
+"py": "(2400000-400000)/8",
+"values": [
+200000,
+250000,
+300000,
+350000
+],
+"id": "wagr1505",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Mrs Adaeze borrowed ₦60,000 from her farmers' cooperative society at a simple interest rate of 8% per annum. She repaid the loan in full after 2 years. Calculate the total amount she paid back to the cooperative.",
+"options": [
+"₦64,800",
+"₦66,800",
+"₦68,800",
+"₦69,600"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Simple interest = (P x R x T) ÷ 100 = (60,000 x 8 x 2) ÷ 100 = ₦9,600. Total amount repaid = Principal + Interest = 60,000 + 9,600 = ₦69,600.",
+"pidgin": "Simple interest formula na (P x R x T) ÷ 100 = (60,000 x 8 x 2) ÷ 100 = ₦9,600. The total wey she go pay back na Principal plus Interest: 60,000 + 9,600 = ₦69,600.",
+"py": "60000 + (60000*8*2/100)",
+"values": [
+64800,
+66800,
+68800,
+69600
+],
+"id": "wagr1506",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

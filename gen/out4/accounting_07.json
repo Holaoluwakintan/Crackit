@@ -1,0 +1,187 @@
+{
+"subject": "accounting",
+"topic": "Adjustments: accruals, prepayments, bad debts and provisions",
+"ti": 7,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best describes an 'accrued expense' in the preparation of final accounts?",
+"options": [
+"An expense that has been incurred but not yet paid for at the end of the accounting period",
+"An expense that has been paid in advance before it becomes due",
+"A debt that has been confirmed as uncollectible and removed from the books",
+"An amount set aside to cover possible future losses on debtors"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An accrued expense is one that a business has used or enjoyed during the period but has not yet paid for by the year end. It is shown as a current liability in the statement of financial position.",
+"pidgin": "Accrued expense na expense wey business don use already but e never pay am before year end. Dem go show am as current liability for the statement of financial position.",
+"py": null,
+"values": null,
+"id": "wacc0700",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Alhaji Musa paid for business insurance that covers a period extending beyond the end of his accounting year. The portion of the payment relating to the next accounting year should be treated in the final accounts as a...",
+"options": [
+"Accrued expense, shown as a current liability",
+"Prepaid expense, shown as a current asset in the statement of financial position",
+"Bad debt written off",
+"Provision for doubtful debts"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Since the payment covers a future period not yet used, the unused part is a prepayment. It is an asset because it represents a benefit still to be enjoyed, so it appears as a current asset.",
+"pidgin": "Since the money cover period wey never reach, the part wey remain na prepayment. E be asset because the benefit never finish, so e go show as current asset.",
+"py": null,
+"values": null,
+"id": "wacc0701",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Alhaja Bello paid ₦84,000 as rent to cover a full 12-month period from 1st July of the current year to 30th June of the following year. Her accounting year ends on 31st December. Calculate the amount of prepaid rent to be shown in her statement of financial position at 31st December.",
+"options": [
+"₦7,000",
+"₦84,000",
+"₦42,000",
+"₦35,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Monthly rent = 84000/12 = ₦7,000. From July to December (6 months) has been used, so the remaining 6 months (January to June) is prepaid: 6 x 7000 = ₦42,000.",
+"pidgin": "Rent for one month = 84000/12 = ₦7,000. From July to December na 6 months wey don pass, so the remaining 6 months (January to June) na prepaid: 6 x 7000 = ₦42,000.",
+"py": "84000/12*6",
+"values": [
+7000,
+84000,
+42000,
+35000
+],
+"id": "wacc0702",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Chidinma Ventures had trade receivables (debtors) of ₦500,000 at the end of the financial year. The business maintains a provision for doubtful debts at 5% of trade receivables. Calculate the amount of the provision for doubtful debts.",
+"options": [
+"₦50,000",
+"₦10,000",
+"₦2,500",
+"₦25,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The provision is calculated as 5% of the trade receivables: 5/100 x 500,000 = ₦25,000. This is the amount to be deducted from debtors in the balance sheet and charged against profit.",
+"pidgin": "Dem go calculate the provision as 5% of the debtors: 5/100 x 500,000 = ₦25,000. Na dis amount dem go minus from debtors for balance sheet and charge am against profit.",
+"py": "0.05*500000",
+"values": [
+50000,
+10000,
+2500,
+25000
+],
+"id": "wacc0703",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader had earlier written off a customer's debt of ₦15,000 as a bad debt. Two years later, the customer unexpectedly paid back the full amount. How should this recovered amount be treated in the books?",
+"options": [
+"Credited to a bad debts recovered account and then transferred to the profit and loss account as income",
+"Deducted directly from the trade receivables control account only, with no entry in the profit and loss account",
+"Added to the provision for doubtful debts for the year",
+"Treated as a capital reserve in the statement of financial position"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Since the debt was already written off, the recovery is treated as a gain. It is credited to a bad debts recovered account and later transferred to the profit and loss account as other income.",
+"pidgin": "Since dem don already write off the debt before, when e come pay back, na gain. Dem go credit am for bad debts recovered account, later transfer am go profit and loss account as income.",
+"py": null,
+"values": null,
+"id": "wacc0704",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Before adjustments, a trader's net profit for the year was ₦250,000. At year end, it was discovered that rent of ₦12,000 had been prepaid (already charged as an expense for a period not yet enjoyed), while wages of ₦18,000 for the last week of the year had not yet been paid or recorded. Calculate the adjusted net profit after making these corrections.",
+"options": [
+"₦238,000",
+"₦244,000",
+"₦250,000",
+"₦280,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The prepaid rent of ₦12,000 was wrongly charged as an expense, so it is added back to profit. The accrued wages of ₦18,000 is an expense not yet recorded, so it is subtracted. Adjusted profit = 250,000 + 12,000 - 18,000 = ₦244,000.",
+"pidgin": "Dem don wrongly charge the ₦12,000 prepaid rent as expense, so make dem add am back to profit. The ₦18,000 wages wey dem never record na expense, so make dem minus am. Adjusted profit = 250,000 + 12,000 - 18,000 = ₦244,000.",
+"py": "250000+12000-18000",
+"values": [
+238000,
+244000,
+250000,
+280000
+],
+"id": "wacc0705",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "At the start of the year, a business had a provision for doubtful debts of ₦15,000. During the year, trade receivables stood at ₦368,000 before writing off a bad debt of ₦8,000. After writing off the bad debt, the business decided to maintain a provision for doubtful debts of 5% of the remaining net receivables. Calculate the amount to be charged to the profit and loss account specifically for the change in the provision for doubtful debts.",
+"options": [
+"₦18,000",
+"₦11,000",
+"₦3,000",
+"₦15,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Net receivables after writing off bad debts = 368,000 - 8,000 = ₦360,000. New provision = 5% x 360,000 = ₦18,000. Since the opening provision was ₦15,000, the increase charged to the profit and loss account is 18,000 - 15,000 = ₦3,000.",
+"pidgin": "Net receivables after dem write off the bad debt = 368,000 - 8,000 = ₦360,000. New provision = 5% x 360,000 = ₦18,000. Since the old provision na ₦15,000, the increase wey dem go charge for profit and loss account na 18,000 - 15,000 = ₦3,000.",
+"py": "0.05*360000 - 15000",
+"values": [
+18000,
+11000,
+3000,
+15000
+],
+"id": "wacc0706",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

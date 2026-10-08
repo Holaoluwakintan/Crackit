@@ -1,0 +1,84 @@
+{
+"subject": "government",
+"topic": "Elections, electoral systems and electoral bodies (INEC)",
+"generated": 4,
+"kept": [
+{
+"q": "Under the 1999 Constitution of Nigeria (as amended), how is the Chairman of the Independent National Electoral Commission (INEC) appointed?",
+"options": [
+"By the National Assembly through a special resolution",
+"By the President, subject to confirmation by the Senate",
+"By the Council of State without further confirmation",
+"By the Chief Justice of Nigeria on behalf of the judiciary"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Constitution gives the President power to appoint the INEC Chairman, but this appointment only becomes valid after the Senate confirms it. This is meant to prevent the President from acting alone on such an important office.",
+"pidgin": "Di Constitution give Oga President power to appoint INEC Chairman, but e no fit final until Senate confam am. Dis one dey make sure say President no go just dey appoint anybody anyhow.",
+"id": "govv0600",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "During a local government election in Oyo State, agents of a candidate were caught giving out cash of ₦2,000 to voters right before they entered the polling unit, on condition that they vote for their candidate. This act is best described as",
+"options": [
+"Gerrymandering",
+"Vote buying",
+"Ballot stuffing",
+"Political apathy"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Vote buying is when money or gifts are offered to voters to influence how they cast their vote. Gerrymandering is about manipulating constituency boundaries, ballot stuffing is illegally adding extra ballots, and apathy means lack of interest in voting, so none of these fit the scenario.",
+"pidgin": "Na vote buying be dis one, because dem give voters money make dem vote one candidate. Gerrymandering na about boundary wahala, ballot stuffing na when dem add fake ballot paper, and apathy na when people no wan vote at all, so dem no fit be di answer.",
+"id": "govv0601",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In a single-member constituency election using the First-Past-The-Post (simple plurality) system, three candidates contested as follows: Ade scored 42% of total votes, Bola scored 33%, and Chika scored 25%. According to this electoral system, who wins the seat?",
+"options": [
+"Ade, because he has the highest number of votes even though it is not up to 50%",
+"Bola, because the two lowest scorers' votes should be added to decide a run-off",
+"Chika, because minority candidates are protected under this system",
+"No one, because a winner must score above 50% of total votes"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Under First-Past-The-Post, the candidate with the single highest number of votes wins the seat, even if that number is less than half of all votes cast; there is no requirement for an outright majority or a run-off. This is different from systems that demand 50% plus one vote to win.",
+"pidgin": "For First-Past-The-Post system, na di candidate wey get di highest votes dey win, even if di votes no reach 50%. Dis system no need person score pass half of di total votes before e fit win, so Ade don win based on say e get di most votes.",
+"id": "govv0603",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "On election day in Nigeria, before a voter is allowed to cast his or her vote, INEC officials check the voter's details against the voter register and use a card reader to confirm identity. What is the main purpose of this accreditation exercise?",
+"options": [
+"To determine which candidate the voter supports",
+"To confirm that the voter is genuinely registered and to prevent multiple voting",
+"To collate and announce the final results of the election",
+"To campaign for candidates on behalf of political parties"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Accreditation exists to make sure only genuine, registered voters cast a ballot and that no one votes more than once. It happens before voting, not after, so it cannot be about collating results or campaigning.",
+"pidgin": "Dem dey do accreditation so dat na only people wey register well-well go fit vote, and so dat nobody go vote two times. E no be about who you support, e no be about counting result, and e no be campaign work.",
+"id": "govv0602",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:INEC now uses BVAS, not card readers, for accreditation.|"
+}
+]
+}

@@ -1,0 +1,173 @@
+{
+"subject": "government",
+"topic": "Local government",
+"ti": 11,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the term 'local government' as used in Nigerian political studies?",
+"options": [
+"A system of government at the grassroots with power to manage local affairs",
+"A branch of the police force stationed in villages",
+"An arm of the judiciary that settles land disputes",
+"A committee set up by political parties to organise elections"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Local government is the third tier of government closest to the people, given power by law to manage affairs within a defined local area such as roads, markets and primary healthcare. The other options describe unrelated institutions.",
+"pidgin": "Local government na di government wey close pass to di common people, dem get power to manage local matters like roads and market. Di oda options no relate to dat.",
+"id": "wgov1100",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "According to the 1999 Constitution of the Federal Republic of Nigeria, how many local government areas are officially recognized?",
+"options": [
+"36",
+"109",
+"360",
+"774"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The 1999 Constitution lists 774 local government areas across the 36 states and the Federal Capital Territory. 36 is the number of states, 109 is the number of senators, and 360 is the number of House of Representatives members.",
+"pidgin": "Di 1999 Constitution list 774 local government areas inside di 36 states and FCT. 36 na states, 109 na senators, 360 na House of Reps members, so dem no fit be di answer.",
+"id": "wgov1101",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In which year did Nigeria carry out the major local government reform that introduced a uniform single-tier system of local administration throughout the country?",
+"options": [
+"1966",
+"1976",
+"1979",
+"1999"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The 1976 local government reform, carried out under General Olusegun Obasanjo's military regime, created a single, uniform structure of local government across Nigeria for the first time. The other years relate to different political events such as coups and new constitutions.",
+"pidgin": "Na for 1976 Nigeria do dat big local government reform wey bring one uniform system across di whole country, under Obasanjo military government. Di oda years na different political events.",
+"id": "wgov1102",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is a major source of internally generated revenue for local governments in Nigeria?",
+"options": [
+"Petroleum profit tax",
+"Company income tax",
+"Tenement rates on buildings",
+"Import duties on goods"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Tenement rates, charged on buildings within the local area, are a common internal revenue source that local governments collect directly. Petroleum profit tax, company income tax and import duties are collected by the Federal Government.",
+"pidgin": "Tenement rate wey dem dey collect for buildings inside di local area na one common revenue source wey local government dey collect direct. Petroleum profit tax, company tax and import duty na Federal Government dey collect dem.",
+"id": "wgov1103",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The chief executive who heads the administration of a local government area in Nigeria is officially known as the?",
+"options": [
+"Commissioner",
+"Chairman",
+"Governor",
+"Minister"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Chairman is the elected head of a local government council, similar to how a governor heads a state. Commissioners and ministers serve at state and federal levels respectively, not at the local government level.",
+"pidgin": "Chairman na im be di elected head of local government council, just as governor dey head state. Commissioner and minister na for state and federal level, no be local government.",
+"id": "wgov1104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a primary function performed by local governments in Nigeria?",
+"options": [
+"Formulation of the country's foreign policy",
+"Printing and issuing of national currency",
+"Provision and maintenance of markets and motor parks",
+"Establishment of federal high courts"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Local governments are responsible for local infrastructure such as markets, motor parks, and refuse disposal because these services directly affect daily community life. Foreign policy, currency printing and federal courts are federal government responsibilities.",
+"pidgin": "Local government dey responsible for local tins like market and motor park, and refuse wey affect community every day. Foreign policy, currency and federal courts na federal government business.",
+"id": "wgov1105",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following factors is most responsible for the weak financial independence of local governments in Nigeria, despite their constitutional recognition?",
+"options": [
+"Lack of qualified staff in rural councils",
+"Low population of rural dwellers",
+"The joint account arrangement with state governments",
+"Absence of local government secretariats"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Even though local governments are recognised by the constitution and have guaranteed allocations, the joint account system allows state governments to control and sometimes withhold these funds, weakening local financial independence. The other options are minor issues compared to this structural problem.",
+"pidgin": "Even though constitution recognize local government and give dem allocation, di joint account system make state government fit control or hold di money, and dis one dey weaken local government money power. Di oda options na small issues wey no reach dis structural wahala.",
+"id": "wgov1107",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In Nigeria, local government allocations from the Federation Account are first paid into a joint account shared with the state government before being passed to the councils. This arrangement is called the?",
+"options": [
+"Consolidated Revenue Fund",
+"Contingency Fund",
+"State-Local Government Joint Account",
+"Federation Account"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The State-Local Government Joint Account is the constitutional arrangement where state governments receive and then disburse federal allocations meant for local governments. This system is often criticised because it allows states to delay or divert local government funds, limiting local autonomy.",
+"pidgin": "State-Local Government Joint Account na di arrangement wey state government dey first collect di federal money wey belong to local government before e go share am. Pipo dey criticize dis system because state fit delay or chop di money, wey go reduce local government independence.",
+"id": "wgov1106",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Blanket claim of payment through joint accounts is outdated after the 2024 Supreme Court ruling.|"
+}
+]
+}

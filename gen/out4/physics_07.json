@@ -1,0 +1,171 @@
+{
+"subject": "physics",
+"topic": "Projectiles and circular motion",
+"ti": 7,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following best defines a projectile in Physics?",
+"options": [
+"An object that moves in a straight line at constant speed under no external force",
+"An object that is given an initial velocity and thereafter moves only under the action of gravity",
+"An object that moves along a circular path with a constant centripetal force",
+"An object that remains stationary while subjected to gravitational force"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A projectile is any object launched into the air that is then acted upon only by gravity (ignoring air resistance). It follows a curved path called a trajectory.",
+"pidgin": "Projectile na any object wey dem throw go air, after that na only gravity dey work on am (we no dey count air resistance). E dey follow curve path wey dem call trajectory.",
+"py": null,
+"values": null,
+"id": "wphy0700",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidi throws a stone horizontally from the top of a cliff that is 45 m high, with an initial speed of 20 m/s. Taking g = 10 m/s^2, calculate the time it takes the stone to reach the ground.",
+"options": [
+"3.0 s",
+"1.5 s",
+"2.0 s",
+"4.5 s"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "For horizontal projection, vertical motion only depends on height and gravity: h = (1/2)g t^2. So 45 = (1/2)(10)t^2, giving t^2 = 9, t = 3.0 s. The horizontal speed does not affect the time of fall.",
+"pidgin": "For horizontal throw, na only height and gravity dey control how e take fall: h = (1/2)g t^2. So 45 = (1/2)(10)t^2, t^2 = 9, t = 3.0 s. The horizontal speed no dey change the time wey e go take land.",
+"py": "math.sqrt(2*45/10)",
+"values": [
+3.0,
+1.5,
+2.0,
+4.5
+],
+"id": "wphy0701",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A ball is projected from level ground with an initial velocity of 20 m/s at an angle of 45° to the horizontal. Taking g = 10 m/s^2, calculate the horizontal range of the ball.",
+"options": [
+"20 m",
+"50 m",
+"40 m",
+"80 m"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Range formula: R = u^2 sin(2theta)/g = (20^2)(sin90)/10 = 400(1)/10 = 40 m. At 45°, sin(2theta)=sin90=1, giving maximum range for that speed.",
+"pidgin": "Range formula na R = u^2 sin(2theta)/g = (20^2)(sin90)/10 = 400(1)/10 = 40 m. Since e be 45°, sin(2theta) = sin90 = 1, so the range reach im maximum for that speed.",
+"py": "20**2 * math.sin(math.radians(90))/10",
+"values": [
+20,
+50,
+40,
+80
+],
+"id": "wphy0702",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A car of mass 800 kg moves round a circular track of radius 50 m at a constant speed of 10 m/s. Calculate the centripetal force acting on the car.",
+"options": [
+"160 N",
+"800 N",
+"8000 N",
+"1600 N"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Centripetal force F = mv^2/r = (800 x 10^2)/50 = 800 x 100/50 = 1600 N. This force is directed towards the centre of the circular path and is provided by friction between the tyres and the road.",
+"pidgin": "Centripetal force na F = mv^2/r = (800 x 10^2)/50 = 800 x 100/50 = 1600 N. Na dis force dey point go centre of the circle, and na friction between tyre and road dey provide am.",
+"py": "800*10**2/50",
+"values": [
+160,
+800,
+8000,
+1600
+],
+"id": "wphy0703",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A stone is projected with a speed of 30 m/s at an angle of 60° to the horizontal. Taking g = 10 m/s^2, calculate the maximum height reached by the stone.",
+"options": [
+"33.75 m",
+"11.25 m",
+"22.5 m",
+"45.0 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Maximum height H = u^2 sin^2(theta)/(2g) = (30^2)(sin60)^2/20 = 900 x 0.75/20 = 33.75 m. Only the vertical component of the velocity (u sin theta) is used for the height calculation.",
+"pidgin": "Maximum height na H = u^2 sin^2(theta)/(2g) = (30^2)(sin60)^2/20 = 900 x 0.75/20 = 33.75 m. Na only the up-down part of the speed (u sin theta) dem dey use calculate the height.",
+"py": "30**2 * math.sin(math.radians(60))**2 /(2*10)",
+"values": [
+33.75,
+11.25,
+22.5,
+45.0
+],
+"id": "wphy0704",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A bucket containing water is whirled in a vertical circle of radius 1.0 m. Taking g = 10 m/s^2, calculate the minimum speed of the bucket at the topmost point of the circle so that the water does not spill out.",
+"options": [
+"1.00 m/s",
+"3.16 m/s",
+"10.0 m/s",
+"31.6 m/s"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At the top of the circle, for water not to spill, the weight of the water must supply just enough centripetal force: mg = mv^2/r, so v = sqrt(gr) = sqrt(10 x 1.0) = sqrt(10) = 3.16 m/s. Below this speed, gravity would be more than needed, and the water would fall out before completing the loop.",
+"pidgin": "For top of the circle, make water no comot, the weight of water must jus provide the centripetal force wey e need: mg = mv^2/r, so v = sqrt(gr) = sqrt(10 x 1.0) = sqrt(10) = 3.16 m/s. If speed too small pass dis, gravity go pull the water comot before e complete the loop.",
+"py": "math.sqrt(10*1.0)",
+"values": [
+1.0,
+3.16,
+10.0,
+31.6
+],
+"id": "wphy0705",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

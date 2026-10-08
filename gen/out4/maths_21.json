@@ -1,0 +1,177 @@
+{
+"subject": "maths",
+"topic": "Probability",
+"ti": 21,
+"generated": 6,
+"kept": [
+{
+"q": "A bag contains 5 red balls, 3 blue balls, and 2 green balls, all of the same size and shape. A ball is picked at random from the bag. Find the probability that the ball picked is blue.",
+"options": [
+"3/10",
+"5/10",
+"2/10",
+"7/10"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Total balls = 5 + 3 + 2 = 10. Blue balls = 3. So P(blue) = 3/10.",
+"pidgin": "Total balls na 5 + 3 + 2 = 10. Blue balls na 3. So P(blue) = 3/10.",
+"py": "Fraction(3,10)",
+"values": [
+0.3,
+0.5,
+0.2,
+0.7
+],
+"id": "wmth2100",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A fair six-sided die is thrown once. Find the probability of obtaining a number greater than 4.",
+"options": [
+"1/3",
+"2/3",
+"1/6",
+"1/2"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Numbers greater than 4 on a die are 5 and 6, that is 2 outcomes out of 6. So P = 2/6 = 1/3.",
+"pidgin": "Numbers wey pass 4 for die na 5 and 6, na 2 outcomes out of 6. So P = 2/6 = 1/3.",
+"py": "Fraction(2,6)",
+"values": [
+0.3333333333333333,
+0.6666666666666666,
+0.16666666666666666,
+0.5
+],
+"id": "wmth2101",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A basket contains 6 oranges and 4 mangoes. A fruit is picked at random and eaten, then a second fruit is picked from those remaining. Find the probability that both fruits picked are mangoes.",
+"options": [
+"2/15",
+"4/10",
+"2/9",
+"1/15"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "P(first mango) = 4/10. After removing one mango, 3 mangoes remain out of 9 fruits, so P(second mango) = 3/9. Multiply: (4/10) x (3/9) = 12/90 = 2/15.",
+"pidgin": "P(first mango) = 4/10. Wen we don remove one mango, 3 mango remain out of 9 fruits, so P(second mango) = 3/9. Multiply am: (4/10) x (3/9) = 12/90 = 2/15.",
+"py": "Fraction(4,10)*Fraction(3,9)",
+"values": [
+0.13333333333333333,
+0.4,
+0.2222222222222222,
+0.06666666666666667
+],
+"id": "wmth2102",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The probability that Chidinma will pass Mathematics is 3/5, and the probability that she will pass English Language is 2/3. If the two events are independent, find the probability that she passes both subjects.",
+"options": [
+"2/5",
+"3/5",
+"2/3",
+"1/5"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "For independent events, multiply the probabilities: P(both) = 3/5 x 2/3 = 6/15 = 2/5.",
+"pidgin": "For independent events, multiply the probabilities: P(both) = 3/5 x 2/3 = 6/15 = 2/5.",
+"py": "Fraction(3,5)*Fraction(2,3)",
+"values": [
+0.4,
+0.6,
+0.6666666666666666,
+0.2
+],
+"id": "wmth2103",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Two fair dice are thrown together once. Find the probability that the sum of the numbers that show up is 7.",
+"options": [
+"1/6",
+"1/12",
+"5/36",
+"7/36"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "There are 36 equally likely outcomes when two dice are thrown. The pairs giving a sum of 7 are (1,6),(2,5),(3,4),(4,3),(5,2),(6,1), which is 6 outcomes. So P = 6/36 = 1/6.",
+"pidgin": "36 outcomes dey wen you throw two dice together. Pairs wey go give sum of 7 na (1,6),(2,5),(3,4),(4,3),(5,2),(6,1), wey be 6 outcomes. So P = 6/36 = 1/6.",
+"py": "Fraction(6,36)",
+"values": [
+0.16666666666666666,
+0.08333333333333333,
+0.1388888888888889,
+0.19444444444444445
+],
+"id": "wmth2104",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A class has 8 boys and 7 girls. Two students are selected at random from the class to represent it at a quiz competition. Find the probability that both students selected are girls.",
+"options": [
+"1/5",
+"4/15",
+"7/15",
+"2/5"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Total ways to choose 2 students from 15 is C(15,2) = 105. Ways to choose 2 girls from 7 is C(7,2) = 21. So P = 21/105 = 1/5.",
+"pidgin": "Total ways to pick 2 students from 15 na C(15,2) = 105. Ways to pick 2 girls from 7 na C(7,2) = 21. So P = 21/105 = 1/5.",
+"py": "Fraction(math.comb(7,2), math.comb(15,2))",
+"values": [
+0.2,
+0.26666666666666666,
+0.4666666666666667,
+0.4
+],
+"id": "wmth2105",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

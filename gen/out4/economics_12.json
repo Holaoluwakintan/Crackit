@@ -1,0 +1,175 @@
+{
+"subject": "economics",
+"topic": "Financial institutions, banking and the central bank",
+"ti": 12,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following financial institutions in Nigeria has the sole legal right to issue the naira notes and coins?",
+"options": [
+"Central Bank of Nigeria",
+"First Bank of Nigeria Plc",
+"Nigerian Stock Exchange",
+"Nigeria Deposit Insurance Corporation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Only the Central Bank of Nigeria (CBN) is legally empowered to print and issue the naira as the national currency. Commercial banks, the stock exchange and NDIC do not issue currency.",
+"pidgin": "Na only Central Bank of Nigeria get the power to print naira notes and coins. Other banks like First Bank no fit do am.",
+"py": null,
+"values": null,
+"id": "weco1200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT a normal function performed by commercial banks?",
+"options": [
+"Accepting deposits from customers",
+"Granting loans and overdrafts to customers",
+"Issuing legal tender currency notes",
+"Keeping valuables safe for customers"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Issuing legal tender currency is the exclusive duty of the central bank, not commercial banks. Commercial banks accept deposits, grant loans and keep valuables safe for customers.",
+"pidgin": "To print legal tender money na central bank work, commercial bank no dey do am. Commercial bank dey collect deposit, give loan and keep valuables.",
+"py": null,
+"values": null,
+"id": "weco1201",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When the Central Bank of Nigeria provides emergency funds to a commercial bank that is short of cash to meet its customers' withdrawal demands, the central bank is acting as the",
+"options": [
+"clearing house for banks",
+"lender of last resort",
+"issuer of treasury bills",
+"regulator of foreign exchange"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When the central bank rescues a commercial bank facing a liquidity shortage by lending it money, it is performing the role of lender of last resort, a key central bank function.",
+"pidgin": "If central bank help commercial bank wey no get enough cash give am loan, na 'lender of last resort' work e dey do.",
+"py": null,
+"values": null,
+"id": "weco1202",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A financial institution that specializes in granting long-term loans to support agricultural and industrial projects, rather than accepting ordinary current account deposits, is best classified as a",
+"options": [
+"commercial bank",
+"development bank",
+"central bank",
+"bureau de change"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Development banks exist mainly to finance long-term agricultural and industrial projects, unlike commercial banks which focus on short-term deposits and loans. The central bank and bureau de change have different main roles.",
+"pidgin": "Bank wey dey give long-term loan for farming and industry na development bank, e no be like commercial bank wey dey focus on current account.",
+"py": null,
+"values": null,
+"id": "weco1203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chief Okafor deposits ₦50,000 in a savings account that pays simple interest at 6% per annum. How much interest will he earn after 2 years?",
+"options": [
+"₦3,000",
+"₦6,000",
+"₦5,000",
+"₦60,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Simple interest = Principal x Rate x Time / 100 = 50,000 x 6 x 2 / 100 = ₦6,000. This is the standard simple interest formula.",
+"pidgin": "Simple interest = Principal x Rate x Time / 100 = 50,000 x 6 x 2 / 100 = 6,000 naira.",
+"py": "50000*0.06*2",
+"values": [
+3000,
+6000,
+5000,
+60000
+],
+"id": "weco1204",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The Central Bank of Nigeria wants to reduce the volume of money in circulation in order to control rising inflation. Which monetary policy action would best achieve this goal?",
+"options": [
+"Reduce the minimum rediscount rate",
+"Increase the cash reserve ratio of commercial banks",
+"Buy government securities from the public",
+"Reduce the liquidity ratio of commercial banks"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Raising the cash reserve ratio forces commercial banks to keep more of their deposits with the central bank, leaving less money available to lend out, which reduces money supply. The other options would instead increase money supply.",
+"pidgin": "If CBN increase cash reserve ratio, banks go keep more money with CBN, so less money go dey available for them to lend out — this one go reduce money wey dey circulate.",
+"py": null,
+"values": null,
+"id": "weco1205",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A Bureau de Change buys US dollars from customers at ₦1,550 per dollar and sells to customers at ₦1,600 per dollar. If Mrs. Bello sells $500 to the Bureau de Change, how much naira will she receive?",
+"options": [
+"₦775,000",
+"₦800,000",
+"₦25,000",
+"₦1,550,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since Mrs. Bello is selling dollars to the Bureau de Change, the buying rate of ₦1,550 per dollar applies: 500 x 1,550 = ₦775,000. The selling rate of ₦1,600 is used only when customers buy dollars from the Bureau, not when they sell.",
+"pidgin": "Since Mrs. Bello dey sell dollar give Bureau de Change, na the buying rate ₦1,550 go apply: 500 x 1,550 = ₦775,000. ₦1,600 na for when customer wan buy dollar, no be sell.",
+"py": "500*1550",
+"values": [
+775000,
+800000,
+25000,
+1550000
+],
+"id": "weco1206",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

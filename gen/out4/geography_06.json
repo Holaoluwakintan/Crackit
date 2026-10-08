@@ -1,0 +1,163 @@
+{
+"subject": "geography",
+"topic": "Climate types and natural vegetation",
+"ti": 6,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following is the major natural vegetation type found in the equatorial rainforest belt of southern Nigeria, where trees usually form three distinct canopy layers (storeys)?",
+"options": [
+"Tropical rainforest",
+"Guinea savanna",
+"Sudan savanna",
+"Sahel vegetation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The equatorial rainforest has tall evergreen trees arranged in layers (upper, middle and lower storeys) due to high rainfall and temperature all year round. Guinea, Sudan and Sahel vegetation are savanna types found further north with less rainfall.",
+"pidgin": "Equatorial rainforest get big tall trees wey dey arrange for layers (storeys) because rain plus heat plenty throughout the year. Guinea, Sudan and Sahel na savanna wey dey north where rain no too plenty.",
+"py": null,
+"values": null,
+"id": "wgeo0600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A region in West Africa has annual rainfall of about 1500mm to 2000mm, well distributed throughout the year with no marked dry season, and mean monthly temperature of about 26°C all year round. Which climate type does this describe?",
+"options": [
+"Sudan climate",
+"Equatorial climate",
+"Mediterranean climate",
+"Steppe (Sahel) climate"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "High, well-distributed rainfall with no clear dry season and constant warm temperature is typical of the equatorial climate, found in places like the Niger Delta. The other climates all have a marked dry season.",
+"pidgin": "Plenty rain wey dey fall well-well throughout the year with no serious dry season, plus steady hot weather, na equatorial climate like we see for Niger Delta. The other climates get clear dry season.",
+"py": null,
+"values": null,
+"id": "wgeo0601",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best describes the rainfall pattern of the Sahel (Sudan-Sahel) climate region of West Africa?",
+"options": [
+"Rainfall throughout the year with no dry season",
+"Two distinct wet seasons separated by two dry seasons",
+"A short rainy season of about 3 to 4 months followed by a long dry season",
+"Rainfall occurs mainly in winter with dry summers"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Sahel lies far from the sea and the ITD only reaches it briefly, giving a short wet season of 3-4 months and a long dry season for the rest of the year. The other options describe equatorial or Mediterranean patterns, not the Sahel.",
+"pidgin": "Sahel dey far from sea, so rain only dey fall small time (3-4 months) then long dry season follow. The other options na equatorial or Mediterranean pattern, no be Sahel own.",
+"py": null,
+"values": null,
+"id": "wgeo0602",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "As one travels from the coast of Nigeria northward towards the Sahara Desert, which of the following correctly shows the order of natural vegetation belts encountered?",
+"options": [
+"Rainforest, Guinea savanna, Sudan savanna, Sahel savanna",
+"Sahel savanna, Sudan savanna, Guinea savanna, Rainforest",
+"Guinea savanna, Rainforest, Sudan savanna, Sahel savanna",
+"Sudan savanna, Rainforest, Guinea savanna, Sahel savanna"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Rainfall decreases as one moves from the coast northward, so vegetation changes from rainforest near the coast, through Guinea savanna, Sudan savanna, to Sahel savanna near the Sahara. This order matches the decreasing rainfall pattern of Nigeria.",
+"pidgin": "Rain dey reduce as you dey move from coast go north, so vegetation go change from rainforest near coast, pass Guinea savanna, Sudan savanna, reach Sahel savanna near Sahara. Na the rain pattern cause am.",
+"py": null,
+"values": null,
+"id": "wgeo0603",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The equatorial climate region typically experiences two rainfall maxima (peaks) in a year. What is the main reason for this pattern?",
+"options": [
+"The region receives moist winds from two different oceans at the same time",
+"The overhead sun (and the Inter-Tropical Discontinuity) passes over the region twice a year, around April and October",
+"The region is surrounded by mountains that cause orographic rainfall twice a year",
+"Ocean currents along the coast change direction twice a year"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The sun appears to move between the Tropics of Cancer and Capricorn, crossing the equator around the equinoxes (March/April and September/October). Each time it is overhead, it drags the ITD and heavy convectional rain with it, giving two rainfall peaks. The other options are not the actual cause of this pattern.",
+"pidgin": "Sun dey waka between Tropic of Cancer and Capricorn, e dey cross equator for March/April and September/October. Any time e dey overhead, e dey carry ITD and heavy rain come, so na why peak rain dey show twice. The other options no be the real reason.",
+"py": null,
+"values": null,
+"id": "wgeo0604",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Kano lies in the Sudan savanna interior of Nigeria while Lagos lies in the equatorial coastal belt. Which statement correctly compares their annual temperature ranges and gives the right reason?",
+"options": [
+"Kano has a higher annual temperature range than Lagos because it is far from the moderating influence of the sea",
+"Lagos has a higher annual temperature range than Kano because it is nearer to the equator",
+"Both cities have the same annual temperature range because they are in the same country",
+"Kano has a lower annual temperature range than Lagos because it lies near the desert margin"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Lagos, being coastal, has its temperature moderated by sea breezes, giving a small annual range. Kano, deep inland, lacks this moderating effect, so it experiences much hotter days and cooler nights/harmattan periods, giving a wider annual temperature range.",
+"pidgin": "Lagos dey near sea, so sea breeze dey cool the weather, e no get wide range of temperature. Kano dey far inside land, no sea to cool am, so e get hot day and cold harmattan night, wey make the range wide pass Lagos own.",
+"py": null,
+"values": null,
+"id": "wgeo0605",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best describes the Mediterranean type of climate found along parts of the North African coast (such as northern Morocco and Tunisia)?",
+"options": [
+"Hot wet summers and cool dry winters",
+"Warm dry summers and mild wet winters",
+"Uniformly hot and wet throughout the year",
+"Cold dry summers and hot wet winters"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Mediterranean climate is known for warm, dry summers caused by subtropical high pressure, and mild, wet winters when the westerlies and low pressure systems bring rain. This is the opposite of the equatorial pattern of year-round heat and rain.",
+"pidgin": "Mediterranean climate get warm dry summer (because of high pressure) and mild wet winter (because of westerlies and rain). E different from equatorial wey hot and wet dey throughout the year.",
+"py": null,
+"values": null,
+"id": "wgeo0606",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

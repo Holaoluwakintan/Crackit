@@ -1,0 +1,209 @@
+{
+"subject": "literature",
+"topic": "Drama: types (tragedy, comedy, tragicomedy, farce)",
+"ti": 3,
+"generated": 10,
+"kept": [
+{
+"q": "In drama, a 'tragedy' is best described as a play that mainly presents:",
+"options": [
+"A hero's serious downfall often caused by a flaw or fate, ending in suffering or death",
+"A light story filled with jokes and happy endings",
+"A mixture of serious and funny scenes with no clear ending",
+"Exaggerated actions meant only to make the audience laugh"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Tragedy centres on a hero's serious downfall, often due to a tragic flaw, fate, or circumstances beyond control, usually ending in death or great suffering. The other options describe comedy or farce, not tragedy.",
+"pidgin": "Tragedy na play wey dey show how hero fall down well-well, sometimes because of im own mistake or because of fate, and e dey end for suffer or death. The other options na comedy or farce dem dey talk about.",
+"id": "wlit0300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is a major feature that distinguishes comedy from tragedy in drama?",
+"options": [
+"Comedy always involves kings and queens as main characters",
+"Comedy ends happily and is meant to entertain and amuse the audience",
+"Comedy must have five full acts like classical tragedy",
+"Comedy always uses only prose, never verse"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Comedy is generally light-hearted, humorous, and ends on a happy note, unlike tragedy which ends in sorrow or death. The other options are not true requirements of comedy.",
+"pidgin": "Comedy na play wey dey light and funny, e dey end well-well make people laugh, no be like tragedy wey dey end for sorrow. Di order options no be real rule for comedy.",
+"id": "wlit0301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A 'tragicomedy' in drama can be correctly described as a play that:",
+"options": [
+"Only makes the audience cry from beginning to end",
+"Combines serious, sorrowful elements with comic or happy elements in one plot",
+"Has no plot at all, just random jokes",
+"Must always be performed by children"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Tragicomedy blends the serious tone of tragedy with the light, happy tone of comedy, often moving from danger or sadness to a happy resolution. The other options do not reflect this mixed nature.",
+"pidgin": "Tragicomedy na play wey mix serious and sad matter with comedy and happy ending for one story. The other options no tally with wetin tragicomedy mean.",
+"id": "wlit0302",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Farce is a type of drama that is mainly known for:",
+"options": [
+"Deep psychological study of a noble hero's suffering",
+"Serious political speeches and long philosophical arguments",
+"Exaggerated situations, physical comedy, and highly improbable events meant to cause laughter",
+"Strict following of real-life events without exaggeration"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Farce relies on exaggerated, improbable situations, slapstick, and absurd misunderstandings purely to entertain and provoke laughter. It does not focus on deep tragedy or realistic, serious events.",
+"pidgin": "Farce na kain drama wey dey use too-much exaggeration, funny wahala and action wey no fit happen for real life just make people laugh. E no be about serious tragedy or real-life wahala.",
+"id": "wlit0303",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a certain play, Chief Dapo Alade, a wealthy but proud businessman in Lagos, refuses to listen to warnings about a dangerous business deal. His pride leads to his downfall, loss of wealth, and eventually his death from shock. Which type of drama does this plot best represent?",
+"options": [
+"Farce",
+"Comedy",
+"Tragedy",
+"Tragicomedy"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Chief Dapo's downfall is caused by his own pride (a tragic flaw), leading to suffering and death, which are the key features of tragedy. There is no comic relief or happy resolution to make it comedy or tragicomedy.",
+"pidgin": "Chief Dapo im pride na im bring im downfall, e suffer and die at the end, and dis one na wetin dey show inside tragedy. No comedy or happy ending dey make am comedy or tragicomedy.",
+"id": "wlit0304",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which statement correctly describes one key difference between comedy and farce?",
+"options": [
+"Comedy usually has believable characters and situations, while farce depends heavily on exaggeration and absurd coincidences",
+"Farce always ends in the death of the main character while comedy never does",
+"Comedy is only written in verse while farce is only written in prose",
+"Farce must contain a tragic hero while comedy must not"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Comedy, though humorous, usually keeps characters and events fairly believable, while farce exaggerates situations to an absurd, often unrealistic level purely for laughter. The other options are incorrect generalisations.",
+"pidgin": "Comedy dey use character and gist wey fit happen for real life, but farce dey blow matter big-big and unrealistic just to make people laugh. The other options no correct at all.",
+"id": "wlit0305",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A play shows a market woman, Mama Nkechi, who loses her entire goods to flood but later laughs with her neighbours as they help her start afresh, turning sorrow into hope by the final scene. Which dramatic type best fits this plot structure?",
+"options": [
+"Pure farce",
+"Tragedy",
+"Tragicomedy",
+"Pure comedy with no serious elements"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The play mixes a serious, sorrowful event (loss of goods) with a hopeful, community-supported resolution, which is the hallmark of tragicomedy. It is not pure tragedy because it ends in hope, and not pure comedy because it begins with real loss and sorrow.",
+"pidgin": "Di play mix serious sorrow (wen she lose her goods) with better ending (community help her), and dat one na tragicomedy style. E no be pure tragedy because di ending good, e no be pure comedy because sorrow dey inside too.",
+"id": "wlit0306",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best explains why classical tragedies often feature a hero of high social rank, such as a king or chief?",
+"options": [
+"To make the play shorter and easier to stage",
+"To show that only poor people experience suffering",
+"So that the hero's downfall affects not just himself but also his family, followers, or kingdom, making the loss feel greater",
+"Because comedy does not allow for any character of high rank"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A tragic hero of high status has far-reaching influence, so his fall creates wide-reaching consequences for his people, intensifying the tragic effect on the audience. The other options are not accurate explanations of this convention.",
+"pidgin": "When big person like king fall, e no just affect am alone, e dey affect im family, followers and even kingdom, so di tragedy go hit pass. Di other options no explain the reason well.",
+"id": "wlit0307",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In drama, 'comic relief' refers to:",
+"options": [
+"A long speech that ends a tragedy on a happy note",
+"A funny scene or character inserted into a serious play to momentarily ease tension before the plot returns to seriousness",
+"The main plot of every farce",
+"A rule that says comedies must always be shorter than tragedies"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Comic relief is a technique where a humorous moment is placed within a serious or tragic play to give the audience a short break from tension. It does not change the overall serious nature of the play.",
+"pidgin": "Comic relief na when dem put funny scene or character inside serious play make audience rest small before di serious matter continue. E no dey change di general serious tone of di play.",
+"id": "wlit0308",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A short scene shows two servants mistakenly swapping identical boxes meant for their masters, leading to a chain of ridiculous misunderstandings, slamming doors, and chasing around the stage, all resolved by sheer coincidence rather than careful planning. This scene is a clear example of:",
+"options": [
+"Tragedy",
+"Farce",
+"Tragicomedy",
+"Realistic drama"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The exaggerated confusion, physical chasing, slamming doors, and resolution by mere coincidence rather than logical plot development are classic features of farce. There is no serious tragic element or realistic plausibility here to suggest the other options.",
+"pidgin": "Di mistake, di dey-run-up-and-down, di door wey dey bang, and how everything settle by luck instead of plan na clear sign of farce. No serious or real-life matter dey inside to call am tragedy or realistic drama.",
+"id": "wlit0309",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,116 @@
+{
+"subject": "english",
+"topic": "Antonyms: word opposite in meaning to the underlined word (mark the target word in CAPITALS in the sentence)",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: During the rainy season, food crops are usually ABUNDANT in the markets of eastern Nigeria.",
+"options": [
+"scarce",
+"plentiful",
+"surplus",
+"available"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "ABUNDANT means existing in large quantity. The opposite is 'scarce', which means not enough or in short supply.",
+"pidgin": "ABUNDANT mean say e plenty well well. The opposite be 'scarce', wey mean say e no plenty or e dey hard to see.",
+"id": "engv0100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: The auditor was METICULOUS in checking every entry in the company's account books.",
+"options": [
+"thorough",
+"careless",
+"precise",
+"exact"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "METICULOUS means very careful and paying close attention to detail. 'Careless' means lacking attention or not being careful, which is the opposite.",
+"pidgin": "METICULOUS mean say person dey very careful well well for small small detail. 'Careless' mean say person no dey careful at all, so na the opposite.",
+"id": "engv0101",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: The weather at the beach in Lagos was TRANQUIL throughout our visit.",
+"options": [
+"serene",
+"calm",
+"turbulent",
+"peaceful"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "TRANQUIL means calm and peaceful, without disturbance. 'Turbulent' means stormy or full of disorder, which is the direct opposite.",
+"pidgin": "TRANQUIL mean say e calm and peaceful, no wahala. 'Turbulent' mean say e rough and get plenty confusion, na so e be opposite.",
+"id": "engv0102",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: Despite several warnings, the OBSTINATE driver refused to obey the traffic rules.",
+"options": [
+"stubborn",
+"adamant",
+"headstrong",
+"compliant"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "OBSTINATE describes someone who refuses to change their mind or behaviour even when advised. 'Compliant' means willing to obey or follow rules, which is the opposite behaviour.",
+"pidgin": "OBSTINATE mean say person no wan change im mind even if dem advise am. 'Compliant' mean say person dey ready to follow rule, na so e be di opposite.",
+"id": "engv0103",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: Mrs. Adeyemi's FRUGAL lifestyle helped her save enough money to build a house in Ibadan.",
+"options": [
+"extravagant",
+"thrifty",
+"economical",
+"prudent"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "FRUGAL means careful with money and avoiding waste. 'Extravagant' means spending money carelessly or more than necessary, which is the opposite.",
+"pidgin": "FRUGAL mean say person dey use money well, no waste am. 'Extravagant' mean say person dey waste money anyhow, na so e be di opposite.",
+"id": "engv0104",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: The museum in Benin City displayed many ANCIENT artifacts from the old kingdom.",
+"options": [
+"antique",
+"modern",
+"historic",
+"old"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "ANCIENT means belonging to a very distant past time. 'Modern' means belonging to the present time, which is the opposite meaning.",
+"pidgin": "ANCIENT mean say e dey from old old time wey don pass. 'Modern' mean say e dey from present time now, na so e be di opposite.",
+"id": "engv0105",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

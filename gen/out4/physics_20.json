@@ -1,0 +1,156 @@
+{
+"subject": "physics",
+"topic": "Atomic and nuclear physics (radioactivity, half-life)",
+"ti": 20,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following best describes the nature of an alpha particle emitted during radioactive decay?",
+"options": [
+"A fast-moving electron with negative charge",
+"A helium nucleus made up of 2 protons and 2 neutrons",
+"An electromagnetic wave with no mass and no charge",
+"A neutral particle with no mass and no charge"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An alpha particle is identical to the nucleus of a helium atom, containing 2 protons and 2 neutrons, giving it a charge of +2 and a mass number of 4. This makes it heavier and less penetrating than beta or gamma radiation.",
+"pidgin": "Alpha particle be like helium nucleus wey get 2 protons and 2 neutrons inside am. E get +2 charge and e no fit waka far pass paper or skin, unlike beta and gamma rays.",
+"py": null,
+"values": null,
+"id": "wphy2000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the study of radioactivity, the half-life of a radioactive substance is best defined as the time taken for:",
+"options": [
+"all the atoms in the sample to decay completely",
+"the mass of the sample to double in size",
+"half of the radioactive atoms in the sample to decay",
+"the radiation from the sample to disappear totally"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Half-life is a fixed, measurable period during which exactly half of the radioactive nuclei present in a sample decay into another element. It never refers to complete decay, since radioactive decay theoretically never reaches zero.",
+"pidgin": "Half-life na the time wey half of the radioactive atoms inside sample go don decay finish. E no mean say everything go finish decay, na only half.",
+"py": null,
+"values": null,
+"id": "wphy2001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Three types of radiation - alpha, beta and gamma - are compared for their ability to pass through a thick sheet of lead. Which type of radiation has the greatest penetrating power and can pass through several centimetres of lead?",
+"options": [
+"Alpha radiation",
+"Beta radiation",
+"Gamma radiation",
+"Neutron radiation from decay"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Gamma rays are high-energy electromagnetic waves with no mass or charge, which allows them to penetrate deeply through dense materials like lead. Alpha particles are stopped by paper, while beta particles are stopped by a few millimetres of aluminium.",
+"pidgin": "Gamma rays no get mass or charge, na pure energy wave, so e fit waka pass thick lead sheet. Alpha dey stop by paper, beta dey stop by small aluminium sheet.",
+"py": null,
+"values": null,
+"id": "wphy2003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A radioactive isotope decays such that only 1/8 of the original number of atoms remains after 24 hours. What is the half-life of the isotope?",
+"options": [
+"8 hours",
+"24 hours",
+"3 hours",
+"12 hours"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "1/8 equals (1/2)^3, so 3 half-lives have passed in 24 hours. Dividing 24 hours by 3 gives a half-life of 8 hours. Checking: after 8 hrs, 1/2 remains; after 16 hrs, 1/4; after 24 hrs, 1/8 remains, which matches the question.",
+"pidgin": "1/8 na (1/2) raise to 3, so na 3 half-lives dey inside the 24 hours. 24 divide by 3 give 8 hours as half-life. If you check: 8hrs=1/2, 16hrs=1/4, 24hrs=1/8, e correct.",
+"py": "24/3",
+"values": [
+8,
+24,
+3,
+12
+],
+"id": "wphy2004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A radioactive nuclide X has a mass number of 238 and an atomic number of 92. It emits a single alpha particle to form a new nuclide Y. What are the mass number and atomic number of Y respectively?",
+"options": [
+"234 and 90",
+"234 and 92",
+"238 and 90",
+"236 and 90"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "An alpha particle has a mass number of 4 and atomic number of 2. So the new mass number is 238 - 4 = 234, and the new atomic number is 92 - 2 = 90. This matches the pattern for alpha decay in nuclear equations.",
+"pidgin": "Alpha particle get mass number 4 and atomic number 2. So new mass number na 238 minus 4 = 234, and new atomic number na 92 minus 2 = 90. Na so alpha decay dey work for nuclear equation.",
+"py": null,
+"values": null,
+"id": "wphy2005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A sample of radioactive cobalt-60 used in a hospital in Enugu has a half-life of 10 days. If the initial mass of the sample is 80 g, what mass of the sample remains after 30 days?",
+"options": [
+"40 g",
+"20 g",
+"10 g",
+"5 g"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "30 days contains 30/10 = 3 half-lives. The mass remaining is 80 x (1/2)^3 = 80 x 1/8 = 10 g. Each half-life halves the previous remaining mass: 80 to 40 to 20 to 10 g.",
+"pidgin": "30 days na 3 half-lives (30 divide by 10). So mass wey remain na 80 x (1/2) raise to 3 = 10 g. Na step by step halving: 80, 40, 20, 10.",
+"py": "80*(1/2)**3",
+"values": [
+40,
+20,
+10,
+5
+],
+"id": "wphy2002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Co-60 actually has a half-life of about 5.27 years; C follows the stated 10 days.|"
+}
+]
+}

@@ -1,0 +1,167 @@
+{
+"subject": "commerce",
+"topic": "Advertising and marketing",
+"ti": 11,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines advertising?",
+"options": [
+"A paid form of non-personal communication about goods and services aimed at a target audience",
+"A face-to-face discussion between a seller and a single buyer",
+"The physical movement of goods from the factory to the warehouse",
+"The process of packaging goods for sale in the market"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Advertising is a paid, non-personal way of informing or persuading people about goods and services. It is not direct personal selling, transportation, or packaging.",
+"pidgin": "Advertising na paid message wey no be face-to-face, e dey tell people about goods and services. E no be personal selling, transport, or packaging.",
+"py": null,
+"values": null,
+"id": "wcom1100",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is NOT a function of advertising?",
+"options": [
+"Creating awareness of a new product",
+"Educating consumers about product usage",
+"Setting the exact market price that all sellers must charge",
+"Reminding consumers of an existing brand"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Advertising informs, educates, and reminds consumers, but it does not fix or control the exact price every seller must charge. Pricing decisions are separate from the advertising function.",
+"pidgin": "Advertising dey create awareness, educate and remind people about product, but e no dey fix the exact price wey all sellers go charge. Pricing na different matter from advertising.",
+"py": null,
+"values": null,
+"id": "wcom1103",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A manufacturer of bottled drinks in Kano wants an advertising medium that can combine sound, pictures, and movement to demonstrate how the drink is poured and enjoyed, reaching millions of households at once. Which medium is most suitable?",
+"options": [
+"Handbill",
+"Newspaper advertisement",
+"Television",
+"Poster on a shop wall"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Television combines sound, moving pictures, and wide reach, making it ideal for demonstrating a product dynamically to many households. Handbills, newspapers, and posters are static and cannot show movement or sound.",
+"pidgin": "Television get sound, moving pictures and e dey reach plenty houses, so e good well-well to show how to pour and enjoy the drink. Handbill, newspaper and poster no fit show movement or make sound.",
+"py": null,
+"values": null,
+"id": "wcom1105",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A new biscuit company spends heavily on advertising but experiences only a small, temporary rise in sales because most consumers in the area already have strong brand loyalty to an older, well-established biscuit brand. This situation best illustrates which limitation of advertising?",
+"options": [
+"Advertising always guarantees an immediate large increase in sales",
+"Advertising can create brand awareness but cannot force consumers to abandon strong existing brand loyalty",
+"Advertising is illegal when a stronger competitor exists in the market",
+"Advertising automatically reduces the price of the advertised product"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Advertising can inform people about a product, but it cannot force consumers to switch from a brand they are already strongly loyal to; change in buying habits often takes more time and other strategies. The other options are false statements about advertising.",
+"pidgin": "Advertising fit tell people about product, but e no fit force people to comot from brand wey dem don already dey loyal to; to change people mind fit take time and other strategy. The other options no correct at all.",
+"py": null,
+"values": null,
+"id": "wcom1106",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Chidinma wants to promote her new pepper-grinding machine to housewives in her community using a method that allows her to speak directly to each customer and answer their questions on the spot. Which promotional method is she using?",
+"options": [
+"Personal selling",
+"Outdoor billboard advertising",
+"Sales promotion through coupons",
+"Publicity in a newspaper",
+""
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Personal selling involves direct, face-to-face interaction between the seller and buyer, allowing immediate answers to questions. Billboards, coupons, and publicity do not involve this direct two-way personal contact.",
+"pidgin": "Personal selling na when seller dey talk face-to-face with customer and dey answer questions immediately. Billboard, coupon and publicity no get that kind direct contact.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A soap manufacturer in Aba prints the words 'Buy one, get one free this Christmas' on radio jingles for two weeks. This is an example of which element of promotion?",
+"options": [
+"Sales promotion",
+"Personal selling",
+"Public relations",
+"Market research"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Sales promotion includes short-term incentives like 'buy one get one free' to boost sales quickly. It is different from personal selling, public relations, or research activities.",
+"pidgin": "Sales promotion na short-time offer like 'buy one get one free' wey dey push people to buy quick quick. E no be personal selling, public relations or market research.",
+"py": null,
+"values": null,
+"id": "wcom1102",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Words cannot be printed on radio jingles.|Stem says words are 'printed' on radio jingles, which is impossible; radio is also an advertising medium"
+},
+{
+"q": {
+"q": "A trader in Onitsha main market sells rice directly to final consumers from an open stall without using any middleman such as a wholesaler or retailer agent. This describes which marketing channel?",
+"options": [
+"Producer to wholesaler to retailer to consumer",
+"Producer to agent to consumer",
+"Producer directly to consumer",
+"Producer to wholesaler to consumer"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When goods move straight from the producer or trader to the final consumer with no middleman involved, it is a direct channel: producer to consumer. The other options all involve at least one middleman.",
+"pidgin": "When goods dey move straight from producer to final consumer without any middleman, na direct channel: producer to consumer. The other options get one middleman or the other.",
+"py": null,
+"values": null,
+"id": "wcom1104",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Trader is not stated to be the producer.|A market trader is a retailer, not a producer, so 'producer directly to consumer' does not strictly fit"
+}
+]
+}

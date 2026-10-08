@@ -1,0 +1,149 @@
+{
+"subject": "civic",
+"topic": "Human rights and their protection",
+"ti": 3,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines human rights?",
+"options": [
+"Privileges given by government only to loyal citizens",
+"Basic entitlements that belong to every person simply because they are human",
+"Special rewards given to citizens who obey all laws",
+"Benefits that are reserved only for working-class citizens"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Human rights are natural entitlements that every person has simply by being human, not favours granted by government. They are universal and not tied to employment or obedience to law.",
+"pidgin": "Human rights na basic things wey every human being get just because dem be human, e no be favour wey government dey give to only people wey dem like. Na everybody get am, no condition dey attach to am.",
+"id": "wciv0300",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the 1999 Constitution of the Federal Republic of Nigeria (as amended), the Fundamental Human Rights of citizens are contained in which Chapter?",
+"options": [
+"Chapter I",
+"Chapter II",
+"Chapter III",
+"Chapter IV"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Chapter IV of the 1999 Constitution (Sections 33 to 46) specifically lists and protects the Fundamental Human Rights of every Nigerian, such as the right to life, dignity and fair hearing.",
+"pidgin": "Chapter IV of the 1999 Constitution na im get all the Fundamental Human Rights, from Section 33 to 46, like right to life, dignity and fair hearing.",
+"id": "wciv0301",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is an example of a civil right, as opposed to a political right?",
+"options": [
+"The right to vote during an election",
+"The right to contest for a public office",
+"The right to a fair hearing before a court of law",
+"The right to register and belong to a political party"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Civil rights protect a person's basic freedom and justice, such as the right to fair hearing. Voting, contesting elections and joining political parties are political rights that concern participation in government.",
+"pidgin": "Civil right na im dey protect person freedom and justice, like right to fair hearing. But voting, contesting election and joining political party na political rights wey dey concern how person take take part for government.",
+"id": "wciv0302",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which Nigerian government agency was specifically established to combat the trafficking of persons, especially women and children, for forced labour and prostitution?",
+"options": [
+"Economic and Financial Crimes Commission (EFCC)",
+"Independent Corrupt Practices Commission (ICPC)",
+"National Agency for the Prohibition of Trafficking in Persons (NAPTIP)",
+"National Drug Law Enforcement Agency (NDLEA)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "NAPTIP was set up by law in Nigeria mainly to investigate and prosecute cases of human trafficking and to support victims. EFCC deals with financial crimes, ICPC with corruption, and NDLEA with illegal drugs.",
+"pidgin": "NAPTIP na the agency wey Nigeria government set up to fight human trafficking, especially for women and children. EFCC na for financial crime, ICPC na for corruption, NDLEA na for drug matter.",
+"id": "wciv0303",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During a state of emergency declared because of violent clashes in a town, the government imposed a dusk-to-dawn curfew that restricted people from moving about at night. Which right is being legally limited by this action?",
+"options": [
+"Freedom of movement",
+"Right to life",
+"Freedom from torture",
+"Right to dignity of the human person"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A curfew directly restricts people's freedom of movement, which the law allows the government to limit temporarily for public safety during an emergency. Rights like the right to life and freedom from torture cannot be taken away even in emergencies.",
+"pidgin": "Curfew na im dey restrict people movement, and law allow government to limit dis kind right small-small when emergency happen for public safety. But rights like right to life and freedom from torture no fit cancel even for emergency.",
+"id": "wciv0304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Udoh was arrested by the police and kept in detention for five days without being told the reason for his arrest or taken to court. Which of his fundamental rights has been violated?",
+"options": [
+"Right to private and family life",
+"Right to personal liberty",
+"Right to freedom of association",
+"Right to freedom of thought and religion"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The right to personal liberty requires that a person be told the reason for arrest promptly and be brought to court within a reasonable time. Keeping Mr. Udoh for five days without charge or explanation breaches this right.",
+"pidgin": "Right to personal liberty mean say dem must tell person why dem arrest am sharp-sharp and carry am go court within reasonable time. Since dem keep Mr. Udoh for five days without tell am anything or carry am go court, na im personal liberty dem violate.",
+"id": "wciv0305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A government shut down a private radio station after it broadcast a message that incited ethnic violence in a community. This action by the government is best described as an example of what?",
+"options": [
+"Total enjoyment of absolute rights by all citizens",
+"Limitation of rights in the interest of public order",
+"Complete abolition of fundamental rights in the country",
+"Derogation of rights that only applies during war time"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Freedom of expression is not absolute; the law allows it to be limited where its exercise threatens public order, safety or the rights of others. This is a lawful limitation, not a total removal or war-time derogation of rights.",
+"pidgin": "Freedom of expression no be absolute right; law fit limit am if e go cause wahala for public order or safety. Na lawful limitation be dis, e no mean say dem don cancel the right completely or say na only for war time e dey apply.",
+"id": "wciv0306",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

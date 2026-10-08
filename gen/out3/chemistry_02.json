@@ -1,0 +1,111 @@
+{
+"subject": "chemistry",
+"topic": "Atomic structure, isotopes and electron configuration",
+"generated": 4,
+"kept": [
+{
+"q": "An atom of element Q has a mass number of 31 and contains 16 neutrons. How many electrons are present in a neutral atom of Q?",
+"options": [
+"16",
+"15",
+"31",
+"46"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Number of protons = mass number - neutrons = 31 - 16 = 15. In a neutral atom, electrons equal protons, so there are 15 electrons.",
+"pidgin": "Protons = mass number minus neutrons = 31 - 16 = 15. Since the atom no get charge, electrons go equal protons, na 15.",
+"py": "31-16",
+"values": [
+16,
+15,
+31,
+46
+],
+"id": "chev0200",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Chlorine has atomic number 17. Which of the following electron configurations correctly represents a chlorine atom in its ground state?",
+"options": [
+"1s2 2s2 2p6 3s2 3p4",
+"1s2 2s2 2p5 3s2 3p6",
+"1s2 2s2 2p6 3s2 3p5",
+"1s2 2s2 2p6 3s2 3p6 3d1"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Chlorine has 17 electrons. Filling in order: 1s2(2) + 2s2(2) + 2p6(6) + 3s2(2) + 3p5(5) = 17 electrons, matching the aufbau order with no d-electrons needed yet.",
+"pidgin": "Chlorine get 17 electrons. If you fill am well-well: 1s2 + 2s2 + 2p6 + 3s2 + 3p5 go give you 2+2+6+2+5 = 17. Na dis one dey correct, no need for 3d yet.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "chev0201",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "An element M has two naturally occurring isotopes: one with mass number 69 and the other with mass number 71, present in the ratio 3:2 respectively. Calculate the relative atomic mass of M to one decimal place.",
+"options": [
+"69.8",
+"70.0",
+"69.4",
+"70.4"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Relative atomic mass = (69x3 + 71x2)/(3+2) = (207+142)/5 = 349/5 = 69.8. This weighted average accounts for the different abundances of each isotope.",
+"pidgin": "You go multiply each mass number by im ratio, add dem together, then divide by total ratio: (69x3 + 71x2)/5 = 349/5 = 69.8. Na dis weighted average be the relative atomic mass.",
+"py": "(69*3+71*2)/5",
+"values": [
+69.8,
+70.0,
+69.4,
+70.4
+],
+"id": "chev0202",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A calcium atom (atomic number 20) has the ground-state electron configuration 1s2 2s2 2p6 3s2 3p6 4s2. How many electrons occupy the principal shell with n = 3?",
+"options": [
+"2",
+"10",
+"18",
+"8"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The n=3 shell contains the 3s and 3p subshells only, since 3d is empty in calcium's ground state (the 4s fills first). So electrons in n=3 are 3s2 + 3p6 = 2+6 = 8.",
+"pidgin": "Na only 3s and 3p dey inside n=3 shell for calcium, 3d still empty because 4s fill first. So electrons wey dey n=3 na 3s2 + 3p6 = 2+6 = 8.",
+"py": "2+6",
+"values": [
+2,
+10,
+18,
+8
+],
+"id": "chev0203",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

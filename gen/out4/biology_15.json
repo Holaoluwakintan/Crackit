@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Ecology: ecosystems, food chains and energy flow",
+"ti": 15,
+"generated": 6,
+"kept": [
+{
+"q": "Which term describes a community of living organisms interacting with each other and with their non-living (physical) environment, functioning together as a unit?",
+"options": [
+"Population",
+"Habitat",
+"Ecosystem",
+"Biosphere"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "An ecosystem is made up of living organisms (biotic factors) and the non-living environment (abiotic factors) interacting together. A habitat is just where an organism lives, while a population is a group of the same species. The biosphere is the whole part of the Earth that supports life.",
+"pidgin": "Ecosystem na when living tins and the environment dem dey work together as one unit. Habitat na just where animal dey stay, population na only one kind animal, biosphere na the whole world wey get life.",
+"id": "wbio1500",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a farmland food chain in a village near Enugu: maize plant -> grasshopper -> lizard -> hawk, which organism is the primary consumer?",
+"options": [
+"Grasshopper",
+"Maize plant",
+"Lizard",
+"Hawk"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The maize plant is the producer because it makes its own food. The grasshopper feeds directly on the maize, so it is the primary consumer. The lizard that eats the grasshopper is the secondary consumer, and the hawk is the tertiary consumer.",
+"pidgin": "Maize na producer because e dey make im own food. Grasshopper na the one wey dey chop the maize direct, so na im be primary consumer. Lizard na secondary consumer, hawk na tertiary consumer.",
+"id": "wbio1501",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During energy flow in an ecosystem, only about 10% of the energy at one trophic level is passed on to the next level, the rest is lost as heat and through respiration. If producers in a Niger Delta swamp forest contain 20,000 kJ of energy, how much energy would be available to the secondary consumers?",
+"options": [
+"20,000 kJ",
+"2,000 kJ",
+"20 kJ",
+"200 kJ"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Producers (20,000 kJ) pass 10% to primary consumers: 20,000 x 10/100 = 2,000 kJ. Primary consumers then pass 10% to secondary consumers: 2,000 x 10/100 = 200 kJ. So secondary consumers get 200 kJ.",
+"pidgin": "Producer get 20,000 kJ, 10% of am go reach primary consumer: 20,000 x 10/100 = 2,000 kJ. Then 10% of the 2,000 kJ go reach secondary consumer: 2,000 x 10/100 = 200 kJ.",
+"id": "wbio1502",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following correctly describes how energy flows through an ecosystem?",
+"options": [
+"Energy flows from consumers back to producers in a complete cycle",
+"Energy flows in one direction, from producers to consumers, with some energy lost as heat at each stage",
+"Energy flow is equal at every trophic level without any loss",
+"Energy is reused repeatedly by organisms at different trophic levels"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Unlike nutrients, energy does not cycle back; it flows one way from the sun to producers and then to the various consumers, with energy lost as heat at each transfer (mostly through respiration). This is why energy flow is described as unidirectional, unlike the cycling of materials such as carbon or nitrogen.",
+"pidgin": "Energy no dey cycle back like nutrients, e dey flow one way from sun go producer go consumer, and some dey waste as heat for each level. Na why dem dey call am one-way flow, e no be like carbon or nitrogen wey dey cycle.",
+"id": "wbio1503",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A Biology teacher asked her SS3 class why food chains in nature rarely have more than four or five trophic levels. Which of these is the best scientific reason?",
+"options": [
+"Energy is lost as heat at each trophic level, so there is not enough energy left to support more levels",
+"Predators at higher trophic levels refuse to reproduce after some generations",
+"Decomposers destroy all organisms before they can be eaten by predators",
+"Producers are not able to make enough biomass to support more than five levels"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "At each trophic level, a large amount of energy is lost as heat during respiration and other life processes, so only about 10% is passed to the next level. After 4-5 transfers, the remaining energy becomes too small to support another feeding level, which is why food chains are usually short.",
+"pidgin": "For every level, plenty energy dey waste as heat during respiration, so na small percent (like 10%) dey pass go the next level. After 4 to 5 levels, the energy wey remain too small to carry another level, na why food chain no dey too long.",
+"id": "wbio1504",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student studying a fish pond near Badagry recorded the following energy content at different trophic levels: phytoplankton = 8,000 kJ, zooplankton = 800 kJ, small fish = 80 kJ. What percentage of the energy in the zooplankton was transferred to the small fish?",
+"options": [
+"1%",
+"100%",
+"10%",
+"0.1%"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Percentage transferred = (energy in small fish / energy in zooplankton) x 100 = (80/800) x 100 = 10%. This shows the typical 10% rule of energy transfer between trophic levels in an ecosystem.",
+"pidgin": "Percentage wey transfer = (80/800) x 100 = 10%. Na the normal 10% rule wey dey happen anytime energy dey pass from one trophic level go another.",
+"id": "wbio1505",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

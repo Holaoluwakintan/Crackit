@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Cell properties: diffusion, osmosis, active transport, plasmolysis",
+"generated": 4,
+"kept": [
+{
+"q": "A cassava cutting was placed in a beaker of clean rain water for some hours. Its cells absorbed water and became firm and swollen, but the cells did not burst because the cell wall prevented over-expansion. What term describes this firm, swollen state of the plant cell?",
+"options": [
+"Turgor pressure (turgidity)",
+"Plasmolysis",
+"Haemolysis",
+"Flaccidity"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "When a plant cell absorbs water by osmosis, it swells but the strong cell wall stops it from bursting, so it becomes firm. This firm, swollen state is called turgidity or turgor pressure.",
+"pidgin": "When plant cell drink water through osmosis, e go swell but the strong cell wall no gree make e burst, so e just dey firm. Dis firm swollen state na im dem dey call turgidity or turgor pressure.",
+"id": "biov0200",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Aisha, a student in Kano, peeled off the epidermis from a red onion bulb and mounted it in a 20% sodium chloride solution on a microscope slide. After five minutes, she observed that the cytoplasm of each cell had shrunk away from the cell wall, leaving a visible gap filled with the salt solution. What is this observed phenomenon called, and what causes it?",
+"options": [
+"Plasmolysis; exosmosis of water out of the cell because the salt solution outside is hypertonic to the cell sap",
+"Turgidity; endosmosis of water into the cell because the salt solution outside is hypotonic to the cell sap",
+"Haemolysis; bursting of the cell membrane due to excess water entry",
+"Deplasmolysis; active transport of salt ions out of the cell using energy"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The 20% salt solution has a much lower water potential than the cell sap, so water leaves the cell by exosmosis. This causes the cytoplasm to shrink away from the cell wall, a condition called plasmolysis.",
+"pidgin": "The 20% salt water get low water potential pass the cell sap, so water commot from the cell through exosmosis. Dis one make the cytoplasm shrink comot from the cell wall, and dem dey call dis condition plasmolysis.",
+"id": "biov0201",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Mr Okafor applied a heavy dose of NPK fertilizer directly around the base of young maize seedlings during a dry spell. Within two days, the seedlings wilted and some leaf edges turned brown, even though the soil still contained enough moisture. What is the most likely explanation for this observation?",
+"options": [
+"The fertilizer raised the solute concentration of the soil water, making it hypertonic to the root hair cells, so water moved out of the roots by exosmosis",
+"The fertilizer blocked the stomata, preventing transpiration and causing water stress in the leaves",
+"The fertilizer increased active transport of water into the root hair cells, causing excess turgor that damaged the leaves",
+"The fertilizer lowered the soil pH so much that it destroyed the cell walls of the root hair cells"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Too much fertilizer makes the soil solution very concentrated (hypertonic) compared to the cell sap in the root hairs. Water then moves out of the root hair cells into the soil by exosmosis instead of into the roots, so the plant wilts despite moist soil.",
+"pidgin": "Too much fertilizer make the soil water too concentrated (hypertonic) pass the cell sap for the root hair. Water go comot from the root hair cells go the soil through exosmosis instead of enter the root, na why the plant wilt even though the soil still wet.",
+"id": "biov0202",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In an experiment, the nitrate ion concentration in the soil solution around bean plant roots was 0.002 mol/dm3, while the nitrate ion concentration inside the root hair cells was 0.02 mol/dm3, ten times higher. Despite this difference, nitrate ions continued to move steadily into the root hair cells. Which explanation correctly accounts for this observation?",
+"options": [
+"The ions were absorbed by active transport, which uses metabolic energy from respiration to move substances against their concentration gradient",
+"The ions moved in by simple diffusion, since the cell membrane is freely permeable to all dissolved ions",
+"The ions moved in by osmosis, following the water potential gradient between the soil and the root hair cell",
+"The ions moved in by facilitated diffusion down their concentration gradient through channel proteins"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since the nitrate ions moved from a low concentration in the soil to a higher concentration inside the root hair cells, this is movement against the concentration gradient. This can only happen by active transport, which needs energy from respiration, usually supplied by numerous mitochondria in root hair cells.",
+"pidgin": "Since the nitrate ions dey move from where e dey low (soil) go where e dey high (inside root hair cell), na against the concentration gradient. Na only active transport fit do dis kain movement, and e need energy from respiration, wey plenty mitochondria for root hair cell dey supply.",
+"id": "biov0203",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

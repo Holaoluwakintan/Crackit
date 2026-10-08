@@ -1,0 +1,172 @@
+{
+"subject": "commerce",
+"topic": "Commerce: meaning, scope and occupations",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best defines 'Commerce' as studied in secondary school Business subjects?",
+"options": [
+"The branch of economic activity concerned with buying and selling of goods and services, and all activities that help make this exchange possible",
+"The process of turning raw materials into finished goods in a factory",
+"The act of growing crops and rearing animals for sale",
+"The system by which government controls the prices of goods"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Commerce covers trade (buying and selling) plus all the aids to trade (like banking, transport, insurance) that make exchange of goods and services possible. Manufacturing, farming and price control are not commerce.",
+"pidgin": "Commerce na di branch of economic activity wey dey cover buying and selling, plus all di helpers like bank, transport, insurance wey dey make exchange possible. To turn raw material to goods na manufacturing, farming na agriculture, price control na government work, no be commerce.",
+"py": null,
+"values": null,
+"id": "comv0000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Chidi's main job is teaching mathematics in a secondary school in Enugu. Under the classification of occupations, his job falls under which category?",
+"options": [
+"Extractive occupation",
+"Manufacturing occupation",
+"Direct service occupation",
+"Construction occupation"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Teaching is a personal service rendered directly to people, so it is classified as a direct service, which is part of indirect occupations alongside commerce. It is not extractive, manufacturing, or construction, because those involve producing physical goods.",
+"pidgin": "Teaching na personal service wey person dey give to pipo direct, so dem dey call am direct service, wey dey under indirect occupation together with commerce. E no be extractive, manufacturing or construction because dem ones dey produce physical goods.",
+"py": null,
+"values": null,
+"id": "comv0002",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of the following activities is an example of an 'aid to trade' within the scope of Commerce?",
+"options": [
+"Farming of cassava in Benue State",
+"Mining of tin in Jos",
+"Insurance of goods against fire and theft",
+"Weaving of cloth in a textile factory"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Insurance helps reduce the risk involved in trade, making it an aid to trade under commerce. Farming, mining and weaving are direct occupations (extractive and manufacturing), not aids to trade.",
+"pidgin": "Insurance dey help reduce di risk wey dey inside trade, so e be aid to trade under commerce. Farming, mining and weaving na direct occupation (extractive and manufacturing), dem no be aid to trade.",
+"py": null,
+"values": null,
+"id": "comv0003",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "The scope of Commerce includes all of the following EXCEPT one. Identify the exception.",
+"options": [
+"Trade (wholesale and retail)",
+"Banking and insurance",
+"Transport and communication",
+"Manufacturing of finished goods in a factory"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Commerce covers trade and the aids to trade such as banking, insurance, transport and communication. Manufacturing is a direct (industrial) occupation concerned with production, so it is outside the scope of commerce.",
+"pidgin": "Commerce dey cover trade and di aids to trade like banking, insurance, transport and communication. Manufacturing na direct (industrial) occupation wey dey concern production, so e no dey inside scope of commerce.",
+"py": null,
+"values": null,
+"id": "comv0004",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Mrs. Balogun buys yams from farmers in Niger State, uses a transport company to move them to Lagos, insures them against damage on the road, and finally sells them in her market stall. Which statement correctly explains the scope of her full business activity?",
+"options": [
+"Only the buying and selling count as commerce; the transport and insurance have nothing to do with commerce",
+"The whole process is commerce, since it combines trade (buying and selling) with aids to trade (transport and insurance)",
+"The whole process is industry, because goods were physically moved from one place to another",
+"Only the transport and insurance count as commerce; buying and selling are classified as industry"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Commerce is made up of trade (buying and selling) plus the aids to trade (like transport and insurance) that remove barriers of place and risk. Mrs. Balogun's whole process fits this definition, so it is all commerce, not industry.",
+"pidgin": "Commerce na trade (buying and selling) plus di aids to trade (like transport and insurance) wey dey remove barrier of place and risk. Wetin Mrs. Balogun do na full commerce, e no be industry.",
+"py": null,
+"values": null,
+"id": "comv0005",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Adaeze catches fish from the Lagos lagoon herself and sells the fish directly to buyers at the waterside, without passing through any middleman. Which two occupations best describe her activities?",
+"options": [
+"Manufacturing and direct service",
+"Extractive occupation and commerce",
+"Construction and aids to trade",
+"Direct service only, since she does both jobs herself"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Catching fish from nature is an extractive occupation, while selling the fish to buyers is trade, which is part of commerce. Her activity is not manufacturing, construction, or a direct service alone, since she is both extracting and trading goods.",
+"pidgin": "To catch fish from nature na extractive occupation, and to sell di fish na trade, wey be part of commerce. E no be manufacturing, construction or direct service alone, because she dey both extract and trade goods.",
+"py": null,
+"values": null,
+"id": "comv0006",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Commerce is sometimes described as a 'bridge' that links producers to final consumers. This description mainly refers to the way commerce helps to remove barriers such as:",
+"options": [
+"Barriers of language only between buyers and sellers",
+"Barriers of person, place, time, and risk that separate producers from consumers",
+"Barriers created by government taxation policies alone",
+"Barriers of climate that affect farming output"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Commerce bridges the gap between producers and consumers by solving problems of place (through transport), person (through trade/middlemen), time (through warehousing), and risk (through insurance). The other options are too narrow or unrelated to this core idea.",
+"pidgin": "Commerce dey connect producer and consumer by solving problem of place (through transport), person (through trade/middlemen), time (through warehouse), and risk (through insurance). Di oda options too small or no concern dis main point.",
+"py": null,
+"values": null,
+"id": "comv0007",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the classification of occupations under Commerce, human occupations are broadly divided into two major groups. What are they?",
+"options": [
+"Formal and Informal occupations",
+"Direct occupations and Indirect occupations",
+"Skilled and Unskilled occupations",
+"Local and Foreign occupations"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Occupations are grouped into Direct occupations (producing goods directly, such as farming, mining, manufacturing) and Indirect occupations (commerce and direct services that support production and distribution). The other groupings are not the standard classification in Commerce.",
+"pidgin": "Dem dey group occupation into Direct occupation (wey dey produce goods straight, like farming, mining, manufacturing) and Indirect occupation (commerce and direct service wey dey support am). Di oda options no be di standard grouping.",
+"py": null,
+"values": null,
+"id": "comv0001",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:|Non-standard premise; occupations usually split three ways (industrial, commercial, services); direct/indirect applies to services"
+}
+]
+}

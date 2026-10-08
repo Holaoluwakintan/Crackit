@@ -1,0 +1,80 @@
+{
+"subject": "government",
+"topic": "Citizenship, public opinion and political socialisation",
+"generated": 4,
+"kept": [
+{
+"q": "Which term best describes the legal status that confers on a person full rights, privileges and duties as a recognised member of a sovereign state?",
+"options": [
+"Domicile",
+"Citizenship",
+"Naturalization",
+"Statelessness"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Citizenship is the legal status that gives a person full rights (like voting) and duties (like paying tax) as a recognised member of a state. Domicile just means where one lives, naturalization is a process of becoming a citizen, and statelessness means having no citizenship at all.",
+"pidgin": "Citizenship na di legal status wey give person full rights (like to vote) and duties (like to pay tax) as member of one country. Domicile na just where person dey stay, naturalization na di process to become citizen, and statelessness mean say person no get any citizenship at all.",
+"id": "govv0700",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A group of students in Kaduna State is asked to list factors that usually shape public opinion in a democratic society. Which of the following items does NOT belong to that list?",
+"options": [
+"Level of education",
+"Mass media reportage",
+"Personal height of citizens",
+"Religious beliefs"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Public opinion is shaped by things like education, religion, and the media because these affect how people think about issues. A person's physical height has nothing to do with how they form opinions on public matters.",
+"pidgin": "Public opinion dey shape by education, religion and media because dis ones dey affect how people dey think about matter. But person height no get anything to do with how dem dey form opinion on public issue.",
+"id": "govv0701",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In two neighbouring villages, Umuahia A and Umuahia B, the children grow up with different political attitudes because one village has mission schools that stress civic duty while the other relies mainly on traditional elders' teachings. This difference in political attitudes between the two villages is best explained by the concept of:",
+"options": [
+"Public opinion",
+"Citizenship education",
+"Electoral behaviour",
+"Political socialisation"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Political socialisation is the lifelong process by which people learn political values and attitudes from agents like schools, family, and elders. The different agents (mission schools versus elders) in the two villages explain why the children develop different political orientations.",
+"pidgin": "Political socialisation na di process wey person dey learn political values from agents like school, family and elders. Because di two villages get different agents (mission school versus elders), na why di pikin dem get different political attitude.",
+"id": "govv0702",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A Lagos-based magazine claims that 80% of Nigerians support a new tax policy, but the survey was conducted only among wealthy businesspeople in Victoria Island. A trained analyst would say this result is unreliable mainly because of:",
+"options": [
+"Propaganda",
+"Sampling bias",
+"Censorship",
+"Political apathy"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Sampling bias happens when a survey only questions a narrow, unrepresentative group instead of a cross-section of the whole population, making the result inaccurate. Here, wealthy Victoria Island businesspeople cannot represent the views of all Nigerians, so the 80% figure is misleading.",
+"pidgin": "Sampling bias na when survey only ask small group wey no represent everybody, so di result no go correct. Since na only rich Victoria Island business people dem ask, di 80% figure no fit show wetin all Nigerians think.",
+"id": "govv0703",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

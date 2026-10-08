@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "The early church: Pentecost, Peter, Stephen and persecution",
+"generated": 8,
+"kept": [
+{
+"q": "On the Day of Pentecost, what visible sign accompanied the coming of the Holy Spirit upon the disciples as they gathered together in Jerusalem?",
+"options": [
+"Tongues of fire resting on each of them",
+"A dove descending from heaven",
+"A bright star appearing over the house",
+"Thick darkness covering the city"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Bible says divided tongues like fire appeared and rested on each disciple, and they began to speak in other tongues. This is recorded in Acts 2:3.",
+"pidgin": "Bible talk say tongue of fire come rest for everybody head, and dem start to speak different languages. Dis one dey for Acts 2:3.",
+"id": "crsv2000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Who delivered the first public sermon to the crowd immediately after the Holy Spirit came upon the disciples at Pentecost?",
+"options": [
+"Peter",
+"John",
+"Stephen",
+"Philip"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Peter stood up with the eleven and explained to the crowd that what they were seeing was the fulfilment of Joel's prophecy. This sermon is found in Acts 2:14-36.",
+"pidgin": "Peter na im stand up with di eleven disciples come explain say na wetin Joel talk before dey happen. Dis one dey for Acts 2:14-36.",
+"id": "crsv2001",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "According to the account in Acts, about how many people were added to the church on the day Peter preached at Pentecost?",
+"options": [
+"300",
+"3,000",
+"5,000",
+"1,200"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "After Peter's sermon, those who believed his message were baptised and about three thousand souls were added that day. This number is recorded in Acts 2:41.",
+"pidgin": "After Peter preach, many pipo believe come baptise, and around three thousand pipo join dat day. E dey for Acts 2:41.",
+"id": "crsv2002",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Peter and John healed a man who was lame from birth as he begged for alms at which gate of the temple in Jerusalem?",
+"options": [
+"The Beautiful Gate",
+"The Golden Gate",
+"The Sheep Gate",
+"The Water Gate"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The lame man was sitting at the gate called Beautiful, asking for alms, when Peter healed him in the name of Jesus Christ. This is found in Acts 3:2-7.",
+"pidgin": "Dis lame man dey sidon for di gate wey dem call Beautiful Gate dey beg money, Peter come heal am for Jesus name. E dey for Acts 3:2-7.",
+"id": "crsv2003",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Who became the first Christian martyr after being stoned to death by an angry mob while Saul of Tarsus watched and approved?",
+"options": [
+"Stephen",
+"James the son of Zebedee",
+"Philip the evangelist",
+"Barnabas"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Stephen, a deacon full of faith and the Holy Spirit, was dragged out of the city and stoned to death for his testimony about Jesus. This event is recorded in Acts 7:58-60.",
+"pidgin": "Stephen, one deacon wey Holy Spirit full, na im dem stone kill for outside di city because of im testimony about Jesus. E dey for Acts 7:58-60.",
+"id": "crsv2004",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In his defence speech before the Sanhedrin, Stephen mainly traced which theme to show that the Jewish leaders had always resisted God?",
+"options": [
+"The history of Israel and their repeated rejection of God's messengers",
+"The detailed genealogy of Jesus Christ",
+"Only the miracles performed by Moses in Egypt",
+"The Jewish laws on clean and unclean foods"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Stephen reviewed Israel's history from Abraham through Moses to Solomon, showing a pattern where the people constantly resisted the Holy Spirit and rejected God's chosen messengers, as in Acts chapter 7.",
+"pidgin": "Stephen waka through Israel history from Abraham reach Solomon, e show say dem dey always resist Holy Spirit and reject God in-im messengers. Dis one dey for Acts chapter 7.",
+"id": "crsv2005",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Who was the young man who approved of Stephen's killing and kept watch over the garments of those who stoned him, later becoming a fierce persecutor of the church?",
+"options": [
+"Saul of Tarsus",
+"Barnabas",
+"Ananias of Damascus",
+"Gamaliel"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Acts 7:58 and 8:1 mention a young man named Saul who kept the clothes of those stoning Stephen and approved of his death; he later persecuted the church before his conversion.",
+"pidgin": "Acts 7:58 and 8:1 talk say young man wey dem call Saul dey hold di cloth of dose wey dey stone Stephen, and e support di killing before e later convert.",
+"id": "crsv2006",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "After Stephen's death, a great persecution scattered believers from Jerusalem throughout Judea and Samaria. What was one major positive result of this scattering for the growth of the church?",
+"options": [
+"The scattered believers preached the word wherever they went, spreading the gospel to new regions",
+"The church in Jerusalem became the only true church and stopped growing",
+"All the apostles were killed and the church disappeared",
+"Christianity was completely banned throughout the Roman Empire"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Acts 8:1 and 8:4 show that although persecution scattered the believers, they did not stop preaching; instead they carried the gospel message to new places like Samaria, which helped the church grow beyond Jerusalem.",
+"pidgin": "Acts 8:1 and 8:4 show say even though persecution scatter di believers, dem no stop to preach; instead dem carry di gospel go new places like Samaria, and church grow pass Jerusalem.",
+"id": "crsv2007",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

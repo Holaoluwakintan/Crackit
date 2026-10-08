@@ -1,0 +1,173 @@
+{
+"subject": "economics",
+"topic": "Business organisations",
+"ti": 9,
+"generated": 7,
+"kept": [
+{
+"q": "Which type of business organisation is owned, managed and controlled by one person who provides all the capital, takes all the decisions and bears all the risks alone?",
+"options": [
+"Partnership",
+"Sole proprietorship",
+"Private limited company",
+"Cooperative society"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A sole proprietorship is owned by a single individual who supplies the capital, makes all decisions and takes all the profit or loss alone. Partnership, companies and cooperatives all involve more than one owner.",
+"pidgin": "Sole proprietorship na business wey one person dey own, dey manage and dey carry all the risk by imself. Partnership, companies and cooperative get plenty owners.",
+"py": null,
+"values": null,
+"id": "weco0900",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which document of a registered company contains the internal rules that guide how the company's daily affairs, meetings and voting rights of members should be conducted?",
+"options": [
+"Memorandum of Association",
+"Certificate of Incorporation",
+"Articles of Association",
+"Prospectus"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Articles of Association deals with the internal management of the company, such as rules for meetings and voting. The Memorandum of Association, on the other hand, defines the company's relationship with outsiders, such as its objectives and name.",
+"pidgin": "Articles of Association na the paper wey carry the internal rules wey dey guide how the company go run im meetings and voting. Memorandum of Association na for outside matter like company name and aim.",
+"py": null,
+"values": null,
+"id": "weco0902",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following correctly distinguishes a public limited company from a private limited company in Nigeria?",
+"options": [
+"Both can only raise capital by borrowing from banks",
+"Only a public limited company can sue and be sued in court",
+"A private limited company must have more than fifty shareholders",
+"Shares of a public limited company can be offered for sale to the general public through the stock exchange, unlike those of a private limited company"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A major distinguishing feature is that a public limited company (Plc) can sell its shares to the general public through the stock exchange, while a private limited company (Ltd) restricts share transfer to a small group of people. Both types can sue and be sued, since both have corporate personality.",
+"pidgin": "The main difference be say public limited company (Plc) fit sell im shares to everybody through stock exchange, but private limited company (Ltd) no fit do dat one; dem dey restrict am. Both of dem fit sue and dem fit sue dem too.",
+"py": null,
+"values": null,
+"id": "weco0903",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the main aim of a consumer cooperative society formed by workers in a market like Oja-Oba?",
+"options": [
+"To buy goods in bulk directly from producers and sell to members at fair, affordable prices",
+"To raise large capital by selling shares to the public on the stock exchange",
+"To maximise profit for a few wealthy shareholders",
+"To give loans only to people who are not members of the society"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A consumer cooperative society exists mainly to buy goods in large quantities at cheaper rates and resell them to its members at fair prices, cutting out middlemen. It is not focused on profit maximisation for shareholders like a company.",
+"pidgin": "Consumer cooperative society dey buy things plenty-plenty for cheap price, then dem go resell am to members for fair price, so dem go avoid middleman wahala. E no be like company wey dey focus on making profit for shareholders.",
+"py": null,
+"values": null,
+"id": "weco0904",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Adaeze Traders Plc declared a total dividend of ₦450,000 for the year. If the company has 15,000 ordinary shares in issue, what is the dividend paid per share?",
+"options": [
+"₦15",
+"₦20",
+"₦30",
+"₦45"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Dividend per share is total dividend divided by number of shares: ₦450,000 ÷ 15,000 = ₦30 per share. This shows how much each shareholder earns for every share they hold.",
+"pidgin": "To find dividend per share, you go divide the total dividend by the number of shares: ₦450,000 ÷ 15,000 = ₦30 per share. Na so much each shareholder go collect for every share wey dem hold.",
+"py": "450000/15000",
+"values": [
+15,
+20,
+30,
+45
+],
+"id": "weco0905",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Why would an entrepreneur planning a large, capital-intensive business prefer to register as a private limited liability company rather than operate as a sole proprietor?",
+"options": [
+"Because a private limited company pays less tax than a sole proprietorship",
+"Because a sole proprietorship needs more start-up capital than a limited company",
+"Because a private limited company is not required to keep financial records",
+"Because the liability of a private limited company is limited to the amount invested, so the owner's personal property is protected if the business fails"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "In a private limited company, the owners (shareholders) only lose the money they invested if the business fails, because the company has a separate legal identity. A sole proprietor has unlimited liability, meaning personal property can be seized to pay business debts, which makes a limited company safer for a risky, capital-intensive venture.",
+"pidgin": "For private limited company, the owners go only lose the money wey dem put inside if business scatter, because company get im own separate legal identity. Sole proprietor get unlimited liability, so dem fit use im personal property pay business debt, dat na why limited company safer for big risky business.",
+"py": null,
+"values": null,
+"id": "weco0906",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Under the Companies and Allied Matters Act in Nigeria, what is the minimum number of persons required to legally form an ordinary partnership business?",
+"options": [
+"Two",
+"Seven",
+"One",
+"Twenty"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The law requires at least two persons to come together and agree to run a business jointly for it to be called a partnership. One person alone forms a sole proprietorship, not a partnership.",
+"pidgin": "Law talk say at least two people must agree to run business together before e fit be partnership. If na one person, na sole proprietorship.",
+"py": null,
+"values": null,
+"id": "weco0901",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:|Ordinary partnerships fall under state Partnership Laws, not CAMA; the two-person minimum is still correct"
+}
+]
+}

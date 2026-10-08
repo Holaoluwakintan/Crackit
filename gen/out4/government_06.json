@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Pressure groups and public opinion",
+"ti": 6,
+"generated": 8,
+"kept": [
+{
+"q": "A pressure group is best defined as a group of persons who organize themselves to:",
+"options": [
+"Seek political power by contesting elections",
+"Influence government decisions and policies without seeking to form government",
+"Make laws for the whole country",
+"Interpret the constitution for the courts"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A pressure group tries to influence government policy in favour of its members or a cause, but it does not contest elections to control government. That work belongs to political parties.",
+"pidgin": "Pressure group na people wey come together to push government make dem change policy, but dem no dey enter election to rule. Na political party dey do that one.",
+"id": "wgov0600",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these organizations is a typical example of a pressure group in Nigeria?",
+"options": [
+"Nigeria Labour Congress (NLC)",
+"All Progressives Congress (APC)",
+"Peoples Democratic Party (PDP)",
+"Labour Party"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "NLC is a trade union that pushes for workers' welfare through pressure on government, not through contesting elections. The other three options are registered political parties.",
+"pidgin": "NLC na workers union wey dey push government for better welfare, e no dey contest election. The other three na political parties wey dey canvass for votes.",
+"id": "wgov0601",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The main difference between a pressure group and a political party is that:",
+"options": [
+"Pressure groups are illegal while political parties are legal",
+"A pressure group seeks only to influence government policy, while a political party contests elections to control government",
+"A political party has no leadership structure, unlike a pressure group",
+"A pressure group is larger in membership than a political party"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Pressure groups lobby and pressure those in power to favour their interests, but they do not aim to capture government. Political parties specifically organize to win elections and run government.",
+"pidgin": "Pressure group just dey push government to favour dem interest, dem no wan rule. Political party dey organize to win election and control government.",
+"id": "wgov0602",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A group that is formed mainly to promote a cause of general public interest, such as environmental protection or anti-corruption, rather than to protect the welfare of its own paid-up members, is called a:",
+"options": [
+"Sectional (interest) group",
+"Promotional (attitude) group",
+"Cabinet committee",
+"Civil service board"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Promotional groups campaign for broad causes that benefit society in general, such as the environment, human rights, or anti-corruption. Sectional groups, unlike promotional groups, protect the specific interests of their own members such as workers or professionals.",
+"pidgin": "Promotional group dey fight for general cause wey go benefit everybody, like environment or anti-corruption. Sectional group na for dem own members' interest, like workers union.",
+"id": "wgov0603",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Public opinion can best be described as:",
+"options": [
+"The personal opinion of the Head of State on national issues",
+"The collective view or judgement held by the majority of people on a given public issue",
+"Laws passed by the National Assembly",
+"Decisions handed down by the Supreme Court"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Public opinion is the shared view of a significant number of people in society about a particular matter of common concern. It is not the view of one person or an arm of government.",
+"pidgin": "Public opinion na the view wey majority of people share about one public matter. E no be one person im view or government body own.",
+"id": "wgov0604",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT usually regarded as an agent that shapes public opinion in a society?",
+"options": [
+"Mass media (radio, television, newspapers)",
+"Religious institutions",
+"The family",
+"Daily weather pattern"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Mass media, religion and family regularly influence how people think and form views about issues. Weather pattern has no direct role in shaping people's opinions on public matters.",
+"pidgin": "Mass media, religion and family dey always shape as people dey think about public matter. Weather no get anything to do with how people dey form opinion.",
+"id": "wgov0605",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When the Academic Staff Union of Universities (ASUU) wants government to improve funding of public universities, which method is it most likely to use as a pressure group?",
+"options": [
+"Contesting for the office of the President",
+"Embarking on a strike action to press home its demands",
+"Dissolving the National Assembly",
+"Appointing new Vice-Chancellors directly"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Pressure groups commonly use strikes, protests, petitions and lobbying to force government to listen to their demands. Contesting elections, dissolving the legislature, or appointing officials are not powers that pressure groups have.",
+"pidgin": "Pressure group like ASUU dey use strike, protest and lobbying to make government hear dem matter. Dem no get power to contest election, scatter National Assembly or appoint VC.",
+"id": "wgov0606",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A traders' association originally formed to protect members' business interests later decides to register formally, sponsor its own candidates, and contest elections at local and state levels. This association has most likely transformed into a:",
+"options": [
+"Political party",
+"Civil service commission",
+"Public opinion poll agency",
+"Electoral tribunal"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Once a group moves beyond lobbying and begins contesting elections to seek control of government, it has crossed the line from being a pressure group into becoming a political party. The key test is the aim to govern, not just to influence.",
+"pidgin": "Once group pass just lobbying come start to contest election to control government, e don turn political party. Na the aim to rule be the key sign, no be just to influence.",
+"id": "wgov0607",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,149 @@
+{
+"subject": "english",
+"topic": "Concord (subject-verb agreement)",
+"ti": 4,
+"generated": 7,
+"kept": [
+{
+"q": "Neither of the two prefects ___ absent yesterday.",
+"options": [
+"were",
+"have been",
+"was",
+"are"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "\"Neither\" is a singular pronoun, so it must be followed by a singular verb. The correct verb here is \"was\".",
+"pidgin": "\"Neither\" na singular word, so e dey take singular verb. Na \"was\" dey correct here.",
+"id": "weng0400",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Each of the students in Mrs. Okafor's class ___ a copy of the novel.",
+"options": [
+"have",
+"are",
+"were",
+"has"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "\"Each\" is singular, so the verb that follows it must also be singular. \"Has\" agrees correctly with \"each\".",
+"pidgin": "\"Each\" na singular pronoun, so di verb wey follow am must be singular too. \"Has\" dey match am well well.",
+"id": "weng0401",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The jury ___ unanimous in its decision after deliberating for three hours.",
+"options": [
+"is",
+"are",
+"were",
+"have"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "\"Jury\" is a collective noun, and in this sentence it is acting as one single unit (they agreed together). So it takes the singular verb \"is\".",
+"pidgin": "\"Jury\" na collective noun, and for dis sentence dem act as one body (dem agree together). So \"is\" dey correct as singular verb.",
+"id": "weng0402",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Many a trader at Oyingbo market ___ lost goods during the flood.",
+"options": [
+"have",
+"has",
+"were",
+"are"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The phrase \"many a\" is always followed by a singular noun and a singular verb, even though the meaning is plural in sense. So \"has\" is correct.",
+"pidgin": "\"Many a\" dey always follow wit singular noun and singular verb, even though e dey mean plenty. So na \"has\" correct.",
+"id": "weng0403",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Not only the headmaster but also the teachers ___ expected to attend the meeting.",
+"options": [
+"is",
+"was",
+"has been",
+"are"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "When two subjects are joined by \"not only...but also\", the verb agrees with the subject closer to it. Since \"teachers\" (plural) is nearer, \"are\" is correct.",
+"pidgin": "When \"not only...but also\" join two subjects, di verb go agree wit di one wey near am. Since \"teachers\" (plural) near pass, \"are\" correct.",
+"id": "weng0404",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The number of students who passed the WASSCE English paper ___ increased steadily over the past five years.",
+"options": [
+"have",
+"has",
+"were",
+"are"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "\"The number of\" is treated as a singular subject because it refers to one total figure. Therefore the singular verb \"has\" is correct.",
+"pidgin": "\"The number of\" na singular subject because e dey talk about one total figure. So na singular verb \"has\" dey correct.",
+"id": "weng0405",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A number of farmers in the community ___ affected by the recent drought.",
+"options": [
+"was",
+"has been",
+"were",
+"is"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Unlike \"the number of\", the phrase \"a number of\" means \"several\" and is treated as plural. So the plural verb \"were\" is correct.",
+"pidgin": "Unlike \"the number of\", \"a number of\" mean \"plenty\" and e dey take plural verb. So \"were\" dey correct here.",
+"id": "weng0406",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

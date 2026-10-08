@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Forms and types of government",
+"ti": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes a unitary system of government?",
+"options": [
+"Power is divided between central and regional governments by a written constitution",
+"All governmental powers are concentrated in a single central authority",
+"Independent states combine only for defence and foreign affairs",
+"The Head of State is chosen by hereditary succession"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In a unitary system, all powers belong to one central government, which may create or abolish local authorities at will. There is no constitutional sharing of power with regions as in federalism.",
+"pidgin": "For unitary system, na one central government get all the power, e fit create or scrap local government anytime. E no be like federalism wey dem dey share power with regions.",
+"id": "wgov0100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is the most essential feature of a federal system of government?",
+"options": [
+"A single legislature controls the whole country",
+"Regional governments can secede whenever they wish",
+"Powers are constitutionally divided between central and component units",
+"The central government appoints all regional governors"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Federalism is defined by a written constitution that shares powers between the central government and the states or regions, with each level having areas of exclusive and concurrent authority.",
+"pidgin": "Federalism na when constitution share power between central government and di states, each one get im own area wey e dey control.",
+"id": "wgov0101",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A confederation differs from a federation mainly because, in a confederation,",
+"options": [
+"the central government has supreme control over member states",
+"there is no form of central authority whatsoever",
+"the constitution of a confederation cannot be amended",
+"member states retain greater sovereignty and may withdraw from the union"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "In a confederation, member states remain largely independent and sovereign, joining together mainly for common interests like defence or trade, and may leave the union if they choose, unlike a federation where the centre has stronger constitutional control.",
+"pidgin": "For confederation, di member states still dey independent well-well, dem just join for common interest like defence or trade, and dem fit comot anytime, unlike federation wey centre get more power.",
+"id": "wgov0102",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a key feature of the presidential system of government practised in Nigeria's Fourth Republic?",
+"options": [
+"The executive and legislative arms are separate, with the President serving a fixed tenure",
+"The President is a member of the legislature and answers to it",
+"A Prime Minister heads government while a separate Head of State exists",
+"The executive can be removed through a vote of no confidence"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Under a presidential system, there is separation of powers: the President is both Head of State and Government, elected for a fixed term, and is not a member of the National Assembly. This differs from the parliamentary system.",
+"pidgin": "For presidential system, power dey separate: President na Head of State and Government, dem dey elect am for fixed term, e no be member of National Assembly. Na different from parliamentary system.",
+"id": "wgov0103",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a parliamentary system of government, such as practised in the United Kingdom, which statement best explains the relationship between the executive and the legislature?",
+"options": [
+"There is strict separation of powers with independent tenure for both arms",
+"There is a fusion of powers, as the Prime Minister and Cabinet are drawn from and remain accountable to Parliament",
+"The Head of State is directly elected by the people for a fixed term",
+"Members of the executive cannot also sit in the legislature"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Parliamentary systems operate on fusion of powers: the Prime Minister and ministers are usually elected members of Parliament and must retain its confidence to remain in office, unlike the strict separation found in presidential systems.",
+"pidgin": "Parliamentary system dey work with fusion of power: Prime Minister and ministers na members of Parliament, and dem must get Parliament support to remain for office, no be like presidential system wey power dey separate well-well.",
+"id": "wgov0104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A form of government in which the Head of State inherits the position by birth right, as with a traditional Oba in Yorubaland, is known as:",
+"options": [
+"Aristocracy",
+"Theocracy",
+"Monarchy",
+"Oligarchy"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Monarchy is a system where leadership passes down through royal bloodline or inheritance, as seen in traditional kingship institutions like the Oba, Emir, or Obi.",
+"pidgin": "Monarchy na system wey leadership dey pass through royal blood or inheritance, like traditional king institutions - Oba, Emir, or Obi.",
+"id": "wgov0105",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A government in which political authority is believed to come from, and is exercised strictly according to, religious laws is called:",
+"options": [
+"Theocracy",
+"Autocracy",
+"Plutocracy",
+"Technocracy"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Theocracy is rule guided by religious doctrine, where religious leaders or laws determine governance, unlike autocracy (rule by one person) or plutocracy (rule by the wealthy).",
+"pidgin": "Theocracy na when religion dey guide how dem dey rule, religious leaders or laws dey determine governance, e no be like autocracy (one person rule) or plutocracy (rich people rule).",
+"id": "wgov0106",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is the strongest indicator that a country operates a one-party dictatorship rather than a multi-party democracy?",
+"options": [
+"Citizens pay taxes to only one government agency",
+"The country operates under a written constitution",
+"The Head of State addresses the nation during elections",
+"Only one political party is legally permitted to contest and win elections"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The true mark of a one-party dictatorship is that the law bans competing parties, so citizens have no real choice at elections. Having a constitution or a single tax agency does not by itself prove dictatorship.",
+"pidgin": "Di real sign of one-party dictatorship na say law no gree make other parties contest, so citizens no get real choice for election. To get constitution or one tax agency no mean say na dictatorship automatically.",
+"id": "wgov0107",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

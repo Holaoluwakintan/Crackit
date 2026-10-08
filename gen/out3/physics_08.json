@@ -1,0 +1,112 @@
+{
+"subject": "physics",
+"topic": "Pressure in solids, liquids and gases; Archimedes' principle and flotation",
+"generated": 4,
+"kept": [
+{
+"q": "A nurse at a clinic in Enugu presses the tip of a hypodermic needle against a patient's skin. The tip has a cross-sectional area of 0.0005 cm^2, and the nurse applies a force of 2.5 N. Calculate the pressure exerted by the needle tip on the skin.",
+"options": [
+"5 x 10^7 N/m^2",
+"5 x 10^5 N/m^2",
+"5 x 10^3 N/m^2",
+"1.25 x 10^7 N/m^2"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "First convert area to m^2: 0.0005 cm^2 = 0.0005 x 10^-4 m^2 = 5 x 10^-8 m^2. Pressure = Force / Area = 2.5 / (5 x 10^-8) = 5 x 10^7 N/m^2. The tiny area of the sharp needle tip makes the pressure very large even though the force is small.",
+"pidgin": "Make we change the area go m^2 first: 0.0005 cm^2 = 5 x 10^-8 m^2. Pressure = Force / Area = 2.5 / (5 x 10^-8) = 5 x 10^7 N/m^2. Na why sharp needle fit press hard enter skin even though the force small.",
+"py": "2.5/(0.0005*1e-4)",
+"values": [
+50000000.0,
+500000.0,
+5000.0,
+12500000.0
+],
+"id": "phyv0800",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A barometer tube contains a column of mercury 76 cm high. Calculate the pressure exerted by this column of mercury. (Density of mercury = 13600 kg/m^3, g = 10 m/s^2)",
+"options": [
+"1.034 x 10^5 N/m^2",
+"1.034 x 10^4 N/m^2",
+"1.034 x 10^7 N/m^2",
+"7.6 x 10^3 N/m^2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Pressure in a liquid column is given by P = h x density x g. First change 76 cm to 0.76 m, then P = 0.76 x 13600 x 10 = 103360 N/m^2, which is about 1.034 x 10^5 N/m^2. This is the usual value of atmospheric pressure measured by a mercury barometer.",
+"pidgin": "Pressure for liquid column be P = h x density x g. Change 76 cm go 0.76 m, then P = 0.76 x 13600 x 10 = 103360 N/m^2, wey be around 1.034 x 10^5 N/m^2. Na dis kain value dem dey get for mercury barometer wey dey show atmospheric pressure.",
+"py": "0.76*13600*10",
+"values": [
+103360,
+10336,
+10336000,
+7600
+],
+"id": "phyv0801",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A metal block of mass 450 g and volume 60 cm^3 is suspended from a spring balance and lowered until it is completely submerged in a liquid of density 800 kg/m^3. Calculate the new reading on the spring balance. (g = 10 m/s^2)",
+"options": [
+"4.02 N",
+"3.90 N",
+"4.98 N",
+"0.48 N"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Weight in air = mg = 0.45 x 10 = 4.5 N. Upthrust = density of liquid x volume x g = 800 x (60 x 10^-6) x 10 = 0.48 N. Apparent weight = weight in air minus upthrust = 4.5 - 0.48 = 4.02 N, which is what the spring balance reads.",
+"pidgin": "Weight for air = mg = 0.45 x 10 = 4.5 N. Upthrust = density of liquid x volume x g = 800 x (60 x 10^-6) x 10 = 0.48 N. Apparent weight = 4.5 - 0.48 = 4.02 N, na im spring balance go show.",
+"py": "0.45*10 - 800*60e-6*10",
+"values": [
+4.02,
+3.9,
+4.98,
+0.48
+],
+"id": "phyv0802",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A cube of wax floats in water with one-fifth of its volume above the surface. If the same cube is placed in a sample of groundnut oil of density 880 kg/m^3, what fraction of its volume will now float above the oil's surface? (Density of water = 1000 kg/m^3)",
+"options": [
+"1/11",
+"1/5",
+"3/22",
+"1/10"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In water, 4/5 of the wax is submerged, so density of wax = (4/5) x 1000 = 800 kg/m^3. In oil, the submerged fraction equals density of wax divided by density of oil = 800/880 = 10/11, so the fraction above the oil surface is 1 - 10/11 = 1/11.",
+"pidgin": "For water, 4/5 of the wax dey inside, so density of wax = (4/5) x 1000 = 800 kg/m^3. For oil, the part wey dey inside na density of wax divide by density of oil = 800/880 = 10/11, so the part wey dey outside na 1 - 10/11 = 1/11.",
+"py": "(880-800)/880",
+"values": [
+0.090909,
+0.2,
+0.136364,
+0.1
+],
+"id": "phyv0803",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

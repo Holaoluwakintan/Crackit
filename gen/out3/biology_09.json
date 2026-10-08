@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Reproduction in plants and animals (flowers, pollination, human reproduction)",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following best describes cross-pollination in flowering plants?",
+"options": [
+"Transfer of pollen grains from the anther to the stigma of the same flower",
+"Transfer of pollen grains from the anther of one flower to the stigma of another flower on a different plant of the same species",
+"Transfer of pollen grains from one part of a flower to another part of the same plant",
+"Fusion of the male and female gametes inside the ovule after pollen tube growth"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Cross-pollination means pollen moves between flowers on different plants of the same species. This is different from self-pollination, which happens within the same flower or plant. Fusion of gametes is fertilization, not pollination.",
+"pidgin": "Cross-pollination na when pollen from one plant flower waka go the stigot of another plant flower, but still the same species. E no be when pollen stay for the same flower or plant (that one na self-pollination). Fertilization na different thing wey happen after pollination, when gametes join.",
+"id": "biov0900",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A flower in a school garden in Enugu is brightly coloured, strongly scented, produces sweet nectar, and is visited mainly during the day by bees. Which of the following features would NOT be expected in this type of flower?",
+"options": [
+"Large, colourful petals that attract pollinators from a distance",
+"Sticky or rough pollen grains that can cling to the bodies of insects",
+"Small, dull petals with a long feathery stigma hanging outside the flower to catch pollen",
+"Nectar guides on the petals that direct bees towards the nectar source"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Small dull petals and feathery exposed stigmas are features of wind-pollinated flowers, not insect-pollinated ones. Insect-pollinated flowers like the one described need bright colours, scent and nectar guides to attract bees. Sticky pollen also helps it stick to the insect body for transfer.",
+"pidgin": "Small dull petal and feathery stigma wey dey hang outside na feature of wind-pollinated flower, no be insect own. The flower wey dem talk about need bright colour, sweet smell and nectar guide to attract bee. Sticky pollen go help am stick for insect body make e carry am go another flower.",
+"id": "biov0901",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In a woman with a regular 28-day menstrual cycle, ovulation usually occurs around day 14. If fertilization does not take place, which hormonal event directly causes the endometrium to break down, leading to menstruation?",
+"options": [
+"A sudden surge in luteinizing hormone (LH) that triggers ovulation",
+"Degeneration of the corpus luteum, causing a sharp fall in progesterone and oestrogen levels",
+"A rapid rise in human chorionic gonadotropin (hCG) from the developing placenta",
+"Increased secretion of follicle-stimulating hormone (FSH) stimulating a new wave of follicle growth"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Without fertilization, the corpus luteum breaks down after about 14 days, so progesterone and oestrogen levels fall sharply. These hormones normally maintain the endometrium, so their drop causes it to shed as menstruation. LH surge causes ovulation earlier, and hCG only rises if pregnancy occurs.",
+"pidgin": "If fertilization no happen, corpus luteum go break down after like 14 days, so progesterone and oestrogen go drop well well. Na these two hormone dey hold the endometrium for inside womb, so if dem drop, the endometrium go break and menstruation go start. LH surge na for ovulation time, and hCG only dey rise if person don pregnant.",
+"id": "biov0902",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following correctly describes double fertilization, a process unique to flowering plants (angiosperms)?",
+"options": [
+"One sperm nucleus fuses with the egg cell to form a zygote, while another sperm nucleus fuses with the two polar nuclei to form a triploid endosperm nucleus",
+"Two separate sperm nuclei each fuse with a different egg cell to form two zygotes",
+"One sperm nucleus fuses with the egg cell while the second sperm nucleus simply degenerates",
+"Two pollen tubes grow from different pollen grains and merge together before reaching the ovule"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In double fertilization, one male gamete fuses with the egg to form a diploid zygote, and the second male gamete fuses with the two polar nuclei to form a triploid endosperm, which nourishes the embryo. This process only involves one pollen tube delivering two sperm nuclei, not two separate pollen tubes or two egg cells.",
+"pidgin": "For double fertilization, one sperm nucleus go join the egg cell make zygote, the second one go join the two polar nuclei make triploid endosperm wey go feed the embryo. Na one pollen tube dey carry the two sperm nuclei come, e no be two different pollen tube or two egg cell.",
+"id": "biov0903",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

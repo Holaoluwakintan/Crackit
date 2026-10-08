@@ -1,0 +1,175 @@
+{
+"subject": "agric",
+"topic": "Fisheries and aquaculture",
+"ti": 14,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines 'pisciculture' as used in agricultural science?",
+"options": [
+"The rearing of birds for meat and eggs",
+"The scientific rearing and management of fish in ponds or tanks",
+"The cultivation of aquatic plants for fodder",
+"The trapping of wild fish from rivers and lakes"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Pisciculture is the branch of aquaculture that deals with the deliberate breeding, rearing and management of fish under controlled conditions. It is different from catching wild fish, which is simple fishing.",
+"pidgin": "Pisciculture na when person dey rear and manage fish well-well for pond or tank. E no be like when person just dey catch fish for river or lake.",
+"py": null,
+"values": null,
+"id": "wagr1400",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A fish pond that is dug directly into the soil, has natural bottom and sides, and can support both plankton growth and fish feeding is best described as a(n):",
+"options": [
+"Concrete pond",
+"Earthen pond",
+"Glass aquarium",
+"Plastic tank"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An earthen pond is dug into the natural soil, allowing plankton and other natural food organisms to grow, which serve as food for the fish. Concrete, glass and plastic ponds do not have natural soil bottoms.",
+"pidgin": "Earthen pond na pond wey dem dig for ground with natural soil, e dey allow plankton grow wey fish go dey chop. Concrete, glass and plastic ponds no get natural soil like that.",
+"py": null,
+"values": null,
+"id": "wagr1401",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Clarias gariepinus (African catfish) is a popular fish reared by Nigerian farmers mainly because it can survive in ponds with low oxygen levels. This hardiness is due to the presence of a special organ that allows it to:",
+"options": [
+"Filter mud particles from water before swallowing",
+"Breathe atmospheric air directly using an accessory breathing organ",
+"Produce its own oxygen through photosynthesis",
+"Store oxygen in its scales for later use"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Clarias gariepinus has an accessory air-breathing organ that allows it to gulp atmospheric air directly, which is why it survives well in ponds with little dissolved oxygen, such as stagnant or overcrowded ponds. This makes it a hardy choice for small-scale fish farmers.",
+"pidgin": "Clarias (catfish) get special organ wey make am fit breath air from outside, no be only from water. Na why e dey survive well for pond wey no get plenty oxygen for inside.",
+"py": null,
+"values": null,
+"id": "wagr1402",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Danjuma wants to stock a newly constructed earthen pond measuring 25 metres long and 12 metres wide. If the recommended stocking density for catfish fingerlings in his area is 4 fingerlings per square metre, how many fingerlings should he buy?",
+"options": [
+"300",
+"1,000",
+"1,200",
+"1,500"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Area of pond = length x breadth = 25 x 12 = 300 square metres. Number of fingerlings needed = 300 x 4 = 1,200 fingerlings.",
+"pidgin": "Area of di pond na 25 x 12 = 300 square metres. Since dem need 4 fingerlings for every square metre, total fingerlings go be 300 x 4 = 1,200.",
+"py": "25*12*4",
+"values": [
+300,
+1000,
+1200,
+1500
+],
+"id": "wagr1403",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A fish farmer stocked a pond with fish weighing a total of 80 kg. After feeding them for several months with a total of 240 kg of feed, the total weight of the fish increased to 320 kg. What is the Feed Conversion Ratio (FCR) for this batch, calculated as mass of feed given divided by mass gained by the fish?",
+"options": [
+"0.75",
+"1.0",
+"1.33",
+"3.0"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Weight gained by the fish = final weight minus initial weight = 320 kg - 80 kg = 240 kg. FCR = feed given / weight gained = 240 kg / 240 kg = 1.0. A good FCR close to 1 shows the farmer used feed efficiently.",
+"pidgin": "Di fish weight wey dem add na 320kg - 80kg = 240kg. FCR na feed wey dem give divide by weight wey fish add, so na 240/240 = 1.0. Dis one show say di feed dey used well-well.",
+"py": "240/(320-80)",
+"values": [
+0.75,
+1.0,
+1.33,
+3.0
+],
+"id": "wagr1404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Smoking is a common traditional method used in many Nigerian fishing communities to preserve fresh fish mainly because it:",
+"options": [
+"Increases the water content of the fish to keep it soft",
+"Reduces moisture content and inhibits the growth of spoilage organisms",
+"Changes the fish into a completely different species",
+"Adds extra fat to the fish to improve its flavour only"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Smoking removes moisture from the fish flesh and deposits preservative chemicals from the smoke, which together slow down the activities of bacteria and other spoilage organisms. This allows smoked fish to be stored for a longer period without refrigeration.",
+"pidgin": "Smoking dey remove water from di fish body and e dey add some chemical wey dey slow down bacteria wey fit spoil di fish. Na why smoked fish dey last well even without fridge.",
+"py": null,
+"values": null,
+"id": "wagr1405",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A fish farmer notices that a kingfisher bird keeps perching near his open earthen pond and diving in frequently. This bird is best classified as a:",
+"options": [
+"Fish disease vector only",
+"Natural predator of fish, especially fingerlings",
+"Pollinator that helps fish reproduction",
+"Beneficial scavenger that cleans the pond water"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Kingfishers are well known predatory birds that catch and eat small fish, especially young fingerlings, from ponds and rivers. Farmers often cover ponds with nets to prevent such losses, since the bird is not a disease carrier, pollinator or scavenger in this context.",
+"pidgin": "Kingfisher na bird wey dey catch small fish, especially fingerlings, from pond. Na why some farmers dey use net cover their pond so dat di bird no go chop their fish.",
+"py": null,
+"values": null,
+"id": "wagr1406",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

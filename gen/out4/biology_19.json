@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Genetics and variation",
+"ti": 19,
+"generated": 6,
+"kept": [
+{
+"q": "In genetics, the actual genetic make-up of an organism, which controls its characteristics but may not always be seen outwardly, is called the",
+"options": [
+"Genotype",
+"Phenotype",
+"Mutation",
+"Variation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Genotype is the set of genes an organism carries for a trait, while phenotype is the physical expression of those genes. Genotype can be hidden if the gene is recessive.",
+"pidgin": "Genotype na di gene wey dey inside body wey dey control character, e fit no show for outside. Phenotype na wetin we see for outside.",
+"id": "wbio1900",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following human traits is an example of discontinuous variation?",
+"options": [
+"Height",
+"Body weight",
+"Blood group",
+"Skin colour"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Blood group falls into distinct classes (A, B, AB, O) with no in-between forms, so it is discontinuous. Height, weight and skin colour show a range of values, making them continuous.",
+"pidgin": "Blood group get clear categories like A, B, AB, O, no mixture dey between dem, so na discontinuous. Height, weight and skin colour dey change small small, so na continuous.",
+"id": "wbio1901",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In maize, tallness (T) is dominant over shortness (t). A heterozygous tall maize plant (Tt) is crossed with a short plant (tt). What is the expected ratio of tall to short offspring?",
+"options": [
+"3:1",
+"1:1",
+"1:3",
+"9:3:3:1"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Tt x tt gives gametes T,t from one parent and t,t from the other, producing Tt and tt offspring in equal numbers. This gives a 1:1 ratio of tall to short plants.",
+"pidgin": "Tt x tt go give Tt and tt offspring for equal number. So di ratio of tall to short na 1:1.",
+"id": "wbio1902",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A man with normal colour vision marries a woman who is a carrier for colour blindness (heterozygous, X^N X^n). What proportion of their sons is expected to be colour blind?",
+"options": [
+"1/4",
+"1/2",
+"3/4",
+"1"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Sons get their X chromosome from the mother only. Since she is X^N X^n, half her eggs carry X^n, so half of the sons (X^n Y) will be colour blind.",
+"pidgin": "Boy pikin dey collect im X chromosome from mama only. Since mama na X^N X^n, half of her eggs get X^n, so half of di boys go be colour blind.",
+"id": "wbio1903",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In guinea pigs, black coat (B) is dominant over white (b), and short hair (H) is dominant over long hair (h). A guinea pig heterozygous for both traits (BbHh) is crossed with a white, long-haired guinea pig (bbhh). What fraction of the offspring is expected to be black and short-haired?",
+"options": [
+"1/16",
+"1/4",
+"9/16",
+"3/4"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "This is a test cross (BbHh x bbhh), which gives four phenotypes in equal 1:1:1:1 ratio. So black, short-haired offspring make up 1/4 of the total.",
+"pidgin": "Na test cross be dis (BbHh x bbhh), e go give four phenotypes for equal 1:1:1:1 ratio. So black, short hair go be 1/4 of di total pikin dem.",
+"id": "wbio1904",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A man with blood group AB marries a woman with blood group O. Considering that blood group O is genotype ii while AB has both I^A and I^B alleles, what blood groups can their children have?",
+"options": [
+"A or B only",
+"O only",
+"AB only",
+"A, B, AB or O"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The AB parent gives either I^A or I^B gametes, while the O parent gives only i gametes. Combining these gives genotypes I^A i (blood group A) or I^B i (blood group B), so the children can only be group A or B.",
+"pidgin": "Papa wey be AB go give I^A or I^B, mama wey be O go give only i. If you combine dem, you go get I^A i (A) or I^B i (B), so di pikin dem fit be only A or B.",
+"id": "wbio1905",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

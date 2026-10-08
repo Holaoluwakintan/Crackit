@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.env
+.env*
+__pycache__/
+# premium (paid) questions: kept private, deployed to the server only
+api/_packs.js

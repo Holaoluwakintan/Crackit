@@ -1,0 +1,213 @@
+{
+"subject": "literature",
+"topic": "Prose: point of view, characterisation and setting",
+"ti": 2,
+"generated": 10,
+"kept": [
+{
+"q": "Which point of view uses pronouns like 'I' and 'we' to tell the story, as if the narrator is a character inside the events?",
+"options": [
+"Third person limited",
+"First person",
+"Third person omniscient",
+"Second person"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A first person narrator uses 'I' or 'we' because the narrator is also a character who takes part in the story. The other points of view use 'he', 'she', 'they' or 'you'.",
+"pidgin": "First person narrator na im dey use 'I' or 'we' because di narrator sef be character wey dey inside di story. Di oda ones dey use 'he', 'she', 'they' or 'you'.",
+"id": "wlit0200",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A narrator who knows and can reveal the private thoughts and feelings of every character in a story is best described as a(n)...",
+"options": [
+"first person narrator",
+"limited narrator",
+"omniscient narrator",
+"unreliable narrator"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "An omniscient narrator is like an all-knowing voice that can enter the minds of all the characters. This is different from a limited narrator, who can only access one character's thoughts.",
+"pidgin": "Omniscient narrator na di one wey sabi everytin, e fit enter di mind of all di characters. E different from limited narrator wey just sabi one character thoughts.",
+"id": "wlit0201",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read this extract: 'I watched Mama count the naira notes under the lantern light, her lips moving silently as she calculated how far the money would stretch till the end of the month.' Which point of view is used here?",
+"options": [
+"Third person omniscient",
+"First person",
+"Second person",
+"Third person limited"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The use of 'I' shows that the narrator is a character inside the story describing what he or she personally sees. This is a clear sign of first person narration.",
+"pidgin": "Di 'I' wey dem use show say na character wey dey inside di story dey talk wetin e see for im eye. Na so first person narration dey be.",
+"id": "wlit0202",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When a writer plainly tells the reader that a character is generous, instead of showing this through the character's actions or speech, the writer is using...",
+"options": [
+"indirect characterisation",
+"direct characterisation",
+"dramatic characterisation",
+"symbolic characterisation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Direct characterisation happens when the author openly states a character's trait, such as saying 'Chidi was a generous man'. Indirect characterisation, on the other hand, shows the trait through actions, speech or thoughts.",
+"pidgin": "Direct characterisation na when di writer just talk am straight say character get one quality, like 'Chidi na generous man'. Indirect characterisation na when dem show am through action or talk.",
+"id": "wlit0203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a prose work, the term 'setting' mainly refers to...",
+"options": [
+"the sequence of events in the plot",
+"the time and place in which the story happens",
+"the moral lesson taught by the story",
+"the conflict between two characters"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Setting is the time and place of a story, including the historical period, season, and location. It is not the plot, theme, or conflict, though it can influence all of these.",
+"pidgin": "Setting na di time and place wia di story happen, e fit be di period, season or location. E no be di plot, theme or conflict, but e fit affect dem.",
+"id": "wlit0204",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A character who shows many different sides to his or her personality, and whose actions can sometimes surprise the reader, is called a...",
+"options": [
+"flat character",
+"static character",
+"round character",
+"stock character"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A round character is complex, has several traits, and can change or surprise the reader, unlike a flat character who has just one simple trait. Stock and static characters also remain predictable throughout the story.",
+"pidgin": "Round character na di one wey get plenty sides to im personality and fit surprise reader. Flat character get just one simple trait, while stock and static characters no dey change.",
+"id": "wlit0205",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which statement best describes how setting can function in a prose work?",
+"options": [
+"It only decorates the story and has no real importance",
+"It helps to establish mood and can influence the actions of characters",
+"It means the same thing as characterisation",
+"It takes the place of the plot in a story"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Setting can create atmosphere or mood, such as fear or calmness, and can also shape how characters behave, for example poverty in a village pushing a character to steal. It is not the same as plot or characterisation.",
+"pidgin": "Setting fit bring mood or atmosphere, like fear or peace, and e fit affect how characters behave, like poverty wey make pesin steal. E no be di same as plot or characterisation.",
+"id": "wlit0207",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read this extract: 'You stand at the edge of the market in Onitsha, the smell of dried fish and fresh pepper rushing into your nose as traders call out their prices.' Which point of view is this extract written in?",
+"options": [
+"First person",
+"Second person",
+"Third person omniscient",
+"Third person limited"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The repeated use of 'you' directly addresses the reader as if the reader is the character experiencing the market. This unusual technique is called second person point of view, which is rarer than first or third person.",
+"pidgin": "Di 'you' wey dem use repeat show say dem dey talk to di reader like say na im be di character for market. Dis kain style na second person point of view, wey no too common pass first or third person.",
+"id": "wlit0208",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a story, the character who stands against the main character and creates the major conflict is called the...",
+"options": [
+"protagonist",
+"antagonist",
+"narrator",
+"foil"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The antagonist opposes the protagonist and is the source of conflict in the story. The protagonist is the main character, while a foil simply contrasts with another character to highlight traits.",
+"pidgin": "Antagonist na di one wey dey oppose di protagonist and dey cause di main conflict. Protagonist na di main character, while foil na pesin wey just dey contrast another character to show im qualities.",
+"id": "wlit0209",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Read this extract: 'Everyone in Ijegun said I was the kindest boy in the compound, though I alone knew of the three fowls I had stolen from Baba Akin's coop the night before the harvest festival.' This extract is best described as an example of...",
+"options": [
+"an omniscient narrator",
+"a reliable narrator",
+"an unreliable narrator",
+"a static character"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The narrator presents himself as kind while secretly admitting to a dishonest act, which makes his account questionable. This contradiction between his reputation and his hidden actions is a classic sign of an unreliable narrator.",
+"pidgin": "Di narrator dey present imsef as kind pesin but e dey hide say e steal fowls, so wetin e dey tell us no fit trust reach. Dis kind contradiction na clear sign of unreliable narrator.",
+"id": "wlit0206",
+"check": {
+"s1": "B",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

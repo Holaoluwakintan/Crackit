@@ -1,0 +1,181 @@
+{
+"subject": "agric",
+"topic": "Agricultural extension and farm records (with simple calculations)",
+"ti": 16,
+"generated": 7,
+"kept": [
+{
+"q": "Agricultural extension is best described as the:",
+"options": [
+"process of transferring useful agricultural information and skills from research institutes to farmers",
+"process of selling farm produce directly to consumers in the market",
+"process of recording only the daily expenses made on a farm",
+"process of training agricultural extension officers in classrooms only"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Agricultural extension is the link between research institutes and farmers. It helps farmers get new findings, skills and improved methods to boost their farming.",
+"pidgin": "Agric extension na di bridge wey dey join research centre and farmers. E dey carry new knowledge and skill go meet farmer for farm make im work improve.",
+"py": null,
+"values": null,
+"id": "wagr1600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is the main aim of agricultural extension services in Nigeria?",
+"options": [
+"To increase government revenue through taxation of farmers",
+"To bridge the gap between research findings and the actual practices of farmers",
+"To replace all traditional farming methods with imported machines",
+"To reduce the number of farmers living in rural communities"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Extension workers take new research results from institutes and teach farmers how to apply them. This closes the gap between what researchers discover and what farmers actually practise.",
+"pidgin": "Extension workers dey carry new research result go teach farmers how to use am. Dis one dey close di gap between wetin researchers find out and wetin farmer dey do for ground.",
+"py": null,
+"values": null,
+"id": "wagr1601",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer wants to know, on a day-to-day basis, how much money he spent and how much he received on his farm. Which type of farm record should he keep?",
+"options": [
+"Inventory record",
+"Production record",
+"Cash (income and expenditure) record",
+"Labour record"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A cash/income and expenditure record shows the money coming in and going out of the farm business daily. It is different from inventory (assets), production (yield) or labour (workers) records.",
+"pidgin": "Cash record (income and expenditure) na di one wey dey show di money wey enter and di money wey comot for farm every day. E no be inventory, production or labour record.",
+"py": null,
+"values": null,
+"id": "wagr1602",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs Chika Eze kept the following records for her poultry farm for one month: total sales of eggs and birds = ₦95,000; total cost of feeds, drugs and labour = ₦68,000. Calculate her net profit for the month.",
+"options": [
+"₦68,000",
+"₦95,000",
+"₦163,000",
+"₦27,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Net profit = Total sales - Total cost = ₦95,000 - ₦68,000 = ₦27,000. Adding both figures instead of subtracting gives a wrong answer of ₦163,000.",
+"pidgin": "Net profit = Total sales minus Total cost = 95,000 - 68,000 = 27,000 naira. If you add di two figures together you go get 163,000 wey wrong.",
+"py": "95000-68000",
+"values": [
+68000,
+95000,
+163000,
+27000
+],
+"id": "wagr1603",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which agricultural extension teaching method involves setting up a new farming practice on a small part of a farmer's own farm, so that he can directly compare the result with his usual method?",
+"options": [
+"Result demonstration method",
+"Farm broadcast method",
+"Lecture method",
+"Field day method"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "In the result demonstration method, the new practice is tried on the farmer's own land beside his usual practice, so he can see and compare the results himself. This convinces the farmer better than just hearing about it.",
+"pidgin": "For result demonstration method, dem go try di new method for one small part of di farmer own land beside im normal method, so im fit see and compare di result with eye. Dis one convince farmer pass just to hear am for mouth.",
+"py": null,
+"values": null,
+"id": "wagr1604",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A yam farmer in Benue State bought a knapsack power sprayer for ₦180,000. He expects it to last 8 years and to be sold as scrap for ₦20,000 at the end of its useful life. Using the straight line method, calculate the annual depreciation of the sprayer.",
+"options": [
+"₦18,000",
+"₦20,000",
+"₦22,500",
+"₦16,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Straight line depreciation = (Cost - Scrap value) / Useful life = (180,000 - 20,000) / 8 = 160,000 / 8 = ₦20,000 per year.",
+"pidgin": "Straight line depreciation = (Cost minus Scrap value) divided by Useful life = (180,000 - 20,000) / 8 = 160,000 / 8 = 20,000 naira every year.",
+"py": "(180000-20000)/8",
+"values": [
+18000,
+20000,
+22500,
+16000
+],
+"id": "wagr1605",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Farmer Musa Ibrahim spent a total of ₦120,000 to produce maize on his plot and later sold all the maize for ₦150,000. Calculate his percentage profit on the production cost.",
+"options": [
+"20%",
+"30%",
+"25%",
+"80%"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Profit = ₦150,000 - ₦120,000 = ₦30,000. Percentage profit = (Profit / Cost) x 100 = (30,000 / 120,000) x 100 = 25%. Using the selling price instead of the cost as the base gives a wrong answer.",
+"pidgin": "Profit = 150,000 - 120,000 = 30,000 naira. Percentage profit = (Profit / Cost) x 100 = (30,000 / 120,000) x 100 = 25%. If you use selling price instead of cost as di base, you go miss am.",
+"py": "(150000-120000)/120000*100",
+"values": [
+20,
+30,
+25,
+80
+],
+"id": "wagr1606",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

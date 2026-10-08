@@ -1,0 +1,116 @@
+{
+"subject": "english",
+"topic": "Register and vocabulary of fields (e.g. law, medicine, sports, banking)",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the option that best completes the gap: Before Chidinma could withdraw a large sum of money, the bank teller asked her to fill a _____ form at the counter.",
+"options": [
+"withdrawal",
+"deposit",
+"overdraft",
+"clearance"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A 'withdrawal form' is the correct banking term for the document a customer completes to take out cash from their account. The other options refer to different banking actions, not taking money out.",
+"pidgin": "Na 'withdrawal form' be the correct banking word when person wan collect im money from counter. The other words na for different banking matter, no be for taking money out.",
+"id": "engv1700",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In legal usage, a person who makes a sworn written statement to be used as evidence in court is correctly called a _____.",
+"options": [
+"plaintiff",
+"deponent",
+"defendant",
+"litigant"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A 'deponent' is someone who swears to and signs a written statement (deposition) for use as evidence. A plaintiff brings the case, a defendant answers it, and a litigant is simply a party in a lawsuit, so these do not fit the meaning.",
+"pidgin": "'Deponent' na the person wey swear and sign statement wey dem go use as evidence for court. Plaintiff na the one wey bring case, defendant na the one wey dem accuse, litigant na just party for case, so these ones no fit the meaning.",
+"id": "engv1701",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In medical register, a drug that is specifically used to reduce a patient's fever is correctly described as _____.",
+"options": [
+"antipyretic",
+"antiseptic",
+"anticoagulant",
+"antihistamine"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The prefix 'pyreto-' relates to fever, so an 'antipyretic' is a drug that lowers body temperature during fever, like paracetamol. Antiseptics prevent infection on skin, anticoagulants stop blood clotting, and antihistamines treat allergic reactions, so none of these reduce fever specifically.",
+"pidgin": "'Pyreto' mean fever, so 'antipyretic' na medicine wey dey reduce body temperature when person get fever, like paracetamol. Antiseptic dey prevent infection for skin, anticoagulant dey stop blood from clotting, antihistamine dey treat allergy, none of them be for fever well well.",
+"id": "engv1702",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best completes the gap: When Mr. Danladi's cheque could not be paid because his account had no sufficient funds, bankers say the cheque _____.",
+"options": [
+"cleared",
+"bounced",
+"endorsed",
+"discounted"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In banking language, a cheque that cannot be paid due to lack of funds is said to have 'bounced'. 'Cleared' means it was successfully paid, 'endorsed' means it was signed over to another person, and 'discounted' refers to selling a bill before its due date.",
+"pidgin": "For banking language, if cheque no fit pay because no money dey account, dem go say the cheque 'bounced'. 'Cleared' mean say dem don pay am well, 'endorsed' mean say dem sign am give another person, 'discounted' na when dem sell bill before e reach due date.",
+"id": "engv1704",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In court proceedings, the term SUBPOENA refers to a legal document that _____.",
+"options": [
+"summons a witness to appear in court",
+"grants bail to an accused person",
+"dismisses a case for lack of evidence",
+"records the final judgment of the court"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A 'subpoena' is a court order compelling a person to attend and give evidence or produce documents in a case. It is not about bail, dismissing a case, or recording judgment, which are different legal processes.",
+"pidgin": "'Subpoena' na court order wey dey force person to come court give evidence or bring document. E no be about bail, dismissing case, or recording judgment, those ones na different legal matter.",
+"id": "engv1705",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap: The football match between Enugu Rangers and Kano Pillars ended 1-1, so the result was officially recorded as a _____.",
+"options": [
+"draw",
+"knockout",
+"walkover",
+"forfeit",
+"."
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "When both teams score equal goals at the end of a match, the result is called a 'draw'. A knockout, walkover, and forfeit describe other kinds of match outcomes, not an equal score.",
+"pidgin": "When both teams score equal goals finish, dem dey call the result 'draw'. Knockout, walkover and forfeit na different kind match result, no be equal score matter."
+},
+"why": "bad-shape"
+}
+]
+}

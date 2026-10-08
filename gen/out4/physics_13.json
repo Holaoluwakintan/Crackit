@@ -1,0 +1,159 @@
+{
+"subject": "physics",
+"topic": "Waves: properties and types",
+"ti": 13,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following waves is best described as a longitudinal wave?",
+"options": [
+"Sound wave",
+"Light wave",
+"Water wave",
+"Radio wave"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "In a longitudinal wave, the particles of the medium vibrate back and forth in the same direction as the wave travels, as happens with sound waves in air. Light, water and radio waves are transverse waves.",
+"pidgin": "Sound wave na longitudinal wave because the air particles dey vibrate for the same direction wey the wave dey move go. Light, water and radio waves be transverse wave, so dem no fit be the answer.",
+"py": null,
+"values": null,
+"id": "wphy1300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a transverse wave travelling along a rope, the distance between two successive crests is called the wave's:",
+"options": [
+"amplitude",
+"wavelength",
+"frequency",
+"period"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Wavelength is defined as the distance between two successive points that are in the same phase, such as crest to crest or trough to trough. Amplitude is the maximum displacement, frequency is the number of waves per second, and period is the time for one complete wave.",
+"pidgin": "Wavelength na the distance between two crest wey dey follow each other for the wave. Amplitude na the highest point from the middle line, frequency na how many wave dey pass per second, period na the time for one complete wave.",
+"py": null,
+"values": null,
+"id": "wphy1301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A sound wave produced by a loudspeaker at a market in Onitsha has a frequency of 50 Hz and a wavelength of 4 m. Calculate the speed of the wave.",
+"options": [
+"100 m/s",
+"150 m/s",
+"200 m/s",
+"250 m/s"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Wave speed is found using v = f x wavelength. So v = 50 Hz x 4 m = 200 m/s.",
+"pidgin": "To find wave speed, we use v = f x wavelength. So v = 50 x 4 = 200 m/s.",
+"py": "50*4",
+"values": [
+100,
+150,
+200,
+250
+],
+"id": "wphy1302",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A vibrating string completes 20 full oscillations in 4 seconds. Calculate the period of the oscillation.",
+"options": [
+"0.1 s",
+"0.15 s",
+"0.25 s",
+"0.2 s"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Period is the time taken for one complete oscillation, found by dividing total time by number of oscillations. T = 4 s / 20 = 0.2 s.",
+"pidgin": "Period na the time wey one complete oscillation take. T = total time divide by number of oscillation = 4/20 = 0.2 s.",
+"py": "4/20",
+"values": [
+0.1,
+0.15,
+0.25,
+0.2
+],
+"id": "wphy1303",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A wave of frequency 250 Hz and wavelength 1.2 m is travelling in medium X. It then enters medium Y, where its speed reduces to three-quarters of its original speed, while the frequency stays the same. Calculate the new wavelength of the wave in medium Y.",
+"options": [
+"0.9 m",
+"1.0 m",
+"1.2 m",
+"1.5 m"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "First find the original speed: v = f x wavelength = 250 x 1.2 = 300 m/s. The new speed in medium Y is 3/4 of 300 = 225 m/s. Since frequency is unchanged, new wavelength = new speed / frequency = 225 / 250 = 0.9 m.",
+"pidgin": "First find the original speed: v = f x wavelength = 250 x 1.2 = 300 m/s. The new speed for medium Y na 3/4 of 300 = 225 m/s. Since the frequency no change, new wavelength = 225/250 = 0.9 m.",
+"py": "(3/4*(250*1.2))/250",
+"values": [
+0.9,
+1.0,
+1.2,
+1.5
+],
+"id": "wphy1304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which property of waves best explains why a person standing near a tall wall hears an echo of their own shout?",
+"options": [
+"Refraction",
+"Diffraction",
+"Reflection",
+"Polarisation"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "An echo occurs when sound waves bounce back from a hard surface such as a wall, which is an example of reflection. Refraction is bending due to change in speed, diffraction is spreading around obstacles, and polarisation applies only to transverse waves restricting vibration to one plane.",
+"pidgin": "Echo dey happen when sound wave bounce back from hard surface like wall, and that na reflection. Refraction na when wave bend because speed change, diffraction na when wave spread round obstacle, and polarisation na for transverse wave wey dem restrict make e vibrate for one plane only.",
+"py": null,
+"values": null,
+"id": "wphy1305",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

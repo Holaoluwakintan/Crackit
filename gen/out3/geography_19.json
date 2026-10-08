@@ -1,0 +1,174 @@
+{
+"subject": "geography",
+"topic": "Geography of Nigeria: population, agriculture, minerals and industry",
+"generated": 8,
+"kept": [
+{
+"q": "In Northern Nigeria, the extensive savanna grassland with a long dry season and relatively low rainfall favours the large-scale cultivation of which staple food crop?",
+"options": [
+"Guinea corn (sorghum)",
+"Cocoa",
+"Oil palm",
+"Rubber"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Guinea corn (sorghum) is a drought-resistant cereal that grows well in the savanna climate of Northern Nigeria, which has low rainfall and a long dry season. Cocoa, oil palm and rubber need heavy rainfall and are grown in the forest belt of the south.",
+"pidgin": "Guinea corn fit survive for place wey rain no plenty and dry season long, like Northern Nigeria savanna. Cocoa, oil palm and rubber need plenty rain, na why dem dey grow for south forest area.",
+"py": null,
+"values": null,
+"id": "geov1900",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following minerals is NOT regarded as a major mineral resource exploited in Nigeria?",
+"options": [
+"Coal",
+"Tin",
+"Diamond",
+"Petroleum"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Nigeria has well-known deposits of coal (Enugu), tin (Jos Plateau) and petroleum (Niger Delta) that have been commercially exploited. Diamond is not a significant mineral resource found or mined in Nigeria.",
+"pidgin": "Nigeria get plenty coal for Enugu, tin for Jos Plateau and petroleum for Niger Delta wey dem dey mine well well. Diamond no be one of the major minerals wey dey Nigeria.",
+"py": null,
+"values": null,
+"id": "geov1901",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "The uneven distribution of population in Nigeria, with dense settlement in areas like the South-East and parts of the South-West and sparse settlement in parts of the Middle Belt, is mainly influenced by which factor?",
+"options": [
+"Number of state capitals in each region",
+"Climate and soil fertility",
+"Distance from the equator",
+"Number of international airports"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Climate and soil fertility strongly affect how many people a land area can support through farming and settlement. Areas with good rainfall and fertile soils tend to attract denser population, while areas with poorer soils or tsetse fly infestation (common in parts of the Middle Belt) have sparser population. The other options do not directly explain population distribution patterns.",
+"pidgin": "Climate and good soil na wetin dey make land fit carry plenty people, because e go support farming well. Where rain good and soil fertile, people go gather pass; where soil no good or tsetse fly dey worry animals, population go low. The other options no really explain population spread.",
+"py": null,
+"values": null,
+"id": "geov1902",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Large-scale coal mining in Nigeria, which once supplied fuel for the Nigerian Railway Corporation, is most closely associated with which town?",
+"options": [
+"Kano",
+"Jos",
+"Enugu",
+"Warri"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Enugu is historically known as the centre of coal mining in Nigeria, with deposits that were mined for railway and industrial use. Jos is known for tin, Kano for groundnuts and trade, and Warri for petroleum activities.",
+"pidgin": "Enugu na the main place wey dem dey mine coal for Nigeria, and e be the fuel wey Railway Corporation use before. Jos na tin dem sabi am for, Kano na groundnut and trade, Warri na petroleum area.",
+"py": null,
+"values": null,
+"id": "geov1903",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Most of Nigeria's major oil refineries and petrochemical industries are located in the Niger Delta region mainly because of which locational factor?",
+"options": [
+"Nearness to the Sahara Desert",
+"High altitude suitable for cooling plants",
+"Proximity to the source of crude oil",
+"Availability of large tin ore deposits"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Industries that process raw materials, such as oil refineries, are usually sited close to the source of the raw material to reduce transport costs. Since crude oil is extracted mainly in the Niger Delta, refineries are built there. The other options are not relevant locational factors for oil refining.",
+"pidgin": "Industry wey dey process raw material like crude oil dey like to dey near where dem dey get the raw material so transport cost go reduce. Na why oil refineries dey Niger Delta, because na there crude oil dey come from. The other options no get anything to do with am.",
+"py": null,
+"values": null,
+"id": "geov1904",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Cocoa cultivation in Nigeria is concentrated mainly in the South-Western states such as Ondo and Oyo rather than in the far North. Which reason best explains this pattern?",
+"options": [
+"Tin and columbite deposits are found only in the South-West",
+"The South-West has heavy rainfall and forest vegetation suitable for cocoa trees",
+"Cocoa trees need very low temperatures found only in the North",
+"Cocoa requires sandy desert soil found mainly in the South-West"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Cocoa trees need heavy, well-distributed rainfall and forest conditions with partial shade, which are found in the South-Western rainforest belt, not in the drier savanna North. The other options describe conditions that do not match the real climatic or soil requirements of cocoa.",
+"pidgin": "Cocoa tree need plenty rain wey well spread and forest condition wey get small shade, and na South-West get dat kind weather, no be North wey dry pass. The other options no match the real condition wey cocoa need.",
+"py": null,
+"values": null,
+"id": "geov1906",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A Nigerian state has a total population of 3,600,000 people and a land area of 24,000 square kilometres. Calculate the population density of the state in persons per square kilometre.",
+"options": [
+"150",
+"90",
+"200",
+"120"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Population density is found by dividing total population by land area: 3,600,000 divided by 24,000 equals 150 persons per square kilometre. This shows how crowded the state is on average.",
+"pidgin": "To find population density, divide total population by land area: 3,600,000 divide by 24,000 e give 150 persons per square kilometre. Na so dem dey measure how crowded one place be.",
+"py": "3600000/24000",
+"values": [
+150,
+90,
+200,
+120
+],
+"id": "geov1907",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Agro-based industries such as cocoa processing factories, palm oil mills and cotton ginneries are best described as industries that mainly depend on which input?",
+"options": [
+"Imported machinery from Europe",
+"Agricultural raw materials produced locally",
+"Deep sea fishing products",
+"Mineral ores like tin and columbite",
+""
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Agro-based industries process farm produce such as cocoa beans, palm fruits and cotton into finished or semi-finished goods. Their raw materials come directly from local agriculture, not from mining, imports, or fishing.",
+"pidgin": "Agro-based industry dey use farm produce like cocoa, palm fruit and cotton to produce goods. Dem dey depend on local agriculture raw material, no be import, mining or fishing.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+}
+]
+}

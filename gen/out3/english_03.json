@@ -1,0 +1,120 @@
+{
+"subject": "english",
+"topic": "Concord (subject-verb agreement)",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the option that best completes the gap. Neither the class captain nor his classmates _______ aware of the sudden postponement of the JAMB mock examination.",
+"options": [
+"was",
+"were",
+"is",
+"has been"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In 'neither...nor' constructions, the verb agrees with the subject nearer to it. Here, 'his classmates' is nearer and is plural, so the correct verb is 'were'.",
+"pidgin": "For 'neither...nor' sentence, di verb go agree wit di subject wey close to am. Here, 'his classmates' close pass and e be plural, so di correct verb na 'were'.",
+"id": "engv0301",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the option that best completes the gap. A number of the candidates who sat for the Mathematics paper _______ yet to submit their answer scripts.",
+"options": [
+"is",
+"was",
+"are",
+"has been"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "'A number of' means 'several' and always takes a plural verb, unlike 'the number of' which takes a singular verb. Since many candidates are involved, 'are' is correct.",
+"pidgin": "'A number of' mean 'plenty' and e always need plural verb, unlike 'the number of' wey need singular verb. Since plenty candidates dey involved, 'are' na di correct answer.",
+"id": "engv0302",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the option that best completes the gap. Beside the dusty footpath that leads to the stream in Mrs. Okonkwo's village _______ two tall iroko trees planted by her late father.",
+"options": [
+"stands",
+"standing",
+"has stood",
+"stand"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "This sentence is inverted; the real subject, 'two tall iroko trees', comes after the verb. Since the subject is plural, the verb must also be plural, making 'stand' correct.",
+"pidgin": "Dis sentence dey inverted; di real subject, 'two tall iroko trees', dey come after di verb. Since di subject na plural, di verb too must be plural, so 'stand' correct.",
+"id": "engv0303",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Choose the option that best completes the gap. Tunde, together with his younger brothers, _______ to the stream every dry season to fetch water for the family.",
+"options": [
+"goes",
+"go",
+"going",
+"gone"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Phrases like 'together with' do not change the number of the subject. The subject remains 'Tunde', which is singular, so the verb 'goes' is correct.",
+"pidgin": "Phrase like 'together with' no dey change di number of di subject. Di subject still remain 'Tunde' wey be singular, so 'goes' na di correct verb.",
+"id": "engv0304",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best completes the gap. Twenty-five kilometres _______ a reasonable distance for a trained soldier to cover in one training session.",
+"options": [
+"are",
+"is",
+"were",
+"have been"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "When a distance, amount, or period of time is seen as a single unit, the verb used is singular. 'Twenty-five kilometres' is viewed as one total distance, so 'is' is correct.",
+"pidgin": "When distance, amount, or time dey seen as one single unit, di verb wey dem go use na singular. 'Twenty-five kilometres' dey seen as one total distance, so 'is' na di correct answer.",
+"id": "engv0305",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap. The group of corpers posted to Yobe State _______ to the orientation camp early this morning.",
+"options": [
+"has gone",
+"have gone",
+"going",
+"had went"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "'Group' is a collective noun that is treated as singular here, so it takes the singular verb 'has gone'. The phrase 'of corpers' only describes the group; it does not change the number of the main subject.",
+"pidgin": "'Group' na collective noun wey dem dey treat as singular for dis sentence, so e need singular verb 'has gone'. Di 'of corpers' just dey describe di group, e no change di number of di main subject.",
+"id": "engv0300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+"why": "ambiguous:A collective noun can also take plural agreement.|Collective noun 'group' acting as one unit takes a singular verb."
+}
+]
+}

@@ -1,0 +1,180 @@
+{
+"subject": "commerce",
+"topic": "Stock exchange and securities",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes a stock exchange?",
+"options": [
+"A market where new companies register their business names",
+"An organised market where existing shares, bonds and other securities are bought and sold",
+"A government agency that prints new currency notes",
+"A warehouse where manufactured goods are stored before sale"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A stock exchange is a well organised market where securities that have already been issued, such as shares and bonds, are bought and sold by investors. It does not register companies or store goods.",
+"pidgin": "Stock exchange na market wey dem dey buy and sell shares, bonds and other securities wey don already dey market. E no be place wey dem dey register company or store goods.",
+"py": null,
+"values": null,
+"id": "comv1400",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of these is NOT a security that can be traded on the Nigerian stock exchange?",
+"options": [
+"Ordinary shares",
+"Government bonds",
+"Debentures",
+"A sales invoice"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Shares, bonds and debentures are financial instruments traded on the stock exchange to raise capital. A sales invoice is just a business document showing goods sold, not a security.",
+"pidgin": "Shares, bonds and debentures na securities wey dem dey trade for stock exchange to raise money. Sales invoice na just paper wey show say dem don sell goods, e no be security.",
+"py": null,
+"values": null,
+"id": "comv1401",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Chidinma buys shares in Dangote Cement because she believes the price will rise soon, so she can sell later at a profit. In stock exchange language, Chidinma is acting as a...",
+"options": [
+"Bear",
+"Bull",
+"Stag",
+"Jobber"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A bull is an investor who buys shares expecting prices to rise so as to sell later at a higher price. A bear expects prices to fall, while a stag applies for new shares hoping to sell them quickly at a profit.",
+"pidgin": "Bull na person wey buy shares because e dey expect say price go rise so e fit sell am later make profit. Bear na person wey dey expect price to fall, stag na person wey dey apply for new shares to quick sell am make quick profit.",
+"py": null,
+"values": null,
+"id": "comv1402",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "When a public limited company offers new shares for the first time to raise fresh capital, these shares are sold in the...",
+"options": [
+"Primary market",
+"Secondary market",
+"Money market",
+"Foreign exchange market"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The primary market is where new securities are issued for the first time directly by the company to raise fresh capital. Once issued, these securities are later traded among investors in the secondary market.",
+"pidgin": "Primary market na where new securities dey first enter market, as company dey sell am direct to raise new money. After that, people go dey buy and sell am among themselves for secondary market.",
+"py": null,
+"values": null,
+"id": "comv1403",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A company declares a dividend of ₦2.50 per share. If the current market price of the share is ₦25.00, what is the dividend yield?",
+"options": [
+"5%",
+"8%",
+"10%",
+"12%"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Dividend yield = (dividend per share / market price per share) x 100 = (2.50/25.00) x 100 = 10%. This tells an investor the percentage return earned from dividends relative to the share's market price.",
+"pidgin": "Dividend yield = (dividend wey dem pay / market price) x 100 = (2.50/25.00) x 100 = 10%. Na im show the percentage wey investor dey earn from dividend compare to the price wey e buy the share.",
+"py": "2.5/25*100",
+"values": [
+5,
+8,
+10,
+12
+],
+"id": "comv1404",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Which functionary on the stock exchange buys and sells securities on behalf of clients and earns a commission for this service?",
+"options": [
+"Jobber",
+"Stockbroker",
+"Underwriter",
+"Registrar"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A stockbroker acts as an agent between the investing public and the stock exchange, buying and selling securities for clients and charging a commission. A jobber, by contrast, trades securities on his own account for profit.",
+"pidgin": "Stockbroker na person wey dey represent client, e dey buy and sell securities for the client and e dey collect commission. Jobber na different person wey dey buy and sell securities for himself make profit.",
+"py": null,
+"values": null,
+"id": "comv1405",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Adaku Plc has 100,000 ordinary shares of ₦1 each in issue. The company decides to raise more capital through a rights issue of 1 new share for every 4 shares already held, at a price of ₦1.20 per new share. How much money will the rights issue raise in total?",
+"options": [
+"₦20,000",
+"₦25,000",
+"₦30,000",
+"₦36,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Number of new shares = 100,000 / 4 = 25,000 shares. Amount raised = 25,000 x ₦1.20 = ₦30,000. A rights issue allows existing shareholders to buy extra shares at a fixed ratio and price before outsiders.",
+"pidgin": "New shares wey go come = 100,000 divide by 4 = 25,000 shares. Money wey go raise = 25,000 x ₦1.20 = ₦30,000. Rights issue na when old shareholders get first chance to buy extra shares for fixed price before any outsider.",
+"py": "100000/4*1.20",
+"values": [
+20000,
+25000,
+30000,
+36000
+],
+"id": "comv1406",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Which statement correctly distinguishes a debenture holder from an ordinary shareholder of a company?",
+"options": [
+"A debenture holder is a part-owner of the company while a shareholder is a creditor",
+"A debenture holder is a creditor of the company while a shareholder is a part-owner",
+"Both debenture holders and ordinary shareholders always receive a fixed annual dividend",
+"Debenture holders have voting rights at the company's annual general meeting while shareholders do not"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A debenture holder lends money to the company and is therefore a creditor entitled to fixed interest, whether or not the company makes profit. An ordinary shareholder is a part-owner of the company and receives dividends only when profits are made and declared.",
+"pidgin": "Debenture holder na person wey lend company money, so e be creditor wey suppose collect fixed interest whether company get profit or not. Ordinary shareholder na part-owner of the company and e go only collect dividend if company get profit wey dem declare.",
+"py": null,
+"values": null,
+"id": "comv1407",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

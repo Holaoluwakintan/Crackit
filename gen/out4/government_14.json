@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Nationalism and constitutional development to independence",
+"ti": 14,
+"generated": 8,
+"kept": [
+{
+"q": "Which notable Nigerian nationalist founded the West African Pilot newspaper, which was widely used to campaign against colonial rule and spread nationalist ideas among Nigerians?",
+"options": [
+"Herbert Macaulay",
+"Nnamdi Azikiwe",
+"Obafemi Awolowo",
+"Ahmadu Bello"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Nnamdi Azikiwe founded the West African Pilot in 1937 and used it to criticise colonial rule and awaken nationalist consciousness in Nigerians.",
+"pidgin": "Na Nnamdi Azikiwe start West African Pilot for 1937, e dey use am criticize colonial government and wake up nationalist feeling for Nigerians.",
+"id": "wgov1400",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which Nigerian constitution, introduced in 1922, first allowed a small number of educated Nigerians in Lagos and Calabar to elect their own representatives into the Legislative Council?",
+"options": [
+"Clifford Constitution",
+"Richards Constitution",
+"Macpherson Constitution",
+"Lyttleton Constitution"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The 1922 Clifford Constitution introduced the elective principle, allowing Lagos and Calabar to elect a few members into the Legislative Council for the first time.",
+"pidgin": "Na Clifford Constitution of 1922 bring elective principle, wey make Lagos and Calabar fit elect small members enter Legislative Council for the first time.",
+"id": "wgov1401",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which constitution, introduced in 1946, first divided Nigeria into three regions (Northern, Eastern and Western) and created regional houses of assembly?",
+"options": [
+"Clifford Constitution",
+"Macpherson Constitution",
+"Richards Constitution",
+"Lyttleton Constitution"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Richards Constitution of 1946 divided Nigeria into three regions and set up regional houses, laying the foundation for the federal system Nigeria later adopted.",
+"pidgin": "Na Richards Constitution of 1946 first divide Nigeria into three regions and bring regional houses, na im start the federal arrangement Nigeria later take.",
+"id": "wgov1402",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A key feature of the 1954 Lyttleton Constitution was that it...",
+"options": [
+"abolished political parties in Nigeria",
+"merged the three regions into a single unitary state",
+"handed full independence to Nigeria",
+"introduced a strong federal system with each region enjoying self-government in internal affairs"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The Lyttleton Constitution of 1954 firmly established federalism, granting each region control over its own internal affairs while a central government handled common national matters.",
+"pidgin": "Lyttleton Constitution of 1954 bring strong federal system, where every region fit control dia own internal matter while central government dey handle common national issues.",
+"id": "wgov1403",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The Action Group (AG), led by Chief Obafemi Awolowo, drew its strongest political support mainly from which group of Nigerians?",
+"options": [
+"Yoruba in the West",
+"Hausa-Fulani in the North",
+"Igbo in the East",
+"Efik in Calabar"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Action Group was formed in 1951 mainly to champion the political and cultural interests of the Yoruba-speaking people of Western Nigeria.",
+"pidgin": "Action Group, wey Awolowo lead, get im main support from Yoruba people for Western Nigeria.",
+"id": "wgov1404",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In 1953, Chief Anthony Enahoro moved a motion in the House of Representatives calling for Nigeria's self-government by 1956. Opposition to this motion by which party led to a walkout and eventually sparked riots in Kano?",
+"options": [
+"Action Group (AG)",
+"Northern Peoples Congress (NPC)",
+"National Council of Nigeria and the Cameroons (NCNC)",
+"United Middle Belt Congress (UMBC)"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Northern leaders in the NPC felt the North was not yet ready for self-government by 1956, so they opposed the motion and walked out of the House, a disagreement that later led to the 1953 Kano riots.",
+"pidgin": "Northern leaders for NPC no gree with the 1956 self-government motion, dem argue say North never ready, dem waka comot for House, and the tension later cause Kano riot for 1953.",
+"id": "wgov1405",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following was NOT a major factor that encouraged the rise of nationalism in colonial Nigeria?",
+"options": [
+"Spread of Western education",
+"Racial discrimination by colonial officials",
+"Impact of the Second World War on colonial subjects",
+"Formation of the Economic Community of West African States (ECOWAS)"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "ECOWAS was formed in 1975, well after Nigeria gained independence in 1960, so it could not have caused the earlier nationalist agitation; the other options were genuine pre-independence influences.",
+"pidgin": "ECOWAS start for 1975, afta Nigeria don independent since 1960, so e no fit be one of the things wey cause nationalism before independence; the other options na real factors wey cause am.",
+"id": "wgov1406",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The National Council of Nigeria and the Cameroons (NCNC), founded in 1944, was initially formed mainly to...",
+"options": [
+"organize the first military coup in Nigeria",
+"draft Nigeria's independence constitution",
+"unite Nigerians and Cameroonians in the struggle for better political and economic conditions",
+"oversee local government elections in Lagos"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The NCNC was founded in 1944 as a pressure group to unite Nigerians and Cameroonians under British rule to press for political and economic reforms and later self-government.",
+"pidgin": "Dem form NCNC for 1944 as pressure group make Nigerians and Cameroonians unite fight together for better political and economic condition, and later self-government.",
+"id": "wgov1407",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

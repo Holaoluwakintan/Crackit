@@ -1,0 +1,159 @@
+{
+"subject": "maths",
+"topic": "Quadratic equations",
+"ti": 10,
+"generated": 6,
+"kept": [
+{
+"q": "Solve the quadratic equation x^2 - 7x + 12 = 0.",
+"options": [
+"x = 3 or x = 4",
+"x = -3 or x = -4",
+"x = 3 or x = -4",
+"x = -3 or x = 4"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Factorise: x^2 - 7x + 12 = (x - 3)(x - 4) = 0. Setting each factor to zero gives x = 3 or x = 4.",
+"pidgin": "Make we factorise am: x^2 - 7x + 12 = (x - 3)(x - 4) = 0. If you set each bracket to zero, you go see say x = 3 or x = 4.",
+"py": null,
+"values": null,
+"id": "wmth1000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the sum of the roots of the equation 2x^2 - 6x + 4 = 0?",
+"options": [
+"3",
+"-3",
+"2",
+"-2"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "For ax^2 + bx + c = 0, sum of roots = -b/a. Here a = 2, b = -6, so sum = -(-6)/2 = 3.",
+"pidgin": "For ax^2 + bx + c = 0, sum of di roots na -b/a. Here a = 2, b = -6, so sum = -(-6)/2 = 3.",
+"py": "-(-6)/2",
+"values": [
+3,
+-3,
+2,
+-2
+],
+"id": "wmth1001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Find the positive value of k for which the equation x^2 + kx + 9 = 0 has equal roots.",
+"options": [
+"6",
+"3",
+"9",
+"12"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "For equal roots, discriminant b^2 - 4ac = 0. So k^2 - 4(1)(9) = 0, k^2 = 36, k = 6 (taking the positive value).",
+"pidgin": "For equal roots, discriminant b^2 - 4ac must be zero. So k^2 - 4(1)(9) = 0, dat na k^2 = 36, k = 6 (we take di positive one).",
+"py": "math.sqrt(36)",
+"values": [
+6,
+3,
+9,
+12
+],
+"id": "wmth1002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Form the quadratic equation whose roots are 2 and -5.",
+"options": [
+"x^2 + 3x - 10 = 0",
+"x^2 - 3x - 10 = 0",
+"x^2 + 3x + 10 = 0",
+"x^2 - 7x + 10 = 0"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Sum of roots = 2 + (-5) = -3, product of roots = 2 x (-5) = -10. The equation is x^2 - (sum)x + (product) = x^2 + 3x - 10 = 0.",
+"pidgin": "Sum of di roots = 2 + (-5) = -3, product = 2 x (-5) = -10. Di equation na x^2 - (sum)x + (product) = x^2 + 3x - 10 = 0.",
+"py": null,
+"values": null,
+"id": "wmth1003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Without solving it, determine the nature of the roots of the equation 3x^2 - 2x + 5 = 0.",
+"options": [
+"Real and equal roots",
+"Real and distinct roots",
+"No real roots",
+"Rational and equal roots"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Discriminant = b^2 - 4ac = (-2)^2 - 4(3)(5) = 4 - 60 = -56. Since the discriminant is negative, the equation has no real roots.",
+"pidgin": "Discriminant = b^2 - 4ac = (-2)^2 - 4(3)(5) = 4 - 60 = -56. Since the discriminant dey negative, di equation no get real roots.",
+"py": null,
+"values": null,
+"id": "wmth1004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A rectangular farmland in Benue State has its length 4 metres more than its width. If the area of the farmland is 96 square metres, find the width.",
+"options": [
+"8 metres",
+"6 metres",
+"12 metres",
+"10 metres"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Let width = x, length = x + 4. Then x(x + 4) = 96, which gives x^2 + 4x - 96 = 0. Factorising: (x - 8)(x + 12) = 0, so x = 8 (rejecting the negative value).",
+"pidgin": "Make width = x, length = x + 4. So x(x + 4) = 96, dat na x^2 + 4x - 96 = 0. If you factorise am: (x - 8)(x + 12) = 0, so x = 8 (we no fit use di negative one).",
+"py": "(-4+math.sqrt(4**2+4*96))/2",
+"values": [
+8,
+6,
+12,
+10
+],
+"id": "wmth1005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

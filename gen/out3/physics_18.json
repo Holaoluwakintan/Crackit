@@ -1,0 +1,116 @@
+{
+"subject": "physics",
+"topic": "Current electricity: Ohm's law, resistors in series and parallel, e.m.f.",
+"generated": 4,
+"kept": [
+{
+"q": "In a laboratory experiment, Ngozi connects a resistor of 15 ohms to a battery so that a steady current of 0.8 A flows through it. Using Ohm's law, calculate the voltage across the resistor.",
+"options": [
+"12 V",
+"18.75 V",
+"15.8 V",
+"0.053 V"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Ohm's law states V = IR. So V = 15 ohms x 0.8 A = 12 V. The other options come from wrong operations like dividing or adding instead of multiplying.",
+"pidgin": "Ohm's law talk say V = IR. So V = 15 x 0.8 = 12 V. The other answers na from wrong maths like dividing or adding instead of multiply.",
+"py": "15*0.8",
+"values": [
+12,
+18.75,
+15.8,
+0.053
+],
+"id": "phyv1800",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "An 8-ohm resistor and a 12-ohm resistor are connected in parallel. This parallel combination is then connected in series with a 5-ohm resistor across a battery. Calculate the total resistance of the circuit.",
+"options": [
+"9.8 ohms",
+"25 ohms",
+"4.8 ohms",
+"20 ohms"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "For resistors in parallel, 1/Rp = 1/8 + 1/12, giving Rp = (8x12)/(8+12) = 96/20 = 4.8 ohms. Adding the series resistor: Total R = 4.8 + 5 = 9.8 ohms. The wrong options either forget to add the series resistor or wrongly add all values directly.",
+"pidgin": "For parallel resistors, Rp = (8x12)/(8+12) = 96/20 = 4.8 ohms. Then add the series 5 ohms: Total = 4.8 + 5 = 9.8 ohms. The wrong options no add the series resistor well or just add everything anyhow.",
+"py": "(8*12)/(8+12)+5",
+"values": [
+9.8,
+25,
+4.8,
+20
+],
+"id": "phyv1801",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A dry cell with e.m.f. 3.0 V and internal resistance 0.4 ohms is connected to an external resistor of 2.6 ohms. Calculate the current flowing in the circuit.",
+"options": [
+"1.0 A",
+"1.15 A",
+"7.5 A",
+"0.75 A"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The current in a circuit with e.m.f. and internal resistance is I = E/(R + r) = 3.0/(2.6 + 0.4) = 3.0/3.0 = 1.0 A. Ignoring internal resistance (3.0/2.6) or using only internal resistance (3.0/0.4) gives the wrong distractors.",
+"pidgin": "Current be I = E/(R+r) = 3.0/(2.6+0.4) = 3.0/3.0 = 1.0 A. If person forget internal resistance e go get 3.0/2.6, or if e use only internal resistance e go get 3.0/0.4 - both na wrong answer.",
+"py": "3.0/(2.6+0.4)",
+"values": [
+1.0,
+1.15,
+7.5,
+0.75
+],
+"id": "phyv1802",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A battery of e.m.f. 12 V and negligible internal resistance is connected across a network made up of a 4-ohm resistor in series with a parallel combination of a 6-ohm resistor and a 3-ohm resistor. Calculate the current flowing through the 3-ohm resistor.",
+"options": [
+"1.33 A",
+"2.0 A",
+"0.67 A",
+"4.0 A"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "First find the parallel resistance: Rp = (6x3)/(6+3) = 2 ohms. Total resistance = 4 + 2 = 6 ohms, so total current I = 12/6 = 2.0 A. This current splits in the parallel branch; current through the 3-ohm resistor = I x (6/(6+3)) = 2 x 6/9 = 1.33 A. The other options are the total current, the current through the 6-ohm resistor, or the voltage across the parallel section mistaken for current.",
+"pidgin": "First find parallel resistance: Rp = (6x3)/(6+3) = 2 ohms. Total resistance = 4+2 = 6 ohms, so total current I = 12/6 = 2.0 A. Dis current go divide for the parallel branch; current for the 3-ohm resistor = 2 x 6/9 = 1.33 A. Other options na the total current, current for the 6-ohm resistor, or voltage wey person mistake as current.",
+"py": "(12/(4+(6*3)/(6+3)))*(6/(6+3))",
+"values": [
+1.33,
+2.0,
+0.67,
+4.0
+],
+"id": "phyv1803",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+}
+]
+}

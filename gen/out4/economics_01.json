@@ -1,0 +1,208 @@
+{
+"subject": "economics",
+"topic": "Basic tools: tables, graphs and measures of central tendency",
+"ti": 1,
+"generated": 7,
+"kept": [
+{
+"q": "The ages (in years) of 5 pupils in a Lagos primary school club are: 4, 6, 8, 10, 12. What is the mean age of the pupils?",
+"options": [
+"6",
+"9",
+"8",
+"10"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Mean = sum of values divided by number of values. Sum = 4+6+8+10+12 = 40, and 40 divided by 5 = 8.",
+"pidgin": "Mean na when you add all the numbers togeda den divide by how many dem be. 4+6+8+10+12 give 40, 40 divide by 5 na 8.",
+"py": "sum([4,6,8,10,12])/5",
+"values": [
+6,
+9,
+8,
+10
+],
+"id": "weco0100",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In statistics, which measure of central tendency is defined as the value that occurs most frequently in a set of data?",
+"options": [
+"Mean",
+"Median",
+"Range",
+"Mode"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The mode is the value that appears most often in a data set. The mean is the average, the median is the middle value, and the range measures spread, not central tendency.",
+"pidgin": "Mode na di value wey dey show pass for inside data. Mean na average, median na di middle number, range na di spread, dem no be mode.",
+"py": null,
+"values": null,
+"id": "weco0101",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A table shows the prices of goods at Oja Oba market in one morning: Yam costs ₦500, Rice costs ₦700, Beans costs ₦600, Garri costs ₦300, and Maize costs ₦400. Based on this table, which commodity has the highest price?",
+"options": [
+"Garri",
+"Maize",
+"Rice",
+"Beans"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Comparing the prices listed, Rice at ₦700 is higher than Yam (₦500), Beans (₦600), Garri (₦300) and Maize (₦400). So Rice has the highest price.",
+"pidgin": "If you compare di prices for di table, Rice na ₦700, e pass Yam (₦500), Beans (₦600), Garri (₦300) and Maize (₦400). So Rice get di highest price.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "weco0103",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a test, the scores of 10 students and their frequencies are: score 3 (2 students), score 5 (3 students), score 7 (4 students), score 9 (1 student). What is the mean score?",
+"options": [
+"5.8",
+"6.0",
+"5.5",
+"6.2"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Multiply each score by its frequency and add: (3x2)+(5x3)+(7x4)+(9x1) = 6+15+28+9 = 58. Divide by total number of students, 10, to get 58/10 = 5.8.",
+"pidgin": "Multiply each score by im frequency den add dem: (3x2)+(5x3)+(7x4)+(9x1) = 6+15+28+9 = 58. Divide 58 by 10 students, you go get 5.8.",
+"py": "(3*2+5*3+7*4+9*1)/10",
+"values": [
+5.8,
+6.0,
+5.5,
+6.2
+],
+"id": "weco0104",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A trader recorded her daily sales (in ₦'000) for one week as: 3, 9, 5, 7, 11, 2, 8. What is the median of this data?",
+"options": [
+"7",
+"8",
+"5",
+"9"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Arrange the numbers in order: 2, 3, 5, 7, 8, 9, 11. With 7 values, the median is the 4th value, which is 7.",
+"pidgin": "First arrange di numbers well well: 2, 3, 5, 7, 8, 9, 11. Since na 7 numbers, di middle one (4th position) na 7, so dat na di median.",
+"py": "sorted([3,9,5,7,11,2,8])[3]",
+"values": [
+7,
+8,
+5,
+9
+],
+"id": "weco0102",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+},
+{
+"q": {
+"q": "The ages of students in an SS3 class, with their frequencies, are given as: 14 years (5 students), 15 years (8 students), 16 years (6 students), 17 years (1 student). What is the modal age?",
+"options": [
+"14",
+"16",
+"15",
+"17"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The mode is the value with the highest frequency. Age 15 has 8 students, which is more than any other age group, so 15 is the mode.",
+"pidgin": "Mode na di age wey get di most students. 15 years get 8 students, e pass every oda age group, so 15 be di mode.",
+"py": "max([(14,5),(15,8),(16,6),(17,1)], key=lambda x: x[1])[0]",
+"values": [
+14,
+16,
+15,
+17
+],
+"id": "weco0105",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "unsafe-py"
+}
+},
+"why": "python:unsafe-py"
+},
+{
+"q": {
+"q": "The weights (in kg) of 8 bags of rice measured by a trader are: 12, 15, 11, 18, 14, 16, 13, 17. What is the median weight?",
+"options": [
+"14",
+"15",
+"14.5",
+"15.5"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Arrange in order: 11, 12, 13, 14, 15, 16, 17, 18. With 8 values (an even number), the median is the average of the 4th and 5th values: (14+15)/2 = 14.5.",
+"pidgin": "Arrange di numbers well: 11, 12, 13, 14, 15, 16, 17, 18. Since na 8 numbers (even number), median na di average of di 4th and 5th number: (14+15)/2 = 14.5.",
+"py": "(sorted([12,15,11,18,14,16,13,17])[3]+sorted([12,15,11,18,14,16,13,17])[4])/2",
+"values": [
+14,
+15,
+14.5,
+15.5
+],
+"id": "weco0106",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+}
+]
+}

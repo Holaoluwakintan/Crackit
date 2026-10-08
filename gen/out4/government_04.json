@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Rule of law, rights of citizens and civil liberties",
+"ti": 4,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the principle of 'Rule of Law'?",
+"options": [
+"The law is supreme and applies equally to everyone, including government officials",
+"The government has the right to detain citizens without trial during emergencies",
+"The military can rule a country through decrees instead of the constitution",
+"Courts are allowed to make new laws whenever they judge a case"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Rule of Law means that no person, including those in government, is above the law, and everyone is subject to the same legal rules and processes. The other options describe actions that go against this principle.",
+"pidgin": "Rule of Law mean say law dey reign for everybody, even government people no fit dodge am. The other options na things wey dey against this idea, like detaining person anyhow or military dey rule with decree.",
+"id": "wgov0400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The doctrine of the Rule of Law, as commonly taught in Government studies, is most closely associated with which scholar?",
+"options": [
+"Jean Jacques Rousseau",
+"A.V. Dicey",
+"Baron de Montesquieu",
+"John Locke"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A.V. Dicey, a British constitutional lawyer, is widely credited with developing and popularising the doctrine of the Rule of Law in the 19th century. Montesquieu is known for separation of powers, Locke for natural rights, and Rousseau for social contract theory.",
+"pidgin": "A.V. Dicey na the man wey dem sabi for Rule of Law teaching, he explain am well for him book. Montesquieu na separation of powers, Locke na natural rights, Rousseau na social contract.",
+"id": "wgov0401",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is NOT a recognised feature of the Rule of Law?",
+"options": [
+"Supremacy of the law over all persons",
+"Equality of all citizens before the law",
+"Arbitrary arrest and detention of citizens without due process",
+"Protection of fundamental human rights by the courts"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Arbitrary arrest without due process is exactly what the Rule of Law seeks to prevent, since it violates fair hearing and personal liberty. The other three options are genuine features that uphold the Rule of Law.",
+"pidgin": "Arbitrary arrest without due process na the kind thing wey Rule of Law dey fight against, because e dey spoil fair hearing and personal freedom. The other three na real things wey Rule of Law dey support.",
+"id": "wgov0402",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chief Nduka, a wealthy businessman in Onitsha, was arrested for fraud and tried in court using the same procedure applied to an ordinary trader accused of a similar offence. This situation best illustrates which principle of the Rule of Law?",
+"options": [
+"Separation of powers",
+"Equality before the law",
+"Federal character principle",
+"Doctrine of necessity"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Equality before the law means that no one, regardless of wealth or status, receives special treatment in the eyes of the law. Chief Nduka being tried like an ordinary person shows this principle in action.",
+"pidgin": "Equality before the law mean say everybody, no matter how rich or big dem be, go face law the same way. Chief Nduka wey dem try like ordinary trader na clear example of dis.",
+"id": "wgov0403",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following rights is classified as a fundamental human right enforceable in a Nigerian court, unlike directive principles of state policy?",
+"options": [
+"Right to free university education",
+"Right to guaranteed employment",
+"Right to personal liberty",
+"Right to a minimum living wage"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Right to personal liberty is a fundamental human right guaranteed and enforceable under the Constitution. Free education, employment and minimum wage are socio-economic goals under directive principles, which are not directly enforceable in court.",
+"pidgin": "Right to personal liberty na fundamental right wey person fit carry go court make dem enforce am. Free education, work, and minimum wage na just government goals (directive principles) wey court no dey force like dat.",
+"id": "wgov0404",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which legal writ is used to compel the authorities holding a person in custody to bring that person before a court and justify the detention?",
+"options": [
+"Mandamus",
+"Certiorari",
+"Habeas corpus",
+"Quo warranto"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Habeas corpus is a court order that requires detaining authorities to produce the detained person and explain the legal grounds for the detention. This protects citizens from unlawful or secret imprisonment.",
+"pidgin": "Habeas corpus na court order wey dem dey use force people wey dey hold person for custody make dem bring am come court and explain why dem dey hold am. E dey protect person from secret or illegal detention.",
+"id": "wgov0405",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During a peaceful demonstration in Kano over fuel price increase, security agents dispersed the protesters with force and detained several of them for two weeks without any court order or charge. Which civil liberties were most directly violated in this scenario?",
+"options": [
+"Right to own property only",
+"Right to personal liberty and freedom of assembly",
+"Right to fair hearing only",
+"Right to freedom of worship only"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Detaining the protesters for two weeks without court order violates their right to personal liberty, while dispersing a peaceful protest violates their right to freedom of assembly. Property and worship were not the main issues in this scenario.",
+"pidgin": "Dem detain the protesters for two weeks without court order, dat one touch personal liberty; and dem scatter peaceful protest, dat one touch freedom of assembly. Property and worship no be wetin dis case dey about.",
+"id": "wgov0406",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following represents a LAWFUL limitation of civil liberties under the Rule of Law, rather than a violation of citizens' rights?",
+"options": [
+"A government bans a political party without following any court process",
+"A state of emergency is properly declared following constitutional procedure, temporarily restricting movement in a conflict zone",
+"The police detain a suspect for several months without charging the person to court",
+"A state governor dissolves the judiciary in his state by executive order"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A properly declared state of emergency, following the constitution, is a recognised legal way to temporarily limit certain freedoms for public safety, so it is lawful. The other options describe actions that bypass due process and are therefore violations of the Rule of Law.",
+"pidgin": "When dem follow constitution declare state of emergency well-well, e dey legal to limit some freedom small for public safety. The other options na pure violation because dem skip due process entirely.",
+"id": "wgov0407",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

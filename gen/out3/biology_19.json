@@ -1,0 +1,84 @@
+{
+"subject": "biology",
+"topic": "Evolution: theories and evidence",
+"generated": 4,
+"kept": [
+{
+"q": "In the study of evolution, which of the following best defines a 'vestigial organ'?",
+"options": [
+"An organ that evolved very recently and now performs a vital function",
+"A reduced, often non-functional organ that was fully functional in an ancestral species",
+"An organ that is found only in animals kept by farmers",
+"An organ that performs identical functions in every vertebrate species"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A vestigial organ is a reduced structure that once served a useful purpose in an ancestor but now has little or no function in the present-day organism, like the human appendix. This is strong evidence of evolution from a common ancestor.",
+"pidgin": "Vestigial organ na body part wey don shrink and no longer get strong use for present animal, but e dey useful for the ancestor before. Example na human appendix. Na evidence say animals change over time from common ancestor.",
+"id": "biov1900",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Before factories came to a certain town near Lagos, most moths resting on tree trunks were light-coloured, matching the pale bark, while dark moths were rare. After years of industrial soot blackening the tree trunks, bird-watchers noticed that dark-coloured moths became far more common than light-coloured ones. Which explanation best accounts for this change using the theory of natural selection?",
+"options": [
+"The moths deliberately changed their body colour during their lifetime to match the new bark colour",
+"Dark moths were better camouflaged against predators on the sooty trunks, so they survived and reproduced more than light moths",
+"Light moths were transformed directly into dark moths because of the pollution in the air",
+"Predators began to prefer eating dark moths, allowing light moths to increase in number"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Soot darkened the tree trunks, so dark moths were better hidden from predators like birds, while light moths became more visible and were eaten more. This gave dark moths a survival and reproductive advantage, so their numbers increased over generations - a classic example of natural selection.",
+"pidgin": "Soot don make tree trunk black, so dark moth dey hide well from bird wey dey hunt dem, but light moth dey show well for predator eye. Dark moth dey survive pass and born pikin pass, so dem number increase for generations. Na natural selection cause am.",
+"id": "biov1901",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A hospital in Enugu used a particular antibiotic to treat a bacterial infection successfully for many years. After repeated use over time, the same antibiotic stopped working because the bacteria became resistant. Which explanation is most consistent with Darwin's theory of natural selection, rather than Lamarck's idea of inheritance of acquired characteristics?",
+"options": [
+"Each bacterium felt the 'need' to resist the drug and changed its own genes during treatment",
+"A few bacteria already carried random resistance mutations before the antibiotic was used; the antibiotic killed the non-resistant ones, leaving resistant bacteria to multiply and dominate the population",
+"The antibiotic itself directly inserted resistance genes into all the bacteria during each treatment",
+"The bacteria slowly learned, through experience, how to avoid being killed by the antibiotic"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Natural selection does not create new mutations on demand; resistance mutations already exist randomly in a few bacteria before exposure. The antibiotic simply kills the non-resistant majority, leaving the already-resistant ones to survive and reproduce, increasing their frequency over generations. This is different from Lamarck's idea that organisms change because they need to.",
+"pidgin": "Natural selection no dey create new mutation just because animal need am; some bacteria don already get resistance mutation before the antibiotic come. Antibiotic go kill the ones wey no get resistance, leave the resistant ones to multiply well-well. Na this one different from Lamarck idea wey say organism go change body because e need am.",
+"id": "biov1903",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Marsupial mammals such as kangaroos are found mainly in Australia, while most other continents have mostly placental mammals. Which explanation best fits this pattern according to evolutionary theory and biogeography?",
+"options": [
+"Marsupials evolved on the Australian landmass after it separated from other continents, allowing them to diversify there with little competition from placental mammals",
+"Marsupials are too weak to survive in any climate outside Australia",
+"All marsupial species originated in Australia and have never existed on any other landmass throughout geological history",
+"Early human travellers carried marsupials to Australia and released them there"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Fossil evidence shows ancient marsupials once lived on other continents, but after Australia separated due to continental drift, its marsupials evolved in isolation without strong competition from placental mammals, leading to the unique pattern seen today. This pattern of distribution is key evidence used to support evolution.",
+"pidgin": "Fossil don show say old marsupial dey live for other continents before. But as Australia separate because of continental drift, the marsupials wey remain for there evolve alone without competition from placental mammals. Na why kangaroo and dem kin dey mostly for Australia today, and e be strong evidence for evolution.",
+"id": "biov1902",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+"why": "ambiguous:A implies marsupials originated in Australia after isolation; they arrived earlier.|Keyed option inaccurate: marsupials originated elsewhere and reached Australia before it separated; they diversified there after isolation"
+}
+]
+}

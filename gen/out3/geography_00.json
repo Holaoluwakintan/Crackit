@@ -1,0 +1,210 @@
+{
+"subject": "geography",
+"topic": "Map reading: scales, distances and areas",
+"generated": 8,
+"kept": [
+{
+"q": "In map reading, what does the term 'scale of a map' mean?",
+"options": [
+"The size of the map compared to the size of the paper it is printed on",
+"The distance on the map and the corresponding distance on the ground",
+"The number of towns shown on the map compared to their real population",
+"The height of contour lines compared to the actual height of hills"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Scale is the ratio that links a distance measured on the map to the actual distance it represents on the ground. It does not depend on paper size, population or heights.",
+"pidgin": "Scale na di relationship between distance wey dem draw for map and di real distance for ground. E no concern paper size, population or hill height.",
+"py": null,
+"values": null,
+"id": "geov0000",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A map has a scale of 1:100000. If the distance between Oke-Ado market and Bodija market on the map is 3.5 cm, what is the actual distance between the two places on the ground?",
+"options": [
+"3.5 km",
+"35 km",
+"0.35 km",
+"350 km"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "At 1:100000, 1 cm on the map equals 100000 cm (1 km) on the ground. So 3.5 cm on the map represents 3.5 cm x 1 km = 3.5 km on the ground.",
+"pidgin": "For scale 1:100000, 1 cm for map na 100000 cm (1 km) for ground. So 3.5 cm go be 3.5 km for ground.",
+"py": "3.5*100000/100000",
+"values": [
+3.5,
+35,
+0.35,
+350
+],
+"id": "geov0001",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A topographical sheet has a representative fraction (RF) of 1:250000. Express this as a statement scale in the form '1 cm represents ___ km'.",
+"options": [
+"1 cm represents 25 km",
+"1 cm represents 0.25 km",
+"1 cm represents 2.5 km",
+"1 cm represents 250 km"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Divide 250000 cm by 100000 (the number of centimetres in a kilometre) to get 2.5. So 1 cm on the map represents 2.5 km on the ground.",
+"pidgin": "You go divide 250000 cm by 100000 (wey be how many cm dey for 1 km) to get 2.5. So 1 cm for map na 2.5 km for ground.",
+"py": "250000/100000",
+"values": [
+25,
+0.25,
+2.5,
+250
+],
+"id": "geov0002",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A map is drawn to a linear scale of 1:20000. A cocoa farm is shown on the map as a shape covering 5 square centimetres. What is the actual area of the farm on the ground, in square kilometres?",
+"options": [
+"0.02 km^2",
+"0.2 km^2",
+"2 km^2",
+"20 km^2"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "First change the linear scale to km: 1 cm represents 20000 cm = 0.2 km. The area scale is (0.2 km)^2 = 0.04 km^2 per cm^2. Multiply by 5 cm^2 to get 0.2 km^2.",
+"pidgin": "First convert di linear scale to km: 1 cm na 20000 cm = 0.2 km. Area scale na (0.2)^2 = 0.04 km^2 for every cm^2. Multiply by 5 cm^2, e go give 0.2 km^2.",
+"py": "((20000/100000)**2)*5",
+"values": [
+0.02,
+0.2,
+2,
+20
+],
+"id": "geov0003",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "On the ground, two villages, Egbeda and Isale-Oyo, are 45 km apart. On a map, the distance between them is measured as 9 cm. What is the representative fraction (RF) of the map?",
+"options": [
+"1:50000",
+"1:5000000",
+"1:50000000",
+"1:500000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Convert 45 km to centimetres: 45 x 100000 = 4500000 cm. Divide this by the map distance, 9 cm, to get 500000. So the RF is 1:500000.",
+"pidgin": "Change 45 km go cm: 45 x 100000 = 4500000 cm. Divide am by 9 cm (map distance), e go give 500000. So RF na 1:500000.",
+"py": "(45*100000)/9",
+"values": [
+50000,
+5000000,
+50000000,
+500000
+],
+"id": "geov0004",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "A linear (graphical) scale on a map shows a straight line marked from 0 km to 60 km, and the total length of this line on the map measures 6 cm. What is the representative fraction (RF) of this map?",
+"options": [
+"1:1000000",
+"1:100000",
+"1:10000000",
+"1:1000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Change 60 km to centimetres: 60 x 100000 = 6000000 cm. Divide this by the map length, 6 cm, to get 1000000. So the RF is 1:1000000.",
+"pidgin": "Change 60 km go cm: 60 x 100000 = 6000000 cm. Divide am by 6 cm (map length), e go give 1000000. So RF na 1:1000000.",
+"py": "(60*100000)/6",
+"values": [
+1000000,
+100000,
+10000000,
+1000
+],
+"id": "geov0005",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A map is drawn to a scale of 1:50000. On the map, a rectangular farmland owned by Alhaji Musa measures 4 cm by 3 cm. What is the actual area of the farmland on the ground, in square kilometres?",
+"options": [
+"1.5 km^2",
+"6 km^2",
+"3 km^2",
+"12 km^2"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "At 1:50000, 1 cm represents 50000 cm = 0.5 km. So the sides become 4 x 0.5 = 2 km and 3 x 0.5 = 1.5 km. Multiply the two actual sides: 2 km x 1.5 km = 3 km^2.",
+"pidgin": "For 1:50000, 1 cm na 0.5 km. So di sides become 4 x 0.5 = 2 km and 3 x 0.5 = 1.5 km. Multiply di two sides: 2 km x 1.5 km = 3 km^2.",
+"py": "(4*50000/100000)*(3*50000/100000)",
+"values": [
+1.5,
+6,
+3,
+12
+],
+"id": "geov0006",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A cartographer redraws an old map originally at a scale of 1:50000 by enlarging every linear measurement on it twice (so that a line that was 1 cm now becomes 2 cm), while the actual ground distances represented stay the same. What is the new scale of the enlarged map?",
+"options": [
+"1:50000",
+"1:25000",
+"1:12500",
+"1:100000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since the same ground distance is now shown by twice the map length, the map distance per unit ground distance has doubled, so the denominator of the scale is halved: 50000 / 2 = 25000. The new scale is 1:25000, which is a larger (more detailed) scale than the original.",
+"pidgin": "Since dem don enlarge di map but di real ground distance remain di same, di number wey dey behind di scale go reduce by half: 50000 / 2 = 25000. New scale na 1:25000, wey be bigger (more detailed) scale pass di first one.",
+"py": "50000/2",
+"values": [
+50000,
+25000,
+12500,
+100000
+],
+"id": "geov0007",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,180 @@
+{
+"subject": "maths",
+"topic": "Mensuration: plane shapes (perimeter, area, arc, sector)",
+"ti": 15,
+"generated": 6,
+"kept": [
+{
+"q": "A circular plate has radius 14 cm. Using pi = 22/7, find the area of the plate.",
+"options": [
+"308 cm^2",
+"88 cm^2",
+"616 cm^2",
+"44 cm^2"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Area of circle = pi r^2 = (22/7) x 14 x 14 = (22/7) x 196 = 616 cm^2.",
+"pidgin": "Area of circle = pi r^2 = (22/7) x 14 x 14 = 616 cm^2.",
+"py": "(22/7)*14**2",
+"values": [
+308,
+88,
+616,
+44
+],
+"id": "wmth1501",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A sector of a circle has radius 21 cm and the angle at the centre is 60°. Using pi = 22/7, find the area of the sector.",
+"options": [
+"231 cm^2",
+"462 cm^2",
+"115.5 cm^2",
+"77 cm^2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Area of sector = (theta/360) x pi r^2 = (60/360) x (22/7) x 21 x 21 = (1/6) x 1386 = 231 cm^2.",
+"pidgin": "Area of sector = (theta/360) x pi r^2 = (60/360) x (22/7) x 21 x 21 = 231 cm^2.",
+"py": "(60/360)*(22/7)*21**2",
+"values": [
+231,
+462,
+115.5,
+77
+],
+"id": "wmth1502",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "An arc of a circle subtends an angle of 90° at the centre. If the radius of the circle is 7 cm, find the length of the arc. Take pi = 22/7.",
+"options": [
+"22 cm",
+"5.5 cm",
+"44 cm",
+"11 cm"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Arc length = (theta/360) x 2 pi r = (90/360) x 2 x (22/7) x 7 = (1/4) x 44 = 11 cm.",
+"pidgin": "Arc length = (theta/360) x 2 pi r = (90/360) x 44 = 11 cm.",
+"py": "(90/360)*2*(22/7)*7",
+"values": [
+22,
+5.5,
+44,
+11
+],
+"id": "wmth1503",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "An arc of a circle of radius 7 cm has length 11 cm. Using pi = 22/7, find the angle (in degrees) which the arc subtends at the centre.",
+"options": [
+"60°",
+"90°",
+"45°",
+"120°"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Circumference = 2 pi r = 2 x (22/7) x 7 = 44 cm. The arc is 11/44 = 1/4 of the whole circle, so the angle = (1/4) x 360° = 90°.",
+"pidgin": "Full circumference = 44 cm. Since arc na 11 cm, e be 1/4 of the circle, so angle = 1/4 x 360° = 90°.",
+"py": "(11*360)/(2*(22/7)*7)",
+"values": [
+60,
+90,
+45,
+120
+],
+"id": "wmth1504",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A triangular plot of land has sides 6 m, 8 m and 10 m. Find the area of the plot.",
+"options": [
+"48 m^2",
+"30 m^2",
+"24 m^2",
+"40 m^2"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Since 6^2 + 8^2 = 36 + 64 = 100 = 10^2, the triangle is right-angled with legs 6 m and 8 m. Area = 1/2 x base x height = 1/2 x 6 x 8 = 24 m^2.",
+"pidgin": "Since 6^2 + 8^2 = 10^2, the triangle na right-angle triangle wey get legs 6 and 8. Area = 1/2 x 6 x 8 = 24 m^2.",
+"py": "0.5*6*8",
+"values": [
+48,
+30,
+24,
+40
+],
+"id": "wmth1505",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A rectangular school garden in Enugu has length 15 cm and width 9 cm (on a scale drawing). Find the perimeter of the garden.",
+"options": [
+"24 cm",
+"48 cm",
+"135 cm",
+"60 cm"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Perimeter of a rectangle = 2(length + width) = 2(15 + 9) = 2(24) = 48 cm.",
+"pidgin": "Perimeter of rectangle na 2 times (length + width) = 2(15+9) = 48 cm.",
+"py": "2*(15+9)",
+"values": [
+24,
+48,
+135,
+60
+],
+"id": "wmth1500",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:48 cm is the drawing's perimeter; actual perimeter needs a scale.|"
+}
+]
+}

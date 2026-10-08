@@ -1,0 +1,112 @@
+{
+"subject": "maths",
+"topic": "Matrices and determinants (2x2 and 3x3)",
+"generated": 4,
+"kept": [
+{
+"q": "If P = [5, 2; 3, 4], find the determinant of matrix P.",
+"options": [
+"20",
+"14",
+"6",
+"2"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "For a 2x2 matrix [a,b;c,d], determinant = ad - bc. So det(P) = (5*4) - (2*3) = 20 - 6 = 14.",
+"pidgin": "For 2x2 matrix [a,b;c,d], determinant na ad - bc. So det(P) = (5*4) - (2*3) = 20 - 6 = 14.",
+"py": "5*4-2*3",
+"values": [
+20,
+14,
+6,
+2
+],
+"id": "matv1400",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Given matrix A = [2, 3; 1, 4], find the entry in the first row, first column of A^(-1) (the inverse of A).",
+"options": [
+"4/5",
+"-3/5",
+"-1/5",
+"2/5"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "First find det(A) = (2*4) - (3*1) = 8 - 3 = 5. The inverse formula gives A^(-1) = (1/det)[d, -b; -c, a], so the (1,1) entry is d/det = 4/5.",
+"pidgin": "First find det(A) = (2*4) - (3*1) = 8 - 3 = 5. The inverse formula be A^(-1) = (1/det)[d, -b; -c, a], so the (1,1) entry na d/det = 4/5.",
+"py": "4/5",
+"values": [
+0.8,
+-0.6,
+-0.2,
+0.4
+],
+"id": "matv1401",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Find the determinant of the 3x3 matrix M = [1, 2, 3; 0, 1, 4; 5, 6, 0] by expanding along the first row.",
+"options": [
+"-1",
+"24",
+"1",
+"-24"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Expanding along the first row: det = 1*(1*0 - 4*6) - 2*(0*0 - 4*5) + 3*(0*6 - 1*5) = 1*(-24) - 2*(-20) + 3*(-5) = -24 + 40 - 15 = 1.",
+"pidgin": "If you expand along first row: det = 1*(1*0 - 4*6) - 2*(0*0 - 4*5) + 3*(0*6 - 1*5) = 1*(-24) - 2*(-20) + 3*(-5) = -24 + 40 - 15 = 1.",
+"py": "1*(1*0-4*6) - 2*(0*0-4*5) + 3*(0*6-1*5)",
+"values": [
+-1,
+24,
+1,
+-24
+],
+"id": "matv1402",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Chidinma was given the equation |x, 1; 4, x| = 12 (the vertical bars mean determinant of the 2x2 matrix [x,1;4,x]). Find the positive value of x that satisfies this equation.",
+"options": [
+"-4",
+"3",
+"2",
+"4"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The determinant of [x,1;4,x] is x*x - 1*4 = x^2 - 4. Setting this equal to 12 gives x^2 - 4 = 12, so x^2 = 16, meaning x = 4 or x = -4. The positive value is x = 4.",
+"pidgin": "Determinant of [x,1;4,x] na x*x - 1*4 = x^2 - 4. If we set am equal to 12, we get x^2 - 4 = 12, so x^2 = 16, meaning x = 4 or x = -4. The positive one na x = 4.",
+"py": "math.sqrt(16)",
+"values": [
+-4,
+3,
+2,
+4
+],
+"id": "matv1403",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

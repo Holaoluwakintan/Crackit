@@ -1,0 +1,176 @@
+{
+"subject": "crs",
+"topic": "Leadership in Israel: Joshua and the judges (Deborah, Gideon, Samson)",
+"ti": 3,
+"generated": 8,
+"kept": [
+{
+"q": "After the death of Moses, who did God appoint to lead the Israelites into the Promised Land of Canaan?",
+"options": [
+"Joshua",
+"Caleb",
+"Aaron",
+"Othniel"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "God spoke to Joshua, the son of Nun and former assistant of Moses, and told him to lead Israel across the Jordan into Canaan. This is recorded in Joshua 1:1-2.",
+"pidgin": "Na Joshua, wey be Moses im assistant, God talk make e lead Israel enter Canaan after Moses don die. Dis dey for Joshua 1:1-2.",
+"id": "wcrs0300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Before Israel crossed the River Jordan, Joshua sent two spies to gather information about which city, where they were hidden by a woman named Rahab?",
+"options": [
+"Ai",
+"Jericho",
+"Bethel",
+"Shiloh"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Joshua sent two men to secretly view the land, especially Jericho, and they stayed in the house of Rahab the harlot who hid them from the king's men. This is found in Joshua 2:1.",
+"pidgin": "Joshua send two spy go check Jericho land, and Rahab hide dem for her house when the king people come find dem. Dis story dey for Joshua 2:1.",
+"id": "wcrs0301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "How did the strong walls of Jericho finally fall before the Israelites, according to the Bible account?",
+"options": [
+"The Israelites broke it down with battering rams",
+"The priests blew trumpets and the people shouted after marching round the city for seven days",
+"An earthquake destroyed the walls at night",
+"The Israelites dug a tunnel under the wall"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "God instructed Joshua that the people should march round Jericho once daily for six days, and seven times on the seventh day; when the priests blew the trumpets and the people shouted, the wall collapsed. This miracle is in Joshua 6:1-20.",
+"pidgin": "God tell Joshua make dem waka round Jericho one time every day for six days, then seven times on di seventh day; when priest blow trumpet and people shout, di wall fall flat. Dis miracle dey for Joshua 6:1-20.",
+"id": "wcrs0302",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What made Deborah's role among the judges of Israel especially unique compared to Gideon and Samson?",
+"options": [
+"She was a foreign princess who married an Israelite king",
+"She was a prophetess and judge who directed Barak to defeat Sisera's army",
+"She was the only judge who built a temple for worship",
+"She was a priest who offered sacrifices in the tabernacle"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Deborah was both a prophetess and a judge, and she gave military instructions to Barak which led to Israel's victory over Sisera, the Canaanite commander. This account is in Judges 4:4-16.",
+"pidgin": "Deborah na prophetess and judge, and she instruct Barak on how to fight and defeat Sisera, di Canaanite army commander. Dis story dey for Judges 4:4-16.",
+"id": "wcrs0303",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the story of Deborah and Barak, who actually killed Sisera, the fleeing Canaanite army commander, after he sought refuge in her tent?",
+"options": [
+"Barak",
+"Jael",
+"Deborah",
+"Gideon"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Sisera fled to the tent of Jael, wife of Heber the Kenite, who gave him milk to drink and then drove a tent peg through his temple while he slept. This is recorded in Judges 4:17-21.",
+"pidgin": "Sisera run go hide for Jael tent, wey be Heber im wife, and Jael give am milk drink before she use tent peg knock am for head as e sleep. Dis dey for Judges 4:17-21.",
+"id": "wcrs0304",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Before leading Israel against the Midianites, Gideon tested God's call on him twice using a fleece of wool placed on the threshing floor overnight. What was the sign he asked for and received?",
+"options": [
+"Fire falling from heaven to burn the fleece",
+"Dew forming only on the fleece while the ground stayed dry, then the reverse the next night",
+"Rain falling for seven days without stopping",
+"A voice speaking audibly from the fleece"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Gideon asked God to make dew appear only on the fleece while the ground remained dry, and then reversed the test, asking for dew on the ground but a dry fleece; both happened, confirming his call. This is found in Judges 6:36-40.",
+"pidgin": "Gideon ask God make dew wet only di fleece while ground remain dry, then e reverse am make ground wet while fleece dry; both tin happen as God confirm im call. Dis dey for Judges 6:36-40.",
+"id": "wcrs0305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Gideon's army of thirty-two thousand men was reduced to just three hundred soldiers mainly through a test that observed how the men did what action at a stream of water?",
+"options": [
+"How they fought a mock battle",
+"How they drank water, whether lapping like a dog or kneeling to drink",
+"How they prayed before the battle",
+"How they built an altar of stones"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "God told Gideon to separate those who lapped water with their tongues like a dog from those who knelt down to drink; the three hundred who lapped were chosen to fight the Midianites. This reasoning step is in Judges 7:4-7.",
+"pidgin": "God tell Gideon make e separate those wey lap water with tongue like dog from those wey kneel down drink; na di three hundred wey lap water, God choose dem fight Midian. Dis dey for Judges 7:4-7.",
+"id": "wcrs0306",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:|Factual error: most (22,000) left out of fear, not via the water test"
+},
+{
+"q": {
+"q": "Samson's extraordinary physical strength was connected to his lifelong observance of a special vow, and this secret was eventually revealed to Delilah through his uncut hair. What was this vow called?",
+"options": [
+"Priestly vow",
+"Nazirite vow",
+"Levitical vow",
+"Davidic covenant"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Samson was dedicated from birth as a Nazirite, which among other things required that his hair never be cut; when Delilah had his hair shaved, his strength left him. This is recorded in Judges 13:5 and Judges 16:17-19.",
+"pidgin": "From Samson born am, dem don dedicate am as Nazirite, wey mean say dem no suppose cut im hair; when Delilah shave am, im strength comot. Dis dey for Judges 13:5 and Judges 16:17-19.",
+"id": "wcrs0307",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Samson did not fully observe Nazirite restrictions throughout his life.|"
+}
+]
+}

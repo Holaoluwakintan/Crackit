@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Organs of government: legislature, executive and judiciary",
+"ti": 9,
+"generated": 8,
+"kept": [
+{
+"q": "What is the primary function of the legislature in a democratic system of government?",
+"options": [
+"Enforcing the laws of the land",
+"Making laws for the state",
+"Interpreting the laws made",
+"Appointing judges to the courts"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The legislature is the law-making arm of government. It debates and passes bills which become laws when assented to. Enforcing and interpreting laws belong to the executive and judiciary respectively.",
+"pidgin": "Legislature na di arm wey dey make law for di kontri. Dem go discuss bill well-well before e go become law. To enforce or interpret law na for executive and judiciary.",
+"id": "wgov0900",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The Nigerian National Assembly is made up of the Senate and the House of Representatives, sitting as two separate chambers. What term best describes this type of legislature?",
+"options": [
+"Bicameral legislature",
+"Unicameral legislature",
+"Confederal legislature",
+"Parliamentary legislature"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A legislature with two chambers, like Nigeria's Senate and House of Representatives, is called bicameral. A unicameral legislature has only one chamber.",
+"pidgin": "Legislature wey get two chamber, like Senate and House of Reps for Nigeria, na bicameral. If na one chamber, dem go call am unicameral.",
+"id": "wgov0901",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which arm of government is mainly responsible for interpreting the constitution and settling legal disputes between individuals or between individuals and the state?",
+"options": [
+"The legislature",
+"The executive",
+"The judiciary",
+"The civil service"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The judiciary is the arm of government that interprets laws and the constitution and resolves disputes through the courts. The legislature makes laws while the executive implements them.",
+"pidgin": "Na judiciary dey interpret constitution and settle matter for court. Legislature na dem dey make law, executive na dem dey carry out di law.",
+"id": "wgov0902",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a presidential system like Nigeria's, which action best illustrates the principle of checks and balances between the legislature and the executive?",
+"options": [
+"The President appoints all ministers without any form of approval",
+"The executive alone decides the national budget without legislative input",
+"The judiciary drafts bills for the legislature to debate",
+"The legislature can override a presidential veto of a bill with a two-thirds majority vote"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Checks and balances allow one arm of government to limit the power of another. When the legislature overrides a presidential veto with a two-thirds majority, it is checking the power of the executive, which is a classic example of this principle.",
+"pidgin": "Checks and balances mean say one arm of government fit control di oda one power. If legislature use two-third majority override President veto, dem dey check di executive power, and dat na correct example.",
+"id": "wgov0903",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Who heads the executive arm of government at the federal level in Nigeria?",
+"options": [
+"The Chief Justice of Nigeria",
+"The President",
+"The Senate President",
+"The Speaker of the House of Representatives"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The President is the head of the executive arm of government at the federal level in Nigeria, responsible for implementing laws and policies. The Chief Justice heads the judiciary, while the Senate President and Speaker lead the legislature.",
+"pidgin": "President na di head of executive for federal level for Nigeria, na im dey implement law and policy. Chief Justice na for judiciary, Senate President and Speaker na for legislature.",
+"id": "wgov0904",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a certain country, the President suddenly removes all Supreme Court judges and replaces them with people loyal to him, without following any laid-down constitutional procedure. Which democratic principle is clearly being violated?",
+"options": [
+"Independence of the judiciary",
+"Bicameralism",
+"Fiscal federalism",
+"Ministerial responsibility"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Independence of the judiciary means courts and judges should be free from control or interference by the executive or legislature. Removing judges arbitrarily to install loyalists directly attacks this independence, undermining fair justice.",
+"pidgin": "Independence of judiciary mean say court and judge suppose free from executive or legislature control. If President dey comot judges anyhow to put im loyalists, e dey spoil dis independence and e no go fit give fair justice again.",
+"id": "wgov0905",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT a function performed by the executive arm of government?",
+"options": [
+"Implementing government policies",
+"Maintaining law and order in the state",
+"Conducting foreign relations with other countries",
+"Passing bills into law"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Passing bills into law is the work of the legislature, not the executive; the executive only gives assent to bills already passed. The other options -implementing policies, maintaining law and order, and foreign relations - are proper executive functions.",
+"pidgin": "To pass bill into law na legislature work, executive just dey sign/assent to di bill wey don already pass. Di oda ones like implement policy, keep law and order, and foreign relations na correct executive work.",
+"id": "wgov0906",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In Lamidostan, the Minister of Finance privately instructs judges on how to rule in a tax case that is still pending in court. Which democratic principle is being breached by the Minister's action?",
+"options": [
+"Fiscal federalism",
+"Federal character principle",
+"Separation of powers",
+"Collective responsibility"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Separation of powers requires that each arm of government, including the judiciary, functions independently without undue interference from the other arms. An executive official instructing judges on a pending case directly breaches this principle by interfering in judicial matters.",
+"pidgin": "Separation of powers mean say each arm of government, including judiciary, suppose work independently without oda arm dey disturb am. If Minister dey instruct judge for case wey still dey court, na im dey break dis principle because e don enter judiciary business.",
+"id": "wgov0907",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

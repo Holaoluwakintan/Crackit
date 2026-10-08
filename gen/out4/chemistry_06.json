@@ -1,0 +1,160 @@
+{
+"subject": "chemistry",
+"topic": "Acids, bases and salts (including pH)",
+"ti": 6,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following statements correctly defines an acid according to the Bronsted-Lowry theory?",
+"options": [
+"A substance that donates a hydrogen ion (proton) to another substance",
+"A substance that accepts a pair of electrons from another substance",
+"A substance that releases hydroxide ions in aqueous solution",
+"A substance that accepts a hydrogen ion from another substance"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A Bronsted-Lowry acid is defined as a proton (H+) donor. Option D describes a base, while B describes a Lewis acid and C describes an Arrhenius base.",
+"pidgin": "Bronsted-Lowry acid na substance wey dey give out proton (H+). Option D na base im be, B na Lewis acid, C na Arrhenius base definition.",
+"py": null,
+"values": null,
+"id": "wche0600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A sample of orange juice sold at Mile 12 market, Lagos, has a hydrogen ion concentration of 1 x 10^-4 mol/dm3. What is the pH of the juice?",
+"options": [
+"10",
+"3",
+"4",
+"7"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "pH = -log10[H+]. Since [H+] = 1 x 10^-4, pH = -log10(1 x 10^-4) = 4. This shows the juice is acidic, as expected for citrus fruit.",
+"pidgin": "pH = -log10[H+]. Since [H+] na 1 x 10^-4, pH go be -log10(1 x 10^-4) = 4. Na this one show say the juice dey acidic, as e suppose be for orange.",
+"py": "-math.log10(1e-4)",
+"values": [
+10,
+3,
+4,
+7
+],
+"id": "wche0602",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of these salts would form an acidic solution when dissolved in water, given that it is produced from the reaction between a strong acid and a weak base?",
+"options": [
+"Sodium chloride (NaCl)",
+"Sodium trioxocarbonate(IV) (Na2CO3)",
+"Ammonium chloride (NH4Cl)",
+"Sodium ethanoate (CH3COONa)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "NH4Cl is formed from hydrochloric acid (strong acid) and ammonia solution (weak base). The ammonium ion hydrolyses in water to release H+ ions, making the solution acidic.",
+"pidgin": "NH4Cl na from hydrochloric acid (strong acid) and ammonia (weak base). The ammonium ion go hydrolyse for water release H+ ions, so e go make the solution acidic.",
+"py": null,
+"values": null,
+"id": "wche0603",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which indicator remains colourless in an acidic solution but turns pink when added to an alkaline solution?",
+"options": [
+"Methyl orange",
+"Bromothymol blue",
+"Litmus",
+"Phenolphthalein"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Phenolphthalein is colourless in acidic and neutral solutions but turns pink in alkaline (basic) solutions, making it a common indicator for titrations involving bases.",
+"pidgin": "Phenolphthalein no get colour for acidic and neutral solution, but e go turn pink for alkaline (basic) solution, na why dem dey use am well-well for titration wey involve base.",
+"py": null,
+"values": null,
+"id": "wche0605",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "What is the pH value of pure water at a temperature of 25°C, which makes it a neutral liquid?",
+"options": [
+"0",
+"7",
+"14",
+"1"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Pure water at 25°C has equal concentrations of H+ and OH- ions, giving a pH of 7, which is the midpoint of the pH scale (0 to 14).",
+"pidgin": "Clean water for 25°C get equal H+ and OH- ions, so im pH na 7, wey be the middle point of the pH scale (0 to 14).",
+"py": null,
+"values": null,
+"id": "wche0601",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "no-py"
+}
+},
+"why": "python:no-py"
+},
+{
+"q": {
+"q": "The pH of an alum solution used at a water treatment plant in Enugu is measured to be 12.0. If the ionic product of water, Kw, is 1 x 10^-14 mol2/dm6 at 25°C, what is the concentration of hydroxide ions, [OH-], in the solution?",
+"options": [
+"0.01",
+"1 x 10^-12",
+"1 x 10^-14",
+"100"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "pOH = 14 - pH = 14 - 12 = 2, so [OH-] = 10^-2 = 0.01 mol/dm3. A common mistake is using pH directly as the exponent for [OH-], which gives the wrong answer of 1 x 10^-12.",
+"pidgin": "pOH = 14 - pH = 14 - 12 = 2, so [OH-] = 10^-2 = 0.01 mol/dm3. Plenty people dey mistake and use the pH straight as exponent for [OH-], wey go give wrong answer of 1 x 10^-12.",
+"py": "10**-(14-12)",
+"values": [
+0.01,
+1e-12,
+1e-14,
+100
+],
+"id": "wche0604",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:|Alum solutions are acidic, so a pH of 12.0 is unrealistic; the options also lack units."
+}
+]
+}

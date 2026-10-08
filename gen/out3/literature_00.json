@@ -1,0 +1,134 @@
+{
+"subject": "literature",
+"topic": "Figures of speech (simile, metaphor, personification, hyperbole, irony, oxymoron, etc.)",
+"generated": 7,
+"kept": [
+{
+"q": "Read the sentence: 'Mama Ngozi's pepper soup was hotter than the afternoon sun in Kano.' Which figure of speech is used here?",
+"options": [
+"Simile",
+"Metaphor",
+"Personification",
+"Oxymoron"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The sentence compares two unlike things (the soup and the sun) using the word 'than' which implies 'as...as' comparison typical of simile. A simile always uses a comparative word like 'as' or 'like'. There is no direct equation of the soup with the sun, so it is not a metaphor.",
+"pidgin": "Dis sentence dey compare two different things (soup and sun) with word wey show comparison. Na simile because e dey use comparing word, e no just call the soup 'sun' straight. If e be metaphor, e for just talk say 'the soup na sun'.",
+"id": "litv0000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the line, 'The old clock on the wall coughed twice before it finally stopped ticking,' which literary device is the writer using?",
+"options": [
+"Hyperbole",
+"Simile",
+"Personification",
+"Irony"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The clock is given a human action, 'coughed,' which only living beings can do. Giving human qualities or actions to a non-living thing is called personification. There is no comparison word like 'as' or 'like', so it is not a simile.",
+"pidgin": "Dem give the clock human action, 'cough', wey only human fit do. When writer give human behaviour to something wey no be human, na personification be dat. E no get 'as' or 'like' so e no be simile.",
+"id": "litv0001",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Consider the statement: 'Mr. Eze is a fox when it comes to bargaining prices at the market.' What figure of speech best describes this statement?",
+"options": [
+"Simile",
+"Metaphor",
+"Hyperbole",
+"Synecdoche"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The sentence directly calls Mr. Eze 'a fox' without using 'like' or 'as', meaning it equates him with a fox's cunning nature. This direct identification of one thing as another is the definition of metaphor. A simile would have used a comparing word such as 'like' or 'as'.",
+"pidgin": "Di sentence call Mr. Eze 'fox' straight straight, no 'like' or 'as' inside. When you call person or thing as another thing direct like that, na metaphor. If e be simile, e for use 'like' or 'as'.",
+"id": "litv0002",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read the description of a newly constructed road: 'The newly built road in Aba was a beautiful mess of potholes and fresh tar.' Which figure of speech is demonstrated by the phrase 'beautiful mess'?",
+"options": [
+"Oxymoron",
+"Irony",
+"Hyperbole",
+"Personification"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The phrase 'beautiful mess' joins two contradictory words, 'beautiful' meaning pleasant and 'mess' meaning disorderly, placed side by side for effect. Combining two opposite or contradictory terms in one short phrase is called an oxymoron. It is not irony because there is no expectation being reversed by events, just a contradictory phrase.",
+"pidgin": "'Beautiful mess' na two word wey no gree with each other, 'beautiful' mean fine, 'mess' mean scatter scatter, but dem put dem together. When two opposite word come together like dat for one short phrase, na oxymoron. E no be irony because no event dey happen wey contradict expectation.",
+"id": "litv0003",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A fire service truck in Onitsha was dispatched quickly after receiving a distress call about a burning warehouse, but due to heavy traffic, the truck arrived only after the warehouse had completely burnt down to ashes. Which figure of speech best captures this situation?",
+"options": [
+"Verbal irony",
+"Situational irony",
+"Hyperbole",
+"Metaphor"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Situational irony occurs when the actual outcome of a situation is the opposite of what was expected, such as a fire truck arriving to help but being useless because the building is already destroyed. Verbal irony, by contrast, involves someone saying the opposite of what they mean, which is not the case here since no one spoke sarcastically. The surprising gap between the purpose of the truck's mission and its actual outcome shows situational irony.",
+"pidgin": "Situational irony na when wetin happen come be opposite of wetin pesin expect, like fire truck wey come help but house don already burn finish. Verbal irony na when pesin talk something wey no match wetin dem mean, but nobody talk anything here. Na the gap between wetin dem wan do and wetin actually happen show situational irony.",
+"id": "litv0004",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In the sentence, 'All hands were needed on deck to harvest the yam before the rains came,' the word 'hands' is used to represent which figure of speech?",
+"options": [
+"Metaphor",
+"Hyperbole",
+"Synecdoche",
+"Personification"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Here, 'hands' is a part of the body used to stand for the whole person, meaning workers or labourers. Using a part of something to represent the whole thing, or vice versa, is known as synecdoche. This differs from metaphor, which would directly equate two unrelated things rather than using a part to represent a whole.",
+"pidgin": "'Hands' na body part wey dem dey use represent the whole person, wey mean worker or labourer. When pesin use part of something to represent the whole, na synecdoche. E no be metaphor because metaphor go just call one thing as another thing straight, e no dey use part to show whole.",
+"id": "litv0005",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Read the statement: 'Uncle Tunde has told that same joke a million times at every family gathering.' Which figure of speech is used in this sentence?",
+"options": [
+"Hyperbole",
+"Simile",
+"Oxymoron",
+"Irony"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The phrase 'a million times' is clearly an exaggeration since no one can literally tell a joke that many times in real life. Exaggerating a statement for emphasis or humorous effect is called hyperbole. There is no comparison word or contradictory pairing, so it is neither a simile nor an oxymoron.",
+"pidgin": "'A million times' na exaggeration because nobody fit tell joke reach that number for real life. When pesin over-exaggerate something to make am strong or funny, na hyperbole. E no get comparing word or opposite word wey dey clash, so e no be simile or oxymoron.",
+"id": "litv0006",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

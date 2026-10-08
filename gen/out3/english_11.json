@@ -1,0 +1,120 @@
+{
+"subject": "english",
+"topic": "Oral English: vowel sounds (choose the word with the same vowel sound as the letters in CAPITALS)",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: PEN",
+"options": [
+"SAID",
+"BEAR",
+"SEED",
+"MATE"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The word 'PEN' has the vowel sound /e/ as in 'pen'. 'SAID' is pronounced /sed/, which has the same /e/ sound. The other words have different vowel sounds.",
+"pidgin": "'PEN' get the /e/ sound. 'SAID' na /sed/, e get the same /e/ sound. The other words no match am.",
+"id": "engv1100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: MOON",
+"options": [
+"BOOK",
+"GOOD",
+"BLUE",
+"POT"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "'MOON' has the long vowel sound /u:/. 'BLUE' is pronounced /blu:/, which carries the same /u:/ sound. 'BOOK' and 'GOOD' have the short /ʊ/ sound, while 'POT' has /ɒ/.",
+"pidgin": "'MOON' get long /u:/ sound. 'BLUE' na /blu:/, e get the same /u:/ sound. 'BOOK' and 'GOOD' get short /ʊ/, 'POT' get /ɒ/.",
+"id": "engv1101",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: CHAIR",
+"options": [
+"FEAR",
+"HEAR",
+"STAR",
+"THERE"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "'CHAIR' has the diphthong sound /eə/. 'THERE' is pronounced /ðeə/, matching this sound. 'FEAR' and 'HEAR' have /ɪə/, while 'STAR' has /ɑ:/.",
+"pidgin": "'CHAIR' get the /eə/ sound. 'THERE' na /ðeə/, e match am well well. 'FEAR' and 'HEAR' get /ɪə/, 'STAR' get /ɑ:/.",
+"id": "engv1102",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: BUS",
+"options": [
+"PUSH",
+"LOVE",
+"BOSS",
+"PARK"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "'BUS' has the short vowel sound /ʌ/. 'LOVE' is pronounced /lʌv/, which has the same /ʌ/ sound. 'PUSH' has /ʊ/, 'BOSS' has /ɒ/, and 'PARK' has /ɑ:/.",
+"pidgin": "'BUS' get short /ʌ/ sound. 'LOVE' na /lʌv/, e get the same /ʌ/. 'PUSH' get /ʊ/, 'BOSS' get /ɒ/, 'PARK' get /ɑ:/.",
+"id": "engv1103",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: FEAR",
+"options": [
+"HERE",
+"HAIR",
+"HER",
+"HEART"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "'FEAR' has the diphthong /ɪə/. 'HERE' is pronounced /hɪə/, matching this sound exactly. 'HAIR' has /eə/, 'HER' has /ɜ:/, and 'HEART' has /ɑ:/.",
+"pidgin": "'FEAR' get /ɪə/ sound. 'HERE' na /hɪə/, e match am correct correct. 'HAIR' get /eə/, 'HER' get /ɜ:/, 'HEART' get /ɑ:/.",
+"id": "engv1104",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: NEW",
+"options": [
+"BLUE",
+"SOON",
+"MOVE",
+"FEW"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "'NEW' is pronounced /nju:/, with the sound /ju:/ (a 'y' glide before /u:/). 'FEW' is pronounced /fju:/, which has this same /ju:/ sound. 'BLUE', 'SOON', and 'MOVE' only have the plain /u:/ sound without the /j/ glide.",
+"pidgin": "'NEW' na /nju:/, e get /ju:/ sound (with small 'y' before the /u:/). 'FEW' na /fju:/, e get the same /ju:/ sound. 'BLUE', 'SOON', and 'MOVE' just get plain /u:/ without the /j/.",
+"id": "engv1105",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+"why": "ambiguous:NEW may be pronounced /njuː/ or /nuː/; other options can match.|NEW's vowel is /u:/, shared by BLUE, SOON and MOVE; only /ju:/ matching makes FEW unique"
+}
+]
+}

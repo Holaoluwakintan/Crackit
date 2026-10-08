@@ -1,0 +1,94 @@
+{
+"subject": "chemistry",
+"topic": "Periodic table and periodicity",
+"generated": 4,
+"kept": [
+{
+"q": "As you move down Group 1 of the periodic table from lithium to caesium, what happens to the atomic radius of the elements?",
+"options": [
+"It increases steadily",
+"It decreases steadily",
+"It remains the same for all elements",
+"It increases then decreases"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Going down a group, more electron shells are added to each successive element. More shells mean the outermost electrons are farther from the nucleus, so atomic radius increases steadily from lithium to caesium.",
+"pidgin": "As you dey go down Group 1 from lithium reach caesium, each element dey add one more shell of electron. More shell mean say the outer electron dey far from nucleus, so the atomic size dey increase steadily.",
+"py": null,
+"values": null,
+"id": "chev0300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "An element X has atomic number 19. Using the electronic configuration of X, determine its correct position (period and group) in the periodic table.",
+"options": [
+"Period 3, Group 1",
+"Period 4, Group 1",
+"Period 4, Group 2",
+"Period 3, Group 2"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Atomic number 19 gives the configuration 2,8,8,1. The number of shells (4) gives the period, and the 1 electron in the outermost shell gives the group number, so X is in Period 4, Group 1.",
+"pidgin": "Atomic number 19 na 2,8,8,1. Di shells wey dey (4) na di period, and di 1 electron wey dey di last shell na di group, so X dey Period 4, Group 1.",
+"py": null,
+"values": null,
+"id": "chev0301",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "The ions Na+, Mg2+, Al3+ and F- all have exactly 10 electrons, the same arrangement as neon. Which of these ions has the smallest ionic radius?",
+"options": [
+"F-",
+"Na+",
+"Mg2+",
+"Al3+"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "All four ions have the same number of electrons (10), but their nuclear charges differ: F- has 9 protons, Na+ has 11, Mg2+ has 12, and Al3+ has 13. The higher the nuclear charge for the same number of electrons, the stronger the pull on the electron cloud, so Al3+ has the smallest radius.",
+"pidgin": "All di ions get 10 electrons, but di protons (nuclear charge) dey different: F- (9), Na+ (11), Mg2+ (12), Al3+ (13). Di one wey get di most protons go pull im electrons close pass, so Al3+ get di smallest size.",
+"py": null,
+"values": null,
+"id": "chev0302",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "An element Z is located in Group 15 of the periodic table. How many valence (outermost shell) electrons does Z have?",
+"options": [
+"3",
+"5",
+"6",
+"7"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "For main group elements, the group number (using the old or simplified numbering 1 to 18 minus 10 for groups 13-18) tells you the number of valence electrons. Group 15 elements, like nitrogen and phosphorus, have 5 electrons in their outermost shell.",
+"pidgin": "For main group elements, di group number dey show how many electron dey di outer shell. Group 15 elements like nitrogen and phosphorus get 5 electrons for dia last shell.",
+"py": "15-10",
+"values": [
+3,
+5,
+6,
+7
+],
+"id": "chev0303",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

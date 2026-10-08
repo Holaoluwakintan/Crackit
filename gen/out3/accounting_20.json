@@ -1,0 +1,204 @@
+{
+"subject": "accounting",
+"topic": "Interpretation of accounts: ratios",
+"generated": 8,
+"kept": [
+{
+"q": "Alhaji Musa's shop has current assets of ₦240,000 and current liabilities of ₦120,000. What is the current ratio?",
+"options": [
+"1:2",
+"2:1",
+"3:1",
+"4:1"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Current ratio = Current assets ÷ Current liabilities = 240,000 ÷ 120,000 = 2, written as 2:1. This shows the business has ₦2 of current assets for every ₦1 of current liabilities.",
+"pidgin": "Current ratio na Current assets divide by Current liabilities = 240,000 ÷ 120,000 = 2, so e be 2:1. Na so dem dey write am.",
+"py": null,
+"values": null,
+"id": "accv2000",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which formula correctly represents the acid test (quick) ratio?",
+"options": [
+"(Current assets - Stock) ÷ Current liabilities",
+"Current assets ÷ Current liabilities",
+"Net profit ÷ Sales",
+"Fixed assets ÷ Capital employed"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The acid test ratio removes stock from current assets because stock is not quickly convertible to cash. It then divides the remainder by current liabilities to test immediate liquidity.",
+"pidgin": "Acid test ratio dey remove stock from current assets because stock no dey quick turn to cash. Na the remaining one dem divide by current liabilities to check if business fit pay quick debts.",
+"py": null,
+"values": null,
+"id": "accv2001",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Chidinma Stores recorded sales of ₦500,000 and cost of goods sold of ₦350,000 for the year. What is the gross profit margin?",
+"options": [
+"70%",
+"43%",
+"30%",
+"23%"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Gross profit = 500,000 - 350,000 = 150,000. Gross profit margin = (150,000 ÷ 500,000) x 100 = 30%. This shows gross profit as a percentage of sales.",
+"pidgin": "Gross profit = 500,000 - 350,000 = 150,000. Gross profit margin = (150,000 ÷ 500,000) x 100 = 30%. Na so dem take find am.",
+"py": "(500000-350000)/500000*100",
+"values": [
+70,
+43,
+30,
+23
+],
+"id": "accv2002",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Emeka Ventures had sales of ₦800,000 and net profit of ₦96,000 for the year ended 31 December. Calculate the net profit margin.",
+"options": [
+"12%",
+"8%",
+"88%",
+"96%"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Net profit margin = (Net profit ÷ Sales) x 100 = (96,000 ÷ 800,000) x 100 = 12%. This tells us how much profit is made from every ₦100 of sales.",
+"pidgin": "Net profit margin = (Net profit ÷ Sales) x 100 = (96,000 ÷ 800,000) x 100 = 12%. Na how much profit dem get for every ₦100 sales be that.",
+"py": "96000/800000*100",
+"values": [
+12,
+8,
+88,
+96
+],
+"id": "accv2003",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader's opening stock was ₦40,000, closing stock ₦60,000, and cost of goods sold for the year was ₦500,000. What is the rate of stock turnover?",
+"options": [
+"8.33 times",
+"10 times",
+"12.5 times",
+"9 times"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Average stock = (40,000 + 60,000) ÷ 2 = 50,000. Stock turnover = Cost of goods sold ÷ Average stock = 500,000 ÷ 50,000 = 10 times a year.",
+"pidgin": "Average stock = (40,000 + 60,000) ÷ 2 = 50,000. Stock turnover = 500,000 ÷ 50,000 = 10 times for the year.",
+"py": "500000/((40000+60000)/2)",
+"values": [
+8.33,
+10,
+12.5,
+9
+],
+"id": "accv2004",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Funke Enterprises made credit sales of ₦720,000 during the year. Trade debtors at year end stood at ₦90,000. Using 360 days in a year, calculate the average debtors' collection period.",
+"options": [
+"36 days",
+"30 days",
+"60 days",
+"45 days"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Collection period = (Debtors ÷ Credit sales) x 360 days = (90,000 ÷ 720,000) x 360 = 45 days. This shows on average how long it takes debtors to pay what they owe.",
+"pidgin": "Collection period = (Debtors ÷ Credit sales) x 360 = (90,000 ÷ 720,000) x 360 = 45 days. Na the average time wey debtors dey take pay their debt.",
+"py": "90000/720000*360",
+"values": [
+36,
+30,
+60,
+45
+],
+"id": "accv2005",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "A company's net profit before interest and tax is ₦150,000, while its capital employed (total assets minus current liabilities) is ₦1,000,000. What is the return on capital employed (ROCE)?",
+"options": [
+"10%",
+"20%",
+"15%",
+"12%"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "ROCE = (Net profit before interest and tax ÷ Capital employed) x 100 = (150,000 ÷ 1,000,000) x 100 = 15%. ROCE measures how efficiently a business uses its capital to generate profit.",
+"pidgin": "ROCE = (Net profit before interest and tax ÷ Capital employed) x 100 = (150,000 ÷ 1,000,000) x 100 = 15%. Na how well the business dey use the capital wey dem get to make profit.",
+"py": "150000/1000000*100",
+"values": [
+10,
+20,
+15,
+12
+],
+"id": "accv2006",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A business has a long-term bank loan of ₦400,000 and equity capital (ordinary shares plus reserves) of ₦600,000. What is the gearing ratio, calculated as long-term loan divided by total of loan and equity?",
+"options": [
+"60%",
+"150%",
+"66.7%",
+"40%"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Gearing ratio = Long-term loan ÷ (Loan + Equity) x 100 = 400,000 ÷ (400,000 + 600,000) x 100 = 40%. This shows that 40% of the business's long-term finance comes from borrowed funds.",
+"pidgin": "Gearing ratio = Long-term loan ÷ (Loan + Equity) x 100 = 400,000 ÷ 1,000,000 x 100 = 40%. E mean say 40% of the long-term money wey business get na loan.",
+"py": "400000/(400000+600000)*100",
+"values": [
+60,
+150,
+66.7,
+40
+],
+"id": "accv2007",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

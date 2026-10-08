@@ -1,0 +1,169 @@
+{
+"subject": "crs",
+"topic": "Exile and return: Daniel, Ezra and Nehemiah",
+"ti": 7,
+"generated": 8,
+"kept": [
+{
+"q": "In the book of Daniel, what new Babylonian name did the chief official give to Daniel when he was brought into King Nebuchadnezzar's palace?",
+"options": [
+"Belteshazzar",
+"Shadrach",
+"Meshach",
+"Abednego"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The chief official renamed Daniel 'Belteshazzar', while his three friends were renamed Shadrach, Meshach and Abednego. This is recorded in Daniel 1:7.",
+"pidgin": "Di oga for palace change Daniel name to 'Belteshazzar'. Im three friends na dem dem call Shadrach, Meshach and Abednego. Daniel 1:7 talk am.",
+"id": "wcrs0700",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Daniel and his three friends refused the king's rich food and wine, and asked instead to be given what kind of food to test God's provision?",
+"options": [
+"Fish and bread",
+"Meat and fruit",
+"Vegetables and water",
+"Milk and honey"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Daniel asked the guard to test them for ten days on vegetables and water instead of the king's food, and they looked healthier afterward. This is found in Daniel 1:12.",
+"pidgin": "Daniel beg di guard make dem try dem with vegetables and water for ten days instead of king chop. After di ten days, dem body shine pass di oda boys. Daniel 1:12 dey talk am.",
+"id": "wcrs0701",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Daniel was thrown into a den of lions as punishment because he continued to do what, despite a royal decree forbidding it?",
+"options": [
+"Interpreting dreams",
+"Praying three times a day to God",
+"Teaching the Law of Moses",
+"Refusing to bow to a golden image"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "King Darius signed a decree that no one should pray to any god or man except him, but Daniel kept praying three times daily, so he was thrown into the lions' den. This is in Daniel 6:10-16.",
+"pidgin": "King Darius sign law say make nobody pray to any god except am, but Daniel still dey pray three times every day. Dat na why dem throw am inside lion den. Na Daniel 6:10-16 talk am.",
+"id": "wcrs0702",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Who correctly interpreted King Nebuchadnezzar's dream about a large statue made of gold, silver, bronze, iron and clay?",
+"options": [
+"Ezra",
+"Nehemiah",
+"Daniel",
+"Joseph"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Daniel, with God's help, told the king his dream and explained that the statue's different materials represented a series of kingdoms. This account is in Daniel chapter 2.",
+"pidgin": "Daniel, wit God im help, explain di dream to Nebuchadnezzar say di different materials for di statue show different kingdoms wey go come. Na Daniel chapter 2 talk am.",
+"id": "wcrs0703",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Shadrach, Meshach and Abednego were thrown into a blazing furnace because they refused to do what, according to the book of Daniel?",
+"options": [
+"Bow down to the golden image Nebuchadnezzar set up",
+"Eat the king's food",
+"Reveal Daniel's hiding place",
+"Stop praying to God"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Nebuchadnezzar set up a golden image and ordered everyone to worship it, but the three young men refused, so they were thrown into the fiery furnace. This is recorded in Daniel 3:12-20.",
+"pidgin": "Nebuchadnezzar build gold image and tell everybody make dem worship am, but di three boys no gree. Na im dem throw dem enter di fire furnace. Daniel 3:12-20 dey talk am.",
+"id": "wcrs0704",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Who was the priest and scribe who led a group of exiles back to Jerusalem and later taught the people the Law of Moses after the exile?",
+"options": [
+"Nehemiah",
+"Ezra",
+"Daniel",
+"Zerubbabel"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ezra was a priest and skilled scribe in the Law of Moses who led exiles back to Jerusalem and publicly read and taught the Law to the people. This is described in Ezra chapter 7 and Nehemiah chapter 8.",
+"pidgin": "Ezra na priest and scribe wey sabi di Law of Moses well well, im lead exiles go back Jerusalem and later teach di people di Law. Na Ezra 7 and Nehemiah 8 talk am.",
+"id": "wcrs0705",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When Nehemiah received a report about Jerusalem while he was serving as cupbearer in Persia, what exactly did the report describe about the city?",
+"options": [
+"The temple had been rebuilt and dedicated",
+"The walls were broken down and the gates burned with fire",
+"The people had returned to idol worship",
+"The king had ordered the city destroyed again"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Nehemiah's brother Hanani told him that the survivors in Jerusalem were in trouble and disgrace, with the wall broken down and its gates burned, which made Nehemiah weep and pray. This is in Nehemiah 1:3-4.",
+"pidgin": "Hanani tell Nehemiah say di people wey remain for Jerusalem dey suffer shame because di wall don break and dem burn di gates. Na dat news make Nehemiah cry and pray. Nehemiah 1:3-4 talk am.",
+"id": "wcrs0706",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "While rebuilding the wall of Jerusalem, Nehemiah organized the workers so that half held tools and the other half held weapons. This arrangement was a direct response to opposition from which two men mentioned in the account?",
+"options": [
+"Sanballat and Tobiah",
+"Haman and Mordecai",
+"Cyrus and Darius",
+"Belshazzar and Nebuchadnezzar"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Sanballat and Tobiah mocked and plotted to attack the builders, so Nehemiah had half the workers hold weapons for defence while the rest worked, showing wisdom in facing opposition. This is recorded in Nehemiah 4:1-18.",
+"pidgin": "Sanballat and Tobiah dey mock and plan to attack di builders, so Nehemiah arrange am make half carry weapon protect dem while di oda half dey work. E show as im sabi handle wahala. Nehemiah 4:1-18 talk am.",
+"id": "wcrs0707",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

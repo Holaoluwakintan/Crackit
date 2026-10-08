@@ -1,0 +1,106 @@
+{
+"subject": "physics",
+"topic": "Temperature, thermometers and thermal expansion",
+"generated": 4,
+"kept": [
+{
+"q": "What is the value of absolute zero (the lowest temperature theoretically attainable) on the Celsius scale?",
+"options": [
+"-273 °C",
+"0 °C",
+"-100 °C",
+"273 °C"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Absolute zero is the temperature at which particles have minimum kinetic energy. On the Celsius scale this corresponds to -273 °C (0 K). This is a fixed, well-known physical constant.",
+"pidgin": "Absolute zero na di temperature wey particles get di least energy wey dem fit get. For Celsius scale, e dey equal -273 °C (wey be 0 K).",
+"py": "-273",
+"values": [
+-273,
+0,
+-100,
+273
+],
+"id": "phyv0900",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A brass rod of length 2.0 m at 20 °C is heated until its temperature becomes 100 °C. If the coefficient of linear expansion of brass is 1.9 x 10^-5 per °C, calculate the increase in length of the rod.",
+"options": [
+"3.04 x 10^-3 m",
+"1.52 x 10^-3 m",
+"6.08 x 10^-3 m",
+"3.04 x 10^-2 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Increase in length = L x alpha x change in temperature = 2.0 x 1.9x10^-5 x (100-20) = 2.0 x 1.9x10^-5 x 80 = 3.04 x 10^-3 m. Only option A matches this correct substitution.",
+"pidgin": "Di extra length = L x alpha x change for temperature = 2.0 x 1.9x10^-5 x 80 = 3.04 x 10^-3 m. Na option A be di correct answer wey match dis calculation.",
+"py": "2.0 * 1.9e-5 * (100-20)",
+"values": [
+0.00304,
+0.00152,
+0.00608,
+0.0304
+],
+"id": "phyv0901",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A square copper plate has sides of length 50 cm at 0 °C. If the coefficient of linear expansion of copper is 2.0 x 10^-5 per °C, calculate the increase in the area of the plate when it is heated to 100 °C.",
+"options": [
+"1.0 x 10^-3 m^2",
+"2.0 x 10^-3 m^2",
+"5.0 x 10^-4 m^2",
+"4.0 x 10^-3 m^2"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The coefficient of area (superficial) expansion is 2 x alpha = 4.0 x 10^-5 per °C. Increase in area = A0 x 2alpha x change in temperature = (0.5 x 0.5) x 4.0x10^-5 x 100 = 0.25 x 4.0x10^-3 = 1.0 x 10^-3 m^2. Candidates who forget to double alpha for area expansion will pick a wrong option.",
+"pidgin": "Di area expansion coefficient na 2 x alpha = 4.0 x 10^-5 per °C. Increase for area = A0 x 2alpha x change for temperature = 0.25 x 4.0x10^-3 = 1.0 x 10^-3 m^2. If you forget to double di alpha for area, you go miss di answer.",
+"py": "(0.5*0.5) * (2*2.0e-5) * 100",
+"values": [
+0.001,
+0.002,
+0.0005,
+0.004
+],
+"id": "phyv0902",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A bimetallic strip is made by joining a strip of brass to a strip of iron of the same length, with brass having a larger coefficient of linear expansion than iron. When the straight strip is heated uniformly, in which direction does it bend, and why?",
+"options": [
+"It bends towards the iron side, because brass expands more than iron and forms the outer (longer) curve",
+"It bends towards the brass side, because iron expands more than brass",
+"It remains perfectly straight, because both metals expand by the same amount",
+"It bends towards the brass side, because brass contracts while iron expands"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Since brass has a higher coefficient of linear expansion, it lengthens more than iron for the same temperature rise. This forces the strip to curve, with brass on the outside of the bend, so the strip bends towards the iron (shorter) side.",
+"pidgin": "Since brass get bigger expansion coefficient pass iron, e go stretch pass iron when dem heat dem together. Dis one go make di strip curve, make brass dey outside, so di strip go bend go iron side.",
+"py": null,
+"values": null,
+"id": "phyv0903",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

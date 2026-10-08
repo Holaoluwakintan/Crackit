@@ -1,0 +1,207 @@
+{
+"subject": "literature",
+"topic": "Drama: dramatic techniques (soliloquy, aside, irony, foil)",
+"ti": 4,
+"generated": 10,
+"kept": [
+{
+"q": "In drama, when a character speaks alone on stage, revealing his private thoughts and feelings to the audience without any other character hearing him, this technique is called:",
+"options": [
+"Soliloquy",
+"Aside",
+"Monologue dialogue",
+"Stage direction"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A soliloquy is a speech given by a character alone on stage, sharing his inner thoughts directly with the audience. No other character is present or aware of it.",
+"pidgin": "Soliloquy na when character dey alone for stage, e dey talk im mind give audience. No other character dey hear am.",
+"id": "wlit0400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During a quarrel between two market women in a play, one of them turns briefly to the audience and whispers, 'This woman no sabi say na me go win dis case,' while the other woman continues talking, unaware of the comment. This short remark made to the audience, unheard by other characters on stage, is an example of:",
+"options": [
+"Soliloquy",
+"Aside",
+"Dramatic irony",
+"Flashback"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An aside is a brief remark a character makes directly to the audience, which other characters on stage are not supposed to hear. Here, the woman speaks to the audience while her rival continues unaware.",
+"pidgin": "Aside na short tin wey character talk give audience, wey the other characters no go hear. Na so the woman take talk am while her mate continue dey yarn, no sabi.",
+"id": "wlit0401",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A playwright creates two characters: Dapo, who is calm, patient, and always thinks before he acts, and his younger brother Wale, who is hot-tempered, impulsive, and quick to fight. Wale's reckless behaviour makes Dapo's calmness stand out more clearly to the audience. Wale, in this case, serves as Dapo's:",
+"options": [
+"Protagonist",
+"Antagonist",
+"Foil",
+"Narrator"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A foil is a character whose qualities contrast with another character, making the other's traits more noticeable. Wale's impulsiveness highlights Dapo's calm nature by contrast.",
+"pidgin": "Foil na character wey im character dey different from another one, make dat other one character show well well. Wale im anger dey make Dapo im patience show clear.",
+"id": "wlit0403",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these options correctly describes the main difference between a soliloquy and an aside?",
+"options": [
+"A soliloquy is spoken by two characters together, while an aside is spoken by one character alone",
+"A soliloquy is a long, private speech delivered when a character believes he is alone, while an aside is a brief comment made to the audience even when other characters are present",
+"A soliloquy is only used in comedies, while an aside is only used in tragedies",
+"A soliloquy is written in prose, while an aside is always written in verse"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A soliloquy is usually longer and spoken when the character is alone, revealing deep thoughts. An aside is shorter and can be spoken even when other characters are on stage, since only the audience hears it.",
+"pidgin": "Soliloquy long pass, na when character dey alone e dey yan im mind. Aside short, e fit happen even if other characters dey stage, but na only audience go hear am.",
+"id": "wlit0404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a short play, a security guard boasts to his colleague, 'No thief fit pass this gate while I dey on duty,' moments before a thief successfully sneaks past him unnoticed. This contrast between the guard's confident words and the actual outcome is an example of:",
+"options": [
+"Situational irony",
+"Dramatic irony",
+"Verbal irony",
+"Foil"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Situational irony happens when the actual result is the opposite of what was expected. The guard expects no thief to pass, yet a thief passes, which is the opposite of his confident claim.",
+"pidgin": "Situational irony na when wetin happen no match wetin person expect. The guard talk say no thief go pass, but thief pass — na the opposite of wetin e talk.",
+"id": "wlit0405",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A character in a tragedy says to his friend, 'I am the happiest man alive today,' while the audience already knows his wife has just died in an accident he does not yet know about. This is an example of:",
+"options": [
+"Aside",
+"Dramatic irony",
+"Foil",
+"Comic relief"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "This is dramatic irony because the audience possesses knowledge (the wife's death) that the character does not have, creating a painful contrast with his happy statement.",
+"pidgin": "Na dramatic irony be dis because audience sabi say im wife don die, but the man himself no sabi, so wetin e talk dey clash with wetin audience sabi.",
+"id": "wlit0406",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best explains why playwrights use the soliloquy technique in a drama?",
+"options": [
+"To allow two characters to argue loudly on stage",
+"To give the audience direct access to a character's private thoughts, motives, or plans without other characters' interference",
+"To show stage directions clearly to the actors",
+"To create background music for a scene"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Playwrights use soliloquy so that the audience can understand a character's inner mind, including secret plans, doubts, or motives, without any other character hearing it.",
+"pidgin": "Playwright dey use soliloquy make audience sabi wetin dey inside character mind, like im plan or wahala, without any other character dey hear am.",
+"id": "wlit0407",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a play, a wealthy but foolish landlord named Chief Bassey always makes hasty decisions that cause trouble in his estate. His clerk, Mr. Eze, is wise, careful, and always advises caution before every action. Chief Bassey never listens, and the contrast between both men highlights Bassey's foolishness even more to the audience. What dramatic technique is most clearly at work here?",
+"options": [
+"Soliloquy",
+"Dramatic irony",
+"Use of a foil character",
+"Comic aside"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Mr. Eze functions as a foil because his wisdom and caution are placed beside Chief Bassey's foolishness, making the landlord's bad judgement stand out sharply to the audience through contrast.",
+"pidgin": "Mr. Eze na foil character because im wisdom dey beside Chief Bassey im foolishness, so e dey make the landlord im bad decision show clear pass to audience.",
+"id": "wlit0408",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a play, a king privately confides to the audience alone on stage: 'If I kill my brother tonight, the throne will finally be mine, but my conscience may never rest.' Later, during a public feast, he turns briefly aside to whisper to the audience, 'Watch how I will smile at him while my plan unfolds,' before continuing to laugh loudly with his brother in full view of the other guests. Which statement best explains the combined effect of these two techniques on the audience's understanding of the scene?",
+"options": [
+"They confuse the audience about the king's true intentions since he appears friendly throughout",
+"They reveal the king's true murderous plan privately, so his public friendliness towards his brother becomes deeply ironic to the audience",
+"They show that the king has genuinely forgiven his brother and abandoned his earlier plan",
+"They prove that the brother already knows about the plan and is only pretending not to notice"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The soliloquy and aside reveal the king's hidden murderous intention directly to the audience. This creates dramatic irony during the feast, since the audience knows the truth behind his false, friendly smiles while the brother and guests do not.",
+"pidgin": "Di soliloquy and aside show audience wetin dey inside king mind, say im wan kill im brother. So wen e dey smile for feast, na dramatic irony, because audience sabi the truth wey the brother no sabi.",
+"id": "wlit0409",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In a play, the audience knows that a chief has been poisoned by his trusted friend, but the chief continues to praise this friend as 'the most loyal man in my palace.' This gap between what the audience knows and what the character knows is best described as:",
+"options": [
+"Verbal irony",
+"Situational irony",
+"Dramatic irony",
+"Foil",
+"Aside"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Dramatic irony occurs when the audience has information that a character on stage does not have. The chief trusts his poisoner, not knowing the truth that the audience already knows.",
+"pidgin": "Dramatic irony na when audience sabi something wey the character no sabi. The chief dey trust the person wey poison am, meanwhile audience don already sabi the tin."
+},
+"why": "bad-shape"
+}
+]
+}

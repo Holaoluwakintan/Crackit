@@ -1,0 +1,94 @@
+{
+"subject": "chemistry",
+"topic": "Polymers, petroleum and crude oil refining in Nigeria",
+"generated": 4,
+"kept": [
+{
+"q": "During crude oil exploration and production in the Niger Delta, a large amount of a certain gas is often burnt off (flared) at the wellhead because it is not immediately collected for use. Which gas is this?",
+"options": [
+"Natural gas (mainly methane)",
+"Hydrogen gas",
+"Carbon(IV) oxide",
+"Nitrogen gas"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Natural gas, which is mostly methane, comes out together with crude oil from the ground. Where there are no pipelines or plants to collect it, companies burn it off at the wellhead instead of releasing it unburnt, and this is called gas flaring.",
+"pidgin": "Natural gas wey be mostly methane dey come out together wit di crude oil from ground. If dem no get pipeline or plant to collect am, dem go just burn am for wellhead, dat na gas flaring.",
+"py": null,
+"values": null,
+"id": "chev1800",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A sample of polyvinyl chloride (PVC) used for making water pipes in Lagos has a molar mass of 125000 g/mol. If the repeating unit is -CH2-CHCl-, calculate the degree of polymerization (number of monomer units) in one molecule of the polymer. [C = 12, H = 1, Cl = 35.5]",
+"options": [
+"2000",
+"1000",
+"500",
+"4000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The monomer unit -CH2-CHCl- (vinyl chloride) has mass = 2(12) + 3(1) + 35.5 = 62.5 g/mol. Degree of polymerization n = total molar mass / monomer mass = 125000 / 62.5 = 2000.",
+"pidgin": "Di monomer unit -CH2-CHCl- mass na 2(12)+3(1)+35.5 = 62.5 g/mol. To find how many units dey inside, divide total mass by monomer mass: 125000/62.5 = 2000.",
+"py": "125000/62.5",
+"values": [
+2000,
+1000,
+500,
+4000
+],
+"id": "chev1801",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "In choosing petrol components to reduce engine knocking in vehicles in Nigeria, which of the following hydrocarbons would give the best (highest) octane number, that is, the best resistance to knocking?",
+"options": [
+"n-heptane",
+"2,2,4-trimethylpentane (isooctane)",
+"n-octane",
+"n-hexane"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Highly branched hydrocarbons burn more smoothly in an engine and resist knocking better than straight-chain ones. 2,2,4-trimethylpentane (isooctane) is highly branched, so it has a very high octane number, unlike n-heptane, n-octane and n-hexane which are straight-chain and knock more easily.",
+"pidgin": "Hydrocarbon wey get plenty branch dey burn smooth for engine and e no dey knock easily pass straight chain ones. 2,2,4-trimethylpentane (isooctane) get plenty branch so e get high octane number, but n-heptane, n-octane and n-hexane na straight chain so dem go knock pass am.",
+"py": null,
+"values": null,
+"id": "chev1802",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A plastic bucket manufacturing company in Aba wants a polymer that can be melted and remoulded into new shapes several times without losing its properties. Which type of polymer should the company choose?",
+"options": [
+"Thermoplastic polymer",
+"Thermosetting polymer",
+"Vulcanized rubber",
+"Protein polymer"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Thermoplastic polymers soften on heating and can be remoulded many times because their chains are not cross-linked. Thermosetting polymers and vulcanized rubber form strong cross-links on first heating, so they cannot be melted again, and protein is a natural polymer not used for buckets.",
+"pidgin": "Thermoplastic polymer dey soft when you heat am and you fit remould am many times because di chains no tie together strong. Thermosetting polymer and vulcanized rubber go form strong cross-link wen you first heat am, so you no fit melt am again, and protein na natural polymer wey dem no dey use for bucket.",
+"py": null,
+"values": null,
+"id": "chev1803",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

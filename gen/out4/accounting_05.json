@@ -1,0 +1,187 @@
+{
+"subject": "accounting",
+"topic": "Petty cash book and the imprest system",
+"ti": 5,
+"generated": 7,
+"kept": [
+{
+"q": "In the imprest system of petty cash, the petty cashier is given a fixed sum of money at the start of each period. This fixed sum is called the:",
+"options": [
+"float",
+"ledger balance",
+"trial balance",
+"bank overdraft"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Under the imprest system, the petty cashier always starts a new period with the same fixed amount of cash, known as the float. This amount is topped up at the end of each period to restore it to the fixed level.",
+"pidgin": "For imprest system, dem go always give the petty cashier the same fixed amount wey dem dey call float at the start of every period. Dem go top am up again make e reach that same level.",
+"py": null,
+"values": null,
+"id": "wacc0500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these best explains why a business keeps a petty cash book?",
+"options": [
+"To record large capital expenditure such as purchase of a delivery van",
+"To record small, day-to-day cash expenses separately from the main cash book",
+"To prepare the statement of financial position of the business",
+"To calculate the net profit of the business"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A petty cash book is kept to record small, routine cash payments like stationery, postage and transport fares, so that the main cash book is not cluttered with minor entries.",
+"pidgin": "Petty cash book na for record small small cash wey dem dey spend every day like stationery, postage and transport, so that main cash book no go too full with small small entries.",
+"py": null,
+"values": null,
+"id": "wacc0501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Adaeze Ventures operates the imprest system with a petty cash float of ₦15,000. During the month, the petty cashier spent ₦4,200 on stationery, ₦3,100 on postage and ₦2,700 on cleaning materials. How much will the head cashier give the petty cashier at the end of the month to restore the float to its original level?",
+"options": [
+"₦10,000",
+"₦5,000",
+"₦15,000",
+"₦4,200"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total expenses for the month = 4,200 + 3,100 + 2,700 = ₦10,000. Under the imprest system, the head cashier reimburses exactly the amount spent, so ₦10,000 is given to restore the float to ₦15,000.",
+"pidgin": "Total wey dem spend be 4,200 + 3,100 + 2,700 = ₦10,000. Under imprest system, na the exact amount wey dem spend dem go refund, so dem go give ₦10,000 make float return to ₦15,000.",
+"py": "4200+3100+2700",
+"values": [
+10000,
+5000,
+15000,
+4200
+],
+"id": "wacc0502",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Using the same information as above (Adaeze Ventures: float of ₦15,000; spent ₦4,200 on stationery, ₦3,100 on postage and ₦2,700 on cleaning materials), what is the balance of cash in hand in the petty cash box before the head cashier makes the reimbursement?",
+"options": [
+"₦5,000",
+"₦10,000",
+"₦15,000",
+"₦25,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total spent = ₦10,000. Balance in hand = Float − Total spent = 15,000 − 10,000 = ₦5,000. This is the amount left before the head cashier tops it back up to ₦15,000.",
+"pidgin": "Total wey dem spend na ₦10,000. Balance wey remain = Float minus total spent = 15,000 − 10,000 = ₦5,000. Na this balance dey remain before dem top am back to ₦15,000.",
+"py": "15000-(4200+3100+2700)",
+"values": [
+5000,
+10000,
+15000,
+25000
+],
+"id": "wacc0503",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In an analytical petty cash book with several expense analysis columns (such as stationery, postage, cleaning and transport), the total of all the analysis columns added together should equal:",
+"options": [
+"the opening float for the period",
+"the total of the payments (total) column",
+"the amount reimbursed by the head cashier only",
+"the closing balance carried down"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Each payment is entered once in the total payments column and once again in its matching analysis column. So when you add up all the analysis columns, the sum must equal the total payments column, which checks the accuracy of the book.",
+"pidgin": "Every payment dem go write am once for total column and once again for the matching analysis column. So if you add all the analysis columns, e must balance with total payments column, na so dem dey check say book correct.",
+"py": null,
+"values": null,
+"id": "wacc0504",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidinma Stores operates the imprest system with a petty cash float of ₦20,000. In the first week, the petty cashier spent ₦8,500 on various small expenses. At the start of the second week, the head cashier decided to increase the float permanently from ₦20,000 to ₦25,000, and gave the petty cashier a single cheque to cover both the normal reimbursement and the increase. How much was this cheque?",
+"options": [
+"₦13,500",
+"₦8,500",
+"₦5,000",
+"₦25,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Normal reimbursement to restore the old float = ₦8,500 (the amount spent). The increase in float = 25,000 − 20,000 = ₦5,000. Total cheque given = 8,500 + 5,000 = ₦13,500.",
+"pidgin": "Normal refund wey go restore old float na ₦8,500 (wetin dem spend). The increase for float na 25,000 minus 20,000 = ₦5,000. So total cheque wey dem give na 8,500 + 5,000 = ₦13,500.",
+"py": "8500 + (25000-20000)",
+"values": [
+13500,
+8500,
+5000,
+25000
+],
+"id": "wacc0505",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "At the end of the month, the petty cash book of Emeka & Sons showed total analysed payments of ₦9,300 for a float of ₦15,000. However, when the head cashier physically counted the cash in the petty cash box, only ₦5,500 was found. What is the amount of cash shortage?",
+"options": [
+"₦200",
+"₦9,300",
+"₦5,500",
+"₦5,700"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Expected balance in hand = Float − Total payments = 15,000 − 9,300 = ₦5,700. Since only ₦5,500 was physically found, the shortage = 5,700 − 5,500 = ₦200.",
+"pidgin": "Balance wey suppose dey hand = Float minus total payments = 15,000 − 9,300 = ₦5,700. But since na ₦5,500 dem see for box, the shortage = 5,700 − 5,500 = ₦200.",
+"py": "(15000-9300)-5500",
+"values": [
+200,
+9300,
+5500,
+5700
+],
+"id": "wacc0506",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

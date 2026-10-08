@@ -1,0 +1,168 @@
+{
+"subject": "commerce",
+"topic": "Advertising and sales promotion",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best defines advertising as used in Commerce?",
+"options": [
+"A paid, non-personal form of communication used to promote goods, services or ideas",
+"A free gift given to a customer who buys a product",
+"A personal visit by a salesman to a customer's home",
+"A reduction in the price of goods during festive seasons"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Advertising is a paid, non-personal message passed through media like television, radio or newspapers to inform and persuade buyers. It is not a personal, face-to-face activity like personal selling.",
+"pidgin": "Advertising na message wey company pay money for, wey no be face-to-face, dem dey use am tell people about goods or service. E no be like when salesman come your house talk to you one-on-one.",
+"py": null,
+"values": null,
+"id": "comv0500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of these is an example of sales promotion rather than advertising?",
+"options": [
+"A jingle played on radio about a soft drink",
+"A billboard poster along a major expressway",
+"A 'buy two, get one free' offer on bags of rice for one week",
+"A full-page advert in a national newspaper"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Sales promotion involves short-term incentives like 'buy two, get one free' to boost immediate sales. Radio jingles, billboards and newspaper adverts are forms of advertising, not sales promotion.",
+"pidgin": "Sales promotion na short-term offer like 'buy two, collect one free' wey dey push people to buy quick-quick. Radio jingle, billboard and newspaper advert na advertising, no be sales promotion.",
+"py": null,
+"values": null,
+"id": "comv0501",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A major objective of advertising a new brand of toothpaste in Nigeria would be to:",
+"options": [
+"Reduce the company's production cost immediately",
+"Create awareness and persuade consumers to try the new brand",
+"Replace the need for product packaging",
+"Eliminate the role of middlemen in distribution"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Advertising mainly aims to inform people about a product and persuade them to buy it, especially when it is newly introduced. It does not directly reduce production cost, remove packaging, or eliminate middlemen.",
+"pidgin": "The main reason to advertise new toothpaste na to make people know say the product dey and convince dem make dem try am. E no be to reduce production cost, remove packaging, or comot middlemen.",
+"py": null,
+"values": null,
+"id": "comv0502",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Mama Chidi owns a provision store in a rural community where most customers cannot read. Which advertising medium would reach her customers most effectively?",
+"options": [
+"Newspaper advert in a national daily",
+"Billboard with only written text along the expressway",
+"Radio jingle in the local language",
+"Magazine advert placed in a glossy publication"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Radio does not require literacy and can reach people in their local language, making it ideal for rural, mostly non-literate audiences. Newspapers, billboards with text, and magazines require the ability to read.",
+"pidgin": "Radio no need person to sabi read, e dey use local language wey everybody for village go understand. Newspaper, billboard wit only writing, and magazine need say person sabi read before e go understand.",
+"py": null,
+"values": null,
+"id": "comv0503",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which of the following is a key difference between advertising and personal selling?",
+"options": [
+"Advertising is always more expensive per customer reached than personal selling",
+"Advertising involves direct face-to-face contact while personal selling does not",
+"Advertising is a mass, impersonal communication while personal selling is direct and face-to-face",
+"Personal selling cannot be used to promote industrial goods"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Advertising reaches a large, impersonal audience through media, while personal selling involves a salesperson dealing directly with a customer. This direct human contact allows personal selling to answer specific customer questions immediately.",
+"pidgin": "Advertising na mass message wey reach plenty people same time without person-to-person contact, but personal selling na direct wia salesman dey meet customer face-to-face. Na the face-to-face wey be the main difference.",
+"py": null,
+"values": null,
+"id": "comv0504",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A beverage company gives out free sachets of a new malt drink to shoppers at a supermarket to encourage them to try it. This activity is best described as:",
+"options": [
+"Publicity",
+"Sales promotion",
+"Personal selling",
+"Institutional advertising"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Giving free samples to encourage trial of a product is a classic short-term sales promotion technique. It is not publicity (which is unpaid media coverage) or personal selling (which involves persuasion through conversation).",
+"pidgin": "To give people free sample make dem try new product na sales promotion wey dey short-term. E no be publicity (wey be free media coverage) or personal selling (wey be persuade person for mouth-to-mouth talk).",
+"py": null,
+"values": null,
+"id": "comv0505",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following is a common criticism against advertising as a method of sales promotion?",
+"options": [
+"It always makes products permanently cheaper for consumers",
+"It can mislead consumers through exaggerated claims about a product",
+"It guarantees that every advertised product will sell well",
+"It completely removes the need for product quality"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A major criticism of advertising is that some adverts exaggerate or mislead consumers about what a product can really do. Advertising does not guarantee sales, lower prices, or remove the need for actual product quality.",
+"pidgin": "One big criticism against advertising na say sometimes e dey exaggerate or deceive people about wetin the product fit do. Advertising no dey guarantee sale, e no dey make price permanently cheap, and e no dey remove need for quality.",
+"py": null,
+"values": null,
+"id": "comv0506",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A soap manufacturer notices that despite heavy television advertising, sales have not increased because retailers are not stocking enough units in shops. Which combined strategy would most likely solve this problem?",
+"options": [
+"Stop advertising completely and rely only on word of mouth",
+"Increase television advertising spending without changing anything else",
+"Offer trade discounts and bonus packs to retailers alongside the advertising",
+"Reduce the quality of the soap to cut production cost"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The problem is that retailers lack incentive to stock the product, so advertising alone (which targets final consumers) cannot fix it. Trade sales promotion tools like discounts and bonus packs directly motivate retailers to stock more units.",
+"pidgin": "The main wahala na say retailers no get enough motivation to stock the soap, so just dey advertise to consumers no go solve am. If dem give retailers discount and bonus packs, e go push dem to stock more, and that one go work with the advertising.",
+"py": null,
+"values": null,
+"id": "comv0507",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

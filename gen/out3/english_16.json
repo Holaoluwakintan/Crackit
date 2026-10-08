@@ -1,0 +1,120 @@
+{
+"subject": "english",
+"topic": "Conditional sentences, reported speech and active/passive voice",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the option that best expresses the sentence in quotes in the passive voice: \"The headmaster will announce the results tomorrow.\"",
+"options": [
+"The results will be announced by the headmaster tomorrow.",
+"The results were announced by the headmaster tomorrow.",
+"The results will announce by the headmaster tomorrow.",
+"The results are been announced by the headmaster tomorrow."
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The original sentence is in the future simple active tense. To form the passive, we use 'will be' plus the past participle 'announced', keeping the future time reference 'tomorrow'.",
+"pidgin": "Di original sentence na future tense for active voice. To change am to passive, we go use 'will be' plus 'announced', and we still keep 'tomorrow' because di time no change.",
+"id": "engv1601",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best expresses the same meaning as the sentence in quotes: \"I am going to the market now,\" Tunde told his sister.",
+"options": [
+"Tunde told his sister that he was going to the market now.",
+"Tunde told his sister that he is going to the market now.",
+"Tunde told his sister that he was going to the market then.",
+"Tunde told his sister that he had gone to the market then."
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "In reported speech, the present continuous tense 'am going' changes to the past continuous 'was going', and the time word 'now' changes to 'then' because the reporting happens later. Option C correctly makes both changes.",
+"pidgin": "For reported speech, 'am going' go change to 'was going', and 'now' go change to 'then' because di tori don pass when you dey report am. Option C do both change well well.",
+"id": "engv1602",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the option that best completes the gap: If I _____ enough money, I would build a borehole for my village.",
+"options": [
+"have",
+"had",
+"will have",
+"would have"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "This sentence expresses an unreal or unlikely present situation, which is a second conditional. Second conditionals use the simple past tense ('had') in the if-clause, with 'would' in the main clause.",
+"pidgin": "Dis sentence dey talk about situation wey no real now, na second conditional. Second conditional dey use simple past ('had') for di if-clause, and 'would' for di main clause.",
+"id": "engv1603",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the option that best expresses the same meaning as the sentence in quotes: \"Will you come to my house tomorrow?\" Ngozi asked Bisi.",
+"options": [
+"Ngozi asked Bisi if she will come to her house tomorrow.",
+"Ngozi asked Bisi if she would come to her house the following day.",
+"Ngozi asked Bisi that she would come to her house the following day.",
+"Ngozi asked Bisi if she would come to his house the following day."
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A reported yes/no question needs 'if' or 'whether', the modal 'will' changes to 'would', and the time word 'tomorrow' changes to 'the following day'. Since Ngozi is female, 'my house' becomes 'her house', making option B correct.",
+"pidgin": "Wen you dey report yes/no question, you go use 'if' or 'whether', 'will' go change to 'would', and 'tomorrow' go change to 'the following day'. Since na Ngozi (woman) talk am, 'my house' go turn 'her house', na why B correct.",
+"id": "engv1604",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the option that best expresses the sentence in quotes in the passive voice: \"The committee should have completed the project before the end of the year.\"",
+"options": [
+"The project should be completed by the committee before the end of the year.",
+"The project should have been completed by the committee before the end of the year.",
+"The project should have completed by the committee before the end of the year.",
+"The project was supposed to complete by the committee before the end of the year."
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The active sentence uses a modal perfect structure, 'should have completed'. To form the correct passive, we keep the modal perfect form but add 'been' plus the past participle, giving 'should have been completed'.",
+"pidgin": "Di active sentence get modal perfect structure, 'should have completed'. To change am to correct passive, you go still keep di modal perfect but add 'been' plus past participle, so e go be 'should have been completed'.",
+"id": "engv1605",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap: If water _____ to 100 degrees Celsius at sea level, it boils.",
+"options": [
+"is heated",
+"heats",
+"will be heated",
+"was heated"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "This is a zero conditional sentence used to state a scientific fact that is always true. Zero conditionals use the simple present tense in both clauses, so 'is heated' is correct.",
+"pidgin": "Dis na zero conditional wey dey talk about science fact wey dey always true. Zero conditional dey use simple present tense for both parts, so 'is heated' correct pass.",
+"id": "engv1600",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+"why": "ambiguous:B is also grammatically defensible.|"
+}
+]
+}

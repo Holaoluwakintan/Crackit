@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Nutrition in plants: photosynthesis and mineral requirements",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following correctly describes the source of the oxygen gas released during photosynthesis in green plants?",
+"options": [
+"Oxygen comes from the splitting of carbon dioxide molecules",
+"Oxygen comes from the splitting of water molecules during the light reaction",
+"Oxygen comes from the breakdown of glucose during the dark reaction",
+"Oxygen comes from the reduction of carbon dioxide in the stroma"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "During the light-dependent reaction, water molecules are split (photolysis) to release electrons, hydrogen ions, and oxygen gas. The oxygen released as a by-product of photosynthesis therefore comes from water, not from carbon dioxide or glucose.",
+"pidgin": "For di light reaction, water dey split (dem dey call am photolysis) to release electron, hydrogen ion, and oxygen gas. So di oxygen wey dey comot na from water, e no come from CO2 or glucose.",
+"id": "biov0300",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Tunde grows maize on his farm in Kaduna. He notices that the young, newly formed leaves turn yellow between the veins while the veins themselves stay green, but the older leaves at the base of the plant remain healthy and dark green. Which mineral deficiency best explains this observation?",
+"options": [
+"Nitrogen deficiency, because nitrogen is mobile in the plant",
+"Iron deficiency, because iron is immobile and needed for chlorophyll formation in new leaves",
+"Magnesium deficiency, because magnesium is mobile and moves to young leaves",
+"Potassium deficiency, because potassium causes scorching of old leaf tips"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Iron is needed to make chlorophyll but it is not easily moved from old to new tissues, so when it is lacking, the newest leaves show yellowing between the veins (interveinal chlorosis) while older leaves, which already have enough iron, stay green. Nitrogen and magnesium are mobile, so their deficiency affects older leaves first instead.",
+"pidgin": "Iron dey needed to make chlorophyll but e no dey easy move from old leaf go young leaf, so if e dey missing, na di new leaves go yellow for between di veins while di old ones go still green. Nitrogen and magnesium dey mobile, so their own wahala dey show for old leaves first.",
+"id": "biov0301",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A student placed a potted hibiscus plant under steadily increasing light intensity while keeping the carbon dioxide concentration and temperature constant. The rate of photosynthesis rose at first but later became constant even as the light intensity kept increasing. What is the most likely reason for this levelling off?",
+"options": [
+"The chlorophyll in the leaves had been completely destroyed",
+"The carbon dioxide concentration had become the limiting factor",
+"The stomata had closed permanently due to excess light",
+"The plant had stopped respiring because of too much light"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When light intensity keeps rising but another factor such as CO2 concentration is fixed, photosynthesis can no longer increase because that fixed factor now limits the rate; this is the law of limiting factors. Since temperature and CO2 were kept constant, CO2 becomes the factor holding back further increase once light is no longer limiting.",
+"pidgin": "As light dey increase but another factor like CO2 concentration stay fixed, photosynthesis no fit increase again because na dat fixed factor dey limit am now; na so di law of limiting factor dey work. Since CO2 and temperature stay constant, na CO2 don become di limiting factor.",
+"id": "biov0302",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "The overall equation for photosynthesis can be written as: 6CO2 + 6H2O --(light, chlorophyll)--> C6H12O6 + 6O2. Based on this equation, how many molecules of water are needed to produce 3 molecules of glucose (C6H12O6)?",
+"options": [
+"6",
+"12",
+"18",
+"24"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "From the balanced equation, 6 molecules of water produce 1 molecule of glucose, so the ratio of water to glucose is 6:1. To produce 3 molecules of glucose, you need 6 x 3 = 18 molecules of water.",
+"pidgin": "For di balanced equation, water to glucose ratio na 6:1, meaning 6 water dey make 1 glucose. So to make 3 glucose, you need 6 x 3 = 18 molecules of water.",
+"id": "biov0303",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

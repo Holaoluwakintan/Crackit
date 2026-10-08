@@ -1,0 +1,164 @@
+{
+"subject": "chemistry",
+"topic": "Atomic structure and particulate nature of matter",
+"ti": 0,
+"generated": 6,
+"kept": [
+{
+"q": "What is the atomic number of an atom?",
+"options": [
+"Number of protons in the nucleus",
+"Number of neutrons in the nucleus",
+"Sum of protons and neutrons in the nucleus",
+"Number of electron shells in the atom"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The atomic number of an atom is defined as the number of protons found in its nucleus. It is this number that identifies the element and also tells the number of electrons in a neutral atom.",
+"pidgin": "Atomic number na di number of protons wey dey inside di nucleus of di atom. Na dis number dey tell us wetin di element be, and e dey match di number of electrons wen atom neutral.",
+"py": null,
+"values": null,
+"id": "wche0000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these subatomic particles carries a negative charge and has a mass that is negligible compared to that of a proton?",
+"options": [
+"Proton",
+"Neutron",
+"Electron",
+"Alpha particle"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The electron carries a negative charge of -1 and its mass is about 1/1836 of the mass of a proton, so it is considered negligible. Protons and neutrons have almost equal masses, while an alpha particle is heavier, made of 2 protons and 2 neutrons.",
+"pidgin": "Electron get negative charge (-1) and e light well well, e no near proton mass at all. Proton and neutron dem get almost same mass, while alpha particle heavy pass electron sotey.",
+"py": null,
+"values": null,
+"id": "wche0001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chlorine exists as two naturally occurring isotopes: chlorine-35 (making up 75% of all chlorine atoms) and chlorine-37 (making up 25%). What is the relative atomic mass of chlorine, correct to one decimal place?",
+"options": [
+"35.5",
+"36.0",
+"35.0",
+"36.5"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Relative atomic mass = (35 x 75 + 37 x 25) / 100 = (2625 + 925)/100 = 3550/100 = 35.5. This weighted average matches the known relative atomic mass of chlorine.",
+"pidgin": "To find relative atomic mass, multiply each isotope mass with im percentage, add dem, then divide by 100: (35x75 + 37x25)/100 = 3550/100 = 35.5. Na dat value be di correct answer.",
+"py": "(35*75 + 37*25)/100",
+"values": [
+35.5,
+36.0,
+35.0,
+36.5
+],
+"id": "wche0002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "An atom has a mass number of 40. When it reacts, it loses two electrons to form a stable ion containing 18 electrons. How many neutrons are present in the atom?",
+"options": [
+"18",
+"20",
+"22",
+"24"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since the ion has 18 electrons and a charge of 2+, the neutral atom must have 18 + 2 = 20 protons. Number of neutrons = mass number - protons = 40 - 20 = 20.",
+"pidgin": "Since di ion get 18 electrons and charge na 2+, di neutral atom get 18 + 2 = 20 protons. Neutron = mass number minus protons = 40 - 20 = 20.",
+"py": "40 - (18+2)",
+"values": [
+18,
+20,
+22,
+24
+],
+"id": "wche0004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Calculate the number of atoms present in 0.5 mole of calcium metal. (Avogadro's number = 6.02 x 10^23 mol^-1)",
+"options": [
+"3.01 x 10^23",
+"6.02 x 10^23",
+"1.505 x 10^23",
+"1.204 x 10^24"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Number of atoms = number of moles x Avogadro's number = 0.5 x 6.02 x 10^23 = 3.01 x 10^23 atoms. The other options come from wrong multiplication or division errors.",
+"pidgin": "Number of atoms = moles x Avogadro number = 0.5 x 6.02 x 10^23 = 3.01 x 10^23 atoms. Di oda options na from wrong multiplication or division mistake.",
+"py": "0.5*6.02e23",
+"values": [
+3.01e+23,
+6.02e+23,
+1.505e+23,
+1.204e+24
+],
+"id": "wche0005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "An atom of element Q has atomic number 19. During a chemical reaction, it loses one electron to form a stable, singly-charged positive ion. What is the electronic configuration of the resulting ion?",
+"options": [
+"2,8,8,1",
+"2,8,8",
+"2,8,9",
+"2,8,7"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Element Q (potassium) has 19 electrons arranged as 2,8,8,1. Losing one electron from the outer shell leaves 18 electrons arranged as 2,8,8, which is a stable noble-gas-like configuration.",
+"pidgin": "Element Q (potassium) get 19 electrons wey arrange as 2,8,8,1. If e lose di last one electron, e go remain 18 electrons wey arrange as 2,8,8, and dat one stable like noble gas.",
+"py": null,
+"values": null,
+"id": "wche0003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "no-py"
+}
+},
+"why": "python:no-py"
+}
+]
+}

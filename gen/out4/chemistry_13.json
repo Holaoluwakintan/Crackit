@@ -1,0 +1,147 @@
+{
+"subject": "chemistry",
+"topic": "Metals: properties, extraction and compounds",
+"ti": 13,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following is a general physical property of metals?",
+"options": [
+"They are poor conductors of electricity",
+"They are brittle when hammered into sheets",
+"They are good conductors of heat and electricity",
+"They have very low melting points generally"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Metals have free-moving electrons (a 'sea of electrons') that allow them to conduct heat and electricity well. Most metals are also malleable (not brittle) and many have high melting points.",
+"pidgin": "Metal get electrons wey dey waka free inside am, na im dey make dem conduct heat and electricity well well. Most metals no dey brittle, dem dey bend well, and plenty of dem get high melting point.",
+"py": null,
+"values": null,
+"id": "wche1300",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Aluminium is extracted industrially by electrolysis of molten aluminium oxide (in cryolite) rather than by reduction with carbon. The best reason for this is that:",
+"options": [
+"Aluminium ore does not contain oxygen",
+"Aluminium is too reactive for carbon to reduce its ore",
+"Carbon is more expensive than electricity in industry",
+"Aluminium has a very low melting point"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In the reactivity series, aluminium is more reactive than carbon, so carbon cannot remove oxygen from aluminium oxide. Only a stronger method like electrolysis can break the strong bond and free the aluminium metal.",
+"pidgin": "For reactivity series, aluminium pass carbon for strength, so carbon no fit remove oxygen from aluminium oxide. Na only electrolysis get power to break the strong bond free the aluminium.",
+"py": null,
+"values": null,
+"id": "wche1301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Rusting of an iron nail, like one left outside a Lagos workshop, occurs fastest when the nail is exposed to:",
+"options": [
+"dry air only",
+"pure oxygen without moisture",
+"nitrogen gas and water",
+"moist air containing oxygen"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Rusting is the reaction of iron with both oxygen and water (moisture) at the same time to form hydrated iron(III) oxide. Without either water or oxygen present together, rusting is very slow or does not occur.",
+"pidgin": "Rust dey happen when iron meet oxygen and water together, dem go form hydrated iron(III) oxide. If water or oxygen no dey, rust no go fast reach like that.",
+"py": null,
+"values": null,
+"id": "wche1302",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Brass, a yellowish alloy often used for door handles and musical instruments, is made by combining:",
+"options": [
+"iron and carbon",
+"aluminium and magnesium",
+"copper and zinc",
+"copper and tin"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Brass is an alloy formed by mixing copper with zinc, which gives it a golden colour and makes it harder and more resistant to corrosion than pure copper. Bronze, not brass, is made from copper and tin.",
+"pidgin": "Brass na alloy wey dem mix copper with zinc together, e dey give am gold colour and e dey strong pass pure copper, e no too dey rust. Na bronze be copper and tin mixture, no be brass.",
+"py": null,
+"values": null,
+"id": "wche1303",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A sample of zinc oxide weighing 8.10 g is completely reduced by carbon to produce zinc metal. Calculate the mass of zinc produced. [Zn = 65, O = 16]",
+"options": [
+"8.10 g",
+"5.60 g",
+"4.05 g",
+"6.50 g"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Molar mass of ZnO = 65 + 16 = 81 g/mol, so moles of ZnO = 8.10/81 = 0.1 mol. Since ZnO gives 1 mole of Zn per mole of ZnO, mass of Zn = 0.1 x 65 = 6.5 g.",
+"pidgin": "Molar mass of ZnO na 65 + 16 = 81 g/mol, so moles of ZnO na 8.10/81 = 0.1 mol. Since one ZnO dey give one Zn, mass of Zn na 0.1 x 65 = 6.5 g.",
+"py": "(8.10/(65+16))*65",
+"values": [
+8.1,
+5.6,
+4.05,
+6.5
+],
+"id": "wche1304",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which metallic oxide below is amphoteric, meaning it can react with both acids and bases?",
+"options": [
+"Sodium oxide (Na2O)",
+"Aluminium oxide (Al2O3)",
+"Magnesium oxide (MgO)",
+"Copper(II) oxide (CuO)"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Aluminium oxide is amphoteric because it reacts with acids like HCl to form aluminium salts and also reacts with bases like NaOH to form aluminates. Na2O, MgO and CuO are basic oxides that react only with acids.",
+"pidgin": "Aluminium oxide na amphoteric oxide because e dey react with acid like HCl to form aluminium salt, e sef dey react with base like NaOH to form aluminate. Na2O, MgO and CuO na basic oxide wey dey only react with acid.",
+"py": null,
+"values": null,
+"id": "wche1305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

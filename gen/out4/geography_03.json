@@ -1,0 +1,163 @@
+{
+"subject": "geography",
+"topic": "Landforms: mountains, plateaus, plains and their formation",
+"ti": 3,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines a plateau as a landform?",
+"options": [
+"A large flat lowland area close to sea level",
+"An extensive area of relatively high land with a fairly flat top",
+"A narrow strip of land between two mountain ranges",
+"A steep-sided landform rising to a sharp peak"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A plateau is an elevated landform with a relatively flat top, distinguishing it from lowlands (plains) and pointed mountain peaks. It is usually higher than the surrounding land.",
+"pidgin": "Plateau na big area wey high well-well but e get flat top. E different from plain wey low, and e different from mountain peak wey sharp.",
+"py": null,
+"values": null,
+"id": "wgeo0300",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Fold mountains, such as the Atlas Mountains in North Africa, are mainly formed as a result of:",
+"options": [
+"the cooling and solidification of molten rock on the earth's surface",
+"the compression and buckling of rock layers due to collision of tectonic plates",
+"the gradual wearing away of soft rocks leaving hard rocks standing",
+"the deposition of sediments by rivers over a long period"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Fold mountains form when two tectonic plates collide and push against each other, causing rock layers to compress, buckle and fold upward. This is the main process that formed ranges like the Atlas and Alps.",
+"pidgin": "Fold mountain dey form when two tectonic plates knock each other, make the rock layers press together, bend and rise up. Na dis process form mountains like Atlas.",
+"py": null,
+"values": null,
+"id": "wgeo0301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Block mountains (horsts) are formed when:",
+"options": [
+"two parallel faults occur and the land between them is uplifted while the surrounding land subsides",
+"magma pushes up the earth's crust without breaking through the surface",
+"wind and water erode soft rock, leaving hard rock exposed",
+"volcanic ash and lava accumulate in layers over a long time"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Block mountains form through faulting, where two parallel faults develop and the block of land between them is pushed up (or the surrounding land sinks down), leaving a raised, flat-topped block with steep sides.",
+"pidgin": "Block mountain dey form through faulting - two parallel cracks (faults) go appear, and the land wey dey between dem go rise up (or the side land go sink), leave one raised block wit steep side.",
+"py": null,
+"values": null,
+"id": "wgeo0302",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The Jos Plateau in Nigeria is a good example of a landform mainly associated with:",
+"options": [
+"folding of sedimentary rock layers",
+"volcanic activity followed by erosion of the surrounding land",
+"deposition of river sediments over millions of years",
+"faulting that caused the land to subside sharply"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Jos Plateau was built up by ancient volcanic and igneous activity (the Younger Granite complex), and over time the softer surrounding lowlands were eroded away, leaving the plateau standing above them.",
+"pidgin": "Jos Plateau come from old volcanic and rock activity (Younger Granite), and as time dey go, erosion chop the softer land around am, leave the plateau standing high.",
+"py": null,
+"values": null,
+"id": "wgeo0303",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which statement correctly distinguishes a plain from a plateau?",
+"options": [
+"A plain has a flat top and steep sides while a plateau is always low-lying",
+"A plain is generally low-lying with gentle relief while a plateau is an elevated area with a relatively flat top",
+"A plain is formed only by volcanic activity while a plateau is formed only by erosion",
+"A plain is always found along the coast while a plateau is found only inland"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A plain is a low-lying stretch of land with gentle slopes, while a plateau is raised well above sea level but still has a flat surface on top. Both can be formed by different processes, so options about origin or location being fixed are wrong.",
+"pidgin": "Plain na low land wey no get plenty slope, but plateau na high land wey still get flat top. The two fit form different ways and no dey tied to only coast or only inland.",
+"py": null,
+"values": null,
+"id": "wgeo0304",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A geography teacher described a landform to her class: 'This landform appears as an isolated upland area that has survived long periods of weathering and erosion while the land around it was worn down to a much lower level.' This description best fits:",
+"options": [
+"a fold mountain",
+"a residual mountain",
+"a block mountain",
+"a volcanic mountain"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A residual mountain is left standing after long weathering and erosion have removed softer surrounding rocks, leaving harder, more resistant rock as an isolated upland. Fold, block and volcanic mountains are formed by folding, faulting or volcanic eruption, not by this kind of differential erosion.",
+"pidgin": "Residual mountain na the hard rock wey remain standing after erosion don chop the softer land wey dey surround am for many years. Fold, block and volcanic mountain no dey form like dat - dem come from folding, faulting or eruption.",
+"py": null,
+"values": null,
+"id": "wgeo0305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A certain plain along the lower course of the River Niger is formed mainly from silt, sand and clay deposited by the river whenever it overflows its banks during flooding. This type of plain is best classified as:",
+"options": [
+"a lava plain",
+"a peneplain",
+"a flood plain (alluvial plain)",
+"a structural plain"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A flood plain (also called an alluvial plain) is formed when a river deposits silt, sand and clay on its banks during floods. A lava plain comes from volcanic flows, a peneplain from long erosion of highlands, and a structural plain from the original rock layout, not river deposition.",
+"pidgin": "Flood plain (alluvial plain) na im dey form when river dey drop silt, sand and clay for the bank anytime e flood. Lava plain na from volcano, peneplain na from plenty erosion for high land, structural plain na from how the rock layers dey arrange - none of dem be river deposit like dis one.",
+"py": null,
+"values": null,
+"id": "wgeo0306",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

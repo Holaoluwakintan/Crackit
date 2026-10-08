@@ -1,0 +1,202 @@
+{
+"subject": "accounting",
+"topic": "Partnership accounts: appropriation, current accounts, goodwill and admission",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following documents normally contains the terms and conditions guiding the operations of a partnership business, including the profit-sharing ratio, capital contributions, and interest on capital or drawings agreed upon by the partners?",
+"options": [
+"Partnership deed",
+"Memorandum of association",
+"Trust deed",
+"Articles of association"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The partnership deed is the legal document that spells out the rules guiding a partnership, such as capital, profit sharing, salaries and interest. The other options relate to companies or trusts, not partnerships.",
+"pidgin": "Partnership deed na di paper wey carry all di rules wey go guide di partnership business, like how dem go share capital and profit. Di oda options na for companies or trust, dem no concern partnership.",
+"py": null,
+"values": null,
+"id": "accv1500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Chidi and Ngozi formed a partnership business but did not sign any written partnership agreement. According to the general rule guiding partnership accounts in the absence of a partnership agreement, how should profits and losses be shared between them?",
+"options": [
+"In the ratio of their capital contributions",
+"Equally",
+"According to the time each devoted to the business",
+"In the ratio of 2:1 in favour of the partner who contributed more capital"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Where there is no partnership agreement, the law assumes all partners share profits and losses equally, regardless of capital contributed or time spent working.",
+"pidgin": "If no partnership agreement dey, di law say make dem share profit and loss equally, no matter di capital wey each one bring or di time wey dem spend for di business.",
+"py": null,
+"values": null,
+"id": "accv1501",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Tunde and Bisi are partners in a business. Tunde contributed capital of ₦200,000 while Bisi contributed ₦150,000. Their agreement allows 10% per annum interest on capital before any sharing of profit. What is Bisi's interest on capital for the year?",
+"options": [
+"₦20,000",
+"₦5,000",
+"₦15,000",
+"₦35,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Interest on capital is calculated as capital x rate. For Bisi: ₦150,000 x 10/100 = ₦15,000.",
+"pidgin": "Interest on capital na capital multiply by rate. For Bisi: ₦150,000 x 10/100 = ₦15,000.",
+"py": "150000*0.10",
+"values": [
+20000,
+5000,
+15000,
+35000
+],
+"id": "accv1502",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "In the appropriation account of Musa and Hassan's partnership, net profit for the year was ₦120,000. Musa is entitled to an annual salary of ₦20,000, and total interest on capital for both partners amounted to ₦10,000. The remaining (residual) profit is shared equally between Musa and Hassan. What is Hassan's share of the residual profit?",
+"options": [
+"₦60,000",
+"₦90,000",
+"₦50,000",
+"₦45,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Residual profit = ₦120,000 - ₦20,000 (salary) - ₦10,000 (interest) = ₦90,000. Shared equally between the two partners gives Hassan ₦90,000/2 = ₦45,000.",
+"pidgin": "Di remaining profit be ₦120,000 - ₦20,000 (salary) - ₦10,000 (interest) = ₦90,000. Dem go share am equally, so Hassan go collect ₦90,000/2 = ₦45,000.",
+"py": "(120000-20000-10000)/2",
+"values": [
+60000,
+90000,
+50000,
+45000
+],
+"id": "accv1503",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "A partnership's net profits for the last three years were ₦40,000, ₦50,000 and ₦60,000 respectively. If goodwill is valued at two years' purchase of the average profit, what is the value of goodwill?",
+"options": [
+"₦100,000",
+"₦120,000",
+"₦150,000",
+"₦50,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Average profit = (40,000+50,000+60,000)/3 = ₦50,000. Goodwill at two years' purchase = 2 x 50,000 = ₦100,000.",
+"pidgin": "Average profit = (40,000+50,000+60,000)/3 = ₦50,000. Goodwill wey be two years purchase = 2 x 50,000 = ₦100,000.",
+"py": "2*(40000+50000+60000)/3",
+"values": [
+100000,
+120000,
+150000,
+50000
+],
+"id": "accv1504",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "At the beginning of the year, Funke's current account had a credit balance of ₦30,000. During the year, she was credited with interest on capital of ₦5,000 and a share of profit of ₦25,000, while she was debited with drawings of ₦15,000 and interest on drawings of ₦2,000. What is the closing balance on Funke's current account?",
+"options": [
+"₦38,000",
+"₦40,000",
+"₦43,000",
+"₦48,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Closing balance = Opening balance + credits - debits = 30,000 + 5,000 + 25,000 - 15,000 - 2,000 = ₦43,000. Current accounts record such day-to-day movements, unlike the fixed capital account.",
+"pidgin": "Closing balance = Opening balance + credit items - debit items = 30,000 + 5,000 + 25,000 - 15,000 - 2,000 = ₦43,000. Na current account dem dey use record all dis small-small movements, no be capital account.",
+"py": "30000+5000+25000-15000-2000",
+"values": [
+38000,
+40000,
+43000,
+48000
+],
+"id": "accv1506",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A partner withdrew a total of ₦60,000 from the business evenly throughout the year for personal use. The partnership charges interest on drawings at 5% per annum, calculated on the assumption that the drawings were spread evenly over the year (average period of 6 months). What is the interest on drawings?",
+"options": [
+"₦3,000",
+"₦6,000",
+"₦600",
+"₦1,500"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Since drawings were spread evenly, the average period used is 6 months. Interest = ₦60,000 x 5/100 x 6/12 = ₦1,500.",
+"pidgin": "Since dem spread di drawings evenly, dem go use average period of 6 months. Interest = ₦60,000 x 5/100 x 6/12 = ₦1,500.",
+"py": "60000*0.05*6/12",
+"values": [
+3000,
+6000,
+600,
+1500
+],
+"id": "accv1507",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "When a new partner is admitted into a partnership and pays a cash premium for goodwill directly to the old partners, this premium is usually shared among the existing (old) partners in their:",
+"options": [
+"new profit-sharing ratio",
+"sacrificing ratio",
+"capital ratio",
+"old profit-sharing ratio before any adjustment for the admission"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The sacrificing ratio shows how much of their old profit share each old partner gives up to accommodate the new partner, so the goodwill premium is shared in this ratio, not simply the old ratio before adjustment.",
+"pidgin": "Sacrificing ratio na how much each old partner sacrifice from dia old profit share make dem fit carry di new partner come in, na im dem go use share di goodwill money, no be di plain old ratio.",
+"py": null,
+"values": null,
+"id": "accv1505",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:|Sacrificing ratio is strictly correct, but many Nigerian texts teach the old ratio, so D is also defensible (same ratio when sacrifice is proportional)."
+}
+]
+}

@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Pollution, conservation and natural resources",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following is classified as a renewable natural resource?",
+"options": [
+"Crude oil",
+"Coal",
+"Solar energy",
+"Natural gas"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Renewable resources are those that can be replaced naturally within a short time or do not get used up, like sunlight. Crude oil, coal and natural gas are fossil fuels that take millions of years to form, so they are non-renewable.",
+"pidgin": "Renewable resource na di one wey fit replace sharp-sharp or no dey finish, like sunlight. Crude oil, coal and natural gas na fossil fuel wey take plenty-plenty years to form, so dem be non-renewable.",
+"id": "biov1600",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "The intensity of noise pollution from generators, traffic and factories is usually measured in which unit?",
+"options": [
+"Decibel",
+"Candela",
+"Hertz",
+"Joule"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Decibel (dB) is the standard unit for measuring the loudness or intensity of sound, which is used to assess noise pollution levels. Candela measures light intensity, Hertz measures frequency, and Joule measures energy.",
+"pidgin": "Decibel (dB) na di unit wey dem dey use measure how loud sound be, and na im dem dey use check noise pollution. Candela na for light, Hertz na for frequency, Joule na for energy.",
+"id": "biov1601",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A fisherman along the Bonny River in the Niger Delta notices that after a crude oil spill, a thick oily film spreads over the water surface and many fish in the area die shortly after, even though they did not swallow the oil. What is the most likely reason for the death of these fish?",
+"options": [
+"The oil film raised the salt concentration of the river water",
+"The oil film blocked sunlight needed by fish for photosynthesis",
+"The oil film prevented oxygen from dissolving into the water, causing suffocation",
+"The oil film increased the water temperature until the fish were boiled"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Crude oil floats and forms a film that stops oxygen from the air from mixing into the water, so dissolved oxygen levels drop and fish suffocate. Fish do not photosynthesise, and the oil does not significantly raise salinity or boil the water.",
+"pidgin": "Crude oil dey float and e dey form film wey no gree oxygen from air enter di water, so di oxygen wey dey water go reduce and fish go suffocate. Fish no dey do photosynthesis, and di oil no dey raise salt level or boil di water reach dat level.",
+"id": "biov1602",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A pond near a farm receives runoff rich in nitrate fertilizer after heavy rain. Within weeks, a thick green layer of algae covers the pond surface. A month later, most of the algae die, and shortly after, a large number of fish in the pond also die, even though no new pollutant entered the pond. What best explains the death of the fish?",
+"options": [
+"The fertilizer directly poisoned the fish gills",
+"The dead algae were decomposed by bacteria that used up the dissolved oxygen in the water",
+"The algae released toxic gas that suffocated the fish instantly",
+"The excess nitrate turned the pond water acidic enough to kill the fish"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "This process is eutrophication: fertilizer causes algae to overgrow, blocking light to deeper plants; when the algae die, decomposer bacteria multiply and use up dissolved oxygen (high BOD), leading to oxygen depletion that suffocates fish. The fish death is due to low oxygen, not direct poisoning by the fertilizer itself.",
+"pidgin": "Dis na eutrophication: fertilizer make algae grow too much, e block light reach other plants wey dey inside water; when di algae die, bacteria wey dey break dem down go use up di oxygen for water (high BOD), and di low oxygen na im kill di fish. E no be say fertilizer poison di fish gills direct.",
+"id": "biov1603",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

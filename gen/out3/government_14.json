@@ -1,0 +1,80 @@
+{
+"subject": "government",
+"topic": "Military rule in Nigeria",
+"generated": 4,
+"kept": [
+{
+"q": "Who became Nigeria's first military Head of State, following the coup d'etat of January 1966?",
+"options": [
+"Yakubu Gowon",
+"Johnson Aguiyi-Ironsi",
+"Murtala Mohammed",
+"Sani Abacha"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "After the January 1966 coup, Major-General Johnson Aguiyi-Ironsi took over as Head of State, making him Nigeria's first military ruler. Gowon took over later that same year after a counter-coup.",
+"pidgin": "After di January 1966 coup, Major-General Johnson Aguiyi-Ironsi take over as Head of State, so na him be di first military ruler for Nigeria. Gowon come take over later dat same year afta counter-coup.",
+"id": "govv1400",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Under military administrations in Nigeria, the body that served as the highest policy-making organ, usually made up of the Head of State and senior military officers, was called the:",
+"options": [
+"Federal Executive Council",
+"Council of State",
+"National Council of Ministers",
+"Supreme Military Council"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The Supreme Military Council (sometimes renamed Armed Forces Ruling Council) was the apex body under military rule, where major policies and decrees were decided. The Federal Executive Council handled day-to-day administration but was subordinate to it.",
+"pidgin": "Di Supreme Military Council (later dem call am Armed Forces Ruling Council) na di highest body under military rule, na dem dey decide big policies and decrees. Federal Executive Council dey handle normal wahala but dem dey under di Supreme Military Council.",
+"id": "govv1401",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A major criticism of military rule in Nigeria, from the perspective of federalism, is that it tended to:",
+"options": [
+"grant more legislative powers to state houses of assembly",
+"increase the number of political parties operating in the states",
+"concentrate power at the centre because of the military's hierarchical command structure",
+"restore full legislative autonomy to traditional rulers"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The military operates on a chain of command from the Head of State downward, so this same style was carried into governance, pulling power away from the states to the centre. This weakened true federalism, which requires shared and balanced powers between federal and state levels.",
+"pidgin": "Military dey work like chain of command, from Head of State to everybody under am, so dem bring dis same style enter governance, and e pull power comot from states go centre. Dis one weak true federalism wey suppose share power well-well between federal and state.",
+"id": "govv1402",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "During military rule in Nigeria, decrees issued by the Head of State typically had which of the following effects on existing laws?",
+"options": [
+"They could override the constitution and any existing law that was inconsistent with them",
+"They required approval by the Senate before they could take effect",
+"They could only amend state laws but never federal laws",
+"They had no binding legal effect until confirmed by the Supreme Court"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Military decrees were given supremacy over the constitution and ordinary laws, often including clauses that barred the courts (ouster clauses) from questioning them. This made decrees the main legal tool of military rule.",
+"pidgin": "Military decrees dey pass constitution and normal laws, and many times dem dey put clause wey block court from questioning dem (ouster clause). Na so decree come be di main legal tool wey military government dey use rule.",
+"id": "govv1403",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,149 @@
+{
+"subject": "civic",
+"topic": "Values: honesty, integrity, contentment, discipline and cooperation",
+"ti": 0,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following statements best defines honesty as a civic value?",
+"options": [
+"Being truthful and free from fraud or deception in one's dealings",
+"Strictly obeying all school rules without question",
+"Working together with others to achieve a common goal",
+"Being satisfied with one's present condition in life"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Honesty means being truthful, sincere, and free from deceit or fraud when dealing with people. It is about saying and doing what is true and right.",
+"pidgin": "Honesty na to dey tell true and no gree cheat person for any dealing wey you get with am. Na truth and sincerity dem dey talk about here.",
+"id": "wciv0000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these best describes discipline as a value?",
+"options": [
+"Sharing your resources with people around you",
+"Training oneself to obey rules and control one's conduct",
+"Being content with little resources",
+"Refusing to accept bribe from anybody"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Discipline is the act of training oneself to follow rules, control one's behaviour, and act in an orderly manner at all times. The other options describe cooperation, contentment and honesty respectively.",
+"pidgin": "Discipline na when person train imself make e dey follow rule and control imself well well. The other options na for cooperation, contentment and honesty.",
+"id": "wciv0001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Tunde is the treasurer of his class association. Although he has access to the association's funds, he keeps accurate records, refuses to divert any money for personal use, and conducts himself the same way whether people are watching him or not. Tunde's behaviour best illustrates which value?",
+"options": [
+"Cooperation",
+"Contentment",
+"Integrity",
+"Discipline"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Integrity means remaining consistently honest and upright in character, even when no one is supervising. Tunde's unwavering good conduct with the funds, with or without supervision, shows integrity.",
+"pidgin": "Integrity na when person still dey do correct correct thing even as nobody dey watch am. Na so Tunde take manage the class money well.",
+"id": "wciv0002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Bello earns a modest salary as a primary school teacher. Instead of complaining or envying her wealthier neighbours, she manages her income wisely and expresses gratitude for what she has. This attitude best demonstrates which value?",
+"options": [
+"Discipline",
+"Cooperation",
+"Honesty",
+"Contentment"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Contentment means being satisfied with what one has instead of being envious of other people's possessions. Mrs. Bello's gratitude and acceptance of her situation clearly show contentment.",
+"pidgin": "Contentment na when person satisfy with wetin e get, no dey envy another person property. Na so Mrs Bello dey manage im life.",
+"id": "wciv0003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During a community sanitation exercise in Ikorodu, residents from different streets combined their efforts, shared tools, and worked together to clear the drainage channels before the rainy season. This action best demonstrates which value?",
+"options": [
+"Cooperation",
+"Integrity",
+"Contentment",
+"Discipline"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Cooperation means working together with others towards achieving a common goal. The residents combining their efforts and tools to clear the drainages is a clear example of cooperation.",
+"pidgin": "Cooperation na when people come together to work as one for better result. Na so the Ikorodu people take clean their gutters together.",
+"id": "wciv0004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Okafor supervises a road construction project. He personally checks the quality of materials used daily, reports any substandard work to his superiors, and ensures the job meets the required standard even while his supervisor is away on leave and cannot monitor him. Which combination of values is Mr. Okafor MOST demonstrating?",
+"options": [
+"Contentment and cooperation",
+"Integrity and discipline",
+"Honesty and cooperation",
+"Discipline and contentment"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Mr. Okafor shows discipline by maintaining standards without being supervised, and integrity by doing what is right consistently even when no one is watching. Both values together best explain his conduct.",
+"pidgin": "Mr Okafor dey show discipline because e dey follow standard even without supervisor, and integrity because e dey do correct thing anytime anytime. Na these two values explain am well.",
+"id": "wciv0005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A group of market women agreed to contribute money weekly into a cooperative society to support members financially. However, one member, Iya Kemi, consistently refuses to pay her contribution but still expects support whenever she is in need. Which value is Iya Kemi LACKING that is most central to the success of the cooperative society?",
+"options": [
+"Contentment",
+"Honesty",
+"Cooperation",
+"Discipline"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Cooperation requires every member of a group to play their own part for the common good. Iya Kemi's refusal to contribute while still expecting benefits shows a lack of cooperation, which threatens the survival of the society.",
+"pidgin": "Cooperation mean say everybody must do their own part make the group work well. Iya Kemi no dey contribute money but e wan chop benefit, so e no get cooperation.",
+"id": "wciv0006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,147 @@
+{
+"subject": "chemistry",
+"topic": "Separation techniques and purity",
+"ti": 16,
+"generated": 6,
+"kept": [
+{
+"q": "Common salt dissolves completely in water to form a clear solution. Which separation technique will a chemist use to recover pure water from this salt solution?",
+"options": [
+"Filtration",
+"Decantation",
+"Simple distillation",
+"Sublimation"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Salt does not evaporate with water, so when the solution is heated, the water vapour can be collected and condensed as pure water, leaving the salt behind. This process is called simple distillation.",
+"pidgin": "Salt no dey evaporate with water, so if you heat the solution, water go turn vapour wey you fit condense collect as pure water, salt go remain. Na simple distillation be dat.",
+"py": null,
+"values": null,
+"id": "wche1600",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A laboratory technician in Kano has a mixture of iron filings and sulphur powder that must be separated without using any liquid or heat. Which method is most suitable?",
+"options": [
+"Use a magnet to attract the iron filings",
+"Filter the mixture through filter paper",
+"Dissolve in water and decant",
+"Heat the mixture until it melts"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Iron is magnetic while sulphur is not, so a magnet can pull out the iron filings and leave the sulphur powder behind. This is a quick, dry method that needs no heat or liquid.",
+"pidgin": "Iron get magnetic property but sulphur no get am, so magnet go fish out the iron filings leave the sulphur. Na dry method wey no need heat or liquid.",
+"py": null,
+"values": null,
+"id": "wche1601",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Pure benzoic acid melts sharply at 122°C. A student tests a sample of benzoic acid bought from a market in Onitsha and finds that it melts gradually between 114°C and 118°C. What does this show about the sample?",
+"options": [
+"The sample is purer than the standard benzoic acid",
+"The sample has the same purity as pure benzoic acid",
+"Melting point cannot be used to test purity in this case",
+"The sample is impure because it melts over a range and below the true melting point"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A pure substance melts sharply at a fixed, known temperature. Since this sample melts over a range and at a lower temperature than the known value for pure benzoic acid, it means impurities are present, which both lower and widen the melting point range.",
+"pidgin": "Pure substance dey melt sharp sharp for one fixed temperature. Since dis sample melt small small for range wey dey lower pass the correct value, e mean say impurity dey inside, wey dey reduce and widen the melting range.",
+"py": null,
+"values": null,
+"id": "wche1602",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a paper chromatography experiment carried out by a student to separate the dyes in a sample of ink, the solvent front travelled 9.0 cm from the starting line, while a particular dye spot travelled 3.6 cm from the same starting line. What is the Rf value of this dye?",
+"options": [
+"0.6",
+"0.4",
+"2.5",
+"0.25"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Rf value is calculated as distance moved by the solute divided by distance moved by the solvent. Rf = 3.6 cm / 9.0 cm = 0.4. This value has no unit because it is a ratio.",
+"pidgin": "Rf value na distance wey the solute waka divide by distance wey solvent waka. Rf = 3.6 cm / 9.0 cm = 0.4. E no get unit because na ratio.",
+"py": "3.6/9.0",
+"values": [
+0.6,
+0.4,
+2.5,
+0.25
+],
+"id": "wche1603",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A mixture of ethanol (boiling point 78°C) and water (boiling point 100°C) is heated slowly using a fractionating column set up correctly for fractional distillation. Which statement correctly describes what happens as the mixture is heated?",
+"options": [
+"Water vapour rises first and is collected before the ethanol vapour",
+"Both liquids boil off together as one vapour with no separation",
+"Ethanol vapour rises first through the column and is collected first because it has the lower boiling point",
+"The fractionating column has no effect on the order of separation"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In fractional distillation, the liquid with the lower boiling point vaporises first and rises through the fractionating column to be collected first. Since ethanol boils at 78°C, which is lower than water's 100°C, ethanol vapour comes over first, while the column helps improve the separation by allowing repeated condensation and vaporisation.",
+"pidgin": "For fractional distillation, the liquid wey get lower boiling point go turn vapour first pass through the column come dey collected first. Ethanol dey boil for 78°C wey dey lower pass water own 100°C, so ethanol go comot first, the column dey help make the separation sharp well well.",
+"py": null,
+"values": null,
+"id": "wche1604",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student performed paper chromatography on an unknown food dye and found that the dye spot moved 4.5 cm while the solvent front moved 6.0 cm from the baseline. A reference chart gives the following standard Rf values: Dye A = 0.75, Dye B = 0.60, Dye C = 0.45, Dye D = 0.30. Which dye is most likely present in the unknown sample?",
+"options": [
+"Dye A",
+"Dye B",
+"Dye C",
+"Dye D"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "First calculate the Rf value of the unknown spot: Rf = 4.5 cm / 6.0 cm = 0.75. Comparing this with the reference chart, 0.75 matches Dye A, so Dye A is most likely present.",
+"pidgin": "First calculate the Rf value: Rf = 4.5 cm / 6.0 cm = 0.75. If you compare am with the chart, 0.75 match Dye A, so na Dye A dey the sample.",
+"py": null,
+"values": null,
+"id": "wche1605",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,176 @@
+{
+"subject": "physics",
+"topic": "Gas laws",
+"ti": 12,
+"generated": 6,
+"kept": [
+{
+"q": "A fixed mass of gas occupies 400 cm^3 at a pressure of 100 kPa. If the temperature is kept constant and the pressure is increased to 200 kPa, what is the new volume of the gas?",
+"options": [
+"400 cm^3",
+"200 cm^3",
+"800 cm^3",
+"100 cm^3"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "By Boyle's law, P1V1 = P2V2 at constant temperature. So 100 x 400 = 200 x V2, giving V2 = 200 cm^3. The volume reduces because pressure has doubled.",
+"pidgin": "Boyle law talk say P1V1 = P2V2 if temperature no change. So 100 x 400 = 200 x V2, V2 go be 200 cm^3. Volume reduce because pressure don double.",
+"py": "100*400/200",
+"values": [
+400,
+200,
+800,
+100
+],
+"id": "wphy1200",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A balloon contains gas with a volume of 300 cm^3 at a temperature of 27°C. If the pressure is kept constant and the temperature is raised to 127°C, what is the new volume of the gas?",
+"options": [
+"300 cm^3",
+"225 cm^3",
+"400 cm^3",
+"500 cm^3"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Convert to Kelvin: T1 = 27+273 = 300K, T2 = 127+273 = 400K. By Charles' law, V1/T1 = V2/T2, so V2 = 300 x 400/300 = 400 cm^3.",
+"pidgin": "Change the temperature go Kelvin: T1 = 300K, T2 = 400K. Charles law say V1/T1 = V2/T2, so V2 = 300 x 400/300 = 400 cm^3.",
+"py": "300*400/300",
+"values": [
+300,
+225,
+400,
+500
+],
+"id": "wphy1201",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A sealed gas cylinder has a pressure of 2 atm at a temperature of 300K. If the volume is kept constant and the temperature rises to 450K, what will the new pressure be?",
+"options": [
+"3 atm",
+"2 atm",
+"1.5 atm",
+"4.5 atm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "By the pressure law (Gay-Lussac's law), P1/T1 = P2/T2 at constant volume. So P2 = 2 x 450/300 = 3 atm. Pressure rises because the gas molecules move faster and hit the walls harder.",
+"pidgin": "Pressure law (Gay-Lussac law) talk say P1/T1 = P2/T2 if volume no change. P2 = 2 x 450/300 = 3 atm. Pressure rise because the molecules dey move fast well well and dey hit the wall hard.",
+"py": "2*450/300",
+"values": [
+3,
+2,
+1.5,
+4.5
+],
+"id": "wphy1202",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A fixed mass of gas has a volume of 600 cm^3 at a pressure of 150 kPa and a temperature of 300K. If the pressure changes to 100 kPa and the temperature changes to 350K, what is the new volume of the gas?",
+"options": [
+"900 cm^3",
+"700 cm^3",
+"1200 cm^3",
+"1050 cm^3"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Using the combined gas law, P1V1/T1 = P2V2/T2. So V2 = (P1 x V1 x T2)/(T1 x P2) = (150 x 600 x 350)/(300 x 100) = 1050 cm^3.",
+"pidgin": "Use the combined gas law: P1V1/T1 = P2V2/T2. V2 = (150 x 600 x 350)/(300 x 100) = 1050 cm^3.",
+"py": "150*600*350/(300*100)",
+"values": [
+900,
+700,
+1200,
+1050
+],
+"id": "wphy1203",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "According to the kinetic theory of gases, why does the pressure of a fixed mass of gas in a closed, rigid container increase when the gas is heated?",
+"options": [
+"The molecules move slower and collide with the walls less often",
+"The molecules move faster, hit the walls more often and with greater force",
+"The molecules increase in size as they absorb heat",
+"The number of gas molecules in the container increases"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Heating a gas increases the average kinetic energy of its molecules, making them move faster. Faster molecules collide with the container walls more frequently and with greater force, which increases the pressure.",
+"pidgin": "If you heat gas, e go increase the kinetic energy of the molecules make dem move fast. The fast molecules go dey hit the wall more times and with more force, so pressure go increase.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wphy1204",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A fixed mass of gas has a volume of 250 cm^3 at a temperature of 17°C. If the pressure is kept constant, at what temperature (in °C) will the volume become 500 cm^3?",
+"options": [
+"34°C",
+"580°C",
+"307°C",
+"273°C"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "First convert 17°C to Kelvin: T1 = 17+273 = 290K. By Charles' law, V1/T1 = V2/T2, so T2 = 500 x 290/250 = 580K. Converting back to Celsius: 580 - 273 = 307°C.",
+"pidgin": "First change 17°C go Kelvin: T1 = 290K. Charles law: V1/T1 = V2/T2, so T2 = 500 x 290/250 = 580K. Change am back to Celsius: 580 - 273 = 307°C.",
+"py": "(500*290/250)-273",
+"values": [
+34,
+580,
+307,
+273
+],
+"id": "wphy1205",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

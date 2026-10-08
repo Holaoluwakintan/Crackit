@@ -1,0 +1,84 @@
+{
+"subject": "biology",
+"topic": "Nutrition in animals: food classes, digestion and enzymes",
+"generated": 4,
+"kept": [
+{
+"q": "A JAMB candidate is asked to test a small sample of cooked yam for the presence of starch during a school practical. Which reagent should be added directly to the yam sample, and what colour change indicates a positive result?",
+"options": [
+"Iodine solution; blue-black colouration",
+"Benedict's solution; brick-red precipitate",
+"Biuret reagent; violet colouration",
+"Sudan III solution; red droplets"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Iodine solution is used to test for starch. When iodine (which is brown-yellow) reacts with starch, it turns blue-black. The other reagents test for reducing sugars, proteins and fats respectively, not starch.",
+"pidgin": "Iodine solution na im dem dey use test for starch. If iodine (wey be brown-yellow) touch starch, e go turn blue-black. Di oda reagents dey test for sugar, protein and fat, no be starch.",
+"id": "biov0400",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Tunde set up two test tubes, each containing egg albumen (a protein) mixed with pepsin solution, and kept both at 37°C. Tube X was adjusted to pH 2 while Tube Y was adjusted to pH 9. After 30 minutes, which tube showed significant protein digestion, and why?",
+"options": [
+"Tube Y, because pepsin works best in alkaline conditions",
+"Tube X, because pepsin's active site fits the substrate best in an acidic environment",
+"Both tubes equally, because temperature alone controls enzyme activity, not pH",
+"Neither tube, because pepsin can only act on carbohydrates"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Pepsin is a stomach enzyme that works best in a strongly acidic medium (around pH 2). At this pH, the enzyme's active site keeps its shape and fits the protein substrate properly, allowing digestion to occur. At pH 9, pepsin denatures and cannot function.",
+"pidgin": "Pepsin na enzyme wey dey work well for acidic area like pH 2, wey be di kind environment for stomach. For dat pH, di enzyme active site go fit di protein well well, so e go digest am. For pH 9, pepsin go spoil (denature) and e no go work again.",
+"id": "biov0401",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A patient has a blockage in the bile duct, so bile cannot reach the duodenum, although pancreatic and intestinal enzymes are secreted normally. Which observation would most likely occur as a result of this condition?",
+"options": [
+"Complete failure to digest proteins and carbohydrates, leading to severe malnutrition",
+"Excess digestion of fats because lipase activity becomes unregulated",
+"Poor digestion and absorption of fats, resulting in fatty, pale stools",
+"Increased secretion of pepsin to compensate for the lack of bile"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Bile does not contain digestive enzymes; its job is to emulsify fats into tiny droplets so lipase can act on them more effectively. Without bile, fats remain in large globules, lipase works poorly, and much undigested fat passes out in the faeces, making stools pale and fatty. Protein and carbohydrate digestion are not directly affected since trypsin and amylase still work normally.",
+"pidgin": "Bile no get enzyme inside; e just dey break fat into small small droplets make lipase fit work well. If bile no dey, fat go stay as big lumps, lipase no go work well, and plenty fat go waka comot as poo-poo, make di stool pale and get plenty fat. Protein and carbohydrate digestion no go spoil because trypsin and amylase still dey work well.",
+"id": "biov0403",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which combination correctly describes the digestive role of the pancreas in humans?",
+"options": [
+"It secretes bile and stores it before releasing it into the duodenum",
+"It produces hydrochloric acid that activates pepsinogen in the stomach",
+"It absorbs digested nutrients directly into the hepatic portal vein",
+"It secretes amylase, trypsin and lipase into the duodenum to digest carbohydrates, proteins and fats respectively"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The pancreas is a gland that releases pancreatic juice containing amylase, trypsin and lipase into the duodenum, acting on carbohydrates, proteins and fats in turn. Bile is made by the liver (not the pancreas), hydrochloric acid is made by the stomach, and nutrient absorption happens in the small intestine wall, not the pancreas.",
+"pidgin": "Pancreas na gland wey dey release juice wey get amylase, trypsin and lipase enter duodenum, to digest carbohydrate, protein and fat. Na liver dey make bile, na stomach dey make acid, and na small intestine waiti dey absorb nutrient, no be pancreas.",
+"id": "biov0402",
+"check": {
+"s1": "X",
+"s2": "D"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

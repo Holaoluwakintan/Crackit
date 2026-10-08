@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Nutrient cycles (carbon, nitrogen, water) and ecological factors",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following processes describes the loss of water vapour from the stomata of plant leaves into the atmosphere as part of the water cycle?",
+"options": [
+"Guttation",
+"Transpiration",
+"Translocation",
+"Respiration"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Transpiration is the loss of water vapour from leaf stomata into the air. It helps return water from plants back into the atmosphere, completing part of the water cycle. Guttation is loss of liquid water from leaf tips, not vapour.",
+"pidgin": "Transpiration na when water vapour dey comot from plant leaf stomata go air. E dey help return water from plant go atmosphere as part of water cycle. Guttation na liquid water wey dey comot for leaf tip, e no be vapour.",
+"id": "biov1400",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Farmer Musa grows cowpea (beans) on his farm in Kano and notices small swellings (nodules) on the roots. These nodules contain bacteria that fix atmospheric nitrogen into a form the plant can use. Which bacterium is most likely responsible for this symbiotic nitrogen fixation?",
+"options": [
+"Nitrosomonas",
+"Nitrobacter",
+"Rhizobium",
+"Azotobacter"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Rhizobium bacteria live inside root nodules of leguminous plants like cowpea in a mutualistic relationship, converting atmospheric nitrogen gas into ammonia the plant can use. Nitrosomonas and Nitrobacter act freely in soil during nitrification, not inside nodules. Azotobacter is free-living, not symbiotic.",
+"pidgin": "Rhizobium bacteria dey live inside root nodule of beans plant, dem dey turn air nitrogen to ammonia wey plant fit use, na mutual relationship. Nitrosomonas and Nitrobacter dey work for soil during nitrification, dem no dey inside nodule. Azotobacter dey free for soil, e no be symbiotic one.",
+"id": "biov1401",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A student sets up an aquarium containing elodea (an aquatic plant) and small fish, placed near a window. During sunny afternoons, bubbles of gas are seen forming on the plant leaves, but at night no bubbles form and the water becomes slightly more acidic. Which gas builds up in the water at night, and why does this happen?",
+"options": [
+"Oxygen, because respiration stops completely at night",
+"Nitrogen, because nitrogen fixation only occurs in daylight",
+"Methane, because decomposer activity increases sharply at night",
+"Carbon(IV) oxide, because respiration continues but photosynthesis stops"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "At night, plants and fish still respire, releasing carbon(IV) oxide, but photosynthesis (which uses up CO2 and releases oxygen bubbles) stops without light. This causes CO2 to accumulate, forming carbonic acid and making the water slightly acidic. During the day, photosynthesis exceeds respiration, so oxygen bubbles are seen instead.",
+"pidgin": "For night, plant and fish still dey respire, dem dey release carbon(IV) oxide, but photosynthesis (wey dey use up CO2 and release oxygen bubble) no fit happen without light. So CO2 go dey build up, e go form carbonic acid wey make water small acidic. For daytime, photosynthesis pass respiration, na why we dey see oxygen bubble instead.",
+"id": "biov1402",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "On a cassava farm in Delta State, soil tests show that nitrogen, potassium, and water are all present in sufficient amounts, but phosphorus is very scarce. Despite good rainfall and sunlight, the cassava yield remains poor. Which ecological principle best explains why phosphorus, even though needed in a small quantity, is controlling the crop yield?",
+"options": [
+"Law of the minimum",
+"Law of tolerance",
+"Competitive exclusion principle",
+"Law of conservation of energy"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Law of the Minimum states that growth is controlled not by the total resources available but by the scarcest resource (the limiting factor), even if it is needed in small amounts. Here, phosphorus is scarce, so it limits cassava yield despite other factors being sufficient. The law of tolerance is about a range of conditions an organism can survive, not scarcity of one nutrient.",
+"pidgin": "Law of the Minimum dey tell us say growth no dey depend on all the resources wey dey available, but on di one wey scarce pass (limiting factor), even if na small quantity dem need am. For dis case, phosphorus scarce, so e dey limit cassava yield even though other factors dey enough. Law of tolerance na about range of condition organism fit survive, e no concern say nutrient scarce.",
+"id": "biov1403",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

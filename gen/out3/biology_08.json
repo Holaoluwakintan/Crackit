@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Support and movement: skeleton, joints, muscles, plant support tissues",
+"generated": 4,
+"kept": [
+{
+"q": "Which bone in the human skull is the only bone that can move freely, allowing actions such as chewing and talking?",
+"options": [
+"Mandible",
+"Maxilla",
+"Zygomatic bone",
+"Temporal bone"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The mandible (lower jaw bone) is attached to the skull by a movable joint, unlike the maxilla and other skull bones which are fixed by sutures. This movement allows biting, chewing and speaking.",
+"pidgin": "Na mandible (the lower jaw bone) be the only bone wey fit move for the skull. Maxilla and the other bones dem dey fix tight with suture, but mandible dey hinge so e fit move when person dey chop or talk.",
+"id": "biov0800",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the human arm, when the biceps muscle contracts to bend (flex) the elbow, the triceps muscle relaxes; when the triceps contracts to straighten the elbow, the biceps relaxes. What term describes this type of muscle pairing?",
+"options": [
+"Antagonistic muscles",
+"Synergistic muscles",
+"Fixator muscles",
+"Involuntary muscles"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Antagonistic muscles are pairs that work opposite to each other; when one contracts, the other relaxes, producing movement in two directions at a joint. The biceps and triceps are a classic antagonistic pair at the elbow.",
+"pidgin": "Antagonistic muscles na muscle pairs wey dey work against each other - when one contract, the other one relax. Biceps and triceps na better example for elbow joint.",
+"id": "biov0801",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "An earthworm moves through soil by alternately contracting its circular and longitudinal muscles against the fluid in its fluid-filled body cavity, without having any hard bones. Which type of skeleton is this?",
+"options": [
+"Hydrostatic skeleton",
+"Exoskeleton",
+"Endoskeleton",
+"Cartilaginous skeleton"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A hydrostatic skeleton uses fluid under pressure inside a body cavity, pushed against by muscles, to give shape and support movement, as seen in earthworms. Insects have exoskeletons and vertebrates like fish have endoskeletons made of bone or cartilage.",
+"pidgin": "Hydrostatic skeleton na when liquid wey dey inside the body cavity dey press against muscle make the animal get shape and fit move, like how earthworm dey do am. Insect get exoskeleton, while fish and other vertebrate get endoskeleton wey get bone or cartilage.",
+"id": "biov0802",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "When a student lifts a bag of books with the forearm, the elbow joint acts as the pivot (fulcrum), the biceps muscle (which supplies the effort) is attached close to the elbow, and the bag (the load) is held far away in the hand. Based on the arrangement of fulcrum, effort and load, which class of lever does the forearm represent in this action?",
+"options": [
+"First class lever",
+"Second class lever",
+"Third class lever",
+"Compound lever"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In a third class lever, the effort lies between the fulcrum and the load, which matches the forearm: fulcrum at the elbow, biceps (effort) close to the elbow, and load (bag) far out in the hand. First class levers have the fulcrum in the middle, while second class levers have the load between the fulcrum and effort.",
+"pidgin": "Third class lever na when the effort dey between the fulcrum and the load - this match forearm well well: elbow na fulcrum, biceps (effort) close to elbow, load (bag) dey far for hand. First class get fulcrum for middle, second class get load for middle, but third class get effort for middle.",
+"id": "biov0803",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

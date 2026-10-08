@@ -1,0 +1,173 @@
+{
+"subject": "crs",
+"topic": "Creation and the fall of man",
+"ti": 0,
+"generated": 8,
+"kept": [
+{
+"q": "According to the creation account in Genesis, on which day did God make the sun, moon and stars?",
+"options": [
+"Third day",
+"Fourth day",
+"Fifth day",
+"Sixth day"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Genesis 1:14-19 says God made the sun, moon and stars on the fourth day to rule the day and night. This was after He had already made light and separated the waters.",
+"pidgin": "Genesis 1:14-19 talk say na on the fourth day God create sun, moon and stars make dem rule day and night. E don already create light before then.",
+"id": "wcrs0000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the Genesis account, what did God use to form the first man, Adam?",
+"options": [
+"Clay from a potter's wheel",
+"Dust of the ground",
+"Water from the river in Eden",
+"Rib of an animal"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Genesis 2:7 states that God formed man from the dust of the ground and breathed into him the breath of life, making him a living being.",
+"pidgin": "Genesis 2:7 talk say God mold man from dust of ground, then e blow breath of life enter am make man become living person.",
+"id": "wcrs0001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What did God do on the seventh day after completing the work of creation?",
+"options": [
+"He created more animals",
+"He rested from all His work",
+"He planted the garden of Eden",
+"He formed Eve from Adam's rib"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Genesis 2:2-3 records that God rested on the seventh day from all the work He had done, and He blessed and sanctified that day.",
+"pidgin": "Genesis 2:2-3 show say God rest on the seventh day comot from all the work wey e do, and e bless and set that day apart.",
+"id": "wcrs0002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From which part of Adam's body did God form Eve, according to Genesis?",
+"options": [
+"His hand",
+"His foot",
+"His rib",
+"His head"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Genesis 2:21-22 tells how God caused Adam to fall into a deep sleep, took one of his ribs, and made it into a woman, Eve.",
+"pidgin": "Genesis 2:21-22 explain say God make Adam sleep well well, comot one rib from am, then use the rib form woman wey be Eve.",
+"id": "wcrs0003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What name did God give to the tree whose fruit He forbade Adam and Eve to eat in the garden?",
+"options": [
+"Tree of Life",
+"Tree of Knowledge of Good and Evil",
+"Tree of Eden",
+"Tree of Wisdom"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Genesis 2:16-17 shows that God allowed Adam to eat from every tree except the Tree of Knowledge of Good and Evil, warning he would die if he ate from it.",
+"pidgin": "Genesis 2:16-17 show say God allow Adam chop from every tree, but e warn am make e no touch Tree of Knowledge of Good and Evil, if not e go die.",
+"id": "wcrs0004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Immediately after Adam and Eve ate the forbidden fruit, what did they do out of shame before God confronted them?",
+"options": [
+"They ran away from the garden completely",
+"They sewed fig leaves together to cover themselves",
+"They built an altar to offer sacrifice",
+"They confessed their sin openly to God"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Genesis 3:7 says that as soon as their eyes were opened, Adam and Eve realised they were naked and sewed fig leaves together to make coverings for themselves.",
+"pidgin": "Genesis 3:7 talk say as their eye open, Adam and Eve realise say dem naked, so dem sew fig leaves together cover demselves.",
+"id": "wcrs0005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which river is named in Genesis as one of the four rivers that branched out from the river flowing through the garden of Eden?",
+"options": [
+"River Jordan",
+"River Nile",
+"River Euphrates",
+"River Niger"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Genesis 2:10-14 lists Pishon, Gihon, Hiddekel (Tigris) and Euphrates as the four rivers from Eden. Among the options, only the Euphrates matches this biblical list.",
+"pidgin": "Genesis 2:10-14 list Pishon, Gihon, Hiddekel (Tigris) and Euphrates as the four rivers wey comot for Eden. Na only Euphrates dey the options wey match this list.",
+"id": "wcrs0007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "As part of God's judgement on the serpent after the fall of man, what was it condemned to do?",
+"options": [
+"Lose its legs and crawl on its belly eating dust",
+"Live only inside water forever",
+"Lose its ability to make any sound",
+"Be struck permanently by lightning"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Genesis 3:14 records that God cursed the serpent to go on its belly and eat dust all the days of its life, above every other animal. This shows the physical form the serpent's punishment took, unlike the punishments given to Adam and Eve.",
+"pidgin": "Genesis 3:14 show say God curse the serpent make e dey crawl for im belle and dey chop dust everyday, pass all other animals. Na different punishment from wetin Adam and Eve receive.",
+"id": "wcrs0006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Genesis says crawl and eat dust, but does not say it lost its legs.|'Lose its legs' is not stated in Gen 3:14; text says crawl on belly, eat dust"
+}
+]
+}

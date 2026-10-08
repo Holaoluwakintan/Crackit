@@ -1,0 +1,94 @@
+{
+"subject": "chemistry",
+"topic": "Air and environmental pollution",
+"generated": 4,
+"kept": [
+{
+"q": "Which gas, produced mainly from the burning of fossil fuels in cars and factories, is widely recognized as the chief greenhouse gas responsible for trapping infrared radiation and causing global warming?",
+"options": [
+"Carbon(IV) oxide",
+"Nitrogen",
+"Oxygen",
+"Argon"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Carbon(IV) oxide (CO2) traps heat in the atmosphere, causing the greenhouse effect. Nitrogen, oxygen and argon are normal air components that do not trap heat significantly. Burning fossil fuels releases large amounts of CO2, making it the main greenhouse gas of concern.",
+"pidgin": "Carbon(IV) oxide (CO2) na im dey trap heat for atmosphere, na im cause greenhouse effect. Nitrogen, oxygen and argon no dey trap heat like that. Na because people dey burn fossil fuel well-well, dat na why CO2 dey plenty pass.",
+"py": null,
+"values": null,
+"id": "chev1300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A sample of 2000 cm³ of polluted air collected near a cement factory in Ewekoro was analysed and found to contain 40 cm³ of carbon(II) oxide gas. What is the percentage by volume of carbon(II) oxide in the air sample?",
+"options": [
+"2%",
+"4%",
+"0.2%",
+"20%"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Percentage by volume = (volume of CO / total volume of air) x 100 = (40/2000) x 100 = 2%. This simple ratio shows how small amounts of pollutant can be measured in a large air sample. Always divide the pollutant volume by the total volume before multiplying by 100.",
+"pidgin": "Percentage by volume = (volume of CO / total volume of air) x 100 = (40/2000) x 100 = 2%. Na so you go take calculate small pollutant inside big air sample. Just divide the pollutant volume by total volume, den multiply by 100.",
+"py": "40/2000*100",
+"values": [
+2,
+4,
+0.2,
+20
+],
+"id": "chev1301",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Industrial activities around Kaduna release two gases that dissolve in rainwater droplets to form dilute acids, leading to acid rain that corrodes metal roofs and damages crops. Which pair of gases is most responsible for this phenomenon?",
+"options": [
+"Sulphur(IV) oxide and nitrogen(IV) oxide",
+"Carbon(IV) oxide and oxygen",
+"Methane and nitrogen",
+"Ozone and hydrogen"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Sulphur(IV) oxide dissolves in water to form sulphurous/sulphuric acid, while nitrogen(IV) oxide forms nitric acid; both lower the pH of rainwater and cause acid rain. Carbon(IV) oxide forms only a weak acid and does not cause the severe corrosive acid rain seen near industries. Methane, nitrogen, ozone and hydrogen do not directly form strong acids with rainwater.",
+"pidgin": "Sulphur(IV) oxide and nitrogen(IV) oxide dey mix with water make strong acid wey dey cause acid rain. CO2 dey form weak acid wey no strong reach to damage roof or crop like dat. Methane, nitrogen, ozone and hydrogen no dey form strong acid with rain water.",
+"py": null,
+"values": null,
+"id": "chev1302",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Chlorine atoms released from the breakdown of chlorofluorocarbons (CFCs) in the stratosphere destroy ozone molecules through a chain reaction. Which equation correctly represents the first step of this ozone-depletion mechanism?",
+"options": [
+"Cl + O3 -> ClO + O2",
+"Cl + O2 -> ClO2",
+"Cl2 + O3 -> 2ClO",
+"ClO + O2 -> Cl + O3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In the accepted mechanism, a chlorine radical attacks ozone, forming chlorine monoxide (ClO) and ordinary oxygen: Cl + O3 -> ClO + O2. The ClO then reacts further to regenerate Cl, allowing the chain reaction to continue and destroy many ozone molecules. The other equations either show wrong products or reverse the real reaction, so they are not correct steps.",
+"pidgin": "For di real mechanism, chlorine radical dey attack ozone make am turn to chlorine monoxide (ClO) and normal oxygen: Cl + O3 -> ClO + O2. Dat ClO go react again make Cl come back, so di chain reaction go continue dey destroy ozone. Di oda equations show wrong product or dem reverse di real reaction, so dem no correct.",
+"py": null,
+"values": null,
+"id": "chev1303",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

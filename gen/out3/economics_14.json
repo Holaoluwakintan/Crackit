@@ -1,0 +1,74 @@
+{
+"subject": "economics",
+"topic": "Agriculture in the Nigerian economy",
+"generated": 3,
+"kept": [
+{
+"q": "In Nigeria, 'mixed farming' is best described as a system in which a farmer",
+"options": [
+"cultivates crops and rears livestock together on the same farm",
+"grows only tree crops for export",
+"practises only animal husbandry on a ranch",
+"plants a single crop across several hectares of land"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Mixed farming means combining crop production with livestock rearing on the same farm. This helps the farmer use resources like manure and crop residue efficiently. It is common among small-scale farmers in Nigeria.",
+"pidgin": "Mixed farming na when farmer dey plant crops and still dey rear animals for the same farm. E help farmer use manure and leftover crops well well. Na common practice for Nigeria small farmers.",
+"py": null,
+"values": null,
+"id": "ecov1400",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In a certain year, Nigeria's total Gross Domestic Product (GDP) was valued at ₦200 billion, while the agricultural sector contributed ₦50 billion to this total. What percentage of the GDP did agriculture contribute that year?",
+"options": [
+"20%",
+"25%",
+"30%",
+"40%"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Percentage contribution = (Agricultural output / Total GDP) x 100 = (50/200) x 100 = 25%. This shows how economists measure a sector's share of national output.",
+"pidgin": "Percentage wey agriculture contribute = (50/200) x 100 = 25%. Na so dem dey calculate how much one sector dey contribute to total GDP.",
+"py": "(50/200)*100",
+"values": [
+20,
+25,
+30,
+40
+],
+"id": "ecov1401",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Large-scale rural-urban migration of young, able-bodied men in search of white-collar jobs has been a persistent feature of the Nigerian economy. What is the most likely direct economic consequence of this trend on commercial crop farming in rural areas?",
+"options": [
+"A fall in the cost of farm labour due to oversupply of workers",
+"A rise in the cost of farm labour due to reduced supply of workers",
+"An automatic increase in farm mechanization funded by migrants",
+"A reduction in the demand for food in urban markets"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "When young workers leave rural areas, the supply of farm labour falls while demand for labour on farms stays roughly the same. By basic supply and demand reasoning, a fall in supply with steady demand pushes up the price (wage) of farm labour, raising production costs for farmers.",
+"pidgin": "When young people dey comot from village go city, the number of people wey dey available to work for farm dey reduce. Demand for farm labour no change reach like that, so wetin dey happen be say cost of hiring farm workers go rise, and e go cost farmer more money.",
+"py": null,
+"values": null,
+"id": "ecov1402",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

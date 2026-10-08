@@ -1,0 +1,106 @@
+{
+"subject": "physics",
+"topic": "Friction and simple machines",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following best describes limiting friction?",
+"options": [
+"It is the force that keeps an object permanently at rest",
+"It is the maximum value of static friction just before an object begins to slide",
+"It is the friction that exists only between two lubricated surfaces",
+"It is the force that acts only after an object is already in motion"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Limiting friction is the greatest value that static friction can reach before the object starts to move. Once this value is exceeded, the object slides and kinetic friction takes over.",
+"pidgin": "Limiting friction na the highest level wey static friction fit reach before the object go start to move. Once e pass that level, the object go begin slide and na kinetic friction go dey act.",
+"py": null,
+"values": null,
+"id": "phyv0600",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A technician uses a crowbar as a lever to lift a block of stone weighing 450 N from the ground. The fulcrum is positioned such that the load arm is 0.3 m and the effort arm is 1.2 m. Assuming the lever works as a perfect (frictionless) machine, calculate the minimum effort needed to just lift the stone.",
+"options": [
+"112.5 N",
+"1800 N",
+"300 N",
+"225 N"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "For a lever, effort x effort arm = load x load arm. So effort = (450 x 0.3)/1.2 = 112.5 N. This is the minimum force needed since the machine is assumed frictionless.",
+"pidgin": "For lever, effort times effort arm go equal load times load arm. So effort be (450 x 0.3)/1.2 = 112.5 N. Na the smallest force wey go fit lift the stone since no friction dey.",
+"py": "450*0.3/1.2",
+"values": [
+112.5,
+1800,
+300,
+225
+],
+"id": "phyv0601",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A wooden block of mass 5 kg rests on a horizontal laboratory bench. A horizontal pulling force of 20 N is just enough to make the block start sliding. Taking g = 10 m/s^2, calculate the coefficient of static friction between the block and the bench surface.",
+"options": [
+"0.4",
+"0.2",
+"0.5",
+"4.0"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "At the point of just moving, the applied force equals the limiting frictional force, F = mu x m x g. So mu = F/(mg) = 20/(5 x 10) = 0.4.",
+"pidgin": "Just as the block dey about to move, the force wey dem apply go equal the limiting friction, F = mu x m x g. So mu = 20/(5 x 10) = 0.4.",
+"py": "20/(5*10)",
+"values": [
+0.4,
+0.2,
+0.5,
+4.0
+],
+"id": "phyv0602",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A block-and-tackle pulley system at a construction site in Minna has a velocity ratio of 6. A worker, Musa, applies an effort of 100 N to raise a load of 480 N. Calculate the percentage efficiency of the pulley system.",
+"options": [
+"80%",
+"60%",
+"120%",
+"48%"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Mechanical advantage = load/effort = 480/100 = 4.8. Efficiency = (MA/VR) x 100 = (4.8/6) x 100 = 80%. This shows the system loses some energy to friction since efficiency is below 100%.",
+"pidgin": "Mechanical advantage = load/effort = 480/100 = 4.8. Efficiency = (MA/VR) x 100 = (4.8/6) x 100 = 80%. Since e no reach 100%, e mean say some energy dey waste as friction.",
+"py": "(480/100)/6*100",
+"values": [
+80,
+60,
+120,
+48
+],
+"id": "phyv0603",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

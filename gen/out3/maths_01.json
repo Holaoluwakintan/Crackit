@@ -1,0 +1,116 @@
+{
+"subject": "maths",
+"topic": "Fractions, decimals, approximations, significant figures and percentages",
+"generated": 4,
+"kept": [
+{
+"q": "Evaluate 2/5 + 1/4, leaving your answer as a decimal.",
+"options": [
+"0.65",
+"0.45",
+"0.6",
+"0.7"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "2/5 = 0.4 and 1/4 = 0.25. Adding them gives 0.4 + 0.25 = 0.65.",
+"pidgin": "2/5 be 0.4 and 1/4 be 0.25. If you add dem together, 0.4 + 0.25 go give 0.65.",
+"py": "2/5 + 1/4",
+"values": [
+0.65,
+0.45,
+0.6,
+0.7
+],
+"id": "matv0100",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Amina's monthly salary was increased from ₦45,000 to ₦54,000. What was the percentage increase in her salary?",
+"options": [
+"25%",
+"20%",
+"18%",
+"15%"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Increase = 54,000 - 45,000 = 9,000. Percentage increase = (9,000/45,000) x 100 = 20%.",
+"pidgin": "The increase na 54,000 - 45,000 = 9,000. To find percentage, you do (9,000/45,000) x 100 = 20%.",
+"py": "(54000-45000)/45000*100",
+"values": [
+25,
+20,
+18,
+15
+],
+"id": "matv0101",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader bought goods worth ₦8,000. He sold 3/4 of the goods at a profit of 25% and the remaining 1/4 at a loss of 10%. Find his overall percentage profit on the whole transaction.",
+"options": [
+"20% profit",
+"15% profit",
+"16.25% profit",
+"10% loss"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Cost of 3/4 portion = N6,000, sold at 25% profit = N7,500. Cost of 1/4 portion = N2,000, sold at 10% loss = N1,800. Total selling price = N9,300, so profit = N1,300. Percentage profit = (1,300/8,000) x 100 = 16.25%.",
+"pidgin": "3/4 of the goods cost N6,000, e sell am for 25% profit wey be N7,500. The remaining 1/4 cost N2,000, e sell am for 10% loss wey be N1,800. Total money wey e get na N9,300, so profit na N1,300, wey be (1,300/8,000) x 100 = 16.25%.",
+"py": "((8000*0.75*1.25 + 8000*0.25*0.9) - 8000)/8000*100",
+"values": [
+20,
+15,
+16.25,
+10
+],
+"id": "matv0102",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Round off 0.0098765 to 2 significant figures.",
+"options": [
+"0.0098",
+"0.010",
+"0.0097",
+"0.0099"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The first two significant figures are 9 and 8. The next digit is 7, which rounds the 8 up to 9, giving 0.0099.",
+"pidgin": "The first two important figures na 9 and 8. The next number be 7, e go round up the 8 to 9, so e go be 0.0099.",
+"py": "float(format(0.0098765, '.2g'))",
+"values": [
+0.0098,
+0.01,
+0.0097,
+0.0099
+],
+"id": "matv0103",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+}
+]
+}

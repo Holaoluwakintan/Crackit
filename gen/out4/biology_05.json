@@ -1,0 +1,133 @@
+{
+"subject": "biology",
+"topic": "Nutrition in animals (food, digestion, teeth)",
+"ti": 5,
+"generated": 6,
+"kept": [
+{
+"q": "An organism that feeds by taking in complex, ready-made organic food (such as plant or animal matter), digesting it internally, and then absorbing the useful products is said to show which type of nutrition?",
+"options": [
+"Autotrophic nutrition",
+"Holozoic nutrition",
+"Saprophytic nutrition",
+"Chemosynthetic nutrition"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Holozoic nutrition is seen in most animals, including man; it involves taking in solid food, digesting it inside the body, and absorbing the digested products. Autotrophic organisms make their own food, while saprophytes feed on dead or decaying matter externally.",
+"pidgin": "Holozoic nutrition na when animal chop solid food wey already ready, digest am inside body, then absorb the useful part. Autotroph dey make dia own food, saprophyte dey chop dead or rotten things.",
+"id": "wbio0501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mama Ngozi chewed a piece of boiled yam for some time before swallowing it, and she noticed it began to taste slightly sweet. Which enzyme present in her saliva is responsible for this change?",
+"options": [
+"Pepsin",
+"Lipase",
+"Ptyalin (salivary amylase)",
+"Trypsin"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Ptyalin, also called salivary amylase, breaks down starch in the yam into simpler sugars like maltose, which taste sweet. Pepsin and trypsin act on proteins, while lipase acts on fats, so they are not responsible for this effect.",
+"pidgin": "Ptyalin (salivary amylase) dey break down the starch wey dey the yam to sugar, na why e begin taste sweet small small. Pepsin and trypsin na for protein, lipase na for fat, so dem no fit cause the sweet taste.",
+"id": "wbio0502",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A hunter examining the skull of a bush dog noticed long, pointed, curved teeth located just behind the front teeth on each side of the jaw. What is the main function of these teeth?",
+"options": [
+"Grinding fibrous plant material",
+"Tearing and piercing flesh",
+"Cutting food into fine pieces",
+"Crushing hard seeds"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The long, pointed, curved teeth described are canines, which are well developed in carnivores like dogs for tearing and piercing flesh during feeding. Grinding and crushing are functions of molars and premolars, while cutting is mainly done by incisors.",
+"pidgin": "The long pointed teeth wey curve na canine, dem dey help the dog tear and pierce meat. Molar and premolar na for grind and crush, incisor na for cut food small small.",
+"id": "wbio0503",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The inner wall of the small intestine has many tiny, finger-like projections. What is the main importance of these structures in digestion?",
+"options": [
+"They produce hydrochloric acid for digestion",
+"They store undigested food temporarily",
+"They increase the surface area for absorption of digested food",
+"They neutralize excess bile from the liver"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "These finger-like projections are called villi, and their main role is to increase the surface area of the small intestine so that digested food substances like glucose and amino acids can be absorbed quickly into the blood. Acid production and bile neutralisation occur elsewhere in the digestive system.",
+"pidgin": "Dis small finger-like things na villi, dem dey increase the surface area so body fit absorb digested food like glucose and amino acid quick quick. Acid and bile matter dey happen for other part of the gut.",
+"id": "wbio0504",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A goat has a dental formula of 0.0.3.3 / 3.1.3.3, meaning the upper jaw has no incisors or canines but has 3 premolars and 3 molars on each side, while the lower jaw has 3 incisors, 1 canine, 3 premolars and 3 molars on each side. What is the total number of teeth in the goat's complete set?",
+"options": [
+"16",
+"24",
+"32",
+"28"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Add the teeth on one side of the upper jaw: 0+0+3+3 = 6, and one side of the lower jaw: 3+1+3+3 = 10, giving 16 teeth on one side (upper and lower combined). Since teeth occur on both the left and right sides of the jaw, multiply by 2: 16 x 2 = 32 teeth in total.",
+"pidgin": "If you add the teeth for one side of up jaw: 0+0+3+3 = 6, and one side of down jaw: 3+1+3+3 = 10, e go give 16 teeth for one side. Since teeth dey both left and right side, multiply the 16 by 2 to get 32 teeth total.",
+"id": "wbio0505",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which set of teeth in man is specially shaped with a flat, sharp edge for biting and cutting food into smaller pieces before it enters the mouth cavity?",
+"options": [
+"Incisors",
+"Canines",
+"Premolars",
+"Molars"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Incisors are chisel-shaped with a sharp edge, found at the front of the jaw, and are used mainly for biting and cutting food. Canines tear flesh, while premolars and molars crush and grind food.",
+"pidgin": "Incisors na the sharp teeth wey dey front for mouth, dem dey cut food small small before e enter mouth well well. Canine na for tear meat, premolar and molar na for grind food.",
+"id": "wbio0500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Teeth cut food inside the mouth, not before it enters.|Wording 'before it enters the mouth cavity' is inaccurate; teeth are in the mouth"
+}
+]
+}

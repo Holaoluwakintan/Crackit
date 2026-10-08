@@ -1,0 +1,80 @@
+{
+"subject": "government",
+"topic": "Forms of government: unitary, federal, confederal, monarchy, republic",
+"generated": 4,
+"kept": [
+{
+"q": "In many parts of Nigeria, a first-class traditional ruler such as the Emir of a town inherits his position from his royal family rather than through election. This way of choosing a ruler best illustrates which principle of monarchical government?",
+"options": [
+"Hereditary succession",
+"Periodic election",
+"Rotational leadership",
+"Direct democracy"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Monarchy is a system where the position of head of state passes down through a royal bloodline, usually from parent to child. This is called hereditary succession. It is different from systems where leaders are elected or chosen by rotation.",
+"pidgin": "Monarchy na system wey leader dey hand over im position to im pikin or family member. Dem no dey vote am, na by blood e dey pass. So na hereditary succession be dat.",
+"id": "govv0100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following is a key feature that distinguishes a federal system of government from a confederal system?",
+"options": [
+"Member units can withdraw from the union at any time they wish",
+"Member units keep separate armies that are not answerable to the centre",
+"The central government gets authority directly from the constitution and the citizens, not from the member units",
+"The central government depends on the goodwill of member states to survive"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "In a federal system, the constitution gives power directly to both the central and state governments, and citizens owe allegiance to both levels. In a confederation, the centre is weak and only exists because member states allow it. This makes a federation more stable and binding than a confederation.",
+"pidgin": "For federal system, constitution dey give power direct to both central and state government, and di citizens dey under both. But for confederation, di centre weak and e dey depend on wetin di states agree. Na dat one make federal system strong pass confederation.",
+"id": "govv0101",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A unitary system of government is usually adopted by a country mainly because it wants to achieve which of the following?",
+"options": [
+"Uniform laws and policies applied equally across the whole country",
+"Strong regional governments with their own independent constitutions",
+"Multiple centres of sovereign power sharing authority equally",
+"A free right for any region to secede whenever it wishes"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A unitary system concentrates power at the centre, which makes it easier to apply the same laws and policies to every part of the country. This is different from federalism, which allows regional differences, or confederalism, which allows states to keep strong independence.",
+"pidgin": "Unitary system dey put power for one centre, so dem fit make one kind law and policy wey go dey apply for everywhere for di kontri. Na dat one make am different from federal or confederal system wey dey allow states get plenty independent power.",
+"id": "govv0102",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Three neighbouring kingdoms decide to form a loose union. Each kingdom keeps its own army, its own laws, and can leave the union at any time it chooses. A small joint secretariat only helps them coordinate trade matters between themselves. Which form of government does this arrangement best describe?",
+"options": [
+"Federation",
+"Unitary state",
+"Confederation",
+"Constitutional monarchy"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A confederation is a loose association where member states keep full sovereignty, control their own armies and laws, and can withdraw freely, while the central body is weak and only handles limited shared matters. This is different from a federation, where the centre has strong constitutional powers over member states and withdrawal is not easy.",
+"pidgin": "Confederation na when di small states still hold their full power, dem get their own army and law, and dem fit comot anytime dem like, while di centre dey weak and e dey only handle small common matter like trade. Dis one different from federation wey di centre strong well well and states no fit just waka comot.",
+"id": "govv0103",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

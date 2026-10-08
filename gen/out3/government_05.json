@@ -1,0 +1,84 @@
+{
+"subject": "government",
+"topic": "Political parties, party systems and pressure groups",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following is a basic feature that distinguishes a political party from a pressure group in a democratic system like Nigeria's?",
+"options": [
+"A political party sponsors and fields candidates for elective office, while a pressure group does not contest elections",
+"A political party always has more members than a pressure group",
+"A political party must be older than any pressure group before it can operate",
+"A political party can only operate in urban centres, unlike pressure groups"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The key difference is that political parties aim to win political power by presenting candidates for election, while pressure groups only try to influence government decisions without contesting elections. Age, size and location are not the defining features.",
+"pidgin": "The main difference na say political party dey bring candidates to contest election, but pressure group no dey contest election, dem just dey influence government. Age, number of members or where dem dey operate no be the real difference.",
+"id": "govv0500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In a dominant-party system, which of the following best describes the political situation in that country?",
+"options": [
+"Two parties exist and alternate in winning power with almost equal strength",
+"No political party is allowed to exist, and the military rules directly",
+"Several political parties legally exist, but one party keeps winning elections and controlling government for a long stretch of time",
+"All political parties are compulsorily merged into a single ruling party by law"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A dominant-party system allows many parties to exist and compete, but one party consistently wins elections and remains in power for a long period due to its strong organisation or popularity. This differs from a one-party state where other parties are banned by law.",
+"pidgin": "For dominant-party system, plenty parties dey, dem fit contest election, but one particular party dey always win and dey stay for power for long time because dem strong well well. E different from one-party state wey ban other parties by law.",
+"id": "govv0501",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A pressure group in Nigeria decides to challenge a new government policy by filing a case in court instead of organizing street protests or lobbying lawmakers directly. Which method of pressure group action is this group using?",
+"options": [
+"Industrial strike action by withdrawing labour",
+"Judicial action through litigation in the law courts",
+"Mass media propaganda and advertisement campaigns",
+"Direct sponsorship of candidates for election"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When a pressure group goes to court to challenge a government policy, it is using the judicial method, also called litigation, to achieve its aim. This is different from striking, media campaigns or sponsoring candidates, which are other separate methods.",
+"pidgin": "When pressure group carry case go court to challenge government policy, na judicial method or litigation dem dey use. E different from strike, media campaign or sponsoring candidate, wey be other different methods.",
+"id": "govv0503",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A country has ten registered political parties, and in the last general election no single party won up to half of the seats in the legislature. Based on this situation, what is the most likely consequence for forming the government?",
+"options": [
+"The country will automatically have a strong single-party majority government",
+"Coalition government becomes unnecessary since parties can govern separately",
+"All the minor parties will be banned immediately after the election",
+"It often results in an unstable coalition government, since no party has an outright majority to govern alone"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "When many parties share seats and none has a clear majority, parties usually have to combine forces to form a coalition government. Such coalitions can be unstable because the partner parties may disagree on policies, unlike a single majority party that governs alone.",
+"pidgin": "If ten parties dey and nobody win majority seat, dem go need combine power with another party to form coalition government. This kind coalition fit no stable well because the parties wey join hand fit dey disagree for different policies.",
+"id": "govv0502",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+"why": "ambiguous:A legislative majority is not required to form government in every political system; coalitions are not necessarily unstable.|"
+}
+]
+}

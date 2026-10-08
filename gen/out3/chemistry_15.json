@@ -1,0 +1,94 @@
+{
+"subject": "chemistry",
+"topic": "Metals and their extraction (iron, aluminium, copper), alloys",
+"generated": 4,
+"kept": [
+{
+"q": "In industrial aluminium extraction, pure alumina (Al2O3) dissolved in molten cryolite is decomposed by electricity to give the metal. What is this electrolytic process called?",
+"options": [
+"Bayer process",
+"Hall-Heroult process",
+"Bessemer process",
+"Haber process"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Hall-Heroult process is the electrolytic method used worldwide to extract aluminium from molten alumina dissolved in cryolite. The Bayer process only purifies bauxite to alumina, it does not do the electrolysis.",
+"pidgin": "Hall-Heroult process na di one wey dem dey use take electricity break down alumina wey dey melt inside cryolite to give aluminium. Bayer process na just to purify bauxite come alumina, e no do di electrolysis part.",
+"py": null,
+"values": null,
+"id": "chev1500",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "During the Hall-Heroult extraction of aluminium, cryolite (Na3AlF6) is mixed with the alumina before electrolysis begins. What is the main reason for adding cryolite?",
+"options": [
+"To oxidise the aluminium ions before discharge",
+"To lower the melting point of alumina, saving energy",
+"To increase the melting point so the cell stays solid",
+"To prevent oxygen gas from forming at the anode"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Pure alumina melts at about 2050°C, which is very expensive to maintain. Dissolving it in cryolite lowers the melting point to around 950°C, so less energy is needed for electrolysis. Cryolite does not oxidise ions or stop oxygen formation.",
+"pidgin": "Pure alumina get very high melting point wey go cost plenty money to maintain. Wen dem mix am wit cryolite, di melting point go come down reach around 950°C, so less energy dem go need. Cryolite no dey oxidise ions or stop oxygen from forming.",
+"py": null,
+"values": null,
+"id": "chev1501",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A current of 2.0 A is passed through a copper(II) sulphate solution using copper electrodes for 32 minutes 10 seconds. Calculate the mass of copper deposited at the cathode. (Cu = 64, 1 Faraday = 96500 C/mol, Cu2+ + 2e- -> Cu)",
+"options": [
+"1.28 g",
+"0.64 g",
+"2.56 g",
+"0.32 g"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Time = 32x60+10 = 1930 s, so charge Q = I x t = 2.0 x 1930 = 3860 C. Moles of electrons = 3860/96500 = 0.04 mol. Since Cu2+ needs 2 electrons, moles Cu = 0.04/2 = 0.02 mol, giving mass = 0.02 x 64 = 1.28 g.",
+"pidgin": "Time na 32x60+10 = 1930 seconds, so charge Q = I x t = 2.0 x 1930 = 3860 C. Moles of electron = 3860/96500 = 0.04 mol. Since Cu2+ need 2 electrons, moles of Cu = 0.04/2 = 0.02 mol, mass go be 0.02 x 64 = 1.28 g.",
+"py": "((2.0*1930)/96500)/2*64",
+"values": [
+1.28,
+0.64,
+2.56,
+0.32
+],
+"id": "chev1502",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Stainless steel is a well known alloy that resists rusting even when exposed to moist air for a long time. Which two elements, when added to iron, mainly give stainless steel this corrosion-resistant property?",
+"options": [
+"Zinc and tin",
+"Chromium and nickel",
+"Copper and lead",
+"Carbon and sulphur"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Stainless steel is made by adding chromium and nickel to iron. The chromium forms a thin, tough oxide layer on the surface that protects the metal from rusting. Zinc, tin, copper and lead are used in other alloys but not for this corrosion resistance in steel.",
+"pidgin": "Stainless steel na wen dem add chromium and nickel to iron. Di chromium go form one thin strong oxide layer for di surface wey go protect di metal from rust. Zinc, tin, copper and lead dey important for oda alloys but no be dem dey give steel dis kain protection.",
+"py": null,
+"values": null,
+"id": "chev1503",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

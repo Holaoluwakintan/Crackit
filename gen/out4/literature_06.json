@@ -1,0 +1,209 @@
+{
+"subject": "literature",
+"topic": "Poetry: sound devices (rhyme, rhythm, alliteration, assonance)",
+"ti": 6,
+"generated": 10,
+"kept": [
+{
+"q": "In poetry, alliteration is best described as...",
+"options": [
+"the repetition of consonant sounds at the beginning of two or more neighbouring words",
+"the repetition of vowel sounds within non-rhyming words",
+"the matching of sounds at the end of lines of verse",
+"the regular pattern of stressed and unstressed syllables in a line"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Alliteration is the repeating of the same consonant sound at the start of words that are close together, for example 'big black bag'. The other options describe assonance, rhyme and rhythm instead.",
+"pidgin": "Alliteration na when same consonant sound dey repeat for the front of words wey near each other, like 'big black bag'. The other options na for assonance, rhyme and rhythm, no be alliteration.",
+"id": "wlit0600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read this line: 'The bright kite flies high in the quiet sky.' Which sound device is most clearly shown by the repeated long 'i' sound in 'bright', 'kite', 'high', 'quiet' and 'sky'?",
+"options": [
+"Alliteration",
+"Assonance",
+"Rhyme",
+"Onomatopoeia"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Assonance is the repetition of vowel sounds within words that are near each other. Here the long 'i' sound repeats in several words, not just at the beginning, so it is assonance, not alliteration or rhyme.",
+"pidgin": "Assonance na when vowel sound repeat inside words wey close to each other. Here the long 'i' sound dey repeat for many words, e no be only for beginning, so na assonance, no be alliteration or rhyme.",
+"id": "wlit0601",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the stanza below:\n'The rain falls down upon the land,\nIt wets the fields and wets the sand,\nThe farmers smile and shake each hand,\nAnd thank the skies as they had planned.'\nWhat is the rhyme scheme of this stanza?",
+"options": [
+"ABAB",
+"ABBA",
+"ABCB",
+"AAAA"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "All four end words — land, sand, hand, planned — rhyme with one another, so every line shares the same rhyme sound. This is marked AAAA, also called a monorhyme.",
+"pidgin": "All the four end words — land, sand, hand, planned — dey rhyme together, so every line get the same rhyme sound. Dem go mark am as AAAA, wey be monorhyme.",
+"id": "wlit0602",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which sound device is most evident in the sentence: 'Sola sells sweet soup by the stream every Saturday'?",
+"options": [
+"Assonance",
+"Alliteration",
+"Rhyme",
+"Rhythm"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The repeated 's' sound at the start of 'Sola', 'sells', 'sweet', 'soup', 'stream' and 'Saturday' is alliteration. There is no end rhyme or special vowel pattern being emphasised here.",
+"pidgin": "The 's' sound wey dey repeat for front of 'Sola', 'sells', 'sweet', 'soup', 'stream' and 'Saturday' na alliteration. No end rhyme or special vowel pattern dey here.",
+"id": "wlit0603",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the stanza:\n'The market women call with cheer,\nTheir baskets full of yam and rice,\nThe children gather, drawing near,\nTo taste the bread that smells so nice.'\nWhat is the rhyme scheme of this stanza?",
+"options": [
+"AABB",
+"ABAB",
+"ABBA",
+"AAAA"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Line 1 ends in 'cheer' and line 3 ends in 'near', which rhyme (A); line 2 ends in 'rice' and line 4 ends in 'nice', which also rhyme (B). This alternating pattern gives ABAB.",
+"pidgin": "Line 1 wey end for 'cheer' and line 3 wey end for 'near' dey rhyme (A); line 2 wey end for 'rice' and line 4 wey end for 'nice' dey rhyme too (B). Na so the pattern take be ABAB.",
+"id": "wlit0604",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following lines best illustrates assonance?",
+"options": [
+"Deep green trees sleep in the cool evening breeze.",
+"Peter picked plenty pepper for the pepper soup.",
+"The sun rose over the misty hill, and the birds began to trill.",
+"Ngozi walked quietly along the narrow path."
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In 'Deep green trees sleep in the cool evening breeze', the long 'ee' vowel sound repeats inside several words (deep, green, sleep, breeze), which is assonance. Option B is alliteration and option C is end rhyme, not assonance.",
+"pidgin": "For 'Deep green trees sleep in the cool evening breeze', the long 'ee' vowel sound dey repeat inside plenty words (deep, green, sleep, breeze), na assonance be that. Option B na alliteration and option C na end rhyme, no be assonance.",
+"id": "wlit0605",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best defines 'rhythm' as used in poetry?",
+"options": [
+"the repetition of the same consonant sound at the end of words",
+"the use of a word that imitates the sound it describes",
+"the arrangement of lines into a fixed number of stanzas",
+"the pattern created by the alternation of stressed and unstressed syllables in a line"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Rhythm refers to the musical flow of a poem created by how stressed and unstressed syllables alternate. The other options describe consonance, onomatopoeia and stanza arrangement, which are different concepts.",
+"pidgin": "Rhythm na the musical flow wey poem get because of how stressed and unstressed syllables dey alternate. The other options dey talk about consonance, onomatopoeia and stanza arrangement, wey no be rhythm.",
+"id": "wlit0606",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the line: 'The boy ran fast to catch the early bus.' When scanned, the stresses fall as: 'the BOY ran FAST to CATCH the EAR-ly BUS.' Which term best describes this rhythmic pattern, where an unstressed syllable is regularly followed by a stressed syllable?",
+"options": [
+"Free verse",
+"Monorhyme",
+"Iambic rhythm",
+"Trochaic rhythm"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A pattern of unstressed syllable followed by a stressed syllable (te-TUM) is called iambic rhythm. Trochaic rhythm is the reverse (stressed then unstressed), and free verse and monorhyme are unrelated terms.",
+"pidgin": "When unstressed syllable dey follow by stressed syllable (te-TUM), dem dey call am iambic rhythm. Trochaic rhythm na the opposite one (stressed before unstressed), while free verse and monorhyme no concern rhythm pattern like this.",
+"id": "wlit0607",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read the stanza:\n'The river flows beneath the bridge so old,\nIt carries tales that have never been told,\nThe fishermen cast their nets with care,\nHoping for a catch beyond compare.'\nWhat is the rhyme scheme of this stanza, and what name is given to two consecutive rhyming lines like 'old' and 'told'?",
+"options": [
+"AABB; this pairing is called a couplet",
+"ABAB; this pairing is called a quatrain",
+"ABBA; this pairing is called a tercet",
+"AAAA; this pairing is called a refrain"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Lines 1 and 2 rhyme (old/told) and lines 3 and 4 rhyme (care/compare), giving the pattern AABB. Two consecutive rhyming lines like this are called a couplet, not a quatrain, tercet or refrain.",
+"pidgin": "Line 1 and 2 dey rhyme (old/told) and line 3 and 4 dey rhyme (care/compare), so e be AABB. Two lines wey rhyme like that, one after the other, na couplet, e no be quatrain, tercet or refrain.",
+"id": "wlit0608",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A fourteen-line poem follows the rhyme scheme ABAB CDCD EFEF GG, ending with a rhyming couplet. This rhyme pattern is most closely associated with which poetic form?",
+"options": [
+"Ballad stanza",
+"Free verse poem",
+"Petrarchan sonnet",
+"Shakespearean sonnet"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The ABAB CDCD EFEF GG pattern across fourteen lines, closing with a couplet, is the classic structure of the Shakespearean (English) sonnet. The Petrarchan sonnet instead uses an octave and sestet pattern, while ballads and free verse do not follow this scheme.",
+"pidgin": "The ABAB CDCD EFEF GG pattern for fourteen lines, wey end with couplet, na the classic structure of Shakespearean (English) sonnet. Petrarchan sonnet dey use octave and sestet pattern instead, while ballad and free verse no follow this kind scheme.",
+"id": "wlit0609",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

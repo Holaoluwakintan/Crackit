@@ -1,0 +1,177 @@
+{
+"subject": "maths",
+"topic": "Angles, polygons and circle theorems",
+"ti": 17,
+"generated": 6,
+"kept": [
+{
+"q": "In a mathematics class in Kano, students are asked to find the sum of the interior angles of a regular pentagon (a polygon with 5 sides). What is the sum of the interior angles?",
+"options": [
+"450°",
+"360°",
+"540°",
+"720°"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Sum of interior angles = (n-2) x 180°. For n = 5, sum = (5-2) x 180 = 540°.",
+"pidgin": "Total of inside angle = (n-2) x 180°. For n=5, e be (5-2) x 180 = 540°.",
+"py": "(5-2)*180",
+"values": [
+450,
+360,
+540,
+720
+],
+"id": "wmth1700",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A regular octagon (a polygon with 8 equal sides and angles) is used to design the base of a traditional drum stand in a craft workshop in Oyo State. Find the size of each exterior angle of the octagon.",
+"options": [
+"45°",
+"40°",
+"36°",
+"60°"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The sum of exterior angles of any polygon is 360°. For a regular octagon with 8 sides, each exterior angle = 360/8 = 45°.",
+"pidgin": "Total of outside angle for any polygon na 360°. For regular octagon wey get 8 sides, each exterior angle = 360/8 = 45°.",
+"py": "360/8",
+"values": [
+45,
+40,
+36,
+60
+],
+"id": "wmth1701",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "O is the centre of a circle. A and B are points on the circumference such that angle AOB (the angle at the centre) = 120°. C is another point on the major arc AB. Find angle ACB, the angle subtended by AB at C on the circumference.",
+"options": [
+"120°",
+"90°",
+"30°",
+"60°"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The angle at the centre of a circle is twice the angle at the circumference subtended by the same arc. So angle ACB = 120/2 = 60°.",
+"pidgin": "Angle wey dey centre na double of angle wey dey circumference for the same arc. So angle ACB = 120/2 = 60°.",
+"py": "120/2",
+"values": [
+120,
+90,
+30,
+60
+],
+"id": "wmth1702",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "PQRS is a cyclic quadrilateral, meaning all four vertices P, Q, R and S lie on the circumference of a circle. If angle P = 100°, find angle R, which is directly opposite angle P.",
+"options": [
+"100°",
+"80°",
+"90°",
+"70°"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Opposite angles of a cyclic quadrilateral add up to 180°. So angle R = 180 - 100 = 80°.",
+"pidgin": "Opposite angles for cyclic quadrilateral dey add give 180°. So angle R = 180 - 100 = 80°.",
+"py": "180-100",
+"values": [
+100,
+80,
+90,
+70
+],
+"id": "wmth1703",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Each interior angle of a certain regular polygon measures 160°. How many sides does the polygon have?",
+"options": [
+"18",
+"16",
+"20",
+"15"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Interior angle = 180 - (360/n). Setting 180 - 360/n = 160 gives 360/n = 20, so n = 18.",
+"pidgin": "Inside angle = 180 - (360/n). If we put 180 - 360/n = 160, e go give 360/n = 20, so n = 18.",
+"py": "360/(180-160)",
+"values": [
+18,
+16,
+20,
+15
+],
+"id": "wmth1704",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "AB is a diameter of a circle with centre O. C is a point on the circumference such that angle BAC = 35°. Find angle ABC.",
+"options": [
+"65°",
+"90°",
+"55°",
+"45°"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Since AB is a diameter, angle ACB = 90° (angle in a semicircle). In triangle ABC, the angles sum to 180°, so angle ABC = 180 - 90 - 35 = 55°.",
+"pidgin": "Since AB na diameter, angle ACB = 90° (angle wey dey inside semicircle). For triangle ABC, angles go sum give 180°, so angle ABC = 180 - 90 - 35 = 55°.",
+"py": "180-90-35",
+"values": [
+65,
+90,
+55,
+45
+],
+"id": "wmth1705",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

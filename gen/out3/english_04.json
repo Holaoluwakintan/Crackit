@@ -1,0 +1,120 @@
+{
+"subject": "english",
+"topic": "Tenses and verb forms",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the option that best completes the gap. By the time the football match started, the fans _______ outside the stadium gate for three hours.",
+"options": [
+"had waited",
+"have waited",
+"were waiting",
+"wait"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Two past actions are compared: the waiting happened before the match started. The past perfect tense 'had waited' shows the action that finished first.",
+"pidgin": "Two past tin dey here: the waiting bin happen before the match start. So we use past perfect 'had waited' to show which one happen first.",
+"id": "engv0400",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best completes the gap. Since last January, the farmers in Benue State _______ new techniques to increase their yield.",
+"options": [
+"had used",
+"were using",
+"have been using",
+"use"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "'Since last January' shows an action that began in the past and is still continuing now. The correct form is the present perfect continuous, 'have been using'.",
+"pidgin": "'Since last January' mean say the action start for past and e still dey happen now. So we use present perfect continuous 'have been using'.",
+"id": "engv0402",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the option that best completes the gap. If the governor _______ the new empowerment policy early enough, more jobs would have been created for the youths.",
+"options": [
+"implemented",
+"implements",
+"has implemented",
+"had implemented"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The sentence uses 'would have been created', which signals a third conditional about an unreal past situation. The correct form after 'if' in this type is the past perfect, 'had implemented'.",
+"pidgin": "Since the sentence talk 'would have been created', e be third conditional wey dey talk about something wey no happen for past. So after 'if' we go use past perfect 'had implemented'.",
+"id": "engv0403",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Choose the option that best completes the gap. It is high time the students _______ more seriously about their forthcoming WAEC examinations.",
+"options": [
+"thought",
+"think",
+"thinks",
+"have thought"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The expression 'it is high time' is followed by a verb in the simple past tense, even though it refers to something that should happen now. This special subjunctive-like structure requires 'thought', not a present form.",
+"pidgin": "Anytime wey we use 'it is high time', the verb wey follow am go dey past tense form, even though na present thing we dey talk about. So 'thought' na the correct one, no be present form.",
+"id": "engv0404",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best completes the gap. Hardly _______ the lecturer entered the hall when the students stood up to greet him.",
+"options": [
+"was",
+"had",
+"did",
+"has"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "'Hardly...when' introduces an inverted sentence that needs the past perfect tense to show one action happening just before another. The correct auxiliary is 'had', giving 'Hardly had the lecturer entered...'.",
+"pidgin": "'Hardly...when' na special structure wey need inversion and past perfect tense, to show say one action happen small before the other one. So na 'had' dey correct, make e be 'Hardly had the lecturer entered...'.",
+"id": "engv0405",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap. Chidinma _______ her assignment before her mother called her for dinner last night.",
+"options": [
+"finishes",
+"had finished",
+"finished",
+"has finished"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The finishing of the assignment happened before another past event, which is the mother calling her. This earlier past action needs the past perfect tense, 'had finished'.",
+"pidgin": "Chidinma finish her assignment before her mama call her, so the finishing happen first before the other past action. Na why we use 'had finished'.",
+"id": "engv0401",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:C is also grammatical with 'before'.|'finished' (C) is also acceptable after 'before'"
+}
+]
+}

@@ -1,0 +1,3465 @@
+{
+ "generated": "2026-10-07",
+ "method": "Each figure was extracted from the cited page, its quote matched word-for-word against the fetched page text, then re-checked by a second reviewer pass. Figures that failed either check are not shown (the app says \"not published\").",
+ "records": [
+  {
+   "school": "unilag",
+   "field": "min",
+   "value": 200,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-post-utme-de-2026-cut-off-marks-eligibility-and-registration-details",
+   "quote": "Candidates who made University of Lagos their first choice in the 2026/2027 UTME and scored 200 and above are eligible to apply for Post-UTME Online Screening."
+  },
+  {
+   "school": "unilag",
+   "field": "postutme",
+   "value": "Online CBT (remotely proctored)",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-notice-of-post-utme-screening-aptitude-test-2026-2027",
+   "quote": "The examination shall last\nthirty (30) minutes\n."
+  },
+  {
+   "school": "unilag",
+   "field": "course:medicine",
+   "value": 83.425,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "MEDICINE & SURGERY | 83.425 | 79.425 | 79.1 | 81.75 | 81.35 | 79.825 | 80.05",
+   "catchment": {
+    "Ekiti": 79.425,
+    "Lagos": 79.1,
+    "Ogun": 81.75,
+    "Ondo": 81.35,
+    "Osun": 79.825,
+    "Oyo": 80.05
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:law",
+   "value": 79.125,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "LAW | 79.125 | 75.975 | 75.15 | 77.275 | 75.55 | 75.25 | 76.35",
+   "catchment": {
+    "Ekiti": 75.975,
+    "Lagos": 75.15,
+    "Ogun": 77.275,
+    "Ondo": 75.55,
+    "Osun": 75.25,
+    "Oyo": 76.35
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:nursing",
+   "value": 77.925,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "NURSING SCIENCES | 77.925 | 72.775 | 73.95 | 76.275 | 74.875 | 75.2 | 74.1",
+   "catchment": {
+    "Ekiti": 72.775,
+    "Lagos": 73.95,
+    "Ogun": 76.275,
+    "Ondo": 74.875,
+    "Osun": 75.2,
+    "Oyo": 74.1
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:pharmacy",
+   "value": 78.325,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "PHARMACY | 78.325 | 72.875 | 72.175 | 76.3 | 75.275 | 75.85 | 74.1",
+   "catchment": {
+    "Ekiti": 72.875,
+    "Lagos": 72.175,
+    "Ogun": 76.3,
+    "Ondo": 75.275,
+    "Osun": 75.85,
+    "Oyo": 74.1
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:mls",
+   "value": 75.075,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "MEDICAL & LABORATORY SCIENCE | 75.075 | 66.525 | 71.55 | 73.425 | 71.625 | 74.35 | 69.875",
+   "catchment": {
+    "Ekiti": 66.525,
+    "Lagos": 71.55,
+    "Ogun": 73.425,
+    "Ondo": 71.625,
+    "Osun": 74.35,
+    "Oyo": 69.875
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:physiotherapy",
+   "value": 76,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "PHYSIOTHERAPY | 76 | 72.75 | 67.4 | 75.375 | 74.7 | 73.675 | 72.3",
+   "catchment": {
+    "Ekiti": 72.75,
+    "Lagos": 67.4,
+    "Ogun": 75.375,
+    "Ondo": 74.7,
+    "Osun": 73.675,
+    "Oyo": 72.3
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:dentistry",
+   "value": 79.025,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "DENTISTRY | 79.025 | 74.575 | 72.725 | 77.3 | 76.325 | 77.775 | 76.65",
+   "catchment": {
+    "Ekiti": 74.575,
+    "Lagos": 72.725,
+    "Ogun": 77.3,
+    "Ondo": 76.325,
+    "Osun": 77.775,
+    "Oyo": 76.65
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:computer-science",
+   "value": 82.05,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "COMPUTER SCIENCE | 82.05 | 78.4 | 73.225 | 79.175 | 79.675 | 78.85 | 79.875",
+   "catchment": {
+    "Ekiti": 78.4,
+    "Lagos": 73.225,
+    "Ogun": 79.175,
+    "Ondo": 79.675,
+    "Osun": 78.85,
+    "Oyo": 79.875
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:accounting",
+   "value": 73,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "ACCOUNTING | 73 | 61.6 | 65.275 | 69.35 | 65.9 | 68.625 | 67.85",
+   "catchment": {
+    "Ekiti": 61.6,
+    "Lagos": 65.275,
+    "Ogun": 69.35,
+    "Ondo": 65.9,
+    "Osun": 68.625,
+    "Oyo": 67.85
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:economics",
+   "value": 73.625,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "ECONOMICS | 73.625 | 62.525 | 64.9 | 68.05 | 62.175 | 67.35 | 69.35",
+   "catchment": {
+    "Ekiti": 62.525,
+    "Lagos": 64.9,
+    "Ogun": 68.05,
+    "Ondo": 62.175,
+    "Osun": 67.35,
+    "Oyo": 69.35
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:mass-comm",
+   "value": 74.6,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "MASS COMMUNICATION | 74.6 | 64.275 | 72.45 | 73.025 | 71.9 | 70.775 | 71.725",
+   "catchment": {
+    "Ekiti": 64.275,
+    "Lagos": 72.45,
+    "Ogun": 73.025,
+    "Ondo": 71.9,
+    "Osun": 70.775,
+    "Oyo": 71.725
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:business-admin",
+   "value": 66.725,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "BUSINESS ADMIN. | 66.725 | 55.45 | 60.025 | 62.7 | 57.1 | 60.25 | 57.175",
+   "catchment": {
+    "Ekiti": 55.45,
+    "Lagos": 60.025,
+    "Ogun": 62.7,
+    "Ondo": 57.1,
+    "Osun": 60.25,
+    "Oyo": 57.175
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:political-science",
+   "value": 65.65,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "POLITICAL SCIENCE | 65.65 | 59.75 | 51.5 | 61.975 | 58.825 | 51.5 | 55.275",
+   "catchment": {
+    "Ekiti": 59.75,
+    "Lagos": 51.5,
+    "Ogun": 61.975,
+    "Ondo": 58.825,
+    "Osun": 51.5,
+    "Oyo": 55.275
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:civil-eng",
+   "value": 74.35,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "CIVIL ENGINEERING | 74.35 | 62.675 | 69.7 | 71.9 | 67.775 | 71.55 | 68.575",
+   "catchment": {
+    "Ekiti": 62.675,
+    "Lagos": 69.7,
+    "Ogun": 71.9,
+    "Ondo": 67.775,
+    "Osun": 71.55,
+    "Oyo": 68.575
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:electrical-eng",
+   "value": 79.025,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "ELECTRICAL ENGINEERING | 79.025 | 67.925 | 74.625 | 73.975 | 67.7 | 69.2 | 71.3",
+   "catchment": {
+    "Ekiti": 67.925,
+    "Lagos": 74.625,
+    "Ogun": 73.975,
+    "Ondo": 67.7,
+    "Osun": 69.2,
+    "Oyo": 71.3
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:mechanical-eng",
+   "value": 79.275,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "MECHANICAL ENGINEERING | 79.275 | 67.625 | 76.35 | 77.05 | 68.8 | 70.525 | 74.325",
+   "catchment": {
+    "Ekiti": 67.625,
+    "Lagos": 76.35,
+    "Ogun": 77.05,
+    "Ondo": 68.8,
+    "Osun": 70.525,
+    "Oyo": 74.325
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:chemical-eng",
+   "value": 72.925,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "CHEMICAL ENGINEERING | 72.925 | 62.625 | 63.525 | 70.925 | 67.525 | 64.675 | 62.75",
+   "catchment": {
+    "Ekiti": 62.625,
+    "Lagos": 63.525,
+    "Ogun": 70.925,
+    "Ondo": 67.525,
+    "Osun": 64.675,
+    "Oyo": 62.75
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:petroleum-eng",
+   "value": 75.025,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "PETROLEUM & GAS ENGINEERING | 75.025 | 64.15 | 66.125 | 71.675 | 63.75 | 68.275 | 69.425",
+   "catchment": {
+    "Ekiti": 64.15,
+    "Lagos": 66.125,
+    "Ogun": 71.675,
+    "Ondo": 63.75,
+    "Osun": 68.275,
+    "Oyo": 69.425
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:architecture",
+   "value": 72.9,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "ARCHITECTURE | 72.9 | 56.85 | 61.925 | 65.45 | 54.55 | 67.375 | 56.525",
+   "catchment": {
+    "Ekiti": 56.85,
+    "Lagos": 61.925,
+    "Ogun": 65.45,
+    "Ondo": 54.55,
+    "Osun": 67.375,
+    "Oyo": 56.525
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:microbiology",
+   "value": 67.6,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "MICROBIOLOGY | 67.6 | 59.75 | 61.125 | 66.525 | 61.475 | 64.75 | 65.2",
+   "catchment": {
+    "Ekiti": 59.75,
+    "Lagos": 61.125,
+    "Ogun": 66.525,
+    "Ondo": 61.475,
+    "Osun": 64.75,
+    "Oyo": 65.2
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:biochemistry",
+   "value": 67.9,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "BIOCHEMISTRY | 67.9 | 55.95 | 63.15 | 63.65 | 60.625 | 64.025 | 57.03",
+   "catchment": {
+    "Ekiti": 55.95,
+    "Lagos": 63.15,
+    "Ogun": 63.65,
+    "Ondo": 60.625,
+    "Osun": 64.025,
+    "Oyo": 57.03
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:english",
+   "value": 68.15,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "ENGLISH | 68.15 | 56.65 | 63.475 | 63.7 | 57.1 | 53.475 | 61.325",
+   "catchment": {
+    "Ekiti": 56.65,
+    "Lagos": 63.475,
+    "Ogun": 63.7,
+    "Ondo": 57.1,
+    "Osun": 53.475,
+    "Oyo": 61.325
+   }
+  },
+  {
+   "school": "unilag",
+   "field": "course:software-eng",
+   "value": 59.25,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "SOFTWARE ENGINEERING | 59.25 | NIL | NIL | NIL | NIL | NIL | NIL",
+   "catchment": null
+  },
+  {
+   "school": "unilag",
+   "field": "course:cyber-security",
+   "value": 66.075,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unilag-releases-2026-2027-utme-merit-cut-off-marks",
+   "quote": "CYBERSECURITY | 66.075 | NIL | 60.4 | 59.975 | 62.25 | 59.375 | 56.75",
+   "catchment": {
+    "Lagos": 60.4,
+    "Ogun": 59.975,
+    "Ondo": 62.25,
+    "Osun": 59.375,
+    "Oyo": 56.75
+   }
+  },
+  {
+   "school": "ui",
+   "field": "min",
+   "value": 200,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/ui-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "Only candidates who scored 200 or above in the 2026UTME are eligible to register for the Post-UTME Examination."
+  },
+  {
+   "school": "ui",
+   "field": "postutme",
+   "value": "Post-UTME examination (format details not published)",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/ui-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "Only candidates who scored 200 or above in the 2026UTME are eligible to register for the Post-UTME Examination."
+  },
+  {
+   "school": "ui",
+   "field": "course:medicine",
+   "value": 80.0,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "Medicine and Surgery tops the list with a Merit and Catchment cut-off of 80.00 and an ELDS cut-off of 73.5.",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:law",
+   "value": 71.0,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "Law requires 71.00 across Merit and Catchment categories, with ELDS candidates needing at least 69.125.",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:nursing",
+   "value": 74.5,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "Nursing Science follows at 74.5 for Merit and Catchment, dropping to 67.125 for ELDS.",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:pharmacy",
+   "value": 70.375,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "Pharmacy is close behind at 70.375 for Merit and Catchment, and 68.625 for ELDS.",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:mls",
+   "value": 68.0,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "Medical Laboratory Science and Physiotherapy are both set at 68.00 and 68.5 respectively for Merit and Catchment.",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:physiotherapy",
+   "value": 68.5,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "Medical Laboratory Science and Physiotherapy are both set at 68.00 and 68.5 respectively for Merit and Catchment.",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:dentistry",
+   "value": 72.875,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "Dentistry requires 72.875 under the Merit and Catchment categories, and 62.875 for ELDS applicants.",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:computer-science",
+   "value": 74.125,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "Computer Science is set at 74.125 for Merit and Catchment and 60.00 for ELDS.",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:accounting",
+   "value": 69.5,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "Accounting, under the Faculty of Economics and Management Sciences, carries a Merit and Catchment cut-off of 69.5 and 63.75 for ELDS.",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:economics",
+   "value": 58.125,
+   "scale": "agg100",
+   "session": "2025/2026",
+   "url": "https://ui.edu.ng/sites/default/files/2025-26%20Cut-Off%20Marks%2012-9-2025%20FINAL.pdf",
+   "quote": "Economics 58.125 58.125 53.625",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:political-science",
+   "value": 51.625,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "In Social Sciences, Political Science is set at 51.625 for Merit and Catchment.",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:civil-eng",
+   "value": 63.25,
+   "scale": "agg100",
+   "session": "2025/2026",
+   "url": "https://ui.edu.ng/sites/default/files/2025-26%20Cut-Off%20Marks%2012-9-2025%20FINAL.pdf",
+   "quote": "Civil Engineering 63.25 63.25 57",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:electrical-eng",
+   "value": 71.25,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "Electrical and Electronics Engineering requires 71.25 for Merit and Catchment, but its ELDS cut-off falls to 54.25.",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:mechanical-eng",
+   "value": 70.0,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "Mechanical Engineering is set at 70.00 for Merit and Catchment, and 65.875 for ELDS.",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:petroleum-eng",
+   "value": 62.75,
+   "scale": "agg100",
+   "session": "2025/2026",
+   "url": "https://ui.edu.ng/sites/default/files/2025-26%20Cut-Off%20Marks%2012-9-2025%20FINAL.pdf",
+   "quote": "Petroleum Engineering 62.75 62.75 57.125",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:architecture",
+   "value": 50,
+   "scale": "agg100",
+   "session": "2025/2026",
+   "url": "https://ui.edu.ng/sites/default/files/2025-26%20Cut-Off%20Marks%2012-9-2025%20FINAL.pdf",
+   "quote": "Architecture 50 50 50",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:microbiology",
+   "value": 50.5,
+   "scale": "agg100",
+   "session": "2025/2026",
+   "url": "https://ui.edu.ng/sites/default/files/2025-26%20Cut-Off%20Marks%2012-9-2025%20FINAL.pdf",
+   "quote": "Microbiology 50.5 50.5 50.5",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:biochemistry",
+   "value": 53.125,
+   "scale": "agg100",
+   "session": "2025/2026",
+   "url": "https://ui.edu.ng/sites/default/files/2025-26%20Cut-Off%20Marks%2012-9-2025%20FINAL.pdf",
+   "quote": "Biochemistry 53.125 53.125 53.125",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:english",
+   "value": 56.5,
+   "scale": "agg100",
+   "session": "2025/2026",
+   "url": "https://ui.edu.ng/sites/default/files/2025-26%20Cut-Off%20Marks%2012-9-2025%20FINAL.pdf",
+   "quote": "English 56.5 56.5 53.375",
+   "catchment": null
+  },
+  {
+   "school": "ui",
+   "field": "course:software-eng",
+   "value": 75.375,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/education/1730927-university-ibadan-admission-full-list-20262027-cut-marks-released/",
+   "quote": "Software Engineering holds the highest cut-off at 75.375 for Merit and Catchment, though its ELDS threshold drops significantly to 57.875.",
+   "catchment": null
+  },
+  {
+   "school": "oau",
+   "field": "min",
+   "value": 200,
+   "session": "2026/2027",
+   "url": "https://oauife.edu.ng/2026-admission-screening-exercise-for-utme-and-direct-entry-candidates/",
+   "quote": "Candidates who made Obafemi Awolowo University, Ile-Ife, their first choice in the 2026 UTME and scored 200 and above, and those who applied for Direct Entry (DE), are hereby informed"
+  },
+  {
+   "school": "oau",
+   "field": "postutme",
+   "value": "Physical screening at designated centres",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/oau-post-utme-de-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Candidates for the 2026 OAU Post-UTME exercise will be required to present themselves physically at designated locations for the screening exercise."
+  },
+  {
+   "school": "oau",
+   "field": "course:medicine",
+   "value": 287,
+   "scale": "school",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1573511-oau-cut-mark-courses-find-qualify/",
+   "quote": "Medicine: 287",
+   "catchment": null
+  },
+  {
+   "school": "oau",
+   "field": "course:nursing",
+   "value": 256,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/education/1573511-oau-cut-mark-courses-find-qualify/",
+   "quote": "In the 2025/2026 admission period, the departmental OAU cut-off mark for nursing was 256.",
+   "catchment": null
+  },
+  {
+   "school": "oau",
+   "field": "course:pharmacy",
+   "value": 256.5,
+   "scale": "school",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1573511-oau-cut-mark-courses-find-qualify/",
+   "quote": "Faculty Of Pharmacy: 256.5",
+   "catchment": null
+  },
+  {
+   "school": "oau",
+   "field": "course:economics",
+   "value": 272,
+   "scale": "school",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1573511-oau-cut-mark-courses-find-qualify/",
+   "quote": "Economics: 272",
+   "catchment": null
+  },
+  {
+   "school": "oau",
+   "field": "course:civil-eng",
+   "value": 259,
+   "scale": "school",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1573511-oau-cut-mark-courses-find-qualify/",
+   "quote": "Civil Engineering: 259",
+   "catchment": null
+  },
+  {
+   "school": "oau",
+   "field": "course:electrical-eng",
+   "value": 268,
+   "scale": "school",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1573511-oau-cut-mark-courses-find-qualify/",
+   "quote": "Electrical & Electronics Engineering: 268",
+   "catchment": null
+  },
+  {
+   "school": "oau",
+   "field": "course:mechanical-eng",
+   "value": 266,
+   "scale": "school",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1573511-oau-cut-mark-courses-find-qualify/",
+   "quote": "Mechanical Engineering: 266",
+   "catchment": null
+  },
+  {
+   "school": "oau",
+   "field": "course:chemical-eng",
+   "value": 272,
+   "scale": "school",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1573511-oau-cut-mark-courses-find-qualify/",
+   "quote": "Chemical Engineering: 272",
+   "catchment": null
+  },
+  {
+   "school": "oau",
+   "field": "course:accounting",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/education/1573511-oau-cut-mark-courses-find-qualify/",
+   "quote": "The OAU JAMB cut-off mark for Management & Accounting was 200 in the 2025/2026 period.",
+   "catchment": null
+  },
+  {
+   "school": "oau",
+   "field": "course:law",
+   "value": 270,
+   "scale": "school",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1573511-oau-cut-mark-courses-find-qualify/",
+   "quote": "The 2024/2025 cut-off mark for the Faculty of Law at the Obafemi Awolowo University was 270.",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "min",
+   "value": 160,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unn-post-utme-de-2025-cut-off-mark-eligibility-and-registration-details",
+   "quote": "scored 160 and above for screening exercise"
+  },
+  {
+   "school": "unn",
+   "field": "postutme",
+   "value": "CBT",
+   "session": "2026/2027",
+   "url": "https://www.unn.edu.ng/examination-instructions-ahead-of-the-2026-2027-post-utme-aptitute-test/",
+   "quote": "The examination duration is thirty (30) minutes. Timing commences immediately the candidate selects the “Start” button."
+  },
+  {
+   "school": "unn",
+   "field": "course:law",
+   "value": 297,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Law | 297",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:nursing",
+   "value": 279,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Nursing Science | 279",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:pharmacy",
+   "value": 286,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Pharmacy | 286",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:mls",
+   "value": 250,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Medical Laboratory Science | 250",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:dentistry",
+   "value": 274,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Faculty of Dentistry | 274",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:computer-science",
+   "value": 250,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Computer Science | 250",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:accounting",
+   "value": 246,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Accountancy | 246",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:economics",
+   "value": 228,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Economics | 228",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:political-science",
+   "value": 240,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Political Sciences | 240",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:civil-eng",
+   "value": 228,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Civil Engineering | 228",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:electrical-eng",
+   "value": 218,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Electrical Engineering | 218",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:mechanical-eng",
+   "value": 244,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Mechanical Engineering | 244",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:architecture",
+   "value": 216,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Architecture | 216",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:microbiology",
+   "value": 207,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Microbiology | 207",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:biochemistry",
+   "value": 215,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "Biochemistry | 215",
+   "catchment": null
+  },
+  {
+   "school": "unn",
+   "field": "course:english",
+   "value": 249,
+   "scale": "school",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105887-university-nigeria-nsukka-cut-mark.html",
+   "quote": "English and Literary Studies | 249",
+   "catchment": null
+  },
+  {
+   "school": "abu",
+   "field": "min",
+   "value": 180,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/abu-zaria-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "Only candidates with UTME Score of 180 and above are eligible to register for the Screening Exercise, while Direct Entry Candidates are required only to pay screening fee and register."
+  },
+  {
+   "school": "uniben",
+   "field": "min",
+   "value": 200,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/uniben-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "chose the University of Benin as their First Choice, and scored 200 and above (for UTME Candidates) are eligible for this Screening Exercise."
+  },
+  {
+   "school": "uniben",
+   "field": "postutme",
+   "value": "CBT",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/uniben-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "The screening exercise shall be conducted using the Computer-Based Test (CBT)."
+  },
+  {
+   "school": "unilorin",
+   "field": "min",
+   "value": 180,
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1155779-unilorin-courses-cut-marks.html",
+   "quote": "The UNILORIN post-UTME cut-off mark for all courses for 2026/2027 was at least 180."
+  },
+  {
+   "school": "lasu",
+   "field": "min",
+   "value": 195,
+   "session": "2026/2027",
+   "url": "https://services.lidc.lasu.edu.ng/",
+   "quote": "Minimum score of\n195\nin the 2026 UTME"
+  },
+  {
+   "school": "lasu",
+   "field": "postutme",
+   "value": "Screening by points (UTME + O'level), no test stated",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/lasu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "The screening of candidate(s) will be based on Point Grading System, using the UTME Score and SSCE (or equivalent) grades in Five (5) BEST RELEVANT subjects to candidate’s choice of course"
+  },
+  {
+   "school": "lasu",
+   "field": "course:computer-science",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1583276-lasu-cut-mark-courses-admission/",
+   "quote": "The cut-off mark for computer science at Lagos State University was 200 or higher.",
+   "catchment": null
+  },
+  {
+   "school": "lasu",
+   "field": "course:nursing",
+   "value": 270,
+   "scale": "jamb",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1583276-lasu-cut-mark-courses-admission/",
+   "quote": "The 2024/2025 cut-off mark for nursing in LASU was 270.",
+   "catchment": null
+  },
+  {
+   "school": "lasu",
+   "field": "course:law",
+   "value": 195,
+   "scale": "jamb",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1583276-lasu-cut-mark-courses-admission/",
+   "quote": "The Lagos State University’s cut-off mark for Law in 2024/2025 admissions is 195.",
+   "catchment": null
+  },
+  {
+   "school": "lasu",
+   "field": "course:medicine",
+   "value": 240,
+   "scale": "jamb",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1583276-lasu-cut-mark-courses-admission/",
+   "quote": "For the 2024/2025 academic session, the cut-off mark for the medicine and surgery program at Lagos State University (LASU) is set at 240.",
+   "catchment": null
+  },
+  {
+   "school": "lasu",
+   "field": "course:mass-comm",
+   "value": 195,
+   "scale": "jamb",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1583276-lasu-cut-mark-courses-admission/",
+   "quote": "The cut-off mark for the mass communication program at Lagos State University (LASU) for the 2024/2025 academic session is set at 195.",
+   "catchment": null
+  },
+  {
+   "school": "lasu",
+   "field": "course:english",
+   "value": 195,
+   "scale": "jamb",
+   "session": "2024/2025",
+   "url": "https://www.legit.ng/education/1583276-lasu-cut-mark-courses-admission/",
+   "quote": "The cut-off mark for studying English language at Lagos State University (LASU) for the 2024/2025 academic year is set at 195.",
+   "catchment": null
+  },
+  {
+   "school": "futa",
+   "field": "min",
+   "value": 180,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futa-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "UTME Candidates: Must have scored a minimum of 180 in the 2026 UTME conducted by the Joint Admissions and Matriculation Board (JAMB)."
+  },
+  {
+   "school": "uniport",
+   "field": "min",
+   "value": 160,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/uniport-post-utme-de-2024-cut-off-mark-eligibility-and-registration-details",
+   "quote": "obtained a minimum score of\n160\n, to apply for"
+  },
+  {
+   "school": "uniport",
+   "field": "postutme",
+   "value": "CBT",
+   "session": "2025",
+   "url": "https://www.uniport.edu.ng/latest-info/2025-2026-post-utme-screening-schedule/",
+   "quote": "SCHEDULE FOR THE 2025 POST-UTME (CBT) SCREENING EXERCISE"
+  },
+  {
+   "school": "uniport",
+   "field": "course:pharmacy",
+   "value": 230,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1174506-uniport-postgraduate-school-fees.html",
+   "quote": "The general departmental cut-off mark for pharmacy is 230.",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "min",
+   "value": 180,
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "cut-off marks start from 180"
+  },
+  {
+   "school": "buk",
+   "field": "course:medicine",
+   "value": 240,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "Medicine and Surgery (MBBS) | 240",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:law",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "LL.B | 200",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:nursing",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B. Nursing | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:pharmacy",
+   "value": 230,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "Doctor of Pharmacy | 230",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:mls",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B. Medical Laboratory Science | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:physiotherapy",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B. Physiotherapy | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:dentistry",
+   "value": 240,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B. Dentistry/Dental Surgery | 240",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:computer-science",
+   "value": 190,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Sc. Computer Science | 190",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:accounting",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Sc. Accounting | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:economics",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Sc. Economics | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:mass-comm",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Sc. Mass Communication | 200",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:business-admin",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Sc. Business Administration | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:political-science",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Sc. Political Science | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:civil-eng",
+   "value": 190,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Eng. Civil Engineering | 190",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:electrical-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Eng. Electrical Engineering | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:mechanical-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Eng. Mechanical Engineering | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:chemical-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Eng. Chemical Engineering | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:petroleum-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Eng. Petroleum Engineering | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:architecture",
+   "value": 190,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Sc. Architecture | 190",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:microbiology",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Sc. Microbiology | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:biochemistry",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Sc. Biochemistry | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:english",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.A. English | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:software-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Sc. Software Engineering | 180",
+   "catchment": null
+  },
+  {
+   "school": "buk",
+   "field": "course:cyber-security",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1105911-bayero-university-kano-buk-courses-cut-mark-fees.html",
+   "quote": "B.Sc. Cyber Security | 180",
+   "catchment": null
+  },
+  {
+   "school": "unical",
+   "field": "min",
+   "value": 150,
+   "session": "2026/2027",
+   "url": "https://postutme.unical.edu.ng/",
+   "quote": "Candidates who chose UNICAL as their first choice and scored 150+."
+  },
+  {
+   "school": "unical",
+   "field": "course:accounting",
+   "value": 150,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1144031-list-courses-offered-by-university-calabar.html",
+   "quote": "Accounting | 150",
+   "catchment": null
+  },
+  {
+   "school": "unical",
+   "field": "course:biochemistry",
+   "value": 150,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1144031-list-courses-offered-by-university-calabar.html",
+   "quote": "Biochemistry | 150",
+   "catchment": null
+  },
+  {
+   "school": "unical",
+   "field": "course:computer-science",
+   "value": 140,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1144031-list-courses-offered-by-university-calabar.html",
+   "quote": "The JAMB cut-off mark for Computer Science at the UNICAL was 140 and above for the 2026/2027.",
+   "catchment": null
+  },
+  {
+   "school": "unical",
+   "field": "course:economics",
+   "value": 140,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1144031-list-courses-offered-by-university-calabar.html",
+   "quote": "Economics | 140",
+   "catchment": null
+  },
+  {
+   "school": "unical",
+   "field": "course:law",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1144031-list-courses-offered-by-university-calabar.html",
+   "quote": "The JAMB cut-off mark for a Law degree at UNICAL for the 2026/2027 was 200 and above.",
+   "catchment": null
+  },
+  {
+   "school": "unical",
+   "field": "course:mass-comm",
+   "value": 160,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1144031-list-courses-offered-by-university-calabar.html",
+   "quote": "Mass Communication | 160",
+   "catchment": null
+  },
+  {
+   "school": "unical",
+   "field": "course:mls",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://www.legit.ng/1144031-list-courses-offered-by-university-calabar.html",
+   "quote": "Medical Laboratory Science | 180 and above",
+   "catchment": null
+  },
+  {
+   "school": "unical",
+   "field": "course:medicine",
+   "value": 220,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1144031-list-courses-offered-by-university-calabar.html",
+   "quote": "For the 2026/2027 academic year, the cut-off mark was 220 and above.",
+   "catchment": null
+  },
+  {
+   "school": "unical",
+   "field": "course:microbiology",
+   "value": 150,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1144031-list-courses-offered-by-university-calabar.html",
+   "quote": "The University of Calabar's JAMB 2026/2027 cut-off mark for Microbiology was 150.",
+   "catchment": null
+  },
+  {
+   "school": "unical",
+   "field": "course:nursing",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1144031-list-courses-offered-by-university-calabar.html",
+   "quote": "The University of Calabar cut-off mark for Nursing for the 2026/2027 period was 200 and above.",
+   "catchment": null
+  },
+  {
+   "school": "unical",
+   "field": "course:pharmacy",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1144031-list-courses-offered-by-university-calabar.html",
+   "quote": "UNICAL JAMB cut-off mark for a Pharmacy degree was 180 and above for the 2026/2027 academic period.",
+   "catchment": null
+  },
+  {
+   "school": "unizik",
+   "field": "min",
+   "value": 180,
+   "session": "2026/2027",
+   "url": "https://unizik.edu.ng/jamb-cutoff-2026-2027",
+   "quote": "The Joint Admissions and Matriculation Board has set the UNIZIK cut-off mark at 180 for the 2026/2027 academic session."
+  },
+  {
+   "school": "unizik",
+   "field": "postutme",
+   "value": "CBT",
+   "session": null,
+   "url": "https://unizik.edu.ng/admissions/undergraduate",
+   "quote": "Candidates who meet the JAMB cut-off must sit the UNIZIK Post-UTME computer-based test (CBT)."
+  },
+  {
+   "school": "unizik",
+   "field": "course:medicine",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://unizik.edu.ng/2025-2026-post-utme-direct-entry-screening-exercise",
+   "quote": "Faculties/Programmes With PASS Mark of 200",
+   "catchment": null
+  },
+  {
+   "school": "unizik",
+   "field": "course:law",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://unizik.edu.ng/2025-2026-post-utme-direct-entry-screening-exercise",
+   "quote": "Faculties/Programmes With PASS Mark of 200",
+   "catchment": null
+  },
+  {
+   "school": "unizik",
+   "field": "course:nursing",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://unizik.edu.ng/2025-2026-post-utme-direct-entry-screening-exercise",
+   "quote": "Faculties/Programmes With PASS Mark of 200",
+   "catchment": null
+  },
+  {
+   "school": "unizik",
+   "field": "course:pharmacy",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://unizik.edu.ng/2025-2026-post-utme-direct-entry-screening-exercise",
+   "quote": "Faculties/Programmes With PASS Mark of 200",
+   "catchment": null
+  },
+  {
+   "school": "unizik",
+   "field": "course:mls",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://unizik.edu.ng/2025-2026-post-utme-direct-entry-screening-exercise",
+   "quote": "Faculties/Programmes With PASS Mark of 200",
+   "catchment": null
+  },
+  {
+   "school": "unizik",
+   "field": "course:physiotherapy",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://unizik.edu.ng/2025-2026-post-utme-direct-entry-screening-exercise",
+   "quote": "Faculties/Programmes With PASS Mark of 200",
+   "catchment": null
+  },
+  {
+   "school": "unizik",
+   "field": "course:civil-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://unizik.edu.ng/2025-2026-post-utme-direct-entry-screening-exercise",
+   "quote": "Faculties/Programmes With PASS Mark of\n180",
+   "catchment": null
+  },
+  {
+   "school": "unizik",
+   "field": "course:electrical-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://unizik.edu.ng/2025-2026-post-utme-direct-entry-screening-exercise",
+   "quote": "Faculties/Programmes With PASS Mark of\n180",
+   "catchment": null
+  },
+  {
+   "school": "unizik",
+   "field": "course:chemical-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://unizik.edu.ng/2025-2026-post-utme-direct-entry-screening-exercise",
+   "quote": "Faculties/Programmes With PASS Mark of\n180",
+   "catchment": null
+  },
+  {
+   "school": "unizik",
+   "field": "course:english",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://unizik.edu.ng/2025-2026-post-utme-direct-entry-screening-exercise",
+   "quote": "Faculties/Programmes With PASS Mark of\n180",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "min",
+   "value": 150,
+   "session": "2026/2027",
+   "url": "https://futminna.edu.ng/2026-2027-pre-admission-screening-exercise-2026-utme-de/",
+   "quote": "UTME candidates must have a minimum score of 150, except for those courses for which higher cut-off marks have been indicated on the University website."
+  },
+  {
+   "school": "futminna",
+   "field": "course:architecture",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SAT | ARC | Architecture | Architecture | 200",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:electrical-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SEET | EEE | Electrical and Electronics Engineering | Electrical and Electronics Engineering | 180",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:computer-science",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SICT | CPT | Computer Science | Computer Science | 200",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:cyber-security",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SICT | CSS | Cyber Security Science | Cyber Security Science | 200",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:software-eng",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SICT | SWE | Software Engineering | Software Engineering | 200",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:chemical-eng",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SIPET | CHE | Chemical Engineering | Chemical Engineering | 170",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:civil-eng",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SIPET | CIE | Civil Engineering | Civil Engineering | 200",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:mechanical-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SIPET | MEE | Mechanical Engineering | Mechanical Engineering | 180",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:petroleum-eng",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SIPET | PGE | Petroleum and Gas Engineering | Petroleum and Gas Engineering | 170",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:biochemistry",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SLS | BCH | Biochemistry | Biochemistry | 180",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:microbiology",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SLS | MCB | Microbiology | Microbiology | 180",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:medicine",
+   "value": 250,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SBMS | MDS | Medicine and Surgery | Medicine and Surgery | 250",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:nursing",
+   "value": 220,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SAHS | NRS | Nursing Science | Nursing Science | 220",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:mls",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SAHS | MLS | Medical Laboratory Science | Medical Laboratory Science | 200",
+   "catchment": null
+  },
+  {
+   "school": "futminna",
+   "field": "course:pharmacy",
+   "value": 230,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://eportal.futminna.edu.ng/ePortal_V2/utme/",
+   "quote": "SPhS | DRP | Doctor of Pharmacy | Doctor of Pharmacy | 230",
+   "catchment": null
+  },
+  {
+   "school": "uniuyo",
+   "field": "min",
+   "value": 150,
+   "session": "2026/2027",
+   "url": "https://uniuyo.edu.ng/notice/2026-2027-post-utme-direct-entry-screening-exercise/",
+   "quote": "had a minimum score of 150 to apply for screening"
+  },
+  {
+   "school": "eksu",
+   "field": "min",
+   "value": 150,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "The University will still consider UTME candidates who did not choose EKSU initially but scored 150 and above in the 2026 UTME, and are ready to change their Institutions of first choice to EKSU on the JAMB CAPS."
+  },
+  {
+   "school": "eksu",
+   "field": "postutme",
+   "value": "Screening only, no exam",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "that the Post UTME screening exercise will commence from Friday, 3rd July, 2026 (Please, note that there will be no examination)."
+  },
+  {
+   "school": "eksu",
+   "field": "course:computer-science",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "The University's minimum UTME score for Computer Science, Engineering Programme, Medical Biochemistry is 180",
+   "catchment": null
+  },
+  {
+   "school": "eksu",
+   "field": "course:civil-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "The University's minimum UTME score for Computer Science, Engineering Programme, Medical Biochemistry is 180",
+   "catchment": null
+  },
+  {
+   "school": "eksu",
+   "field": "course:electrical-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "The University's minimum UTME score for Computer Science, Engineering Programme, Medical Biochemistry is 180",
+   "catchment": null
+  },
+  {
+   "school": "eksu",
+   "field": "course:mechanical-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "The University's minimum UTME score for Computer Science, Engineering Programme, Medical Biochemistry is 180",
+   "catchment": null
+  },
+  {
+   "school": "eksu",
+   "field": "course:chemical-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "The University's minimum UTME score for Computer Science, Engineering Programme, Medical Biochemistry is 180",
+   "catchment": null
+  },
+  {
+   "school": "eksu",
+   "field": "course:petroleum-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "The University's minimum UTME score for Computer Science, Engineering Programme, Medical Biochemistry is 180",
+   "catchment": null
+  },
+  {
+   "school": "eksu",
+   "field": "course:biochemistry",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "The University's minimum UTME score for Computer Science, Engineering Programme, Medical Biochemistry is 180",
+   "catchment": null
+  },
+  {
+   "school": "eksu",
+   "field": "course:mass-comm",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "while minimum UTME score for Mass Communication, Medical Laboratory Science, Nursing Science, Pharmacy, Law and Medicine (MBBS) are 200, 220, 230, 240, 250 and 200 respectively.",
+   "catchment": null
+  },
+  {
+   "school": "eksu",
+   "field": "course:mls",
+   "value": 220,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "while minimum UTME score for Mass Communication, Medical Laboratory Science, Nursing Science, Pharmacy, Law and Medicine (MBBS) are 200, 220, 230, 240, 250 and 200 respectively.",
+   "catchment": null
+  },
+  {
+   "school": "eksu",
+   "field": "course:nursing",
+   "value": 230,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "while minimum UTME score for Mass Communication, Medical Laboratory Science, Nursing Science, Pharmacy, Law and Medicine (MBBS) are 200, 220, 230, 240, 250 and 200 respectively.",
+   "catchment": null
+  },
+  {
+   "school": "eksu",
+   "field": "course:pharmacy",
+   "value": 240,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "while minimum UTME score for Mass Communication, Medical Laboratory Science, Nursing Science, Pharmacy, Law and Medicine (MBBS) are 200, 220, 230, 240, 250 and 200 respectively.",
+   "catchment": null
+  },
+  {
+   "school": "eksu",
+   "field": "course:law",
+   "value": 250,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/eksu-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "while minimum UTME score for Mass Communication, Medical Laboratory Science, Nursing Science, Pharmacy, Law and Medicine (MBBS) are 200, 220, 230, 240, 250 and 200 respectively.",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "min",
+   "value": 160,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/oou-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "UTME Candidates who chose the University with a minimum score of 160 in the 2026/2027 UTME Results."
+  },
+  {
+   "school": "oou",
+   "field": "postutme",
+   "value": "CBT",
+   "session": "2026",
+   "url": "https://www.legit.ng/education/1630436-olabisi-onabanjo-universitys-post-utme-requirements-application-process/",
+   "quote": "OOU's post-UTME screening is a computer-based test. The test consists of 50 questions to be answered within 30 minutes, and the exam is graded out of 100 marks."
+  },
+  {
+   "school": "oou",
+   "field": "course:accounting",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Accounting | 170",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:business-admin",
+   "value": 160,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Business Administration | 160",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:political-science",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Political Science | 170",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:civil-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Civil Engineering | 180",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:electrical-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Electrical and Electronics Engineering | 180",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:mechanical-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Mechanical Engineering | 180",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:architecture",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Architecture | 170",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:law",
+   "value": 220,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Civil Law | 220",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:nursing",
+   "value": 220,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Nursing | 220",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:medicine",
+   "value": 220,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Medicine and Surgery | 220",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:pharmacy",
+   "value": 220,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Pharmacy | 220",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:biochemistry",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Biochemistry | 170",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:computer-science",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Computer Science | 170",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:microbiology",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Microbiology | 170",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:economics",
+   "value": 160,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Economics | 160",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:mass-comm",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "Mass Communication | 170",
+   "catchment": null
+  },
+  {
+   "school": "oou",
+   "field": "course:english",
+   "value": 160,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://www.legit.ng/1127661-olabisi-onabanjo-university-courses-cut-mark.html",
+   "quote": "English Language | 160",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "min",
+   "value": 160,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/archive/aaua-post-utme/aaua-post-utme-de-2026-cut-off-mark-eligibility-and-registration-details",
+   "quote": "Those who sat for the 2026/2027 UTME, scored 160 and above and are willing to change and make Adekunle Ajasin University, Akungba-Akoko their institution of First choice."
+  },
+  {
+   "school": "aaua",
+   "field": "postutme",
+   "value": "Written test",
+   "session": null,
+   "url": "https://myschool.ng/news/fact-about-post-ume-in-aaua-12252",
+   "quote": "The AAUA post-utme consists of 100\nstandard questions which is expected to be\nanswered in 90minutes (I.30hrs) AAUA\ntime."
+  },
+  {
+   "school": "aaua",
+   "field": "course:english",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "I. English Studies — 180",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:accounting",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "I. Accounting — 180",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:business-admin",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "III. Business Administration — 180",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:economics",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "II. Economics — 170",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:computer-science",
+   "value": 185,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "I. Computer Science — 185",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:cyber-security",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "II. Cyber Security — 180",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:software-eng",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "VI. Software Engineering — 180",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:architecture",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "I. Architecture — 180",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:mls",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "I. Medical Laboratory Science — 200",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:nursing",
+   "value": 230,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "II. Nursing Science — 230",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:law",
+   "value": 265,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "I. Law — 265",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:biochemistry",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "II. Biochemistry — 180",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:microbiology",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "IX. Microbiology — 180",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:mass-comm",
+   "value": 210,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "IV. Mass Communication — 210",
+   "catchment": null
+  },
+  {
+   "school": "aaua",
+   "field": "course:political-science",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/aaua-releases-admission-cut-off-mark-2026-2027",
+   "quote": "V. Political Science — 180",
+   "catchment": null
+  },
+  {
+   "school": "covenant",
+   "field": "min",
+   "value": 200,
+   "session": "2026/2027",
+   "url": "https://admissions.covenantuniversity.edu.ng/",
+   "quote": "The Realistic Institutional Admittable Minimum UTME Scores (RIAMUS) generally known as Cut-off Mark for this year’s admission cycle into Covenant University is 200."
+  },
+  {
+   "school": "funaab",
+   "field": "min",
+   "value": 160,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/funaab-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Those who made Federal University of Agriculture, Abeokuta (FUNAAB) their institution of First choice in the 2026/2027 UTME and scored 160 and above;"
+  },
+  {
+   "school": "funaab",
+   "field": "postutme",
+   "value": "CBT",
+   "session": null,
+   "url": "https://helpdesk.funaab.edu.ng/knowledgebase.php?category=8",
+   "quote": "Our Post-UTME CBT covers the following subjects irrespective of your choice of course.\nUTME Candidates\nEnglish/Current Affairs,\nMathematics,\nPhysics,\nChemistry\nBiology"
+  },
+  {
+   "school": "funaab",
+   "field": "course:computer-science",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://admission.funaab.edu.ng/2026/programmes.php",
+   "quote": "Computer Science (200 marks)",
+   "catchment": null
+  },
+  {
+   "school": "funaab",
+   "field": "course:cyber-security",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://admission.funaab.edu.ng/2026/programmes.php",
+   "quote": "Cyber Security (200 marks)",
+   "catchment": null
+  },
+  {
+   "school": "funaab",
+   "field": "course:software-eng",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://admission.funaab.edu.ng/2026/programmes.php",
+   "quote": "Software Engineering (200 marks)",
+   "catchment": null
+  },
+  {
+   "school": "funaab",
+   "field": "course:civil-eng",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://admission.funaab.edu.ng/2026/programmes.php",
+   "quote": "Civil Engineering (200 marks)",
+   "catchment": null
+  },
+  {
+   "school": "funaab",
+   "field": "course:electrical-eng",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://admission.funaab.edu.ng/2026/programmes.php",
+   "quote": "Electrical and Electronics Engineering (200 marks)",
+   "catchment": null
+  },
+  {
+   "school": "funaab",
+   "field": "course:mechanical-eng",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://admission.funaab.edu.ng/2026/programmes.php",
+   "quote": "Mechanical Engineering (200 marks)",
+   "catchment": null
+  },
+  {
+   "school": "funaab",
+   "field": "course:microbiology",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://admission.funaab.edu.ng/2026/programmes.php",
+   "quote": "Microbiology (200 marks)",
+   "catchment": null
+  },
+  {
+   "school": "funaab",
+   "field": "course:biochemistry",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://admission.funaab.edu.ng/2026/programmes.php",
+   "quote": "Biochemistry (200 marks)",
+   "catchment": null
+  },
+  {
+   "school": "funaab",
+   "field": "course:accounting",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://admission.funaab.edu.ng/2026/programmes.php",
+   "quote": "Accounting (200 marks)",
+   "catchment": null
+  },
+  {
+   "school": "funaab",
+   "field": "course:business-admin",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://admission.funaab.edu.ng/2026/programmes.php",
+   "quote": "Business Administration (200 marks)",
+   "catchment": null
+  },
+  {
+   "school": "funaab",
+   "field": "course:economics",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://admission.funaab.edu.ng/2026/programmes.php",
+   "quote": "Economics (200 marks)",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "min",
+   "value": 150,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "who chose Delta State Unlversity (DELSU), Abraka, as their first cholce in the 2026/2027 Unified Tertiary Matriculatiorn Examination (UTME) and scored 150 and above"
+  },
+  {
+   "school": "delsu",
+   "field": "course:computer-science",
+   "value": 56.5,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (iii) | Computer Science | 56.5",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:accounting",
+   "value": 56.7,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (i) | Accounting | 56.7",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:economics",
+   "value": 45,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (ii) | Economics | 45",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:mass-comm",
+   "value": 55.7,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (vi) | Mass Communication | 55.7",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:business-admin",
+   "value": 55.1,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (iii) | Business Administration | 55.1",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:political-science",
+   "value": 50,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (iv) | Political Science | 50",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:civil-eng",
+   "value": 52.9,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (ii) | Civil Engineering | 52.9",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:electrical-eng",
+   "value": 50.5,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (iii) | Electrical/Electronic Engineering | 50.5",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:mechanical-eng",
+   "value": 52.5,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (iv) | Mechanical Engineering | 52.5",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:chemical-eng",
+   "value": 45,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (i) | Chemical Engineering | 45",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:petroleum-eng",
+   "value": 51.5,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (v) | Petroleum Engineering | 51.5",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:microbiology",
+   "value": 50,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (x) | Microbiology | 50",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:biochemistry",
+   "value": 48.2,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (ii) | Biochemistry | 48.2",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:english",
+   "value": 40,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (i) | English & Literary Studies | 40",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:architecture",
+   "value": 40,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (i) | Architecture | 40",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:software-eng",
+   "value": 40,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (ii) | Software Engineering | 40",
+   "catchment": null
+  },
+  {
+   "school": "delsu",
+   "field": "course:cyber-security",
+   "value": 40,
+   "scale": "agg100",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/delsu-advertises-vacancies-for-2026-2027-admission-exercise",
+   "quote": "| (i) | Cyber Security | 40",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "min",
+   "value": 180,
+   "session": "2026/2027",
+   "url": "https://www.unijos.edu.ng/registration-procedures-and-cut-marks-unijos-20262027-post-utmede-screening-exercise",
+   "quote": "The University of Jos hereby invites candidates who chose the University as First Choice in the 2026 Unified Tertiary Matriculation Examination/Direct Entry (UTME/DE) and obtained a minimum score of 180, to apply for Post-UTME/DE Screening Exercise for admission into the University."
+  },
+  {
+   "school": "unijos",
+   "field": "course:medicine",
+   "value": 250,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Medicine & Surgery - 250",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:law",
+   "value": 240,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Law - 240",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:nursing",
+   "value": 220,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Nursing Science - 220",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:pharmacy",
+   "value": 230,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Doctor of Pharmacy - 230",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:mls",
+   "value": 220,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Medical Laboratory Science - 220",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:physiotherapy",
+   "value": 220,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Doctor of Physiotherapy - 220",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:computer-science",
+   "value": 220,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Computer Science - 220",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:cyber-security",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Cyber Security Science - 200",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:software-eng",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Software Engineering - 200",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:accounting",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Accounting - 200",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:business-admin",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Business Administration - 200",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:economics",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Economics - 200",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:mass-comm",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Mass Communication - 200",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:civil-eng",
+   "value": 190,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Civil Engineering - 190",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:electrical-eng",
+   "value": 190,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Electrical/Electronics Engineering - 190",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:mechanical-eng",
+   "value": 190,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Mechanical Engineering - 190",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:architecture",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Architecture - 200",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:microbiology",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Microbiology - 200",
+   "catchment": null
+  },
+  {
+   "school": "unijos",
+   "field": "course:biochemistry",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/unijos-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "Biochemistry - 200",
+   "catchment": null
+  },
+  {
+   "school": "kwasu",
+   "field": "postutme",
+   "value": "Online registration and screening (JAMB + O'level)",
+   "session": "2026/2027",
+   "url": "https://kwasu.edu.ng/undergraduates-studies/",
+   "quote": "Screening Type\nOnline Registration & Screening"
+  },
+  {
+   "school": "uniabuja",
+   "field": "min",
+   "value": 180,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/uniabuja-post-utme-2026-cut-off-mark-eligibility-and-registration-procedure",
+   "quote": "UTME applicants must score a minimum of 180 in UTME and meet the cut-off mark for their chosen programme."
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:medicine",
+   "value": 230,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "Programme: Medicine & Surgery (MBBS) — Cut-off: 230",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:law",
+   "value": 230,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "Civil Law — 230",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:nursing",
+   "value": 230,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.N.Sc. (Bachelor of Nursing Science) — 230",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:pharmacy",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "Doctor of Pharmacy (Pharm. D.) — 200",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:mls",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.MLS (Bachelor of Medical Laboratory Science) — 200",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:computer-science",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.Sc. Computer Science — 180",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:accounting",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.Sc. Accountancy/Accounting — 180",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:economics",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.Sc. Economics — 180",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:business-admin",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.Sc. Business Administration — 180",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:political-science",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.Sc. Political Science and International Relations — 180",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:civil-eng",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.Eng. Civil Engineering — 200",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:electrical-eng",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.Eng. Electrical Engineering — 200",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:mechanical-eng",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.Eng. Mechanical Engineering — 200",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:chemical-eng",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.Eng. Chemical Engineering — 200",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:architecture",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.Sc. Architecture — 180",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:microbiology",
+   "value": 190,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.Sc. Microbiology — 190",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:biochemistry",
+   "value": 190,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.Sc. Biochemistry — 190",
+   "catchment": null
+  },
+  {
+   "school": "uniabuja",
+   "field": "course:english",
+   "value": 180,
+   "scale": "jamb",
+   "session": "2025/2026",
+   "url": "https://myschool.ng/news/university-of-abuja-releases-post-utme-cut-off-marks-for-2025-2026-academic-session",
+   "quote": "B.A. English and Literary Studies — 180",
+   "catchment": null
+  },
+  {
+   "school": "futo",
+   "field": "min",
+   "value": 150,
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "ONLY\ncandidates that scored a minimum of\n150\nin their UTME are\nELIGIBLE\nto apply."
+  },
+  {
+   "school": "futo",
+   "field": "postutme",
+   "value": "Screening only (JAMB + O'level), no CBT",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "The 2026/2027 Post-UTME and Direct Entry Screening Exercise shall be based on verified JAMB scores and O’Level results uploaded on JAMB Central Admissions Processing System (CAPS)."
+  },
+  {
+   "school": "futo",
+   "field": "course:medicine",
+   "value": 200,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "(c)     Programme requiring minimum JAMB Score of 200\nfor application\nCollege of Medicine\nMBBS programme",
+   "catchment": null
+  },
+  {
+   "school": "futo",
+   "field": "course:computer-science",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "(b)        Programmes requiring minimum JAMB Score of 170\nfor application\nSCHOOL OF INFORMATION AND COMMUNICATION TECHNOLOGY\nComputer Science\nCyber Security Science\nInformation Technology\nSoftware Engineering",
+   "catchment": null
+  },
+  {
+   "school": "futo",
+   "field": "course:cyber-security",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "(b)        Programmes requiring minimum JAMB Score of 170\nfor application\nSCHOOL OF INFORMATION AND COMMUNICATION TECHNOLOGY\nComputer Science\nCyber Security Science\nInformation Technology\nSoftware Engineering",
+   "catchment": null
+  },
+  {
+   "school": "futo",
+   "field": "course:software-eng",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "(b)        Programmes requiring minimum JAMB Score of 170\nfor application\nSCHOOL OF INFORMATION AND COMMUNICATION TECHNOLOGY\nComputer Science\nCyber Security Science\nInformation Technology\nSoftware Engineering",
+   "catchment": null
+  },
+  {
+   "school": "futo",
+   "field": "course:architecture",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-2026-cut-off-mark-eligibility-and-registration-procedures",
+   "quote": "(b)        Programmes requiring minimum JAMB Score of 170\nfor application\nSCHOOL OF INFORMATION AND COMMUNICATION TECHNOLOGY\nComputer Science\nCyber Security Science\nInformation Technology\nSoftware Engineering\nSCHOOL OF ENVIRONMENTAL SCIENCES\nArchitecture",
+   "catchment": null
+  },
+  {
+   "school": "futo",
+   "field": "course:chemical-eng",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-de-2022-cut-off-mark-eligibility-registration-and-screening-details",
+   "quote": "(b)        Programmes requiring minimum JAMB Score of 170\nfor application",
+   "catchment": null
+  },
+  {
+   "school": "futo",
+   "field": "course:civil-eng",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-de-2022-cut-off-mark-eligibility-registration-and-screening-details",
+   "quote": "(b)        Programmes requiring minimum JAMB Score of 170\nfor application",
+   "catchment": null
+  },
+  {
+   "school": "futo",
+   "field": "course:mechanical-eng",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-de-2022-cut-off-mark-eligibility-registration-and-screening-details",
+   "quote": "(b)        Programmes requiring minimum JAMB Score of 170\nfor application",
+   "catchment": null
+  },
+  {
+   "school": "futo",
+   "field": "course:petroleum-eng",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-de-2022-cut-off-mark-eligibility-registration-and-screening-details",
+   "quote": "(b)        Programmes requiring minimum JAMB Score of 170\nfor application",
+   "catchment": null
+  },
+  {
+   "school": "futo",
+   "field": "course:electrical-eng",
+   "value": 170,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-de-2022-cut-off-mark-eligibility-registration-and-screening-details",
+   "quote": "(b)        Programmes requiring minimum JAMB Score of 170\nfor application",
+   "catchment": null
+  },
+  {
+   "school": "futo",
+   "field": "course:microbiology",
+   "value": 150,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-de-2022-cut-off-mark-eligibility-registration-and-screening-details",
+   "quote": "(a)        Programmes requiring minimum JAMB Score of 150\nfor application",
+   "catchment": null
+  },
+  {
+   "school": "futo",
+   "field": "course:biochemistry",
+   "value": 150,
+   "scale": "jamb",
+   "session": "2026/2027",
+   "url": "https://myschool.ng/news/futo-post-utme-de-2022-cut-off-mark-eligibility-registration-and-screening-details",
+   "quote": "(a)        Programmes requiring minimum JAMB Score of 150\nfor application",
+   "catchment": null
+  }
+ ],
+ "combos": {
+  "medicine": {
+   "compulsory": [
+    "English",
+    "Physics",
+    "Chemistry",
+    "Biology"
+   ],
+   "choose": {
+    "n": 0,
+    "from": []
+   },
+   "rule_text": "The JAMB UTME subject combination for Medicine and Surgery is Physics, Chemistry and Biology, with English compulsory.",
+   "quote": "Physics, Chemistry and Biology.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/med-pharm-health-sciences/medicine-and-surgery"
+  },
+  "law": {
+   "compulsory": [
+    "English"
+   ],
+   "choose": {
+    "n": 3,
+    "from": [
+     "Economics",
+     "Government",
+     "Literature in English",
+     "CRS/IRS",
+     "Geography",
+     "Commerce",
+     "Accounting",
+     "History",
+     "Agriculture",
+     "Fine Art",
+     "Yoruba/Igbo/Hausa"
+    ]
+   },
+   "rule_text": "Candidates need English plus any three Arts or Social Science subjects.",
+   "quote": "Any three Arts or Social Science subjects.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/law/law"
+  },
+  "nursing": {
+   "compulsory": [
+    "English",
+    "Chemistry",
+    "Biology",
+    "Physics"
+   ],
+   "choose": {
+    "n": 0,
+    "from": []
+   },
+   "rule_text": "UTME candidates for Nursing/Nursing Science require English plus Chemistry, Biology and Physics.",
+   "quote": "Chemistry, Biology and Physics.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/med-pharm-health-sciences/nursing-nursing-science"
+  },
+  "pharmacy": {
+   "compulsory": [
+    "English",
+    "Physics",
+    "Chemistry",
+    "Biology"
+   ],
+   "choose": {
+    "n": 0,
+    "from": []
+   },
+   "rule_text": "UTME candidates for Pharmacy require English plus Physics, Chemistry and Biology.",
+   "quote": "Physics, Chemistry and Biology.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/med-pharm-health-sciences/pharmacy"
+  },
+  "mls": {
+   "compulsory": [
+    "English",
+    "Physics",
+    "Chemistry",
+    "Biology"
+   ],
+   "choose": {
+    "n": 0,
+    "from": []
+   },
+   "rule_text": "Candidates must take English, Physics, Chemistry and Biology.",
+   "quote": "Physics, Chemistry and Biology",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/engr-env-tech/medical-laboratory-science-1"
+  },
+  "physiotherapy": {
+   "compulsory": [
+    "English",
+    "Physics",
+    "Chemistry",
+    "Biology"
+   ],
+   "choose": {
+    "n": 0,
+    "from": []
+   },
+   "rule_text": "UTME candidates for Physiotherapy require Physics, Chemistry and Biology, with English being compulsory.",
+   "quote": "Physics, Chemistry and Biology.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/med-pharm-health-sciences/physiotherapy"
+  },
+  "dentistry": {
+   "compulsory": [
+    "English",
+    "Chemistry",
+    "Biology"
+   ],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Physics"
+    ]
+   },
+   "rule_text": "Candidates must take English, Chemistry, Biology and one other science subject (often Physics, as required by many universities).",
+   "quote": "Chemistry, Biology and one (1) other Science subject",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/med-pharm-health-sciences/dentistry-and-dental-technology"
+  },
+  "computer-science": {
+   "compulsory": [
+    "English",
+    "Mathematics",
+    "Physics"
+   ],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Biology",
+     "Chemistry",
+     "Agriculture",
+     "Economics",
+     "Geography"
+    ]
+   },
+   "rule_text": "Candidates must take English, Mathematics and Physics, plus one subject from Biology, Chemistry, Agric Science, Economics or Geography.",
+   "quote": "Mathematics, Physics and one of Biology, Chemistry, Agric Science, Economics and Geography",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/sciences/computer-science"
+  },
+  "accounting": {
+   "compulsory": [
+    "English",
+    "Mathematics",
+    "Economics"
+   ],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Economics",
+     "Government",
+     "Geography",
+     "Commerce",
+     "Accounting",
+     "History",
+     "Any"
+    ]
+   },
+   "rule_text": "Candidates need English, Mathematics, Economics plus any Social Science subject.",
+   "quote": "Mathematics, Economics plus any Social Science subject.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/admin/accountancy-accounting"
+  },
+  "economics": {
+   "compulsory": [
+    "English",
+    "Economics",
+    "Mathematics"
+   ],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Government",
+     "History",
+     "Geography",
+     "Literature in English",
+     "French",
+     "CRS/IRS"
+    ]
+   },
+   "rule_text": "Candidates must take English, Economics, and Mathematics, plus one subject from Government, History, Geography, Literature in English, French, or CRS/IRS.",
+   "quote": "Economics, Mathematics and any of Government, History, Geography, Literature in English, French and CRS/IS.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/admin/economics"
+  },
+  "mass-comm": {
+   "compulsory": [
+    "English"
+   ],
+   "choose": {
+    "n": 3,
+    "from": [
+     "Economics",
+     "Government",
+     "Literature in English",
+     "CRS/IRS",
+     "Geography",
+     "Commerce",
+     "Accounting",
+     "History"
+    ]
+   },
+   "rule_text": "Candidates need English plus any three Arts and Social Science subjects.",
+   "quote": "Any three (3) Arts and Social Science subjects.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/arts-humanities/mass-communication"
+  },
+  "business-admin": {
+   "compulsory": [
+    "English",
+    "Mathematics",
+    "Economics"
+   ],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Any"
+    ]
+   },
+   "rule_text": "Candidates must take English, Mathematics, Economics and any other Social Science subject.",
+   "quote": "Mathematics, Economics and any other Social Science subject",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/admin/business-administration"
+  },
+  "political-science": {
+   "compulsory": [
+    "English",
+    "Government"
+   ],
+   "choose": {
+    "n": 1,
+    "from": [
+     "History"
+    ]
+   },
+   "rule_text": "Candidates must take English and Government or History, plus two other Social Sciences or Arts subjects.",
+   "quote": "Government/History and two (2) other Social Sciences or Arts subjects.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/arts-humanities/political-science"
+  },
+  "civil-eng": {
+   "compulsory": [
+    "English",
+    "Mathematics",
+    "Physics",
+    "Chemistry"
+   ],
+   "choose": {
+    "n": 0,
+    "from": []
+   },
+   "rule_text": "The JAMB UTME subject combination for Civil Engineering is English, Physics, Chemistry and Mathematics.",
+   "quote": "Physics, Chemistry and Mathematics",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/engr-env-tech/civil-engineering"
+  },
+  "electrical-eng": {
+   "compulsory": [
+    "English",
+    "Mathematics",
+    "Physics",
+    "Chemistry"
+   ],
+   "choose": {
+    "n": 0,
+    "from": []
+   },
+   "rule_text": "The JAMB UTME subject combination for Electrical Engineering is Mathematics, Physics and Chemistry, with English being compulsory.",
+   "quote": "Mathematics, Physics and Chemistry",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/engr-env-tech/electrical-engineering"
+  },
+  "mechanical-eng": {
+   "compulsory": [
+    "English",
+    "Mathematics",
+    "Physics",
+    "Chemistry"
+   ],
+   "choose": {
+    "n": 0,
+    "from": []
+   },
+   "rule_text": "The JAMB UTME subject combination for Mechanical Engineering is Mathematics, Physics and Chemistry, with English being compulsory.",
+   "quote": "Mathematics, Physics and Chemistry",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/engr-env-tech/mechanical-engineering"
+  },
+  "chemical-eng": {
+   "compulsory": [
+    "English",
+    "Mathematics",
+    "Physics",
+    "Chemistry"
+   ],
+   "choose": {
+    "n": 0,
+    "from": []
+   },
+   "rule_text": "The JAMB UTME subject combination for Chemical Engineering is Mathematics, Physics and Chemistry, with English being compulsory.",
+   "quote": "Mathematics, Physics and Chemistry.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/engr-env-tech/chemical-engineering"
+  },
+  "petroleum-eng": {
+   "compulsory": [
+    "English",
+    "Mathematics",
+    "Physics",
+    "Chemistry"
+   ],
+   "choose": {
+    "n": 0,
+    "from": []
+   },
+   "rule_text": "The JAMB UTME subject combination for Petroleum Engineering is English (compulsory), Chemistry, Mathematics, and Physics.",
+   "quote": "Chemistry, Mathematics, and Physics",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/engr-env-tech/petroleum-engineering"
+  },
+  "architecture": {
+   "compulsory": [
+    "English",
+    "Physics",
+    "Mathematics"
+   ],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Chemistry",
+     "Geography",
+     "Fine Art",
+     "Biology",
+     "Economics"
+    ]
+   },
+   "rule_text": "Candidates must take English, Physics, and Mathematics, plus one subject chosen from Chemistry, Geography, Fine Art, Biology, or Economics.",
+   "quote": "Physics, Mathematics, and any of Chemistry, Geography, Art, Biology and Economics.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/engr-env-tech/architecture-758033"
+  },
+  "microbiology": {
+   "compulsory": [
+    "English",
+    "Biology",
+    "Chemistry"
+   ],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Physics",
+     "Mathematics"
+    ]
+   },
+   "rule_text": "Candidates must take English, Biology, Chemistry and either Physics or Mathematics.",
+   "quote": "Biology, Chemistry and either Physics or Mathematics.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/sciences/microbiology"
+  },
+  "biochemistry": {
+   "compulsory": [
+    "English",
+    "Chemistry",
+    "Biology"
+   ],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Physics",
+     "Mathematics"
+    ]
+   },
+   "rule_text": "Candidates must take English, Chemistry and Biology plus either Physics or Mathematics.",
+   "quote": "Chemistry, Biology and Physics or Mathematics.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/sciences/applied-biochemistry"
+  },
+  "english": {
+   "compulsory": [
+    "English",
+    "Literature in English"
+   ],
+   "choose": {
+    "n": 2,
+    "from": [
+     "Any"
+    ]
+   },
+   "rule_text": "Candidates must take English, Literature in English, one other Arts subject and another Arts or Social Science subject.",
+   "quote": "Literature in English, one other Arts subject and another Arts or Social Science subject.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/arts-humanities/english-language-and-literature"
+  },
+  "software-eng": {
+   "compulsory": [
+    "English",
+    "Mathematics",
+    "Economics"
+   ],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Chemistry",
+     "Physics",
+     "Biology",
+     "Geography"
+    ]
+   },
+   "rule_text": "Candidates must take English, Mathematics and Economics, plus one of Chemistry, Physics, Biology or Geography.",
+   "quote": "Maths, Economics and any one of Chemistry, Physics, Biology or Geography.",
+   "url": "https://myschool.ng/classroom/jamb-brochure/university/engr-env-tech/software-engineering-342953"
+  },
+  "cyber-security": {
+   "compulsory": [
+    "English",
+    "Mathematics",
+    "Physics"
+   ],
+   "choose": {
+    "n": 1,
+    "from": [
+     "Biology",
+     "Chemistry",
+     "Agriculture",
+     "Economics",
+     "Geography"
+    ]
+   },
+   "rule_text": "Candidates must take English, Mathematics, Physics, and one of Biology, Chemistry, Agric Science, Economics or Geography.",
+   "quote": "Mathematics, Physics and one (1) of Biology, Chemistry, Agric Science, Economics and Geography",
+   "url": "https://myschool.ng/index.php/classroom/jamb-brochure/university/sciences/cyber-security"
+  }
+ }
+}

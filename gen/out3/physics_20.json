@@ -1,0 +1,106 @@
+{
+"subject": "physics",
+"topic": "Magnetism and electromagnetic induction",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following statements correctly describes the magnetic field lines of a bar magnet?",
+"options": [
+"They start from the south pole and end at the north pole, never passing through the magnet",
+"They form closed loops, emerging from the north pole outside the magnet and entering the south pole, then passing through the magnet from south to north",
+"They are straight parallel lines that never close on themselves",
+"They terminate at the centre of the magnet where the field is strongest"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Magnetic field lines are continuous closed loops. Outside the magnet they go from north pole to south pole, and inside the magnet they continue from south pole back to north pole, forming a complete loop. They never start or stop at a point.",
+"pidgin": "Magnetic field lines na closed loop wey no get start or end. Outside di magnet, dem dey comot from north go south, and inside di magnet dem dey continue from south go north to complete di loop.",
+"py": null,
+"values": null,
+"id": "phyv2000",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A straight metal rod of length 0.8 m moves with a velocity of 5 m/s at right angles to a uniform magnetic field of flux density 0.25 T. Calculate the electromotive force (EMF) induced in the rod.",
+"options": [
+"0.2 V",
+"1.0 V",
+"1.6 V",
+"4.0 V"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "For motional EMF, e = B x L x v. Substituting values: e = 0.25 x 0.8 x 5 = 1.0 V. This is the standard formula for a rod moving perpendicular to a magnetic field.",
+"pidgin": "For motional EMF, we use e = B x L x v. If we put di numbers: e = 0.25 x 0.8 x 5 = 1.0 V. Na straightforward formula wen rod dey move perpendicular to di field.",
+"py": "0.25*0.8*5",
+"values": [
+0.2,
+1.0,
+1.6,
+4.0
+],
+"id": "phyv2001",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A coil of 200 turns is linked with a magnetic flux that changes uniformly from 2.0 x 10^-3 Wb to 8.0 x 10^-3 Wb in 0.3 seconds. Calculate the average EMF induced in the coil.",
+"options": [
+"0.02 V",
+"2.0 V",
+"4.0 V",
+"40 V"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "By Faraday's law, EMF = N x (change in flux)/(time). Change in flux = 8.0x10^-3 - 2.0x10^-3 = 6.0x10^-3 Wb. EMF = 200 x (6.0x10^-3)/0.3 = 200 x 0.02 = 4.0 V.",
+"pidgin": "Faraday law talk say EMF = N x (change in flux)/(time). Di change in flux na 8.0x10^-3 - 2.0x10^-3 = 6.0x10^-3 Wb. So EMF = 200 x (6.0x10^-3)/0.3 = 4.0 V.",
+"py": "200*(8.0e-3-2.0e-3)/0.3",
+"values": [
+0.02,
+2.0,
+4.0,
+40.0
+],
+"id": "phyv2002",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A straight current-carrying conductor of length 0.6 m carries a current of 3.0 A and is placed in a uniform magnetic field of flux density 0.5 T such that the conductor makes an angle of 30° with the field. Calculate the magnitude of the force on the conductor.",
+"options": [
+"0.225 N",
+"0.45 N",
+"0.78 N",
+"0.9 N"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The force on a current-carrying conductor is F = B x I x L x sin(theta), where theta is the angle between the conductor and the field. F = 0.5 x 3.0 x 0.6 x sin(30°) = 0.5 x 3.0 x 0.6 x 0.5 = 0.45 N. Candidates who forget the sine factor or use the wrong angle get the wrong answer.",
+"pidgin": "Di force for current-carrying wire na F = B x I x L x sin(theta), wia theta na di angle between di wire and di field. F = 0.5 x 3.0 x 0.6 x sin(30°) = 0.5 x 3.0 x 0.6 x 0.5 = 0.45 N. If you forget di sin factor or use wrong angle, you go miss am.",
+"py": "0.5*3.0*0.6*math.sin(math.radians(30))",
+"values": [
+0.225,
+0.45,
+0.78,
+0.9
+],
+"id": "phyv2003",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

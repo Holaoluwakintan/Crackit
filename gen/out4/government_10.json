@@ -1,0 +1,176 @@
+{
+"subject": "government",
+"topic": "Public service and public corporations",
+"ti": 10,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best defines a public corporation?",
+"options": [
+"A private business owned by shareholders purely for profit",
+"A government-owned organisation set up by law to provide essential services to the public",
+"A cooperative society formed by workers to save money together",
+"A religious body that provides free education to its members"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A public corporation is created by an Act of government to run important services like electricity, transport or oil. It is owned and controlled by the state, not private individuals.",
+"pidgin": "Public corporation na organisation wey government create with law to give people important services. E be say government dey own am and control am, no be private pesin.",
+"id": "wgov1000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A major reason why government establishes public corporations instead of leaving certain services to private individuals is to...",
+"options": [
+"ensure that only wealthy citizens enjoy essential services",
+"provide essential services that may be too costly or unattractive for private investors",
+"reduce the responsibility of government towards its citizens",
+"encourage foreign companies to monopolise the economy"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Services like railways, electricity and water need huge capital and may not bring quick profit, so private investors may avoid them. Government therefore sets up public corporations to make sure such services reach everybody.",
+"pidgin": "Some service like rail, light and water need plenty money and no dey bring quick profit, so private pesin fit avoid am. Na why government dey form public corporation make everybody fit get di service.",
+"id": "wgov1003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A common problem associated with the management of public corporations in many West African countries is...",
+"options": [
+"too much competition from several private investors in the same sector",
+"political interference in the day-to-day running of the corporation",
+"the complete inability of government to appoint any staff at all",
+"the refusal of citizens to make use of corporation services"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Politicians sometimes interfere by appointing unqualified loyalists or dictating decisions for political gain, which weakens efficient management. This is a well-known challenge facing many public corporations in the region.",
+"pidgin": "Sometimes politician dey interfere for how dem dey run public corporation, like to put their own pesin wey no sabi work. Dis one dey cause bad management for many public corporation for West Africa.",
+"id": "wgov1004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which statement correctly distinguishes the civil service from the public service?",
+"options": [
+"The civil service covers only government ministries and departments, while the public service is a broader term that also includes public corporations and other state agencies",
+"The public service refers only to the armed forces, while the civil service covers ministries alone",
+"The civil service is owned by private investors while the public service is owned by government",
+"There is no real difference; both terms refer to exactly the same narrow group of workers"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Civil service is a narrower term for workers directly in ministries and government departments carrying out policy. Public service is wider and includes civil servants plus workers in public corporations, the judiciary, the police and other state bodies.",
+"pidgin": "Civil service na only ministry and department workers wey dey carry out government policy. Public service big pass am, e include civil service plus public corporation, judiciary, police and oda government bodies.",
+"id": "wgov1005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a common method used by government to control the activities of public corporations?",
+"options": [
+"Allowing the management to operate without any reporting to government",
+"Appointing a board of directors who report regularly to a supervising ministry",
+"Selling all shares of the corporation to foreign companies as soon as it is formed",
+"Preventing the corporation from employing any Nigerian citizens"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Government usually appoints a board of directors to manage the corporation, and this board reports to a ministry responsible for supervising its activities. This keeps the corporation accountable while allowing it some independence.",
+"pidgin": "Government dey appoint board of directors to manage di corporation, and dem go dey report to one ministry wey dey supervise am. Dis one dey make sure say di corporation dey accountable even though e get small freedom.",
+"id": "wgov1006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The Federal Government's decision to sell some shares of a loss-making public corporation to private investors, in order to improve efficiency and reduce the burden on public funds, is best described as...",
+"options": [
+"nationalisation",
+"privatisation",
+"federalism",
+"decentralisation"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Privatisation means transferring ownership or control of a government-owned enterprise to private investors, usually to improve efficiency and cut government spending. This matches exactly what is described in the question.",
+"pidgin": "Privatisation na when government sell share or ownership of im company to private pesin, so dat di company go dey run better and government go spend less money for am. Na dat kain action dem dey describe for dis question.",
+"id": "wgov1007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of these is an example of a public corporation in Nigeria?",
+"options": [
+"Guaranty Trust Bank Plc",
+"Dangote Cement Plc",
+"Nigerian National Petroleum Corporation",
+"Mama Chidinma's Provision Store"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The Nigerian National Petroleum Corporation was set up by government to manage the oil industry on behalf of the state. The other options are privately owned businesses, not government corporations.",
+"pidgin": "Nigerian National Petroleum Corporation na government own am to control oil business for di country. Di oda ones na private business wey individual persin dey own.",
+"id": "wgov1001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Intended example; NNPC became NNPC Limited in 2022.|NNPC became NNPC Limited in 2022 but is still state-owned"
+},
+{
+"q": {
+"q": "One major characteristic that distinguishes workers in the public service from workers in private employment is that public servants are expected to be guided by the principles of...",
+"options": [
+"profit-making, risk-taking and self-employment",
+"permanency, neutrality and anonymity in carrying out duties",
+"public campaigning for political parties while on duty",
+"daily changing wages based on market forces"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Public servants are expected to serve any government in power without showing political bias, to remain in post for a long career, and to work quietly without seeking personal credit. These are the key features of permanency, neutrality and anonymity.",
+"pidgin": "Public servant suppose stay long for work (permanency), no show political side (neutrality), and no dey show off for credit (anonymity). Na so e different from private work wey profit and risk dey matter pass.",
+"id": "wgov1002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:These principles chiefly describe the civil service, not all public-service workers.|"
+}
+]
+}

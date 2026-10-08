@@ -1,0 +1,169 @@
+{
+"subject": "crs",
+"topic": "Birth, baptism, temptation and call of the disciples",
+"ti": 8,
+"generated": 8,
+"kept": [
+{
+"q": "In the Gospel of Luke, which angel appeared to Mary to announce that she would give birth to Jesus?",
+"options": [
+"Michael",
+"Gabriel",
+"Raphael",
+"Uriel"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Luke 1:26-31 records that God sent the angel Gabriel to Mary in Nazareth to tell her she would conceive and give birth to Jesus.",
+"pidgin": "Luke 1:26-31 talk say na angel Gabriel God send go meet Mary for Nazareth to tell am say she go born Jesus.",
+"id": "wcrs0800",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "According to the Gospel of Luke, in which town was Jesus born?",
+"options": [
+"Bethlehem",
+"Nazareth",
+"Jerusalem",
+"Capernaum"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Luke 2:4-7 shows that Joseph and Mary travelled to Bethlehem, the city of David, where Jesus was born and laid in a manger.",
+"pidgin": "Luke 2:4-7 show say Joseph and Mary travel go Bethlehem, David im town, na there dem born Jesus come lay am for manger.",
+"id": "wcrs0801",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Who baptized Jesus in the River Jordan before he began his public ministry?",
+"options": [
+"Peter",
+"Andrew",
+"John the Baptist",
+"Nicodemus"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Matthew 3:13-17 tells us that Jesus came to John the Baptist at the River Jordan to be baptized by him, though John first hesitated.",
+"pidgin": "Matthew 3:13-17 talk say Jesus go meet John the Baptist for River Jordan make e baptize am, even though John first hesitate.",
+"id": "wcrs0802",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What sign came down upon Jesus immediately after his baptism, according to Matthew's Gospel?",
+"options": [
+"A bright star",
+"A pillar of fire",
+"A rainbow",
+"A dove"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Matthew 3:16 states that after Jesus was baptized, the heavens opened and the Spirit of God descended like a dove and rested on him.",
+"pidgin": "Matthew 3:16 talk say after dem baptize Jesus, heaven open and Spirit of God come down like dove come land for him body.",
+"id": "wcrs0803",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "For how many days did Jesus fast in the wilderness before the devil came to tempt him?",
+"options": [
+"7 days",
+"40 days",
+"12 days",
+"70 days"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Matthew 4:2 says Jesus fasted forty days and forty nights in the wilderness, after which he became hungry and the devil came to tempt him.",
+"pidgin": "Matthew 4:2 talk say Jesus fast for forty days and forty night for wilderness before devil come tempt am when hunger catch am.",
+"id": "wcrs0804",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When the devil challenged Jesus to turn stones into bread during the temptation in the wilderness, from which Old Testament book did Jesus quote his reply that 'man shall not live by bread alone'?",
+"options": [
+"Deuteronomy",
+"Exodus",
+"Leviticus",
+"Numbers"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In Matthew 4:4, Jesus answers the devil by quoting Deuteronomy 8:3, which teaches that man does not live by bread alone but by every word from God.",
+"pidgin": "Matthew 4:4 show say Jesus use word from Deuteronomy 8:3 reply devil say man no go only live by bread, but by every word wey come from God mouth.",
+"id": "wcrs0805",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which two brothers, who were fishermen, did Jesus first call by the Sea of Galilee to become his disciples?",
+"options": [
+"James and John",
+"Philip and Bartholomew",
+"Thomas and Thaddaeus",
+"Simon Peter and Andrew"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Matthew 4:18-20 records that Jesus saw Simon called Peter and his brother Andrew casting their net into the sea and called them to follow him.",
+"pidgin": "Matthew 4:18-20 talk say Jesus see Simon wey dem dey call Peter and im brother Andrew as dem dey throway net for sea, e come call dem make dem follow am.",
+"id": "wcrs0806",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Matthew the tax collector was called by Jesus while he was at a particular place doing his job. Where was Matthew when Jesus called him to become a disciple?",
+"options": [
+"In the synagogue",
+"By the lakeside mending nets",
+"At the tax collector's booth",
+"In his house eating"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Matthew 9:9 narrates that Jesus saw Matthew sitting at the tax collector's booth collecting taxes and said to him, 'Follow me,' and Matthew got up and followed him.",
+"pidgin": "Matthew 9:9 talk say Jesus see Matthew as e dey sidon for im tax collection table, Jesus tell am 'Follow me,' Matthew come stand up follow am.",
+"id": "wcrs0807",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

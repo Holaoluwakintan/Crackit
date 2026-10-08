@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "Sermon on the Mount and other teachings of Jesus",
+"generated": 8,
+"kept": [
+{
+"q": "In the Beatitudes recorded in the Sermon on the Mount, Jesus said the meek are blessed because they shall inherit what?",
+"options": [
+"The kingdom of heaven",
+"The earth",
+"Mercy",
+"Comfort"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Jesus said, 'Blessed are the meek: for they shall inherit the earth' (Matthew 5:5). This teaches that humility, not pride, brings lasting reward.",
+"pidgin": "Jesus talk say, 'Blessed are the meek: for they shall inherit the earth' (Matthew 5:5). E dey teach say humility, no be pride, go bring correct reward.",
+"id": "crsv1800",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Jesus described His disciples as the salt of the earth. According to this teaching in Matthew chapter 5, what happens to salt that has lost its flavour?",
+"options": [
+"It is used for cooking soup",
+"It is thrown out and trampled underfoot",
+"It is kept for future use",
+"It is given to livestock"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Jesus taught that salt which loses its savour is 'good for nothing, but to be cast out, and to be trodden under foot of men' (Matthew 5:13). This warns believers to keep their influence genuine.",
+"pidgin": "Jesus talk say salt wey lose im taste 'good for nothing, but to be cast out, and to be trodden under foot of men' (Matthew 5:13). E dey warn believers make dem keep their good influence.",
+"id": "crsv1801",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In the Lord's Prayer as taught by Jesus in Matthew chapter 6, what did He instruct His followers to ask the Father for on a daily basis?",
+"options": [
+"Long life",
+"Daily bread",
+"Protection from enemies",
+"Great wealth"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Lord's Prayer includes the request 'Give us this day our daily bread' (Matthew 6:11), teaching dependence on God for basic daily needs.",
+"pidgin": "Lord's Prayer get the request 'Give us this day our daily bread' (Matthew 6:11), e dey teach say make person dey depend on God for everyday need.",
+"id": "crsv1802",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "The Golden Rule which Jesus gave in Matthew chapter 7 instructs believers to do what?",
+"options": [
+"Judge others before judging themselves",
+"Give alms only in public",
+"Whatsoever they would that men should do to them, do also to them",
+"Love only those who love them back"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Jesus said, 'Therefore all things whatsoever ye would that men should do to you, do ye even so to them' (Matthew 7:12). This sums up right conduct toward others as treating them the way one wants to be treated.",
+"pidgin": "Jesus talk say, 'Therefore all things whatsoever ye would that men should do to you, do ye even so to them' (Matthew 7:12). E mean make person treat others the way wey e wan make dem treat am.",
+"id": "crsv1803",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Jesus taught that no man can serve two masters, specifically God and mammon. What reason did He give for this impossibility?",
+"options": [
+"He will become poor and homeless",
+"He will hate the one and love the other",
+"He will lose all his friends",
+"He will be confused about his religion"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus said a servant 'will hate the one, and love the other; or else he will hold to the one, and despise the other' (Matthew 6:24). Divided loyalty between God and wealth is impossible.",
+"pidgin": "Jesus talk say servant 'will hate the one, and love the other; or else he will hold to the one, and despise the other' (Matthew 6:24). Person no fit serve God well well if money dey control am.",
+"id": "crsv1804",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "According to Jesus' teaching on anger in the Sermon on the Mount, a person who is angry with his brother without cause is in danger of what?",
+"options": [
+"Judgment",
+"Excommunication from the synagogue",
+"Sudden poverty",
+"Permanent sickness"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Jesus said, 'whosoever is angry with his brother without a cause shall be in danger of the judgment' (Matthew 5:22). This teaching shows that inner attitudes like anger are judged as seriously as outward actions.",
+"pidgin": "Jesus talk say, 'whosoever is angry with his brother without a cause shall be in danger of the judgment' (Matthew 5:22). E dey show say the mind wey get anger fit cause serious judgment just like action wey person do.",
+"id": "crsv1805",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the parable of the wise and foolish builders at the end of the Sermon on the Mount, what key lesson does Jesus pass across about the man who built his house on rock?",
+"options": [
+"Good location always prevents disaster",
+"Strong building materials guarantee safety",
+"Hearing and obeying Jesus' words gives a person a stable foundation for life",
+"Wealthy people build better houses than poor people"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Jesus said whoever hears His sayings and does them is like a wise man who built on rock, and the house stood firm when storms came (Matthew 7:24-25). The parable teaches that obedience to Christ's teaching, not physical factors, gives true stability in life.",
+"pidgin": "Jesus talk say whoever hear im word and do am na like wise man wey build house for rock, and the house stand strong when storm come (Matthew 7:24-25). The parable dey teach say na to obey Christ word dey give person correct foundation for life, no be physical thing.",
+"id": "crsv1806",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Jesus taught about two gates and two paths in Matthew chapter 7. What does the wide gate and broad way represent in this teaching?",
+"options": [
+"The path that leads to destruction",
+"The path that leads to eternal life",
+"The path followed by the righteous few",
+"The path of self-denial and sacrifice"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Jesus said, 'wide is the gate, and broad is the way, that leadeth to destruction, and many there be which go in thereat' (Matthew 7:13). The contrast is with the narrow gate that leads to life, which few find, teaching that the easier popular path is spiritually dangerous.",
+"pidgin": "Jesus talk say, 'wide is the gate, and broad is the way, that leadeth to destruction, and many there be which go in thereat' (Matthew 7:13). E dey contrast am with narrow gate wey dey lead to life, wey na only small people dey find, e dey show say the popular easy road dey dangerous for soul.",
+"id": "crsv1807",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

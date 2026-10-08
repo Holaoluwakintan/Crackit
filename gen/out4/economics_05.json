@@ -1,0 +1,181 @@
+{
+"subject": "economics",
+"topic": "Price determination and price control",
+"ti": 5,
+"generated": 7,
+"kept": [
+{
+"q": "In economics, the equilibrium price of a commodity such as yam in Oja Oba market is best described as:",
+"options": [
+"The price at which total supply exceeds total demand",
+"The price at which quantity demanded equals quantity supplied",
+"The price fixed by government for all goods",
+"The highest price a producer can charge"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Equilibrium price is where the quantity buyers want to buy equals the quantity sellers want to sell. At this price, there is no shortage or surplus in the market.",
+"pidgin": "Equilibrium price na di price wey wetin buyer wan buy match wetin seller wan sell. For dis price, shortage or surplus no dey.",
+"py": null,
+"values": null,
+"id": "weco0500",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The demand for a bag of beans in Dawanau market is given as Qd = 90 - 3P, while the supply is given as Qs = 10 + 2P, where P is the price in naira and Q is the quantity in bags. What is the equilibrium price?",
+"options": [
+"₦16",
+"₦10",
+"₦20",
+"₦14"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "At equilibrium, Qd = Qs, so 90 - 3P = 10 + 2P. Collecting like terms gives 80 = 5P, so P = 16.",
+"pidgin": "For equilibrium, Qd and Qs go dey equal: 90 - 3P = 10 + 2P. If you arrange am, 80 = 5P, so P = 16.",
+"py": "(90-10)/(3+2)",
+"values": [
+16,
+10,
+20,
+14
+],
+"id": "weco0501",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The demand function for fresh tomatoes at Mile 12 market is Qd = 60 - 2P, and the supply function is Qs = 10 + 3P, where P is price in naira per basket and Q is quantity of baskets. What is the equilibrium quantity of tomatoes sold?",
+"options": [
+"45 baskets",
+"30 baskets",
+"40 baskets",
+"35 baskets"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Setting Qd = Qs gives 60 - 2P = 10 + 3P, so 50 = 5P and P = 10. Substituting P = 10 into Qd = 60 - 2P gives Q = 60 - 20 = 40 baskets.",
+"pidgin": "Make Qd equal Qs: 60 - 2P = 10 + 3P, e give 50 = 5P, so P = 10. Put P = 10 inside Qd = 60 - 2P, e go give Q = 40 baskets.",
+"py": "60-2*((60-10)/(2+3))",
+"values": [
+45,
+30,
+40,
+35
+],
+"id": "weco0502",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following best describes price control as used in economics?",
+"options": [
+"The free interaction of demand and supply forces",
+"A method used by producers to maximize profit without government interference",
+"The practice of allowing prices to rise without any limit",
+"A government policy of fixing prices by law instead of leaving them to market forces"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Price control happens when government, by law, sets the price of a good or service instead of allowing demand and supply to determine it freely.",
+"pidgin": "Price control na when government use law fix price of goods or service, instead make demand and supply dey decide am by demself.",
+"py": null,
+"values": null,
+"id": "weco0503",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "If the government fixes a minimum price for a bag of garri at Mile 12 market that is above the market equilibrium price, what is the most likely immediate effect?",
+"options": [
+"Shortage of garri in the market",
+"Surplus of garri as quantity supplied exceeds quantity demanded",
+"The equilibrium price remains completely unchanged",
+"Demand for garri increases sharply above supply"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A minimum price set above equilibrium encourages sellers to supply more while buyers demand less at that higher price, so quantity supplied exceeds quantity demanded, creating a surplus.",
+"pidgin": "When minimum price pass equilibrium, sellers go wan sell plenty but buyers go buy small for dat high price, so wetin dem supply go pass wetin dem demand, dat one na surplus.",
+"py": null,
+"values": null,
+"id": "weco0504",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The demand for a crate of eggs in Garki market is Qd = 80 - 2P, and the supply is Qs = 20 + 2P, where P is price in naira and Q is quantity of crates. Government fixes a minimum price of ₦20 per crate, which is above the equilibrium price. What is the size of the surplus created at this fixed price?",
+"options": [
+"10 crates",
+"15 crates",
+"20 crates",
+"25 crates"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "At P = 20, Qs = 20 + 2(20) = 60 and Qd = 80 - 2(20) = 40. Surplus = Qs - Qd = 60 - 40 = 20 crates, since more is supplied than demanded at the higher fixed price.",
+"pidgin": "If P = 20, Qs = 20 + 2(20) = 60 and Qd = 80 - 2(20) = 40. Surplus na Qs minus Qd = 60 - 40 = 20 crates, because supply pass demand for dat high price.",
+"py": "(20+2*20)-(80-2*20)",
+"values": [
+10,
+15,
+20,
+25
+],
+"id": "weco0505",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The Lagos State Government fixes the maximum price of a bag of rice at ₦25,000, which is below the market equilibrium price of ₦32,000. Which of the following is LEAST likely to happen as a result of this policy?",
+"options": [
+"Long queues at rice-selling points",
+"Emergence of a black market where rice is sold above ₦25,000",
+"Shortage of rice at the official price",
+"Producers increasing the quantity of rice supplied at ₦25,000"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Since ₦25,000 is below equilibrium, producers earn less profit and will reduce, not increase, the quantity supplied, while buyers still want more at the low price. This mismatch causes shortages, queues and black markets, but an increase in supply by producers is not realistic.",
+"pidgin": "Because ₦25,000 dey below equilibrium, producers go gain small profit, so dem go reduce quantity wey dem dey supply, no be increase am, while buyers still wan buy plenty for di cheap price. Dis one go cause shortage, queue and black market, but producers no fit increase supply for dat low price.",
+"py": null,
+"values": null,
+"id": "weco0506",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

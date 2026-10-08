@@ -1,0 +1,116 @@
+{
+"subject": "english",
+"topic": "Sentence completion: vocabulary (choosing the right word)",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the option that best completes the gap. The chairman's ________ remarks during the town hall meeting offended almost everyone present, as he mocked people's accents and backgrounds.",
+"options": [
+"tactless",
+"tactful",
+"diplomatic",
+"courteous"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The word in capitals context shows the remarks offended people, so 'tactless' (rude, lacking sensitivity) fits best. 'Tactful', 'diplomatic' and 'courteous' all mean polite or considerate, which contradicts offending people.",
+"pidgin": "Since the remarks vex everybody, e mean say the chairman no get sense for how e talk am, so 'tactless' fit well. The other words mean say person dey polite, which no match the sentence.",
+"id": "engv0200",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best completes the gap. After trekking for over ten kilometres under the hot sun, the market women were completely ________ and could hardly carry their baskets any further.",
+"options": [
+"energetic",
+"exhausted",
+"delighted",
+"curious"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Trekking a long distance under the sun would tire someone, and 'could hardly carry' confirms tiredness, so 'exhausted' fits. 'Energetic' and 'delighted' mean the opposite feeling, while 'curious' is unrelated to tiredness.",
+"pidgin": "Na because the market women waka far under hot sun, so dem go tire well well, that's why 'exhausted' correct. 'Energetic' and 'delighted' no match tiredness, and 'curious' no get anything to do with the matter.",
+"id": "engv0201",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the option that best completes the gap. The new supervisor's ________ attitude towards the factory workers made them respect and cooperate with him willingly.",
+"options": [
+"arrogant",
+"hostile",
+"amiable",
+"indifferent"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Since the workers respected and cooperated willingly, the supervisor's attitude must have been friendly, so 'amiable' is correct. 'Arrogant', 'hostile' and 'indifferent' describe negative or uncaring attitudes that would not win willing cooperation.",
+"pidgin": "Since the workers respect am and dey cooperate well well, e mean say the supervisor get friendly behaviour, so 'amiable' correct. The other words show bad or careless attitude wey no fit make workers cooperate like that.",
+"id": "engv0202",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the option that best completes the gap. Despite the ________ evidence presented by the prosecution, the judge still set the accused free, shocking many people in the courtroom.",
+"options": [
+"flimsy",
+"inconclusive",
+"scanty",
+"compelling"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The word 'despite' signals a contrast; the evidence was strong ('compelling'), yet the accused was still freed, which is why it shocked people. 'Flimsy', 'inconclusive' and 'scanty' describe weak evidence, which would not make an acquittal shocking.",
+"pidgin": "'Despite' dey show say something strong happen but the result still surprise people; since the evidence strong ('compelling') but judge still free the person, na im make everybody shock. If the evidence weak like the other options, nobody for surprise say judge free am.",
+"id": "engv0203",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Choose the option that best completes the gap. Many Nigerians living abroad often feel ________ whenever they smell jollof rice, as it reminds them of home.",
+"options": [
+"nostalgic",
+"ambivalent",
+"indifferent",
+"hostile"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The sentence talks about missing home through the smell of jollof rice, which shows a longing feeling, so 'nostalgic' is correct. 'Ambivalent', 'indifferent' and 'hostile' do not express this warm longing for home.",
+"pidgin": "Since the smell of jollof rice dey remind dem of house, e mean say dem dey miss home, so 'nostalgic' correct. The other options no show that kind warm feeling for home.",
+"id": "engv0204",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best completes the gap. The committee's report on the state budget was so ________ that even the senior accountants found it difficult to summarise its key points in a single page.",
+"options": [
+"succinct",
+"exhaustive",
+"terse",
+"laconic"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since the accountants struggled to summarise it in one page, the report must have been very detailed and lengthy, so 'exhaustive' fits. 'Succinct', 'terse' and 'laconic' all mean short and brief, which would make summarising easy, not hard.",
+"pidgin": "Since the accountants no fit summarise the report for one page, e mean say the report too long and detailed, so 'exhaustive' correct. The other words mean say the report short, wey for don make the summarising easy.",
+"id": "engv0205",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

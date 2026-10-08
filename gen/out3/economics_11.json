@@ -1,0 +1,87 @@
+{
+"subject": "economics",
+"topic": "Financial institutions: Central Bank of Nigeria, commercial banks, capital and money markets",
+"generated": 3,
+"kept": [
+{
+"q": "Which of the following is a money market instrument commonly used by the Nigerian government to raise short-term funds?",
+"options": [
+"Treasury bills",
+"Debentures",
+"Ordinary shares",
+"Preference shares"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Treasury bills are short-term debt securities issued by government and traded in the money market. Debentures, ordinary shares and preference shares are long-term securities traded in the capital market.",
+"pidgin": "Treasury bills na short-term paper wey government dey issue for money market. Debentures, ordinary shares and preference shares na long-term things wey dem dey trade for capital market.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "ecov1100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following best describes how commercial banks create credit in an economy?",
+"options": [
+"Banks print new currency notes to meet customer withdrawal demand",
+"Banks lend out a fraction of their deposits while keeping the rest as reserve, thereby expanding the total money supply",
+"Banks transfer all customer deposits to the Central Bank for safekeeping",
+"Banks exchange foreign currency for local currency on behalf of customers"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Commercial banks keep only a small fraction of deposits as reserve and lend out the rest. As this lent money is redeposited and relent, the total money supply in the economy expands, a process called credit creation.",
+"pidgin": "Commercial banks go keep small part of the money as reserve, then dem go loan out the rest. As dis money dey enter and comot again, e dey increase the total money wey dey circulate - na so credit creation dey work.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "ecov1101",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A customer deposits ₦50,000 into a commercial bank. If the Central Bank of Nigeria fixes the cash reserve ratio at 20%, what is the maximum total increase in bank deposits (through credit creation) that can result from this single deposit, assuming banks lend out all excess reserves?",
+"options": [
+"₦200,000",
+"₦100,000",
+"₦250,000",
+"₦150,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The money (deposit) multiplier equals 1 divided by the reserve ratio, which is 1/0.20 = 5. Multiplying the initial deposit by this multiplier gives 50,000 x 5 = ₦250,000 as the maximum total deposit expansion.",
+"pidgin": "The multiplier na 1 divide by the reserve ratio, wey be 1/0.20 = 5. If you multiply the first deposit (50,000) by 5, you go get ₦250,000 as the total money wey fit enter the system.",
+"py": "50000 * (1/0.2)",
+"values": [
+200000,
+100000,
+250000,
+150000
+],
+"id": "ecov1102",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+"why": "ambiguous:|Total deposits = 50,000 × 1/0.2 = ₦250,000 (C), but 'through credit creation' could mean newly created deposits = ₦200,000 (A), which is also an option"
+}
+]
+}

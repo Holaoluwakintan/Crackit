@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Federalism, unitary and confederal systems",
+"ti": 8,
+"generated": 8,
+"kept": [
+{
+"q": "What is federalism, as practised in a country like Nigeria?",
+"options": [
+"Government where all powers are concentrated at the centre",
+"Government in which power is shared between a central authority and constituent states, with each level supreme in its own sphere",
+"Government formed by independent states that retain full sovereignty and can withdraw at will",
+"Government controlled entirely by traditional rulers and chiefs"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Federalism is a system where power is constitutionally divided between a central (federal) government and component states, and each level is supreme within its own area of authority. This is different from a unitary system (centre controls all) or a confederation (states keep full sovereignty).",
+"pidgin": "Federalism na system wey dem share power between central govment and di states, and each level get im own full power for im area. E no be like unitary wey everything dey centre, or confederation wey states still get full sovereignty.",
+"id": "wgov0800",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best describes a key feature of a unitary system of government?",
+"options": [
+"Two or more levels of government each with constitutionally guaranteed powers",
+"Component states retain the right to secede from the union at any time",
+"All governmental powers are concentrated in a single central authority, which may delegate some functions to local units it can control or abolish",
+"A written constitution is strictly forbidden under this system"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "In a unitary system, supreme power lies with the central government. Local or regional bodies only exercise powers given to them by the centre, and the centre can change or remove such powers. This is unlike federalism, where states have guaranteed powers.",
+"pidgin": "For unitary system, all power dey for central govment. Local bodies dey only use power wey centre give dem, and centre fit change or remove am anytime. E no be like federalism wey states get guaranteed power.",
+"id": "wgov0801",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A confederation is best described as which type of political arrangement?",
+"options": [
+"A loose union of independent sovereign states that cooperate on specific matters while each retains its own sovereignty",
+"A single central government that controls all regions directly with no autonomy for them",
+"A division of powers between national and state governments under one written constitution",
+"A military arrangement where soldiers rule without any constitution at all"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A confederation is a weak, loose association formed by fully independent states to cooperate on limited common matters such as defence or trade, but each state keeps its full sovereignty and can leave the union. This is different from a federation, where states give up some sovereignty to a stronger central government.",
+"pidgin": "Confederation na loose union wey independent states form so dem fit work together for small matters like defence or trade, but every state still get im full power and fit comot anytime. E different from federation wey states give some power to strong central govment.",
+"id": "wgov0802",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Under the 1999 Constitution of Nigeria (as amended), how many tiers of government operate in the federal structure?",
+"options": [
+"Two tiers only - federal and state governments",
+"Four tiers - federal, state, local and traditional councils",
+"One tier - a single central government for the whole country",
+"Three tiers - federal, state and local governments"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Nigeria's federal system, as set out in the 1999 Constitution, recognises three tiers of government: the Federal Government, the 36 State Governments, and the Local Government Councils. Traditional institutions are not a constitutional tier of government.",
+"pidgin": "Nigeria federal system, wey dem write for 1999 Constitution, get three tiers: Federal Govment, di 36 State Govments, and Local Govment Councils. Traditional rulers no be constitutional tier of govment.",
+"id": "wgov0803",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a genuine advantage of practising federalism in a country with many ethnic and religious groups, such as Nigeria?",
+"options": [
+"It concentrates all decision-making power at the centre for faster national decisions",
+"It allows each component unit to manage its local affairs according to its own peculiar needs and interests",
+"It removes the need for the country to have a written constitution",
+"It reduces the total number of government workers needed nationwide"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Federalism allows states or regions to control certain local matters that suit their own peculiar needs, such as local chieftaincy affairs, which helps manage diversity. The other options describe features of a unitary system or are simply untrue of federalism.",
+"pidgin": "Federalism allow states to handle their own local matters wey fit their peculiar need, like chieftaincy affairs, and e dey help manage diversity well. Di oda options na features of unitary system or dem just no correct for federalism.",
+"id": "wgov0804",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student argues that federalism suits a large country with many different ethnic and religious groups better than a unitary system. Which reason best supports this argument?",
+"options": [
+"Federalism ensures that only one dominant ethnic group fully controls the central government",
+"Federalism removes the need for elections to be held in any of the component states",
+"Federalism allows diverse groups to enjoy some self-governing autonomy in their states while still remaining united under one central government, which reduces fears of domination",
+"Federalism requires every state to adopt the same official religion as the centre"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In a diverse country, federalism lets different groups control their own state affairs (such as education or local chieftaincy matters) while still being united nationally, which reduces fear that one group will dominate the others. This balance of unity and autonomy is federalism's main strength over a unitary system in such societies.",
+"pidgin": "For country wey get plenty different ethnic and religion groups, federalism allow make each group manage their own state affairs while dem still dey united as one nation, and dis one dey reduce fear say one group go dominate di oda ones. Na dis balance of unity and freedom be federalism main advantage pass unitary system for such society.",
+"id": "wgov0805",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which feature most clearly distinguishes a confederation from a federation?",
+"options": [
+"In a confederation, the member states retain supreme sovereignty and can lawfully withdraw from the union, unlike states in a true federation",
+"In a confederation, the central government has far more power than any member state",
+"In a confederation, there is only one single written constitution binding all members permanently",
+"In a confederation, citizens owe allegiance only to the central authority and not to their own state"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The key legal difference is that confederate states never surrender their full sovereignty; they can leave the arrangement when they choose, because the union is based on an agreement among equals. In a federation, states give up some sovereignty permanently to a central government that they cannot simply withdraw from.",
+"pidgin": "Di main difference na say confederate states never give up their full sovereignty; dem fit comot from di union anytime because na agreement among equal states. But for federation, states don already give some sovereignty permanently to central govment and dem no fit just waka comot.",
+"id": "wgov0806",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is often cited as a disadvantage of practising the federal system of government?",
+"options": [
+"It encourages fast, uniform decision-making for the whole country without delay",
+"It completely eliminates rivalry or competition among the component states",
+"It automatically guarantees that resources will be shared equally among all states",
+"It can lead to duplication of government functions and offices, thereby increasing the overall cost of governance"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Because federalism creates separate government structures (executive, legislature, civil service) at both the federal and state levels, many offices and functions are duplicated, which raises the cost of running government. The other options wrongly describe federalism as having unitary-type benefits it does not actually guarantee.",
+"pidgin": "Because federalism get separate govment structures (executive, legislature, civil service) for both federal and state level, plenty offices and functions dey duplicate, and dis one dey increase cost of governance. Di oda options dey wrongly give federalism benefits wey e no really guarantee.",
+"id": "wgov0807",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,80 @@
+{
+"subject": "government",
+"topic": "Constitutions: types and sources",
+"generated": 4,
+"kept": [
+{
+"q": "Which type of constitution is best described as one in which independent states come together to form a loose union, each retaining its own sovereignty, and the central authority only handles matters specifically agreed upon such as defence or foreign affairs?",
+"options": [
+"Unitary constitution",
+"Federal constitution",
+"Confederal constitution",
+"Monarchical constitution"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A confederal constitution joins sovereign states loosely, with the centre having only limited, agreed powers while member states keep most of their independence. This differs from a federal system where power is shared constitutionally between a strong centre and states, and from a unitary system where power is concentrated at the centre.",
+"pidgin": "Confederal constitution na when different independent states join together loosely, but each one still get im own power. Di central body na small-small matter dem dey handle, like defence. E different from federal (wia centre and states share power by law) and unitary (wia centre get all di power).",
+"id": "govv0300",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "In constitutional law, when courts interpret the constitution and their rulings on its meaning are later relied upon as guides in similar cases, this source of the constitution is called",
+"options": [
+"Customs and traditions",
+"Judicial precedents",
+"Conventions",
+"Religious doctrines"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Judicial precedents arise when courts give authoritative interpretations of constitutional provisions, and these decisions guide how the same provisions are understood and applied in future cases. This is different from conventions, which are unwritten customary practices in government, not court rulings.",
+"pidgin": "Judicial precedent na wen court interpret constitution and dat ruling later become guide for similar cases wey go come. E no be convention, wey be unwritten custom wey government dey follow; na court decision we dey talk about here.",
+"id": "govv0301",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A provision in a constitution that can only be changed through a special, more difficult procedure (such as a two-thirds majority vote plus a national referendum) rather than by ordinary legislative process is known as a/an",
+"options": [
+"Delegated clause",
+"Entrenched clause",
+"Preambular clause",
+"Residual clause"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "An entrenched clause is specially protected so that it cannot be amended as easily as ordinary laws; it requires extra steps like a supermajority or referendum. This protects important provisions, such as fundamental human rights, from being changed carelessly by a simple parliamentary majority.",
+"pidgin": "Entrenched clause na part of constitution wey dem protect well-well, so dem no fit just change am like ordinary law. To change am, dem need special process like two-thirds majority plus referendum, so dat important matters no go dey change anyhow.",
+"id": "govv0302",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Country Alpha's constitution can be changed whenever the National Assembly passes an ordinary bill by simple majority, just like any other law. Country Beta's constitution requires a two-thirds majority in the legislature plus approval by a national referendum before any amendment takes effect. Based on this information, how should these two constitutions be classified?",
+"options": [
+"Alpha is rigid, Beta is flexible",
+"Alpha is flexible, Beta is rigid",
+"Both are rigid because they are both written",
+"Both are flexible because they both allow amendment"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A constitution is classified as flexible or rigid based on how difficult it is to amend, not merely whether it is written. Alpha is flexible because it can be changed by ordinary simple-majority legislation, while Beta is rigid because it demands a special, harder procedure (supermajority plus referendum) before any change can occur.",
+"pidgin": "Wetin dey make constitution rigid or flexible na how hard e be to change am, no be say e dey written or not. Alpha dey flexible because ordinary simple majority fit change am, but Beta dey rigid because e need special wahala like two-thirds majority and referendum before e go change.",
+"id": "govv0303",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,159 @@
+{
+"subject": "english",
+"topic": "Spelling and punctuation",
+"ti": 12,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following options contains the correctly spelled word?",
+"options": [
+"ACCOMODATE",
+"ACCOMADATE",
+"ACCOMMODATE",
+"ACOMMODATE"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The correct spelling is 'ACCOMMODATE', with double 'c' and double 'm'. The other options are common misspellings of this word.",
+"pidgin": "The correct spelling na 'ACCOMMODATE', e get double 'c' and double 'm'. The rest na how people dey spell am wrong anyhow.",
+"id": "weng1200",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Choose the sentence that is correctly punctuated.",
+"options": [
+"\"It's time for the match,\" said Emeka.",
+"\"Its time for the match,\" said Emeka.",
+"\"It's time for the match\", said Emeka.",
+"\"Its' time for the match,\" said Emeka."
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "'It's' is the correct contraction of 'it is', and the comma that ends the quoted speech must be placed inside the quotation marks. The other options either misuse the apostrophe or place the comma wrongly.",
+"pidgin": "'It's' na correct short form for 'it is', and the comma wey dey close the speech suppose dey inside the quotation marks. The other options don mismanage the apostrophe or comma.",
+"id": "weng1201",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the options below, choose the word that is correctly spelled.",
+"options": [
+"NECCESSARY",
+"NECESSARY",
+"NECESSSARY",
+"NECESARY"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The correct spelling is 'NECESSARY', with one 'c' and double 's'. A common memory trick is: one collar (c), two sleeves (ss).",
+"pidgin": "Correct spelling na 'NECESSARY', na one 'c' and double 's'. Remember am as one collar (c), two sleeves (ss).",
+"id": "weng1203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following words is WRONGLY spelled?",
+"options": [
+"priviledge",
+"occurrence",
+"embarrassment",
+"questionnaire"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The correct spelling is 'privilege', not 'priviledge'; there is no 'd' before the 'ge'. The other three words are correctly spelled, though they often trick students because of double letters.",
+"pidgin": "Correct spelling na 'privilege', no 'd' before 'ge'. The remaining three words dem spell correctly, but students dey mistake dem sake of the double letters.",
+"id": "weng1206",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the sentence with the correct punctuation for the possessive form.",
+"options": [
+"The childrens' toys were scattered everywhere.",
+"The childrens toys were scattered everywhere.",
+"The child's toys were scattered everywhere.",
+"The children's toys were scattered everywhere."
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "'Children' is already plural, so the possessive is formed by adding an apostrophe and 's' ('children's'). 'Child's' is singular and wrong here, while the other options misuse the apostrophe.",
+"pidgin": "'Children' don already be plural, so to show say e belong to dem, you go add apostrophe and 's' ('children's'). 'Child's' na for one child, e no fit work here, and the other options spoil the apostrophe.",
+"id": "weng1202",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:C is also correct for one child.|C (child's) is also correctly punctuated."
+},
+{
+"q": {
+"q": "Choose the sentence that correctly uses punctuation to join two related independent statements.",
+"options": [
+"Ngozi loves singing, she practices every evening.",
+"Ngozi loves singing: she practices every evening.",
+"Ngozi loves singing; she practices every evening.",
+"Ngozi loves singing she practices every evening."
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A semicolon correctly joins two closely related independent clauses without a conjunction. A comma alone (option A) causes a comma splice, and the colon in option B is not used this way.",
+"pidgin": "Semicolon na correct mark to join two sentences wey relate, without conjunction. Comma alone (option A) go cause comma splice, and colon for option B no fit work like that.",
+"id": "weng1204",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:B's colon is also defensible.|Colon in B is also defensible, since the second clause explains the first."
+},
+{
+"q": {
+"q": "Choose the sentence with the correct punctuation before a list.",
+"options": [
+"The farmer needed three items for planting season, fertilizer, seeds and a hoe.",
+"The farmer needed three items for planting season; fertilizer, seeds and a hoe.",
+"The farmer needed three items for planting season fertilizer, seeds and a hoe.",
+"The farmer needed three items for planting season: fertilizer, seeds and a hoe."
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "A colon is used after a complete independent clause to introduce a list. 'The farmer needed three items for planting season' is a full statement, so a colon correctly introduces the list that follows.",
+"pidgin": "Colon na the mark wey dem dey use after complete statement to introduce list. 'The farmer needed three items for planting season' na correct full sentence, so colon fit introduce the list wey follow am.",
+"id": "weng1205",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:A's comma can introduce an appositive list.|"
+}
+]
+}

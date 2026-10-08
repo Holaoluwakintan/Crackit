@@ -1,0 +1,167 @@
+{
+"subject": "economics",
+"topic": "Basic concepts: scarcity, choice, scale of preference and opportunity cost",
+"ti": 0,
+"generated": 7,
+"kept": [
+{
+"q": "In economics, scarcity simply means that:",
+"options": [
+"Human wants are unlimited but the resources to satisfy them are limited",
+"All goods are given out freely without any payment",
+"Government fixes the price of every good in the market",
+"People always have more money than they can spend"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Scarcity is the basic economic problem that resources (land, labour, capital) are limited while human wants are unlimited. This forces people to make choices. The other options describe situations that are not what economists mean by scarcity.",
+"pidgin": "Scarcity na say resources no plenty reach to satisfy all the wants wey people get, wey no get end. Na because of this one people dey choose wetin dem go buy. The other options no be wetin economist dey call scarcity.",
+"py": null,
+"values": null,
+"id": "weco0000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best explains why people must constantly make economic choices?",
+"options": [
+"Because goods in the market are always too expensive",
+"Because resources are limited while human wants are unlimited",
+"Because the government controls every sector of the economy",
+"Because traders always want to make more profit"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Choice arises because resources are scarce compared to the many wants people have, so people must select which wants to satisfy first. The other options are not the real economic reason for choice.",
+"pidgin": "People dey choose because resources no plenty well-well compared to all the many wants wey dem get. So dem go select wetin dem go first satisfy. The other options no be the real economic reason.",
+"py": null,
+"values": null,
+"id": "weco0001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A trader who has only ₦20,000 to stock either rice or beans must decide which one to buy for resale. If she buys rice, she cannot buy beans at the same time. Which basic economic concept does this situation best illustrate?",
+"options": [
+"Division of labour",
+"Inflation",
+"Economic growth",
+"Choice"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Because the trader has limited money (a scarce resource) and two wants (rice or beans), she must choose one over the other. This decision-making under scarcity is exactly what economists call choice.",
+"pidgin": "Since the trader money no plenty reach buy both rice and beans, she must pick one. This kain decision wey person dey make because resources no reach everything na wetin economist dey call choice.",
+"py": null,
+"values": null,
+"id": "weco0002",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Opportunity cost in economics refers to:",
+"options": [
+"The total amount spent on producing a good",
+"The market price customers pay for a good",
+"The tax government charges on imported goods",
+"The value of the next best alternative given up when a choice is made"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Opportunity cost is not just any cost; it is specifically the benefit lost from the next best option that was not chosen. The other options describe price, tax or production cost, which are different concepts.",
+"pidgin": "Opportunity cost no be just any cost; na the value of the second best option wey person no choose. The other options dey talk about price, tax or production cost, wey no be the same thing.",
+"py": null,
+"values": null,
+"id": "weco0003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer in Benue State has only one plot of land for this planting season. He estimates that maize would earn him ₦60,000, yam would earn ₦50,000, and cassava would earn ₦45,000. He finally decides to plant maize. What is his opportunity cost?",
+"options": [
+"Yam, valued at ₦50,000",
+"The maize income of ₦60,000",
+"Cassava, valued at ₦45,000",
+"The combined value of cassava and yam, ₦95,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Opportunity cost is only the single next best alternative sacrificed, not the total of all alternatives. Since yam (₦50,000) earns more than cassava (₦45,000), yam is the next best alternative, so it is the correct opportunity cost of choosing maize.",
+"pidgin": "Opportunity cost na only the one option wey be number two best, e no be all the remaining options add together. Since yam (₦50,000) pass cassava (₦45,000), na yam be the next best option, so na im be the correct opportunity cost of choosing maize.",
+"py": null,
+"values": null,
+"id": "weco0005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which statement correctly distinguishes scarcity from a shortage?",
+"options": [
+"Scarcity and shortage mean exactly the same thing in economics",
+"Shortage is a permanent condition while scarcity is only temporary",
+"Scarcity affects only developing countries while shortage affects only developed countries",
+"Scarcity is the general and permanent limitation of resources compared to unlimited wants, while a shortage is a temporary lack of supply at the prevailing price"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Scarcity is a permanent, universal economic problem affecting every country regardless of wealth, while a shortage is a short-term situation, such as when fuel is temporarily unavailable at the pump price. The other options wrongly treat the two terms as identical or get the permanence reversed.",
+"pidgin": "Scarcity na permanent problem wey dey everywhere, e no dey choose rich or poor country, but shortage na short-time matter, like when fuel no dey available for the pump price for some days. The other options don mix up the two terms wrongly.",
+"py": null,
+"values": null,
+"id": "weco0006",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Blessing has ₦8,000 to spend and arranges her wants in order of importance as follows: a new wrapper (₦8,000), a pair of sandals (₦5,000), and a bag of rice (₦3,000). She finally decides to buy the new wrapper. What is her opportunity cost?",
+"options": [
+"The bag of rice",
+"The sum of the sandals and the rice",
+"The pair of sandals",
+"The new wrapper itself"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Opportunity cost is the next best alternative forgone, not everything given up. Since the pair of sandals is Blessing's second choice on her scale of preference, it is her opportunity cost, not the rice or the wrapper itself.",
+"pidgin": "Opportunity cost na the next best thing wey person sacrifice, e no be everything wey remain. Since sandals na the number two wan for Blessing scale of preference, na im be her opportunity cost, no be rice or the wrapper wey she buy.",
+"py": null,
+"values": null,
+"id": "weco0004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Sandals and rice together are also affordable, so B is defensible.|Sandals + rice = ₦8,000, so she could have bought both; B is also defensible"
+}
+]
+}

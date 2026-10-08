@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Diseases, parasites and immunity (malaria, cholera, HIV, vaccines)",
+"generated": 4,
+"kept": [
+{
+"q": "A farmer in a malaria-endemic village in Benue State develops recurring fever, chills and sweating every two to three days. Which of these signs is most characteristic of a malaria infection caused by Plasmodium species?",
+"options": [
+"Fever and chills occurring in cycles",
+"A persistent dry cough lasting many months",
+"Sudden loss of hearing in both ears",
+"Yellowing of the fingernails only"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Malaria is known for periodic fever and chills that match the cycle of the parasite bursting out of red blood cells. The other options are not typical signs of malaria.",
+"pidgin": "Malaria dey cause fever and chills wey dey come and go for cycle, e dey match as the parasite dey burst comot for red blood cell. The other options no be common malaria sign.",
+"id": "biov2000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A nursing mother who recently recovered from measles breastfeeds her baby. Through the breast milk, antibodies against the measles virus pass from the mother to the baby, giving the baby temporary protection. What type of immunity does the baby receive?",
+"options": [
+"Natural passive immunity",
+"Natural active immunity",
+"Artificial passive immunity",
+"Artificial active immunity"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The baby did not produce the antibodies itself; it received ready-made antibodies naturally from the mother through breast milk, which is natural passive immunity. Active immunity would require the baby's own body to make antibodies.",
+"pidgin": "Na natural passive immunity because the baby no produce the antibody by itself, e just collect am natural way from mama breast milk. If e be active immunity, na the baby body go need make the antibody.",
+"id": "biov2001",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "During a cholera outbreak in a riverside community, health workers give patients oral rehydration therapy (ORT) as first-line treatment before other medical care. What is the main purpose of this treatment?",
+"options": [
+"To replace the water and salts lost through severe diarrhoea",
+"To directly kill the Vibrio cholerae bacteria in the gut",
+"To stimulate the body to quickly produce antibodies against the toxin",
+"To lower the patient's body temperature"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Cholera causes severe watery diarrhoea that leads to dangerous loss of water and salts (dehydration), which can be fatal. Oral rehydration therapy replaces these lost fluids and electrolytes; it does not kill bacteria or boost antibody production.",
+"pidgin": "Cholera dey cause watery stooling wey dey carry water and salt comot for body, and dat one fit kill person. ORT dey replace the water and salt wey don loss; e no dey kill bacteria or help antibody make.",
+"id": "biov2002",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A young man had unprotected sex and got infected with HIV. Three weeks later, a standard antibody test shows a negative result even though the virus is already multiplying in his blood. This early stage, when the virus is present but antibodies have not yet reached detectable levels, is best called the:",
+"options": [
+"Window period",
+"Incubation period of malaria",
+"Dormant phase of the virus",
+"Antigenic drift stage"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The window period is the time after HIV infection before the immune system makes enough antibodies for a test to detect, so tests can give a false negative. The other terms do not describe this specific antibody-testing gap.",
+"pidgin": "Window period na the time after person catch HIV before im body go produce enough antibody wey test fit see, so the test fit show false negative. The other options no fit explain dis antibody gap.",
+"id": "biov2003",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

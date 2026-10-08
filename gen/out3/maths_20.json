@@ -1,0 +1,115 @@
+{
+"subject": "maths",
+"topic": "Differentiation and its applications (gradient, maxima/minima, rates)",
+"generated": 4,
+"kept": [
+{
+"q": "Find the gradient of the curve y = 5x^2 - 3x + 2 at the point where x = 1.",
+"options": [
+"7",
+"2",
+"10",
+"-3"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Differentiate y = 5x^2 - 3x + 2 to get dy/dx = 10x - 3. Substitute x = 1: dy/dx = 10(1) - 3 = 7. So the gradient at x = 1 is 7.",
+"pidgin": "Differentiate y = 5x^2 - 3x + 2, e go give dy/dx = 10x - 3. Put x = 1 inside: 10(1) - 3 = 7. So gradient na 7.",
+"py": "10*1-3",
+"values": [
+7,
+2,
+10,
+-3
+],
+"id": "matv2000",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A spherical balloon is being inflated so that its radius increases at a constant rate of 3 cm/s. Find the rate at which the volume is increasing when the radius is 5 cm. (Volume of sphere, V = 4/3 pi r^3)",
+"options": [
+"300pi cm^3/s",
+"100pi cm^3/s",
+"60pi cm^3/s",
+"150pi cm^3/s"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "V = 4/3 pi r^3, so dV/dr = 4 pi r^2. By chain rule, dV/dt = 4 pi r^2 (dr/dt). At r = 5, dr/dt = 3: dV/dt = 4 pi (25)(3) = 300 pi cm^3/s.",
+"pidgin": "V = 4/3 pi r^3, so dV/dr = 4 pi r^2. Use chain rule: dV/dt = 4 pi r^2 multiply dr/dt. For r = 5, dr/dt = 3: dV/dt = 4 pi (25)(3) = 300 pi cm^3/s.",
+"py": "4*math.pi*5**2*3",
+"values": [
+942.477796076938,
+314.1592653589793,
+188.49555921538757,
+471.23889803846896
+],
+"id": "matv2002",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "The curve y = x^3 - 3x^2 + 2 has gradient 9 at two distinct points. Find the sum of the x-coordinates of these two points.",
+"options": [
+"2",
+"4",
+"-4",
+"6"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "dy/dx = 3x^2 - 6x. Set this equal to 9: 3x^2 - 6x - 9 = 0, which simplifies to x^2 - 2x - 3 = 0, giving (x-3)(x+1) = 0, so x = 3 or x = -1. The sum of these roots is 3 + (-1) = 2.",
+"pidgin": "dy/dx = 3x^2 - 6x. Make am equal to 9: 3x^2 - 6x - 9 = 0, e simplify to x^2 - 2x - 3 = 0, wey factor to (x-3)(x+1) = 0, so x = 3 or x = -1. Add dem together: 3 + (-1) = 2.",
+"py": "3+(-1)",
+"values": [
+2,
+4,
+-4,
+6
+],
+"id": "matv2003",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Find the maximum value of the function f(x) = x^3 - 3x^2 - 9x + 5.",
+"options": [
+"10",
+"-22",
+"-1",
+"3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "f'(x) = 3x^2 - 6x - 9 = 0 gives x = 3 or x = -1. f''(x) = 6x - 6; at x = -1, f'' = -12 (negative), so x = -1 is a maximum point. f(-1) = -1 - 3 + 9 + 5 = 10.",
+"pidgin": "f'(x) = 3x^2 - 6x - 9 = 0 give x = 3 or x = -1. Check f''(x) = 6x - 6; for x = -1, e be negative (-12), so na maximum point. f(-1) = -1 - 3 + 9 + 5 = 10.",
+"py": "(-1)**3-3*(-1)**2-9*(-1)+5",
+"values": [
+10,
+-22,
+-1,
+3
+],
+"id": "matv2001",
+"check": {
+"s1": "X",
+"s2": "A"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

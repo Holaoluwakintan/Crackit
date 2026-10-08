@@ -1,0 +1,149 @@
+{
+"subject": "english",
+"topic": "Oral English: consonant sounds and clusters",
+"ti": 14,
+"generated": 7,
+"kept": [
+{
+"q": "From the words lettered A to D, choose the word whose underlined consonant sound is different from the others. All the words begin with the letters 'CH'.\nA. CHAIR\nB. CHEMIST\nC. CHURCH\nD. CHEESE",
+"options": [
+"CHAIR",
+"CHEMIST",
+"CHURCH",
+"CHEESE"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "CHAIR, CHURCH and CHEESE all begin with the sound /tʃ/ as in 'chop'. CHEMIST begins with the sound /k/ instead. So CHEMIST is the odd one out.",
+"pidgin": "CHAIR, CHURCH and CHEESE all dey start with /tʃ/ sound like 'chop'. But CHEMIST dey start with /k/ sound. So na CHEMIST be the odd one.",
+"id": "weng1400",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the words lettered A to D, choose the word that begins with a consonant cluster.\nA. SPLASH\nB. TABLE\nC. WATER\nD. APPLE",
+"options": [
+"SPLASH",
+"TABLE",
+"WATER",
+"APPLE"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "SPLASH begins with three consonant sounds together, /spl/, which is a consonant cluster. TABLE, WATER and APPLE do not start with clustered consonant sounds.",
+"pidgin": "SPLASH dey start with /spl/ wey be three consonant sounds join together, na so consonant cluster dey be. TABLE, WATER and APPLE no get that kind start.",
+"id": "weng1401",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the words lettered A to D, choose the word that has a silent consonant.\nA. CASTLE\nB. CAMEL\nC. CARROT\nD. CABBAGE",
+"options": [
+"CASTLE",
+"CAMEL",
+"CARROT",
+"CABBAGE"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "In CASTLE, the letter 't' is silent, so it is pronounced /ˈkɑːsəl/. The other words have all their consonants pronounced.",
+"pidgin": "For CASTLE, the 't' no dey pronounce, dem dey call am /ˈkɑːsəl/. The other words dey pronounce all their consonants well well.",
+"id": "weng1402",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the words lettered A to D, choose the word that contains the consonant sound /θ/ as heard in 'think'.\nA. THESE\nB. MOTHER\nC. THIRD\nD. FATHER",
+"options": [
+"THESE",
+"MOTHER",
+"THIRD",
+"FATHER"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "THIRD is pronounced with the voiceless sound /θ/, just like 'think'. THESE, MOTHER and FATHER all contain the voiced sound /ð/ instead.",
+"pidgin": "THIRD dey use the voiceless /θ/ sound, the same way as 'think'. THESE, MOTHER and FATHER dey use /ð/ sound wey be voiced one.",
+"id": "weng1403",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the words lettered A to D, choose the word that ends with a consonant cluster.\nA. TEXT\nB. TRAY\nC. TABLE\nD. TOMATO",
+"options": [
+"TEXT",
+"TRAY",
+"TABLE",
+"TOMATO"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "TEXT ends with the sounds /kst/, which is a cluster of three consonant sounds together. TRAY, TABLE and TOMATO do not end with clustered consonant sounds.",
+"pidgin": "TEXT dey end with /kst/, wey be three consonant sounds join finish. TRAY, TABLE and TOMATO no get that kind ending.",
+"id": "weng1404",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the words lettered A to D, choose the word that ends with the same consonant sound as the word in capitals.\nBRIDGE\nA. REACH\nB. JUDGE\nC. WATCH\nD. BENCH",
+"options": [
+"REACH",
+"JUDGE",
+"WATCH",
+"BENCH"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "BRIDGE ends with the voiced sound /dʒ/. JUDGE also ends with /dʒ/. REACH, WATCH and BENCH all end with the voiceless sound /tʃ/ instead.",
+"pidgin": "BRIDGE dey end with /dʒ/ sound wey be voiced. JUDGE too dey end with /dʒ/. REACH, WATCH and BENCH dey end with /tʃ/ wey no be voiced.",
+"id": "weng1405",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the words lettered A to D, choose the word that does NOT begin with a three-consonant cluster.\nA. STRAY\nB. SPRAY\nC. STOP\nD. SCREAM",
+"options": [
+"STRAY",
+"SPRAY",
+"STOP",
+"SCREAM"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "STRAY begins with /str/, SPRAY with /spr/, and SCREAM with /skr/, each having three consonant sounds together. STOP only begins with /st/, which is a two-consonant cluster, so it does not fit the three-consonant pattern.",
+"pidgin": "STRAY dey start with /str/, SPRAY with /spr/, SCREAM with /skr/, all na three consonant sounds join together. STOP na only /st/, na two consonant sounds, e no match the three-consonant pattern.",
+"id": "weng1406",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

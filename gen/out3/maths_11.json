@@ -1,0 +1,109 @@
+{
+"subject": "maths",
+"topic": "Inequalities (linear and quadratic)",
+"generated": 4,
+"kept": [
+{
+"q": "Amina has ₦8000 to spend. She wants to buy a pen worth ₦500 and some notebooks that cost ₦350 each. What is the maximum number of notebooks she can buy without exceeding her money?",
+"options": [
+"21",
+"22",
+"20",
+"23"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Let x be the number of notebooks. The cost must satisfy 350x + 500 <= 8000. Subtracting 500 gives 350x <= 7500, so x <= 21.43. Since x must be a whole number, the maximum is 21.",
+"pidgin": "Make x be di number of notebook. Di cost na 350x + 500 <= 8000. If you minus 500 you go get 350x <= 7500, so x <= 21.43. Since na whole number she go buy, di maximum na 21.",
+"py": "int((8000-500)//350)",
+"values": [
+21,
+22,
+20,
+23
+],
+"id": "matv1100",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Solve the quadratic inequality 2x^2 - 5x - 3 < 0.",
+"options": [
+"x < -1/2 or x > 3",
+"-1/2 < x < 3",
+"-3 < x < 1/2",
+"x <= -1/2 or x >= 3"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Factorise: 2x^2 - 5x - 3 = (2x + 1)(x - 3), giving roots x = -1/2 and x = 3. Since the coefficient of x^2 is positive, the expression is negative between the roots, so the solution is -1/2 < x < 3.",
+"pidgin": "Factorise am: 2x^2 - 5x - 3 = (2x + 1)(x - 3), so di roots na x = -1/2 and x = 3. Since di x^2 coefficient positive, di expression dey negative between di roots, so answer na -1/2 < x < 3.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matv1101",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Find the solution set of the inequality x^2 - 6x + 8 >= 0.",
+"options": [
+"2 <= x <= 4",
+"x < 2 or x > 4",
+"x <= 2 or x >= 4",
+"-4 <= x <= -2"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Factorise: x^2 - 6x + 8 = (x - 2)(x - 4), with roots x = 2 and x = 4. Since the coefficient of x^2 is positive, the expression is non-negative outside (and including) the roots, so x <= 2 or x >= 4.",
+"pidgin": "Factorise am: x^2 - 6x + 8 = (x - 2)(x - 4), di roots na x = 2 and x = 4. Since di x^2 coefficient positive, di expression dey non-negative outside di roots, so x <= 2 or x >= 4.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matv1102",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Solve the inequality (x - 1)/(x + 2) > 1, where x is not equal to -2.",
+"options": [
+"x > -2",
+"x < 1",
+"-2 < x < 1",
+"x < -2"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Subtract 1 from both sides: (x-1)/(x+2) - 1 > 0, which simplifies to -3/(x+2) > 0. This is true only when x + 2 is negative, that is, x < -2.",
+"pidgin": "Minus 1 from both sides: (x-1)/(x+2) - 1 > 0, e go simplify to -3/(x+2) > 0. Dis one dey true only when x + 2 negative, meaning x < -2.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matv1103",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

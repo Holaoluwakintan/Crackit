@@ -1,0 +1,116 @@
+{
+"subject": "english",
+"topic": "Oral English: word stress (choose the word with the correct stress pattern, stressed syllable in CAPITALS)",
+"generated": 6,
+"kept": [
+{
+"q": "Study the words below. Each word is divided into syllables, and the stressed syllable is shown in CAPITAL letters. Choose the option in which the word is correctly stressed.",
+"options": [
+"HAP-py",
+"gar-DEN",
+"mar-KET",
+"ta-BLE"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Happy is a two-syllable word stressed on the first syllable: HAP-py. The other words are wrongly marked; garden, market and table are actually stressed on their first syllables too (GAR-den, MAR-ket, TA-ble), not as shown in options B, C and D.",
+"pidgin": "Happy na two-syllable word wey dem dey stress for the first part: HAP-py. The other words don show wrong stress; garden, market and table suppose stress for their first syllable (GAR-den, MAR-ket, TA-ble), no be like wetin dey options B, C and D.",
+"id": "engv1300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Study the words below. Each word is divided into syllables, and the stressed syllable is shown in CAPITAL letters. Choose the option in which the word is correctly stressed.",
+"options": [
+"HO-tel",
+"CA-reer",
+"po-LICE",
+"SA-loon"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Unlike many two-syllable nouns, 'police' is stressed on the second syllable: po-LICE. The other options wrongly stress the first syllable; hotel, career and saloon are actually stressed on the second syllable (ho-TEL, ca-REER, sa-LOON).",
+"pidgin": "Unlike plenty two-syllable noun, 'police' dey stress for the second syllable: po-LICE. The other options don wrongly stress the first syllable; hotel, career and saloon suppose stress for second syllable (ho-TEL, ca-REER, sa-LOON).",
+"id": "engv1301",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "The word EXAMINATION is written below in four different stress patterns, with the stressed syllable in CAPITAL letters. Choose the option that shows the correct stress pattern.",
+"options": [
+"ex-AM-i-na-tion",
+"EX-am-i-na-tion",
+"ex-am-I-na-tion",
+"ex-am-i-NA-tion"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Examination has five syllables (ex-am-i-na-tion), and the stress falls on the fourth syllable: ex-am-i-NA-tion. Many words ending in '-tion' are stressed on the syllable just before the ending, as seen here.",
+"pidgin": "Examination get five syllables (ex-am-i-na-tion), and the stress dey fall for the fourth syllable: ex-am-i-NA-tion. Plenty words wey end with '-tion' dey stress the syllable before the ending, like wetin we see here.",
+"id": "engv1302",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "The word DEVELOPMENT is written below in four different stress patterns, with the stressed syllable in CAPITAL letters. Choose the option that shows the correct stress pattern.",
+"options": [
+"DE-vel-op-ment",
+"de-VEL-op-ment",
+"de-vel-OP-ment",
+"de-vel-op-MENT"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Development is stressed on the second syllable: de-VEL-op-ment. This is because its root word 'develop' is itself stressed on the middle syllable (de-VEL-op), and adding the suffix '-ment' does not change this stress.",
+"pidgin": "Development dey stress for the second syllable: de-VEL-op-ment. Na because the root word 'develop' dey stress for im middle syllable (de-VEL-op), and when dem add '-ment' e no change the stress.",
+"id": "engv1303",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "The word PHOTOGRAPHY is written below in four different stress patterns, with the stressed syllable in CAPITAL letters. Choose the option that shows the correct stress pattern.",
+"options": [
+"PHO-to-gra-phy",
+"pho-to-GRA-phy",
+"pho-TOG-ra-phy",
+"pho-to-gra-PHY"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Photography is stressed on the second syllable: pho-TOG-ra-phy. This differs from the related word 'photograph' (PHO-to-graph), showing how adding the ending '-y' can shift the stress in a word family.",
+"pidgin": "Photography dey stress for the second syllable: pho-TOG-ra-phy. E different from 'photograph' (PHO-to-graph) — adding '-y' fit change where the stress dey sit for word family like this.",
+"id": "engv1304",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "The word ADVERTISEMENT is written below in four different stress patterns, with the stressed syllable in CAPITAL letters. In British English (the standard used by JAMB), choose the option that shows the correct stress pattern.",
+"options": [
+"AD-ver-tise-ment",
+"ad-ver-TISE-ment",
+"ad-ver-tise-MENT",
+"ad-VER-tise-ment"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "In British English, 'advertisement' is stressed on the second syllable: ad-VER-tise-ment. This is a common exception that differs from how the shorter form 'advert' is stressed, so candidates must learn it specifically.",
+"pidgin": "For British English, 'advertisement' dey stress for the second syllable: ad-VER-tise-ment. Na one common exception wey different from how dem dey stress 'advert', so make students learn am well well.",
+"id": "engv1305",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+}
+],
+"rejected": []
+}

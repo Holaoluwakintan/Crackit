@@ -1,0 +1,147 @@
+{
+"subject": "chemistry",
+"topic": "Periodic table and periodicity",
+"ti": 1,
+"generated": 6,
+"kept": [
+{
+"q": "Which scientist modified the periodic law to state that the properties of elements are a periodic function of their atomic number rather than their atomic mass?",
+"options": [
+"Mendeleev",
+"Moseley",
+"Newlands",
+"Dobereiner"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Henry Moseley used X-ray studies to show that atomic number, not atomic mass, determines the periodic properties of elements. This corrected the earlier law proposed by Mendeleev.",
+"pidgin": "Moseley na im use X-ray work show say na atomic number dey control how elements dey arrange, no be atomic mass. E be like im correct wetin Mendeleev talk before.",
+"py": null,
+"values": null,
+"id": "wche0100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the modern periodic table, elements that belong to the same group have the same number of what?",
+"options": [
+"atomic mass",
+"number of protons",
+"number of valence electrons",
+"number of neutrons"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Elements in the same group have the same number of electrons in their outermost shell (valence electrons), which gives them similar chemical properties.",
+"pidgin": "Elements wey dey same group get same number of electron for dia outside shell (valence electrons), na why dem get similar chemical behaviour.",
+"py": null,
+"values": null,
+"id": "wche0101",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Sodium (Na) has atomic number 11 and electronic configuration 2,8,1. Which of the following elements is in the same group as sodium?",
+"options": [
+"Magnesium, Mg (atomic number 12)",
+"Calcium, Ca (atomic number 20)",
+"Aluminium, Al (atomic number 13)",
+"Potassium, K (atomic number 19)"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Potassium has configuration 2,8,8,1, ending in 1 valence electron just like sodium (2,8,1). Both are in Group IA (alkali metals). Mg, Ca and Al have 2 or 3 valence electrons, so they belong to different groups.",
+"pidgin": "Potassium get configuration 2,8,8,1, e still end with 1 valence electron like sodium (2,8,1). Na so both dey Group IA, dem be alkali metals. Mg, Ca and Al no match because dem get 2 or 3 valence electrons.",
+"py": null,
+"values": null,
+"id": "wche0102",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Across a period from left to right in the periodic table, atomic radius generally shows which trend?",
+"options": [
+"decreases due to increase in nuclear charge",
+"increases due to increase in shielding effect",
+"remains constant for all elements",
+"increases due to decrease in nuclear charge"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "As you move across a period, protons increase while electrons are added to the same shell, so the nuclear charge pulls the electrons closer, making the atomic radius smaller.",
+"pidgin": "As you dey move across period, protons dey increase but electrons dey enter same shell, so the nucleus dey pull the electrons close, e make the atomic size smaller.",
+"py": null,
+"values": null,
+"id": "wche0103",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "An atom X has electronic configuration 2,8,6. How many valence electrons does atom X have?",
+"options": [
+"8",
+"6",
+"4",
+"2"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The valence electrons are the electrons in the outermost shell. For the configuration 2,8,6, the last number (6) represents the valence electrons.",
+"pidgin": "Valence electrons na electrons wey dey the last shell. For 2,8,6, the last number (6) na the valence electrons.",
+"py": "6",
+"values": [
+8,
+6,
+4,
+2
+],
+"id": "wche0104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following best explains why ionisation energy generally decreases down a group, even though nuclear charge increases down the group?",
+"options": [
+"decrease in number of protons down the group",
+"increase in electron affinity down the group",
+"decrease in number of principal energy levels down the group",
+"increase in atomic radius and electron shielding down the group"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Down a group, extra electron shells are added, increasing atomic radius and the shielding effect from inner electrons. This weakens the pull of the nucleus on the outer electron, so less energy is needed to remove it, even though the nuclear charge is higher.",
+"pidgin": "As you go down group, extra electron shells dey add, so atomic size and shielding effect dey increase. This one weak the pull wey nucleus get for the outer electron, so small energy fit remove am, even though nuclear charge don increase.",
+"py": null,
+"values": null,
+"id": "wche0105",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

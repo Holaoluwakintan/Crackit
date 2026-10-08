@@ -1,0 +1,106 @@
+{
+"subject": "chemistry",
+"topic": "Acids, bases and salts, pH",
+"generated": 4,
+"kept": [
+{
+"q": "What is the pH of a 0.01 mol/dm³ solution of hydrochloric acid, assuming complete dissociation in water?",
+"options": [
+"1",
+"2",
+"12",
+"7"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "HCl is a strong acid, so it dissociates completely: [H+] = 0.01 = 1 x 10^-2 mol/dm3. pH = -log10(1 x 10^-2) = 2.",
+"pidgin": "HCl na strong acid so e go dissociate well-well: [H+] = 0.01 = 1 x 10^-2 mol/dm3. pH = -log10(1 x 10^-2) = 2.",
+"py": "-math.log10(0.01)",
+"values": [
+1,
+2,
+12,
+7
+],
+"id": "chev0600",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Potassium trioxocarbonate(IV), K2CO3, is formed from the reaction of a strong base (KOH) and a weak acid (H2CO3). What is the expected nature of an aqueous solution of this salt?",
+"options": [
+"Neutral",
+"Acidic",
+"Basic",
+"Amphoteric"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When a salt comes from a strong base and a weak acid, the anion (CO3^2-) hydrolyses in water to produce OH- ions, making the solution basic. This is called anionic hydrolysis.",
+"pidgin": "Wen salt come from strong base and weak acid, di anion (CO3^2-) go hydrolyse for water take produce OH- ions, so di solution go basic. Dem dey call am anionic hydrolysis.",
+"py": null,
+"values": null,
+"id": "chev0601",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A school laboratory technician wants to neutralize 50.0 cm³ of 0.20 mol/dm³ hydrochloric acid completely using solid sodium hydroxide, NaOH. Calculate the minimum mass of NaOH required. (Na = 23, O = 16, H = 1)",
+"options": [
+"0.40 g",
+"0.80 g",
+"4.00 g",
+"0.20 g"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Moles of HCl = 0.0500 dm3 x 0.20 mol/dm3 = 0.01 mol. Since HCl and NaOH react 1:1, moles of NaOH needed = 0.01 mol. Mass = 0.01 x 40 = 0.40 g.",
+"pidgin": "Moles of HCl = 0.0500 dm3 x 0.20 mol/dm3 = 0.01 mol. Since HCl and NaOH dey react 1:1, moles of NaOH wey dem need = 0.01 mol. Mass = 0.01 x 40 = 0.40 g.",
+"py": "0.0500*0.20*40",
+"values": [
+0.4,
+0.8,
+4.0,
+0.2
+],
+"id": "chev0602",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A weak monobasic acid, HA, has a dissociation constant Ka = 1.0 x 10^-5 mol/dm³. Calculate the pH of a 0.10 mol/dm³ solution of this acid, assuming the degree of dissociation is small compared to the initial concentration.",
+"options": [
+"1",
+"2",
+"5",
+"3"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "For a weak acid, [H+] = sqrt(Ka x C) = sqrt(1.0 x 10^-5 x 0.10) = sqrt(1.0 x 10^-6) = 1.0 x 10^-3 mol/dm3. pH = -log10(1.0 x 10^-3) = 3.",
+"pidgin": "For weak acid, [H+] = sqrt(Ka x C) = sqrt(1.0 x 10^-5 x 0.10) = sqrt(1.0 x 10^-6) = 1.0 x 10^-3 mol/dm3. pH = -log10(1.0 x 10^-3) = 3.",
+"py": "-math.log10(math.sqrt(1.0e-5*0.10))",
+"values": [
+1,
+2,
+5,
+3
+],
+"id": "chev0603",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

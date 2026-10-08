@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Support and movement (skeleton, joints)",
+"ti": 9,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following is NOT a function of the skeletal system in man?",
+"options": [
+"Production of digestive enzymes",
+"Support of the body",
+"Protection of internal organs",
+"Attachment for muscles"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The skeleton supports the body, protects organs and gives attachment to muscles. Digestive enzymes are produced by glands such as the salivary glands, stomach and pancreas, not by bones.",
+"pidgin": "Bone dey support body, protect organs and give muscle attachment. But e no be bone dey produce digestive enzymes, na glands like salivary gland, stomach and pancreas dey do am.",
+"id": "wbio0900",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The human skeleton is divided into two main parts: the axial skeleton and the ___ skeleton.",
+"options": [
+"cartilaginous",
+"appendicular",
+"vertebral",
+"cranial"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The axial skeleton includes the skull, vertebral column and rib cage, while the appendicular skeleton includes the limbs, shoulder girdle and pelvic girdle. Together they make up the whole human skeleton.",
+"pidgin": "Axial skeleton na skull, backbone and ribcage. Appendicular skeleton na the hand, leg, shoulder and pelvic bones. The two together be the full human skeleton.",
+"id": "wbio0901",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which type of joint is found between the flat bones of an adult human skull?",
+"options": [
+"Hinge joint",
+"Ball and socket joint",
+"Fibrous (immovable) joint",
+"Gliding joint"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The bones of the skull are joined by sutures, which are fixed, fibrous joints that do not allow movement. This protects the brain by keeping the skull rigid.",
+"pidgin": "The skull bones dey join by sutures, wey be fibrous joint wey no dey move. Dis one dey help protect the brain because e dey make the skull strong and firm.",
+"id": "wbio0902",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The knee joint allows the lower leg to move forward and backward in one plane only, like the movement of a door on its hinges. This type of joint is called a",
+"options": [
+"ball and socket joint",
+"pivot joint",
+"gliding joint",
+"hinge joint"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A hinge joint, like the knee and elbow, allows movement in only one plane, similar to how a door swings on its hinge. This is different from a ball and socket joint which allows movement in many directions.",
+"pidgin": "Hinge joint, like knee and elbow, dey allow movement for only one direction, just like how door dey swing for im hinge. Dis one different from ball and socket joint wey fit move for plenty direction.",
+"id": "wbio0903",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidinma, an SS3 student, noticed she could turn her head from side to side as if saying \"no\", but she could not twist her knee in the same way. Which joint allows this side-to-side rotation of the head?",
+"options": [
+"Hinge joint between the skull and vertebral column",
+"Pivot joint between the atlas and axis vertebrae",
+"Ball and socket joint of the hip",
+"Gliding joint between the carpals"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The atlas (first neck vertebra) rotates around the axis (second neck vertebra) at a pivot joint, allowing side-to-side head movement. The knee is a hinge joint, which only allows back-and-forth movement, not rotation.",
+"pidgin": "Na pivot joint dey between atlas and axis vertebrae for neck, e dey make head turn sideways. Knee na hinge joint, e no fit rotate like dat, na only forward and backward e dey allow.",
+"id": "wbio0904",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student examined a joint that allows movement in almost every direction - forward, backward, sideways and rotation. This kind of joint, called a ball and socket joint, is most likely found at the",
+"options": [
+"elbow",
+"wrist",
+"knee",
+"shoulder"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The shoulder joint is a ball and socket joint, formed by the rounded head of the humerus fitting into a cup-shaped socket of the shoulder blade. This structure allows the widest range of movement in the body, including rotation.",
+"pidgin": "Shoulder na ball and socket joint, wey be say the round head of the arm bone (humerus) dey fit enter the cup-like socket of shoulder bone. Na dis kind joint dey give the widest movement, including rotation.",
+"id": "wbio0905",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

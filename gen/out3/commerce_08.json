@@ -1,0 +1,183 @@
+{
+"subject": "commerce",
+"topic": "Insurance: principles and types",
+"generated": 8,
+"kept": [
+{
+"q": "Insurance can best be described as a system in which:",
+"options": [
+"a method of eliminating all risks associated with business operations",
+"an arrangement in which individuals or firms pool funds (premiums) to compensate members who suffer specified losses",
+"a government scheme that guarantees profit to every business",
+"a type of savings account offered only by commercial banks"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Insurance is a risk-sharing arrangement where many people pay small amounts (premiums) into a common fund, and those who suffer a covered loss are compensated from the fund. It does not eliminate risk, it only spreads the financial burden.",
+"pidgin": "Insurance na arrangement wey many people dey contribute small money (premium) go one fund, and anybody wey loss happen to go collect compensation from the fund. E no dey remove risk, e just dey share the money wahala.",
+"py": null,
+"values": null,
+"id": "comv0800",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which principle of insurance requires that both the insurer and the insured must disclose all material facts that could affect the decision to grant or accept the policy, even without being specifically asked?",
+"options": [
+"Indemnity",
+"Subrogation",
+"Utmost good faith",
+"Contribution"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Utmost good faith (uberrimae fidei) demands full and honest disclosure of all relevant facts by both parties before a policy is agreed. Hiding important information can make the contract void.",
+"pidgin": "Utmost good faith mean say both insurance company and the person wey dey insure must tell each other all important facts, even if nobody ask am. If you hide important info, the policy fit no valid.",
+"py": null,
+"values": null,
+"id": "comv0801",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "The principle which states that an insured person should be restored to the same financial position he was in before the loss occurred, and should not profit from a claim, is known as the principle of:",
+"options": [
+"Insurable interest",
+"Indemnity",
+"Proximate cause",
+"Contribution"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Indemnity means the insurer compensates the insured only to the extent of the actual loss suffered, so the insured neither gains nor loses financially from the claim.",
+"pidgin": "Indemnity mean say the insurance company go pay you back only for the exact loss wey you suffer, no more no less, so you no go make extra profit from the claim.",
+"py": null,
+"values": null,
+"id": "comv0802",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "After paying Mrs Adaeze compensation for her car damaged by a careless driver, her insurance company takes over her legal right to sue the driver for the damages. This action illustrates the principle of:",
+"options": [
+"Subrogation",
+"Utmost good faith",
+"Insurable interest",
+"Average"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Subrogation allows an insurer who has paid a claim to step into the insured's position and recover the loss from the party responsible, so the insured does not collect twice for the same loss.",
+"pidgin": "Subrogation na when insurance company wey don pay claim take over the person right to chase the one wey cause the damage, so that the insured no go collect money two times for the same loss.",
+"py": null,
+"values": null,
+"id": "comv0803",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following is correctly classified as a type of life assurance policy?",
+"options": [
+"Fire insurance",
+"Marine insurance",
+"Endowment assurance",
+"Fidelity guarantee insurance"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Endowment assurance is a life assurance policy that pays a lump sum either on the death of the policyholder or at the end of an agreed term, whichever comes first. Fire, marine and fidelity policies are types of general (non-life) insurance.",
+"pidgin": "Endowment assurance na life assurance wey dey pay lump sum money either when the person die or when the agreed period finish, whichever come first. Fire, marine and fidelity na general insurance, no be life assurance.",
+"py": null,
+"values": null,
+"id": "comv0804",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "For a contract of insurance to be legally valid, the policyholder must have a financial relationship with the subject matter of insurance such that he would suffer a genuine loss if the insured event occurs. This requirement is called:",
+"options": [
+"Indemnity",
+"Insurable interest",
+"Proximate cause",
+"Contribution"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Insurable interest means the insured must stand to lose financially if the insured event happens; without it, an insurance contract is treated as a form of gambling and is not valid.",
+"pidgin": "Insurable interest mean say the person wey dey insure must get financial connection to the thing wey e dey insure, so if the bad event happen, e go really suffer loss. Without this one, the insurance go just be like gambling and e no go valid.",
+"py": null,
+"values": null,
+"id": "comv0805",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Zenith Insurance and Leadway Assurance both cover the same warehouse against fire risk at the same time. Zenith's policy covers ₦200,000 while Leadway's policy covers ₦300,000 on the same property. A fire outbreak causes a loss of ₦100,000. Under the principle of contribution, how much will Zenith Insurance pay?",
+"options": [
+"₦40,000",
+"₦60,000",
+"₦50,000",
+"₦100,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Contribution shares a loss between insurers in proportion to their cover. Total sum insured = 200,000 + 300,000 = 500,000. Zenith's share = (200,000/500,000) x 100,000 = ₦40,000, preventing the insured from being paid twice for one loss.",
+"pidgin": "Contribution dey share loss among the insurance companies based on how much each one cover. Total cover = 200,000 + 300,000 = 500,000. Zenith own share = (200,000/500,000) x 100,000 = ₦40,000, so the person no go collect double pay for one loss.",
+"py": "(200000/500000)*100000",
+"values": [
+40000,
+60000,
+50000,
+100000
+],
+"id": "comv0807",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Alhaji Musa insured his warehouse for ₦600,000 while its true value at the time of loss was ₦1,500,000. A fire later destroyed goods worth ₦450,000. If the policy is subject to the principle of average (underinsurance), how much will the insurance company pay as compensation?",
+"options": [
+"₦180,000",
+"₦450,000",
+"₦600,000",
+"₦270,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Under the average clause, compensation = (Sum insured / Actual value) x Loss = (600,000/1,500,000) x 450,000 = 0.4 x 450,000 = ₦180,000. Since Alhaji Musa insured only 40% of the warehouse's value, he bears part of the loss himself.",
+"pidgin": "Under the average rule, compensation = (Sum insured / Real value) x Loss = (600,000/1,500,000) x 450,000 = 0.4 x 450,000 = ₦180,000. Since na only 40% of the value im insure, im go still carry part of the loss himself.",
+"py": "(600000/1500000)*450000",
+"values": [
+180000,
+450000,
+600000,
+270000
+],
+"id": "comv0806",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+"why": "ambiguous:₦600,000/₦1,500,000 × ₦450,000 = ₦180,000, but coverage of goods is unclear.|600,000/1,500,000 × 450,000 = 180,000; stem mixes warehouse and goods"
+}
+]
+}

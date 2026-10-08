@@ -1,0 +1,181 @@
+{
+"subject": "commerce",
+"topic": "Insurance",
+"ti": 8,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines insurance?",
+"options": [
+"A contract where one party agrees to pay premium only when loss occurs",
+"A contract where the insurer agrees to compensate the insured against unforeseen loss in exchange for a premium",
+"A saving scheme where money is kept with a bank for future use",
+"A government scheme for distributing relief materials to disaster victims"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Insurance is a contract in which the insurer promises to pay compensation for a specified loss in return for regular payment called premium. It is not a savings scheme or a government relief programme.",
+"pidgin": "Insurance na agreement wia di insurance company go pay you compensation if loss happen, as you dey pay premium regularly. E no be savings or government relief matter.",
+"py": null,
+"values": null,
+"id": "wcom0800",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The principle of insurance which requires a person taking out a policy to disclose all material facts about the risk to be insured is called:",
+"options": [
+"Indemnity",
+"Subrogation",
+"Utmost good faith",
+"Proximate cause"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Utmost good faith (uberrimae fidei) demands that both the insurer and the insured disclose all relevant facts honestly before and during the contract. Hiding facts can make the policy void.",
+"pidgin": "Utmost good faith mean say both di insurance company and di person wey dey insure must tell true true, no hide anything about di risk. If you hide am, di policy fit no work.",
+"py": null,
+"values": null,
+"id": "wcom0801",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidi insures a warehouse that he neither owns nor has any financial stake in. Which principle of insurance does this situation violate?",
+"options": [
+"Insurable interest",
+"Contribution",
+"Subrogation",
+"Average clause"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Insurable interest means the insured must have a legal or financial relationship with the item insured so that its loss would cause him financial harm. Since Chidi has no stake in the warehouse, he lacks insurable interest.",
+"pidgin": "Insurable interest mean say di person wey insure something must get financial connection to am, so dat if e spoil e go lose money. Chidi no get any stake for dat warehouse, so e no get insurable interest.",
+"py": null,
+"values": null,
+"id": "wcom0802",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Bello insures his shop goods valued at ₦500,000 against fire at a premium rate of 2.5% of the value insured. How much premium will he pay?",
+"options": [
+"₦1,250",
+"₦5,000",
+"₦12,500",
+"₦25,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Premium = 2.5% of ₦500,000 = 0.025 x 500,000 = ₦12,500. This is the amount Mr. Bello must pay the insurer for the cover.",
+"pidgin": "Premium na 2.5% of ₦500,000 = 0.025 x 500,000 = ₦12,500. Na dis amount Mr. Bello go pay to insurance company.",
+"py": "500000*0.025",
+"values": [
+1250,
+5000,
+12500,
+25000
+],
+"id": "wcom0803",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Mrs. Adeyemi insures her shop stock valued at ₦1,000,000 for only ₦600,000. A fire outbreak later destroys stock worth ₦300,000. Applying the average clause (under-insurance principle), how much will the insurance company pay her?",
+"options": [
+"₦300,000",
+"₦180,000",
+"₦600,000",
+"₦120,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Under the average clause, compensation = (Sum Insured / Actual Value) x Loss = (600,000/1,000,000) x 300,000 = ₦180,000. Because she under-insured, she bears part of the loss herself.",
+"pidgin": "Average clause mean say dem go pay you based on how much you insure compared to di real value: (600,000/1,000,000) x 300,000 = ₦180,000. Since she under-insure, she go carry part of di loss herself.",
+"py": "(600000/1000000)*300000",
+"values": [
+300000,
+180000,
+600000,
+120000
+],
+"id": "wcom0804",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A factory valued at ₦2,000,000 is insured with two different companies: Company X covers ₦800,000 and Company Y covers ₦1,200,000. A fire causes damage amounting to ₦400,000. Applying the principle of contribution, how much will Company X pay?",
+"options": [
+"₦400,000",
+"₦160,000",
+"₦240,000",
+"₦200,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Under contribution, each insurer pays in proportion to its share of the total cover. Company X's share = (800,000/2,000,000) x 400,000 = ₦160,000, preventing the insured from profiting from double insurance.",
+"pidgin": "Contribution mean say each insurance company go pay based on how much dem cover. Company X go pay (800,000/2,000,000) x 400,000 = ₦160,000, so dat person no go gain extra money from double insurance.",
+"py": "(800000/2000000)*400000",
+"values": [
+400000,
+160000,
+240000,
+200000
+],
+"id": "wcom0805",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In Nigeria, which body is responsible for regulating and supervising the activities of insurance companies?",
+"options": [
+"Central Bank of Nigeria (CBN)",
+"Nigerian Deposit Insurance Corporation (NDIC)",
+"National Insurance Commission (NAICOM)",
+"Securities and Exchange Commission (SEC)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "NAICOM (National Insurance Commission) is the statutory body charged with regulating, supervising and controlling insurance business in Nigeria, while CBN handles banks and SEC handles the capital market.",
+"pidgin": "NAICOM na di government body wey dey regulate and supervise insurance business for Nigeria, while CBN dey handle banks and SEC dey handle capital market.",
+"py": null,
+"values": null,
+"id": "wcom0806",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

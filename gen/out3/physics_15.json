@@ -1,0 +1,106 @@
+{
+"subject": "physics",
+"topic": "Light: reflection at plane and curved mirrors",
+"generated": 4,
+"kept": [
+{
+"q": "A ray of light is sent so that it travels exactly along the normal to a plane mirror, striking the mirror perpendicularly. What is the angle of reflection?",
+"options": [
+"0°",
+"45°",
+"90°",
+"180°"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The normal is the line perpendicular to the mirror surface. If the incident ray lies along the normal, the angle between the incident ray and the normal is 0°. By the law of reflection, the angle of reflection equals the angle of incidence, so it is also 0°.",
+"pidgin": "Normal na di line wey dey perpendicular to di mirror. If di ray dey waka along dis normal, e mean say di angle wey e make with di normal na 0°. Since angle of reflection go equal angle of incidence, e go also be 0°.",
+"py": null,
+"values": null,
+"id": "phyv1500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A concave mirror has a focal length of 15 cm. An object is placed 10 cm in front of the mirror. What is the magnitude of the image distance formed?",
+"options": [
+"30 cm",
+"6 cm",
+"18 cm",
+"50 cm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using the mirror formula 1/f = 1/v + 1/u, with f = 15 cm and u = 10 cm: 1/v = 1/15 - 1/10 = -1/30, so v = -30 cm. The negative sign shows the image is virtual (behind the mirror), and its magnitude is 30 cm.",
+"pidgin": "Using mirror formula 1/f = 1/v + 1/u, with f = 15 cm, u = 10 cm: 1/v = 1/15 - 1/10 = -1/30, so v = -30 cm. Di negative sign show say na virtual image (e dey behind di mirror), and di size na 30 cm.",
+"py": "abs(1/(Fraction(1,15)-Fraction(1,10)))",
+"values": [
+30,
+6,
+18,
+50
+],
+"id": "phyv1501",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Chidinma is 1.6 m tall and stands upright in front of a large vertical plane mirror fixed on a wall. What is the minimum length of the mirror needed so that she can see her full image, from head to toe, no matter how far she stands from the mirror?",
+"options": [
+"0.8 m",
+"1.6 m",
+"0.4 m",
+"3.2 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "For a plane mirror, the minimum mirror length needed to see a full-length image of a person is exactly half the person's height, regardless of the distance from the mirror. So the minimum length = 1.6 m / 2 = 0.8 m.",
+"pidgin": "For plane mirror, di minimum length wey you need to see your full body inside am na half of your height, no matter how far you stand from di mirror. So minimum length = 1.6 m / 2 = 0.8 m.",
+"py": "1.6/2",
+"values": [
+0.8,
+1.6,
+0.4,
+3.2
+],
+"id": "phyv1502",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A convex mirror has a radius of curvature of 24 cm. An object is placed 18 cm in front of the mirror. Using the sign convention where real object and image distances are positive and the focal length of a convex mirror is negative, calculate the magnitude of the image distance.",
+"options": [
+"7.2 cm",
+"9.6 cm",
+"14.4 cm",
+"36 cm"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Focal length f = -R/2 = -24/2 = -12 cm. Using 1/f = 1/v + 1/u: -1/12 = 1/v + 1/18, so 1/v = -1/12 - 1/18 = -5/36, giving v = -7.2 cm. The magnitude of the image distance is 7.2 cm.",
+"pidgin": "Focal length f = -R/2 = -24/2 = -12 cm. Using 1/f = 1/v + 1/u: -1/12 = 1/v + 1/18, so 1/v = -1/12 - 1/18 = -5/36, e give v = -7.2 cm. Di size of di image distance na 7.2 cm.",
+"py": "abs(1/(Fraction(-1,12)-Fraction(1,18)))",
+"values": [
+7.2,
+9.6,
+14.4,
+36
+],
+"id": "phyv1503",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

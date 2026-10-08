@@ -1,0 +1,175 @@
+{
+"subject": "accounting",
+"topic": "Public sector accounting",
+"ti": 15,
+"generated": 7,
+"kept": [
+{
+"q": "In public sector accounting, which arm of government is constitutionally responsible for approving (appropriating) funds before they can be spent by government ministries?",
+"options": [
+"The Executive",
+"The Legislature",
+"The Judiciary",
+"The Civil Service"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Legislature (National or State Assembly) passes the Appropriation Act which gives legal backing for government to spend public funds. Without this approval, ministries cannot legally spend money.",
+"pidgin": "Na the Legislature (National or State Assembly) dey pass di Appropriation Act wey give government power to spend money. Without dis approval, ministries no fit spend government money legally.",
+"py": null,
+"values": null,
+"id": "wacc1500",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Historically, the major source of revenue to the Federal Government of Nigeria has been:",
+"options": [
+"Personal income tax",
+"Value Added Tax",
+"Petroleum (oil) revenue",
+"Company income tax"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Nigeria is a major oil-producing country, and petroleum revenue (crude oil sales and royalties) has traditionally formed the largest share of Federal Government income compared to other listed taxes.",
+"pidgin": "Nigeria na big oil-producing country, so money wey dem dey get from petrol (crude oil sales and royalties) don dey bigger pass di oda taxes wey dem list.",
+"py": null,
+"values": null,
+"id": "wacc1501",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best describes public sector accounting?",
+"options": [
+"The process of recording and reporting financial transactions of private companies for shareholders",
+"The process of recording, classifying and reporting financial transactions of government and its agencies to show accountability to the public",
+"The preparation of accounts solely to determine profit for distribution to owners",
+"The recording of personal financial transactions of government officials"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Public sector accounting deals with how government bodies record, classify and report their financial transactions in order to show stewardship and accountability to the citizens, not to make or share profit.",
+"pidgin": "Public sector accounting na how government and im agencies dey record, classify and report dia money matter so dem go fit show say dem dey accountable to di citizens, e no be about profit sharing.",
+"py": null,
+"values": null,
+"id": "wacc1502",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Obudu Local Government Council had recurrent revenue of ₦45,000,000 and recurrent expenditure of ₦38,500,000 in one financial year. What was the result on the recurrent account?",
+"options": [
+"Surplus of ₦6,500,000",
+"Deficit of ₦6,500,000",
+"Surplus of ₦83,500,000",
+"Deficit of ₦83,500,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Recurrent account balance = Recurrent revenue minus Recurrent expenditure = 45,000,000 - 38,500,000 = ₦6,500,000. Since revenue is more than expenditure, it is a surplus.",
+"pidgin": "Recurrent account balance = Recurrent revenue minus Recurrent expenditure = 45,000,000 - 38,500,000 = ₦6,500,000. Since revenue pass expenditure, na surplus be dat.",
+"py": "45000000-38500000",
+"values": [
+6500000,
+-6500000,
+83500000,
+-83500000
+],
+"id": "wacc1503",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following is NOT a feature that distinguishes public sector accounting from private sector accounting?",
+"options": [
+"Use of fund accounting for different government activities",
+"The primary objective of making profit for owners",
+"Strong emphasis on compliance with approved budgets",
+"Accountability of public officers to the citizens"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Public sector bodies exist to render services to the public, not to make profit for owners; profit motive is a feature of private sector accounting, so it does not distinguish public sector accounting.",
+"pidgin": "Government bodies dey work to serve public, no be to make profit for owners; profit motive na private sector business ting, so e no be feature wey separate public sector accounting.",
+"py": null,
+"values": null,
+"id": "wacc1504",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During a financial year, the Federal Government's Consolidated Revenue Fund recorded the following inflows: Taxation ₦120,000,000, Mining rents and royalties ₦45,000,000, Fines and fees ₦5,000,000, and External Loans received ₦30,000,000. Since loans are liabilities and not true revenue, calculate the actual revenue of the government for the year.",
+"options": [
+"₦170,000,000",
+"₦200,000,000",
+"₦165,000,000",
+"₦175,000,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Actual revenue excludes loans because loans must be repaid and are not earned income. Actual revenue = 120,000,000 + 45,000,000 + 5,000,000 = ₦170,000,000.",
+"pidgin": "Real revenue no include loan because loan na debt wey dem go still pay back, e no be money wey dem earn. Real revenue = 120,000,000 + 45,000,000 + 5,000,000 = ₦170,000,000.",
+"py": "120000000+45000000+5000000",
+"values": [
+170000000,
+200000000,
+165000000,
+175000000
+],
+"id": "wacc1505",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The document used by a government spending officer to keep a day-to-day record of the budget allocation released to a department, amounts spent, and the balance still available for spending, is called the:",
+"options": [
+"Cash Book",
+"Vote Book",
+"General Ledger",
+"Appropriation Act"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The Vote Book is a control record kept by spending officers to track releases, commitments and balances against each budget head, helping to prevent overspending. The Cash Book records actual cash received and paid, while the Appropriation Act only authorises the budget.",
+"pidgin": "Vote Book na di book wey spending officer dey use track how much dem release, how much dem spend, and how much remain for each budget head, so dem no go spend pass wetin dem approve. Cash Book na for actual cash wey enter and comot, while Appropriation Act na im dey approve di budget first.",
+"py": null,
+"values": null,
+"id": "wacc1506",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

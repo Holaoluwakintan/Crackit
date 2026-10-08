@@ -1,0 +1,116 @@
+{
+"subject": "english",
+"topic": "Prepositions and phrasal verbs",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the option that best completes the gap. After a long, tiring journey from Kano, the delegation finally arrived ___ the conference venue in Abuja.",
+"options": [
+"at",
+"in",
+"on",
+"to"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "We use 'arrive at' for a specific place like a venue, building, or event. 'Arrive in' is used for larger areas like cities or countries. 'On' and 'to' do not fit this pattern.",
+"pidgin": "We dey use 'arrive at' when e concern one specific place like venue or building. 'Arrive in' na for big place like city or country. 'On' and 'to' no fit here at all.",
+"id": "engv0500",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best completes the gap in the sentence below. During the fuel scarcity in Lagos last month, many commuters had to do ___ private cars and trek long distances to work.",
+"options": [
+"away",
+"over",
+"without",
+"up"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The phrasal verb 'do without' means to manage or survive without something. Since the sentence talks about commuters managing without private cars, 'without' is correct. The other options form different phrasal verbs with unrelated meanings.",
+"pidgin": "'Do without' mean say you manage without something. Since commuters no get private car, dem just manage waka reach work. Di oda options no match dis meaning at all.",
+"id": "engv0501",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the option that best completes the gap. As the head of department, Mrs Adeyemi is directly answerable ___ the Dean for every academic decision taken in her unit.",
+"options": [
+"for",
+"with",
+"by",
+"to"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The correct collocation is 'answerable to somebody', meaning responsible to that person. 'Answerable for' would describe the thing one is responsible for, not the person. 'With' and 'by' are not used with 'answerable'.",
+"pidgin": "Di correct combo na 'answerable to' somebody, meaning say you dey responsible to am. 'Answerable for' na for di thing wey you dey responsible for, no be person. 'With' and 'by' no fit follow 'answerable' at all.",
+"id": "engv0502",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Choose the option that best completes the gap. The Vice-Chancellor directed the disciplinary committee to ___ the allegation of examination malpractice levelled against some final-year students.",
+"options": [
+"look into",
+"look after",
+"look up",
+"look out"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "'Look into' means to investigate a matter, which fits the context of examining an allegation. 'Look after' means to take care of someone, 'look up' means to search for information or improve, and 'look out' means to be careful. Only 'look into' matches the idea of investigating a case.",
+"pidgin": "'Look into' mean say you go investigate matter, and dat one match di allegation wey dem wan check. 'Look after' na to take care of person, 'look up' na to search info, 'look out' na to dey careful. Na only 'look into' fit dis investigation context.",
+"id": "engv0503",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that best completes the gap. Ngozi has always been fond ___ singing old highlife songs whenever her family gathers for celebrations.",
+"options": [
+"for",
+"of",
+"with",
+"in"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The adjective 'fond' is always followed by the preposition 'of', as in 'fond of something'. The other prepositions do not collocate with 'fond' in standard English.",
+"pidgin": "Di word 'fond' always dey follow with 'of', like 'fond of something'. Di oda prepositions no fit follow 'fond' for correct English.",
+"id": "engv0504",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the option that best completes the gap. The business deal between the two companies ___ when the foreign partner suddenly withdrew his investment at the last minute.",
+"options": [
+"fell out",
+"fell back",
+"fell through",
+"fell off"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The phrasal verb 'fall through' means a plan or arrangement fails to happen, which fits a deal that collapsed. 'Fall out' means to quarrel, 'fall back' means to retreat or rely on something, and 'fall off' means to decrease or drop physically. Only 'fall through' matches a failed business plan.",
+"pidgin": "'Fall through' mean say plan or arrangement no work out, and dat match as di deal scatter. 'Fall out' na to quarrel, 'fall back' na to rely on something or retreat, 'fall off' na to physically drop or reduce. Na only 'fall through' fit dis kain business matter.",
+"id": "engv0505",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,178 @@
+{
+"subject": "economics",
+"topic": "Public finance and taxation",
+"ti": 14,
+"generated": 7,
+"kept": [
+{
+"q": "Public finance is best defined as the branch of economics that studies how:",
+"options": [
+"government raises revenue and spends it to achieve national economic goals",
+"individual households budget their monthly income",
+"commercial banks create credit for businesses",
+"firms decide the price and output that maximise profit"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Public finance deals with how government gets money (through taxes, loans, etc.) and how it spends this money to provide services and meet economic objectives. The other options are about households, banks and firms, not government.",
+"pidgin": "Public finance na how government dey raise money and spend am to achieve economic goals for the country. The other options talk about house, bank or company, no be government.",
+"py": null,
+"values": null,
+"id": "weco1400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is an example of a direct tax paid in Nigeria?",
+"options": [
+"Company income tax",
+"Value Added Tax (VAT)",
+"Import duty",
+"Excise duty"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A direct tax is paid straight by the person or company on whom it is imposed, and its burden cannot be shifted to another person; company income tax fits this. VAT, import duty and excise duty are indirect taxes because their burden can be passed to the final consumer through prices.",
+"pidgin": "Direct tax na tax wey the person wey dem charge am must pay am directly, dem no fit shift am. Company income tax be like that. VAT, import duty and excise duty na indirect tax because dem fit add am to price make consumer pay am.",
+"py": null,
+"values": null,
+"id": "weco1401",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A tax system in which the rate of tax rises as a taxpayer's income increases is called:",
+"options": [
+"Proportional tax",
+"Progressive tax",
+"Regressive tax",
+"Specific tax"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Under a progressive tax system, people with higher income pay a higher percentage of their income as tax, which helps reduce inequality. In a proportional tax, the rate stays the same for everyone, while a regressive tax takes a higher percentage from low-income earners.",
+"pidgin": "Progressive tax na the one wey the percentage of tax dey increase as person income dey increase. E dey help reduce gap between rich and poor. Proportional tax na fixed rate for everybody, regressive tax na the one wey dey chop poor pass rich.",
+"py": null,
+"values": null,
+"id": "weco1402",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT one of Adam Smith's original canons (principles) of taxation?",
+"options": [
+"Equity",
+"Certainty",
+"Convenience",
+"Profitability"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Adam Smith's four canons of taxation are equity, certainty, convenience and economy. Profitability is not one of them, as taxation is meant to raise revenue fairly and efficiently, not to generate profit for government like a business.",
+"pidgin": "Adam Smith talk say tax suppose get equity, certainty, convenience and economy. Profitability no dey inside, because tax no be business wey government dey do to make profit.",
+"py": null,
+"values": null,
+"id": "weco1403",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a source of non-tax revenue to the Nigerian government?",
+"options": [
+"Royalties paid by oil exploration companies",
+"Personal income tax",
+"Value Added Tax (VAT)",
+"Company income tax"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Royalties are payments made by companies for the right to extract natural resources like crude oil; this is revenue the government earns without imposing a tax. Personal income tax, VAT and company income tax are all forms of tax revenue.",
+"pidgin": "Royalty na money wey company dey pay government make dem fit dig resources like crude oil; e no be tax. Personal income tax, VAT and company income tax na tax revenue proper.",
+"py": null,
+"values": null,
+"id": "weco1405",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A trader in Onitsha sells goods worth ₦15,000 before Value Added Tax (VAT). If VAT is charged at 7.5%, how much will a customer pay in total for the goods?",
+"options": [
+"₦15,000",
+"₦15,750",
+"₦16,125",
+"₦16,500"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "VAT amount = 7.5% of ₦15,000 = ₦1,125. Total price paid = ₦15,000 + ₦1,125 = ₦16,125. This shows VAT is added on top of the original selling price and paid by the final consumer.",
+"pidgin": "VAT wey dem go charge = 7.5% of ₦15,000 = ₦1,125. Total wey customer go pay = ₦15,000 + ₦1,125 = ₦16,125. Na consumer dey carry the VAT load for the end.",
+"py": "15000*1.075",
+"values": [
+15000,
+15750,
+16125,
+16500
+],
+"id": "weco1406",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The Nigerian government structures personal income tax as follows: the first ₦300,000 of annual income is tax-free, the next ₦200,000 is taxed at 10%, and any amount above ₦500,000 is taxed at 15%. If Mrs. Adaeze earns ₦700,000 in a year, how much tax does she pay?",
+"options": [
+"₦30,000",
+"₦50,000",
+"₦70,000",
+"₦90,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The first ₦300,000 is tax-free (₦0). The next ₦200,000 is taxed at 10%, giving ₦20,000. The remaining ₦700,000 - ₦300,000 - ₦200,000 = ₦200,000 is taxed at 15%, giving ₦30,000. Total tax = ₦20,000 + ₦30,000 = ₦50,000.",
+"pidgin": "The first ₦300,000 no get tax. Next ₦200,000 dem tax am 10%, e be ₦20,000. The remaining ₦200,000 (700,000 minus 300,000 minus 200,000) dem tax am 15%, e be ₦30,000. Add am together: ₦20,000 + ₦30,000 = ₦50,000.",
+"py": "200000*0.10 + (700000-300000-200000)*0.15",
+"values": [
+30000,
+50000,
+70000,
+90000
+],
+"id": "weco1404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:The stated tax bands are not Nigeria’s actual personal income tax structure.|"
+}
+]
+}

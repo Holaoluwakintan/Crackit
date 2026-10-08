@@ -1,0 +1,133 @@
+{
+"subject": "biology",
+"topic": "Reproduction in animals",
+"ti": 11,
+"generated": 6,
+"kept": [
+{
+"q": "In which of the following animals does fertilization normally take place outside the body of the female, in water?",
+"options": [
+"Goat",
+"Hen",
+"Tilapia fish",
+"Dog"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Tilapia and most fish release their eggs and sperm directly into water, where fertilization occurs outside the body. Goats, hens and dogs all have internal fertilization.",
+"pidgin": "Tilapia and most fish dey release their eggs and sperm for inside water, na there fertilization dey happen. Goat, hen and dog dey do internal fertilization inside their body.",
+"id": "wbio1100",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which organ in the male mammalian reproductive system is mainly responsible for the production of spermatozoa?",
+"options": [
+"Testis",
+"Epididymis",
+"Prostate gland",
+"Vas deferens"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The testis contains seminiferous tubules where sperm cells are produced. The epididymis stores and matures sperm, the prostate gland adds seminal fluid, and the vas deferens only transports sperm.",
+"pidgin": "Na testis dey produce sperm cells inside the seminiferous tubules. Epididymis na where sperm dey mature and store, prostate gland dey add fluid, while vas deferens na just pipe wey sperm dey pass.",
+"id": "wbio1101",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "An ovoviviparous animal can best be described as one that:",
+"options": [
+"lays eggs that develop and hatch completely outside the mother's body",
+"produces eggs that develop and hatch inside the mother's body, with the young getting little or no direct nourishment from her blood",
+"nourishes its developing young directly through a placenta before they are born",
+"reproduces only by budding, without forming eggs at all"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ovoviviparous animals, like some sharks and certain snakes, keep their eggs inside the body until they hatch, but the young feed mainly from the yolk, not from the mother's blood directly. This is different from viviparous animals that use a placenta.",
+"pidgin": "Ovoviviparous animal, like some shark and snake, dey keep their eggs for inside body until e hatch, but the young ones dey chop from the yolk, no be mother blood directly. Na different thing from viviparous wey get placenta.",
+"id": "wbio1102",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A fowl's egg is cut open and a thick, clear, jelly-like substance surrounding the yolk is seen. This substance mainly serves to cushion and nourish the growing embryo. What is it called?",
+"options": [
+"Shell",
+"Chorion",
+"Amnion",
+"Albumen"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The albumen, also called egg white, is the clear jelly-like substance that surrounds the yolk. It protects the embryo from shock and supplies extra protein and water for development.",
+"pidgin": "Na albumen, wey be the clear jelly-jelly substance around the yolk. E dey protect the embryo from shock and e dey give am protein and water make e grow well.",
+"id": "wbio1103",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the human menstrual cycle, the sudden release of a mature egg from the ovary (ovulation) is mainly triggered by a sharp rise in which hormone?",
+"options": [
+"Luteinizing Hormone (LH)",
+"Follicle Stimulating Hormone (FSH)",
+"Progesterone",
+"Oestrogen only"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A sudden surge in Luteinizing Hormone (LH) around the middle of the cycle causes the mature follicle to rupture and release the egg. FSH mainly stimulates follicle growth earlier in the cycle, while progesterone and oestrogen act mostly after or before ovulation to prepare the uterus.",
+"pidgin": "Na sudden rise for Luteinizing Hormone (LH) for middle of the cycle dey make the follicle burst and release the egg. FSH dey help the follicle grow early for the cycle, while progesterone and oestrogen dey prepare the womb before or after ovulation.",
+"id": "wbio1105",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "During spawning, a female Tilapia fish releases several hundred eggs into the pond water, while a nanny goat usually gives birth to just one or two kids after mating. Which of the following best explains this difference?",
+"options": [
+"Fish eggs are fertilized inside the mother's body, so more eggs are needed",
+"Goats produce fewer eggs because they are warm-blooded animals",
+"Fish reproductive organs are too small to allow for parental care",
+"External fertilization and lack of parental care in fish lead to very high loss of eggs and young, so many eggs increase the chance that some will survive"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Because fish eggs are fertilized and develop outside the body with no parental protection, most are eaten by predators or destroyed, so producing many eggs raises the odds that a few will survive. Goats protect their young inside the womb and care for them after birth, so fewer offspring are needed.",
+"pidgin": "Since fish eggs dey fertilize and grow outside body without any protection, predator go chop plenty, so to produce plenty eggs go increase chance say some go survive. Goat dey protect im pikin for inside belle and still care for am after birth, so e no need plenty pikin.",
+"id": "wbio1104",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Tilapia often provide parental care, including mouthbrooding.|Factual error: Tilapia are mouthbrooders and do show parental care; D is still the intended answer"
+}
+]
+}

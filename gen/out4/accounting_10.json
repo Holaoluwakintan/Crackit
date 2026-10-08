@@ -1,0 +1,193 @@
+{
+"subject": "accounting",
+"topic": "Single entry and incomplete records",
+"ti": 10,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best describes a single entry (incomplete records) system of bookkeeping?",
+"options": [
+"A system in which only one aspect of each transaction is recorded regularly, so full double-entry details are often missing",
+"A system in which both the debit and credit aspects of every transaction are recorded in separate ledger accounts",
+"A system used exclusively by limited liability companies for preparing their final accounts",
+"A system in which transactions are recorded only in the cash book and no other books of account are kept"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Single entry (incomplete records) means the business does not keep a full set of double-entry books. Usually only cash transactions or personal accounts are recorded, so other details are missing. It is not the same as double entry (option B) and is not limited to companies (option C).",
+"pidgin": "Single entry be say the business no dey keep full double-entry book. Na only small part of transactions dem dey record, like cash. E no be the same thing as double entry wey record debit and credit together.",
+"py": null,
+"values": null,
+"id": "wacc1000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Adeyemi, a provision store owner in Ibadan, does not keep a full set of ledger books. He only jots down cash he receives and cash he pays out in a notebook. This method of keeping records is called:",
+"options": [
+"Single entry (incomplete records)",
+"Double entry bookkeeping",
+"Control account system",
+"Suspense account system"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Since Mr. Adeyemi only records cash received and paid without a complete set of ledgers, he is using the single entry (incomplete records) system. This is common among small traders who do not employ trained accountants.",
+"pidgin": "Since Mr. Adeyemi just dey write the cash wey come in and the cash wey comot without full book, na single entry (incomplete records) im dey use. Na common style for small traders.",
+"py": null,
+"values": null,
+"id": "wacc1001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chinwe's business had an opening capital of ₦250,000 and a closing capital of ₦320,000 at the end of the year. During the year she withdrew ₦45,000 for personal use and introduced an additional ₦30,000 as new capital. What was her profit for the year, using the statement of affairs (net worth) method?",
+"options": [
+"₦70,000",
+"₦85,000",
+"₦100,000",
+"₦115,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Profit = (Closing capital - Opening capital) + Drawings - Additional capital. This gives (320,000 - 250,000) + 45,000 - 30,000 = 70,000 + 45,000 - 30,000 = ₦85,000. Drawings must be added back and new capital introduced must be deducted because they are not profit.",
+"pidgin": "Profit = (Closing capital - Opening capital) + Drawings - New capital wey she bring. So (320,000-250,000)+45,000-30,000 = 70,000+45,000-30,000 = ₦85,000. Na so you go remove new capital and add back drawings.",
+"py": "(320000-250000)+45000-30000",
+"values": [
+70000,
+85000,
+100000,
+115000
+],
+"id": "wacc1002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "At the close of business, a trader's assets were: Cash ₦15,000, Stock ₦60,000, Trade debtors ₦45,000 and Furniture ₦80,000. His liabilities were: Trade creditors ₦35,000 and a loan ₦20,000. What was his capital at that date, as shown by the statement of affairs?",
+"options": [
+"₦55,000",
+"₦145,000",
+"₦200,000",
+"₦255,000"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Capital = Total assets - Total liabilities. Total assets = 15,000+60,000+45,000+80,000 = ₦200,000, and total liabilities = 35,000+20,000 = ₦55,000. So capital = 200,000 - 55,000 = ₦145,000.",
+"pidgin": "Capital = Total assets minus Total liabilities. Total assets na 15,000+60,000+45,000+80,000 = ₦200,000, total liabilities na 35,000+20,000 = ₦55,000. So capital = 200,000-55,000 = ₦145,000.",
+"py": "(15000+60000+45000+80000)-(35000+20000)",
+"values": [
+55000,
+145000,
+200000,
+255000
+],
+"id": "wacc1003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader keeps incomplete records of debtors. At the start of the year, debtors owed him ₦40,000 and at the end of the year they owed ₦55,000. During the year he received ₦180,000 cash from debtors, allowed them ₦5,000 discount and accepted ₦10,000 goods returned (returns inward). What was his total credit sales for the year, using the total debtors account?",
+"options": [
+"₦190,000",
+"₦200,000",
+"₦210,000",
+"₦250,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Credit sales = Cash received + Discount allowed + Returns inward + Closing debtors - Opening debtors. This gives 180,000+5,000+10,000+55,000-40,000 = ₦210,000. All these items pass through the total debtors account on the credit side except opening balance and credit sales.",
+"pidgin": "Credit sales = Cash wey enter + Discount wey e give + Returns inward + Closing debtors - Opening debtors. E be 180,000+5,000+10,000+55,000-40,000 = ₦210,000. Na so the total debtors account take balance.",
+"py": "180000+5000+10000+55000-40000",
+"values": [
+190000,
+200000,
+210000,
+250000
+],
+"id": "wacc1004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader's records show: Opening creditors ₦30,000, Closing creditors ₦42,000, Cash paid to creditors ₦150,000, Discount received ₦8,000 and Returns outward ₦6,000. What was the total purchases on credit for the year, using the total creditors account?",
+"options": [
+"₦160,000",
+"₦168,000",
+"₦176,000",
+"₦182,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Purchases = Cash paid + Discount received + Returns outward + Closing creditors - Opening creditors. This is 150,000+8,000+6,000+42,000-30,000 = ₦176,000. Discount received and returns outward reduce what is owed, so they must be added back with the cash paid to find total purchases.",
+"pidgin": "Purchases = Cash wey e pay + Discount wey e receive + Returns outward + Closing creditors - Opening creditors. E be 150,000+8,000+6,000+42,000-30,000 = ₦176,000. Discount and returns outward na things wey reduce debt, so you go add dem back.",
+"py": "150000+8000+6000+42000-30000",
+"values": [
+160000,
+168000,
+176000,
+182000
+],
+"id": "wacc1005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader marks up all his goods by 25% on cost before selling them. If his total sales for the year amounted to ₦250,000, what was his cost of goods sold?",
+"options": [
+"₦187,500",
+"₦200,000",
+"₦225,000",
+"₦312,500"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A 25% mark-up on cost means Sales = Cost x 1.25. So Cost = Sales / 1.25 = 250,000 / 1.25 = ₦200,000. Dividing instead of taking a percentage straight off sales avoids the common error of confusing mark-up with margin.",
+"pidgin": "25% mark-up on cost mean Sales = Cost x 1.25. So Cost = Sales divide by 1.25 = 250,000/1.25 = ₦200,000. No confuse mark-up with margin, na why we divide like this.",
+"py": "250000/1.25",
+"values": [
+187500,
+200000,
+225000,
+312500
+],
+"id": "wacc1006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

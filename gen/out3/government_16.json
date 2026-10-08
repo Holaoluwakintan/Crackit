@@ -1,0 +1,84 @@
+{
+"subject": "government",
+"topic": "Nigeria's foreign policy",
+"generated": 4,
+"kept": [
+{
+"q": "Under the 1999 Constitution of Nigeria (as amended), the primary responsibility for formulating Nigeria's foreign policy rests with which arm or officer of government?",
+"options": [
+"The President, acting through the executive arm of government",
+"The National Assembly, through its Senate Committee on Foreign Affairs",
+"The Nigerian Institute of International Affairs",
+"The Judiciary, through the Supreme Court"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Constitution vests executive power, including the conduct of external relations, in the President. The President, assisted by the Minister of Foreign Affairs, formulates and directs Nigeria's foreign policy. The National Assembly only ratifies treaties; it does not formulate policy.",
+"pidgin": "Di Constitution give executive power to President, dat one include how Nigeria dey relate wit oda kontri. President, wit di help of Minister of Foreign Affairs, na im dey make di foreign policy. National Assembly na only to confam treaty, dem no dey make di policy.",
+"id": "govv1600",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Nigeria's active role in founding the Organisation of African Unity (OAU) in 1963 was mainly an expression of which foreign policy objective?",
+"options": [
+"Promotion of economic diplomacy with Western powers",
+"Protection of Nigerian citizens living abroad",
+"Promotion of African unity, solidarity and decolonisation",
+"Securing permanent membership of the UN Security Council"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The OAU was formed to unite African states, support the liberation of colonies still under foreign rule, and encourage cooperation among African nations. Nigeria, as a leading African power, championed this objective as central to its Afrocentric foreign policy. It was not primarily about trade deals or UN seats.",
+"pidgin": "Dem form OAU make African kontris unite, support countries wey still dey under colonial rule, and work together as one. Nigeria, as big African kontri, support dis objective well because im foreign policy dey focus on Africa. E no be about trade deal or UN Security Council seat.",
+"id": "govv1602",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "During the Cold War era, Nigeria officially pursued a policy of non-alignment. Based on this principle, which of the following actions would have been MOST inconsistent with Nigeria's stated foreign policy?",
+"options": [
+"Accepting technical assistance from both the United States and the Soviet Union",
+"Signing a defence pact that ties Nigeria's armed forces exclusively to one superpower bloc",
+"Trading with countries from both the Western and Eastern blocs",
+"Sending delegates to Non-Aligned Movement conferences"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Non-alignment meant Nigeria refused to be permanently tied to either the Western (capitalist) or Eastern (communist) bloc during the Cold War, so as to relate freely with all nations. Signing an exclusive military pact with one bloc would contradict this neutrality by committing Nigeria firmly to one side. The other options (receiving aid from both sides, trading with both, joining NAM) all fit non-alignment.",
+"pidgin": "Non-alignment mean Nigeria no wan tie imsef strong strong to eida di Western (capitalist) or Eastern (communist) side during Cold War, so dat e fit relate well wit everybody. If Nigeria sign military agreement wey go make im army dey only follow one side, dat one go spoil di neutral stand. Di oda options dey match wit non-alignment well well.",
+"id": "govv1603",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In 1965, Nigeria took the drastic step of severing diplomatic relations with Britain. This action was mainly a protest against Britain's handling of which issue?",
+"options": [
+"Britain's refusal to grant Nigeria membership of the Commonwealth",
+"Britain's reluctance to use force against Ian Smith's white minority regime in Rhodesia",
+"Britain's support for apartheid South Africa's admission into the United Nations",
+"Britain's decision to withdraw economic aid from West African states"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Nigeria was angered that Britain refused to forcibly end the unilateral declaration of independence by the white minority government of Ian Smith in Rhodesia. This was seen as Britain tolerating white minority rule in Africa, which clashed with Nigeria's Africa-centred foreign policy. Nigeria therefore broke diplomatic ties in protest.",
+"pidgin": "Nigeria vex because Britain no wan use force stop Ian Smith white minority goment for Rhodesia wey declare independence on dia own. Nigeria see am as Britain dey support white minority rule for Africa, wey no gree wit Nigeria Africa-focused policy. Na why Nigeria cut diplomatic tie wit Britain.",
+"id": "govv1601",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:|Factual error: Nigeria did not sever ties with Britain in 1965; Ghana and Tanzania did over Rhodesia. Nigeria hosted the 1966 Lagos Commonwealth conference instead."
+}
+]
+}

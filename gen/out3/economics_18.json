@@ -1,0 +1,74 @@
+{
+"subject": "economics",
+"topic": "International trade: comparative advantage, balance of payments, terms of trade, exchange rates",
+"generated": 3,
+"kept": [
+{
+"q": "In the study of international trade, which statement correctly describes an IMPROVEMENT in a country's terms of trade?",
+"options": [
+"The index of export prices rises faster than the index of import prices",
+"The index of import prices rises faster than the index of export prices",
+"Export prices and import prices rise at exactly the same rate",
+"The volume of exports falls while the volume of imports rises"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Terms of trade compares how fast export prices change relative to import prices. If export prices rise faster than import prices, a country earns more for each unit it sells abroad compared with what it pays for imports, which is an improvement.",
+"pidgin": "Terms of trade na how export price dey move compare to import price. If export price dey rise pass import price, kontri go dey gain more for wetin e dey sell compare to wetin e dey buy, so e don improve.",
+"py": null,
+"values": null,
+"id": "ecov1800",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A country's export price index is 150 and its import price index is 120, using the same base year of 100. Calculate the country's terms of trade index.",
+"options": [
+"80",
+"125",
+"270",
+"30"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Terms of trade index = (Export price index / Import price index) x 100 = (150/120) x 100 = 125. A value above 100 shows the terms of trade are favourable, since export prices have risen more than import prices.",
+"pidgin": "Terms of trade = (Export price index divide Import price index) times 100 = (150/120) x 100 = 125. Since e pass 100, e mean say the terms of trade favour the kontri well well.",
+"py": "(150/120)*100",
+"values": [
+80,
+125,
+270,
+30
+],
+"id": "ecov1801",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "Using 1 unit of labour-time, Country Dara can produce either 1 bag of cloth (using 5 hours) or 1 pair of shoes (using 10 hours). Country Kowa can produce either 1 bag of cloth (using 8 hours) or 1 pair of shoes (using 20 hours). Based on the principle of comparative advantage, which country should specialise in producing shoes?",
+"options": [
+"Country Dara, because its opportunity cost of shoes (2 bags of cloth) is lower than Country Kowa's (2.5 bags of cloth)",
+"Country Kowa, because it uses more hours to make shoes, showing greater effort and skill",
+"Both countries equally, since they both take longer to make shoes than cloth",
+"Neither country, because Country Dara is more efficient at making both goods"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Opportunity cost of 1 pair of shoes in Dara = 10 hours / 5 hours per cloth = 2 bags of cloth. In Kowa, it is 20/8 = 2.5 bags of cloth. Since Dara gives up less cloth to make shoes, Dara has the comparative advantage in shoes, even though Dara is also better at cloth (absolute advantage does not decide specialisation, comparative advantage does).",
+"pidgin": "Opportunity cost of one shoe for Dara na 10/5 = 2 bags of cloth, but for Kowa na 20/8 = 2.5 bags of cloth. Since Dara dey sacrifice less cloth make e produce shoe, Dara get comparative advantage for shoe, even though Dara sabi make both goods pass Kowa overall.",
+"py": null,
+"values": null,
+"id": "ecov1802",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

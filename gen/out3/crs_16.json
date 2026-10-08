@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "Miracles of Jesus",
+"generated": 8,
+"kept": [
+{
+"q": "At a wedding feast in Cana of Galilee, Jesus performed his first recorded miracle by turning water into what substance?",
+"options": [
+"Wine",
+"Oil",
+"Milk",
+"Honey"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "At the wedding in Cana, Jesus turned water in six stone jars into wine when the host ran out. This was His first miracle, as recorded in John 2:1-11.",
+"pidgin": "For wedding for Cana, Jesus turn water wey dem put for six pot into wine when wine finish. Na im first miracle, dem write am for John 2:1-11.",
+"id": "crsv1600",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "When Jesus fed a large crowd with only five loaves of bread and two fish, how many baskets of leftover fragments were gathered afterwards?",
+"options": [
+"Five",
+"Seven",
+"Twelve",
+"Twenty"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "After about five thousand men were fed with five loaves and two fish, the disciples gathered twelve baskets full of leftovers. This miracle is recorded in Matthew 14:13-21.",
+"pidgin": "After Jesus use five bread and two fish feed up to five thousand men, the disciples gather twelve basket of leftover food. E dey for Matthew 14:13-21.",
+"id": "crsv1601",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A Roman army officer approached Jesus asking Him to heal his servant who was paralysed and suffering greatly, but he told Jesus not to bother coming to his house. What did he request instead?",
+"options": [
+"That Jesus send a disciple in His place",
+"That Jesus simply say the word of healing from where He stood",
+"That Jesus touch a cloth to be sent to the servant",
+"That Jesus pray at the synagogue for the servant"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The centurion told Jesus that he was not worthy to have Him enter his house, and asked Jesus to just speak the word so his servant would be healed. Jesus praised his great faith and healed the servant instantly, as recorded in Matthew 8:5-13.",
+"pidgin": "The Roman soldier tell Jesus say make He just talk word make the servant better, im no need enter the house. Jesus praise im faith well-well and heal the servant immediately, na so dem write am for Matthew 8:5-13.",
+"id": "crsv1602",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Jesus raised a man from the dead in Bethany after he had already been buried for how many days?",
+"options": [
+"One day",
+"Two days",
+"Three days",
+"Four days"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Lazarus had already been in the tomb for four days when Jesus arrived in Bethany and called him out, showing Jesus' power over death. This event is recorded in John 11:1-44.",
+"pidgin": "Lazarus don dey tomb reach four days before Jesus come Bethany call am comot, e show say Jesus get power over death. Dem write am for John 11:1-44.",
+"id": "crsv1603",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "While Jesus and His disciples were crossing a lake in a boat, a fierce storm arose and the disciples feared for their lives. What did Jesus do to resolve the situation?",
+"options": [
+"He told the disciples to row faster to the shore",
+"He rebuked the wind and commanded the sea to be still",
+"He asked the disciples to throw their cargo overboard",
+"He instructed them to anchor the boat and wait"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus rebuked the wind and said to the sea, 'Peace, be still,' and the storm immediately calmed, amazing His disciples. This miracle is found in Mark 4:35-41.",
+"pidgin": "Jesus rebuke the wind and tell the sea make e quiet, immediately the storm calm down, the disciples surprise well-well. Na for Mark 4:35-41 dem write am.",
+"id": "crsv1604",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A certain woman who had suffered from a bleeding condition for twelve years touched Jesus' garment in a crowd and was instantly healed. What had she spent on physicians before this encounter, according to the account?",
+"options": [
+"Her entire savings on failed treatments",
+"Nothing, as she had no money",
+"Only a small amount of money",
+"Her father's inheritance"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The woman had spent all she had on many physicians over twelve years but only grew worse, yet she was healed the moment she touched Jesus' garment in faith. This is recorded in Mark 5:25-34.",
+"pidgin": "The woman don spend all her money for many doctor for twelve years but her sickness no better, instead e worse. Immediately she touch Jesus cloth with faith, she heal, na for Mark 5:25-34 dem write am.",
+"id": "crsv1605",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "When Jesus and His disciples saw a man who had been blind from birth, the disciples asked whose sin caused the blindness. What was Jesus' response to their question?",
+"options": [
+"It was the man's own sin from a previous life",
+"It was the sin of his parents alone",
+"Neither he nor his parents sinned, but it happened so God's work could be revealed in him",
+"It was due to a generational curse from his ancestors"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Jesus corrected the disciples' assumption that sin caused the blindness, explaining that it happened so that the works of God could be displayed through healing him. This teaching and miracle appear in John 9:1-7.",
+"pidgin": "Jesus correct the disciples wey think say na sin cause the blindness, e tell dem say na so God go fit show im work through the man. Dem write this teaching and miracle for John 9:1-7.",
+"id": "crsv1606",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Some men removed roofing tiles to lower their paralysed friend down to Jesus because of the large crowd blocking the entrance. What did Jesus say to the man first, before healing his physical condition?",
+"options": [
+"Your faith has made you well",
+"Rise and walk immediately",
+"Your sins are forgiven you",
+"Go and show yourself to the priest"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Jesus first told the paralysed man that his sins were forgiven, which caused controversy among the religious teachers, before healing him physically to prove His authority to forgive sins. This account is recorded in Mark 2:1-12.",
+"pidgin": "Jesus first tell the paralysed man say im sin don forgive, wey cause wahala among the religious teachers, before e later heal am physically to show say E get power to forgive sin. Na for Mark 2:1-12 dem write am.",
+"id": "crsv1607",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": []
+}

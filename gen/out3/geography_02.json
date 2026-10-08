@@ -1,0 +1,210 @@
+{
+"subject": "geography",
+"topic": "Map reading: directions, bearings and grid references",
+"generated": 8,
+"kept": [
+{
+"q": "If a point is situated exactly to the East of an observer, what is its bearing from the observer, measured clockwise from North?",
+"options": [
+"180°",
+"270°",
+"090°",
+"000°"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Bearings are measured clockwise from North (000°). East is a quarter turn (90°) clockwise from North, so the bearing is 090°.",
+"pidgin": "Dem dey measure bearing from North, go clockwise. East na quarter turn from North wey be 90°, so bearing na 090°.",
+"py": "90",
+"values": [
+180,
+270,
+90,
+0
+],
+"id": "geov0200",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Town K is situated due South of town L. What is the bearing of K from L?",
+"options": [
+"090°",
+"000°",
+"270°",
+"180°"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "South is a half turn (180°) clockwise from North. Since K is directly south of L, the bearing of K from L is 180°.",
+"pidgin": "South na half turn (180°) clockwise from North. Since K dey south of L, bearing of K from L na 180°.",
+"py": "180",
+"values": [
+90,
+0,
+270,
+180
+],
+"id": "geov0201",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "On a standard compass rose, which direction lies exactly halfway between North and East?",
+"options": [
+"North-West",
+"South-East",
+"North-East",
+"South-West"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The direction exactly between North (000°) and East (090°) is North-East, which corresponds to a bearing of 045°.",
+"pidgin": "The direction wey dey exactly between North and East na North-East, wey be bearing 045°.",
+"py": null,
+"values": null,
+"id": "geov0202",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "The bearing of a market square from Mrs Adeyemi's house is 065°. What is the bearing of the house from the market square?",
+"options": [
+"115°",
+"245°",
+"155°",
+"295°"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "To find a back bearing when the given bearing is less than 180°, add 180°. So 065° + 180° = 245°, which is the bearing of the house from the market square.",
+"pidgin": "To find back bearing when the bearing dey less pass 180°, add 180°. So 065° + 180° = 245°, na so e be the bearing of house from market.",
+"py": "65+180",
+"values": [
+115,
+245,
+155,
+295
+],
+"id": "geov0203",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A surveyor stationed at point P sights a flagpole at point Q on a bearing of 300°. What is the bearing of P as seen from Q?",
+"options": [
+"060°",
+"210°",
+"120°",
+"150°"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When the given bearing is greater than 180°, subtract 180° to get the back bearing. So 300° - 180° = 120°, which is the bearing of P from Q.",
+"pidgin": "When bearing pass 180°, you go minus 180° to get back bearing. So 300° - 180° = 120°, na im be bearing of P from Q.",
+"py": "300-180",
+"values": [
+60,
+210,
+120,
+150
+],
+"id": "geov0204",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "On a topographical map, eastings (vertical grid lines) are numbered 10, 11, 12, 13... from west to east, and northings (horizontal grid lines) are numbered 20, 21, 22, 23... from south to north. A health centre lies 4 tenths of a grid square east of easting line 14 and 6 tenths of a grid square north of northing line 23. What is the six-figure grid reference of the health centre?",
+"options": [
+"144236",
+"236144",
+"143226",
+"145237"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A six-figure grid reference states the easting first, then the northing, each refined to tenths. Easting 14 plus 4 tenths gives 144; northing 23 plus 6 tenths gives 236. Combined, the grid reference is 144236.",
+"pidgin": "Six-figure grid reference na easting first before northing, each one get tenths. Easting 14 plus 4 tenths na 144; northing 23 plus 6 tenths na 236. If you join am, e go be 144236.",
+"py": "(14*10+4)*1000 + (23*10+6)",
+"values": [
+144236,
+236144,
+143226,
+145237
+],
+"id": "geov0205",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A topographical map has a scale of 1:25,000. If the actual distance between two adjacent grid lines on the ground is 1 km, what is the distance between the same two grid lines on the map, in centimetres?",
+"options": [
+"2.5 cm",
+"0.4 cm",
+"4 cm",
+"40 cm"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "1 km on the ground equals 100,000 cm. Since the scale is 1:25,000, the map distance is 100,000 / 25,000 = 4 cm.",
+"pidgin": "1 km for ground na 100,000 cm. Since scale na 1:25,000, map distance na 100,000 divide by 25,000 wey be 4 cm.",
+"py": "100000/25000",
+"values": [
+2.5,
+0.4,
+4,
+40
+],
+"id": "geov0206",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A ship sails from port A on a bearing of 040° for 60 km to reach port B. At B, it changes course and sails on a bearing of 130° for 80 km to reach port C. Calculate, to the nearest whole degree, the bearing of port C from port A.",
+"options": [
+"053°",
+"143°",
+"093°",
+"130°"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Since the course changes from 040° to 130°, the turn at B is a right angle (90°), making triangle ABC right-angled at B with legs 60 km and 80 km. The angle at A between AB and AC is arctan(80/60) = 53.13°. Adding this to the bearing of B from A (040°) gives 093° as the bearing of C from A.",
+"pidgin": "Since course change from 040° to 130°, the turn for B na 90° (right angle), so triangle ABC get right angle for B with legs 60 km and 80 km. The angle for A between AB and AC na arctan(80/60) = 53.13°. If you add am to bearing of B from A (040°), you go get 093° as bearing of C from A.",
+"py": "round(40 + math.degrees(math.atan2(80,60)))",
+"values": [
+53,
+143,
+93,
+130
+],
+"id": "geov0207",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

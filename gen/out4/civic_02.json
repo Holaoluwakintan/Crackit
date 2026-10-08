@@ -1,0 +1,153 @@
+{
+"subject": "civic",
+"topic": "Citizenship: rights, duties and obligations",
+"ti": 2,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines the term 'citizenship' as used in Civic Education?",
+"options": [
+"The legal status of belonging to a particular nation, with rights and obligations attached",
+"The ability to speak the official language of a country fluently",
+"The act of living in a foreign country for many years",
+"The possession of a national identity card"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Citizenship is a legal relationship between a person and a state, which comes with rights (like voting) and duties (like obeying laws). Speaking a language or holding an ID card does not by itself make someone a citizen.",
+"pidgin": "Citizenship na legal connection between person and him country, and e carry rights and duties. To sabi talk language or get ID card no mean say you be citizen.",
+"id": "wciv0200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is a civic duty expected of every Nigerian citizen?",
+"options": [
+"Demanding salary increase from government",
+"Criticising government officials publicly",
+"Obeying the laws of the land",
+"Travelling abroad for holidays"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Obeying the laws of the land is a basic civic duty that keeps order in society and allows government to function well. The other options are personal choices or rights, not duties.",
+"pidgin": "To obey law na duty wey every citizen suppose do so that society go dey orderly. The other options na personal choice or right, no be duty.",
+"id": "wciv0202",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidi, a 20-year-old undergraduate, was arrested by the police and kept in detention for three weeks without being charged to court. Which of his fundamental rights was violated?",
+"options": [
+"Right to freedom of movement",
+"Right to personal liberty",
+"Right to freedom of expression",
+"Right to own property"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The right to personal liberty protects a person from being detained beyond the legal time limit without trial. Nigerian law requires that a suspect be charged to court within a reasonable time, usually within 48 hours except in special cases.",
+"pidgin": "Right to personal liberty na the one wey protect person from dey lock up pass the time wey law allow without court case. Law talk say dem suppose charge person go court fast fast, no be three weeks.",
+"id": "wciv0203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Alhaji Musa, a citizen of Niger Republic, wishes to become a naturalized citizen of Nigeria. Which of the following is NOT one of the requirements he must satisfy under Nigerian law?",
+"options": [
+"He must have resided in Nigeria continuously for a minimum period of time",
+"He must be of good character",
+"He must renounce his original citizenship immediately after birth",
+"He must show that he can contribute meaningfully to Nigeria's development"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Naturalization applies to adults seeking citizenship, so 'renouncing citizenship immediately after birth' makes no logical sense and is not a real requirement. Genuine requirements include residency period, good character, and ability to contribute to national growth.",
+"pidgin": "Naturalization na for grown-up wey wan become citizen, so 'to renounce citizenship immediately after birth' no make sense at all and e no be real requirement. The real ones be say you must don stay long time, get good character, and fit contribute to the country.",
+"id": "wciv0204",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following rights is classified as a socio-economic right rather than a civil right under the Nigerian Constitution?",
+"options": [
+"Right to fair hearing",
+"Right to freedom of thought",
+"Right to private life",
+"Right to education"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The right to education falls under the Fundamental Objectives and Directive Principles of State Policy, which deal with socio-economic goals. Fair hearing, freedom of thought and private life are civil rights found in the fundamental human rights chapter.",
+"pidgin": "Right to education dey under the part of constitution wey talk about socio-economic goals. Fair hearing, freedom of thought and private life na civil rights wey dey the fundamental human rights chapter.",
+"id": "wciv0205",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During a community town hall meeting, the chairman reminded the people that paying taxes, defending the nation when called upon, and respecting constituted authority are things they owe to the state. These are best described as:",
+"options": [
+"Civic duties and obligations",
+"Fundamental human rights",
+"Economic rights",
+"Political rights"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Paying tax, defending the nation, and respecting authority are obligations citizens owe the state in return for the protection and services they enjoy, so they are civic duties, not rights. Rights are benefits citizens receive, while duties are responsibilities they must perform.",
+"pidgin": "To pay tax, defend the country, and respect authority na things citizen owe the government, so na duty, no be right. Right na wetin citizen dey enjoy, duty na wetin dem suppose do.",
+"id": "wciv0206",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "According to the 1999 Constitution of the Federal Republic of Nigeria (as amended), a person automatically becomes a citizen of Nigeria by birth if:",
+"options": [
+"He or she has lived in Nigeria continuously for up to 15 years",
+"Either of his or her parents or grandparents belongs to a community indigenous to Nigeria",
+"He or she marries a person who is a Nigerian citizen",
+"He or she is formally registered by the Ministry of Interior"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Citizenship by birth applies to a person whose parent or grandparent is from an indigenous Nigerian community, or who was born in Nigeria before independence under certain conditions. Marriage and naturalization are different modes of acquiring citizenship, not birth.",
+"pidgin": "Citizenship by birth na when your papa, mama or grandparent come from Nigerian community. Marriage and registration na different ways to get citizenship, no be by birth.",
+"id": "wciv0201",
+"check": {
+"s1": "X",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

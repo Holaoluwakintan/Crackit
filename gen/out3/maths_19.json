@@ -1,0 +1,116 @@
+{
+"subject": "maths",
+"topic": "Trigonometry: ratios, special angles, sine and cosine rules, bearings",
+"generated": 4,
+"kept": [
+{
+"q": "Evaluate: tan 45° + 2 cos 60° - sin 90°.",
+"options": [
+"1",
+"2",
+"0",
+"1/2"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "tan 45° = 1, cos 60° = 1/2, sin 90° = 1. So the expression becomes 1 + 2(1/2) - 1 = 1 + 1 - 1 = 1. These are standard special-angle values that must be memorised.",
+"pidgin": "Tan 45° na 1, cos 60° na 1/2, sin 90° na 1. So e be like 1 + 2(1/2) - 1 = 1 + 1 - 1 = 1. Na common special angle values wey you suppose sabi.",
+"py": "math.tan(math.radians(45)) + 2*math.cos(math.radians(60)) - math.sin(math.radians(90))",
+"values": [
+1,
+2,
+0,
+0.5
+],
+"id": "matv1900",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Chidi walks from point X to point Y on a bearing of 070°. What is the bearing of X from Y (the back bearing)?",
+"options": [
+"250°",
+"070°",
+"290°",
+"110°"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The back bearing is found by adding 180° to the original bearing when it is less than 180°. So 070° + 180° = 250°. This gives the direction of X as seen from Y.",
+"pidgin": "To find back bearing, if the first bearing less pass 180°, you go add 180° to am. So 070° + 180° = 250°. Na so you go take know where X dey if you dey stand for Y.",
+"py": "70+180",
+"values": [
+250,
+70,
+290,
+110
+],
+"id": "matv1901",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "From town Q, town P is located 6 km away on a bearing of 040°, while town R is located 10 km away on a bearing of 160°. Using the cosine rule, find the distance PR correct to the nearest kilometre.",
+"options": [
+"14 km",
+"16 km",
+"13 km",
+"18 km"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The angle PQR between the two bearings is 160° - 040° = 120°. By the cosine rule, PR^2 = QP^2 + QR^2 - 2(QP)(QR)cos(120°) = 36 + 100 - 2(6)(10)(-0.5) = 136 + 60 = 196. So PR = sqrt(196) = 14 km.",
+"pidgin": "The angle between the two bearings na 160° - 040° = 120°. Cosine rule talk say PR^2 = 36 + 100 - 2(6)(10)cos(120°) = 136 + 60 = 196. So PR = sqrt(196) = 14 km.",
+"py": "math.sqrt(6**2+10**2-2*6*10*math.cos(math.radians(120)))",
+"values": [
+14,
+16,
+13,
+18
+],
+"id": "matv1903",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In triangle ABC, angle A = 40°, angle B = 65°, and side a (opposite angle A) = 10 cm. Using the sine rule, find the length of side b (opposite angle B) to the nearest whole number.",
+"options": [
+"14 cm",
+"10 cm",
+"13 cm",
+"16 cm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "By the sine rule, a/sin A = b/sin B, so b = (a × sin B)/sin A = (10 × sin 65°)/sin 40°. This gives b = (10 × 0.9063)/0.6428 ≈ 14.1, which rounds to 14 cm.",
+"pidgin": "Sine rule talk say a/sin A = b/sin B, so b = (10 × sin 65°)/sin 40°. Na (10 × 0.9063)/0.6428 ≈ 14.1, wey round to 14 cm.",
+"py": "10*math.sin(math.radians(65))/math.sin(math.radians(40))",
+"values": [
+14,
+10,
+13,
+16
+],
+"id": "matv1902",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+}
+]
+}

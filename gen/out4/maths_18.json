@@ -1,0 +1,190 @@
+{
+"subject": "maths",
+"topic": "Trigonometry, angles of elevation/depression and bearings",
+"ti": 18,
+"generated": 6,
+"kept": [
+{
+"q": "A ladder leans against a vertical wall so that its foot is 6 m away from the wall on level ground. If the ladder makes an angle of 60° with the ground, find the length of the ladder to the nearest whole number.",
+"options": [
+"12 m",
+"6 m",
+"10 m",
+"15 m"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "cos60° = adjacent/hypotenuse = 6/L, so L = 6/cos60° = 6/0.5 = 12 m.",
+"pidgin": "Cos60° be 6/L, so L = 6 divide 0.5 wey be 12 m.",
+"py": "6/math.cos(math.radians(60))",
+"values": [
+12,
+6,
+10,
+15
+],
+"id": "wmth1800",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A ship sails directly from port A to port B on a bearing of 070°. What is the bearing of port A from port B?",
+"options": [
+"250°",
+"110°",
+"290°",
+"070°"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The back bearing is found by adding 180° (since 070° is less than 180°): 070° + 180° = 250°.",
+"pidgin": "Since 070° small pass 180°, add 180° to am: 070° + 180° = 250° be the bearing of A from B.",
+"py": "(70+180)%360",
+"values": [
+250,
+110,
+290,
+70
+],
+"id": "wmth1802",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "From a point on level ground 20 m away from the foot of a flagpole, the angle of elevation of the top of the pole is 30°. Find the height of the flagpole, correct to 1 decimal place.",
+"options": [
+"11.5 m",
+"10.0 m",
+"17.3 m",
+"20.0 m"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "tan30° = height/20, so height = 20 x tan30° = 20 x 0.5774 = 11.5 m.",
+"pidgin": "Tan30° be height/20, so height = 20 x tan30° wey give 11.5 m.",
+"py": "20*math.tan(math.radians(30))",
+"values": [
+11.5,
+10.0,
+17.3,
+20.0
+],
+"id": "wmth1801",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+},
+{
+"q": {
+"q": "From the top of a tower 50 m high, the angle of depression of a parked car on level ground is 40°. Find the distance of the car from the foot of the tower, to the nearest whole number.",
+"options": [
+"60 m",
+"50 m",
+"42 m",
+"65 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The angle of depression equals the angle of elevation from the car, so tan40° = 50/d, giving d = 50/tan40° = 50/0.8391 ≈ 60 m.",
+"pidgin": "Angle of depression equal angle of elevation from car side, so tan40° = 50/d. d = 50/tan40° wey be about 60 m.",
+"py": "50/math.tan(math.radians(40))",
+"values": [
+60,
+50,
+42,
+65
+],
+"id": "wmth1803",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+},
+{
+"q": {
+"q": "Town P is 10 km from town Q on a bearing of N50°E. Town R is 15 km from Q on a bearing of S70°E. Find the distance PR, correct to 1 decimal place.",
+"options": [
+"13.2 km",
+"15.0 km",
+"10.6 km",
+"18.0 km"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Bearing of P from Q is 050°, bearing of R from Q is 110°, so angle PQR = 110° - 50° = 60°. By cosine rule: PR^2 = 10^2 + 15^2 - 2(10)(15)cos60° = 175, so PR = sqrt(175) ≈ 13.2 km.",
+"pidgin": "Bearing of P na 050°, bearing of R na 110°, so angle PQR = 60°. Use cosine rule: PR^2 = 100+225-300cos60° = 175, PR = sqrt(175) wey be 13.2 km.",
+"py": "math.sqrt(10**2+15**2-2*10*15*math.cos(math.radians(60)))",
+"values": [
+13.2,
+15.0,
+10.6,
+18.0
+],
+"id": "wmth1804",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+},
+{
+"q": {
+"q": "From a point on the ground, the angle of elevation of the top of a building is 32°. After walking 20 m directly towards the building, the angle of elevation becomes 50°. Find the height of the building, to the nearest whole number.",
+"options": [
+"26 m",
+"20 m",
+"32 m",
+"40 m"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Let h be the height and d the distance from the second point: tan50° = h/d and tan32° = h/(d+20). Solving simultaneously gives h = 20tan32°/(1 - tan32°/tan50°) ≈ 26 m.",
+"pidgin": "Make h be height, d be distance from second point: tan50° = h/d, tan32° = h/(d+20). If you solve the two equations together, h go come be about 26 m.",
+"py": "(20*math.tan(math.radians(32)))/(1 - math.tan(math.radians(32))/math.tan(math.radians(50)))",
+"values": [
+26,
+20,
+32,
+40
+],
+"id": "wmth1805",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+}
+]
+}

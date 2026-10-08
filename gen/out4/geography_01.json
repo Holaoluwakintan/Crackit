@@ -1,0 +1,205 @@
+{
+"subject": "geography",
+"topic": "Latitude, longitude and time",
+"ti": 1,
+"generated": 7,
+"kept": [
+{
+"q": "The imaginary lines on a globe that run from the North Pole to the South Pole, and are used to measure distance east or west of Greenwich, are called:",
+"options": [
+"Parallels of latitude",
+"Meridians of longitude",
+"Tropics",
+"Lines of the Equator"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Lines that join the North Pole to the South Pole are called meridians of longitude. Lines of latitude, on the other hand, run parallel to the Equator from east to west.",
+"pidgin": "Dem lines wey join North Pole to South Pole na meridians of longitude. Latitude lines na the ones wey dey run parallel to Equator for east-west direction.",
+"py": null,
+"values": null,
+"id": "wgeo0100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "If it is 12:00 noon at the Greenwich Meridian (0°), what is the local time at a town located on longitude 45°E?",
+"options": [
+"9:00am",
+"12:00noon",
+"3:00pm",
+"6:00pm"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Every 15° of longitude equals 1 hour of time. 45°E divided by 15 gives 3 hours, and since the town is east of Greenwich, its time is ahead: 12 noon + 3 hours = 3:00pm.",
+"pidgin": "Every 15° longitude na 1 hour. 45°E divide by 15 na 3 hours, and since the town dey east of Greenwich, im time dey ahead: 12 noon add 3 hours give 3:00pm.",
+"py": "12 + 45/15",
+"values": [
+9,
+12,
+15,
+18
+],
+"id": "wgeo0101",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A ship sails from Port Alpha, located on longitude 20°W, to Port Beta, located on longitude 10°E. If the local time at Port Alpha is 6:00am, what is the local time at Port Beta at that same instant?",
+"options": [
+"4:00am",
+"6:00am",
+"8:00am",
+"10:00am"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Longitude difference = 10 - (-20) = 30°. Time difference = 30/15 = 2 hours. Port Beta is east of Port Alpha, so its time is ahead: 6:00am + 2 hours = 8:00am.",
+"pidgin": "Longitude difference na 10-(-20)=30°. Time difference na 30/15=2 hours. Port Beta dey east pass Port Alpha, so im time dey ahead: 6am add 2 hours give 8am.",
+"py": "6 + 30/15",
+"values": [
+4,
+6,
+8,
+10
+],
+"id": "wgeo0103",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Two towns lie on latitude 60°N and are 60° of longitude apart. Using the formula Distance = (difference in longitude/360) x 2 x pi x R x cos(latitude), with R = 6,400km, pi = 22/7, and cos 60° = 1/2, calculate the distance between the two towns along that parallel.",
+"options": [
+"1,676km",
+"3,352km",
+"6,705km",
+"13,410km"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Distance = (60/360) x 2 x (22/7) x 6400 x 0.5. Working this out: (1/6) x (44/7) x 6400 x 0.5 is approximately 3,352km.",
+"pidgin": "Distance = (60/360) x 2 x (22/7) x 6400 x 0.5. If you calculate am well, e go give you about 3,352km.",
+"py": "(60/360)*2*(22/7)*6400*0.5",
+"values": [
+1676,
+3352,
+6705,
+13410
+],
+"id": "wgeo0104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Town Kano-X is located on longitude 45°E, while town Zed is located on longitude 135°W. What is the time difference between the two towns?",
+"options": [
+"6 hours",
+"9 hours",
+"12 hours",
+"18 hours"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The two longitudes are exactly 180° apart (45 + 135 = 180), which is the maximum possible longitude separation between any two points on Earth. Time difference = 180/15 = 12 hours, the greatest time difference possible.",
+"pidgin": "The two longitudes dey exactly 180° apart (45+135=180), na the biggest separation wey two points fit get for Earth. Time difference na 180/15=12 hours, na im be the highest time difference wey fit dey.",
+"py": "180/15",
+"values": [
+6,
+9,
+12,
+18
+],
+"id": "wgeo0105",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Lagos is located on longitude 3°E, while town Yelwa is located on longitude 27°E. If the local time at Lagos is 10:00am, what is the local time at Yelwa?",
+"options": [
+"8:24am",
+"9:24am",
+"11:36am",
+"12:36pm"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Longitude difference = 27 - 3 = 24°. Time difference = 24/15 = 1.6 hours = 1 hour 36 minutes. Since Yelwa is east of Lagos, its time is ahead: 10:00am + 1h36min = 11:36am.",
+"pidgin": "Longitude difference na 27-3=24°. Time difference na 24/15=1.6 hours wey be 1hr36min. Since Yelwa dey east pass Lagos, im time dey ahead: 10am add 1h36min give 11:36am.",
+"py": "10 + 24/15",
+"values": [
+8.4,
+9.4,
+11.6,
+12.6
+],
+"id": "wgeo0102",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Yelwa is not located at 27°E.|"
+},
+{
+"q": {
+"q": "A ship's navigator finds that the local time on board is 7:45am while the Greenwich Mean Time (GMT) at that same moment is 2:15pm. What is the longitude of the ship?",
+"options": [
+"97.5°E",
+"97.5°W",
+"48.75°W",
+"195°W"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since GMT (2:15pm) is ahead of the local time (7:45am), the ship must be west of Greenwich. The time difference is 6 hours 30 minutes, which is 6.5 hours. Longitude = 6.5 x 15 = 97.5°W.",
+"pidgin": "Since GMT (2:15pm) dey ahead of the local time (7:45am), e mean say the ship dey west side of Greenwich. The time difference na 6hr30min, wey be 6.5 hours. Longitude = 6.5 x 15 = 97.5°W.",
+"py": "6.5*15",
+"values": [
+97.5,
+97.5,
+48.75,
+195
+],
+"id": "wgeo0106",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+}
+]
+}

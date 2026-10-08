@@ -1,0 +1,175 @@
+{
+"subject": "geography",
+"topic": "Agriculture",
+"ti": 14,
+"generated": 7,
+"kept": [
+{
+"q": "Which farming system involves clearing a piece of forest land, cultivating it for two or three years, and then abandoning it for several years to allow the natural vegetation and soil fertility to return?",
+"options": [
+"Shifting cultivation",
+"Mixed farming",
+"Crop rotation",
+"Mechanized farming"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Shifting cultivation is the practice of farming a plot for a short period and then moving to a new plot, leaving the old one to fallow and regain fertility naturally. This is common in traditional farming communities in West Africa.",
+"pidgin": "Shifting cultivation na when farmer clear bush, farm am small time, den comot go another place make the land rest and regain strength. Na common practice for village farming for West Africa.",
+"py": null,
+"values": null,
+"id": "wgeo1400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farming practice in which a farmer rears animals such as goats and poultry alongside growing crops like maize and cassava on the same farmland is best described as:",
+"options": [
+"Pastoral farming",
+"Mixed farming",
+"Plantation farming",
+"Subsistence fishing"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Mixed farming is the combination of crop cultivation and animal rearing on the same farm. This allows the farmer to use animal waste as manure and crop residue as animal feed.",
+"pidgin": "Mixed farming na when farmer dey grow crops and dey rear animals for the same farm. E good because animal dung fit be manure, and crop waste fit feed the animals.",
+"py": null,
+"values": null,
+"id": "wgeo1401",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The main reason farmers practice crop rotation, where different crops are grown in a fixed sequence on the same piece of land over successive seasons, is to:",
+"options": [
+"Increase the size of farmland available",
+"Reduce the need for farm labourers",
+"Maintain soil fertility and reduce pest and disease build-up",
+"Encourage permanent cropping of a single crop"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Different crops take up and return different nutrients to the soil, so rotating them prevents the soil from losing specific nutrients. It also breaks the life cycle of pests and diseases that attack a particular crop.",
+"pidgin": "Different crops dey use and return different nutrients for soil, so if you rotate them, soil no go lose one type of nutrient finish. E also dey break the cycle of pest and disease wey dey attack one particular crop.",
+"py": null,
+"values": null,
+"id": "wgeo1402",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a genuine disadvantage of mechanized farming for an average Nigerian smallholder farmer?",
+"options": [
+"It increases soil erosion when used on steep or poorly managed land",
+"It always leads to lower crop yield per hectare",
+"It completely removes the need for fertile soil",
+"It makes land preparation slower than manual methods"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Heavy machinery like tractors and ploughs can break up soil structure and expose bare soil to wind and rain, especially on slopes, leading to erosion. Mechanization actually speeds up land preparation and can raise yields, so the other options are wrong.",
+"pidgin": "Heavy machine like tractor fit break the soil structure and expose am to wind and rain, especially for sloppy land, and e go cause erosion. Mechanization dey make work faster and fit increase yield, so the other options no correct.",
+"py": null,
+"values": null,
+"id": "wgeo1403",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A cooperative farm in Oyo State has a total area of 12 hectares. The farm is divided into 4 equal plots for a 4-year crop rotation cycle: yam, maize, groundnut, and fallow, one crop (or fallow) per plot each year. What is the size, in hectares, of the plot left fallow in any given year?",
+"options": [
+"2 hectares",
+"3 hectares",
+"4 hectares",
+"6 hectares"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The 12 hectares is divided equally among 4 plots, so each plot is 12/4 = 3 hectares. Since one plot is fallow each year, the fallow plot is 3 hectares.",
+"pidgin": "Dem divide the 12 hectares into 4 equal plots, so 12/4 = 3 hectares be each plot size. Since one plot dey fallow every year, na 3 hectares be the fallow land.",
+"py": "12/4",
+"values": [
+2,
+3,
+4,
+6
+],
+"id": "wgeo1404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Cocoa is widely cultivated in the forest belt of southern Nigeria (such as Ondo and Osun States) but is not grown commercially in the far northern parts of the country. The main reason for this difference is:",
+"options": [
+"Northern soils lack any mineral nutrients",
+"Cocoa requires heavy, well-distributed rainfall and high humidity, which the north lacks",
+"Northern farmers are not interested in tree crops",
+"Cocoa trees cannot survive in soils with laterite content"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Cocoa is a tropical tree crop that needs high rainfall (over 1,500 mm annually, well distributed) and high humidity, conditions found in the forest belt of the south. The drier savanna climate of the north does not support cocoa growth.",
+"pidgin": "Cocoa na tropical tree crop wey need plenty rain (pass 1500mm every year) and high humidity, and na so the forest area for south be. The dry savanna climate for north no fit support cocoa.",
+"py": null,
+"values": null,
+"id": "wgeo1405",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer in Benue State harvested 3,600 kg of maize from a 6-hectare farm before using fertilizer. After applying fertilizer the following season on the same farm size, he harvested 4,800 kg. By how many kilograms per hectare did his yield increase?",
+"options": [
+"100 kg/ha",
+"150 kg/ha",
+"200 kg/ha",
+"300 kg/ha"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Before fertilizer: 3600/6 = 600 kg per hectare. After fertilizer: 4800/6 = 800 kg per hectare. The increase is 800 - 600 = 200 kg per hectare.",
+"pidgin": "Before fertilizer: 3600/6 = 600 kg per hectare. After fertilizer: 4800/6 = 800 kg per hectare. The increase na 800 - 600 = 200 kg per hectare.",
+"py": "(4800/6) - (3600/6)",
+"values": [
+100,
+150,
+200,
+300
+],
+"id": "wgeo1406",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,165 @@
+{
+"subject": "physics",
+"topic": "Sound waves",
+"ti": 14,
+"generated": 6,
+"kept": [
+{
+"q": "The range of frequencies that a normal human ear can detect is approximately:",
+"options": [
+"20 Hz to 20000 Hz",
+"20 Hz to 2000 Hz",
+"200 Hz to 20000 Hz",
+"2 Hz to 20000 Hz"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The normal human ear can hear sounds with frequencies between 20 Hz and 20000 Hz. Sounds below 20 Hz are infrasonic and those above 20000 Hz are ultrasonic, both inaudible to humans.",
+"pidgin": "Normal human ear fit hear sound wey dey between 20 Hz to 20000 Hz. Anything wey dey below 20 Hz na infrasound, anything above 20000 Hz na ultrasound, man no fit hear am.",
+"py": null,
+"values": null,
+"id": "wphy1400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Sound waves are best classified as which type of wave?",
+"options": [
+"Transverse waves",
+"Longitudinal waves",
+"Electromagnetic waves",
+"Stationary waves only"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Sound waves travel by compressions and rarefactions, with particles vibrating parallel to the direction of wave travel. This makes sound a longitudinal wave, unlike light which is transverse.",
+"pidgin": "Sound dey waka through compression and rarefaction, and the particles dey vibrate for the same direction wey the wave dey go. Na why we dey call am longitudinal wave, e no be like light wey be transverse.",
+"py": null,
+"values": null,
+"id": "wphy1401",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidinma stands 170 m away from a tall wall at Yankari National Park. She claps once and hears the echo exactly 1.0 second later. Calculate the speed of sound in air.",
+"options": [
+"340 m/s",
+"170 m/s",
+"680 m/s",
+"85 m/s"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The sound travels to the wall and back, so the total distance is 2 x 170 m = 340 m. Speed = distance/time = 340 m / 1.0 s = 340 m/s.",
+"pidgin": "The sound go reach wall come back, so the total distance na 2 x 170 m = 340 m. Speed = distance/time = 340 m / 1.0 s = 340 m/s.",
+"py": "(2*170)/1.0",
+"values": [
+340.0,
+170.0,
+680.0,
+85.0
+],
+"id": "wphy1402",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A tuning fork produces a sound wave of frequency 500 Hz travelling through air at a speed of 340 m/s. Calculate the wavelength of the sound wave.",
+"options": [
+"0.68 m",
+"1.47 m",
+"0.34 m",
+"170 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Wavelength = speed/frequency = 340 m/s divided by 500 Hz = 0.68 m. This uses the wave equation v = f x wavelength rearranged to find wavelength.",
+"pidgin": "Wavelength = speed/frequency = 340 m/s divide by 500 Hz = 0.68 m. Na the wave formula v = f x wavelength wey we just rearrange.",
+"py": "340/500",
+"values": [
+0.68,
+1.47,
+0.34,
+170.0
+],
+"id": "wphy1403",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Two tuning forks are sounded together, one with frequency 256 Hz and the other with frequency 260 Hz. How many beats per second will a listener hear?",
+"options": [
+"4",
+"2",
+"8",
+"256"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The number of beats per second equals the difference between the two frequencies. So beats = 260 Hz - 256 Hz = 4 beats per second, heard as a throbbing rise and fall in loudness.",
+"pidgin": "Number of beats per second na the difference between the two frequencies. So beats = 260 Hz - 256 Hz = 4 beats per second, wey person go hear as the sound dey rise and fall for loudness.",
+"py": "abs(260-256)",
+"values": [
+4,
+2,
+8,
+256
+],
+"id": "wphy1404",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The speed of sound in air at 0°C is 332 m/s. If the speed increases by 0.6 m/s for every 1°C rise in temperature, calculate the speed of sound in air at 30°C.",
+"options": [
+"350 m/s",
+"332 m/s",
+"342 m/s",
+"368 m/s"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Increase in speed = 0.6 m/s x 30 = 18 m/s. New speed = 332 m/s + 18 m/s = 350 m/s. This shows that speed of sound increases as air temperature rises.",
+"pidgin": "Increase for speed = 0.6 m/s x 30 = 18 m/s. New speed = 332 m/s + 18 m/s = 350 m/s. E dey show say as temperature dey rise, sound speed dey rise too.",
+"py": "332+0.6*30",
+"values": [
+350.0,
+332.0,
+342.0,
+368.0
+],
+"id": "wphy1405",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

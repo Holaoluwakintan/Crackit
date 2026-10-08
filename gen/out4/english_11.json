@@ -1,0 +1,153 @@
+{
+"subject": "english",
+"topic": "Word classes, phrases and clauses",
+"ti": 11,
+"generated": 7,
+"kept": [
+{
+"q": "In the sentence: 'Tunde answered the difficult question SURPRISINGLY well during the interview,' what word class is the word in capitals?",
+"options": [
+"Adjective",
+"Adverb",
+"Noun",
+"Conjunction"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The word 'surprisingly' describes the adverb 'well', telling us how well he answered. A word that modifies another adverb (or adjective/verb) is an adverb.",
+"pidgin": "'Surprisingly' dey describe the word 'well', e dey show how e take answer well. Word wey dey modify another adverb na adverb.",
+"id": "weng1100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Choose the correct word class of the word in capitals: 'Before the exam started, Blessing QUIETLY arranged her pens and pencils on the desk.'",
+"options": [
+"Verb",
+"Preposition",
+"Adverb",
+"Pronoun"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "'Quietly' tells us how Blessing arranged her items, so it modifies the verb 'arranged'. Words that modify verbs by showing manner are adverbs.",
+"pidgin": "'Quietly' dey show how Blessing arrange her things, so e dey modify the verb 'arranged'. Word wey dey show manner for verb na adverb.",
+"id": "weng1101",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which word class is the word in capitals? 'The goat jumped OVER the fence and ran into the bush.'",
+"options": [
+"Conjunction",
+"Preposition",
+"Adjective",
+"Adverb"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "'Over' shows the relationship between 'jumped' and 'the fence', indicating position or movement. Words that link a noun to another part of a sentence to show place, time or direction are prepositions.",
+"pidgin": "'Over' dey show how 'jumped' connect to 'the fence', e dey show direction. Word wey dey link noun to show place or direction na preposition.",
+"id": "weng1102",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Study this sentence carefully: 'The tired market woman carrying a heavy basket of pepper is waiting for a taxi.' Which group of words is a noun phrase?",
+"options": [
+"is waiting for a taxi",
+"carrying a heavy basket of pepper",
+"The tired market woman carrying a heavy basket of pepper",
+"for a taxi"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A noun phrase is built around a noun as its head word, with other words describing it. 'The tired market woman carrying a heavy basket of pepper' has 'woman' as its head noun, and it functions as the subject of the sentence.",
+"pidgin": "Noun phrase na group of words wey get noun as the main word, with other words wey dey describe am. 'The tired market woman carrying a heavy basket of pepper' get 'woman' as the main noun, and e be the subject.",
+"id": "weng1103",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the sentence: 'Because the rain refused to stop, the traders at Oja-Oba market packed up their goods early,' which part is the subordinate (dependent) clause?",
+"options": [
+"the traders at Oja-Oba market",
+"packed up their goods early",
+"Because the rain refused to stop",
+"their goods early"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A subordinate clause has a subject and verb but cannot stand alone as a complete sentence; it depends on another clause for full meaning. 'Because the rain refused to stop' begins with the subordinating conjunction 'because' and needs the main clause to make complete sense.",
+"pidgin": "Subordinate clause get subject and verb but e no fit stand alone as full sentence; e need the main clause before e go complete. 'Because the rain refused to stop' start with 'because' and e need the main clause to complete the meaning.",
+"id": "weng1104",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Consider these four groups of words:\nI. running fast to catch the bus\nII. because he ran fast\nIII. the fast runner\nIV. in the early morning\nWhich one of these is a CLAUSE rather than a phrase?",
+"options": [
+"I",
+"II",
+"III",
+"IV"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A clause must contain a subject and a finite verb. Only 'because he ran fast' has the subject 'he' and the verb 'ran', while the other three groups lack a subject-verb pair and are therefore phrases.",
+"pidgin": "Clause must get subject and verb wey complete. Na only 'because he ran fast' get subject 'he' and verb 'ran', the other three no get subject-verb pair, so na phrase dem be.",
+"id": "weng1105",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Look at this sentence: 'What Oluchi said during the meeting surprised everyone present.' What type of clause is 'What Oluchi said during the meeting'?",
+"options": [
+"Adjectival clause",
+"Adverbial clause",
+"Noun clause",
+"Relative clause"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "This clause acts as the subject of the sentence, answering 'what surprised everyone?'. A clause that functions as a subject, object or complement (like a noun would) is called a noun clause, not an adjective or adverb clause.",
+"pidgin": "This clause dey work as the subject of the sentence, e dey answer 'wetin surprise everybody?'. Clause wey dey function as subject, object or complement (like noun) na noun clause, e no be adjective or adverb clause.",
+"id": "weng1106",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Also analysable as a fused relative clause.|"
+}
+]
+}

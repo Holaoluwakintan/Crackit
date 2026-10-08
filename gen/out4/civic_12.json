@@ -1,0 +1,149 @@
+{
+"subject": "civic",
+"topic": "HIV/AIDS and public health",
+"ti": 12,
+"generated": 7,
+"kept": [
+{
+"q": "What is the full meaning of HIV, the virus associated with AIDS?",
+"options": [
+"Human Immunodeficiency Virus",
+"Human Infectious Virus",
+"Highly Infectious Virus",
+"Human Immune Virus"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "HIV means Human Immunodeficiency Virus. It attacks the body's immune system, making it weak and unable to fight infections.",
+"pidgin": "HIV na Human Immunodeficiency Virus. E dey attack body immune system make e weak so e no fit fight sickness again.",
+"id": "wciv1200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT a known way that HIV can be transmitted from one person to another?",
+"options": [
+"Sharing of unsterilized needles",
+"Mosquito bites",
+"Unprotected sexual intercourse with an infected person",
+"Mother-to-child transmission during childbirth"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "HIV is not spread through mosquito bites because the virus cannot survive or multiply inside a mosquito. It spreads through blood, sexual fluids and from mother to child.",
+"pidgin": "Mosquito no fit carry HIV go another person because the virus no dey survive inside mosquito body. HIV dey spread through blood, sex fluid, and from mama to pikin.",
+"id": "wciv1201",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which government agency has the primary responsibility of coordinating Nigeria's national response to HIV/AIDS?",
+"options": [
+"National Drug Law Enforcement Agency (NDLEA)",
+"National Agency for the Prohibition of Trafficking in Persons (NAPTIP)",
+"National Agency for the Control of AIDS (NACA)",
+"National Agency for Food and Drug Administration and Control (NAFDAC)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "NACA (National Agency for the Control of AIDS) was set up by government to plan, coordinate and monitor Nigeria's HIV/AIDS prevention and control programmes. The other agencies handle drugs, human trafficking and food/drug regulation respectively.",
+"pidgin": "NACA (National Agency for the Control of AIDS) na the agency wey dey coordinate Nigeria HIV/AIDS programmes. The other agencies dey handle drug matter, human trafficking and food/drug control.",
+"id": "wciv1202",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Adeyemi, a pregnant woman, is diagnosed HIV positive. What is the most effective step she can take to reduce the risk of passing the virus to her baby?",
+"options": [
+"Avoid breastfeeding immediately without medical advice",
+"Take prescribed antiretroviral drugs throughout pregnancy, delivery and as advised after birth",
+"Stop attending antenatal clinic to avoid stigma",
+"Deliver the baby only through a traditional birth attendant"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Taking antiretroviral drugs as prescribed by health workers greatly lowers the amount of virus in the mother's body, which reduces the chance of mother-to-child transmission. Avoiding clinics or using untrained attendants increases risk instead.",
+"pidgin": "If pregnant woman dey take ARV drugs well-well as doctor talk am, e go reduce the virus for her body and lower the chance say the pikin go catch am. To avoid clinic or use untrained birth attendant go increase the risk instead.",
+"id": "wciv1203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a Civic Education class in Enugu, students learn that a person can carry HIV for many years without showing any sign of sickness, even though the virus is slowly multiplying in the body. What is this stage called?",
+"options": [
+"Window period",
+"Clinical latency (asymptomatic stage)",
+"Full-blown AIDS",
+"Seroconversion"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Clinical latency is the long stage where HIV is present and slowly multiplying but the person shows no obvious symptoms, sometimes lasting many years. The window period is the early stage before antibodies can be detected, while full-blown AIDS is the advanced stage with serious symptoms.",
+"pidgin": "Clinical latency na the long stage wey person get HIV but e no show any sign, even though the virus dey slowly multiply inside body, e fit reach many years. Window period na early stage before antibody go show, full-blown AIDS na when serious signs don show.",
+"id": "wciv1204",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following everyday practices will NOT put a person at risk of contracting HIV?",
+"options": [
+"Sharing razor blades with friends",
+"Shaking hands with a person living with HIV",
+"Using unsterilized tattoo or piercing needles",
+"Having unprotected sex with an infected partner"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "HIV is not spread by casual contact like shaking hands, hugging or sharing food because the virus needs direct contact with blood or certain body fluids to spread. Sharing blades, needles and unprotected sex all involve such risky contact.",
+"pidgin": "Shaking hand no fit give person HIV because the virus need direct contact with blood or certain body fluid to spread. To share blade, needle or do unprotected sex na risky one because dem fit expose person to blood or fluid.",
+"id": "wciv1205",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "During a school health talk, a resource person stresses that early detection of HIV helps infected persons live longer and helps reduce further spread in the community. Which practice best promotes early detection?",
+"options": [
+"Self-medication with herbal concoctions whenever one feels unwell",
+"Voluntary Counselling and Testing (VCT) at a health facility",
+"Avoiding health facilities until symptoms become severe",
+"Depending only on traditional healers for diagnosis"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Voluntary Counselling and Testing (VCT) allows a person to know their HIV status early through proper laboratory testing, so treatment can start on time and the person can take precautions to protect others. Herbal self-medication and traditional diagnosis cannot accurately detect HIV.",
+"pidgin": "Voluntary Counselling and Testing (VCT) na the correct way make person know im HIV status early through proper lab test, so treatment go start on time and e go fit protect other people. Herbal medicine or traditional healer no fit accurately detect HIV.",
+"id": "wciv1206",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

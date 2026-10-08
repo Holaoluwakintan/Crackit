@@ -1,0 +1,100 @@
+{
+"subject": "chemistry",
+"topic": "Nuclear chemistry and radioactivity",
+"generated": 4,
+"kept": [
+{
+"q": "What is the composition of an alpha particle released during the radioactive decay of a heavy nuclide?",
+"options": [
+"2 protons and 2 neutrons, with no electrons",
+"1 proton and 1 electron",
+"2 protons and 2 electrons",
+"1 neutron and 1 proton"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An alpha particle is identical to a helium nucleus, made up of 2 protons and 2 neutrons bound together with no electrons. This gives it a mass number of 4 and a charge of +2.",
+"pidgin": "Alpha particle be like helium nucleus, e get 2 protons and 2 neutrons, no electron dey inside. Na why e get mass number 4 and charge +2.",
+"py": null,
+"values": null,
+"id": "chev1900",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "A hospital in Kano stores 80 g of Phosphorus-32, which has a half-life of 14 days, for use in cancer treatment. How many grams of the isotope will remain after 42 days?",
+"options": [
+"10 g",
+"20 g",
+"40 g",
+"5 g"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "42 days divided by the 14-day half-life gives 3 half-lives. Starting with 80 g: after 1 half-life = 40 g, after 2 = 20 g, after 3 = 10 g remaining.",
+"pidgin": "42 days divide by 14 days half-life give 3 half-lives. 80g reduce to 40g, then 20g, then 10g after the 3rd half-life.",
+"py": "80*(1/2)**(42/14)",
+"values": [
+10,
+20,
+40,
+5
+],
+"id": "chev1901",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Sodium-22 (atomic number 11) undergoes positron emission to form Neon-22 (atomic number 10). In the nuclear equation Na-22 -> Ne-22 + X, what is particle X?",
+"options": [
+"A positron, with mass number 0 and charge +1",
+"A beta particle, with mass number 0 and charge -1",
+"A neutron, with mass number 1 and charge 0",
+"A proton, with mass number 1 and charge +1"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The mass number stays the same (22 to 22) but the atomic number drops by 1 (11 to 10), which matches emission of a positron (mass number 0, charge +1). This balances both mass and charge in the equation.",
+"pidgin": "Mass number no change (22 to 22) but atomic number drop by 1 (11 to 10). Na positron get mass number 0 and charge +1, e dey balance the equation well well.",
+"py": null,
+"values": null,
+"id": "chev1902",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In a natural radioactive decay series, Uranium-238 (atomic number 92, mass number 238) decays through several alpha and beta emissions to finally form a stable isotope of Lead-206 (atomic number 82, mass number 206). Calculate the total number of alpha particles emitted in this series.",
+"options": [
+"8",
+"6",
+"10",
+"4"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Only alpha emission changes the mass number (by 4 each time); beta emission does not affect mass number. The total mass number drop is 238 - 206 = 32, so the number of alpha particles is 32 divided by 4, which equals 8.",
+"pidgin": "Na only alpha particle dey change mass number, beta no dey touch am. Mass number drop na 238 minus 206 wey be 32, divide am by 4 (wey each alpha dey carry) e give 8 alpha particles.",
+"py": "(238-206)/4",
+"values": [
+8,
+6,
+10,
+4
+],
+"id": "chev1903",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,173 @@
+{
+"subject": "geography",
+"topic": "Manufacturing industry",
+"ti": 15,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines a manufacturing industry?",
+"options": [
+"The processing of raw materials into finished or semi-finished goods",
+"The extraction of raw materials from the earth",
+"The transportation of goods from factory to market",
+"The buying and selling of finished goods to consumers"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Manufacturing is the stage where raw materials are changed into useful finished or semi-finished products. Extraction, transportation and selling are separate economic activities that come before or after manufacturing.",
+"pidgin": "Manufacturing na when dem dey process raw materials turn am to finished or semi-finished product. To dig raw material, carry goods go market, or sell am na different work from manufacturing.",
+"py": null,
+"values": null,
+"id": "wgeo1500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A company wants to build a cement factory. Which factor should mainly guide the choice of location?",
+"options": [
+"Nearness to the coast for fishing",
+"Availability of skilled fashion designers",
+"Nearness to limestone deposits",
+"Nearness to a university campus"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Cement is made mainly from limestone, so cement factories are raw-material oriented and are usually sited close to limestone deposits to reduce the cost of transporting heavy, bulky materials. Fishing, fashion design and universities have no direct link to cement production.",
+"pidgin": "Cement dem dey make am from limestone, so cement factory dey site near where limestone dey so dem no go spend plenty money carry the heavy material comot far. Fishing coast, fashion designer or university no get anything do with cement production.",
+"py": null,
+"values": null,
+"id": "wgeo1502",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A footloose industry is one whose location is not tied to any particular raw material source and can be sited almost anywhere with good transport and market access. Which of the following best illustrates a footloose industry?",
+"options": [
+"Iron and steel industry near iron ore deposits",
+"Sawmill located near forest reserve",
+"Sugar refinery sited near sugarcane plantation",
+"Electronics assembly plant that can locate anywhere with good transport links"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Electronics assembly uses light, already-processed components, so it is not tied to a bulky raw material source and can be located wherever transport and market conditions are favourable. The other three industries must stay close to their bulky raw materials, so they are not footloose.",
+"pidgin": "Electronics assembly dey use light component wey don already process, so e no need to dey near any heavy raw material, e fit site anywhere wey transport and market good. The other three must stay close to their raw material, so na footloose industry be the electronics one.",
+"py": null,
+"values": null,
+"id": "wgeo1503",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a major problem facing manufacturing industries in Nigeria?",
+"options": [
+"Frequent power outages and poor infrastructural facilities",
+"Constant and reliable electricity supply",
+"Oversupply of trained technical personnel",
+"Low cost of imported machinery"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Many Nigerian manufacturing firms suffer from frequent power cuts and poor roads, railways and water supply, which raise production costs and reduce output. The other options describe favourable conditions that are generally not the real situation facing most industries.",
+"pidgin": "Plenty factory for Nigeria dey suffer from NEPA/PHCN wahala and bad road, water and other infrastructure, dis one dey increase cost and reduce production. The other options na good condition wey no dey match wetin dey happen for ground.",
+"py": null,
+"values": null,
+"id": "wgeo1504",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the industrial area of Aba, Nigeria, many small factories making shoes, bags and clothing are deliberately located close to one another so that they can share common facilities such as electricity, water supply and road access, thereby reducing production costs for all of them. This situation best illustrates which concept?",
+"options": [
+"Industrial inertia",
+"Agglomeration economies",
+"Vertical integration",
+"Import substitution"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Agglomeration economies occur when firms locate close together to share infrastructure and services, lowering costs for everyone involved, exactly as described for Aba. Industrial inertia refers to staying at an old site even after the original advantage disappears, vertical integration refers to combining production stages of the same firm, and import substitution means producing locally what was formerly imported.",
+"pidgin": "Agglomeration economies na when factories dey site near each other so dem fit share light, water and road, dis one dey reduce cost for everybody, na so e dey happen for Aba. Industrial inertia na when factory remain for old location even though the first advantage don gone, vertical integration na when one company combine different stages of production, import substitution na when dem begin produce wetin dem used to import.",
+"py": null,
+"values": null,
+"id": "wgeo1505",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A textile mill in Kaduna produces 3600 metres of cloth every 6 hours of steady operation. If the mill keeps working at this same constant rate for 10 hours in a day, how many metres of cloth will it produce that day?",
+"options": [
+"5400 metres",
+"7200 metres",
+"6000 metres",
+"6600 metres"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "First find the rate per hour: 3600 metres divided by 6 hours equals 600 metres per hour. Multiplying this rate by 10 hours gives 600 x 10 = 6000 metres for the day.",
+"pidgin": "First find how much cloth dem dey produce for one hour: 3600 divide by 6 na 600 metres per hour. Multiply the 600 by 10 hours, e go be 6000 metres for the whole day.",
+"py": "3600/6*10",
+"values": [
+5400,
+7200,
+6000,
+6600
+],
+"id": "wgeo1506",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of these is a good example of a heavy manufacturing industry in Nigeria?",
+"options": [
+"Baking of bread",
+"Iron and steel production at Ajaokuta",
+"Weaving of cloth",
+"Tailoring of clothes"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Heavy industries use large, bulky raw materials and machinery to produce basic goods like iron and steel, which are then used by other industries. Bread baking, weaving and tailoring are light, consumer goods industries.",
+"pidgin": "Heavy industry na the one wey dey use big raw material and heavy machine make basic goods like iron and steel, like the one dem dey do for Ajaokuta. Bread, weaving and tailoring na light industry wey dey make consumer goods.",
+"py": null,
+"values": null,
+"id": "wgeo1501",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Ajaokuta has not begun full commercial steel production.|"
+}
+]
+}

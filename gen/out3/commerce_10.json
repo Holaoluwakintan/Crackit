@@ -1,0 +1,168 @@
+{
+"subject": "commerce",
+"topic": "Communication and postal/courier services",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best defines communication in business studies?",
+"options": [
+"process of moving goods from producer to final consumer",
+"process of transmitting and exchanging information between a sender and receiver using a common medium",
+"act of storing documents safely in a warehouse",
+"process of selling goods on credit to trusted customers"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Communication is the exchange of information, ideas or feelings between a sender and a receiver using a medium that both understand. The other options describe distribution, storage and credit sale, not communication.",
+"pidgin": "Communication na when sender dey pass message give receiver through medium wey both of dem understand. The other options dey talk about moving goods, storing papers, and credit sale, no be communication.",
+"py": null,
+"values": null,
+"id": "comv1000",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In the communication process, which of these is NOT one of the basic elements needed for communication to take place?",
+"options": [
+"Sender",
+"Feedback",
+"Warehouse",
+"Receiver"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The basic elements of communication are sender, message, medium, receiver and feedback. A warehouse is a storage facility used in trade, not a communication element.",
+"pidgin": "The key parts of communication na sender, message, medium, receiver and feedback. Warehouse na storage place for goods, e no be part of communication.",
+"py": null,
+"values": null,
+"id": "comv1001",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Mrs. Adaeze in Enugu wants to send a small sum of money to her son in Abuja through the post office, but she does not operate a bank account. Which postal service is most suitable for her?",
+"options": [
+"Telex",
+"Courier waybill",
+"Franking machine",
+"Postal order"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "A postal order is a document bought at the post office that allows one to send money safely through the post without needing a bank account. Telex and franking machines are not for sending money, and a courier waybill is used to track parcels, not transfer cash.",
+"pidgin": "Postal order na paper wey you fit buy for post office to send money safely without bank account. Telex and franking machine no be for sending money, and courier waybill na for tracking parcel, no be cash transfer.",
+"py": null,
+"values": null,
+"id": "comv1002",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "NIPOST, the government agency responsible for postal services in Nigeria, stands for what?",
+"options": [
+"Nigerian Postal Service",
+"Nigeria Information and Postal Service Trust",
+"National Institute of Postal Services and Telecommunications",
+"Nigerian Postal and Stamp Trust"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "NIPOST stands for Nigerian Postal Service, the government body that handles mail collection, sorting and delivery across Nigeria. The other options are made-up names that do not match the real agency.",
+"pidgin": "NIPOST na Nigerian Postal Service, the government body wey dey handle mail collection, sorting and delivery for Nigeria. The other options na names wey no match the real agency.",
+"py": null,
+"values": null,
+"id": "comv1003",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "What is the main advantage of sending an important letter by registered mail instead of ordinary mail?",
+"options": [
+"it travels faster than ordinary mail",
+"it is cheaper than ordinary mail",
+"sender gets proof of posting and compensation if the letter is lost",
+"it does not require an address label"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Registered mail is recorded at the post office, so the sender has proof it was posted and can be compensated if it gets lost or damaged. It is usually not faster or cheaper than ordinary mail, and it still needs a proper address label.",
+"pidgin": "Registered mail dem dey record for post office, so sender get proof say e post am and fit collect compensation if the letter miss or spoil. E no dey always faster or cheaper pass ordinary mail, and e still need correct address label.",
+"py": null,
+"values": null,
+"id": "comv1004",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Chief Okoro in Lagos needs to send an important original certificate to a client in Kano and wants same-day, door-to-door delivery with the ability to track the parcel. Which service best meets his need?",
+"options": [
+"Ordinary letter mail",
+"Courier service",
+"Postal order",
+"Telegram"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Courier services offer fast, door-to-door delivery with tracking, making them ideal for urgent and valuable items like original certificates. Ordinary mail is slower and has no tracking, a postal order is for sending money, and a telegram only carries short text messages.",
+"pidgin": "Courier service dey give fast, door-to-door delivery with tracking, so e better for urgent and important papers like original certificate. Ordinary mail dey slow with no tracking, postal order na for sending money, and telegram na for short text message only.",
+"py": null,
+"values": null,
+"id": "comv1005",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In the communication process, the term 'noise' refers to what?",
+"options": [
+"loud background sound only",
+"the feedback given by the receiver",
+"the physical channel used to send the message",
+"any factor that distorts or interferes with the message between sender and receiver"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "In communication studies, noise means any disturbance, such as poor network, wrong language, or distractions, that prevents the message from being received clearly, not just loud sound. The other options describe different parts of the communication process, not noise.",
+"pidgin": "For communication, noise mean anything wey fit spoil or confuse the message between sender and receiver, like bad network, wrong language, or distraction, no be only loud sound. The other options dey describe other parts of communication process, no be noise.",
+"py": null,
+"values": null,
+"id": "comv1006",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "A traveling trader who has no fixed home address wants to collect his letters directly at a post office counter whenever he visits a particular town. This postal facility is called?",
+"options": [
+"Poste restante",
+"Recorded delivery",
+"Cash on delivery",
+"Franking"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Poste restante is a postal service that allows letters to be kept at a specific post office for collection by a person without a fixed address. Recorded delivery, cash on delivery, and franking are different postal features that do not serve this exact purpose.",
+"pidgin": "Poste restante na postal service wey allow letters stay for particular post office make person wey no get fixed address fit come collect am. Recorded delivery, cash on delivery, and franking na different postal features wey no dey serve this kain purpose.",
+"py": null,
+"values": null,
+"id": "comv1007",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

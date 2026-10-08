@@ -1,0 +1,174 @@
+{
+"subject": "physics",
+"topic": "Work, energy and power",
+"ti": 4,
+"generated": 6,
+"kept": [
+{
+"q": "In Physics, work is said to be done on an object when:",
+"options": [
+"a force moves the object through a distance in the direction of the force",
+"a force is applied to the object but the object does not move at all",
+"the object moves at constant velocity with no force acting on it",
+"a force acts on the object for a very long time without moving it"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Work is only done when a force causes an object to move through some distance in the direction of the force. If there is no displacement, no work is done, no matter how long or how hard the force is applied.",
+"pidgin": "Work dey happen only when force cause object to move for some distance for the direction wey the force dey push am. If the object no move, no work dey done, even if you push am tire.",
+"py": null,
+"values": null,
+"id": "wphy0400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chidi pushes a wooden crate along a level floor in his shop with a steady horizontal force of 40 N, moving it through a distance of 5 m. Calculate the work done by Chidi on the crate.",
+"options": [
+"200 J",
+"45 J",
+"35 J",
+"8 J"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Work done = Force x distance = 40 N x 5 m = 200 J. The other options come from wrongly adding or dividing the numbers instead of multiplying.",
+"pidgin": "Work wey e do = Force x distance = 40 N x 5 m = 200 J. The other answers na from wrong add or divide instead of multiply.",
+"py": "40*5",
+"values": [
+200,
+45,
+35,
+8
+],
+"id": "wphy0401",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A bicycle and its rider have a total mass of 15 kg and are moving at a speed of 4 m/s. Calculate the kinetic energy of the bicycle and rider.",
+"options": [
+"120 J",
+"60 J",
+"240 J",
+"30 J"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Kinetic energy = (1/2) x mass x velocity^2 = 0.5 x 15 x 4^2 = 0.5 x 15 x 16 = 120 J. Forgetting to square the velocity or the factor of 1/2 gives the wrong options.",
+"pidgin": "Kinetic energy = (1/2) x mass x velocity^2 = 0.5 x 15 x 16 = 120 J. If you forget to square the speed or forget the 1/2, you go land for the wrong answers.",
+"py": "0.5*15*4**2",
+"values": [
+120,
+60,
+240,
+30
+],
+"id": "wphy0402",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A ripe mango of mass 0.5 kg hangs on a tree at a height of 8 m above the ground. Taking g = 10 m/s^2, calculate the potential energy of the mango relative to the ground.",
+"options": [
+"40 J",
+"4 J",
+"400 J",
+"80 J"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Potential energy = mgh = 0.5 kg x 10 m/s^2 x 8 m = 40 J. The wrong options come from using g = 1, forgetting a zero, or doubling the mass by mistake.",
+"pidgin": "Potential energy = mgh = 0.5 x 10 x 8 = 40 J. The wrong ones dey happen if you use g = 1, forget zero, or double the mass by mistake.",
+"py": "0.5*10*8",
+"values": [
+40,
+4,
+400,
+80
+],
+"id": "wphy0403",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A stone of mass 2 kg is released from rest and falls freely from a height of 20 m above the ground. Taking g = 10 m/s^2 and ignoring air resistance, use the principle of conservation of energy to find the speed of the stone just before it hits the ground.",
+"options": [
+"20 m/s",
+"10 m/s",
+"40 m/s",
+"200 m/s"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "By conservation of energy, loss in potential energy equals gain in kinetic energy: mgh = (1/2)mv^2, so v = sqrt(2gh) = sqrt(2 x 10 x 20) = sqrt(400) = 20 m/s. Mass cancels out, so it is not needed in the final calculation.",
+"pidgin": "Energy wey the stone lose for height go turn to kinetic energy: mgh = (1/2)mv^2, so v = sqrt(2gh) = sqrt(2x10x20) = sqrt(400) = 20 m/s. Mass cancel out, e no dey needed again for the final answer.",
+"py": "math.sqrt(2*10*20)",
+"values": [
+20,
+10,
+40,
+200
+],
+"id": "wphy0405",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A market woman carries a basket of total mass 20 kg up a staircase of vertical height 3 m in 10 seconds. Taking g = 10 m/s^2, calculate the average power she expends in climbing the staircase.",
+"options": [
+"60 W",
+"6 W",
+"200 W",
+"2000 W"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Work done against gravity = mgh = 20 x 10 x 3 = 600 J. Power = work/time = 600 J / 10 s = 60 W. The distractors come from skipping the division by time or forgetting g.",
+"pidgin": "Work wey she do against gravity = mgh = 20 x 10 x 3 = 600 J. Power = work/time = 600/10 = 60 W. The wrong answers dey come if you forget to divide by time or forget g.",
+"py": "(20*10*3)/10",
+"values": [
+60,
+6,
+200,
+2000
+],
+"id": "wphy0404",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:60 W lifts the basket only; the woman's mass is unspecified.|Wording ignores the woman's own body mass; the answer counts only the basket's 20 kg"
+}
+]
+}

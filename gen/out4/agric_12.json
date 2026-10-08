@@ -1,0 +1,181 @@
+{
+"subject": "agric",
+"topic": "Animal reproduction",
+"ti": 12,
+"generated": 7,
+"kept": [
+{
+"q": "In farm animals, the period during which a female is sexually receptive and willing to accept a male for mating is known as the:",
+"options": [
+"Gestation period",
+"Oestrus (heat) period",
+"Lactation period",
+"Weaning period"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Oestrus, also called heat, is the stage when a female animal shows signs of readiness to mate. Gestation is the pregnancy period, lactation is the milk-production period, and weaning is when the young stops feeding on the mother's milk.",
+"pidgin": "Oestrus na di time wey female animal ready to mate with male. E no be gestation (na pregnancy time) or lactation (na milk time) or weaning (na wen young one stop to suck milk).",
+"py": null,
+"values": null,
+"id": "wagr1200",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is the average gestation (pregnancy) period of a cow under normal management conditions?",
+"options": [
+"283 days",
+"114 days",
+"150 days",
+"21 days"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The average gestation period of cattle is about 283 days (roughly 9 months). 114 days is for pigs, 150 days is for sheep/goats, while 21 days is the oestrous cycle length of cattle, not the gestation period.",
+"pidgin": "Cow gestation period na about 283 days, na im be like 9 months. 114 days na for pig, 150 days na for sheep/goat, and 21 days na di cow oestrous cycle, no be pregnancy time.",
+"py": "283",
+"values": [
+283,
+114,
+150,
+21
+],
+"id": "wagr1201",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which male reproductive organ produces both spermatozoa and the hormone testosterone in farm animals such as the bull and ram?",
+"options": [
+"Epididymis",
+"Vas deferens",
+"Testis (testicle)",
+"Seminal vesicle"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The testis contains seminiferous tubules that produce sperm cells and Leydig cells that secrete testosterone. The epididymis stores and matures sperm, the vas deferens carries sperm, and the seminal vesicle adds nutrient fluid to semen.",
+"pidgin": "Testis na im dey produce sperm and testosterone hormone. Epididymis na im dey store and mature di sperm, vas deferens na pipe wey sperm dey waka through, and seminal vesicle na im dey add liquid give di semen.",
+"py": null,
+"values": null,
+"id": "wagr1202",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Alhaji Musa's sow was served (mated) by a boar on the 1st of January. If the average gestation period of pigs is 114 days and January 1st is counted as day 1 of the year, on what day number of the year is the sow expected to farrow (ignore leap year)?",
+"options": [
+"114th day",
+"128th day",
+"283rd day",
+"115th day"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The expected farrowing day = starting day (day 1) + gestation period (114 days) = day 115. Choosing 114 wrongly ignores the starting day, while 283 is the gestation period of cattle, not pigs.",
+"pidgin": "To sabi di day wey sow go born, you add di gestation period (114 days) to day 1 (wen dem serve am) = day 115. If you choose 114, you forget di starting day; 283 na cow own gestation, no be pig own.",
+"py": "1+114",
+"values": [
+114,
+128,
+283,
+115
+],
+"id": "wagr1203",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In the domestic fowl, fertilization of the ovum (yolk) by the sperm normally takes place in which part of the oviduct?",
+"options": [
+"Magnum",
+"Infundibulum",
+"Isthmus",
+"Uterus (shell gland)"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The infundibulum is the funnel-shaped first section of the oviduct that catches the released yolk, and fertilization occurs there if sperm are present. The magnum adds albumen (egg white), the isthmus adds shell membranes, and the uterus (shell gland) adds the hard shell.",
+"pidgin": "Infundibulum na di first part of di oviduct wey dey catch di yolk, na dia fertilization dey happen. Magnum dey add egg white, isthmus dey add membrane, and uterus (shell gland) na im dey add di hard shell.",
+"py": null,
+"values": null,
+"id": "wagr1204",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a major advantage of artificial insemination (AI) over natural mating in a livestock improvement programme?",
+"options": [
+"It allows wide use of semen from a genetically superior male over many females",
+"It eliminates the need for record keeping on the farm",
+"It guarantees twin births in cattle",
+"It reduces the gestation period of the female"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "AI allows semen collected from one genetically superior sire to be used to inseminate many females, even over long distances, speeding up herd improvement. It does not shorten gestation, does not guarantee twins, and good record keeping is still required.",
+"pidgin": "AI make dem fit use one correct bull/ram sperm serve plenty females for different place, so e dey quicken better breed. E no dey shorten pregnancy time, e no dey guarantee twins, and farm records still important.",
+"py": null,
+"values": null,
+"id": "wagr1205",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A dairy cow on a farm in Oyo State calved (gave birth) on 10th May. She returned to oestrus and was successfully served 80 days after calving. If the average gestation period for cattle is 283 days, calculate the expected calving interval (the number of days between this calving and the next) for the cow.",
+"options": [
+"80 days",
+"203 days",
+"363 days",
+"283 days"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Calving interval = days from calving to successful conception (80 days) + gestation period (283 days) = 363 days. This represents the full time between two successive calvings, not just one of the two periods alone.",
+"pidgin": "Calving interval na di total time wey pass between one calving and di next one. Na 80 days (before she conceive again) add 283 days (gestation) = 363 days.",
+"py": "80+283",
+"values": [
+80,
+203,
+363,
+283
+],
+"id": "wagr1206",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

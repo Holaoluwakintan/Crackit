@@ -1,0 +1,159 @@
+{
+"subject": "maths",
+"topic": "Coordinate geometry of straight lines",
+"ti": 19,
+"generated": 6,
+"kept": [
+{
+"q": "Find the distance between the points A(3, 4) and B(7, 1) on the Cartesian plane.",
+"options": [
+"5",
+"7",
+"25",
+"sqrt(7)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Distance = sqrt((7-3)^2 + (1-4)^2) = sqrt(16+9) = sqrt(25) = 5.",
+"pidgin": "Distance = sqrt((7-3)^2 + (1-4)^2) = sqrt(16+9) = sqrt(25) = 5. Na so we take am.",
+"py": "math.sqrt((7-3)**2+(1-4)**2)",
+"values": [
+5,
+7,
+25,
+2.6457513110645907
+],
+"id": "wmth1900",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Find the midpoint of the line segment joining P(-2, 5) and Q(6, -3).",
+"options": [
+"(2, 1)",
+"(4, 2)",
+"(2, -1)",
+"(-2, 4)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Midpoint = ((-2+6)/2, (5+(-3))/2) = (4/2, 2/2) = (2, 1).",
+"pidgin": "Midpoint = ((-2+6)/2, (5+(-3))/2) = (4/2, 2/2) = (2, 1). Na that one be the answer.",
+"py": null,
+"values": null,
+"id": "wmth1901",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A straight line passes through the points (1, 2) and (4, 11). Find the gradient of the line.",
+"options": [
+"3",
+"1/3",
+"-3",
+"9"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Gradient = (y2-y1)/(x2-x1) = (11-2)/(4-1) = 9/3 = 3.",
+"pidgin": "Gradient = (11-2)/(4-1) = 9/3 = 3. E simple.",
+"py": "(11-2)/(4-1)",
+"values": [
+3,
+0.3333333333333333,
+-3,
+9
+],
+"id": "wmth1902",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Find the equation of the straight line which passes through the point (2, 3) and has gradient 4.",
+"options": [
+"y = 4x - 5",
+"y = 4x + 5",
+"y = 4x - 3",
+"y = 4x + 3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using y - y1 = m(x - x1): y - 3 = 4(x - 2), so y = 4x - 8 + 3 = 4x - 5.",
+"pidgin": "We use y - y1 = m(x - x1): y - 3 = 4(x - 2), e go give y = 4x - 8 + 3 = 4x - 5.",
+"py": null,
+"values": null,
+"id": "wmth1903",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A line L passes through the point (3, -2) and is perpendicular to the line 2x - y + 5 = 0. Find the equation of line L.",
+"options": [
+"x + 2y + 1 = 0",
+"x - 2y + 1 = 0",
+"2x + y - 1 = 0",
+"x + 2y - 1 = 0"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "From 2x - y + 5 = 0, y = 2x + 5, so gradient = 2. Perpendicular gradient = -1/2. Using y - (-2) = -1/2(x - 3): y + 2 = -x/2 + 3/2, so y = -x/2 - 1/2, which gives x + 2y + 1 = 0.",
+"pidgin": "From 2x - y + 5 = 0, y = 2x + 5, so gradient na 2. For perpendicular, gradient be -1/2. Put the point (3,-2): y + 2 = -1/2(x - 3), e go simplify to x + 2y + 1 = 0.",
+"py": null,
+"values": null,
+"id": "wmth1904",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The points A(1, 2), B(3, k) and C(5, 8) are collinear (they lie on the same straight line). Find the value of k.",
+"options": [
+"5",
+"4",
+"6",
+"3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since the points are collinear, slope AB = slope BC: (k-2)/2 = (8-k)/2. This gives k - 2 = 8 - k, so 2k = 10 and k = 5.",
+"pidgin": "Since the three points dey for one straight line, slope AB go equal slope BC: (k-2)/2 = (8-k)/2. E go give k - 2 = 8 - k, so 2k = 10, k = 5.",
+"py": "(2+8)/2",
+"values": [
+5,
+4,
+6,
+3
+],
+"id": "wmth1905",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

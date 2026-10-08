@@ -1,0 +1,178 @@
+{
+"subject": "commerce",
+"topic": "Business units: joint stock companies, cooperatives and public enterprises",
+"generated": 8,
+"kept": [
+{
+"q": "A joint stock company is best described as a form of business organisation that is owned by:",
+"options": [
+"A single individual who bears all risk",
+"Shareholders who have bought shares in the company",
+"The government on behalf of citizens",
+"Workers who contribute labour only"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A joint stock company raises capital by selling shares to the public, and those who buy the shares (shareholders) become the owners. This is different from sole proprietorship or government-owned enterprises.",
+"pidgin": "Joint stock company na business wey dem dey own through shares wey people buy. The people wey buy the shares na dem be shareholders, so dem be the owners.",
+"py": null,
+"values": null,
+"id": "comv1200",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of the following is a major advantage of a public limited liability company over a private limited liability company?",
+"options": [
+"It can sell its shares directly to members of the public on the stock exchange",
+"It is not required to publish its accounts",
+"It can be formed by only one person",
+"It is exempted from paying company tax"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A public limited company can invite the general public to buy its shares, often through the stock exchange, allowing it to raise large amounts of capital. A private company cannot do this.",
+"pidgin": "Public limited company fit sell im shares to general public, sometimes through stock exchange, so e fit raise big money. Private company no fit do dis one.",
+"py": null,
+"values": null,
+"id": "comv1201",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following is a key principle of cooperative societies that distinguishes them from joint stock companies?",
+"options": [
+"Profit is shared strictly according to the number of shares held by each member",
+"Voting in general meetings is based on 'one member, one vote' regardless of capital contributed",
+"Only the government can be a member of a cooperative society",
+"Members cannot withdraw their savings once contributed"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In cooperative societies, democratic control is practised, so every member has equal voting power (one member, one vote), unlike joint stock companies where voting power often depends on the number of shares owned.",
+"pidgin": "For cooperative society, na one man one vote dem dey use, no matter how much money the person contribute. Dis one different from joint stock company wey voting dey depend on shares wey person get.",
+"py": null,
+"values": null,
+"id": "comv1203",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A statutory corporation such as the Nigerian Ports Authority is set up mainly to:",
+"options": [
+"Maximise profit for private shareholders",
+"Provide essential services and goods for public welfare under government control",
+"Compete freely with private companies without any regulation",
+"Avoid any form of government supervision"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Statutory corporations (public enterprises) are established by an Act of Parliament or Decree to provide essential services to the public, often in areas like ports, power and transport, under government control, rather than purely to make profit for private owners.",
+"pidgin": "Statutory corporation like Nigerian Ports Authority, gofment dey establish am to provide important service for public under gofment control, e no be say na only profit dem dey chase.",
+"py": null,
+"values": null,
+"id": "comv1204",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which of these is a major disadvantage of a joint stock company when compared with a sole proprietorship?",
+"options": [
+"It has unlimited access to large capital from many shareholders",
+"It usually requires more complex legal procedures and documentation to set up",
+"It allows for easy and quick decision-making by one owner",
+"It automatically ceases to exist when one shareholder dies"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Setting up a joint stock company involves legal requirements such as registration with the Corporate Affairs Commission, preparation of memorandum and articles of association, which make it more complex and costly to start than a sole proprietorship.",
+"pidgin": "To start joint stock company, you go need register am well well with CAC and prepare many legal papers, e no be like sole proprietorship wey one person fit just start am quick quick.",
+"py": null,
+"values": null,
+"id": "comv1205",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Adaeze Multipurpose Cooperative Society in Enugu made a surplus of ₦600,000 at the end of the year. The society's rule states that 1/3 of the surplus goes to a reserve fund, and the remaining amount is shared equally among its 20 members as dividend. How much will each member receive?",
+"options": [
+"₦10,000",
+"₦15,000",
+"₦20,000",
+"₦30,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Reserve fund = 1/3 of 600,000 = 200,000, leaving 600,000 - 200,000 = 400,000 to be shared. Dividing 400,000 among 20 members gives 400,000 / 20 = ₦20,000 per member.",
+"pidgin": "Reserve fund na 1/3 of 600,000 wey be 200,000, so wetin remain na 400,000. If you divide 400,000 give 20 members, each one go get 20,000 naira.",
+"py": "(600000 - (600000*1/3))/20",
+"values": [
+10000,
+15000,
+20000,
+30000
+],
+"id": "comv1206",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A key reason why some public enterprises in Nigeria have been privatised or commercialised is that:",
+"options": [
+"They were making too much profit for the government to manage",
+"Private owners are legally forbidden from owning large businesses",
+"Many of them were inefficient and relied heavily on government subsidy",
+"Government wanted to reduce the number of private limited companies"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Many public enterprises became loss-making and depended on government subsidies due to poor management and lack of competition, so government introduced privatisation and commercialisation to improve efficiency and reduce the burden on public funds.",
+"pidgin": "Plenty public enterprises for Nigeria no dey efficient and dem dey depend on gofment subsidy because of bad management, so gofment decide to privatise or commercialise dem make dem perform better.",
+"py": null,
+"values": null,
+"id": "comv1207",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A group of farmers in Benue State pool resources together to buy fertiliser in bulk at a lower price and share the savings among themselves based on their purchases. This type of business unit is called a:",
+"options": [
+"Public corporation",
+"Consumer cooperative society",
+"Joint stock company",
+"Statutory corporation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A consumer cooperative society is formed by people who come together to buy goods in bulk cheaply and share the benefits among members according to their patronage. The farmers here are acting as consumers of fertiliser, not producers selling shares.",
+"pidgin": "Consumer cooperative na when people come together to buy things for cheap price and share the profit base on how much each person buy. Na dat kain thing di farmers dey do here.",
+"py": null,
+"values": null,
+"id": "comv1202",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:Farm inputs suggest an agricultural purchasing cooperative, not strictly a consumer cooperative.|Farmers buying inputs is arguably an agricultural/purchasing cooperative, but B is the only cooperative option"
+}
+]
+}

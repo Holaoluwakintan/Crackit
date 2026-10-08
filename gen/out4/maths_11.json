@@ -1,0 +1,141 @@
+{
+"subject": "maths",
+"topic": "Linear inequalities",
+"ti": 11,
+"generated": 6,
+"kept": [
+{
+"q": "Solve the inequality 2x + 3 > 11.",
+"options": [
+"x < 4",
+"x > 4",
+"x < 7",
+"x > 7"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Subtract 3 from both sides: 2x > 8. Divide both sides by 2: x > 4.",
+"pidgin": "Minus 3 from both sides: 2x > 8. Divide both sides by 2, e remain x > 4.",
+"py": null,
+"values": null,
+"id": "wmth1100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Find the solution set of 3x - 5 ≤ 10.",
+"options": [
+"x ≥ 15",
+"x ≥ 5",
+"x ≤ 5",
+"x ≤ 15"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Add 5 to both sides: 3x ≤ 15. Divide both sides by 3: x ≤ 5. The inequality sign does not change since we divided by a positive number.",
+"pidgin": "Add 5 to both sides make e be 3x ≤ 15. Divide by 3, e remain x ≤ 5. Sign no change because 3 na positive number.",
+"py": null,
+"values": null,
+"id": "wmth1101",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Solve the inequality -2x + 7 < 1.",
+"options": [
+"x > 3",
+"x < 3",
+"x > -3",
+"x < -3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Subtract 7 from both sides: -2x < -6. Divide both sides by -2 and reverse the inequality sign (because we divided by a negative number): x > 3.",
+"pidgin": "Minus 7 from both sides: -2x < -6. Divide by -2, but because na negative number, flip the sign: x > 3.",
+"py": null,
+"values": null,
+"id": "wmth1102",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chioma is solving 4x - 3 < 2x + 9. Which of these gives the correct solution set?",
+"options": [
+"x > 3",
+"x < 3",
+"x > 6",
+"x < 6"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Collect like terms: 4x - 2x < 9 + 3, which gives 2x < 12. Divide both sides by 2 to get x < 6.",
+"pidgin": "Gather the like terms: 4x - 2x < 9 + 3, e give 2x < 12. Divide by 2, e remain x < 6.",
+"py": null,
+"values": null,
+"id": "wmth1103",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Find the range of values of x that satisfies -3 ≤ 2x - 1 < 7.",
+"options": [
+"-2 ≤ x < 8",
+"-1 ≤ x < 4",
+"1 ≤ x < 4",
+"-1 < x ≤ 4"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Add 1 to all three parts: -2 ≤ 2x < 8. Divide everything by 2 (a positive number, so signs stay the same): -1 ≤ x < 4.",
+"pidgin": "Add 1 to the three parts: -2 ≤ 2x < 8. Divide everything by 2 (positive number so sign no change): -1 ≤ x < 4.",
+"py": null,
+"values": null,
+"id": "wmth1104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A trader at Oshodi market wants to buy biro pens that cost ₦45 each, and she has at most ₦900 to spend. If she also needs at least 15 pens for her shop, which range correctly describes the number of pens, n, she can buy?",
+"options": [
+"15 < n < 20",
+"15 ≤ n ≤ 25",
+"15 ≤ n ≤ 20",
+"10 ≤ n ≤ 20"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "From the cost condition, 45n ≤ 900, so n ≤ 20. The shop requirement gives n ≥ 15. Combining both conditions gives 15 ≤ n ≤ 20.",
+"pidgin": "From the money condition, 45n ≤ 900, so n ≤ 20. From shop need, n ≥ 15. If you combine the two, e give 15 ≤ n ≤ 20.",
+"py": null,
+"values": null,
+"id": "wmth1105",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

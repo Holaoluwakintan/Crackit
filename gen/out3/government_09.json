@@ -1,0 +1,84 @@
+{
+"subject": "government",
+"topic": "Pre-colonial political systems: Hausa-Fulani, Yoruba, Igbo",
+"generated": 4,
+"kept": [
+{
+"q": "In the pre-colonial Hausa-Fulani political system, which title was held by the chief military commander who led the emir's army into battle?",
+"options": [
+"Madawaki",
+"Waziri",
+"Galadima",
+"Sarkin Fada"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Madawaki was the title of the chief military commander in the Hausa-Fulani system, responsible for leading the emir's army in war. The Waziri was the chief adviser, the Galadima often administered the capital, and the Sarkin Fada supervised the palace.",
+"pidgin": "Madawaki na the title wey dem give the army commander wey dey lead the emir soja go war. Waziri na the main adviser, Galadima dey manage capital, Sarkin Fada dey oversee palace matters.",
+"id": "govv0900",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In the old Oyo Empire, the Oyo Mesi was a council of principal chiefs, headed by the Bashorun, that could check the Alaafin's power. How many principal chiefs made up this council?",
+"options": [
+"Five",
+"Seven",
+"Nine",
+"Twelve"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Oyo Mesi was made up of seven principal chiefs, led by the Bashorun, who advised the Alaafin and could also check his excesses. This number is a well-established fact about Oyo Empire administration.",
+"pidgin": "Oyo Mesi na council of seven big chiefs, Bashorun dey lead dem, and dem get power to advise and even check Alaafin if e dey misbehave. Na seven chiefs dem dey use for dis council.",
+"id": "govv0901",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In pre-colonial Igbo society, which institution allowed a wealthy and respected man to gain political and social influence by paying for an expensive, prestigious title?",
+"options": [
+"Age-grade system",
+"Umuada association",
+"Ozo title society",
+"Osu caste practice"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Ozo title society was an institution in Igbo land where a man of means could pay to take a prestigious title, which raised his social status and gave him political influence in the community. Age-grades organised people by age for communal duties, Umuada was for married daughters of the lineage, and Osu referred to an outcast class, not a title system.",
+"pidgin": "Ozo title society na where rich and respected man go pay money take important title, wey go give am status and political power for im community. Age-grade na people wey dem group by age for work, Umuada na married daughters group, Osu na outcast class, no be title society.",
+"id": "govv0902",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A ruler dies suddenly without a clear successor. In the first pre-colonial Nigerian society, the matter is settled through consultation among lineage heads, titled elders and age-grade representatives in a village assembly, since there is no central throne. In the second society, a council of kingmakers selects a new ruler from an eligible ruling house. Which pair correctly matches the first and second descriptions respectively?",
+"options": [
+"Igbo village-group system; Yoruba Oyo system",
+"Hausa-Fulani Emirate system; Igbo village-group system",
+"Yoruba Oyo system; Hausa-Fulani Emirate system",
+"Igbo village-group system; Hausa-Fulani Emirate system"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The first description fits the Igbo system, which was largely acephalous (no central king), so disputes were settled by lineage heads, elders and age-grades in a village assembly. The second description fits the Yoruba Oyo system, where kingmakers (like the Oyo Mesi) chose the Alaafin from eligible ruling houses, unlike the Hausa-Fulani emirate which used a different selection process tied to Islamic rule.",
+"pidgin": "First description match Igbo system wey no get central king, so na lineage heads, elders and age-grade dem dey use settle matter for village assembly. Second one match Yoruba Oyo system, where kingmakers (like Oyo Mesi) go choose Alaafin from correct ruling house, e no be like Hausa-Fulani wey get emirate and Islamic style selection.",
+"id": "govv0903",
+"check": {
+"s1": "X",
+"s2": "D"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

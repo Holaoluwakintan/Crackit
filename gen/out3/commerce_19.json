@@ -1,0 +1,168 @@
+{
+"subject": "commerce",
+"topic": "E-commerce and computers in business",
+"generated": 8,
+"kept": [
+{
+"q": "What is the best definition of e-commerce as used in business studies?",
+"options": [
+"The buying and selling of goods and services electronically, usually over the internet",
+"The use of a computer only to type business letters",
+"The transportation of goods from one town to another by road",
+"The advertisement of goods and services on radio stations"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "E-commerce simply means carrying out trade activities such as buying, selling and payment using electronic means like the internet. The other options describe ordinary business or transport activities that are not necessarily electronic trade.",
+"pidgin": "E-commerce na when people dey buy and sell goods or services through electronic means like internet. The other options na just normal business work wey no concern electronic trade.",
+"py": null,
+"values": null,
+"id": "comv1900",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following is a correct example of Business-to-Consumer (B2C) e-commerce?",
+"options": [
+"Jumia selling a phone directly to Ade, who is the final user of the phone",
+"Dangote Cement supplying many bags of cement to a registered cement distributor company",
+"Chioma selling her used wrapper to Ngozi through a social media group",
+"A government ministry paying a road contractor electronically for a completed project"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "B2C means a registered business sells directly to the final consumer, as Jumia does to Ade. The other options show business-to-business, consumer-to-consumer and government-to-business transactions respectively.",
+"pidgin": "B2C na when real business dey sell straight to the person wey go use the product, like Jumia and Ade. The other examples na business-to-business, consumer-to-consumer and government-to-business.",
+"py": null,
+"values": null,
+"id": "comv1901",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following is a genuine advantage of e-commerce to a trader?",
+"options": [
+"It removes the need for the trader to have internet access",
+"It allows the trader's business to reach customers far beyond his locality at any time of the day",
+"It guarantees that every customer will pay cash before the goods are delivered",
+"It removes the need for the trader to advertise his goods"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A major benefit of e-commerce is wider market reach, since customers anywhere can view and order goods online at any time. E-commerce actually needs internet access, cannot guarantee payment behaviour, and advertising is still important for visibility.",
+"pidgin": "Big advantage of e-commerce na say customer wey dey far from you fit still buy your goods anytime because of internet. E-commerce no fit work without internet, e no guarantee say person go pay cash, and advert still dey important.",
+"py": null,
+"values": null,
+"id": "comv1902",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In e-commerce, the electronic exchange of structured business documents such as invoices and purchase orders directly between the computers of two trading partners is known as?",
+"options": [
+"Electronic Data Interchange (EDI)",
+"Automated Teller Machine (ATM) service",
+"Point of Sale (POS) terminal transaction",
+"Electronic Fund Transfer (EFT) only"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "EDI specifically refers to computer-to-computer exchange of standard business documents like invoices and orders between companies. ATM, POS and EFT are related to payments and cash withdrawal, not document exchange.",
+"pidgin": "EDI na when computer dey send business paper like invoice and order go another company computer direct. ATM, POS and EFT na more about money payment, no be document exchange.",
+"py": null,
+"values": null,
+"id": "comv1903",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following is a common challenge facing the growth of e-commerce in many parts of Nigeria?",
+"options": [
+"Unreliable electricity supply and low internet access in some areas",
+"Too many commercial banks offering online payment services",
+"An excess number of skilled information technology workers",
+"Strict government control fixing the prices of all online goods"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Poor power supply and limited internet coverage in some areas make it hard for both traders and customers to use e-commerce platforms steadily. Having many banks or IT workers would actually help e-commerce, and price control is not a standard Nigerian e-commerce problem.",
+"pidgin": "Light wahala and small internet for some areas na real problem for e-commerce for Nigeria. If plenty banks or IT people dey, e for even help business; government no dey fix price for everything wey dem dey sell online.",
+"py": null,
+"values": null,
+"id": "comv1904",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Mr. Eze, a wholesaler, uses a computer software that automatically updates his stock records whenever goods are sold or newly received, and alerts him when it is time to reorder. This particular use of the computer in his business is best described as?",
+"options": [
+"Inventory (stock) control",
+"Electronic marketing",
+"Online payment processing",
+"Market research"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Tracking stock levels, updating records after sales or purchases, and signalling reorder points is exactly what inventory or stock control software does. It is not marketing, payment processing or research, since no advertising, money transfer or data survey is described.",
+"pidgin": "Wetin Mr Eze dey do na inventory control, because e dey track how much stock dey remain and e dey tell am when to order new goods. E no be marketing, payment or research, since no advert, money transfer or survey dey happen here.",
+"py": null,
+"values": null,
+"id": "comv1905",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following statements best distinguishes Consumer-to-Consumer (C2C) e-commerce from Business-to-Consumer (B2C) e-commerce?",
+"options": [
+"C2C involves transactions directly between individual consumers, while B2C involves a registered business selling to a consumer",
+"C2C transactions can only happen offline, while B2C transactions can only happen online",
+"C2C involves only government agencies, while B2C involves only private companies",
+"C2C transactions never require the internet, while B2C transactions always require the internet"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The key difference is who the seller is: in C2C it is an ordinary individual selling to another individual, while in B2C it is a formal business selling to a consumer. The other statements wrongly limit both models to offline/online only or to government/private ownership.",
+"pidgin": "The main difference na who dey sell: for C2C na ordinary person dey sell to another person, but for B2C na real business dey sell to consumer. The other options dey wrongly limit am to offline/online or government/private only.",
+"py": null,
+"values": null,
+"id": "comv1906",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Tunde wants to set up a shop that sells shoes to customers all over Nigeria through the internet and allows them to pay instantly with their bank cards. Which combination of tools would he MOST need to achieve this using e-commerce?",
+"options": [
+"A company website with a shopping cart feature and a secure online payment gateway",
+"A radio jingle advertising his shop and a manual cash register at his single shop",
+"A printed catalogue of shoes and a local town crier announcing his prices",
+"A fax machine for orders and a postal address for customers to send letters"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "True e-commerce selling nationwide with instant card payment requires an online website where customers can select items (shopping cart) and pay securely online (payment gateway). Radio jingles, town criers, printed catalogues and fax machines are traditional tools that do not provide real-time online ordering and card payment.",
+"pidgin": "To really sell online well-well and collect card payment sharp-sharp, Tunde need website wit shopping cart and secure online payment gateway. Radio jingle, town crier, catalogue and fax machine na old style wey no fit give instant online order and card payment.",
+"py": null,
+"values": null,
+"id": "comv1907",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

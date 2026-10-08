@@ -1,0 +1,88 @@
+{
+"subject": "economics",
+"topic": "Economic growth, development and planning",
+"generated": 3,
+"kept": [
+{
+"q": "According to Rostow's stages of economic growth theory, which stage describes a society that still depends mainly on traditional methods of farming and production, with low savings and little technological change, and has not yet begun the process of self-sustained growth?",
+"options": [
+"Traditional society stage",
+"Take-off stage",
+"Age of high mass consumption",
+"Drive to maturity stage"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Rostow described the traditional society stage as one where output is limited by old farming methods, low savings, and little science or technology. This is the first and most basic stage before any serious growth begins.",
+"pidgin": "Rostow talk say for traditional society stage, people dey use old farming way, savings dey small, and dem never start real growth. Na the first and most basic stage before any serious change.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "ecov1300",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Last year, a certain West African country's Gross Domestic Product (GDP) was ₦120 trillion. This year, it rose to ₦126 trillion. What is the country's economic growth rate for the year?",
+"options": [
+"4%",
+"5%",
+"6%",
+"10%"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Growth rate = (New GDP - Old GDP) / Old GDP x 100. That is (126 - 120)/120 x 100 = 6/120 x 100 = 5%. So the economy grew by 5% that year.",
+"pidgin": "Growth rate = (New GDP - Old GDP) divide by Old GDP, times 100. So na (126-120)/120 x 100 = 5%. The economy grow by 5% for that year.",
+"py": "(126-120)/120*100",
+"values": [
+4,
+5,
+6,
+10
+],
+"id": "ecov1301",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A government wants the real GDP per capita (income per person) of its country to grow by 4% every year. If the population of the country is growing at 2.5% per annum, what is the minimum annual growth rate the real GDP itself must achieve to meet this target?",
+"options": [
+"4.0%",
+"1.5%",
+"2.5%",
+"6.5%"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Per capita GDP growth is approximately GDP growth rate minus population growth rate. To get 4% per capita growth with population growing at 2.5%, GDP must grow by 4% + 2.5% = 6.5%. If GDP only grew by 4%, per capita income would actually grow by just 1.5%, which is below target.",
+"pidgin": "Per capita GDP growth na roughly GDP growth minus population growth. So make GDP per capita grow 4% while population dey grow 2.5%, GDP self must grow 4% + 2.5% = 6.5%. If GDP just grow 4%, per capita go only grow 1.5%, wey no reach the target.",
+"py": "4+2.5",
+"values": [
+4.0,
+1.5,
+2.5,
+6.5
+],
+"id": "ecov1302",
+"check": {
+"s1": "X",
+"s2": "D"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

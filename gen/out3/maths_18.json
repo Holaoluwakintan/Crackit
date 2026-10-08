@@ -1,0 +1,112 @@
+{
+"subject": "maths",
+"topic": "Coordinate geometry: gradient, distance, midpoint, equation of a line",
+"generated": 4,
+"kept": [
+{
+"q": "Calculate the gradient of the straight line passing through the points A(-3, 5) and B(1, -3).",
+"options": [
+"-2",
+"2",
+"-1/2",
+"1/2"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Gradient = (y2 - y1)/(x2 - x1) = (-3 - 5)/(1 - (-3)) = -8/4 = -2. So the gradient of the line is -2.",
+"pidgin": "Gradient na (y2 - y1)/(x2 - x1) = (-3 - 5)/(1 - (-3)) = -8/4 = -2. So the answer na -2.",
+"py": "(-3-5)/(1-(-3))",
+"values": [
+-2,
+2,
+-0.5,
+0.5
+],
+"id": "matv1800",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Find the distance between the points P(-4, 1) and Q(2, 9) on the Cartesian plane.",
+"options": [
+"14",
+"10",
+"8",
+"6"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Distance = sqrt((x2-x1)^2 + (y2-y1)^2) = sqrt((2-(-4))^2 + (9-1)^2) = sqrt(36 + 64) = sqrt(100) = 10. So PQ = 10 units.",
+"pidgin": "Distance = sqrt((x2-x1)^2 + (y2-y1)^2) = sqrt(6^2 + 8^2) = sqrt(36+64) = sqrt(100) = 10. So PQ na 10 units.",
+"py": "math.sqrt((2-(-4))**2+(9-1)**2)",
+"values": [
+14,
+10,
+8,
+6
+],
+"id": "matv1801",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "The midpoint of the line segment joining A(2, -5) and B(x, y) is M(4, 1). Find the value of x + y.",
+"options": [
+"11",
+"9",
+"13",
+"15"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Using midpoint formula, 4 = (2+x)/2, so x = 6. Also 1 = (-5+y)/2, so y = 7. Therefore x + y = 6 + 7 = 13.",
+"pidgin": "From midpoint formula, 4 = (2+x)/2, so x = 6. Also 1 = (-5+y)/2, so y = 7. So x + y = 6+7 = 13.",
+"py": "(2*4-2)+(2*1-(-5))",
+"values": [
+11,
+9,
+13,
+15
+],
+"id": "matv1802",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Find the value of m for which the line y = mx + 3 is parallel to the line passing through the points (1, 2) and (4, 11).",
+"options": [
+"-1/3",
+"-3",
+"1/3",
+"3"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "First find the gradient of the line through (1,2) and (4,11): m = (11-2)/(4-1) = 9/3 = 3. Since parallel lines have equal gradients, m must also equal 3.",
+"pidgin": "First find gradient of the line through (1,2) and (4,11): m = (11-2)/(4-1) = 9/3 = 3. Since parallel lines get same gradient, m go be 3 too.",
+"py": "(11-2)/(4-1)",
+"values": [
+-0.3333333333333333,
+-3,
+0.3333333333333333,
+3
+],
+"id": "matv1803",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

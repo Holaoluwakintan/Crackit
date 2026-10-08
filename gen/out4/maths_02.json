@@ -1,0 +1,177 @@
+{
+"subject": "maths",
+"topic": "Indices and logarithms",
+"ti": 2,
+"generated": 6,
+"kept": [
+{
+"q": "Simplify 3^5 ÷ 3^2.",
+"options": [
+"27",
+"2187",
+"9",
+"1"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "When dividing powers with the same base, subtract the exponents: 3^5 ÷ 3^2 = 3^(5-2) = 3^3 = 27.",
+"pidgin": "Wen you dey divide power wey get same base, you go minus di powers: 3^5 ÷ 3^2 = 3^3 = 27.",
+"py": "3**5 // 3**2",
+"values": [
+27,
+2187,
+9,
+1
+],
+"id": "wmth0200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Evaluate log_2(32).",
+"options": [
+"16",
+"5",
+"4",
+"6"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "log_2(32) means 2 raised to what power gives 32. Since 2^5 = 32, log_2(32) = 5.",
+"pidgin": "log_2(32) mean say wetin 2 go power give 32. Since 2^5 = 32, answer na 5.",
+"py": "int(math.log2(32))",
+"values": [
+16,
+5,
+4,
+6
+],
+"id": "wmth0201",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "If log_10(2) = 0.301, find log_10(8).",
+"options": [
+"0.602",
+"1.204",
+"0.903",
+"0.301"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "8 = 2^3, so log_10(8) = 3 × log_10(2) = 3 × 0.301 = 0.903.",
+"pidgin": "8 = 2^3, so log_10(8) = 3 times log_10(2) = 3 × 0.301 = 0.903.",
+"py": "3*0.301",
+"values": [
+0.602,
+1.204,
+0.903,
+0.301
+],
+"id": "wmth0202",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Evaluate 16^(3/4).",
+"options": [
+"12",
+"64",
+"4",
+"8"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "16^(3/4) means take the 4th root of 16 first, then cube it: 16^(1/4) = 2, so 2^3 = 8.",
+"pidgin": "16^(3/4) mean make you find di 4th root of 16 first, den cube am: 16^(1/4) = 2, so 2^3 = 8.",
+"py": "16**(3/4)",
+"values": [
+12,
+64,
+4,
+8
+],
+"id": "wmth0203",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Solve for x: 2^(x+1) = 32.",
+"options": [
+"4",
+"5",
+"3",
+"16"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Write 32 as a power of 2: 32 = 2^5. So 2^(x+1) = 2^5 means x+1 = 5, giving x = 4.",
+"pidgin": "Write 32 as power of 2: 32 = 2^5. So 2^(x+1) = 2^5 mean say x+1 = 5, so x = 4.",
+"py": "5-1",
+"values": [
+4,
+5,
+3,
+16
+],
+"id": "wmth0204",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "If log_x(81) = 4, find the value of x.",
+"options": [
+"9",
+"3",
+"27",
+"4"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "log_x(81) = 4 means x^4 = 81. Since 3^4 = 81, x = 3.",
+"pidgin": "log_x(81) = 4 mean say x^4 = 81. Since 3^4 = 81, x = 3.",
+"py": "81**(1/4)",
+"values": [
+9,
+3,
+27,
+4
+],
+"id": "wmth0205",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

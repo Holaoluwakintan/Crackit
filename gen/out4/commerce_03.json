@@ -1,0 +1,179 @@
+{
+"subject": "commerce",
+"topic": "Wholesale trade",
+"ti": 3,
+"generated": 7,
+"kept": [
+{
+"q": "One major function of the wholesaler is 'breaking bulk'. What does this mean?",
+"options": [
+"Buying goods directly from consumers",
+"Transporting goods from one country to another",
+"Advertising goods on behalf of manufacturers",
+"Dividing large quantities of goods into smaller units for sale to retailers"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Breaking bulk means the wholesaler buys goods in large quantities from producers and divides them into smaller, manageable quantities that retailers can afford to buy and store.",
+"pidgin": "Breaking bulk na when wholesaler buy plenty plenty goods from producer, then e go divide am into small small quantity wey retailer fit buy and keep.",
+"py": null,
+"values": null,
+"id": "wcom0301",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a service a wholesaler usually renders to retailers?",
+"options": [
+"Granting credit facilities to retailers",
+"Fixing the final selling price retailers must charge consumers",
+"Manufacturing the goods they sell",
+"Collecting value added tax on behalf of government"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Wholesalers often give retailers credit so they can stock goods and pay later after selling. This helps small retailers who may not have enough capital to pay cash immediately.",
+"pidgin": "Wholesaler dey often give retailer credit make e fit carry goods first and pay later after e don sell am. Na im dey help small retailer wey no get enough money pay cash.",
+"py": null,
+"values": null,
+"id": "wcom0302",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A type of wholesaler whose customers, usually small retailers, must pay in cash and carry their own goods away without any home delivery service is called a ____ wholesaler.",
+"options": [
+"Cash and carry",
+"Mail order",
+"Rack-jobber",
+"Credit"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A cash and carry wholesaler sells goods only for cash and does not deliver; buyers must arrange their own transport to carry goods away. This keeps the wholesaler's operating cost low.",
+"pidgin": "Cash and carry wholesaler na im be the one wey dey sell only for cash, e no dey deliver goods; na buyer go arrange how to carry im goods comot. Dis one dey make im cost low.",
+"py": null,
+"values": null,
+"id": "wcom0303",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chief Nkemdirim, a wholesaler in Onitsha, bought 300 cartons of tomato paste at ₦12,000 per carton and later sold each carton to retailers at ₦17,000. What was his total profit on the 300 cartons?",
+"options": [
+"₦1,000,000",
+"₦2,000,000",
+"₦1,500,000",
+"₦3,000,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Profit per carton = 17,000 - 12,000 = 5,000. Total profit = 5,000 x 300 = 1,500,000. This shows how wholesalers earn their margin by buying in bulk and selling in smaller units at a higher price.",
+"pidgin": "Profit for one carton = 17,000 minus 12,000 = 5,000. Total profit = 5,000 times 300 = 1,500,000. Na so wholesaler dey make profit, e dey buy plenty cheap, e dey sell small expensive.",
+"py": "(17000-12000)*300",
+"values": [
+1000000,
+2000000,
+1500000,
+3000000
+],
+"id": "wcom0304",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A manufacturer is most likely to bypass the wholesaler and sell directly to retailers or consumers in which of these situations?",
+"options": [
+"When the manufacturer wants to store goods for very long periods before selling",
+"When the manufacturer produces a small range of perishable goods that need quick delivery to the market",
+"When the manufacturer produces goods in very large quantities for many retailers scattered across the country",
+"When the manufacturer has no means of transport to move goods"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Perishable goods like fresh bread or milk spoil quickly, so manufacturers sell directly and fast to retailers or consumers to avoid delay and loss caused by passing through a wholesaler. Non-perishable goods meant for many scattered retailers usually still need a wholesaler.",
+"pidgin": "Goods wey dey quick spoil like bread or fresh milk no get time to pass through wholesaler, so manufacturer go sell am sharp sharp direct to retailer or consumer make e no waste. Goods wey no dey spoil and wey plenty retailer dey scatter everywhere go still need wholesaler.",
+"py": null,
+"values": null,
+"id": "wcom0305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A retailer bought an item from a wholesaler at a catalogue (list) price of ₦5,000 but was given a trade discount of 12%. How much did the retailer actually pay the wholesaler for the item?",
+"options": [
+"₦4,600",
+"₦4,500",
+"₦4,800",
+"₦4,400"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Trade discount = 12% of 5,000 = 600. Amount actually paid = 5,000 - 600 = 4,400. Trade discount is deducted from the catalogue price before the retailer pays, as a reward for buying from the wholesaler.",
+"pidgin": "Trade discount = 12% of 5,000 = 600. Wetin dem go pay = 5,000 minus 600 = 4,400. Dem dey remove trade discount from the catalogue price before retailer go pay, as appreciation for buying from wholesaler.",
+"py": "5000-0.12*5000",
+"values": [
+4600,
+4500,
+4800,
+4400
+],
+"id": "wcom0306",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best describes a wholesaler in a channel of distribution?",
+"options": [
+"A person who sells goods directly to final consumers in small units",
+"A person who buys goods in large quantities from producers and sells them in smaller quantities to retailers",
+"A person who sells goods directly to final consumers in small units at a fixed price",
+"A government agent who collects import duty on goods"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A wholesaler buys in bulk from manufacturers/producers and breaks the bulk into smaller quantities for retailers. This is the basic role of the wholesaler in the channel of distribution.",
+"pidgin": "Wholesaler na person wey dey buy plenty goods from producer, then e go break am small small sell am to retailer. Na im work be that for the distribution chain.",
+"py": null,
+"values": null,
+"id": "wcom0300",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

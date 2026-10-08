@@ -1,0 +1,204 @@
+{
+"subject": "commerce",
+"topic": "Business finance: capital, sources of funds, turnover and profit calculations",
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is mainly a source of long-term capital for a business?",
+"options": [
+"Trade credit",
+"Bank overdraft",
+"Debenture",
+"Commercial paper"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A debenture is a long-term loan certificate that a company repays over many years, so it is a long-term source of capital. Trade credit, bank overdraft and commercial paper are all short-term sources of finance.",
+"pidgin": "Debenture na long-term loan paper wey company dey pay back over plenty years, so e be long-term capital. Trade credit, overdraft and commercial paper na short-term finance.",
+"py": null,
+"values": null,
+"id": "comv1300",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Money set aside by a business to acquire fixed assets such as land, buildings and machinery that will be used repeatedly over many years is called ____.",
+"options": [
+"Working capital",
+"Fixed capital",
+"Circulating capital",
+"Loan capital"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Fixed capital is the money invested in assets that stay in the business for a long time, like land and machinery. Working capital is for day-to-day running of the business, not for buying long-lasting assets.",
+"pidgin": "Fixed capital na money wey dem use buy things wey go stay long time for business, like land and machine. Working capital na for daily running of business, e no be for buying long-lasting asset.",
+"py": null,
+"values": null,
+"id": "comv1301",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Mrs Adeyemi's provision shop in Ibadan recorded sales of ₦450,000 in January, ₦380,000 in February and ₦520,000 in March. Calculate her total turnover for the three months.",
+"options": [
+"₦1,300,000",
+"₦1,250,000",
+"₦1,400,000",
+"₦1,350,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Turnover is the total value of sales over a period. Add the three months together: 450,000 + 380,000 + 520,000 = 1,350,000.",
+"pidgin": "Turnover na total sales for the period. Add the three months: 450,000 + 380,000 + 520,000 = 1,350,000.",
+"py": "450000+380000+520000",
+"values": [
+1300000,
+1250000,
+1400000,
+1350000
+],
+"id": "comv1302",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader in Onitsha bought a consignment of goods for ₦85,000 and sold the whole consignment for ₦110,000. Calculate the profit made on the transaction.",
+"options": [
+"₦25,000",
+"₦20,000",
+"₦15,000",
+"₦30,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Profit is the difference between selling price and cost price. 110,000 - 85,000 = 25,000.",
+"pidgin": "Profit na the difference between the price wey you sell am and the price wey you buy am. 110,000 minus 85,000 = 25,000.",
+"py": "110000-85000",
+"values": [
+25000,
+20000,
+15000,
+30000
+],
+"id": "comv1303",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Chinedu's electronics business had total sales of ₦600,000 for the month, while the cost of the goods sold was ₦420,000. Calculate the gross profit for the month.",
+"options": [
+"₦220,000",
+"₦420,000",
+"₦180,000",
+"₦600,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Gross profit = Sales - Cost of goods sold. So 600,000 - 420,000 = 180,000.",
+"pidgin": "Gross profit na Sales minus Cost of goods wey you sell. So 600,000 minus 420,000 = 180,000.",
+"py": "600000-420000",
+"values": [
+220000,
+420000,
+180000,
+600000
+],
+"id": "comv1304",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A trading company recorded sales of ₦2,000,000, cost of goods sold of ₦1,200,000, and operating expenses (such as rent, salaries and transport) of ₦350,000 for the year. Calculate the company's net profit for the year.",
+"options": [
+"₦650,000",
+"₦450,000",
+"₦800,000",
+"₦1,150,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "First find gross profit: 2,000,000 - 1,200,000 = 800,000. Net profit = Gross profit - operating expenses = 800,000 - 350,000 = 450,000.",
+"pidgin": "First find gross profit: 2,000,000 minus 1,200,000 = 800,000. Net profit na gross profit minus expenses: 800,000 minus 350,000 = 450,000.",
+"py": "(2000000-1200000)-350000",
+"values": [
+650000,
+450000,
+800000,
+1150000
+],
+"id": "comv1305",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A business has total assets of ₦3,000,000 and total liabilities (excluding the owner's capital) of ₦1,200,000. If the business made a net profit of ₦360,000 for the year, calculate the return on capital employed (as a percentage), where capital employed = total assets minus total liabilities.",
+"options": [
+"12%",
+"25%",
+"30%",
+"20%"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Capital employed = 3,000,000 - 1,200,000 = 1,800,000. Return on capital employed = (360,000 / 1,800,000) x 100 = 20%.",
+"pidgin": "Capital employed = 3,000,000 minus 1,200,000 = 1,800,000. Return on capital employed = (360,000 divide by 1,800,000) x 100 = 20%.",
+"py": "(360000/(3000000-1200000))*100",
+"values": [
+12,
+25,
+30,
+20
+],
+"id": "comv1306",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "A supermarket has current assets (cash, stock and debtors) of ₦750,000 and current liabilities (creditors and short-term loans) of ₦450,000. Calculate the supermarket's working capital.",
+"options": [
+"₦300,000",
+"₦450,000",
+"₦750,000",
+"₦1,200,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Working capital = Current assets - Current liabilities = 750,000 - 450,000 = 300,000. This shows the money available for day-to-day running of the business.",
+"pidgin": "Working capital = Current assets minus Current liabilities = 750,000 minus 450,000 = 300,000. Na the money wey dey available for daily running of the business.",
+"py": "750000-450000",
+"values": [
+300000,
+450000,
+750000,
+1200000
+],
+"id": "comv1307",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

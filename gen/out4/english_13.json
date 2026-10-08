@@ -1,0 +1,149 @@
+{
+"subject": "english",
+"topic": "Oral English: vowel sounds",
+"ti": 13,
+"generated": 7,
+"kept": [
+{
+"q": "From the options lettered A to D, choose the word that has the same vowel sound as the word in capitals.\nCAT",
+"options": [
+"BACK",
+"CAKE",
+"CAR",
+"CARE"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The word in capitals, CAT, has the short vowel sound /æ/ as in 'bag'. BACK also has /æ/. CAKE and CARE have the diphthong /eɪ/ and /eə/, while CAR has the long vowel /ɑː/.",
+"pidgin": "The word for capitals, CAT, get the short sound /æ/ like for 'bag'. BACK get the same /æ/ sound. CAKE and CARE get different diphthong sounds, CAR get long /ɑː/ sound.",
+"id": "weng1300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the options lettered A to D, choose the word that has the same vowel sound as the word in capitals.\nFEAST",
+"options": [
+"BREAD",
+"BEACH",
+"GREAT",
+"BEAR"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "FEAST has the long vowel sound /i:/. BEACH also has /i:/. BREAD has /e/, GREAT has /eɪ/, and BEAR has /eə/.",
+"pidgin": "FEAST get long /i:/ sound. BEACH too get /i:/. BREAD get /e/, GREAT get /eɪ/, BEAR get /eə/, na why dem no match.",
+"id": "weng1301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the options lettered A to D, choose the word that has the same vowel sound as the word in capitals.\nSUIT",
+"options": [
+"FOOT",
+"OUT",
+"BOOT",
+"BUT"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "SUIT is pronounced with the long vowel /u:/ as in 'moon'. BOOT shares this sound. FOOT has the short /ʊ/, OUT has the diphthong /aʊ/, and BUT has /ʌ/.",
+"pidgin": "SUIT get long /u:/ sound like for 'moon'. BOOT get the same one. FOOT na short /ʊ/, OUT na /aʊ/, BUT na /ʌ/, so dem no match.",
+"id": "weng1302",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In each of the words PEAK, SPEAK, LEAK and BREAK, the vowel sound is the same except in one word. From the options lettered A to D, identify the word with the different vowel sound.",
+"options": [
+"PEAK",
+"SPEAK",
+"LEAK",
+"BREAK"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "PEAK, SPEAK and LEAK all have the long vowel /i:/. BREAK is pronounced with the diphthong /eɪ/, making it the odd one out, even though it looks spelt like the others.",
+"pidgin": "PEAK, SPEAK and LEAK all get /i:/ sound. BREAK na /eɪ/ sound, e be the different one even though e resemble the others for spelling.",
+"id": "weng1303",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In each of the words COW, HOW, NOW and BOY, the vowel sound is the same except in one word. From the options lettered A to D, identify the word with the different vowel sound.",
+"options": [
+"BOY",
+"COW",
+"HOW",
+"NOW"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "COW, HOW and NOW all contain the diphthong /aʊ/. BOY contains a different diphthong, /ɔɪ/, so it does not share the same vowel sound as the other three.",
+"pidgin": "COW, HOW and NOW all get /aʊ/ sound. BOY get different diphthong /ɔɪ/, so e no match the other three.",
+"id": "weng1304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the options lettered A to D, choose the word that has the same vowel sound as the word in capitals.\nPUT",
+"options": [
+"PUB",
+"PUSH",
+"PUN",
+"PURE"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "PUT is pronounced with the short vowel /ʊ/ as in 'book'. PUSH has the same /ʊ/ sound. PUB and PUN have /ʌ/, while PURE has a different glide sound /jʊə/.",
+"pidgin": "PUT get short /ʊ/ sound like for 'book'. PUSH get the same /ʊ/. PUB and PUN na /ʌ/, PURE na different /jʊə/ sound.",
+"id": "weng1305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "From the options lettered A to D, choose the word that has the same final vowel sound as the word in capitals.\nTEACHER",
+"options": [
+"CHAIR",
+"HAIR",
+"MIRROR",
+"CARE"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In Received Pronunciation, TEACHER ends with the unstressed schwa sound /ə/. MIRROR also ends with /ə/. CHAIR, HAIR and CARE all end with the diphthong /eə/, which is a different sound.",
+"pidgin": "For correct British pronunciation, TEACHER dey end with weak schwa sound /ə/. MIRROR too dey end with /ə/. CHAIR, HAIR and CARE dey end with /eə/ sound, na different one.",
+"id": "weng1306",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

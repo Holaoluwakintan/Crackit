@@ -1,0 +1,106 @@
+{
+"subject": "chemistry",
+"topic": "Kinetic theory and gas laws",
+"generated": 4,
+"kept": [
+{
+"q": "Which of the following is NOT one of the basic assumptions of the kinetic theory of gases?",
+"options": [
+"Gas molecules are in constant, random, straight-line motion until they collide",
+"Collisions between gas molecules and with the walls of the container are perfectly elastic",
+"There are strong forces of attraction between gas molecules",
+"The actual volume occupied by the gas molecules is negligible compared to the volume of the container"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The kinetic theory assumes that gas molecules have little or no force of attraction between them, especially at normal pressure and temperature. This assumption allows gases to expand freely to fill their container. Therefore, saying there are strong forces of attraction goes against the theory.",
+"pidgin": "Kinetic theory say gas molecules no get strong force wey dey hold dem together, na so e dey make dem spread fill container. So to talk say strong force dey between them na wrong statement.",
+"py": null,
+"values": null,
+"id": "chev0100",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A sample of gas occupies 450 cm³ at a temperature of 17°C and a pressure of 760 mmHg. What volume will the same sample of gas occupy at 47°C and 950 mmHg?",
+"options": [
+"397 cm³",
+"621 cm³",
+"995 cm³",
+"326 cm³"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using the combined gas law, V2 = V1 x (P1/P2) x (T2/T1). First convert temperatures to Kelvin: T1 = 290 K, T2 = 320 K. So V2 = 450 x (760/950) x (320/290) = 450 x 0.8 x 1.1034 = 397 cm3 (to 3 s.f.).",
+"pidgin": "We go use combined gas law: V2 = V1 x (P1/P2) x (T2/T1). First change the temperature to Kelvin: 290K and 320K. Calculate am, you go see say V2 na 397 cm3.",
+"py": "450 * (760/950) * (320/290)",
+"values": [
+397.24,
+620.69,
+995.29,
+326.25
+],
+"id": "chev0101",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Under the same temperature and pressure, gas Q diffuses through a small hole in 20 seconds while gas P, with the same volume, takes 40 seconds to diffuse through the same hole. If the molar mass of gas Q is 16 g/mol, calculate the molar mass of gas P.",
+"options": [
+"32 g/mol",
+"64 g/mol",
+"8 g/mol",
+"4 g/mol"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Rate of diffusion is inversely proportional to time taken, so rateP/rateQ = tQ/tP = 20/40 = 0.5. By Graham's law, rateP/rateQ = sqrt(MQ/MP), so 0.5 = sqrt(16/MP). Squaring gives 0.25 = 16/MP, so MP = 16/0.25 = 64 g/mol.",
+"pidgin": "Rate of diffusion dey inverse to the time wey e take, so rateP/rateQ = 20/40 = 0.5. Graham law talk say rateP/rateQ = sqrt(MQ/MP). If you square 0.5 you go get 0.25 = 16/MP, so MP = 64 g/mol.",
+"py": "16 * (40/20)**2",
+"values": [
+32.0,
+64.0,
+8.0,
+4.0
+],
+"id": "chev0102",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A fixed mass of gas occupies 4.0 dm3 at a temperature of 350 K and a pressure of 2.0 atm. The gas is then compressed so that it occupies 1.0 dm3 at a pressure of 5.0 atm. What is the final temperature of the gas?",
+"options": [
+"560 K",
+"875 K",
+"87.5 K",
+"219 K"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Using the combined gas law, P1V1/T1 = P2V2/T2, so T2 = T1 x (P2V2)/(P1V1). Substituting values: T2 = 350 x (5 x 1)/(2 x 4) = 350 x 5/8 = 218.75 K, which rounds to about 219 K.",
+"pidgin": "We go use combined gas law: P1V1/T1 = P2V2/T2, so T2 = T1 x (P2V2)/(P1V1). Put the numbers: T2 = 350 x (5x1)/(2x4) = 350 x 5/8 = 218.75 K, wey be like 219 K.",
+"py": "350 * (5*1)/(2*4)",
+"values": [
+560.0,
+875.0,
+87.5,
+218.75
+],
+"id": "chev0103",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

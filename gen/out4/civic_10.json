@@ -1,0 +1,153 @@
+{
+"subject": "civic",
+"topic": "Drug abuse, cultism and youth empowerment",
+"ti": 10,
+"generated": 7,
+"kept": [
+{
+"q": "Which government agency is primarily responsible for arresting and prosecuting persons involved in the illegal trafficking of hard drugs in Nigeria?",
+"options": [
+"National Drug Law Enforcement Agency (NDLEA)",
+"Federal Road Safety Corps (FRSC)",
+"National Agency for the Prohibition of Trafficking in Persons (NAPTIP)",
+"Economic and Financial Crimes Commission (EFCC)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The NDLEA is the Nigerian agency specifically set up to fight drug trafficking and abuse. FRSC deals with road safety, NAPTIP with human trafficking, and EFCC with financial crimes.",
+"pidgin": "NDLEA na di agency wey dem set up to fight drug trafficking and abuse for Nigeria. FRSC dey handle road safety, NAPTIP na human trafficking, EFCC na financial crime matter.",
+"id": "wciv1000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Secret cult groups in Nigerian secondary schools and higher institutions are best described as associations that:",
+"options": [
+"Organise public debates on national issues",
+"Operate openly with government approval",
+"Use violence and secrecy to achieve selfish aims",
+"Promote academic excellence through mentorship"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Cult groups are known for secret initiation, violent activities and selfish or criminal goals. They do not operate with lawful government approval or promote academic welfare.",
+"pidgin": "Cult groups na association wey dey hide dia activities and dey use violence to achieve dia own selfish aim. Dem no get government approval and dem no dey promote academic progress.",
+"id": "wciv1001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A major long-term consequence of drug abuse among youths is that it:",
+"options": [
+"Improves concentration during examinations",
+"Leads to mental health disorders and reduced productivity",
+"Guarantees quick admission into tertiary institutions",
+"Strengthens family relationships"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Prolonged drug abuse damages the brain and body, causing mental disorders such as psychosis and reducing a person's ability to work or study effectively. It does not improve exam performance or family ties.",
+"pidgin": "If person dey abuse drug for long time, e fit cause mental health problem and reduce how di person dey perform well for work or school. E no dey improve exam result or make family relationship better.",
+"id": "wciv1002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best explains why youth empowerment programmes are encouraged as a way to reduce cultism in Nigerian institutions?",
+"options": [
+"They provide skills and opportunities that reduce idleness and frustration among youths",
+"They force students to pay high fees before graduation",
+"They allow students to form armed groups for self-defence",
+"They replace the need for school discipline and rules"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Youth empowerment gives young people skills, jobs and purpose, reducing the idleness and frustration that often push them toward cult groups. The other options either worsen the problem or are irrelevant to empowerment.",
+"pidgin": "Youth empowerment dey give young pipo skill and work wey go reduce idleness and frustration wey dey push dem go cultism. Di oda options no dey help solve di problem, dem fit even worsen am.",
+"id": "wciv1003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Okonkwo noticed that his classmate Tunde suddenly started skipping classes, had bloodshot eyes, became aggressive, and stopped associating with his old friends. Based on common warning signs taught in civic education, Tunde most likely is:",
+"options": [
+"Preparing for a sporting competition",
+"Suffering from a common cold",
+"Possibly abusing hard drugs",
+"Studying extra hard for examinations"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Sudden change in behaviour, bloodshot eyes, aggression and withdrawal from old friends are classic warning signs of drug abuse taught in civic education. The other options do not match this combination of symptoms.",
+"pidgin": "Di sudden change for behaviour, red eye, aggression and how e comot from im old friends na common sign of drug abuse wey dem teach for civic education. Di oda options no fit match wetin dey happen to Tunde.",
+"id": "wciv1004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A community in Oyo State records a rise in school dropout and violent cult clashes among teenagers. Which combination of actions would most effectively address the root causes based on civic education principles?",
+"options": [
+"Increase the price of school uniforms and ban extracurricular activities",
+"Provide vocational training, counselling services and strict enforcement of anti-cultism laws",
+"Relocate all affected teenagers to another state without support",
+"Ignore the situation since it will resolve itself naturally"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Addressing root causes requires giving youths skills and guidance (vocational training and counselling) while also enforcing laws against cultism to deter offenders. The other options either worsen conditions or fail to tackle the underlying problems.",
+"pidgin": "To solve di root cause, dem need give di teenagers skill and counselling, and still enforce di law against cultism strongly. Di oda options no dey solve anytin, dem fit even make tins worse.",
+"id": "wciv1006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following is a constitutionally guaranteed right that youth empowerment programmes help citizens to fully enjoy in Nigeria?",
+"options": [
+"The right to form illegal secret societies",
+"The right to economic self-reliance through skill acquisition",
+"The right to abuse controlled substances",
+"The right to bear arms without a licence"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Youth empowerment programmes such as skill acquisition schemes help citizens achieve economic self-reliance, which supports their dignity and welfare as encouraged by the Nigerian Constitution. The other options describe illegal or harmful acts, not guaranteed rights.",
+"pidgin": "Youth empowerment programme like skill acquisition dey help pipo stand on dia own economically, and dis one dey support dia dignity as di Constitution dey encourage. Di oda options na illegal or bad tins, dem no be guaranteed right.",
+"id": "wciv1005",
+"check": {
+"s1": "X",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

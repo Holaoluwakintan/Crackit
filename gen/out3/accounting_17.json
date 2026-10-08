@@ -1,0 +1,195 @@
+{
+"subject": "accounting",
+"topic": "Departmental, branch and joint venture accounts",
+"generated": 8,
+"kept": [
+{
+"q": "In accounting, what is the main purpose of preparing departmental accounts for a business with several departments?",
+"options": [
+"To show total profit of the whole business only",
+"To avoid preparing a trial balance",
+"To show the profit or loss made by each department",
+"To calculate value added tax payable"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Departmental accounts are prepared so that management can see how much profit or loss each department is making separately, which helps in decision making. It is not about avoiding the trial balance or calculating tax.",
+"pidgin": "Dem dey prepare departmental accounts so management go fit see how much profit or loss each department dey make one by one. E no be about trial balance or tax.",
+"py": null,
+"values": null,
+"id": "accv1700",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Chidinma Stores has three departments sharing one shop building. Which basis is most appropriate for apportioning rent and rates among the departments?",
+"options": [
+"Number of employees in each department",
+"Number of customers served",
+"Sales value of each department",
+"Floor area occupied by each department"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Rent and rates are charges for occupying space, so they should be shared according to the floor area each department occupies. Sharing by sales or staff number would not reflect actual space usage.",
+"pidgin": "Rent and rates na charge for the space wey dem dey use, so na floor area each department dey occupy go determine how dem go share am. To use sales or staff number no go correct.",
+"py": null,
+"values": null,
+"id": "accv1701",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Zainab Enterprises has two departments, X and Y, sharing the same premises. Department X occupies 600 square metres and Department Y occupies 400 square metres of floor space. Total rent for the year is ₦50,000, apportioned on the basis of floor area. What is Department X's share of the rent?",
+"options": [
+"₦20,000",
+"₦30,000",
+"₦25,000",
+"₦15,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Total floor area is 600 + 400 = 1000 sqm. Department X's share = (600/1000) x ₦50,000 = ₦30,000.",
+"pidgin": "Total floor area na 600 + 400 = 1000 sqm. X share = (600/1000) x ₦50,000 = ₦30,000.",
+"py": "50000*600/(600+400)",
+"values": [
+20000,
+30000,
+25000,
+15000
+],
+"id": "accv1702",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "When apportioning sales commission paid to salesmen among the departments of a business, which basis is most suitable?",
+"options": [
+"Floor area occupied by each department",
+"Number of employees in each department",
+"Sales value of each department",
+"Cost of goods purchased by each department"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Sales commission is earned based on how much is sold, so it should be shared according to the sales value made by each department. Floor area or staff number does not reflect selling effort.",
+"pidgin": "Sales commission dey based on how much dem sell, so e suppose share am based on sales value of each department. Floor area or staff number no relate to selling work.",
+"py": null,
+"values": null,
+"id": "accv1703",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Obi Enterprises, based in Onitsha, sent goods costing ₦200,000 at cost price to its Aba branch during the year. The branch sold all the goods for ₦280,000 cash and incurred branch running expenses of ₦30,000. There was no opening or closing stock at the branch. Using a simple branch account at cost, what is the branch profit for the year?",
+"options": [
+"₦80,000",
+"₦230,000",
+"₦20,000",
+"₦50,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Branch profit = Sales - Cost of goods sent - Branch expenses = ₦280,000 - ₦200,000 - ₦30,000 = ₦50,000. Since there is no stock left, the whole ₦200,000 goods sent is treated as cost of sales.",
+"pidgin": "Branch profit = Sales - Cost of goods wey dem send - Branch expenses = ₦280,000 - ₦200,000 - ₦30,000 = ₦50,000. Since no stock remain, all the ₦200,000 na cost of sales.",
+"py": "280000-200000-30000",
+"values": [
+80000,
+230000,
+20000,
+50000
+],
+"id": "accv1704",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+},
+{
+"q": "A head office invoices goods to its branch at cost plus 25%, so that the invoice price always includes a mark-up for unrealised profit. During the year, goods invoiced to the branch at invoice price amounted to ₦150,000. What is the amount of unrealised profit (loading) included in this invoice price?",
+"options": [
+"₦37,500",
+"₦25,000",
+"₦30,000",
+"₦20,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Since cost plus 25% equals the invoice price, the loading fraction of the invoice price is 25/125 = 1/5. Loading = 1/5 x ₦150,000 = ₦30,000.",
+"pidgin": "Since cost plus 25% na the invoice price, the loading wey dey inside invoice price na 25/125 = 1/5. Loading = 1/5 x ₦150,000 = ₦30,000.",
+"py": "150000*25/125",
+"values": [
+37500,
+25000,
+30000,
+20000
+],
+"id": "accv1706",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following best describes a joint venture in accounting?",
+"options": [
+"A temporary partnership formed by two or more persons to carry out a specific business venture and share profits and losses",
+"A permanent partnership formed to carry on a continuing business for many years",
+"A branch of a company located in another location",
+"A department within an organisation handling exports only"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A joint venture is set up for a specific, short-term business deal, after which it ends, unlike a permanent partnership which continues indefinitely. It is also different from a branch or a department, which are parts of one single organisation.",
+"pidgin": "Joint venture na temporary arrangement wey two or more people form just to do one specific business deal, and e go end after. E different from permanent partnership, branch, or department wey be part of one organisation.",
+"py": null,
+"values": null,
+"id": "accv1707",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Musa and Tunde agreed to carry out a joint venture to supply bags of rice for a festival. Musa supplied rice worth ₦120,000 and Tunde contributed ₦80,000 cash for transport and other expenses. All the rice was sold for ₦260,000. Profits are to be shared in the ratio 3:2 for Musa and Tunde respectively. What is Tunde's share of the joint venture profit?",
+"options": [
+"₦36,000",
+"₦24,000",
+"₦30,000",
+"₦20,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Total cost = ₦120,000 + ₦80,000 = ₦200,000. Profit = ₦260,000 - ₦200,000 = ₦60,000. Tunde's share = 2/5 x ₦60,000 = ₦24,000.",
+"pidgin": "Total cost = ₦120,000 + ₦80,000 = ₦200,000. Profit = ₦260,000 - ₦200,000 = ₦60,000. Tunde own share = 2/5 x ₦60,000 = ₦24,000.",
+"py": "(260000-(120000+80000))*2/5",
+"values": [
+36000,
+24000,
+30000,
+20000
+],
+"id": "accv1705",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:₦24,000 assumes the ₦80,000 cash contribution was spent.|"
+}
+]
+}

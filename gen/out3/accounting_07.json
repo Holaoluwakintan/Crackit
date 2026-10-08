@@ -1,0 +1,186 @@
+{
+"subject": "accounting",
+"topic": "Trial balance, errors and suspense account",
+"generated": 8,
+"kept": [
+{
+"q": "What is a trial balance in accounting?",
+"options": [
+"A statement showing the list of debit and credit balances extracted from the ledger accounts to check the arithmetical accuracy of the books",
+"A statement showing the profit or loss made by a business during a trading period",
+"A statement showing the assets, liabilities and capital of a business as at a given date",
+"A book that records all cash transactions of a business"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A trial balance simply lists all ledger balances (debit and credit) to check that total debits equal total credits. It is not the same as a profit and loss account or a statement of financial position.",
+"pidgin": "Trial balance na the list wey show all debit and credit balance from the ledger, to check sey the totals balance well-well. E no be the same thing as profit and loss or statement of financial position.",
+"py": null,
+"values": null,
+"id": "accv0700",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following errors will NOT cause the trial balance to disagree?",
+"options": [
+"A transaction completely omitted from both the debit and credit sides of the ledger",
+"The debit entry of a transaction posted correctly but the credit entry omitted entirely",
+"An error in adding up (casting) the figures in an account, affecting only one side",
+"A balance carried down to the wrong side of an account"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "If a transaction is left out completely from both sides, the debit and credit totals are both reduced equally, so the trial balance still balances. The other errors affect only one side of the double entry, so they cause a difference.",
+"pidgin": "If transaction no enter at all for both debit and credit side, the two totals go reduce equally, so e no go affect the balance. But the other ones touch only one side, so trial balance go disagree.",
+"py": null,
+"values": null,
+"id": "accv0701",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Why is a suspense account opened in the ledger of a business?",
+"options": [
+"To record cash sales made during the period",
+"To temporarily hold the difference between the debit and credit totals of a trial balance that fails to agree",
+"To show the value of closing stock at year end",
+"To record discounts received from suppliers"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "When a trial balance does not balance, a suspense account is opened to carry the difference temporarily until the errors causing the disagreement are found and corrected.",
+"pidgin": "If trial balance no balance, dem go open suspense account to hold the difference small time, until dem find the mistake wey cause am and correct am.",
+"py": null,
+"values": null,
+"id": "accv0702",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A company bought a delivery van for ₦450,000 for use in the business, but the accountant debited the amount to the Purchases account instead of the Motor Vehicle (asset) account. What type of error is this?",
+"options": [
+"Error of commission",
+"Error of original entry",
+"Error of principle",
+"Error of complete reversal"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Purchases is an expense account while Motor Vehicle is a fixed asset account. Recording a transaction in the wrong class of account (expense instead of asset) is called an error of principle.",
+"pidgin": "Purchases na expense account but Motor Vehicle na asset account, two different class. Wen you use wrong class of account like this one, na error of principle dem dey call am.",
+"py": null,
+"values": null,
+"id": "accv0704",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "While extracting a trial balance, Miss Hauwa found that the total of the credit column exceeded the total of the debit column by ₦4,500. A suspense account was opened to make the trial balance balance. On which side of the suspense account was the ₦4,500 entered?",
+"options": [
+"Credit side",
+"Debit side",
+"Both sides equally",
+"It is not entered in the suspense account"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since the credit column is higher than the debit column, the suspense account must be given a debit balance of ₦4,500 so that when it is combined with the debit column, the two sides will agree.",
+"pidgin": "Since credit side pass debit side, dem go put the ₦4,500 for debit side of suspense account so that wen you add am, both sides go balance.",
+"py": null,
+"values": null,
+"id": "accv0705",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A cheque of ₦2,500 received from a customer, Ngozi, was correctly entered in the Cash Book but was wrongly posted to the debit side of Ngozi's account in the sales ledger instead of the credit side. If this is the only error in the books, by how much will the trial balance disagree?",
+"options": [
+"₦2,500",
+"₦5,000",
+"₦0",
+"₦1,250"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Posting an amount to the wrong side of an account creates a double effect: the account is short by the amount it should have had on the correct side, plus it has an extra equal amount on the wrong side. So the error of ₦2,500 posted to the wrong side causes a gap of 2 x ₦2,500 = ₦5,000 between the debit and credit totals.",
+"pidgin": "Wen you post amount go wrong side of account, e dey cause double wahala: the correct side miss the amount, and the wrong side get extra amount. So ₦2,500 wey enter wrong side go cause gap of 2 x ₦2,500 = ₦5,000 between the debit and credit totals.",
+"py": "2500*2",
+"values": [
+2500,
+5000,
+0,
+1250
+],
+"id": "accv0707",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Mr. Adeyemi paid ₦12,000 cash for office rent, but the bookkeeper mistakenly debited the account of a supplier, Alhaji Musa, instead of debiting the Rent account. The credit entry in the Cash account was correctly made, and the trial balance still balanced. What type of error has occurred?",
+"options": [
+"Error of principle",
+"Error of commission",
+"Error of complete omission",
+"Compensating error"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The correct class of account (an expense) was debited to the wrong named account (Alhaji Musa instead of Rent). Posting to a wrong account of the same class is called an error of commission, and it does not affect the trial balance totals.",
+"pidgin": "Dem suppose debit Rent account (expense) but dem go debit Alhaji Musa account instead, but both na the same type of account class. This kain mistake na error of commission, e no disturb the trial balance totals.",
+"py": null,
+"values": null,
+"id": "accv0703",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "In preparing the trial balance of Nkechi Stores, the total of the debit column was ₦186,400 while the total of the credit column was ₦182,900. A suspense account was opened with the difference to make the trial balance balance. On checking the books, it was discovered that a credit sale of ₦3,500 to a customer, Mrs. Okafor, had been correctly entered in the Sales account but had never been posted to Mrs. Okafor's account in the sales ledger. After this error is corrected, what will be the balance on the suspense account?",
+"options": [
+"₦3,500 debit",
+"₦7,000 credit",
+"₦0",
+"₦3,500 credit"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The difference was 186,400 - 182,900 = ₦3,500 (debit exceeded credit), so a ₦3,500 credit balance was placed in the suspense account. Posting the missing ₦3,500 debit to Mrs. Okafor's account exactly cancels this suspense balance, leaving it at ₦0.",
+"pidgin": "The difference na 186,400 - 182,900 = ₦3,500, so dem put ₦3,500 credit for suspense account. Wen dem later debit Mrs. Okafor account with the missing ₦3,500, e go cancel the suspense balance well-well, e go remain ₦0.",
+"py": "(186400-182900)-3500",
+"values": [
+3500,
+7000,
+0,
+3500
+],
+"id": "accv0706",
+"check": {
+"s1": "C",
+"s2": "B"
+}
+},
+"why": "solver2-disagrees:B"
+}
+]
+}

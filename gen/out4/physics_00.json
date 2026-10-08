@@ -1,0 +1,163 @@
+{
+"subject": "physics",
+"topic": "Measurement, units and dimensions",
+"ti": 0,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following physical quantities is a fundamental (base) quantity in the International System of Units (SI)?",
+"options": [
+"Force",
+"Mass",
+"Velocity",
+"Pressure"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Mass is one of the seven base quantities in SI (the others are length, time, temperature, electric current, amount of substance and luminous intensity). Force, velocity and pressure are all derived from combinations of these base quantities.",
+"pidgin": "Mass na one of di seven base quantity for SI system. Force, velocity and pressure dem come from combining base quantities, so dem no be fundamental.",
+"py": null,
+"values": null,
+"id": "wphy0000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A substance has mass M and occupies a volume V. In terms of the dimensions of mass (M) and length (L), what is the dimension of the density of the substance?",
+"options": [
+"ML^3",
+"MLT^-2",
+"ML^-3",
+"ML^-2"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Density = mass/volume = M/L^3, which is written as ML^-3. Since no time quantity is involved in density, T does not appear in its dimension.",
+"pidgin": "Density na mass divide by volume, wey be M/L^3, so im dimension na ML^-3. Time no dey involved for density, so T no go show for am.",
+"py": null,
+"values": null,
+"id": "wphy0001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A motorist drives a car at a constant speed of 54 km/h along the Lagos-Ibadan expressway. What is this speed expressed in metres per second (m/s)?",
+"options": [
+"10",
+"18",
+"20",
+"15"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "To convert km/h to m/s, multiply by 1000/3600 (or divide by 3.6). So 54 x 1000/3600 = 15 m/s.",
+"pidgin": "To change km/h go m/s, multiply by 1000/3600 (or divide by 3.6). So 54 x 1000/3600 = 15 m/s.",
+"py": "54*1000/3600",
+"values": [
+10,
+18,
+20,
+15
+],
+"id": "wphy0002",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "In an experiment to measure the diameter of a thin copper wire, a student uses a micrometer screw gauge. The main scale reading is 4.5 mm, while the thimble (circular) scale reading is 28 divisions, where each division represents 0.01 mm. What is the diameter of the wire?",
+"options": [
+"4.78 mm",
+"4.28 mm",
+"4.87 mm",
+"5.28 mm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Diameter = main scale reading + (thimble reading x least count) = 4.5 mm + (28 x 0.01 mm) = 4.5 mm + 0.28 mm = 4.78 mm.",
+"pidgin": "Diameter = main scale reading add (thimble reading times least count) = 4.5mm + (28 x 0.01mm) = 4.78mm.",
+"py": "4.5+28*0.01",
+"values": [
+4.78,
+4.28,
+4.87,
+5.28
+],
+"id": "wphy0003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The speed v of a transverse wave travelling along a stretched string depends on the tension F in the string, with dimension MLT^-2, and the mass per unit length mu of the string, with dimension ML^-1. Using dimensional analysis, which expression correctly gives the dimension of speed?",
+"options": [
+"F/mu",
+"sqrt(F/mu)",
+"sqrt(F x mu)",
+"F x mu^2"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Dividing F by mu gives (MLT^-2)/(ML^-1) = L^2T^-2, which is the dimension of speed squared, not speed. Taking the square root gives LT^-1, which is the correct dimension for speed, so v = sqrt(F/mu) is dimensionally consistent.",
+"pidgin": "If you divide F by mu you go get L^2T^-2, wey be speed squared, no be speed. Take square root make e come be LT^-1, wey be di correct dimension for speed.",
+"py": null,
+"values": null,
+"id": "wphy0004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A student measures three lengths as 23.4 cm, 1.02 cm and 0.3 cm, and adds them together to find a total length. Using the rule for decimal places in addition of measurements, what should the sum be correctly expressed as?",
+"options": [
+"24.72 cm",
+"24.0 cm",
+"24.7 cm",
+"25.7 cm"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Adding the numbers directly gives 24.72 cm, but in addition, the result must be rounded to match the measurement with the fewest decimal places (23.4 and 0.3 each have 1 decimal place). So the correct answer is 24.7 cm.",
+"pidgin": "If you add dem numbers straight you go get 24.72cm, but for addition, you must round di answer to match di measurement wey get di fewest decimal place (23.4 and 0.3 get 1 decimal place). So di correct answer na 24.7cm.",
+"py": "round(23.4+1.02+0.3,1)",
+"values": [
+24.72,
+24.0,
+24.7,
+25.7
+],
+"id": "wphy0005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+}
+]
+}

@@ -1,0 +1,176 @@
+{
+"subject": "physics",
+"topic": "Current electricity (Ohm's law, circuits, power)",
+"ti": 18,
+"generated": 6,
+"kept": [
+{
+"q": "A wire has a resistance of 5 ohms. If a current of 2 A flows through it, what is the voltage across the wire?",
+"options": [
+"10 V",
+"2.5 V",
+"7 V",
+"3 V"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "By Ohm's law, V = IR. So V = 2 A x 5 ohms = 10 V.",
+"pidgin": "Ohm's law talk say V = IR. So V = 2 A x 5 ohms = 10 V.",
+"py": "2*5",
+"values": [
+10,
+2.5,
+7,
+3
+],
+"id": "wphy1800",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following correctly states Ohm's law?",
+"options": [
+"The current through a conductor is directly proportional to the voltage across it, provided temperature and other physical conditions remain constant",
+"The current through a conductor is inversely proportional to its resistance, regardless of temperature",
+"The voltage across a conductor is constant no matter the current flowing through it",
+"The resistance of a conductor increases as the voltage across it decreases, at constant temperature"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Ohm's law states that current is directly proportional to voltage when temperature and physical conditions are constant, giving V = IR. The other options either ignore the temperature condition or state a wrong relationship.",
+"pidgin": "Ohm's law talk say current dey proportional to voltage as long as temperature and other condition no change, so V = IR. The other options no follow this correct relationship.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wphy1801",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Three resistors of 2 ohms, 3 ohms and 5 ohms are connected in series to a battery of electromotive force 20 V. What is the current flowing in the circuit?",
+"options": [
+"2 A",
+"0.5 A",
+"10 A",
+"20 A"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In series, total resistance R = 2 + 3 + 5 = 10 ohms. Using I = V/R, I = 20/10 = 2 A.",
+"pidgin": "For series, total resistance na R = 2+3+5 = 10 ohms. Then I = V/R = 20/10 = 2 A.",
+"py": "20/(2+3+5)",
+"values": [
+2,
+0.5,
+10,
+20
+],
+"id": "wphy1802",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "An electric bulb is rated 60 W, 240 V. What current does it draw when working normally?",
+"options": [
+"0.25 A",
+"4 A",
+"60 A",
+"240 A"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Power P = VI, so I = P/V = 60/240 = 0.25 A. This is the normal operating current of the bulb.",
+"pidgin": "Power P = VI, so I = P/V = 60/240 = 0.25 A. Na so the bulb dey take draw current when e dey work well well.",
+"py": "60/240",
+"values": [
+0.25,
+4,
+60,
+240
+],
+"id": "wphy1803",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Two resistors of 4 ohms and 6 ohms are connected in parallel across a cell. What is their equivalent resistance?",
+"options": [
+"2.4 ohms",
+"10 ohms",
+"24 ohms",
+"0.42 ohms"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "For parallel resistors, 1/R = 1/4 + 1/6 = 3/12 + 2/12 = 5/12, so R = 12/5 = 2.4 ohms.",
+"pidgin": "For parallel resistors, 1/R = 1/4 + 1/6 = 5/12, so R = 12/5 = 2.4 ohms.",
+"py": "(4*6)/(4+6)",
+"values": [
+2.4,
+10,
+24,
+0.42
+],
+"id": "wphy1804",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "An electric heater is rated 1000 W. Mrs Adaeze uses it for 3 hours every day for 30 days. If the Power Holding Company charges ₦50 per kilowatt-hour, what is the total cost of energy used?",
+"options": [
+"₦4500",
+"₦3000",
+"₦9000",
+"₦1500"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Energy used = Power x Time = 1 kW x 3 h x 30 days = 90 kWh. Cost = 90 kWh x ₦50 = ₦4500.",
+"pidgin": "Energy wey dem use = 1 kW x 3 h x 30 days = 90 kWh. Cost = 90 kWh x ₦50 = ₦4500.",
+"py": "(1000/1000)*3*30*50",
+"values": [
+4500,
+3000,
+9000,
+1500
+],
+"id": "wphy1805",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

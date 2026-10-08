@@ -1,0 +1,175 @@
+{
+"subject": "chemistry",
+"topic": "Gas laws and kinetic theory",
+"ti": 4,
+"generated": 6,
+"kept": [
+{
+"q": "A gas occupies 400 cm^3 at a pressure of 2 atm. If the temperature is kept constant, what volume will the gas occupy when the pressure is increased to 4 atm?",
+"options": [
+"200 cm^3",
+"800 cm^3",
+"100 cm^3",
+"400 cm^3"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "By Boyle's law, P1V1 = P2V2 at constant temperature. So 2 x 400 = 4 x V2, which gives V2 = 800/4 = 200 cm^3.",
+"pidgin": "Boyle law talk say P1V1 = P2V2 if temperature no change. So 2 x 400 = 4 x V2, make V2 = 800/4 = 200 cm^3.",
+"py": "2*400/4",
+"values": [
+200,
+800,
+100,
+400
+],
+"id": "wche0400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Which of the following is a correct basic assumption of the kinetic theory of gases?",
+"options": [
+"Gas molecules attract one another strongly",
+"Gas molecules occupy a volume that is negligible compared to the volume of the container",
+"Gas molecules move only in straight lines without ever colliding",
+"All gas molecules possess the same kinetic energy at a given temperature regardless of mass"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The kinetic theory assumes that gas molecules are so small that their actual volume is negligible compared to the volume of the container they occupy. The other options wrongly describe gas behaviour, since real gas molecules do collide and have varying energies.",
+"pidgin": "Kinetic theory dey assume say gas molecules dey very small, so their own volume no mean anything compared to the container volume. The other options no correct because molecules dey collide and their energy no equal for every molecule.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wche0401",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A sample of gas has a volume of 300 cm^3 at 27°C. At constant pressure, what will be its volume at 127°C?",
+"options": [
+"300 cm^3",
+"225 cm^3",
+"400 cm^3",
+"500 cm^3"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Convert to Kelvin: 27°C = 300 K, 127°C = 400 K. By Charles's law, V1/T1 = V2/T2, so V2 = 300 x 400/300 = 400 cm^3.",
+"pidgin": "Convert to Kelvin: 27°C be 300 K, 127°C be 400 K. Charles law say V1/T1 = V2/T2, so V2 = 300 x 400/300 = 400 cm^3.",
+"py": "300*400/300",
+"values": [
+300,
+225,
+400,
+500
+],
+"id": "wche0402",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A fixed mass of gas in a closed container has a pressure of 1.5 atm at 300 K. If the volume is kept constant and the gas is heated to 600 K, what will its new pressure be?",
+"options": [
+"0.75 atm",
+"1.5 atm",
+"6.0 atm",
+"3.0 atm"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "At constant volume, pressure law states P1/T1 = P2/T2. So P2 = 1.5 x 600/300 = 3.0 atm. Doubling the Kelvin temperature doubles the pressure when volume is fixed.",
+"pidgin": "When volume no change, pressure law talk say P1/T1 = P2/T2. So P2 = 1.5 x 600/300 = 3.0 atm. If you double the Kelvin temperature, pressure go double too.",
+"py": "1.5*600/300",
+"values": [
+0.75,
+1.5,
+6.0,
+3.0
+],
+"id": "wche0403",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A gas occupies 250 cm^3 at 27°C and 1 atm pressure. What will be its volume at standard temperature (0°C), the pressure remaining at 1 atm?",
+"options": [
+"227.5 cm^3",
+"250 cm^3",
+"273 cm^3",
+"300 cm^3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Convert temperatures to Kelvin: 27°C = 300 K, 0°C = 273 K. By Charles's law, V2 = V1 x T2/T1 = 250 x 273/300 = 227.5 cm^3. The volume reduces because the gas is cooled at constant pressure.",
+"pidgin": "Change the temperature to Kelvin: 27°C na 300 K, 0°C na 273 K. Charles law give V2 = 250 x 273/300 = 227.5 cm^3. The volume go reduce because dem cool the gas while pressure stay the same.",
+"py": "250*273/300",
+"values": [
+227.5,
+250,
+273,
+300
+],
+"id": "wche0404",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Gas A has a molar mass of 16 g/mol and gas B has a molar mass of 64 g/mol. Using Graham's law of diffusion, what is the ratio of the rate of diffusion of gas A to that of gas B?",
+"options": [
+"1 : 2",
+"2 : 1",
+"4 : 1",
+"1 : 4"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Graham's law states rate A / rate B = sqrt(M_B/M_A). So rate A/rate B = sqrt(64/16) = sqrt(4) = 2. This means gas A diffuses twice as fast as gas B, giving a ratio of 2:1.",
+"pidgin": "Graham law talk say rate A / rate B = sqrt(M_B/M_A). So rate A/rate B = sqrt(64/16) = sqrt(4) = 2. Na im mean say gas A dey diffuse two times faster pass gas B, so ratio na 2:1.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "wche0405",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

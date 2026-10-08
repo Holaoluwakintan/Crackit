@@ -1,0 +1,213 @@
+{
+"subject": "literature",
+"topic": "Unseen poetry: ORIGINAL short lines written into the question",
+"ti": 9,
+"generated": 10,
+"kept": [
+{
+"q": "Read the lines below and answer the question that follows:\n\n\"The old man's beard was white as cotton wool,\nAnd his eyes shone like dying embers.\"\n\nWhat figure of speech is used in BOTH lines?",
+"options": [
+"Simile",
+"Metaphor",
+"Personification",
+"Hyperbole"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Both lines use 'as' and 'like' to directly compare two unlike things (beard to cotton wool, eyes to embers). This direct comparison using 'like' or 'as' is called a simile.",
+"pidgin": "Both lines use 'as' and 'like' to compare two different things wey no resemble (beard to cotton wool, eye to embers). When you compare like that with 'like' or 'as', na simile be that.",
+"id": "wlit0900",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Study this stanza:\n\n\"The farmer tills his land at dawn,\nHis hands are rough, his shirt is worn,\nHe sings a song of hope and rain,\nTo ease his heart and ease his pain.\"\n\nWhat is the rhyme scheme of the stanza?",
+"options": [
+"ABAB",
+"AABB",
+"ABBA",
+"AAAA"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The end words are dawn/worn (rhyme pair 1) and rain/pain (rhyme pair 2). This gives the pattern AABB, where the first two lines rhyme and the last two lines rhyme.",
+"pidgin": "The last words be dawn/worn (dem rhyme together) and rain/pain (dem rhyme together too). So the pattern na AABB - first two lines rhyme, last two lines rhyme.",
+"id": "wlit0901",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "\"Mama's hands are rivers of patience, flowing gently over every mistake.\"\n\nWhat figure of speech is used in this sentence?",
+"options": [
+"Metaphor",
+"Simile",
+"Apostrophe",
+"Onomatopoeia"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The sentence says Mama's hands ARE rivers, without using 'like' or 'as'. This direct, implied comparison between two unlike things is a metaphor, not a simile.",
+"pidgin": "E say Mama hands na rivers, e no use 'like' or 'as'. Dis kind direct comparison wey no get 'like' or 'as' na metaphor, e no be simile.",
+"id": "wlit0902",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "\"The thunder clapped its hands in anger, and the storm clouds wept bitterly all night.\"\n\nWhich literary device is most clearly demonstrated here?",
+"options": [
+"Simile",
+"Alliteration",
+"Personification",
+"Assonance"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Thunder and clouds are given human actions and feelings - clapping hands and weeping - which only living beings can do. Giving human qualities to non-human things is personification.",
+"pidgin": "Thunder and cloud dey do human things - dem dey clap hand and dey cry. When you give human qualities to things wey no be human, na personification be that.",
+"id": "wlit0903",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "\"Silent streams slide slowly south, soaking the sun-baked sand.\"\n\nWhich sound device dominates this line?",
+"options": [
+"Assonance",
+"Rhyme",
+"Onomatopoeia",
+"Alliteration"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The repeated consonant sound 's' at the beginning of several words (silent, streams, slide, slowly, south, soaking, sun, sand) is alliteration. Assonance deals with vowel sounds, not consonants.",
+"pidgin": "The 's' sound dey repeat for the start of plenty words (silent, streams, slide, slowly, south, soaking, sun, sand). Na alliteration be dat - assonance na for vowel sounds, no be consonant.",
+"id": "wlit0904",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Read this extract:\n\n\"The children's ribs show through their skin,\nTheir eyes are hollow, void of play,\nMother searches bins for scraps of bread,\nWhile hunger steals the light of day.\"\n\nWhat is the dominant TONE of this extract?",
+"options": [
+"Mournful",
+"Celebratory",
+"Humorous",
+"Indifferent"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The images of hollow eyes, searching for scraps, and hunger stealing light all create a sad, pitiful feeling. This sorrowful attitude of the poet toward the subject is called a mournful tone.",
+"pidgin": "The pictures of hollow eye, searching for scrap food, and hunger wey dey steal light all dey show sorrow and pity. Dis kind sad feeling wey the poet get for the subject na mournful tone.",
+"id": "wlit0905",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Consider this short poem:\n\n\"Harmattan wind blows\nDust settles on red rooftops\nDry season has come\"\n\nCounting the syllables in each line (5, 7, 5), what poetic form is this?",
+"options": [
+"Sonnet",
+"Haiku",
+"Limerick",
+"Ballad"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A haiku is a three-line Japanese poetic form with a 5-7-5 syllable pattern, usually about nature or seasons. This poem matches that exact structure and theme.",
+"pidgin": "Haiku na three-line poem wey come from Japan, e get 5-7-5 syllable pattern and e dey always talk about nature or season. Dis poem match the structure and the topic well well.",
+"id": "wlit0906",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "\"A deafening silence filled the courtroom as the judge rose to speak.\"\n\nWhich figure of speech is used in this sentence?",
+"options": [
+"Personification",
+"Oxymoron",
+"Alliteration",
+"Assonance"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "'Deafening' means very loud, while 'silence' means no sound at all - these are two contradictory ideas joined together. When opposite terms are combined for effect, it is called an oxymoron.",
+"pidgin": "'Deafening' mean say e loud well well, but 'silence' mean say no sound dey at all - na two opposite ideas wey dem join together. When you combine opposite words like dat, na oxymoron.",
+"id": "wlit0908",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "\"The aroma of jollof rice filled the compound, mingling with the sound of laughter and the sight of children dancing under the moonlight.\"\n\nWhich literary term best describes the use of smell, sound and sight in this sentence?",
+"options": [
+"Metaphor",
+"Simile",
+"Imagery",
+"Hyperbole"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The sentence appeals to the senses of smell (aroma), hearing (laughter) and sight (children dancing). Descriptive language that appeals to the five senses is called imagery.",
+"pidgin": "The sentence dey touch smell (aroma), hearing (laughter) and sight (pikin dey dance). Any kind description wey dey touch our five senses like dis na imagery.",
+"id": "wlit0909",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "\"The chief's soldiers protected us so well\nThat by morning, our village was gone.\"\n\nWhat literary device is at work in these two lines?",
+"options": [
+"Hyperbole",
+"Simile",
+"Enjambment",
+"Irony"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The soldiers were said to 'protect' the village, yet the result is that the village was destroyed - the opposite of what was expected. This contrast between expectation and outcome is irony.",
+"pidgin": "Dem talk say soldiers 'protect' the village, but wetin happen na say the village scatter - the opposite of wetin dem expect. Dis kain contrast between wetin you expect and wetin happen na irony.",
+"id": "wlit0907",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:The lines also use enjambment.|"
+}
+]
+}

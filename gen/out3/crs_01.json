@@ -1,0 +1,156 @@
+{
+"subject": "crs",
+"topic": "The Fall of man and its consequences (Genesis 3-4, the Flood, Babel)",
+"generated": 8,
+"kept": [
+{
+"q": "In the Genesis account, what was the first thing Adam and Eve did to cover their nakedness immediately after they sinned?",
+"options": [
+"They sewed fig leaves together",
+"They wore garments of animal skin",
+"They hid under tree bark",
+"They wove grass into clothing"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "As soon as Adam and Eve ate the forbidden fruit, their eyes were opened and they sewed fig leaves together to make coverings for themselves. God later made them coats of skin. See Genesis 3:7.",
+"pidgin": "As Adam and Eve chop di forbidden fruit, dem sew fig leaves togeda make dem cover demsef. Na later God yarn make dem wear animal skin. Dis dey for Genesis 3:7.",
+"id": "crsv0100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Who became the first murder victim recorded in the Bible, killed by his own brother out of jealousy?",
+"options": [
+"Seth",
+"Cain",
+"Abel",
+"Enoch"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Cain was angry that God accepted Abel's offering but rejected his, so he killed Abel in the field, making Abel the first murder victim in the Bible. See Genesis 4:8.",
+"pidgin": "Cain vex because God accept Abel offering but reject im own, so e kill Abel for bush. Na Abel be di first person wey dem kill for Bible. Genesis 4:8 talk am.",
+"id": "crsv0101",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "As part of God's judgement after the fall in the garden of Eden, what did He pronounce concerning the ground because of Adam's sin?",
+"options": [
+"It would be cursed to produce thorns and thistles, making man toil for food",
+"It would swallow up Adam's descendants",
+"It would never again produce any crop",
+"It would be flooded immediately"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "God told Adam that because of his disobedience, the ground was cursed and would bring forth thorns and thistles, so he would eat bread only through painful toil. See Genesis 3:17-18.",
+"pidgin": "God tell Adam say because im disobey, ground go dey cursed and e go bring thorns and thistles, so Adam go dey sweat before e fit chop. Genesis 3:17-18 talk am.",
+"id": "crsv0103",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "What sign did God give to Noah as a covenant promise that He would never again destroy all living creatures with a flood?",
+"options": [
+"A dove",
+"An olive branch",
+"A rainbow",
+"An altar of stones"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "After the flood, God set the rainbow in the clouds as a sign of His everlasting covenant never to destroy the earth with a flood again. See Genesis 9:13.",
+"pidgin": "After di flood, God put rainbow for sky as sign say E no go use flood destroy di earth again. Na covenant promise. Genesis 9:13 talk am.",
+"id": "crsv0104",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "According to God's instruction to Noah before the flood, how many of each unclean animal was he commanded to take into the ark?",
+"options": [
+"Seven pairs",
+"Two (one pair)",
+"Four pairs",
+"Three"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "God instructed Noah to take seven pairs of every clean animal but only one pair (two) of every unclean animal into the ark. See Genesis 7:2.",
+"pidgin": "God tell Noah make e carry seven-seven pair of clean animal, but for unclean animal, na only one pair (two) e go carry enter ark. Genesis 7:2 explain am well.",
+"id": "crsv0105",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Why did God confuse the language of the people and scatter them during the building of the tower of Babel?",
+"options": [
+"Because they refused to worship Him with sacrifices",
+"Because they wanted to build a tower to reach into heaven and make a name for themselves in unity against Him",
+"Because they had killed a prophet among them",
+"Because they refused to have children and fill the earth"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The people at Babel planned to build a city and tower to reach heaven so as to make a name for themselves and avoid being scattered; God confused their language and scattered them to stop their prideful unity. See Genesis 11:4-8.",
+"pidgin": "Di pipo for Babel wan build tower wey go reach heaven so dem go get famous name and no go scatter. God confuse dia language scatter dem so dat dia proud plan no go work. Genesis 11:4-8 talk am.",
+"id": "crsv0106",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "What name did Eve give to the son God gave her as a replacement after Cain killed Abel?",
+"options": [
+"Enosh",
+"Seth",
+"Lamech",
+"Methuselah"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "After Abel's death, Eve bore another son and named him Seth, saying God had appointed her another offspring instead of Abel. See Genesis 4:25.",
+"pidgin": "After Abel don die, Eve born anoda son and call am Seth, she talk say na God give am dis pikin instead of Abel. Genesis 4:25 explain am.",
+"id": "crsv0107",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "According to Genesis, why did God reject Cain's offering while He accepted Abel's offering?",
+"options": [
+"Cain offered the firstborn of his flock while Abel offered fruit",
+"Abel offered the best/firstlings of his flock with the fat portions, unlike Cain's offering",
+"Cain refused to bring any offering at all",
+"Abel offered gold while Cain offered silver"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Abel brought the firstlings of his flock and their fat portions, showing his best to God, while Cain's offering lacked this quality, so God had regard for Abel's offering but not Cain's. See Genesis 4:3-5.",
+"pidgin": "Abel bring im first born sheep with di fat parts, e be di best wey e get, but Cain own no reach like dat. Na why God like Abel offering pass Cain own. Genesis 4:3-5 explain am.",
+"id": "crsv0102",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:Genesis does not explicitly state why Cain’s offering was rejected.|Genesis does not state the reason explicitly; B is the best-supported option"
+}
+]
+}

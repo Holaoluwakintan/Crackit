@@ -1,0 +1,129 @@
+{
+"subject": "biology",
+"topic": "Excretion",
+"ti": 8,
+"generated": 6,
+"kept": [
+{
+"q": "Excretion in living organisms is best defined as the:",
+"options": [
+"removal of undigested food materials from the body",
+"removal of metabolic waste products from the body",
+"movement of digested food from the gut into the blood",
+"breakdown of large food molecules into simpler ones"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Excretion is the removal of waste products made inside the body as a result of metabolism, such as carbon(IV) oxide, urea and excess water. Undigested food is not a metabolic waste, so its removal is called egestion.",
+"pidgin": "Excretion na when body remove waste wey come from inside metabolism, like CO2, urea and plenty water. Undigested food no be metabolism waste, so to remove am na egestion.",
+"id": "wbio0800",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which organ is mainly responsible for removing carbon(IV) oxide and water vapour from the body as excretory products?",
+"options": [
+"Kidney",
+"Liver",
+"Skin",
+"Lung"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The lungs remove carbon(IV) oxide and some water vapour produced during respiration when we breathe out. The kidney removes urea and excess water mainly as urine, while the liver and skin have other excretory roles.",
+"pidgin": "Na lungs dey remove CO2 and some water vapour wey respiration produce, when we dey breathe out. Kidney dey remove urea and extra water as urine, liver and skin get their own small work too.",
+"id": "wbio0801",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the human kidney, blood is first filtered to begin the formation of urine at the:",
+"options": [
+"Loop of Henle",
+"Collecting duct",
+"Glomerulus",
+"Ureter"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The glomerulus is a knot of capillaries inside the Bowman's capsule where high blood pressure forces water, salts, urea and glucose out of the blood into the capsule; this process is called ultrafiltration. The other structures act later in reabsorption or transport of urine.",
+"pidgin": "Glomerulus na the small blood vessels wey dey inside Bowman's capsule, na there high pressure dey push water, salt, urea and glucose comot from blood enter the capsule, dem call am ultrafiltration. Other parts dey work later for reabsorption or to carry urine comot.",
+"id": "wbio0802",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best explains why egestion is not regarded as a form of excretion?",
+"options": [
+"Egested materials never entered the body cells or blood",
+"Egested materials are formed only during respiration",
+"Egestion takes place only in green plants",
+"Egested materials are always in liquid form"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Egestion is the removal of undigested food as faeces, and this food never actually entered the blood or body cells to take part in metabolism. Excretion, on the other hand, removes waste that was produced by chemical reactions inside the cells.",
+"pidgin": "Egestion na to remove the food wey no digest as faeces, and that food never enter blood or body cells at all. Excretion na to remove waste wey come from inside the cells after chemical reactions.",
+"id": "wbio0803",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The skin assists the body in excretion mainly through the activity of the:",
+"options": [
+"Hair follicles",
+"Sweat glands",
+"Sebaceous glands",
+"Melanocytes"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Sweat glands in the skin produce sweat, which contains water, salts and small amounts of urea, and this is released onto the skin surface as an excretory product. Sebaceous glands produce oil for the skin and are not involved in excretion.",
+"pidgin": "Na sweat glands for skin dey make sweat, wey get water, salt and small urea inside, and dem dey release am come skin surface as waste. Sebaceous glands na for oil, dem no dey do excretion work.",
+"id": "wbio0804",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A student noticed that when a person is dehydrated after a long trek under the hot Sokoto sun, the kidneys produce a small volume of highly concentrated urine. Which explanation correctly accounts for this observation?",
+"options": [
+"Increased ADH secretion raises water reabsorption in the collecting duct",
+"Decreased ADH secretion raises water reabsorption in the collecting duct",
+"Increased aldosterone secretion reduces sodium reabsorption in the nephron",
+"Reduced blood flow completely stops filtration at the glomerulus"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "When the body is short of water, the blood becomes more concentrated and this is detected by the brain, which signals the pituitary gland to release more antidiuretic hormone (ADH). More ADH makes the collecting duct walls more permeable to water, so more water is reabsorbed back into the blood, leaving a small amount of concentrated urine.",
+"pidgin": "When body no get enough water, blood dey more concentrated and brain go sense am, e go tell pituitary gland make e release more ADH. The ADH go make collecting duct allow more water pass back inside blood, so wetin remain na small concentrated urine.",
+"id": "wbio0805",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

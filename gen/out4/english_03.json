@@ -1,0 +1,156 @@
+{
+"subject": "english",
+"topic": "Sentence completion: structure and grammar",
+"ti": 3,
+"generated": 7,
+"kept": [
+{
+"q": "Choose the option that best completes the sentence: Amina is married ___ a respected engineer who works in Abuja.",
+"options": [
+"with",
+"to",
+"by",
+"for"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The correct expression is 'married to someone'. 'Married with' or 'married by' are wrong in this context.",
+"pidgin": "The correct way to talk am na 'married to' person. 'Married with' or 'married by' no correct for this kain sentence.",
+"id": "weng0300",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Choose the option that best completes the sentence: Neither the principal nor the teachers ___ aware of the sudden change in the resumption date.",
+"options": [
+"was",
+"is",
+"were",
+"has been"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "With 'neither...nor', the verb agrees with the noun nearer to it, which is 'teachers' (plural), so 'were' is correct.",
+"pidgin": "When you use 'neither...nor', the verb go agree with the noun wey close to am, wey be 'teachers' (plural). So 'were' na correct answer.",
+"id": "weng0301",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Choose the option that best completes the sentence: If Tunde ___ harder for the mock examination, he would have made better grades.",
+"options": [
+"studies",
+"had studied",
+"studied",
+"has studied"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "This is a type 3 conditional sentence about an unreal past situation. It needs 'if + past perfect' followed by 'would have + past participle'.",
+"pidgin": "This na type 3 conditional, e dey talk about something wey no happen for past. E suppose be 'if + past perfect' and 'would have + past participle', so 'had studied' correct.",
+"id": "weng0302",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Choose the option that best completes the sentence: By the time the governor arrives at the stadium tomorrow, the students ___ the match.",
+"options": [
+"will finish",
+"finish",
+"will have finished",
+"have finished"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The action of finishing will be completed before another future action (the governor's arrival), so the future perfect tense 'will have finished' is needed.",
+"pidgin": "The finishing go don happen before another future action (governor reach), so we need future perfect tense, wey be 'will have finished'.",
+"id": "weng0303",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Choose the option that best completes the sentence: The trader ___ shop was burnt down during the market fire has reopened her business at a new location.",
+"options": [
+"who",
+"which",
+"whose",
+"that"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The sentence shows possession, that is, the shop belongs to the trader. The possessive relative pronoun 'whose' is used to show this relationship between people and things.",
+"pidgin": "The sentence dey show say the shop na the trader own, so we need possessive relative pronoun 'whose' to show that connection between person and the thing wey belong to am.",
+"id": "weng0306",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the sentence: The committee set up by the school ___ its findings before the end of the term.",
+"options": [
+"submit",
+"are submitting",
+"submits",
+"will submit"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "The sentence talks about an action that has not yet happened but will happen in future (before term ends), so the future tense 'will submit' fits best.",
+"pidgin": "The sentence dey talk about something wey never happen but go happen for future (before term end), so 'will submit' be the correct future tense.",
+"id": "weng0304",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Present simple is also possible for a scheduled submission.|"
+},
+{
+"q": {
+"q": "Choose the option that best completes the sentence: The school authority insisted that every student ___ the dress code strictly.",
+"options": [
+"follows",
+"followed",
+"follow",
+"is following"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "After verbs like 'insist' expressing a demand, the subjunctive mood is used, which takes the base form of the verb regardless of the subject. So 'follow' is correct, not 'follows'.",
+"pidgin": "After verb like 'insist' wey dey show demand, we dey use subjunctive mood, wey be the base form of verb no matter the subject. So 'follow' correct, no be 'follows'.",
+"id": "weng0305",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Indicative forms are possible if ‘insisted’ means ‘asserted’.|"
+}
+]
+}

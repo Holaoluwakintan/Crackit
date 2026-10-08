@@ -1,0 +1,98 @@
+{
+"subject": "chemistry",
+"topic": "Chemical equilibrium and Le Chatelier's principle",
+"generated": 4,
+"kept": [
+{
+"q": "Consider the reversible reaction for ammonia synthesis: N2(g) + 3H2(g) <=> 2NH3(g), Delta H = -92 kJ/mol, carried out in a sealed, rigid vessel at constant temperature. If extra nitrogen gas is suddenly pumped into the vessel, what happens to the position of equilibrium?",
+"options": [
+"It shifts to the right, producing more ammonia",
+"It shifts to the left, producing more hydrogen",
+"It remains unchanged because nitrogen does not react",
+"It shifts to the right, but the yield of ammonia decreases"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Adding more N2 increases the concentration of a reactant. By Le Chatelier's principle, the system shifts in the direction that uses up the extra N2, which is the forward (right) direction, producing more NH3.",
+"pidgin": "If you add more N2, di reaction go try use am finish, so e go shift go di right side wey go make more NH3 come out.",
+"py": null,
+"values": null,
+"id": "chev1100",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "In a 1.0 dm3 sealed container, 1.0 mole of gas A and 1.0 mole of gas B were mixed and allowed to react: A(g) + B(g) <=> C(g) + D(g). At equilibrium, chemical analysis showed that 0.60 mole of C had formed. Calculate the equilibrium constant, Kc, for this reaction.",
+"options": [
+"2.25",
+"1.50",
+"0.44",
+"0.36"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "At equilibrium: A = 1.0 - 0.6 = 0.4 mol, B = 0.4 mol, C = 0.6 mol, D = 0.6 mol (same volume, so concentration equals mol/dm3). Kc = [C][D]/([A][B]) = (0.6 x 0.6)/(0.4 x 0.4) = 0.36/0.16 = 2.25.",
+"pidgin": "At equilibrium, A and B remain 0.4 mol each, C and D become 0.6 mol each (volume na 1 dm3 so mol = concentration). Kc = (0.6 x 0.6) divide by (0.4 x 0.4) = 2.25.",
+"py": "(0.6*0.6)/(0.4*0.4)",
+"values": [
+2.25,
+1.5,
+0.44,
+0.36
+],
+"id": "chev1102",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "The water-gas shift reaction used in industry is represented as: CO(g) + H2O(g) <=> CO2(g) + H2(g), Delta H = -41 kJ/mol. If the operating temperature of the reactor is increased while pressure is kept constant, what happens to the value of the equilibrium constant, Kc?",
+"options": [
+"Kc increases because more product forms",
+"Kc decreases because the forward reaction is exothermic",
+"Kc stays the same since Kc only depends on concentration",
+"Kc increases because the reverse reaction becomes exothermic"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The forward reaction is exothermic (Delta H is negative), so increasing temperature favours the reverse (endothermic) reaction, shifting equilibrium left. This means less product and more reactant at equilibrium, so Kc decreases.",
+"pidgin": "Di forward reaction na exothermic, so if you increase temperature, e go favour di reverse reaction wey dey endothermic. Equilibrium go shift go left, so Kc go reduce.",
+"py": null,
+"values": null,
+"id": "chev1103",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Brown nitrogen dioxide gas exists in equilibrium with colourless dinitrogen tetroxide according to: 2NO2(g) <=> N2O4(g), an exothermic forward reaction, in a sealed syringe. A student suddenly pushes the plunger in, reducing the volume of the syringe at constant temperature. What is the expected observation?",
+"options": [
+"The brown colour becomes darker as NO2 increases",
+"The mixture becomes lighter in colour as more N2O4 forms",
+"No colour change occurs since pressure does not affect gaseous equilibria",
+"The gas turns completely colourless immediately due to total conversion"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Reducing volume raises pressure. The equilibrium shifts toward the side with fewer gas moles, which is N2O4 (1 mole) compared with 2NO2 (2 moles). More N2O4 forms, so the brown colour fades and becomes lighter.",
+"pidgin": "When you reduce di volume, pressure go rise, so di equilibrium go shift go di side wey get less gas mole, wey be N2O4. So more N2O4 go form and di brown colour go reduce small.",
+"py": null,
+"values": null,
+"id": "chev1101",
+"check": {
+"s1": "A",
+"s2": "B"
+}
+},
+"why": "solver1-disagrees:A"
+}
+]
+}

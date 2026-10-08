@@ -1,0 +1,180 @@
+{
+"subject": "maths",
+"topic": "Simple interest, compound interest and depreciation",
+"ti": 6,
+"generated": 6,
+"kept": [
+{
+"q": "Adaeze borrowed ₦15,000 from a cooperative society at a simple interest rate of 8% per annum. Find the interest she will pay after 3 years.",
+"options": [
+"₦3,600",
+"₦1,200",
+"₦4,500",
+"₦3,000"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Simple Interest = (P x R x T)/100 = (15000 x 8 x 3)/100 = 360000/100 = ₦3,600.",
+"pidgin": "Simple Interest na (P x R x T)/100. If you put the numbers, (15000 x 8 x 3)/100 give you ₦3,600.",
+"py": "15000*8*3/100",
+"values": [
+3600,
+1200,
+4500,
+3000
+],
+"id": "wmth0600",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Chinwe invested ₦20,000 in a bank that pays compound interest at 10% per annum. Find the total amount in her account after 2 years.",
+"options": [
+"₦24,000",
+"₦24,200",
+"₦22,200",
+"₦21,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "For compound interest, Amount = P(1 + R/100)^T = 20000(1.1)^2 = 20000 x 1.21 = ₦24,200. This is different from simple interest which would give only ₦24,000.",
+"pidgin": "For compound interest, Amount = P(1 + R/100)^T = 20000(1.1)^2 = 20000 x 1.21 = ₦24,200. E dey different from simple interest wey go just give ₦24,000.",
+"py": "20000*(1.1)**2",
+"values": [
+24000,
+24200,
+22200,
+21000
+],
+"id": "wmth0602",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A commercial bus bought for ₦800,000 depreciates at a rate of 15% per annum on its value at the start of each year. Find the value of the bus after 2 years.",
+"options": [
+"₦680,000",
+"₦600,000",
+"₦578,000",
+"₦560,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "After year 1: 800000 x 0.85 = ₦680,000. After year 2: 680,000 x 0.85 = ₦578,000. Depreciation is applied each year on the reduced value, not the original cost.",
+"pidgin": "After year 1: 800000 x 0.85 = ₦680,000. After year 2: 680,000 x 0.85 = ₦578,000. Depreciation dey apply every year on the new value, no be the original cost.",
+"py": "800000*0.85*0.85",
+"values": [
+680000,
+600000,
+578000,
+560000
+],
+"id": "wmth0603",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Bello borrowed a sum of money at simple interest for 2 years 6 months. If the interest paid was ₦7,875 and the principal was ₦45,000, find the rate of interest per annum.",
+"options": [
+"6%",
+"7%",
+"8%",
+"10%"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Using SI = (P x R x T)/100, we have 7875 = (45000 x R x 2.5)/100. So R = (7875 x 100)/(45000 x 2.5) = 787500/112500 = 7%.",
+"pidgin": "Use SI = (P x R x T)/100. 7875 = (45000 x R x 2.5)/100. So R = (7875 x 100)/(45000 x 2.5) = 787500/112500 = 7%.",
+"py": "7875*100/(45000*2.5)",
+"values": [
+6,
+7,
+8,
+10
+],
+"id": "wmth0604",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader invested ₦10,000 for 2 years at 10% per annum. Find the difference between the compound interest and the simple interest on this investment over the period.",
+"options": [
+"₦2,000",
+"₦2,100",
+"₦200",
+"₦100"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Simple Interest = (10000 x 10 x 2)/100 = ₦2,000. Compound Interest = 10000(1.1)^2 - 10000 = 10000(0.21) = ₦2,100. Difference = 2100 - 2000 = ₦100.",
+"pidgin": "Simple Interest = (10000 x 10 x 2)/100 = ₦2,000. Compound Interest = 10000(1.1)^2 - 10000 = ₦2,100. The difference be 2100 - 2000 = ₦100.",
+"py": "(10000*(1.1)**2 - 10000) - (10000*10*2/100)",
+"values": [
+2000,
+2100,
+200,
+100
+],
+"id": "wmth0605",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Musa deposited ₦12,000 in a bank that pays simple interest at 5% per annum. What amount will be in his account after 4 years?",
+"options": [
+"₦2,400",
+"₦14,000",
+"₦13,200",
+"₦14,400"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Interest = (12000 x 5 x 4)/100 = ₦2,400. Amount = Principal + Interest = 12000 + 2400 = ₦14,400.",
+"pidgin": "Interest = (12000 x 5 x 4)/100 = ₦2,400. Total wey go dey him account na Principal plus Interest, wey be 12000 + 2400 = ₦14,400.",
+"py": "12000 + (12000*5*4/100)",
+"values": [
+2400,
+14000,
+13200,
+14400
+],
+"id": "wmth0601",
+"check": {
+"s1": "D",
+"s2": "X",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "solver2-disagrees:X"
+}
+]
+}

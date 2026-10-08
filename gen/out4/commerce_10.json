@@ -1,0 +1,163 @@
+{
+"subject": "commerce",
+"topic": "Communication",
+"ti": 10,
+"generated": 7,
+"kept": [
+{
+"q": "In Commerce, the process by which information, ideas and feelings are exchanged between a sender and a receiver through an agreed channel is known as what?",
+"options": [
+"Communication",
+"Negotiation",
+"Advertising",
+"Distribution"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Communication is the exchange of information, ideas or feelings between a sender and a receiver using a channel. Negotiation, advertising and distribution are different business activities, not the process of exchanging messages.",
+"pidgin": "Communication na the process where person dey send message give another person and e understand am. Negotiation, advertising and distribution na different business things wey no be message exchange.",
+"py": null,
+"values": null,
+"id": "wcom1000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the communication process, the person to whom a message is sent and who interprets it is referred to as the?",
+"options": [
+"Sender",
+"Medium",
+"Receiver",
+"Feedback"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The receiver is the person who gets the message and decodes (interprets) it. The sender originates the message, the medium carries it, and feedback is the receiver's response back to the sender.",
+"pidgin": "The receiver na the person wey the message dey go meet and e go understand the meaning. Sender na the one wey start the message, medium na the way e pass through, feedback na reply wey receiver give back.",
+"py": null,
+"values": null,
+"id": "wcom1001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT a barrier to effective communication in a business office?",
+"options": [
+"Noise",
+"Language difference",
+"Poor network connection",
+"Clear feedback"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Clear feedback shows that a message has been well understood, so it is a sign of effective communication, not a barrier. Noise, language difference and poor network can all distort or block a message.",
+"pidgin": "Clear feedback mean say message don enter well, na sign say communication succeed, e no be barrier. Noise, language difference and poor network fit spoil or block the message.",
+"py": null,
+"values": null,
+"id": "wcom1002",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Adeyemi, a trader in Kano, needs to send an urgent short message to his supplier in Lagos and get an immediate reply on the price of goods. Which means of communication is most suitable for him?",
+"options": [
+"Newspaper advertisement",
+"Telephone",
+"Radio announcement",
+"Letter by post"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The telephone allows two-way, instant exchange of messages over a long distance, so Mr. Adeyemi can get an immediate reply. Newspaper and radio are for public announcements, while a letter by post would take too long for an urgent reply.",
+"pidgin": "Telephone dey allow person talk and hear reply immediately even if the distance far, so na the best one for urgent matter. Newspaper and radio na for public announcement, letter by post go slow reach.",
+"py": null,
+"values": null,
+"id": "wcom1003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The informal and unofficial channel through which information, including rumours, spreads quickly among workers in an organisation is called the?",
+"options": [
+"Grapevine",
+"Vertical communication",
+"Horizontal communication",
+"Memorandum"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The grapevine is the informal network through which information, gossip and rumours move among employees outside official channels. Vertical and horizontal communication describe formal direction of flow, while a memorandum is a formal written note.",
+"pidgin": "Grapevine na the informal way wey gist and news dey waka pass among workers outside official line. Vertical and horizontal communication na formal direction, memorandum na formal written note.",
+"py": null,
+"values": null,
+"id": "wcom1004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a major advantage of oral communication over written communication in a business setting?",
+"options": [
+"It is more expensive to use",
+"It eliminates distortion of the message",
+"It provides a permanent record",
+"It allows immediate feedback"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Oral communication, such as face-to-face talk or phone calls, allows the receiver to respond at once, so the sender gets immediate feedback. Written communication, not oral, provides a permanent record, and oral messages can actually be more easily distorted, not less.",
+"pidgin": "Oral communication like phone call or face-to-face talk dey allow person reply sharp sharp, so feedback dey come immediately. Na written communication dey provide permanent record, and oral message fit still distort pass written one.",
+"py": null,
+"values": null,
+"id": "wcom1005",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A factory manager complains that the workers often misunderstand the written instructions he sends because the memo is full of technical terms they are not familiar with. This communication problem is best described as a barrier caused by?",
+"options": [
+"Noise",
+"Distance",
+"Language",
+"Poor timing"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The problem arises because the words (technical jargon) used are not understood by the workers, which is a language barrier. It is not noise (physical disturbance), distance, or poor timing, since the memo was written and delivered, but its wording caused confusion.",
+"pidgin": "The wahala na because the grammar wey the manager use (technical words) no clear to the workers, na language barrier be dat. E no be noise, distance or poor timing wey cause am, na the wording wey confuse dem.",
+"py": null,
+"values": null,
+"id": "wcom1006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

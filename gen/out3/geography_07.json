@@ -1,0 +1,168 @@
+{
+"subject": "geography",
+"topic": "Weathering and mass movement",
+"generated": 8,
+"kept": [
+{
+"q": "What is the best definition of weathering as used in Geography?",
+"options": [
+"The breakdown and decay of rocks in their original position without being transported",
+"The movement of broken rock materials down a slope under gravity",
+"The wearing away and transportation of rock particles by moving water or wind",
+"The laying down of sediments carried by rivers, wind or ice"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Weathering is the in-situ (on the spot) breakdown of rocks by mechanical, chemical or biological processes. It does not involve movement of the broken material, which is handled by erosion or mass movement.",
+"pidgin": "Weathering na when rock dey break or spoil for the same place wey e dey, no movement involved. If material move go another place, na erosion or mass movement be dat.",
+"py": null,
+"values": null,
+"id": "geov0700",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following is an example of mechanical (physical) weathering?",
+"options": [
+"Carbonation of limestone by rainwater",
+"Frost shattering of rocks in cold climates",
+"Hydrolysis of feldspar minerals",
+"Oxidation of iron-bearing rocks"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Frost shattering happens when water in rock cracks freezes, expands, and splits the rock apart physically, with no change in chemical composition. Carbonation, hydrolysis and oxidation are all chemical weathering processes.",
+"pidgin": "Frost shattering na physical process, water enter rock crack, freeze, expand, e burst the rock, no chemical change dey happen. Carbonation, hydrolysis and oxidation na chemical weathering.",
+"py": null,
+"values": null,
+"id": "geov0701",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "In the Sahel region of West Africa, large daily temperature swings cause rock surfaces to expand by day and contract by night until outer layers peel off like onion skin. This process is called...",
+"options": [
+"Hydrolysis",
+"Solution",
+"Exfoliation (insolation weathering)",
+"Carbonation"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Exfoliation, also called insolation weathering, occurs where large daily temperature range makes rock surfaces expand and contract repeatedly, causing outer layers to peel off in sheets. This is common in hot desert and semi-desert areas like the Sahel.",
+"pidgin": "Exfoliation na when the hot sun for daytime and cold for night make rock dey expand and shrink well-well, until the outside layer peel comot like onion. E dey happen well for desert and Sahel area.",
+"py": null,
+"values": null,
+"id": "geov0702",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which chemical weathering process involves rainwater containing dissolved carbon dioxide reacting with rocks such as limestone, dissolving them over time?",
+"options": [
+"Hydrolysis",
+"Carbonation",
+"Oxidation",
+"Hydration"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Carbonation occurs when rainwater absorbs carbon dioxide from the air to form weak carbonic acid, which reacts with calcium carbonate in limestone, dissolving it. This is why limestone areas often have caves and sinkholes.",
+"pidgin": "Carbonation na when rain water carry CO2 form weak acid, e react with limestone (calcium carbonate) make am melt small small. Na why limestone area dey get cave and sinkhole.",
+"py": null,
+"values": null,
+"id": "geov0703",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which type of mass movement is best described as the very slow, almost unnoticeable downslope shifting of soil particles over months or years?",
+"options": [
+"Landslide",
+"Rockfall",
+"Soil creep",
+"Mudflow"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Soil creep is the slowest type of mass movement, where soil particles move downslope so gradually that it cannot be observed directly, though evidence like tilted fences or bent tree trunks shows it over time. Landslide, rockfall and mudflow are all much faster movements.",
+"pidgin": "Soil creep na the slowest mass movement, soil dey move small small for long time, you no fit see am with eye but fence wey bend or tree wey tilt fit show say e don happen. Landslide, rockfall and mudflow dey faster pass am.",
+"py": null,
+"values": null,
+"id": "geov0704",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A farmer on the Jos Plateau notices that tree roots growing into cracks in a large granite boulder have gradually widened the cracks until the rock split into separate blocks. This process is best described as...",
+"options": [
+"Chemical weathering by hydrolysis",
+"Biological weathering",
+"Mechanical weathering by frost action",
+"Mass movement by soil creep"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "When living organisms such as plant roots or burrowing animals cause rocks to break apart, it is called biological weathering. Frost action needs freezing temperatures which are rare on the Jos Plateau, and hydrolysis is a chemical reaction, not root growth.",
+"pidgin": "When plant root or animal dey cause rock to break, na biological weathering. Frost action need very cold temperature wey no dey common for Jos Plateau, and hydrolysis na chemical reaction, e no concern root growth.",
+"py": null,
+"values": null,
+"id": "geov0705",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which combination of climatic conditions would most speed up chemical weathering of rocks in a tropical rainforest area such as parts of southern Nigeria?",
+"options": [
+"Low temperature and low rainfall",
+"High temperature and high rainfall",
+"High altitude and strong dry winds",
+"Low humidity and high wind speed"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Chemical weathering reactions such as hydrolysis and carbonation speed up with more heat and more moisture, since both heat and water encourage chemical reactions in rock minerals. Tropical rainforest areas have high temperature and heavy rainfall, making chemical weathering very active there compared to dry or cold regions.",
+"pidgin": "Chemical weathering dey faster when heat and water plenty, because heat and moisture dey push chemical reaction for inside rock. Tropical rainforest get plenty heat and rain, so chemical weathering dey strong pass dry or cold area.",
+"py": null,
+"values": null,
+"id": "geov0706",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "During heavy rainfall near Enugu, a thick layer of saturated soil and loose rock debris on a steep slope suddenly moves rapidly downhill as a fast-flowing watery mass, destroying a farm at the base of the slope. This type of mass movement is best classified as...",
+"options": [
+"Soil creep",
+"Mudflow",
+"Solifluction",
+"Rockfall"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A mudflow is a rapid, water-saturated flow of soil and debris down a slope, usually triggered by heavy rain, and it moves much faster than soil creep. Solifluction is slow movement in cold, frozen-ground regions, and rockfall is the sudden drop of rock from a cliff, not a flowing watery mass.",
+"pidgin": "Mudflow na fast movement of soil and debris wey water don soak well-well, e dey happen quick quick after heavy rain, e no be like soil creep wey slow. Solifluction dey happen for cold frozen ground, and rockfall na when rock just fall from cliff straight, no flowing water involved.",
+"py": null,
+"values": null,
+"id": "geov0707",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

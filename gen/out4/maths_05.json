@@ -1,0 +1,177 @@
+{
+"subject": "maths",
+"topic": "Ratio, proportion, rates and percentages",
+"ti": 5,
+"generated": 6,
+"kept": [
+{
+"q": "Chidi and Amaka share ₦4800 in the ratio 3:5 respectively for helping their mother sell pepper at Oja Oba market. How much does Amaka receive?",
+"options": [
+"₦3000",
+"₦1800",
+"₦2400",
+"₦3600"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Total ratio parts = 3 + 5 = 8. One part = 4800/8 = 600. Amaka's share = 5 x 600 = ₦3000.",
+"pidgin": "Total ratio na 3+5=8 parts. One part be 4800/8=600. Amaka own na 5 parts wey be 5x600=₦3000.",
+"py": "4800*5/8",
+"values": [
+3000,
+1800,
+2400,
+3600
+],
+"id": "wmth0500",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader in Onitsha market buys a bag of rice for ₦5000 and sells it for ₦6000. What is her percentage profit?",
+"options": [
+"16.7%",
+"10%",
+"20%",
+"25%"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Profit = 6000 - 5000 = ₦1000. Percentage profit = (1000/5000) x 100 = 20%. This is based on the cost price.",
+"pidgin": "Profit na 6000-5000=1000. Percentage profit na (1000/5000)x100 = 20%. Dem dey calculate am based on cost price.",
+"py": "(6000-5000)/5000*100",
+"values": [
+16.67,
+10,
+20,
+25
+],
+"id": "wmth0501",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "If the cost of 5 exercise books is ₦750, find the cost of 12 similar exercise books at the same rate.",
+"options": [
+"₦1500",
+"₦1800",
+"₦2000",
+"₦2250"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Cost per book = 750/5 = ₦150. Cost of 12 books = 150 x 12 = ₦1800. This is a direct proportion case.",
+"pidgin": "One book cost na 750/5=₦150. For 12 books e go be 150x12=₦1800. Na direct proportion be dis.",
+"py": "750/5*12",
+"values": [
+1500,
+1800,
+2000,
+2250
+],
+"id": "wmth0502",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Eight men working at the same rate can complete a bridge repair job in 15 days. How many days will 12 men, working at the same rate, take to complete the same job?",
+"options": [
+"20 days",
+"18 days",
+"12 days",
+"10 days"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Total work = 8 men x 15 days = 120 man-days. With 12 men, days needed = 120/12 = 10 days. More workers finish the job faster, so this is inverse proportion.",
+"pidgin": "Total work na 8 men x 15 days = 120 man-days. If 12 men dey work, e go take 120/12 = 10 days. Na inverse proportion, more hand dey make am faster.",
+"py": "8*15/12",
+"values": [
+20,
+18,
+12,
+10
+],
+"id": "wmth0503",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A commercial bus travels 180 km from Lagos to Ibadan in 2 hours 30 minutes. Find the average speed of the bus in km/h.",
+"options": [
+"60 km/h",
+"65 km/h",
+"72 km/h",
+"75 km/h"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "2 hours 30 minutes = 2.5 hours. Average speed = distance/time = 180/2.5 = 72 km/h.",
+"pidgin": "2 hours 30 minutes na 2.5 hours. Average speed na distance/time wey be 180/2.5 = 72 km/h.",
+"py": "180/2.5",
+"values": [
+60,
+65,
+72,
+75
+],
+"id": "wmth0504",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The population of Ikot Ekpene village increased from 2400 to 3000 within one year. If the population increases by the same percentage the following year, what is the expected population at the end of that year?",
+"options": [
+"3600",
+"3750",
+"3900",
+"4000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Percentage increase = (3000-2400)/2400 x 100 = 25%. Applying the same 25% increase to 3000 gives 3000 x 1.25 = 3750. The key step is finding the rate first, then applying it to the new population.",
+"pidgin": "Percentage increase na (3000-2400)/2400 x 100 = 25%. If you apply the same 25% to 3000, e go be 3000x1.25=3750. The main work na to first find the rate before you apply am for the new population.",
+"py": "3000*1.25",
+"values": [
+3600,
+3750,
+3900,
+4000
+],
+"id": "wmth0505",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

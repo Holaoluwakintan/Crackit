@@ -1,0 +1,149 @@
+{
+"subject": "civic",
+"topic": "Rule of law",
+"ti": 4,
+"generated": 7,
+"kept": [
+{
+"q": "In Civic Education, the term 'rule of law' basically means that:",
+"options": [
+"the law is supreme and binds everyone, including government officials",
+"only the police have power to interpret and enforce the law",
+"the President can make laws without the National Assembly",
+"traditional rulers have final say in all legal matters"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Rule of law means no one, not even government officials, is above the law. Everyone, from the ordinary citizen to the highest office holder, must obey the law and can be held accountable under it.",
+"pidgin": "Rule of law mean say law dey reign supreme for everybody, even government people. Nobody dey above the law, from ordinary person to oga at the top.",
+"id": "wciv0400",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which principle of the rule of law states that a person should only be punished for an offence after it has been clearly proved in a competent court of law?",
+"options": [
+"Supremacy of the constitution",
+"Due process of law",
+"Separation of powers",
+"Fiscal federalism"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Due process of law requires that before anyone is punished, they must be given a fair hearing and the offence must be proved in court. This protects citizens from arbitrary punishment.",
+"pidgin": "Due process of law mean say dem must first prove say person do wetin dem accuse am for court before dem fit punish am. E dey protect person from wahala wey no follow law.",
+"id": "wciv0401",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The concept of the rule of law, with its three classical principles, is most closely associated with which British jurist?",
+"options": [
+"John Locke",
+"A.V. Dicey",
+"Baron de Montesquieu",
+"Jean-Jacques Rousseau"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A.V. Dicey, a British constitutional lawyer, popularised the modern concept of rule of law in the 19th century, outlining supremacy of law, equality before the law, and the role of ordinary courts in protecting rights.",
+"pidgin": "Na A.V. Dicey, one British law man, popularise rule of law for 19th century. E talk about law wey dey supreme, equality before law, and ordinary court wey dey protect people right.",
+"id": "wciv0402",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT a recognised feature of the rule of law?",
+"options": [
+"Equality of all persons before the law",
+"Supremacy of the law over individuals and government",
+"Arbitrary arrest and detention of citizens without trial",
+"Independence of the judiciary from government control"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Arbitrary arrest and detention without trial is exactly what the rule of law opposes, since it denies people a fair hearing. The other options are true features that protect citizens and limit government power.",
+"pidgin": "Arbitrary arrest without trial na the opposite of rule of law, because e dey deny person fair hearing. The other options na correct features wey dey protect citizens.",
+"id": "wciv0403",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A state governor orders soldiers to demolish a trader's shop in Onitsha market without any court order, notice or hearing given to the trader. This action directly violates which principle of the rule of law?",
+"options": [
+"Due process of law",
+"Separation of powers",
+"Federal character principle",
+"Fiscal responsibility"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Due process requires that a person be given fair hearing and proper legal procedure before action is taken against their property or rights. Demolishing the shop without court order or notice breaches this principle.",
+"pidgin": "Due process say make dem give person fair hearing and follow correct legal process before dem touch im property. To demolish the shop without court order na breach of this principle.",
+"id": "wciv0404",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Two drivers in Kaduna are caught driving against traffic on the same day. One is an ordinary commercial driver who is arrested and prosecuted, while the other, a serving senator, is quietly released by the police without any charge. This scenario shows a clear violation of which principle of the rule of law?",
+"options": [
+"Equality before the law",
+"Supremacy of the constitution",
+"Independence of the judiciary",
+"Due process of law"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Equality before the law means all persons, regardless of status, should face the same legal treatment for the same offence. Releasing the senator while prosecuting the ordinary driver shows unequal treatment, which breaches this principle.",
+"pidgin": "Equality before law mean say everybody, no matter who you be, suppose face the same legal treatment for same offence. To release senator but prosecute ordinary driver na clear unequal treatment.",
+"id": "wciv0405",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these situations best shows the rule of law working properly in a society?",
+"options": [
+"A soldier assaults a civilian but is tried under special military protection, away from regular courts",
+"A traditional chief accused of fraud is tried in a regular Magistrate court like any other citizen, with a right to appeal",
+"A police officer keeps a suspect in detention for two weeks without taking him to court",
+"A government minister seizes a private company's property by executive order without any compensation"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The rule of law demands that everyone, including highly placed persons, be subject to the same courts and legal procedures as ordinary citizens. Trying the chief in a regular court with a right to appeal shows equality before the law and due process in action.",
+"pidgin": "Rule of law want say everybody, even big men, go face the same court and legal process like ordinary person. To try the chief for regular court with right to appeal na correct example of equality before law and due process.",
+"id": "wciv0406",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

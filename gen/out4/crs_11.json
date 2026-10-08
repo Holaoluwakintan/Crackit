@@ -1,0 +1,169 @@
+{
+"subject": "crs",
+"topic": "Sermon on the Mount and other teachings",
+"ti": 11,
+"generated": 8,
+"kept": [
+{
+"q": "In the Beatitudes recorded in Matthew chapter 5, Jesus said the poor in spirit are blessed because they will receive what?",
+"options": [
+"The earth as their inheritance",
+"The kingdom of heaven",
+"Comfort from their mourning",
+"Mercy from God"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Jesus said 'Blessed are the poor in spirit, for theirs is the kingdom of heaven' (Matthew 5:3). The other rewards belong to different Beatitudes: the meek inherit the earth, mourners are comforted, and the merciful obtain mercy.",
+"pidgin": "Jesus talk say 'Blessed na the poor in spirit, because kingdom of heaven na their own' (Matthew 5:3). The other rewards dey for different Beatitudes: meek go get earth, those wey mourn go get comfort, and merciful go get mercy.",
+"id": "wcrs1100",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Jesus told His disciples, 'You are the salt of the earth and the light of the world.' What lesson was He teaching them through this picture?",
+"options": [
+"They should pay tithes faithfully",
+"They should influence the world positively with good deeds",
+"They should avoid eating salty food",
+"They should build their houses on high hills"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In Matthew 5:13-16, Jesus used salt and light to show that believers should live good lives that preserve society and show others the way, just as salt preserves and light reveals. This is about godly influence, not literal food or buildings.",
+"pidgin": "For Matthew 5:13-16, Jesus use salt and light show say believers suppose live good life wey go help society and show people correct way, just like how salt dey preserve and light dey show road. E no be about food or house.",
+"id": "wcrs1101",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the Lord's Prayer taught by Jesus in Matthew chapter 6, what did He instruct believers to request from God every day?",
+"options": [
+"Victory over their enemies",
+"Wealth and long life",
+"Their daily bread",
+"A place in paradise"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The Lord's Prayer includes the request 'Give us this day our daily bread' (Matthew 6:11), teaching believers to depend on God for their everyday needs.",
+"pidgin": "Inside the Lord's Prayer, Jesus teach say make believers pray 'Give us this day our daily bread' (Matthew 6:11), to show say dem suppose depend on God for everyday needs.",
+"id": "wcrs1102",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the Sermon on the Mount, Jesus taught that if someone slaps a believer on the right cheek, the believer should do what?",
+"options": [
+"Report the matter to the elders",
+"Turn the other cheek to him also",
+"Slap him back twice as hard",
+"Avoid him completely afterwards"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus taught, 'But I tell you, do not resist an evil person. If anyone slaps you on the right cheek, turn to them the other cheek also' (Matthew 5:39). This teaching discourages revenge and promotes patience.",
+"pidgin": "Jesus talk say make person no fight back wicked person; if somebody slap your right cheek, turn the other one give am (Matthew 5:39). Na patience and no revenge e dey teach.",
+"id": "wcrs1103",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In the parable of the wise and the foolish builders, the house built on the rock represents a person who does what?",
+"options": [
+"Gives generously to the poor",
+"Hears Jesus' words and puts them into practice",
+"Prays five times daily without fail",
+"Fasts regularly during storms"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus explained that everyone who hears His words and acts on them is like a wise man who built his house on the rock, which stood firm during the storm (Matthew 7:24-27). The foolish builder heard but did not obey.",
+"pidgin": "Jesus explain say anybody wey hear im word and obey am na like wise man wey build house for rock, wey stand strong during storm (Matthew 7:24-27). The foolish one hear but no obey.",
+"id": "wcrs1104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When Jesus taught His disciples to 'ask, seek and knock' in Matthew chapter 7, He was encouraging them to do what?",
+"options": [
+"Search diligently for lost property",
+"Be persistent and sincere in prayer",
+"Knock on neighbours' doors for help",
+"Ask many questions during His teaching"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus said, 'Ask and it will be given to you; seek and you will find; knock and the door will be opened to you' (Matthew 7:7-8). This teaching encourages believers to be persistent and confident in prayer.",
+"pidgin": "Jesus talk say 'Ask and dem go give you; seek and you go find am; knock and door go open for you' (Matthew 7:7-8). E dey teach say make believers no tire for prayer, make dem get confidence.",
+"id": "wcrs1105",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Jesus warned His followers not to store up treasures on earth mainly because such treasures do what?",
+"options": [
+"Attract unnecessary taxation from the government",
+"Can be destroyed by moth and rust or stolen by thieves",
+"Make a person proud before his neighbours",
+"Are forbidden under Jewish law"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus said earthly treasures can be destroyed by moth and rust or stolen by thieves, but treasures in heaven are safe forever (Matthew 6:19-20). He therefore urged believers to focus on heavenly, lasting treasure.",
+"pidgin": "Jesus talk say earthly treasure fit spoil because moth and rust, or thief fit steal am, but treasure for heaven safe forever (Matthew 6:19-20). So e tell believers make dem focus on heavenly treasure wey no go spoil.",
+"id": "wcrs1106",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Jesus taught about two gates and two roads in Matthew chapter 7. What lesson does this teaching give about the way to eternal life?",
+"options": [
+"Many people find the narrow gate because it is well advertised",
+"The wide gate is safer since many people use it",
+"Few people find the narrow gate that leads to life because it demands discipline",
+"Both gates eventually lead to the same destination"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Jesus said the gate to destruction is wide and many enter through it, but the gate to life is narrow and few find it (Matthew 7:13-14). The lesson is that true discipleship requires discipline and commitment, unlike the easy, popular path many follow.",
+"pidgin": "Jesus talk say the gate wey dey lead to destruction wide and plenty people dey enter am, but the gate wey dey lead to life narrow and na small people dey find am (Matthew 7:13-14). The lesson na say to follow Jesus well need discipline, e no be popular or easy road.",
+"id": "wcrs1107",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

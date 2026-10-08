@@ -1,0 +1,173 @@
+{
+"subject": "crs",
+"topic": "The patriarchs: Abraham, Isaac, Jacob and Joseph",
+"ti": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Before God changed his name as a sign of the covenant, what was Abraham originally called?",
+"options": [
+"Abram",
+"Terah",
+"Nahor",
+"Haran"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "God changed his name from Abram to Abraham to show he would be the father of many nations. This is recorded in Genesis 17:5.",
+"pidgin": "God change im name from Abram to Abraham because e go be papa of plenty nations. Na Genesis 17:5 talk am.",
+"id": "wcrs0100",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "After wrestling all night with a man at Peniel, Jacob received a new name. What was that name?",
+"options": [
+"Reuben",
+"Judah",
+"Israel",
+"Levi"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The man told Jacob he would now be called Israel because he had struggled with God and with men and had prevailed. This is in Genesis 32:28.",
+"pidgin": "The man tell Jacob say im go now dey call Israel because e don fight with God and with men and e win. Na Genesis 32:28 talk am.",
+"id": "wcrs0102",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "When Joseph was taken to Egypt as a slave, which Egyptian official bought him?",
+"options": [
+"Pharaoh himself",
+"Melchizedek",
+"Potiphar",
+"Potiphar's father"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Joseph was sold to Potiphar, an officer of Pharaoh and captain of the guard, as recorded in Genesis 37:36.",
+"pidgin": "Dem sell Joseph give Potiphar, wey be Pharaoh officer and captain of guard. Na Genesis 37:36 talk am.",
+"id": "wcrs0103",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "God gave Abraham a sign to mark His covenant with him and his descendants. What was this sign?",
+"options": [
+"Offering of first fruits",
+"Circumcision of every male",
+"Building of an altar",
+"Sacrifice of a ram"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "God commanded that every male among Abraham's household be circumcised as the everlasting sign of the covenant, as stated in Genesis 17:10-11. This distinguished Abraham's descendants as God's covenant people.",
+"pidgin": "God tell Abraham make dem circumcise every male for im house as sign of di covenant, na Genesis 17:10-11 talk am. Na so e take mark Abraham pikin dem as God covenant people.",
+"id": "wcrs0104",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "At which place did Jacob see in a dream a ladder reaching to heaven with angels going up and down on it?",
+"options": [
+"Bethel",
+"Shechem",
+"Haran",
+"Peniel"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Jacob had this dream while fleeing from Esau and resting at a place he later named Bethel, meaning 'house of God'. The account is in Genesis 28:10-19.",
+"pidgin": "Jacob see dis dream as e dey run comot from Esau, e rest for one place wey e later call Bethel, meaning 'house of God'. Na Genesis 28:10-19 talk am.",
+"id": "wcrs0105",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Joseph interpreted Pharaoh's dream of seven fat cows followed by seven thin cows to mean that:",
+"options": [
+"seven kings would rule Egypt in turn",
+"seven years of famine would come before seven years of plenty",
+"seven years of plenty would be followed by seven years of famine",
+"seven years of war would be followed by seven years of peace"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Joseph explained that Egypt would first enjoy seven years of abundant harvest, then suffer seven years of severe famine, so Pharaoh should store grain during the good years. This interpretation is found in Genesis 41:29-30.",
+"pidgin": "Joseph explain say Egypt go first enjoy seven years wey plenty food dey, then seven years of hunger go follow, so make Pharaoh store grain during di good years. Na Genesis 41:29-30 talk am.",
+"id": "wcrs0106",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "How many sons did Jacob have who became the ancestors of the twelve tribes of Israel?",
+"options": [
+"10",
+"11",
+"13",
+"12"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Jacob had twelve sons through his wives Leah and Rachel and their maidservants, and these became the twelve tribes of Israel. The list is given in Genesis 35:22-26.",
+"pidgin": "Jacob get sons twelve through im wives Leah and Rachel and dia maidservants, and dis ones become di twelve tribes of Israel. Na Genesis 35:22-26 give di list.",
+"id": "wcrs0107",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Who became Isaac's wife after Abraham's servant Eliezer travelled to Mesopotamia to find a bride for him?",
+"options": [
+"Zilpah",
+"Rebekah",
+"Rachel",
+"Leah"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Abraham's servant met Rebekah at the well in Nahor, and she agreed to go and marry Isaac. The story is found in Genesis 24.",
+"pidgin": "Abraham servant meet Rebekah for well for Nahor, and she agree make she go marry Isaac. Na Genesis 24 talk am.",
+"id": "wcrs0101",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "ambiguous:Genesis 24 does not name the servant as Eliezer.|Servant is unnamed in Gen 24; calling him Eliezer is traditional (Gen 15:2), not stated in the text"
+}
+]
+}

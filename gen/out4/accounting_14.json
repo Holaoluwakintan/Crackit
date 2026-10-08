@@ -1,0 +1,187 @@
+{
+"subject": "accounting",
+"topic": "Company accounts",
+"ti": 14,
+"generated": 7,
+"kept": [
+{
+"q": "In company accounts, what term describes the maximum amount of share capital that a company is permitted to issue, as stated in its memorandum of association?",
+"options": [
+"Issued share capital",
+"Called-up share capital",
+"Authorised share capital",
+"Paid-up share capital"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Authorised (nominal) share capital is the ceiling amount a company is legally allowed to issue. The company may issue less than this amount at any time.",
+"pidgin": "Authorised share capital na the highest amount wey company fit issue as share, as e dey written for the memorandum. Company fit issue less pass this amount.",
+"py": null,
+"values": null,
+"id": "wacc1400",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which group of shareholders is entitled to receive a fixed rate of dividend before any dividend is paid to ordinary shareholders?",
+"options": [
+"Ordinary shareholders",
+"Preference shareholders",
+"Deferred shareholders",
+"Debenture holders"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Preference shareholders get a fixed percentage dividend first, ahead of ordinary shareholders, because of the preferential right attached to their shares.",
+"pidgin": "Preference shareholders na the one wey dey collect fixed dividend first before ordinary shareholders, because their shares get special preference.",
+"py": null,
+"values": null,
+"id": "wacc1401",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Kaduna Plastics Plc issued 50,000 ordinary shares of ₦1 each at ₦1.20 per share. What amount should be credited to the Share Premium Account?",
+"options": [
+"₦5,000",
+"₦10,000",
+"₦50,000",
+"₦60,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Premium per share = ₦1.20 - ₦1.00 = ₦0.20. Total premium = 50,000 x ₦0.20 = ₦10,000, which is transferred to the Share Premium Account.",
+"pidgin": "Premium for one share na ₦1.20 minus ₦1.00 wey be ₦0.20. Multiply am by 50,000 shares, e go give ₦10,000 wey dem go put for Share Premium Account.",
+"py": "50000 * (1.20 - 1.00)",
+"values": [
+5000,
+10000,
+50000,
+60000
+],
+"id": "wacc1402",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Benue Foods Plc has an issued ordinary share capital of ₦200,000 made up of shares of ₦1 each. The directors declare a dividend of 15%. What is the total dividend payable to the ordinary shareholders?",
+"options": [
+"₦15,000",
+"₦20,000",
+"₦30,000",
+"₦45,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Dividend payable = 15% of ₦200,000 = 0.15 x 200,000 = ₦30,000. Dividend is always calculated on the issued share capital, not authorised capital.",
+"pidgin": "Dividend wey go pay na 15% of ₦200,000, wey be 0.15 x 200,000 = ₦30,000. Na issued share capital dem dey use calculate dividend, no be authorised capital.",
+"py": "0.15 * 200000",
+"values": [
+15000,
+20000,
+30000,
+45000
+],
+"id": "wacc1403",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A document issued by a limited liability company acknowledging a loan received, and on which a fixed rate of interest is paid whether the company makes profit or loss, is called a:",
+"options": [
+"Ordinary share",
+"Debenture",
+"Bonus share",
+"Reserve fund"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A debenture is a loan capital instrument; debenture holders are creditors, not owners, and must be paid fixed interest regardless of profit.",
+"pidgin": "Debenture na loan document wey company dey give, and debenture holder go always collect fixed interest whether company make profit or loss, because dem be creditor, no be owner.",
+"py": null,
+"values": null,
+"id": "wacc1404",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chinedu was allotted 1,000 ordinary shares of ₦1 each, payable ₦0.25 on application, ₦0.25 on allotment and ₦0.50 on first and final call. He paid the application and allotment money but failed to pay the call money, so his shares were forfeited. What amount was already received from Chinedu before the shares were forfeited?",
+"options": [
+"₦250",
+"₦500",
+"₦750",
+"₦1,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Amount received = application (₦0.25 x 1,000) + allotment (₦0.25 x 1,000) = ₦250 + ₦250 = ₦500. The ₦0.50 call was never paid, so it is excluded.",
+"pidgin": "Wetin Chinedu don pay na application (₦0.25 x 1,000) plus allotment (₦0.25 x 1,000) = ₦250 + ₦250 = ₦500. E no pay the ₦0.50 call, so dem no go count am.",
+"py": "1000*0.25 + 1000*0.25",
+"values": [
+250,
+500,
+750,
+1000
+],
+"id": "wacc1405",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Okoye Industries Plc issued 100,000 ordinary shares of ₦1 each, fully called up. At year end, the holders of 5,000 shares had not paid the final call of ₦0.30 per share. What is the total amount of calls in arrears?",
+"options": [
+"₦500",
+"₦1,000",
+"₦1,500",
+"₦3,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Calls in arrears = number of shares in default x unpaid call per share = 5,000 x ₦0.30 = ₦1,500. This amount is deducted from called-up capital in the statement of financial position.",
+"pidgin": "Calls in arrears na the shares wey dem never pay multiply by the unpaid amount: 5,000 x ₦0.30 = ₦1,500. Dem go minus this amount from the called-up capital for the statement of financial position.",
+"py": "5000 * 0.30",
+"values": [
+500,
+1000,
+1500,
+3000
+],
+"id": "wacc1406",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

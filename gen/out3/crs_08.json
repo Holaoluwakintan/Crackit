@@ -1,0 +1,152 @@
+{
+"subject": "crs",
+"topic": "Division of the kingdom: Rehoboam and Jeroboam",
+"generated": 8,
+"kept": [
+{
+"q": "After King Solomon died, who succeeded him as king of Judah before the kingdom split into two?",
+"options": [
+"Rehoboam",
+"Jeroboam",
+"Abijah",
+"Asa"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Rehoboam, Solomon's son, became king after his father's death. His harsh rule later caused ten tribes to break away. This is recorded in 1 Kings 12:1.",
+"pidgin": "Rehoboam na Solomon pikin wey become king after im papa die. Na im harsh rule later cause the ten tribes to comot. E dey 1 Kings 12:1.",
+"id": "crsv0800",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Before he became king of the northern tribes, Jeroboam held what position under King Solomon?",
+"options": [
+"High priest in Jerusalem",
+"Overseer of the forced labour of the house of Joseph",
+"Commander of the royal army",
+"Governor of Judah"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jeroboam was a capable young man whom Solomon put in charge of the forced labour force of the house of Joseph. This role is mentioned in 1 Kings 11:28.",
+"pidgin": "Jeroboam na strong young man wey Solomon put to oversee the forced labour for house of Joseph. E dey written for 1 Kings 11:28.",
+"id": "crsv0801",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "At which town did the Israelites gather to make Rehoboam king and to demand a lighter burden before the kingdom divided?",
+"options": [
+"Bethel",
+"Shiloh",
+"Shechem",
+"Dan"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "All Israel assembled at Shechem to crown Rehoboam, and there they asked him to lighten the heavy yoke his father Solomon had placed on them. This is in 1 Kings 12:1.",
+"pidgin": "All Israel gather for Shechem to crown Rehoboam, and na there dem beg am make e lighten the heavy load wey Solomon put on dem. E dey 1 Kings 12:1.",
+"id": "crsv0802",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Whose advice did Rehoboam follow when he decided to answer the people harshly, promising to make their burden even heavier?",
+"options": [
+"The advice of the elders who served Solomon",
+"The advice of the prophet Ahijah",
+"The advice of the young men who grew up with him",
+"The advice of his mother, Naamah"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Rehoboam rejected the gentle counsel of the elders and instead followed the young men who grew up with him, telling the people he would be harsher than his father. This led to the split, as told in 1 Kings 12:8-14.",
+"pidgin": "Rehoboam no listen to the old men wey serve Solomon, instead e follow the young men wey grow with am, wey tell am to dey harsh pass im papa. Na so the kingdom split, as e dey 1 Kings 12:8-14.",
+"id": "crsv0803",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "How many tribes of Israel broke away from Rehoboam to follow Jeroboam, forming the northern kingdom of Israel?",
+"options": [
+"Twelve",
+"Two",
+"Ten",
+"Seven"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Ten tribes rebelled and followed Jeroboam, while only Judah and Benjamin remained loyal to Rehoboam. This is recorded in 1 Kings 11:31-35 and 1 Kings 12:20.",
+"pidgin": "Ten tribes rebel follow Jeroboam, na only Judah and Benjamin remain with Rehoboam. E dey 1 Kings 11:31-35 and 1 Kings 12:20.",
+"id": "crsv0804",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Why did Jeroboam set up two golden calves at Bethel and Dan for the people of Israel to worship?",
+"options": [
+"To honour the memory of Moses and Aaron",
+"To fulfil a vow he made before becoming king",
+"To stop the people from going to Jerusalem to worship and returning their loyalty to Rehoboam",
+"To please the king of Egypt who had sheltered him"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Jeroboam feared that if the people kept going to the temple in Jerusalem to worship, their hearts would turn back to Rehoboam and he might be killed. So he made golden calves at Bethel and Dan as alternative worship centres. This is in 1 Kings 12:26-29.",
+"pidgin": "Jeroboam fear say if people continue to dey go Jerusalem temple to worship, dem go turn back their heart to Rehoboam and e fit kill am. So e make golden calves for Bethel and Dan make dem fit worship there instead. E dey 1 Kings 12:26-29.",
+"id": "crsv0805",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Which officer did Rehoboam send to the rebellious Israelites, who was stoned to death by the people?",
+"options": [
+"Ahijah the prophet",
+"Adoram, who was over the forced labour",
+"Shemaiah the prophet",
+"Hadad the Edomite"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Rehoboam sent Adoram, the officer in charge of forced labour, to deal with Israel, but the people stoned him to death, showing their deep anger over forced labour. Rehoboam then fled to Jerusalem. This is recorded in 1 Kings 12:18.",
+"pidgin": "Rehoboam send Adoram, the officer wey dey over forced labour, go meet Israel, but the people stone am die, wey show say dem vex well for the forced labour matter. Rehoboam quick run go Jerusalem. E dey 1 Kings 12:18.",
+"id": "crsv0806",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Which prophet told Rehoboam and the men of Judah not to go to war against their brothers in Israel after the kingdom split?",
+"options": [
+"Nathan",
+"Shemaiah",
+"Elijah",
+"Gad"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When Rehoboam gathered an army to fight Israel and reunite the kingdom, the prophet Shemaiah told him that the division was from God and he should not fight his brothers. Rehoboam obeyed and sent the army home. This is found in 1 Kings 12:21-24.",
+"pidgin": "When Rehoboam gather army to fight Israel make e reunite the kingdom, prophet Shemaiah tell am say na God cause the division so make e no fight im brothers. Rehoboam listen and send the army go house. E dey 1 Kings 12:21-24.",
+"id": "crsv0807",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

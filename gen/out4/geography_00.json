@@ -1,0 +1,175 @@
+{
+"subject": "geography",
+"topic": "The earth and the solar system",
+"ti": 0,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following planets in the solar system is closest to the Sun?",
+"options": [
+"Mercury",
+"Venus",
+"Earth",
+"Mars"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Mercury is the planet closest to the Sun, at about 58 million km away. Venus, Earth and Mars are progressively farther out in that order.",
+"pidgin": "Mercury na di planet wey close pass to Sun, e dey like 58 million km comot. Venus, Earth and Mars dey far pass am.",
+"py": null,
+"values": null,
+"id": "wgeo0000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which term best describes the actual shape of the Earth?",
+"options": [
+"Perfect sphere",
+"Oblate spheroid (geoid)",
+"Flat disc",
+"Elliptical cylinder"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Earth is not a perfect sphere; it bulges slightly at the equator and is flattened at the poles due to its rotation. This shape is called an oblate spheroid or geoid.",
+"pidgin": "Earth no be perfect ball; e dey bulge small for equator and flat for poles because of how e dey turn. Dem dey call dis shape oblate spheroid or geoid.",
+"py": null,
+"values": null,
+"id": "wgeo0001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The daily alternation of day and night on Earth is mainly caused by which of the following?",
+"options": [
+"Revolution around the Sun",
+"Tilt of the Earth's axis",
+"Rotation on its axis",
+"The elliptical shape of its orbit"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The Earth completes one rotation on its axis in about 24 hours. The side facing the Sun experiences daytime while the opposite side experiences night.",
+"pidgin": "Earth dey do one full turn for im axis for like 24 hours. Di side wey face sun go get daytime while di oda side go get night.",
+"py": null,
+"values": null,
+"id": "wgeo0002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Town P is located on longitude 15°W while Town Q is located on longitude 45°E. If the local time at Town P is 9:00 am, what is the local time at Town Q?",
+"options": [
+"5:00 am",
+"9:00 am",
+"1:00 am",
+"1:00 pm"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Longitude difference = 45° - (-15°) = 60°. Time difference = 60/15 = 4 hours. Since Town Q is east of Town P, its local time is ahead: 9:00 am + 4 hours = 1:00 pm.",
+"pidgin": "Longitude difference na 45 minus negative 15 wey be 60°. Time difference na 60/15 = 4 hours. Since Q dey east pass P, im time dey ahead: 9:00am add 4 hours give 1:00pm.",
+"py": null,
+"values": null,
+"id": "wgeo0003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Two towns, R and S, lie on the same longitude. Town R is on latitude 6°N while Town S is on latitude 14°N. If 1° of latitude along a meridian equals 111 km, what is the distance between the two towns?",
+"options": [
+"1332 km",
+"666 km",
+"888 km",
+"1554 km"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Distance along a meridian = difference in latitude x 111 km = (14° - 6°) x 111 km = 8 x 111 = 888 km.",
+"pidgin": "Distance for meridian na latitude difference times 111 km = (14-6) x 111 = 8 x 111 = 888 km.",
+"py": "(14-6)*111",
+"values": [
+1332,
+666,
+888,
+1554
+],
+"id": "wgeo0004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "The tilt of the Earth's axis at about 23.5° to the vertical, combined with the Earth's revolution around the Sun, is mainly responsible for which of the following?",
+"options": [
+"The variation of seasons on Earth",
+"The occurrence of leap years",
+"The difference in local time between places",
+"The occurrence of eclipses"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Because the Earth's axis is tilted, different parts of the Earth receive more or less direct sunlight at different times of the year as it revolves around the Sun. This produces the seasons.",
+"pidgin": "Because Earth axis dey tilt, different parts of Earth go dey receive sunlight differently as e dey waka round Sun. Na so seasons dey happen.",
+"py": null,
+"values": null,
+"id": "wgeo0005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Using the Earth's radius as 6400 km and pi = 22/7, calculate the distance along the parallel of latitude 60°N between two towns whose longitudes are 10°E and 40°E.",
+"options": [
+"838 km",
+"1676 km",
+"2014 km",
+"3352 km"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The circumference of the parallel at 60°N = 2 x pi x R x cos60° = 2 x 22/7 x 6400 x 0.5 ≈ 20114 km. The longitude difference is 30°, so the distance = (30/360) x 20114 ≈ 1676 km.",
+"pidgin": "Di circumference for di 60°N parallel na 2 x pi x R x cos60° = 2 x 22/7 x 6400 x 0.5 wey be like 20114 km. Longitude difference na 30°, so distance na (30/360) x 20114 wey be like 1676 km.",
+"py": "(2*(22/7)*6400*0.5)*(30/360)",
+"values": [
+838,
+1676,
+2014,
+3352
+],
+"id": "wgeo0006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

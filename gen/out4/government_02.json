@@ -1,0 +1,167 @@
+{
+"subject": "government",
+"topic": "Constitution and constitutionalism",
+"ti": 2,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best defines a constitution?",
+"options": [
+"The body of rules and principles that guide the governance of a state",
+"A set of laws made only by the legislature",
+"A document containing only the fundamental rights of citizens",
+"A set of customs followed by traditional rulers in a community"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A constitution is the general body of rules and principles by which a state is governed, covering the structure and powers of government as well as citizens' rights. It is broader than just laws from the legislature or a rights-only document.",
+"pidgin": "Constitution na di general rules and principles wey dem dey use govern one kontri. E no be just laws wey legislature pass or only about citizens right, e cover everything about how government go work.",
+"id": "wgov0200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these countries is commonly cited as an example of a country with an unwritten constitution?",
+"options": [
+"The Federal Republic of Nigeria",
+"Great Britain",
+"The United States of America",
+"The Republic of Ghana"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Britain's constitution is not contained in one single document; it is made up of statutes, conventions, judicial decisions and customs built over time. Nigeria, the USA and Ghana all have their constitutions written in a single formal document.",
+"pidgin": "Britain constitution no dey inside one document, na combination of laws, customs, court judgements and tradition wey don grow over time. Nigeria, USA and Ghana get their own written down for one document.",
+"id": "wgov0201",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A constitution is said to be rigid when it has which of these features?",
+"options": [
+"It can be amended through the ordinary law-making process",
+"It is not written down in any single document",
+"Its amendment requires a special and more difficult procedure than ordinary laws",
+"It applies only to members of the executive arm of government"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A rigid constitution needs a special, often more difficult, procedure (like special majorities) to amend, unlike ordinary laws which pass through the normal legislative process. This makes it harder to change than regular statutes.",
+"pidgin": "Rigid constitution na di one wey dem need special and harder process to change, e no be like normal law wey dem fit change anyhow. Na why e dey different from ordinary laws.",
+"id": "wgov0202",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following statements best describes the meaning of constitutionalism?",
+"options": [
+"The mere existence of a written constitution in a country",
+"The power of a Head of State to suspend the constitution during emergencies",
+"The process by which a new constitution is drafted and adopted",
+"Government conducted strictly within the limits and principles laid down by the constitution"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Constitutionalism means that government and its officials operate within the limits set by the constitution, respecting the rule of law and citizens' rights. Simply having a written constitution does not guarantee this if the rules are ignored in practice.",
+"pidgin": "Constitutionalism mean say government and dem officials dey rule according to wetin constitution talk, dem go respect rule of law and people rights. To just get written constitution no mean say dem dey follow am well well.",
+"id": "wgov0203",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Under the 1999 Constitution of Nigeria, if an Act of the National Assembly conflicts with a provision of the Constitution, what happens to that Act?",
+"options": [
+"It is void to the extent of its inconsistency with the Constitution",
+"It automatically becomes part of the Constitution",
+"The President decides which of the two should be obeyed",
+"It remains valid until the Senate President cancels it"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Constitution is supreme, so any law that conflicts with it is null and void only to the extent of that inconsistency, while the rest of the law may still stand. This is a key feature of constitutional supremacy.",
+"pidgin": "Constitution na di highest law, so any law wey no match am go be useless for di part wey no agree with am, but di other parts fit still dey work. Na so constitutional supremacy dey work.",
+"id": "wgov0204",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is a major requirement for amending the 1999 Constitution of Nigeria?",
+"options": [
+"A simple majority vote of members present at a National Assembly sitting",
+"Two-thirds majority vote of each House of the National Assembly plus a resolution by at least two-thirds of all State Houses of Assembly",
+"A national referendum conducted by INEC without any involvement of the legislature",
+"The signature of the Chief Justice of Nigeria alone"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Amending the 1999 Constitution requires a two-thirds majority in both the Senate and House of Representatives, plus approval by at least two-thirds of the 36 State Houses of Assembly. This strict, layered process is why the constitution is described as rigid.",
+"pidgin": "To change 1999 Constitution, Senate and House of Reps go need two-third majority, and at least two-third out of di 36 State Houses of Assembly must agree too. Na dis strict process make di constitution rigid.",
+"id": "wgov0205",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a certain West African country, the constitution guarantees freedom from arbitrary arrest, yet security agents regularly detain critics of the government without trial and the courts' orders for their release are ignored. This situation best illustrates which of the following?",
+"options": [
+"True constitutionalism in practice",
+"A flexible constitution in operation",
+"The existence of a constitution without constitutionalism",
+"Federalism being practised effectively"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Having a written constitution with rights on paper is not the same as constitutionalism, which requires government to actually respect and be limited by those rules. Ignoring court orders and detaining people unlawfully shows a constitution exists but constitutionalism is absent.",
+"pidgin": "To just get constitution wey talk about freedom no mean say constitutionalism dey ground, because constitutionalism na when government dey follow di rules for real. If dem dey detain people anyhow and ignore court, na constitution dey but constitutionalism no dey.",
+"id": "wgov0206",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Chief Okoro says Nigeria's 1999 Constitution is rigid because changing it requires a special, difficult procedure. Mallam Sule says it is somewhat flexible because the National Assembly can pass many ordinary laws without touching the Constitution itself. Whose view best describes the true nature of the Constitution?",
+"options": [
+"Chief Okoro only, since every single law passed must follow the complex amendment procedure",
+"Mallam Sule only, since the entire Constitution can be changed by a simple majority vote",
+"Neither of them, because Nigeria actually operates an unwritten constitution",
+"Both of them, since the Constitution itself is rigid for amendments while ordinary laws are made separately without needing such amendment",
+"None of them, since Nigeria has never amended its Constitution"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Chief Okoro is right that amending the Constitution's provisions needs a special, hard procedure (rigidity). Mallam Sule is also right that ordinary laws, which do not alter the Constitution, can be passed through the normal legislative process. Both statements are correct because they describe two different things: constitutional amendment versus ordinary law-making.",
+"pidgin": "Chief Okoro correct say to change constitution need special hard process, na so rigidity take be. Mallam Sule sef correct say National Assembly fit pass normal laws anyhow without touch di constitution. Both of dem correct because dem dey talk about two different things - constitution amendment and normal law making."
+},
+"why": "bad-shape"
+}
+]
+}

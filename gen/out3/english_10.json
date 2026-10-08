@@ -1,0 +1,116 @@
+{
+"subject": "english",
+"topic": "Spelling and punctuation: choose the correctly spelt/punctuated option",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the correctly spelt word.",
+"options": [
+"ACCOMMODATE",
+"ACCOMODATE",
+"ACOMMODATE",
+"ACCOMADATE"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The correct spelling is ACCOMMODATE, with double C and double M. Many people wrongly leave out one of the double letters.",
+"pidgin": "Di correct spelling na ACCOMMODATE, e get double C and double M. Plenty people dey miss one of di double letters.",
+"id": "engv1000",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that is correctly punctuated.",
+"options": [
+"The childrens toys were scattered all over the floor.",
+"The children's toys were scattered all over the floor.",
+"The childrens' toys were scattered all over the floor.",
+"The childrens toy's were scattered all over the floor."
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "\"Children\" is already a plural word that does not end in s, so its possessive form is made by adding apostrophe + s: children's. Therefore \"The children's toys\" is correct.",
+"pidgin": "\"Children\" na plural word wey no end with s, so to show say dem own di toys, you go add apostrophe + s: children's. So \"The children's toys\" na im correct.",
+"id": "engv1001",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the option that is correctly punctuated.",
+"options": [
+"Ngozi studied hard for the exam, she still scored low.",
+"Ngozi studied hard for the exam; but she still scored low.",
+"Ngozi studied hard for the exam, but she still scored low.",
+"Ngozi studied hard for the exam but, she still scored low."
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "When a comma joins two independent clauses, it must be followed by a coordinating conjunction like \"but\". \"Ngozi studied hard for the exam\" and \"she still scored low\" are both complete sentences, so a comma plus \"but\" correctly links them.",
+"pidgin": "If comma wan join two full sentences, e need coordinating conjunction like \"but\" after am. \"Ngozi studied hard for the exam\" and \"she still scored low\" na two complete sentences, so comma plus \"but\" na di correct way to join dem.",
+"id": "engv1002",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Choose the correctly spelt word.",
+"options": [
+"GOVERMENT",
+"GORVENMENT",
+"GOVERNMENTE",
+"GOVERNMENT"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The correct spelling is GOVERNMENT. Notice the \"n\" before \"ment\", which many learners forget to include.",
+"pidgin": "Di correct spelling na GOVERNMENT. Notice di \"n\" before \"ment\", wey many pipo dey forget to add.",
+"id": "engv1003",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Choose the correctly spelt word.",
+"options": [
+"RECEIVE",
+"RECIEVE",
+"RECEEVE",
+"RECEVE"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The word follows the rule \"i before e except after c\", so after the letter c, we write \"ei\": RECEIVE. This is the only correctly spelt option.",
+"pidgin": "Di word dey follow di rule \"i before e except after c\", so after c, na \"ei\" we go write: RECEIVE. Na im be di only correct spelling.",
+"id": "engv1004",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the option that is correctly punctuated.",
+"options": [
+"Mr. Adeyemi brought three items pen, book, and ruler.",
+"Mr. Adeyemi brought three items: pen, book, and ruler.",
+"Mr. Adeyemi brought three items, pen, book, and ruler.",
+"Mr. Adeyemi brought three items; pen, book, and ruler."
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A colon is used after a complete independent clause to introduce a list. \"Mr. Adeyemi brought three items\" is a complete statement, so a colon correctly introduces the list: pen, book, and ruler.",
+"pidgin": "Dem dey use colon after complete sentence to introduce list. \"Mr. Adeyemi brought three items\" na complete sentence, so colon fit introduce di list well: pen, book, and ruler.",
+"id": "engv1005",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,80 @@
+{
+"subject": "biology",
+"topic": "Cell structure, organelles and levels of organisation",
+"generated": 4,
+"kept": [
+{
+"q": "Which cell organelle is often called the 'powerhouse of the cell' because it carries out aerobic respiration to produce most of the cell's ATP?",
+"options": [
+"Golgi apparatus",
+"Mitochondrion",
+"Ribosome",
+"Lysosome"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The mitochondrion has cristae where aerobic respiration takes place to release energy as ATP. The other organelles have different jobs: Golgi packages substances, ribosomes make proteins, and lysosomes digest materials.",
+"pidgin": "Mitochondrion na di 'powerhouse' because na im dey use oxygen take break down food make ATP (energy) comot. Di oda ones no dey make energy like dat - Golgi na for packaging, ribosome na for protein, lysosome na for digestion.",
+"id": "biov0100",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "A Nigerian sportswoman trains daily and her leg muscle cells work very hard during races. If a scientist compares her leg muscle cells with ordinary fat-storage (adipose) cells from the same body, which organelle would be expected to be present in much greater number in the muscle cells?",
+"options": [
+"Mitochondria",
+"Vacuole",
+"Nucleolus",
+"Golgi apparatus"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Muscle cells that contract repeatedly need a constant, large supply of ATP for movement, so they contain many more mitochondria than fat-storage cells. Vacuoles, nucleoli and Golgi bodies are not specifically linked to high energy demand for contraction.",
+"pidgin": "Muscle cell wey dey always contract need plenty ATP (energy) so e go get plenty mitochondria pass fat cell. Vacuole, nucleolus and Golgi no dey directly connect to energy wey body need for movement like dat.",
+"id": "biov0101",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Which of the following correctly matches a level of biological organisation with a suitable example?",
+"options": [
+"Tissue level - the human stomach",
+"Organ level - cardiac muscle tissue of the heart",
+"Organ system level - the human heart alone",
+"Tissue level - xylem tissue in a plant stem"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Xylem is a true tissue made of similar cells (vessels, tracheids) working together to transport water, so it correctly represents the tissue level. The stomach is an organ (not just a tissue), cardiac muscle is a tissue (not a whole organ), and the heart alone is an organ (not a full system, since the system includes blood vessels too).",
+"pidgin": "Xylem na correct example of tissue because na similar cells wey dey carry water together. Stomach na organ (no be just tissue), cardiac muscle na tissue (no be whole organ), and heart alone na organ (e no be full system, system go include blood vessels too).",
+"id": "biov0102",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "In an experiment, a researcher uses a precise laser to destroy only the nucleolus inside a living eukaryotic cell, leaving every other part of the nucleus intact. Which of the following cellular processes would be most directly and immediately disrupted?",
+"options": [
+"Replication of the cell's DNA",
+"Assembly of ribosomal subunits",
+"Breakdown of glucose in the cytoplasm",
+"Synthesis of membrane lipids"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The nucleolus is the site where ribosomal RNA (rRNA) is made and combined with proteins to form ribosomal subunits, so destroying it would most directly stop new ribosome assembly. DNA replication, glucose breakdown and lipid synthesis happen in other parts of the cell and do not depend directly on the nucleolus.",
+"pidgin": "Nucleolus na im dey make rRNA and join am wit protein to form ribosome parts, so if dem destroy am, ribosome assembly go stop sharp-sharp. DNA replication, glucose breakdown and lipid synthesis dey happen for oda parts of cell wey no dey depend on nucleolus like dat.",
+"id": "biov0103",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,112 @@
+{
+"subject": "physics",
+"topic": "Work, energy and power",
+"generated": 4,
+"kept": [
+{
+"q": "A man of mass 60 kg climbs a vertical ladder of height 4 m in 8 seconds. Taking g = 10 m/s^2, calculate the average power he develops.",
+"options": [
+"300 W",
+"240 W",
+"480 W",
+"150 W"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Work done = mgh = 60 x 10 x 4 = 2400 J. Power = work/time = 2400/8 = 300 W.",
+"pidgin": "Work wey e do = mgh = 60 x 10 x 4 = 2400 J. Power = work divide by time = 2400/8 = 300 W.",
+"py": "60*10*4/8",
+"values": [
+300,
+240,
+480,
+150
+],
+"id": "phyv0500",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A trailer of mass 1500 kg moving at 20 m/s is brought to rest by a constant braking force acting over a distance of 50 m. Using the work-energy theorem, calculate the magnitude of the braking force.",
+"options": [
+"3000 N",
+"6000 N",
+"12000 N",
+"1500 N"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "By the work-energy theorem, F x d = (1/2)mv^2. So F = (0.5 x 1500 x 20^2)/50 = 300000/50 = 6000 N.",
+"pidgin": "Work-energy theorem say F x d = (1/2)mv^2. So F = (0.5 x 1500 x 20^2)/50 = 300000/50 = 6000 N.",
+"py": "(0.5*1500*20**2)/50",
+"values": [
+3000,
+6000,
+12000,
+1500
+],
+"id": "phyv0501",
+"check": {
+"s1": "B",
+"s2": "B",
+"py": "py-ok"
+}
+},
+{
+"q": "A small ball of mass 0.5 kg is released from rest at the top of a smooth frictionless incline of vertical height 1.25 m. Using the principle of conservation of energy, find the speed of the ball when it reaches the bottom of the incline. Take g = 10 m/s^2.",
+"options": [
+"10 m/s",
+"2.5 m/s",
+"5 m/s",
+"12.5 m/s"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Since the incline is smooth, loss in PE equals gain in KE: mgh = (1/2)mv^2, so v = sqrt(2gh) = sqrt(2 x 10 x 1.25) = sqrt(25) = 5 m/s.",
+"pidgin": "Since the incline no get friction, the PE wey e lose turn to KE: mgh = (1/2)mv^2, so v = sqrt(2gh) = sqrt(2 x 10 x 1.25) = sqrt(25) = 5 m/s.",
+"py": "math.sqrt(2*10*1.25)",
+"values": [
+10,
+2.5,
+5,
+12.5
+],
+"id": "phyv0502",
+"check": {
+"s1": "C",
+"s2": "C",
+"py": "py-ok"
+}
+},
+{
+"q": "A pump raises water from a well at a rate of 2 cubic metres per minute to a height of 15 m. If the density of water is 1000 kg/m^3, g = 10 m/s^2, and the pump works at an efficiency of 80%, calculate the power input required to operate the pump.",
+"options": [
+"5000 W",
+"4000 W",
+"6667 W",
+"6250 W"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Mass flow rate = 2 x 1000/60 = 33.33 kg/s. Useful output power = mgh per second = 33.33 x 10 x 15 = 5000 W. Since efficiency = output/input, input power = 5000/0.8 = 6250 W.",
+"pidgin": "Mass wey dey flow per second = 2 x 1000/60 = 33.33 kg/s. The output power = mgh per second = 33.33 x 10 x 15 = 5000 W. Since efficiency = output/input, input power = 5000/0.8 = 6250 W.",
+"py": "(2*1000/60*10*15)/0.8",
+"values": [
+5000,
+4000,
+6667,
+6250
+],
+"id": "phyv0503",
+"check": {
+"s1": "D",
+"s2": "D",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

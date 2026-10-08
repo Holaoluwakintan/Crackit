@@ -1,0 +1,169 @@
+{
+"subject": "economics",
+"topic": "Economic development and planning",
+"ti": 16,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best defines economic development?",
+"options": [
+"An increase in the total output of goods and services in a country over time",
+"The total value of goods and services produced in a country within a year",
+"A sustained increase in real per capita income accompanied by positive structural and qualitative changes in the economy",
+"An increase in the population of a country within a given year"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Economic development is more than just more output; it means real income per person rises steadily while the structure of the economy, welfare and quality of life also improve. Simple output growth or population increase alone does not amount to development.",
+"pidgin": "Economic development no be just say output increase; e mean say income wey dey reach person head dey rise well-well, and the kind of life and structure of economy dey better too. Just population or output increase no be development.",
+"py": null,
+"values": null,
+"id": "weco1600",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "What is the major difference between economic growth and economic development?",
+"options": [
+"Growth only occurs in developed countries while development occurs in developing countries",
+"Growth leads to inflation while development leads to deflation",
+"Growth is measured in years while development is measured in months",
+"Growth deals with quantitative increase in output while development involves qualitative improvement in living standards"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Economic growth is simply a rise in the quantity of goods and services (GDP), while economic development includes improvements in people's welfare, structure of the economy and living standards, which is a qualitative change.",
+"pidgin": "Growth na just when the amount of goods and services wey country dey produce increase, but development mean say the way people dey live and the structure of the economy dey better too. Na quality change be development, no be just quantity.",
+"py": null,
+"values": null,
+"id": "weco1601",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is NOT commonly used as an indicator of a country's level of economic development?",
+"options": [
+"Life expectancy at birth",
+"Military expenditure as a percentage of national budget",
+"Literacy rate",
+"Per capita income"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Life expectancy, literacy rate and per capita income are standard indicators of development used in measures like the Human Development Index. Military spending does not directly measure the welfare or living standards of citizens, so it is not a recognised development indicator.",
+"pidgin": "Life expectancy, literacy rate and per capita income na the common things wey dem dey use measure development, like for Human Development Index. Military spending no dey show how people dey live well, so e no be development indicator.",
+"py": null,
+"values": null,
+"id": "weco1602",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Economic planning can best be defined as",
+"options": [
+"a deliberate and conscious effort by government to direct and coordinate economic activities to achieve set goals over a period",
+"the process by which government controls all means of production in an economy",
+"the buying and selling of goods and services in a free market without government interference",
+"the process of estimating the annual budget of a country"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Economic planning involves government deliberately setting goals and coordinating resources and activities over a specific period to achieve national objectives. It is not the same as full state control of production, pure market activity, or just preparing a budget.",
+"pidgin": "Economic planning na when government dey purposely arrange and coordinate the economy to reach some goals within time. E no be say government must control everything, or just market wey no get interference, or just budget preparation.",
+"py": null,
+"values": null,
+"id": "weco1603",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Nigeria's First National Development Plan was implemented between which years?",
+"options": [
+"1946-1956",
+"1962-1968",
+"1970-1974",
+"1975-1980"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Nigeria's First National Development Plan covered the period 1962 to 1968, shortly after independence, aimed at laying a foundation for rapid economic growth and infrastructural development.",
+"pidgin": "Nigeria First National Development Plan na from 1962 to 1968, soon after independence, wey dem use try build infrastructure and push economic growth.",
+"py": null,
+"values": null,
+"id": "weco1604",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following is a common problem militating against successful economic planning in developing countries like Nigeria?",
+"options": [
+"Abundance of skilled manpower for plan implementation",
+"Excessive availability of capital for project execution",
+"Too much political stability affecting plan continuity",
+"Inadequate and unreliable statistical data for planning purposes"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Good planning needs accurate data on population, resources and the economy. In many developing countries, including Nigeria, statistics are often outdated, incomplete or unreliable, making realistic planning and target-setting difficult.",
+"pidgin": "To plan well, dem need correct data about population, resources and economy. For many developing countries like Nigeria, the data dem dey old or no complete, so e dey hard to plan well or set realistic target.",
+"py": null,
+"values": null,
+"id": "weco1605",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A country's national income rose from ₦120 billion to ₦150 billion within one year, while its population remained constant at 25 million. What was the percentage increase in per capita income?",
+"options": [
+"25%",
+"20%",
+"30%",
+"15%"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Per capita income before = 120,000,000,000 / 25,000,000 = ₦4,800. Per capita income after = 150,000,000,000 / 25,000,000 = ₦6,000. Percentage increase = (6000 - 4800)/4800 x 100 = 25%.",
+"pidgin": "Per capita income before na 120 billion divide by 25 million = ₦4,800. After, na 150 billion divide by 25 million = ₦6,000. The increase be (6000-4800)/4800 x 100 = 25%.",
+"py": "((150e9/25e6) - (120e9/25e6)) / (120e9/25e6) * 100",
+"values": [
+25,
+20,
+30,
+15
+],
+"id": "weco1606",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,188 @@
+{
+"subject": "accounting",
+"topic": "Trial balance and correction of errors",
+"ti": 3,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best describes a trial balance in financial accounting?",
+"options": [
+"A statement showing the financial position of a business at a particular date",
+"A list of ledger account balances extracted to check the arithmetical accuracy of the books",
+"A summary of all cash transactions during an accounting period",
+"A statement showing the profit or loss made by a business during a trading period"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A trial balance is a list of all ledger balances (debit and credit) drawn up to test whether the double entry has been correctly done. It is not the same as a balance sheet or a profit and loss account.",
+"pidgin": "Trial balance na list of all the ledger balances wey dem bring together to check if the double entry correct well. E no be balance sheet or profit and loss account.",
+"py": null,
+"values": null,
+"id": "wacc0300",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Adaeze, a trader, forgot to record a cash sale of ₦12,000 in both the Sales account and the Cash account. What type of error has occurred?",
+"options": [
+"Error of commission",
+"Error of principle",
+"Error of complete omission",
+"Compensating error"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Since the transaction was not entered anywhere at all (no debit and no credit), it is an error of complete omission. This type of error does not affect the trial balance agreement because both sides are equally unaffected.",
+"pidgin": "Since dem no enter the transaction for any account at all, na error of complete omission. This kind error no go affect trial balance agreement because both sides no get wetin enter.",
+"py": null,
+"values": null,
+"id": "wacc0301",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Chief Obi's draft trading and profit and loss account showed a net profit of ₦240,000. It was later discovered that a credit purchase of goods worth ₦18,000 had been completely omitted from the books. After correcting this error, what is the correct net profit?",
+"options": [
+"₦222,000",
+"₦258,000",
+"₦240,000",
+"₦18,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Omitting a credit purchase means purchases (and cost of sales) were understated by ₦18,000, which made net profit overstated. Correct net profit = ₦240,000 - ₦18,000 = ₦222,000.",
+"pidgin": "If dem miss credit purchase, e mean say purchases and cost of sales dey less by ₦18,000, so profit go too high. Correct profit = ₦240,000 - ₦18,000 = ₦222,000.",
+"py": "240000-18000",
+"values": [
+222000,
+258000,
+240000,
+18000
+],
+"id": "wacc0304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader bought a delivery van for ₦850,000 for his transport business but debited the full amount to the Motor Running Expenses account instead of the Motor Vehicle (fixed asset) account. What type of error is this?",
+"options": [
+"Error of omission",
+"Error of commission",
+"Error of principle",
+"Compensating error"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Treating a capital expenditure (purchase of a fixed asset) as a revenue expense breaks the basic accounting principle of distinguishing capital from revenue items, so it is an error of principle. The trial balance will still balance because a debit entry was still made, just in the wrong class of account.",
+"pidgin": "To treat capital spending (buying asset) as if na revenue expense dey break basic accounting principle, so na error of principle. Trial balance go still balance because debit entry still dey, na wrong class of account dem use.",
+"py": null,
+"values": null,
+"id": "wacc0305",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "An accounting clerk recorded a cash payment of ₦7,500 made to a supplier, Mr. Bala, by debiting the Cash account and crediting Bala's account — a complete reversal of the correct entries. What amount should be used in the journal entry to correct this error?",
+"options": [
+"₦3,750",
+"₦7,500",
+"₦15,000",
+"₦22,500"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "To correct a complete reversal, you must first cancel the wrong entry (₦7,500) and then record the correct entry (another ₦7,500), giving a total correcting amount of 2 x ₦7,500 = ₦15,000, debited to Bala's account and credited to Cash.",
+"pidgin": "To correct complete reversal, you go first cancel the wrong entry (₦7,500) then do the correct entry (another ₦7,500) — altogether na 2 x ₦7,500 = ₦15,000, wey go debit Bala account and credit Cash.",
+"py": "7500*2",
+"values": [
+3750,
+7500,
+15000,
+22500
+],
+"id": "wacc0306",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Okon bought stationery worth ₦4,500 for his shop but posted the amount to the Office Equipment account instead of the Stationery account, even though both are legitimate expense accounts. This is an example of:",
+"options": [
+"Error of principle",
+"Error of commission",
+"Error of original entry",
+"Complete reversal of entries"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "An error of commission occurs when an entry is posted to the wrong account of the same class (both expense accounts), even though the correct amount and correct side are used. It does not break the double-entry rule, so the trial balance still balances.",
+"pidgin": "Error of commission na when dem post entry go wrong account but the account still be same type (both na expense account). The amount and side correct, so trial balance still balance.",
+"py": null,
+"values": null,
+"id": "wacc0302",
+"check": {
+"s1": "B",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+"why": "solver2-disagrees:A"
+},
+{
+"q": {
+"q": "While preparing the trial balance of her business, Mrs. Eze found that the total of the debit column was ₦185,400 while the total of the credit column was ₦179,650. She opened a suspense account to make the trial balance agree temporarily. What amount and balance should appear in the suspense account?",
+"options": [
+"₦5,750 debit balance",
+"₦5,750 credit balance",
+"₦11,400 credit balance",
+"₦365,050 debit balance"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The difference is ₦185,400 - ₦179,650 = ₦5,750. Since the debit side is bigger, a credit balance of ₦5,750 is placed in the suspense account to make both sides equal.",
+"pidgin": "The difference na ₦185,400 - ₦179,650 = ₦5,750. Since debit side pass credit side, dem go put ₦5,750 credit balance for suspense account make both sides balance.",
+"py": "185400-179650",
+"values": [
+5750,
+5750,
+11400,
+365050
+],
+"id": "wacc0303",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+}
+]
+}

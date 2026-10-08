@@ -1,0 +1,123 @@
+{
+"subject": "english",
+"topic": "Oral English: consonant sounds (choose the word with the same consonant sound as the letters in CAPITALS)",
+"generated": 6,
+"kept": [
+{
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in capitals: SHip",
+"options": [
+"CHef",
+"CHurch",
+"GHost",
+"Psalm"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The letters SH in 'ship' represent the sound /sh/. 'Chef' also has this /sh/ sound, borrowed from French spelling. 'Church' has /ch/, 'ghost' has /g/, and 'psalm' has /s/, so they do not match.",
+"pidgin": "Di SH for 'ship' na /sh/ sound. 'Chef' get di same /sh/ sound because of how dem borrow am from French. 'Church' na /ch/, 'ghost' na /g/, 'psalm' na /s/, so dem no match.",
+"id": "engv1200",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in capitals: KNow",
+"options": [
+"Keen",
+"Gnaw",
+"Ghost",
+"Psychology"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In 'know', the K is silent, so KN represents the sound /n/. 'Gnaw' also has a silent G, leaving the /n/ sound. 'Keen' begins with /k/, 'ghost' begins with /g/, and 'psychology' begins with /s/, so none of these match /n/.",
+"pidgin": "For 'know', di K no dey sound, so KN be /n/ sound. 'Gnaw' also get silent G, so na /n/ remain. 'Keen' na /k/, 'ghost' na /g/, 'psychology' na /s/, so dem no match /n/.",
+"id": "engv1201",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in capitals: WRite",
+"options": [
+"Rhyme",
+"Wet",
+"Know",
+"Ghetto"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In 'write', the W is silent, so WR gives the sound /r/. 'Rhyme' also has a silent H, leaving the /r/ sound. 'Wet' begins with /w/, 'know' begins with /n/, and 'ghetto' begins with /g/, so they do not match /r/.",
+"pidgin": "For 'write', di W no dey sound, so WR na /r/ sound. 'Rhyme' also get silent H, so na /r/ remain. 'Wet' na /w/, 'know' na /n/, 'ghetto' na /g/, so dem no match /r/.",
+"id": "engv1202",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in capitals: saVE",
+"options": [
+"Wine",
+"Vow",
+"When",
+"Wet"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The letters VE in 'save' represent the sound /v/, with the final E silent. 'Vow' also begins with the /v/ sound. 'Wine', 'when', and 'wet' all begin with /w/, which is a different sound from /v/, so they do not match.",
+"pidgin": "Di VE for 'save' na /v/ sound, di last E no dey sound. 'Vow' too start with /v/ sound. 'Wine', 'when', and 'wet' dey start with /w/, wey different from /v/, so dem no match.",
+"id": "engv1205",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letter in capitals: eXit",
+"options": [
+"Exam",
+"Accent",
+"Example",
+"Exist"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In 'exit', the X is pronounced /ks/ because the stress falls before the X. 'Accent' also has the /ks/ sound from its double C. In 'exam', 'example', and 'exist', the X is pronounced /gz/ because the stress falls after the X, so they do not match.",
+"pidgin": "For 'exit', di X dey sound /ks/ because di stress dey before am. 'Accent' too get /ks/ sound from im double C. For 'exam', 'example', and 'exist', di X na /gz/ because stress dey after am, so dem no match.",
+"id": "engv1203",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+"why": "ambiguous:Exit can have /ks/ or /ɡz/; several options match /ɡz/.|Taking 'exit' as /ks/; the /gz/ variant fits A, C and D alike, so only B is a single answer"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in capitals: juDGE",
+"options": [
+"Soldier",
+"Garage",
+"Vague",
+"Guitar"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The letters DGE in 'judge' represent the sound /j/ (as in 'jam'). 'Soldier' also has this /j/ sound in its middle. 'Garage' ends with /zh/, while 'vague' and 'guitar' both have /g/, so they do not match.",
+"pidgin": "Di DGE for 'judge' na /j/ sound (like for 'jam'). 'Soldier' too get dat /j/ sound for im middle. 'Garage' end with /zh/, while 'vague' and 'guitar' get /g/, so dem no match.",
+"id": "engv1204",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+"why": "ambiguous:Garage can also end in /dʒ/.|British 'garage' /ˈɡærɪdʒ/ also ends in /dʒ/"
+}
+]
+}

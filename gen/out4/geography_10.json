@@ -1,0 +1,193 @@
+{
+"subject": "geography",
+"topic": "Statistical maps, charts and graphs",
+"ti": 10,
+"generated": 7,
+"kept": [
+{
+"q": "A statistical chart that uses small pictures or symbols, each representing a fixed quantity, to display data is called a:",
+"options": [
+"Pictogram",
+"Choropleth map",
+"Isoline map",
+"Scatter diagram"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A pictogram uses repeated small pictures or symbols, where each symbol stands for a fixed number of items, to show statistical data in a simple visual way.",
+"pidgin": "Pictogram na chart wey dey use small pictures or symbols, where each one dey represent fixed number, to show data for simple way.",
+"py": null,
+"values": null,
+"id": "wgeo1000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer in Benue State cultivates four crops on his 80-hectare farm as follows: Yam 20 hectares, Cassava 24 hectares, Maize 16 hectares and Rice 20 hectares. If this information is drawn as a pie chart, what angle would represent the area under Cassava?",
+"options": [
+"72°",
+"108°",
+"90°",
+"120°"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "To find the angle for Cassava, divide its area by the total area and multiply by 360 degrees: (24/80) x 360 = 108°.",
+"pidgin": "To find the angle for Cassava, divide the area wey e cover by total area, multiply by 360: (24/80) x 360 = 108°.",
+"py": "(24/80)*360",
+"values": [
+72,
+108,
+90,
+120
+],
+"id": "wgeo1001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A bar chart shows the monthly rainfall of a town for five months as follows: January 50mm, February 70mm, March 120mm, April 160mm and May 200mm. What is the average monthly rainfall for the five months?",
+"options": [
+"100mm",
+"140mm",
+"120mm",
+"160mm"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Add all the values: 50+70+120+160+200 = 600mm, then divide by the number of months (5): 600/5 = 120mm.",
+"pidgin": "Add all the numbers: 50+70+120+160+200 = 600mm, then divide am by 5 months: 600/5 = 120mm.",
+"py": "(50+70+120+160+200)/5",
+"values": [
+100,
+140,
+120,
+160
+],
+"id": "wgeo1002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A pie chart shows how a family's monthly income of ₦60,000 is shared: Food takes an angle of 150°, Rent takes 90°, Transport takes 60°, and the rest goes to Savings. How much money is spent on Savings?",
+"options": [
+"₦20,000",
+"₦15,000",
+"₦25,000",
+"₦10,000"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The angle for Savings is 360 - (150+90+60) = 60°. Since 360° represents ₦60,000, the Savings amount is (60/360) x 60,000 = ₦10,000.",
+"pidgin": "The angle for Savings na 360 - (150+90+60) = 60°. Since 360° na ₦60,000, Savings go be (60/360) x 60,000 = ₦10,000.",
+"py": "(360-150-90-60)/360*60000",
+"values": [
+20000,
+15000,
+25000,
+10000
+],
+"id": "wgeo1003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A map that uses different shades or colours to show the varying intensity of a statistical variable, such as population density, within fixed boundaries like states or local government areas, is known as a:",
+"options": [
+"Isoline map",
+"Choropleth map",
+"Flow-line map",
+"Dot map"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A choropleth map uses shading or colour variation within defined boundaries to represent differences in a statistical value, such as density or output.",
+"pidgin": "Choropleth map na map wey dey use different shade or colour inside clear boundary (like state) to show difference for statistical value like density.",
+"py": null,
+"values": null,
+"id": "wgeo1004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A line graph shows the population of a village as follows: 1990 - 4,000 people, 2000 - 6,000 people, 2010 - 10,000 people. What was the average annual increase in population between 2000 and 2010?",
+"options": [
+"600",
+"300",
+"400",
+"500"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The increase between 2000 and 2010 is 10,000 - 6,000 = 4,000 over 10 years, so the average yearly increase is 4,000/10 = 400.",
+"pidgin": "The increase from 2000 to 2010 na 10,000 - 6,000 = 4,000 for 10 years, so average yearly increase na 4,000/10 = 400.",
+"py": "(10000-6000)/10",
+"values": [
+600,
+300,
+400,
+500
+],
+"id": "wgeo1005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "On a dot map of a region, each dot stands for 2,000 people. If a particular local government area on the map is represented by 15 dots, what is the estimated population of that area?",
+"options": [
+"15,000",
+"7,500",
+"17,000",
+"30,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Since each dot represents 2,000 people, the total population is found by multiplying the number of dots by the value per dot: 15 x 2,000 = 30,000.",
+"pidgin": "Since each dot mean 2,000 people, multiply number of dots by the value for each dot: 15 x 2,000 = 30,000.",
+"py": "15*2000",
+"values": [
+15000,
+7500,
+17000,
+30000
+],
+"id": "wgeo1006",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,187 @@
+{
+"subject": "accounting",
+"topic": "Manufacturing accounts",
+"ti": 12,
+"generated": 7,
+"kept": [
+{
+"q": "Prime cost in a manufacturing account consists of which combination of cost elements?",
+"options": [
+"Direct materials + Direct labour + Direct expenses",
+"Direct materials + Factory overhead + Administrative expenses",
+"Direct labour + Factory overhead + Selling expenses",
+"Direct materials + Direct labour + Factory overhead"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Prime cost is the total of all direct costs that can be traced straight to the units produced, that is direct materials, direct labour and direct expenses. Factory overhead is added later to get the production cost, not prime cost.",
+"pidgin": "Prime cost na all the direct costs wey dem fit trace straight to the goods wey dem produce - direct material, direct labour and direct expenses. Factory overhead no dey inside prime cost, e dey added later to find production cost.",
+"py": null,
+"values": null,
+"id": "wacc1200",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following items would NOT be classified as part of factory overhead in a manufacturing account?",
+"options": [
+"Rent and rates on the factory building",
+"Depreciation of factory machinery",
+"Carriage inwards on raw materials purchased",
+"Salary of the factory supervisor"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Carriage inwards on raw materials is added to the cost of purchases to find the cost of materials consumed, so it is a direct material cost, not factory overhead. Rent, machinery depreciation and supervisor's salary are all indirect factory costs.",
+"pidgin": "Carriage inwards on raw material na direct material cost, e dey added to purchases to find cost of material wey dem use - e no be factory overhead. But rent, machine depreciation and supervisor salary na indirect factory cost, so dem be overhead.",
+"py": null,
+"values": null,
+"id": "wacc1201",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Adaeze Ventures, a furniture manufacturer in Onitsha, provided the following data for the year: Opening stock of raw materials ₦25,000; Purchases of raw materials ₦180,000; Carriage inwards on raw materials ₦5,000; Closing stock of raw materials ₦30,000. Calculate the cost of raw materials consumed.",
+"options": [
+"₦180,000",
+"₦175,000",
+"₦210,000",
+"₦160,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Cost of raw materials consumed = Opening stock + Purchases + Carriage inwards - Closing stock = 25,000 + 180,000 + 5,000 - 30,000 = ₦180,000.",
+"pidgin": "Cost of raw material wey dem use = Opening stock + Purchases + Carriage inwards - Closing stock = 25,000 + 180,000 + 5,000 - 30,000 = ₦180,000.",
+"py": "25000+180000+5000-30000",
+"values": [
+180000,
+175000,
+210000,
+160000
+],
+"id": "wacc1202",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Blessing Manufacturing Company provided the following for the year: Cost of raw materials consumed ₦180,000; Direct labour ₦120,000; Direct expenses ₦15,000. Calculate the prime cost.",
+"options": [
+"₦300,000",
+"₦315,000",
+"₦335,000",
+"₦285,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Prime cost = Direct materials + Direct labour + Direct expenses = 180,000 + 120,000 + 15,000 = ₦315,000.",
+"pidgin": "Prime cost = Direct material + Direct labour + Direct expenses = 180,000 + 120,000 + 15,000 = ₦315,000.",
+"py": "180000+120000+15000",
+"values": [
+300000,
+315000,
+335000,
+285000
+],
+"id": "wacc1203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Chukwuma Industries recorded the following for the year: Prime cost ₦315,000; Factory overhead ₦85,000; Opening work-in-progress ₦20,000; Closing work-in-progress ₦35,000. Calculate the cost of production (cost of goods manufactured).",
+"options": [
+"₦400,000",
+"₦370,000",
+"₦385,000",
+"₦420,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Cost of production = Prime cost + Factory overhead + Opening WIP - Closing WIP = 315,000 + 85,000 + 20,000 - 35,000 = ₦385,000. The opening WIP is added because it joins current production, while closing WIP is removed because it is not yet finished.",
+"pidgin": "Cost of production = Prime cost + Factory overhead + Opening WIP - Closing WIP = 315,000 + 85,000 + 20,000 - 35,000 = ₦385,000. Dem add opening WIP because e dey join current production, dem remove closing WIP because e no don finish.",
+"py": "315000+85000+20000-35000",
+"values": [
+400000,
+370000,
+385000,
+420000
+],
+"id": "wacc1204",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Okafor Plastics transferred its finished goods from the factory to the trading account at a transfer price of ₦440,000, representing the market value of the goods produced. If the cost of production for the year was ₦385,000, what is the manufacturing profit for the year?",
+"options": [
+"₦35,000",
+"₦65,000",
+"₦825,000",
+"₦55,000"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Manufacturing profit = Market (transfer) value - Cost of production = 440,000 - 385,000 = ₦55,000. This profit shows how much the factory would have earned if it sold the goods to an outside buyer instead of its own trading section.",
+"pidgin": "Manufacturing profit = Market value (transfer price) - Cost of production = 440,000 - 385,000 = ₦55,000. Na the profit wey the factory for don make if e sell the goods to outside person instead of im own trading section.",
+"py": "440000-385000",
+"values": [
+35000,
+65000,
+825000,
+55000
+],
+"id": "wacc1205",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A shoe manufacturing company in Aba pays a royalty of ₦2 per pair of shoes produced to the patent holder of a special sole design used in production. How should this royalty payment be classified in the manufacturing account?",
+"options": [
+"Selling and distribution expense",
+"Direct expense",
+"Factory overhead",
+"Administrative expense"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since the royalty is paid based on the number of units produced, it can be directly traced to the goods manufactured, making it a direct expense that forms part of prime cost.",
+"pidgin": "Since dem dey pay the royalty based on number of shoes wey dem produce, e dey directly connect to the goods wey dem make, so e be direct expense wey dey inside prime cost.",
+"py": null,
+"values": null,
+"id": "wacc1206",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

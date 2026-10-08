@@ -1,0 +1,198 @@
+{
+"subject": "accounting",
+"topic": "Stock valuation (FIFO, LIFO, weighted average)",
+"generated": 8,
+"kept": [
+{
+"q": "Which method of stock (inventory) valuation assumes that the goods bought first are also the goods sold first, so that the closing stock consists of the most recently purchased items?",
+"options": [
+"First-In-First-Out (FIFO)",
+"Last-In-First-Out (LIFO)",
+"Weighted Average Cost",
+"Specific Identification"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "FIFO (First-In-First-Out) means the earliest purchased goods are sold first, so what remains in stock are the newest purchases.",
+"pidgin": "FIFO mean say the goods wey you buy first na im you go sell first, so the ones wey remain na the latest ones wey you buy.",
+"py": null,
+"values": null,
+"id": "accv1900",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "During a period of continuously rising prices, which stock valuation method will produce the LOWEST value for closing stock?",
+"options": [
+"FIFO",
+"LIFO",
+"Weighted Average Cost",
+"Replacement Cost"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "LIFO assumes the most recently bought (higher-priced) goods are sold first, leaving the older, cheaper goods in stock, so closing stock value is lowest when prices are rising.",
+"pidgin": "LIFO dey assume say the latest goods wey cost pass na im dem sell first, so the old cheap ones remain for store, dat na why closing stock go small pass.",
+"py": null,
+"values": null,
+"id": "accv1901",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Adaeze's shop had the following stock movements for rice bags in January: Opening stock was 100 bags at ₦50 each. On 10th January she bought 150 bags at ₦60 each. On 20th January she sold 180 bags. Using the FIFO method, what is the value of the closing stock at the end of January?",
+"options": [
+"₦4,200",
+"₦3,500",
+"₦3,900",
+"₦4,800"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total bags = 100+150 = 250. After selling 180, 70 bags remain. Under FIFO, the 180 sold come from the oldest stock first: all 100 opening bags plus 80 bags from the new purchase, leaving 70 bags from the ₦60 purchase. Closing stock = 70 x ₦60 = ₦4,200.",
+"pidgin": "Total bags na 250, she sell 180, so 70 remain. Under FIFO, the 180 wey she sell na the old 100 bags plus 80 from the new batch, so wetin remain na 70 bags from the ₦60 batch. 70 x ₦60 = ₦4,200.",
+"py": "70*60",
+"values": [
+4200,
+3500,
+3900,
+4800
+],
+"id": "accv1902",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Chinedu's provision store recorded the following for sugar during March: Opening stock was 200 bags at ₦40 each. On 15th March he bought 100 bags at ₦45 each. On 25th March he sold 250 bags. Using the LIFO method, what is the value of the closing stock at the end of March?",
+"options": [
+"₦2,000",
+"₦2,250",
+"₦2,083",
+"₦1,800"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total bags = 200+100 = 300. After selling 250, 50 bags remain. Under LIFO, the 250 sold come from the newest stock first: all 100 bags from the March purchase plus 150 bags from the opening stock, leaving 50 bags from the opening stock. Closing stock = 50 x ₦40 = ₦2,000.",
+"pidgin": "Total bags na 300, 250 don sell, so 50 remain. Under LIFO, the 250 wey sell na the new 100 bags plus 150 from the opening stock, so the 50 wey remain na from opening stock. 50 x ₦40 = ₦2,000.",
+"py": "50*40",
+"values": [
+2000,
+2250,
+2083,
+1800
+],
+"id": "accv1903",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A trader's stock record for cartons of tomato paste in April shows: Opening stock 50 cartons at ₦80 each, and a purchase on 10th April of 150 cartons at ₦90 each. On 20th April, 120 cartons were sold. Using the weighted average cost method (calculated once before the sale), what is the value of the closing stock?",
+"options": [
+"₦7,000",
+"₦7,200",
+"₦6,800",
+"₦7,500"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Weighted average cost = (50x80 + 150x90) / 200 = 17,500/200 = ₦87.5 per carton. Closing stock units = 50+150-120 = 80. Closing stock value = 80 x 87.5 = ₦7,000.",
+"pidgin": "Weighted average cost = (50x80 + 150x90)/200 = 17,500/200 = ₦87.5 per carton. Wetin remain na 80 cartons (50+150-120). So closing stock = 80 x 87.5 = ₦7,000.",
+"py": "80*(50*80+150*90)/200",
+"values": [
+7000,
+7200,
+6800,
+7500
+],
+"id": "accv1904",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "Prices of goods have been rising steadily throughout the year. Which statement correctly describes the effect of FIFO compared to LIFO on a trader's reported profit for the period?",
+"options": [
+"LIFO gives higher profit than FIFO because older, cheaper costs are matched against sales",
+"FIFO gives a lower profit than LIFO because recent, higher costs are matched against sales",
+"FIFO gives a higher profit than LIFO because cost of goods sold under FIFO is based on older, lower costs",
+"Profit under FIFO and LIFO will always be equal regardless of price movements"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Under FIFO, the cost of goods sold is based on the oldest (cheaper) stock, so cost of sales is lower and profit is higher during rising prices. LIFO matches the newest (more expensive) stock against sales, giving a higher cost of sales and lower profit.",
+"pidgin": "Under FIFO, cost of goods sold dey use the old cheap stock, so cost of sales go small and profit go high when price dey rise. LIFO dey use the new expensive stock, so cost of sales go high and profit go small.",
+"py": null,
+"values": null,
+"id": "accv1905",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "A wholesaler's stock card for bags of rice shows: Opening stock 40 bags at ₦100 each, Purchase 1 of 60 bags at ₦110 each, Purchase 2 of 100 bags at ₦120 each. During the period, 150 bags were sold. Using the periodic weighted average method, what is the cost of goods sold?",
+"options": [
+"₦16,950",
+"₦16,500",
+"₦17,000",
+"₦15,900"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Total cost = (40x100)+(60x110)+(100x120) = 4,000+6,600+12,000 = ₦22,600 for 200 bags, giving an average cost of ₦113 per bag. Cost of goods sold = 150 x ₦113 = ₦16,950.",
+"pidgin": "Total cost = (40x100)+(60x110)+(100x120) = 4,000+6,600+12,000 = ₦22,600 for 200 bags, so average cost na ₦113 per bag. Cost of goods sold = 150 x ₦113 = ₦16,950.",
+"py": "150*(40*100+60*110+100*120)/200",
+"values": [
+16950,
+16500,
+17000,
+15900
+],
+"id": "accv1906",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+},
+{
+"q": "A supermarket's stock record for cooking oil in May shows: Opening stock 80 units at ₦25 each, and a purchase on 12th May of 120 units at ₦30 each. On 25th May, 150 units were sold. What is the difference between the closing stock value under FIFO and under LIFO?",
+"options": [
+"₦250",
+"₦500",
+"₦750",
+"₦1,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Closing stock units = 80+120-150 = 50. Under FIFO, the 50 remaining units come from the 12th May purchase at ₦30, giving 50x30 = ₦1,500. Under LIFO, the 50 remaining units come from the opening stock at ₦25, giving 50x25 = ₦1,250. Difference = ₦1,500 - ₦1,250 = ₦250.",
+"pidgin": "Wetin remain na 50 units (80+120-150). Under FIFO, the 50 units na from the May 12 purchase at ₦30, so 50x30 = ₦1,500. Under LIFO, the 50 units na from opening stock at ₦25, so 50x25 = ₦1,250. Difference = ₦1,500 minus ₦1,250 = ₦250.",
+"py": "(50*30)-(50*25)",
+"values": [
+250,
+500,
+750,
+1000
+],
+"id": "accv1907",
+"check": {
+"s1": "A",
+"s2": "A",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

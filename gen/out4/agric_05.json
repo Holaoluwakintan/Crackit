@@ -1,0 +1,175 @@
+{
+"subject": "agric",
+"topic": "Land preparation, irrigation and drainage",
+"ti": 5,
+"generated": 7,
+"kept": [
+{
+"q": "In land preparation, which farm operation is mainly carried out to turn over the soil, bury weeds and crop residues, and expose soil pests to predators?",
+"options": [
+"Harrowing",
+"Ploughing",
+"Ridging",
+"Rolling"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Ploughing is the primary tillage operation that inverts the soil, buries weeds and trash, and brings pests to the surface where birds can eat them. Harrowing and ridging come after ploughing as secondary operations.",
+"pidgin": "Ploughing na di main work wey dem dey do to turn di soil upside down, bury weeds and old crop waste, and bring pests comot for di surface make birds chop dem. Harrowing and ridging dey come after ploughing.",
+"py": null,
+"values": null,
+"id": "wagr0500",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following farm implements is used after ploughing to break down large soil clods into a fine tilth before planting?",
+"options": [
+"Harrow",
+"Plough",
+"Cutlass",
+"Sprayer"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The harrow is used for secondary tillage to break big soil lumps left after ploughing into finer particles, making a good seedbed. A plough does primary tillage, a cutlass clears bush, and a sprayer applies chemicals.",
+"pidgin": "Harrow na di tool wey dem dey use break di big soil lumps wey plough leave, so dat di soil go fine well-well for planting. Plough na for first tillage, cutlass na for clear bush, sprayer na for spray chemical.",
+"py": null,
+"values": null,
+"id": "wagr0501",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A farmer in Sokoto State wants to irrigate his onion farm using a method that delivers water in small controlled amounts directly to the base of each plant through narrow tubes, thereby reducing water loss by evaporation. Which irrigation method is he using?",
+"options": [
+"Basin irrigation",
+"Sprinkler irrigation",
+"Drip irrigation",
+"Furrow irrigation"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Drip irrigation supplies water slowly and directly to each plant's root zone through narrow tubes or emitters, which saves water and reduces evaporation loss. Sprinkler sprays water over a wide area, while basin and furrow flood water across the field.",
+"pidgin": "Drip irrigation na im dey carry water small-small go straight to di root of each plant through narrow pipe, so e no go waste water through evaporation. Sprinkler dey spray water everywhere, while basin and furrow dey flood di whole field.",
+"py": null,
+"values": null,
+"id": "wagr0502",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which drainage method involves laying perforated pipes below the soil surface to collect and remove excess water from a waterlogged farmland without affecting the surface for cultivation?",
+"options": [
+"Open ditch drainage",
+"Subsurface (tile) drainage",
+"Contour bunding",
+"Mound drainage"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Subsurface or tile drainage uses buried perforated pipes to channel away excess underground water, leaving the land surface free for farming. Open ditch drainage uses visible surface channels that take up farmland space.",
+"pidgin": "Subsurface (tile) drainage na im dem dey bury perforated pipe under ground to carry excess water comot, so di land surface go still dey free for farming. Open ditch drainage na im dem dey dig open channel wey dey take farmland space.",
+"py": null,
+"values": null,
+"id": "wagr0503",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following crops grows best in a waterlogged or flooded farmland?",
+"options": [
+"Rice",
+"Groundnut",
+"Cowpea",
+"Sorghum"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Rice, especially lowland rice, is well adapted to grow in flooded or waterlogged soils because it has special tissues that allow air to reach its roots underwater. Groundnut, cowpea and sorghum cannot survive long in waterlogged soil.",
+"pidgin": "Rice, especially lowland rice, fit grow well for flooded or waterlogged land because e get special part wey dey carry air go di root under water. Groundnut, cowpea and sorghum no fit survive for waterlogged soil for long.",
+"py": null,
+"values": null,
+"id": "wagr0504",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mr. Adeyemi wants to irrigate a rectangular vegetable plot measuring 20 metres by 15 metres to a depth of 25 millimetres using the basin irrigation method. Calculate the total volume of water required for the irrigation in litres. (Take 1 cubic metre = 1000 litres)",
+"options": [
+"7500 litres",
+"3000 litres",
+"15000 litres",
+"750 litres"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Area = 20 m x 15 m = 300 m^2. Depth = 25 mm = 0.025 m. Volume = 300 x 0.025 = 7.5 m^3. Since 1 m^3 = 1000 litres, Volume = 7.5 x 1000 = 7500 litres.",
+"pidgin": "Area = 20 m x 15 m = 300 m^2. Depth = 25 mm = 0.025 m. Volume = 300 x 0.025 = 7.5 m^3. Since 1 m^3 na 1000 litres, Volume = 7.5 x 1000 = 7500 litres.",
+"py": "20*15*0.025*1000",
+"values": [
+7500,
+3000,
+15000,
+750
+],
+"id": "wagr0505",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "A diesel-powered irrigation pump consumes 2 litres of fuel per hour. If diesel costs ₦650 per litre and the pump is operated for 5 hours daily for 6 days to irrigate a maize farm, calculate the total cost of fuel used.",
+"options": [
+"₦39,000",
+"₦6,500",
+"₦7,800",
+"₦19,500"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Fuel cost per hour = 2 litres x ₦650 = ₦1300. Daily cost = ₦1300 x 5 hours = ₦6500. Total cost for 6 days = ₦6500 x 6 = ₦39,000.",
+"pidgin": "Fuel cost for one hour = 2 litres x ₦650 = ₦1300. Daily cost = ₦1300 x 5 hours = ₦6500. Total cost for 6 days = ₦6500 x 6 = ₦39,000.",
+"py": "2*650*5*6",
+"values": [
+39000,
+6500,
+7800,
+19500
+],
+"id": "wagr0506",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+}
+],
+"rejected": []
+}

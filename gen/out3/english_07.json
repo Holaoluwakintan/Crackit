@@ -1,0 +1,116 @@
+{
+"subject": "english",
+"topic": "Sentence interpretation: which option best explains the sentence",
+"generated": 6,
+"kept": [
+{
+"q": "Read the sentence carefully and choose the option that best explains it: 'By the time the invigilator entered the examination hall, only two candidates had completed the objective questions.'",
+"options": [
+"The invigilator entered late, after most candidates had already left.",
+"Exactly two candidates were absent from the examination.",
+"Most candidates had not yet finished the objective questions when the invigilator came in.",
+"The invigilator completed the objective questions for the candidates."
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "'By the time' shows that one event had already happened before another. Since only two candidates had finished, it means the rest were still working when the invigilator entered.",
+"pidgin": "'By the time' show say one thing don happen before another one. Na only two candidates don finish when invigilator enter, so the rest still dey work.",
+"id": "engv0700",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Read the sentence carefully and choose the option that best explains it: 'The more carefully Aisha prepared her notes, the fewer mistakes she made in the test.'",
+"options": [
+"Careful preparation of notes led to a reduction in Aisha's mistakes.",
+"Aisha made many mistakes despite preparing her notes carefully.",
+"The fewer mistakes Aisha made, the more carefully she prepared her notes.",
+"Aisha's carefulness in preparing notes had no effect on her test performance."
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The 'the more... the fewer' structure shows a direct cause-and-effect link: as Aisha's care in preparing increased, her mistakes decreased.",
+"pidgin": "'The more... the fewer' structure dey show say as Aisha dey careful well well for her notes, na so her mistakes dey reduce.",
+"id": "engv0701",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+},
+{
+"q": "Read the sentence carefully and choose the option that best explains it: 'Unless the local government fixes the bad road, traders will keep losing goods to accidents.'",
+"options": [
+"The local government has already fixed the road, so losses will stop.",
+"Traders will lose goods only after the road has been fixed.",
+"The bad road has nothing to do with the traders' losses.",
+"The traders will stop losing goods only if the bad road is repaired."
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "'Unless' introduces the only condition that can stop the stated problem. Here, repairing the road is the only thing that will end the traders' losses.",
+"pidgin": "'Unless' na the only condition wey fit stop the problem. So na only if dem fix the road, traders go stop to dey lose their goods.",
+"id": "engv0702",
+"check": {
+"s1": "D",
+"s2": "D"
+}
+},
+{
+"q": "Read the sentence carefully and choose the option that best explains it: 'Tunde's argument during the debate was like flogging a dead horse.'",
+"options": [
+"Tunde presented a fresh and convincing new argument.",
+"Tunde was wasting his effort on a point that no longer mattered.",
+"Tunde refused to take part in the debate.",
+"Tunde physically harmed an animal during the debate."
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "'Flogging a dead horse' is an idiom meaning to waste effort on something that is already settled or hopeless. It shows Tunde's point was pointless to keep pushing.",
+"pidgin": "'Flogging dead horse' na idiom wey mean say person dey waste time for something wey don already finish or no get hope. E show say Tunde point no dey useful again.",
+"id": "engv0703",
+"check": {
+"s1": "B",
+"s2": "B"
+}
+},
+{
+"q": "Read the sentence carefully and choose the option that best explains it: 'Hardly any of the students failed to submit their assignment before the deadline.'",
+"options": [
+"Almost none of the students submitted their assignment before the deadline.",
+"No student submitted the assignment before the deadline.",
+"Almost all the students submitted their assignment before the deadline.",
+"Only a few students submitted their assignment before the deadline."
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "This sentence has a double negative: 'hardly any' plus 'failed to'. The two negatives cancel each other out, so the real meaning is that almost all the students succeeded in submitting on time.",
+"pidgin": "This sentence get double negative: 'hardly any' plus 'failed to'. The two negative dey cancel each other, so the real meaning be say almost everybody submit their work on time.",
+"id": "engv0704",
+"check": {
+"s1": "C",
+"s2": "C"
+}
+},
+{
+"q": "Read the sentence carefully and choose the option that best explains it: 'Not a few of the candidates scored above average in the mock examination.'",
+"options": [
+"A large number of candidates scored above average.",
+"Only a handful of candidates scored above average.",
+"No candidate scored above average.",
+"Exactly one candidate scored above average."
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "'Not a few' is a figure of speech called litotes, which uses a negative to express a strong positive. It actually means 'many', so a large number of candidates scored above average.",
+"pidgin": "'Not a few' na litotes, na figure of speech wey use negative talk to show strong positive meaning. E mean 'plenty', so na plenty candidates score above average.",
+"id": "engv0705",
+"check": {
+"s1": "A",
+"s2": "A"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,169 @@
+{
+"subject": "commerce",
+"topic": "Retail trade",
+"ti": 2,
+"generated": 7,
+"kept": [
+{
+"q": "Which of the following best describes retail trade?",
+"options": [
+"The sale of goods in bulk to other traders and wholesalers",
+"The sale of goods and services directly to final consumers in small quantities",
+"The exchange of goods between two different countries",
+"The production of goods for mass consumption"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Retail trade is the last stage in the chain of distribution where goods are sold in small quantities directly to the final user. It does not involve bulk sales to other traders.",
+"pidgin": "Retail trade na the last stage wey trader dey sell goods small-small direct to the person wey go use am. E no be like wholesale wey dem dey sell plenty-plenty to other traders.",
+"py": null,
+"values": null,
+"id": "wcom0200",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of these is an example of a large-scale retail organisation commonly found in big Nigerian cities?",
+"options": [
+"Department store",
+"Itinerant hawker",
+"Roadside kiosk",
+"Open market stall"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A department store is a large retail outlet with many departments selling different categories of goods under one roof, unlike hawkers, kiosks or market stalls which are small-scale.",
+"pidgin": "Department store na big shop wey get different sections wey dey sell different kind goods for one building. Hawker, kiosk and stall na small-small retail wey no reach that level.",
+"py": null,
+"values": null,
+"id": "wcom0201",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "One major function of a retailer in the chain of distribution is to:",
+"options": [
+"manufacture goods for sale to the public",
+"break bulk goods from wholesalers into smaller units for consumers",
+"fix the price of goods for the whole economy",
+"control the foreign exchange rate of the country"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Retailers buy goods in fairly large quantities from wholesalers or manufacturers and break them into small units that ordinary consumers can afford, such as selling a bag of rice by the cup.",
+"pidgin": "Retailer dey buy plenty goods from wholesaler, then e go break am small-small so that ordinary buyer fit afford am, like how dem dey sell rice for cup instead of bag.",
+"py": null,
+"values": null,
+"id": "wcom0202",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A key feature that distinguishes a chain store (multiple shop) from a single independent retail shop is that a chain store:",
+"options": [
+"sells only one type of product in one location",
+"operates several branches in different locations under one ownership and common policy",
+"is owned and controlled only by the government",
+"does not offer any after-sales service to customers"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A chain store, also called a multiple shop, has several branches spread across different towns or cities, all owned by the same company and run under the same policies, prices and trademark. An independent shop has only one outlet.",
+"pidgin": "Chain store na business wey get many branches for different places, but one company dey own and control all of dem with same rules and price. Independent shop na just one branch alone.",
+"py": null,
+"values": null,
+"id": "wcom0203",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Mrs. Chidinma buys a sewing machine under a hire purchase agreement. The cash price is ₦15,000. She pays a deposit of 20% of the cash price, and then pays 10 equal monthly instalments of ₦1,500 each. What is the total amount she pays under the hire purchase agreement?",
+"options": [
+"₦16,500",
+"₦19,500",
+"₦18,000",
+"₦15,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Deposit = 20% of 15,000 = ₦3,000. Instalments = 10 x 1,500 = ₦15,000. Total hire purchase price = 3,000 + 15,000 = ₦18,000, which is more than the cash price because of the credit terms.",
+"pidgin": "Deposit na 20% of 15,000 wey be ₦3,000. The instalments na 10 x 1,500 wey be ₦15,000. If you add dem together, total na ₦18,000, e pass the cash price because of the credit arrangement.",
+"py": "0.2*15000 + 10*1500",
+"values": [
+16500,
+19500,
+18000,
+15000
+],
+"id": "wcom0204",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5",
+"py": "py-ok"
+}
+},
+{
+"q": "Why do many Nigerian supermarkets prefer the self-service method of selling goods?",
+"options": [
+"It reduces the cost of employing many sales attendants and speeds up shopping",
+"It allows customers to bargain and reduce the price of goods freely",
+"It stops customers from seeing the goods before they pay for them",
+"It removes the need to display price tags on goods"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Under self-service, customers pick goods themselves from shelves and pay at the checkout point, so the shop needs fewer sales attendants, which cuts labour cost and makes shopping faster.",
+"pidgin": "For self-service, customer dey pick the goods demsef from shelf and pay for counter, so the shop no go need plenty sales attendant. Dis one dey reduce cost and make shopping sharp-sharp.",
+"py": null,
+"values": null,
+"id": "wcom0205",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following goods is LEAST suitable for sale through mail order retailing (where customers order from a catalogue and goods are delivered by post or courier)?",
+"options": [
+"Textbooks",
+"Perishable fresh fish",
+"Standard-sized clothing items",
+"Household electronics with warranty cards"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Mail order works best for goods that can survive transport delays without damage, like books, clothes and electronics. Perishable fresh fish can spoil before it reaches the buyer, making it unsuitable for this method.",
+"pidgin": "Mail order dey better pass for goods wey fit survive delay for road, like book, clothes and electronics. Fresh fish fit spoil before e reach the buyer, so e no good for mail order.",
+"py": null,
+"values": null,
+"id": "wcom0206",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}

@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Separation of powers and checks and balances",
+"ti": 3,
+"generated": 8,
+"kept": [
+{
+"q": "Who is generally regarded as the father of the modern theory of separation of powers through his book, 'The Spirit of Laws'?",
+"options": [
+"Baron de Montesquieu",
+"John Locke",
+"Thomas Hobbes",
+"Jean-Jacques Rousseau"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Baron de Montesquieu, a French philosopher, developed the modern theory of separation of powers in his book 'The Spirit of Laws'. He argued that liberty is best protected when the legislature, executive and judiciary are kept separate.",
+"pidgin": "Montesquieu na the French thinker wey develop the modern theory of separation of powers for im book 'The Spirit of Laws'. E talk say liberty go dey safe well well if legislature, executive and judiciary no dey for one hand.",
+"id": "wgov0300",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which arm of government is constitutionally responsible for making laws in Nigeria?",
+"options": [
+"The Executive",
+"The Legislature",
+"The Judiciary",
+"The Civil Service"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The legislature (National Assembly at the federal level or House of Assembly at the state level) is the arm saddled with law-making. The executive implements laws while the judiciary interprets them.",
+"pidgin": "Na the legislature (National Assembly or House of Assembly) dey make laws. Executive na im dey carry out the laws, while judiciary dey interpret am.",
+"id": "wgov0301",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "The theory of separation of powers states that the three arms of government should be headed by",
+"options": [
+"the same person to ensure unity",
+"members of one political party only",
+"different persons to prevent abuse of power",
+"traditional rulers appointed by the state"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The theory insists that different persons should head the legislature, executive and judiciary so that no single person or group controls the whole government, thereby checking abuse of power.",
+"pidgin": "The theory talk say make different people head the three arms, so that one person no go control everything, and this one go prevent misuse of power.",
+"id": "wgov0302",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which of the following best describes the principle of checks and balances in government?",
+"options": [
+"Complete separation of the three arms with no contact among them",
+"The fusion of the legislature and executive into one single body",
+"The total independence of the judiciary from the constitution",
+"The ability of each arm of government to control the excesses of the others"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Checks and balances means each arm of government has some power to monitor and control the activities of the other arms, so that none of them becomes too powerful or abuses office.",
+"pidgin": "Checks and balances mean say each arm of government get small power to control the oda arms, so that no arm go too powerful or misuse im office.",
+"id": "wgov0303",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "In a presidential system of government, which of these powers is a legislative check on the executive?",
+"options": [
+"The power to screen and confirm ministerial nominees",
+"The power to appoint judges",
+"The power to declare an act of the legislature unconstitutional",
+"The power to grant state pardon"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Screening and confirming ministerial or other presidential nominees by the legislature limits the executive's power of appointment; the other options belong to the executive or judiciary, not the legislature.",
+"pidgin": "When legislature dey screen and confirm minister wey president nominate, na legislative check on executive im appointment power; the oda options na executive or judiciary powers.",
+"id": "wgov0304",
+"check": {
+"s1": "A",
+"s2": "A",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Which power allows the judiciary to check the excesses of the legislature and the executive?",
+"options": [
+"Power of impeachment",
+"Power of judicial review",
+"Power of veto",
+"Power of appropriation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Judicial review is the power of the courts to examine laws made by the legislature or actions taken by the executive and declare them null and void if they conflict with the constitution.",
+"pidgin": "Judicial review na the power wey court get to check law wey legislature pass or wetin executive do, and cancel am if e no follow constitution.",
+"id": "wgov0305",
+"check": {
+"s1": "B",
+"s2": "B",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "Governor Audu refused to sign a bill passed by his State House of Assembly into law. The House, however, gathered a two-thirds majority and passed the bill into law without his assent. This scenario best illustrates",
+"options": [
+"Fusion of powers",
+"Judicial activism",
+"Legislative override of executive veto",
+"Executive supremacy"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "When a legislature uses a two-thirds majority to pass a bill into law despite the governor's refusal to sign it, it is overriding the executive veto, which is a clear example of a legislative check on the executive.",
+"pidgin": "When the House use two-thirds majority pass bill become law even after governor refuse to sign, na legislature don override the executive veto; na legislative check on executive be dat.",
+"id": "wgov0306",
+"check": {
+"s1": "C",
+"s2": "C",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+},
+{
+"q": "A major weakness of a strict application of separation of powers in government is that it may lead to",
+"options": [
+"Quick decision-making between the arms",
+"Total elimination of corruption in government",
+"Concentration of power in one arm of government",
+"Conflict and deadlock between the arms of government"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Strict separation of powers can make the arms of government act independently without cooperating, which may cause disagreement and deadlock, especially on policies or appointments that require joint action.",
+"pidgin": "If the three arms separate too much without cooperation, e fit cause wahala and deadlock, especially when dem no gree for one policy or appointment.",
+"id": "wgov0307",
+"check": {
+"s1": "D",
+"s2": "D",
+"s1m": "gpt-6-sol",
+"s2m": "claude-opus-5-5"
+}
+}
+],
+"rejected": []
+}
