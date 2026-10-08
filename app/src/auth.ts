@@ -77,11 +77,26 @@ export function syncNow(): Promise<void> {
       lastSynced = Date.now(); localStorage.setItem(SYNCED, String(lastSynced));
       state = 'saved';
       if (packsCb && cloud && Array.isArray(cloud.packs)) packsCb(cloud.packs);
+      claimRef();
     } catch (e: any) {
       state = navigator.onLine === false || !e.status ? 'offline' : e.status === 401 && !user() ? 'off' : 'error';
     } finally { busy = null; emit(); }
   })());
 }
+// ---------- referral: the friend's side (attribution only; whether the referrer earns anything is decided in the database) ----------
+const REF = APP.storageKey + ':ref';
+async function claimRef() {
+  const code = localStorage.getItem(REF); if (!code) return;
+  try {
+    const r = await C.rpc(env, 'crackit_ref_claim', { p_code: code });
+    localStorage.setItem(REF + ':result', String(r)); localStorage.removeItem(REF);
+  } catch (e: any) { /* 404 = referrals not switched on yet: keep the code and try on a later sync */ }
+}
+export interface RefStatus { invited: number; completed: number; rewarded: number; available: number }
+/** null = referrals not switched on (SQL not run yet) or offline */
+export async function refStatus(): Promise<RefStatus | null> { try { return await C.rpc(env, 'crackit_ref_status', {}); } catch { return null; } }
+export async function refRedeem(pack: string): Promise<string> { try { return String(await C.rpc(env, 'crackit_ref_redeem', { p_pack: pack })); } catch { return 'error'; } }
+
 let timer: any = 0;
 let dirty = false;
 export async function pushNow() {

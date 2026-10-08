@@ -7,6 +7,7 @@ import { user } from '../auth';
 import type { Q, SubjectData, SubjectMeta } from '../types';
 import { EXAMS, GRADES, blankSsce, examDate, creditsSummary, daysUntil, fmtClock, gradeFor, isTimeUp, newExam, paperRule, readiness, recordSsce, scorePaper, studyPlan, SSCE_HISTORY_MAX, timeLeft } from './core.js';
 import { buzz, confetti, countUp } from '../fx';
+import { track } from '../track';
 
 const L = ['A', 'B', 'C', 'D'];
 type ExamId = 'waec' | 'neco';
@@ -50,7 +51,7 @@ function finish(e: SExam, bank: SubjectData, timeUp = false): SRec {
   markActive(p);
   const rec: SRec = { id: e.id, exam: e.exam, sid: e.sid, kind: e.kind, date: e.submittedAt, pct: r.pct, correct: r.correct, total: r.total, timeUsed: Math.min(e.submittedAt - e.startedAt, e.duration), e };
   s.history = [rec, ...s.history.filter((h: any) => h.id !== rec.id)].slice(0, SSCE_HISTORY_MAX) as any;
-  commit(); saveSExam(null);
+  commit(); saveSExam(null); track('finish_test', { m: e.exam + '_' + e.kind, v: Math.round(r.pct / 10) * 10 });
   return rec;
 }
 
@@ -252,7 +253,7 @@ function PaperSetup({ meta, sid, exam }: { meta: SubjectMeta[]; sid: string; exa
   const n = quick ? 20 : Math.min(r.n, m.count), min = quick ? 15 : r.min;
   const start = async () => {
     setBusy(true); setErr('');
-    try { const bank = await loadBank(sid); const e = newExam(exam, bank, quick ? 'quick' : 'paper', ss().seen) as SExam; saveSExam(e); replace('/ssce/exam'); }
+    try { const bank = await loadBank(sid); const e = newExam(exam, bank, quick ? 'quick' : 'paper', ss().seen) as SExam; saveSExam(e); track('start_test', { m: exam + (quick ? '_quick' : '_paper') }); replace('/ssce/exam'); }
     catch { setErr("Couldn't load the questions. Check your connection and try again."); setBusy(false); }
   };
   return (

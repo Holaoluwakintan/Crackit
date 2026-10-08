@@ -4,9 +4,13 @@ import { APP } from './config';
 import { loadMeta, loadSubject, loadSubjects, loaded } from './data';
 import type { Exam, MockRecord, Q, SubjectData, SubjectMeta } from './types';
 import { activeKeys, bestScore, finishExam, isOn, loadExam, markActive, pick, progress, recordAnswer, resetProgress, save, saveExam, streak, todayCount, toggleBookmark, weakTopics } from './store';
-import { clearAuthError, deleteMyData, resetEverywhere, signInWithGoogle, signOut, subscribe, SUPA_KEY, syncInfo, syncNow, user } from './auth';
+import { clearAuthError, deleteMyData, refRedeem, refStatus, resetEverywhere, signInWithGoogle, signOut, subscribe, SUPA_KEY, syncInfo, syncNow, user } from './auth';
+import type { RefStatus } from './auth';
 import type { Progress } from './types';
 import { buzz, isDark, setTheme, theme } from './fx';
+import { track } from './track';
+import { d5Streak, refCode } from './daily-core.js';
+import { today } from './store';
 
 const L = ['A', 'B', 'C', 'D'];
 
@@ -16,7 +20,7 @@ const routeListeners = new Set<Listener>();
 const curHash = () => location.hash.slice(1) || '/';
 let lastRoute = curHash();
 function depth(): number { return (history.state && history.state.d) || 0; }
-function emit() { const h = curHash(); lastRoute = h; routeListeners.forEach(f => f(h)); window.scrollTo(0, 0); }
+function emit() { const h = curHash(); const changed = h !== lastRoute; lastRoute = h; routeListeners.forEach(f => f(h)); window.scrollTo(0, 0); if (changed) track('pv', {}, h); }
 export const go = (p: string) => { history.pushState({ d: depth() + 1 }, '', '#' + p); emit(); };
 export const replace = (p: string) => { history.replaceState({ d: depth() }, '', '#' + p); emit(); };
 export const back = (fallback = '/') => { if (depth() > 0) history.back(); else replace(fallback); };
@@ -57,6 +61,7 @@ function parentOf(parts: string[]): string {
     if (parts[1] === 'paper') return '/ssce/papers';
     return '/';
   }
+  if (parts[0] === 'daily') return '/';
   if (parts[0] === 'admission') return parts[1] === 'd' ? '/admission/r' : parts[1] ? '/admission' : '/';
   if (parts[0] === 'postutme') return parts[2] === 't' ? '/postutme/' + parts[1] : parts[1] ? '/postutme' : '/';
   if (parts[0] === 'practice' && parts[2] === 'wrong') return '/wrong';
@@ -70,8 +75,11 @@ function parentOf(parts: string[]): string {
 
 // ---------- share ----------
 export const SITE = location.origin;
-export function shareText(text: string) { return share(text); }
+export function shareText(text: string, url = SITE) { return share(text, url); }
+/** a link back into the app; carries the sharer's referral code when they're signed in (attribution only) */
+export function shareUrl(path: string) { const u = user(); const r = u ? refCode(u.id) : ''; return SITE + '/' + (r ? '?ref=' + r : '') + '#' + path; }
 async function share(text: string, url = SITE) {
+  track('share');
   const nav = navigator as any;
   if (nav.share) { try { await nav.share({ title: APP.name, text, url }); return; } catch (e: any) { if (e && e.name === 'AbortError') return; } }
   open('https://wa.me/?text=' + encodeURIComponent(text + ' ' + url), '_blank');
@@ -171,9 +179,10 @@ export function App() {
   else if (parts[0] === 'practice') { page = <PracticeHome meta={meta} />; title = 'Practice'; }
   else if (parts[0] === 'progress') { page = <ProgressPage meta={meta} />; title = 'Progress'; }
   else if (parts[0] === 'about') { page = <About meta={meta} />; title = 'About'; }
+  else if (parts[0] === 'daily') { page = <DailyLazy parts={parts} />; title = parts[1] === 'c' ? 'Daily 5 challenge' : 'Daily 5'; }
   else if (parts[0] === 'c') { page = <ChallengeLanding meta={meta} code={parts.slice(1).join('/')} />; title = 'Challenge'; }
   else if (parts[0] === 'admission' || parts[0] === 'postutme') { page = <AdmissionLazy parts={parts} />; title = admTitle(parts); }
-  else page = md === 'jamb' ? <div class="stack"><ExamSwitch /><Home meta={meta} /></div> : <div class="stack"><ExamSwitch /><SsceLazy parts={['ssce']} exam={md} /></div>;
+  else page = md === 'jamb' ? <div class="stack"><ExamSwitch /><Daily5Card /><Home meta={meta} /></div> : <div class="stack"><ExamSwitch /><Daily5Card /><SsceLazy parts={['ssce']} exam={md} /></div>;
   const bare = parts[0] === 'exam' || (parts[0] === 'ssce' && parts[1] === 'exam');
   return (
     <div class={'shell' + (bare ? ' bare' : '')}>
@@ -181,6 +190,34 @@ export function App() {
       <main><div class="page" key={parts[0] === 'ssce' ? parts.slice(0, 3).join('/') : parts.slice(0, 2).join('/') + (parts.length ? '' : md)}>{page}</div></main>
       {!bare && <Footer />}
     </div>
+  );
+}
+
+// ---------- Daily-5 (page loaded on demand; the home card is tiny) ----------
+let dailyMod: any = null;
+function DailyLazy({ parts }: { parts: string[] }) {
+  const [m, setM] = useState<any>(dailyMod);
+  const [err, setErr] = useState(false);
+  useEffect(() => { if (!m) import('./daily').then(x => { dailyMod = x; setM(x); }).catch(() => setErr(true)); }, []);
+  if (err) return <div class="card">Couldn't load this page. Check your connection and try again.</div>;
+  if (!m) return <Skeleton rows={4} />;
+  const C = m.default;
+  return <C parts={parts} />;
+}
+function Daily5Card() {
+  const p = progress();
+  const d5 = p.d5 || {};
+  const t = today(); const rec = d5[t];
+  const st = d5Streak(d5, t);
+  return (
+    <a class={'card d5card' + (rec ? ' done' : '')} href="#/daily">
+      <div class="d5flame" aria-hidden="true">{rec ? '✓' : '🔥'}</div>
+      <div class="d5txt">
+        <b>{rec ? `Daily 5 done: ${rec.c}/${rec.n}` : "Today's Daily 5"}</b>
+        <span>{rec ? (st > 1 ? `${st}-day streak 🔥 Share your card or challenge a friend` : 'Share your card or challenge a friend') : st ? `Keep your ${st}-day streak alive · 2 minutes` : '5 quick questions · 2 minutes · start a streak'}</span>
+      </div>
+      <em class="btn sm primary">{rec ? 'Share' : 'Start'}</em>
+    </a>
   );
 }
 
@@ -292,6 +329,7 @@ function Footer() {
   return (
     <footer class="foot">
       <p>{APP.disclaimer}</p>
+      <p>Free practice by subject: <a href="/jamb/">JAMB</a> · <a href="/waec/">WAEC</a> · <a href="/post-utme/">Post-UTME</a> · <a href="/cut-off/">Cut-off marks</a></p>
       <p><a href="#/about">About {APP.name}</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · v{APP.version} · works offline</p>
     </footer>
   );
@@ -472,6 +510,7 @@ function Account({ meta }: { meta: SubjectMeta[] }) {
         <button class="btn" disabled={info.state === 'syncing'} onClick={() => syncNow()}>🔄 Sync now</button>
       </section>
       {err}
+      <InviteCard />
       <section class="card"><h3>Saved in your account</h3>{what}</section>
       <section class="card stats4">
         <div><b>{streak(p)}</b><span>day streak</span></div>
@@ -487,6 +526,32 @@ function Account({ meta }: { meta: SubjectMeta[] }) {
         setBusy(false);
       }}>Delete my CrackIt data</button>
     </div>
+  );
+}
+
+const PACK_SCHOOLS: [string, string][] = [['unilag', 'UNILAG'], ['ui', 'UI'], ['oau', 'OAU'], ['unn', 'UNN'], ['uniben', 'UNIBEN'], ['unilorin', 'UNILORIN'], ['uniport', 'UNIPORT'], ['oou', 'OOU'], ['funaab', 'FUNAAB'], ['unizik', 'UNIZIK']];
+function InviteCard() {
+  const [st, setSt] = useState<RefStatus | null | undefined>(undefined);
+  const [pack, setPack] = useState('unilag');
+  const [msg, setMsg] = useState('');
+  useEffect(() => { refStatus().then(setSt); }, []);
+  const invite = () => share(`I'm preparing for JAMB, WAEC and NECO on ${APP.name}: free CBT practice that works offline, with a Daily 5 streak. Join me 👇`, shareUrl('/daily'));
+  const redeem = async () => {
+    const r = await refRedeem(pack);
+    setMsg(r === 'ok' ? 'Unlocked ✅ Open Post-UTME practice to use it.' : r === 'owned' ? 'You already have that pack. Pick another school.' : r === 'none' ? 'No free pack to claim yet.' : 'Could not claim right now. Try again later.');
+    if (r === 'ok') { refStatus().then(setSt); syncNow(); }
+  };
+  return (
+    <section class="card">
+      <h3>Invite friends</h3>
+      <p class="muted small">Share your link. {st ? 'When a friend signs in through it and finishes 3 real tests, you get one Post-UTME pack free (up to 5).' : 'Friends who join through it are linked to you.'}</p>
+      {st && <p class="small">Joined: <b>{st.invited}</b> · finished 3 tests: <b>{st.completed}</b> · free packs to claim: <b>{st.available}</b></p>}
+      {st && st.available > 0 && (
+        <div class="row-h"><select value={pack} onChange={e => setPack((e.target as HTMLSelectElement).value)}>{PACK_SCHOOLS.map(([id, n]) => <option value={id}>{n}</option>)}</select><button class="btn sm primary" onClick={redeem}>Claim free pack</button></div>
+      )}
+      {msg && <p class="small">{msg}</p>}
+      <button class="btn" onClick={invite}>📲 Share my invite link</button>
+    </section>
   );
 }
 
@@ -533,7 +598,7 @@ function MockSetup({ meta, quick }: { meta: SubjectMeta[]; quick: boolean }) {
       subjects: ids.map((sid, i) => ({ sid, qids: pick(data[sid], counts[i], p).map(q => q.id) })),
       answers: {}, cur: { s: 0, i: 0 },
     };
-    saveExam(e);
+    saveExam(e); track('start_test', { m: quick ? 'quick' : 'full' });
     go('/exam');
   };
   const nq = quick ? 20 : sel.reduce((n, id) => n + Math.min(40, avail.find(m => m.id === id)!.count), Math.min(60, eng?.count || 0));
@@ -592,7 +657,7 @@ function ExamScreen({ meta }: { meta: SubjectMeta[] }) {
     const e = examRef.current;
     if (!e || !data || done.current) return;
     done.current = true;
-    const rec = finishExam({ ...e }, data);
+    const rec = finishExam({ ...e }, data); track('finish_test', { m: rec.mode, v: Math.round(rec.total / 50) * 50 });
     replace('/result/' + rec.id);
   };
   useEffect(() => { if (exam && data && left <= 0) submit(); }, [left <= 0, data]);
@@ -770,6 +835,7 @@ function Result({ meta, id }: { meta: SubjectMeta[]; id: string }) {
       </section>
       {rec.exam.challenge && <ChallengeBanner rec={rec} right={right} all={all} />}
       {rec.mode === 'quick' && !rec.exam.challenge && <ChallengeButton rec={rec} right={right} all={all} label="⚔️ Challenge a friend on these 20 questions" />}
+      <MockCard rec={rec} name={name} />
       <button class="btn" onClick={() => share(`I just scored ${rec.total}/400 on a JAMB ${rec.mode === 'quick' ? 'quick test' : 'mock'} with ${APP.name} 🔥 Practise free (works offline):`)}>📤 Share my score</button>
       <a class="btn primary big" href={`#/review/${rec.id}/wrong`}><span>Review wrong answers</span><small>See the right answer and why</small></a>
       <div class="navbtns">
@@ -779,6 +845,15 @@ function Result({ meta, id }: { meta: SubjectMeta[]; id: string }) {
       <a class="btn ghost" href="#/">Home</a>
     </div>
   );
+}
+
+function MockCard({ rec, name }: { rec: MockRecord; name: (sid: string) => string }) {
+  const [m, setM] = useState<any>(dailyMod);
+  useEffect(() => { if (!m) import('./daily').then(x => { dailyMod = x; setM(x); }).catch(() => {}); }, []);
+  if (!m) return null;
+  const right = rec.per.reduce((n, s) => n + s.correct, 0), all = rec.per.reduce((n, s) => n + s.total, 0);
+  const path = rec.mode === 'quick' ? '/c/' + b64e({ v: 1, n: (progress().name || '').slice(0, 24), c: right, t: all, m: Math.round(rec.exam.duration / 60000), q: rec.exam.subjects.map(s => [s.sid, s.qids]) }) : '/mock/quick';
+  return <m.CardShare c={rec.total} n={400} x="jamb" kicker={rec.mode === 'quick' ? 'JAMB QUICK TEST' : 'JAMB FULL MOCK'} unit="UTME-style score" subjects={rec.per.map(s => m.short(name(s.sid))).join(' · ')} streak={m.d5StreakNow()} challengePath={path} />;
 }
 
 // ---------- challenge a friend (no server: the link carries the questions) ----------
@@ -843,7 +918,7 @@ function ChallengeLanding({ meta, code }: { meta: SubjectMeta[]; code: string })
     const total = subjects.reduce((n, x) => n + x.qids.length, 0);
     if (!total) { alert('These questions are no longer in the app. Try a new quick test.'); go('/mock/quick'); return; }
     const e: Exam = { id: Date.now().toString(36), mode: 'quick', startedAt: Date.now(), duration: Math.max(5, ch.m || 15) * 60000, subjects, answers: {}, cur: { s: 0, i: 0 }, challenge: { from: ch.n || 'Your friend', correct: ch.c, total: ch.t } };
-    saveExam(e);
+    saveExam(e); track('start_test', { m: 'challenge' });
     replace('/exam');
   };
   return (

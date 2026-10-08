@@ -25,4 +25,7 @@ export interface Progress {
   /** YYYY-MM-DD -> questions answered that day (daily goal) */
   daily: Record<string, number>;
   goal: number;
+  /** YYYY-MM-DD -> finished Daily-5 (exam, correct, picks, answers) */
+  d5?: Record<string, D5Rec>;
 }
+export interface D5Rec { x: 'jamb' | 'waec' | 'neco'; c: number; n: number; s: string[]; q: [string, string][]; a: number[]; vs?: { n: string; c: number } }

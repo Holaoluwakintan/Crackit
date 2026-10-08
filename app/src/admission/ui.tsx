@@ -4,6 +4,7 @@ import { go, replace } from '../app';
 import { BAND_LABEL, GRADES, aggregate, checkCourse, comboCheck, olevelOk, qualifyList } from './core.js';
 import { shareResultCard } from './card';
 import { payConfig, startCheckout, unlockedPack, type PayConfig } from './pay';
+import { track } from '../track';
 
 // ---------- data ----------
 export interface Src { s: number }
@@ -373,7 +374,7 @@ function PutmePack({ d, sid }: { d: Adm; sid: string }) {
   const buy = async (e: Event) => {
     e.preventDefault();
     if (!/^\S+@\S+\.\S+$/.test(email)) { setBusy('Enter a valid email for your receipt.'); return; }
-    setBusy('Opening Paystack…');
+    setBusy('Opening Paystack…'); track('pay_click', { m: sid });
     const r = await startCheckout(cfg!, sid, email);
     if (r === 'ok') { setUnlocked(true); setBusy(''); } else setBusy(r);
   };

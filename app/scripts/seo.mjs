@@ -31,7 +31,7 @@ function page({ path, title, desc, body, og = '/og-admission.png', jsonld = '' }
 <meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#0b5d3b"><link rel="icon" href="/icons/icon-192.png">
 <style>${CSS}</style>${jsonld ? `<script type="application/ld+json">${jsonld}</script>` : ''}</head>
 <body><header><a href="/">✔ CrackIt</a></header><main>${body}</main>
-<footer><p>Not affiliated with JAMB, WAEC or NECO. Figures are from each school's published lists; verify with the school before you decide.</p><p><a href="/">CrackIt: free JAMB CBT practice</a> · <a href="/cut-off/">All school cut-offs</a> · <a href="/admission-checker/">Admission chance checker</a></p></footer></body></html>`;
+<footer><p>Not affiliated with JAMB, WAEC or NECO. Figures are from each school's published lists; verify with the school before you decide.</p><p><a href="/">CrackIt: free JAMB CBT practice</a> · <a href="/cut-off/">All school cut-offs</a> · <a href="/admission-checker/">Admission chance checker</a></p><p>Practice by subject: <a href="/jamb/">JAMB</a> · <a href="/waec/">WAEC</a> · <a href="/post-utme/">Post-UTME</a></p></footer></body></html>`;
 }
 function write(rel, html) { const p = join(dist, rel); mkdirSync(p, { recursive: true }); writeFileSync(join(p, 'index.html'), html); }
 
@@ -56,7 +56,7 @@ for (const s of d.schools) {
 <h1>${esc(s.short)} cut-off mark ${YEAR} and your admission chances</h1>
 <div class="card"><p><b>School minimum JAMB score:</b> ${minTxt}</p><p>Departmental cut-offs found: <b>${n}</b> of ${d.courses.length} popular courses. Each figure links to where it was published. Where a figure isn't published we say so instead of guessing.</p></div>
 <a class="cta" href="/#/admission/${s.id}">🎯 Check my ${esc(s.short)} admission chances (free)</a>
-${s.pack ? `<a class="cta alt" href="/#/postutme/${s.id}">📝 Practise ${esc(s.short)}-style Post-UTME questions</a>` : ''}
+${s.pack ? `<a class="cta alt" href="/#/postutme/${s.id}">📝 Practise ${esc(s.short)}-style Post-UTME questions</a>` : ''}${['unilag', 'oau'].includes(s.id) ? `<p><a href="/post-utme/${s.id}/">${esc(s.short)} Post-UTME: 5 free sample questions and screening facts</a></p>` : ''}
 <h2>${esc(s.short)} departmental cut-off marks</h2>
 <div class="tw"><table><thead><tr><th>Course</th><th>Cut-off</th><th>Session</th><th>Source</th></tr></thead><tbody>${rows}</tbody></table></div>
 <p class="muted">"JAMB score" means the minimum UTME score for the course. "Aggregate /100" is the final screening score after Post-UTME (merit list). Last updated ${YEAR}: always verify with ${esc(s.short)}'s official portal.</p>

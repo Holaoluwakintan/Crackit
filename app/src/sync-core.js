@@ -1,4 +1,5 @@
 import { mergeSsce } from './ssce/core.js';
+import { mergeD5 } from './daily-core.js';
 // Pure merge logic for CrackIt progress (no DOM). Unit-tested in test/sync.test.mjs.
 // mode 'max': idempotent merge for two copies of the SAME account (safe to repeat on every sync).
 // mode 'sum': one-time merge of a guest phone's progress INTO an account on first sign-in.
@@ -42,6 +43,7 @@ export function mergeProgress(local, remote, mode = 'max') {
     goal: local.goal || remote.goal || 20,
     name: local.name || remote.name,
     ...((local.ssce || remote.ssce) ? { ssce: mergeSsce(local.ssce, remote.ssce, mode) } : {}),
+    ...((local.d5 || remote.d5) ? { d5: mergeD5(local.d5, remote.d5) } : {}),
   };
 }
 /** what goes to the cloud: drop nothing important, but cap size (history exams are the heavy part) */
@@ -52,5 +54,5 @@ export function forCloud(p) {
 export function sameData(a, b) { return JSON.stringify(a) === JSON.stringify(b); }
 /** has the guest done anything worth merging? */
 export function hasProgress(p) {
-  return !!p && ((p.history && p.history.length) || p.practiced > 0 || Object.keys(p.bm || {}).length > 0 || !!(p.ssce && ((p.ssce.history && p.ssce.history.length) || Object.keys(p.ssce.topics || {}).length || (p.ssce.subjects && p.ssce.subjects.length))));
+  return !!p && ((p.history && p.history.length) || p.practiced > 0 || Object.keys(p.d5 || {}).length > 0 || Object.keys(p.bm || {}).length > 0 || !!(p.ssce && ((p.ssce.history && p.ssce.history.length) || Object.keys(p.ssce.topics || {}).length || (p.ssce.subjects && p.ssce.subjects.length))));
 }

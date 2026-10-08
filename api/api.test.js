@@ -100,3 +100,21 @@ test('pack: a reference already claimed by another account is refused; the owner
   assert.equal(r.code, 200); assert.equal(r.body.questions.length, 15);
   delete process.env.SUPABASE_SECRET_KEY;
 });
+
+// ---- /api/ev (analytics) ----
+test('ev: clean() keeps only allow-listed events and safe fields', () => {
+  const ev = require('./ev.js');
+  assert.equal(ev.clean({ e: 'hack' }), null);
+  assert.equal(ev.clean({ e: 'pv', p: '/<script>' }), null);
+  assert.deepEqual(ev.clean({ e: 'pv', p: '/daily/c/:x', x: 'waec', m: 'quick!!', v: '250', f: 1, a: 0, email: 'a@b.c', name: 'Ada' }), { e: 'pv', p: '/daily/c/:x', x: 'waec', m: 'quick', v: '250', f: 1, a: 0 });
+  assert.equal(ev.clean({ e: 'pv', x: 'evil' }).x, 'jamb');
+});
+test('ev: falls back to the storage bucket when the RPC is missing, and never stores the IP', async () => {
+  const ev = require('./ev.js');
+  const calls = [];
+  const f = async (u, o) => { calls.push([u, o]); return { ok: !u.includes('/rpc/'), status: u.includes('/rpc/') ? 404 : 200 }; };
+  const where = await ev.store({ e: 'pv', p: '/', x: 'jamb', m: null, v: null, f: 1, a: 0 }, 'svc', f);
+  assert.equal(where, 'bucket');
+  assert.match(calls[1][0], /storage\/v1\/object\/crackit-analytics\/ev\/\d{4}-\d\d-\d\d\//);
+  assert.ok(!/\d+\.\d+\.\d+\.\d+/.test(calls[1][1].body));
+});
