@@ -1,0 +1,174 @@
+{
+"subject": "biology",
+"topic": "Evolution: theories and evidence",
+"ti": 19,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A particular species of fish found only in the rivers of the Niger Delta shows unique features not seen in related species elsewhere in the world. This pattern of unique species occurring in specific geographical regions provides evidence for evolution based on which concept?",
+"options": [
+"Comparative biochemistry",
+"Biogeographical distribution",
+"Embryological recapitulation",
+"Homologous structures"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Biogeography studies how species are distributed across different regions, and unique species confined to specific areas suggest they evolved independently after geographic isolation from ancestral populations. This supports the idea of divergence through evolution.",
+"id": "biox19011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Biogeography dey show how living things spread across different places. When unique species dey only one particular area, e mean say dem evolve by themselves after dem separate from their ancestors."
+},
+{
+"q": "In a breeding experiment, a Biology teacher in Jos crosses two groups of guinea pigs that have remained reproductively isolated in different cages for many generations due to a physical barrier. When the barrier is removed and individuals from both groups mate, all resulting offspring are fertile and healthy. Based on the biological species concept, what can be concluded about these two groups?",
+"options": [
+"They represent two distinct species that cannot interbreed naturally",
+"They belong to the same species despite being kept apart",
+"They are hybrids incapable of further reproduction",
+"They have undergone complete adaptive radiation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "According to the biological species concept, organisms that can interbreed and produce fertile offspring belong to the same species, regardless of temporary separation. Since the offspring were fertile and healthy, the two groups are still one species.",
+"id": "biox19012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "According to biology, if two groups fit mate and produce healthy pikin wey fit born too, na the same species dem be. Even if dem stay apart before, the fact say their pikin healthy show say na one family."
+},
+{
+"q": "Which of the following best describes the main idea behind the theory of 'special creation' regarding the origin of living things, as opposed to the theory of organic evolution?",
+"options": [
+"All living things arose gradually from simple ancestral forms through natural processes over millions of years",
+"Each kind of living organism was created in its present form by a supreme being and has remained unchanged since",
+"Living things arose spontaneously from non-living matter under suitable environmental conditions",
+"New species constantly arise from existing ones through accumulated genetic mutations"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Special creation holds that each type of organism was individually created in its current form and does not change over time, unlike evolution which proposes gradual change from common ancestors. This is a fundamental contrast tested in evolution theory topics.",
+"id": "biox19013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Special creation talk say God create every living thing for their present form and dem no dey change. E dey different from evolution wey say na small small change happen over millions of years."
+},
+{
+"q": "A population of 500 rabbits on an isolated hill near Jos has a recessive allele 'b' for a coat colour defect at a frequency of 0.2, while the dominant allele 'B' has a frequency of 0.8. Assuming the population is in Hardy-Weinberg equilibrium, how many rabbits are expected to show the recessive phenotype?",
+"options": [
+"20",
+"80",
+"100",
+"160"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The frequency of the recessive phenotype equals q^2, which is 0.2 x 0.2 = 0.04. Multiplying 0.04 by the population size of 500 gives 20 rabbits expected to show the recessive trait.",
+"id": "biox19014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find the number of rabbits with the recessive trait, you go square the recessive allele frequency (0.2 x 0.2 = 0.04) and multiply am by the total population of 500 to get 20."
+},
+{
+"q": "Scientists studying marsupial mammals in Australia and placental mammals in other continents find that both groups independently evolved similar body forms, such as a wolf-like marsupial and a true wolf, despite having very different ancestry. What term best describes this evolutionary pattern?",
+"options": [
+"Divergent evolution",
+"Convergent evolution",
+"Coevolution",
+"Adaptive radiation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Convergent evolution occurs when unrelated organisms independently evolve similar traits because they adapt to similar environments or lifestyles, even though their evolutionary origins differ. The marsupial and placental wolves resemble each other due to similar ecological pressures, not shared ancestry.",
+"id": "biox19015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Convergent evolution happen when different animals wey no get same ancestors come dey look alike because dem dey live for similar environment. Na the same ecological pressure cause am."
+},
+{
+"q": "In a controlled laboratory experiment in a Nigerian university, a flask containing sterilized nutrient broth was sealed with a swan-necked flask design that allowed air in but trapped dust particles and microorganisms in the curved neck. After several weeks, no microbial growth was observed in the broth. This classic type of experiment was used to disprove which theory?",
+"options": [
+"Natural selection",
+"Catastrophism",
+"Spontaneous generation",
+"Use and disuse"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "This experiment, similar to Louis Pasteur's famous swan-neck flask experiment, showed that life does not arise spontaneously from non-living matter when microorganisms are prevented from entering a sterile medium. It supported the theory of biogenesis instead.",
+"id": "biox19016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis swan-neck flask experiment help to scatter the idea of spontaneous generation. E prove say living things no just dey come out from non-living matter if you block germs from entering."
+},
+{
+"q": "A trait that confers a slight survival advantage in a large, randomly mating population is most likely to increase in frequency over many generations mainly because of which process?",
+"options": [
+"Genetic drift causing random changes in allele frequency",
+"Natural selection favouring individuals with the advantageous trait",
+"Mutation introducing the trait repeatedly in each generation",
+"Gene flow bringing the trait in from neighbouring populations"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In a large population, natural selection is the main force that increases the frequency of traits giving a survival or reproductive advantage, since individuals with the trait leave more offspring over time. Genetic drift has a weaker effect in large populations compared to small ones.",
+"id": "biox19017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Natural selection na the main reason why good traits dey increase for big population. Those wey get the advantage go survive well well and born more pikin."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of these statements best explains the theory of 'use and disuse' as proposed by Lamarck to account for evolutionary change in organisms?",
+"options": [
+"Organs that are used extensively become stronger and more developed while unused organs gradually shrink, and these changes are passed to offspring",
+"Random mutations in genes produce new characteristics that are later selected for by the environment",
+"Organisms produce more offspring than the environment can support, leading to a struggle for survival",
+"Only individuals with favourable variations survive to reproduce and pass on their traits",
+"Characteristics acquired by chance mating are inherited by the next generation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Lamarck proposed that body parts used frequently become more developed and this acquired change is inherited, while disused parts weaken and disappear over generations. This differs from Darwin's idea of selection acting on existing variation."
+},
+"why": "bad-shape"
+}
+]
+}

@@ -1,0 +1,209 @@
+{
+"subject": "geography",
+"topic": "Population: distribution, growth and migration",
+"ti": 14,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A region in the Niger Delta has rich crude oil deposits, swampy terrain, high humidity and frequent flooding. Based on these physical conditions, the population of this region is most likely to be:",
+"options": [
+"Sparsely distributed due to difficult terrain and flooding",
+"Densely distributed because of oil wealth alone",
+"Evenly distributed across the entire region",
+"Concentrated only along international boundaries"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Swampy land, high humidity and flooding make settlement, farming and movement difficult, so such areas tend to have low population density despite mineral wealth. People avoid hazardous, waterlogged terrain for permanent settlement.",
+"py": null,
+"values": null,
+"id": "geox14000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Swampy place, heat, and water no allow person build house or farm well. Even though oil dey there, people no too like stay for waterlogged area."
+},
+{
+"q": "In a particular year, 28,000 people moved into Ogun State from other states while 16,000 people moved out of Ogun State to other states. What is the net migration figure for Ogun State for that year?",
+"options": [
+"12,000 net out-migration",
+"12,000 net in-migration",
+"44,000 net in-migration",
+"16,000 net out-migration"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Net migration is calculated as in-migrants minus out-migrants: 28,000 minus 16,000 equals 12,000. Since more people entered than left, this is net in-migration.",
+"py": "28000-16000",
+"values": [
+null,
+12000,
+44000,
+16000
+],
+"id": "geox14002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To find net migration, just minus people wey commot from people wey enter. 28,000 minus 16,000 na 12,000, and since more people enter, na net in-migration."
+},
+{
+"q": "A geography teacher explains that a country's population may increase even when its birth rate and death rate are both falling steadily. Which factor best accounts for this situation?",
+"options": [
+"A rise in the crude death rate above the birth rate",
+"A large net in-migration of foreigners into the country",
+"A fall in life expectancy at birth",
+"An increase in the rate of emigration"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Population growth depends on natural increase (births minus deaths) plus net migration. Even with falling birth and death rates, strong in-migration can still push total population upward.",
+"py": null,
+"values": null,
+"id": "geox14004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Population fit still increase if plenty foreigners pack come inside the country. Even if birth and death rate dey fall, strong in-migration go push the total number up."
+},
+{
+"q": "Study this scenario: Country X has a youthful population with a broad base and narrow top when its age-sex structure is drawn, while Country Y has a population pyramid with a narrow base and a wide middle and top. Which statement correctly compares their likely population growth rates?",
+"options": [
+"Country X will grow faster because it has many young people entering reproductive age",
+"Country Y will grow faster because it has more elderly dependents",
+"Both countries will have identical growth rates regardless of pyramid shape",
+"Country X will decline because narrow tops indicate high mortality"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A broad-based pyramid shows a large young population that will soon enter childbearing age, driving future population growth. A narrow base, as in Country Y, suggests low birth rates and slower or declining growth.",
+"py": null,
+"values": null,
+"id": "geox14005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Country wey get broad base mean say dem get plenty young people wey go soon born pikin. Naim make Country X go grow fast pass Country Y wey get narrow base."
+},
+{
+"q": "A survey shows that a Nigerian city's population grew from 800,000 to 968,000 in exactly one year, entirely due to migration (no natural increase recorded). What was the percentage growth in population caused by migration that year?",
+"options": [
+"15%",
+"18%",
+"21%",
+"25%"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Percentage growth equals the increase (968,000 minus 800,000 = 168,000) divided by the original population (800,000), multiplied by 100, giving 21%. This shows how migration alone can noticeably raise city population.",
+"py": "((968000-800000)/800000)*100",
+"values": [
+15,
+18,
+21,
+25
+],
+"id": "geox14006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If you minus 800,000 from 968,000, you go get 168,000 increase. Divide am by 800,000 and times 100, you go get 21% percent."
+},
+{
+"q": "Which of the following is a major CONSEQUENCE of rapid rural-urban migration commonly experienced in Nigerian cities such as Lagos and Port Harcourt?",
+"options": [
+"Reduction in urban traffic congestion",
+"Decline in demand for housing within the city",
+"Growth of slums and pressure on social amenities",
+"Increase in agricultural labour supply in the city"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When too many migrants arrive in cities faster than infrastructure can expand, slums develop and amenities like water, schools and hospitals become overstretched. This is a well-documented effect of rapid rural-urban migration in Nigeria.",
+"py": null,
+"values": null,
+"id": "geox14007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When people too plenty for city, slum go grow and wahala for light, water, and house go surface. Na wetin fast rural-urban migration dey cause for Nigeria."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best describes 'internal migration' as used in population studies?",
+"options": [
+"Movement of people from one country to another in search of work",
+"Movement of people from one part of a country to another part of the same country",
+"Movement of animals between grazing lands across seasons",
+"Permanent return of citizens from abroad to their home country"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Internal migration refers to movement within the borders of the same country, such as from a village in Benue State to Lagos. It does not involve crossing international boundaries.",
+"py": null,
+"values": null,
+"id": "geox14001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Which of the following population distribution patterns describes a situation where people are spread fairly uniformly across a region, with similar numbers of people occupying each unit of land area?",
+"options": [
+"Clustered distribution",
+"Linear distribution",
+"Uniform (even) distribution",
+"Random distribution"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Uniform or even distribution occurs when population is spread out fairly equally across a given area rather than concentrated in a few places. This contrasts with clustered patterns found around cities or resources.",
+"py": null,
+"values": null,
+"id": "geox14003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

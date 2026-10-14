@@ -1,0 +1,210 @@
+{
+"subject": "maths",
+"topic": "Inequalities (linear and quadratic)",
+"ti": 11,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Find the set of values of x for which both x - 3 < 4 and 2x + 1 > -5 hold simultaneously.",
+"options": [
+"-3 < x < 7",
+"-3 < x < 4",
+"x < 7 or x > -3",
+"x > 7 and x < -3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The first inequality gives x < 7, and the second gives 2x > -6, so x > -3. Combining both conditions gives -3 < x < 7.",
+"py": null,
+"values": null,
+"id": "matx11013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "First inequality go give you x < 7, and the second one go give you 2x > -6, wey mean say x > -3. When you join both of them together, you go get -3 < x < 7."
+},
+{
+"q": "For what range of values of k will the equation 2x^2 - kx + 8 = 0 have no real roots?",
+"options": [
+"-8 < k < 8",
+"k < -8 or k > 8",
+"0 < k < 8",
+"-8 <= k <= 8"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For no real roots, the discriminant must be negative: k^2 - 4(2)(8) < 0, so k^2 < 64, giving -8 < k < 8.",
+"py": null,
+"values": null,
+"id": "matx11014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Make equation no get real roots, the discriminant must dey less than zero: k^2 - 4(2)(8) < 0. Dis one mean say k^2 < 64, and naim give us -8 < k < 8."
+},
+{
+"q": "Solve the inequality x^2 < 4x and express the solution set.",
+"options": [
+"0 < x < 4",
+"x < 0 or x > 4",
+"x > 4",
+"x < 0"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Rewriting as x^2 - 4x < 0 gives x(x - 4) < 0. This product is negative when x lies between the two roots, so 0 < x < 4.",
+"py": null,
+"values": null,
+"id": "matx11015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you write am as x^2 - 4x < 0, e go factorize to x(x - 4) < 0. Dis product dey negative when x stay between the two roots, so you go get 0 < x < 4."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Find the solution set of the inequality (3x - 2)/(x + 1) >= 2, where x is not equal to -1.",
+"options": [
+"x > -1 and x <= -4",
+"x < -1 or x >= 4",
+"-1 < x and x <= -4",
+"x <= -4 or x > -1"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Subtracting 2 from both sides gives (3x - 2 - 2x - 2)/(x + 1) >= 0, which simplifies to (x - 4)/(x + 1) >= 0. Testing intervals around the critical points x = -1 and x = 4 shows the expression is non-negative when x <= -4 is wrong; correctly, testing shows x > -1 or x... the valid combined region from sign analysis is x <= -4 or x > -1, matching the critical point test of the simplified fraction.",
+"py": null,
+"values": null
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Solve the inequality: 3x + 5 <= 7x - 11.",
+"options": [
+"x >= 4",
+"x <= 4",
+"x >= -4",
+"x <= -4"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Collecting terms gives 5 + 11 <= 7x - 3x, so 16 <= 4x, which gives x >= 4.",
+"py": "4",
+"values": [
+4,
+4,
+-4,
+-4
+],
+"id": "matx11010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "Find the solution set of the inequality 3 - 2x > 9, where x is a real number.",
+"options": [
+"x > -3",
+"x < -3",
+"x > 3",
+"x < 3"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Subtract 3 from both sides to get -2x > 6. Dividing by -2 reverses the inequality, giving x < -3.",
+"py": "-3",
+"values": [
+-3,
+-3,
+3,
+3
+],
+"id": "matx11011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "A trader in Onitsha market sells bags of rice at ₦N each. The total cost of transporting 5 bags is ₦1200, and she wants her total revenue from selling the 5 bags to exceed ₦9200 after paying the transport cost. Find the minimum whole number value of N.",
+"options": [
+"N = 2080",
+"N = 2081",
+"N = 1840",
+"N = 2000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The inequality is 5N - 1200 > 9200, so 5N > 10400, giving N > 2080. The smallest whole number greater than 2080 is 2081.",
+"py": "2081",
+"values": [
+2080,
+2081,
+1840,
+2000
+],
+"id": "matx11012",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+},
+{
+"q": {
+"q": "A rectangular plot of land has length (x + 5) metres and width (x - 2) metres. If the area of the plot must be greater than 108 square metres, find the range of possible values of x.",
+"options": [
+"x > 11",
+"x > 9.5",
+"x < 11",
+"x > 118"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Expanding gives x^2 + 3x - 10 > 108, which simplifies to x^2 + 3x - 118 > 0. Factoring approximately shows the critical root near x = 11, so for the width to stay positive and area condition to hold, x > 11 satisfies the inequality since (11+5)(11-2) = 144 > 108.",
+"py": null,
+"values": null,
+"id": "matx11016",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

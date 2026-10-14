@@ -1,0 +1,207 @@
+{
+"subject": "geography",
+"topic": "Weather and climate: elements, instruments and calculations",
+"ti": 10,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which instrument is used to measure the amount of sunshine received at a place?",
+"options": [
+"Campbell-Stokes recorder",
+"Stevenson screen",
+"Hygrometer",
+"Anemometer"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Campbell-Stokes recorder uses a glass sphere to focus sunlight onto a card, burning a trace that shows the duration of bright sunshine. The other instruments measure temperature housing, humidity and wind speed respectively.",
+"py": null,
+"values": null,
+"id": "geox10000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na Campbell-Stokes recorder we dey use glass sphere focus sun light burn line for card to measure how long bright sun shine. Di other instruments dey measure temperature, humidity and wind speed."
+},
+{
+"q": "A Stevenson screen is painted white and raised above the ground mainly in order to",
+"options": [
+"reflect solar radiation and allow free circulation of air around the instruments",
+"protect the instruments from being stolen by children",
+"increase the weight of the box so wind cannot blow it over",
+"make it easy for meteorologists to locate it from a distance"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "White paint reflects heat so the box itself does not warm up and affect the readings, while the raised, louvred design allows air to circulate freely for accurate temperature and humidity measurement. The other options are not the scientific reasons for its design.",
+"py": null,
+"values": null,
+"id": "geox10001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "White paint dey reflect heat make di box no hot, and di openings allow air blow well well for correct temperature and humidity reading. Di other reasons no correct for science."
+},
+{
+"q": "Relative humidity is best described as the",
+"options": [
+"amount of water vapour a parcel of air can hold at a given temperature before it rains",
+"ratio of the actual water vapour content of air to the maximum it can hold at that temperature, expressed as a percentage",
+"total weight of water vapour contained in one cubic metre of air regardless of temperature",
+"difference between the dry bulb and wet bulb thermometer readings"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Relative humidity compares the actual moisture in the air with the maximum amount the air could hold at that same temperature, shown as a percentage. The other options describe absolute humidity or the depression of the wet bulb, which are different concepts.",
+"py": null,
+"values": null,
+"id": "geox10003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Relative humidity be di ratio of actual water vapour inside air compared to di maximum wey di air fit hold for dat temperature, wey we dey write for percentage. Di other options talk about different things like absolute humidity."
+},
+{
+"q": "A town recorded a mean annual temperature of 27°C and a mean annual rainfall of 2200mm with rain falling throughout the year, no month having less than 60mm. This climate is best classified as",
+"options": [
+"Equatorial climate",
+"Hot desert climate",
+"Mediterranean climate",
+"Warm temperate eastern margin climate"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "High uniform temperatures above 25°C with heavy rainfall spread evenly all year and no dry month are the defining features of the equatorial climate. Desert and Mediterranean climates have marked dry seasons, which do not fit this data.",
+"py": null,
+"values": null,
+"id": "geox10004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "High temperature pass 25°C with heavy rain wey dey fall throughout di year without dry month na im be equatorial climate. Desert and Mediterranean climates get dry season wey no match dis data."
+},
+{
+"q": "At the foot of a mountain, the temperature is 30°C. If the normal lapse rate of 6.5°C per 1000 metres is applied, what will be the approximate temperature at a height of 2000 metres on the mountain?",
+"options": [
+"13°C",
+"17°C",
+"20°C",
+"23°C"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Temperature falls by about 6.5°C for every 1000 metres risen, so at 2000 metres the fall is 13°C, giving 30°C minus 13°C which equals 17°C. This calculation uses the environmental lapse rate to find temperature change with altitude.",
+"py": "30 - 6.5*2",
+"values": [
+13,
+17,
+20,
+23
+],
+"id": "geox10005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Temperature dey drop by 6.5°C for every 1000 metres wey person climb, so for 2000 metres di drop na 13°C, wey mean say 30°C minus 13°C give us 17°C. Dis na how we dey calculate lapse rate."
+},
+{
+"q": "A meteorological station recorded a dry bulb temperature of 26°C and a wet bulb temperature of 20°C. What does the large difference of 6°C between the two readings indicate about the air at that time?",
+"options": [
+"The air is very dry with low relative humidity",
+"The air is fully saturated with water vapour",
+"The air pressure is unusually high",
+"The wind speed is very strong"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A large gap between the dry bulb and wet bulb readings means a lot of water evaporated from the wet bulb's wick, cooling it significantly, which only happens when the surrounding air is dry and can absorb much moisture. If the air were saturated, both thermometers would show almost the same reading.",
+"py": null,
+"values": null,
+"id": "geox10006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Big difference between dry and wet bulb temperature mean say water dey evaporate fast because di air dry well well. If di air full of moisture, both thermometers for show almost di same reading."
+},
+{
+"q": "Which of these correctly lists factors that together determine the climate of a place, as distinct from the day to day elements of weather?",
+"options": [
+"Latitude, altitude, distance from the sea and ocean currents",
+"Temperature, rainfall, sunshine and wind speed",
+"Humidity, cloud cover, pressure and visibility",
+"Rainfall, temperature, humidity and air pressure"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Latitude, altitude, nearness to the sea and ocean currents are controls that influence the general climate pattern of a region over a long period. The other lists name weather elements, which are short term atmospheric conditions, not climatic controls.",
+"py": null,
+"values": null,
+"id": "geox10007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Latitude, altitude, distance from sea and ocean currents na im be di factors wey dey control climate over long time. Di other lists na just short term weather elements."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A rain gauge recorded the following daily rainfall in a week: Monday 12mm, Tuesday 0mm, Wednesday 18mm, Thursday 6mm, Friday 0mm, Saturday 24mm, Sunday 0mm. What was the mean daily rainfall for that week?",
+"options": [
+"7.2mm",
+"8.6mm",
+"10.0mm",
+"12.0mm"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Adding all the values gives 60mm, and dividing by 7 days gives approximately 8.6mm. This shows how mean rainfall is calculated by dividing total rainfall by the number of days recorded.",
+"py": "(12+0+18+6+0+24+0)/7",
+"values": [
+7.2,
+8.6,
+10.0,
+12.0
+],
+"id": "geox10002",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+}
+]
+}

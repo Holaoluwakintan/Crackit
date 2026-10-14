@@ -1,0 +1,178 @@
+{
+"subject": "government",
+"topic": "Nigeria's constitutional development (1922 to 1960)",
+"ti": 12,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "One major reason the Clifford Constitution of 1922 was eventually seen as unsuitable for Nigeria as a whole was that it",
+"options": [
+"Confined elective representation mainly to Lagos and Calabar, leaving most of the country unrepresented",
+"Abolished the Governor's power to make laws for the colony",
+"Granted full internal self-government to all regions at once",
+"Created a federal system with three autonomous regional legislatures"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Clifford Constitution only allowed a few educated elites in Lagos and Calabar to elect members into the Legislative Council, while the vast majority of Nigerians, especially in the North, had no such representation. This made the constitution unrepresentative of the whole country.",
+"id": "govx12010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Clifford Constitution allow only small group for Lagos and Calabar to vote. E no represent the whole Nigeria well because many people for North no get voice."
+},
+{
+"q": "A key feature of the Macpherson Constitution of 1951 that distinguished it from the Richards Constitution of 1945 was that it",
+"options": [
+"Introduced the first Legislative Council for Nigeria",
+"Provided for a central government over the three regions for the first time",
+"Allowed each region to have its own House of Assembly with elected members discussing regional and national issues",
+"Ended all forms of colonial administration in Nigeria"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Unlike the Richards Constitution, the Macpherson Constitution created Regional Houses of Assembly with elected Nigerian members who debated both regional and national matters, giving Nigerians more say in governance. The Legislative Council and colonial administration already existed earlier.",
+"id": "govx12011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Macpherson Constitution bring Regional Houses of Assembly where Nigerians fit talk matter. E give our people more power to participate pass wetin Richards Constitution do."
+},
+{
+"q": "Which of the following best explains why the 1957 Constitutional Conference in London is regarded as a turning point in Nigeria's path to independence?",
+"options": [
+"It abolished the regional system of government completely",
+"It granted immediate independence to Nigeria without further talks",
+"It agreed on the timetable and conditions that would guide Nigeria towards full self-government",
+"It transferred all legislative powers to the Northern Region alone"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "At the 1957 conference, Nigerian and British leaders discussed and agreed on the steps, including regional self-government and a future date for independence, that would guide Nigeria's final move to full sovereignty. Independence itself was not declared at that conference.",
+"id": "govx12012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For 1957 conference, leaders agree on how Nigeria go take reach independence. Dem set the plan and conditions for self-government, but dem no declare independence that time."
+},
+{
+"q": "Under the Richards Constitution of 1945, the central Legislative Council was given power to make laws for the whole country, while a new arrangement allowed regional issues to be discussed in",
+"options": [
+"Regional Houses of Chiefs only",
+"Three Regional Councils attached to the central legislature",
+"Native Authority courts",
+"The Nigerian Council of 1914"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Richards Constitution created Regional Councils for the North, West and East where regional matters could be debated before being forwarded to the central Legislative Council. This was meant to reflect Nigeria's diversity while keeping central control.",
+"id": "govx12013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Richards Constitution create Regional Councils for North, West and East. Na there dem dey discuss regional matter before dem send am go central Legislative Council."
+},
+{
+"q": "A frequent criticism of constitutional development in Nigeria between 1922 and 1951 was that",
+"options": [
+"Nigerians had no say whatsoever in any council throughout this period",
+"The pace of political change was too fast for Nigerians to adjust to",
+"Real power remained firmly in the hands of the Governor and British officials despite the creation of councils",
+"Regional governments were given full control over defence and foreign affairs"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Although Legislative and Regional Councils were created, final decision-making power stayed with the Governor and colonial officials, so Nigerian members mostly had advisory or limited roles. Defence and foreign affairs remained under British control throughout this period.",
+"id": "govx12014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Even as dem create councils, the Governor and British people still get the final say. Nigerian members just dey advise dem, so real power no dey our hand."
+},
+{
+"q": "Which development best illustrates the growth of political parties as a result of constitutional reforms between 1922 and 1951?",
+"options": [
+"The banning of all political associations by the colonial government",
+"The emergence of parties such as the NCNC, Action Group and NPC to contest elections into the new councils",
+"The creation of a single national party controlled directly by the Governor",
+"The replacement of political parties with traditional rulers' councils"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "As more Nigerians gained the right to elect representatives into Legislative and Regional Councils, political parties formed to organise candidates and campaign for these seats. This marked a major step in Nigeria's political development towards self-rule.",
+"id": "govx12015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "As election start, political parties like NCNC and Action Group come out to contest. This one show say our politics dey grow as we dey move towards self-rule."
+},
+{
+"q": "In the lead up to independence, the principle of a federal system of government, with powers shared between the regions and the centre, was most firmly entrenched by the",
+"options": [
+"Clifford Constitution of 1922",
+"Richards Constitution of 1945",
+"Lyttleton Constitution of 1954",
+"Nigerian Council of 1914"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The Lyttleton Constitution of 1954 clearly defined and strengthened the federal arrangement by giving each region substantial legislative and executive powers separate from the centre. Earlier constitutions had only introduced limited regionalism without a true federal structure.",
+"id": "govx12016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Lyttleton Constitution of 1954 na im really set the federal system well. E share power between the regions and the centre, unlike the ones wey come before am."
+},
+{
+"q": "A major challenge that delayed the attainment of self-government by the Northern Region, compared to the Eastern and Western Regions, was that",
+"options": [
+"The North had achieved self-government earlier than the other two regions",
+"Northern leaders felt the region needed more time to develop qualified manpower and administrative structures",
+"The British government refused to grant self-government to any region before 1960",
+"The Northern Region rejected the idea of eventual independence for Nigeria"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Northern leaders were cautious about rushing into self-government because they felt the region lagged behind in Western education and trained personnel compared to the South. This led the North to request more time, achieving self-government in 1959 while the East and West did so in 1957.",
+"id": "govx12017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Northern leaders feel say dem no get enough educated people to run government yet. Na why dem ask for more time before dem take self-government for 1959."
+}
+],
+"rejected": []
+}

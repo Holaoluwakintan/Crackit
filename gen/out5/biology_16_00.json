@@ -1,0 +1,174 @@
+{
+"subject": "biology",
+"topic": "Pollution, conservation and natural resources",
+"ti": 16,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A chemical factory in Kano discharges heated water used for cooling machines directly into a nearby stream. Fishermen later notice fewer fish species and reduced dissolved oxygen in the stream. This type of pollution is best described as",
+"options": [
+"thermal pollution",
+"eutrophication",
+"biomagnification",
+"acid rain formation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Thermal pollution occurs when hot water from industries is released into water bodies, raising the temperature and lowering the amount of dissolved oxygen available to aquatic organisms. This differs from eutrophication, which is caused by excess nutrients, not heat.",
+"id": "biox16000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Thermal pollution dey happen when hot water enter river and make the temperature high, con reduce oxygen wey fish need to breathe. E different from eutrophication wey nutrient surplus dey cause."
+},
+{
+"q": "Which of the following best explains why excessive use of chemical fertilizers on farmland, rather than organic manure, can degrade soil quality over a long period?",
+"options": [
+"Fertilizers increase soil organic matter and improve water retention",
+"Fertilizers alter soil pH and kill beneficial soil microorganisms over time",
+"Fertilizers prevent leaching of nutrients into underground water",
+"Fertilizers increase the population of earthworms and decomposers"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Continuous use of chemical fertilizers can make the soil too acidic or too alkaline, which harms useful soil microorganisms needed for decomposition and nutrient cycling. Organic manure, unlike chemical fertilizer, adds organic matter and supports microbial life.",
+"id": "biox16001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If person too use chemical fertilizer, e dey spoil soil pH and kill better microorganisms wey suppose help soil. Organic manure better because e dey add organic matter and help soil life."
+},
+{
+"q": "A town council in Enugu plans to reduce the volume of solid waste sent to landfill sites while also generating useful products from the waste. Which of the following waste management methods best achieves BOTH goals?",
+"options": [
+"Open dumping of refuse at the outskirts of town",
+"Incineration of all waste without separation",
+"Composting of biodegradable waste to produce manure",
+"Burying all waste types together in deep pits"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Composting breaks down biodegradable waste like food remains and plant matter into useful manure, reducing landfill volume while producing a beneficial product. Open dumping and mixed burial do not reduce waste volume meaningfully or produce useful output.",
+"id": "biox16002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Composting na to turn biodegradable waste to manure, wey dey reduce rubbish for landfill and still give farmers useful product. Open dumping no dey help reduce waste at all."
+},
+{
+"q": "In a game reserve, wildlife officers set a fixed maximum number of animals that can be legally hunted or harvested each year without causing the population to decline. This conservation practice is known as",
+"options": [
+"crop rotation",
+"quota system",
+"afforestation",
+"contour ploughing"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A quota system limits the number of animals or resources that can be harvested within a period, ensuring the population is not overexploited and can regenerate. The other options relate to soil and forest management, not hunting limits.",
+"id": "biox16003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Quota system na the fixed limit wey law set for how many animals dem fit hunt make the population no finish. Other options na for soil and trees, no be hunting limits."
+},
+{
+"q": "A lake used for irrigation has become heavily contaminated with lead from a nearby battery recycling plant. A scientist wants to determine if the lead has entered the food chain and is becoming more concentrated at higher trophic levels. Which organisms should be compared to best test this?",
+"options": [
+"Algae and water at the lake surface only",
+"Small fish that feed on algae and large fish that feed on small fish",
+"Two samples of water taken from different parts of the lake",
+"Soil samples from farmland far away from the lake"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "To show biomagnification, one must compare organisms at increasing trophic levels, such as small fish and the larger fish that eat them, to see if the toxin concentration increases up the food chain. Comparing only water samples or distant soil would not reveal this trophic pattern.",
+"id": "biox16004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To check biomagnification, you need to compare small fish and big fish wey chop them to see how poison dey increase for body as food chain go high. Ordinary water sample no go show am."
+},
+{
+"q": "Which of the following is a major reason why mangrove swamps along the Nigerian coastline are considered important natural resources that must be conserved?",
+"options": [
+"They serve as breeding grounds for fish and protect the coast from erosion",
+"They produce large quantities of crude oil for export",
+"They increase the salinity of nearby farmland, improving crop yield",
+"They prevent all forms of rainfall from reaching the coastal region"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Mangrove swamps act as nurseries for many fish and aquatic species and their root systems hold the soil together, reducing coastal erosion. They are not a source of crude oil, and increased salinity would harm, not help, most crops.",
+"id": "biox16005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Mangrove swamp important because e be house where fish dey born and e dey protect coast from erosion. E no get anything to do with crude oil or spoiling farm crops."
+},
+{
+"q": "An industrial estate in Lagos wants to reduce the amount of particulate matter and toxic gases released into the air from its factories. Which of the following measures would most directly achieve this goal?",
+"options": [
+"Increasing the height of chimneys without treating the gases",
+"Fitting scrubbers and filters to chimneys before gases are released",
+"Relocating factories closer to residential areas",
+"Reducing the number of trees planted around the factories"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Scrubbers and filters trap particulate matter and harmful gases before they leave the chimney, directly reducing air pollution. Simply raising chimney height only spreads pollutants over a wider area instead of removing them.",
+"id": "biox16006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To put scrubbers and filters for chimney na direct way to catch bad gas and particles before dem enter air. Just making chimney tall only carry the smoke go far place."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A community depends entirely on a nearby forest for firewood, timber and medicinal plants, but trees are being cut down faster than they can regrow, leading to visible land degradation. Which of the following measures would best ensure the forest resource remains available for future generations?",
+"options": [
+"Clearing the remaining trees quickly before they are destroyed by pests",
+"Practising selective felling alongside replanting of young trees",
+"Restricting the community from using any wood from the forest permanently",
+"Converting the entire forest into a single large farmland",
+"Allowing unrestricted logging by companies to boost the local economy"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Selective felling, where only mature trees are cut while young ones are left or replanted, allows the forest to regenerate and remain productive long-term. Clearing everything, total restriction, or converting the forest to farmland either destroys the resource or denies the community its benefits."
+},
+"why": "bad-shape"
+}
+]
+}

@@ -1,0 +1,171 @@
+{
+"subject": "biology",
+"topic": "Growth and development, germination",
+"ti": 10,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "During germination of a maize grain, the radicle emerges first before the plumule. What is the main biological advantage of this sequence of events?",
+"options": [
+"It allows the seedling to quickly anchor itself and begin absorbing water and mineral salts from the soil",
+"It prevents the young shoot from being eaten by soil insects",
+"It allows the seed coat to split open faster",
+"It reduces the rate of respiration in the embryo"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The radicle grows into the root, which anchors the seedling and absorbs water and minerals needed to support further growth. This early establishment of a root system supports the later emergence and growth of the shoot.",
+"id": "biox10000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Radicle dey grow first to turn to root, wey dey hold ground well and suck water and minerals for plant. Dis one make sure say water and food ready before plumule shoot come out."
+},
+{
+"q": "In a school biology practical, Amaka measured the length of a growing shoot every two days and plotted length against time. The resulting graph was S-shaped, rising slowly at first, then rapidly, before leveling off. What does the final flat portion of this curve represent?",
+"options": [
+"The lag phase, where cell division is just starting",
+"The exponential phase, where growth rate is highest",
+"The stationary phase, where growth rate has slowed down and nearly stopped",
+"The death phase, where the organism begins to decompose"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A sigmoid growth curve has a lag phase, a rapid exponential phase, and finally a stationary phase where growth levels off as the organism reaches maturity or resource limits are reached. The flat part at the end of the curve is this stationary phase.",
+"id": "biox10002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "S-shaped growth curve dey get lag phase, rapid phase, and stationary phase when growth don nearly stop. Dat flat part for the end na the stationary phase as maturity don reach."
+},
+{
+"q": "A plant growth hormone is known to promote cell division in tissue culture, delay ageing of leaves, and stimulate the growth of lateral buds when applied in the right concentration. Which hormone has these effects?",
+"options": [
+"Abscisic acid",
+"Auxin",
+"Cytokinin",
+"Ethylene"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Cytokinins are well known for promoting cell division, delaying leaf senescence, and encouraging lateral bud growth, which is why they are widely used in tissue culture media. Auxin, abscisic acid, and ethylene have different major roles in plant development.",
+"id": "biox10006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Cytokinins na the hormone wey dey help cell division, make leaf no quick old, and ginger lateral bud growth for tissue culture. E dey different from auxin, abscisic acid, and ethylene."
+},
+{
+"q": "In an investigation, a student placed a potted seedling on its side in a dark cupboard for five days. On uncovering the pot, the shoot was observed to have curved and grown upward against gravity, while the root had curved and grown downward. What term best describes this pair of growth responses?",
+"options": [
+"Phototropism in both shoot and root",
+"Negative geotropism in the shoot and positive geotropism in the root",
+"Positive geotropism in the shoot and negative geotropism in the root",
+"Thigmotropism in both shoot and root"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A shoot growing upward, away from the pull of gravity, shows negative geotropism, while a root growing downward, towards the pull of gravity, shows positive geotropism. Since the cupboard was dark, light was not responsible for this response, so it cannot be phototropism.",
+"id": "biox10007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Shoot dey grow go up, away from gravity, meaning na negative geotropism. Root dey grow go down, follow gravity, meaning na positive geotropism because dark everywhere."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A gardener in Enugu wants to determine whether a dry groundnut seed collected from last year's store is still viable before planting a large farm. Which simple test would best help her decide?",
+"options": [
+"Measuring the exact length and width of the seed with a ruler",
+"Cutting the seed open and checking if the embryo is firm, white, and not shriveled",
+"Checking whether the seed coat is brown or black in colour",
+"Weighing the seed on a kitchen scale and comparing it with a fresh seed",
+"Smelling the seed to detect any unusual odour"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Seed viability is best assessed by examining the embryo itself, since a firm, healthy, undamaged embryo indicates the seed can still germinate. Seed coat colour, weight, size or smell are not reliable indicators of whether the embryo is alive."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "An agricultural extension officer soaked two sets of identical bean seeds in water for 24 hours. Set X was then planted immediately, while Set Y was first dried again under the sun for three days before planting. Both sets were later placed under the same favourable conditions. What would most likely be observed?",
+"options": [
+"Set X and Set Y would germinate at exactly the same rate",
+"Set X would germinate faster because its seeds remain hydrated and enzymes are already active",
+"Set Y would germinate faster because drying increases the food reserves in the cotyledons",
+"Neither set would germinate because soaking damages the embryo permanently",
+"Set Y would germinate but Set X would rot immediately"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Soaking activates enzymes and softens the seed coat, allowing germination to proceed smoothly once planted. Re-drying the soaked seeds in Set Y would reverse this activation and delay the uptake of water needed to restart the process, so Set X germinates faster."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A JSS student carried out an experiment to compare hypogeal and epigeal germination using cowpea (hypogeal) and bean (epigeal) seeds planted side by side. Which observation would correctly confirm the type of germination for each seed after two weeks?",
+"options": [
+"Cowpea cotyledons remain below the soil while bean cotyledons are lifted above the soil",
+"Both cowpea and bean cotyledons remain below the soil surface",
+"Cowpea cotyledons are lifted above the soil while bean cotyledons remain below",
+"Both seeds show their cotyledons turning green above the soil"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Hypogeal germination, as seen in cowpea, keeps the cotyledons below the soil because the epicotyl elongates instead of the hypocotyl. Epigeal germination, as seen in bean, lifts the cotyledons above the soil because the hypocotyl elongates.",
+"id": "biox10001",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Which of the following conditions, if all are provided together, is most essential for a viable dormant seed to break dormancy and begin germination?",
+"options": [
+"Adequate water, suitable temperature, and oxygen supply",
+"Darkness, low temperature, and absence of oxygen",
+"Strong sunlight, dry soil, and high salt concentration",
+"Constant temperature of 0°C, water, and carbon dioxide only"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Germination requires water to activate enzymes, a suitable temperature for enzyme activity, and oxygen for aerobic respiration to release energy. Without these three basic conditions together, a viable seed will remain dormant.",
+"id": "biox10004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Water, warmth and oxygen support germination but may not break seed dormancy.|"
+}
+]
+}

@@ -1,0 +1,196 @@
+{
+"subject": "economics",
+"topic": "Money: functions, demand for money, inflation and deflation",
+"ti": 10,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Money is generally described as a 'store of value'. This means that money enables its holder to:",
+"options": [
+"Measure the worth of different goods using one common unit",
+"Transfer purchasing power from the present to the future",
+"Settle debts that are due immediately",
+"Exchange goods without the need for a common unit of account"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Store of value means money can be kept and used later without losing all its purchasing power, allowing wealth to be carried forward in time. Measuring worth describes the unit of account function, not store of value.",
+"py": null,
+"values": null,
+"id": "ecox10010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Store of value mean say you fit keep money for future use without e lose value. E allow you carry your wealth go front. Measuring worth na unit of account function, no be store of value."
+},
+{
+"q": "Which of the following is a basic qualitative characteristic that good money must possess so that it does not spoil or lose value while being kept?",
+"options": [
+"Divisibility",
+"Durability",
+"Portability",
+"Scarcity"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Durability means money must be able to last and withstand wear and tear without deteriorating in quality or value over time. Divisibility, portability and scarcity are other desirable qualities but do not specifically address not spoiling while stored.",
+"py": null,
+"values": null,
+"id": "ecox10011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Durability mean say money must fit last long without spoil or tear. If money no durable, e go lose value quick. Other qualities like divisibility or scarcity no mean say money no go spoil."
+},
+{
+"q": "A market woman in Onitsha keeps a fixed amount of cash daily, separate from her trading capital, purely to pay for an emergency such as sudden transport breakdown or unexpected medical treatment. This holding of money illustrates the:",
+"options": [
+"Transaction motive",
+"Speculative motive",
+"Precautionary motive",
+"Store of value motive"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Holding money to meet unforeseen emergencies or unexpected expenses is the precautionary motive for demanding money. It is different from the transaction motive, which covers planned day-to-day spending.",
+"py": null,
+"values": null,
+"id": "ecox10012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you keep money for emergency wey you no expect, na precautionary motive be dat. E different from transaction motive wey be for your daily market spending. You dey prepare for bad belle things wey fit happen."
+},
+{
+"q": "A galloping inflation that is left unchecked and keeps accelerating until money loses almost all its value, forcing people to resort to trading goods for goods, is best described as:",
+"options": [
+"Creeping inflation",
+"Hyperinflation",
+"Reflation",
+"Stagflation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Hyperinflation is an extremely rapid and uncontrollable rise in prices that destroys the value of money, often leading to a return to barter. Creeping inflation is mild, while stagflation combines inflation with stagnant output.",
+"py": null,
+"values": null,
+"id": "ecox10014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Hyperinflation na when price of things dey rise too fast until money no get value again. People go come start to dey swap goods for goods. E different from creeping inflation wey dey slow."
+},
+{
+"q": "Suppose the Central Bank of Nigeria reduces the Monetary Policy Rate (MPR) sharply to encourage borrowing, while government also increases spending on infrastructure using newly created money, without any matching rise in output. Based on monetary theory, the most likely combined effect on the general price level is that it will:",
+"options": [
+"Fall, because lower interest rates reduce money demand",
+"Remain stable, since government spending balances money supply growth",
+"Rise, because increased money supply and spending push demand beyond available output",
+"Fall sharply due to reduced velocity of circulation"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Cutting interest rates encourages more borrowing and spending, while new money financing government expenditure further raises aggregate demand. With output unchanged, too much money chasing few goods leads to demand-pull inflation, so prices rise.",
+"py": null,
+"values": null,
+"id": "ecox10016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If interest rate low and government dey spend plenty new money, demand go pass supply. When too much money dey chase few goods, price must go up. Na demand-pull inflation be dis."
+},
+{
+"q": "Which of the following best explains why barter trade became inconvenient and eventually led to the invention of money as a medium of exchange?",
+"options": [
+"Goods in a barter system could not be measured in any unit at all",
+"Barter required a double coincidence of wants between trading parties",
+"Barter trade was banned by early governments for security reasons",
+"Goods exchanged under barter always had equal value"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Under barter, a person wanting to exchange goods had to find someone who both had what they wanted and wanted what they had, which was difficult. Money solved this problem by serving as a common medium accepted by everyone.",
+"py": null,
+"values": null,
+"id": "ecox10017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Barter trade hard because you must find person wey get wetin you want, and wey also want wetin you get. We call am double coincidence of wants. Money come solve dis wahala because everybody dey accept am."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "During a period of deflation, a factory owner in Aba finds that the amount he pays monthly to service his bank loan now represents a larger share of his falling revenue than when he first borrowed the money. This situation shows that deflation tends to:",
+"options": [
+"Reduce the real burden of debt on borrowers",
+"Increase the real burden of debt on borrowers",
+"Have no effect on existing loan obligations",
+"Automatically cancel outstanding debts",
+""
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Deflation raises the real value of money, so a fixed naira debt becomes heavier to repay as prices and revenues fall while the loan amount stays the same. This worsens the real burden carried by borrowers rather than reducing it.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "According to the quantity theory of money (MV = PT), if an economy's money supply is ₦80,000,000, velocity of circulation is 6, and total volume of transactions is 4,000,000, what is the average price level?",
+"options": [
+"₦8.00",
+"₦20.00",
+"₦120.00",
+"₦333.33"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Using MV = PT, P = MV/T = (80,000,000 x 6) / 4,000,000 = 480,000,000 / 4,000,000 = 120. Wait, correct computation gives 120, so the price level is ₦120.00.",
+"py": "(80000000*6)/4000000",
+"values": [
+8.0,
+20.0,
+120.0,
+333.33
+],
+"id": "ecox10013",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+}
+]
+}

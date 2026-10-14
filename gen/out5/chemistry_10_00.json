@@ -1,0 +1,207 @@
+{
+"subject": "chemistry",
+"topic": "Rates of reaction",
+"ti": 10,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Tunde investigated the effect of surface area on reaction rate by reacting excess dilute tetraoxosulphate(VI) acid with (i) a single large marble chip and (ii) the same mass of marble broken into many small chips. Which observation would he most likely record?",
+"options": [
+"The small chips react faster because they present a larger total surface area for collisions",
+"The large chip reacts faster because it dissolves without breaking apart",
+"Both reactions proceed at exactly the same rate since the mass of marble is the same",
+"The small chips react slower because they absorb more acid before reacting"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Breaking the marble into smaller chips increases the total surface area exposed to the acid. More surface area means more frequent collisions between acid particles and marble, so the reaction is faster.",
+"py": null,
+"values": null,
+"id": "chex10000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you break marble into small pieces, you go get more surface area for the acid to touch. More surface area mean say particles go collide well-well, so the reaction go fast pass when you use one big lump."
+},
+{
+"q": "A student plots a graph of volume of gas collected against time for the reaction of magnesium ribbon with excess dilute hydrochloric acid. Which feature of the graph represents the average rate of reaction over the first 30 seconds?",
+"options": [
+"The gradient (slope) of the curve between time zero and 30 seconds",
+"The value of volume where the curve becomes horizontal",
+"The intercept of the curve on the volume axis at time zero",
+"The total time taken for the curve to flatten out completely"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Rate of reaction is the change in a measurable quantity, such as volume of gas, per unit time. On a volume-time graph, this is given by the gradient (slope) over the chosen time interval.",
+"py": null,
+"values": null,
+"id": "chex10001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Rate of reaction na how fast the volume of gas dey change with time. For graph, you go calculate the gradient between the time you want, which be the slope of the curve."
+},
+{
+"q": "In a reaction between sodium thiosulphate solution and dilute hydrochloric acid, a yellow precipitate of sulphur forms and gradually blocks the view of a cross mark placed under the flask. Increasing the temperature of the reaction mixture, while keeping concentrations constant, causes the cross to disappear faster mainly because",
+"options": [
+"the reacting particles gain more kinetic energy, so more of them collide with energy equal to or above the activation energy",
+"the activation energy of the reaction becomes permanently lower at higher temperature",
+"the concentration of hydrochloric acid increases as temperature rises",
+"the sulphur precipitate becomes less visible at higher temperature regardless of collisions"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Raising temperature increases the kinetic energy of particles, so a greater fraction of collisions have energy at or above the activation energy. This results in more effective collisions and a faster reaction.",
+"py": null,
+"values": null,
+"id": "chex10003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you heat the mixture, the particles go get more kinetic energy. This one make more particles get energy wey reach the activation energy, so the reaction go fast pass."
+},
+{
+"q": "Which of the following best explains why a solid catalyst used in powdered form is generally more effective than the same mass of catalyst used as a single large lump?",
+"options": [
+"The powdered catalyst provides a greater surface area, allowing more reactant particles to be adsorbed and react at active sites",
+"Powdered catalysts change the enthalpy of the overall reaction more favourably",
+"Powdered catalysts react chemically with the products to speed up their removal",
+"Powdered catalysts raise the activation energy needed, making collisions more effective"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A catalyst works by providing active sites where reactant particles are adsorbed and react. Powdering the catalyst increases its exposed surface area, so more active sites are available at a given time.",
+"py": null,
+"values": null,
+"id": "chex10004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Catalyst dey work for surface where reactant particles go sit down. If you grind the catalyst to powder, you go get more surface area and more active sites for the reaction to happen."
+},
+{
+"q": "In an experiment, 0.2 mol dm^-3 hydrochloric acid reacts with excess calcium trioxocarbonate(IV) at 27°C, and the rate of carbon(IV) oxide gas production is measured. Which of the following changes would NOT increase the rate of this reaction?",
+"options": [
+"Increasing the temperature of the acid to 40°C",
+"Using powdered calcium trioxocarbonate(IV) instead of large lumps",
+"Increasing the concentration of the hydrochloric acid to 0.5 mol dm^-3",
+"Diluting the acid with distilled water to 0.1 mol dm^-3"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Diluting the acid lowers the concentration of hydrogen ions, which reduces the frequency of effective collisions and therefore decreases, not increases, the rate. The other three changes all raise the rate of reaction.",
+"py": null,
+"values": null,
+"id": "chex10006",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you add water to dilute the acid, the concentration of hydrogen ions go reduce. This one go make the reaction slow down instead of making am fast."
+},
+{
+"q": "Which statement correctly describes the effect of a catalyst on the activation energy and the equilibrium position of a reversible reaction?",
+"options": [
+"A catalyst lowers the activation energy of both forward and reverse reactions but does not shift the equilibrium position",
+"A catalyst raises the activation energy to slow down unwanted side reactions while shifting equilibrium towards products",
+"A catalyst lowers the activation energy only for the forward reaction, thereby shifting equilibrium towards products",
+"A catalyst has no effect on activation energy but shifts equilibrium towards the side with fewer moles of gas"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A catalyst provides an alternative pathway with lower activation energy for both the forward and reverse reactions equally. It speeds up the rate of reaching equilibrium but does not change the position of equilibrium.",
+"py": null,
+"values": null,
+"id": "chex10007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Catalyst dey provide new road with lower activation energy for both forward and backward reaction. E no dey change the equilibrium position, e only make the reaction reach there quick."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "For the reaction 2X + Y -> Z, experiments show that doubling the concentration of X alone doubles the rate, while doubling the concentration of Y alone quadruples the rate. What is the overall order of this reaction?",
+"options": [
+"2",
+"3",
+"4",
+"1"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The rate depends on [X]^1 since doubling X doubles the rate, and on [Y]^2 since doubling Y quadruples the rate. Adding the individual orders, 1 + 2, gives an overall order of 3.",
+"py": "1+2",
+"values": [
+2,
+3,
+4,
+1
+],
+"id": "chex10002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "off"
+}
+},
+"why": "standard:off:Reaction orders are outside the JAMB syllabus."
+},
+{
+"q": {
+"q": "The reaction 2NO(g) + O2(g) -> 2NO2(g) is carried out in a sealed container at constant temperature. If the volume of the container is suddenly reduced to half its original value, what happens to the initial rate of the forward reaction, assuming the reaction is first order in each reactant shown?",
+"options": [
+"The rate decreases to one quarter of its original value",
+"The rate increases to four times its original value",
+"The rate increases to eight times its original value",
+"The rate remains unchanged since temperature is constant"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Halving the volume doubles the concentration of both NO and O2. Rate is proportional to [NO]^2[O2], so the rate becomes 2^2 multiplied by 2, which equals 8 times the original rate.",
+"py": "2**2 * 2",
+"values": [
+0.25,
+4,
+8,
+1
+],
+"id": "chex10005",
+"check": {
+"s1": "B",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "off"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

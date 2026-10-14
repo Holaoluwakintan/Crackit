@@ -1,0 +1,225 @@
+{
+"subject": "physics",
+"topic": "Light: reflection at plane and curved mirrors",
+"ti": 15,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A concave mirror forms a virtual, upright and magnified image of an object. Where must the object be placed relative to the mirror?",
+"options": [
+"Beyond the centre of curvature",
+"At the centre of curvature",
+"Between the pole and the focal point",
+"At the focal point"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A concave mirror gives a virtual, upright, magnified image only when the object is placed between the pole and the focus. Beyond the focus, images are real and inverted.",
+"py": null,
+"values": null,
+"id": "phyx15001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na only when you put object between the pole and the focus of concave mirror you go get virtual, upright and big image. Once you move am go beyond focus, the image go turn real and upside down."
+},
+{
+"q": "Which property of light is responsible for a plane mirror forming an image that is the same size as the object and appears as far behind the mirror as the object is in front?",
+"options": [
+"Refraction of light at the mirror surface",
+"Diffraction of light at the mirror edges",
+"Reflection of light obeying the laws of reflection",
+"Dispersion of light into its components"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Plane mirror images are formed because reflected rays obey the laws of reflection, with the angle of incidence equal to the angle of reflection. This geometry makes image distance equal to object distance.",
+"py": null,
+"values": null,
+"id": "phyx15003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na as light dey reflect follow law of reflection wey say angle of incidence equal angle of reflection make plane mirror form image wey dey same size with object and dey inside mirror."
+},
+{
+"q": "A convex mirror used as a car side mirror has a focal length of 20 cm. An object is placed 60 cm from the mirror. Calculate the magnification of the image formed.",
+"options": [
+"1/4",
+"1/3",
+"3/4",
+"4/3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For a convex mirror, f = +20 cm, u = -60 cm. Using 1/v = 1/f - 1/u: 1/v = 1/20 + 1/60 = 4/60, so v = 15 cm. Magnification = v/u in magnitude = 15/60 = 1/4.",
+"py": "(1/(1/20 + 1/60))/60",
+"values": [
+0.25,
+0.333,
+0.75,
+1.333
+],
+"id": "phyx15004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For convex mirror, we use f = +20 cm and u = -60 cm inside mirror formula to find v = 15 cm. Magnification na v over u, wey give us 15/60 wey be 1/4."
+},
+{
+"q": "A ray of light strikes a plane mirror and is reflected such that the angle between the incident ray and the reflected ray is 80°. What is the angle of incidence?",
+"options": [
+"80°",
+"20°",
+"40°",
+"50°"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Since the angle of incidence equals the angle of reflection, the two angles together make 80°, so each angle is 80/2 = 40°.",
+"py": "80/2",
+"values": [
+80,
+20,
+40,
+50
+],
+"id": "phyx15005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Since angle of incidence and angle of reflection must dey equal, and both of them join together give 80°, you just divide 80° by 2 to get 40°."
+},
+{
+"q": "Why is a convex mirror commonly fixed at sharp bends on Nigerian roads to help drivers see oncoming vehicles?",
+"options": [
+"It forms a real image that can be projected onto a screen for drivers",
+"It produces a magnified image that shows fine details of distant cars",
+"It gives a diminished, upright image and has a wide field of view",
+"It focuses all incoming rays to a single point in front of the mirror"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A convex mirror always forms a diminished, upright, virtual image regardless of object distance, and its curved shape allows it to capture a wider field of view. This helps drivers see more of the road at bends.",
+"py": null,
+"values": null,
+"id": "phyx15007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Convex mirror dey show small and upright image, plus e get wide field of view. Naim make drivers dey use am for sharp bend make dem fit see motor wey dey come."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A student sets up two vertical plane mirrors facing each other, exactly 3 m apart, and stands 1 m from one mirror. What is the distance between the first image formed in the near mirror and the first image formed in the far mirror?",
+"options": [
+"2 m",
+"4 m",
+"5 m",
+"6 m"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Image in near mirror is 1 m behind it, so 4 m from far mirror. Image in far mirror is formed 2 m behind it (since student is 2 m from far mirror), so 5 m from near mirror. Total distance between the two images along the line is 1+3+1=5 m.",
+"py": "1+3+1",
+"values": [
+2,
+4,
+5,
+6
+],
+"id": "phyx15000",
+"check": {
+"s1": "D",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:D"
+},
+{
+"q": {
+"q": "An object is placed 20 cm in front of a concave mirror of focal length 30 cm. Using the mirror formula, calculate the image distance.",
+"options": [
+"-60 cm",
+"12 cm",
+"60 cm",
+"-12 cm"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Using 1/v = 1/f - 1/u with f=30 cm, u=20 cm: 1/v = 1/30 - 1/20 = -1/60, so v = -60 cm. The negative sign shows the image is virtual, behind the mirror.",
+"py": "1/(1/30 - 1/20)",
+"values": [
+-60,
+12,
+60,
+-12
+],
+"id": "phyx15002",
+"check": {
+"s1": "A",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:C"
+},
+{
+"q": {
+"q": "A dentist uses a small concave mirror to produce an enlarged, upright image of a tooth. If the mirror has a focal length of 4 cm and the tooth is placed 2.5 cm from the mirror, calculate the magnification produced.",
+"options": [
+"1.67",
+"2.67",
+"0.67",
+"3.67"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Using 1/v = 1/f - 1/u with f=4 cm, u=2.5 cm: 1/v = 1/4 - 1/2.5 = -0.15, so v = -6.67 cm. Magnification = v/u = 6.67/2.5 = 2.67, showing an enlarged virtual image.",
+"py": "abs((1/(1/4 - 1/2.5))/2.5)",
+"values": [
+1.67,
+2.67,
+0.67,
+3.67
+],
+"id": "phyx15006",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+}
+]
+}

@@ -1,0 +1,183 @@
+{
+"subject": "crs",
+"topic": "The baptism, temptation and call of the disciples",
+"ti": 15,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "In the first temptation in the wilderness, the devil challenged Jesus to turn stones into bread. With what scripture did Jesus reply to the devil?",
+"options": [
+"Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God",
+"Thou shalt not tempt the Lord thy God",
+"Thou shalt worship the Lord thy God, and him only shalt thou serve",
+"Get thee behind me, Satan"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Jesus quoted Deuteronomy to show that true life depends on obedience to God's word, not bread alone. This was His answer to the first temptation concerning hunger.",
+"id": "crsx15010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Jesus use Deuteronomy tell devil say man no dey live by bread alone. E show say obedience to God word pass food for body."
+},
+{
+"q": "After calling Simon Peter, Andrew, James and John, Jesus went further into Galilee and called a tax collector sitting at the tax office. Where was this tax collector sitting when Jesus called him?",
+"options": [
+"At the receipt of custom",
+"At the city gate",
+"By the well of Samaria",
+"At the entrance of the synagogue"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Matthew (Levi) was sitting at the receipt of custom, the place where taxes were collected, when Jesus called him to follow Him. He immediately left his work to become a disciple.",
+"id": "crsx15012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Matthew dey sit down for receipt of custom when Jesus call am. E leave all im work for tax office follow Jesus sharp sharp."
+},
+{
+"q": "A Sunday School teacher explains that when Jesus called His first four disciples by the Sea of Galilee, they responded in a particular manner that teaches Christians about discipleship today. Based on the Gospel account, how did Simon Peter, Andrew, James and John respond to the call?",
+"options": [
+"They forsook their nets and family business and followed Him at once",
+"They requested three days to consult their families first",
+"They asked Jesus to first pay off their fishing debts",
+"They followed Him only after He performed a miracle for them"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Gospels record that the four fishermen left their nets and boats immediately to follow Jesus without delay or excuse. This prompt obedience is held up as a model of true discipleship.",
+"id": "crsx15015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Dem four fishermen leave their net and work immediately follow Jesus. No be small time dem waste, dem just follow am straight."
+},
+{
+"q": "During the second temptation on the pinnacle of the temple, the devil quoted scripture to persuade Jesus to throw Himself down, claiming angels would bear Him up. How did Jesus respond to this misuse of scripture?",
+"options": [
+"He said, Thou shalt not tempt the Lord thy God",
+"He said, Man shall not live by bread alone",
+"He said, Get thee hence, Satan",
+"He remained silent and walked away"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Jesus corrected the devil's twisting of scripture by quoting that one must not put the Lord God to the test. This shows Jesus countering every temptation with correct understanding of scripture.",
+"id": "crsx15016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Jesus tell devil say make e no tempt God. E use correct scripture stop devil from misusing God word."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "John the Baptist preached a message to the Jews before the coming of Jesus. Which of the following best describes the central theme of his preaching?",
+"options": [
+"A call to repentance and preparation for the coming kingdom",
+"A call to pay tribute to Caesar without delay",
+"A call to rebuild the temple in Jerusalem",
+"A call to join the Roman army for protection"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "John the Baptist's preaching centred on repentance, telling the people to prepare the way for the Messiah. This is recorded in the Gospels before the baptism of Jesus.",
+"id": "crsx15011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Implausible distractors"
+},
+{
+"q": {
+"q": "A pastor in Ibadan teaches that the temptation of Jesus in the wilderness was not merely a personal test but had a deeper spiritual significance for believers today. What is the main lesson Christians draw from this event?",
+"options": [
+"Believers can overcome temptation by relying on the word of God as Jesus did",
+"Believers should avoid fasting since it exposes one to temptation",
+"Believers must always seek a sign before obeying God",
+"Believers should test God to confirm His promises"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Jesus overcame every temptation by quoting scripture, showing believers that knowledge and use of God's word gives victory over temptation. This is the key moral lesson from the wilderness temptations.",
+"id": "crsx15013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Implausible distractors"
+},
+{
+"q": {
+"q": "Immediately after His baptism in the River Jordan, where was Jesus led before He began His temptation by the devil?",
+"options": [
+"Into the wilderness",
+"Into the temple at Jerusalem",
+"Into the synagogue at Capernaum",
+"Into the upper room"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Bible records that after His baptism, Jesus was led by the Spirit into the wilderness to be tempted by the devil. This happened before He began His public ministry.",
+"id": "crsx15014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Giveaway recall item"
+},
+{
+"q": {
+"q": "Considering the full account of Jesus' baptism and the three temptations that followed, what common lesson links both events for a candidate studying discipleship in Christian Religious Studies?",
+"options": [
+"Divine approval at baptism was followed by a testing of obedience before public ministry began",
+"Baptism guarantees a believer will never face temptation afterward",
+"The temptations proved Jesus needed further purification after baptism",
+"John the Baptist personally supervised the temptation process"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "At baptism, God publicly affirmed Jesus as His beloved Son, and immediately afterward Jesus was tested in the wilderness to prove His obedience and readiness for ministry. This sequence shows that divine calling is often followed by testing before service begins.",
+"id": "crsx15017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Implausible distractors"
+}
+]
+}

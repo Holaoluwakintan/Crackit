@@ -1,0 +1,174 @@
+{
+"subject": "crs",
+"topic": "Parental responsibility and the call of Samuel (Eli, Samuel, David)",
+"ti": 5,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Hannah made a vow to God at Shiloh concerning the son she desired. Which part of the vow specifically describes the kind of life Samuel would live?",
+"options": [
+"No razor would ever touch his head",
+"He would never marry throughout his life",
+"He would fast every day of his life",
+"He would never speak to his father"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Hannah vowed that if God gave her a son, no razor would touch his head, meaning Samuel would be a Nazirite dedicated to God. This marked him out for lifelong service.",
+"id": "crsx05000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Hannah promise God sey if E give am pikin, no razor go touch im head. Dis one show sey Samuel na Nazirite wey dem dedicate for God service for im whole life."
+},
+{
+"q": "When the LORD called Samuel a fourth time, what instruction had Eli already given the boy to help him respond correctly?",
+"options": [
+"To cover his ears and sleep again",
+"To say, 'Speak, for thy servant heareth'",
+"To run outside the tabernacle immediately",
+"To wake Eli before answering"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Eli discerned that it was God calling Samuel and instructed him to respond, 'Speak, for thy servant heareth.' This showed Eli's spiritual guidance despite his earlier failures.",
+"id": "crsx05002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Eli come sabi sey na God dey call Samuel, so E tell am wetin to talk. E tell Samuel make E say, 'Speak, for thy servant heareth' so dat God go fit talk to am."
+},
+{
+"q": "God's first message to young Samuel concerned judgement on Eli's household. What made this judgement particularly severe according to the message?",
+"options": [
+"Eli did not know about his sons' sins at all",
+"Eli knew of his sons' sins but failed to restrain them",
+"Eli's sons refused to serve at the tabernacle",
+"Eli himself committed the same sins as his sons"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "God's message explained that Eli knew his sons were sinning against God yet did not restrain them, making him guilty of neglecting his parental duty. This failure to discipline brought severe judgement on his house.",
+"id": "crsx05003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "God tell Samuel sey Eli house go suffer because Eli know sey im pikin dem dey do bad, but E no stop dem. Eli fail im duty as papa, so God come judge am."
+},
+{
+"q": "Comparing Eli's parenting with Hannah's dedication of Samuel, what key lesson emerges for parents today?",
+"options": [
+"Children should be left entirely to religious leaders to train",
+"Strictness in discipline is less important than material provision",
+"Godly upbringing and discipline matter more than mere position or privilege",
+"Only mothers bear responsibility for a child's moral training"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Eli held a high priestly position but failed to discipline his sons, while Hannah's dedication produced a godly Samuel. The contrast teaches that sincere godly training, not status, shapes a child's character.",
+"id": "crsx05004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Eli get high position but E no train im pikin dem well, while Hannah train Samuel for God way. Dis one teach us sey na godly training dey make pikin get better character, no be just position."
+},
+{
+"q": "As Samuel grew older, what evidence from his early life showed that God's hand of favour was upon him, in contrast to Eli's sons?",
+"options": [
+"He grew in favour with the Lord and with men",
+"He became wealthy through trade in Shiloh",
+"He led armies against the Philistines as a youth",
+"He married early and had many children"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The scripture records that Samuel grew in favour both with the LORD and with men, unlike Hophni and Phinehas who were corrupt. This showed the result of godly upbringing and personal devotion.",
+"id": "crsx05005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Bible talk sey Samuel dey grow for favour for God and man eye. Dis one show sey Samuel life dey different from Eli pikin dem wey dey do bad."
+},
+{
+"q": "When Samuel eventually told Eli all that God had revealed to him about the coming judgement, how did Eli respond?",
+"options": [
+"He accepted it as the will of the Lord",
+"He drove Samuel away from the tabernacle",
+"He denied that his sons had sinned",
+"He asked Samuel to pray for his sons' forgiveness"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Despite the painful message, Eli humbly submitted, saying, 'It is the LORD: let him do what seemeth him good.' This response showed his acceptance of divine judgement even though it came late to correct his earlier parental failure.",
+"id": "crsx05006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Even as the message pain Eli, E still humble imsef and accept wetin God talk. E say make God do wetin E think say good, because E know sey na God talk am."
+},
+{
+"q": "At Jesse's house in Bethlehem, Samuel examined several of Jesse's older sons before David was identified as God's chosen one. What did this process teach about God's standard for choosing a leader?",
+"options": [
+"God chooses based on a person's height and handsomeness",
+"God chooses based on birth order among brothers",
+"God looks at the heart rather than outward appearance",
+"God chooses whoever the father prefers most"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "God told Samuel not to judge by outward appearance or stature, for the LORD looks at the heart. This explains why David, the youngest and overlooked son, was chosen over his elder brothers.",
+"id": "crsx05007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "God tell Samuel make E no look person face or how tall the person be. God talk sey E dey look heart, no be wetin eye dey see, na why E choose David."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "After weaning Samuel, Hannah brought him to Eli with specific offerings before leaving him at Shiloh. What did this act of Hannah teach about parental responsibility?",
+"options": [
+"Parents should keep their children away from religious leaders",
+"A vow made to God concerning a child should be fulfilled",
+"Children should be raised by their grandparents",
+"Parents must wait until a child is an adult before dedicating him",
+"Parents must wait until a child is an adult before dedicating him"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Hannah kept her promise by bringing Samuel to serve at Shiloh once he was weaned, showing that vows made to God must be honoured. This teaches parents to keep promises made concerning their children."
+},
+"why": "bad-shape"
+}
+]
+}

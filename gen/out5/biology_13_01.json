@@ -1,0 +1,178 @@
+{
+"subject": "biology",
+"topic": "Ecology: ecosystems, food chains, food webs and energy flow",
+"ti": 13,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is the correct trophic level classification of a hawk that feeds only on snakes which feed only on rats which feed only on grasshoppers that eat grass?",
+"options": [
+"Secondary consumer",
+"Tertiary consumer",
+"Quaternary consumer",
+"Primary consumer"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Grass is the producer, grasshopper is primary consumer, rat is secondary consumer, snake is tertiary consumer, so the hawk that eats the snake is the quaternary consumer. Counting each feeding step carefully gives this answer.",
+"id": "biox13010",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Grass na producer, grasshopper na primary consumer, rat na secondary consumer, snake na tertiary consumer, so hawk wey chop snake na quaternary consumer. When you count well well, you go see say na dis answer correct."
+},
+{
+"q": "A particular ecosystem is said to be self-sustaining mainly because it contains organisms that can:",
+"options": [
+"Migrate to other habitats when conditions become unfavourable",
+"Trap and convert solar energy into chemical energy usable by other organisms",
+"Reproduce very rapidly to replace members lost to predation",
+"Store large amounts of water in their body tissues"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Producers such as green plants trap sunlight and convert it into chemical energy through photosynthesis, which then supports all other organisms in the ecosystem. This ability to fix energy makes the ecosystem self-sustaining.",
+"id": "biox13011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Green plants wey be producers dey trap sunlight make dem turn am to chemical energy through photosynthesis, and dis energy dey support all other animals for inside the ecosystem. Na dis ability to make energy dey make the ecosystem self-sustaining."
+},
+{
+"q": "In a lake ecosystem, which of the following correctly lists components that would be classified together as the abiotic factors of the habitat?",
+"options": [
+"Fish, algae, bacteria and water snails",
+"Dissolved oxygen, temperature, pH and light intensity",
+"Zooplankton, phytoplankton, frogs and insects",
+"Decomposers, producers, herbivores and carnivores"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Abiotic factors are the non-living physical and chemical components of an environment, such as dissolved oxygen, temperature, pH and light intensity. The other options list living organisms, which are biotic factors.",
+"id": "biox13012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Abiotic factors na non-living physical and chemical things for environment, like dissolved oxygen, temperature, pH and light intensity. Other options na living things wey be biotic factors."
+},
+{
+"q": "A biology student studying a cocoa plantation in Ondo State recorded the following feeding relationships: cocoa leaves are eaten by leaf-eating caterpillars and by aphids; caterpillars are eaten by birds and by predatory wasps; aphids are eaten by ladybirds and by birds; birds are eaten by snakes. Which single statement below is best supported by this information?",
+"options": [
+"Only one food chain exists in this habitat since all organisms depend on cocoa leaves",
+"The organisms described form a food web because several interlinked food chains share common organisms",
+"Birds occupy the same trophic level as snakes in this habitat",
+"Ladybirds and predatory wasps must belong to the same species since they both feed on pests"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since caterpillars, aphids and birds each have more than one feeding link, the separate food chains interconnect to form a food web. A food web simply shows many overlapping food chains in one community.",
+"id": "biox13013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Since caterpillars, aphids and birds get more than one way to chop food, the food chains join body to form food web. Food web just mean plenty food chains wey dey overlap for one community."
+},
+{
+"q": "The diagram of a pyramid of biomass for a particular pond was found to be inverted (narrow at the base, wider at higher levels). Which situation would best produce such a result?",
+"options": [
+"A large population of tiny, fast-reproducing phytoplankton supporting a smaller mass of bigger zooplankton",
+"A small mass of phytoplankton supporting a much larger mass of slow-reproducing zooplankton feeding heavily on them at any instant",
+"Equal biomass existing at every trophic level in the pond",
+"Producers having a longer lifespan than the consumers feeding on them"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "An inverted pyramid of biomass occurs when small, fast-reproducing producers have low standing biomass at any moment but still support a larger standing biomass of longer-lived consumers. This is common in aquatic ecosystems where phytoplankton turnover is rapid.",
+"id": "biox13014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Inverted pyramid of biomass dey happen when small producers wey dey reproduce fast get small biomass for one moment but still fit support bigger biomass of consumers wey dey live longer. Dis one dey common for inside water environments."
+},
+{
+"q": "Which of the following best describes what happens to the energy that is not passed on to the next trophic level in a food chain?",
+"options": [
+"It is converted into new biomass by the next consumer",
+"It is lost mainly as heat through respiration, and used for movement and other life processes",
+"It accumulates permanently in the bodies of producers",
+"It is transferred directly to decomposers without being used"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Most of the energy at each trophic level is used up in respiration, movement, growth maintenance and other activities, and is lost as heat. Only a small fraction, about ten percent, is stored in biomass and passed to the next level.",
+"id": "biox13015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Ede energy wey dey each level, na im dem dey use for respiration, movement and other body work, and e dey komot as heat. Na only small part, like ten percent, dey enter the next level."
+},
+{
+"q": "In an ecological study of a forest reserve near Enugu, a researcher wants to represent an ecological pyramid that will NEVER appear inverted regardless of the ecosystem studied. Which type of ecological pyramid should the researcher use?",
+"options": [
+"Pyramid of numbers",
+"Pyramid of biomass",
+"Pyramid of energy",
+"Pyramid of population density"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The pyramid of energy is always upright because energy decreases progressively at each successive trophic level due to losses during respiration. Pyramids of numbers and biomass can sometimes be inverted depending on organism size and reproduction rate.",
+"id": "biox13016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Pyramid of energy dey always stand upright because energy dey reduce as e dey go high due to loss during respiration. Pyramids of numbers and biomass fit sometimes turn upside down depending on size and how dem dey born."
+},
+{
+"q": "Which of the following statements correctly describes the role of decomposers in the flow of energy and matter within an ecosystem?",
+"options": [
+"They manufacture new organic energy from inorganic materials for producers to use",
+"They break down dead organisms and waste, releasing nutrients back to the soil while energy is lost as heat",
+"They store the total energy of an ecosystem permanently without releasing it",
+"They occupy the topmost trophic level and therefore receive the largest share of energy"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Decomposers break down dead matter and waste products, recycling nutrients like nitrogen and carbon back into the soil for producers to reuse, while the chemical energy in the matter is released as heat during respiration. This shows that nutrients cycle but energy does not, it is eventually lost from the system.",
+"id": "biox13017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Decomposers dey break down dead things and waste, return nutrients like nitrogen and carbon back to soil, while energy dey komot as heat. Dis one show say nutrients dey cycle round but energy dey loss."
+}
+],
+"rejected": []
+}

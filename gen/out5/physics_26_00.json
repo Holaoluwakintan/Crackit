@@ -1,0 +1,212 @@
+{
+"subject": "physics",
+"topic": "Semiconductors and basic electronics: diodes, transistors, rectification",
+"ti": 26,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A semiconductor material is one whose electrical conductivity lies between that of a conductor and an insulator. Which of these is the most important semiconductor element used in making diodes and transistors?",
+"options": [
+"Silicon",
+"Copper",
+"Sulphur",
+"Mica"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Silicon is the most widely used semiconductor material because of its ideal energy gap and abundance. Copper is a conductor while sulphur and mica are insulators.",
+"py": null,
+"values": null,
+"id": "phyx26000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Silicon na the main material wey dem dey use make semiconductor because e get better energy gap and e plenty for ground. Copper na conductor, while sulphur and mica na insulator."
+},
+{
+"q": "In a pure (intrinsic) semiconductor, adding a small amount of a pentavalent impurity such as phosphorus produces a material with an excess of free electrons. This type of doped semiconductor is called a(n):",
+"options": [
+"p-type semiconductor",
+"n-type semiconductor",
+"intrinsic semiconductor",
+"superconductor"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Pentavalent atoms donate extra free electrons, making electrons the majority charge carriers, so the material becomes n-type. p-type is formed instead by trivalent (hole-donating) impurities.",
+"py": null,
+"values": null,
+"id": "phyx26001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Pentavalent atoms dey give extra free electrons make electrons plenty pass, naim make am become n-type semiconductor. Na trivalent impurities dey form p-type."
+},
+{
+"q": "A p-n junction diode is said to be forward biased when:",
+"options": [
+"the p-side is connected to the negative terminal and n-side to the positive terminal of the battery",
+"the p-side is connected to the positive terminal and n-side to the negative terminal of the battery",
+"both sides are connected to the same terminal of the battery",
+"no battery is connected to the junction"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Forward bias occurs when the positive terminal is joined to the p-side and the negative terminal to the n-side, narrowing the depletion layer and allowing current to flow easily. The reverse connection widens the depletion region and blocks current.",
+"py": null,
+"values": null,
+"id": "phyx26002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Forward bias dey happen when you join positive terminal to p-side and negative terminal to n-side, make current fit flow well. If you reverse am, current no go fit pass."
+},
+{
+"q": "A full-wave bridge rectifier made of four diodes is connected to an alternating supply of peak voltage 20 V. Ignoring the voltage drop across the diodes, what is the peak output voltage across the load?",
+"options": [
+"5 V",
+"10 V",
+"20 V",
+"40 V"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A bridge rectifier converts both halves of the AC cycle into output pulses without reducing the peak value, so the output peak voltage equals the input peak voltage of 20 V. Only the shape (always positive) changes, not the magnitude.",
+"py": "20",
+"values": [
+5,
+10,
+20,
+40
+],
+"id": "phyx26003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Bridge rectifier dey convert both sides of AC cycle make output peak voltage remain the same 20 V. Na only the shape wey dey always positive dey change, not the value."
+},
+{
+"q": "Which of the following best explains why a half-wave rectifier is less efficient than a full-wave rectifier for converting AC to DC?",
+"options": [
+"It uses only one diode to conduct during both halves of the input cycle",
+"It blocks one half of the input cycle, so current flows for only half the time",
+"It requires four diodes arranged in a bridge network",
+"It produces a perfectly smooth DC output without a capacitor"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A half-wave rectifier allows current to flow during only one half-cycle of the AC input and blocks the other half, so it wastes half the available power. Full-wave rectifiers use both halves of the cycle, making them more efficient.",
+"py": null,
+"values": null,
+"id": "phyx26004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Half-wave rectifier dey allow current to flow for only one half of AC input and block the other half, naim make am waste power. Full-wave rectifier dey use both halves, so e dey efficient pass."
+},
+{
+"q": "A transistor is connected in the common-emitter mode. If the base current is 0.04 mA and the collector current is 4.0 mA, calculate the current amplification factor (beta) of the transistor.",
+"options": [
+"10",
+"25",
+"40",
+"100"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Beta equals collector current divided by base current, which is 4.0 mA divided by 0.04 mA, giving 100. This shows the transistor strongly amplifies the small base current into a larger collector current.",
+"py": "4.0/0.04",
+"values": [
+10,
+25,
+40,
+100
+],
+"id": "phyx26005",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Beta na collector current divide by base current, wey be 4.0 mA divide by 0.04 mA to give 100. Dis one show say transistor dey turn small base current to big collector current."
+},
+{
+"q": "In an NPN transistor used as a switch in common-emitter configuration, a small change in base current of 20 microamperes produces a change in collector current of 2.0 mA. If the base current is further increased by 50 microamperes, calculate the additional change in collector current, assuming the same current gain applies.",
+"options": [
+"2.5 mA",
+"5.0 mA",
+"10.0 mA",
+"20.0 mA"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The current gain is 2.0 mA divided by 20 microamperes, which equals 100. Multiplying this gain by the new base current change of 50 microamperes gives an additional collector current change of 5.0 mA.",
+"py": "(2.0e-3/20e-6)*50e-6*1000",
+"values": [
+2.5,
+5.0,
+10.0,
+20.0
+],
+"id": "phyx26006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Current gain na 2.0 mA divide by 20 microamperes, wey give 100. When you multiply this gain by the new base current change of 50 microamperes, you go get 5.0 mA collector current."
+},
+{
+"q": "A student connects a silicon diode, an AC source, a resistor and a capacitor to build a simple power supply circuit. The capacitor is placed in parallel with the load resistor after the diode. What is the main function of this capacitor in the circuit?",
+"options": [
+"To increase the frequency of the rectified output",
+"To smoothen the rectified output by reducing the ripples",
+"To change the AC supply into a higher voltage before rectification",
+"To prevent any current from flowing through the load resistor"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The capacitor charges up during peaks of the rectified voltage and discharges slowly through the load when the voltage falls, filling in the gaps and smoothing the pulsating DC into a steadier output. It does not change frequency, boost voltage, or block current to the load.",
+"py": null,
+"values": null,
+"id": "phyx26007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "The capacitor dey charge when voltage high and discharge slowly when voltage drop, to remove ripples and make DC output smooth. E no dey increase frequency or block current."
+}
+],
+"rejected": []
+}

@@ -1,0 +1,238 @@
+{
+"subject": "maths",
+"topic": "Trigonometry: ratios, special angles, sine and cosine rules, bearings",
+"ti": 19,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A surveyor at point X observes a tower at an angle of elevation of 30°. He walks 40 m closer to the tower, to point Y, and observes the angle of elevation as 60°. Find the height of the tower (in metres), leaving your answer as a surd where necessary.",
+"options": [
+"20 sqrt(3)",
+"40 sqrt(3)",
+"20",
+"40/sqrt(3)"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Let height = h. From X, distance = h/tan30 = h*sqrt(3); from Y, distance = h/tan60 = h/sqrt(3). The difference in distances is 40, so h*sqrt(3) - h/sqrt(3) = 40, giving h*(2/sqrt(3)) = 40, so h = 20 sqrt(3).",
+"py": "20*math.sqrt(3)",
+"values": [
+34.64,
+69.28,
+20,
+23.09
+],
+"id": "matx19000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Make we call the height h. If you use tan 30 and tan 60, you go see say h times (2/sqrt(3)) equal to 40. When you solve am, you go get h equal to 20 sqrt(3)."
+},
+{
+"q": "Find the value of cos 150° without using a calculator.",
+"options": [
+"sqrt(3)/2",
+"-sqrt(3)/2",
+"1/2",
+"-1/2"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "150° is in the second quadrant where cosine is negative. Since 150° = 180° - 30°, cos 150° = -cos 30° = -sqrt(3)/2.",
+"py": "-math.sqrt(3)/2",
+"values": [
+0.866,
+-0.866,
+0.5,
+-0.5
+],
+"id": "matx19001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "150 degree dey for second quadrant where cosine dey negative. Because 150 degree na 180 minus 30, the answer na minus cos 30 which be -sqrt(3)/2."
+},
+{
+"q": "Two ships leave a port at the same time. Ship A sails on a bearing of 030° at 20 km/h, and ship B sails on a bearing of 120° at 15 km/h. After 2 hours, how far apart are the two ships, correct to the nearest kilometre?",
+"options": [
+"50 km",
+"40 km",
+"35 km",
+"45 km"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "After 2 hours, ship A is 40 km from port and ship B is 30 km from port. The angle between bearings 030° and 120° is 90°, so by Pythagoras, the distance apart is sqrt(40^2 + 30^2) = sqrt(2500) = 50 km.",
+"py": "math.sqrt((20*2)**2+(15*2)**2)",
+"values": [
+50,
+40,
+35,
+45
+],
+"id": "matx19004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "After two hours, ship A don travel 40 km and ship B don travel 30 km. Because the angle between dem na 90 degree, you go use Pythagoras theorem to get sqrt(40^2 + 30^2) wey be 50 km."
+},
+{
+"q": "If sin theta = 3/5 and theta is obtuse (90° < theta < 180°), find the value of cos theta.",
+"options": [
+"4/5",
+"-4/5",
+"3/4",
+"-3/4"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Using sin^2 theta + cos^2 theta = 1, cos theta = ±4/5. Since theta is obtuse, cosine is negative in the second quadrant, so cos theta = -4/5.",
+"py": "-4/5",
+"values": [
+0.8,
+-0.8,
+0.75,
+-0.75
+],
+"id": "matx19006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If sin theta na 3/5, then cos theta go be 4/5. Because theta dey obtuse, cosine must be negative, so the answer na -4/5."
+},
+{
+"q": "Simplify: sin 60° cos 30° + cos 60° sin 30°, giving your answer without using a calculator.",
+"options": [
+"1",
+"sqrt(3)/2",
+"1/2",
+"sqrt(2)/2"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "This expression is the expansion of sin(60° + 30°) = sin 90° = 1, using the sine addition formula sin A cos B + cos A sin B = sin(A+B).",
+"py": "math.sin(math.radians(90))",
+"values": [
+1,
+0.866,
+0.5,
+0.707
+],
+"id": "matx19007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Dis one na direct formula for sin(A + B). So, sin 60 plus 30 na sin 90, and sin 90 equal to 1."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In triangle XYZ, XY = 9 cm, YZ = 12 cm, and angle XYZ = 110°. Using the cosine rule, find XZ correct to one decimal place.",
+"options": [
+"16.7 cm",
+"15.0 cm",
+"17.9 cm",
+"14.2 cm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "By the cosine rule, XZ^2 = XY^2 + YZ^2 - 2(XY)(YZ)cos(110°) = 81 + 144 - 216cos(110°). Since cos(110°) is negative (about -0.342), XZ^2 = 225 + 73.9 = 298.9, so XZ ≈ 16.7 cm.",
+"py": "math.sqrt(9**2+12**2-2*9*12*math.cos(math.radians(110)))",
+"values": [
+16.7,
+15.0,
+17.9,
+14.2
+],
+"id": "matx19002",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "In triangle ABC, angle A = 42°, angle B = 65°, and side a (opposite angle A) = 10 cm. Using the sine rule, find side b (opposite angle B) correct to one decimal place.",
+"options": [
+"13.6 cm",
+"10.7 cm",
+"7.3 cm",
+"15.1 cm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "By the sine rule, b/sin B = a/sin A, so b = (10 × sin 65°)/sin 42° = (10 × 0.9063)/0.6691 ≈ 13.6 cm. This follows directly from the sine rule formula.",
+"py": "(10*math.sin(math.radians(65)))/math.sin(math.radians(42))",
+"values": [
+13.6,
+10.7,
+7.3,
+15.1
+],
+"id": "matx19003",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A point P is due East of a point Q. A point R is on a bearing of 310° from Q and the bearing of R from P is 320°. Which type of triangle is formed by P, Q and R based on the bearing information given, if angle PQR is the angle at Q between QP and QR?",
+"options": [
+"Angle PQR = 40°",
+"Angle PQR = 50°",
+"Angle PQR = 60°",
+"Angle PQR = 70°"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Since P is due East of Q, the bearing of P from Q is 090°. The bearing of R from Q is 310°, so the angle between QP and QR is 360° - 310° + 90°, but measuring the interior angle at Q between the two directions gives 310° - 270° = 40°.",
+"py": null,
+"values": null,
+"id": "matx19005",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

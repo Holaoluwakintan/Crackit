@@ -1,0 +1,1329 @@
+{
+"crsv0000": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0001": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0002": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0003": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0004": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0005": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0006": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0007": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0200": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0201": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0202": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0204": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0205": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0206": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0207": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0300": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0301": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0302": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0303": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0304": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0305": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0307": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0400": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0402": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0403": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0404": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0405": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0406": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0407": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0500": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0501": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0502": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0707": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0800": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "Rehoboam succeeded Solomon before the division, but he was not king of a separate kingdom of Judah until after the division. The question reverses that chronology."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": "Minor imprecision: Rehoboam first reigned over the united kingdom, not just Judah, but the answer is unaffected."
+}
+},
+"crsv0801": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0802": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0803": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0804": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0805": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0806": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0807": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0900": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0901": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0902": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0903": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0904": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0905": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0906": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0907": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1000": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1001": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1002": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1003": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1004": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1005": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1006": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1007": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1200": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1202": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1204": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1205": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1207": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0503": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0504": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0505": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0506": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0507": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0600": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0601": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0602": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0604": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0605": {
+"a": {
+"ans": "A",
+"v": "error",
+"r": "The lesson and key are correct, but the explanation says Saul had sacrificed the animals. In 1 Samuel 15, they had been spared for an intended sacrifice; the account does not say Saul had sacrificed them."
+},
+"b": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0606": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0607": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0608": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0700": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0701": {
+"a": {
+"ans": "X",
+"v": "wrong_key",
+"r": "Jesse owned the sheep, but the question asks whose father owned them. That person was David, who is not an option."
+},
+"b": {
+"ans": "C",
+"v": "garbled",
+"r": "Read literally, 'whose father owned the sheep' asks for a child of the sheep's owner, not the owner. That makes Eliab, Jesse's son, a literal fit. The intended answer, Jesse (David's father), only works if the wording is read as 'whose sheep'."
+}
+},
+"crsv0702": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0703": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0704": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0705": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv0706": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1504": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1505": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1507": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1600": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1601": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1602": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1603": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1604": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1605": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1606": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1607": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1700": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1701": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1702": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1703": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1704": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1705": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1706": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1707": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1800": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1300": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1301": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1302": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1303": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1304": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1305": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1306": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1307": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1400": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1401": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1402": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1403": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1404": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1405": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The answer is correct, but the explanation says Zechariah was mute until John was born. He regained his speech when John was named, eight days after the birth (Luke 1:59–64)."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1406": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1407": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1500": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1501": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1502": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1503": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2302": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2303": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2304": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2305": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2306": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2307": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2006": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2007": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2200": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2202": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2203": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2204": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2205": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2206": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2207": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2300": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2301": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1801": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1802": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1803": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1804": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1805": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1806": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1807": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1900": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1901": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1902": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1904": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1905": {
+"a": {
+"ans": "B",
+"v": "error",
+"r": "The key is correct, but John 20 records that Thomas saw Jesus and was invited to touch His wounds; it does not say that he actually touched them, as the explanation claims."
+},
+"b": {
+"ans": "B",
+"v": "ok",
+"r": "Minor point: John 20 does not explicitly record that Thomas touched the wounds, but the answer is clear."
+}
+},
+"crsv1906": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"crsv1907": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2000": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2001": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2002": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2003": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2004": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"crsv2005": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+}
+}

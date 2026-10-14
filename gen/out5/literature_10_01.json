@@ -1,0 +1,180 @@
+{
+"subject": "literature",
+"topic": "Tone, mood, theme and diction",
+"ti": 10,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Read this extract: 'Oga Suleiman, abeg make we commot from here before wahala catch us o! Dem police don dey come!' This diction is best described as:",
+"options": [
+"Formal diction",
+"Archaic diction",
+"Colloquial/informal diction",
+"Elevated poetic diction"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The passage uses Pidgin English and informal, everyday speech patterns typical of casual conversation. This is colloquial diction, not formal or archaic language.",
+"id": "litx10011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "This passage dey use Pidgin English and everyday talk wey people dey use for road. E be colloquial diction, no be formal or old-fashioned language."
+},
+{
+"q": "Read this extract: 'The debt collector's smile widened as he counted the widow's last coins, his pen scratching her name off the list of the forgiven.' The tone of the narrator towards the debt collector can best be described as:",
+"options": [
+"Admiring and respectful",
+"Ironic and condemnatory",
+"Joyful and celebratory",
+"Indifferent and detached"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The phrase 'list of the forgiven' is used ironically, since the debt collector is actually denying the widow forgiveness. This irony signals the narrator's disapproval of his cruelty.",
+"id": "litx10012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dem use 'list of the forgiven' as style because debt collector no forgive the widow at all. Dat kind sarcasm show say narrator no like wetin the man dey do."
+},
+{
+"q": "A novelist describes a harvest festival using words like 'sunlit', 'abundant', 'laughter', and 'feasting', then shifts abruptly to describe a locust swarm with words like 'black cloud', 'devouring', and 'ruin'. This shift primarily achieves a change in:",
+"options": [
+"Narrative point of view",
+"Mood, through contrasting diction",
+"Theme, through symbolism alone",
+"Setting, through flashback"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The deliberate contrast between joyful words and destructive words changes the emotional atmosphere (mood) felt by the reader. This is achieved purely through word choice, not through a change in who is narrating or when events occur.",
+"id": "litx10013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As dem change from happy words to bad words, e dey change the feeling wey reader dey get for body. Na the choice of words cause am, no be say person wey dey tell story don change."
+},
+{
+"q": "Which of the following best distinguishes 'tone' from 'mood' in a literary work?",
+"options": [
+"Tone is the writer's attitude to the subject; mood is the emotional atmosphere felt by the reader",
+"Tone concerns setting; mood concerns characterisation",
+"Tone is created only through dialogue; mood only through narration",
+"Tone and mood are identical terms with no real difference"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Tone reflects the author's or speaker's attitude towards the subject matter, while mood is the overall feeling the reader experiences while reading. Though related, they describe different aspects of a text.",
+"id": "litx10014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Tone na how writer view the matter, while mood na the feeling wey reader dey get for belle. Even though dem close, dem no be the same thing."
+},
+{
+"q": "Read this extract: 'Why must I, who have given forty years to this farm, now beg my own son for a plate of eggs?' The dominant tone expressed here is one of:",
+"options": [
+"Gratitude and contentment",
+"Bitterness and self-pity",
+"Playful mockery",
+"Calm indifference"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The rhetorical question and the contrast between years of labour and present begging reveal a tone of bitterness and self-pity. There is no sign of gratitude, playfulness, or indifference in the lines.",
+"id": "litx10015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To ask why person wey don work for forty years go come dey beg him own pikin show say annoyance and self-pity dey the matter. No be gratitude or joy dey inside."
+},
+{
+"q": "A dramatist writes a play in which a corrupt chief repeatedly refers to bribes as 'tokens of appreciation' and to stolen land as 'community contributions'. This deliberate softening of harsh realities through gentler words is an example of:",
+"options": [
+"Hyperbole",
+"Euphemism",
+"Apostrophe",
+"Onomatopoeia"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Euphemism is the use of mild or indirect words to replace harsh or unpleasant truths, exactly as seen when bribery is renamed 'tokens of appreciation'. It is not exaggeration, direct address, or imitation of sound.",
+"id": "litx10016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Euphemism na when person use soft word take cover heavy truth, like when dem call bribe 'token of appreciation'. Na sweet mouth cover bad thing."
+},
+{
+"q": "In a short story, a character who has lost his job, his health, and his family's respect is shown planting a single seed in cracked, dry soil at the story's end, and the narrator notes that 'somewhere beneath the dust, roots were already deciding to grow.' The theme most strongly suggested by this closing image is:",
+"options": [
+"The inevitability of death despite struggle",
+"The futility of ambition in a harsh world",
+"The resilience of hope even amid hardship",
+"The superiority of farming over other professions"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The image of roots 'deciding to grow' beneath dry, cracked soil symbolises persistent hope and renewal despite severe hardship. This points to a theme of resilience rather than futility or a literal message about farming.",
+"id": "litx10017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To see say roots dey try grow inside dry sand show say hope still dey even when condition hard. E mean say person no suppose give up."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In literary studies, 'diction' most precisely refers to a writer's choice of:",
+"options": [
+"Rhyme scheme and metre in a poem",
+"Words and phrases, and the manner of their arrangement, to create meaning and effect",
+"The sequence of events in a narrative",
+"The physical setting where the action occurs"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Diction is about the specific words a writer selects and how they are combined to produce a particular effect. It is not about plot sequence or setting.",
+"id": "litx10010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Basic definition; giveaway."
+}
+]
+}

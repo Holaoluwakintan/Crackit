@@ -1,0 +1,202 @@
+{
+"subject": "economics",
+"topic": "Price determination, equilibrium, price control and elasticity",
+"ti": 5,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "In a market for fresh pepper at Mile 12 market, Lagos, the demand function is Qd = 60 - 3P and the supply function is Qs = -10 + 2P, where P is price in naira and Q is quantity in baskets. What is the equilibrium price?",
+"options": [
+"₦10",
+"₦12",
+"₦14",
+"₦16"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "At equilibrium Qd equals Qs, so 60 - 3P = -10 + 2P, giving 70 = 5P and P = 14. Substituting back confirms both quantities equal 18 baskets.",
+"py": "(60+10)/5",
+"values": [
+10,
+12,
+14,
+16
+],
+"id": "ecox05011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you set Qd equal to Qs, you go get 60 - 3P = -10 + 2P. When you solve am, 70 = 5P, so P = 14. Both sides go give you 18 baskets."
+},
+{
+"q": "Which of the following best explains why the price elasticity of demand for a narrowly defined good, such as 'Peak milk brand', is usually higher than that of a broadly defined good, such as 'milk in general'?",
+"options": [
+"Narrowly defined goods have more close substitutes available to consumers",
+"Narrowly defined goods take a larger share of consumer income",
+"Narrowly defined goods are usually necessities rather than luxuries",
+"Narrowly defined goods have fewer uses than broadly defined goods"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A specific brand like Peak milk has many substitute brands of milk, so consumers can easily switch if its price rises, making demand more elastic. The broader category 'milk' has fewer substitutes, making its demand less elastic.",
+"py": null,
+"values": null,
+"id": "ecox05012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Peak milk get plenty other milk wey people fit buy if price high, so demand dey elastic. But 'milk' as general category no get many substitute, so e no dey elastic like that."
+},
+{
+"q": "A government wants to support local rice farmers by guaranteeing them a price above the free market equilibrium price. This policy is best described as a form of",
+"options": [
+"price ceiling, which will create a shortage of rice in the market",
+"price floor, which will create a surplus of rice in the market",
+"indirect taxation, which will reduce farmers' income",
+"subsidy on consumption, which will increase demand for rice"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A price fixed above equilibrium to help producers is called a price floor or minimum price. Since the price is above equilibrium, quantity supplied exceeds quantity demanded, creating a surplus.",
+"py": null,
+"values": null,
+"id": "ecox05013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When government fix price pass equilibrium to help farmers, we dey call am price floor. Because price high, supply go pass demand and surplus go happen."
+},
+{
+"q": "The income elasticity of demand for a particular good is calculated to be -1.5. Based on this value, the good can be classified as",
+"options": [
+"a normal good with elastic demand",
+"a luxury good",
+"an inferior good",
+"a good with unitary elasticity"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A negative income elasticity means that demand for the good falls as income rises. Goods with this property are classified as inferior goods.",
+"py": null,
+"values": null,
+"id": "ecox05014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If income elasticity na minus, e mean say as person money increase, e no go want buy that item again. We dey call dis kain item inferior good."
+},
+{
+"q": "Suppose the supply function for tomatoes in a market is Qs = 5P - 20. If the price rises from ₦20 to ₦25 per basket, what is the price elasticity of supply, using the initial price and quantity as the base?",
+"options": [
+"1.25",
+"1.56",
+"0.80",
+"1.00"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "At P=20, Qs = 5(20)-20 = 80; at P=25, Qs = 5(25)-20 = 105. Percentage change in quantity is 25/80 = 0.3125 and percentage change in price is 5/20 = 0.25, so elasticity = 0.3125/0.25 = 1.25.",
+"py": "((105-80)/80)/((25-20)/20)",
+"values": [
+1.25,
+1.56,
+0.8,
+1.0
+],
+"id": "ecox05015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "At P=20, Qs na 80, and at P=25, Qs na 105. Percentage change for quantity na 0.3125 while for price na 0.25, so 0.3125 divide by 0.25 give you 1.25."
+},
+{
+"q": "Which of the following statements correctly distinguishes a change in quantity demanded from a change in demand?",
+"options": [
+"A change in quantity demanded is caused by a change in the price of the good itself, while a change in demand is caused by a change in a non-price factor",
+"A change in quantity demanded is caused by a change in consumer income, while a change in demand is caused by a change in price",
+"Both are caused only by changes in the price of the good, but they differ in magnitude",
+"A change in quantity demanded shifts the entire demand curve, while a change in demand moves along the curve"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A change in the price of the good itself causes a movement along the demand curve, known as a change in quantity demanded. A change in demand refers to a shift of the entire curve caused by non-price factors like income or tastes.",
+"py": null,
+"values": null,
+"id": "ecox05016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If price of the item change, na movement along the curve we dey see, wey be change in quantity demanded. But if other things like income change, the whole curve go shift, wey be change in demand."
+},
+{
+"q": "In the market for exercise books in a Nigerian town, equilibrium price is ₦150 per book. If the government fixes a maximum price of ₦100 per book, which of the following is the most likely consequence?",
+"options": [
+"A surplus of exercise books as sellers produce more at the lower price",
+"A shortage of exercise books as quantity demanded exceeds quantity supplied",
+"No change in the market since price controls do not affect quantity",
+"An increase in the equilibrium price as demand falls"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Setting a maximum price below the equilibrium price means producers supply less while consumers demand more at the lower price. This gap between quantity demanded and quantity supplied creates a shortage.",
+"py": null,
+"values": null,
+"id": "ecox05017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If government fix price lower pass equilibrium, sellers no go wan produce plenty, but buyers go want buy more. Dis one go cause shortage for market."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Market equilibrium in a competitive market for yam flour is disturbed when government announces a new tax on sellers. Which of the following correctly describes the immediate movement towards a new equilibrium?",
+"options": [
+"The supply curve shifts leftward, raising the equilibrium price and lowering the equilibrium quantity",
+"The demand curve shifts leftward, lowering both equilibrium price and quantity",
+"The supply curve shifts rightward, lowering the equilibrium price and raising the equilibrium quantity",
+"The equilibrium price falls while quantity remains fixed because tax does not affect quantity",
+"The equilibrium price falls while quantity remains fixed because tax does not affect quantity"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A tax on sellers raises their cost of production, so they supply less at every price, shifting the supply curve to the left. This leads to a higher equilibrium price and a lower equilibrium quantity.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+}
+]
+}

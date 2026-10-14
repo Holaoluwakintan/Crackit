@@ -1,0 +1,203 @@
+{
+"subject": "commerce",
+"topic": "Foreign trade: procedures, documents and balance of payments",
+"ti": 3,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "An importer in Kano wishes to bring in machinery from Germany but needs his bank to authorise a foreign bank to pay the German supplier a stated sum once shipping documents are presented. Which document should the importer's bank issue?",
+"options": [
+"Letter of credit",
+"Bill of lading",
+"Certificate of origin",
+"Letter of hypothecation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A letter of credit is issued by the importer's bank to guarantee payment to the exporter once agreed conditions and documents are met. The other documents serve different purposes in foreign trade.",
+"py": null,
+"values": null,
+"id": "comx03000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Letter of credit na bank document wey dey guarantee say dem go pay supplier money as soon as dem bring shipping documents. E dey help build trust for international trade."
+},
+{
+"q": "A Nigerian exporter ships cocoa to the Netherlands and later receives payment through a bank instrument instructing the foreign buyer to pay a fixed sum on a specified date. This instrument is called a",
+"options": [
+"bill of lading",
+"bill of exchange",
+"dock warrant",
+"indent"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A bill of exchange is a written order used in foreign trade requiring the buyer to pay a stated amount at a fixed or determinable future date. It is mainly a payment instrument, unlike the other documents listed.",
+"py": null,
+"values": null,
+"id": "comx03002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Bill of exchange na written order wey dey tell buyer make e pay money for specific future date. Na correct instrument wey dem dey use for international business payment."
+},
+{
+"q": "In foreign trade procedure, an indent is best described as",
+"options": [
+"a written order sent by an importer to an agent abroad for specified goods",
+"a government levy charged on imported goods",
+"a certificate confirming goods meet health standards",
+"a document used to claim insurance compensation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An indent is an order placed by a home buyer through an agent abroad, specifying the goods required and terms of purchase. The other options describe a tariff, a sanitary certificate, and an insurance claim form.",
+"py": null,
+"values": null,
+"id": "comx03003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Indent na order wey importer dey send give agent abroad to buy goods for am. E dey contain the type of goods and conditions wey dem need."
+},
+{
+"q": "Which of the following is a major reason why a country's balance of payments account is usually divided into current account and capital account?",
+"options": [
+"To separate transactions in goods and services from transactions in assets and liabilities",
+"To separate government revenue from private sector revenue",
+"To show only the value of smuggled goods across borders",
+"To calculate the exchange rate of the national currency directly"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The current account records trade in goods, services and income, while the capital account records financial transactions such as loans, investments and asset transfers. This separation helps economists analyse different sources of foreign exchange flows.",
+"py": null,
+"values": null,
+"id": "comx03005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Current account dey record trade for goods and services, while capital account dey record money for assets and loans. To separate dem dey help us know how foreign money dey enter and go."
+},
+{
+"q": "A country exported goods worth ₦450 million and imported goods worth ₦520 million in a given year, with no other visible transactions. What is the value and type of its visible trade balance for that year?",
+"options": [
+"₦70 million deficit",
+"₦70 million surplus",
+"₦970 million deficit",
+"₦450 million surplus"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Visible trade balance equals exports minus imports: 450 million minus 520 million gives a deficit of 70 million naira. This means the country spent more on imports than it earned from exports.",
+"py": "450-520",
+"values": [
+-70,
+70,
+-970,
+450
+],
+"id": "comx03006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Visible trade balance na exports minus imports, wey be ₦450 million minus ₦520 million to get ₦70 million deficit. E mean say we spend pass wetл we sell."
+},
+{
+"q": "In international trade procedure, before goods can be shipped abroad, an exporter usually obtains a document from a recognised body certifying that the goods meet specified standards of quality. This document is known as",
+"options": [
+"certificate of origin",
+"certificate of inspection",
+"consular invoice",
+"warehouse warrant"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A certificate of inspection confirms that goods have been examined and meet required quality standards before shipment. It differs from a certificate of origin, which only states where goods were produced, and from a consular invoice, which is for customs valuation purposes.",
+"py": null,
+"values": null,
+"id": "comx03007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Certificate of inspection dey show say dem don check the goods and dem meet standard quality before shipping. E different from certificate of origin wey just dey show where dem make the goods."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best describes the main function of a bill of entry in foreign trade documentation?",
+"options": [
+"It declares details of goods being imported or exported to the customs authority",
+"It confirms the quality standard of goods shipped abroad",
+"It insures goods against loss while in transit",
+"It instructs a bank to collect payment from a foreign buyer"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A bill of entry is a customs document completed by an importer or exporter giving details of the goods for clearance purposes. The other options describe certificates of quality, insurance policies, and bills of exchange respectively.",
+"py": null,
+"values": null,
+"id": "comx03001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:A bill of entry normally covers imports, not exports.|"
+},
+{
+"q": {
+"q": "A country's balance of payments records a surplus on current account but the government still borrows heavily from abroad within the same period. This situation would most likely result in",
+"options": [
+"a deficit on the capital account",
+"a reduction in the visible trade balance only",
+"automatic correction of the current account surplus",
+"a fall in the exchange rate of the trading partner's currency"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since the balance of payments must balance overall, heavy foreign borrowing (a capital inflow recorded as an outflow of liability) alongside a current account surplus implies the capital account is in deficit to offset it. This reflects how current and capital accounts interact rather than acting independently.",
+"py": null,
+"values": null,
+"id": "comx03004",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

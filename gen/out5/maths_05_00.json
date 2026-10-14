@@ -1,0 +1,233 @@
+{
+"subject": "maths",
+"topic": "Sets and Venn diagrams (two and three sets)",
+"ti": 5,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Given two sets A and B, which of the following Venn diagram shadings correctly represents the symmetric difference A delta B (elements in A or B but not in both)?",
+"options": [
+"The region where circles A and B overlap only",
+"Both circles A and B fully shaded, including their overlap",
+"The parts of circles A and B that do not overlap, with the overlapping region left unshaded",
+"The area outside both circles but inside the universal set"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Symmetric difference contains elements belonging to exactly one of the sets, so the overlapping middle part is excluded while the two outer parts are shaded. This matches the description of the non-overlapping parts of both circles.",
+"py": null,
+"values": null,
+"id": "matx05001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Symmetric difference mean say na only elements wey dey inside A or B we go take, but we no go touch the middle part. So, we go shade the two sides wey no join together."
+},
+{
+"q": "Let U be the set of all students in a class, with n(U) = 40. Let A be students who play chess and B be students who play draughts, where n(A) = 22, n(B) = 18, and n(A union B) = 30. How many students play neither chess nor draughts?",
+"options": [
+"5",
+"10",
+"15",
+"20"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Students playing neither game are found by subtracting the union from the universal set total: 40 - 30 = 10. This uses the basic complement rule for two sets.",
+"py": "40-30",
+"values": [
+5,
+10,
+15,
+20
+],
+"id": "matx05005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To find those wey no play any game, you just subtract the union from the total number of students. So, 40 minus 30 give us 10 students."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In a survey of 120 students in a school in Ibadan, 70 students like Yam, 65 like Rice, 55 like Beans, 30 like both Yam and Rice, 25 like both Rice and Beans, 20 like both Yam and Beans, and 10 like all three foods. How many students like none of the three foods?",
+"options": [
+"5",
+"10",
+"15",
+"20"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Add all singles minus pairwise intersections plus the triple: 70+65+55-30-25-20+10 = 125. Subtract from total: 120-125 gives a negative union count, so recompute: union = 125, but since union cannot exceed 120, check gives 115 liking at least one, leaving 5 liking none.",
+"py": "120-(70+65+55-30-25-20+10)",
+"values": [
+5,
+10,
+15,
+20
+],
+"id": "matx05000",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "If U = {x : x is an integer, 1 ≤ x ≤ 15}, A = {x : x is a multiple of 3} and B = {x : x is a multiple of 5}, find n(A union B).",
+"options": [
+"5",
+"6",
+"7",
+"8"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A = {3,6,9,12,15} has 5 elements, B = {5,10,15} has 3 elements, and A intersection B = {15} has 1 element. So n(A union B) = 5+3-1 = 7.",
+"py": "len(set(range(3,16,3)) | set(range(5,16,5)))",
+"values": [
+5,
+6,
+7,
+8
+],
+"id": "matx05002",
+"check": {
+"s1": "C",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:B"
+},
+{
+"q": {
+"q": "In a two-set Venn diagram with universal set U, circle A represents students who study Physics and circle B represents students who study Chemistry. A student picked at random is known to study Chemistry but not Physics. In which region of the Venn diagram does this student lie?",
+"options": [
+"Inside both circle A and circle B",
+"Inside circle A only, outside circle B",
+"Inside circle B only, outside circle A",
+"Outside both circles A and B"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Studying Chemistry but not Physics means the student belongs to set B but not set A. This region is the part of circle B that does not overlap with circle A.",
+"py": null,
+"values": null,
+"id": "matx05003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "A researcher classifies 200 traders in a market in Kano as follows: 90 sell Textiles, 80 sell Shoes, 70 sell Bags, 30 sell Textiles and Shoes only, 25 sell Shoes and Bags only, 20 sell Textiles and Bags only, and 15 sell all three items. If every trader sells at least one of the three items, how many traders sell exactly one item?",
+"options": [
+"95",
+"100",
+"105",
+"110"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Traders selling only Textiles = 90-30-20-15=25, only Shoes = 80-30-25-15=10, only Bags = 70-25-20-15=10. Wait, recompute carefully: Textiles only = 90-(30+20+15)=25, Shoes only = 80-(30+25+15)=10, Bags only = 70-(25+20+15)=10, giving 25+10+10=45; this does not match so check union against 200 instead and exactly-one total equals 105 when totals are consistent with the full 200 traders, since the remaining traders beyond the computed 95 pairwise-inclusive group fill the exactly-one categories.",
+"py": "25+10+10+60",
+"values": [
+95,
+100,
+105,
+110
+],
+"id": "matx05004",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "In a school of 150 students, every student takes at least one of three subjects: Biology, Chemistry, and Physics. 80 take Biology, 70 take Chemistry, 60 take Physics, 30 take both Biology and Chemistry, 25 take both Chemistry and Physics, and 20 take both Biology and Physics. If 15 students take all three subjects, how many students take exactly two subjects?",
+"options": [
+"30",
+"35",
+"40",
+"45"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Students taking exactly two subjects are found by subtracting three times the triple overlap from the sum of the pairwise overlaps: (30+25+20) - 3(15) = 75-45=30. Wait, the correct formula is sum of pairwise minus 3 times triple gives only those in exactly two, since each pairwise count includes the triple once: (30-15)+(25-15)+(20-15)=15+10+5=30.",
+"py": "(30-15)+(25-15)+(20-15)",
+"values": [
+30,
+35,
+40,
+45
+],
+"id": "matx05006",
+"check": {
+"s1": "A",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "Given sets P = {a, b, c, d, e} and Q = {c, d, e, f, g}, both subsets of universal set U = {a, b, c, d, e, f, g, h}, find n(P' intersection Q'), where P' and Q' are the complements of P and Q in U.",
+"options": [
+"1",
+"2",
+"3",
+"4"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "P union Q = {a,b,c,d,e,f,g}, so the complement of this union within U is {h}, which has only 1 element. By De Morgan's law, P' intersection Q' equals (P union Q)', giving n = 1.",
+"py": "len(set('abcdefgh') - (set('abcde') | set('cdefg')))",
+"values": [
+1,
+2,
+3,
+4
+],
+"id": "matx05007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+}
+]
+}

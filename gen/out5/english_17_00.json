@@ -1,0 +1,181 @@
+{
+"subject": "english",
+"topic": "Register and vocabulary of fields (e.g. law, medicine, sports, banking)",
+"ti": 17,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best completes the gap: Because the midfielder had already received a yellow card earlier in the match, the referee's second caution resulted in a _____.",
+"options": [
+"red card",
+"free kick",
+"corner kick",
+"throw-in"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "In football register, a second yellow card automatically becomes a red card, which sends the player off the pitch. The other terms describe unrelated match restarts.",
+"id": "engx17000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For football matter, once player collect two yellow card, e must turn to red card and the referee go send am comot for field. Na only red card dey show say person don collect second yellow."
+},
+{
+"q": "Choose the option that best completes the gap: In banking usage, the document that instructs a bank to pay a stated sum from one's account to a named person is called a _____.",
+"options": [
+"cheque",
+"receipt",
+"invoice",
+"voucher"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A cheque is the standard banking instrument used to order payment from an account holder's funds to another party. A receipt and invoice merely record transactions, while a voucher supports accounting entries.",
+"id": "engx17001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na cheque dem dey use tell bank make dem pay money from person account give another person. Receipt and invoice na just paper for record, but na cheque be correct instruction for payment."
+},
+{
+"q": "Choose the option that best completes the gap: During the land dispute hearing, the judge asked both parties to present their _____ before he could give a ruling.",
+"options": [
+"testimonies",
+"sentences",
+"verdicts",
+"indictments"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Testimonies are statements given by parties or witnesses before a judgement is reached. A verdict and sentence come after the judge has decided, while an indictment is a formal criminal charge, not evidence from parties.",
+"id": "engx17002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Before judge go give judgment, both people must bring their testimonies to show wetin happen. Na after everything judge go come give verdict, no be before the case start."
+},
+{
+"q": "Choose the option that best completes the gap: The athlete was disqualified from the 100-metre race for committing a _____, having left the blocks before the gun was fired.",
+"options": [
+"false start",
+"foul throw",
+"handball",
+"offside"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A false start occurs when a sprinter moves before the starting gun, leading to disqualification in track events. Foul throw, handball and offside belong to other sports such as football and are not relevant here.",
+"id": "engx17003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If runner move for starting block before gun shoot, dem dey call am false start and na im make dem disqualify the person. The other options no concern 100-metre race at all."
+},
+{
+"q": "Read the passage and answer the question that follows: Funmilayo took her late father's estate to court after her stepbrothers claimed sole ownership of the family house. The judge examined the will tendered as evidence and ruled that the property be shared equally among all the children. Funmilayo's lawyer later explained that the ruling had settled the matter permanently, and no party could reopen the case on the same grounds. Which legal term best describes the lawyer's explanation of the ruling's effect?",
+"options": [
+"final and binding",
+"subject to appeal",
+"temporarily suspended",
+"under review"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since the lawyer says the matter is settled permanently and cannot be reopened on the same grounds, this describes a ruling that is final and binding. The other options all suggest the case could still change, which contradicts the passage.",
+"id": "engx17005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because the lawyer talk say case don finish permanently and nobody fit bring am back again, e mean say judgment don final and binding. E no dey subject to appeal again."
+},
+{
+"q": "Choose the option that best completes the gap: A customer who wishes to transfer money regularly to pay a fixed bill, such as rent, without visiting the bank each time, should set up a _____.",
+"options": [
+"standing order",
+"bank statement",
+"loan facility",
+"overdraft"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A standing order is a banking instruction that automatically makes fixed, regular payments from a customer's account. A bank statement only records transactions, a loan facility provides borrowed funds, and an overdraft permits spending beyond the account balance.",
+"id": "engx17006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If you wan make bank dey pay fixed money like rent every time without stress, na standing order you go setup. E go dey send the money automatically."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap. In medical register, the term used for a doctor's written order permitting a patient to be discharged from hospital is a _____.",
+"options": [
+"discharge summary",
+"prognosis",
+"referral letter",
+"diagnosis"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A discharge summary is the official document authorising and detailing a patient's release from hospital care. A diagnosis identifies the illness, a prognosis predicts its course, and a referral letter sends a patient to another specialist, none of which concern discharge.",
+"id": "engx17004",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap: After the batsman's score reached exactly the number needed to equal his opponent's innings, the commentator described the position as a _____ in the match.",
+"options": [
+"tie",
+"draw",
+"walkover",
+"bye"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A tie occurs when both sides finish with exactly equal scores after play, which fits the batsman matching his opponent's total. A draw happens when a match ends without a result despite unequal play remaining, while walkover and bye refer to situations where a side advances without full competition.",
+"id": "engx17007",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

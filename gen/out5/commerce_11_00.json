@@ -1,0 +1,202 @@
+{
+"subject": "commerce",
+"topic": "Business units: sole proprietorship and partnership",
+"ti": 11,
+"b": 0,
+"generated": 9,
+"kept": [
+{
+"q": "Which of the following is a type of partner who takes part in the day-to-day management of the business and is also liable for its debts without limit?",
+"options": [
+"Sleeping partner",
+"Active partner",
+"Nominal partner",
+"Limited partner"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An active partner contributes capital, participates actively in management and bears unlimited liability. A sleeping partner only invests capital without taking part in management, while a nominal partner merely lends his name.",
+"py": null,
+"values": null,
+"id": "comx11001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Active partner dey put money, dey manage business everyday, and e get unlimited liability. Sleeping partner no dey manage, and nominal partner na just name e dey lend."
+},
+{
+"q": "Which of the following is a major disadvantage common to both sole proprietorship and ordinary partnership?",
+"options": [
+"Difficulty in raising large capital",
+"Separate legal existence from owners",
+"Continuity after the death of an owner",
+"Transfer of shares on the stock exchange"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Both business units rely mainly on the owners' personal savings and limited borrowing, making it hard to raise large capital compared to companies. The other options describe features of limited liability companies, not sole proprietorships or partnerships.",
+"py": null,
+"values": null,
+"id": "comx11003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Sole proprietorship and partnership dey struggle to get big money because dem dey rely on personal savings. Unlike companies, dem no get easy way to raise large capital."
+},
+{
+"q": "Which of these is a valid legal way by which a partnership can be dissolved?",
+"options": [
+"Transfer of partnership shares to the stock exchange",
+"Appointment of a managing director by shareholders",
+"Death, bankruptcy or withdrawal of a partner",
+"Conversion of ordinary shares into preference shares"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A partnership, unlike a company, is easily dissolved by events such as the death, bankruptcy or retirement of any partner because it lacks separate legal existence. The other options relate to company administration, not partnerships.",
+"py": null,
+"values": null,
+"id": "comx11005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Partnership no get separate legal existence, so if one partner die, go bankrupt, or commot, the business fit dissolve. Other options na things wey concern company, no be partnership."
+},
+{
+"q": "A sole trader wants to expand his business but is unwilling to share ownership and control with anyone else. Based on this concern, which source of additional finance would be most suitable for him?",
+"options": [
+"Admitting a new partner",
+"Issuing ordinary shares to the public",
+"Obtaining a bank loan",
+"Converting the business into a public company"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A bank loan allows the sole trader to raise funds while keeping full ownership and control of the business. Admitting a partner, issuing shares, or forming a public company would all involve sharing ownership or control with others.",
+"py": null,
+"values": null,
+"id": "comx11006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If the man no wan share control, bank loan na the best way to get money. If e take partner or sell shares, e go lose part of the control."
+},
+{
+"q": "Mr. Obi and Mr. Danladi are partners in a transport business. Mr. Obi contributed ₦400,000 while Mr. Danladi contributed ₦600,000. Their deed is silent on profit sharing. At the end of the year, the business made a profit of ₦200,000. Under the Partnership Act, how should the profit be shared?",
+"options": [
+"₦80,000 to Mr. Obi and ₦120,000 to Mr. Danladi, based on capital ratio",
+"₦100,000 to each partner equally",
+"₦60,000 to Mr. Obi and ₦140,000 to Mr. Danladi",
+"All the profit goes to Mr. Danladi since he contributed more capital"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Where a partnership deed is silent on profit sharing, the Partnership Act states that profits and losses should be shared equally among partners regardless of capital contributed. So ₦200,000 divided equally gives ₦100,000 each.",
+"py": "200000/2",
+"values": [
+80000,
+100000,
+60000,
+200000
+],
+"id": "comx11007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If partnership deed no talk how dem go share profit, law talk say make dem share am equal. So, even if one person put more money, dem go still share the ₦200,000 fifty-fifty."
+}
+],
+"rejected": [
+{
+"q": "",
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following best explains why a partnership is generally able to raise more capital than a sole proprietorship?",
+"options": [
+"It enjoys perpetual succession like a limited company",
+"It can sell shares freely to members of the public",
+"More than one person contributes capital and resources into the business",
+"It is registered under the Companies and Allied Matters Act as a corporate body",
+"It pays lower taxes than a sole proprietorship"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Because a partnership has two or more owners, each partner can bring in capital, skills and assets, giving it a larger capital base than a one-man business. Partnerships do not sell shares to the public and do not have perpetual succession like companies.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Chief Bassey started a small electronics repair business with his personal savings of ₦150,000. He makes all decisions alone and keeps all the profit after expenses. Which type of business unit has he formed?",
+"options": [
+"Sole proprietorship",
+"Partnership",
+"Joint stock company",
+"Cooperative society"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A business owned, financed and controlled by one person who takes all the profit is a sole proprietorship. Partnership and company forms require more than one owner, while a cooperative is formed by members with common interest.",
+"py": null,
+"values": null,
+"id": "comx11000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Three friends, Tunde, Ada and Kabiru, agree to combine their capital and skills to run a catering business together, sharing profits and losses as agreed. This arrangement best illustrates which business unit?",
+"options": [
+"Sole proprietorship",
+"Partnership",
+"Public corporation",
+"Joint venture between companies"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "When two or more persons agree to carry on a business together and share profits and losses, they form a partnership. A sole proprietorship has only one owner, so this does not fit.",
+"py": null,
+"values": null,
+"id": "comx11002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

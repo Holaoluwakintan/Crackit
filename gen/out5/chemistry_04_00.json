@@ -1,0 +1,202 @@
+{
+"subject": "chemistry",
+"topic": "Chemical bonding",
+"ti": 4,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "An element P (atomic number 11) reacts with an element Q (atomic number 17) to form a compound. Which of the following best describes the bonding and structure of the resulting compound?",
+"options": [
+"Covalent bonding with a simple molecular structure",
+"Ionic bonding with a giant crystal lattice structure",
+"Metallic bonding with a sea of delocalised electrons",
+"Dative bonding with a discrete molecular structure"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Sodium (atomic number 11) is a metal that easily loses one electron, while chlorine (atomic number 17) is a non-metal that readily gains one electron. The transfer of electrons forms oppositely charged ions held together by strong electrostatic forces in a giant ionic lattice.",
+"py": null,
+"values": null,
+"id": "chex04000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Sodium na metal wey dey easily loss one electron, while chlorine na non-metal wey dey gain one electron. E form giant ionic lattice because of strong electrostatic force between the ions."
+},
+{
+"q": "Which of the following statements correctly explains why ionic compounds generally have higher melting points than simple covalent molecular compounds?",
+"options": [
+"Ionic compounds have weaker van der Waals forces between molecules",
+"Ionic compounds contain strong electrostatic forces acting in all directions throughout the lattice",
+"Ionic compounds exist as discrete molecules with low molecular mass",
+"Ionic compounds share electrons equally between bonded atoms"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In ionic compounds, each ion is surrounded by oppositely charged ions and is held by strong electrostatic attraction in every direction throughout the giant lattice. This requires a lot of energy to overcome, unlike the weak intermolecular forces in simple covalent molecules.",
+"py": null,
+"values": null,
+"id": "chex04001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For ionic compounds, strong electrostatic attraction dey everywhere inside the giant lattice. Na why e dey take plenty energy to break am, unlike simple covalent molecules."
+},
+{
+"q": "Using the bond energy values below, calculate the enthalpy change for the reaction: H2(g) + Cl2(g) -> 2HCl(g).\nBond energies (kJ/mol): H-H = 436, Cl-Cl = 243, H-Cl = 431",
+"options": [
+"-183 kJ/mol",
+"+183 kJ/mol",
+"-679 kJ/mol",
+"+679 kJ/mol"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Enthalpy change equals bonds broken minus bonds formed: (436 + 243) - (2 x 431) = 679 - 862 = -183 kJ/mol. The negative sign shows the reaction is exothermic since more energy is released forming new bonds than used breaking old ones.",
+"py": "(436+243)-(2*431)",
+"values": [
+-183,
+183,
+-679,
+679
+],
+"id": "chex04002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To calculate am, you go minus the bonds formed from the bonds broken, wey give us (436 + 243) minus (2 times 431). The minus sign show say energy release, meaning the reaction na exothermic."
+},
+{
+"q": "Consider a molecule of boron trifluoride, BF3, where boron is the central atom. Boron has 3 valence electrons and each fluorine contributes one electron to each B-F bond. According to Valence Shell Electron Pair Repulsion (VSEPR) theory, what is the expected shape of BF3?",
+"options": [
+"Tetrahedral",
+"Trigonal planar",
+"Trigonal pyramidal",
+"Bent (V-shaped)"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Boron in BF3 has three bonding pairs and no lone pairs around the central atom. With three regions of electron density and no lone pair repulsion, the molecule adopts a trigonal planar shape with bond angles of 120°.",
+"py": null,
+"values": null,
+"id": "chex04004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Boron for BF3 get three bonding pairs and no lone pair at all. Because of this, the molecule go carry trigonal planar shape with 120° bond angle."
+},
+{
+"q": "Element W has the electronic configuration 2,8,2 while element Z has the configuration 2,8,7. If W and Z combine to form a stable compound, what is the simplest formula of the compound and the type of bond formed?",
+"options": [
+"WZ2, ionic bond",
+"W2Z, ionic bond",
+"WZ2, covalent bond",
+"W2Z7, covalent bond"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Element W (configuration 2,8,2) loses 2 electrons to form W2+ and element Z (configuration 2,8,7) gains 1 electron to form Z-. To balance charges, one W2+ ion combines with two Z- ions, giving the formula WZ2, and the electron transfer between a metal-like and non-metal-like species makes it ionic.",
+"py": null,
+"values": null,
+"id": "chex04005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "W go loss 2 electrons to form W2+, while Z go gain 1 electron to form Z-. To balance everything, you need one W and two Z, wey make the formula WZ2 with ionic bond."
+},
+{
+"q": "Which of the following best explains why metals are good conductors of electricity in both solid and molten states?",
+"options": [
+"Metal ions are held together by strong covalent bonds that allow electron flow",
+"Metals contain mobile delocalised electrons that can move freely through the structure",
+"Metals have giant ionic lattices with freely moving ions in all states",
+"Metals form simple molecular structures with weak intermolecular forces"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In metallic bonding, the valence electrons are delocalised and not fixed to any particular atom, forming a sea of electrons that can move freely. This free movement of electrons allows metals to conduct electricity whether solid or molten.",
+"py": null,
+"values": null,
+"id": "chex04006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Metals get electrons wey dey free to move anyhow inside the structure like sea of electrons. Na this free movement dey make them conduct electricity well."
+},
+{
+"q": "A student is comparing the boiling points of hydrogen chloride (HCl) and hydrogen fluoride (HF). Despite HF having a lower molar mass than HCl, HF has a significantly higher boiling point. What is the most likely reason for this observation?",
+"options": [
+"HF molecules have stronger covalent bonds within the molecule than HCl",
+"HF experiences hydrogen bonding between molecules while HCl does not",
+"HF has more delocalised electrons than HCl",
+"HF is an ionic compound while HCl is covalent"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Fluorine is highly electronegative and small, allowing HF molecules to form strong hydrogen bonds between molecules, unlike HCl which only has weaker dipole-dipole and van der Waals forces. These extra hydrogen bonds in HF require more energy to break, giving it a higher boiling point despite its lower molar mass.",
+"py": null,
+"values": null,
+"id": "chex04007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "HF get strong hydrogen bonding because fluorine small and electronegative well well, but HCl no get am. Na why HF boiling point high pass HCl even though e get small molar mass."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the formation of a water molecule, oxygen shares two pairs of electrons with two hydrogen atoms. Which term describes the type of covalent bond present in each O-H bond, considering only one shared pair is involved per bond?",
+"options": [
+"Coordinate bond",
+"Single covalent bond",
+"Double covalent bond",
+"Triple covalent bond"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Each O-H bond in water consists of one shared pair of electrons, with each atom contributing one electron to the pair. This is the definition of a single covalent bond.",
+"py": null,
+"values": null,
+"id": "chex04003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

@@ -1,0 +1,178 @@
+{
+"subject": "biology",
+"topic": "Coordination: nervous system, reflex action and sense organs",
+"ti": 11,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A student cuts across a thin section of the spinal cord and observes a butterfly-shaped region in the centre. This central region, which contains mostly cell bodies of neurones, is best described as the:",
+"options": [
+"grey matter",
+"white matter",
+"meninges",
+"cerebrospinal fluid"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The butterfly-shaped central part of the spinal cord is grey matter, made up mainly of neurone cell bodies and synapses. White matter surrounds it and is made of myelinated axons.",
+"id": "biox11000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "That butterfly-shaped part for inside spinal cord na grey matter, e dey full of neurone cell bodies and synapses. Na white matter dey surround am, and e contain myelinated axons."
+},
+{
+"q": "Which part of the human brain is mainly responsible for controlling involuntary activities such as heartbeat, breathing rate and blood pressure?",
+"options": [
+"Cerebrum",
+"Cerebellum",
+"Medulla oblongata",
+"Hypothalamus"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The medulla oblongata, located in the hindbrain, controls vital involuntary activities like heartbeat and breathing. The cerebrum deals with thought and voluntary action, while the cerebellum controls balance.",
+"id": "biox11001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na medulla oblongata dey control important involuntary work like heartbeat and breathing. Cerebrum dey handle thinking and voluntary action, while cerebellum dey control balance."
+},
+{
+"q": "A table tennis player at a Lagos sports club tracks a fast-moving ball with her eyes. Which structure in the eye adjusts automatically to control the amount of light entering so she can see clearly under the bright hall lights?",
+"options": [
+"Cornea",
+"Iris",
+"Lens",
+"Retina"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The iris contains muscles that widen or narrow the pupil to regulate the amount of light entering the eye. The lens focuses light, while the retina detects the image formed.",
+"id": "biox11002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na iris get muscles wey dey open or close pupil to regulate how light enter eye. Lens dey focus light, while retina dey see the image wey form."
+},
+{
+"q": "In the human ear, vibrations from sound waves are first converted into mechanical movement by which structure before reaching the inner ear?",
+"options": [
+"Pinna",
+"Eardrum (tympanic membrane)",
+"Cochlea",
+"Auditory nerve"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The eardrum vibrates when sound waves strike it, and these vibrations are passed to the ossicles and then to the cochlea. The pinna only collects sound, while the auditory nerve carries electrical impulses, not vibrations.",
+"id": "biox11003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na eardrum dey shake when sound touch am, and e dey send the movement go ossicles then reach cochlea. Pinna just dey gather sound, and auditory nerve dey carry electrical signal, no be physical vibration."
+},
+{
+"q": "A doctor taps the tendon just below a patient's kneecap with a small hammer, causing the lower leg to jerk forward involuntarily. Which feature of this reflex action best explains why the patient cannot consciously prevent the immediate jerk?",
+"options": [
+"The impulse must first travel through the cerebrum for interpretation",
+"The response is coordinated at the spinal cord without waiting for the brain",
+"The muscle contracts due to direct stimulation by the hammer",
+"The sensory neurone connects straight to the motor neurone outside the body"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In a reflex arc, the spinal cord processes the signal directly, producing a fast automatic response before the brain becomes aware of it. This speed is what makes conscious prevention impossible.",
+"id": "biox11004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For reflex action, na spinal cord dey process the signal sharp sharp before brain even know wetin happen. E fast well well, na that one make am hard for person make e stop am with brain."
+},
+{
+"q": "A science teacher in Ibadan explains that some reflex arcs involve three neurones instead of just two. In such a reflex arc, what is the correct order of impulse transmission from the receptor to the effector?",
+"options": [
+"Receptor to motor neurone to relay neurone to sensory neurone to effector",
+"Receptor to sensory neurone to relay neurone to motor neurone to effector",
+"Receptor to relay neurone to sensory neurone to motor neurone to effector",
+"Receptor to motor neurone to sensory neurone to relay neurone to effector"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The correct pathway in a three-neurone reflex arc is receptor, sensory neurone, relay (intermediate) neurone in the spinal cord, motor neurone, then effector. This order ensures the impulse is properly relayed within the central nervous system.",
+"id": "biox11005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "The correct way wey impulse dey travel for three-neurone reflex arc na receptor, sensory neurone, relay neurone for spinal cord, motor neurone, then effector. This order make sure say message pass well inside central nervous system."
+},
+{
+"q": "Okon rubs his palms together vigorously on a cold harmattan morning in Jos. Which type of receptor in his skin is mainly responsible for detecting the resulting heat produced by friction?",
+"options": [
+"Chemoreceptor",
+"Thermoreceptor",
+"Mechanoreceptor",
+"Photoreceptor"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Thermoreceptors in the skin detect changes in temperature, such as the warmth generated from rubbing palms together. Mechanoreceptors respond to pressure or touch, not temperature changes.",
+"id": "biox11006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na thermoreceptor for skin dey feel temperature change like that warmth from rubbing hand together. Mechanoreceptor dey answer touch or pressure, no be heat."
+},
+{
+"q": "A student is asked to distinguish between a sensory neurone and a motor neurone based on their functions in the nervous system. Which statement correctly describes this difference?",
+"options": [
+"Sensory neurones carry impulses from receptors to the CNS, while motor neurones carry impulses from the CNS to effectors",
+"Sensory neurones carry impulses from the CNS to effectors, while motor neurones carry impulses from receptors to the CNS",
+"Both neurones carry impulses only within the brain and spinal cord",
+"Sensory neurones connect directly to effectors without passing through the CNS"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Sensory neurones transmit impulses from receptors towards the central nervous system, while motor neurones carry impulses away from the CNS to muscles or glands (effectors). This distinction is fundamental to understanding reflex arcs and voluntary responses.",
+"id": "biox11007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Sensory neurones dey carry message from receptors go central nervous system, while motor neurones dey carry message commot from CNS go effectors like muscles. Dis difference very important to know how body dey respond."
+}
+],
+"rejected": []
+}

@@ -1,0 +1,209 @@
+{
+"subject": "economics",
+"topic": "Population: theories, census and structure",
+"ti": 17,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A country has a population density of 180 persons per square kilometre and a total land area of 600,000 square kilometres. What is the total population of the country?",
+"options": [
+"3,333 persons",
+"108,000,000 persons",
+"600,180 persons",
+"10,800,000 persons"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Population equals density multiplied by land area. Multiplying 180 by 600,000 gives 108,000,000 persons.",
+"py": "180*600000",
+"values": [
+3333,
+108000000,
+600180,
+10800000
+],
+"id": "ecox17010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find the total population, you just multiply population density by land area. When you multiply 180 by 600,000, you go get 108,000,000 persons."
+},
+{
+"q": "In the demographic transition model, the stage characterised by a high but rapidly falling birth rate alongside a low and stable death rate, leading to a slowing rate of natural increase, is best described as the",
+"options": [
+"high stationary stage",
+"early expanding stage",
+"late expanding stage",
+"low stationary stage"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "In the late expanding stage, death rates are already low while birth rates begin to fall rapidly due to social and economic changes, which narrows the gap between births and deaths. This slows population growth compared to the earlier expanding stage.",
+"py": null,
+"values": null,
+"id": "ecox17012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For this stage, death rate dey low already while birth rate dey fall quick quick because of social and economic changes. This one dey make the population growth slow down small compare to before."
+},
+{
+"q": "A state government wants to classify its population into economically active and dependent groups for planning school enrolment and old-age support schemes. Which concept should the planners primarily rely on?",
+"options": [
+"Population density",
+"Age-sex structure of the population",
+"Crude birth rate",
+"Net migration rate"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The age-sex structure shows how many people fall into the young, working, and elderly age groups, which helps planners estimate dependents versus workers. Birth rate, density, and migration do not directly show this grouping.",
+"py": null,
+"values": null,
+"id": "ecox17013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na the age-sex structure dey show how many people dey young, working class, or old age. E dey help planners know people wey dey work versus those wey dey depend on them."
+},
+{
+"q": "A region has a working population of 450,000 persons, while the number of dependents (children and elderly) is 300,000. What is the dependency ratio of the region, expressed as a ratio of dependents to workers in simplest form?",
+"options": [
+"3:2",
+"2:3",
+"1:2",
+"3:4"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Dependency ratio is dependents divided by workers, which is 300,000 to 450,000, simplifying to 2:3. This means for every 3 working people, there are 2 dependents.",
+"py": "Fraction(300000,450000)",
+"values": [
+1.5,
+0.6667,
+0.5,
+0.75
+],
+"id": "ecox17014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dependency ratio na dependents divide by workers, wey mean 300,000 over 450,000. When you simplify am, e go give you 2:3."
+},
+{
+"q": "According to the theory of optimum population, which of the following statements correctly describes a situation of UNDER-population?",
+"options": [
+"Population is so large that output per head is falling as more people are added",
+"Population size is exactly matched with resources so that output per head is at its maximum",
+"Population is too small relative to available resources, so output per head could rise if more people were added",
+"Population growth has stopped completely and the birth rate equals the death rate"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Under-population occurs when there are too few people to fully exploit a country's resources, meaning adding more workers would raise output per head rather than lower it. This is different from optimum population, where output per head is already maximised, or overpopulation, where adding more people reduces output per head.",
+"py": null,
+"values": null,
+"id": "ecox17015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Under-population happen when people small too much compared to the resources wey dey ground. If more workers join, output per head go even increase instead of to fall."
+},
+{
+"q": "A Nigerian town recorded 2,400 live births and 900 deaths in a particular year out of a mid-year population of 60,000 people. What was the rate of natural increase of the population for that year, expressed as a percentage?",
+"options": [
+"1.5%",
+"2.5%",
+"4.0%",
+"5.5%"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Crude birth rate is 2400 divided by 60000 multiplied by 1000, giving 40 per 1000, and crude death rate is 900 divided by 60000 multiplied by 1000, giving 15 per 1000. The natural increase rate is 40 minus 15, which is 25 per 1000, equal to 2.5 percent.",
+"py": "((2400-900)/60000)*100",
+"values": [
+1.5,
+2.5,
+4.0,
+5.5
+],
+"id": "ecox17016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Crude birth rate na 40 per 1,000 while crude death rate na 15 per 1,000. When you subtract death rate from birth rate, you go get 25 per 1,000, wey be 2.5 percent."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following is the MOST likely reason why many developing countries, including Nigeria, experience difficulty in obtaining accurate age-structure data during a population census?",
+"options": [
+"Most citizens refuse to be counted at all during census exercises",
+"Many rural dwellers do not know or cannot state their exact date of birth",
+"Age structure data is not required by law in developing countries",
+"Census enumerators are only trained to count total population, not ages",
+"Developing countries do not have enough printing paper for census forms"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In many rural and less formally documented communities, birth records are poorly kept, so people often estimate their ages rather than state exact birth dates. This makes accurate age-structure data difficult to obtain compared to simply counting total numbers of people.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following is NOT one of the main methods used by national statistical agencies to collect census data?",
+"options": [
+"De facto method, counting people where they are found on census night",
+"De jure method, counting people at their usual place of residence",
+"Sample survey method, using a representative fraction of the population",
+"Taxation method, counting only people who pay income tax"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Censuses are conducted using de facto, de jure, or sample survey methods, not by counting taxpayers. Taxation records do not cover the entire population and would exclude children, the unemployed and informal workers.",
+"py": null,
+"values": null,
+"id": "ecox17011",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:C is also not a census enumeration method.|"
+}
+]
+}

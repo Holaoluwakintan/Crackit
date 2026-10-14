@@ -1,0 +1,196 @@
+{
+"subject": "biology",
+"topic": "Cell structure, organelles and levels of organisation",
+"ti": 1,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which pair of cell organelles is correctly described as being bounded by a double membrane envelope?",
+"options": [
+"Mitochondrion and chloroplast",
+"Golgi apparatus and lysosome",
+"Ribosome and centriole",
+"Vacuole and peroxisome"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Mitochondria and chloroplasts both have an outer and inner membrane, unlike Golgi bodies, lysosomes, ribosomes and vacuoles which are single-membraned or have no membrane at all.",
+"py": null,
+"values": null,
+"id": "biox01000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Mitochondria and chloroplast get double membrane wey dey cover dem. Other organelles like Golgi body or ribosome no get double membrane like dat."
+},
+{
+"q": "A tissue is defined in biology as",
+"options": [
+"a single cell specialized to carry out one specific function",
+"a group of similar cells working together to perform a particular function",
+"different organs working together to form a complete body system",
+"a collection of unrelated cells randomly grouped within an organism"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A tissue is made up of similar cells that have the same origin and structure and that work together to perform a common function, such as muscle tissue contracting to produce movement.",
+"py": null,
+"values": null,
+"id": "biox01001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Tissue na group of cells wey get same shape and work together to do one particular job. Like muscle tissue, dem dey work together to make body move."
+},
+{
+"q": "Which of the following best explains why plant cells generally do not burst when placed in distilled water, while animal cells placed in the same solution may burst?",
+"options": [
+"Plant cells lack a nucleus to regulate water intake",
+"Plant cells have a rigid cellulose cell wall that resists excess water pressure",
+"Plant cells have smaller vacuoles that cannot take in water",
+"Plant cells actively pump out all water entering by osmosis"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The cellulose cell wall of a plant cell provides mechanical support against the internal pressure created as water enters by osmosis, preventing bursting. Animal cells lack this wall, so they can swell and burst in a hypotonic solution.",
+"py": null,
+"values": null,
+"id": "biox01002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Plant cell get strong cellulose cell wall wey dey hold am make e no burst when water enter. Animal cell no get that wall, so e fit burst if water too much."
+},
+{
+"q": "A thin, folded network of membranes studded with ribosomes extends from the nuclear envelope throughout the cytoplasm of a secretory cell. This structure most likely functions to",
+"options": [
+"synthesize and transport proteins for secretion",
+"generate ATP through oxidative phosphorylation",
+"digest worn-out organelles using hydrolytic enzymes",
+"store starch grains for later use by the cell"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A membrane network studded with ribosomes is the rough endoplasmic reticulum, which synthesizes proteins at the ribosomes and channels them through its lumen for packaging and secretion.",
+"py": null,
+"values": null,
+"id": "biox01003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "That network wey get ribosome na rough endoplasmic reticulum. E dey use ribosome make protein and carry am go where e suppose go."
+},
+{
+"q": "Which of the following is a major structural feature distinguishing prokaryotic cells from eukaryotic cells?",
+"options": [
+"Prokaryotic cells have a true membrane-bound nucleus while eukaryotic cells do not",
+"Prokaryotic cells lack membrane-bound organelles while eukaryotic cells possess them",
+"Prokaryotic cells contain mitochondria while eukaryotic cells rely only on the cell membrane for respiration",
+"Prokaryotic cells have a cellulose cell wall while eukaryotic cells never have a cell wall"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Prokaryotic cells such as bacteria have no membrane-bound nucleus or organelles like mitochondria and Golgi bodies, whereas eukaryotic cells possess these structures enclosed by their own membranes.",
+"py": null,
+"values": null,
+"id": "biox01004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Prokaryotic cells no get membrane-bound organelles like mitochondria or nucleus. Eukaryotic cells get all those organelles inside dem."
+},
+{
+"q": "A student views a specimen under the light microscope using a x10 eyepiece lens and a x40 objective lens. What is the total magnification of the image observed?",
+"options": [
+"x4",
+"x50",
+"x400",
+"x4000"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Total magnification is found by multiplying the eyepiece magnification by the objective magnification, so 10 multiplied by 40 gives 400.",
+"py": null,
+"values": null,
+"id": "biox01005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To get total magnification, you go multiply eyepiece lens by objective lens. So, 10 times 40 give you 400."
+},
+{
+"q": "In an investigation, a scientist isolates an organelle from liver cells and finds that it contains hydrolytic (digestive) enzymes capable of breaking down worn-out organelles and foreign materials engulfed by the cell. This organelle is most likely the",
+"options": [
+"Golgi apparatus",
+"smooth endoplasmic reticulum",
+"lysosome",
+"peroxisome"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Lysosomes contain hydrolytic enzymes that digest worn-out organelles, cell debris and foreign particles taken into the cell, a process important in cellular maintenance and defense. The other organelles listed do not primarily function in intracellular digestion.",
+"py": null,
+"values": null,
+"id": "biox01006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Lysosome na the organelle wey get digestive enzymes to break down old parts of cell. E dey help cell clean im body and fight foreign things."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Four organisms are arranged below according to increasing organisational complexity: a single amoeba living independently, a colony of cells forming a simple sponge, a tissue layer lining the human gut, and a complete human digestive system made up of several organs. Which of the following correctly ranks these from the simplest to the most complex level of organisation?",
+"options": [
+"Tissue layer, amoeba, digestive system, sponge colony",
+"Amoeba, sponge colony, tissue layer, digestive system",
+"Digestive system, tissue layer, sponge colony, amoeba",
+"Sponge colony, digestive system, amoeba, tissue layer"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A single-celled amoeba represents the cellular level, a sponge colony represents a loose grouping of cells, a tissue layer represents true tissue organisation, and a full digestive system represents organ-system level, so the correct order from simplest to most complex is amoeba, sponge colony, tissue layer, digestive system.",
+"py": null,
+"values": null,
+"id": "biox01007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:A sponge is a multicellular animal, not a cell colony.|"
+}
+]
+}

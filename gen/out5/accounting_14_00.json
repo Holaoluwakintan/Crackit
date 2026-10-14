@@ -1,0 +1,226 @@
+{
+"subject": "accounting",
+"topic": "Accounts of not-for-profit organisations",
+"ti": 14,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In the accounts of not-for-profit organisations, which term is used instead of 'profit and loss account' to show whether the organisation has a surplus or a deficit for the year?",
+"options": [
+"Income and Expenditure Account",
+"Receipts and Payments Account",
+"Statement of Affairs",
+"Appropriation Account"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Income and Expenditure Account is the equivalent of the profit and loss account for non-trading concerns. It shows surplus or deficit of income over expenditure for the year.",
+"py": null,
+"values": null,
+"id": "accx14000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na Income and Expenditure Account dem dey use instead of profit and loss account for non-trading organization. E dey show whether the place make surplus or deficit for that year."
+},
+{
+"q": "Obudu Welfare Club's Receipts and Payments Account showed rent paid of ₦60,000 during the year. At the start of the year, rent owing was ₦8,000, and at the end of the year, rent owing was ₦5,000. What amount should appear as rent expense in the Income and Expenditure Account?",
+"options": [
+"₦57,000",
+"₦63,000",
+"₦65,000",
+"₦73,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Rent for the year equals cash paid minus opening accrual plus closing accrual, that is 60,000 minus 8,000 plus 5,000, which equals 57,000. This adjusts cash paid to the actual expense incurred during the year.",
+"py": "60000-8000+5000",
+"values": [
+57000,
+63000,
+65000,
+73000
+],
+"id": "accx14001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To find the correct rent, you go minus the opening arrears from the cash wey you pay, then add the closing arrears. So, 60,000 minus 8,000 plus 5,000 go give you ₦57,000."
+},
+{
+"q": "In preparing the final accounts of a not-for-profit organisation, the balance brought down on the Receipts and Payments Account at the start of the year represents what?",
+"options": [
+"Opening accumulated fund",
+"Opening cash and bank balance",
+"Opening subscriptions in arrears",
+"Opening value of fixed assets"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Receipts and Payments Account is simply a summary of the cash book, so its opening balance is the cash and bank balance brought forward from the previous year. It is not related to capital or fixed assets.",
+"py": null,
+"values": null,
+"id": "accx14004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Receipts and Payments Account na just cash book summary. E mean say any balance wey come down for front of the account na cash and bank balance from last year."
+},
+{
+"q": "Why is a Statement of Affairs, rather than a formal Balance Sheet, often used to find the opening accumulated fund of a not-for-profit organisation?",
+"options": [
+"Because the organisation does not keep complete double-entry records, so assets and liabilities must be listed to estimate the opening fund",
+"Because members do not need to know the value of the organisation's assets",
+"Because the organisation has no fixed assets to disclose",
+"Because subscriptions are not treated as income in such organisations"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Many clubs keep only single-entry or incomplete records, so a Statement of Affairs lists assets and liabilities to estimate the opening accumulated fund by difference. This fund then serves as the starting point similar to capital for a trader.",
+"py": null,
+"values": null,
+"id": "accx14005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because many clubs no dey keep full double-entry records, dem dey use Statement of Affairs to pack assets and liabilities together. Na so dem take dey find the opening accumulated fund by difference."
+},
+{
+"q": "Okigwe Table Tennis Club bought new equipment costing ₦180,000 during the year, which is to be depreciated at 10% per annum using the straight line method. What is the amount of depreciation to be charged in the Income and Expenditure Account for the year, assuming the equipment was used for the full year?",
+"options": [
+"₦9,000",
+"₦18,000",
+"₦20,000",
+"₦36,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Depreciation is calculated as 10% of the cost of 180,000, which equals 18,000 for the full year. This amount is charged as an expense in the Income and Expenditure Account, reducing the surplus for the year.",
+"py": "0.10*180000",
+"values": [
+9000,
+18000,
+20000,
+36000
+],
+"id": "accx14006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Depreciation na 10% of the cost wey be ₦180,000 for full year. When you calculate am, you go get ₦18,000 as expense inside the Income and Expenditure Account."
+},
+{
+"q": "Zuma Cultural Club's accounts showed subscriptions in arrears of ₦30,000 at the start of the year and ₦45,000 at the end of the year. Cash received from subscriptions during the year was ₦370,000. There were no subscriptions received in advance. What is the subscription income to be shown in the Income and Expenditure Account?",
+"options": [
+"₦340,000",
+"₦355,000",
+"₦385,000",
+"₦400,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Subscription income for the year equals cash received plus closing arrears minus opening arrears, that is 370,000 plus 45,000 minus 30,000, which equals 385,000. This adjusts cash received to reflect amounts actually earned in the year.",
+"py": "370000+45000-30000",
+"values": [
+340000,
+355000,
+385000,
+400000
+],
+"id": "accx14007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To get subscription income, you go add closing arrears to cash wey you receive, then remove opening arrears. That na 370,000 plus 45,000 minus 30,000, wey give you ₦385,000."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A sports club's Income and Expenditure Account for the year showed total income of ₦250,000 and total expenditure of ₦290,000. What does this result represent, and how should it affect the Accumulated Fund?",
+"options": [
+"A surplus of ₦40,000, which increases the Accumulated Fund",
+"A deficit of ₦40,000, which reduces the Accumulated Fund",
+"A deficit of ₦40,000, which increases the Accumulated Fund",
+"A surplus of ₦40,000, which reduces the Accumulated Fund"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since expenditure of 290,000 exceeds income of 250,000, the club has a deficit of 40,000. A deficit reduces the Accumulated Fund in the balance sheet, just as a loss reduces capital for a sole trader.",
+"py": "290000-250000",
+"values": [
+40000,
+40000,
+40000,
+40000
+],
+"id": "accx14002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "Members of Delta Anglers Club pay an annual subscription of ₦5,000 each. During the year, the club had 120 members, and the Receipts and Payments Account showed subscriptions received of ₦560,000, including ₦40,000 received in advance for next year. How much subscription income should be recorded in the Income and Expenditure Account for the year?",
+"options": [
+"₦560,000",
+"₦600,000",
+"₦520,000",
+"₦480,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Only subscriptions relating to the current year count as income, so the amount received in advance must be removed. This gives 560,000 minus 40,000, which equals 520,000, close to the expected 120 times 5,000.",
+"py": "560000-40000",
+"values": [
+560000,
+600000,
+520000,
+480000
+],
+"id": "accx14003",
+"check": {
+"s1": "B",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

@@ -1,0 +1,202 @@
+{
+"subject": "geography",
+"topic": "Geography of Nigeria: population, agriculture, minerals and industry",
+"ti": 19,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "The 2006 National Population Census figures showed that Kano State had one of the highest population counts among Nigerian states. Which of the following factors best explains this high population concentration?",
+"options": [
+"Long history of urban settlement, trade and favourable agricultural land supporting dense rural population",
+"Presence of extensive crude oil deposits attracting migrant workers",
+"Heavy rainfall throughout the year favouring rice cultivation",
+"Location along the coast encouraging fishing settlements"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Kano's long history as a centre of trade, Islamic scholarship and agriculture on fertile savanna land has supported dense settlement for centuries. It has no oil deposits, heavy year-round rainfall, or coastal location.",
+"py": null,
+"values": null,
+"id": "geox19010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Kano don tey as big center for business, Islam learning, and agriculture inside good land, na im make plenty people dey stay there. E no get crude oil or heavy rain every time like coastal places."
+},
+{
+"q": "A geography teacher tells her class that Nigeria's population growth rate remains high mainly because of a combination of a particular birth rate pattern and a changing death rate pattern. Which combination correctly describes this situation?",
+"options": [
+"High birth rate and high death rate, keeping growth low",
+"Low birth rate and low death rate, keeping growth stable",
+"High birth rate and declining death rate due to improved health care",
+"Low birth rate and rising death rate due to disease outbreaks"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Nigeria still has a high birth rate while improved health care and sanitation have reduced the death rate. This combination produces rapid natural population increase.",
+"py": null,
+"values": null,
+"id": "geox19011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Nigeria still dey born plenty children well well, but better health care and clean environment don make people stop to die anyhow. Dis one dey make the population population grow fast fast."
+},
+{
+"q": "A cooperative society in Benue State wants to set up a cassava processing plant. An agricultural extension officer advises that this crop is a major staple widely cultivated across the Middle Belt mainly because of which condition?",
+"options": [
+"Very high altitude with cool temperatures suited only to temperate crops",
+"Moderate rainfall, fairly fertile loamy soils and a long growing season suited to root crops",
+"Continuous flooding throughout the year suited only to rice",
+"Extremely low rainfall requiring irrigation for any crop to survive"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Middle Belt has moderate rainfall and fertile loamy soils with a long growing season, which favours root crops like cassava and yam. The other conditions described do not match the Middle Belt's actual climate.",
+"py": null,
+"values": null,
+"id": "geox19012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Middle Belt get moderate rainfall and good soil wey dey stay long time for ground crop like cassava and yam. Other options no talk true about how Middle Belt weather be."
+},
+{
+"q": "A mining company surveys an area and finds commercially viable deposits of bitumen close to the surface. Based on known Nigerian mineral distribution, in which part of the country is this survey most likely taking place?",
+"options": [
+"Ondo State area in the South-West",
+"Sokoto State area in the far North-West",
+"Borno State area in the North-East",
+"Taraba State area in the North-East"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Nigeria's major bitumen deposits occur in Ondo State and parts of the South-West, forming one of the world's largest bitumen belts. The other states are not known for significant bitumen deposits.",
+"py": null,
+"values": null,
+"id": "geox19014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na Ondo State and other South-West places dem dey see plenty bitumen for Nigeria. The other states wey dem mention no get this kind mineral at all."
+},
+{
+"q": "An industrial geographer compares two Nigerian manufacturing industries: one processes groundnuts into oil near Kano, while another assembles imported vehicle parts near Lagos. What is the key difference in locational factor between these two industries?",
+"options": [
+"The groundnut oil industry is market-oriented while the vehicle assembly industry is raw-material-oriented",
+"The groundnut oil industry is raw-material-oriented while the vehicle assembly industry depends on port access for imported components",
+"Both industries depend entirely on nearness to coal deposits",
+"Both industries are located mainly because of nearness to hydro-electric power stations"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Groundnut oil milling is sited near Kano because it processes bulky local raw materials grown nearby, reducing transport cost of the raw crop. Vehicle assembly near Lagos depends on easy port access for importing component parts, a different locational logic entirely.",
+"py": null,
+"values": null,
+"id": "geox19015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Groundnut oil factory near Kano because of raw material wey dey close, so transport go cheap. But car assembly near Lagos na because of sea port to bring in motor part from outside."
+},
+{
+"q": "A rural community in Kebbi State practises irrigation farming along the Sokoto-Rima river floodplain, producing onions and wheat mainly in the dry season. This farming method is best described as which of the following?",
+"options": [
+"Shifting cultivation",
+"Fadama farming",
+"Bush fallowing",
+"Mechanised plantation farming"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Fadama farming uses the fertile floodplains of rivers for dry-season irrigation farming, common along the Sokoto-Rima valley for crops like onions and wheat. Shifting cultivation and bush fallowing are rain-fed rotational systems, not irrigation-based.",
+"py": null,
+"values": null,
+"id": "geox19016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Fadama farming na when people use river flood land to plant during dry season for Sokoto-Rima valley. Shifting cultivation and bush fallowing na rain-fed system, no be irrigation."
+},
+{
+"q": "A planning officer compares two Nigerian towns: Town P has a population of 450,000 people spread over 900 square kilometres, while Town Q has a population of 800,000 people spread over 400 square kilometres. By how many persons per square kilometre is the population density of Town Q greater than that of Town P?",
+"options": [
+"1,500",
+"1,000",
+"500",
+"2,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Town P's density is 450,000 divided by 900, which equals 500 persons per square kilometre. Town Q's density is 800,000 divided by 400, which equals 2,000 persons per square kilometre, so the difference is 2,000 minus 500 equals 1,500.",
+"py": "(800000/400) - (450000/900)",
+"values": [
+1500,
+1000,
+500,
+2000
+],
+"id": "geox19017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Town P density na 500 persons per square kilometre, while Town Q density na 2,000 persons per square kilometre. When you minus 500 from 2,000, you go get 1,500 difference."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A government report notes that limestone deposits are the key raw material input exploited by cement companies in states such as Ogun and Cross River. Which industrial product depends most directly on this mineral?",
+"options": [
+"Cement",
+"Glass",
+"Steel",
+"Plastics"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Limestone is the main raw material used in cement manufacturing, which is why cement factories are sited close to limestone deposits in Ogun and Cross River States. Glass, steel and plastics depend on different raw materials.",
+"py": null,
+"values": null,
+"id": "geox19013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Question gives away the answer."
+}
+]
+}

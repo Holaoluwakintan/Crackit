@@ -1,0 +1,202 @@
+{
+"subject": "geography",
+"topic": "Transportation and trade",
+"ti": 17,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes 'entrepot trade' as practised at ports such as Lagos and Lome?",
+"options": [
+"Trade in which goods are bought and sold strictly within one country's borders",
+"Trade in which a country re-exports imported goods to other countries after storing them, usually with little or no processing",
+"Trade in which goods are exchanged by barter without the use of money",
+"Trade in which a country manufactures goods solely for its own local consumption"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Entrepot trade involves importing goods into a central port or country and then re-exporting them to other countries, often after storage but little processing. This is common at busy coastal trading centres.",
+"py": null,
+"values": null,
+"id": "geox17000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Entrepot trade mean say dem dey bring goods enter port, keep am small, and then carry am go sell for another country. Na so port cities dey do am."
+},
+{
+"q": "Which of these best explains why water transport is generally preferred for international trade in bulky raw materials such as iron ore and timber?",
+"options": [
+"It has the shortest travel time compared to all other modes",
+"It is the only mode that can cross international boundaries",
+"It offers large carrying capacity at relatively low cost per tonne over long distances",
+"It requires the least amount of infrastructure to operate"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Ships can carry very large volumes of bulky goods at a lower cost per tonne than road, rail, or air transport, making water transport ideal for heavy raw materials moved over long distances. Other modes are faster but far more expensive for such bulk cargo.",
+"py": null,
+"values": null,
+"id": "geox17004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Ship fit carry plenty heavy goods like iron ore and timber for long distance with cheap money per tonne. Na why water transport good pass for bulky cargo."
+},
+{
+"q": "Which factor is most responsible for the relatively low volume of air transport used for moving agricultural produce within Nigeria, compared to road transport?",
+"options": [
+"Air transport is unsafe for carrying farm produce",
+"High cost of air transport makes it uneconomical for low-value bulky produce",
+"There are no airports located near farming areas in Nigeria",
+"Air transport cannot legally carry agricultural goods across state borders"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Air transport is fast but very expensive, making it unsuitable for low-value, bulky goods like most agricultural produce, which cannot bear such high freight charges. Road transport remains cheaper and more accessible for moving farm produce within the country.",
+"py": null,
+"values": null,
+"id": "geox17006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Air transport cost too much for low-value farm goods wey heavy. Na road transport farmers dey use reach everywhere because e cheap small."
+},
+{
+"q": "A regional trade agreement among West African countries removes tariffs on goods traded among member states but still allows each country to set its own tariffs on goods from non-member countries. This arrangement is best classified as a?",
+"options": [
+"Customs union",
+"Free trade area",
+"Common market",
+"Monetary union"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A free trade area removes trade barriers like tariffs among member countries while allowing each member to maintain its own independent tariffs against non-members. This differs from a customs union, which requires a common external tariff for all members.",
+"py": null,
+"values": null,
+"id": "geox17007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Free trade area dey allow member countries trade without tariff, but everybody get their own rule for outside countries. E different from customs union."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A ship's manifest shows that a vessel left Apapa Port with 4,500 tonnes of cargo. On reaching its destination, 300 tonnes were found damaged by seawater and were rejected. If the remaining cargo was shared equally among 7 importers, how many tonnes did each importer receive?",
+"options": [
+"600 tonnes",
+"625 tonnes",
+"700 tonnes",
+"750 tonnes"
+],
+"answer": "абC",
+"difficulty": "medium",
+"explanation": "Subtract the damaged cargo from the total: 4500 - 300 = 4200 tonnes. Dividing 4200 by 7 importers gives 600 tonnes each.",
+"py": "(4500-300)/7",
+"values": [
+600,
+625,
+700,
+750
+]
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A pipeline is specially suited for transporting which of the following?",
+"options": [
+"Crude oil, natural gas, and water over long distances",
+"Fragile manufactured goods such as glassware",
+"Perishable farm produce like tomatoes and vegetables",
+"Heavy machinery and construction equipment"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Pipelines are built mainly to move fluids such as crude oil, gas, and water continuously over long distances. They cannot carry solid goods like machinery or produce.",
+"py": null,
+"values": null,
+"id": "geox17001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Giveaway application of pipelines"
+},
+{
+"q": {
+"q": "Which of the following is a major problem commonly associated with road transport in Nigeria during the rainy season?",
+"options": [
+"Reduced air traffic due to low pressure systems",
+"Erosion and flooding that damage roads and cause traffic delays",
+"Increased cost of railway sleepers",
+"Shortage of pipeline capacity for petroleum products"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Heavy rainfall in Nigeria often leads to erosion, potholes, and flooding on roads, which damages road surfaces and slows down vehicular movement. This is a well-known seasonal challenge for road transport.",
+"py": null,
+"values": null,
+"id": "geox17002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Unrelated transport modes make the answer obvious"
+},
+{
+"q": {
+"q": "A trader buys 80 crates of soft drinks in Onitsha at ₦3,200 per crate and transports them to Enugu by road. If transportation cost is ₦400 per crate and the trader sells each crate in Enugu at ₦4,200, what is the total profit made on all 80 crates?",
+"options": [
+"₦48,000",
+"₦52,000",
+"₦56,000",
+"₦64,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total cost per crate is 3200 + 400 = 3600 naira, so profit per crate is 4200 - 3600 = 600 naira. Multiplying by 80 crates gives a total profit of 48,000 naira.",
+"py": "80*(4200-(3200+400))",
+"values": [
+48000,
+52000,
+56000,
+64000
+],
+"id": "geox17005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "off"
+}
+},
+"why": "standard:off:Trader profit arithmetic is outside the Geography syllabus"
+}
+]
+}

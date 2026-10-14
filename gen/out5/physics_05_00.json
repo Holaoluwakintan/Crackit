@@ -1,0 +1,237 @@
+{
+"subject": "physics",
+"topic": "Work, energy and power",
+"ti": 5,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A boy pushes a loaded wheelbarrow with a force of 80 N through a distance of 15 m along a straight path. If the force makes an angle of 0 degrees with the direction of motion, calculate the work done by the boy.",
+"options": [
+"600 J",
+"800 J",
+"1200 J",
+"1500 J"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Work done equals force times distance when the force acts along the direction of motion, so W = 80 N x 15 m = 1200 J.",
+"py": "80*15",
+"values": [
+600,
+800,
+1200,
+1500
+],
+"id": "phyx05000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Work done na force times distance. Since the force dey move for the same direction, you go just multiply 80 N by 15 m to get 1200 J."
+},
+{
+"q": "Which of the following is the best statement of the principle of conservation of energy?",
+"options": [
+"Energy can be created but not destroyed in any physical process",
+"The total energy of an isolated system remains constant, though it may change from one form to another",
+"Kinetic energy is always equal to potential energy in any system",
+"Energy can only be converted from potential to kinetic form"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The law of conservation of energy states that energy is neither created nor destroyed, only transformed, so the total energy of an isolated system stays constant.",
+"py": null,
+"values": null,
+"id": "phyx05001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Energy no dey disappear or appear from nowhere, e only dey change form. For any isolated system, the total energy must remain constant."
+},
+{
+"q": "A 1200 kg car accelerates uniformly from 10 m/s to 25 m/s. Calculate the work done on the car by the net force, using the work-energy theorem.",
+"options": [
+"210,000 J",
+"300,000 J",
+"315,000 J",
+"420,000 J"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Work done equals the change in kinetic energy: (1/2)(1200)(25^2 - 10^2) = 600 x (625 - 100) = 600 x 525 = 315,000 J.",
+"py": "0.5*1200*(25**2-10**2)",
+"values": [
+210000,
+300000,
+315000,
+420000
+],
+"id": "phyx05002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Work done na the change for kinetic energy. You go calculate 1/2 times mass times the difference of the square of the velocities, wey give you 315,000 J."
+},
+{
+"q": "A pendulum bob of mass 0.4 kg swings from a vertical height of 0.8 m above its lowest point. Assuming no air resistance, calculate the speed of the bob as it passes through the lowest point of the swing.",
+"options": [
+"2 m/s",
+"4 m/s",
+"8 m/s",
+"16 m/s"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "By conservation of energy, mgh = (1/2)mv^2, so v = sqrt(2gh) = sqrt(2 x 10 x 0.8) = sqrt(16) = 4 m/s. The mass cancels out and does not affect the result.",
+"py": "math.sqrt(2*10*0.8)",
+"values": [
+2,
+4,
+8,
+16
+],
+"id": "phyx05004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because energy dey conserved, potential energy for top go turn to kinetic energy for bottom. If you use v = sqrt(2gh), you go get 4 m/s."
+},
+{
+"q": "Okonkwo uses a simple machine with a velocity ratio of 5 to lift a load of 300 N through a height of 2 m by applying an effort of 80 N through a distance of 10 m. Calculate the efficiency of the machine.",
+"options": [
+"60%",
+"65%",
+"75%",
+"80%"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Efficiency equals output work divided by input work expressed as a percentage: output work = 300 x 2 = 600 J, input work = 80 x 10 = 800 J, so efficiency = 600/800 x 100 = 75%.",
+"py": "(300*2)/(80*10)*100",
+"values": [
+60,
+65,
+75,
+80
+],
+"id": "phyx05005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Efficiency na output work divided by input work times 100. Output work na 600 J and input work na 800 J, so the answer na 75%."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A 60 kg student in Kaduna rides an elevator that moves a constant speed from the ground floor to the 5th floor, a height of 18 m, in 12 seconds. Taking g = 10 m/s^2, calculate the power delivered by the elevator motor to lift the student.",
+"options": [
+"75 W",
+"90 W",
+"108 W",
+"900 W"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Power equals work done divided by time: work = mgh = 60 x 10 x 18 = 10,800 J, so power = 10,800/12 = 90 W.",
+"py": "(60*10*18)/12",
+"values": [
+75,
+90,
+108,
+900
+],
+"id": "phyx05003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:D"
+},
+{
+"q": {
+"q": "A body of mass 5 kg moving at 6 m/s collides head-on with a stationary body of mass 3 kg. After collision, the two bodies stick together and move off with a common velocity. Calculate the loss in kinetic energy due to the collision.",
+"options": [
+"22.5 J",
+"33.75 J",
+"56.25 J",
+"90 J"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "By momentum conservation, common velocity v = (5x6)/(5+3) = 3.75 m/s. Initial KE = 0.5x5x6^2 = 90 J, final KE = 0.5x8x3.75^2 = 56.25 J, so loss = 90 - 56.25 = 33.75 J.",
+"py": "0.5*5*6**2 - 0.5*8*((5*6/8)**2)",
+"values": [
+22.5,
+33.75,
+56.25,
+90
+],
+"id": "phyx05006",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+},
+{
+"q": {
+"q": "A block of mass 4 kg is projected up a rough incline that rises 3 m vertically for every 5 m travelled along its slope. The coefficient of kinetic friction between the block and the incline is 0.2, and the block travels 5 m along the slope. Taking g = 10 m/s^2, calculate the total work done against gravity and friction as the block moves up the incline. (Take the normal reaction as mg cos(theta), with cos(theta) = 4/5.)",
+"options": [
+"120 J",
+"152 J",
+"168 J",
+"200 J"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Work against gravity = mgh = 4x10x3 = 120 J. Friction force = u x mg cos(theta) = 0.2x4x10x0.8 = 6.4 N, so work against friction = 6.4x5 = 32 J. Total work = 120 + 32 = 152 J... recheck: 120+32 =152, closest option adjusted to 152 J, which corresponds to the second option.",
+"py": "4*10*3 + 0.2*4*10*0.8*5",
+"values": [
+120,
+152,
+168,
+200
+],
+"id": "phyx05007",
+"check": {
+"s1": "B",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

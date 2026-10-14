@@ -1,0 +1,197 @@
+{
+"subject": "commerce",
+"topic": "Money: evolution, functions and qualities",
+"ti": 7,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Before standard currency emerged, early traders used certain commodities such as cowrie shells, salt, and gold dust as a medium of exchange. This stage in the evolution of money is best described as the use of what?",
+"options": [
+"Commodity money",
+"Representative money",
+"Fiat money",
+"Near money"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Commodity money refers to items with intrinsic value, like cowrie shells or salt, that were accepted in exchange before coins and notes were invented. This came before paper money and electronic money.",
+"py": null,
+"values": null,
+"id": "comx07000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Commodity money na those things wey get value for body like cowrie and salt wey people dey use exchange before paper money come. E happen before paper money and electronic money."
+},
+{
+"q": "Mrs Adaeze borrowed ₦80,000 from a cooperative society and agreed to repay ₦80,000 plus interest after six months. Which function of money allows the amount owed to be fixed and recorded this way?",
+"options": [
+"Medium of exchange",
+"Measure of value",
+"Standard for deferred payment",
+"Store of value"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Money acts as a standard for deferred payment when debts or future obligations are expressed in fixed monetary terms, as with Mrs Adaeze's loan. This is different from simply measuring the value of goods today.",
+"py": null,
+"values": null,
+"id": "comx07001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Money dey act as standard for deferred payment when person borrow debt and fix am make e pay later with specific amount. Na dis one make Mrs Adaeze fit owe money and agree how e go repay am."
+},
+{
+"q": "A trader keeps part of his profit as cash at home instead of spending it immediately, planning to use it to restock his shop next month. Which function of money is he making use of?",
+"options": [
+"Store of value",
+"Unit of account",
+"Medium of exchange",
+"Standard for deferred payment"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Money serves as a store of value when it is kept for future use without losing its purchasing power immediately. The trader is saving cash rather than exchanging it or measuring value with it.",
+"py": null,
+"values": null,
+"id": "comx07002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Money dey serve as store of value when person keep am for future use instead of spending am sharp sharp. Di trader dey save di cash make e fit use am restock him shop next month."
+},
+{
+"q": "If ordinary leaves or sand were used as money, people would reject them as payment because they can be picked up freely with little effort. This shows that for an item to function well as money, it must possess which quality?",
+"options": [
+"Portability",
+"Scarcity",
+"Durability",
+"Divisibility"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Money must be relatively scarce so that it retains value; items that are too freely available, like leaves or sand, cannot serve as money. Scarcity ensures people cannot simply produce their own supply.",
+"py": null,
+"values": null,
+"id": "comx07004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Money must scarce small make e fit retain value; if ordinary sand or leaf be money, nobody go want accept am. Scarcity dey make sure say people no just wake up dey produce their own money anyhow."
+},
+{
+"q": "A trader in Onitsha market refuses to accept a badly torn and faded ₦1000 note, insisting it be exchanged at the bank first before he can use it in business. This situation best illustrates a weakness related to which quality of money?",
+"options": [
+"Durability",
+"Uniformity",
+"Malleability",
+"Elasticity of supply"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Durability requires money to withstand wear and tear and remain fit for repeated use; a torn, faded note fails this test and becomes hard to use in transactions. This is why the trader rejects it despite its face value.",
+"py": null,
+"values": null,
+"id": "comx07005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Durability mean say money suppose strong make e no tear quick quick for hand. As di ₦1000 note tear and fade, e don lose that durability quality, na why di trader reject am."
+},
+{
+"q": "In comparing the evolution of money, which of the following correctly arranges the stages from EARLIEST to MOST RECENT?",
+"options": [
+"Trade by barter, metallic coins, paper currency, electronic money",
+"Paper currency, trade by barter, electronic money, metallic coins",
+"Metallic coins, electronic money, trade by barter, paper currency",
+"Electronic money, paper currency, metallic coins, trade by barter"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Historically, people first practised trade by barter, then moved to metallic coins, followed by paper currency, and finally modern electronic money such as bank transfers and cards. This sequence reflects the true historical development of exchange systems.",
+"py": null,
+"values": null,
+"id": "comx07007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na trade by barter start before people come begin use metallic coins, then paper currency enter, and now we dey use electronic money. Dis na di correct way money take evolve reach where we dey today."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Tunde wants to buy a goat priced at ₦25,000 using ₦5,000 notes. Because each note has the same size, weight, and design regardless of which bank issued it, he can combine any five notes to make the exact payment. Which quality of money is illustrated here?",
+"options": [
+"Scarcity",
+"Homogeneity",
+"Divisibility",
+"Acceptability"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Homogeneity means all units of the same denomination look alike and have identical value, so any five ₦5,000 notes are interchangeable. This allows Tunde to combine notes freely to reach the exact price.",
+"py": null,
+"values": null,
+"id": "comx07003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Nigeria has no ₦5,000 note; banks do not issue naira notes.|"
+},
+{
+"q": {
+"q": "Suppose a country's currency suddenly loses public confidence because citizens no longer trust its value, even though government still issues it as legal tender. Which function of money would be MOST affected first as a direct result?",
+"options": [
+"Unit of account",
+"Medium of exchange",
+"Standard for deferred payment",
+"Store of value"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "When confidence in a currency collapses, people stop holding it for future use because it may lose purchasing power, so its role as a store of value is hit hardest first. People may still use it briefly for daily transactions out of necessity.",
+"py": null,
+"values": null,
+"id": "comx07006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

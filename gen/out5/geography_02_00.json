@@ -1,0 +1,238 @@
+{
+"subject": "geography",
+"topic": "Map reading: directions, bearings and grid references",
+"ti": 2,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A hiker at Ogbonna village observes a hilltop on a bearing of 118°. What is the bearing of Ogbonna village from the hilltop?",
+"options": [
+"298°",
+"028°",
+"208°",
+"062°"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Since 118° is less than 180°, the back bearing is found by adding 180°. 118° + 180° = 298°.",
+"py": "118+180",
+"values": [
+298,
+28,
+208,
+62
+],
+"id": "geox02000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because 118° no reach 180°, you go add 180° to find the back bearing. If you add 118° plus 180°, e go give you 298°."
+},
+{
+"q": "A six-figure grid reference is written as 234 561. What does this grid reference represent on a topographical map?",
+"options": [
+"A single point located using an easting of 234 and a northing of 561",
+"A grid square bounded by eastings 23 and 24, and northings 56 and 57",
+"The distance in kilometres from the map's origin to the point",
+"A compass bearing expressed in grid units"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A six-figure grid reference gives a precise point by reading the easting (first three digits) and then the northing (last three digits), each subdivided into tenths of a grid square. This pinpoints an exact location rather than a whole square.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geox02002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Six-figure grid reference dey show correct single point by reading easting (first three numbers) and northing (last three numbers). E dey point exact location instead of just the whole square."
+},
+{
+"q": "Which of the following best describes the difference between a 'true bearing' and a 'magnetic bearing' of a point?",
+"options": [
+"True bearing is measured clockwise while magnetic bearing is measured anticlockwise",
+"True bearing is measured from true north while magnetic bearing is measured from the direction a compass needle points",
+"True bearing applies only to distances less than 1 km while magnetic bearing applies to longer distances",
+"True bearing is always greater than magnetic bearing by exactly 90°"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "True north is the direction to the geographic North Pole, whereas magnetic north is the direction a compass needle points, which can differ due to magnetic declination. Both bearings are measured clockwise, just from different reference norths.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geox02003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "True north na the real geographic North Pole, but magnetic north na where compass needle dey point because of magnetic declination. Both of them dey measure clockwise, just say dem get different north reference."
+},
+{
+"q": "A cyclist travels from point X on a bearing of 300° to point Y. On reaching Y, in what general compass direction must he look to see point X, without calculating the exact bearing?",
+"options": [
+"Roughly towards the south-east",
+"Roughly towards the north-west",
+"Roughly towards the south-west",
+"Roughly towards the north-east"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A bearing of 300° from X points towards the north-west, so looking back from Y towards X means facing the opposite general direction, which is south-east.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geox02004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If bearing from X na 300°, e mean say you dey face north-west. When you wan look back from Y go X, you must face opposite direction, wey be south-east."
+},
+{
+"q": "On a compass rose, a hunter faces North and turns clockwise through three-quarters of a full revolution to face a new direction. Which cardinal direction is he now facing, and what bearing does this represent?",
+"options": [
+"East, 090°",
+"West, 270°",
+"South, 180°",
+"North, 360°"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A full revolution is 360°, so three-quarters of it is 270°. Turning clockwise from North by 270° brings the hunter to face West.",
+"py": "0.75*360",
+"values": [
+90,
+270,
+180,
+360
+],
+"id": "geox02005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Full circle na 360°, so three-quarter of am na 270°. If you turn clockwise from North by 270°, na West you go land."
+},
+{
+"q": "Two towns, Efon and Isua, are shown on a map. Efon lies at grid reference 10 20 and Isua lies at grid reference 10 35, with the northing values increasing towards the top of the map (north). What is the bearing of Isua from Efon?",
+"options": [
+"090°",
+"180°",
+"000°",
+"270°"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Both towns share the same easting (10), but Isua has a higher northing (35 compared to 20), meaning Isua lies directly north of Efon. A point due north has a bearing of 000°.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geox02006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Both towns dey use the same easting (10), but Isua northing high pass Efon, wey mean say Isua dey straight up north. Any place wey dey straight north get bearing of 000°."
+},
+{
+"q": "An examiner tells a candidate that a point R is located on a bearing of 225° from point S. Which of the following statements correctly describes the position of R relative to S?",
+"options": [
+"R is north-east of S",
+"R is south-west of S",
+"R is north-west of S",
+"R is south-east of S"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A bearing of 225° falls exactly between south (180°) and west (270°), which corresponds to the south-west direction. Candidates often confuse this with north-west by miscounting the quadrant.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geox02007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Bearing of 225° stay straight for middle of south (180°) and west (270°), wey be south-west. Make you no confuse am with north-west."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "On a topographical map sheet, a village is located at grid reference 42 67, meaning the easting is 42 and the northing is 67. Another village lies at grid reference 47 73. If each grid square represents 1 km on each side, what is the straight-line (shortest) distance between the two villages, to the nearest whole kilometre?",
+"options": [
+"6 km",
+"8 km",
+"11 km",
+"5 km"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The difference in eastings is 47-42=5 km and in northings is 73-67=6 km. Using Pythagoras, distance = sqrt(5^2+6^2) = sqrt(61) which is approximately 7.8, rounding to 8 km.",
+"py": "round(math.sqrt((47-42)**2+(73-67)**2))",
+"values": [
+6,
+8,
+11,
+5
+],
+"id": "geox02001",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+}
+]
+}

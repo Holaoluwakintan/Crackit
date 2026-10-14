@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "Elijah, Elisha and the fight against idolatry (Ahab, Jezebel, Naaman)",
+"ti": 9,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "After the contest on Mount Carmel, Elijah prayed earnestly and sent his servant seven times to look toward the sea before rain finally came, ending the long drought. What important lesson about prayer does this event teach?",
+"options": [
+"Persistence and faith in prayer bring results even when answers are delayed",
+"God answers prayer only when offered on a mountain",
+"Servants must always confirm a prophet's prayers before they are valid",
+"Prayer is unnecessary once a miracle has already been performed"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Elijah kept praying and sent his servant repeatedly until the small cloud appeared, showing that believers must persist in faith even when the answer seems delayed. This teaches patience and trust in God's timing.",
+"id": "crsx09000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Elijah no give up, im con send im servant make im go look weather clouds don show. Dis dey teach us say make we dey patient and get faith for God even when our prayer answer delay."
+},
+{
+"q": "When Elijah complained to God at Horeb that he alone was left as a faithful worshipper and his enemies sought his life, how did God respond to correct his despair?",
+"options": [
+"God rebuked him publicly before the people of Israel",
+"God told him to return immediately and fight Ahab's army",
+"God revealed Himself in a still small voice and told him seven thousand had not bowed to Baal",
+"God commanded him to remain in the cave permanently"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "At Horeb, God did not appear in the wind, earthquake, or fire but in a still small voice, assuring Elijah that seven thousand faithful Israelites remained who had not worshipped Baal. This encouraged Elijah that he was not alone in serving God.",
+"id": "crsx09001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For Horeb, God no show for fire or wind, na small soft voice im take talk to Elijah. E con tell am say seven thousand pipo still dey wey never bow down for Baal, so Elijah no dey alone."
+},
+{
+"q": "Before he was taken up to heaven, Elijah asked Elisha what he wanted, and Elisha made a specific request. What did Elisha ask for from Elijah?",
+"options": [
+"Permission to succeed him immediately as king",
+"A double portion of Elijah's spirit",
+"Elijah's mantle as a keepsake only",
+"Half of Elijah's wealth and servants"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Elisha asked that a double portion of Elijah's spirit be upon him before his master was taken away. Elijah told him this was a hard request but granted it since Elisha saw him as he was taken up in the whirlwind.",
+"id": "crsx09002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Elisha ask Elijah make im give am double portion of im spirit before dem carry am go. Elijah tell am say na hard thing, but if Elisha see am as dem dey carry am go, e go get am."
+},
+{
+"q": "Naaman initially became angry and almost turned away in disappointment when he received Elisha's instructions for his healing. What mainly caused his anger?",
+"options": [
+"Elisha refused to see him in person and the instructions seemed too simple",
+"Elisha demanded a large sum of money before healing him",
+"Elisha asked him to first renounce his position as an army commander",
+"Elisha sent him to a foreign prophet instead of helping him directly"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Naaman expected Elisha to come out, call on God, and wave his hand over the spot, so he was offended that the prophet did not even meet him and simply gave a simple instruction through a messenger. His servants later persuaded him to obey despite his pride.",
+"id": "crsx09003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Naaman anger catch am because Elisha no even come out greet am personally, and the instruction wey Elisha give am through messenger look too simple. Na later im servants beg am make im obey the prophet."
+},
+{
+"q": "When Elisha's servant Gehazi deceitfully pursued Naaman to collect silver and garments after Elisha had refused any payment, what consequence did Elisha pronounce on him for this act of greed and lying?",
+"options": [
+"Gehazi was banished from Israel forever",
+"Gehazi was struck with leprosy that would cling to him and his descendants",
+"Gehazi lost his position as Elisha's servant but suffered no illness",
+"Gehazi was made to return double the goods he had collected"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Because Gehazi lied to Naaman and secretly took the gifts Elisha had refused, Elisha declared that Naaman's leprosy would cling to Gehazi and his descendants forever. Gehazi left the prophet's presence as a leper, white as snow.",
+"id": "crsx09004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because Gehazi follow Naaman go collect gift through lie-lie, Elisha curse am say Naaman leprosy go stick to am and im children forever. Gehazi waka leave the place white like snow with leprosy."
+},
+{
+"q": "During the siege of Samaria by the Syrians, Elisha prophesied that there would be abundant food in the city within a short time despite severe famine. What eventually caused this prophecy to be fulfilled?",
+"options": [
+"The king of Israel surrendered the city peacefully to Syria",
+"God caused the Syrian army to hear a noise of a great army and flee, leaving their supplies behind",
+"Elisha personally multiplied the little food remaining in the city",
+"Naaman sent food supplies from Syria as a gift to Elisha"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The Lord made the Syrian camp hear the sound of chariots and a great army, causing them to flee in panic and abandon their camp with all its provisions. Lepers outside the city discovered this and the news brought relief to starving Samaria, fulfilling Elisha's word.",
+"id": "crsx09005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "God make the Syrian army hear sound like say plenty soldiers dey come, so dem run leave all dia food and properties. Na so hunger finish for Samaria as Elisha talk am."
+},
+{
+"q": "Elijah's confrontation with Ahab over Naboth's vineyard shows a key role of the prophet in ancient Israel. Which of these best describes this role as demonstrated in that encounter?",
+"options": [
+"The prophet acted mainly as a political adviser who helped kings expand their territory",
+"The prophet served as a moral conscience who confronted rulers over injustice and sin",
+"The prophet's duty was limited to predicting future events without addressing present conduct",
+"The prophet had no authority to speak against a reigning king"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "When Ahab seized Naboth's vineyard after Jezebel's wicked plot, Elijah boldly confronted the king, pronounced judgment, and held him accountable for the injustice. This shows that true prophets acted as God's voice against the sins of rulers, not merely as fortune-tellers.",
+"id": "crsx09006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When Ahab collect Naboth vineyard through wicked way, Elijah go face am straight to tell am im sin. Dis show say true prophets dey speak against injustice and wickedness of kings."
+},
+{
+"q": "Why did Naaman request two mule-loads of earth to carry back to Syria after his healing was confirmed through his servants' persuasion to obey Elisha's instruction?",
+"options": [
+"He wanted to build an altar of Israelite soil to offer sacrifices only to the Lord",
+"He intended to sell the soil as a valuable souvenir in Syria",
+"He planned to give the earth to King Jehoram as tribute",
+"He needed the soil for medicinal purposes to prevent his disease from returning"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "After recognising that the God of Israel was the only true God, Naaman asked for soil from Israel so he could build an altar and offer sacrifices to the Lord alone, even back in Syria. This showed his genuine conversion and commitment to worship only the God who healed him.",
+"id": "crsx09007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Naaman ask for two mule-loads of Israel sand because e wan build altar for Syria to dey worship God alone. Dis show say im don truly turn to serve the God of Israel."
+}
+],
+"rejected": []
+}

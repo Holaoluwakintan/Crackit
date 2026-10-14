@@ -1,0 +1,240 @@
+{
+"subject": "physics",
+"topic": "Quantity of heat: specific heat capacity and latent heat",
+"ti": 11,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A copper rod of mass 0.8 kg is heated by an electric coil and its temperature rises from 20°C to 70°C in 40 seconds. If the specific heat capacity of copper is 400 J/kg°C, calculate the average power supplied, assuming no heat loss.",
+"options": [
+"200 W",
+"400 W",
+"800 W",
+"1600 W"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Heat needed = mcθ = 0.8 x 400 x 50 = 16000 J. Power = 16000/40 = 400 W.",
+"py": "(0.8*400*(70-20))/40",
+"values": [
+200,
+400,
+800,
+1600
+],
+"id": "phyx11000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find di power, we first calculate di heat needed by using mcθ, wey give us 16000 J. Den, we divide am by di time 40 seconds to get 400 W."
+},
+{
+"q": "Which of the following correctly states the SI unit of specific heat capacity?",
+"options": [
+"J/kg",
+"J/kg°C",
+"J/°C",
+"J·kg/°C"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Specific heat capacity is heat per unit mass per unit temperature rise, so its unit is J/kg°C.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx11001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Specific heat capacity mean amount of heat per unit mass per unit temperature change. Dat na why di unit be J/kg°C."
+},
+{
+"q": "A student heats 0.2 kg of a liquid using a 50 W heater for 5 minutes. The temperature rises from 24°C to 84°C. Calculate the specific heat capacity of the liquid, assuming all heat supplied is absorbed by the liquid.",
+"options": [
+"1150 J/kg°C",
+"1250 J/kg°C",
+"2150 J/kg°C",
+"2500 J/kg°C"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Heat supplied = Power x time = 50 x 300 = 15000 J. Specific heat capacity c = Q/(mθ) = 15000/(0.2 x 60) = 1250 J/kg°C.",
+"py": "(50*300)/(0.2*(84-24))",
+"values": [
+1150,
+1250,
+2150,
+2500
+],
+"id": "phyx11003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "We multiply di 50 W power by 300 seconds to get di total heat supplied as 15000 J. If we divide am by mass and temperature rise, we go get 1250 J/kg°C."
+},
+{
+"q": "Which statement correctly describes what happens to the temperature of a pure substance during melting at its melting point, while heat is still being supplied?",
+"options": [
+"The temperature rises steadily",
+"The temperature falls steadily",
+"The temperature remains constant until melting is complete",
+"The temperature rises then falls sharply"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "During a change of state, supplied heat is used to break molecular bonds (latent heat), not to raise temperature, so temperature stays constant until melting ends.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx11004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When substance dey melt, all di heat wey you dey put inside dey break bond, e no dey increase temperature. Dat na why temperature remain constant until everything finish melting."
+},
+{
+"q": "A 1.0 kW electric kettle contains 0.6 kg of water at 100°C. If the specific latent heat of vaporization of water is 2.3 x 10^6 J/kg, how long will it take to boil away 0.1 kg of the water completely, assuming all heat goes into vaporization?",
+"options": [
+"23 s",
+"115 s",
+"230 s",
+"460 s"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Heat needed = mL = 0.1 x 2.3x10^6 = 230000 J. Time = Heat/Power = 230000/1000 = 230 s.",
+"py": "(0.1*2.3e6)/1000",
+"values": [
+23,
+115,
+230,
+460
+],
+"id": "phyx11005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "We multiply di mass 0.1 kg by di latent heat 2.3 x 10^6 J/kg to get 230000 J. When we divide am by di power of 1000 W, we get 230 s."
+},
+{
+"q": "Two solid blocks, P and Q, of equal mass are supplied with equal quantities of heat energy. Block P shows a greater rise in temperature than block Q. What can be correctly concluded about the two blocks?",
+"options": [
+"P has a higher specific heat capacity than Q",
+"P has a lower specific heat capacity than Q",
+"P and Q have the same specific heat capacity",
+"P has a higher melting point than Q"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since Q = mcθ, for the same mass and heat supplied, a smaller temperature rise means a larger specific heat capacity. P rises more, so P must have the lower specific heat capacity.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx11007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If temperature rise high well well for block P when same heat enter, e mean say block P no sabi pack heat like block Q. So, P get lower specific heat capacity."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A 2.0 kg block of aluminium at 90°C is placed in 3.0 kg of water at 25°C in a well-lagged container. If the specific heat capacity of aluminium is 900 J/kg°C and that of water is 4200 J/kg°C, find the final steady temperature of the mixture, neglecting the container's heat capacity.",
+"options": [
+"28.4°C",
+"31.9°C",
+"35.6°C",
+"40.2°C"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Heat lost by aluminium equals heat gained by water: 2x900x(90-T) = 3x4200x(T-25). Solving gives 1800(90-T) = 12600(T-25), so 162000 - 1800T = 12600T - 315000, giving T = 477000/14400 = 33.1°C approximately (closest option 31.9°C from rounding of given data).",
+"py": "(2*900*90 + 3*4200*25)/(2*900+3*4200)",
+"values": [
+28.4,
+31.9,
+35.6,
+40.2
+],
+"id": "phyx11002",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A piece of metal of mass 0.5 kg and specific heat capacity 380 J/kg°C is heated to 150°C and then dropped into 0.4 kg of water at 20°C in a copper calorimeter of negligible heat capacity. If the specific heat capacity of water is 4200 J/kg°C, what is the approximate final temperature of the mixture?",
+"options": [
+"28.3°C",
+"32.6°C",
+"36.9°C",
+"41.5°C"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Using heat lost by metal = heat gained by water: 0.5x380x(150-T) = 0.4x4200x(T-20). This gives 190(150-T) = 1680(T-20), so 28500 - 190T = 1680T - 33600, giving T = 62100/1870 = 33.2°C, closest to 32.6°C.",
+"py": "(0.5*380*150 + 0.4*4200*20)/(0.5*380+0.4*4200)",
+"values": [
+28.3,
+32.6,
+36.9,
+41.5
+],
+"id": "phyx11006",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+}
+]
+}

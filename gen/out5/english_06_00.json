@@ -1,0 +1,177 @@
+{
+"subject": "english",
+"topic": "Idioms and idiomatic expressions: meaning of the expression",
+"ti": 6,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best explains the expression in quotes. When the examination results were released, Tope discovered that her best friend had 'played to the gallery' during the debate competition.",
+"options": [
+"Performed insincerely to impress the audience rather than to express true conviction",
+"Refused to participate in the competition at all",
+"Prepared thoroughly before the event",
+"Won the competition through honest effort"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "To 'play to the gallery' means to act or speak in a way designed to appeal to onlookers rather than out of genuine belief. It does not mean refusing to take part or preparing well.",
+"id": "engx06000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To 'play to the gallery' mean say person dey act abi talk just to sweet mouth people make dem clap for am, instead make e talk wetin dey him heart. E no mean say person refuse to join competition abi say e read well."
+},
+{
+"q": "Choose the option that best explains the expression in quotes. Because the landlord kept increasing the rent without any improvement to the building, the tenants decided it was time to 'put their foot down'.",
+"options": [
+"Move out of the building immediately",
+"Firmly refuse to accept the situation any longer",
+"Walk away quietly from the argument",
+"Report the matter to the police"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "'Put one's foot down' means to take a firm stand and insist on something, usually to stop an unwanted situation. It does not specifically mean moving out or reporting to the police.",
+"id": "engx06001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To 'put your foot down' mean say you don stand gidigba say you no gree for nonsense again, especially when you wan stop bad tin. E no mean say you pack commot for house abi report mata to police."
+},
+{
+"q": "Choose the option that best explains the expression in quotes. Mr. Adeyemi, the school principal, warned the teachers to 'toe the line' or face disciplinary action during the inspection week.",
+"options": [
+"Stand in a straight queue for the inspectors",
+"Conform strictly to the accepted rules and standards",
+"Walk carefully along a marked path",
+"Compete against one another for recognition"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "'Toe the line' means to comply with rules or expected standards of behaviour. It has nothing to do with physically standing in a queue or walking along a path.",
+"id": "engx06002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To 'toe the line' mean say you must follow all the rules and regulations wey dem give you. E no get anything to do with to stand for straight line abi to dey waka for road."
+},
+{
+"q": "Choose the option that best explains the expression in quotes. Despite losing his job suddenly, Emeka refused to 'throw in the towel' and kept searching for new opportunities.",
+"options": [
+"Celebrate his freedom from work",
+"Give up or admit defeat",
+"Seek comfort from his family",
+"Blame others for his misfortune"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "'Throw in the towel' is a boxing-derived idiom meaning to give up or surrender in the face of difficulty. Emeka's continued search shows he did not give up.",
+"id": "engx06003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To 'throw in the towel' na boxing language wey mean say person don give up or surrender because trouble don too much. Emeka's action show say e no give up at all."
+},
+{
+"q": "Choose the option that best explains the expression in quotes. The young lawyer's brilliant defence of the accused market woman left the senior judges 'eating their words'.",
+"options": [
+"Praising the lawyer openly in public",
+"Withdrawing or regretting what they had earlier said",
+"Feeling hungry after the long court session",
+"Agreeing to retire from their positions"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "To 'eat one's words' means to retract a previous statement, usually because it has been proven wrong. The judges must have earlier doubted the young lawyer, so his success forced them to withdraw their opinion.",
+"id": "engx06004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To 'eat one's words' mean say person must take back wetin e talk before because e don see say e talk wrong. The judges must don talk down the lawyer before, naim make the lawyer brilliance scatter their mouth."
+},
+{
+"q": "Choose the option that best explains the expression in quotes. The governor's aide was accused of being a 'turncoat' after he abandoned his party just before the election.",
+"options": [
+"Someone who dresses in expensive clothes",
+"Someone who changes loyalty or allegiance for personal gain",
+"Someone who speaks two languages fluently",
+"Someone who always tells the truth"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A 'turncoat' is a person who deserts one group, cause, or party to join an opposing one, often for selfish reasons. This matches the aide abandoning his party before the election.",
+"id": "engx06005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "A 'turncoat' na person wey dey run leave him party abi group go join another one because of wetin e wan gain. E fit well with how the aide leave him party before election."
+},
+{
+"q": "Choose the option that best explains the expression in quotes. After the court dismissed the case against him for lack of evidence, the businessman was said to have 'got off scot-free'.",
+"options": [
+"Escaped punishment completely despite being guilty or suspected",
+"Paid a heavy fine to settle the matter",
+"Was sentenced to a short prison term",
+"Lost his business as compensation"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "'Get off scot-free' means to avoid punishment or blame entirely, often when one might have deserved some consequence. The dismissal of the case allowed him to escape without any penalty.",
+"id": "engx06006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To 'get off scot-free' mean say person escape punishment or trouble completely. Since court throw away the case, the businessman waka go free without any penalty."
+},
+{
+"q": "Choose the option that best explains the expression in quotes. Ngozi's father told her that marrying a man she barely knew was like 'buying a pig in a poke'.",
+"options": [
+"Making a wise investment after careful thought",
+"Getting something without first checking its true quality or worth",
+"Purchasing farm animals at a cheap price",
+"Trusting a close family friend completely"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "'Buy a pig in a poke' means to acquire or agree to something without first examining or verifying it, which carries great risk. Her father is warning that marrying someone unknown is a similar blind risk.",
+"id": "engx06007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+}
+}
+],
+"rejected": []
+}

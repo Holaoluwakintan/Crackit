@@ -1,0 +1,178 @@
+{
+"subject": "government",
+"topic": "Local government in Nigeria",
+"ti": 15,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the principle of 'local government autonomy' as discussed in Nigerian political studies?",
+"options": [
+"The freedom of local councils to print their own currency for local transactions",
+"The ability of a local government to manage its own affairs with minimal interference from the state or federal government",
+"The power of local government chairmen to appoint state commissioners",
+"The right of a local council to declare independence from the state government"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Local government autonomy means the council can run its affairs, make decisions and manage resources with little outside interference. It does not involve currency, appointing commissioners, or seceding from the state.",
+"id": "govx15000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Local government autonomy mean say council fit run dia own matter and handle dia money with small or no interference from state or federal government. E no mean say dem go print money, appoint commissioner, or break away from state."
+},
+{
+"q": "One major way the traditional (pre-colonial) system of local administration in many Nigerian societies differed from the modern local government system is that traditional administration was mainly based on:",
+"options": [
+"Written constitutions approved by a central legislature",
+"Kinship, age-grades and customary institutions rather than statutory laws",
+"Elected councillors voted in through secret ballot",
+"Civil servants transferred from the federal government"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Pre-colonial administration relied on lineage, age-grades, chieftaincy and custom to maintain order, unlike the modern system which is based on written laws and elections. There were no written constitutions or federal civil servants in that era.",
+"id": "govx15001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Before white man come, our people dey use family lineage, age-grade, and tradition take maintain peace, unlike dis modern time wey we dey use written law and election. Dem no get any written constitution or federal civil servant dat time."
+},
+{
+"q": "A key feature that distinguishes a local government council from a mere administrative agency of the state government in Nigeria is that the council:",
+"options": [
+"Has no defined area of authority",
+"Operates strictly on directives from state ministries without any independent powers",
+"Possesses a measure of corporate existence with powers to make bye-laws and raise some revenue",
+"Is headed by a civil servant appointed directly by the President"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A true local government has corporate status, can make bye-laws, and generate some revenue, marking it as a government rather than a mere agency. An administrative agency would simply carry out directives without such independent powers.",
+"id": "govx15002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Real local government get him own corporate power to make bye-law and collect small money, wey make am different from ordinary government agency. Ordinary agency na just to carry out order without any independent power."
+},
+{
+"q": "During the colonial period, the Native Authority system in Nigeria was primarily used by the British to achieve which of the following?",
+"options": [
+"Direct taxation of only foreign companies operating in Nigeria",
+"Administration of the colony through existing traditional rulers under colonial supervision",
+"Immediate transfer of full political power to elected Nigerian politicians",
+"Establishment of a single national government for the whole of West Africa"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Native Authority system allowed the British to govern through traditional rulers and chiefs who were supervised by colonial officers, which was cost-effective and convenient. It was not about taxing foreign firms or forming a West African union.",
+"id": "govx15003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na through Native Authority system British take use our traditional rulers govern the colony under dia supervision because e dey cheap and easy. E no concern tax for foreign company or West African union."
+},
+{
+"q": "Which of the following is the most accurate reason why local government is often regarded as a veritable instrument for grassroots development in Nigeria?",
+"options": [
+"It is located far away from the people it serves",
+"It brings government closer to the people and allows direct participation in decisions affecting their immediate community",
+"It controls the national armed forces and foreign policy",
+"It replaces the need for a state government entirely"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Local government is close to the people, enabling them to participate directly in decisions on roads, markets, health centres and other local needs. It has no role in defence or foreign policy and does not replace state government.",
+"id": "govx15004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Local government dey near people, so e dey make am easy for everybody to join hand decide wetym go help dia community like market and road. E no get business with military work or foreign affairs."
+},
+{
+"q": "Suppose a local government council in a Nigerian state wants to improve its internally generated revenue without depending heavily on statutory allocation. Which of the following measures would best achieve this, based on known local government revenue practices?",
+"options": [
+"Requesting an increase in value-added tax collected by the Federal Inland Revenue Service",
+"Strengthening collection of tenement rates, market tolls and motor park levies within its area",
+"Borrowing exclusively from international financial institutions",
+"Waiting for the state House of Assembly to approve a new state creation exercise"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Tenement rates, market tolls and motor park levies are genuine internal revenue sources that a local council can strengthen through better collection. VAT is a federal matter, foreign borrowing is not a typical local revenue strategy, and state creation is unrelated to revenue generation.",
+"id": "govx15005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If local government wan get more money bymselves, dem suppose tight up how dem dey collect tenement rates, market tolls, and motor park money. VAT na federal matter and foreign loan no be local council work."
+},
+{
+"q": "A notable weakness of the local government system in Nigeria, often linked to poor service delivery, is the frequent practice of state governments:",
+"options": [
+"Granting local councils full control over state judiciary appointments",
+"Dissolving elected local government councils and replacing them with caretaker committees for long periods",
+"Increasing the statutory allocation to local governments beyond constitutional provisions",
+"Allowing local governments to create new states"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Many state governments dissolve democratically elected councils and install caretaker committees, which weakens accountability and continuity in service delivery. The other options describe powers local governments do not have under the Constitution.",
+"id": "govx15006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Plenty state government like to scatter elected local council make dem put caretaker committee, and dis one dey scatter good work and accountability. Local government no get power to create state or touch judiciary."
+},
+{
+"q": "Which of the following best illustrates the relationship between a local government council and traditional rulers in contemporary Nigerian local administration?",
+"options": [
+"Traditional rulers automatically become chairmen of local government councils",
+"Traditional rulers have no recognised role whatsoever in local affairs",
+"Traditional rulers often serve in advisory roles, such as through a council of chiefs, supporting the elected local government",
+"Traditional rulers directly control the local government treasury accounts"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In practice, traditional rulers mostly play advisory and ceremonial roles, often through bodies like a council of chiefs, to support the elected local government administration. They do not automatically hold chairmanship positions or control treasury accounts.",
+"id": "govx15007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Today, traditional rulers dey play advisory role through council of chiefs to help elected local government. Dem no be chairman by force and dem no dey control council money."
+}
+],
+"rejected": []
+}

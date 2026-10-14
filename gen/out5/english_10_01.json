@@ -1,0 +1,171 @@
+{
+"subject": "english",
+"topic": "Spelling and punctuation: choose the correctly spelt/punctuated option",
+"ti": 10,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the correctly spelt word that means 'the act of giving up a throne or position of power'.",
+"options": [
+"Abdiccation",
+"Abdication",
+"Abdecation",
+"Abdiccasion"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The correct word is 'abdication', formed from 'abdicate' plus the suffix '-ion'. The other options wrongly double the consonant, change the vowel or misspell the ending.",
+"values": null,
+"py": null,
+"id": "engx10012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na 'abdication' be the correct spelling, wey come from 'abdicate' join with '-ion'. Di other options just double wrong letter or spell am anyhow."
+},
+{
+"q": "In an examination hall in Minna, Fatima was asked to identify the correctly spelt word from a set that tests silent letters. Choose the correctly spelt word.",
+"options": [
+"Pneumatic",
+"Neumatic",
+"Pnuematic",
+"Pneumattic"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The word 'pneumatic' begins with a silent 'p' before 'n' and has one 't'. Candidates often drop the silent letter or wrongly double the final consonant, which the other options show.",
+"values": null,
+"py": null,
+"id": "engx10013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na 'pneumatic' correct because e get silent 'p' for front and one 't' for back. Di other options remove di silent 'p' or double letter where dem no suppose to."
+},
+{
+"q": "Choose the option that correctly uses the colon.",
+"options": [
+"The coach named four players: Tunde, Bisi, Kemi and Ngozi.",
+"The coach named: four players, Tunde, Bisi, Kemi and Ngozi.",
+"The coach named four players, Tunde: Bisi, Kemi and Ngozi.",
+"The coach named four players Tunde: Bisi, Kemi and Ngozi."
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A colon correctly introduces a list after a complete independent clause, as seen when it follows 'four players'. The other options place the colon in the middle of the clause or list, which breaks the grammar.",
+"values": null,
+"py": null,
+"id": "engx10015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na option A correct because colon suppose come after full sentence before you list something. Di other options put di colon for wrong place wey scatter grammar."
+},
+{
+"q": "Choose the correctly punctuated version of the following sentence: Mrs Adebayo said that she would travel to Kano on Friday however her flight was later cancelled by the airline.",
+"options": [
+"Mrs Adebayo said that she would travel to Kano on Friday; however, her flight was later cancelled by the airline.",
+"Mrs Adebayo said that she would travel to Kano on Friday, however her flight was later cancelled by the airline.",
+"Mrs Adebayo said that she would travel to Kano on Friday however, her flight was later cancelled by the airline.",
+"Mrs Adebayo said, that she would travel to Kano on Friday; however her flight was later cancelled by the airline."
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Two independent clauses joined by the conjunctive adverb 'however' need a semicolon before it and a comma after it. The other options use only a comma before 'however', which creates a comma splice, or add an unnecessary comma elsewhere.",
+"values": null,
+"py": null,
+"id": "engx10017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na option A correct because when two strong sentence join with 'however', you must put semicolon before am and comma after am. Di other options make mistake with comma."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option in which the word is correctly spelt.",
+"options": [
+"Embarrassment",
+"Embarassment",
+"Embarrasment",
+"Imbarrassment"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The correct spelling is 'embarrassment' with double r and double s. The other options wrongly drop one of the doubled letters or change the first vowel.",
+"values": null,
+"py": null
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the option in which all the words are correctly spelt.",
+"options": [
+"Liaison, questionnaire, millennium",
+"Liason, questionaire, millenium",
+"Liaison, questionaire, millenium",
+"Liason, questionnaire, millennium"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "All three words are correctly spelt only in one option: liaison, questionnaire and millennium. The distractors drop required doubled letters or misplace vowels in one or more of the words.",
+"values": null,
+"py": null
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the sentence that is correctly punctuated.",
+"options": [
+"Adaeze, who scored 320 in UTME, gained admission to study Medicine.",
+"Adaeze who scored 320 in UTME gained admission to study Medicine.",
+"Adaeze, who scored 320 in UTME gained admission to study Medicine.",
+"Adaeze who scored 320 in UTME, gained admission to study Medicine."
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The non-defining relative clause 'who scored 320 in UTME' must be set off by a comma both before and after it. The other options miss one or both of the required commas.",
+"values": null,
+"py": null
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the option that is correctly punctuated.",
+"options": [
+"The manager's report, which covered three quarters, showed that the company's profit had risen by 15%.",
+"The managers report, which covered three quarter's, showed that the companys profit had risen by 15%.",
+"The manager's report, which covered three quarters, showed that the companys' profit had risen by 15%.",
+"The managers' report, which covered three quarters, showed that the company's profit had risen by 15%."
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Only one option places the apostrophe correctly to show that the report belongs to a single manager and the profit belongs to a single company. The other options misuse or omit apostrophes on 'manager's' or 'company's', wrongly suggesting plural ownership or no ownership at all.",
+"values": null,
+"py": null
+},
+"why": "duplicate"
+}
+]
+}

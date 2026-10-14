@@ -1,0 +1,169 @@
+{
+"subject": "government",
+"topic": "Colonial administration: indirect rule, British and French policies",
+"ti": 10,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "In the context of colonial administration, the term 'Warrant Chief' refers to a person who was",
+"options": [
+"a traditional ruler recognised by the people before colonial rule began",
+"an individual given a certificate of authority by the British to act as a Native Authority, even without traditional legitimacy",
+"a French-trained African administrator posted to rule in Francophone colonies",
+"a missionary appointed by the colonial government to oversee education in a province"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Warrant Chiefs were men handed a 'warrant' or certificate by the British to exercise local authority, mostly in areas of Eastern Nigeria that had no centralised chieftaincy. Many lacked genuine traditional legitimacy, which caused resentment among the people.",
+"id": "govx10010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Warrant Chiefs na di people wey British give paper authority to rule, even when dem no get traditional right. E happen mostly for Eastern Nigeria where dem no get king, and dis one come make people vex well well."
+},
+{
+"q": "One major advantage claimed for the British system of Indirect Rule over direct colonial administration was that it",
+"options": [
+"required colonial powers to maintain very large standing armies in every province",
+"allowed the colonial government to govern cheaply by using existing local institutions and personnel",
+"completely replaced all traditional customs with European laws and courts",
+"granted full political independence to each colonised territory immediately"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Indirect Rule was attractive to Britain because it was cost-effective, using chiefs and existing native institutions to govern on behalf of the colonial power. This reduced the number of European officials needed and limited administrative expenses.",
+"id": "govx10011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "British like Indirect Rule because e cheap to run. Dem dey use local chiefs and old customs to govern instead of spending plenty money to bring oyinbo officers everywhere."
+},
+{
+"q": "A notable effect of British Indirect Rule on the authority of traditional rulers in Nigeria was that the chiefs",
+"options": [
+"became fully independent of colonial control and answered only to their people",
+"lost real power to the people but gained new powers delegated to them by colonial officials, making them more answerable to the British",
+"were abolished entirely and replaced by elected local councils",
+"were given direct representation in the British Parliament in London"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Under Indirect Rule, chiefs who cooperated were used as agents of the colonial government, collecting taxes and enforcing colonial policies. This made them more accountable to the British administration than to their own subjects, weakening their traditional legitimacy.",
+"id": "govx10013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Indirect Rule make chiefs begin answer to British people instead of dia own citizens. Dem turn to agents wey dey collect tax and enforce oyinbo laws, which come scatter dia real traditional power."
+},
+{
+"q": "A major criticism of French colonial administrative policy regarding chiefs, compared with the British approach, was that French-appointed chiefs were mainly",
+"options": [
+"hereditary rulers chosen strictly according to local customary succession",
+"agents of the central French administration with little regard for traditional legitimacy, serving mainly to implement French orders",
+"independent monarchs free from any control by French officials",
+"elected by universal adult suffrage among all colonial subjects"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Unlike the British who tried to use legitimate traditional rulers, the French often appointed chiefs purely as civil servants loyal to France, regardless of whether they had any traditional right to rule. This made French-appointed chiefs mere agents of central authority rather than true traditional leaders.",
+"id": "govx10015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Unlike British wey try to use traditional rulers, French people just pick anybody as chief make e be like civil servant. Dis chiefs no get traditional legitimacy, na only French orders dem dey obey."
+},
+{
+"q": "The British colonial policy of Indirect Rule, as applied generally across Nigeria, can best be summarised as governing through",
+"options": [
+"a system of elected African parliaments with full legislative powers",
+"existing traditional rulers and institutions under the supervision and ultimate authority of British colonial officials",
+"military governors appointed directly from London with no local involvement",
+"a federation of independent African kingdoms free from British oversight"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Indirect Rule meant that traditional rulers and institutions were retained and used to administer their people, but real authority and final decisions remained with British colonial officials such as Residents and the Governor.",
+"id": "govx10016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Indirect Rule mean say British dey use local traditional rulers to govern di people. But make una know say na British officers still hold di real power and final decision."
+},
+{
+"q": "A key structural difference between the British and French approaches to colonial representation was that, unlike the British colonies, French West African colonies were permitted to",
+"options": [
+"form their own separate currencies independent of France",
+"elect deputies to sit in the French National Assembly in Paris, at least from certain privileged areas",
+"maintain completely separate armies from France at all times",
+"conduct trade only with Britain and never with France"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Under the French policy of Assimilation, residents of privileged areas such as the Four Communes in Senegal could become French citizens and even elect deputies to represent them in the French National Assembly, something the British system of Indirect Rule never allowed for its colonial subjects.",
+"id": "govx10017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For French system, some people for places like Senegal fit vote and send representatives go French parliament for Paris. British system never allow colonies to go sit down for London parliament like dat."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A key feature that distinguished the French colonial civil service system from the British system in West Africa was that the French",
+"options": [
+"allowed each colony to maintain a fully separate and independent civil service",
+"operated a unified civil service in which officials could be transferred and posted across different French colonies",
+"banned all Africans from ever serving in any administrative post",
+"relied entirely on traditional rulers to fill all senior civil service positions",
+"handed over complete administrative control to missionary societies"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The French operated a single centralised civil service for French West Africa, so officials (including Africans who qualified) could be posted to serve in any colony within the federation. This reflected the highly centralised nature of French colonial administration, unlike the more localised British approach."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following best explains why Lord Lugard's attempt to apply the Northern Nigerian model of Indirect Rule to Western Nigeria (among the Yoruba) was relatively more successful than in the East?",
+"options": [
+"The Yoruba had no traditional rulers or kingdoms before colonial rule",
+"The Yoruba, like the Hausa-Fulani, already possessed centralised kingdoms with recognised Obas, which could be adapted to serve as Native Authorities",
+"The British abandoned Indirect Rule completely in Western Nigeria",
+"Western Nigeria was governed directly by French officials instead of the British",
+"The Yoruba people refused to pay any form of taxation"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Western Nigeria had pre-existing centralised Yoruba kingdoms headed by Obas, similar in structure to the Northern emirates, so the British could adapt Obas as Native Authorities more easily than in the East, which lacked such centralised systems."
+},
+"why": "bad-shape"
+}
+]
+}

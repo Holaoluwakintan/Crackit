@@ -1,0 +1,214 @@
+{
+"subject": "chemistry",
+"topic": "Energy changes in reactions",
+"ti": 9,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A reaction is said to be exothermic when",
+"options": [
+"the enthalpy of the products is greater than that of the reactants and heat is absorbed",
+"the enthalpy of the reactants is greater than that of the products and heat is released to the surroundings",
+"the enthalpy of the reactants equals that of the products and no heat is exchanged",
+"the activation energy of the forward reaction is greater than that of the reverse reaction only"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In an exothermic reaction, reactants have more stored energy than the products, so the extra energy is given off as heat to the surroundings. This makes delta H negative.",
+"py": null,
+"values": null,
+"id": "chex09011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For exothermic reaction, reactants get higher stored energy pass the products, so the extra energy dey commot as heat go surroundings. Dis one dey make delta H negative."
+},
+{
+"q": "When ammonium trioxonitrate(V) (NH4NO3) dissolves in water, the temperature of the solution drops noticeably, and the test tube feels cold to touch. This observation shows that the dissolution process is",
+"options": [
+"exothermic, because energy is released to the surroundings",
+"endothermic, because energy is absorbed from the surroundings",
+"exothermic, because the lattice energy exceeds the hydration energy",
+"neither exothermic nor endothermic since no new bonds are formed"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A fall in temperature means the surroundings lost heat to the system, so the process absorbed energy. This makes the dissolution endothermic, consistent with ammonium trioxonitrate(V) being a common example of a cooling salt.",
+"py": null,
+"values": null,
+"id": "chex09012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If temperature fall down, e mean say heat absorb from surroundings enter the system. Dis make the process endothermic as ammonium trioxonitrate(V) (NH4NO3) dey dissolve."
+},
+{
+"q": "In a potential energy diagram for a reversible reaction, the activation energy of the forward reaction is 80 kJ/mol while the activation energy of the reverse reaction is 55 kJ/mol. What is the enthalpy change, delta H, for the forward reaction?",
+"options": [
+"+25 kJ/mol",
+"-25 kJ/mol",
+"+135 kJ/mol",
+"-135 kJ/mol"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Delta H for the forward reaction equals the forward activation energy minus the reverse activation energy, that is 80 minus 55, giving +25 kJ/mol. The positive sign shows the forward reaction is endothermic.",
+"py": "80-55",
+"values": [
+25,
+-25,
+135,
+-135
+],
+"id": "chex09013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Delta H for forward reaction na forward activation energy minus reverse activation energy, wey be 80 minus 55 to give +25 kJ/mol. The positive sign show say the reaction na endothermic."
+},
+{
+"q": "150 g of water (specific heat capacity = 4.2 J/g°C) in an insulated plastic calorimeter is heated by burning a small sample of fuel, raising its temperature from 28°C to 48°C. What is the quantity of heat absorbed by the water?",
+"options": [
+"6,300 J",
+"12,600 J",
+"8,820 J",
+"4,200 J"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Heat absorbed equals mass times specific heat capacity times change in temperature, that is 150 x 4.2 x 20, which gives 12,600 J. This shows direct use of the calorimetry formula Q = mc delta T.",
+"py": "150*4.2*(48-28)",
+"values": [
+6300,
+12600,
+8820,
+4200
+],
+"id": "chex09015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Heat absorbed na mass times specific heat capacity times temperature change, wey be 150 x 4.2 x 20 to give 12,600 J. Dis na direct application of the formula Q = mc delta T."
+},
+{
+"q": "A chemistry student plots a potential energy (enthalpy) diagram for an exothermic reaction, showing reactants, products and a transition state (activated complex) at the peak of the curve. Which statement correctly describes this diagram?",
+"options": [
+"The products lie above the reactants, and the hump between them represents activation energy",
+"The products lie below the reactants, and the hump between them represents activation energy",
+"The reactants and products are at the same energy level, with the hump showing heat released",
+"The products lie below the reactants, and the hump represents the heat of reaction only"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "For an exothermic reaction, products have lower energy than reactants, since energy is released overall. The hump above both levels represents the activation energy needed to form the activated complex, not the overall heat of reaction.",
+"py": null,
+"values": null,
+"id": "chex09016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For exothermic reaction, products dey down pass reactants because energy release. The hump for middle na activation energy wey dey needed to form activated complex."
+},
+{
+"q": "Which of the following best explains, in terms of bond energies, why burning natural gas (methane) in excess oxygen releases energy overall, even though energy must first be supplied to break the bonds in methane and oxygen?",
+"options": [
+"The energy released in forming new bonds in carbon(IV) oxide and water is greater than the energy absorbed in breaking bonds in methane and oxygen",
+"The energy absorbed in breaking bonds in methane and oxygen is greater than the energy released in forming new bonds",
+"Bond breaking and bond formation always require exactly the same amount of energy",
+"No bonds are actually broken during combustion, only new bonds are formed"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Combustion is exothermic overall because forming the strong C=O and O-H bonds in the products releases more energy than is needed to break the weaker bonds in the reactants. This net release of energy explains why delta H is negative for combustion reactions.",
+"py": null,
+"values": null,
+"id": "chex09017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Combustion dey exothermic overall because the energy wey form new bonds for carbon(IV) oxide and water pass the energy wey we take break bonds for methane and oxygen."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which term is used to describe the branch of chemistry concerned with the measurement of heat changes that accompany chemical reactions and physical processes?",
+"options": [
+"Thermochemistry",
+"Electrochemistry",
+"Photochemistry",
+"Stereochemistry"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Thermochemistry is the study of heat changes in chemical reactions and physical processes. The other branches deal with electricity, light and molecular shape respectively, not heat changes.",
+"py": null,
+"values": null,
+"id": "chex09010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Given the standard enthalpies of combustion: C(graphite) = -393 kJ/mol, H2(g) = -286 kJ/mol, and C2H6(g) = -1560 kJ/mol, use Hess's Law to calculate the standard enthalpy of formation of ethane, C2H6(g).",
+"options": [
+"-85 kJ/mol",
+"-171 kJ/mol",
+"+85 kJ/mol",
+"-1453 kJ/mol"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Formation reaction is 2C(graphite) + 3H2(g) -> C2H6(g). Using Hess's Law, delta Hf = [2(-393) + 3(-286)] - (-1560) = (-786 - 858) - (-1560) = -1644 + 1560 = -84, approximately -85 kJ/mol.",
+"py": "(2*(-393)+3*(-286))-(-1560)",
+"values": [
+-85,
+-171,
+85,
+-1453
+],
+"id": "chex09014",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

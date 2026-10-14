@@ -1,0 +1,208 @@
+{
+"subject": "physics",
+"topic": "Heat transfer: conduction, convection, radiation",
+"ti": 12,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which arrangement best explains why a thermos flask (vacuum flask) keeps a drink hot for several hours?",
+"options": [
+"The double wall is painted black to absorb heat and keep it inside",
+"The vacuum between the walls prevents conduction and convection, while the silvered surfaces reduce radiation",
+"The flask is made thick to block all forms of heat transfer completely",
+"The cork stopper conducts heat back into the flask"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A vacuum flask has an evacuated space that stops conduction and convection, and silvered walls that reflect radiant heat back. This combination minimizes all three modes of heat loss.",
+"py": null,
+"values": null,
+"id": "phyx12001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Vacuum flask get empty space wey dey stop conduction and convection, come get silvered wall wey dey send radiant heat back. Dis one dey make sure say heat no escape easily."
+},
+{
+"q": "A student heats one end of a uniform metal rod and notices that wax placed at equal intervals along the rod melts one after another, starting from the heated end. What does this observation best demonstrate?",
+"options": [
+"Heat travels through the rod by convection currents",
+"Heat travels through the rod by conduction, moving from hotter to cooler regions",
+"Heat travels through the rod by radiation only",
+"The rod has a negative temperature coefficient of resistance"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The successive melting of wax shows heat being passed from particle to particle along the solid rod, which is conduction. Convection needs a fluid, and radiation does not require this particle-to-particle contact.",
+"py": null,
+"values": null,
+"id": "phyx12002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When wax dey melt one after another from where dem heat am, e show say heat dey waka pass solid iron from one molecule go another, and na conduction be dat."
+},
+{
+"q": "A room is heated by a radiator placed near the floor on one side of the room. Explain why this position is more effective than placing the radiator near the ceiling.",
+"options": [
+"Heated air near the floor rises, setting up a convection current that circulates warm air throughout the room",
+"Heat from a radiator only travels downward due to gravity",
+"Radiators placed near the ceiling cannot radiate heat effectively",
+"Placing the radiator near the floor increases conduction through the floor tiles"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Air heated near the floor expands, becomes less dense, and rises, while cooler air sinks to replace it, creating a convection current that warms the whole room. A radiator near the ceiling would only heat air that stays at the top.",
+"py": null,
+"values": null,
+"id": "phyx12003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Hot air near floor dey light, so e dey go up while cold air dey come down, con form convection current wey dey warm everywhere. If e dey top, na only roof go warm."
+},
+{
+"q": "Two identical rods, X and Y, of the same length and cross-sectional area are joined end to end to form a single composite rod. The thermal conductivity of X is 200 W/m K and that of Y is 100 W/m K. If the free end of X is kept at 80°C and the free end of Y at 20°C, which statement about the junction temperature is correct?",
+"options": [
+"The junction temperature is exactly 50°C, the average of both ends",
+"The junction temperature is closer to 80°C because X conducts heat faster",
+"The junction temperature is closer to 20°C because Y conducts heat faster",
+"The junction temperature is lower than 20°C due to heat loss"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At steady state, the same heat current flows through both rods, so kA(T1-Tj)/L for X equals kB(Tj-T2)/L for Y. Since X conducts better, less temperature drop occurs across it, making the junction temperature closer to 80°C than to 20°C.",
+"py": null,
+"values": null,
+"id": "phyx12004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because rod X get high thermal conductivity pass Y, heat go flow fast for X. Dis mean say junction temperature go near 80°C pass 20°C."
+},
+{
+"q": "A solar water heater panel is painted matt black instead of white or silver. Which property of the black surface makes it suitable for this purpose?",
+"options": [
+"Black surfaces are better absorbers and emitters of radiant heat than light-coloured surfaces",
+"Black surfaces reflect more radiation than light-coloured surfaces",
+"Black surfaces have lower thermal conductivity than light-coloured surfaces",
+"Black surfaces prevent convection currents from forming in the water"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Dull black surfaces absorb radiant heat energy much better than shiny or light-coloured surfaces, which mostly reflect it. This makes black paint ideal for capturing solar radiation in a water heater.",
+"py": null,
+"values": null,
+"id": "phyx12005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Black colour dey absorb sun heat well well pass white or shiny surface. Dat na why dem dey paint solar panel black make e fit catch heat sharp sharp."
+},
+{
+"q": "A point source of heat radiates energy uniformly in all directions. At a distance of 2.0 m from the source, the intensity of radiation is 50 W/m^2. Using the inverse square law, calculate the intensity of radiation at a distance of 4.0 m from the same source.",
+"options": [
+"25.0 W/m^2",
+"12.5 W/m^2",
+"100.0 W/m^2",
+"6.25 W/m^2"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Intensity follows an inverse square law, I is proportional to 1/r^2. Doubling the distance from 2.0 m to 4.0 m reduces intensity by a factor of 4, so new intensity = 50/4 = 12.5 W/m^2.",
+"py": "50/((4.0/2.0)**2)",
+"values": [
+25.0,
+12.5,
+100.0,
+6.25
+],
+"id": "phyx12006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Radiation intensity dey follow inverse square law, meaning say as distance double from 2.0 m to 4.0 m, intensity go reduce by four. So 50 W/m^2 divide by 4 give us 12.5 W/m^2."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A copper rod of length 1.2 m and cross-sectional area 5.0 x 10^-4 m^2 has its ends maintained at 100°C and 20°C. If the thermal conductivity of copper is 400 W/m K, calculate the rate of heat flow through the rod.",
+"options": [
+"13.3 W",
+"16.0 W",
+"1.33 W",
+"160.0 W"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Rate of heat flow = kA(T1-T2)/L = (400 x 5.0e-4 x 80)/1.2 = 16.0 W. The temperature difference is 100-20 = 80°C.",
+"py": "(400*5.0e-4*80)/1.2",
+"values": [
+13.3,
+16.0,
+1.33,
+160.0
+],
+"id": "phyx12000",
+"check": {
+"s1": "A",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "Three metal bars P, Q and R of equal length and cross-sectional area are tested for heat conduction. One end of each bar is placed in boiling water while the other end holds a small ball of wax. The wax on P melts in 20 s, on Q in 35 s, and on R in 50 s. Which bar has the lowest thermal conductivity?",
+"options": [
+"Bar P, because its wax melted first",
+"Bar Q, because it took an intermediate time",
+"Bar R, because its wax took the longest time to melt",
+"All three bars have the same thermal conductivity"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A bar with higher thermal conductivity transfers heat faster, melting its wax sooner. Since bar R took the longest time, it conducts heat most slowly and therefore has the lowest thermal conductivity.",
+"py": null,
+"values": null,
+"id": "phyx12007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Melting time also depends on heat capacity and wax conditions.|"
+}
+]
+}

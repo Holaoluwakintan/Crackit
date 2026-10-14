@@ -1,0 +1,180 @@
+{
+"subject": "english",
+"topic": "Adjectives, adverbs and word order",
+"ti": 9,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option with the correct order of adjectives to complete the sentence: Grandma Osei kept a ______ basket in her store at Onitsha market.",
+"options": [
+"small old round wicker",
+"round small old wicker",
+"wicker old small round",
+"old round small wicker"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The normal English order of adjectives is size before age before shape before material. So small comes before old, which comes before round, which comes before wicker.",
+"id": "engx09000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na correct English order of adjectives be size, age, shape, then material. Dem arrange am as small, old, round, and wicker."
+},
+{
+"q": "Choose the option that best completes the sentence: Of the two routes to Ibadan, the express road is ______ one to take during the rainy season.",
+"options": [
+"safer",
+"the safer",
+"the safest",
+"most safe"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When comparing exactly two things, the comparative form with 'the' is used, not the superlative. Since only two routes are being compared, 'the safer' is correct.",
+"id": "engx09001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If you dey compare just two things, na comparative form plus 'the' you go use. Na 'the safer' correct because na two routes dem dey talk."
+},
+{
+"q": "Choose the option that best completes the sentence: Although the twins look alike, Kemi behaves ______ than her sister.",
+"options": [
+"more responsible",
+"responsibly",
+"most responsibly",
+"more responsibly"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The word modifies the verb 'behaves', so an adverb is needed, not an adjective. The comparative adverb form 'more responsibly' correctly compares the behaviour of the two sisters.",
+"id": "engx09002",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na adverb you need here to qualify the verb 'behaves', no be adjective. Na 'more responsibly' show how the two sisters take dey behave."
+},
+{
+"q": "In the sentence below, identify the part that shows the correct position of the adverb: 'Only the headmaster can approve that request.' Which word does the adverb 'only' modify?",
+"options": [
+"can",
+"approve",
+"the headmaster",
+"that request"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The adverb 'only' is placed right before 'the headmaster', showing that it limits or focuses on that noun phrase alone. Moving 'only' elsewhere in the sentence would change its meaning.",
+"id": "engx09003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na 'the headmaster' the word 'only' dey qualify for that sentence. E mean say na only that person get power to approve am."
+},
+{
+"q": "Choose the option that best completes the sentence: The new intern at the hospital in Enugu is ______ to handle emergency cases without supervision.",
+"options": [
+"enough young",
+"young enough",
+"so young",
+"too much young"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The adverb 'enough' always comes after the adjective it modifies, so the correct form is 'young enough'. This shows the intern lacks sufficient age or experience for the task.",
+"id": "engx09004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The word 'enough' suppose always follow the adjective wey e dey qualify. Na 'young enough' be the correct grammar for that place."
+},
+{
+"q": "Choose the option that best completes the sentence: Because the market woman shouted ______, the thief ran away immediately.",
+"options": [
+"loud",
+"loudly",
+"more loud",
+"most loudly"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The word describes how the woman shouted, so an adverb is required rather than an adjective. 'Loudly' correctly modifies the verb 'shouted'.",
+"id": "engx09005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na adverb wey be 'loudly' you go use to describe how she take shout. Adjective like 'loud' no fit qualify verb."
+},
+{
+"q": "Choose the option that best completes the sentence: ______ had the referee blown the final whistle than the fans stormed the pitch in Lagos.",
+"options": [
+"No sooner",
+"Hardly",
+"Scarcely",
+"Barely"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The structure 'no sooner...than' is a fixed inversion pattern used to show that one event happened immediately after another. The other words pair with 'when' instead of 'than'.",
+"id": "engx09006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na 'No sooner' dey follow 'than' make sentence correct. The rest options like hardly or scarcely suppose use 'when'."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Read the passage and answer the question that follows: Adaeze is a careful driver. She drives slowly through narrow streets, checks her mirrors constantly, and obeys every traffic sign. Yesterday, she stopped quickly when a child ran across the road near her school. Her classmates admire her for being such a responsible road user.\n\nWhich word in the passage is an adverb of manner describing how Adaeze stopped?",
+"options": [
+"carefully",
+"slowly",
+"quickly",
+"constantly"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The passage states she 'stopped quickly' when the child ran across the road, so 'quickly' describes the manner of her stopping. The other adverbs describe different actions in the passage.",
+"id": "engx09007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:The passage explicitly says she stopped quickly."
+}
+]
+}

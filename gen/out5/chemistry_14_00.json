@@ -1,0 +1,210 @@
+{
+"subject": "chemistry",
+"topic": "Non-metals: hydrogen, oxygen, nitrogen, sulphur, chlorine and their compounds",
+"ti": 14,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A sample of hydrogen gas is collected over water in the laboratory. Which of the following best explains why this method is suitable for hydrogen?",
+"options": [
+"Hydrogen is denser than water",
+"Hydrogen is only slightly soluble in water",
+"Hydrogen reacts with water to form a stable compound",
+"Hydrogen is heavier than air"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Hydrogen does not dissolve appreciably in water, so it can be collected by downward displacement of water without much loss. It does not react with water under these conditions.",
+"py": null,
+"values": null,
+"id": "chex14000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Hydrogen no dey dissolve well inside water, so we fit collect am by pushing water comot. E no dey react with water too, so e dey safe."
+},
+{
+"q": "Chukwuemeka heated 9.8 g of pure potassium trioxochlorate(V), KClO3, strongly in the presence of a manganese(IV) oxide catalyst until it fully decomposed to potassium chloride and oxygen gas. Calculate the volume of oxygen gas liberated at s.t.p. [K=39, Cl=35.5, O=16, molar volume of gas at s.t.p = 22400 cm^3]",
+"options": [
+"1344 cm^3",
+"2688 cm^3",
+"4032 cm^3",
+"806 cm^3"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Molar mass of KClO3 is 122.5 g/mol, so 9.8 g is 0.08 mol. From 2KClO3 -> 2KCl + 3O2, moles of O2 = 0.08 x 3/2 = 0.12 mol, giving volume = 0.12 x 22400 = 2688 cm^3.",
+"py": "(9.8/122.5)*(3/2)*22400",
+"values": [
+1344,
+2688,
+4032,
+806
+],
+"id": "chex14001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Molar mass of KClO3 na 122.5 g/mol, so 9.8 g give us 0.08 mol. From di equation, 0.08 mol of KClO3 go give 0.12 mol of O2, wey come give 2688 cm^3."
+},
+{
+"q": "Which property of nitrogen gas makes it suitable for use as a protective atmosphere in sealed food packaging such as sachet water and biscuit wrappers in Nigerian factories?",
+"options": [
+"It is highly reactive and bonds with oxygen",
+"It is chemically inert under ordinary conditions",
+"It supports combustion strongly",
+"It is denser than carbon(IV) oxide"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Nitrogen has a strong triple covalent bond between its atoms, making it largely unreactive at room conditions. This inertness prevents spoilage reactions such as oxidation of packaged food.",
+"py": null,
+"values": null,
+"id": "chex14002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Nitrogen get strong triple bond wey make am no dey react anyhow. Because e no dey react, e dey stop food make e no spoil quick."
+},
+{
+"q": "In an experiment, excess dilute hydrochloric acid is added to 2.4 g of magnesium ribbon placed in a flask fitted with a delivery tube leading to an inverted measuring cylinder filled with water. What volume of hydrogen gas is expected at s.t.p.? [Mg=24, molar volume of gas at s.t.p = 22400 cm^3]",
+"options": [
+"1120 cm^3",
+"2240 cm^3",
+"4480 cm^3",
+"560 cm^3"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Moles of magnesium = 2.4/24 = 0.1 mol. From Mg + 2HCl -> MgCl2 + H2, one mole of magnesium gives one mole of hydrogen, so 0.1 mol of H2 occupies 0.1 x 22400 = 2240 cm^3.",
+"py": "(2.4/24)*22400",
+"values": [
+1120,
+2240,
+4480,
+560
+],
+"id": "chex14004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "2.4 g of magnesium na 0.1 mol. Since one mole of magnesium dey produce one mole of hydrogen gas, 0.1 mol go give us 2240 cm^3."
+},
+{
+"q": "A gas jar of dry sulphur(IV) oxide is tested with a piece of moist blue litmus paper, and separately a gas jar of the same gas is tested with moist starch-iodide paper. What result would correctly distinguish sulphur(IV) oxide from chlorine gas in this pair of tests?",
+"options": [
+"Both gases turn moist blue litmus red and turn starch-iodide paper blue-black",
+"Sulphur(IV) oxide turns moist blue litmus red but does not turn starch-iodide paper blue-black, while chlorine turns starch-iodide paper blue-black",
+"Sulphur(IV) oxide bleaches moist litmus paper permanently while chlorine has no effect on it",
+"Chlorine turns moist blue litmus red only, with no bleaching action at all"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Sulphur(IV) oxide is acidic and turns moist blue litmus red but is not a strong enough oxidising agent to liberate iodine from starch-iodide paper. Chlorine, being a strong oxidising agent, displaces iodine from the iodide ions, turning starch-iodide paper blue-black, which distinguishes the two gases.",
+"py": null,
+"values": null,
+"id": "chex14007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Sulphur(IV) oxide na acid, so e go turn blue litmus red but e no fit change starch-iodide paper. Chlorine na strong oxidising agent, so e go turn starch-iodide paper blue-black."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Concentrated tetraoxosulphate(VI) acid is added dropwise to solid sodium chloride in a test tube and gently warmed. A colourless, fuming gas with a choking smell is produced. What type of reaction has occurred?",
+"options": [
+"A double decomposition reaction only",
+"A displacement reaction in which a more volatile acid is displaced by a less volatile one",
+"Simple dehydration of sodium chloride",
+"An oxidation-reduction reaction in which chlorine gas is released"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Concentrated tetraoxosulphate(VI) acid is less volatile than hydrochloric acid, so it displaces the more volatile hydrogen chloride gas from sodium chloride on warming. This is a non-redox displacement based on relative volatility of acids.",
+"py": null,
+"values": null,
+"id": "chex14003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:A is also defensible as double decomposition.|"
+},
+{
+"q": {
+"q": "A few drops of freshly prepared chlorine water are added to a solution containing both bromide and iodide ions, then the mixture is shaken with an organic solvent such as tetrachloromethane. Which observation confirms that chlorine is a more powerful oxidising agent than both bromine and iodine?",
+"options": [
+"The organic layer remains colourless throughout",
+"The organic layer turns orange-brown and later violet as both halogens are displaced",
+"A white precipitate forms immediately in the aqueous layer",
+"The mixture turns from green to colourless on standing"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Chlorine displaces both bromine and iodine from their salt solutions because it is more electronegative and a stronger oxidising agent. The displaced bromine gives an orange-brown colour and the displaced iodine gives a violet colour in the organic layer.",
+"py": null,
+"values": null,
+"id": "chex14005",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Which of the following correctly describes the trend in thermal stability of the hydrides of the Group 15 to Group 17 non-metals discussed in secondary school chemistry, such as ammonia, hydrogen sulphide and hydrogen chloride, moving across a period?",
+"options": [
+"Thermal stability decreases as electronegativity of the non-metal increases across the period",
+"Thermal stability increases as electronegativity of the non-metal increases across the period",
+"Thermal stability is unaffected by the identity of the non-metal atom",
+"Thermal stability depends only on the molar mass of the hydride"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Across a period, electronegativity increases, so the bond between hydrogen and the non-metal becomes stronger due to a bigger difference in sharing of electrons, making the hydride harder to decompose on heating. This is why hydrogen chloride is more thermally stable than ammonia under similar conditions of comparison within that reasoning used in school chemistry.",
+"py": null,
+"values": null,
+"id": "chex14006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Ammonia is not in the same period as hydrogen sulphide and hydrogen chloride.|"
+}
+]
+}

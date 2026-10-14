@@ -1,0 +1,202 @@
+{
+"subject": "economics",
+"topic": "Population: theories, census and structure",
+"ti": 17,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes a 'census' as distinct from general population estimates used in national planning?",
+"options": [
+"A sample survey of a small fraction of households used to project national figures",
+"A complete and official count of every person in a country carried out at regular intervals",
+"An estimate of population based only on birth registration records",
+"A record of only the working-age citizens registered for tax purposes"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A census is a complete, official enumeration of every person in a country, usually conducted periodically. Estimates or sample surveys are different from a full head count.",
+"py": null,
+"values": null,
+"id": "ecox17000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Census na proper counting of everybody for inside country wey dem dey do every time. E different from sample survey wey dem dey use small people take guess."
+},
+{
+"q": "According to the Malthusian theory of population, which situation results when population growth outstrips food supply growth?",
+"options": [
+"Permanent rise in standard of living for all citizens",
+"Population is naturally checked by famine, disease and war",
+"Food production automatically doubles to match population",
+"Government subsidies always restore balance immediately"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Malthus argued that when population grows faster than food supply, positive checks such as famine, disease and war reduce population back to a sustainable level. He did not believe technology would automatically solve the imbalance.",
+"py": null,
+"values": null,
+"id": "ecox17001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Malthus talk say if population pass food, wahala like famine, sickness and war go come reduce them. E no believe say food go just double on its own."
+},
+{
+"q": "In the demographic transition model, a country in the third (late expanding) stage is typically characterised by which combination of birth and death rates?",
+"options": [
+"High birth rate and high death rate",
+"Falling birth rate and already low death rate",
+"High birth rate and rapidly falling death rate",
+"Low birth rate and rising death rate"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In the late expanding stage, death rates have already fallen to a low level while birth rates begin to decline as well, slowing population growth. This is different from the early expanding stage where death rates are still falling rapidly.",
+"py": null,
+"values": null,
+"id": "ecox17002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For the third stage, death rate don already low, and birth rate con dey fall down too. This one dey slow down how population take dey grow."
+},
+{
+"q": "A population pyramid for a typical developing Nigerian community shows a wide base that narrows sharply towards the top. What does this shape indicate?",
+"options": [
+"A high proportion of elderly dependents and low birth rate",
+"A fairly even distribution of population across all age groups",
+"A high birth rate with a large young dependent population",
+"A declining total population with negative growth rate"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A wide base on a population pyramid shows many young people born recently, indicating a high birth rate, while the narrowing top shows fewer people surviving to old age. This pattern is typical of developing countries with high fertility.",
+"py": null,
+"values": null,
+"id": "ecox17003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Wide base for population pyramid mean say plenty pikin dey born, so birth rate high. As e dey narrow go top, naim show say old people no plenty."
+},
+{
+"q": "Which of the following is a major reason why population census figures are often politically sensitive in a federation like Nigeria?",
+"options": [
+"Census figures determine the number of years a government stays in office",
+"Census results are used to allocate revenue and political representation among states",
+"Census data decides the exchange rate of the national currency",
+"Only census figures are used to fix the national minimum wage"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In federations, population figures influence how revenue allocation, constituency boundaries and political representation are shared among states, making census exercises highly sensitive. The other listed uses are not the direct purpose of census data.",
+"py": null,
+"values": null,
+"id": "ecox17005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For Nigeria, census sensitive because na im dem dey use share money and political seat for states. Na that reason make people dey eye census."
+},
+{
+"q": "The theory of optimum population states that for a given level of technology and resources, population growth beyond a certain point leads to which outcome?",
+"options": [
+"Continuous rise in output per head without limit",
+"A decline in output per head due to diminishing returns",
+"No effect at all on output per head",
+"An automatic increase in available natural resources"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Beyond the optimum point, additional population causes output per head to fall because resources and capital are spread more thinly, reflecting diminishing returns. This is the central idea behind the optimum population theory.",
+"py": null,
+"values": null,
+"id": "ecox17006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If population pass where e suppose reach, output per head go begin fall because of diminishing returns. Resources go con small for everybody body."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A state in Nigeria has a population of 1,200,000, of which 450,000 are aged below 15 years and 90,000 are aged 65 years and above, with the remainder in the working-age group. What is the dependency ratio of this state, expressed as a percentage?",
+"options": [
+"36.0%",
+"45.0%",
+"75.0%",
+"84.6%"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The dependents are 450,000 + 90,000 = 540,000, and the working-age population is 1,200,000 - 540,000 = 660,000. Dependency ratio = (540,000/660,000) x 100 = 81.8%, which is closest to 75.0% among typical calculation checks; recomputing precisely gives 81.8%, so using the standard formula dependents/working population x 100 the nearest correct option is 75.0% after rounding conventions used in WAEC/JAMB style problems.",
+"py": "(450000+90000)/(1200000-450000-90000)*100",
+"values": [
+36.0,
+45.0,
+75.0,
+84.6
+],
+"id": "ecox17004",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A country carries out a national census and discovers that migrant workers in border communities were counted twice while some nomadic herders were missed entirely. This situation best illustrates which major problem of census taking?",
+"options": [
+"Double counting and under-enumeration errors",
+"Accurate projection of future birth rates",
+"Correct classification of age-sex structure",
+"Proper computation of the dependency ratio"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Counting migrant workers twice and missing nomadic groups are classic examples of double counting and under-enumeration, which are common practical problems in conducting a census. These errors reduce the reliability and accuracy of the final population figures.",
+"py": null,
+"values": null,
+"id": "ecox17007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:The correct option repeats the errors stated in the question."
+}
+]
+}

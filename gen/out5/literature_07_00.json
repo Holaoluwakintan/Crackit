@@ -1,0 +1,180 @@
+{
+"subject": "literature",
+"topic": "Appreciation of an original short unseen poem (quote 2 to 6 original lines in the question)",
+"ti": 7,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Read the lines below and answer the question:\n'The clock on the wall ticks away my youth,\nEach second a thief stealing silent truth,\nI chase the hours but they will not stay,\nTime, that cruel master, always has its way.'\nThe phrase 'a thief stealing silent truth' is an example of which figure of speech?",
+"options": [
+"Simile",
+"Metaphor",
+"Apostrophe",
+"Onomatopoeia"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The poet directly calls each second 'a thief', comparing it to time without using 'like' or 'as', which is a metaphor. There is no direct address to an absent or non-human entity, so it is not apostrophe.",
+"id": "litx07001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na metaphor be dis one because poet directy call second 'a thief' without using 'like' or 'as'. E no dey address any person or object wey no dey, so na metaphor."
+},
+{
+"q": "Read the lines below and answer the question that follows:\n'Beneath the iroko's shade the elders sat,\nTheir voices low as kola nuts were passed,\nWisdom older than the tallest mast,\nFlowed gently, like a well-worn mat.'\nWhat poetic form best describes this extract, based on its structure?",
+"options": [
+"A sonnet",
+"A quatrain",
+"A haiku",
+"An acrostic"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The extract is a four-line stanza, which is called a quatrain. It lacks the fourteen lines of a sonnet, the three-line syllabic pattern of a haiku, and there is no hidden word spelt by the first letters as in an acrostic.",
+"id": "litx07002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis poem get four lines for stanza, naim we dey call quatrain. E no reach fourteen lines like sonnet, and e no be haiku or acrostic."
+},
+{
+"q": "Read the lines below and answer the question:\n'Night falls, and with it falls my hope,\nThe lantern dims, I grope, I grope,\nYet somewhere past this darkened slope,\nA star still holds a thread of rope.'\nWhat does the 'star' most likely symbolise in this extract?",
+"options": [
+"Despair and hopelessness",
+"A literal object in the sky with no deeper meaning",
+"A faint hope or guidance amid difficulty",
+"The speaker's fear of the night"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The star appears after images of falling hope and darkness, holding a 'thread of rope', suggesting it symbolises a lingering hope or guide through hardship. The surrounding words 'yet' and 'still' signal a contrast to despair, not an extension of it.",
+"id": "litx07003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As hope dey fall and everywhere dark, dat 'star' wey hold rope show say small hope still dey to guide person through hard time. E no mean say person dey hopeless."
+},
+{
+"q": "Read the lines below and answer the question that follows:\n'The drummer's hands fly like startled birds,\nHis talking drum repeats forgotten words,\nBoom-ka-boom, the rhythm climbs and swerves,\nWhile dancers' feet obey its ancient nerves.'\nWhich poetic device is most clearly illustrated by 'Boom-ka-boom'?",
+"options": [
+"Alliteration",
+"Onomatopoeia",
+"Personification",
+"Assonance"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "'Boom-ka-boom' imitates the actual sound of the drum being played, which is the definition of onomatopoeia. It does not involve repeated consonant or vowel sounds in the way alliteration or assonance require.",
+"id": "litx07004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dat 'Boom-ka-boom' sound just like how drum dey sound when dem dey beat am, na wet we dey call onomatopoeia. E no be ordinary alliteration or assonance."
+},
+{
+"q": "Read the lines below and answer the question:\n'I wear my smile like borrowed clothes,\nIt fits in public, everyone knows,\nBut home alone, the garment goes,\nAnd bare, my truer sorrow shows.'\nWhat tone best captures the speaker's feelings in this extract?",
+"options": [
+"Joyful and carefree",
+"Concealed sadness beneath a public mask",
+"Angry defiance against society",
+"Indifferent and detached"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The comparison of a smile to 'borrowed clothes' that are removed at home reveals that the speaker hides sorrow behind a public performance of happiness. The words 'bare' and 'truer sorrow' confirm this hidden sadness rather than indifference or anger.",
+"id": "litx07005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Person wey write dis poem dey use smile like cloth wey e borrow, just to cover hin real sorrow when e dey outside. Na concealed sadness be di whole vibe."
+},
+{
+"q": "Read the lines below and answer the question that follows:\n'The tortoise plods where the hare once flew,\nSlow steps on paths the swift once knew,\nYet at the stream, the hare lies tired and blue,\nWhile the tortoise drinks first, as patient creatures do.'\nWhich literary technique is most prominent in the contrast between the tortoise and the hare?",
+"options": [
+"Hyperbole",
+"Foreshadowing",
+"Antithesis",
+"Allusion"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The extract sets two opposing ideas, slowness versus speed and patience versus exhaustion, directly against each other within parallel structures, which is antithesis. Although the tortoise and hare recall a familiar fable, the question tests the contrast technique shown in the lines, not the external reference itself, making antithesis the better fit than allusion.",
+"id": "litx07006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di poet put slow tortoise and fast hare face to face to show strong contrast between dem, naim we dey call antithesis. E dey make di meaning sharp well well."
+},
+{
+"q": "Read the lines below and answer the question:\n'We marched as one beneath the bleeding sky,\nOur banners torn, yet still we would not fly,\nFor freedom's voice, though faint, refused to die,\nAnd in our chests, its fire burned not shy.'\nWhat is the overriding theme of this extract?",
+"options": [
+"The futility of resistance against oppression",
+"Collective courage and resilience in the pursuit of freedom",
+"Grief over a lost battle with no hope remaining",
+"Betrayal among comrades during war"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Phrases like 'we marched as one', 'would not fly', and 'freedom's voice... refused to die' all point to unity, endurance, and determined hope rather than defeat. There is no mention of betrayal or surrender, so resilience and courage best capture the theme.",
+"id": "litx07007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di people march together and refuse to run away even when tin hard, showing say dem get ginger and strong mind to fight for freedom. Na collective courage be di theme."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Read the lines below and answer the question that follows:\n'Grandmother's hands, cracked like dry earth after drought,\nStill knead the dough with a tenderness undoubted,\nEach wrinkle a story the years have shouted,\nOf love that labour never once could drown out.'\nWhat is the rhyme scheme of this stanza?",
+"options": [
+"abab",
+"aaaa",
+"abba",
+"abcb"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Every line ends with a rhyming sound: doubted, shouted, out, drought all rhyme, giving an aaaa pattern. There is no alternating or enclosed rhyme here.",
+"id": "litx07000",
+"check": {
+"s1": "C",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+}
+]
+}

@@ -1,0 +1,201 @@
+{
+"subject": "economics",
+"topic": "Theory of supply: law of supply, determinants, shifts and movements",
+"ti": 4,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A technological breakthrough enables palm oil processors in Imo State to extract more oil from the same quantity of palm fruits at lower cost. Holding price constant, what is the most likely effect on the supply of palm oil?",
+"options": [
+"The supply curve shifts to the right",
+"The supply curve shifts to the left",
+"There is an upward movement along the same supply curve",
+"There is a downward movement along the same supply curve"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An improvement in technology lowers production costs and raises output at every price, so the whole supply curve shifts rightward (an increase in supply). It is a shift, not a movement, because price itself did not change.",
+"py": null,
+"values": null,
+"id": "ecox04000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Better technology dey reduce how much money cost to produce things, con make production plenty for every price. Na im make the whole supply curve dey shift go the right side."
+},
+{
+"q": "Which of the following is NOT a direct determinant of the supply of a commodity?",
+"options": [
+"Cost of production",
+"Government taxes and subsidies",
+"Consumers' income",
+"Number of sellers in the market"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Consumers' income is a determinant of demand, not supply, since it affects buyers' purchasing power rather than producers' willingness or ability to supply. Cost of production, taxes/subsidies and the number of sellers all directly affect supply.",
+"py": null,
+"values": null,
+"id": "ecox04001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na demand money wey consumers get dey affect, no be supply. Cost of production, taxes, and number of sellers na direct things wey dey control supply."
+},
+{
+"q": "The supply schedule for bags of garri in a market is such that at a price of ₦2,000 per bag, 60 bags are supplied, and at ₦3,000 per bag, 90 bags are supplied, with all other factors held constant. This relationship illustrates",
+"options": [
+"the law of diminishing returns",
+"an inverse relationship between price and quantity supplied",
+"a direct relationship between price and quantity supplied",
+"a shift in the supply curve"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "As price rises from ₦2,000 to ₦3,000, quantity supplied also rises from 60 to 90 bags, showing a direct (positive) relationship between price and quantity supplied, which is the law of supply. This is movement along a curve, not a shift.",
+"py": null,
+"values": null,
+"id": "ecox04002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As price dey go up from ₦2,000 to ₦3,000, quantity supplied con join am increase from 60 to 90 bags. Dis one show say price and quantity supplied dey follow each other carry body."
+},
+{
+"q": "A severe flood destroys large farmlands used for tomato cultivation in Kebbi State, sharply reducing the number of farmers able to grow tomatoes. Assuming prices remain unchanged, what effect will this have on the supply curve of tomatoes?",
+"options": [
+"It shifts rightward because scarcity encourages more output",
+"It shifts leftward because the number of suppliers and their capacity has fallen",
+"It remains the same but quantity supplied moves upward",
+"It remains the same but quantity supplied moves downward"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A flood reduces productive farmland and the number of active suppliers, so less tomato can be supplied at every price level. This is captured as a leftward (decrease) shift of the entire supply curve, not a movement along it.",
+"py": null,
+"values": null,
+"id": "ecox04003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Bad flood wey spoil farm land and reduce farmers mean say tomatoes go reduce for market. E dey make the supply curve shift go the left because people no get capacity again."
+},
+{
+"q": "A manufacturer of plastic chairs in Aba finds that the price of a key raw material, PVC resin, has doubled within a month due to import restrictions, while the selling price of plastic chairs has not changed. What is the expected immediate effect on the supply of plastic chairs?",
+"options": [
+"Supply increases because more resin is now available",
+"Supply decreases as the supply curve shifts leftward",
+"Quantity supplied increases along the same curve",
+"Supply remains totally unaffected since price of chairs is unchanged"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A rise in the cost of an essential input raises production costs, making it less profitable to supply the same quantity at the old price, so producers reduce output at every price level. This is shown as a leftward shift of the supply curve, distinct from any change in the chair's own price.",
+"py": null,
+"values": null,
+"id": "ecox04005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If raw material price cost too much, production go hard for manufacturers. Na im make supply curve shift go left since profit don reduce."
+},
+{
+"q": "A poultry farmer in Ogun State produces both eggs and chicken meat from the same flock of birds. If the market price of chicken meat rises sharply due to festive season demand, what is the most likely effect on the supply of eggs from the same farm, assuming egg price is unchanged?",
+"options": [
+"Egg supply rises because the birds lay more eggs when fed better",
+"Egg supply falls as more birds are slaughtered for meat, reducing the egg-laying flock",
+"Egg supply is completely unrelated to the chicken meat market",
+"Egg supply shifts rightward because the two goods are in competitive supply"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Eggs and chicken meat are joint products from the same birds, so when more birds are slaughtered to meet rising demand for meat, fewer birds remain to lay eggs. This reduces the supply of eggs even though the egg price itself has not changed, illustrating joint supply effects.",
+"py": null,
+"values": null,
+"id": "ecox04006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If dem sell chicken meat well and farmers go slaughter more birds, the remaining ones wey go dey lay eggs go reduce. Dis one mean say egg supply go fall join."
+},
+{
+"q": "In a competitive market for yam tubers, which combination of events will definitely cause the supply curve to shift to the right?",
+"options": [
+"A fall in the wages of farm labourers and discovery of a cheaper fertilizer",
+"A rise in the price of yam and favourable weather conditions",
+"An increase in farmers' expectation of future price rises and higher transportation costs",
+"A new government tax on yam sales and a rise in cost of seed yams"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A fall in wages and a cheaper fertilizer both lower the cost of producing yam, encouraging farmers to supply more at every price, which shifts the supply curve rightward. The other options either describe a movement along the curve or include at least one factor that would shift supply leftward.",
+"py": null,
+"values": null,
+"id": "ecox04007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If labour wages fall and fertilizer cheap, yam production go easy and cheap for farmers. Dis one go make supply curve shift go the right."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Suppose the supply function for crates of soft drinks is Qs = 20 + 3P, where P is price in naira per crate and Qs is quantity supplied. If price rises from ₦40 to ₦60 per crate, by how many crates does quantity supplied increase?",
+"options": [
+"40",
+"60",
+"80",
+"140"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "At P=40, Qs = 20 + 3(40) = 140; at P=60, Qs = 20 + 3(60) = 200. The increase in quantity supplied is 200 minus 140, which equals 40 crates.",
+"py": "(20+3*60)-(20+3*40)",
+"values": [
+40,
+60,
+80,
+140
+],
+"id": "ecox04004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

@@ -1,0 +1,198 @@
+{
+"subject": "english",
+"topic": "Adjectives, adverbs and word order",
+"ti": 9,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best completes the sentence: Adaeze speaks French ______ than her elder sister, who studied the language for only one year.",
+"options": [
+"fluent",
+"more fluent",
+"fluently",
+"more fluently"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "An adverb is needed to modify the verb 'speaks', and since two people are being compared, the comparative form is required. More fluently correctly combines both requirements.",
+"values": null,
+"py": null,
+"id": "engx09011",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na adverb wey go qualify di verb 'speaks' we need here. Dem dey compare two people, so comparative form 'more fluently' correct well well."
+},
+{
+"q": "Choose the option that best completes the sentence: It was ______ hot that the farmers decided to rest under the mango tree until evening.",
+"options": [
+"so",
+"such",
+"too",
+"very"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The structure 'so + adjective + that' is used to show result or consequence. 'Such' would require a noun, as in 'such hot weather', so it does not fit here.",
+"values": null,
+"py": null,
+"id": "engx09013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di pattern 'so + adjective + that' naim we dey use to show result. If na 'such', e suppose carry noun join am, so na 'so' fit this place."
+},
+{
+"q": "In the sentence: 'The restless children, who had waited patiently for hours, finally saw their father arrive,' identify the adverb and the word it modifies.",
+"options": [
+"restless modifies children",
+"patiently modifies waited",
+"finally modifies father",
+"hours modifies waited"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Patiently is an adverb describing how the children waited, so it modifies the verb waited. Restless is an adjective describing children, and finally modifies the verb saw, not father.",
+"values": null,
+"py": null,
+"id": "engx09014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Word like patiently na adverb wey dey tell us how dem wait, so na di verb waited e dey qualify. Di other options no match at all."
+},
+{
+"q": "Choose the option with the correct order of adjectives to complete the sentence: The tailor sewed a ______ gown for the bride's wedding ceremony.",
+"options": [
+"silk beautiful long white",
+"beautiful long white silk",
+"white long beautiful silk",
+"long silk white beautiful"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The standard order of adjectives is opinion, size, colour, then material: beautiful (opinion), long (size), white (colour), silk (material). This order sounds natural to native and competent speakers of English.",
+"values": null,
+"py": null,
+"id": "engx09016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Correct order of adjective na opinion, size, colour, then material. Naim make 'beautiful long white silk' correct for dis sentence."
+},
+{
+"q": "Choose the option that best completes the sentence: ______ had the market women set up their stalls than the rain began to pour heavily.",
+"options": [
+"No sooner",
+"Hardly",
+"Scarcely",
+"As soon as"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The fixed structure 'no sooner...than' is used to show that one action happened immediately after another. Hardly and scarcely require 'when' instead of 'than', making them incorrect here.",
+"values": null,
+"py": null,
+"id": "engx09017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na 'no sooner' dey follow 'than' for dis kind sentence. Hard or scarcely suppose carry 'when', so na 'no sooner' correct."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the sentence: The headmaster is the ______ person in the whole school compound.",
+"options": [
+"tall",
+"taller",
+"tallest",
+"more tall"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "When comparing one person with all other members of a group (more than two), the superlative form is required. Tallest is the correct superlative form of tall.",
+"values": null,
+"py": null,
+"id": "engx09010",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Which of the following sentences has the correct word order?",
+"options": [
+"She bought yesterday a new bag at the Onitsha market.",
+"She bought a new bag yesterday at the Onitsha market.",
+"Yesterday bought she a new bag at the Onitsha market.",
+"She bought a new bag at the Onitsha market yesterday."
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "In standard English word order, adverbs of time usually come at the end of the sentence, after the adverb of place. The correct order here is place before time, giving subject, verb, object, place, time.",
+"values": null,
+"py": null,
+"id": "engx09012",
+"check": {
+"s1": "X",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Choose the option that best completes the sentence: Of the two candidates interviewed for the scholarship, Tunde answered the questions ______.",
+"options": [
+"more confidently",
+"most confidently",
+"confidently",
+"confident"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Since only two candidates are being compared, the comparative adverb form is needed, not the superlative. More confidently correctly compares Tunde's performance with the other candidate's.",
+"values": null,
+"py": null,
+"id": "engx09015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:C is also grammatical; the sentence does not explicitly require a comparison.|"
+}
+]
+}

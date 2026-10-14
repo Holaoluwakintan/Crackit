@@ -1,0 +1,180 @@
+{
+"subject": "government",
+"topic": "Post-independence constitutions (1963, 1979, 1999) and federalism in Nigeria",
+"ti": 13,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the principle of separation of powers as practised under the 1979 and 1999 Nigerian Constitutions?",
+"options": [
+"The legislature, executive and judiciary are distinct organs with their own functions and some checks on one another",
+"The President exercises full control over the judiciary without legislative approval",
+"The National Assembly performs both legislative and judicial functions directly",
+"The Head of State combines executive and legislative powers permanently"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Separation of powers means government functions are divided among three distinct arms that check one another. This was a key feature introduced with the presidential system in 1979 and retained in 1999.",
+"id": "govx13000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Separation of powers mean say dem divide government work into three parts wey dey check each other. Na dis system dem start for 1979 and e still dey inside 1999 Constitution."
+},
+{
+"q": "A key difference between the 1963 Republican Constitution and the 1999 Constitution is that the former operated under which system of government at the centre?",
+"options": [
+"Parliamentary system with a ceremonial President and an executive Prime Minister",
+"Presidential system with an elected executive President",
+"Military unitary command structure",
+"Confederal system with autonomous regions"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The 1963 Constitution retained the parliamentary system inherited from 1960, with a ceremonial President as Head of State and a Prime Minister as Head of Government. The 1999 Constitution instead adopted the presidential system.",
+"id": "govx13001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For 1963, we dey use parliamentary system where Prime Minister be head of government and President just dey for name. But 1999 Constitution change am go presidential system."
+},
+{
+"q": "Under true federalism as practised during the First Republic (1960-1966), the regions enjoyed considerable autonomy mainly because they had separate regional constitutions and could do which of the following?",
+"options": [
+"Generate and control significant internal revenue and run their own civil services",
+"Appoint the Federal Prime Minister directly",
+"Override federal laws on defence and external affairs",
+"Issue their own national currency"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "During the First Republic, regions had strong autonomy, including control of substantial internally generated revenue and their own civil services and marketing boards. They could not override federal exclusive matters like defence.",
+"id": "govx13002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "During First Republic, regions get power to control their own money and run their civil service. Dem no fit touch federal matter like defence, but dem get enough power to stand on their own."
+},
+{
+"q": "A major reason the 1999 Constitution is often described as having concentrated excessive powers at the federal level, weakening true federalism, is best illustrated by which fact?",
+"options": [
+"The Exclusive Legislative List contains far more items than the Concurrent List, limiting state legislative scope",
+"States can create their own local police forces without federal approval",
+"States are allowed to conduct their own foreign relations independently",
+"Local governments receive allocations directly without federal involvement"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The 1999 Constitution gives the federal government a long Exclusive List covering vital matters, leaving states with a shorter Concurrent List. This imbalance is frequently cited as evidence of over-centralisation compared to true federalism.",
+"id": "govx13003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Exclusive Legislative List get too many items wey only federal government fit handle. Dis one make state government no get enough power to do their own work well."
+},
+{
+"q": "A student researching Nigerian federalism observes that revenue allocation formulas have repeatedly caused disputes between the federal and state governments since 1960. Which factor is the most fundamental underlying cause of this recurring tension?",
+"options": [
+"Disagreement over how to fairly share revenue derived mainly from a few resource-producing states, especially oil",
+"Lack of any constitutional provision addressing revenue sharing at all",
+"Absence of a national currency before 1973",
+"Refusal of states to collect any taxes within their territories"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Revenue allocation disputes mainly stem from disagreements over sharing formulas, particularly because oil revenue is concentrated in a few states while other states depend on federal allocation. This has been a persistent issue across successive constitutions.",
+"id": "govx13005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Wahala about revenue allocation dey happen because states dey fight on how to share oil money. Since oil no dey everywhere, states wey no get oil dey depend on federal allocation."
+},
+{
+"q": "Under the 1999 Constitution, which arm of government has the primary responsibility of interpreting the constitution and settling disputes between the federal government and a state government?",
+"options": [
+"The Judiciary",
+"The National Assembly",
+"The Federal Executive Council",
+"The Independent National Electoral Commission"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The judiciary interprets laws and the constitution and resolves disputes, including conflicts between federal and state governments. Courts such as the Supreme Court often settle such intergovernmental disagreements.",
+"id": "govx13006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na judiciary get power to interpret wetin constitution talk. If federal and state government get fight, na court go settle the matter."
+},
+{
+"q": "A key constitutional safeguard for federalism in Nigeria is that amending certain provisions of the 1999 Constitution requires more than a simple majority in the National Assembly. This requirement is mainly intended to achieve which purpose?",
+"options": [
+"Protect the interests of the federating states by requiring broad consensus before major constitutional changes",
+"Allow the President to amend the constitution without legislative approval",
+"Enable a single region to block all constitutional reviews permanently",
+"Ensure only the judiciary can propose constitutional amendments"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Rigid amendment procedures, often requiring approval by a special majority of the National Assembly and a number of State Houses of Assembly, protect federalism by preventing changes without wide consensus. This guards against one arm or region dominating constitutional reform.",
+"id": "govx13007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To change constitution no be small matter, e need plenty people to agree. Dis one dey protect states so that one person or one region no go just change law anyhow."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Chief Obafemi Awolowo, Dr Nnamdi Azikiwe and Sir Ahmadu Bello each led a regional government during the First Republic. This arrangement best illustrates which feature of Nigerian federalism at independence?",
+"options": [
+"Existence of autonomous regional governments with their own premiers alongside a federal government",
+"A unitary system where regional leaders answered directly to the Prime Minister",
+"Rotation of the office of Prime Minister among the three regions",
+"Direct federal appointment of regional premiers by the Governor-General"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Each region had its own premier and government, operating alongside the central federal government, showing genuine regional autonomy. This reflects the federal structure established before and after independence in 1960.",
+"id": "govx13004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Awolowo and Azikiwe ceased to be regional premiers before the First Republic.|"
+}
+]
+}

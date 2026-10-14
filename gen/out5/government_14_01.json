@@ -1,0 +1,194 @@
+{
+"subject": "government",
+"topic": "Military rule in Nigeria",
+"ti": 14,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "During military rule in Nigeria, the body known as the Federal Executive Council (or National Council of Ministers) was mainly responsible for:",
+"options": [
+"Drafting decrees for legislative ratification by state assemblies",
+"Assisting the Head of State in the day-to-day administration of government ministries",
+"Appointing military governors for the states",
+"Serving as the final court of appeal for civil matters"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Under military rule, the Federal Executive Council/National Council of Ministers helped the Head of State run the ministries and implement policy on a daily basis. It did not appoint governors or act as a court; legislative power rested with the Supreme Military Council through decrees, not state assemblies.",
+"py": null,
+"values": null,
+"id": "govx14010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Under military rule, the Federal Executive Council help Head of State to run ministries and make sure policies work everyday. Dem no dey appoint governors or act as court, na Supreme Military Council dey make laws through decrees."
+},
+{
+"q": "A common method used by military regimes in Nigeria to co-opt experienced civilians into governance without granting them full political power was the appointment of:",
+"options": [
+"Elected senators to the Supreme Military Council",
+"Technocrats and retired civil servants as commissioners",
+"Traditional rulers as state governors",
+"Political party chairmen as ministers"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Military governments often appointed technocrats and experienced retired civil servants as commissioners to benefit from their expertise while keeping ultimate control in military hands. Elected senators and political parties were usually banned under military rule, and traditional rulers were not made governors.",
+"py": null,
+"values": null,
+"id": "govx14011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Military government dey appoint technocrats and retired civil servants as commissioners make dem help govern while soldier dem still hold the main power. Election and political parties no dey that time, and na only commissioners dem be, not governors."
+},
+{
+"q": "One significant social consequence of prolonged military rule on the Nigerian civil service was that it:",
+"options": [
+"Strengthened the independence of the civil service from the executive",
+"Encouraged greater separation between the military and bureaucratic administration",
+"Militarized the civil service through command-style, top-down directives",
+"Reduced the civil service entirely to elected local government staff"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Military rule introduced a command structure into administration, so civil servants increasingly operated under top-down directives rather than the usual bureaucratic processes of debate and consensus. This reduced, rather than strengthened, civil service independence.",
+"py": null,
+"values": null,
+"id": "govx14012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Military rule bring command style into government work, meaning civil servants must obey top-down order instead of normal discussion and agreement. This thing make civil service power weak instead of making am strong."
+},
+{
+"q": "Which of the following was a key feature of the state creation exercises carried out by successive military governments in Nigeria?",
+"options": [
+"States were created strictly through referenda in each affected region",
+"States were created by decree without recourse to a referendum",
+"States were created only after approval by the National Assembly",
+"States were created solely based on population census figures"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Military governments created new states through decrees, using their own discretion and advisory panels, without holding referenda or seeking approval from a National Assembly, which did not exist under military rule. This made the process swift but sometimes controversial.",
+"py": null,
+"values": null,
+"id": "govx14013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Military government dey create new states through decree by using their own power and advisory committees. Dem no dey do referendum or ask National Assembly approval since National Assembly no even dey under military rule."
+},
+{
+"q": "A major argument advanced against the frequent use of military tribunals during military rule in Nigeria was that such tribunals:",
+"options": [
+"Guaranteed the right to trial by jury for accused persons",
+"Often denied accused persons the right of appeal to ordinary courts",
+"Strictly followed the rules of evidence applied in civil courts",
+"Were presided over only by senior judges of the Supreme Court"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Military tribunals were criticized because they often limited or excluded the normal right of appeal to regular courts, unlike the civil court system. They were usually composed of military officers and sometimes judges, but lacked the full safeguards of ordinary judicial process.",
+"py": null,
+"values": null,
+"id": "govx14014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "People dey criticize military tribunals because dem no dey allow accused person to appeal judgment for normal courts. Dem military officers dey run the tribunal and dem no dey follow all the normal court rules."
+},
+{
+"q": "The National Council of State under military administrations in Nigeria mainly served as an advisory body comprising:",
+"options": [
+"The Head of State, former Heads of State, and state governors",
+"Only serving military governors and their deputies",
+"Elected senators representing each state of the federation",
+"Trade union leaders and representatives of the organized private sector"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The National Council of State typically brought together the Head of State, former Heads of State, state governors and some other top office holders to advise on major national issues. It was not composed of senators or trade unions, since elective bodies were suspended under military rule.",
+"py": null,
+"values": null,
+"id": "govx14015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "National Council of State na advisory body where Head of State, former Heads of State, and state governors dey meet to advise government on big national matters. No be senators or trade union members dey inside because military don suspend election."
+},
+{
+"q": "A key reason the transition programme of General Sani Abacha was widely distrusted by Nigerians was that it:",
+"options": [
+"Allowed only existing political parties from the Second Republic to contest",
+"Produced five political parties that all eventually endorsed Abacha as sole presidential candidate",
+"Was completed within six months of being announced",
+"Handed over power directly to the Senate President"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Under Abacha's transition, five registered parties all curiously adopted him as their sole presidential candidate, leading many Nigerians to see the programme as a scheme to transform his military rule into a civilian one. This was unlike earlier transitions which featured competing candidates.",
+"py": null,
+"values": null,
+"id": "govx14016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Abacha transition program carry five political parties, and all of them come endorse Abacha as the only presidential candidate. This one make many Nigerians believe say military government just wan turn civilian dress wear."
+},
+{
+"q": "One major effect of long periods of military rule on the development of political culture in Nigeria was the:",
+"options": [
+"Deepening of grassroots political party structures across the country",
+"Weakening of the culture of political bargaining, debate and compromise",
+"Strengthening of a multi-party system at the local government level",
+"Rapid growth of independent, elected legislative institutions"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Because military rule relies on command and decree rather than debate, Nigerians had fewer opportunities to practice democratic bargaining and compromise, weakening this aspect of political culture. Political parties and legislatures were largely suspended, so they could not grow during these periods.",
+"py": null,
+"values": null,
+"id": "govx14017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Because military rule dey use order and decree instead of argument and discussion, Nigerians no get chance to practice how to do political bargaining. This one make political culture weak because parties and parliament no dey function."
+}
+],
+"rejected": []
+}

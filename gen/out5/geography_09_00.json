@@ -1,0 +1,194 @@
+{
+"subject": "geography",
+"topic": "Landforms of wind, glaciation and coasts",
+"ti": 9,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A deep bowl-shaped depression in a desert, formed mainly through the action of wind deflation and sometimes aided by solution weathering of rock, is known as a",
+"options": [
+"blowout (deflation hollow)",
+"yardang",
+"zeugen",
+"mesa"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A blowout or deflation hollow is formed when wind removes loose, fine material from the surface, leaving a shallow to deep depression. Yardangs and zeugen are ridge-like features, not hollows.",
+"py": null,
+"values": null,
+"id": "geox09000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Blowout or deflation hollow na when wind carry sand comot from ground make the place deep. Yardang and zeugen na ridge-like features, no be hollow."
+},
+{
+"q": "Which of the following landforms is produced when a glacier erodes a former river valley, widening and deepening it into a distinctive U-shape with steep sides and a flat floor?",
+"options": [
+"Glacial trough (U-shaped valley)",
+"V-shaped valley",
+"Gorge",
+"Rift valley"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Glacial troughs are formed when moving ice erodes a river valley, straightening and deepening it into a broad U-shape. V-shaped valleys and gorges are typically river-formed, while rift valleys result from faulting.",
+"py": null,
+"values": null,
+"id": "geox09001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Glacial trough na when ice widen and deepen river valley to U-shape. V-shaped valleys and gorges na water dey form them, while rift valleys na faulting cause am."
+},
+{
+"q": "On a stretch of Nigerian coastline, a ridge of sand lying roughly parallel to the shore, separated from the mainland by a shallow lagoon, has been built up by wave action over time. This landform is best described as a",
+"options": [
+"barrier bar",
+"spit",
+"tombolo",
+"cuspate foreland"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A barrier bar is a ridge of sand or shingle that runs parallel to the coast and encloses a lagoon between it and the mainland. A spit is attached to the land at one end only, while a tombolo links the mainland to an island.",
+"py": null,
+"values": null,
+"id": "geox09002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Barrier bar na sand ridge wey dey parallel to coast and keep lagoon for middle. Spit join land for one side only, and tombolo join mainland to island."
+},
+{
+"q": "In a hot desert, wind-transported sand grains bounce and strike exposed rock close to the ground more frequently than higher up. Over a long period, this uneven abrasion is most likely to produce a rock pillar that is",
+"options": [
+"narrower at the base than at the top (mushroom-shaped)",
+"wider at the base than at the top",
+"perfectly cylindrical throughout",
+"pointed sharply at both the top and the base"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Because sand grains are concentrated near the ground during wind transport, abrasion is strongest at the base, wearing it narrower while the top remains broader, producing a mushroom-shaped rock (zeugen-like pedestal). This is a classic effect of wind abrasion height distribution.",
+"py": null,
+"values": null,
+"id": "geox09003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Because sand grains dey ground level pass, wind abrasion go cut base small small make am narrow. This one dey form mushroom-shaped rock."
+},
+{
+"q": "A valley that was once occupied by a glacier now has several smaller valleys entering it from the sides, but these smaller valleys end abruptly high up on the walls of the main valley, with streams often falling as waterfalls into it. The main valley is called a",
+"options": [
+"glacial trough with hanging valleys",
+"flood plain with distributaries",
+"delta with tributaries",
+"escarpment with gullies"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The main glacier erodes its valley floor much deeper than the smaller tributary glaciers, so after the ice melts, the tributary valleys are left hanging above the main valley floor, often with waterfalls. This is a well-known feature of glaciated highland regions.",
+"py": null,
+"values": null,
+"id": "geox09004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Main glacier dey deep pass small tributary glaciers, so when ice melt, the small valleys dey hang high up. Na so hanging valleys dey happen."
+},
+{
+"q": "Along a coast, waves approach a headland from the open sea and bend around it before striking the shore. This bending of waves as they move into shallower water near the headland is called",
+"options": [
+"wave refraction",
+"longshore drift",
+"wave deposition",
+"tidal surge"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Wave refraction occurs when waves slow down in shallower water near a headland and bend to align more closely with the shape of the coastline. Longshore drift is the movement of sediment along the coast, which is a different process.",
+"py": null,
+"values": null,
+"id": "geox09005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Wave refraction na when waves slow down for shallow water near headland and bend. Longshore drift na movement of sand along coast, wey be different thing."
+},
+{
+"q": "A broad, gently sloping surface of exposed bedrock found at the foot of mountains in a desert region, formed mainly by the combined action of sheet flooding and wind erosion removing weathered debris, is called a",
+"options": [
+"pediment",
+"playa",
+"oasis",
+"wadi"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A pediment is a gently sloping rock surface at the base of desert mountains, shaped by sheet floods and wind removing weathered material, leaving a smooth bedrock platform. A playa is a dry lake bed, while a wadi is a dry stream channel, both different features.",
+"py": null,
+"values": null,
+"id": "geox09006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Pediment na smooth bedrock surface for foot of desert mountain where water and wind don sweep debris comot. Playa na dry lake bed, and wadi na dry channel."
+},
+{
+"q": "A glacier picks up rock fragments as it moves and deposits an unsorted mixture of clay, sand, and boulders directly from the melting ice, without any sorting by water. This unsorted glacial deposit is known as",
+"options": [
+"till (boulder clay)",
+"outwash sand",
+"loess",
+"alluvium"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Till, also called boulder clay, is deposited directly by melting ice and contains an unsorted mixture of particle sizes from clay to large boulders. Outwash and alluvium are sorted by flowing water, while loess is wind-blown dust, which is a different process entirely.",
+"py": null,
+"values": null,
+"id": "geox09007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Till or boulder clay na unsorted mixture of clay, sand and stones wey ice drop directly when e melt. Water dey sort outwash and alluvium, while loess na wind-blown dust."
+}
+],
+"rejected": []
+}

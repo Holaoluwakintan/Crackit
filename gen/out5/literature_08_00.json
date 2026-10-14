@@ -1,0 +1,178 @@
+{
+"subject": "literature",
+"topic": "Appreciation of an original short unseen prose or drama extract (quote a short original extract in the question)",
+"ti": 8,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Read the extract below and answer the question that follows:\n'The yam barns stood empty now, their ribs bare like the chest of a starving wrestler. Baba Isa walked past them each morning without a glance, as though to look upon their emptiness was to admit defeat.'\n\nThe comparison of the yam barns to 'the chest of a starving wrestler' is an example of:",
+"options": [
+"simile",
+"personification",
+"metaphor",
+"hyperbole"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The comparison uses the word 'like' to directly link two unlike things, which is the defining feature of a simile.",
+"id": "litx08000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis sentence use di word 'like' to compare two different things direct. Na im make am simile."
+},
+{
+"q": "Read the prose extract below and answer the question that follows:\n'Ngozi counted the coins twice, then a third time, as if repetition could multiply what was clearly not enough. Outside, the market was closing, stalls folding into themselves like tired old men.'\n\nThe phrase 'stalls folding into themselves like tired old men' chiefly creates what effect in the passage?",
+"options": [
+"It suggests that the market traders are elderly and weak",
+"It reinforces the mood of weariness and diminishing hope already suggested by Ngozi's situation",
+"It shows that the stalls are physically collapsing and dangerous",
+"It introduces comic relief to lighten the narrative"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The simile extends the mood of exhaustion and hopelessness already established by Ngozi's futile counting, linking setting to feeling rather than describing literal collapse or introducing humour.",
+"id": "litx08001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di way dem describe di stalls like tired old men dey show how tired and hopeless Ngozi dey feel. E connect di place with di mood."
+},
+{
+"q": "Read the drama extract below and answer the question that follows:\nNARRATOR: (Stepping forward, addressing the audience directly) Ladies and gentlemen, what you are about to witness happened many years ago, in a village whose name I dare not mention, lest its people rise from their graves in shame.\n(The lights dim, and the main action begins behind him.)\n\nThe Narrator's direct address to the audience in this extract is an example of which dramatic device?",
+"options": [
+"Soliloquy",
+"Aside",
+"Breaking the fourth wall",
+"Dramatic irony"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When a character steps outside the action to speak directly to the audience, acknowledging their presence, this is called breaking the fourth wall, unlike a soliloquy or aside which occur within the dramatic illusion.",
+"id": "litx08002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When person come out from di story to yarn direct with di audience, we dey call am breaking di fourth wall. E different from soliloquy."
+},
+{
+"q": "Read the extract below and answer the question that follows:\n'He said he forgave her. He said it with his mouth, with his smile, even with the gift he placed in her palm. But his fingers trembled as they let go, and he could not meet her eyes.'\n\nWhat literary technique is most evident in this extract?",
+"options": [
+"Flashback",
+"Foreshadowing",
+"Contrast between stated words and physical behaviour to suggest insincerity",
+"Stream of consciousness"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The passage sets the character's spoken forgiveness against his trembling hands and avoidance of eye contact, revealing that his true feelings contradict his words.",
+"id": "litx08003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "E talk say e forgive am with mouth, but im hand dey shake and e no fit look am eye. Dis one show say im action dey fight wetin im mouth talk."
+},
+{
+"q": "Read the prose extract below and answer the question that follows:\n'It was the kind of afternoon that made old men sit outside their huts and young men dream of the city. The sun hung low and lazy, painting the zinc roofs of Oke-Oru a dull orange, while children chased a half-deflated football through clouds of dust.'\n\nWhat is the primary function of this extract within a narrative?",
+"options": [
+"To develop the central conflict between two characters",
+"To establish setting and atmosphere before the main action unfolds",
+"To reveal a character's inner psychological state",
+"To provide the story's resolution"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The passage focuses on time of day, place, light, and activity rather than conflict or a specific character's thoughts, which is typical of scene-setting at the opening of a narrative.",
+"id": "litx08004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis passage dey paint picture of di time, place and environment before di main matter start. Na pure scene-setting be dat."
+},
+{
+"q": "Read the drama extract below and answer the question that follows:\nMADAM FOLASHADE: (Alone on stage, twisting her wrapper nervously) If I tell him the truth tonight, he will leave me. If I keep silent, the lie will grow fat and swallow us both. Which hunger do I feed?\n\nThis speech, delivered by a character alone on stage to reveal her inner thoughts, is best described as:",
+"options": [
+"an aside",
+"a soliloquy",
+"a monologue delivered to another character",
+"stage direction"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A soliloquy is a speech given by a character alone on stage, revealing private thoughts and feelings to the audience, exactly as Madam Folashade does here.",
+"id": "litx08005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When character stand alone for stage dey talk im mind to di audience, we dey call am soliloquy. Na wetin Madam Folashade do be dat."
+},
+{
+"q": "Read the extract below and answer the question that follows:\n'Professor Adewale had spent thirty years studying the stars, yet he could not read the sadness written plainly on his own daughter's face. He once calculated the distance to a dying sun, but never once measured the silence growing between them at the dinner table.'\n\nThe structure of this passage, which sets the professor's astronomical knowledge against his failure to understand his daughter, best illustrates:",
+"options": [
+"irony arising from a contrast between a character's expertise and a personal blind spot",
+"a flashback revealing the professor's childhood ambitions",
+"an example of rising action in the plot",
+"a direct characterisation through the narrator's explicit judgement"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The passage deliberately juxtaposes the professor's vast scientific knowledge with his ignorance of his daughter's emotions, producing situational irony rather than simply stating a judgement or recounting past events.",
+"id": "litx08006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "E funny how professor sabi star reach heaven, but e no sabi im own daughter sorrow. Di contrast show irony, no be say dem just dey judge am anyhow."
+},
+{
+"q": "Read the prose extract below and answer the question that follows:\n'Years later, Dotun would remember that morning as the hinge on which his whole life turned, though at the time it felt like just another Tuesday: breakfast, a quarrel with his sister, and the long walk to school under a sky that promised rain it never delivered.'\n\nThe narrator's technique of referring to 'years later' while describing a past morning indicates the use of:",
+"options": [
+"an unreliable narrator",
+"proleptic (flash-forward) narration embedded within a retrospective account",
+"a first-person limited point of view only",
+"dramatic monologue"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "By mentioning what Dotun would later recall, the narrator leaps forward in time from within a narrative set in the past, a technique known as prolepsis or flash-forward, layered over a retrospective narrative voice.",
+"id": "litx08007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As di narrator dey look back from future year to talk about dat morning, e dey use flash-forward style inside story wey don pass already."
+}
+],
+"rejected": []
+}

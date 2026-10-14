@@ -1,0 +1,1979 @@
+{
+"gov00100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov00101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov00102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov00103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov00104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov00105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov00106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov00107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov00108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov00109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov00110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov00111": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov01100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov01101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov01102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov01103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov01104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov01105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov01106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov01107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov05100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov05101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov05102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov05103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov05104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov05105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov05106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov05107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov05108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov05109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov05110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov05111": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov06100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov06101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov06102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov06103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov06104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov06105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov06106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov06107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov01108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov01109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov01110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov01111": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov02100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov02101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov02102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov02103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov02104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov02105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov02106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov02107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov02108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov02109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov02110": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov02111": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov03100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov03101": {
+"a": {
+"ans": "B",
+"v": "error",
+"r": "An unwritten constitution is not composed entirely of the sources listed in B; judicial precedents and historical charters are also sources, as the explanation acknowledges. Its statutes and court decisions may themselves be written."
+},
+"b": {
+"ans": "B",
+"v": "ok",
+"r": "B is the standard textbook answer. The word 'entirely' and the inclusion of written statutes are loose, but no other option is defensible."
+}
+},
+"gov03102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov03103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov03104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov03105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov03106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov03107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov03108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov03109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov03110": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "Excessive rigidity can cause political deadlock or pressure for extra-constitutional change, but it does not generally encourage frequent military coups. The keyed option overstates the consequence."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": "Excessive rigidity can provoke unconstitutional or revolutionary change. This is the standard answer."
+}
+},
+"gov03111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov04100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov04101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov04102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov04103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov04104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov04105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov04106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov04107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov04108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov04109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov04110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov04111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov06108": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "A run-off is the best option, but the explanation wrongly treats 25% in the FCT as a separate mandatory requirement. The run-off opponent is also not necessarily the candidate with the second-highest nationwide vote total."
+},
+"b": {
+"ans": "C",
+"v": "error",
+"r": "Under s.134 the run-off is between the highest scorer and the candidate with a majority in the highest number of states. That is not necessarily the 'top two', so option C and the explanation misstate the Constitution."
+}
+},
+"gov06109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov06110": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov06111": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov07100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov07101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov07103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov07104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov07105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov07106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov07107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov07108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov07109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov07110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov07111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov08101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov08102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov08103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov08104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov08105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov08106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov08107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov08108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov08109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov08110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov08111": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov09100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov09101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov09102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov09103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov09104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov09105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov09106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov09107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov09108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov09109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov09110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov09111": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The answer is correct, but the explanation overstates participation: village assemblies generally comprised adult men, not every free citizen."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": "Open village-assembly discussion and consensus is the standard answer."
+}
+},
+"gov10100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov10101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov10102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov10103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov10104": {
+"a": {
+"ans": "A",
+"v": "error",
+"r": "The contrast wrongly treats all of Southern Nigeria as lacking established chiefs. Indirect Rule also used existing traditional rulers in parts of the South, notably Yorubaland."
+},
+"b": {
+"ans": "A",
+"v": "ok",
+"r": "Centralised emirates in the North versus invented warrant chiefs in the East is the standard contrast."
+}
+},
+"gov10105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov10106": {
+"a": {
+"ans": "B",
+"v": "error",
+"r": "Association accommodated some local institutions, but it did not treat African colonies as equal partners."
+},
+"b": {
+"ans": "B",
+"v": "ok",
+"r": "Association respected local cultures and institutions. 'Equal partners' is a slight overstatement, but the distractors are clearly wrong."
+}
+},
+"gov10107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov10108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov10109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov10110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov10111": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "The explanation calls French-appointed chiefs 'warrant chiefs', a term associated with British colonial administration in Nigeria."
+},
+"b": {
+"ans": "C",
+"v": "error",
+"r": "The key is correct, but the explanation wrongly says the French appointed 'warrant chiefs'. Warrant chiefs were a British institution in Eastern Nigeria."
+}
+},
+"gov11100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov11101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov11103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov11105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov11106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov11107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov11108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov11109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov11110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov11111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov12100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov12101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov12102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov12103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov12104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov12105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov12106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov12107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov12109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov12110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov12111": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov13100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov13101": {
+"a": {
+"ans": "X",
+"v": "wrong_key",
+"r": "FEDECO conducted federal and state elections, but local government council elections were the responsibility of state electoral commissions under the 1979 Constitution. No option covers both."
+},
+"b": {
+"ans": "D",
+"v": "error",
+"r": "Under the 1979 Constitution, FEDECO conducted federal and state elections. Local government elections were a state matter, so the premise is inaccurate."
+}
+},
+"gov13103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov13104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov13105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov13106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov13107": {
+"a": {
+"ans": "A",
+"v": "error",
+"r": "The 1963 Republican Constitution did not retain a three-region federation: the Mid-Western Region had been created in 1963, making four regions. Both the option and explanation get this wrong."
+},
+"b": {
+"ans": "A",
+"v": "error",
+"r": "By the time the 1963 Republican Constitution took effect there were four regions, since the Mid-West was created in 1963. The 'three-region' structure is factually wrong."
+}
+},
+"gov13108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov13109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov15108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov15109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov15110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov15111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov16100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov16101": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "Nigeria and Togo championed ECOWAS, but the explanation gives the wrong date: the Treaty of Lagos was signed on May 28, 1975, not May 3."
+},
+"b": {
+"ans": "C",
+"v": "error",
+"r": "Nigeria (Gowon) and Togo (Eyadema) did champion ECOWAS. However, the Lagos treaty was signed by 15 states, not by Nigeria and Togo alone as the explanation claims."
+}
+},
+"gov16103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov16105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov16107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov16108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov16109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov16110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov16111": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov17100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov17101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov17102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov17103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov17104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov17105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov17106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv0303": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv0400": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv0401": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv0402": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv0403": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv0500": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv0501": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv0503": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv0600": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv0601": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv0603": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv0700": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv0701": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv0702": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv0703": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv0800": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv0801": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv0803": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv0900": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv0901": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov13110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov13111": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov14101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov14102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov14104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov14105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov14106": {
+"a": {
+"ans": "D",
+"v": "ambiguous",
+"r": "The question treats several distinct panels as features of one human-rights inquiry. A candidate could also reject the Abisoye or Uwaifo panel on that wording."
+},
+"b": {
+"ans": "D",
+"v": "ambiguous",
+"r": "The question is poorly framed: the Uwaifo and Abisoye bodies were not core human rights violations inquiries either. The explanation also contains a garbled phrase ('fear out the fears')."
+}
+},
+"gov14107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov14108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov14109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov14110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov14111": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"gov15100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov15101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov15102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov15103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov15104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov15105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov15106": {
+"a": {
+"ans": "B",
+"v": "error",
+"r": "B is the intended answer, but the explanation incorrectly equates the career administrative head with the Secretary to the Local Government, a distinct position."
+},
+"b": {
+"ans": "B",
+"v": "ok",
+"r": "The HOLGA/HOLA, the senior career officer, is the administrative head of local government."
+}
+},
+"gov15107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov17107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"gov17108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov17109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"gov17110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"gov17111": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The AU did not abandon non-interference altogether: its Constitutive Act retains that principle while allowing AU intervention in specified grave circumstances."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": "Article 4(h) of the AU Constitutive Act permits intervention in cases of genocide and war crimes."
+}
+},
+"govv0000": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv0001": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv0002": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv0003": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv0100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv0101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv0102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv0103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv0200": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv0201": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv0202": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv0203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv0300": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv0301": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv0302": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv0902": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv1000": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv1001": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv1002": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv1003": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv1100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv1101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv1102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv1103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv1201": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "The Richards Constitution is conventionally dated 1946, not 1945. The keyed feature is correct."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": "The Richards Constitution introduced regionalism through three regional Houses."
+}
+},
+"govv1202": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv1203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv1300": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv1301": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv1302": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv1303": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv1400": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv1401": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv1402": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv1403": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv1500": {
+"a": {
+"ans": "D",
+"v": "wrong_key",
+"r": "Section 3(6) of the 1999 Constitution specifies 768 local government areas and separately lists six FCT area councils. The commonly cited total of 774 combines both."
+},
+"b": {
+"ans": "B",
+"v": "ok",
+"r": "The First Schedule of the 1999 Constitution lists 774 local government areas."
+}
+},
+"govv1501": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv1502": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv1503": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv1600": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The answer is correct, but the explanation wrongly says the National Assembly ‘only ratifies treaties’. Its relevant role includes legislating to give treaties domestic force; ratification is an executive act."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": "Key D is correct. Section 5 vests federal executive power in the President, and external affairs is an exclusive federal matter. The President formulates and directs foreign policy through the Ministry of Foreign Affairs. One minor imprecision in the explanation: the National Assembly's role is not limited to treaties. Under Section 12 it domesticates treaties by enacting them into law; it does not strictly ratify them. The Senate also confirms ambassadors, and the National Assembly must sanction any declaration of war. The item itself is sound and at UTME level."
+}
+},
+"govv1602": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"govv1603": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv1700": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"govv1701": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"govv1702": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"govv1703": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+}
+}

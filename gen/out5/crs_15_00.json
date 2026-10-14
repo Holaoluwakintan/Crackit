@@ -1,0 +1,180 @@
+{
+"subject": "crs",
+"topic": "The baptism, temptation and call of the disciples",
+"ti": 15,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "When John the Baptist hesitated to baptize Jesus, saying he needed to be baptized by Him instead, what reason did Jesus give for insisting on being baptized?",
+"options": [
+"To fulfil all righteousness",
+"To show His humility before the crowd",
+"To receive forgiveness of His sins",
+"To prove He was greater than John"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Jesus told John to allow it, 'for thus it becometh us to fulfil all righteousness' (Matthew 3:15). This shows Jesus submitting to God's plan, not because He needed forgiveness.",
+"id": "crsx15000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Jesus tell John make e allow am, 'cause na so dem suppose do everything wey dey righteous according to Matthew 3:15. Dis show say Jesus dey obey God plan, no be say e need forgiveness."
+},
+{
+"q": "During the second temptation, the devil took Jesus to the pinnacle of the temple and urged Him to jump down, quoting Scripture to support the suggestion. What did Jesus use to resist this temptation?",
+"options": [
+"A rebuke addressed directly to Satan by name",
+"A counter-quotation from Scripture",
+"A call to His disciples for help",
+"A demand that the devil show his true form"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus replied, 'It is written again, Thou shalt not tempt the Lord thy God' (Matthew 4:7). He answered each temptation by quoting Scripture correctly.",
+"id": "crsx15002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Jesus answer am say, 'Dem write am again say, You no must tempt your Lord God' (Matthew 4:7). E use correct Scripture take answer every temptation wey come e way."
+},
+{
+"q": "In the third temptation, the devil offered Jesus all the kingdoms of the world and their glory on one condition. What was that condition?",
+"options": [
+"That Jesus would build him a temple",
+"That Jesus would fast for another forty days",
+"That Jesus would fall down and worship him",
+"That Jesus would deny being the Son of God"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The devil said, 'All these things will I give thee, if thou wilt fall down and worship me' (Matthew 4:9). Jesus rejected this and commanded Satan to leave.",
+"id": "crsx15003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "The devil tell am say, 'I go give you all dis things if you go down and worship me' (Matthew 4:9). Jesus yab am comot and tell Satan make e waka."
+},
+{
+"q": "After Jesus overcame all three temptations in the wilderness, what happened to Him immediately afterward, according to the gospel account?",
+"options": [
+"He fell asleep from exhaustion",
+"Angels came and ministered unto Him",
+"John the Baptist came to congratulate Him",
+"He was taken straight to Galilee by the Spirit"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "After the devil left Him, 'angels came and ministered unto him' (Matthew 4:11). This shows God's care for Jesus after His victory over temptation.",
+"id": "crsx15004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "After the devil waka leave am, 'angels come and help am' (Matthew 4:11). Dis one show how God dey look after Jesus after e win temptation."
+},
+{
+"q": "When Jesus called Matthew (Levi) to follow Him, Matthew was engaged in an occupation that was generally despised by his fellow Jews. What was this occupation?",
+"options": [
+"Fishing on the Sea of Galilee",
+"Collecting taxes at a tax booth",
+"Herding sheep in the countryside",
+"Serving as a soldier for Herod"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Matthew was sitting at the tax collector's booth when Jesus called him, and he immediately left it to follow Him (Matthew 9:9). Tax collectors were despised by Jews for working with Roman authorities.",
+"id": "crsx15005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Matthew dey sit down for tax collector office when Jesus call am, and e quick follow am (Matthew 9:9). Jews no like tax collectors because dem dey work with Roman people."
+},
+{
+"q": "A Sunday School teacher in Enugu explains that Jesus did not choose His twelve disciples randomly but took a special step beforehand. What did Jesus do before selecting the twelve disciples, according to Luke's gospel?",
+"options": [
+"He consulted the chief priests for advice",
+"He spent a whole night in prayer to God",
+"He asked John the Baptist to choose for Him",
+"He tested each candidate with a riddle"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Luke 6:12 records that Jesus 'went out into a mountain to pray, and continued all night in prayer to God' before choosing the twelve. This shows the importance of prayer in making major decisions.",
+"id": "crsx15006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Luke 6:12 talk say Jesus 'go enter mountain to pray, and spend the whole night dey pray to God' before e pick the twelve. Dis show say prayer very important when person wan make big decision."
+},
+{
+"q": "Simon Peter and Andrew, together with James and John, were fellow fishermen before their call. What does this shared background mainly suggest about the kind of men Jesus chose as His first disciples?",
+"options": [
+"They were wealthy landowners with much influence",
+"They were ordinary working men, not religious scholars",
+"They were priests trained in the temple",
+"They were already famous teachers of the law"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Jesus called ordinary fishermen, not trained religious leaders, showing that God can use humble, everyday people for great purposes. This reflects a key lesson from the call narratives in the gospels.",
+"id": "crsx15007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Jesus call ordinary fishermen, no be people wey dem train as religious leaders, to show say God fit use anybody for big work. E teach us say ordinary people matter for God eye."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the wilderness, the devil's first temptation challenged Jesus to turn stones into what, so as to satisfy His hunger after forty days of fasting?",
+"options": [
+"Water",
+"Bread",
+"Fish",
+"Wine"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The devil said, 'If thou be the Son of God, command that these stones be made bread' (Matthew 4:3). Jesus refused, saying man shall not live by bread alone.",
+"id": "crsx15001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

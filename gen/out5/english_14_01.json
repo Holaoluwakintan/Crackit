@@ -1,0 +1,170 @@
+{
+"subject": "english",
+"topic": "Oral English: emphatic stress (the word in CAPITALS is stressed; which question does the sentence answer)",
+"ti": 14,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the appropriate answer.\n\n\"Mrs. Adebayo cooked the JOLLOF rice for the party.\"",
+"options": [
+"What did Mrs. Adebayo cook for the party?",
+"Who cooked the jollof rice for the party?",
+"Did Mrs. Adebayo cook the jollof rice well?",
+"Why did Mrs. Adebayo cook jollof rice for the party?"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The stress is on JOLLOF, which tells us the item cooked is being singled out. This answers a question asking what was cooked, not who cooked it or why.",
+"id": "engx14010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na JOLLOF wey carry the stress dey show say na that particular food wey she cook dem dey ask for. E dey answer question wey ask wetin she cook, no be who cook am."
+},
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the appropriate answer.\n\n\"It was CHIOMA who reported the broken generator to the hostel warden.\"",
+"options": [
+"What did Chioma report to the warden?",
+"Who reported the broken generator to the warden?",
+"To whom did Chioma report the broken generator?",
+"Why did Chioma report the broken generator?"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The cleft structure \"It was CHIOMA who...\" places stress on the person who performed the action. This construction directly answers a question asking who did the reporting.",
+"id": "engx14012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As CHIOMA get stress for head like that, na to point out the person wey do the work. E straight answer question wey dey find who report the generator."
+},
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the appropriate answer.\n\n\"The students passed the examination because they STUDIED hard, not because the paper was easy.\"",
+"options": [
+"What examination did the students pass?",
+"Why did the students pass the examination?",
+"How long did the students study for the examination?",
+"Who set the examination paper?"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The stressed word STUDIED, together with the contrast clause rejecting an easy paper as the reason, shows the sentence is giving a cause. This fits a question asking why the students passed.",
+"id": "engx14014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The stress wey dey STUDIED dey tell us the reason why dem pass the exam. Naim make the sentence answer question wey ask why dem pass."
+},
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the appropriate answer.\n\n\"The committee members voted AGAINST the new tuition policy during the meeting.\"",
+"options": [
+"When did the committee members vote?",
+"What did the committee members vote on?",
+"How did the committee members vote on the policy?",
+"Who voted against the new tuition policy?"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The stress on AGAINST shows the manner or direction of the vote is being emphasised, not the topic or the people involved. This matches a question asking how they voted.",
+"id": "engx14016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If AGAINST carry stress, e mean say na how dem vote dem dey explain, no be the matter wey dem vote for. Naim make am answer question wey ask how dem vote."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the appropriate answer.\n\n\"Tunde will travel to Kano TOMORROW, not next week.\"",
+"options": [
+"Who will travel to Kano tomorrow?",
+"Where will Tunde travel to tomorrow?",
+"When will Tunde travel to Kano?",
+"Will Tunde travel to Kano by road?"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The stress falls on TOMORROW, and the sentence even corrects a wrong time (not next week). This shows the sentence answers a question about when Tunde will travel."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the appropriate answer.\n\n\"The governor commissioned the new road BRIDGE, not the market complex.\"",
+"options": [
+"What did the governor commission?",
+"Who commissioned the new road bridge?",
+"When did the governor commission the bridge?",
+"Where is the new road bridge located?"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Stress on BRIDGE, together with the correction \"not the market complex,\" shows the speaker is clarifying what exactly was commissioned. This matches a question asking what the governor commissioned."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the appropriate answer.\n\n\"Chidinma gave the textbook TO her younger brother, not to her cousin.\"",
+"options": [
+"What did Chidinma give to her brother?",
+"Who gave the textbook to the younger brother?",
+"To whom did Chidinma give the textbook?",
+"Why did Chidinma give out the textbook?"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Although TO is a small function word, stressing it here highlights the recipient being corrected (brother, not cousin). The sentence therefore answers a question about to whom the textbook was given.",
+"id": "engx14015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Stress should fall on ‘brother’, not ‘to’, to contrast the recipients.|"
+},
+{
+"q": {
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the appropriate answer.\n\n\"Musa repaired the LEAKING pipe himself before the plumber arrived.\"",
+"options": [
+"Which pipe did Musa repair?",
+"Who repaired the leaking pipe?",
+"When did Musa repair the pipe?",
+"Did the plumber repair the pipe?"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Stressing LEAKING singles out which particular pipe was repaired, distinguishing it from other pipes. The sentence therefore best answers a question asking which pipe Musa repaired, since the timing detail is secondary information.",
+"id": "engx14017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+}
+},
+"why": "review:Explanation mentions timing as secondary, but option A matches the direct question for which pipe; the explanation is acceptable."
+}
+]
+}

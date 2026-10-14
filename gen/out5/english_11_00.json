@@ -1,0 +1,137 @@
+{
+"subject": "english",
+"topic": "Oral English: vowel sounds (choose the word with the same vowel sound as the letters in CAPITALS)",
+"ti": 11,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In normal educated speech, three of the following words have the same vowel sound while one is different. Identify the ODD ONE OUT.",
+"options": [
+"COAT",
+"BOAT",
+"GOAT",
+"GOT"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "COAT, BOAT and GOAT all have the diphthong /əʊ/. GOT, however, has the short vowel sound /ɒ/, which is different from the others.",
+"id": "engx11005",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "COAT, BOAT and GOAT dey share di same diphthong sound /əʊ/. But GOT get short vowel sound /ɒ/, wey make am different from di rest."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: SHEEP",
+"options": [
+"MACHINE",
+"BREAD",
+"BUILD",
+"WEIGHT"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "SHEEP has the long vowel sound /i:/. MACHINE also has this same long /i:/ sound, while BREAD, BUILD and WEIGHT have different vowel sounds."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: BLOOD",
+"options": [
+"FOOD",
+"MOOD",
+"GLOVE",
+"ROOD"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "BLOOD is pronounced with the short /ʌ/ sound, not the long /u:/ sound its spelling suggests. GLOVE shares this same /ʌ/ sound, while FOOD, MOOD and ROOD all have the long /u:/ sound."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: TOWN",
+"options": [
+"KNOWN",
+"GROWN",
+"SOUND",
+"GROUP"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "TOWN has the diphthong /aʊ/. SOUND shares this same diphthong sound, while KNOWN and GROWN have the /əʊ/ sound and GROUP has /u:/."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: EARN",
+"options": [
+"FEAR",
+"HEARD",
+"BEARD",
+"NEAR"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "EARN is pronounced with the central vowel sound /ɜː/, as in 'bird'. HEARD shares this same /ɜː/ sound, while FEAR, BEARD and NEAR all have the diphthong /ɪə/."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: COUGH",
+"options": [
+"THOUGH",
+"THOUGHT",
+"ENOUGH",
+"DOUGH"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "COUGH is pronounced with the sound /ɒf/, giving it the vowel /ɒ/. THOUGHT also carries this same /ɔ:/-related open back vowel quality, while THOUGH and DOUGH have /əʊ/ and ENOUGH has /ʌ/, making them different."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: WOMAN",
+"options": [
+"WOMEN",
+"MOVE",
+"BOOK",
+"SOON"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The first syllable of WOMAN is pronounced with the short vowel /ʊ/. BOOK also has this same /ʊ/ sound, while WOMEN has /ɪ/, and MOVE and SOON have the long /u:/ sound."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same vowel sound as the letters in CAPITALS: AWAY",
+"options": [
+"ARENA",
+"APPLE",
+"ANKLE",
+"ANNEX"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The first syllable of AWAY is unstressed and pronounced with the weak vowel sound /ə/, called the schwa. ARENA also begins with this same unstressed schwa sound, unlike APPLE, ANKLE and ANNEX, which begin with stressed vowel sounds."
+},
+"why": "duplicate"
+}
+]
+}

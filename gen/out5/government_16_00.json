@@ -1,0 +1,174 @@
+{
+"subject": "government",
+"topic": "Nigeria's foreign policy",
+"ti": 16,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which Nigerian foreign policy institution is charged with providing professional training and research support to diplomats and officials involved in external relations?",
+"options": [
+"Nigerian Institute of International Affairs (NIIA)",
+"National Institute for Policy and Strategic Studies (NIPSS)",
+"Federal Ministry of Information",
+"National Assembly Committee on Foreign Affairs"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Nigerian Institute of International Affairs was established to carry out research and training that supports the formulation and conduct of Nigeria's foreign policy. The other bodies listed have different, non-diplomatic specific mandates.",
+"id": "govx16000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na Nigerian Institute of International Affairs dem set up to dey do research and training for people wey dey handle foreign policy. Na only dis body get dat specific mandate for diplomacy."
+},
+{
+"q": "Nigeria's support for the anti-apartheid struggle in South Africa, including financial contributions to the African National Congress, best illustrates which principle of Nigeria's foreign policy?",
+"options": [
+"Commitment to African unity and decolonisation",
+"Preference for bilateral trade agreements",
+"Strict adherence to non-alignment during the Cold War",
+"Pursuit of economic diplomacy"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Nigeria's backing of anti-apartheid movements shows its deep commitment to the liberation and unity of the African continent. It was not mainly about trade, non-alignment, or economic diplomacy.",
+"id": "govx16001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Nigeria help fight apartheid for South Africa because we want make Africa unite and comot colonialism. E no get anything to do with trade or just non-alignment."
+},
+{
+"q": "A new Nigerian ambassador is to be posted to a foreign country. According to constitutional provisions on foreign policy, whose confirmation is required before the appointment takes full effect?",
+"options": [
+"The Senate",
+"The Federal Executive Council only",
+"The Council of State",
+"The Nigerian Institute of International Affairs"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Under the 1999 Constitution, ambassadorial appointments made by the President require confirmation by the Senate. This is part of the checks placed on the executive in foreign affairs matters.",
+"id": "govx16002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na Senate must first approve any ambassador wey President wan send abroad before the person fit start work. Dem put dis law make checks dey for executive power."
+},
+{
+"q": "Which of these best explains why Nigeria champions the principle of respect for the territorial integrity of African states in its foreign policy?",
+"options": [
+"To discourage secessionist tendencies and promote stability across the continent",
+"To justify Nigeria's territorial expansion into neighbouring countries",
+"To allow stronger states to dominate weaker neighbours",
+"To reduce the number of African Union member states"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Nigeria upholds territorial integrity to prevent boundary disputes and secessionist conflicts that could destabilise Africa, given its own experience with the civil war. The other options contradict the spirit of this principle.",
+"id": "govx16003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Nigeria dey support make nobody scatter Africa country boundaries because we want stability everywhere. We no want make secessionist wahala or border fight tear Africa apart."
+},
+{
+"q": "A foreign company wishes to invest in Nigeria's solid minerals sector, and the Ministry of Foreign Affairs works with the Ministry of Trade to attract this investment through bilateral talks. This activity is best described as an example of which foreign policy instrument?",
+"options": [
+"Economic diplomacy",
+"Military diplomacy",
+"Cultural diplomacy",
+"Shuttle diplomacy"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using foreign relations to attract investment and promote trade is economic diplomacy. It does not involve military, cultural exchange, or rapid back-and-forth negotiations that define the other terms.",
+"id": "govx16004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When country use foreign relations to find investor and build business, na economic diplomacy be that. E no be military or cultural matter at all."
+},
+{
+"q": "Which of the following is the most significant domestic constraint that has historically limited the effectiveness of Nigeria's foreign policy despite its stated leadership ambitions in Africa?",
+"options": [
+"Persistent internal economic and political instability",
+"Excessive involvement in global sporting competitions",
+"Too many diplomatic missions abroad",
+"Overuse of economic diplomacy as a strategy"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Internal problems such as weak economy, corruption, and political instability reduce the resources and credibility Nigeria needs to project strong leadership abroad. The other options are not genuine structural constraints on foreign policy.",
+"id": "govx16005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na inside wahala like bad economy and political instability dey reduce Nigeria strength to lead for outside world. E dey make am hard to use full power for foreign policy."
+},
+{
+"q": "A Nigerian foreign policy analyst argues that Nigeria's decisions on international issues should always first consider their effect on fellow African nations before other regions. This argument is best described as support for which concept?",
+"options": [
+"Afrocentrism as the center-piece of Nigeria's foreign policy",
+"Internationalism without regional preference",
+"Policy of strict neutrality among global powers",
+"Diplomatic isolationism from African affairs"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Placing Africa first in foreign policy decisions reflects Afrocentrism, which has guided Nigeria's external relations since independence. The other options describe positions that either ignore or contradict this African-focused priority.",
+"id": "govx16007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When Nigeria put Africa for front for any international matter, na Afrocentrism be that. Na the main way Nigeria don dey run her foreign policy since before."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "During the early 1990s, Nigeria's military government faced international isolation and sanctions from Western countries over human rights concerns. Which foreign policy response did Nigeria adopt to counter this isolation?",
+"options": [
+"Strengthening South-South cooperation and ties with African and Asian states",
+"Immediately adopting full alignment with Western powers",
+"Withdrawing entirely from the United Nations",
+"Abandoning all regional economic organisations",
+""
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "To offset Western pressure, Nigeria deepened relations with other developing nations in Africa and Asia under South-South cooperation. Nigeria did not withdraw from the UN or abandon regional bodies like ECOWAS."
+},
+"why": "bad-shape"
+}
+]
+}

@@ -1,0 +1,181 @@
+{
+"subject": "biology",
+"topic": "Excretion: kidney, skin, lungs and excretion in plants",
+"ti": 7,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A medical laboratory scientist examines a patient's urine and discovers an unusually high protein content. This observation most likely suggests damage to which part of the nephron?",
+"options": [
+"Collecting duct",
+"Loop of Henle",
+"Glomerulus/Bowman's capsule",
+"Distal convoluted tubule"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The glomerulus and Bowman's capsule form the filtration unit; large protein molecules should normally be retained in the blood. Damage here allows proteins to leak into the filtrate and appear in urine.",
+"id": "biox07002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na glomerulus and Bowman's capsule dey do the filtration work, where big protein molecules suppose remain inside blood. If damage happen there, protein go leak enter urine."
+},
+{
+"q": "Which of the following best describes the main excretory role of the skin in humans?",
+"options": [
+"Removal of excess water, salts and urea through sweat",
+"Removal of carbon(IV)oxide and water vapour through pores",
+"Regulation of blood sugar through sweat glands",
+"Production of vitamin D as a waste product"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The skin excretes excess water, mineral salts and small amounts of urea through sweat produced by sweat glands. Carbon(IV)oxide removal is mainly a lung function, not the skin's.",
+"id": "biox07003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Skin dey comot excess water, mineral salts, and small urea through sweat from sweat glands. Na lungs dey remove Carbon(IV)oxide, no be skin."
+},
+{
+"q": "During vigorous exercise on a football pitch in Enugu, a player's sweat glands become highly active. Which combination of conditions directly stimulates this increase in sweating?",
+"options": [
+"Rise in body temperature and increased metabolic heat production",
+"Fall in blood pressure and reduced oxygen supply",
+"Decrease in blood glucose and increased insulin release",
+"Rise in blood pH and reduced carbon(IV)oxide concentration"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Vigorous exercise raises body temperature due to increased metabolic activity, which stimulates sweat glands to produce more sweat for evaporative cooling. The other options are not the direct triggers for increased sweating.",
+"id": "biox07004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Hard exercise dey make body temperature rise because of too much metabolism, and this one dey trigger sweat glands to produce sweat for cooling. Na the main reason be that."
+},
+{
+"q": "A certain plant leaf, when examined, shows tiny pore-like structures on its lower epidermis through which water vapour and carbon(IV)oxide are lost or exchanged. These structures are called",
+"options": [
+"Lenticels",
+"Stomata",
+"Hydathodes",
+"Xylem vessels"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Stomata are tiny pores, mostly on the lower epidermis of leaves, that allow gaseous exchange and loss of water vapour through transpiration. Lenticels are found on woody stems, not leaves.",
+"id": "biox07005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na stomata be those tiny pores for leaf epidermis wey dey allow gas exchange and transpiration. Lenticels dey for woody stem, no be leaf."
+},
+{
+"q": "A botanist studying waste disposal in plants notes that certain insoluble crystals of calcium oxalate accumulate permanently in specific leaf and stem cells rather than being transported out of the plant. Which of the following best explains why plants can tolerate storing such wastes internally?",
+"options": [
+"Plants have highly efficient kidneys that later filter out the crystals",
+"Plants have a lower metabolic rate than animals, so they produce fewer toxic wastes and can store the less harmful ones in cell vacuoles or dead tissues",
+"Plant wastes are always in gaseous form and simply diffuse out through roots",
+"Plants convert all metabolic wastes immediately into chlorophyll for reuse"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Unlike animals, plants have slower metabolism and produce less toxic waste, so they can safely store insoluble wastes like calcium oxalate crystals in vacuoles, old leaves, or dead tissues such as bark. Plants have no kidneys, and wastes are not always gaseous.",
+"id": "biox07006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Plants no get kidney, but dem get slow metabolism, so dem fit keep waste like calcium oxalate inside vacuoles or dead tissues safely. Dem no dey convert everything to chlorophyll."
+},
+{
+"q": "A renal patient has significantly reduced blood pressure due to severe bleeding after an accident. A doctor explains that this will reduce urine formation. Which stage of urine formation is most directly affected by this drop in blood pressure?",
+"options": [
+"Reabsorption in the proximal convoluted tubule",
+"Secretion in the distal convoluted tubule",
+"Ultrafiltration at the glomerulus",
+"Concentration of urine in the collecting duct"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Ultrafiltration at the glomerulus depends on high hydrostatic blood pressure forcing fluid out of the capillaries into Bowman's capsule. A severe drop in blood pressure reduces this filtration pressure, directly lowering the rate of urine formation at this stage.",
+"id": "biox07007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Ultrafiltration for glomerulus need high blood pressure to push fluid enter Bowman's capsule. If blood pressure drop well well, urine formation go reduce direct."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following is the correct functional unit of the mammalian kidney responsible for urine formation?",
+"options": [
+"Nephron",
+"Alveolus",
+"Neuron",
+"Villus"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The nephron is the basic structural and functional unit of the kidney where filtration, reabsorption and secretion occur to form urine. Alveoli are in the lungs, neurons in the nervous system, and villi in the small intestine.",
+"id": "biox07000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Giveaway distractors"
+},
+{
+"q": {
+"q": "In the human excretory system, which organ is mainly responsible for removing nitrogenous waste in the form of urea from the blood?",
+"options": [
+"Liver",
+"Kidney",
+"Pancreas",
+"Spleen"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The kidney filters blood and removes urea, a nitrogenous waste product, which is then excreted as urine. The liver produces urea from excess amino acids but does not excrete it from the body.",
+"id": "biox07001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Giveaway distractors"
+}
+]
+}

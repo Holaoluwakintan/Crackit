@@ -1,0 +1,181 @@
+{
+"subject": "biology",
+"topic": "Respiration: aerobic, anaerobic and respiratory organs",
+"ti": 6,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A frog kept in a sealed jar with moist cotton wool but no water or pond was observed to survive for many hours even though it did not use its lungs actively. Which structure was mainly responsible for its gaseous exchange during this period?",
+"options": [
+"Lungs",
+"Gills",
+"Moist skin",
+"Buccal cavity lining only"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Frogs can exchange gases through their thin, moist, and highly vascularised skin, especially when inactive. This cutaneous respiration supplements the lungs and allows survival in moist but waterless conditions.",
+"values": null,
+"py": null,
+"id": "biox06000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Frog skin dey thin and e get plenty blood vessels wey dey help am breathe. Even if e no use im lungs, the moist skin go allow gas exchange make e survive."
+},
+{
+"q": "Which of the following is the correct overall balanced word equation for aerobic respiration in living cells?",
+"options": [
+"Glucose + oxygen -> carbon(IV) oxide + water + energy",
+"Glucose -> ethanol + carbon(IV) oxide + energy",
+"Glucose + water -> oxygen + carbon(IV) oxide",
+"Glucose -> lactic acid + energy"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Aerobic respiration fully oxidises glucose using oxygen to release carbon(IV) oxide, water, and a large amount of energy. The other equations describe anaerobic processes or are incorrectly balanced.",
+"values": null,
+"py": null,
+"id": "biox06001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Aerobic respiration dey use oxygen to break down glucose completely. This one dey produce carbon(IV) oxide, water, and plenty energy for the body."
+},
+{
+"q": "A fish was removed from water and placed on a tray of wet grass for ten minutes. On examination, its gill filaments had collapsed together into a clumped mass. Which explanation best accounts for the fish's difficulty in breathing out of water?",
+"options": [
+"The collapsed filaments lose their large surface area needed for gas exchange",
+"The fish immediately switches to anaerobic respiration only",
+"Water on the grass blocks the gill slits completely",
+"The operculum closes permanently once out of water"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Gill filaments are supported by the buoyancy of water; out of water, they collapse and stick together, drastically reducing the surface area exposed to air. This makes efficient gas exchange impossible even though oxygen is present.",
+"values": null,
+"py": null,
+"id": "biox06002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When fish comot for water, the gill filaments dey stick together because water no dey support them again. This one come reduce the surface area wey the fish need to take breathe."
+},
+{
+"q": "An insect's tracheal system delivers oxygen directly to tissues through a network of air-filled tubes that open to the outside through small pores. What is the correct name of these external openings?",
+"options": [
+"Stomata",
+"Spiracles",
+"Lenticels",
+"Alveoli"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Spiracles are the small external openings on an insect's body through which air enters and leaves the tracheal system. Stomata and lenticels are plant structures, while alveoli are found in mammalian lungs.",
+"values": null,
+"py": null,
+"id": "biox06004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Spiracles na the small holes wey dey for insect body wey air dey pass enter. Na through these holes the tracheal system dey get oxygen."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "During vigorous digging, an earthworm's moist body surface was observed to dry out slightly due to exposure to the sun. Which immediate consequence would this have on the earthworm's respiration?",
+"options": [
+"Respiration rate would increase due to more oxygen availability",
+"Gaseous exchange would be impaired because gases must dissolve in moisture before diffusing through the skin",
+"The earthworm would switch entirely to tracheal breathing",
+"Oxygen would diffuse faster through the dry cuticle",
+"Respiration rate would increase due to more oxygen availability"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Earthworms respire through their skin, and gases must first dissolve in the thin film of moisture covering the body surface before diffusing in or out. A dry skin surface reduces this diffusion and impairs respiration, which is why earthworms die quickly in dry conditions.",
+"values": null,
+"py": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A athlete sprinted 200 metres and afterwards experienced muscle stiffness and a burning sensation in the thigh muscles, even though she was breathing heavily to supply oxygen. Which statement best explains this occurrence?",
+"options": [
+"Her muscles produced lactic acid through anaerobic respiration because oxygen supply could not match demand",
+"Her muscles absorbed excess carbon(IV) oxide from the blood",
+"Her muscles underwent complete aerobic breakdown of glucose only",
+"Her muscles converted glucose directly into ethanol",
+"Her muscles produced lactic acid through anaerobic respiration because oxygen supply could not match demand"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "During intense exercise, oxygen supplied by breathing and blood circulation cannot keep pace with the muscles' energy demand, so muscle cells respire anaerobically and produce lactic acid. This buildup of lactic acid causes the stiffness and burning sensation, known as oxygen debt.",
+"values": null,
+"py": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A student compared the energy released per molecule of glucose in aerobic respiration (about 38 ATP molecules) with that released in anaerobic respiration in yeast (about 2 ATP molecules). Which of the following best explains this large difference in energy yield?",
+"options": [
+"Anaerobic respiration breaks glucose down completely into carbon(IV) oxide and water like aerobic respiration",
+"Aerobic respiration fully oxidises glucose through glycolysis, the Krebs cycle, and the electron transport chain, while anaerobic respiration only partially breaks down glucose",
+"Anaerobic respiration occurs faster, so less energy is released per unit time",
+"Aerobic respiration uses less oxygen, allowing more glucose molecules to be broken down",
+"Anaerobic respiration breaks glucose down completely into carbon(IV) oxide and water like aerobic respiration"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Aerobic respiration completely breaks down glucose using oxygen through several stages, releasing far more energy as ATP. Anaerobic respiration stops after glycolysis and only partially oxidises glucose into ethanol or lactic acid, so much less energy is extracted.",
+"values": null,
+"py": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "In a controlled laboratory setup, germinating bean seeds were placed in a flask connected to a manometer containing coloured liquid, with a small tube of potash (sodium hydroxide) solution inside the flask to absorb carbon(IV) oxide. After some time, the coloured liquid moved towards the flask. What does this movement indicate about the respiration occurring in the seeds?",
+"options": [
+"The seeds produced more carbon(IV) oxide than oxygen consumed",
+"The seeds consumed oxygen and the carbon(IV) oxide produced was absorbed by the potash, reducing gas volume",
+"The seeds were respiring anaerobically only",
+"The seeds released more gas than they absorbed, increasing pressure"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "As the seeds respire aerobically, they take in oxygen and release carbon(IV) oxide, but the potash solution immediately absorbs the carbon(IV) oxide released. This causes an overall decrease in gas volume inside the flask, which pulls the coloured liquid towards the flask, confirming oxygen uptake.",
+"values": null,
+"py": null,
+"id": "biox06006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Potash is potassium hydroxide, not sodium hydroxide.|"
+}
+]
+}

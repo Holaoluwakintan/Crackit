@@ -1,0 +1,180 @@
+{
+"subject": "biology",
+"topic": "Support and movement: skeleton, joints, muscles, plant support tissues",
+"ti": 8,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A cartilaginous joint found between the vertebrae of the human backbone allows only slight movement. Which structure is responsible for this limited flexibility and shock absorption?",
+"options": [
+"Intervertebral disc made of fibrocartilage",
+"Synovial membrane",
+"Ligament of the neural arch",
+"Yellow elastic cartilage of the pinna"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Intervertebral discs are pads of fibrocartilage between vertebrae that cushion shocks and permit slight bending movement. Synovial membranes and ligaments belong to freely movable joints, not this cartilaginous type.",
+"id": "biox08001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Intervertebral disc wey get fibrocartilage dey cushion shock and allow small movement between backbone. Synovial membrane and ligament dey for joint wey dey move well well, no be this one."
+},
+{
+"q": "An athlete's thigh bone (femur) fits into a cup-shaped socket on the pelvis, permitting movement in almost every direction, including rotation. Which type of joint is this?",
+"options": [
+"Hinge joint",
+"Ball and socket joint",
+"Gliding joint",
+"Pivot joint"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A ball and socket joint, like the hip joint, allows movement in many directions including rotation because a rounded bone end fits into a cup-like socket. Hinge joints only allow back-and-forth movement in one plane.",
+"id": "biox08002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Ball and socket joint like hip joint allow movement for all side including rotation because bone head fit cup-like socket. Hinge joint dey allow movement only for one direction."
+},
+{
+"q": "Which of the following best explains why plant cells with thickened cellulose walls (collenchyma) can bend without breaking, unlike lignified sclerenchyma cells?",
+"options": [
+"Collenchyma walls are thickened unevenly at the corners and remain flexible, while sclerenchyma walls are uniformly lignified and rigid",
+"Collenchyma cells are dead at maturity, giving them elastic properties",
+"Collenchyma lacks cellulose entirely, relying only on turgor pressure",
+"Sclerenchyma cells contain chloroplasts that stiffen the wall"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Collenchyma has unevenly thickened, non-lignified walls (thicker at corners) which keep it flexible for bending support in young growing stems. Sclerenchyma walls are uniformly thickened with lignin, making them rigid and suited for fixed mechanical support rather than bending.",
+"id": "biox08003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Collenchyma wall thick for corner only and e remain flexible to support young stem, but sclerenchyma wall get lignin everywhere wey make am hard and rigid."
+},
+{
+"q": "In an experiment, a wilted vegetable leaf from a garden in Jos regains its firmness after being placed in water for some hours. Which process best accounts for this change in the plant cells?",
+"options": [
+"Loss of water from cells by exosmosis, reducing turgor pressure",
+"Entry of water into cells by osmosis, increasing turgor pressure against the cell wall",
+"Active transport of water out of the vacuole into the cytoplasm",
+"Breakdown of the cellulose cell wall by enzymes"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Water moves into the plant cells by osmosis, filling the vacuole and pushing the cytoplasm against the cell wall, making the cell turgid and firm. This restores support in herbaceous tissues, unlike water loss which causes wilting.",
+"id": "biox08004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Water dey enter plant cell through osmosis, make vacuole full and push cytoplasm against cell wall. This one dey bring back turgor pressure and remove wilting."
+},
+{
+"q": "A weightlifter's biceps brachii muscle is described as having its origin on the scapula and its insertion on the radius. If this muscle contracts strongly, which of the following correctly describes the resulting action at the elbow?",
+"options": [
+"The forearm extends because the insertion bone moves away from the origin",
+"The forearm flexes because the insertion bone is pulled toward the origin",
+"The upper arm rotates at the shoulder while the forearm stays fixed",
+"The triceps shortens simultaneously to produce the same flexion"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When a muscle contracts, it shortens and pulls the insertion bone toward the origin; for the biceps this pulls the radius upward, flexing the elbow. Extension would instead require the triceps to contract while the biceps relaxes.",
+"id": "biox08005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When muscle contract, e dey pull the insertion bone go meet the origin, so biceps go pull radius up to bend elbow. Extension na work for triceps."
+},
+{
+"q": "During a 400-metre race at a sports meet in Enugu, an athlete's leg muscles contract repeatedly using large amounts of ATP. If oxygen supply becomes insufficient, which process allows the muscle to continue producing some energy, though with a side effect that causes fatigue?",
+"options": [
+"Aerobic respiration using excess oxygen reserves in the blood",
+"Anaerobic respiration producing lactic acid in the muscle cells",
+"Complete breakdown of glucose to carbon dioxide and water without oxygen",
+"Direct conversion of fat to ATP without any respiration pathway"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When oxygen is insufficient, muscle cells respire anaerobically, converting glucose to lactic acid and releasing a small amount of ATP. The accumulating lactic acid causes the fatigue and cramps felt by the athlete.",
+"id": "biox08006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If oxygen no reach muscle well during race, energy go still come out through anaerobic respiration, but e go produce lactic acid. Na this lactic acid dey cause muscle fatigue and pain."
+},
+{
+"q": "A science student observes two bones connected at the shoulder, held together by a band of tough, slightly elastic connective tissue that stabilises the joint and limits excessive movement. What is this connective tissue called?",
+"options": [
+"Tendon",
+"Ligament",
+"Cartilage",
+"Periosteum"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ligaments are tough, slightly elastic tissues that connect bone to bone, stabilising joints and preventing dislocation. Tendons instead attach muscle to bone, while cartilage and periosteum have different roles in the skeleton.",
+"id": "biox08007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Ligament na tough tissue wey dey connect bone to bone to hold joint strong and stop dislocating. Tendon na the one wey dey connect muscle to bone."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which pair of bones forms the human pelvic (hip) girdle that supports the weight of the upper body and anchors the lower limbs?",
+"options": [
+"Ilium and ischium fused with pubis",
+"Femur and tibia",
+"Scapula and clavicle",
+"Radius and ulna"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The pelvic girdle is made of the ilium, ischium and pubis fused together on each side. It connects the lower limbs to the vertebral column, unlike the femur, tibia, scapula or radius which belong elsewhere.",
+"id": "biox08000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:The pelvic girdle consists of two hip bones; A names the three fused parts of each hip bone, not a pair of bones.|"
+}
+]
+}

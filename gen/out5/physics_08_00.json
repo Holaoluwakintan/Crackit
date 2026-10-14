@@ -1,0 +1,240 @@
+{
+"subject": "physics",
+"topic": "Pressure in solids, liquids and gases; Archimedes' principle and flotation",
+"ti": 8,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A wide water tank has two small holes drilled on its side wall, one near the top and one near the bottom. Water is seen to spurt out faster and travel further from the lower hole than from the upper hole. This observation best illustrates that:",
+"options": [
+"water pressure increases with depth",
+"water pressure is the same at all depths",
+"air pressure above the tank affects only the upper hole",
+"the tank wall is thinner at the bottom"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Liquid pressure increases with depth because of the weight of liquid above a point. The lower hole is deeper, so the water there is under greater pressure and spurts out faster.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx08001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Pressure dey increase as water deep reach because of the weight of water wey dey top. Na im make the hole wey dey bottom dey spray water fast pass the top one."
+},
+{
+"q": "A simple mercury barometer reads 76 cm Hg at the base of a hill and 70 cm Hg at the top of the hill. If the density of mercury is 13,600 kg/m^3, the density of air is 1.25 kg/m^3, and g = 10 m/s^2, estimate the height of the hill.",
+"options": [
+"652.8 m",
+"326.4 m",
+"816.0 m",
+"457.6 m"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The fall in atmospheric pressure equals the weight per area of the air column of height h, so density of mercury times g times change in height of mercury equals density of air times g times h. Solving gives h = (13600 x 0.06)/1.25 = 652.8 m.",
+"py": "(13600*0.06)/1.25",
+"values": [
+652.8,
+326.4,
+816.0,
+457.6
+],
+"id": "phyx08002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "We go use the pressure wey change for mercury and air to find the height. If we use density of mercury 13,600 kg/m^3 and air 1.25 kg/m^3, we go get h = 652.8 m."
+},
+{
+"q": "A hydraulic car jack has a small piston of radius 2 cm and a large piston of radius 10 cm. A mechanic in Kano applies a force of 200 N on the small piston. What force is produced on the large piston?",
+"options": [
+"1,000 N",
+"4,000 N",
+"5,000 N",
+"2,500 N"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "By Pascal's principle, pressure is the same throughout, so force out equals force in multiplied by the ratio of areas. The area ratio is (10/2)^2 = 25, so output force is 200 x 25 = 5000 N.",
+"py": "200*(10/2)**2",
+"values": [
+1000,
+4000,
+5000,
+2500
+],
+"id": "phyx08003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Based on Pascal principle, the pressure remain the same everywhere inside. If you find the area ratio (10/2)^2 wey be 25 and multiply am by 200 N, the force wey go come out na 5,000 N."
+},
+{
+"q": "Which of the following best explains why a sharp knife cuts more easily than a blunt one, even when the same force is applied?",
+"options": [
+"A sharp knife has a larger surface area of contact, increasing pressure",
+"A sharp knife has a smaller surface area of contact, increasing pressure",
+"A sharp knife reduces the force needed to break molecular bonds",
+"A blunt knife transmits force more efficiently through the material"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Pressure equals force divided by area, so for the same force, a smaller area of contact gives a much higher pressure. The sharp edge concentrates the force on a tiny area, making cutting easier.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx08004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Pressure na force divide by area, so small area dey give high pressure. Sharp knife get small surface area, na im make am dey cut things sharp-sharp with small force."
+},
+{
+"q": "A block of alloy weighs 60 N in air, 50 N when fully immersed in water, and 54 N when fully immersed in a certain oil. Taking the density of water as 1000 kg/m^3, calculate the density of the oil.",
+"options": [
+"400 kg/m^3",
+"500 kg/m^3",
+"600 kg/m^3",
+"700 kg/m^3"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Upthrust in water is 60-50=10 N and upthrust in oil is 60-54=6 N. Since upthrust is proportional to the density of the liquid for the same submerged volume, oil density equals (6/10) x 1000 = 600 kg/m^3.",
+"py": "(6/10)*1000",
+"values": [
+400,
+500,
+600,
+700
+],
+"id": "phyx08005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Upthrust for water na 10 N while for oil na 6 N. Since upthrust dey follow liquid density, if you multiply (6/10) by 1000 kg/m^3, you go get 600 kg/m^3 for the oil density."
+},
+{
+"q": "A balloon partly filled with gas is released from the ground and allowed to rise freely through the atmosphere without bursting. As it rises, which pair of changes correctly describes what happens to the balloon?",
+"options": [
+"Its volume decreases and the atmospheric pressure on it increases",
+"Its volume increases and the atmospheric pressure on it decreases",
+"Its volume increases and the atmospheric pressure on it also increases",
+"Its volume decreases and the atmospheric pressure on it also decreases"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "As the balloon rises, atmospheric pressure outside it falls because there is less air above. With less external pressure squeezing it, the gas inside expands, so the balloon's volume increases.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx08006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As the balloon dey go up, atmospheric pressure dey reduce because air dey scarce for top. As pressure reduce, body of the balloon go swell up, meaning say volume don increase."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A diver in a lake experiences a gauge pressure of 29,400 N/m^2 at a certain depth. If the density of the lake water is 980 kg/m^3 and g = 10 m/s^2, how deep is the diver?",
+"options": [
+"2.0 m",
+"3.0 m",
+"2.5 m",
+"3.5 m"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Pressure equals density times g times depth, so depth equals pressure divided by (density times g). This gives 29400 divided by 9800, which is 3.0 m... recompute: 29400/(980x10)=3.0 m.",
+"py": "29400/(980*10)",
+"values": [
+2.0,
+3.0,
+2.5,
+3.5
+],
+"id": "phyx08000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A rectangular block of wood of mass 3.2 kg floats upright in seawater of density 1025 kg/m^3 with a base area of 0.08 m^2 submerged. Taking g = 10 m/s^2, calculate the depth of the block submerged in the water.",
+"options": [
+"0.39 m",
+"0.31 m",
+"0.47 m",
+"0.25 m"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "At floating equilibrium, weight equals upthrust, so weight equals density of water times g times submerged volume. Submerged volume = 32/(1025x10) = 0.00312 m^3, and dividing by the base area 0.08 m^2 gives a depth of about 0.39 m.",
+"py": "(3.2*10)/(1025*10*0.08)",
+"values": [
+0.39,
+0.31,
+0.47,
+0.25
+],
+"id": "phyx08007",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

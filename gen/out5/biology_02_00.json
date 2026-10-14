@@ -1,0 +1,185 @@
+{
+"subject": "biology",
+"topic": "Cell properties: diffusion, osmosis, active transport, plasmolysis",
+"ti": 2,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A visking tubing bag containing a 1 mol/dm3 sucrose solution is tied and suspended in a beaker of distilled water. After 30 minutes, the bag is found to have increased in weight. Which process best accounts for this observation?",
+"options": [
+"Osmosis of water into the bag through the visking tubing",
+"Active transport of sucrose molecules out of the bag",
+"Simple diffusion of sucrose molecules into the surrounding water",
+"Plasmolysis of the visking tubing membrane"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Visking tubing is a selectively permeable membrane that allows water but not sucrose to pass through. Water moves in by osmosis from the dilute solution outside to the more concentrated solution inside, increasing the weight of the bag.",
+"id": "biox02000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Visking tubing na membrane wey dey allow water pass but no dey allow sucrose. Water go enter inside the bag from outside because of osmosis, and dis one go make the bag heavy."
+},
+{
+"q": "Which of the following statements correctly distinguishes active transport from diffusion in living cells?",
+"options": [
+"Active transport moves substances against a concentration gradient and requires ATP, while diffusion moves substances down a concentration gradient without using ATP",
+"Active transport occurs only in plant cells, while diffusion occurs only in animal cells",
+"Active transport requires a carrier protein, while diffusion never involves any membrane protein",
+"Active transport results in a net loss of water from the cell, while diffusion results in a net gain of water"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Active transport uses metabolic energy (ATP) to move substances from a region of lower concentration to a region of higher concentration, against the gradient. Diffusion, on the other hand, is a passive process that moves substances down their concentration gradient.",
+"id": "biox02001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Active transport dey use energy like ATP to move things against concentration gradient. Diffusion na passive process wey no dey need energy, e dey move things from where dem plenty go where dem small."
+},
+{
+"q": "A student set up three identical pieces of fresh potato tissue of equal mass and placed them separately in sugar solutions of 0.0 mol/dm3, 0.5 mol/dm3 and 1.0 mol/dm3 for one hour. The masses of the tissues were measured before and after. Which of the following results would be expected if the cell sap of the potato has a concentration close to 0.5 mol/dm3?",
+"options": [
+"The tissue in 0.0 mol/dm3 gains the most mass, the tissue in 0.5 mol/dm3 shows almost no change, and the tissue in 1.0 mol/dm3 loses mass",
+"All three tissues gain equal amounts of mass regardless of the sugar concentration",
+"The tissue in 1.0 mol/dm3 gains the most mass because it has the highest solute concentration",
+"The tissue in 0.0 mol/dm3 loses the most mass while the tissue in 1.0 mol/dm3 gains the most mass"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Water moves into the potato cells from the more dilute 0.0 mol/dm3 solution, causing a mass gain, while water moves out into the more concentrated 1.0 mol/dm3 solution, causing a mass loss. At 0.5 mol/dm3, since the cell sap concentration matches the external solution, there is little or no net movement of water, so mass stays roughly the same.",
+"id": "biox02002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Water dey enter the potato for 0.0 mol/dm3 solution, so e go gain weight. For 1.0 mol/dm3, water go comot from the potato, so e go lose weight. For 0.5 mol/dm3, nothing go change because the concentration dey equal."
+},
+{
+"q": "The root hair cells of a maize plant absorb mineral ions such as nitrate from the soil even when the soil solution has a lower concentration of these ions than the cell sap. This process mainly depends on which of the following cell structures or features?",
+"options": [
+"Large central vacuole for water storage",
+"Mitochondria supplying ATP for carrier proteins in the cell membrane",
+"Cellulose cell wall providing mechanical support",
+"Chloroplasts for photosynthesis"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Absorbing ions against their concentration gradient is active transport, which requires energy in the form of ATP. Root hair cells have many mitochondria that produce this ATP, which powers the carrier proteins moving the ions into the cell.",
+"id": "biox02003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To carry ions against concentration gradient, the cell need energy from ATP. Mitochondria for the root hair cells dey produce this ATP to help the carrier proteins move the ions inside."
+},
+{
+"q": "A thin strip of fresh carrot tissue weighing 5.0 g was placed in a salt solution for one hour. After the experiment, the strip weighed 4.2 g. What was the approximate percentage change in mass of the carrot strip?",
+"options": [
+"8% decrease",
+"16% decrease",
+"20% decrease",
+"84% decrease"
+],
+"answer": "B",
+"difficulty": "medium",
+"py": "initial=5.0\nfinal=4.2\nchange=final-initial\npercent=(change/initial)*100\nprint(percent)",
+"values": [
+5.0,
+4.2
+],
+"explanation": "The mass lost is 5.0 g minus 4.2 g, which equals 0.8 g. Dividing 0.8 g by the original mass of 5.0 g and multiplying by 100 gives a 16% decrease in mass.",
+"id": "biox02004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The weight loss na 0.8 g. If you divide 0.8 g by the original 5.0 g and multiply by 100, you go get 16% decrease."
+},
+{
+"q": "Which of the following best explains why a fully plasmolysed plant cell appears to have a gap between the cell wall and the cell membrane when viewed under a microscope?",
+"options": [
+"The cell wall dissolves in the hypertonic solution, creating a visible space",
+"The cell membrane and cytoplasm shrink away from the rigid cell wall as water leaves the cell by osmosis",
+"The cell membrane becomes more permeable and expands outward into the space",
+"Active transport pumps the cell membrane away from the cell wall"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When a plant cell is placed in a hypertonic (concentrated) solution, water leaves the cell sap by osmosis. The cell membrane and cytoplasm shrink inward, but the rigid cellulose cell wall keeps its original shape, creating a visible gap between them.",
+"id": "biox02005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When plant cell dey inside concentrated solution, water go comot from the cell. The cell membrane and cytoplasm go shrink, but the cell wall go stay firm, so space go show between dem."
+},
+{
+"q": "Four beakers, each containing 100 cm3 of solution, were set up with a model cell made of visking tubing containing starch solution suspended in each. Beaker 1 contains distilled water, beaker 2 contains a dilute salt solution, beaker 3 contains a solution with the same concentration as the cell contents, and beaker 4 contains a very concentrated salt solution. In which beaker would the model cell most likely burst if its visking tubing were as weak as a red blood cell membrane?",
+"options": [
+"Beaker 1",
+"Beaker 2",
+"Beaker 3",
+"Beaker 4"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Distilled water has the highest water potential and no solutes, so water enters the model cell by osmosis fastest and in the greatest amount, creating the highest internal pressure. If the membrane is weak like a red blood cell membrane, this beaker is most likely to cause bursting, since the other beakers have progressively less or no net water entry.",
+"id": "biox02006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Distilled water get the highest water potential, so water go rush enter the bag pass other ones. If the membrane weak, the pressure go make the bag burst quick quick."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In an experiment, two similar strips of fresh yam were placed in separate test tubes. Tube X contained a solution of glucose at 37°C, and tube Y contained the same glucose solution but at 2°C in a refrigerator. After 20 minutes, the yam strip in tube X had absorbed much more glucose into its cells than the strip in tube Y, even though both solutions had the same glucose concentration. Which explanation best accounts for this difference?",
+"options": [
+"Diffusion occurs faster at low temperature, so tube Y should have absorbed more glucose",
+"Glucose uptake in yam cells occurs mainly by active transport, which is slowed down at low temperature due to reduced respiration",
+"The cell membrane becomes more permeable to glucose at low temperature",
+"Osmosis of water into the yam cells was prevented at low temperature"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Glucose is often absorbed into cells by active transport, which depends on ATP produced during respiration. Low temperature slows down enzyme-controlled respiration, reducing ATP supply and therefore reducing the rate of active transport and glucose uptake.",
+"id": "biox02007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Temperature also affects diffusion; active transport is not established.|"
+}
+]
+}

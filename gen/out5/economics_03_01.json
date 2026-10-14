@@ -1,0 +1,201 @@
+{
+"subject": "economics",
+"topic": "Theory of demand: law of demand, determinants, shifts and movements",
+"ti": 3,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following pairs of goods best illustrates complementary goods in demand theory?",
+"options": [
+"Bread and butter",
+"Rice and beans sold separately in different shops with no link",
+"Tea and coffee",
+"Indomie noodles and Supreme noodles"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Complementary goods are used together, so a rise in the price of one reduces demand for the other. Bread and butter are consumed together, unlike the other pairs which are either substitutes or unrelated.",
+"py": null,
+"values": null,
+"id": "ecox03010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Complementary goods na things wey dem dey use together, so if price of one go up, demand for the other one go drop. Bread and butter dey go together well well, unlike the other ones wey be substitute or no get connection."
+},
+{
+"q": "A rise in the population of a town from 50,000 to 80,000 persons, with incomes and tastes unchanged, is most likely to cause which of the following in the market for garri?",
+"options": [
+"A movement up the demand curve for garri",
+"A leftward shift of the demand curve for garri",
+"A rightward shift of the demand curve for garri",
+"No change in the demand curve for garri"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Population is a determinant of demand; more people in the town means more buyers, so at every price more garri is demanded. This causes the entire demand curve to shift to the right.",
+"py": null,
+"values": null,
+"id": "ecox03011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Population na one of the things wey dey determine demand, meaning say when people plenty for town, more buyers go dey. E mean say at every price, people go demand more garri, and dis one go make the whole demand curve shift go right side."
+},
+{
+"q": "Which of the following is an example of derived demand?",
+"options": [
+"Demand for bread by households for breakfast",
+"Demand for flour by a bakery because bread is demanded by consumers",
+"Demand for sugar by a household for tea",
+"Demand for shoes by a student for school use"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Derived demand arises when a good is wanted not for its own sake but because it helps produce another good that is demanded. The bakery wants flour only because consumers demand bread, so the demand for flour is derived from the demand for bread.",
+"py": null,
+"values": null,
+"id": "ecox03012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Derived demand happen when person want something not because of itself, but because e help to produce another good wey people want. Bakery dey need flour only because consumers dey demand bread, so demand for flour come from demand for bread."
+},
+{
+"q": "In a village market, the demand schedule for oranges shows that at ₦50 each, 200 oranges are bought, and at ₦80 each, 140 oranges are bought, with all other factors unchanged. This relationship illustrates",
+"options": [
+"an exception to the law of demand",
+"the law of demand",
+"a shift in demand",
+"the law of diminishing marginal utility only"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "As price rises from 50 to 80, quantity demanded falls from 200 to 140, showing the inverse relationship between price and quantity demanded. This is exactly what the law of demand describes, with other factors held constant.",
+"py": null,
+"values": null,
+"id": "ecox03013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As price dey go up from 50 to 80, quantity wey people dey buy dey fall from 200 to 140, and dis one show the opposite relationship between price and quantity demanded. Na exactly wetin the law of demand dey talk, as other things remain constant."
+},
+{
+"q": "Okon notices that whenever the price of beef rises, more people in his neighbourhood buy chicken instead, even though their incomes and tastes have not changed. This behaviour is best explained by which determinant of demand?",
+"options": [
+"Consumer's income",
+"Price of substitute goods",
+"Consumer's taste",
+"Population size"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Beef and chicken are substitutes, so when beef becomes more expensive, consumers switch to chicken, increasing its demand. This shift is caused by a change in the price of a related substitute good, not income or taste.",
+"py": null,
+"values": null,
+"id": "ecox03014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Beef and chicken na substitute goods, so if beef price cost, people go quick change to chicken. Na change for the price of related substitute good cause dis movement, and not income or taste."
+},
+{
+"q": "A particular brand of designer wristwatch is priced very high deliberately, and some wealthy buyers demand more of it simply because of its high price, viewing it as a status symbol. This situation describes",
+"options": [
+"a Giffen good",
+"a normal good obeying the law of demand",
+"a Veblen good (ostentatious/conspicuous consumption good)",
+"a complementary good"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A Veblen good is bought more as its price rises because of the prestige or status it confers, which is an exception to the normal law of demand. This differs from a Giffen good, which rises in demand due to income effects on necessities, not status.",
+"py": null,
+"values": null,
+"id": "ecox03015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Veblen good na item wey people dey buy more as price dey increase because of status and pride, and dis one na exception to normal law of demand. E different from Giffen good wey be say poor people dey buy am more when price rise because of poverty."
+},
+{
+"q": "During the rainy season in a Nigerian city, the demand for umbrellas rises sharply even though the price of umbrellas has not changed. This change in demand is best explained by",
+"options": [
+"a change in consumer taste caused by weather conditions",
+"a movement along the demand curve due to price change",
+"an increase in the price of substitute goods",
+"a fall in the price of umbrellas"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Since the price of umbrellas is unchanged but demand still increases, the cause must be a non-price factor, here a seasonal change affecting consumer taste or preference for umbrellas. This causes the whole demand curve to shift rightward rather than a movement along it.",
+"py": null,
+"values": null,
+"id": "ecox03017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Since umbrella price never change but demand still high, na because weather change and people taste for umbrella don increase. Dis one dey make the whole demand curve shift go right side instead make movement happen for top the curve."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Suppose the demand function for oranges in a market is Qd = 240 - 4P, where Qd is quantity demanded per day and P is price in naira. If the price falls from ₦40 to ₦30 per orange, by how many units does quantity demanded increase?",
+"options": [
+"10",
+"20",
+"40",
+"80"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "At P=40, Qd = 240 - 160 = 80; at P=30, Qd = 240 - 120 = 120. The increase in quantity demanded is 120 - 80 = 40 units.",
+"py": "(240-4*30)-(240-4*40)",
+"values": [
+10,
+20,
+40,
+80
+],
+"id": "ecox03016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+}
+]
+}

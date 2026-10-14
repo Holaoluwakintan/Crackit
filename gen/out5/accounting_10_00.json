@@ -1,0 +1,238 @@
+{
+"subject": "accounting",
+"topic": "Depreciation of non-current assets and disposals",
+"ti": 10,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best explains why a provision for depreciation account is maintained separately from the asset account in the ledger?",
+"options": [
+"To show the original cost of the asset and the total depreciation charged separately",
+"To increase the value of the asset over time",
+"To record the cash received from the sale of the asset",
+"To avoid recording the asset in the balance sheet"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Keeping the two accounts separate allows the historical cost of the asset to remain unchanged while accumulated depreciation is tracked on its own account. The net book value is found by subtracting the provision for depreciation from the cost.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "accx10001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Make we keep di two accounts separate so dat di original cost of di asset go dey intact while we dey track total depreciation for hin own account. Na to minus di provision for depreciation from di cost you go take see di net book value."
+},
+{
+"q": "A company's policy is to charge a full year's depreciation in the year of purchase and none in the year of disposal. A machine bought on 1 January 2019 for ₦800,000 is depreciated at 20% per annum on cost using the straight line method. If the machine is sold on 30 June 2022, how many years of depreciation would have been charged on it by the date of disposal?",
+"options": [
+"4 years",
+"3 years",
+"2 years",
+"5 years"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since no depreciation is charged in the year of disposal, only 2019, 2020 and 2021 attract a full year's charge, giving 3 years in total. This means accumulated depreciation would be 3 x 20% x 800,000 = 480,000.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "accx10002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because company policy talk say make we no charge depreciation for di year wey we sell am, na only 2019, 2020 and 2021 go carry full year depreciation, wey make am 3 years in total. Dis mean say accumulated depreciation na 3 x 20% x 800,000 = 480,000."
+},
+{
+"q": "Which of these is NOT a recognised method of calculating depreciation taught in financial accounting?",
+"options": [
+"Straight line method",
+"Reducing balance method",
+"Revaluation method",
+"Market speculation method"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Straight line, reducing balance and revaluation are standard recognised depreciation methods. Market speculation method does not exist as an accounting method for depreciation.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "accx10003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Straight line, reducing balance and revaluation na proper depreciation methods wey dem dey teach. Market speculation method no even exist for accounting at all."
+},
+{
+"q": "Which of the following is the correct accounting entry to record the sale of a non-current asset for cash, assuming the disposal account has already received the cost and accumulated depreciation transfers?",
+"options": [
+"Debit Cash, Credit Disposal account",
+"Debit Disposal account, Credit Cash",
+"Debit Asset account, Credit Cash",
+"Debit Depreciation account, Credit Cash"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "When cash is received from selling an asset, cash increases, so it is debited, while the disposal account is credited to close off the proceeds against the cost and accumulated depreciation already posted there. This correctly completes the disposal account workings.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "accx10005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If cash enter from selling asset, cash dey increase, so na debit we go give cash, and we go credit disposal account. Dis one go make di disposal account balance correct."
+},
+{
+"q": "Why is depreciation regarded as a non-cash expense in the preparation of financial statements?",
+"options": [
+"Because it increases the cash balance of the business",
+"Because it does not involve an actual outflow of cash when charged",
+"Because it is only recorded when the asset is sold",
+"Because it represents money borrowed to buy the asset"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Depreciation simply spreads the cost of an asset over its useful life in the income statement without any cash leaving the business at the point the expense is recorded. The actual cash outflow occurred earlier, when the asset was originally purchased.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "accx10006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Depreciation just dey spread asset cost over hin useful life without any physical cash leaving di pocket when you dey record am. Na dat time wey you buy di asset before, cash bin commot."
+},
+{
+"q": "A delivery tricycle costing ₦250,000 was depreciated using the reducing balance method at 20% per annum. What is its net book value at the end of the second year?",
+"options": [
+"₦160,000",
+"₦150,000",
+"₦200,000",
+"₦180,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "After year one, book value is 250,000 - 20% of 250,000 = 200,000. After year two, book value is 200,000 - 20% of 200,000 = 160,000.",
+"py": "250000*(1-0.2)**2",
+"values": [
+160000,
+150000,
+200000,
+180000
+],
+"id": "accx10007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For year one, book value na 250,000 minus 20% of 250,000, wey give us 200,000. For year two, book value go come be 200,000 minus 20% of 200,000, wey be ₦160,000."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A company bought office equipment for ₦500,000. It is expected to be used for 5 years and then sold for ₦50,000 as scrap. Using the straight line method, what is the book value of the equipment at the end of the third year?",
+"options": [
+"₦230,000",
+"₦180,000",
+"₦270,000",
+"₦320,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Annual depreciation is (500,000 - 50,000)/5 = 90,000. After 3 years, accumulated depreciation is 270,000, so book value is 500,000 - 270,000 = 230,000. Wait, this equals the value obtained directly, which is 230,000.",
+"py": "500000 - 3*((500000-50000)/5)",
+"values": [
+230000,
+180000,
+270000,
+320000
+],
+"id": "accx10000",
+"check": {
+"s1": "A",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "Tunde's bakery bought an oven for ₦360,000. It was depreciated using the straight line method at 15% per annum on cost for 4 years before being sold for ₦180,000. What was the profit or loss on disposal?",
+"options": [
+"Profit of ₦36,000",
+"Loss of ₦36,000",
+"Profit of ₦24,000",
+"Loss of ₦24,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Annual depreciation is 15% of 360,000 = 54,000, so after 4 years accumulated depreciation is 216,000, giving a net book value of 360,000 - 216,000 = 144,000. Since the oven was sold for 180,000, this gives a profit of 36,000, meaning the correct answer reflecting the actual figures is a profit, not a loss; the computed difference of 36,000 is a profit of ₦36,000.",
+"py": "180000 - (360000 - 4*0.15*360000)",
+"values": [
+36000,
+-36000,
+24000,
+-24000
+],
+"id": "accx10004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+}
+]
+}

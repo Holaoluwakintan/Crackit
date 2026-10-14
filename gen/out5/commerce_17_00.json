@@ -1,0 +1,190 @@
+{
+"subject": "commerce",
+"topic": "Elements of marketing: marketing concept and marketing mix",
+"ti": 17,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Marketing, as a business function, is best defined as the process of:",
+"options": [
+"Identifying, anticipating and satisfying customer needs profitably",
+"Manufacturing goods in large quantities to reduce unit cost",
+"Keeping accurate records of all business transactions",
+"Recruiting and training staff to improve productivity"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Marketing is the set of activities involved in identifying customer needs and satisfying them at a profit. The other options describe production, accounting and personnel management, not marketing.",
+"py": null,
+"values": null,
+"id": "comx17000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Marketing na how person go know wetin customer want and give dem wetin go make dem happy while you still make profit. Other things like making goods or keeping record no be marketing."
+},
+{
+"q": "Alhaji Musa owns a bakery in Kano. He first finds out what type of bread his customers prefer before baking and selling it, aiming to keep them loyal and satisfied. This approach shows that Alhaji Musa is practising the:",
+"options": [
+"Production concept",
+"Selling concept",
+"Marketing concept",
+"Product concept"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The marketing concept starts with identifying customer needs before producing goods to satisfy them. This is different from the production or selling concepts, which focus on output or aggressive selling without first studying customer wants.",
+"py": null,
+"values": null,
+"id": "comx17001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Marketing concept mean say you must first find out wetin customer want before you produce. Alhaji Musa dey follow dis rule because e dey ask wetin people want before e bake bread."
+},
+{
+"q": "A fashion designer in Lagos sets the price of her native attire by first considering what her target customers are willing and able to pay, rather than just adding a fixed profit margin to her cost. This pricing approach is best described as:",
+"options": [
+"Cost-plus pricing",
+"Customer-oriented pricing",
+"Break-even pricing",
+"Loss-leader pricing"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Customer-oriented pricing bases price decisions on what buyers perceive as fair value and can afford, reflecting the marketing concept. Cost-plus pricing instead starts from production cost plus a margin, which is not what the designer did.",
+"py": null,
+"values": null,
+"id": "comx17003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Customer-oriented pricing mean say you dey look wetin customer fit pay before you set price. The designer dey do dis one because e no just add profit on top cost, e dey consider the buyer."
+},
+{
+"q": "Which of the following best illustrates the 'place' element of the marketing mix for a company producing packaged cassava flour in Benue State?",
+"options": [
+"Designing an attractive package with the company's logo",
+"Offering a 10% discount during festive periods",
+"Using distributors and supermarkets to make the flour available to consumers nationwide",
+"Running radio jingles to inform consumers about the flour's benefits"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Place refers to the distribution channels and methods used to get a product from the producer to the final consumer. Packaging, discounts and radio jingles instead relate to product, price and promotion.",
+"py": null,
+"values": null,
+"id": "comx17004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Place for marketing mix na how you go take move goods from factory reach where customer go buy am. Using distributors and supermarkets na the correct way to make sure the flour reach everywhere."
+},
+{
+"q": "A soap manufacturer wants to launch a new brand targeted at young working-class women in urban Nigeria. To apply the marketing mix effectively, the company must ensure that decisions on product, price, place and promotion are:",
+"options": [
+"Made independently by different departments without consultation",
+"Coordinated and consistent with one another to support the same target market",
+"Based solely on what competitors are doing",
+"Focused mainly on reducing production cost regardless of customer preference"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The elements of the marketing mix must be blended together consistently so that the product, its price, where it is sold and how it is promoted all support the chosen target market. Treating them independently or copying competitors blindly can create a mismatched strategy that fails to meet customer needs.",
+"py": null,
+"values": null,
+"id": "comx17005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Marketing mix elements must work together like one body so that everything go align. If you no coordinate product, price, place and promotion, your business strategy no go fit work well."
+},
+{
+"q": "A company increases the amount spent on television adverts and employs more salesmen to visit retail shops and convince them to stock its new juice brand. These activities are best classified under which element of the marketing mix?",
+"options": [
+"Product",
+"Price",
+"Place",
+"Promotion"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Promotion covers all efforts to inform and persuade customers and retailers about a product, including advertising and personal selling by salesmen. It is distinct from product design, pricing decisions and distribution arrangements.",
+"py": null,
+"values": null,
+"id": "comx17006",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Promotion na all the way wey you take dey tell people about your product so dem go buy. TV advert and using salesmen to convince shop owners na part of promotion."
+},
+{
+"q": "Two companies, X and Y, both sell bottled groundnut oil in Enugu at the same price and through the same supermarkets. Company X spends heavily on branding, quality packaging and after-sales service, while Company Y does none of these. Based on the marketing mix, Company X is most likely to gain an advantage mainly through superior:",
+"options": [
+"Place strategy",
+"Price strategy",
+"Product strategy",
+"Promotion budget alone"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Branding, packaging and after-sales service are features of the product element of the marketing mix, not price or place, since both companies are equal there. Since promotion is not mentioned as different, the advantage comes from a stronger overall product offering.",
+"py": null,
+"values": null,
+"id": "comx17007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Branding, packaging and after-sales service na part of product strategy. Since the price and place na the same for both companies, Company X dey win because their product get better value."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A company adopting the selling concept is most likely to:",
+"options": [
+"Study customer needs before designing a product",
+"Focus on aggressive advertising and persuasion to sell what it has already produced",
+"Set prices based purely on competitors' prices",
+"Choose distribution channels based on customer convenience",
+"placeholder"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The selling concept assumes customers will not buy enough unless the firm pushes sales through aggressive promotion, regardless of whether the product truly matches customer needs. This differs from the marketing concept, which starts with customer research.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+}
+]
+}

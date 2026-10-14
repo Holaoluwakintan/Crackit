@@ -1,0 +1,194 @@
+{
+"subject": "geography",
+"topic": "Vegetation and soils of the world",
+"ti": 12,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "The coniferous forest belt (taiga), stretching across Northern Canada, Scandinavia and Siberia, is dominated by trees such as pine, spruce and fir. Which of the following best explains why these trees have narrow, needle-shaped leaves?",
+"options": [
+"To increase the rate of photosynthesis during the short summer",
+"To reduce water loss and withstand heavy snow load during long cold winters",
+"To attract more insects for pollination throughout the year",
+"To absorb more sunlight during the brief periods of darkness"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Needle-shaped leaves have a small surface area, which reduces transpiration in the dry cold winter and allows snow to slide off easily. This is an adaptation to the harsh, cold, dry conditions of the taiga climate.",
+"py": null,
+"values": null,
+"id": "geox12000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Needle-shaped leaves get small surface area, so water no dey commot quick. E still dey help snow make e slide commot so the tree no go break for cold winter."
+},
+{
+"q": "A student observes that a particular soil type is sandy, very thin, poorly developed and almost without organic matter, found on steep rocky slopes where erosion is rapid and weathering has barely begun. This soil is best classified as a(n)",
+"options": [
+"Zonal soil",
+"Azonal soil",
+"Intrazonal soil",
+"Alluvial soil"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Azonal soils are young, shallow and poorly developed because erosion or deposition prevents proper horizon formation. They are common on steep slopes and are not controlled mainly by climate, unlike zonal soils.",
+"py": null,
+"values": null,
+"id": "geox12001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Azonal soils na young soil wey no get proper layer because erosion dey disturb am. Dem no dey depend on climate like zonal soils, na why dem dey common for steep slopes."
+},
+{
+"q": "Steppe (temperate grassland) vegetation, found in regions such as the Eurasian plains, differs from tropical savanna mainly in that steppe",
+"options": [
+"has scattered trees mixed with tall elephant grass",
+"occurs in areas with hot wet summers and heavy year-round rainfall",
+"consists mainly of short grasses with few or no trees due to low rainfall and cold winters",
+"is found only near the equator where temperatures are constantly high"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Steppe grassland grows in temperate interior regions with low rainfall and cold winters, so it lacks trees and consists of short grasses. This distinguishes it from the tropical savanna, which has tall grass and scattered trees under a hot climate.",
+"py": null,
+"values": null,
+"id": "geox12002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Steppe grassland dey grow for place wey rain no too fall and winter dey cold, so tree no fit grow there. Na only short grass dey, unlike savanna wey get tall grass and tree."
+},
+{
+"q": "In the tropical rainforest, a distinct feature is the arrangement of trees into different heights forming layers, with the tallest trees rising above the general canopy. What is this layered structure called?",
+"options": [
+"Undergrowth",
+"Stratification",
+"Transpiration canopy",
+"Epiphytic zone"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Stratification refers to the arrangement of forest vegetation into distinct layers, such as emergent trees, canopy, understorey and ground layer. This layering is a key identifying feature of tropical rainforest structure.",
+"py": null,
+"values": null,
+"id": "geox12003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Stratification mean say forest get different layers like canopy and undergrowth. Na this arrangement make rainforest look like say e get levels."
+},
+{
+"q": "A geography field report describes a tropical soil that is deep, intensely leached, rich in iron and aluminium oxides, poor in plant nutrients, and which hardens irreversibly into a brick-like material when repeatedly exposed to the sun after vegetation is cleared. This process of hardening is called",
+"options": [
+"Podzolisation",
+"Ferrallitisation",
+"Laterisation",
+"Salinisation"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Laterisation is the process by which exposed tropical soils, rich in iron and aluminium oxides, harden into a tough brick-like crust on repeated drying by the sun. This differs from podzolisation, which occurs in cold coniferous regions, and from salinisation, which involves salt accumulation.",
+"py": null,
+"values": null,
+"id": "geox12004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Laterisation na when tropical soil wey get iron and aluminium oxide dry under sun and turn hard like brick. This one different from other soil process because of how e dey harden."
+},
+{
+"q": "Tundra vegetation, found in the Arctic regions beyond the taiga, is characterised mainly by mosses, lichens and small shrubs rather than tall trees. The main climatic reason for the absence of tall trees in this region is",
+"options": [
+"excessive rainfall causing waterlogging throughout the year",
+"a permanently frozen subsoil and very short, cool growing season",
+"extremely high temperatures that scorch tree roots",
+"strong ocean currents that erode tree roots constantly"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The tundra has permafrost, a permanently frozen layer below the surface, and only a very short cool summer for growth. These conditions prevent deep root growth and the development of tall trees, favouring mosses, lichens and dwarf shrubs instead.",
+"py": null,
+"values": null,
+"id": "geox12005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Tundra get permafrost, meaning ground dey frozen always, and summer time too short. Tree no fit grow long root for there, so na only moss and small shrub fit survive."
+},
+{
+"q": "Chidinma is studying a world vegetation map and notices a belt of short, tough, drought-resistant shrubs with thick waxy leaves located on the western margins of continents between about 30° and 40° North and South, where summers are hot and dry while winters are mild and wet. This vegetation type is known as",
+"options": [
+"Monsoon forest",
+"Mediterranean scrub (maquis)",
+"Tropical savanna",
+"Equatorial rainforest"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Mediterranean scrub, also called maquis, consists of drought-resistant shrubs with thick waxy leaves adapted to hot dry summers and mild wet winters. This vegetation is typical of the 30 to 40 degree latitude belts on the western sides of continents.",
+"py": null,
+"values": null,
+"id": "geox12006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Mediterranean scrub get tough leaves to survive hot dry summer and mild wet winter. You go see this kind vegetation for western side of continents for 30 to 40 degree latitude."
+},
+{
+"q": "A soil scientist studying a tropical black soil (vertisol) formed from basaltic parent rock in a region with marked wet and dry seasons notes that the soil develops deep cracks during the dry season as it shrinks, then swells and closes up again when wet. This swelling and shrinking behaviour is mainly due to the soil's high content of",
+"options": [
+"Quartz sand particles",
+"Humus and decomposed leaf litter",
+"Clay minerals that absorb and release water",
+"Calcium carbonate nodules"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Vertisols are rich in expanding clay minerals that absorb water and swell in the wet season, then shrink and crack as they dry out. This shrink-swell behaviour, not sand, humus or calcium carbonate, is the defining property of these black tropical soils.",
+"py": null,
+"values": null,
+"id": "geox12007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Vertisols get special clay wey dey swell when rain fall and shrink when sun hot. This movement na wetin dey cause the deep cracks wey you dey see for the ground."
+}
+],
+"rejected": []
+}

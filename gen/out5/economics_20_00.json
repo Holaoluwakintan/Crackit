@@ -1,0 +1,172 @@
+{
+"subject": "economics",
+"topic": "Labour market: wages, unemployment and trade unions",
+"ti": 20,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In a certain labour market, the equilibrium wage is ₦45 per hour. The government fixes a minimum wage of ₦60 per hour. At this minimum wage, 2,000 workers are willing to work but only 1,400 are demanded by employers. What is the size of the resulting unemployment (labour surplus)?",
+"options": [
+"600 workers",
+"1,400 workers",
+"2,000 workers",
+"3,400 workers"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Unemployment caused by a minimum wage above equilibrium equals quantity supplied minus quantity demanded, that is 2000 - 1400 = 600. This surplus of labour represents those willing to work but unable to find jobs at that wage.",
+"py": "2000-1400",
+"values": [
+600,
+1400,
+2000,
+3400
+],
+"id": "ecox20002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If government put minimum wage high pass where market balance, plenty people go wan work. Na to minus the 1,400 people wey employers want from the 2,000 workers wey ready to work, e come give us 600 workers surplus."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Disguised unemployment is best illustrated by a situation where",
+"options": [
+"a graduate is actively searching for a job but cannot find one",
+"workers are laid off because a factory machine breaks down",
+"more workers are employed on a task than are actually needed, so removing some does not reduce total output",
+"a worker resigns to relocate to another state with his family",
+"a seasonal farm worker is idle during the dry season"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Disguised unemployment occurs when the number of workers on a job exceeds what is needed, so their marginal contribution to output is effectively zero. This differs from open unemployment, where a person is clearly without any job.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A firm in Jos pays its workers a wage of ₦3,000 per day. At this wage, the marginal revenue product (MRP) of the last worker employed is ₦3,800, while the worker before that has an MRP of ₦3,200. According to the marginal productivity theory of wages, what should a profit-maximising firm do?",
+"options": [
+"Reduce output immediately to avoid losses",
+"Continue employing more workers since MRP still exceeds the wage rate",
+"Stop employing new workers because MRP already equals the wage rate",
+"Reduce the wage rate below ₦3,000 to increase profit",
+"Dismiss all current workers and automate production"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A firm maximises profit by hiring workers up to the point where MRP equals the wage rate. Since MRP (₦3,800) is still above the wage (₦3,000), it is profitable to employ more workers until MRP falls to ₦3,000.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following is a major cause of structural unemployment in Nigeria?",
+"options": [
+"Workers taking annual leave during the Christmas period",
+"A decline in demand for a product that leads to temporary seasonal lay-offs",
+"A mismatch between the skills workers have and the skills required by available jobs due to changes in technology",
+"Workers voluntarily resting between jobs while searching for better offers",
+"Workers migrating from farms to look for better pay in cities"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Structural unemployment arises when there is a long-term mismatch between workers' skills and the requirements of available jobs, often due to changes in technology or industry decline. This differs from seasonal or frictional unemployment, which are temporary in nature.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Compulsory arbitration in industrial relations occurs when",
+"options": [
+"workers and management reach an agreement through free and open discussion",
+"a neutral third party is legally empowered to investigate a dispute and impose a binding settlement on both parties",
+"workers decide on their own to end a strike without external pressure",
+"employers unilaterally raise wages to prevent a planned strike",
+"the government bans trade unions from existing in an industry"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Compulsory arbitration means a third party, often appointed by law, is given power to settle a dispute and its decision is binding on both the employer and the union. This is different from collective bargaining, where both sides negotiate directly.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A trade union in a textile industry negotiates successfully for a wage increase above the competitive equilibrium level. Which of the following is the most likely consequence in the short run, assuming labour demand is elastic?",
+"options": [
+"Total employment in the industry rises sharply",
+"The number of workers employed falls as firms cut back on labour use",
+"Firms will immediately double their workforce to boost output",
+"The wage increase has no effect on the quantity of labour demanded",
+"The supply of labour becomes perfectly inelastic"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "When labour demand is elastic, a wage above equilibrium leads to a proportionately larger fall in the quantity of labour demanded, so employment decreases. Firms respond to higher wage costs by hiring fewer workers to protect profits.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following best explains why wages differ between a medical doctor and an unskilled labourer in the same city?",
+"options": [
+"Unskilled labourers always work longer hours than doctors",
+"Doctors require long years of training, making their labour supply scarce relative to demand, which raises their wage",
+"The government fixes different minimum wages for every profession",
+"Unskilled labour has no supply curve",
+"Doctors are paid more because their job is less risky"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Wage differentials often reflect differences in skill, training and scarcity of labour. Since becoming a doctor requires many years of specialised training, the supply of doctors is limited relative to demand, pushing their wages higher than those of unskilled workers.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following is a basic function of a trade union that is NOT primarily concerned with wage bargaining?",
+"options": [
+"Provision of welfare benefits and legal protection to members during disputes",
+"Fixing the exchange rate of the naira against foreign currencies",
+"Determining the national budget deficit of the government",
+"Setting the prime lending rate of commercial banks"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Trade unions provide welfare services, legal aid and support to members beyond just negotiating wages. The other options are macroeconomic functions handled by government and the central bank, not trade unions.",
+"py": null,
+"values": null,
+"id": "ecox20000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Distractors are obvious giveaways."
+}
+]
+}

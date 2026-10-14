@@ -1,0 +1,160 @@
+{
+"subject": "government",
+"topic": "Colonial administration: indirect rule, British and French policies",
+"ti": 10,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In British colonial terminology, the term 'Native Authority' referred to which of the following?",
+"options": [
+"The local ruler or council officially recognised and empowered to exercise authority on behalf of the colonial government",
+"A committee of British district officers who supervised all native courts",
+"An association formed by educated elites to oppose colonial rule",
+"A group of missionaries given powers to collect taxes in rural areas"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Native Authority was the traditional ruler or council legally recognised by the British to perform administrative, judicial and tax functions under Indirect Rule. It was the key local instrument through which colonial policies were implemented.",
+"values": null,
+"py": null,
+"id": "govx10000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Native Authority na di traditional ruler or council wey British government recognise legally make dem fit help run administration, court matter, and tax collection under Indirect Rule. Na im be di main local tool wey dem take dey do colonial work."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of these functions was NOT typically carried out by a Native Authority under the British Indirect Rule system?",
+"options": [
+"Maintaining a native treasury and collecting local taxes",
+"Settling minor disputes through native courts",
+"Maintaining local police and prisons",
+"Negotiating international trade treaties on behalf of the colony",
+"placeholder"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Native Authorities handled local administrative matters such as tax collection, courts and local policing. International treaty-making remained strictly a power of the colonial government, not local chiefs.",
+"values": null,
+"py": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "One key feature that distinguished the British policy of Indirect Rule from the French system of Direct Rule was that the British, unlike the French, generally",
+"options": [
+"abolished all traditional titles and replaced them with appointed civil servants",
+"retained and worked through existing traditional rulers and institutions wherever possible",
+"granted full citizenship rights to all colonial subjects immediately",
+"placed all colonies under a single centralised governor-general with no local councils",
+"placeholder2"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Indirect Rule worked through existing chiefs and traditional institutions as local agents of government. The French, by contrast, preferred direct administration through appointed French officials with little regard for existing authority structures.",
+"values": null,
+"py": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A Nigerian history teacher explains that under British Indirect Rule, the colonial government retained certain powers exclusively in its own hands while leaving other matters to the Native Authorities. Which of the following best falls under the powers reserved strictly for the colonial government?",
+"options": [
+"Defence, external relations and overall legislative control of the colony",
+"Settlement of land disputes between individual farmers in a village",
+"Appointment of village heads to minor chieftaincy stools",
+"Collection of local market tolls and village sanitation levies",
+"placeholder3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Even under Indirect Rule, the colonial power never surrendered control over defence, foreign affairs and overall law-making. These remained firmly with the British government while day-to-day local matters were left to Native Authorities.",
+"values": null,
+"py": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "In French West Africa, administrative power flowed from Paris through a Governor-General down to individual colonies, and finally to local 'commandants de cercle'. What was the main role of a commandant de cercle in this structure?",
+"options": [
+"He served as an elected representative of the local people in the French parliament",
+"He was a French official who directly administered a district, bypassing traditional rulers' independent authority",
+"He was a traditional chief given the title by the Governor-General to rule indirectly",
+"He supervised assimilated African citizens living only in the Four Communes",
+"placeholder4"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A commandant de cercle was a French-appointed official placed directly in charge of a district, exercising real administrative, judicial and tax powers himself. Traditional chiefs, where retained, served merely as his assistants rather than independent rulers.",
+"values": null,
+"py": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A key economic feature shared by both British and French colonial administrations in West Africa was the use of which method to fund the running of local administration?",
+"options": [
+"Direct grants from the League of Nations",
+"Forced direct taxation and labour levies imposed on the local population",
+"Voluntary donations from traditional rulers only",
+"Loans obtained exclusively from local indigenous banks",
+"placeholder5"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Both colonial powers relied heavily on direct taxation and compulsory labour from Africans to finance administration and public works. This was a common feature of colonial rule despite differences in political structure.",
+"values": null,
+"py": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A student argues that Indirect Rule, though designed to preserve African political traditions, actually weakened the traditional authority of some chiefs in the long run. Which of the following best supports this argument?",
+"options": [
+"Chiefs who enforced unpopular colonial policies like taxation lost the respect and loyalty of their people",
+"Chiefs were given more land and wealth than before colonial rule began",
+"Chiefs were allowed to form independent armies to resist colonial control",
+"Chiefs became completely immune from any colonial supervision or dismissal",
+"placeholder6"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Because chiefs under Indirect Rule had to implement unpopular colonial measures such as taxes, many lost legitimacy in the eyes of their own people who saw them as colonial agents. This damaged the traditional respect once attached to their office.",
+"values": null,
+"py": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Comparing the two colonial systems, a historian notes that French colonies sent elected deputies to the French National Assembly in Paris, while British colonies generally did not send representatives to the British Parliament. What does this difference best illustrate?",
+"options": [
+"The French treated their colonies as extensions of France itself, while the British treated their colonies as separate dependent territories",
+"The British gave Africans more political rights than the French did",
+"Both powers had identical views on the political status of their colonial subjects",
+"The French refused any political participation to Africans throughout their rule",
+"placeholder7"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "France's policy of Assimilation treated colonies as integral parts of France, hence some colonial subjects could be represented in the French parliament. Britain, however, kept its colonies as separate entities administered through local structures rather than integrating them into the British legislature.",
+"values": null,
+"py": null
+},
+"why": "bad-shape"
+}
+]
+}

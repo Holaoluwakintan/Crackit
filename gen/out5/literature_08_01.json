@@ -1,0 +1,188 @@
+{
+"subject": "literature",
+"topic": "Appreciation of an original short unseen prose or drama extract (quote a short original extract in the question)",
+"ti": 8,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Read the extract below and answer the question that follows:\n\n'The old fisherman's hands, cracked like dry riverbeds, trembled as he cast his net one last time. The river had given him nothing for seven days, yet he returned each dawn, bowing to the water as a man bows to a stubborn god.'\n\nThe phrase 'bowing to the water as a man bows to a stubborn god' is an example of which figure of speech?",
+"options": [
+"Simile",
+"Metaphor",
+"Personification",
+"Hyperbole"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The phrase uses 'as' to compare the fisherman's action to bowing before a god, which is a direct comparison using 'as', making it a simile. There is no claim that the water IS a god, so it is not a metaphor.",
+"values": null,
+"id": "litx08010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dis sentence use 'as' to compare how the man dey bow to water with how pesin dey bow to god. Na simile be dat because dem use 'as' do direct comparison."
+},
+{
+"q": "Read the extract below and answer the question that follows:\n\n'Deborah had promised herself she would never cry in front of her stepchildren. But when little Ifeoma slipped her small hand into hers and whispered, \"Mummy Debbie, I made this for you,\" the tears came anyway, hot and unashamed, carving paths down her powdered cheeks.'\n\nWhat does this extract chiefly reveal about Deborah's character?",
+"options": [
+"She is a cruel and heartless stepmother",
+"Her tough exterior hides deep tenderness and emotion",
+"She regrets marrying into the family",
+"She is indifferent to the children's feelings"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Although Deborah tries to appear strong and unemotional, the child's affection breaks through her resolve, showing that she is actually warm and tender beneath her guarded surface. The other options contradict the clear evidence of her tears of joy.",
+"values": null,
+"id": "litx08011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Even though Deborah dey try look strong, di pikin sweet love make her soft inside. E show say she get better heart under all her strong face."
+},
+{
+"q": "Read the extract below and answer the question that follows:\n\n'Three market days had passed since the news of the coup reached Owerri. Baba Silas sat by his radio from cockcrow to dusk, his ear pressed so close to the speaker that his wife joked he wanted to crawl inside it. Meanwhile, in Lagos, soldiers were already dragging ministers from their beds, though Owerri would not learn this until much later.'\n\nWhich narrative technique is most evident in the way information about Lagos is presented to the reader before Owerri learns of it?",
+"options": [
+"Flashback",
+"Dramatic irony",
+"Stream of consciousness",
+"Foreshadowing"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The reader is told what is happening in Lagos while the characters in Owerri remain unaware of it, creating a gap between the reader's knowledge and the characters' knowledge. This gap in awareness is the essence of dramatic irony.",
+"values": null,
+"id": "litx08012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Reader know wetin dey happen for Lagos before di pipo for Owerri know. Dis kind style where reader know pass characters na dramatic irony."
+},
+{
+"q": "Read the extract below and answer the question that follows:\n\n'Night fell over the village like a heavy blanket, smothering every sound except the distant throb of talking drums. Somewhere beyond the forest, an owl shrieked twice, and old Pa Micheal shivered, remembering his grandmother's warning about the messengers of death.'\n\nThe owl's shriek in this extract most likely functions as",
+"options": [
+"comic relief to lighten the mood of the extract",
+"an omen foreshadowing misfortune or death",
+"a symbol of the village's prosperity",
+"evidence of the narrator's unreliable memory"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In many African prose works, the owl's cry at night is traditionally associated with death or bad news, and Pa Micheal's fearful reaction to his grandmother's warning confirms this ominous function. It is not meant to amuse or symbolise wealth.",
+"values": null,
+"id": "litx08014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For our African tradition, when owl cry for night, na bad sign or death dem dey take am for. Na why Pa Micheal fear when e remember wetin im grandmotah tok."
+},
+{
+"q": "Read the drama extract below and answer the question that follows:\n\nBARRISTER EJIRO: (To the court, pacing slowly) My Lord, is it a crime to be poor? Is it a crime to beg for bread when the factory that fed this town for thirty years is shut by greedy hands? I ask you, My Lord, I ask this court, I ask the very walls of this room!\n\nThe repetition of the phrase 'I ask' in Barrister Ejiro's speech is an example of which stylistic device, and what effect does it create?",
+"options": [
+"Anaphora; it builds rhetorical intensity and emphasis",
+"Alliteration; it creates a musical sound pattern",
+"Antithesis; it contrasts two opposing ideas",
+"Apostrophe; it addresses an absent person"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Anaphora is the deliberate repetition of a word or phrase at the beginning of successive clauses, and here it builds emotional and rhetorical force as Ejiro appeals passionately to the court. It is not alliteration since that involves repeated consonant sounds, not repeated phrases.",
+"values": null,
+"id": "litx08015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When pesin repeat word for front of sentence like dat, we dey call am anaphora. E dey make di speech sweet for ear and bring plenty energy."
+},
+{
+"q": "Read the extract below and answer the question that follows:\n\n'Mrs. Adaeze ran the small provisions shop with the precision of a soldier commanding troops. Every tin of milk stood at attention on its shelf, every price tag aligned to the millimetre, and customers who dared to disturb her arrangement were met with a stare that could curdle fresh milk.'\n\nWhich two literary devices work together in this extract to characterize Mrs. Adaeze?",
+"options": [
+"Simile and hyperbole",
+"Metaphor and onomatopoeia",
+"Irony and pun",
+"Flashback and symbolism"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The comparison 'with the precision of a soldier' is a simile, while the claim that her stare 'could curdle fresh milk' is an exaggeration, which is hyperbole. Together these devices vividly portray her strict, intimidating nature without the writer stating it directly.",
+"values": null,
+"id": "litx08016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di writer use 'like soldier' wey be simile, and talk say her look fit turn milk bad, wey be hyperbole. Both of dem join hand explain how strict she be."
+},
+{
+"q": "Read the extract below and answer the question that follows:\n\n'I am the silence after the gunshot. I am the question no elder dares to answer. I am the child who asked why the river ran red that August, and was told, simply, to go and sleep.'\n\nFrom whose point of view is this extract narrated, and what is the main effect of this choice?",
+"options": [
+"Third-person omniscient; it gives an objective, all-knowing account of events",
+"First-person; it creates a personal, intimate voice that heightens the emotional impact",
+"Second-person; it directly instructs the reader on how to feel",
+"Third-person limited; it restricts information to one external observer"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The repeated use of 'I' shows that the narrator is speaking from personal experience as the child in the story, which is first-person narration. This choice draws the reader closer to the narrator's private pain and confusion, making the account feel intimate and immediate.",
+"values": null,
+"id": "litx08017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na first-person narrator because di pesin dey use 'I'. Dis one make us feel di pain for heart and enta di story well well."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Read the drama extract below and answer the question that follows:\n\nMADAM RISIKAT: (Wringing her hands, voice shaking) They have taken my only son to that place of iron bars. My son! The one who used to carry my basket to the market every Saturday morning. Tell me, neighbours, what crime is kindness? What crime is being born poor in a rich man's town?\n\nThe underlined rhetorical question in Madam Risikat's speech chiefly serves to",
+"options": [
+"request factual information from the neighbours",
+"express her helplessness and appeal for sympathy",
+"accuse the neighbours of betraying her son",
+"announce her intention to abandon her son"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Madam Risikat is not genuinely seeking an answer about the nature of crime; she is voicing her anguish and drawing sympathy from those listening. Rhetorical questions like this are used for emotional emphasis rather than to elicit real answers.",
+"values": null,
+"id": "litx08013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:No rhetorical question is underlined; both support B.|"
+}
+]
+}

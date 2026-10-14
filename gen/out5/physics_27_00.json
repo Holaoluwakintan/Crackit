@@ -1,0 +1,241 @@
+{
+"subject": "physics",
+"topic": "Fluids: surface tension, viscosity and fluid flow",
+"ti": 27,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which property of a fluid is responsible for the formation of a spherical shape by a small raindrop falling freely in air?",
+"options": [
+"Viscosity",
+"Surface tension",
+"Buoyancy",
+"Capillarity"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Surface tension causes the liquid surface to behave like a stretched elastic skin, minimising surface area, which gives a sphere for a given volume. Viscosity resists flow but does not cause this shape.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx27001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na surface tension dey make water drop form round shape like ball because e dey make the liquid surface tight like rubber. E dey reduce surface area make the volume remain constant."
+},
+{
+"q": "Water flows steadily through a horizontal pipe that narrows from a wide section of cross-sectional area 8 cm^2 to a narrow section of area 2 cm^2. If the speed of water in the wide section is 0.5 m/s, what is the speed in the narrow section?",
+"options": [
+"0.5 m/s",
+"2.0 m/s",
+"4.0 m/s",
+"1.0 m/s"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "By the equation of continuity, A1v1 = A2v2, so v2 = (8x0.5)/2 = 2.0 m/s. The narrower section must have a higher speed to keep the volume flow rate constant.",
+"py": "8*0.5/2",
+"values": [
+0.5,
+2.0,
+4.0,
+1.0
+],
+"id": "phyx27003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "We go use equation of continuity A1v1 = A2v2 to find am. When we calculate (8 x 0.5) divide by 2, we go get 2.0 m/s for the narrow side."
+},
+{
+"q": "A liquid flows through a uniform horizontal pipe such that the volume flow rate is 4.0 x 10^-4 m^3/s. If the cross-sectional area of the pipe is 2.0 x 10^-4 m^2, what is the speed of the liquid in the pipe?",
+"options": [
+"0.5 m/s",
+"2.0 m/s",
+"8.0 m/s",
+"0.8 m/s"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Volume flow rate Q = Av, so v = Q/A = 4.0x10^-4 / 2.0x10^-4 = 2.0 m/s. This follows directly from the flow rate formula.",
+"py": "4.0e-4/2.0e-4",
+"values": [
+0.5,
+2.0,
+8.0,
+0.8
+],
+"id": "phyx27006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find the speed, we use formula Q = Av, where v = Q/A. If we divide 4.0 x 10^-4 by 2.0 x 10^-4, we go get 2.0 m/s straight."
+},
+{
+"q": "A small plastic ball is dropped into a tall column of glycerine. As it falls, its speed increases at first but soon becomes constant. Which of the following best explains why the speed becomes constant?",
+"options": [
+"The weight of the ball reduces as it falls",
+"The upward viscous drag and upthrust together balance the weight of the ball",
+"Surface tension of the glycerine pulls the ball upward",
+"The ball reaches the bottom of the container"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "As speed increases, viscous drag (which depends on velocity) increases until, together with the upthrust, it balances the constant weight of the ball, giving zero net force and constant terminal velocity. Surface tension and weight loss are not relevant here.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx27007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As the ball dey fall inside glycerine, the upward viscous drag and upthrust go join body balance the downward weight. Once dem balance, net force turn zero and the ball speed go con constant."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A capillary tube of internal radius 0.5 mm is dipped vertically into water of surface tension 7.2 x 10^-2 N/m. If water wets the glass completely (angle of contact = 0°) and the density of water is 1000 kg/m^3, calculate the height to which water rises in the tube. (g = 10 m/s^2)",
+"options": [
+"1.44 cm",
+"2.88 cm",
+"0.72 cm",
+"14.4 cm"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Using h = 2T/(rhogr) = 2(0.072)/(1000x10x0.0005) = 0.0144 m = 1.44 cm. This is the standard capillary rise formula with cos0 = 1.",
+"py": "2*0.072/(1000*10*0.0005)*100",
+"values": [
+1.44,
+2.88,
+0.72,
+14.4
+],
+"id": "phyx27000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A steel ball of radius 2 mm falls through a thick oil and attains a terminal velocity of 0.05 m/s. If the density of steel is 7800 kg/m^3, density of oil is 900 kg/m^3 and g = 10 m/s^2, estimate the coefficient of viscosity of the oil using Stokes' law, eta = 2r^2g(rho_ball - rho_fluid)/(9v).",
+"options": [
+"1.23 Pa.s",
+"2.45 Pa.s",
+"0.61 Pa.s",
+"12.3 Pa.s"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "eta = 2(0.002)^2(10)(7800-900)/(9x0.05) = 2x4e-6x10x6900/0.45 = 0.552/0.45 = 1.23 Pa.s. Substituting the values carefully gives this result from Stokes' law.",
+"py": "2*(0.002**2)*10*(7800-900)/(9*0.05)",
+"values": [
+1.23,
+2.45,
+0.61,
+12.3
+],
+"id": "phyx27002",
+"check": {
+"s1": "A",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:B"
+},
+{
+"q": {
+"q": "In Bernoulli's equation for an incompressible fluid in streamline flow, which quantity remains constant along a streamline?",
+"options": [
+"The velocity of the fluid alone",
+"The pressure of the fluid alone",
+"The sum of pressure energy, kinetic energy and potential energy per unit volume",
+"The density of the fluid alone"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Bernoulli's principle states that the total mechanical energy per unit volume, made up of pressure energy, kinetic energy and potential energy, stays constant along a streamline for an ideal fluid. Velocity, pressure and density individually can all change.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx27004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:D is also constant for an incompressible fluid.|"
+},
+{
+"q": {
+"q": "Two identical capillary tubes are dipped into the same liquid. Tube X has half the internal radius of tube Y. Compared with the rise of liquid in tube Y, the rise in tube X is",
+"options": [
+"the same as in Y",
+"half of that in Y",
+"twice that in Y",
+"four times that in Y"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Capillary rise h is inversely proportional to the radius of the tube, h = 2T/(rhogr). Halving the radius doubles the height of rise, since all other quantities stay the same.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx27005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Tubes cannot be identical if their internal radii differ.|"
+}
+]
+}

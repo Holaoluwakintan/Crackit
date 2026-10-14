@@ -1,0 +1,160 @@
+{
+"subject": "government",
+"topic": "Citizenship, public opinion and political socialisation",
+"ti": 7,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is a key difference between a citizen and an alien in Nigeria?",
+"options": [
+"A citizen can vote and be voted for while an alien cannot",
+"A citizen pays taxes while an alien does not",
+"A citizen can own property while an alien cannot",
+"A citizen can reside in the country while an alien cannot"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Only citizens enjoy full political rights such as voting and contesting elections. Aliens may own property, reside and pay taxes but are excluded from political participation rights reserved for citizens.",
+"id": "govx07010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na only citizen get right to vote or contest for election. Even if alien get property or pay tax, dem no get power to participate for politics."
+},
+{
+"q": "A new graduate who has just obtained her voter's card immediately joins a political party, attends ward meetings and volunteers during elections. This behaviour best illustrates which stage or outcome of political socialisation?",
+"options": [
+"Political alienation",
+"Political apathy",
+"Political participation",
+"Political neutrality"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Political participation refers to active involvement in political activities such as joining parties and voting. Her actions show she has been positively socialised into taking an active role in politics, unlike apathy or alienation which involve withdrawal.",
+"id": "govx07012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When person join party and follow do election work, na political participation be dat. E show say the person get interest for how country dey run, e no be apathy."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best explains why peer groups are regarded as important agents of political socialisation among adolescents?",
+"options": [
+"They provide financial support for political campaigns",
+"They legally register members as voters",
+"They influence attitudes and values through constant interaction and shared opinions",
+"They formally teach the constitution in structured classes",
+"",
+""
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Peer groups shape political attitudes informally through everyday interaction, discussion and example among age-mates. They do not have legal powers to register voters or formally teach civics like schools do."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "In a certain state, radio stations devote daily programmes to discussing government policies, inviting citizens to call in and express their views, which are later compiled and published. This process best illustrates public opinion serving as a means of:",
+"options": [
+"Enforcing judicial decisions",
+"Checking government excesses and guiding policy",
+"Replacing the legislature's law-making function",
+"Determining the outcome of court cases",
+"",
+""
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When citizens freely express views on government actions through the media, it helps check excesses and guide leaders on public reaction to policies. Public opinion does not replace the legislature or judiciary in their constitutional roles."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following is a major limitation of using newspaper readers' opinions as a true reflection of public opinion in a country like Nigeria?",
+"options": [
+"Newspapers are owned by the government alone",
+"Many citizens cannot read or do not have access to newspapers",
+"Newspapers only report sporting events",
+"Newspaper opinions are usually unanimous",
+"",
+""
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since newspaper readership excludes illiterate citizens and those without access, opinions gathered this way exclude a large section of the population. This makes such opinion unrepresentative of the whole society, unlike claims about government ownership or sports focus."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A state government wants to introduce a new curriculum aimed at teaching pupils from an early age to respect constituted authority, appreciate national symbols and understand their civic duties. This curriculum is primarily designed to use the school as an agent of:",
+"options": [
+"Economic development",
+"Political socialisation",
+"Religious instruction",
+"Technological advancement",
+"",
+""
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Deliberately teaching civic values, respect for authority and national symbols in schools is a classic function of political socialisation. It is not primarily about economics, religion or technology."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following situations best shows how government policy itself can shape public opinion rather than merely respond to it?",
+"options": [
+"A government bans public protests, reducing citizens' willingness to criticise its policies openly",
+"A government conducts a referendum on a new constitution",
+"A government holds local elections every four years",
+"A government publishes its annual budget in national newspapers",
+"",
+""
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "By restricting protests, government directly influences how freely citizens can express opinion, thereby shaping public opinion rather than just reacting to it. Elections, referenda and budget publication are more about seeking or informing opinion, not suppressing it."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "By the provisions of the Nigerian Constitution, a person born outside Nigeria is automatically a citizen by birth if, at the time of birth, at least one of his or her grandparents was a:",
+"options": [
+"Permanent resident of Nigeria",
+"Citizen of Nigeria",
+"Holder of a Nigerian international passport",
+"Registered voter in Nigeria"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Citizenship by birth extends to children born abroad once a parent or grandparent is a Nigerian citizen. Residency, passport ownership or voter registration are not the constitutional basis for this form of citizenship.",
+"id": "govx07011",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

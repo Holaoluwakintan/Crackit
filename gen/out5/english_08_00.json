@@ -1,0 +1,186 @@
+{
+"subject": "english",
+"topic": "Pronouns and question tags",
+"ti": 8,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best completes the gap. This farmland belongs to my uncle and _____, not to the village council.",
+"options": [
+"I",
+"me",
+"myself",
+"mine"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "After the preposition to, an object pronoun is needed, so me is correct. I is a subject pronoun and cannot follow to. Myself and mine are not suitable objects of a preposition here.",
+"id": "engx08002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na 'me' suppose follow dis preposition 'to', no be 'I'. 'Myself' and 'mine' no fit follow dat 'to' for dis sentence."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap. Each of the market women must display _____ goods before the inspectors arrive.",
+"options": [
+"her",
+"their",
+"its",
+"them"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Each is singular, so it takes a singular possessive pronoun. Her agrees with each of the market women. Their would wrongly treat each as plural.",
+"id": "engx08000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Singular ‘their’ is also acceptable.|"
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap. The twins blamed _____ for the broken window after the football match.",
+"options": [
+"himself",
+"themselves",
+"each other",
+"itself"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Each other shows a mutual action between two people, the twins. Themselves would mean each twin blamed only his own self, not the other. Himself and itself do not fit a plural subject.",
+"id": "engx08001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap. Few students in the hostel can cook as well as _____.",
+"options": [
+"she",
+"her",
+"herself",
+"hers"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The comparison completes an unwritten clause, as she can cook, so the subject pronoun she is correct. Her, herself and hers cannot act as the subject of the understood verb can cook.",
+"id": "engx08003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:‘Her’ is also acceptable in ordinary usage.|"
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap. It was _____ who reported the missing textbooks to the librarian.",
+"options": [
+"him",
+"he",
+"his",
+"himself"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "After the linking expression It was, a subject pronoun is required because it complements the subject it. He is correct, while him, his and himself cannot serve as subject complements.",
+"id": "engx08004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:‘Him’ is also acceptable in ordinary usage.|"
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap. Read the following statement carefully: 'You will never pass this exam.' This is what the strange man told the confident candidate, _____?",
+"options": [
+"will he",
+"won't he",
+"will you",
+"won't you"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The main clause subject is you, and the verb is the modal will in a negative statement, so the tag must be positive and match the subject: will you. The tag refers to the reported statement's subject you, not he.",
+"id": "engx08005",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap. Dayo, together with his two sisters, washes _____ father's car every Saturday.",
+"options": [
+"their",
+"his",
+"its",
+"her"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Together with his two sisters is a parenthetical phrase, so the real subject is Dayo alone, making the verb washes singular. The possessive pronoun must also be singular and masculine, agreeing with Dayo, so his is correct.",
+"id": "engx08006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:‘Their’ works if the siblings share a father.|"
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap. Somebody left _____ umbrella in the school chapel after the Sunday service.",
+"options": [
+"their",
+"his or her",
+"themselves",
+"its"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Somebody is a singular indefinite pronoun of unknown gender, so the traditionally correct singular form is his or her. Their is informal and its is used for things, not people.",
+"id": "engx08007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Singular ‘their’ is also acceptable.|Traditional grammar prefers 'his or her' or singular masculine, but modern usage often accepts 'their'. However, in strict JAMB contexts, 'his or her' is keyed."
+}
+]
+}

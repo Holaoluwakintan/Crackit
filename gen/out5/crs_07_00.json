@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "Kings David and Solomon: achievements and failures",
+"ti": 7,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Before he became king, David served in Saul's palace in two main capacities. What were they?",
+"options": [
+"A harpist and an armour-bearer",
+"A shepherd and a prophet",
+"A priest and a judge",
+"A scribe and a tax collector"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "David played the harp to soothe Saul's troubled spirit and later became his armour-bearer. This drew him close to the royal household before he became king.",
+"id": "crsx07000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na David play harp to cool Saul spirit before e come later turn im armour-bearer. Dis one make am come near royal house before e come later become king."
+},
+{
+"q": "After Nathan confronted David over his sin, David composed a prayer of repentance that is preserved in the Book of Psalms. Which Psalm is traditionally linked with David's confession and plea for a clean heart?",
+"options": [
+"Psalm 23",
+"Psalm 51",
+"Psalm 121",
+"Psalm 1"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Psalm 51 is David's penitential prayer asking God to create in him a clean heart after his sin with Bathsheba was exposed. It shows his genuine sorrow and desire for restoration.",
+"id": "crsx07001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Psalm 51 na David prayer wey e take beg God make e create clean heart for am after wey im sin with Bathsheba open. E show say e really sorry and want make God clean am."
+},
+{
+"q": "King David wanted to build a permanent house for the Ark of the Covenant, but God, through the prophet Nathan, gave him a different instruction. What did God tell David?",
+"options": [
+"David himself would never see Jerusalem again",
+"David's son, not David, would build the temple",
+"David should first conquer all surrounding nations",
+"David must first rebuild the altar at Shiloh"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "God told David through Nathan that because he was a man of war, his son Solomon would be the one to build the temple. David instead made extensive preparations for it.",
+"id": "crsx07002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "God tell David through Nathan say because na man of war e be, na im pikin Solomon go build temple. But David still prepare plenty material for the work."
+},
+{
+"q": "Which event marked the climax of Solomon's temple-building achievement, showing that God accepted the new house of worship in Jerusalem?",
+"options": [
+"The glory of the Lord filled the temple at its dedication",
+"Solomon offered his own son as a sacrifice",
+"The Ark of the Covenant was destroyed by fire",
+"Solomon relocated the temple to Shechem"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "At the dedication of the temple, the cloud of God's glory filled the house so that the priests could not continue ministering. This showed divine approval of Solomon's completed work.",
+"id": "crsx07003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When dem dey dedicate temple, cloud of God glory full inside house reach extent wey priest dem no fit stand minister. Dis one show say God accept wetin Solomon do."
+},
+{
+"q": "One major cause of Solomon's spiritual downfall, as recorded in Scripture, was his unlawful political alliances. What practice led him into idolatry?",
+"options": [
+"Refusing to pay tribute to neighbouring kings",
+"Marrying many foreign wives who turned his heart to other gods",
+"Abolishing the temple sacrifices",
+"Appointing foreigners as high priests"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Solomon married many foreign women for political alliances, and in his old age they turned his heart to worship other gods. This disobedience provoked God's judgment on his kingdom.",
+"id": "crsx07004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Solomon marry plenty foreign wives for political reasons, and as e old, dem turn im heart make e start to dey worship other gods. Dis disobedience make God vex for im kingdom."
+},
+{
+"q": "During David's reign, a man named Uriah suffered the direct consequence of the king's sin. What was Uriah's role before David's wrongdoing against him?",
+"options": [
+"He was a Hittite soldier in David's army",
+"He was David's court musician",
+"He was a prophet in Jerusalem",
+"He was the high priest of Israel"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Uriah the Hittite was a loyal soldier fighting in David's army when David committed adultery with his wife Bathsheba. David later arranged for Uriah to die in battle to cover his sin.",
+"id": "crsx07005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Uriah the Hittite na loyal soldier for David army when David do bad thing with im wife Bathsheba. Later, David arrange make dem kill Uriah for battle to cover wetin e do."
+},
+{
+"q": "A queen from a distant land visited Solomon after hearing of his great wisdom and wealth. What was the main purpose of her visit, according to Scripture?",
+"options": [
+"To form a military alliance against Egypt",
+"To test Solomon with hard questions and see his wisdom for herself",
+"To demand tribute from Israel",
+"To request Solomon's help in building her own temple"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Queen of Sheba came to test Solomon with difficult questions after hearing reports of his wisdom. She was amazed and confessed that the reports had not told her even half of it.",
+"id": "crsx07006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Queen of Sheba come test Solomon with hard questions after she hear about im wisdom. When she reach, she shock and talk say wetin she hear no be half of wetin she eyes see."
+},
+{
+"q": "A student argues that David's reign had no lasting negative consequences because he repented of his sin with Bathsheba. Which later event in David's family life best shows this claim is mistaken?",
+"options": [
+"David's defeat of the Ammonites",
+"The famine that struck Israel for three years",
+"The rebellion and strife that arose among David's own sons",
+"David's victory song after defeating Goliath"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Despite David's genuine repentance, Nathan warned that trouble would never depart from his household, and this was fulfilled through conflict and rebellion among his sons, such as Absalom. This shows that forgiveness did not erase all earthly consequences of his sin.",
+"id": "crsx07007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Even though God forgive David, Nathan bin warn am say wahala no go commot for im house. Dis one happen true true through fight and rebellion among im pikin dem like Absalom."
+}
+],
+"rejected": []
+}

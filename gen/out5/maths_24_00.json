@@ -1,0 +1,243 @@
+{
+"subject": "maths",
+"topic": "Probability",
+"ti": 24,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A fair coin is tossed 3 times. What is the probability of getting exactly 2 heads?",
+"options": [
+"1/8",
+"3/8",
+"1/2",
+"5/8"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "There are 2^3 = 8 equally likely outcomes. The outcomes with exactly 2 heads are HHT, HTH, THH, which are 3 outcomes. So the probability is 3/8.",
+"py": "3/8",
+"values": [
+0.125,
+0.375,
+0.5,
+0.625
+],
+"id": "matx24000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Total outcome na 2 raised to power 3 wey be 8. The ones wey get exactly 2 heads na 3, so di probability na 3/8."
+},
+{
+"q": "A card is drawn at random from a well-shuffled standard deck of 52 playing cards. What is the probability that the card is a king or a queen?",
+"options": [
+"1/26",
+"2/13",
+"1/13",
+"4/13"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "There are 4 kings and 4 queens, giving 8 favourable cards out of 52. This simplifies to 8/52 = 2/13.",
+"py": "8/52",
+"values": [
+0.038461538461538464,
+0.15384615384615385,
+0.07692307692307693,
+0.3076923076923077
+],
+"id": "matx24001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "We get 4 kings and 4 queens, so join join dem together na 8 favourable cards out of 52. When you reduce 8/52, e go give you 2/13."
+},
+{
+"q": "Two events A and B are such that P(A) = 0.4, P(B) = 0.5, and A and B are independent events. Find P(A and B).",
+"options": [
+"0.9",
+"0.2",
+"0.1",
+"0.45"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "For independent events, P(A and B) equals P(A) multiplied by P(B). So P(A and B) = 0.4 x 0.5 = 0.2.",
+"py": "0.4*0.5",
+"values": [
+0.9,
+0.2,
+0.1,
+0.45
+],
+"id": "matx24004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For independent events, just multiply P(A) and P(B) together. Na 0.4 multiply by 0.5 wey give us 0.2."
+},
+{
+"q": "A fair die is rolled and a fair coin is tossed at the same time. What is the probability of obtaining a number greater than 4 on the die and a head on the coin?",
+"options": [
+"1/6",
+"1/3",
+"1/2",
+"2/3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The probability of a number greater than 4 (that is, 5 or 6) on the die is 2/6 = 1/3, and the probability of a head is 1/2. Since the two events are independent, multiply them: 1/3 x 1/2 = 1/6.",
+"py": "(2/6)*(1/2)",
+"values": [
+0.16666666666666666,
+0.3333333333333333,
+0.5,
+0.6666666666666666
+],
+"id": "matx24005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Probability of number greater than 4 for die na 2/6 which be 1/3, and for head na 1/2. Just multiply 1/3 and 1/2 together to get 1/6."
+},
+{
+"q": "A box contains 6 identical balls numbered 1 to 6. Two balls are drawn one after the other without replacement. What is the probability that both balls drawn have even numbers?",
+"options": [
+"1/5",
+"1/3",
+"1/2",
+"3/10"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "There are 3 even numbered balls (2, 4, 6) out of 6. The probability the first ball is even is 3/6, and given that, the probability the second is also even is 2/5. Multiplying gives (3/6) x (2/5) = 1/5.",
+"py": "(3/6)*(2/5)",
+"values": [
+0.2,
+0.3333333333333333,
+0.5,
+0.3
+],
+"id": "matx24007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Even numbers inside di box na 3, so first one na 3/6. Since dem no replace am, di second one na 2/5, and when you multiply dem, e go give you 1/5."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In a class of 40 students, 18 study Physics, 15 study Chemistry, and 7 study both subjects. If a student is picked at random from the class, what is the probability that the student studies Physics or Chemistry?",
+"options": [
+"33/40",
+"26/40",
+"13/20",
+"40/40"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Using the addition rule, number studying Physics or Chemistry is 18 + 15 - 7 = 26. So the probability is 26/40, which simplifies to 13/20.",
+"py": "(18+15-7)/40",
+"values": [
+0.825,
+0.65,
+0.65,
+1.0
+],
+"id": "matx24002",
+"check": {
+"s1": "B",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "Musa throws a fair six-sided die once. What is the probability that the number showing is a factor of 6?",
+"options": [
+"1/2",
+"2/3",
+"1/3",
+"5/6"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The factors of 6 between 1 and 6 are 1, 2, 3 and 6, which is 4 numbers out of 6 possible outcomes. This gives 4/6 = 2/3.",
+"py": "4/6",
+"values": [
+0.5,
+0.6666666666666666,
+0.3333333333333333,
+0.8333333333333334
+],
+"id": "matx24003",
+"check": {
+"s1": "B",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:D"
+},
+{
+"q": {
+"q": "In how many ways can 4 students be arranged in a straight line for a group photograph, and if this number represents the total possible arrangements, what is the probability that a particular student, Ngozi, is at the front of the line in a random arrangement?",
+"options": [
+"1/24",
+"1/4",
+"1/6",
+"1/12"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The total number of arrangements of 4 students is 4! = 24. The number of arrangements with Ngozi at the front is found by fixing her position and arranging the other 3 students in 3! = 6 ways, giving probability 6/24 = 1/4.",
+"py": "math.factorial(3)/math.factorial(4)",
+"values": [
+0.041666666666666664,
+0.25,
+0.16666666666666666,
+0.08333333333333333
+],
+"id": "matx24006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:There are 24 arrangements, but no option gives this; B gives the probability.|"
+}
+]
+}

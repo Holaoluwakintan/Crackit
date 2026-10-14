@@ -1,0 +1,178 @@
+{
+"subject": "government",
+"topic": "Forms of government: unitary, federal, confederal, monarchy, republic",
+"ti": 1,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In Nigeria's federal arrangement, both the Federal Government and the 36 states can make laws on certain matters such as education and agriculture. This list of shared legislative powers is called the",
+"options": [
+"Exclusive legislative list",
+"Concurrent legislative list",
+"Residual legislative list",
+"Fundamental objectives list"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The concurrent legislative list contains matters on which both the federal and state governments can legislate. The exclusive list belongs only to the centre, while residual powers belong only to the states.",
+"id": "govx01000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Concurrent legislative list na di list wey Federal and State government fit make law for inside. Exclusive list na only Federal get am, while residual list na only State get am."
+},
+{
+"q": "Which of the following is the clearest reason why a federal system is often preferred in a country with many ethnic groups, such as Nigeria?",
+"options": [
+"It removes the need for a written constitution",
+"It allows diverse groups to control local affairs while remaining united under one country",
+"It guarantees that all citizens speak one official language",
+"It prevents any form of political party competition"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Federalism allows different ethnic or regional groups to manage their own local affairs through state or regional governments while still being joined together under a central government. This balance helps manage diversity and reduce agitation for secession.",
+"id": "govx01001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Federalism allow different tribes to manage their own local matter while dem still dey one country. E dey help reduce fight and make everybody feel say dem belong."
+},
+{
+"q": "A country has a king as head of state, but the real executive power is exercised by an elected Prime Minister and Cabinet who are responsible to Parliament. This arrangement best describes a",
+"options": [
+"Absolute monarchy",
+"Theocratic monarchy",
+"Constitutional monarchy",
+"Presidential republic"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "In a constitutional monarchy, the monarch is a ceremonial head of state while actual governing power lies with elected officials like the Prime Minister. This differs from an absolute monarchy where the king or queen holds full political power.",
+"id": "govx01002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For constitutional monarchy, di king or queen na just ceremonial head, but di real power dey for hand of elected people like Prime Minister. Absolute monarchy different because di king get all di power."
+},
+{
+"q": "Which of the following is a major argument in favour of a unitary system of government over a federal system?",
+"options": [
+"It allows regions to secede freely",
+"It promotes uniform policies and avoids duplication of government functions",
+"It gives states the power to create their own constitutions",
+"It guarantees a hereditary head of state"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A unitary system concentrates power at the centre, which makes it easier to apply the same policies nationwide and avoid the cost of duplicating ministries and agencies at regional levels. Federal systems, by contrast, often involve separate structures for each unit.",
+"id": "govx01003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Unitary system put all power for center, so e dey easy to make one law for everybody. E still dey save money because you no go need duplicate ministries for every state."
+},
+{
+"q": "A republic is best distinguished from a monarchy mainly on the basis of",
+"options": [
+"The size of the country's population",
+"How the head of state emerges, whether by election or heredity",
+"Whether the country has a written constitution",
+"The number of political parties allowed"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The key difference lies in how the head of state comes to power: in a republic, the head of state is elected, while in a monarchy, the position is usually inherited. Other features like constitutions or party systems can exist in both forms of government.",
+"id": "govx01004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di main difference be say for republic, dem dey elect head of state, but for monarchy, na family line dem dey take inherit am. Other things like constitution fit dey for both."
+},
+{
+"q": "Nigeria operates as a federal republic. Which combination of features correctly justifies this description?",
+"options": [
+"Hereditary head of state and single-tier government",
+"Elected head of state and power shared between central and state governments",
+"Appointed head of state and loose alliance of independent states",
+"Elected head of state and all powers concentrated at the centre"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Nigeria is a republic because its head of state is elected, not hereditary, and it is federal because power is constitutionally divided between the central government and the states. A unitary or confederal description would not fit this dual structure.",
+"id": "govx01005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Nigeria na republic because we dey elect our president, and we be federal because power dey shared between federal and state government. If power dey only for center, e no go be federal again."
+},
+{
+"q": "A key weakness of a monarchy, especially an absolute one, as a form of government is that",
+"options": [
+"It allows frequent changes of leadership through elections",
+"Succession and policy direction may depend on one family's will rather than the people's choice",
+"It automatically guarantees fair representation of all regions",
+"It cannot have a constitution of any kind"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In an absolute monarchy, the throne and major decisions often pass within one ruling family, so citizens have little or no say in choosing their leader or shaping policy direction. This is different from republics where leaders are usually chosen through elections.",
+"id": "govx01006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For absolute monarchy, na one family dey decide everything, so people no get say for who go lead dem. E no be like republic where election dey allow people choose their leader."
+},
+{
+"q": "Two independent states, Alpha and Beta, agree to cooperate only on defence and trade, but each retains full control over its laws, currency, and the right to withdraw from the agreement at any time. This arrangement is best described as",
+"options": [
+"A unitary union",
+"A federation",
+"A confederation",
+"A constitutional monarchy"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A confederation is a loose association of independent states that cooperate on limited matters while keeping their sovereignty and the right to withdraw. This differs from a federation, where the central government has binding authority and states cannot simply leave.",
+"id": "govx01007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Confederation na loose agreement between independent countries to work together for small things like trade. Each country still get their full power and dem fit comot from di agreement anytime."
+}
+],
+"rejected": []
+}

@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "Themes from the Epistles: justification by faith, law and grace, love, spiritual gifts",
+"ti": 22,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In Romans 4, Paul uses Abraham as an example to teach justification by faith. According to this chapter, Abraham's faith was credited to him as righteousness before he was circumcised, proving that he became the father of all who believe. What does this example primarily establish?",
+"options": [
+"That circumcision is required before justification can occur",
+"That righteousness comes by believing God, not by keeping ritual law",
+"That Abraham earned righteousness through his good deeds",
+"That only circumcised people can be justified"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Paul shows Abraham was declared righteous by faith before he was circumcised, proving justification is by faith and not by ritual observance like circumcision.",
+"id": "crsx22000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Paul explain say God take Abraham righteous before e circumcision, dis show say na faith dey make person righteous, no be by ordinary ritual law."
+},
+{
+"q": "In 1 Corinthians 13:1-3, Paul says that even if he speaks with the tongues of men and angels, gives all his goods to feed the poor, and has faith to remove mountains, but has not love, he is nothing. What lesson does Paul teach through this statement?",
+"options": [
+"Spiritual gifts and sacrifice are worthless without love",
+"Tongues are the greatest spiritual gift",
+"Giving to the poor guarantees salvation",
+"Faith alone is sufficient without any other virtue"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Paul teaches that without love, even the most impressive gifts and sacrifices amount to nothing, showing love as the controlling virtue for all Christian service.",
+"id": "crsx22001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Paul dey teach us say even if you get big-big spiritual gift or do sharp sacrifice, if love no dey inside your heart, you no be anything at all."
+},
+{
+"q": "According to Galatians 5:4, what does Paul warn happens to those who seek to be justified by the law?",
+"options": [
+"They receive a double portion of grace",
+"They become stronger in their faith",
+"They are severed from Christ and fallen from grace",
+"They are given greater spiritual gifts"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Paul warns that trying to be justified by law-keeping cuts a person off from Christ and grace, since grace and law-based self-justification cannot be mixed as the basis of salvation.",
+"id": "crsx22002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Paul warn us say anybody wey wan use law save himself don cut off from Christ and grace, because grace and law-based self-justification no fit jam together."
+},
+{
+"q": "In Romans 6:14-15, Paul teaches that believers are not under law but under grace. He then asks a rhetorical question to correct a wrong conclusion some might draw from this teaching. What wrong conclusion is Paul correcting?",
+"options": [
+"That believers should return to keeping the law strictly",
+"That being under grace gives believers freedom to continue sinning",
+"That grace removes the need for faith",
+"That the law was never good in the first place"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Paul asks 'shall we sin because we are not under law but under grace?' to correct the false idea that grace is a license to sin, insisting believers must still live righteously.",
+"id": "crsx22003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Paul ask question say make we continue to dey sin because we dey under grace? E do dis one to correct dis wrong mind-set, con tell us say we must still live well."
+},
+{
+"q": "According to 1 Corinthians 12:4-6, Paul describes spiritual gifts, ministries and workings among believers. What truth does he emphasise about the source of these different gifts?",
+"options": [
+"They come from different spirits competing with each other",
+"They all come from the same God, Spirit and Lord",
+"Believers create their own gifts through effort",
+"Only apostles receive genuine spiritual gifts"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Paul stresses that despite the diversity of gifts, ministries and activities, they all originate from the same Spirit, Lord and God, showing unity in diversity.",
+"id": "crsx22004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Paul make am clear say even though the spiritual gift and work plenty, na just one Spirit, one Lord, and one God dey give all of them."
+},
+{
+"q": "In 1 Corinthians 13:11, Paul compares spiritual maturity to growing out of childish ways, saying that when he became a man he put away childish things. What point is Paul making by this comparison?",
+"options": [
+"Love is a mark of spiritual maturity that surpasses partial gifts",
+"Children cannot receive the Holy Spirit",
+"Spiritual gifts are only for young believers",
+"Maturity means abandoning all spiritual gifts"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Paul uses growing from childhood to adulthood to illustrate that present spiritual gifts are partial and will give way to the greater, lasting reality of love.",
+"id": "crsx22005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Paul use how pesin take grow from pikin to adult explain say, love pass all dis spiritual gift wey go soon pass away."
+},
+{
+"q": "According to Romans 13:8-10, Paul teaches that love is the fulfilling of the law. Which of the following best explains how Paul supports this claim?",
+"options": [
+"He says love replaces the need for the Ten Commandments entirely",
+"He shows that commandments like 'do not steal' and 'do not kill' are summed up in loving one's neighbour",
+"He argues that love only applies to fellow believers, not neighbours",
+"He states that love makes obedience to any command unnecessary"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Paul lists commandments such as against adultery, murder and theft, then shows they are all summed up in the command to love one's neighbour, so genuine love fulfils the law's demands.",
+"id": "crsx22006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Paul list commandment like make you no steal or kill, con show say all of them join together for the command to love your neighbour as yourself."
+},
+{
+"q": "In Ephesians 2:8-9, Paul explains that believers are saved by grace through faith, and this is not of themselves but is the gift of God. What does Paul specifically deny as the basis of this salvation?",
+"options": [
+"That salvation can be received by anyone at all",
+"That faith plays any role in salvation",
+"That salvation is by works, so that no one may boast",
+"That grace is freely given by God"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Paul clearly states salvation is not by works, so that no person can boast of earning it themselves; it is entirely God's gift received through faith.",
+"id": "crsx22007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Paul yarn say salvation no come from our own work, so that nobody go carry chest dey yab say naim do am; na pure gift from God through faith."
+}
+],
+"rejected": []
+}

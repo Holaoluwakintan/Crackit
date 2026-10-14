@@ -1,0 +1,181 @@
+{
+"subject": "government",
+"topic": "Organs of government and separation of powers, checks and balances",
+"ti": 2,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is an example of the legislature checking the judiciary in a presidential democracy like Nigeria?",
+"options": [
+"The Senate confirms the appointment of judges of the Supreme Court",
+"The President grants pardon to a convicted offender",
+"The Senate overrides a presidential veto on a bill",
+"The judiciary interprets the constitution"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Senate's power to confirm or reject judicial appointments is a legislative check on the judiciary. The other options involve different arms acting, not the legislature checking the judiciary.",
+"id": "govx02000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Senate get power to approve or reject judge wey dem appoint for Supreme Court. Dis one na how legislature dey check judiciary work so dat power no go too much for one side."
+},
+{
+"q": "A presidential system of government is best described as one in which",
+"options": [
+"the Head of State and Head of Government are combined in one person who is not a member of the legislature",
+"the Prime Minister is elected by and remains a member of the legislature",
+"the judiciary appoints the Head of Government",
+"the legislature and executive are fused into a single body with shared membership"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Under a presidential system, the President serves as both Head of State and Head of Government and is usually not a sitting member of the legislature, unlike in a parliamentary system.",
+"id": "govx02001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For presidential system, one person be Head of State and Head of Government. Dat person no suppose dey inside legislature as member."
+},
+{
+"q": "In a federation practising separation of powers, which situation illustrates the judiciary performing a quasi-legislative function?",
+"options": [
+"A court issuing practice directions that regulate how cases are filed in its registry",
+"The National Assembly passing a finance bill into law",
+"The President signing an executive order on tax waivers",
+"A governor dissolving a local government council"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "When courts make rules of procedure that bind litigants, they are effectively creating regulations, which is a law-making (legislative) function performed outside the regular legislature. The other options describe pure executive or legislative acts.",
+"id": "govx02002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When court dey make rules on how dem go dey file case, dem dey do work wey resemble law-making. Dis one na quasi-legislative function because dem dey create regulation for people to follow."
+},
+{
+"q": "One major argument put forward in support of the doctrine of separation of powers is that it",
+"options": [
+"speeds up government decision making by concentrating power in one arm",
+"prevents the concentration of power in a single arm of government, thereby checking tyranny",
+"eliminates the need for a written constitution",
+"allows the executive to make, enforce and interpret laws without delay"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Separation of powers is meant to prevent any one arm from becoming too powerful, thereby protecting citizens from tyranny and abuse of office.",
+"id": "govx02003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Separation of powers dey make sure say power no gather for one hand. E dey help stop tyranny so dat government no go turn to wetin dem like."
+},
+{
+"q": "Which of the following best illustrates fusion of powers rather than separation of powers?",
+"options": [
+"A minister who is also an elected member of parliament sitting in the cabinet",
+"A president who cannot be a member of the legislature while in office",
+"A judge who cannot hold any legislative or executive post",
+"A legislator who must resign before accepting a ministerial appointment"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Fusion of powers occurs where the same person belongs to more than one arm of government, as seen in parliamentary systems where ministers remain sitting members of parliament.",
+"id": "govx02005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Fusion of powers mean say one person dey belong to two arms of government at the same time. Like for parliamentary system, person fit be minister and still dey sit as member of parliament."
+},
+{
+"q": "A notable criticism of the theory of separation of powers, as observed in practice, is that",
+"options": [
+"it is impossible to achieve complete separation since the arms must still cooperate to function effectively",
+"it always leads to a single all-powerful ruler",
+"it abolishes the need for elections into public office",
+"it prevents the judiciary from ever reviewing executive actions"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In practice, no government achieves total separation because the arms must interact and cooperate, for example the executive implements laws passed by the legislature, showing that absolute separation is unrealistic.",
+"id": "govx02007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For real life, e hard to get total separation of powers because the three arms must work together. Dem need each other to run government well, so absolute separation no dey possible."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Under the Nigerian Constitution, before a treaty signed by the executive with a foreign country can have the force of law domestically, it must be",
+"options": [
+"ratified through an Act of the National Assembly",
+"approved solely by the Chief Justice of Nigeria",
+"endorsed by the Council of State only",
+"gazetted by the Ministry of Foreign Affairs without legislative input"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In Nigeria, treaties negotiated by the executive require domestication through an Act of the National Assembly before they become enforceable local law, which is a check by the legislature on the executive's foreign policy powers.",
+"id": "govx02004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Domestic enactment is not treaty ratification.|"
+},
+{
+"q": {
+"q": "A key function reserved strictly for the legislative arm of government in most democracies is to",
+"options": [
+"enforce court judgments against defaulting citizens",
+"appoint ambassadors to represent the country abroad",
+"make and amend the laws that guide the state",
+"adjudicate disputes between individuals and the state"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Law-making, including amending existing laws, is the primary constitutional role of the legislature, distinguishing it from the executive and judiciary.",
+"id": "govx02006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Lawmaking is not strictly exclusive; delegated legislation exists.|"
+}
+]
+}

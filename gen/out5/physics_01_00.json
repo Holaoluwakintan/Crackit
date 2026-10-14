@@ -1,0 +1,263 @@
+{
+"subject": "physics",
+"topic": "Scalars and vectors, resolution of forces",
+"ti": 1,
+"b": 0,
+"generated": 9,
+"kept": [
+{
+"q": "A crate on a rough horizontal floor is pulled by a force F = 40 N applied at an angle theta above the horizontal. If the component of F along the horizontal direction that moves the crate is 20 N, what is the value of theta?",
+"options": [
+"30°",
+"45°",
+"60°",
+"90°"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The horizontal component is F cos(theta), so cos(theta) = 20/40 = 0.5, which gives theta = 60°.",
+"py": "math.degrees(math.acos(20/40))",
+"values": [
+30,
+45,
+60,
+90
+],
+"id": "phyx01002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To find theta, you go use di formula F cos(theta). When you divide 20 by 40, you go get 0.5. Dat one mean say theta na 60°."
+},
+{
+"q": "Two forces act on a particle: P = 12 N directed along the positive x-axis, and Q = 9 N directed along the positive y-axis. What is the magnitude of the single force that would exactly balance (cancel out) the resultant of P and Q?",
+"options": [
+"3 N",
+"15 N",
+"21 N",
+"sqrt(12^2 - 9^2) N"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The resultant of the two perpendicular forces is sqrt(12^2 + 9^2) = 15 N. The equilibrant must have the same magnitude as this resultant but act in the opposite direction, so its magnitude is 15 N.",
+"py": "math.sqrt(12**2 + 9**2)",
+"values": [
+3,
+15,
+21,
+2.449
+],
+"id": "phyx01003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di resultant of di two forces wey dey perpendicular na sqrt(12^2 + 9^2) wey be 15 N. Di equilibrant suppose get di same magnitude, so e still be 15 N."
+},
+{
+"q": "Three forces act on a ring that is in equilibrium on a smooth table: a force of 8 N pulling due east, a force of 8 N pulling due west, and a third force. What must be true of the third force for equilibrium to be maintained?",
+"options": [
+"It must be 16 N directed due north",
+"It must be zero, since the two 8 N forces already cancel",
+"It must be 8 N directed due north",
+"It must be 11.3 N directed due north"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The 8 N east and 8 N west forces are equal and opposite, so they already sum to zero; for the ring to remain in equilibrium the third force must itself be zero (no extra force needed).",
+"py": null,
+"values": null,
+"id": "phyx01005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di 8 N wey dey east and di 8 N wey dey west don cancel each other finish. So, no extra force dey needed again, wey mean say di third force must be zero."
+},
+{
+"q": "A wooden block of mass 5 kg rests on a rough inclined plane that makes an angle of 37° with the horizontal. Taking g = 10 m/s^2 and sin 37° = 0.6, what is the component of the block's weight acting along the incline (down the slope)?",
+"options": [
+"50 N",
+"40 N",
+"30 N",
+"20 N"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The weight of the block is mg = 5 x 10 = 50 N. The component along the incline is mg sin(theta) = 50 x 0.6 = 30 N.",
+"py": "5*10*0.6",
+"values": [
+50,
+40,
+30,
+20
+],
+"id": "phyx01006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di weight of di block na mg = 5 x 10 = 50 N. To get di component along di incline, you multiply 50 by sin 37° and dat go give you 30 N."
+},
+{
+"q": "Four coplanar forces act at a point: 10 N due east, 10 N due north, 10 N due west, and 10 N due south. What is the magnitude of the resultant force on the point?",
+"options": [
+"40 N",
+"20 N",
+"10 N",
+"0 N"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The east and west forces cancel (10 N - 10 N = 0), and the north and south forces also cancel (10 N - 10 N = 0), leaving a net resultant of zero newtons.",
+"py": "0",
+"values": [
+40,
+20,
+10,
+0
+],
+"id": "phyx01008",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di force wey dey east go cancel di one wey dey west, and di north one go cancel south. Everything cancelout finish, so di net resultant force na zero newtons."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A pilot wishes to fly an aircraft due north. The aircraft's engine can give it a speed of 200 km/h in still air, but a wind of 60 km/h is blowing from the west (that is, towards the east). What is the resultant speed of the aircraft relative to the ground?",
+"options": [
+"sqrt(200^2 - 60^2) km/h",
+"sqrt(200^2 + 60^2) km/h",
+"200 + 60 km/h",
+"200 - 60 km/h"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The wind velocity (60 km/h east) is perpendicular to the plane's intended velocity (200 km/h north), so the resultant ground speed is found using Pythagoras: sqrt(200^2 + 60^2).",
+"py": "math.sqrt(200**2 + 60**2)",
+"values": [
+null,
+208.8,
+260,
+140
+],
+"id": "phyx01000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "Which of the following statements correctly distinguishes a scalar quantity from a vector quantity?",
+"options": [
+"A scalar has both magnitude and direction while a vector has magnitude only",
+"A scalar has magnitude only while a vector has both magnitude and direction",
+"A scalar can only be added using the parallelogram law while a vector cannot",
+"Scalars and vectors both require direction to be fully described"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "By definition, a scalar quantity is fully described by magnitude alone, while a vector quantity requires both magnitude and a stated direction.",
+"py": null,
+"values": null,
+"id": "phyx01001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "A vector quantity of magnitude 20 units is resolved into two perpendicular components. If one component makes an angle of 37° with the vector itself, which pair below correctly represents the two components (take sin 37° = 0.6, cos 37° = 0.8)?",
+"options": [
+"12 units and 16 units",
+"20 units and 20 units",
+"10 units and 17.3 units",
+"14 units and 14 units"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The components are 20 cos 37° = 20 x 0.8 = 16 units and 20 sin 37° = 20 x 0.6 = 12 units, matching the first option.",
+"py": "20*0.8",
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx01004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "keyed-not-numeric"
+}
+},
+"why": "python:keyed-not-numeric"
+},
+{
+"q": {
+"q": "A force F of 100 N is applied to a trolley at an angle of 53° to the horizontal ground, where cos 53° = 0.6 and sin 53° = 0.8. If this force is to be replaced by two equivalent forces acting one horizontally and one vertically, what are the magnitudes of these two forces respectively?",
+"options": [
+"80 N and 60 N",
+"60 N and 80 N",
+"50 N and 50 N",
+"100 N and 0 N"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The horizontal component is F cos(53°) = 100 x 0.6 = 60 N, and the vertical component is F sin(53°) = 100 x 0.8 = 80 N, so the two equivalent forces are 60 N horizontal and 80 N vertical.",
+"py": "100*0.6",
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx01007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "keyed-not-numeric"
+}
+},
+"why": "python:keyed-not-numeric"
+}
+]
+}

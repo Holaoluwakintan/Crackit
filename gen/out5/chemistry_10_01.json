@@ -1,0 +1,208 @@
+{
+"subject": "chemistry",
+"topic": "Rates of reaction",
+"ti": 10,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "In the Maxwell-Boltzmann distribution curve of molecular energies for a gas sample, what does the area under the curve to the right of the activation energy value represent?",
+"options": [
+"The total number of molecules in the sample",
+"The fraction of molecules with enough energy to react on collision",
+"The average kinetic energy of all the molecules",
+"The number of molecules that have already reacted"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The area beyond the activation energy mark on the energy distribution curve shows the proportion of molecules whose energy equals or exceeds the activation energy, meaning they can react upon collision. This is a key idea linking temperature, energy distribution and reaction rate.",
+"py": null,
+"values": null,
+"id": "chex10010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "That area wey dey past activation energy for the curve dey show the amount of molecules wey get energy wey reach or pass activation energy to fit react. E dey connect temperature, energy distribution and reaction rate together."
+},
+{
+"q": "Chidinma carried out an experiment to study how temperature affects the rate of reaction between dilute hydrochloric acid and sodium trioxocarbonate(IV) solution by measuring the time for a fixed volume of carbon(IV) oxide gas to be collected. Which of the following best explains why raising the temperature increases the rate of this reaction?",
+"options": [
+"Raising the temperature increases the activation energy needed for the reaction",
+"Raising the temperature increases the concentration of the reacting particles",
+"Raising the temperature increases the kinetic energy of particles, so more collisions have energy equal to or above the activation energy",
+"Raising the temperature reduces the number of collisions between particles"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A rise in temperature gives particles more kinetic energy, so they move faster and collide more often with greater energy. This increases the fraction of collisions that reach or exceed the activation energy, speeding up the reaction.",
+"py": null,
+"values": null,
+"id": "chex10011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When you increase temperature, particles dey get more kinetic energy and dem dey move fast to collide well. This one mean say more collisions go reach activation energy make reaction fast."
+},
+{
+"q": "Which of the following statements correctly describes a homogeneous catalyst in a chemical reaction?",
+"options": [
+"It exists in a different physical state from the reactants and acts only on the surface",
+"It exists in the same physical state as the reactants and forms part of the same reaction mixture",
+"It is always consumed completely by the end of the reaction",
+"It only works for reactions involving gases, never solutions"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A homogeneous catalyst is in the same phase as the reactants, for example a dissolved catalyst in an aqueous reaction mixture, so it mixes uniformly with them. It speeds up the reaction without being used up, unlike heterogeneous catalysts which act at a surface between different phases.",
+"py": null,
+"values": null,
+"id": "chex10012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Homogeneous catalyst dey share the same physical state with reactants like solution. E dey help speed up the reaction without make dem consume am finish."
+},
+{
+"q": "A reaction between 1.0 mol dm^-3 hydrochloric acid and excess magnesium ribbon is studied at 25°C, and the volume of hydrogen gas is measured every 30 seconds. Which of the following changes to the experimental setup would NOT increase the initial rate of this reaction?",
+"options": [
+"Increasing the concentration of the hydrochloric acid to 2.0 mol dm^-3",
+"Using powdered magnesium instead of magnesium ribbon",
+"Carrying out the reaction at 45°C instead of 25°C",
+"Using a larger flask while keeping all other quantities the same"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Changing only the size of the flask does not alter the concentration, surface area, or temperature of the reacting substances, so the rate stays the same. The other three options each directly raise the frequency or energy of effective collisions, increasing the rate.",
+"py": null,
+"values": null,
+"id": "chex10013",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To just change flask size no dey affect concentration, surface area or temperature of reactants. Na why the rate no go change at all."
+},
+{
+"q": "For the reaction X + 2Y -> Z, the rate law was found experimentally to be Rate = k[X][Y]^2. If the concentration of X is tripled while the concentration of Y is kept constant, by what factor does the rate of reaction change?",
+"options": [
+"2",
+"3",
+"6",
+"9"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since the rate depends on the first power of the concentration of X, tripling the concentration of X alone multiplies the rate by 3 to the power 1, which is 3. The concentration of Y does not change, so its contribution to the rate stays the same.",
+"py": "3**1",
+"values": [
+2,
+3,
+6,
+9
+],
+"id": "chex10014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because the rate law show say power of X na one, if you triple X concentration, the rate go multiply by 3. Y no change, so e own contribution remain constant."
+},
+{
+"q": "In a study of the reaction between zinc granules and dilute tetraoxosulphate(VI) acid, a graph of volume of hydrogen gas produced against time was plotted. Which feature of this graph indicates that the reaction has gone to completion?",
+"options": [
+"The curve rising steeply from the origin",
+"The curve becoming a horizontal straight line",
+"The curve passing through the origin at a constant slope",
+"The curve showing a sudden drop in volume"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "When the curve becomes flat and horizontal, it means no more gas is being produced, showing that one of the reactants has been fully used up and the reaction has stopped. A steep rise instead shows a fast ongoing reaction, not its completion.",
+"py": null,
+"values": null,
+"id": "chex10015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If the graph curve become horizontal line, e mean say gas no dey produce again. E show say reaction don finish because reactant don finish."
+},
+{
+"q": "In an experiment on the decomposition of aqueous hydrogen peroxide using manganese(IV) oxide as catalyst, a student recorded the following volumes of oxygen gas collected over time: at 20 seconds, 24 cm^3; at 40 seconds, 40 cm^3; at 60 seconds, 48 cm^3. Between 20 seconds and 60 seconds, what is the average rate of the reaction in cm^3 of gas per second?",
+"options": [
+"0.60",
+"0.80",
+"1.20",
+"2.00"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The change in volume from 20 to 60 seconds is 48 minus 24, which equals 24 cm^3, over a time interval of 40 seconds. Dividing 24 cm^3 by 40 seconds gives an average rate of 0.60 cm^3 per second.",
+"py": "(48-24)/(60-20)",
+"values": [
+0.6,
+0.8,
+1.2,
+2.0
+],
+"id": "chex10017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To find average rate, you go minus 24 cm^3 from 48 cm^3 to get 24 cm^3, then divide am by the time interval of 40 seconds. When you divide 24 by 40, you go get 0.60 cm^3 per second."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "An industrial chemist increases the pressure on a gaseous reaction system at constant temperature in a fixed-volume container. Which of the following best explains why this increases the rate of reaction?",
+"options": [
+"Increasing pressure lowers the activation energy of the reaction",
+"Increasing pressure pushes the gas molecules closer together, increasing their concentration and collision frequency",
+"Increasing pressure converts the reactants into a more reactive physical state",
+"Increasing pressure increases the average kinetic energy of the gas molecules"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Raising the pressure of a fixed amount of gas in a fixed volume forces the molecules closer together, which increases their effective concentration. This leads to more frequent collisions per second, so the rate of reaction increases, without changing the activation energy or average kinetic energy.",
+"py": null,
+"values": null,
+"id": "chex10016",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

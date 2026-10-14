@@ -1,0 +1,236 @@
+{
+"subject": "maths",
+"topic": "Simple and compound interest, profit and loss",
+"ti": 6,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A trader bought an article for ₦8,000 and sold it for ₦9,200. Find the percentage profit.",
+"options": [
+"12%",
+"13%",
+"15%",
+"18%"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Profit = 9200 - 8000 = 1200. Percentage profit = 1200/8000 x 100 = 15%.",
+"py": "(9200-8000)/8000*100",
+"values": [
+12,
+13,
+15,
+18
+],
+"id": "matx06000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To find di profit, minus 8000 from 9200 to get 1200. Divide 1200 by 8000 and multiply by 100 to get 15%."
+},
+{
+"q": "Bola sells a table for ₦46,000, thereby making a profit of 15%. What was the cost price of the table?",
+"options": [
+"₦38,500",
+"₦39,100",
+"₦40,000",
+"₦41,400"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Let cost price be C. Then 1.15C = 46000, so C = 46000/1.15 = 40000. This is a straightforward reverse profit calculation.",
+"py": "46000/1.15",
+"values": [
+38500,
+39100,
+40000,
+41400
+],
+"id": "matx06001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Make di cost price be C. Multiply 1.15 by C to get 46000, then divide 46000 by 1.15 to get 40000."
+},
+{
+"q": "A sum of ₦250,000 is invested at simple interest for 5 years, and the total interest earned is ₦62,500. Find the rate of interest per annum.",
+"options": [
+"4%",
+"5%",
+"6%",
+"8%"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Using I = PRT/100, 62500 = (250000 x R x 5)/100, so R = (62500 x 100)/(250000 x 5) = 5%. This gives the annual rate.",
+"py": "(62500*100)/(250000*5)",
+"values": [
+4,
+5,
+6,
+8
+],
+"id": "matx06002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Use di formula I = PRT/100. Put 62500 for interest, 250000 for principal, and 5 for time to solve and get R = 5%."
+},
+{
+"q": "A trader marks up the price of a bag of rice by 25% above the cost price of ₦40,000, then gives a discount of 8% on the marked price to a customer. Find the amount the customer pays.",
+"options": [
+"₦44,800",
+"₦45,000",
+"₦46,000",
+"₦48,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Marked price = 40000 x 1.25 = 50000. After 8% discount, amount paid = 50000 x 0.92 = 46000. This involves two successive percentage steps.",
+"py": "40000*1.25*0.92",
+"values": [
+44800,
+45000,
+46000,
+48000
+],
+"id": "matx06005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Find di marked price by multiplying 40000 by 1.25 to get 50000. Then remove 8% discount to remain with 46000."
+},
+{
+"q": "A man wants to invest money at simple interest so that it doubles in 8 years. What annual rate of interest, in percent, must he use?",
+"options": [
+"10%",
+"12.5%",
+"15%",
+"20%"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "For the money to double, interest earned equals the principal, so P = P x R x 8/100, giving R = 100/8 = 12.5%. This is a standard simple interest relation.",
+"py": "100/8",
+"values": [
+10,
+12.5,
+15,
+20
+],
+"id": "matx06006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Since money double, interest equal principal. Put am inside formula to get R = 100/8, which give 12.5%."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Find the compound interest on ₦90,000 for 3 years at 10% per annum, compounded annually.",
+"options": [
+"₦27,000",
+"₦29,790",
+"₦30,690",
+"₦31,590"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Amount = 90000 x (1.1)^3 = 90000 x 1.331 = 119790. Compound interest = 119790 - 90000 = 29790... Let's check: 90000*1.331=119790, CI=29790. This matches option labeled C only if values align; recompute carefully.",
+"py": "90000*(1.1**3)-90000",
+"values": [
+27000,
+29790,
+30690,
+31590
+]
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "A trader bought 200 oranges for ₦6,000 and sold them at 5 oranges for ₦200. Find the percentage profit or loss made.",
+"options": [
+"Profit of 25%",
+"Profit of 33 1/3%",
+"Loss of 20%",
+"Profit of 20%"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Selling price = (200/5) x 200 = ₦8,000. Profit = 8000 - 6000 = 2000. Percentage profit = 2000/6000 x 100 = 33 1/3%.",
+"py": "((200/5*200)-6000)/6000*100",
+"values": [
+25,
+33.3333333333,
+20,
+20
+],
+"id": "matx06004",
+"check": {
+"s1": "B",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:C"
+},
+{
+"q": {
+"q": "Two friends, Musa and Tunde, each invest ₦100,000 for 2 years. Musa's investment earns simple interest at 10% per annum, while Tunde's earns compound interest at 10% per annum, compounded annually. Find the difference between their final amounts after 2 years.",
+"options": [
+"₦500",
+"₦1,000",
+"₦2,000",
+"₦2,500"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Musa's amount = 100000 + (100000 x 10 x 2/100) = 120000. Tunde's amount = 100000 x (1.1)^2 = 121000. The difference is 121000 - 120000 = 1000... recompute to confirm.",
+"py": "100000*(1.1**2) - (100000 + 100000*0.10*2)",
+"values": [
+500,
+1000,
+2000,
+2500
+],
+"id": "matx06007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

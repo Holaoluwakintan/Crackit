@@ -1,0 +1,215 @@
+{
+"subject": "geography",
+"topic": "Map reading: contours, relief, gradient and cross-sections",
+"ti": 1,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "On a topographical map, contour lines that form a set of closed loops decreasing in value towards the centre, with the innermost loop lower than all others, most likely represent a:",
+"options": [
+"Depression or basin",
+"Conical hill",
+"Plateau with a flat summit",
+"Ridge running north-south"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "When contour values decrease inward instead of increasing, the land surface is sinking towards the centre, which shows a depression or basin rather than a hill.",
+"py": null,
+"values": null,
+"id": "geox01010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If contour line value dey reduce as e dey go inside, e mean say di ground dey sink. Na so we take sabi say na depression or basin, no bi hill."
+},
+{
+"q": "A valley on a topographical map is best recognised by contour lines that:",
+"options": [
+"Bend to form V-shapes pointing uphill, often with a stream in the V",
+"Bend to form V-shapes pointing downhill away from the stream",
+"Form perfect circles of increasing value outward",
+"Run as straight parallel lines evenly spaced apart"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "In a valley, contour lines are pushed upstream by the river cutting into the land, so the V points towards higher ground (upstream), unlike a ridge where the V points downhill.",
+"py": null,
+"values": null,
+"id": "geox01011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For valley, contour line dey bend like V wey point go uphill. Na di river wey dey cut di land dey cause dis shape."
+},
+{
+"q": "On a map drawn to a scale of 1:25,000, the horizontal distance between two points, X and Y, measured on the map is 8 cm. If X lies on the 300 m contour and Y lies on the 450 m contour, what is the gradient of the slope from X to Y expressed as a ratio?",
+"options": [
+"1 in 13.3",
+"1 in 2000",
+"1 in 1500",
+"1 in 8"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Ground distance = 8 cm x 25,000 = 200,000 cm = 2000 m. Vertical rise = 450 - 300 = 150 m. Gradient = horizontal/vertical = 2000/150, which simplifies to about 1 in 13.3.",
+"py": "(8*25000/100)/(450-300)",
+"values": [
+13.33,
+2000,
+1500,
+8
+],
+"id": "geox01012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Ground distance na 2000 m and vertical rise na 150 m. If you divide 2000 by 150, you go get 13.3, so di gradient na 1 in 13.3."
+},
+{
+"q": "In constructing a relief profile (cross-section) along a line on a topographical map, a candidate first transfers the points where the line crosses each contour onto the edge of a strip of paper. The next correct step is to:",
+"options": [
+"Plot each transferred point against its contour height on graph paper using a chosen vertical scale, then join the points",
+"Shade the area under the highest contour value only",
+"Measure the straight-line distance between the two end towns using a ruler",
+"Draw concentric circles around each contour crossing point"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "After marking where the line crosses each contour on the paper strip, the next step is to transfer these points to graph paper, plot each against its height using the vertical scale, and join them smoothly to form the profile.",
+"py": null,
+"values": null,
+"id": "geox01014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "After you mark di contour points for paper, you go transfer dem go graph paper. You go plot dem based on dia height and join dem to see di shape."
+},
+{
+"q": "A cross-section is drawn using a horizontal scale of 1:50,000 and a vertical scale of 1 cm to represent 100 m. What is the vertical exaggeration (VE) of this cross-section?",
+"options": [
+"5",
+"50",
+"500",
+"0.5"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Horizontal scale 1:50,000 means 1 cm represents 50,000 cm = 500 m horizontally. Vertical exaggeration = horizontal metres per cm divided by vertical metres per cm = 500/100 = 5.",
+"py": "(50000/100)/100",
+"values": [
+5,
+50,
+500,
+0.5
+],
+"id": "geox01015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Horizontal scale mean say 1 cm na 500 m. If you divide 500 m by 100 m, you go get 5 as di vertical exaggeration."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A straight line drawn across a topographical map to study the shape of the land surface between two points, showing hills, valleys and slopes as seen from the side, is called a:",
+"options": [
+"Cross-section or relief profile",
+"Contour interval",
+"Grid reference line",
+"Isohyet line"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A cross-section, also called a relief profile, is a side view of the land surface drawn along a chosen line to reveal changes in height and slope shape.",
+"py": null,
+"values": null,
+"id": "geox01013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "On a topographical map, the vertical distance between any two successive contour lines is called the:",
+"options": [
+"Contour interval",
+"Gradient",
+"Datum level",
+"Benchmark"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The contour interval is the fixed vertical difference in height between one contour line and the next on a given map, usually stated in the map key.",
+"py": null,
+"values": null,
+"id": "geox01016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "A map has a contour interval of 20 m. Between points M and N, a candidate counts 9 contour lines crossed along the steepest path, with M on the lowest contour and N on the highest. If the horizontal ground distance between M and N is 1.5 km, calculate the gradient of the slope in the form 1 in x.",
+"options": [
+"1 in 8.33",
+"1 in 75",
+"1 in 133",
+"1 in 180"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Vertical rise = 9 contour gaps x 20 m = 180 m. Ground distance = 1.5 km = 1500 m. Gradient = 1500/180, which simplifies to about 1 in 8.33.",
+"py": "1500/(9*20)",
+"values": [
+8.33,
+75,
+133,
+180
+],
+"id": "geox01017",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

@@ -1,0 +1,178 @@
+{
+"subject": "literature",
+"topic": "Prose fiction: plot, setting, characterisation, point of view, narrative techniques",
+"ti": 5,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In prose fiction, the term 'denouement' refers to the part of the plot where",
+"options": [
+"the central conflict is first introduced to the reader",
+"loose ends are tied up and the final outcome of the conflict is revealed",
+"the protagonist and antagonist first come into direct conflict",
+"background information about characters and setting is supplied"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Denouement is the French word for 'unravelling' and refers to the resolution stage where all the plot's complications are settled. It comes after the climax, not before it.",
+"id": "litx05000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Denouement na French word wey mean to untie knot. E be the part of story where all the wahala don settle and we see how everything end."
+},
+{
+"q": "Which of the following best describes a 'limited omniscient' (third-person limited) point of view?",
+"options": [
+"The narrator reports only what can be seen and heard, like a camera, without entering any mind",
+"The narrator knows the thoughts and feelings of every character in the story equally",
+"The narrator restricts access to the thoughts and feelings of only one character, while describing others from the outside",
+"The narrator is a participant in the story who refers to himself as 'I'"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Limited omniscient narration uses third-person pronouns but confines the reader's access to the inner life of a single character, usually the protagonist. The other characters are shown only through their words and actions.",
+"id": "litx05001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Limited omniscient mean say the narrator know wetin only one person dey think. E no know wetin everybody dey think for inside their head."
+},
+{
+"q": "Read the extract: 'The compound was silent except for the creak of the rusty gate and the distant bark of Baba Risi's dog. Dust lay thick on the windows of the abandoned store, and cobwebs stretched across the doorway like a warning.' This passage primarily establishes",
+"options": [
+"the central conflict of the narrative",
+"the atmosphere and physical setting of the story",
+"the moral character of the protagonist",
+"a flashback to the narrator's childhood"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The details of silence, dust, and cobwebs are descriptive elements that build a mood and picture of place, which is the function of setting. No conflict, character trait, or time-shift is indicated.",
+"id": "litx05002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The way the writer describe the dust and the silence show us how the place look. This one na setting, e dey help us feel the mood of the story."
+},
+{
+"q": "A novelist structures a story so that it opens with the hero already in prison, and only later reveals, through recollection, the events that led to his arrest. This arrangement of plot is best described as",
+"options": [
+"in medias res",
+"deus ex machina",
+"a frame narrative",
+"dramatic irony"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In medias res means beginning a story in the middle of the action, with earlier events supplied later through recollection or flashback. This differs from a frame narrative, which uses an outer story to house an inner one told by a separate narrator.",
+"id": "litx05003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "In medias res mean say the story start from middle of the action. The writer go come use flashback later to show us wetin happen before."
+},
+{
+"q": "In the study of characterisation, when a writer reveals a character's traits through the character's own speech, actions, and thoughts rather than through direct authorial comment, this method is called",
+"options": [
+"direct characterisation",
+"indirect characterisation",
+"caricature",
+"exposition"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Indirect characterisation shows personality through what a character says, does, and thinks, leaving readers to infer traits. Direct characterisation, by contrast, involves the narrator explicitly stating what a character is like.",
+"id": "litx05004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Indirect characterisation na when writer show person character through wetin the person do or talk. E no come tell us straight say the person bad or good."
+},
+{
+"q": "Read this extract: 'Amaka smiled warmly at her guests and praised the delicious meal, even as she silently counted the hours until they would finally leave her exhausted household in peace.' The narrative technique illustrated here is best described as",
+"options": [
+"foreshadowing",
+"dramatic irony created by the narrator revealing a gap between a character's outward behaviour and inner feelings",
+"an epistolary narrative",
+"stream of consciousness"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The narrator exposes a contrast between Amaka's polite outward conduct and her true private feelings, a gap only the reader is shown. This creates irony through privileged narrative access rather than foreshadowing, letters, or an unedited flow of thought.",
+"id": "litx05005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The narrator show us say Amaka dey smile but her mind dey vex. This one na dramatic irony because we know wetin she dey think but the guests no know."
+},
+{
+"q": "A story is narrated by a character who only reports events he personally witnesses or is told about, and whose understanding of the central mystery remains incomplete throughout the novel because of his limited position in the household. This narrative choice chiefly achieves what effect?",
+"options": [
+"It guarantees the reader complete and reliable knowledge of every character's motives",
+"It builds suspense and allows the reader to piece together the truth alongside the narrator's partial knowledge",
+"It removes all possibility of irony in the story",
+"It automatically identifies the narrator as the antagonist of the story"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A first-person narrator with restricted access to information withholds full knowledge from the reader too, which sustains suspense and invites active interpretation. Such narrators are not necessarily reliable, villainous, or free of ironic distance from the truth.",
+"id": "litx05006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If the narrator no know everything, the reader go dey curious to find out the truth. E make the story sweet because we dey learn the secret small small."
+},
+{
+"q": "In a novel, the setting is shifted from a bustling Lagos market in the 1960s to a quiet London suburb in the present day within the same chapter, with no transitional explanation given by the narrator. A candidate analysing this would most accurately describe the technique as",
+"options": [
+"a soliloquy",
+"a juxtaposition of settings achieved through an abrupt scene transition",
+"personification of place",
+"an unreliable narration"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Placing two contrasting settings side by side without explanatory transition is a juxtaposition technique used to highlight contrast between times or places. It is not personification, a soliloquy, or a matter of the narrator's reliability.",
+"id": "litx05007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To put two different places side by side like that na juxtaposition. E dey help show the difference between the two places clearly."
+}
+],
+"rejected": []
+}

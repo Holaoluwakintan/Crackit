@@ -1,0 +1,202 @@
+{
+"subject": "chemistry",
+"topic": "Metals and their extraction (iron, aluminium, copper), alloys",
+"ti": 15,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In the blast furnace extraction of iron, the hot waste gases escaping from the top of the furnace are mainly used to",
+"options": [
+"preheat the incoming blast of air",
+"melt the limestone directly",
+"convert haematite to magnetite",
+"cool the molten slag"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The hot waste gases leaving the top of the blast furnace are passed through the Cowper stoves to preheat the incoming air blast, which improves fuel efficiency. This recycling of heat is a key economic feature of the process.",
+"py": null,
+"values": null,
+"id": "chex15000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dem hot waste gas wey dey comot for top of blast furnace dey pass through Cowper stoves to preheat the incoming air blast. Dis one dey help save fuel and make the process work well well."
+},
+{
+"q": "Duralumin is an important light alloy used in building aircraft bodies mainly because it combines low density with",
+"options": [
+"high electrical conductivity",
+"high resistance to mechanical stress",
+"high melting point above 1000°C",
+"strong magnetic properties"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Duralumin (an alloy of aluminium with copper, magnesium and manganese) is valued because it is light yet strong enough to withstand the mechanical stresses experienced by aircraft, unlike pure aluminium which is softer.",
+"py": null,
+"values": null,
+"id": "chex15001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Duralumin light well well and e get strong resistance to mechanical stress. Na why dem dey use am build aircraft body instead of ordinary soft aluminium."
+},
+{
+"q": "Which of the following statements correctly describes the structure of an alloy such as bronze?",
+"options": [
+"It is a pure compound formed by strong ionic bonds between the metals",
+"It is a homogeneous mixture formed when atoms of one metal replace or fit into the lattice of another metal",
+"It is a solution of a metal dissolved completely in water",
+"It is a layered compound joined only by covalent bonds"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An alloy is a homogeneous mixture of two or more metals (or a metal and a nonmetal) in which atoms of one element occupy positions in, or substitute for atoms in, the crystal lattice of the other metal. This is different from a true chemical compound.",
+"py": null,
+"values": null,
+"id": "chex15004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Alloy like bronze na mixture wey dey uniform, where atoms of one metal fit enter or replace the crystal lattice of another metal. E no be ordinary chemical compound."
+},
+{
+"q": "In the extraction of aluminium, bauxite ore is first purified to obtain pure alumina before electrolysis. What is the main reason for this purification step?",
+"options": [
+"Impure bauxite cannot conduct electricity at all",
+"Impurities such as iron(III) oxide would otherwise be deposited at the cathode along with aluminium",
+"Pure alumina has a much lower melting point than bauxite",
+"Purification increases the amount of cryolite required"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Bauxite contains impurities like iron(III) oxide and silica, which if not removed, would also be reduced during electrolysis and contaminate the aluminium produced. Purifying bauxite to alumina first ensures a high purity metal is obtained.",
+"py": null,
+"values": null,
+"id": "chex15005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Bauxite get impurities like iron(III) oxide inside am. If dem no remove am, the impurities go reduce during electrolysis and spoil the purity of the aluminium."
+},
+{
+"q": "Which property of iron makes it necessary to convert it into steel by removing most of its carbon content and other impurities before large-scale structural use?",
+"options": [
+"Pure cast iron is too soft and ductile for construction work",
+"Cast iron containing high carbon is brittle and cannot withstand sudden shock",
+"Cast iron does not conduct heat or electricity",
+"Cast iron reacts explosively with atmospheric oxygen"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Cast iron from the blast furnace contains about 2 to 4 percent carbon, which makes it hard but brittle, so it cannot withstand sudden shocks or stress. Converting it to steel by reducing the carbon content improves its strength and toughness for construction purposes.",
+"py": null,
+"values": null,
+"id": "chex15006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Cast iron get too much carbon inside am, wey dey make am brittle so e fit break easily under shock. Na why dem must reduce the carbon to make am steel for building work."
+},
+{
+"q": "During the purification of blister copper by electrolytic refining, impurities such as silver and gold are not oxidised at the anode but instead collect below it. What is this valuable residue called?",
+"options": [
+"Slag",
+"Anode mud",
+"Matte",
+"Gangue"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In electrolytic refining of copper, less reactive metals like silver and gold present in impure copper do not dissolve into solution; they fall to the bottom of the cell as a solid residue called anode mud, which is later collected and sold for its precious metal content.",
+"py": null,
+"values": null,
+"id": "chex15007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When dem dey refine copper, precious metals like silver and gold no dey dissolve; dem dey fall down for bottom as anode mud. Dem dey pack dis residue later because e valuable."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A sample of impure copper(II) oxide weighing 20.0 g contains 80% CuO by mass. If all the copper in the sample is extracted as pure metal, calculate the mass of copper obtained. [Cu = 64, O = 16]",
+"options": [
+"10.24 g",
+"12.80 g",
+"16.00 g",
+"20.00 g"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Mass of CuO = 80% of 20.0 g = 16.0 g. Moles of CuO = 16.0/80 = 0.2 mol, which gives 0.2 mol Cu = 0.2 x 64 = 12.8 g... recompute: molar mass CuO = 64+16=80, moles=0.2, mass Cu=12.8g is actually correct, so answer should be 12.80 g.",
+"py": "(0.8*20.0/80.0)*64",
+"values": [
+10.24,
+12.8,
+16.0,
+20.0
+],
+"id": "chex15002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "Which of the following best explains why aluminium, rather than carbon, is used as the reducing agent in the extraction of chromium from its oxide in the thermite-type process?",
+"options": [
+"Aluminium is cheaper than carbon on an industrial scale",
+"Aluminium has a greater affinity for oxygen than chromium at the reaction temperature",
+"Carbon forms a stable carbide with chromium that contaminates the metal",
+"Aluminium melts at a much lower temperature than chromium oxide"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In the thermite-type reduction, aluminium is chosen because it has a stronger affinity for oxygen than chromium, so it can reduce chromium(III) oxide to free chromium metal, releasing a large amount of heat. Carbon is avoided because it would form unwanted metal carbides.",
+"py": null,
+"values": null,
+"id": "chex15003",
+"check": {
+"s1": "C",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+}
+]
+}

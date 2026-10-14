@@ -1,0 +1,202 @@
+{
+"subject": "geography",
+"topic": "Geography of Nigeria: population, agriculture, minerals and industry",
+"ti": 19,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A major factor that encourages groundnut cultivation as a cash crop in parts of Northern Nigeria, particularly around Kano and Katsina, is best described as",
+"options": [
+"heavy annual rainfall exceeding 2000 mm supporting continuous cropping",
+"light sandy soils combined with a distinct dry season suitable for the crop",
+"dense tropical rainforest providing shade for young groundnut plants",
+"swampy, waterlogged lowlands ideal for groundnut root development"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Groundnut thrives in light, well-drained sandy soils and requires a marked dry season for the pods to mature and be harvested easily. These conditions are typical of the Sudan and Sahel savanna areas of Kano and Katsina, unlike rainforest or swampy environments.",
+"py": null,
+"values": null,
+"id": "geox19001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Groundnut dey grow well for sandy soil wey water no dey stay too much. E also need dry season make di pods dry well before dem harvest am, na why Kano and Katsina dey good for am."
+},
+{
+"q": "The iron and steel industry at Ajaokuta was sited mainly because of its relative nearness to which combination of resource needs for steel production?",
+"options": [
+"Crude oil deposits and a deep seaport for export",
+"Iron ore from Itakpe and coal/limestone sources plus River Niger for water and transport",
+"Large groundnut farms supplying raw material and labour",
+"Cocoa plantations and a nearby international airport"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ajaokuta was chosen because it lies close to Itakpe iron ore deposits and sources of coal and limestone needed as raw materials, while the River Niger supplies water for industrial processes and aids transportation. Crude oil, groundnuts and cocoa are not the key inputs for iron and steel production.",
+"py": null,
+"values": null,
+"id": "geox19002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Dem put Ajaokuta for dat side because e near Itakpe iron ore and coal. River Niger also dey help dem carry water and transport heavy things for di factory."
+},
+{
+"q": "Nigeria's tin and columbite mining activities are most closely associated with which physical region of the country?",
+"options": [
+"Niger Delta lowlands",
+"Jos Plateau",
+"Lake Chad basin",
+"Lower Benue trough"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Tin and columbite mining in Nigeria developed mainly on the Jos Plateau, where these minerals occur in alluvial and primary deposits within the basement complex rocks. The other regions listed are not known for these specific minerals.",
+"py": null,
+"values": null,
+"id": "geox19004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na Jos Plateau dem dey see plenty tin and columbite for Nigeria. Na inside di rocks for dat area dem dey find dis minerals."
+},
+{
+"q": "A geography student observes that a particular Nigerian industry depends heavily on imported raw materials, is concentrated in Lagos and Port Harcourt because of good port facilities, and its finished products are mostly re-exported or distributed nationwide by road. This description most likely refers to which type of industry?",
+"options": [
+"Agro-based processing industry using local cocoa",
+"Assembly-type industry such as vehicle or electronics assembly",
+"Small-scale pottery and craft industry",
+"Subsistence fishing industry along the coast"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Assembly-type industries, such as vehicle or electronics assembly plants, typically rely on imported components, locate near ports for easy importation, and distribute finished goods nationwide by road. Agro-based, craft and fishing industries do not fit this pattern of heavy import dependence and port-based siting.",
+"py": null,
+"values": null,
+"id": "geox19005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Assembly industries like car or electronics dey depend on parts wey dem dey import from abroad. Dem dey stay near port so dat e go easy to bring di parts enter and carry finish product go round di country."
+},
+{
+"q": "In terms of Nigeria's population structure, a geography textbook describes the country's population pyramid as having a very broad base that narrows rapidly towards the top. This shape best indicates that Nigeria has",
+"options": [
+"a high birth rate and high dependency ratio with a youthful population",
+"an ageing population with more elderly than young people",
+"equal numbers of people in every age group",
+"a declining population due to low birth rates"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A broad base on a population pyramid shows a large number of children, which reflects a high birth rate, while the narrowing top shows fewer older people due to a shorter life expectancy. This pattern is typical of developing countries like Nigeria with youthful, fast-growing populations and high dependency ratios.",
+"py": null,
+"values": null,
+"id": "geox19006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di broad base for di pyramid show say plenty pikin dey born every year. Because di top narrow, e mean say people no dey live reach old age too much, so di young ones plenty pass."
+},
+{
+"q": "A farming community in the Niger Delta practises fishing and oil palm processing side by side, but a government survey shows that oil exploration activities have polluted several creeks, reducing fish catch by 40% over five years while palm oil output remained steady. Which of the following best explains why palm oil production was less affected than fishing in this scenario?",
+"options": [
+"Oil palm trees grow on land away from the polluted waterways, unlike fish which live directly in the creeks",
+"Palm oil processing requires no water at any stage of production",
+"Fishing communities abandoned their trade voluntarily due to low market prices",
+"Government banned fishing but encouraged palm oil processing instead"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Because oil palm trees are cultivated on land, pollution of creeks and rivers from oil spillage has a limited direct effect on them compared to fish, which live in the water and are directly exposed to contaminants. This explains why fish catch dropped sharply while palm oil output stayed stable, not because of policy bans or market abandonment.",
+"py": null,
+"values": null,
+"id": "geox19007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Oil palm tree dey grow for land, so oil wey spill for water no go affect am like fish. Fish dey live inside di water, so once di water dirty, di fish go die or run comot."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "According to the National Population Commission census figures, which of these geopolitical zones in Nigeria is generally recognised as having the highest population concentration due to a combination of fertile land, early urbanisation and commercial activities?",
+"options": [
+"North-West",
+"South-South",
+"North-Central",
+"South-East"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The North-West zone, including states like Kano and Kaduna, has consistently recorded the highest population figures in Nigeria due to its large land area, long history of urbanisation and agricultural activity. This makes it the most populous zone compared to the others listed.",
+"py": null,
+"values": null,
+"id": "geox19000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:North-West has the largest total population; South-East could be defended if concentration means density.|"
+},
+{
+"q": {
+"q": "A particular state's labour force is distributed as follows: 55% in agriculture, 20% in trading and services, 15% in manufacturing, and the remainder in mining. If the state has a total working population of 2,400,000 people, how many of them are engaged in mining?",
+"options": [
+"120,000",
+"240,000",
+"360,000",
+"480,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The percentages given (55 + 20 + 15 = 90%) leave 10% for mining. Ten percent of 2,400,000 is 240,000... wait, recompute: 100-90=10%, 10% of 2,400,000 equals 240,000. The correct working therefore gives 240,000 as the number engaged in mining.",
+"py": "0.10*2400000",
+"values": [
+120000,
+240000,
+360000,
+480000
+],
+"id": "geox19003",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

@@ -1,0 +1,181 @@
+{
+"subject": "biology",
+"topic": "Variation and heredity: Mendelian genetics, crosses and ratios",
+"ti": 17,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In tomato plants, tallness (T) is dominant over dwarfness (t). A tall tomato plant of unknown genotype was crossed with a dwarf plant, and the offspring were 48 tall and 52 dwarf plants. What is the genotype of the tall parent?",
+"options": [
+"TT",
+"Tt",
+"tt",
+"TTt"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A ratio close to 1 tall to 1 dwarf shows a test cross result. This only happens when the tall parent is heterozygous (Tt) crossed with tt.",
+"id": "biox17000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If you get about 1 tall to 1 dwarf for your pikin them, na test cross be that. E mean say the tall papa or mama na Tt, wey you cross with tt."
+},
+{
+"q": "Which of the following best explains why a cross between two heterozygous tall pea plants (Tt x Tt) produces offspring in the ratio of 3 tall to 1 dwarf?",
+"options": [
+"The dwarf allele is lost during fertilisation",
+"Tallness and dwarfness blend to form intermediate plants",
+"Three out of four possible allele combinations contain at least one dominant allele",
+"The dominant allele doubles its effect in the heterozygous condition"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The possible combinations from Tt x Tt are TT, Tt, Tt and tt. Three of these four combinations carry at least one dominant T allele, giving tall plants, while only tt is dwarf.",
+"id": "biox17002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na TT, Tt, Tt and tt you go get when you cross Tt and Tt. Three out of these four join-join get at least one dominant T allele, na why you get 3 tall to 1 dwarf."
+},
+{
+"q": "A Nigerian farmer crosses a pure-breeding black-feathered chicken with a pure-breeding white-feathered chicken, and all the offspring have grey feathers, a colour between black and white. What type of gene action best explains this result?",
+"options": [
+"Complete dominance",
+"Codominance",
+"Incomplete dominance",
+"Multiple allelism"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "When the heterozygous offspring show a blended phenotype that is intermediate between both parents, this is called incomplete dominance. Neither allele completely masks the other.",
+"id": "biox17003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If black and white mating produce grey wey dey middle, na incomplete dominance be that. None of the allele fit cover the other one fully, so dem blend together."
+},
+{
+"q": "In a dihybrid cross between two pea plants heterozygous for seed colour and seed texture (YyRr x YyRr), what fraction of the offspring is expected to be homozygous recessive for both traits?",
+"options": [
+"1/16",
+"3/16",
+"4/16",
+"9/16"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A dihybrid cross gives a 9:3:3:1 ratio out of 16 total offspring. The genotype yyrr, which is homozygous recessive for both traits, makes up only 1 part out of the 16.",
+"id": "biox17004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For dihybrid cross, the last one for 9:3:3:1 ratio na yyrr. E dey represent only 1 part out of the 16 total offspring."
+},
+{
+"q": "A plant breeder wants to find out whether a tall pea plant showing the dominant phenotype is homozygous (TT) or heterozygous (Tt). Which cross would best help the breeder determine this?",
+"options": [
+"Cross the tall plant with another tall plant of unknown genotype",
+"Cross the tall plant with a homozygous recessive dwarf plant",
+"Self-pollinate the tall plant and observe the F1 generation only",
+"Cross the tall plant with a heterozygous tall plant"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Crossing an organism of unknown genotype with a homozygous recessive individual is called a test cross. If any offspring show the recessive trait, the unknown parent must be heterozygous.",
+"id": "biox17005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To know whether plant na TT or Tt, you must cross am with recessive dwarf tt. If any dwarf pikin show face, you don know say na Tt."
+},
+{
+"q": "A pure-breeding round-seeded pea plant (RR) is crossed with a pure-breeding wrinkled-seeded pea plant (rr). What are the expected genotype and phenotype of the F1 offspring?",
+"options": [
+"RR, round seeds",
+"Rr, round seeds",
+"Rr, wrinkled seeds",
+"rr, wrinkled seeds"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Crossing RR with rr gives only Rr offspring in the F1 generation. Since round seed shape is dominant, all the F1 plants show round seeds.",
+"id": "biox17007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When you cross RR and rr, all the F1 pikin go carry Rr genotype. Because round seed dey dominant, everywhere go round."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Who is widely regarded as the father of modern genetics, having carried out breeding experiments on garden pea plants that led to the laws of inheritance?",
+"options": [
+"Charles Darwin",
+"Gregor Mendel",
+"Thomas Morgan",
+"Hugo de Vries"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Gregor Mendel performed experiments with pea plants in the 19th century and formulated the basic laws of inheritance. He is therefore called the father of genetics.",
+"id": "biox17001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Giveaway recall question"
+},
+{
+"q": {
+"q": "In sickle cell inheritance, the allele for normal haemoglobin (Hb^A) and the allele for sickle haemoglobin (Hb^S) show codominance, so heterozygotes (Hb^A Hb^S) produce both normal and sickle-shaped red blood cells. If two people with sickle cell trait (Hb^A Hb^S) marry, what proportion of their children is expected to have sickle cell anaemia (Hb^S Hb^S)?",
+"options": [
+"1/4",
+"1/2",
+"3/4",
+"All of the children"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Crossing Hb^A Hb^S with Hb^A Hb^S gives genotypes in the ratio 1 Hb^A Hb^A : 2 Hb^A Hb^S : 1 Hb^S Hb^S. Only one out of four offspring is expected to be Hb^S Hb^S, which causes sickle cell anaemia.",
+"id": "biox17006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Carriers produce both haemoglobin types, not routinely sickle-shaped cells|"
+}
+]
+}

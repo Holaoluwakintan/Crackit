@@ -1,0 +1,213 @@
+{
+"subject": "chemistry",
+"topic": "Water, hardness of water and solubility",
+"ti": 12,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A particular well water in Minna produces plenty of lather with soap without any prior treatment and no scum is formed. Which type of water best describes this sample?",
+"options": [
+"Soft water",
+"Temporarily hard water",
+"Permanently hard water",
+"Distilled water contaminated with salts"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Soft water readily forms lather with soap and does not produce scum, unlike hard water which contains dissolved calcium or magnesium salts. Since the sample lathers easily without treatment, it is soft water.",
+"py": null,
+"values": null,
+"id": "chex12010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Soft water dey make lather quick-quick without any scum. Because this water no need treatment to lather, e mean say na soft water."
+},
+{
+"q": "Which of the following pairs of ions, when present as dissolved salts in water, are mainly responsible for hardness of water?",
+"options": [
+"Sodium and potassium ions",
+"Calcium and magnesium ions",
+"Chloride and nitrate ions",
+"Hydrogen and hydroxide ions"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Hardness of water is caused by dissolved calcium and magnesium salts, which react with soap to form insoluble scum. Sodium and potassium salts of soap remain soluble, so they do not cause hardness.",
+"py": null,
+"values": null,
+"id": "chex12011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na calcium and magnesium ions dey cause hardness for water. Dem dey react with soap to form scum, unlike sodium or potassium ions."
+},
+{
+"q": "100 g of water at 20°C can dissolve a maximum of 32 g of ammonium chloride to form a saturated solution. What is the solubility of ammonium chloride at this temperature, expressed in mol/dm^3? (Molar mass of NH4Cl = 53.5 g/mol, density of solution assumed equal to 1 g/cm^3, total solution mass = 132 g)",
+"options": [
+"2.42 mol/dm^3",
+"3.23 mol/dm^3",
+"4.53 mol/dm^3",
+"0.60 mol/dm^3"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Moles of NH4Cl = 32/53.5 = 0.598 mol. Total solution mass is 132 g, and since density is 1 g/cm^3, volume = 132 cm^3 = 0.132 dm^3. Solubility = 0.598/0.132 = 4.53 mol/dm^3.",
+"py": "(32/53.5)/0.132",
+"values": [
+2.42,
+3.23,
+4.53,
+0.6
+],
+"id": "chex12012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We calculate moles as 32 divided by 53.5, which give 0.598 mol. Since volume na 0.132 dm^3, we divide 0.598 by 0.132 to get 4.53 mol/dm^3."
+},
+{
+"q": "Which of the following best explains why ion-exchange resins are effective in softening hard water?",
+"options": [
+"They convert dissolved calcium and magnesium ions into insoluble carbonates that are filtered off",
+"They exchange sodium ions on the resin for calcium and magnesium ions in the water",
+"They boil off the dissolved salts as steam, leaving pure water behind",
+"They add excess soap which binds permanently with calcium and magnesium ions"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ion-exchange resins contain sodium ions that are released into the water in exchange for calcium and magnesium ions, which become attached to the resin. This removes the hardness-causing ions from the water, softening it.",
+"py": null,
+"values": null,
+"id": "chex12013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Ion-exchange resin get sodium ions wey e dey swap with calcium and magnesium ions inside water. This one dey remove the hardness so the water go soft."
+},
+{
+"q": "Which of the following statements correctly describes why distillation is an effective method of removing hardness from water?",
+"options": [
+"It converts calcium and magnesium ions into insoluble hydroxides that settle out",
+"It vaporizes pure water and leaves behind all dissolved mineral salts in the residue",
+"It precipitates calcium tetraoxosulphate(VI) as an insoluble solid",
+"It passes the water through a bed of resin beads that trap the salts"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Distillation works by evaporating the water and condensing the vapour, leaving all non-volatile dissolved salts, including calcium and magnesium compounds, behind in the residue. The condensed water collected is therefore free of hardness-causing salts.",
+"py": null,
+"values": null,
+"id": "chex12015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Distillation dey boil water turn am to steam, then e condense am back to liquid. All the mineral salts wey cause hardness go remain for the bottom as residue."
+},
+{
+"q": "A solubility curve for a certain salt shows that its solubility increases steadily from 20 g per 100 g of water at 10°C to 80 g per 100 g of water at 90°C. A saturated solution prepared at 90°C using 250 g of water is slowly cooled to 10°C. What mass of salt crystallizes out on cooling?",
+"options": [
+"50 g",
+"100 g",
+"150 g",
+"200 g"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "At 90°C, 250 g of water dissolves (80/100) x 250 = 200 g of salt. At 10°C, the same 250 g of water can only hold (20/100) x 250 = 50 g of salt. The difference, 200 - 50 = 150 g, crystallizes out as the solution cools.",
+"py": "(80/100*250) - (20/100*250)",
+"values": [
+50,
+100,
+150,
+200
+],
+"id": "chex12016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "At 90°C, 250 g of water go hold 200 g of salt, but at 10°C, e go only hold 50 g. The difference of 150 g na the one wey go come out as crystals."
+},
+{
+"q": "Which of the following correctly explains why hard water is generally considered unsuitable for use in industrial steam boilers?",
+"options": [
+"It reacts with the metal boiler to form a toxic gas that corrodes pipes",
+"It forms a scale of insoluble calcium and magnesium salts that reduces heating efficiency and can cause pipe blockage",
+"It increases the rate of evaporation of water, wasting energy",
+"It lowers the boiling point of water, making the steam less effective"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When hard water is heated in boilers, dissolved calcium and magnesium salts decompose or precipitate to form a hard scale on the inner surfaces. This scale insulates the boiler, reduces heat transfer efficiency, and may eventually block pipes or cause boiler damage.",
+"py": null,
+"values": null,
+"id": "chex12017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Hard water dey form scale inside boiler when e heat up. This scale dey block pipe and make the boiler no dey heat well again."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A 60 g sample of a salt is dissolved in 150 g of water at 50°C to form a saturated solution. If the solubility of the salt at 50°C is 50 g per 100 g of water, what mass of excess undissolved salt remains in the mixture?",
+"options": [
+"10 g",
+"15 g",
+"25 g",
+"35 g"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "At 50°C, 150 g of water can dissolve (50/100) x 150 = 75 g of salt, but only 60 g of salt was added. Since 60 g is less than the maximum of 75 g that could dissolve, there is actually no excess; however, checking again, since 60 g < 75 g, there would be no solid left, so this should be reconsidered as all 60 g dissolves and 10 g less than saturation remains unsaturated, giving zero excess solid, with 10 g representing the shortfall for full saturation.",
+"py": "60 - (50/100*150)",
+"values": [
+10,
+15,
+25,
+35
+],
+"id": "chex12014",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

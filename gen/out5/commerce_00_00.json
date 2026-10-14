@@ -1,0 +1,194 @@
+{
+"subject": "commerce",
+"topic": "Commerce: meaning, scope and occupations",
+"ti": 0,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Occupations in which people earn a living are broadly classified into three groups. These are direct production, commerce and",
+"options": [
+"Distribution of goods",
+"Direct services",
+"Aids to trade",
+"Industrial production"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Occupations are grouped into direct production (extraction and manufacture), commerce (trade and aids to trade), and direct services (such as teaching, medicine and the civil service). Direct services do not involve producing or trading goods.",
+"py": null,
+"values": null,
+"id": "comx00000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dem dey divide work into three parts: direct production, commerce, and direct services. Direct services no dey involve to dey produce or sell goods."
+},
+{
+"q": "Which of the following is an example of direct production, as distinct from commerce?",
+"options": [
+"A trader buying cocoa from farmers for resale",
+"A bank granting loans to a cocoa exporter",
+"A farmer in Ondo State planting and harvesting cocoa",
+"An insurance firm covering a cocoa warehouse"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Direct production involves the actual extraction or growing of raw materials or manufacture of goods, such as a farmer growing cocoa. Buying for resale, banking and insurance are trade and aids to trade, which belong to commerce.",
+"py": null,
+"values": null,
+"id": "comx00001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Direct production na wen person go farm plant cocoa or extract raw materials. To buy and sell, do banking, or insurance na commerce."
+},
+{
+"q": "The study of Commerce is important to a developing economy mainly because it",
+"options": [
+"Fixes the prices of all goods produced in the country",
+"Ensures that only government agencies distribute goods",
+"Prevents producers from exporting their goods abroad",
+"Helps goods move efficiently from producers to the final users who need them"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Commerce facilitates the exchange and distribution of goods and services so that they reach the people who need them, wherever they are. It does not fix prices, restrict exports or limit distribution to government alone.",
+"py": null,
+"values": null,
+"id": "comx00002",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Commerce dey help goods reach people wey need dem fast. E no dey fix price or stop people make dem export goods."
+},
+{
+"q": "A tailor in Kano sews ready-made clothes and sells them directly to customers who walk into her shop. Mr. Eze, however, buys the same type of ready-made clothes in bulk from several tailors and resells them to retailers across three states. Which statement correctly classifies their occupations?",
+"options": [
+"Both of them are engaged purely in direct production",
+"The tailor is in direct production while Mr. Eze is engaged in trade",
+"The tailor is engaged in trade while Mr. Eze is in direct production",
+"Both of them are engaged purely in aids to trade"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The tailor manufactures the clothes herself, which is direct production, even though she also sells what she makes. Mr. Eze does not manufacture anything; he only buys and resells goods made by others, which is the trade aspect of commerce.",
+"py": null,
+"values": null,
+"id": "comx00003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Taylor dey sew cloth, na direct production be dat. Mr. Eze just dey buy and sell wetian other people don make, na trade be dat."
+},
+{
+"q": "Which pair below correctly matches each person with the broad occupational group his main activity belongs to?\nI. Tunde is a goldsmith who mines and refines gold himself.\nII. Ngozi works as a staff nurse in a government hospital.",
+"options": [
+"Tunde - commerce; Ngozi - direct production",
+"Tunde - direct production; Ngozi - direct service",
+"Tunde - direct service; Ngozi - commerce",
+"Tunde - commerce; Ngozi - direct service"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Tunde extracts and refines a raw material himself, so his work is direct production. Ngozi offers a personal service to the public as a nurse, which falls under direct services, not trade or commerce.",
+"py": null,
+"values": null,
+"id": "comx00004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Tunde work na direct production because e dey mine gold. Ngozi work as nurse na direct service because e dey help people directly."
+},
+{
+"q": "A shortage of boreholes forces Mrs. Afolabi's cassava processing business in Ogun State to use river water, resulting in frequent contamination of her garri. Which problem of commerce and industry does this situation best illustrate?",
+"options": [
+"Inadequate capital for business expansion",
+"Poor infrastructural facilities",
+"High rate of taxation on small businesses",
+"Low demand for processed cassava products"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Lack of reliable water supply is an infrastructural problem, since infrastructure includes utilities like water, power and roads needed for smooth business operations. It is not about capital, taxation or demand for the product.",
+"py": null,
+"values": null,
+"id": "comx00005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Wahala of water supply na bad infrastructure because business need water and light to work well. E no consign money or tax."
+},
+{
+"q": "Within the scope of Commerce, 'home trade' is best described as the buying and selling of goods",
+"options": [
+"Between a Nigerian exporter and a buyer in Ghana",
+"Entirely within the boundaries of one country",
+"Carried out only by government owned companies",
+"Involving goods shipped across international waters"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Home trade, also called internal or domestic trade, refers to the exchange of goods and services entirely within one country's borders. Trade crossing national boundaries is foreign trade, not home trade.",
+"py": null,
+"values": null,
+"id": "comx00006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Home trade na when buying and selling happen inside one country alone. If e cross another country border, na foreign trade be dat."
+},
+{
+"q": "Okon owns a small store in Calabar. He sources garments from a wholesaler, stores them, prices them, and sells single units to walk-in customers, while also arranging for a courier firm to deliver items to customers in nearby towns. Considering the full scope of Commerce, Okon's activities combine",
+"options": [
+"Direct production and direct service only",
+"Retail trade and an aid to trade (transportation) only",
+"Wholesale trade and manufacturing only",
+"Banking and insurance services only"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Okon sells in small quantities directly to final consumers, which is retail trade, and he also uses a courier service to move goods, which is transportation, an aid to trade. He neither manufactures goods nor performs banking or insurance functions.",
+"py": null,
+"values": null,
+"id": "comx00007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Okon dey sell for him small shop, na retail trade. E also dey use courier service carry goods, na transport be dat, wey be aid to trade."
+}
+],
+"rejected": []
+}

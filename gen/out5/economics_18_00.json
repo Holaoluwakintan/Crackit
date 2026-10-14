@@ -1,0 +1,204 @@
+{
+"subject": "economics",
+"topic": "International trade: comparative advantage, balance of payments, terms of trade, exchange rates",
+"ti": 18,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Two farmers, Musa and Ibe, can each produce yam and maize. Musa produces 8 tonnes of yam or 4 tonnes of maize with his resources, while Ibe produces 6 tonnes of yam or 6 tonnes of maize with his. Which statement is correct according to the law of comparative advantage?",
+"options": [
+"Musa has comparative advantage in yam while Ibe has comparative advantage in maize",
+"Ibe has comparative advantage in both yam and maize",
+"Musa has comparative advantage in both yam and maize",
+"Musa and Ibe should both specialize in yam only"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Musa's opportunity cost of 1 tonne yam is 0.5 maize, lower than Ibe's 1 maize, so Musa should specialize in yam. Ibe's opportunity cost of 1 tonne maize is 1 yam, lower than Musa's 2 yams, so Ibe specializes in maize.",
+"py": null,
+"values": null,
+"id": "ecox18000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Musa get comparative advantage for yam because e cost am small to produce am. Ibe get comparative advantage for maize because e cost am small to produce am pass Musa."
+},
+{
+"q": "Which of the following best describes a 'fixed exchange rate' system as used in international trade?",
+"options": [
+"A system where the value of a currency is allowed to fluctuate freely according to market forces of demand and supply",
+"A system where the government or central bank pegs the value of the local currency to another currency or a basket of currencies at an official rate",
+"A system where exchange rates are determined solely by the volume of exports a country records",
+"A system where traders set exchange rates individually for each transaction without central bank involvement"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Under a fixed exchange rate system, the monetary authority officially pegs the currency's value to another currency and intervenes to maintain that rate. This contrasts with a floating rate determined by market forces.",
+"py": null,
+"values": null,
+"id": "ecox18001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Fixed exchange rate mean say government or central bank go fix the price of money. Dem no dey allow market forces to just change the rate anyhow."
+},
+{
+"q": "Which of the following is a non-price measure a government can use to correct a persistent balance of payments deficit?",
+"options": [
+"Devaluation of the national currency",
+"Imposition of import quotas restricting the quantity of certain goods allowed into the country",
+"Raising the exchange rate to make the currency stronger",
+"Increasing the money supply through the central bank"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Import quotas are a direct, non-price control that physically limits the quantity of imports, unlike devaluation which works through price changes. This helps reduce spending on foreign goods.",
+"py": null,
+"values": null,
+"id": "ecox18004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Import quota na way to limit the amount of goods wey dey enter country. E no be price change, na direct control to stop too much import."
+},
+{
+"q": "Nigeria exports mainly primary agricultural and mineral products while importing mostly manufactured goods and machinery. Which problem commonly associated with the terms of trade is this pattern likely to cause for Nigeria in the long run?",
+"options": [
+"A tendency for terms of trade to improve steadily over time",
+"A tendency for terms of trade to deteriorate since primary product prices often rise slower than manufactured goods prices",
+"Complete immunity from exchange rate fluctuations",
+"Automatic balance of payments surplus regardless of world prices"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Primary products often face slower price growth and more volatile demand than manufactured goods, so countries exporting primary goods and importing manufactures tend to experience deteriorating terms of trade over time.",
+"py": null,
+"values": null,
+"id": "ecox18006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If country dey export raw materials and dey import finished goods, the terms of trade go spoil with time. The price of raw materials no dey rise like the price of machines and finished goods."
+},
+{
+"q": "In a particular year, Ghana records the following: exports of goods and services worth $900 million, imports of goods and services worth $1,050 million, net income received from abroad of $40 million, and net current transfers received of $30 million. What is the current account balance?",
+"options": [
+"-$150 million",
+"-$80 million",
+"$70 million",
+"-$200 million"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Current account balance equals exports minus imports plus net income plus net transfers: 900 minus 1050 plus 40 plus 30 equals -80. This shows a current account deficit of $80 million.",
+"py": "900-1050+40+30",
+"values": [
+-150,
+-80,
+70,
+-200
+],
+"id": "ecox18007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To get current account balance, you go subtract import from export, then add net income and transfers. If you calculate 900 minus 1050 plus 40 plus 30, you go get -80 million."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A country's currency depreciates sharply against major trading currencies. Assuming demand for its exports and imports is price elastic, what is the most likely effect on its balance of trade in the short to medium run?",
+"options": [
+"The balance of trade will worsen because imports become more attractive",
+"The balance of trade will improve as exports become cheaper abroad and imports become more expensive",
+"The balance of trade will remain completely unchanged regardless of elasticity",
+"The balance of trade will improve only if the currency appreciates instead",
+""
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When demand is elastic, a depreciation makes exports cheaper and more competitive abroad while imports become costlier, raising export revenue and reducing import spending, thereby improving the trade balance.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "In Nigeria's balance of payments accounts, which of the following transactions would be recorded under the capital account rather than the current account?",
+"options": [
+"Payment for crude oil exported to Spain",
+"Foreign direct investment by a Chinese company in a Lagos factory",
+"Payment for cocoa imported into Germany from Nigeria",
+"Interest earned on Nigerian government bonds held abroad"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Foreign direct investment involves a flow of capital for acquiring assets, which belongs in the capital/financial account. Trade in goods and interest income are recorded in the current account.",
+"py": null,
+"values": null,
+"id": "ecox18002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:FDI is classified under the financial account in modern balance-of-payments accounting, though traditionally taught as capital account.|"
+},
+{
+"q": {
+"q": "A small West African country's export price index rises from 100 to 125 over five years, while its import price index rises from 100 to 180 over the same period. What has happened to its terms of trade?",
+"options": [
+"Terms of trade improved because export prices rose",
+"Terms of trade worsened because import prices rose faster than export prices",
+"Terms of trade remained constant since both indices increased",
+"Terms of trade cannot be determined without GDP figures"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Terms of trade index equals export price index divided by import price index multiplied by 100: 125/180 x 100 is about 69, which is below the earlier value of 100, showing a worsened (adverse) terms of trade.",
+"py": "(125/180)*100",
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "ecox18005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "keyed-not-numeric"
+}
+},
+"why": "python:keyed-not-numeric"
+}
+]
+}

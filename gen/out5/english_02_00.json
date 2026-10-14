@@ -1,0 +1,180 @@
+{
+"subject": "english",
+"topic": "Sentence completion: vocabulary (choosing the right word)",
+"ti": 2,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best completes the gap. Rather than face the shame of public disgrace, the former minister chose to ________ from his position.",
+"options": [
+"resign",
+"retire",
+"withdraw",
+"abscond"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Resign specifically means to give up a position or office, which matches the context of leaving to avoid disgrace. Retire implies leaving after long service, not due to shame, so it does not fit as well.",
+"id": "engx02001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Resign mean say you comot for work sake of say you no want shame. Retire na when person don work finish before e comot, so resign correct pass."
+},
+{
+"q": "Choose the option that best completes the gap. The young lawyer presented her argument with such ________ that even the senior judges were impressed by her confidence and clarity.",
+"options": [
+"aplomb",
+"arrogance",
+"timidity",
+"confusion"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Aplomb means self-confidence and composure, which suits a lawyer who impresses judges with clarity. Arrogance has a negative tone that would not please the judges, so it is the wrong fit.",
+"id": "engx02002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Aplomb mean say you get confidence and you no dey shake. Since the lawyer impress the judges, na confidence she show, no be arrogance."
+},
+{
+"q": "Choose the option that best completes the gap. Although the twins were raised in the same house, their characters are completely ________; one is calm while the other is hot-tempered.",
+"options": [
+"divergent",
+"convergent",
+"identical",
+"matching"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Divergent means different or moving apart, which matches the contrast between calm and hot-tempered characters. Convergent means coming together, which contradicts the idea of difference expressed in the sentence.",
+"id": "engx02003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Divergent mean say things no be the same. Since one twin calm and the other one get hot temper, e show say their character no match."
+},
+{
+"q": "Choose the option that best completes the gap. The village elders tried to ________ the quarrel between the two families before it degenerated into a full-blown feud.",
+"options": [
+"mediate",
+"instigate",
+"aggravate",
+"provoke"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Mediate means to intervene in a dispute to bring about an agreement, which fits the elders' peace-making role. Instigate, aggravate and provoke all mean to worsen or start trouble, the opposite of what the elders intended.",
+"id": "engx02004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Mediate mean say you want settle fight between two people. The elders want peace, so na mediate dem go do, no be to make the matter worse."
+},
+{
+"q": "Choose the option that best completes the gap. The newly appointed accountant was so ________ in handling the company's funds that not a single kobo was found missing after the audit.",
+"options": [
+"scrupulous",
+"frivolous",
+"careless",
+"lavish"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Scrupulous means extremely careful and honest about details, which explains why no money was missing after the audit. Frivolous and careless suggest a lack of seriousness, which would not lead to such an accurate result.",
+"id": "engx02005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Scrupulous mean say you dey very careful and you no dey thief money. Because no kobo miss, e show say the accountant do well well."
+},
+{
+"q": "Choose the option that best completes the gap. The professor's lecture was too ________ for the first-year students, who struggled to follow his complex theories and technical terms.",
+"options": [
+"abstruse",
+"elementary",
+"lucid",
+"simplistic"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Abstruse means difficult to understand, which matches the students struggling with complex theories. Lucid and elementary mean clear or simple, which would not cause the students to struggle as described.",
+"id": "engx02006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Abstruse mean say something hard to understand. If the students dey struggle with the lecture, e mean say the matter too deep for dem."
+},
+{
+"q": "Choose the option that best completes the gap. Having worked tirelessly for thirty years without complaint, Mrs. Adeyemi felt that a ________ retirement package was the least the company could offer her.",
+"options": [
+"befitting",
+"meagre",
+"paltry",
+"trivial"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Befitting means appropriate or suitable, which fits a reward that matches thirty years of dedicated service. Meagre, paltry and trivial all mean small or insignificant, which contradicts the idea of a deserved reward.",
+"id": "engx02007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Befitting mean say something correct and e fit the person. After thirty years of work, the woman deserve something wey fit her effort, no be small thing."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap. The twin sisters look so ________ that even their close relatives find it hard to tell them apart.",
+"options": [
+"identical",
+"similar",
+"related",
+"equal"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Identical means exactly alike in every way, which fits the idea that even relatives cannot tell the twins apart. Similar and related only suggest a likeness, not an exact match needed here.",
+"id": "engx02000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Both 'identical' and 'similar' fit.|"
+}
+]
+}

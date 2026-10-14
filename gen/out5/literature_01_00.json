@@ -1,0 +1,174 @@
+{
+"subject": "literature",
+"topic": "Sound devices in poetry: rhyme, alliteration, assonance, onomatopoeia",
+"ti": 1,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best explains why rhyme is used by poets as a structural and musical device?",
+"options": [
+"It links lines together through sound and often marks the end of a poetic unit, giving the poem musicality and structure",
+"It changes the meaning of words entirely to create confusion",
+"It is used only in free verse to break up stanzas",
+"It replaces the need for rhythm in a poem"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Rhyme creates a musical link between lines, usually at the end, and helps to build the structure and memorability of a poem. It does not change word meaning or remove the need for rhythm.",
+"id": "litx01000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Rhyme dey join lines together with sound and e dey show where poetic unit finish. E dey make poem get melody and structure, e no dey change word meaning."
+},
+{
+"q": "A poet writes: 'The river runs, the river roars, the river rushes past the shores.' Beyond alliteration, what additional effect does the repetition of 'the river' at the start of each clause create?",
+"options": [
+"Anaphora, which emphasises the subject through repeated phrase openings",
+"Onomatopoeia, because 'river' imitates a natural sound",
+"Assonance, because of repeated consonant sounds",
+"Slant rhyme, because the clauses sound almost alike"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Repeating the same phrase at the beginning of successive clauses is anaphora, a device that stresses the subject. It is not onomatopoeia, assonance, or slant rhyme, which involve sound imitation or vowel/near-rhyme matching, not phrase repetition.",
+"id": "litx01001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you repeat di same phrase for di start of lines, we dey call am anaphora to make di subject strong. E no be onomatopoeia or assonance because those ones dey focus on sound imitation or vowel matching."
+},
+{
+"q": "In the lines: 'Our fathers tilled the land with care / Their children now breathe city air,' what type of rhyme links 'care' and 'air'?",
+"options": [
+"Internal rhyme",
+"Eye rhyme",
+"Perfect end rhyme",
+"Alliterative rhyme"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "'Care' and 'air' sound exactly alike at the end of their lines, making this a perfect end rhyme. It is not internal rhyme since the words are not within the same line, and it is not eye rhyme since the sounds genuinely match.",
+"id": "litx01002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because 'care' and 'air' sound exactly di same for di end of di lines, na perfect end rhyme be dat. E no be internal rhyme because dem no dey inside one line, and e no be eye rhyme because di sounds match well well."
+},
+{
+"q": "A student claims that onomatopoeia and alliteration are the same device because both involve repeated sounds. Which statement correctly corrects this misunderstanding?",
+"options": [
+"Onomatopoeia imitates natural sounds through word choice, while alliteration repeats initial consonant sounds across nearby words, regardless of meaning",
+"Both devices always occur at the end of lines, so they are identical in function",
+"Onomatopoeia only occurs in prose, while alliteration only occurs in poetry",
+"Alliteration imitates sounds, while onomatopoeia repeats consonants"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Onomatopoeia is about a word's sound imitating what it describes, such as 'buzz', while alliteration is the repetition of initial consonant sounds in nearby words, regardless of meaning. The other statements wrongly merge or reverse the two devices.",
+"id": "litx01004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Onomatopoeia dey imitate natural sound like 'buzz', but alliteration na just to repeat consonant sound for di beginning of words. Dem no be di same thing at all."
+},
+{
+"q": "Consider the lines: 'Deep in the creek, the fish did leap, / While shepherds slept in silence deep.' Which combination of sound devices is demonstrated across both lines?",
+"options": [
+"Alliteration only",
+"End rhyme and assonance of the long 'ee' sound",
+"Onomatopoeia and internal rhyme only",
+"Consonance without any vowel repetition"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The lines end with rhyming words 'leap' and 'deep', showing end rhyme, while the long 'ee' vowel sound is repeated within words like 'deep', 'creek', and 'leap', showing assonance. There is no strong onomatopoeia or pure consonance pattern here.",
+"id": "litx01005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di lines get end rhyme because 'leap' and 'deep' sound di same. Di long 'ee' sound wey dey inside 'deep', 'creek', and 'leap' na wetin we dey call assonance."
+},
+{
+"q": "In the sentence: 'The blacksmith's hammer went clang, clang against the stubborn iron,' what specific function does the word 'clang' serve in the sentence?",
+"options": [
+"It functions as an onomatopoeic word that recreates the actual sound of metal striking metal",
+"It functions as an example of assonance due to repeated vowel sounds",
+"It is a rhyming word that links to 'iron' at the end of the sentence",
+"It is an alliterative word matching the 's' sound in 'blacksmith'"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "'Clang' imitates the real sound produced when metal strikes metal, which is the definition of onomatopoeia. It does not rhyme with 'iron', nor does it mainly demonstrate assonance or alliteration.",
+"id": "litx01006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "'Clang' na word wey dey sound like di real noise wey metal dey make when e hit metal. Dat one na wetin we dey call onomatopoeia."
+},
+{
+"q": "A poem contains the line: 'The drummer's hand beats a steady, thudding sound that pounds the night.' A candidate argues this line shows only onomatopoeia. Which observation shows this view is incomplete?",
+"options": [
+"The line also contains consonance through the repeated 'd' and 'n' sounds in 'drummer', 'hand', 'sound', and 'pounds', working alongside the onomatopoeic word 'thudding'",
+"The line contains no sound device apart from onomatopoeia, so the candidate is correct",
+"The line is purely an example of rhyme because 'sound' and 'pounds' look similar",
+"The line relies only on rhythm, since sound devices cannot combine in a single line"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Besides the onomatopoeic word 'thudding', the line repeats consonant sounds like 'd' and 'n' within several words, which is consonance. Sound devices often combine in a single line, so the claim that only one device is present is incomplete.",
+"id": "litx01007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Apart from 'thudding' wey be onomatopoeia, di line get consonance because of di 'd' and 'n' sounds wey repeat for inside words. Sound devices fit work together for one line, so e no be only one device dey there."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Read this line: 'Mama hums a tune while the gentle stove simmers soup slowly.' Which sound device is most responsible for the soft, soothing mood of the line?",
+"options": [
+"Harsh alliteration of plosive consonants",
+"Assonance of repeated soft vowel and 'm'/'s' sounds creating a gentle, flowing effect",
+"Onomatopoeia imitating a loud noise",
+"End rhyme between 'tune' and 'soup'",
+""
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The repeated soft vowel sounds and gentle consonants like 'm' and 's' make the line sound calm and flowing, matching its soothing mood. There is no end rhyme between 'tune' and 'soup', and the consonants are soft, not harsh plosives."
+},
+"why": "bad-shape"
+}
+]
+}

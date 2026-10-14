@@ -1,0 +1,180 @@
+{
+"subject": "biology",
+"topic": "Support and movement: skeleton, joints, muscles, plant support tissues",
+"ti": 8,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which pair of bones forms the pectoral girdle in man, serving as the attachment point for the bones of the upper limb?",
+"options": [
+"Scapula and clavicle",
+"Ilium and ischium",
+"Sternum and ribs",
+"Radius and ulna"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The pectoral (shoulder) girdle is made up of the scapula (shoulder blade) and the clavicle (collar bone). These bones attach the upper limb to the axial skeleton.",
+"id": "biox08010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Pectoral girdle na scapula and clavicle. Dem dey join upper limb to the axial skeleton."
+},
+{
+"q": "A fish uses blocks of muscle called myotomes arranged along its body to swim. These myotomes contract alternately on each side of the body. What is the main mechanical effect of this alternate contraction?",
+"options": [
+"It produces side-to-side bending that pushes water backward, propelling the fish forward",
+"It compresses the swim bladder to control depth",
+"It stiffens the vertebral column to prevent any bending",
+"It pumps blood faster through the gills"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Alternate contraction of myotomes on either side bends the body into waves. This wave motion pushes against the water, generating thrust that moves the fish forward.",
+"id": "biox08011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When myotomes dey contract side to side, e dey bend body to push water back. Dis one dey make fish move forward."
+},
+{
+"q": "Which of the following best describes the structure and function of yellow elastic cartilage found in the human ear pinna and epiglottis?",
+"options": [
+"It contains elastic fibres that allow it to bend and spring back to its original shape",
+"It is heavily calcified, making it as hard and rigid as bone",
+"It contains no cells and is formed entirely of collagen fibres",
+"It is found at joint surfaces where it reduces friction during movement"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Yellow elastic cartilage has elastic fibres embedded in its matrix, giving it flexibility so it can bend and return to shape. This suits structures like the ear pinna that need to flex repeatedly without breaking.",
+"id": "biox08012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Yellow elastic cartilage get fibres wey dey allow am bend and come back to shape. E good well well for ear pinna."
+},
+{
+"q": "In the mammalian skeleton, red bone marrow found in the spongy bone of structures such as the sternum and ribs performs which important function?",
+"options": [
+"Production of blood cells",
+"Storage of fat reserves only",
+"Secretion of synovial fluid for joints",
+"Formation of new cartilage at growth plates"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Red bone marrow is the site of haemopoiesis, the production of red blood cells, white blood cells and platelets. It is found in spongy bone of flat and some long bones.",
+"id": "biox08013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Red bone marrow na im dey produce blood cells. E dey inside spongy bone of flat bones."
+},
+{
+"q": "A student compares two types of muscle under a microscope. Tissue X shows long, unbranched, striated fibres with many nuclei at the edge, under voluntary control. Tissue Y shows short, spindle-shaped, unstriated fibres with one central nucleus each, under involuntary control. Tissue Y most likely came from which part of the body?",
+"options": [
+"Wall of the small intestine",
+"Biceps brachii of the upper arm",
+"Wall of the heart (myocardium)",
+"Skeletal muscle attached to the jaw bone"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Tissue Y matches smooth muscle, which is unstriated, spindle-shaped with a single central nucleus and works involuntarily. Smooth muscle lines the walls of internal organs like the intestine, unlike skeletal muscle described as tissue X.",
+"id": "biox08014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Tissue Y na smooth muscle wey no get striations and dey work on im own. Na im dey form wall of small intestine."
+},
+{
+"q": "A patient's X-ray shows that the ball-shaped head of the humerus has slipped completely out of the shoulder socket after a fall. Which term correctly describes this condition?",
+"options": [
+"Dislocation",
+"Fracture",
+"Sprain",
+"Arthritis"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A dislocation occurs when a bone is forced out of its normal position at a joint. A fracture would instead mean a break in the bone itself, while a sprain involves ligament damage without the bone leaving the socket.",
+"id": "biox08015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dislocation happen when bone commot from im normal socket for joint. E different from when bone break."
+},
+{
+"q": "In woody plants, secondary thickening produces annual growth rings that can be counted to estimate the age of a tree. These rings are formed mainly as a result of the seasonal activity of which tissue?",
+"options": [
+"Vascular cambium",
+"Phloem parenchyma",
+"Epidermis",
+"Pith"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The vascular cambium produces new xylem and phloem each growing season; it grows faster in the wet season and slower in the dry season, creating visible rings of differing wood density. Counting these rings gives the tree's approximate age.",
+"id": "biox08016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Vascular cambium dey produce new xylem and phloem every season to form annual rings. We fit use am count tree age."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "An agricultural science student examines a mature maize stem and a mature dicot stem of similar age. The maize stem bends in strong wind without snapping, while the dicot stem would have broken if it lacked wood. Which feature of the maize stem's scattered vascular bundles best explains this flexibility?",
+"options": [
+"The bundles are surrounded by a sheath of sclerenchyma that permits some bending while still giving support",
+"The bundles contain only phloem tissue without any xylem",
+"The bundles lack any mechanical tissue, leaving the stem entirely soft",
+"The bundles are arranged in a single continuous ring like a dicot stem"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In monocot stems like maize, scattered vascular bundles are each capped with sclerenchyma fibres, which are strong yet can flex slightly under stress instead of snapping. This arrangement gives the stem both support and the ability to sway in wind.",
+"id": "biox08017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Sclerenchyma provides support but does not itself explain flexibility.|"
+}
+]
+}

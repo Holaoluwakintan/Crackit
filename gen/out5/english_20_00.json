@@ -1,0 +1,183 @@
+{
+"subject": "english",
+"topic": "Grammatical names and functions of words, phrases and clauses",
+"ti": 20,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Identify the grammatical name of the underlined clause: 'Because the market women arrived late, the customers had already left.' (The underlined clause is 'Because the market women arrived late'.)",
+"options": [
+"Main clause",
+"Noun clause",
+"Adverbial clause of reason",
+"Relative clause"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The clause begins with 'Because' and explains why the customers had left, giving a reason. Clauses introduced by 'because' that explain cause are adverbial clauses of reason.",
+"id": "engx20002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di clause 'Because the market women arrived late' dey show us di reason why di customers leave. Na proper adverbial clause of reason be dat."
+},
+{
+"q": "In the sentence 'What Ngozi said at the meeting surprised everyone,' what is the function of the clause 'What Ngozi said at the meeting'?",
+"options": [
+"It is an adjectival clause qualifying 'everyone'",
+"It is an adverbial clause of manner",
+"It is a noun clause functioning as the subject",
+"It is an independent clause joined by coordination"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The clause 'What Ngozi said at the meeting' acts as the subject of the verb 'surprised', doing the job a noun would do. Clauses that act as subject, object or complement are noun clauses.",
+"id": "engx20003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis clause 'What Ngozi said at the meeting' dey stand as di person wey do di work of subject for di sentence. Na correct noun clause be dat."
+},
+{
+"q": "Select the sentence in which 'running' functions as a gerund.",
+"options": [
+"The running water flooded the compound",
+"Running every morning keeps Tunde fit",
+"He saw a running tap in the kitchen",
+"The boys were running round the field"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In this option, 'Running' acts as the subject of the sentence, so it behaves like a noun. A gerund is a verb form ending in -ing that functions as a noun.",
+"id": "engx20004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na only for option B 'Running' dey play di role of noun as subject of di sentence. Dat one na true gerund."
+},
+{
+"q": "In the sentence 'The man whose car was stolen reported to the police,' what is the grammatical name of 'whose car was stolen'?",
+"options": [
+"Noun clause",
+"Adjectival (relative) clause",
+"Adverbial clause of condition",
+"Main clause"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The clause 'whose car was stolen' gives more information about 'the man', describing him like an adjective would. Clauses beginning with relative pronouns such as 'whose' that qualify a noun are adjectival clauses.",
+"id": "engx20005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di clause 'whose car was stolen' dey explain more about di man, just like adjective dey do. Na adjectival or relative clause be dat."
+},
+{
+"q": "Read the sentence carefully: 'Having finished her assignment, Blessing decided to visit her aunt in Enugu before it got dark.' What is the grammatical function of 'Having finished her assignment'?",
+"options": [
+"It is a noun phrase functioning as object",
+"It is a non-finite (participial) phrase functioning adverbially",
+"It is a finite adverbial clause of time",
+"It is a main clause joined by a conjunction"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The phrase has no subject of its own and uses a participle 'Having finished', so it is non-finite, not a full clause. It shows the time relationship to the main action, functioning adverbially, like a reduced adverbial clause of time.",
+"id": "engx20006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis phrase 'Having finished her assignment' no get subject and e start with participle, so e be non-finite phrase wey dey do adverb work. E correct well well."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that correctly identifies the word class of the capitalised word: Chidinma spoke CONFIDENTLY during the debate competition.",
+"options": [
+"Adjective",
+"Adverb",
+"Noun",
+"Preposition"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "CONFIDENTLY describes how Chidinma spoke, telling us the manner of the action. Words ending in -ly that modify verbs are usually adverbs.",
+"id": "engx20001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Which of the following sentences contains a word used as a conjunction?",
+"options": [
+"Emeka ran FAST to catch the bus",
+"The food was SO delicious that we asked for more",
+"Please sit DOWN quietly",
+"She bought a BEAUTIFUL necklace"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In this sentence, 'so...that' links the clause to a result clause, making 'that' function as a subordinating conjunction introducing the result. The word joins two clauses together, which is the role of a conjunction.",
+"id": "engx20007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:‘That’ is a conjunction, but the capitalised ‘SO’ is an adverb; the intended word is unclear.|"
+},
+{
+"q": {
+"q": "In the sentence: 'The farmers in Benue State harvested a bountiful crop of yams,' what is the grammatical function of the underlined phrase 'in Benue State'? (Treat 'in Benue State' as the phrase under consideration.)",
+"options": [
+"It functions as an adjectival phrase modifying 'farmers'",
+"It functions as an adverbial phrase of place modifying 'harvested'",
+"It functions as a noun phrase acting as subject",
+"It functions as a prepositional phrase acting as object"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The phrase 'in Benue State' describes which farmers, so it modifies the noun 'farmers' like an adjective. It answers the question 'which farmers?' not 'how or where harvested'.",
+"id": "engx20000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+}
+},
+"why": "review:The keyed option A is incorrect. 'in Benue State' modifies the verb 'harvested' telling us where they harvested, making it an adverbial phrase of place (Option B). The explanation also incorrectly claims it modifies 'farmers'."
+}
+]
+}

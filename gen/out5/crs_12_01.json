@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "Holiness and the call of Isaiah; Jeremiah and the new covenant",
+"ti": 12,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "In the vision recorded in Isaiah chapter 6, what did the seraphim use their wings for, according to the description of the heavenly beings around God's throne?",
+"options": [
+"Two to cover their faces, two to cover their feet, and two to fly",
+"All six wings were used only for flying around the throne",
+"Two to shield the ark and four to fan incense before the altar",
+"Four to cover their eyes and two to carry burning coals"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Isaiah 6 describes each seraph as having six wings: two covered the face, two covered the feet, and two were used for flying. This shows reverence before God's holiness.",
+"id": "crsx12010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For Isaiah chapter 6, God angels wey dem dey call seraphim get six wings each. Dem dey use two cover dia face, two cover dia leg, and di other two naim dem dey use fly."
+},
+{
+"q": "When the posts of the temple door shook and the house was filled with smoke during Isaiah's vision, what was Isaiah's immediate reaction?",
+"options": [
+"He rejoiced that God had answered his prayers",
+"He fell silent and worshipped without speaking",
+"He cried out in fear, declaring himself a man of unclean lips among an unclean people",
+"He asked God to send someone else immediately"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Seeing the overwhelming holiness of God, Isaiah was struck with fear of his own sinfulness and that of his people, crying 'Woe is me! for I am undone'. This confession came before his cleansing and call.",
+"id": "crsx12011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When Isaiah see how God holy sotay everywhere shake, e fear say e unclean. Naim e come shout say wahala don enter am because e be sinner man."
+},
+{
+"q": "A pastor teaching on Jeremiah's call narrative tells his congregation that before Jeremiah was formed in the womb, God had already appointed him for a special task. What was that task?",
+"options": [
+"A priest to serve in the temple at Jerusalem",
+"A king to rule over Judah",
+"A prophet unto the nations",
+"A scribe to copy the law of Moses"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "In Jeremiah 1:5, God tells Jeremiah that before he was formed in the womb, he was known and ordained as a prophet unto the nations. This shows God's sovereign plan for Jeremiah's life.",
+"id": "crsx12012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "God tell Jeremiah before dem even born am for belle, say e don select am already. E make am prophet to carry message give all di nations."
+},
+{
+"q": "When Jeremiah protested his call by saying he was only a child and could not speak, how did God respond to strengthen him for the task ahead?",
+"options": [
+"God sent an angel to anoint him with oil",
+"God told him not to be afraid and promised to be with him to deliver him",
+"God gave him a scroll to swallow for wisdom",
+"God instructed him to wait until he was older"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In Jeremiah 1:7-8, God told Jeremiah not to say he was a child, but to go wherever he was sent and speak whatever he was commanded, assuring him of divine presence and deliverance. This encouragement addressed Jeremiah's fear of inadequacy.",
+"id": "crsx12013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When Jeremiah yarn say e too small pikin wey no sabi talk, God tell am make e no fear. God promise say e go follow am go everywhere and rescue am."
+},
+{
+"q": "In Jeremiah's call, God touched the prophet's mouth and declared that he had put his words there. What two-fold purpose did God give for this appointment over nations and kingdoms?",
+"options": [
+"To collect tribute and enforce taxes",
+"To build and to plant, as well as to root out and to pull down",
+"To anoint kings and crown princes",
+"To write laws and interpret dreams"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Jeremiah 1:9-10 shows that God's hand touched Jeremiah's mouth and set him over nations to root out, pull down, destroy, throw down, build and plant. This dual mission of judgment and restoration defined his prophetic ministry.",
+"id": "crsx12014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "God touch Jeremiah mouth put word inside, con give am work over nations. E say make e root out, pull down, build, and also plant."
+},
+{
+"q": "A CRS teacher explains that Jeremiah saw a vision of an almond tree branch early in his call experience. What did God say this vision confirmed about his prophetic word?",
+"options": [
+"That God would delay judgment for many generations",
+"That God was watching over his word to perform it",
+"That Jeremiah would plant trees as a sign of peace",
+"That the almond tree symbolised Israel's wealth"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In Jeremiah 1:11-12, the vision of the almond rod (a play on the Hebrew word for 'watching') was interpreted by God as a sign that he was watching over his word to fulfil it. This assured Jeremiah that his prophecies would surely come to pass.",
+"id": "crsx12015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "God show Jeremiah almond tree branch to explain say E dey watch. Dis na to show say wetin God talk, E must surely make am happen."
+},
+{
+"q": "Under the new covenant described in Jeremiah 31, what did God promise concerning the relationship between himself and the people, beyond the forgiveness of sin?",
+"options": [
+"He would make them wealthy and give them many children",
+"He would be their God and they would be his people",
+"He would appoint new kings to replace David's line",
+"He would rebuild the temple with gold and silver"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jeremiah 31:33 states that as part of the new covenant, God would write his law in their hearts and declares, 'I will be their God, and they shall be my people.' This shows a renewed, personal covenant relationship.",
+"id": "crsx12016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For inside di new covenant for Jeremiah 31, God promise say E go be dia God and dem go be His people. E mean say relationship go tight well well."
+},
+{
+"q": "A student argues that Isaiah's call and Jeremiah's call both show prophets initially reluctant or afraid when confronted by God. Comparing the two accounts, what was the main difference in how each prophet expressed his hesitation?",
+"options": [
+"Isaiah feared his sinfulness before a holy God, while Jeremiah feared he was too young and inexperienced",
+"Isaiah refused outright to go, while Jeremiah eagerly volunteered without hesitation",
+"Isaiah demanded a sign before accepting, while Jeremiah demanded wealth",
+"Isaiah asked for a scroll to read, while Jeremiah asked for silver and gold"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Isaiah's hesitation came from seeing God's holiness and feeling unclean (Isaiah 6:5), while Jeremiah's hesitation was about his youth and inability to speak well (Jeremiah 1:6). Both were reassured by God before taking up their prophetic missions.",
+"id": "crsx12017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Isaiah fear because e see say e unclean before God holiness, but Jeremiah talk say e too young. God come help both of dem overcome dia fear."
+}
+],
+"rejected": []
+}

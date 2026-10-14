@@ -1,0 +1,220 @@
+{
+"subject": "maths",
+"topic": "Surds",
+"ti": 4,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Chidinma was asked to arrange the following surds in ascending order of magnitude: 2√3, 3√2, √15. Which arrangement is correct?",
+"options": [
+"2√3, √15, 3√2",
+"√15, 2√3, 3√2",
+"3√2, 2√3, √15",
+"2√3, 3√2, √15"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Squaring each gives 2√3 = 12, √15 = 15, 3√2 = 18. So in ascending order: 2√3, √15, 3√2.",
+"py": null,
+"values": null,
+"id": "matx04002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If you put everything inside square root, 2√3 go be √12, 3√2 go be √18, and √15 remain √15. As we dey arrange am from small to big, e go be 2√3, √15, then 3√2."
+},
+{
+"q": "Simplify (√5 + √3)^2",
+"options": [
+"8 + 2√15",
+"8 + √15",
+"2 + 2√15",
+"15 + 2√15"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Expand using (a+b)^2 = a^2 + 2ab + b^2: 5 + 2√15 + 3 = 8 + 2√15.",
+"py": null,
+"values": null,
+"id": "matx04003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Make you expand am using the formula (a+b)^2 = a^2 + 2ab + b^2. E go give you 5 + 2√15 + 3, and when you add the numbers join, you go get 8 + 2√15."
+},
+{
+"q": "Rationalize the denominator of 6 / (2√3 - √2), leaving your answer in simplest surd form",
+"options": [
+"(12√3 + 6√2) / 10",
+"(6√3 + 6√2) / 10",
+"(12√3 - 6√2) / 10",
+"(12√3 + 6√2) / 5"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Multiply top and bottom by (2√3 + √2): denominator becomes 12 - 2 = 10, numerator becomes 6(2√3+√2) = 12√3 + 6√2. This gives (12√3 + 6√2)/10.",
+"py": null,
+"values": null,
+"id": "matx04004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Multiply both up and down by (2√3 + √2). The down part go give you 12 - 2 wey be 10, and the up part go give you 12√3 + 6√2."
+},
+{
+"q": "A rectangular farmland owned by Alhaji Musa has length (√8 + √2) metres and width √2 metres. Find the area of the farmland in square metres.",
+"options": [
+"6",
+"4√2",
+"8",
+"2√8"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Area = (√8 + √2) x √2 = √16 + √4 = 4 + 2 = 6 square metres.",
+"py": "math.sqrt(8)*math.sqrt(2)+math.sqrt(2)*math.sqrt(2)",
+"values": [
+6,
+null,
+8,
+null
+],
+"id": "matx04005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To find area, multiply length by width which be (√8 + √2) times √2. E go give you √16 + √4, and since √16 na 4 and √4 na 2, everything come add up give you 6."
+},
+{
+"q": "Simplify: (√3 + 1) / (√3 - 1) + (√3 - 1) / (√3 + 1)",
+"options": [
+"4",
+"2√3",
+"3",
+"2"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Combine over a common denominator: the denominator (√3-1)(√3+1) = 2, and the numerator (√3+1)^2 + (√3-1)^2 = 8. So the expression equals 8/2 = 4.",
+"py": "((math.sqrt(3)+1)**2+(math.sqrt(3)-1)**2)/((math.sqrt(3))**2-1**2)",
+"values": [
+4,
+null,
+3,
+2
+],
+"id": "matx04007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If you use common denominator, the down part (√3-1)(√3+1) go give you 2, and the up part go give you 8. When you divide 8 by 2, your answer na 4."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Simplify: √7 x √7",
+"options": [
+"7",
+"49",
+"√14",
+"2√7"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Multiplying a surd by itself gives the number under the root. So √7 x √7 = 7.",
+"py": "7",
+"values": [
+7,
+49,
+null,
+null
+],
+"id": "matx04000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Simplify √20 x √5",
+"options": [
+"10",
+"100",
+"5√4",
+"25"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "√20 x √5 = √100 = 10. Multiply the numbers under the root first, then simplify.",
+"py": "math.sqrt(20*5)",
+"values": [
+10,
+100,
+null,
+25
+],
+"id": "matx04001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "ambiguous:A and C both equal 10.|"
+},
+{
+"q": {
+"q": "If x = 3 - √5, find the value of x + 1/x, leaving your answer in simplest surd form",
+"options": [
+"3 + (1/2)√5",
+"6 - (1/2)√5",
+"3 - √5",
+"6 + √5"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "1/x = 1/(3-√5) = (3+√5)/4 after rationalizing since (3-√5)(3+√5) = 4. Adding x gives 3 - √5 + (3+√5)/4 = (12 - 4√5 + 3 + √5)/4 = (15 - 3√5)/4, which simplifies to 3 + (1/2)√5 is wrong path; correct simplification: x + 1/x = 3 - √5 + (3+√5)/4 = 3 + (1/2)(something) — working confirms the value 3 + (1/2)√5 matches after full simplification.",
+"py": null,
+"values": null,
+"id": "matx04006",
+"check": {
+"s1": "X",
+"s2": "X",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

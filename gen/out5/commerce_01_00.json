@@ -1,0 +1,194 @@
+{
+"subject": "commerce",
+"topic": "Production: types and factors of production",
+"ti": 1,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes secondary production?",
+"options": [
+"Converting raw materials into finished or semi-finished goods",
+"Catching fish directly from rivers and lakes",
+"Providing banking services to factory owners",
+"Transporting raw cotton from the farm to the market"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Secondary production involves the transformation of raw materials into finished or semi-finished goods, such as manufacturing. Fishing is primary production, while banking and transport are tertiary services.",
+"py": null,
+"values": null,
+"id": "comx01000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Secondary production na when dem dey turn raw material to finish or semi-finish goods like factory work. Fishing na primary production, while banking and transport na tertiary service."
+},
+{
+"q": "Which of the following is a key distinguishing feature of labour as a factor of production, compared with land and capital?",
+"options": [
+"It is completely immobile between occupations",
+"It can be stored indefinitely for future use",
+"It is a human factor that can get tired and go on strike",
+"It always earns interest as its reward"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Labour refers to human effort used in production, and because it is human, workers can get fatigued, fall ill, or embark on strikes, unlike land and capital. Interest is the reward for capital, not labour.",
+"py": null,
+"values": null,
+"id": "comx01001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Labour na human being wey dey work, so unlike land or machine, worker fit tire, sick, or go strike. Na interest dem dey pay for capital, no be labour."
+},
+{
+"q": "Alhaji Garba owns three hectares of farmland in Kano which he rents out to tomato farmers every planting season without working on it himself. The payment he receives for the use of this land is called ______.",
+"options": [
+"Wages",
+"Rent",
+"Profit",
+"Interest"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Rent is the reward paid to the owner of land for allowing others to use it in production. Wages reward labour, interest rewards capital, and profit rewards entrepreneurship.",
+"py": null,
+"values": null,
+"id": "comx01002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Rent na the money wey person dey collect because im allow another person use im land for work. Wages na for labour, interest na for capital, and profit na for business man."
+},
+{
+"q": "A small bakery in Enugu increases its output of bread from 200 loaves a day to 260 loaves a day simply by employing two more bakers, while the size of the oven and the bakery space remain unchanged. This situation best illustrates which concept?",
+"options": [
+"Division of labour",
+"Increase in fixed capital",
+"Economies of scale",
+"Increase in variable factor of production"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Labour here is a variable factor because it was increased to raise output, while the oven and space (fixed capital/land) stayed the same. This shows how varying one factor while others remain fixed can change output levels.",
+"py": null,
+"values": null,
+"id": "comx01003",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Labour na variable factor here because as dem add more workers, output come increase while the oven and space remain the same. E show say changing one factor fit change how much goods you dey produce."
+},
+{
+"q": "Which of the following statements correctly distinguishes capital from entrepreneurship as factors of production?",
+"options": [
+"Capital is man-made wealth used to produce more wealth, while entrepreneurship organizes and bears the risk of production",
+"Capital always refers to money kept in the bank, while entrepreneurship refers to land ownership",
+"Capital is a natural resource, while entrepreneurship is a reward for labour",
+"Capital and entrepreneurship are the same factor with different names"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Capital consists of man-made assets like machines and buildings used to produce further goods, whereas entrepreneurship is the factor that combines land, labour and capital, organizes production, and takes on business risk. These are distinct factors with different roles and rewards.",
+"py": null,
+"values": null,
+"id": "comx01004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Capital na things wey human make like machine to produce more goods, while entrepreneur na the person wey dey pack land, labour and capital together and carry business risk."
+},
+{
+"q": "A cooperative society in Benin plants oil palm trees, waits for them to mature, harvests the fruits, and sells them to a processing company. Which type of production does this activity best represent?",
+"options": [
+"Tertiary production",
+"Primary production",
+"Secondary production",
+"Construction production"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Growing and harvesting oil palm fruits directly from nature is primary production, which includes agriculture, extraction and gathering of raw materials. The processing company later carries out secondary production on the harvested fruits.",
+"py": null,
+"values": null,
+"id": "comx01005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To plant and harvest oil palm fruit directly from nature na primary production, because agriculture and farming fall inside am. Na later processing company go come do secondary production."
+},
+{
+"q": "A furniture workshop in Owerri currently produces 40 chairs a week using 5 carpenters and basic tools. The owner decides to combine two separate benches into one specialised assembly line, where one carpenter only cuts wood, another only joins frames, and another only polishes. Weekly output rises to 70 chairs without hiring new workers. This improvement is mainly due to ______.",
+"options": [
+"An increase in the quantity of capital employed",
+"A rise in the price of furniture",
+"Specialisation and division of labour among the carpenters",
+"An expansion in the size of the workshop land"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Output rose without adding workers, land or extra capital, showing that reorganizing tasks so each carpenter specialises in one stage of production increased efficiency and productivity. This is the benefit of division of labour and specialisation.",
+"py": null,
+"values": null,
+"id": "comx01006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Work output increase without adding more worker or tool because each carpenter face one specific work. Na the power of division of labour and specialisation be that."
+},
+{
+"q": "Which of the following best explains why entrepreneurship is often described as the 'organizing' factor of production rather than a passive resource like land?",
+"options": [
+"It physically performs all the manual work in a business",
+"It combines land, labour and capital, makes key decisions, and bears the uncertainty of profit or loss",
+"It is the only factor that never requires any payment",
+"It is fixed in supply and cannot be increased by training"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The entrepreneur brings together land, labour and capital, takes decisions on what and how to produce, and bears the risk of the venture succeeding or failing, earning profit as a reward. This active, risk-bearing role is different from land, which simply provides space or natural resources.",
+"py": null,
+"values": null,
+"id": "comx01007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na entrepreneur dey join land, labour and capital together, make important decision, and carry the risk whether business go sweet or bitter. E dey different from ordinary land."
+}
+],
+"rejected": []
+}

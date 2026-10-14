@@ -1,0 +1,197 @@
+{
+"subject": "geography",
+"topic": "Environmental resources, conservation and hazards",
+"ti": 13,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following pairs of environmental resources are both classified as flow (perpetual) resources because they are continuously renewed by natural processes and cannot be exhausted by human use?",
+"options": [
+"Solar energy and wind energy",
+"Crude oil and natural gas",
+"Coal and limestone",
+"Tin ore and gold"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Solar energy and wind energy are flow resources because they are continuously supplied by nature and are never used up no matter how much is tapped. The other pairs are mineral or fossil resources that are limited in supply and take a very long time to form.",
+"py": null,
+"values": null,
+"id": "geox13010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Solar energy and wind energy na flow resources because nature dey supply dem continuous and dem no dey finish no matter how man use am. Di other pairs na minerals and fossil fuels wey get limit and dey take plenty years to form."
+},
+{
+"q": "In the management of environmental hazards, the term 'mitigation' refers mainly to",
+"options": [
+"actions taken to reduce the severity or impact of a hazard before it occurs",
+"the process of rescuing victims immediately after a disaster strikes",
+"the scientific study of how hazards are formed in nature",
+"the total abandonment of a hazard-prone area by its residents"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Mitigation means taking steps beforehand, such as building flood defences or enforcing building codes, to lessen the damage a hazard can cause. Rescue operations and relocation are separate aspects of disaster management, not mitigation itself.",
+"py": null,
+"values": null,
+"id": "geox13011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Mitigation mean to take steps before disaster happen, like to build flood defence or follow building rules, so that damage go reduce. Rescue and moving away na different part of disaster management, no be mitigation."
+},
+{
+"q": "A state government wants to prevent the drying up of a reservoir that supplies water to a city. Which combination of measures would best conserve the water catchment area feeding the reservoir?",
+"options": [
+"Clearing the vegetation around the catchment to create more farmland for food security",
+"Protecting the forest cover around the catchment and restricting bush burning near the reservoir",
+"Allowing unrestricted grazing of cattle within the catchment to boost livestock production",
+"Constructing more boreholes upstream to reduce pressure on the reservoir"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Vegetation around a catchment reduces surface runoff, controls erosion and helps maintain the water table, so protecting it and preventing bush burning conserves the water supply. Clearing land, overgrazing or sinking more boreholes upstream would instead worsen siltation and reduce the reservoir's water level.",
+"py": null,
+"values": null,
+"id": "geox13012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Plant and trees for catchment area dey help hold water and stop erosion, so to protect forest and stop bush burning go help water supply. If you clear land or put too many cow, water go dry quick."
+},
+{
+"q": "A coastal town experiences rising sea levels that are gradually submerging low-lying farmlands. This situation is best classified under which category of environmental hazard?",
+"options": [
+"Biological hazard",
+"Climatic hazard",
+"Geological hazard",
+"Technological hazard"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Rising sea levels are linked to climate change and changing weather and climatic patterns, making it a climatic hazard. It is not caused by living organisms, earth movements, or industrial technology, so the other options do not fit.",
+"py": null,
+"values": null,
+"id": "geox13014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As sea level dey rise, na because of climate change and weather pattern, so na climatic hazard. Na nottin concern living things, earth movement, or machine technology for here."
+},
+{
+"q": "A game reserve has a fixed carrying capacity of 500 elephants based on available vegetation and water. If the elephant population grows at a steady rate of 40 elephants per year from an initial population of 300, after how many years will the reserve reach its carrying capacity, assuming no elephants leave or die?",
+"options": [
+"5 years",
+"6 years",
+"8 years",
+"10 years"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The population needs to grow by 500 minus 300, which is 200 elephants, and growing at 40 elephants per year means 200 divided by 40 equals 5 years. This shows how exceeding carrying capacity through unchecked population growth can threaten a reserve's resources.",
+"py": "(500-300)/40",
+"values": [
+5,
+6,
+8,
+10
+],
+"id": "geox13016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To reach 500 elephants from 300, you need 200 more elephants, and since dem dey grow 40 elephants every year, 200 divide by 40 give you 5 years. This show how too much population fit spoil reserve resource."
+},
+{
+"q": "In a certain farming region, deforestation has increased surface runoff so that a river which used to flood only once every 10 years now floods on average once every 2 years. By what factor has the flooding frequency increased as a result of deforestation?",
+"options": [
+"2 times",
+"3 times",
+"5 times",
+"8 times"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The flooding frequency changed from once in 10 years to once in 2 years, and dividing 10 by 2 gives 5, meaning floods now occur 5 times more often. This illustrates how removing vegetation cover through deforestation increases runoff and worsens flood hazards.",
+"py": "10/2",
+"values": [
+2,
+3,
+5,
+8
+],
+"id": "geox13017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Before, flood dey happen once in 10 years, but now e dey happen once in 2 years, and if you divide 10 by 2, you go get 5. This one show say cutting down trees dey make flood happen 5 times more pass before."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best distinguishes a flood hazard caused by natural factors from one caused by human factors?",
+"options": [
+"Natural flooding results from heavy and prolonged rainfall exceeding river capacity, while human-induced flooding results mainly from blocked drainages and indiscriminate dumping of waste in waterways",
+"Natural flooding only occurs in coastal towns, while human-induced flooding only occurs in inland cities",
+"Natural flooding is always more destructive than human-induced flooding",
+"Natural flooding can be completely prevented by government policy, while human-induced flooding cannot",
+"placeholder"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Natural floods are triggered by excessive rainfall or river overflow beyond the channel's capacity, whereas human-induced floods often result from blocked drains, poor waste disposal and building on waterways. The other statements make false generalisations that do not hold in reality.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A fishing community notices that fish catches have reduced drastically over the past ten years due to the use of dynamite and poison for fishing in the local river. Which conservation measure would most directly address this problem while still allowing sustainable fishing?",
+"options": [
+"Banning all forms of fishing in the river permanently",
+"Enforcing laws against destructive fishing methods and encouraging the use of appropriately sized nets",
+"Encouraging fishermen to fish only at night to avoid detection",
+"Increasing the number of fishermen to make up for the reduced catch",
+"placeholder"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Enforcing bans on dynamite and poison fishing, along with regulating net sizes, protects breeding fish stock and allows the fish population to recover while fishing continues sustainably. A total ban would harm livelihoods, and the other options would worsen the depletion of fish stock.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+}
+]
+}

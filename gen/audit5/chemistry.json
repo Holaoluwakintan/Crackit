@@ -1,0 +1,1888 @@
+{
+"che04107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che04108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che04109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che05101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che05102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che05103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che05104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che05105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che05106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che05107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che05108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che05109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che06100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che06101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che06102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che06103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che06104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che06105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che06107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che06108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che00100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che00101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che00102": {
+"a": {
+"ans": "B",
+"v": "ambiguous",
+"r": "Ethanol and water form a minimum-boiling azeotrope, so a well-prepared candidate could defend C as the first fraction rather than pure ethanol."
+},
+"b": {
+"ans": "B",
+"v": "ambiguous",
+"r": "Ethanol and water form an azeotrope. Fractional distillation of the mixture actually collects about 95.6% ethanol first, so option C is scientifically defensible against the intended answer B."
+}
+},
+"che00104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che00106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che00108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che00109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che01100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che01102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che01103": {
+"a": {
+"ans": "B",
+"v": "error",
+"r": "The key is correct, but the explanation's displayed substitution, (2 × 2T)/(P/2), does not equal 4RT/P."
+},
+"b": {
+"ans": "B",
+"v": "error",
+"r": "Key B (4x) is correct, but the explanation's algebra is wrong. (2 × 2T)/(P/2) equals 8T/P, not 4RT/P."
+}
+},
+"che01104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che01105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che01106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che01107": {
+"a": {
+"ans": "A",
+"v": "error",
+"r": "The key is correct, but the explanation incorrectly calls the inverse-pressure graph an inverse-square curve; it is a rectangular hyperbola."
+},
+"b": {
+"ans": "A",
+"v": "error",
+"r": "Key A is correct, but the explanation wrongly calls the relationship an 'inverse square'. V is inversely proportional to P, which gives a rectangular hyperbola."
+}
+},
+"che01109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che02100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che02101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che02102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che02103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che02105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che02106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "A neutral atom with 18 electrons has 18 protons; its mass number is 18 + 20 = 38."
+}
+},
+"che02107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Isotopes have the same atomic number and electron arrangement but different neutron numbers."
+}
+},
+"che02108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Mg has 1s² 2s² 2p⁶ 3s², giving six s-electrons."
+}
+},
+"che02109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Allotropy is the existence of an element in different forms in the same physical state."
+}
+},
+"che03100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Using the Group III notation common in school chemistry, the period-3 element is aluminium, which forms Al₂O₃."
+}
+},
+"che03101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "P has atomic number 9 and is fluorine, the most electronegative element listed."
+}
+},
+"che03102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Atomic radius decreases from sodium to chlorine as nuclear charge increases across the period."
+}
+},
+"che03103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Its outermost electrons occupy a 3p subshell."
+}
+},
+"che03104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Noble gases have filled valence shells."
+}
+},
+"che03106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Lithium and magnesium are a standard example of a diagonal relationship."
+}
+},
+"che03107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Magnesium has a higher nuclear charge than sodium while its outer electron is in the same principal shell."
+}
+},
+"che03108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Al₂O₃ reacts with both acids and bases."
+}
+},
+"che03109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Atomic number 14 is silicon; SiO₂ is an acidic oxide."
+}
+},
+"che04100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "NH₄Cl has ionic attraction between NH₄⁺ and Cl⁻ and covalent N–H bonds within NH₄⁺."
+}
+},
+"che04101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Electron transfer producing oppositely charged ions characterizes electrovalent bonding."
+}
+},
+"che04102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Intermolecular hydrogen bonding raises water’s boiling point."
+}
+},
+"che04103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "X forms a 2+ ion and Y a 1− ion, giving XY₂."
+}
+},
+"che04104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "A BeCl₂ molecule is linear. The stray word after CH₄ does not affect the answer."
+}
+},
+"che04105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Graphite has delocalized electrons that can carry charge along its layers; diamond does not."
+}
+},
+"che04106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Metallic bonding is attraction between positive metal kernels and delocalized valence electrons."
+}
+},
+"che06109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che07100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che07101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che07103": {
+"a": {
+"ans": "X",
+"v": "error",
+"r": "H₂S can also act as an oxidising agent: reactive metals can reduce its hydrogen to H₂. The claim that it acts solely as a reducing agent is false, so no option meets ‘strictly’."
+},
+"b": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che07104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che07105": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "Oxygen gas forms by oxidation of water at the anode. ‘Oxygen ions’ suggests oxide ions, which are not present in acidified water; the explanation substitutes hydroxide or oxide ions for the species named in D."
+},
+"b": {
+"ans": "D",
+"v": "error",
+"r": "There are no free oxide/oxygen ions in acidified water. At the anode, OH⁻ ions (or water molecules) lose electrons. The option and explanation misstate the species."
+}
+},
+"che07106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che07107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che07108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che08100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che08101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che08102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che08103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che08105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che08107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che08108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che08109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che09100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che09101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che09102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che09103": {
+"a": {
+"ans": "D",
+"v": "ambiguous",
+"r": "The reaction as written has ΔH = −184 kJ, but the molar enthalpy of formation of HCl is −92 kJ mol⁻¹ (A). The wording does not distinguish these."
+},
+"b": {
+"ans": "D",
+"v": "ambiguous",
+"r": "The unit kJ mol⁻¹ and the phrase 'formation of hydrogen chloride' allow -92 kJ mol⁻¹ (per mole of HCl, option A) as well as -184 kJ for the equation as written."
+}
+},
+"che09104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che09105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che09106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che09108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che09109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che10100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che10101": {
+"a": {
+"ans": "X",
+"v": "ambiguous",
+"r": "Powder increases the rate but does not necessarily double it. Doubling the mass of granules can increase exposed surface area even when zinc is in excess; a 10°C rise is also commonly associated with an approximate doubling. No unique modification is established."
+},
+"b": {
+"ans": "D",
+"v": "wrong_key",
+"r": "Powdering the zinc increases the rate by no definite factor. A 10 °C rise roughly doubles the rate (the standard rule of thumb), so D is the intended answer."
+}
+},
+"che10103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che10104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che10105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che10106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che10107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che10108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che10109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che11100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che11101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che11102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che11103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che11104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che13106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che13107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che13108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che13109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che14100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che14101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che14104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che14105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The calculated value is the average oxidation number of sulphur in tetrathionate."
+}
+},
+"che14106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che14108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che14109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che15100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che15101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che15102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che15103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che15104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che15105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che15106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che15107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che15108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che15109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che16100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che16102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che16103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che16104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che16105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che16106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che16107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che16108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che16109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che17100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che17101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che17102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che17103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che17104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che17105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che17106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che17107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che17108": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The ester linkage and lack of intermolecular hydrogen bonding help explain volatility, but are not strictly responsible for a fruity odour; odour also depends on molecular structure and receptor interactions."
+},
+"b": {
+"ans": "D",
+"v": "error",
+"r": "Attributing the fruity odour 'strictly' to a structural feature is scientifically dubious. Volatility enables smell but does not determine its fruity character."
+}
+},
+"che17109": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "C is the best answer, but the explanation incorrectly characterizes esters as insoluble in water. Some low-molecular-mass esters are appreciably soluble."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che11105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che11106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che11107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che11108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che11109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che12100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che12101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che12102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che12103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che12104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che12105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che12106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che12107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che12108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che12109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che13100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che13101": {
+"a": {
+"ans": "X",
+"v": "error",
+"r": "Alkaline pyrogallol also contains alkali that absorbs CO₂. For polluted air, the 90 cm³ volume decrease cannot be attributed solely to oxygen without first removing or accounting for CO₂."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"che13102": {
+"a": {
+"ans": "B",
+"v": "ambiguous",
+"r": "CFCs deplete ozone, but they are also potent greenhouse gases directly linked to global warming (D)."
+},
+"b": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"che13103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"che13104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"che18100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Bitumen is the highest-boiling material listed and remains at the bottom of the column."
+}
+},
+"che18101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Cracking converts larger hydrocarbons into smaller ones."
+}
+},
+"che18102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Nylon-6,6 is formed by condensation of a diamine and a dicarboxylic acid."
+}
+},
+"che18103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Addition polymerization of ethene gives the repeat unit –CH₂–CH₂–."
+}
+},
+"che18104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Platinum on alumina is a catalyst used in catalytic reforming."
+}
+},
+"che18105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Carbon accounts for 36/42 × 100 = 85.7% of the repeat-unit mass."
+}
+},
+"che18106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Sulphur forms cross-links during rubber vulcanization."
+}
+},
+"che18107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Pentane through octane contain five through eight carbon atoms per molecule."
+}
+},
+"che18108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Cellulose is a natural polymer of glucose units."
+}
+},
+"che18109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Subtracting C₃H₆ from C₁₄H₃₀ leaves C₁₁H₂₄."
+}
+},
+"che19100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Nuclear reactions change nuclei; chemical reactions principally rearrange electrons."
+}
+},
+"che19101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The mass and atomic numbers fall by four and two, respectively, indicating alpha emission."
+}
+},
+"che19102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Four half-lives leave (1/2)⁴ = 1/16."
+}
+},
+"che19103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Alpha radiation has the highest ionizing and lowest penetrating power of the listed emissions."
+}
+},
+"che19104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Carbon-14 undergoes beta-minus decay, emitting an electron."
+}
+},
+"che19105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "After three half-lives, 64/8 = 8 g remains."
+}
+},
+"che19106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "A Geiger–Müller counter detects ionizing radiation through electrical pulses."
+}
+},
+"che19107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Cobalt-60 is a gamma-radiation source used in radiotherapy and sterilization."
+}
+},
+"che19108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The decay constant is 0.693/6.93 = 0.1 day⁻¹."
+}
+},
+"che19109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Fusion of hydrogen nuclei powers the Sun and other stars."
+}
+},
+"chev0000": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "A separating funnel separates the immiscible oil and water layers."
+}
+},
+"chev0001": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Iodine can be separated from sodium chloride by sublimation."
+}
+},
+"chev0002": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Percentage purity = 15.0/20.0 × 100 = 75%."
+}
+},
+"chev0003": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Evaporating the water recovers solid salt from the filtrate."
+}
+},
+"chev0100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The ideal-gas kinetic theory assumes negligible intermolecular attraction."
+}
+},
+"chev0101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The combined gas law gives 450 × (760/950) × (320/290) ≈ 397 cm³."
+}
+},
+"chev0102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Doubling the diffusion time implies four times the molar mass: 64 g/mol."
+}
+},
+"chev0103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The combined gas law gives T₂ = 350 × 5/8 ≈ 219 K."
+}
+},
+"chev0200": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "A neutral atom has 31 − 16 = 15 electrons."
+}
+},
+"chev0201": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The configuration has 17 electrons in the correct ground-state order."
+}
+},
+"chev0202": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The weighted mean is (69 × 3 + 71 × 2)/5 = 69.8."
+}
+},
+"chev0203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Calcium has two 3s and six 3p electrons, giving eight in shell n = 3."
+}
+},
+"chev0300": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Additional electron shells increase atomic radius down Group 1."
+}
+},
+"chev0301": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Atomic number 19 gives 2,8,8,1: Period 4, Group 1."
+}
+},
+"chev0302": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Among these isoelectronic ions, Al³⁺ has the greatest nuclear charge and smallest radius."
+}
+},
+"chev0303": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Group 15 main-group elements have five valence electrons."
+}
+},
+"chev0400": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Sharing an electron pair forms a covalent bond."
+}
+},
+"chev0401": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The electronegativity difference of 0.9 indicates a polar covalent bond."
+}
+},
+"chev0402": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "XeF₄ has six electron pairs around xenon: four bonding and two lone pairs."
+}
+},
+"chev0403": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Nitrogen supplies both electrons for the bond formed with H⁺."
+}
+},
+"chev0500": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "6.0/24 = 0.25 mol."
+}
+},
+"chev0501": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The acid contains 0.04 mol HCl in a final volume of 0.4 dm³, giving 0.10 mol/dm³."
+}
+},
+"chev0502": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "0.2 mol propane requires 5 × 0.2 = 1.0 mol oxygen."
+}
+},
+"chev0503": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Chlorine is limiting; 0.1 mol Cl₂ produces 0.0667 mol AlCl₃, or 8.9 g."
+}
+},
+"chev0600": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Complete dissociation gives [H⁺] = 10⁻² mol/dm³, so pH = 2."
+}
+},
+"chev0601": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Carbonate ions hydrolyse to make the solution basic."
+}
+},
+"chev0602": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Neutralising 0.010 mol HCl requires 0.010 mol NaOH, or 0.40 g."
+}
+},
+"chev0603": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "[H⁺] ≈ √(KₐC) = 10⁻³ mol/dm³, so pH ≈ 3."
+}
+},
+"chev0700": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "2(+1) + x + 3(−2) = 0 gives x = +4."
+}
+},
+"chev0701": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Manganese in MnO₂ is reduced from +4 to +2; MnO₂ is the oxidising agent."
+}
+},
+"chev0702": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The average is (−3 + 5)/2 = +1."
+}
+},
+"chev0703": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "For C₂H₄O₂, 2x + 4 − 4 = 0, giving an average carbon oxidation number of 0."
+}
+},
+"chev0800": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Faraday’s first law states that deposited mass is proportional to charge passed."
+}
+},
+"chev0801": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The charge is 72,000 C; depositing aluminium requires three moles of electrons per mole, giving 6.72 g."
+}
+},
+"chev0802": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The shared charge represents 0.27 mol electrons, depositing 0.135 mol Cu = 8.64 g."
+}
+},
+"chev0803": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "F = (6.0 × 10²³)(1.6 × 10⁻¹⁹) = 96,000 C/mol."
+}
+},
+"chev0900": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Greater energy release on bond formation makes the overall reaction exothermic."
+}
+},
+"chev0901": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "ΔH = [945 + 3(436)] − 6(391) = −93 kJ/mol."
+}
+},
+"chev0902": {
+"a": {
+"ans": "A",
+"v": "error",
+"r": "The answer is +25.2 kJ/mol, but the explanation incorrectly says the cooling solution absorbed heat. The solution lost 2,520 J; dissolution absorbed that heat."
+},
+"b": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"chev0903": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "ΔH = [3(−393) + 4(−286)] − (−104) = −2219 kJ/mol."
+}
+},
+"chev1000": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Fine powder exposes the greatest surface area, so it reacts fastest."
+}
+},
+"chev1001": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Three 10°C increases multiply the rate by 2³, giving 0.16 mol dm⁻³ s⁻¹."
+}
+},
+"chev1002": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Hydrogen accumulates rapidly at first, then more slowly, reaching a plateau when the acid is exhausted."
+}
+},
+"chev1003": {
+"a": {
+"ans": "B",
+"v": "off_syllabus",
+"r": "The data give second order in A and zero order in B, but determining reaction orders from an initial-rates table is beyond the elementary treatment of rates in the UTME Chemistry syllabus."
+},
+"b": {
+"ans": "B",
+"v": "off_syllabus",
+"r": "Deriving reaction order from initial-rate data is beyond the JAMB UTME rates syllabus, which treats rates qualitatively (factors, collision theory, activation energy)."
+}
+},
+"chev1100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Adding nitrogen shifts the equilibrium right and increases the amount of ammonia."
+}
+},
+"chev1102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The equilibrium amounts are 0.4 mol each of A and B and 0.6 mol each of C and D, so Kc = 2.25."
+}
+},
+"chev1103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Increasing temperature decreases Kc for the exothermic forward reaction."
+}
+},
+"chev1200": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Washing soda supplies carbonate ions that precipitate calcium and magnesium ions."
+}
+},
+"chev1201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The required mass is 34 × 250/100 = 85 g."
+}
+},
+"chev1202": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Poor lathering and soap scum indicate hardness caused by calcium and/or magnesium ions."
+}
+},
+"chev1300": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Carbon(IV) oxide is the greenhouse gas associated with fossil-fuel combustion among the options."
+}
+},
+"chev1301": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "40/2000 × 100 = 2%."
+}
+},
+"chev1302": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Sulphur(IV) oxide and nitrogen(IV) oxide contribute to acid rain."
+}
+},
+"chev1303": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "A chlorine radical reacts with ozone to form ClO and O₂."
+}
+},
+"chev1400": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Zinc reacts with dilute acid to release hydrogen, which gives a pop with a lighted splint."
+}
+},
+"chev1401": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The Haber process uses a finely divided iron catalyst."
+}
+},
+"chev1402": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Two moles of KClO₃ produce three moles of O₂, occupying 67.2 dm³ at s.t.p."
+}
+},
+"chev1403": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "SO₂ reduces manganate(VII) ions and is oxidised to sulphate ions."
+}
+},
+"chev1500": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Electrolytic extraction of aluminium from alumina dissolved in cryolite is the Hall–Héroult process."
+}
+},
+"chev1501": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Cryolite allows electrolysis at a much lower temperature than pure molten alumina."
+}
+},
+"chev1502": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The calculation gives 1.28 g, but the stated half-equation uses Cu₂+ instead of Cu²+. As written, it is not a balanced copper(II) reduction."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"chev1503": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Chromium provides the protective oxide layer; nickel is also a common stainless-steel constituent."
+}
+},
+"chev1600": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The general formula of acyclic alkanes is CnH2n+2."
+}
+},
+"chev1601": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "0.2 × 6.5 = 1.3 mol of oxygen."
+}
+},
+"chev1602": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Markovnikov addition gives 2-bromopropane as the major product."
+}
+},
+"chev1603": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Ethyne has three sigma bonds and two pi bonds."
+}
+},
+"chev1700": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The key is correct, but the explanation's ‘respectively’ reverses the identities of options A and B: -CHO is aldehyde, while -OH is hydroxyl."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"chev1701": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "23 g of ethanol is 0.5 mol and yields 0.5 mol, or 30 g, of ethanoic acid."
+}
+},
+"chev1702": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "The chemical explanation is correct, but Ca₂+ and Mg₂+ are written with subscripts rather than the required Ca²+ and Mg²+ ionic charges."
+},
+"b": {
+"ans": "C",
+"v": "error",
+"r": "Key C is correct: Ca²⁺/Mg²⁺ ions precipitate insoluble calcium/magnesium stearate (scum). However, the ions are written as 'Ca₂+' and 'Mg₂+' throughout the stem, option B and the explanation. With a subscript 2, these mean diatomic singly charged ions. The correct notation is Ca²⁺ and Mg²⁺. This is a chemical notation error, not a matter of style."
+}
+},
+"chev1703": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The theoretical yield is 88 g; 75% of that is 66 g."
+}
+},
+"chev1800": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The gas flared during oil production is associated natural gas, mainly methane."
+}
+},
+"chev1801": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The repeat-unit molar mass is 62.5 g/mol, so 125000 ÷ 62.5 = 2000."
+}
+},
+"chev1802": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Isooctane is the highly branched, high-octane choice."
+}
+},
+"chev1803": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Thermoplastics can soften on heating and be remoulded."
+}
+},
+"chev1900": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "An alpha particle consists of two protons and two neutrons."
+}
+},
+"chev1901": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "42 days is three half-lives; 80 ÷ 2³ = 10 g."
+}
+},
+"chev1902": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Positron emission leaves the mass number unchanged and lowers the atomic number by one."
+}
+},
+"chev1903": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The mass-number decrease is 32, requiring eight alpha emissions."
+}
+}
+}

@@ -1,0 +1,212 @@
+{
+"subject": "economics",
+"topic": "Basic concepts: scarcity, choice, scale of preference and opportunity cost",
+"ti": 0,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following arises directly because resources are limited while human wants are unlimited?",
+"options": [
+"Scarcity",
+"Inflation",
+"Taxation",
+"Specialisation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Scarcity is the direct result of limited resources facing unlimited human wants. It is the root cause of all economic problems.",
+"py": null,
+"values": null,
+"id": "ecox00000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Scarcity na when money or resource small but wetin human beings want plenty pass. Na im cause all di wahala for economics."
+},
+{
+"q": "Tunde has ₦3,000 and lists his wants as: phone recharge card, lunch, a novel, and a haircut, in that order of urgency. If he spends the money starting from the top of the list until it finishes, this arrangement of wants is best described as his:",
+"options": [
+"Budget line",
+"Scale of preference",
+"Production possibility",
+"Indifference map"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Arranging wants in order of importance so the most pressing ones are satisfied first is called a scale of preference. It helps a consumer with limited income decide what to buy first.",
+"py": null,
+"values": null,
+"id": "ecox00001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "E arrange im wants starting from di one wey dey pain am pass down to di least one, na wet fibromyalgia dem dey call scale of preference. E dey help person use small money buy di most important things first."
+},
+{
+"q": "A farmer in Benue State has one plot of land which he can use either to plant yam alone, maize alone, or a combination of both. This situation, where resources can be used for alternative purposes, illustrates the problem of:",
+"options": [
+"Scarcity only",
+"Choice",
+"Division of labour",
+"Economic growth"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When a resource has alternative uses, the farmer must choose how to allocate it among competing purposes. This decision-making process is what economists call choice.",
+"py": null,
+"values": null,
+"id": "ecox00002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When one thing fit do different work, person must choose how to use am. Dis kind decision na wet dem dey call choice."
+},
+{
+"q": "Kelechi can use his free afternoon to either repair his bicycle (which he values at ₦1,200) or wash his neighbour's car for ₦2,000, or tutor a student for ₦1,800. If he chooses to tutor the student, what is his opportunity cost?",
+"options": [
+"₦1,200, the value of repairing his bicycle",
+"₦2,000, the value of washing the car",
+"₦1,800, the value of tutoring",
+"₦3,200, the sum of the two forgone options"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Opportunity cost is the value of the best alternative forgone, not all alternatives added together. Since washing the car (₦2,000) is more valuable than bicycle repair, it is the true opportunity cost of tutoring.",
+"py": null,
+"values": [
+1200,
+2000,
+1800,
+3200
+],
+"id": "ecox00004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Opportunity cost na di value of di best alternative wey person leave. Since to wash neighbour car give ₦2,000 wey high pass, na im be di true opportunity cost."
+},
+{
+"q": "Which of the following situations best illustrates the economic problem of choice arising from scarcity?",
+"options": [
+"A government building more roads than it needs",
+"A student having enough money to buy all the textbooks on her list",
+"A trader having limited capital and deciding whether to stock rice or beans for sale",
+"A company producing goods that nobody wants to buy"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Choice arises when limited resources force a decision among competing alternatives. The trader with limited capital must decide between stocking rice or beans, which is a true scarcity-driven choice.",
+"py": null,
+"values": null,
+"id": "ecox00005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Choice dey happen when small resource make person must select wetin to do. Di trader wey get small money and dey choose whether to buy rice or beans na correct example."
+},
+{
+"q": "A furniture maker in Aba can produce either 20 chairs or 8 tables in a week using the same materials and labour. If he decides to produce 5 tables instead of 8, assuming a straight-line trade-off, what is the opportunity cost, in chairs, of producing those 5 tables?",
+"options": [
+"5 chairs",
+"8 chairs",
+"12.5 chairs",
+"20 chairs"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Each table costs 20/8 = 2.5 chairs in production. Producing 5 tables therefore costs 5 times 2.5, which equals 12.5 chairs.",
+"py": "5*(20/8)",
+"values": [
+5,
+8,
+12.5,
+20
+],
+"id": "ecox00006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If one table cost 2.5 chairs, to produce 5 tables mean say you go multiply 5 by 2.5, wey give you 12.5 chairs."
+},
+{
+"q": "Which statement correctly distinguishes scarcity from the economic concept of choice?",
+"options": [
+"Scarcity means resources are insufficient, while choice is the act of selecting among alternatives created by that insufficiency",
+"Scarcity only affects poor nations, while choice only affects rich nations",
+"Scarcity refers to unlimited wants, while choice refers to limited resources",
+"Scarcity and choice mean exactly the same thing in Economics"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Scarcity is the condition of limited resources relative to unlimited wants, and it is this condition that forces choice. Choice is the response or decision-making process that scarcity makes necessary.",
+"py": null,
+"values": null,
+"id": "ecox00007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Scarcity mean say things no enough, while choice na di decision wey person make to select one out of di ones wey dey."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Amaka has ₦8,000 to spend and ranks her wants as: data subscription (₦3,000), textbook (₦4,000), snacks (₦2,000), and a wristband (₦1,000). Following her scale of preference strictly from the most pressing, how much money will remain unspent after she satisfies as many wants as her money allows?",
+"options": [
+"₦0",
+"₦1,000",
+"₦2,000",
+"₦3,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Following the order, data (3000) plus textbook (4000) equals 7000, leaving 1000, which is not enough for snacks (2000). So 1000 remains unspent.",
+"py": "8000-(3000+4000)",
+"values": [
+0,
+1000,
+2000,
+3000
+],
+"id": "ecox00003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Strict order leaves ₦1,000; skipping unaffordable snacks permits buying the wristband.|Total cost of first three items (3000+4000+2000) = 9000, which exceeds 8000. She buys items 1 and 2 (3000+4000=7000). 8000-7000=1000."
+}
+]
+}

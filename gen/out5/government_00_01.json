@@ -1,0 +1,178 @@
+{
+"subject": "government",
+"topic": "Basic concepts: power, authority, legitimacy, sovereignty, democracy",
+"ti": 0,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Charismatic authority, as identified by Max Weber, is best illustrated by a leader whose followers obey because of the leader's:",
+"options": [
+"exceptional personal qualities and ability to inspire loyalty",
+"position as the eldest son of the former ruler",
+"appointment through a written constitution",
+"control of the national police and army"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Charismatic authority rests on the extraordinary personal qualities, vision or appeal of an individual leader that inspire devotion. Inheritance reflects traditional authority, while written rules reflect legal-rational authority.",
+"id": "govx00010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Charismatic authority dey base on person special character and how e fit inspire people. Na wetin make followers dey follow leader because of im personal quality, no be because of law or tradition."
+},
+{
+"q": "Which of the following best distinguishes 'influence' from 'power' in the study of government?",
+"options": [
+"Influence relies on persuasion while power may involve the ability to compel obedience",
+"Influence can only be exercised by the state while power belongs to individuals",
+"Influence is always backed by law while power is never backed by law",
+"Influence and power are identical concepts with no real difference"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Power includes the capacity to compel or force compliance, sometimes through sanctions, while influence works mainly through persuasion and appeal without compulsion. This distinction is important in political analysis.",
+"id": "govx00011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Power fit force person to do wetin you want, but influence na just to persuade person make e agree. Power fit get force inside, but influence na just appeal."
+},
+{
+"q": "A newly elected Local Government Chairman in Kwara State takes the oath of office and immediately begins issuing directives that council workers obey without resistance. This situation best illustrates that his power has been transformed into:",
+"options": [
+"sovereignty",
+"authority",
+"anarchy",
+"federalism"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When power is recognised as rightful and is obeyed willingly because of the office held, it becomes authority. Sovereignty refers to supreme independent power of a state, not an individual official's recognised right to command.",
+"id": "govx00012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When people agree to obey person because dem know say e get right to command, na authority be dat. Sovereignty na supreme power of state, but authority na wetin official get to make people follow am."
+},
+{
+"q": "Which of the following statements correctly explains the relationship between legitimacy and sovereignty in a modern state?",
+"options": [
+"A sovereign government automatically enjoys legitimacy among its citizens",
+"Legitimacy strengthens a government's exercise of its sovereign powers by securing willing obedience",
+"Sovereignty depends entirely on recognition by foreign states while legitimacy does not",
+"Legitimacy and sovereignty are two names for the same concept"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A government may hold sovereign power yet lack legitimacy if citizens do not accept its right to rule, making enforcement difficult. Legitimacy makes the exercise of sovereign authority smoother because people obey willingly rather than out of fear alone.",
+"id": "govx00013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Legitimacy dey make government work easy because people go obey willingly. Even if government get power, if people no believe say dem get right to rule, e go hard to govern."
+},
+{
+"q": "In political science, 'power' is most accurately described as the:",
+"options": [
+"moral right of a ruler to be obeyed by citizens",
+"ability of a person or group to make others act according to their wishes, even against their will",
+"formal recognition given to a government by other states",
+"set of written rules guiding the conduct of government business"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Power is the capacity to make others comply with one's wishes, whether they agree willingly or not, and may be backed by force. Moral right to be obeyed describes authority, not power itself.",
+"id": "govx00014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Power na the ability to make people do wetin you want, even if dem no like am. E fit involve force, unlike authority wey be say people dey obey because dem respect the office."
+},
+{
+"q": "Which of the following is the clearest example of direct democracy in practice?",
+"options": [
+"Citizens of a small Swiss canton gathering to vote directly on a proposed local tax law",
+"Nigerians electing members of the House of Representatives to make laws on their behalf",
+"A state governor appointing commissioners to run government ministries",
+"A political party selecting its presidential candidate through delegates at a convention"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Direct democracy occurs when citizens themselves make decisions on issues without intermediaries, as seen in small communities or cantons voting directly on laws. Electing representatives, as in Nigeria's National Assembly, is representative democracy instead.",
+"id": "govx00015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Direct democracy mean say the people demsef go vote on top law directly. No be to send representative go house, na the people go decide wetin dem want."
+},
+{
+"q": "A country's constitution states that ultimate lawmaking power rests with the National Assembly, which can amend any law including the constitution following due process, and no other body can override its decisions once properly made. This describes which type of sovereignty?",
+"options": [
+"Popular sovereignty",
+"De facto sovereignty",
+"Legal sovereignty",
+"Titular sovereignty"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Legal sovereignty refers to the body recognised by law as having the supreme, final authority to make and amend laws within a state. Popular sovereignty instead refers to the idea that ultimate power belongs to the people as a whole.",
+"id": "govx00016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Legal sovereignty na the body wey law give the final power to make or change law. No other body fit override wetin dem decide according to the constitution."
+},
+{
+"q": "One major difference between a democratic government and most military regimes is that in a democracy, political power is:",
+"options": [
+"seized and maintained mainly through the use of armed force",
+"acquired through periodic, free and fair elections conducted among the citizens",
+"concentrated permanently in the hands of one unelected individual",
+"exercised without any check from the judiciary or legislature"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Democracy is characterised by leaders gaining power through free and fair elections in which citizens choose their representatives. Military regimes typically take power by force rather than through an electoral process.",
+"id": "govx00017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For democracy, na election be the way wey people take choose who go lead dem. Military regime no dey use election, dem dey take power by force."
+}
+],
+"rejected": []
+}

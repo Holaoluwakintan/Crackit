@@ -1,0 +1,203 @@
+{
+"subject": "economics",
+"topic": "International economic organisations (ECOWAS, AfDB, IMF, World Bank, OPEC, WTO)",
+"ti": 19,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best distinguishes the African Development Bank (AfDB) from the World Bank?",
+"options": [
+"The AfDB focuses mainly on regulating international trade disputes",
+"The AfDB lends exclusively to private commercial banks in Africa",
+"The AfDB is regionally focused on financing development projects within Africa, while the World Bank operates globally",
+"The AfDB sets production quotas for African oil-exporting countries"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The AfDB was created specifically to finance economic and social development projects across African countries, unlike the World Bank, which lends to developing countries worldwide. The other options describe functions of different organisations.",
+"py": null,
+"values": null,
+"id": "ecox19002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "AfDB get focus for Africa development projects only. World Bank dey work for all over the world. Na why dem different."
+},
+{
+"q": "A member country of OPEC decides, along with other members, to cut its daily crude oil production quota. The most likely immediate effect on the world oil market, all things being equal, is a:",
+"options": [
+"Fall in world oil prices due to reduced supply",
+"Rise in world oil prices due to reduced supply",
+"Rise in world oil prices due to increased supply",
+"Fall in world oil prices due to increased demand"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When OPEC members cut production, total global supply of crude oil falls while demand remains roughly unchanged, so the price tends to rise. This follows the basic law of supply and demand.",
+"py": null,
+"values": null,
+"id": "ecox19003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If supply of oil reduce but demand still dey, price go go up. Na simple law of supply and demand be dat."
+},
+{
+"q": "Under the World Trade Organization's dispute settlement framework, when a member country is found to have violated a trade agreement, the WTO's main role is to:",
+"options": [
+"Impose direct military sanctions on the offending country",
+"Provide a structured process for resolving the dispute and authorise proportionate trade remedies if needed",
+"Nationalise the assets of companies involved in the dispute",
+"Automatically expel the offending country from the organisation"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The WTO dispute settlement system allows aggrieved members to bring complaints, have them adjudicated by panels, and if a violation is confirmed and not corrected, authorises proportionate countermeasures. It does not use military force or expulsion as remedies.",
+"py": null,
+"values": null,
+"id": "ecox19004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "WTO dey help settle trade fight between countries. If country break rule, dem fit allow trade punishment but no be military force."
+},
+{
+"q": "A small West African country wants to borrow from the IMF because its foreign reserves can barely cover one month of imports. Which condition is the IMF most likely to attach to such a loan?",
+"options": [
+"A requirement to increase government subsidies on all consumer goods",
+"A requirement to adopt macroeconomic reforms such as reducing budget deficits and reforming exchange rate policy",
+"A requirement to nationalise all foreign-owned businesses in the country",
+"A requirement to withdraw permanently from international trade agreements"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "IMF loans to countries facing balance of payments problems usually come with conditions aimed at restoring macroeconomic stability, such as cutting deficits and adjusting exchange rate policy. The other options are not typical IMF loan conditions.",
+"py": null,
+"values": null,
+"id": "ecox19005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "IMF dey give loan with condition to fix economy. Dem go ask country to reduce budget deficit and fix exchange rate."
+},
+{
+"q": "A regional trade bloc like ECOWAS aims to deepen integration beyond a simple free trade area by adopting a common external tariff on goods imported from non-member countries. This arrangement, where internal trade is free but external tariffs are harmonised, best describes a:",
+"options": [
+"Free trade area",
+"Customs union",
+"Monetary union",
+"Common market with free labour mobility only"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A customs union combines free trade among members with a common external tariff applied uniformly to non-members, which is more advanced than a plain free trade area that lacks a common tariff. Monetary union involves a shared currency, which is a separate and deeper stage of integration.",
+"py": null,
+"values": null,
+"id": "ecox19007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Customs union mean say members no dey pay tariff among dem, but dem get one common tariff for outside countries. Dis one different from free trade area."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "ECOWAS was established in 1975 with its headquarters located in which city?",
+"options": [
+"Lagos, Nigeria",
+"Abuja, Nigeria",
+"Accra, Ghana",
+"Dakar, Senegal"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The ECOWAS Commission headquarters is sited in Abuja, Nigeria. This is a basic fact candidates should know about the organisation's administrative base.",
+"py": null,
+"values": null,
+"id": "ecox19000",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+},
+{
+"q": {
+"q": "A key non-monetary objective of the ECOWAS single currency project (the Eco) is to:",
+"options": [
+"Eliminate exchange rate risks in intra-regional trade among member states",
+"Allow each member state to independently set its own interest rates",
+"Replace the use of the United States dollar in global oil transactions",
+"Give OPEC direct control over West African monetary policy"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A common currency removes the need to convert between different West African currencies, thereby reducing exchange rate risk and transaction costs in trade among member countries. The other options do not reflect the goal of monetary union.",
+"py": null,
+"values": null,
+"id": "ecox19001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Exchange-rate risk is monetary, despite the wording.|"
+},
+{
+"q": {
+"q": "Nigeria earns revenue from crude oil exports under an OPEC production quota of 1.5 million barrels per day. If the country also exports 0.2 million barrels per day of oil that falls outside its OPEC quota through special arrangements, what is Nigeria's total daily oil export volume in million barrels?",
+"options": [
+"1.3",
+"1.5",
+"1.7",
+"1.9"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Total daily export volume is the OPEC quota volume plus the extra volume outside the quota: 1.5 + 0.2 = 1.7 million barrels per day. This is a simple addition of the two given quantities.",
+"py": "1.5 + 0.2",
+"values": [
+1.3,
+1.5,
+1.7,
+1.9
+],
+"id": "ecox19006",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

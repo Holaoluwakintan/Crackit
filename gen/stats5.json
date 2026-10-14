@@ -1,0 +1,323 @@
+{
+ "english": {
+  "before": 284,
+  "removed": 9,
+  "generated_v5": 256,
+  "added_v5": 158,
+  "after": 433,
+  "reject_reasons_v5": {
+   "ambiguous": 22,
+   "solver1-disagrees": 17,
+   "standard": 5,
+   "duplicate": 42,
+   "solver2-disagrees": 3,
+   "review": 2,
+   "bad-shape": 7
+  },
+  "answer_letters": {
+   "D": 109,
+   "B": 108,
+   "A": 108,
+   "C": 108
+  },
+  "difficulty_new": {
+   "e": 40,
+   "m": 65,
+   "h": 53
+  },
+  "pidgin_missing": 1
+ },
+ "maths": {
+  "before": 299,
+  "removed": 7,
+  "generated_v5": 320,
+  "added_v5": 184,
+  "after": 476,
+  "reject_reasons_v5": {
+   "standard": 17,
+   "ambiguous": 7,
+   "solver1-disagrees": 73,
+   "solver2-disagrees": 17,
+   "duplicate": 12,
+   "python": 10
+  },
+  "answer_letters": {
+   "B": 119,
+   "A": 119,
+   "C": 119,
+   "D": 119
+  },
+  "difficulty_new": {
+   "m": 97,
+   "h": 44,
+   "e": 43
+  },
+  "pidgin_missing": 0
+ },
+ "physics": {
+  "before": 279,
+  "removed": 1,
+  "generated_v5": 290,
+  "added_v5": 213,
+  "after": 491,
+  "reject_reasons_v5": {
+   "ambiguous": 6,
+   "solver1-disagrees": 42,
+   "standard": 4,
+   "python": 12,
+   "solver2-disagrees": 12,
+   "bad-shape": 1
+  },
+  "answer_letters": {
+   "C": 123,
+   "D": 123,
+   "A": 122,
+   "B": 123
+  },
+  "difficulty_new": {
+   "m": 98,
+   "e": 74,
+   "h": 41
+  },
+  "pidgin_missing": 0
+ },
+ "chemistry": {
+  "before": 258,
+  "removed": 9,
+  "generated_v5": 273,
+  "added_v5": 205,
+  "after": 454,
+  "reject_reasons_v5": {
+   "solver1-disagrees": 31,
+   "ambiguous": 9,
+   "solver2-disagrees": 8,
+   "python": 4,
+   "bad-shape": 11,
+   "standard": 5
+  },
+  "answer_letters": {
+   "B": 113,
+   "D": 114,
+   "C": 113,
+   "A": 114
+  },
+  "difficulty_new": {
+   "e": 59,
+   "h": 43,
+   "m": 103
+  },
+  "pidgin_missing": 0
+ },
+ "biology": {
+  "before": 320,
+  "removed": 9,
+  "generated_v5": 312,
+  "added_v5": 263,
+  "after": 574,
+  "reject_reasons_v5": {
+   "standard": 11,
+   "bad-shape": 18,
+   "ambiguous": 13,
+   "solver1-disagrees": 7
+  },
+  "answer_letters": {
+   "B": 143,
+   "A": 144,
+   "D": 144,
+   "C": 143
+  },
+  "difficulty_new": {
+   "e": 77,
+   "m": 124,
+   "h": 62
+  },
+  "pidgin_missing": 0
+ },
+ "economics": {
+  "before": 301,
+  "removed": 2,
+  "generated_v5": 279,
+  "added_v5": 228,
+  "after": 527,
+  "reject_reasons_v5": {
+   "ambiguous": 9,
+   "bad-shape": 13,
+   "standard": 7,
+   "solver1-disagrees": 15,
+   "solver2-disagrees": 6,
+   "python": 1
+  },
+  "answer_letters": {
+   "B": 131,
+   "C": 132,
+   "D": 132,
+   "A": 132
+  },
+  "difficulty_new": {
+   "e": 70,
+   "m": 109,
+   "h": 49
+  },
+  "pidgin_missing": 1
+ },
+ "government": {
+  "before": 271,
+  "removed": 6,
+  "generated_v5": 240,
+  "added_v5": 195,
+  "after": 460,
+  "reject_reasons_v5": {
+   "bad-shape": 25,
+   "ambiguous": 13,
+   "standard": 2,
+   "solver1-disagrees": 4,
+   "duplicate": 1
+  },
+  "answer_letters": {
+   "D": 115,
+   "B": 115,
+   "A": 115,
+   "C": 115
+  },
+  "difficulty_new": {
+   "e": 52,
+   "m": 91,
+   "h": 52
+  },
+  "pidgin_missing": 0
+ },
+ "literature": {
+  "before": 277,
+  "removed": 8,
+  "generated_v5": 168,
+  "added_v5": 151,
+  "after": 420,
+  "reject_reasons_v5": {
+   "solver1-disagrees": 3,
+   "ambiguous": 6,
+   "bad-shape": 5,
+   "manual": 1,
+   "solver2-disagrees": 1,
+   "standard": 1
+  },
+  "answer_letters": {
+   "C": 105,
+   "D": 105,
+   "A": 105,
+   "B": 105
+  },
+  "difficulty_new": {
+   "e": 53,
+   "m": 59,
+   "h": 39
+  },
+  "pidgin_missing": 0
+ },
+ "crs": {
+  "before": 186,
+  "removed": 1,
+  "generated_v5": 216,
+  "added_v5": 198,
+  "after": 383,
+  "reject_reasons_v5": {
+   "solver1-disagrees": 3,
+   "ambiguous": 3,
+   "bad-shape": 4,
+   "review": 1,
+   "standard": 7
+  },
+  "answer_letters": {
+   "A": 95,
+   "D": 95,
+   "B": 96,
+   "C": 97
+  },
+  "difficulty_new": {
+   "e": 48,
+   "m": 87,
+   "h": 63
+  },
+  "pidgin_missing": 0
+ },
+ "commerce": {
+  "before": 161,
+  "removed": 2,
+  "generated_v5": 185,
+  "added_v5": 141,
+  "after": 300,
+  "reject_reasons_v5": {
+   "bad-shape": 21,
+   "solver1-disagrees": 7,
+   "ambiguous": 9,
+   "solver2-disagrees": 1,
+   "standard": 6
+  },
+  "answer_letters": {
+   "D": 75,
+   "A": 75,
+   "C": 75,
+   "B": 75
+  },
+  "difficulty_new": {
+   "e": 47,
+   "m": 62,
+   "h": 32
+  },
+  "pidgin_missing": 0
+ },
+ "accounting": {
+  "before": 161,
+  "removed": 4,
+  "generated_v5": 184,
+  "added_v5": 137,
+  "after": 294,
+  "reject_reasons_v5": {
+   "solver1-disagrees": 20,
+   "ambiguous": 5,
+   "solver2-disagrees": 5,
+   "standard": 7,
+   "bad-shape": 4,
+   "python": 5,
+   "review": 1
+  },
+  "answer_letters": {
+   "C": 73,
+   "A": 74,
+   "B": 73,
+   "D": 74
+  },
+  "difficulty_new": {
+   "e": 40,
+   "m": 58,
+   "h": 39
+  },
+  "pidgin_missing": 0
+ },
+ "geography": {
+  "before": 169,
+  "removed": 3,
+  "generated_v5": 216,
+  "added_v5": 166,
+  "after": 332,
+  "reject_reasons_v5": {
+   "solver1-disagrees": 9,
+   "bad-shape": 11,
+   "python": 2,
+   "standard": 14,
+   "solver2-disagrees": 4,
+   "ambiguous": 10
+  },
+  "answer_letters": {
+   "B": 83,
+   "D": 83,
+   "A": 83,
+   "C": 83
+  },
+  "difficulty_new": {
+   "h": 41,
+   "e": 49,
+   "m": 76
+  },
+  "pidgin_missing": 0
+ }
+}

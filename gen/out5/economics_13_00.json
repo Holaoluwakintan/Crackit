@@ -1,0 +1,203 @@
+{
+"subject": "economics",
+"topic": "Economic growth, development and planning",
+"ti": 13,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A medium-term development plan in Nigeria typically covers a period of:",
+"options": [
+"1 year",
+"3 to 5 years",
+"10 to 15 years",
+"20 to 25 years"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Medium-term plans usually run for 3 to 5 years, long enough to execute specific projects but short enough to review progress regularly. Short-term plans are annual, while long-term plans (perspective plans) run for 10 years or more.",
+"py": null,
+"values": null,
+"id": "ecox13000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Medium-term plan dey usually last for 3 to 5 years. E long reach to finish project but e short enough make dem review am. Short-term plan na one year, while long-term plan dey pass 10 years."
+},
+{
+"q": "Which of the following is a major pre-requisite for successful economic planning in a developing country like Nigeria?",
+"options": [
+"Availability of reliable statistical data",
+"Total dependence on foreign aid",
+"Absence of a planning body",
+"Complete elimination of the private sector"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Accurate and reliable data on population, resources and past performance are needed to set realistic targets and allocate resources properly. Without good data, planners cannot forecast correctly or evaluate outcomes.",
+"py": null,
+"values": null,
+"id": "ecox13001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To plan well, you need correct data about population and resources. Without better data, planners no fit forecast well or know if dem dey succeed. Na why reliable statistics dey very important."
+},
+{
+"q": "One major way in which planning helps a developing economy is by:",
+"options": [
+"Allowing resources to be allocated purely by market forces without direction",
+"Making prices rise uncontrollably to attract investment",
+"Channelling scarce resources into priority sectors to achieve set national goals",
+"Preventing the government from participating in any economic activity"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Planning enables a country to direct its limited resources deliberately towards sectors considered most important for growth, such as agriculture, education or infrastructure. This directed allocation helps achieve specific national objectives within a set period.",
+"py": null,
+"values": null,
+"id": "ecox13002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Planning help country direct im scarce resources go where e dey important, like agriculture or school. Dis one help government achieve national goals quick. E no be just market forces dey decide everything."
+},
+{
+"q": "A country's Gross National Income was ₦45 trillion when its population was 150 million people. If the population rises to 180 million while the Gross National Income stays the same, what happens to income per capita?",
+"options": [
+"It remains unchanged at ₦300,000",
+"It rises because the national income is constant",
+"It falls from ₦300,000 to ₦250,000 per person",
+"It falls from ₦300,000 to ₦200,000 per person"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Income per capita before is 45 trillion divided by 150 million, which equals ₦300,000. After the population rises to 180 million, it becomes 45 trillion divided by 180 million, which equals ₦250,000, showing a fall in living standards despite constant national income.",
+"py": "45e12/180e6",
+"values": [
+300000,
+null,
+250000,
+200000
+],
+"id": "ecox13004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Before, ₦45 trillion divided by 150 million give ₦300,000 per person. When population reach 180 million, the same ₦45 trillion come divide by 180 million, e come drop to ₦250,000. So, income per capita don fall."
+},
+{
+"q": "Which of the following best explains why rapid economic growth may NOT automatically lead to economic development in a country?",
+"options": [
+"Growth figures are always inaccurate and cannot be trusted",
+"Growth can occur alongside worsening income inequality and poor living standards for the majority",
+"Development requires that national income fall over time",
+"Growth only happens in developed countries, not developing ones"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A country's output and income can rise significantly, yet if the benefits are concentrated among a few people while poverty, unemployment and inequality persist for the majority, genuine development has not occurred. This is why growth is necessary but not sufficient for development.",
+"py": null,
+"values": null,
+"id": "ecox13005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Economic growth fit happen but development no go follow if poverty and inequality still dey. If only small people dey enjoy the money while majority dey suffer, that one no be development. Growth alone no be enough."
+},
+{
+"q": "A key reason why many national development plans in Nigeria have failed to achieve their targets is:",
+"options": [
+"Too much emphasis on long-term perspective planning alone",
+"Inadequate implementation due to corruption, policy inconsistency and shortage of funds",
+"Excessive involvement of the private sector in all planning decisions",
+"Overabundance of skilled manpower for plan execution"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Even well-designed plans often fail because of corruption, frequent changes in government policy, insufficient funding and poor implementation strategies. These challenges prevent set targets from being met regardless of how good the plan looks on paper.",
+"py": null,
+"values": null,
+"id": "ecox13007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Many plans for Nigeria dey fail because of corruption and lack of money. Sometimes government policy dey change anyhow, so implementation come hard. Even if the plan fine for paper, these problems dey stop am from working."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Adaeze, an SS3 student, is told that her country's development plan sets specific targets for roads, schools and hospitals to be built over the next four years, with yearly budgets allocated to each ministry to achieve these targets. This type of planning is best described as:",
+"options": [
+"Project planning",
+"Perspective planning",
+"Indicative planning",
+"Fixed planning"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Project planning focuses on specific, well-defined projects such as roads, schools and hospitals with targets and budgets set for a particular period. It is distinguished from perspective planning, which deals with long-term broad national vision rather than specific projects.",
+"py": null,
+"values": null,
+"id": "ecox13003",
+"check": {
+"s1": "D",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:D"
+},
+{
+"q": {
+"q": "According to Rostow's stages of economic growth, the stage in which a society begins to apply modern science to agriculture and industry, with a few leading sectors expanding rapidly, is called:",
+"options": [
+"Traditional society",
+"Pre-condition for take-off",
+"Take-off stage",
+"Age of high mass consumption"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The take-off stage is marked by a surge of investment, growth of leading sectors, and the application of modern technology to production, which pushes the economy onto a path of self-sustaining growth. This follows the pre-condition stage where basic structures for growth are being prepared.",
+"py": null,
+"values": null,
+"id": "ecox13006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Modern science suggests preconditions; rapidly expanding leading sectors suggests take-off.|"
+}
+]
+}

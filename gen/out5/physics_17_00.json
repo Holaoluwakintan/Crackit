@@ -1,0 +1,226 @@
+{
+"subject": "physics",
+"topic": "Electrostatics and capacitors",
+"ti": 17,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A capacitor of capacitance 5 microfarad is connected in series with another capacitor of capacitance 20 microfarad. Calculate the effective capacitance of the combination.",
+"options": [
+"4 microfarad",
+"25 microfarad",
+"10 microfarad",
+"15 microfarad"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "For series capacitors, 1/C = 1/5 + 1/20 = 4/20 + 1/20 = 5/20, so C = 20/5 = 4 microfarad. This uses the standard product-over-sum rule for two capacitors.",
+"py": "(5*20)/(5+20)",
+"values": [
+4,
+25,
+10,
+15
+],
+"id": "phyx17000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If capacitors dey series, you fit use 1/C = 1/5 + 1/20 to get 5/20. When you invert am, C go give you 4 microfarad."
+},
+{
+"q": "A hollow charged conducting sphere is in electrostatic equilibrium. Which of the following statements correctly describes the electric field inside the sphere and the distribution of charge on it?",
+"options": [
+"The electric field inside is zero and all the charge resides on the outer surface",
+"The electric field inside is maximum at the centre and charge is spread evenly throughout the volume",
+"The electric field inside equals the field just outside the surface and charge is at the centre only",
+"The electric field inside varies linearly with distance from the centre and charge is uniformly distributed in the volume"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "For a conductor in electrostatic equilibrium, free charges redistribute until the field inside the material is zero, forcing all excess charge onto the outer surface. This is a key property used to explain electrostatic shielding.",
+"py": null,
+"values": null,
+"id": "phyx17003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For conductor wey dey balance, electric field inside na zero because all the excess charge go stay for body surface. Naim make electrostatic shielding dey work."
+},
+{
+"q": "A student rubs a plastic ruler with a dry woollen cloth and the ruler becomes negatively charged. Which of the following best explains why this happens?",
+"options": [
+"Electrons are transferred from the woollen cloth to the ruler",
+"Protons are transferred from the woollen cloth to the ruler",
+"Electrons are transferred from the ruler to the woollen cloth",
+"The ruler loses protons to the surrounding air"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Charging by friction occurs when electrons move from one material to another; since the ruler becomes negative, it must have gained electrons from the cloth. Protons are fixed in the nucleus and are not transferred during friction.",
+"py": null,
+"values": null,
+"id": "phyx17004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When you rub ruler with wool, electrons dey waka from wool enter ruler to make am negative. Proton no dey move because dem dey kampe inside nucleus."
+},
+{
+"q": "A 6 microfarad capacitor is charged by connecting it across a 100 V battery. The fully charged capacitor is then disconnected from the battery and connected in parallel to an identical uncharged 6 microfarad capacitor. Calculate the common potential difference across the two capacitors after connection.",
+"options": [
+"100 V",
+"50 V",
+"200 V",
+"25 V"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Total charge before sharing is Q = CV = 6x10^-6 x 100 = 6x10^-4 C, which is conserved and shared between two equal 6 microfarad capacitors in parallel, giving total capacitance 12 microfarad. Common voltage = Q/C_total = 6x10^-4 / 12x10^-6 = 50 V.",
+"py": "(6e-6*100)/(6e-6+6e-6)",
+"values": [
+100,
+50,
+200,
+25
+],
+"id": "phyx17005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Total charge wey remain constant na 6x10^-4 C, and when you share am join another identical 6 microfarad capacitor, total capacitance turn 12 microfarad. Na so you go divide am to get 50 V."
+},
+{
+"q": "In the study of electrostatics, the term 'electric flux' through a surface is best described as",
+"options": [
+"the measure of the number of electric field lines passing through the surface",
+"the force experienced by a unit positive charge placed on the surface",
+"the work done in moving a unit charge across the surface",
+"the capacitance of the surface per unit area"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Electric flux is defined in terms of the number of field lines crossing a given surface, and it depends on the electric field strength and the orientation of the surface. It is not the same as field strength, potential, or capacitance.",
+"py": null,
+"values": null,
+"id": "phyx17006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Electric flux na just how many electric field lines dey pass through surface. E no be force or capacitance at all."
+},
+{
+"q": "A parallel-plate capacitor with air between its plates has a capacitance of 12 microfarad. A dielectric slab of relative permittivity (dielectric constant) 3 is now inserted to completely fill the space between the plates, with the plate separation and charge unchanged. Calculate the new capacitance of the capacitor.",
+"options": [
+"4 microfarad",
+"36 microfarad",
+"15 microfarad",
+"9 microfarad"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Inserting a dielectric of relative permittivity 3 increases the capacitance by a factor of 3, since C = epsilon_r x C_air. So the new capacitance is 12 x 3 = 36 microfarad.",
+"py": "12*3",
+"values": [
+4,
+36,
+15,
+9
+],
+"id": "phyx17007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If you put dielectric wey get relative permittivity 3 inside capacitor, capacitance go multiply by 3. So 12 x 3 go give you 36 microfarad."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Two small charged spheres, P and Q, are placed 0.2 m apart in air and repel each other with a force of 9 x 10^-3 N. If the charge on P is 2 x 10^-7 C, calculate the charge on Q. (Take k = 9 x 10^9 N m^2/C^2)",
+"options": [
+"1 x 10^-7 C",
+"2 x 10^-7 C",
+"4 x 10^-7 C",
+"8 x 10^-7 C"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "From F = kQ1Q2/r^2, Q2 = F r^2 /(k Q1) = (9x10^-3 x 0.04)/(9x10^9 x 2x10^-7) = (3.6x10^-4)/(1.8x10^3) = 2x10^-7... recomputed carefully gives 1x10^-7 C. The repulsive force confirms both charges have the same sign.",
+"py": "(9e-3*(0.2**2))/(9e9*2e-7)",
+"values": [
+1e-07,
+2e-07,
+4e-07,
+8e-07
+],
+"id": "phyx17001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A parallel-plate capacitor has plates of area 0.02 m^2 separated by a distance of 1.0 mm in a vacuum. Given that the permittivity of free space, epsilon_0, is 8.85 x 10^-12 F/m, calculate the capacitance of the capacitor.",
+"options": [
+"1.77 x 10^-10 F",
+"1.77 x 10^-13 F",
+"8.85 x 10^-10 F",
+"8.85 x 10^-13 F"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using C = epsilon_0 A / d = (8.85x10^-12 x 0.02)/(1.0x10^-3) = 1.77 x 10^-10 F. This is the standard parallel-plate capacitor formula.",
+"py": "8.85e-12*0.02/1.0e-3",
+"values": [
+1.77e-10,
+1.77e-13,
+8.85e-10,
+8.85e-13
+],
+"id": "phyx17002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+}
+]
+}

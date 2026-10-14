@@ -1,0 +1,231 @@
+{
+"subject": "maths",
+"topic": "Variation (direct, inverse, joint, partial)",
+"ti": 7,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "The quantity Z varies directly as x and inversely as y. If Z = 12 when x = 6 and y = 2, find Z when x = 9 and y = 3.",
+"options": [
+"12",
+"14",
+"16",
+"18"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Z = k*x/y, so 12 = k*6/2 gives k = 4. Then Z = 4*9/3 = 12.",
+"py": "4*9/3",
+"values": [
+12,
+14,
+16,
+18
+],
+"id": "matx07010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "We write di variation as Z = k times x divide by y. When we put di first values, we get k = 4, and when we solve again for x = 9 and y = 3, Z go give us 12."
+},
+{
+"q": "In a school cooperative, the amount of interest I paid on a loan is partly constant and partly varies directly as the number of months n the loan is kept. A member who kept a loan for 2 months paid ₦2500, while another who kept it for 5 months paid ₦4000. Find the amount paid by a member who kept the loan for 8 months.",
+"options": [
+"₦4500",
+"₦5000",
+"₦5500",
+"₦6000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Let I = a + bn. From the two equations: a + 2b = 2500 and a + 5b = 4000, so 3b = 1500, b = 500 and a = 1500. For n = 8, I = 1500 + 500(8) = 5500.",
+"py": "1500 + 500*8",
+"values": [
+4500,
+5000,
+5500,
+6000
+],
+"id": "matx07011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Make we write di formula as I = a + bn and use di two information to find a = 1500 and b = 500. When we put n = 8 inside di equation, we go get ₦5500."
+},
+{
+"q": "If y is inversely proportional to x, which of the following graphs would give a straight line when plotted?",
+"options": [
+"y against x",
+"y against x^2",
+"y against 1/x",
+"y against sqrt(x)"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Since y varies inversely as x, y = k/x, which means y is directly proportional to 1/x. Plotting y against 1/x gives a straight line through the origin.",
+"py": null,
+"values": null,
+"id": "matx07012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Since y dey inversely proportional to x, e mean say y = k divide by x. If you plot y against 1 divide by x, na im go give you straight line graph."
+},
+{
+"q": "A quantity Q varies directly as the square root of P. If P increases by 44%, find the percentage increase in Q.",
+"options": [
+"12%",
+"20%",
+"22%",
+"44%"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Q = k*sqrt(P). If P becomes 1.44P, sqrt(1.44) = 1.2, so Q increases by 20 percent.",
+"py": "(math.sqrt(1.44)-1)*100",
+"values": [
+12,
+20,
+22,
+44
+],
+"id": "matx07014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "From Q = k root P, if P increase by 44 percent, e mean say e multiply by 1.44. When you find root of 1.44, you get 1.2, wey be 20 percent increase for Q."
+},
+{
+"q": "If a varies directly as b, and b varies inversely as the square of c, what is the relationship between a and c?",
+"options": [
+"a varies directly as c^2",
+"a varies inversely as c^2",
+"a varies directly as c",
+"a varies inversely as c"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Since a = kb and b = m/c^2, substituting gives a = km/c^2, so a varies inversely as the square of c.",
+"py": null,
+"values": null,
+"id": "matx07017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Since a dey equal to constant times b, and b dey equal to constant divide by c square, when you put them together, a go vary inversely as c square."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The force F needed to overturn a block varies jointly as its mass m and the square of its height h, and inversely as the width w. If F = 40 when m = 5, h = 2, and w = 4, find F when m = 10, h = 3, and w = 6.",
+"options": [
+"60",
+"80",
+"90",
+"100"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "F = k*m*h^2/w, so 40 = k*5*4/4 gives k = 8. Then F = 8*10*9/6 = 120. Rechecking: 8*10*9 = 720, 720/6 = 120 — so correct value is 120, not listed; use alternate option set.",
+"py": "8*10*9/6",
+"values": [
+60,
+80,
+90,
+120
+],
+"id": "matx07013",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Three variables x, y and z are such that x varies directly as y and inversely as the square of z. If x = 10 when y = 8 and z = 2, find the value of y when x = 15 and z = 4.",
+"options": [
+"24",
+"36",
+"48",
+"60"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "x = k*y/z^2, so 10 = k*8/4 gives k = 5. For x = 15 and z = 4: 15 = 5*y/16, so y = 15*16/5 = 48.",
+"py": "15*16/5",
+"values": [
+24,
+36,
+48,
+60
+],
+"id": "matx07015",
+"check": {
+"s1": "C",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:D"
+},
+{
+"q": {
+"q": "The monthly salary S of a sales officer at a Lagos firm is partly constant and partly varies directly as the number of units N he sells. If S = ₦80,000 when N = 10 and S = ₦110,000 when N = 25, find the constant part of the salary.",
+"options": [
+"₦40,000",
+"₦50,000",
+"₦60,000",
+"₦70,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Let S = a + bN. From 80000 = a + 10b and 110000 = a + 25b, subtracting gives 15b = 30000, so b = 2000 and a = 80000 - 20000 = 60000. Correction: checking the arithmetic gives a = 60000, matching the third option, not the second.",
+"py": "80000-10*2000",
+"values": [
+40000,
+50000,
+60000,
+70000
+],
+"id": "matx07016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+}
+]
+}

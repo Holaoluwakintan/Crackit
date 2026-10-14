@@ -1,0 +1,202 @@
+{
+"subject": "commerce",
+"topic": "Banking: types of banks, services, cheques and the Central Bank",
+"ti": 6,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which type of bank mainly mobilizes small savings from petty traders, farmers and other low-income earners in rural and semi-urban communities, often granting small loans to members?",
+"options": [
+"Merchant bank",
+"Community/microfinance bank",
+"Central bank",
+"Development bank"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Community and microfinance banks focus on collecting small deposits and giving small loans to low-income people in local communities. Merchant, central and development banks serve different, larger-scale purposes.",
+"py": null,
+"values": null,
+"id": "comx06000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na microfinance bank dem dey use help small business people and farmers for village. Dem dey collect small-small money and give dem loan to take grow dia business."
+},
+{
+"q": "Alhaji Garba wants to deposit ₦200,000 with a bank for 9 months at an agreed fixed interest rate, with the understanding that he will not withdraw the money before the end of the period. Which type of bank account is most suitable for him?",
+"options": [
+"Current account",
+"Savings account",
+"Fixed deposit account",
+"Domiciliary account"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A fixed deposit account locks money for an agreed period at a fixed interest rate, exactly matching Alhaji Garba's plan. Current and savings accounts allow more flexible withdrawals, while a domiciliary account is for foreign currency.",
+"py": null,
+"values": null,
+"id": "comx06002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Fixed deposit account na di correct one because di money go stay for bank for specific time. You no fit touch am until di time finish, and dem go pay you interest."
+},
+{
+"q": "A commercial bank keeps a certain fraction of its total deposits as cash reserve and lends out the rest to borrowers. If the bank has ₦4,000,000 in total deposits and the Central Bank's required reserve ratio is 15%, how much can the bank legally give out as loans?",
+"options": [
+"₦600,000",
+"₦3,400,000",
+"₦3,850,000",
+"₦4,000,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Reserve amount is 15% of 4,000,000, which is 600,000. The remaining amount available for loans is 4,000,000 minus 600,000, giving 3,400,000.",
+"py": "4000000 - 0.15*4000000",
+"values": [
+600000,
+3400000,
+3850000,
+4000000
+],
+"id": "comx06003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you calculate 15% of 4,000,000, e go give you 600,000 as reserve. So, di bank go minus that 600,000 from di 4,000,000, wey come leave 3,400,000 for loan."
+},
+{
+"q": "Which of the following best describes 'bank draft' as a banking service?",
+"options": [
+"A loan given to a trader for business expansion",
+"An instrument issued by a bank, drawn on itself, guaranteeing payment to a named person",
+"A record showing all transactions on a customer's account",
+"An agreement allowing a customer to overdraw their account"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A bank draft is issued and guaranteed by the bank itself, making it more secure than an ordinary cheque, and is often used for large or official payments. The other options describe loans, statements, and overdrafts, which are different services.",
+"py": null,
+"values": null,
+"id": "comx06004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Bank draft na paper wey bank write by demsef to promise say dem go pay person. E dey very safe pass ordinary cheque because na di bank get di money."
+},
+{
+"q": "Which of these is a major function of the Central Bank of Nigeria that distinguishes it from commercial banks?",
+"options": [
+"Accepting current account deposits from the general public",
+"Granting personal loans to individual customers",
+"Acting as banker and financial adviser to the Federal Government",
+"Issuing cheque books to private business customers"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The Central Bank serves as banker, adviser and manager of government finances and foreign reserves, a role commercial banks do not perform. Commercial banks, not the Central Bank, deal directly with the public through deposits, loans and cheque books.",
+"py": null,
+"values": null,
+"id": "comx06005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Central Bank na di bank for government, dem dey advise dem and keep dia money. Commercial banks dey deal with ordinary people like you and me, but Central Bank no dey do dat one."
+},
+{
+"q": "Mrs Adeyemi issued a cheque for ₦80,000 to a supplier, but her account balance was only ₦55,000 at the time the cheque was presented. What is the most likely action the bank will take?",
+"options": [
+"Pay the full ₦80,000 and later recover the shortfall from the supplier",
+"Dishonour the cheque and mark it 'refer to drawer'",
+"Automatically convert the cheque into a fixed deposit",
+"Pay ₦55,000 and ask the supplier to accept the balance later"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since the account lacks sufficient funds to cover the full cheque amount, the bank will dishonour it and stamp it 'refer to drawer', meaning the drawer should be contacted. Banks do not partially pay cheques or convert them into deposits without the customer's instruction.",
+"py": null,
+"values": null,
+"id": "comx06006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If money no reach for account, bank no go pay di cheque. Dem go just mark am 'refer to drawer' make you go settle di person wey you give di cheque."
+},
+{
+"q": "A bank in Lagos agrees to finance a trader's import of goods from China by guaranteeing payment to the foreign seller once shipping documents are presented, while the trader repays the bank later. This banking service is known as",
+"options": [
+"Letter of credit",
+"Standing order",
+"Bank reconciliation",
+"Direct debit"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A letter of credit is a guarantee of payment issued by a bank on behalf of a buyer, used mainly in international trade to assure the foreign seller of payment. Standing orders and direct debits deal with regular domestic payments, while reconciliation is an accounting check, not a payment guarantee.",
+"py": null,
+"values": null,
+"id": "comx06007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Letter of credit na wetin bank dey use guarantee payment for international trade. E dey make di person wey dey sell goods for outside country trust say e go collect him money."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A cheque bears the words 'Pay Chidinma Okoro only' and does not carry the word 'bearer' or 'order'. What type of cheque is this?",
+"options": [
+"Open cheque",
+"Bearer cheque",
+"Restrictive (not negotiable) cheque",
+"Stale cheque"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Writing 'Pay X only' restricts payment strictly to the named person, making the cheque non-transferable. A bearer cheque is payable to whoever holds it, while an open cheque can be cashed over the counter without such restriction.",
+"py": null,
+"values": null,
+"id": "comx06001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:‘Pay [name] only’ does not establish a ‘not negotiable’ crossing.|"
+}
+]
+}

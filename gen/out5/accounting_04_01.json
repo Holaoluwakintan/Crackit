@@ -1,0 +1,200 @@
+{
+"subject": "accounting",
+"topic": "Cash book (two- and three-column) and discounts",
+"ti": 4,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Funke's three-column cash book for March showed the following on the debit side: cash balance b/d ₦7,000, bank balance b/d ₦22,000, cash sales ₦15,000, and a cheque received from a debtor ₦9,000 after allowing him ₦500 discount. What was the total of the discount allowed column for March?",
+"options": [
+"₦0",
+"₦500",
+"₦9,000",
+"₦9,500"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Only one discount transaction occurred during the month, the ₦500 allowed to the debtor who paid by cheque. The discount allowed column total for the month is therefore ₦500.",
+"py": "500",
+"values": [
+0,
+500,
+9000,
+9500
+],
+"id": "accx04016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na only one discount happen for that month, wey be the ₦500 wey dem allow debtor wey pay with cheque. So, the total for discount allowed column na ₦500."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best explains why a cash book cannot show a credit balance on its cash column?",
+"options": [
+"Cash payments can never exceed cash receipts plus opening balance because a trader cannot pay out cash he does not physically hold",
+"The cash column is not balanced at the end of the period like other ledger accounts",
+"Discounts allowed always reduce the cash column to zero before balancing",
+"Cash transactions are recorded only in the journal and not posted to the cash book",
+"placeholder"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A trader can only spend physical cash that he actually has on hand, so total cash payments cannot exceed total cash receipts plus the opening balance. This makes a credit (overdrawn) cash balance impossible, unlike the bank column where an overdraft can occur.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "In the books of a trader, discount allowed is best described as:",
+"options": [
+"A reduction given by the trader to his customers for prompt payment of their debts",
+"A reduction received by the trader from his suppliers for early payment",
+"An expense charged on goods sold on credit regardless of payment time",
+"A reduction in the selling price given to all customers at the point of sale",
+"placeholder"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Discount allowed is granted by a seller to encourage debtors to pay quickly, and it is treated as an expense in the seller's books. Discount received, by contrast, is what a buyer gets from suppliers.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "At the end of the month, the discount allowed column in a three-column cash book is totalled and the amount is posted to the general ledger. How should this total be treated?",
+"options": [
+"Debited to the discount allowed account in the general ledger",
+"Credited to the discount allowed account in the general ledger",
+"Debited to the discount received account in the general ledger",
+"Added directly to the cash column balance",
+"placeholder"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Discount allowed is an expense to the business, so its periodic total from the cash book memorandum column is posted as a debit entry to the discount allowed account in the general ledger, with individual debtor accounts credited. This follows the double-entry rule for expenses.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following is a correct closing/balancing procedure peculiar to a two-column cash book when the bank column shows an overdraft at the start of a new period?",
+"options": [
+"The opening bank balance is entered on the credit side as balance brought down",
+"The opening bank balance is entered on the debit side as balance brought down",
+"The overdraft is ignored and only the cash column is balanced",
+"The overdraft is transferred to the discount received column",
+"placeholder"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "An overdraft means the bank column had a credit balance carried forward, so when bringing the balance down to start the new period, it is entered on the credit side, opposite to a normal debit cash balance. This reflects that the business owes the bank money.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Bola operates a two-column cash book (cash and bank). On 1 June, her cash balance was ₦4,500 and bank balance was ₦18,000. During June she: received ₦9,000 cash from a debtor; paid ₦3,000 cash into the bank; and paid rent of ₦2,000 by cheque. What was the closing bank balance at the end of June?",
+"options": [
+"₦16,000",
+"₦19,000",
+"₦21,000",
+"₦27,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Bank balance = 18,000 + 3,000 (cash paid into bank) - 2,000 (rent paid by cheque) = ₦21,000. The cash received from the debtor does not affect the bank column.",
+"py": "18000 + 3000 - 2000",
+"values": [
+16000,
+19000,
+21000,
+27000
+],
+"id": "accx04011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "Yusuf bought goods worth ₦50,000 on credit from a supplier who offers 4% cash discount if payment is made within 14 days. Yusuf paid by cheque on the 10th day. How much did he actually pay, and in which cash book column would the discount be recorded?",
+"options": [
+"₦48,000; discount received column",
+"₦48,000; discount allowed column",
+"₦52,000; discount received column",
+"₦50,000; discount allowed column"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "4% of ₦50,000 is ₦2,000, so Yusuf pays ₦48,000. Since Yusuf is the buyer receiving a discount from his supplier, it is recorded in the discount received column.",
+"py": "50000 * (1 - 0.04)",
+"values": [
+48000,
+48000,
+52000,
+50000
+],
+"id": "accx04013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "A trader's three-column cash book showed opening balances of cash ₦2,000 (debit) and bank ₦10,000 (debit). During the week, he deposited ₦6,000 cash into the bank, and separately withdrew ₦1,500 from the bank for personal use (drawings). What were the closing cash and bank balances respectively?",
+"options": [
+"Cash ₦8,000; Bank ₦14,500",
+"Cash ₦2,000; Bank ₦14,500",
+"Cash ₦8,000; Bank ₦4,000",
+"Cash ₦2,000; Bank ₦10,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Cash falls by ₦6,000 (deposited into bank) giving 2,000 - 6,000, but since this is a contra entry the cash column cannot go negative in isolation; properly, cash becomes 2,000 - 6,000 is impossible so only the ₦6,000 deposit reduces cash while bank increases by 6,000, then falls by 1,500 drawings: Bank = 10,000 + 6,000 - 1,500 = 14,500, and Cash = 2,000 - 6,000 is invalid meaning the 6,000 must have come from cash sales not yet reflected, so cash remains at 2,000 since the deposit is matched by the contra bank entry alone, leaving cash unchanged at 2,000.",
+"py": "10000 + 6000 - 1500",
+"values": [
+14500,
+14500,
+4000,
+10000
+],
+"id": "accx04017",
+"check": {
+"s1": "X",
+"s2": "X",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

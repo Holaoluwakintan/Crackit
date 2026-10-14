@@ -1,0 +1,180 @@
+{
+"subject": "biology",
+"topic": "Hormones in animals and plants",
+"ti": 12,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which endocrine gland in the human body is often called the 'master gland' because it secretes hormones that regulate the activities of most other endocrine glands?",
+"options": [
+"Thyroid gland",
+"Pituitary gland",
+"Adrenal gland",
+"Pancreas"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The pituitary gland produces tropic hormones that control the thyroid, adrenal cortex and gonads, so it is called the master gland. The other glands act mainly on target organs, not on other glands.",
+"id": "biox12010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Pituitary gland na di master gland because e dey produce hormones wey dey control other glands. Other glands no get power to control their fellow glands like pituitary."
+},
+{
+"q": "A student notices that a potted maize seedling placed on a windowsill bends its shoot toward the sunlight entering from one side. Which plant hormone is mainly responsible for this bending response?",
+"options": [
+"Abscisic acid",
+"Cytokinin",
+"Auxin",
+"Ethylene"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Auxin accumulates on the shaded side of the shoot, causing cells there to elongate faster than those on the lit side. This unequal growth bends the shoot toward the light source.",
+"id": "biox12011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Auxin dey gather for the side wey no get light, so e dey make that side grow fast pass the other side. This one come make the plant bend go where the light dey."
+},
+{
+"q": "A 45-year-old man visits a clinic in Lagos complaining of excessive thirst, frequent urination of large volumes of dilute urine, and constant fatigue, even though his blood glucose level is normal. Tests reveal that his kidneys are not responding properly to a certain hormone. Which hormone deficiency or malfunction best explains this condition?",
+"options": [
+"Insulin",
+"Antidiuretic hormone",
+"Aldosterone",
+"Thyroxine"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Antidiuretic hormone normally makes the kidney tubules reabsorb more water, producing small amounts of concentrated urine. When the kidneys fail to respond to it, large volumes of dilute urine are passed, a condition known as diabetes insipidus, while blood glucose remains normal, ruling out insulin problems.",
+"id": "biox12012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Antidiuretic hormone dey help kidney hold water so urine no go too plenty. If the hormone no work, the person go dey pass plenty water even though sugar level dey normal."
+},
+{
+"q": "In a controlled experiment, a plant physiologist sprays a group of young tomato plants with a hormone that causes the internodes to lengthen rapidly, producing unusually tall, thin stems compared to untreated plants of the same age. Which hormone was most likely applied?",
+"options": [
+"Gibberellin",
+"Abscisic acid",
+"Auxin only",
+"Ethylene"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Gibberellins are well known for stimulating stem elongation, especially increasing the length of internodes, which makes treated plants grow taller than normal. Abscisic acid and ethylene generally inhibit growth, while auxin alone mainly affects elongation at the tip region and root initiation.",
+"id": "biox12013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Gibberellin na the hormone wey dey make plant stem grow long quick-quick. E dey stretch the internodes so the plant go come tall pass normal ones."
+},
+{
+"q": "During examination period, a student becomes unusually anxious. Her heart beats faster, her pupils widen, and blood is diverted away from her digestive system to her skeletal muscles. Which of the following correctly describes the nature of the hormone responsible for these rapid changes compared to hormones that regulate long-term processes like growth?",
+"options": [
+"It acts slowly over several days and produces permanent changes in body structure",
+"It is released directly into the digestive tract and acts only on nearby cells",
+"It acts rapidly, travels in the blood, and produces short-lived widespread effects that quickly reverse once the stressor is removed",
+"It is stored in the gland and released continuously regardless of stimulation"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Adrenaline is released quickly in response to stress, travels through the blood to many organs at once, and its effects fade rapidly once the threat is gone. This is different from slow, long-term acting hormones such as growth hormone, which produce gradual, lasting structural changes.",
+"id": "biox12014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Adrenaline dey rush enter blood quick when person fear or get stress. E dey make body react fast, but once the fear finish, everything go come back to normal."
+},
+{
+"q": "A horticulturist in Jos wants to prevent the seeds in a batch of stored tomatoes from germinating prematurely before the rainy season. Which naturally occurring plant hormone, when present in high concentration in the seed, helps to maintain seed dormancy under these conditions?",
+"options": [
+"Auxin",
+"Gibberellin",
+"Abscisic acid",
+"Cytokinin"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Abscisic acid is the hormone mainly responsible for maintaining dormancy in seeds and buds, preventing germination until conditions such as adequate water and temperature are favourable. Gibberellin actually promotes germination, which is the opposite effect needed here.",
+"id": "biox12015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Abscisic acid na the hormone wey dey make seed sleep and no germinate quick. E dey keep the seed dormant until the time wey rain come."
+},
+{
+"q": "A plant scientist removes the shoot tip from a young bean seedling and then applies a paste containing a synthetic hormone to the cut surface. He observes that root formation is stimulated at the base of a separate stem cutting treated with the same hormone. Based on this observation, which hormone is most likely present in the paste and what is its main classical role in whole plants?",
+"options": [
+"Ethylene; it ripens fruits and promotes leaf fall",
+"Auxin; it promotes cell elongation and stimulates root initiation in cuttings",
+"Abscisic acid; it closes stomata during water stress",
+"Cytokinin; it delays leaf senescence only"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Auxin is widely used commercially as rooting powder because it stimulates root initiation at the cut end of stem cuttings, in addition to its classical role in promoting cell elongation at the shoot tip. The other hormones listed have different primary functions unrelated to stimulating root formation in cuttings.",
+"id": "biox12017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Auxin na the hormone wey dem dey use for rooting powder to make stem grow roots. Apart from that, e still dey help plant stem grow long."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A young woman undergoes a blood test during the first half of her menstrual cycle. The result shows a hormone whose rising level stimulates the maturation of a follicle in the ovary and contributes to the thickening of the uterine lining before ovulation. Which hormone is this?",
+"options": [
+"Progesterone",
+"Luteinising hormone",
+"Oestrogen",
+"Oxytocin"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Oestrogen rises during the follicular phase as the follicle matures, and it causes the uterine lining to thicken in preparation for a possible pregnancy. Progesterone instead rises mainly after ovulation during the luteal phase, while luteinising hormone triggers ovulation rather than directly thickening the lining.",
+"id": "biox12016",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

@@ -1,0 +1,197 @@
+{
+"subject": "geography",
+"topic": "Climate types and their classification",
+"ti": 11,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A town has a mean annual rainfall of 650 mm, concentrated mainly in winter, with hot, dry summers where temperatures can exceed 30°C. Olive and citrus cultivation are common. Which climate type is being described?",
+"options": [
+"Warm temperate western margin (Mediterranean) climate",
+"Tropical continental climate",
+"Cool temperate continental climate",
+"Equatorial climate"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Hot dry summers with rain concentrated in winter and olive/citrus farming are classic features of the Mediterranean (warm temperate western margin) climate. The other climates do not have this winter-rain, summer-drought pattern.",
+"py": null,
+"values": null,
+"id": "geox11000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Hot dry summer with rain wey dey fall for winter time and olive/citrus farming na true true sign of Mediterranean climate. Na only dis climate dey get dis kind winter-rain and summer-drought pattern."
+},
+{
+"q": "Which pair of climatic elements is most commonly used as the basis for classifying world climates into types such as equatorial, tropical continental, and cool temperate?",
+"options": [
+"Temperature and rainfall",
+"Pressure and wind direction",
+"Humidity and cloud cover",
+"Altitude and latitude"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Climate classification systems group regions mainly by their temperature patterns and rainfall amount/distribution throughout the year. Pressure, humidity, altitude and latitude may influence climate but are not the main classifying elements.",
+"py": null,
+"values": null,
+"id": "geox11001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To classify world climates, geography people dey use temperature pattern and how rainfall dey spread across the year. Other things like pressure and wind fit influence am, but temperature and rainfall na the main things."
+},
+{
+"q": "Which of the following is the main reason cool temperate continental interior climates (such as those found deep inside large landmasses) experience a very large annual temperature range?",
+"options": [
+"Distance from the moderating influence of the sea",
+"Nearness to the equator",
+"High amounts of rainfall throughout the year",
+"Presence of warm ocean currents nearby"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Land heats up and cools down faster than the sea, so places far inland lack the sea's moderating effect, giving hot summers and very cold winters. Nearness to the equator, heavy year-round rainfall and warm currents would instead reduce the temperature range.",
+"py": null,
+"values": null,
+"id": "geox11003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Land dey hot and cold quick quick pass water, so places wey dey deep inside landmass no dey see sea help them moderate temperature. Dis one dey make summer hot well well and winter very cold."
+},
+{
+"q": "A geography class is told that a certain climate type has cool summers, cold winters with snow, coniferous forest vegetation, and is found roughly between latitudes 50°N and 70°N across Canada and Siberia. This describes the",
+"options": [
+"Warm temperate eastern margin climate",
+"Cool temperate western margin climate",
+"Boreal (cool temperate continental/taiga) climate",
+"Hot desert climate"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Cool summers, very cold snowy winters and coniferous (taiga) forest at high latitudes across Canada and Siberia describe the boreal/cool temperate continental climate. The other options describe warmer or coastal climates that do not fit this description.",
+"py": null,
+"values": null,
+"id": "geox11004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Cool summer, cold winter with snow and coniferous forest for Canada and Siberia na the correct way wey dem dey describe boreal or cool temperate continental climate. Na only dis climate fit dis description."
+},
+{
+"q": "A coastal city lying between latitudes 50°N and 60°N receives rain in every month of the year, has mild winters rarely below 2°C, and cool summers rarely above 18°C, due to the influence of a warm ocean current offshore. Which climate type does this best represent?",
+"options": [
+"Cool temperate western margin (British type) climate",
+"Mediterranean climate",
+"Tropical monsoon climate",
+"Hot desert climate"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Rain all year, mild winters and cool summers under the influence of warm currents at these mid-to-high latitudes are typical of the cool temperate western margin (British type) climate. Mediterranean has dry summers, monsoon is tropical, and deserts have very little rainfall.",
+"py": null,
+"values": null,
+"id": "geox11005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Rain every month, mild winter and cool summer because of warm ocean current na the true true character of cool temperate western margin or British type climate. Mediterranean get dry summer, while desert dry pass."
+},
+{
+"q": "In a particular region, rainfall exceeds 2,000 mm annually and falls fairly evenly across the year, mean monthly temperatures stay between 24°C and 28°C with almost no seasonal variation, and tropical rainforest vegetation thrives. A student wrongly classifies this as a tropical monsoon climate instead of equatorial. What is the strongest reason this classification is wrong?",
+"options": [
+"Monsoon climates have a well-marked dry season caused by seasonal reversal of winds, which is absent here",
+"Monsoon climates always receive less total rainfall than equatorial regions",
+"Monsoon climates occur only in desert interiors far from the coast",
+"Monsoon climates have lower temperatures throughout the year than equatorial regions"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The key distinguishing feature of monsoon climates is a strong wet-dry seasonal contrast driven by reversing winds, which is missing in the region described, where rain is spread evenly all year as in equatorial climates. The other options misstate facts about rainfall totals, location and temperature of monsoon climates.",
+"py": null,
+"values": null,
+"id": "geox11007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Monsoon climate must get dry season because wind dey change direction, but dis place wey rain dey fall all through year na equatorial climate. Monsoon climate no be like dat because e get proper dry season."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A student compares two tropical stations. Station X has rainfall in all months of the year and a small annual temperature range of about 3°C. Station Y has a marked dry season of about five months and a temperature range of about 6°C, with a double maximum rainfall pattern. Which classification best fits Station Y?",
+"options": [
+"Tropical continental (Sudan type) climate",
+"Equatorial climate",
+"Tropical monsoon climate",
+"Tundra climate"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A marked dry season with a wider temperature range but still some double rainfall peak is typical of the tropical continental (Sudan) type, unlike the equatorial climate which has rain throughout the year with a small temperature range. Monsoon climate has an even longer, very heavy wet season driven by seasonal winds, and tundra is a cold climate, not tropical.",
+"py": null,
+"values": null,
+"id": "geox11002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+},
+{
+"q": {
+"q": "A meteorologist found that a station's temperature range between the warmest and coolest months was only 4°C, while another nearby desert station recorded a range of 20°C between its hottest and coldest months. Which explanation best accounts for this difference?",
+"options": [
+"Cloud cover and high humidity near the equator reduce heat loss at night, while clear desert skies allow rapid heat loss, widening the range",
+"Deserts are always closer to the sea than equatorial regions, which increases their temperature range",
+"Equatorial regions receive less solar radiation throughout the year than deserts",
+"Deserts receive rainfall every month, which stabilises their temperature range"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Equatorial regions have thick cloud cover and high humidity that trap heat and reduce temperature swings, while deserts have clear skies and low humidity, so they lose heat quickly at night, producing a wide diurnal and annual range. The other statements are factually incorrect about deserts and equatorial regions.",
+"py": null,
+"values": null,
+"id": "geox11006",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

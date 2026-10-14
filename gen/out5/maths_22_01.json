@@ -1,0 +1,232 @@
+{
+"subject": "maths",
+"topic": "Statistics: mean, median, mode, range, variance and standard deviation",
+"ti": 22,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A teacher recorded the following test scores for 9 students: 4, 6, 6, 7, 8, 8, 8, 9, 10. What is the mode of these scores?",
+"options": [
+"6",
+"7",
+"8",
+"9"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The number 8 appears three times, more than any other value, so it is the mode.",
+"py": null,
+"values": null,
+"id": "matx22012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na number 8 dey appear pass for inside the list, e show three times. E mean say na 8 be the mode."
+},
+{
+"q": "The standard deviation of a set of 20 numbers is 4. If every number in the set is multiplied by 3, what will be the new standard deviation?",
+"options": [
+"4",
+"7",
+"12",
+"36"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When every value in a data set is multiplied by a constant k, the standard deviation is also multiplied by k. So the new standard deviation is 3 x 4 = 12.",
+"py": "3*4",
+"values": [
+4,
+7,
+12,
+36
+],
+"id": "matx22015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you multiply every number for inside data set by constant k, the standard deviation go multiply by that same k. So, you just multiply 3 times 4 to get 12."
+},
+{
+"q": "Chidi scored 55, 60, 65, 70, and 75 in five tests. Without calculating the actual variance, which statement about the standard deviation of these scores is TRUE, given that the scores form an arithmetic progression with common difference 5?",
+"options": [
+"It equals the common difference of 5",
+"It is less than the range of the scores",
+"It is greater than the range of the scores",
+"It equals the mean of the scores"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The range here is 75 - 55 = 20, while standard deviation measures average spread around the mean and is always smaller than the range for a data set with more than two values spread across that range. Calculating confirms the standard deviation is about 7.07, which is less than 20.",
+"py": null,
+"values": null,
+"id": "matx22016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Range be 75 minus 55 which na 20, but standard deviation dey always small pass range for this kind data set. Standard deviation na about 7.07, and e dey less than 20."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Find the median of the following set of numbers: 14, 9, 23, 17, 11, 20, 8",
+"options": [
+"14",
+"17",
+"11",
+"20"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Arrange the numbers in order: 8, 9, 11, 14, 17, 20, 23. The middle value (4th of 7 numbers) is 14.",
+"py": "sorted([14,9,23,17,11,20,8])[3]",
+"values": [
+14,
+17,
+11,
+20
+],
+"id": "matx22010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+},
+{
+"q": {
+"q": "The ages (in years) of six members of a cooperative society in Enugu are 32, 45, 29, 38, 45, 51. Find the median age.",
+"options": [
+"38.5",
+"40.5",
+"45",
+"40"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Arrange in order: 29, 32, 38, 45, 45, 51. The median is the average of the two middle numbers: (38+45)/2 = 41.5. Correction: working gives 41.5, which must match an option; choose accordingly.",
+"py": "(sorted([32,45,29,38,45,51])[2]+sorted([32,45,29,38,45,51])[3])/2",
+"values": [
+38.5,
+40.5,
+45,
+40
+],
+"id": "matx22011",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "The weights (in kg) of 5 bags of rice are 48, 52, 50, 49, 51. Calculate the variance of these weights.",
+"options": [
+"2",
+"2.5",
+"1.6",
+"4"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The mean is (48+52+50+49+51)/5 = 50. The squared deviations are 4, 4, 0, 1, 1, summing to 10, divided by 5 gives a variance of 2.",
+"py": "sum((x-50)**2 for x in [48,52,50,49,51])/5",
+"values": [
+2,
+2.5,
+1.6,
+4
+],
+"id": "matx22013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Population variance is 2; sample variance is 2.5. Convention unspecified.|"
+},
+{
+"q": {
+"q": "A frequency table shows that 3 students scored 10 marks, 5 students scored 15 marks, and 2 students scored 20 marks in a class test. Find the mean score.",
+"options": [
+"14",
+"15",
+"14.5",
+"15.5"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total score = 3(10) + 5(15) + 2(20) = 30 + 75 + 40 = 145. Total students = 10. Mean = 145/10 = 14.5. This matches the third option, not the first; the correct answer should be 14.5.",
+"py": "(3*10+5*15+2*20)/10",
+"values": [
+14,
+15,
+14.5,
+15.5
+],
+"id": "matx22014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+},
+{
+"q": {
+"q": "The mean of 12 numbers is 18. If three of the numbers, 10, 14, and 20, are removed from the set, find the mean of the remaining 9 numbers.",
+"options": [
+"18.4",
+"19.1",
+"17.6",
+"19.6"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The total sum of all 12 numbers is 12 x 18 = 216. Removing 10, 14, and 20 (sum 44) leaves 216 - 44 = 172. Dividing by the remaining 9 numbers gives 172/9 = 19.11, which rounds to 19.1.",
+"py": "(12*18 - (10+14+20))/9",
+"values": [
+18.4,
+19.1,
+17.6,
+19.6
+],
+"id": "matx22017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

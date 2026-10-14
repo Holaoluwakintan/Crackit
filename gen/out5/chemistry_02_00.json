@@ -1,0 +1,202 @@
+{
+"subject": "chemistry",
+"topic": "Atomic structure, isotopes and electron configuration",
+"ti": 2,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "The nucleus of an atom contains protons and neutrons, while electrons occupy the space around it. Which of the following correctly states the relative charge and mass of a proton compared to an electron?",
+"options": [
+"A proton has the same charge magnitude as an electron but opposite sign, and is about 1836 times heavier",
+"A proton has twice the charge of an electron and is about 1836 times heavier",
+"A proton and electron have equal mass but opposite charges",
+"A proton has no charge but is heavier than an electron"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A proton carries a +1 charge while an electron carries a -1 charge, so they are equal in magnitude but opposite in sign. A proton is about 1836 times more massive than an electron, which is why electrons are treated as negligible in mass calculations.",
+"py": null,
+"values": null,
+"id": "chex02001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Proton get +1 charge and electron get -1, so dem magnitude dey equal but sign different. Proton heavy pass electron like 1836 times, dat why we dey ignore electron mass for calculation."
+},
+{
+"q": "Which of the following statements correctly explains why isotopes of the same element have identical chemical properties?",
+"options": [
+"They have the same number of neutrons in the nucleus",
+"They have the same number of protons and therefore the same number of electrons and electron arrangement",
+"They have the same mass number but different atomic numbers",
+"They have different numbers of electrons but the same number of protons"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Chemical properties depend mainly on the number and arrangement of electrons, which is determined by the atomic number (number of protons). Isotopes differ only in neutron number, so their electron configuration and chemical behaviour remain the same.",
+"py": null,
+"values": null,
+"id": "chex02002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Chemical properties dey depend on how electron arrangement dey, wey proton number dey control. Isotopes get same proton number, so dem electron arrangement no dey change."
+},
+{
+"q": "An ion is formed when a neutral atom of potassium (atomic number 19) loses one electron. Write the correct electron configuration of the resulting potassium ion.",
+"options": [
+"1s2 2s2 2p6 3s2 3p6 4s1",
+"1s2 2s2 2p6 3s2 3p6",
+"1s2 2s2 2p6 3s2 3p6 3d1",
+"1s2 2s2 2p6 3s2 3p5 4s2"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Neutral potassium has configuration 1s2 2s2 2p6 3s2 3p6 4s1 with 19 electrons. Losing one electron from the outermost 4s orbital gives 18 electrons, matching 1s2 2s2 2p6 3s2 3p6, which is the stable noble gas arrangement of argon.",
+"py": null,
+"values": null,
+"id": "chex02003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Potassium get 19 electrons, but if e lose one, e go remain 18. Dat 18 electrons go arrange like 1s2 2s2 2p6 3s2 3p6, wey be like noble gas."
+},
+{
+"q": "In the modern quantum mechanical model of the atom, which set of quantum numbers describes the azimuthal (orbital angular momentum) quantum number, l, for a 3d electron?",
+"options": [
+"l = 0",
+"l = 1",
+"l = 2",
+"l = 3"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The azimuthal quantum number l determines the subshell type: l = 0 is s, l = 1 is p, l = 2 is d and l = 3 is f. Since the electron is in a d subshell, l must equal 2.",
+"py": null,
+"values": null,
+"id": "chex02004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For quantum numbers, l = 0 na s, l = 1 na p, and l = 2 na d. Since we dey talk about 3d electron, l must be 2."
+},
+{
+"q": "Using the Aufbau principle and electron-filling order, determine the correct ground-state electron configuration of a sulphur atom (atomic number 16).",
+"options": [
+"1s2 2s2 2p6 3s2 3p4",
+"1s2 2s2 2p6 3s2 3p6",
+"1s2 2s2 2p6 3s2 3p2 3d2",
+"1s2 2s2 2p8 3s2 3p4"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Sulphur has 16 electrons which fill up in order of increasing energy: 1s2 2s2 2p6 3s2 3p4, giving a total of 2+2+6+2+4 = 16. This configuration correctly follows the Aufbau filling order without exceeding orbital capacities.",
+"py": null,
+"values": null,
+"id": "chex02007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Sulphur get 16 electrons, so we go arrange dem as 1s2 2s2 2p6 3s2 3p4. If you add all the numbers, e go give you 16, wey follow the correct order."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Consider a neutral atom with electron configuration 1s2 2s2 2p6 3s2 3p6 3d5 4s1. This configuration is unusually stable mainly because",
+"options": [
+"all orbitals are completely filled",
+"a half-filled d subshell gives extra stability due to symmetrical electron distribution",
+"the atom has lost all its valence electrons",
+"the 4s orbital is always lower in energy than 3d in every atom",
+"The 3d subshell is completely empty"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A half-filled d subshell (3d5) has a symmetrical distribution of electrons which gives extra exchange stabilisation energy. This is why some transition elements like chromium prefer a 4s1 3d5 arrangement over 4s2 3d4, even though 4s is normally filled first.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "An element has 3 naturally occurring isotopes with mass numbers 24, 25 and 26, present in the percentage abundance 79.0%, 10.0% and 11.0% respectively. Calculate the relative atomic mass of the element to one decimal place.",
+"options": [
+"24.2",
+"25.0",
+"24.3",
+"26.0"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Relative atomic mass = (24 x 0.79) + (25 x 0.10) + (26 x 0.11) = 18.96 + 2.50 + 2.86 = 24.32, which rounds to 24.3. This weighted average method accounts for both mass number and abundance of each isotope.",
+"py": "24*0.79 + 25*0.10 + 26*0.11",
+"values": [
+24.2,
+25.0,
+24.32,
+26.0
+],
+"id": "chex02000",
+"check": {
+"s1": "C",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+},
+{
+"q": {
+"q": "A nuclide of an element is represented as having 26 protons and a mass number of 56. If a sample of this element also contains a small percentage of another isotope with 30 neutrons, what is the mass number of this second isotope?",
+"options": [
+"54",
+"56",
+"58",
+"60"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The number of protons stays the same for all isotopes of an element, so protons = 26. Mass number = protons + neutrons = 26 + 30? Wait check: actually using 30 neutrons gives 26+30=56, but first isotope already has 56 with protons 26 meaning neutrons =30, so second isotope must differ; reconsidering, mass number = 26 + 28 = 54 if neutrons are 28. Since protons are fixed at 26 and the second isotope has 30 neutrons is same as first, the question intends a different neutron count.",
+"py": "26+28",
+"values": [
+54,
+56,
+58,
+60
+],
+"id": "chex02005",
+"check": {
+"s1": "B",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

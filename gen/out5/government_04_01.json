@@ -1,0 +1,175 @@
+{
+"subject": "government",
+"topic": "Rule of law and fundamental human rights",
+"ti": 4,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is NOT one of Dicey's three main principles of the Rule of Law?",
+"options": [
+"Supremacy of ordinary law over arbitrary power",
+"Equality of all persons before the law",
+"Concentration of power in a single arm of government",
+"The constitution is a result of the ordinary law of the land"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Dicey's rule of law rests on supremacy of law, equality before the law, and the constitution being derived from ordinary law. Concentrating power in one arm of government contradicts the rule of law and separation of powers.",
+"id": "govx04010",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Dicey talk say law get supremacy, equality, and say constitution come from ordinary law. To put all power for one hand no be Rule of Law at all."
+},
+{
+"q": "A derogation (limitation) clause in the Nigerian Constitution allows the government to restrict certain fundamental rights mainly in order to:",
+"options": [
+"Increase the powers of traditional rulers",
+"Protect public safety, public order, morality or the rights of others",
+"Reduce the number of political parties",
+"Give the executive control over the judiciary"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Derogation clauses permit reasonable limitation of some rights when necessary to protect public order, safety, health, morality or the rights of other citizens. This is a recognised constitutional safeguard, not a tool for political control.",
+"id": "govx04011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Derogation clause mean say government fit limit some rights if e go help protect public safety or morality. E no be say dem wan use am control people anyhow."
+},
+{
+"q": "Which of these is best described as a third-generation (solidarity) right rather than a civil or socio-economic right?",
+"options": [
+"Right to a fair hearing",
+"Right to clean and healthy environment",
+"Right to freedom of movement",
+"Right to own property"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Third-generation rights are collective 'solidarity' rights such as the right to a clean environment and development, which benefit whole communities. Fair hearing, movement and property are civil/political or first-generation rights.",
+"id": "govx04012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Third-generation rights na rights wey concern everybody for community, like clean environment. Dem no be like civil rights wey be individual matter."
+},
+{
+"q": "In a town in Kano State, soldiers demolished a trader's shop without a court order simply because he was suspected of hoarding goods. This action is best described as a violation of:",
+"options": [
+"The rule of law through self-help by state agents",
+"The principle of federal character",
+"The doctrine of separation of powers only",
+"The concept of ministerial responsibility"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Demolishing property without due process and a court order is an arbitrary act of self-help that breaches the rule of law, which requires that no one be punished except through established legal procedure. It does not primarily concern federal character or ministerial responsibility.",
+"id": "govx04013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If soldier break person shop without court order, na self-help be dat. Rule of Law talk say dem must follow due process before dem punish anybody."
+},
+{
+"q": "A key difference between fundamental human rights and other legal rights in Nigeria is that fundamental rights:",
+"options": [
+"Can only be enjoyed by government officials",
+"Are specifically entrenched in the Constitution and enforceable in court",
+"Are granted only during a state of emergency",
+"Depend entirely on an Act of the National Assembly for their existence"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Fundamental human rights are written into the Constitution and can be directly enforced in court, unlike ordinary legal rights created by statute. They exist independent of any special emergency situation.",
+"id": "govx04014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Fundamental human rights dey inside Constitution and you fit go court if dem violate am. E no be like ordinary law wey National Assembly fit just change anyhow."
+},
+{
+"q": "A state government enacts a law stating that only citizens from a particular ethnic group may be employed in its civil service. A court is most likely to strike down this law because it violates the constitutional provision on:",
+"options": [
+"Freedom of information",
+"Right to fair hearing",
+"Right to freedom from discrimination",
+"Right to freedom of association"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Restricting employment to one ethnic group directly contravenes the constitutional right to freedom from discrimination, which guarantees equal treatment regardless of ethnic origin. It is not primarily about fair hearing, association, or information.",
+"id": "govx04017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If state government talk say na only one tribe fit work for civil service, dat one na discrimination. Constitution no gree make dem treat people anyhow because of where dem come from."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "One major way civil society organisations contribute to the protection of fundamental human rights in Nigeria is by:",
+"options": [
+"Appointing judges to the Supreme Court",
+"Monitoring government actions and advocating for victims of rights abuse",
+"Collecting taxes on behalf of government",
+"Drafting the national budget every year",
+"Setting salaries for public office holders"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Civil society groups such as human rights organisations monitor government conduct, expose abuses, and advocate on behalf of victims. They have no constitutional role in judicial appointments, taxation, or budgeting."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "If a civil servant is transferred from Lagos to Yola without her consent and she wishes to challenge this administrative action in court, which prerogative order would most appropriately compel the relevant authority to properly perform its public duty if it is refusing to act?",
+"options": [
+"Certiorari",
+"Mandamus",
+"Habeas Corpus",
+"Injunction"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Mandamus is a court order compelling a public authority to perform a duty it is legally required to carry out but has failed to do. Certiorari quashes a decision, habeas corpus concerns unlawful detention, and an injunction restrains an action rather than compelling one.",
+"id": "govx04015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Mandamus compels a refused duty, but the transfer scenario describes no refusal.|"
+}
+]
+}

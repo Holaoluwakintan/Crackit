@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "The birth and early life of Jesus; John the Baptist",
+"ti": 14,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "When Mary visited Elizabeth after the annunciation, what happened to the baby in Elizabeth's womb?",
+"options": [
+"He leaped for joy",
+"He became still and silent",
+"He cried out loudly",
+"He turned away"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Luke records that when Mary greeted Elizabeth, the baby (John) leaped in her womb for joy. This confirmed to Elizabeth that Mary carried the Lord.",
+"id": "crsx14000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "As Mary greet Elizabeth, the baby wey dey inside Elizabeth belle jump for joy. Dis one show Elizabeth say Mary carry the Lord."
+},
+{
+"q": "According to Luke's gospel, what did the angel tell the shepherds would be the sign by which they could identify the newborn Christ?",
+"options": [
+"A star standing still over the house",
+"A dove descending from heaven",
+"A babe wrapped in swaddling clothes lying in a manger",
+"A voice speaking from the clouds"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The angel told the shepherds they would find the babe wrapped in swaddling clothes and lying in a manger. This simple sign led them to Bethlehem to see Jesus.",
+"id": "crsx14001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The angel tell the shepherds say dem go see the baby wey dem wrap for cloth inside manger. Na dat sign dem use find Jesus for Bethlehem."
+},
+{
+"q": "After the angel's announcement, a multitude of the heavenly host appeared praising God. What was the content of their praise as recorded in Luke?",
+"options": [
+"Glory to God in the highest, and on earth peace, goodwill toward men",
+"Blessed is the King who comes in the name of the Lord",
+"Holy, holy, holy is the Lord of hosts",
+"Hosanna to the Son of David"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Luke records the heavenly host praising God with the words 'Glory to God in the highest, and on earth peace, goodwill toward men'. This is the well-known angelic chorus at Christ's birth.",
+"id": "crsx14002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The heavenly host praise God say make glory dey for God for highest, and peace dey for earth for people wey God like. Na dat song dem sing when Jesus born."
+},
+{
+"q": "Joseph initially planned to put Mary away privately on discovering she was pregnant before marriage. What changed his mind?",
+"options": [
+"Mary's parents pleaded with him",
+"An angel appeared to him in a dream and explained the pregnancy",
+"Elizabeth sent him a message",
+"The priests in the temple advised him"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Matthew records that an angel appeared to Joseph in a dream, telling him not to fear to take Mary as his wife because her child was of the Holy Spirit. This made Joseph change his mind and take her home.",
+"id": "crsx14003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Angel appear for Joseph for dream come tell am say make e no fear to marry Mary. E explain say the pikin na from Holy Spirit, so Joseph come change im mind."
+},
+{
+"q": "In Luke's account, after Jesus' birth his parents presented him in the temple at Jerusalem in obedience to the law of Moses. What was the main purpose of this presentation?",
+"options": [
+"To register him as a citizen",
+"To redeem him as the firstborn and offer the required sacrifice",
+"To have him circumcised for the first time",
+"To dedicate him permanently to temple service like Samuel"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The law required that every firstborn male be presented to the Lord and redeemed with a sacrifice, which Mary and Joseph fulfilled by offering a pair of turtledoves. This fulfilled the Mosaic requirement, not a dedication to lifelong temple service.",
+"id": "crsx14004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The law of Moses talk say make dem present every firstborn male for God and pay sacrifice. Mary and Joseph carry Jesus go temple to do wetin the law talk."
+},
+{
+"q": "Luke records that Jesus, at age twelve, stayed behind in the temple while his parents left Jerusalem. What was Jesus doing when his parents found him three days later?",
+"options": [
+"Selling merchandise in the temple court",
+"Sitting among the teachers, listening and asking questions",
+"Praying alone in a corner of the temple",
+"Sleeping in the temple courtyard"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When his parents found Jesus, he was sitting among the teachers in the temple, listening to them and asking questions, and all who heard him were astonished at his understanding. This showed his early spiritual wisdom.",
+"id": "crsx14005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When im parents find Jesus for temple, e dey sit down with the teachers. E dey listen to dem and dey ask dem question, and everybody surprise for im wisdom."
+},
+{
+"q": "John the Baptist's ministry in the wilderness of Judea fulfilled a prophecy about a voice crying in the wilderness. What was the central message of his preaching?",
+"options": [
+"The restoration of King David's throne",
+"Repent, for the kingdom of heaven is at hand",
+"The coming destruction of Jerusalem",
+"The need to rebuild the temple"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "John the Baptist's preaching centred on the call 'Repent, for the kingdom of heaven is at hand', preparing people for the coming Messiah. This fulfilled Isaiah's prophecy of a voice crying in the wilderness to prepare the way of the Lord.",
+"id": "crsx14006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "John the Baptist message na say make people repent because the kingdom of heaven don near. E dey prepare the way for the Messiah as Isaiah talk."
+},
+{
+"q": "When John the Baptist baptised Jesus in the River Jordan, what two things immediately followed, confirming Jesus' identity?",
+"options": [
+"An earthquake shook Jerusalem and the temple veil tore",
+"The heavens opened with the Spirit descending like a dove and a voice declaring him God's beloved Son",
+"Fire fell from heaven and consumed the riverbank",
+"A rainbow appeared and angels sang over the water"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At Jesus' baptism, the heavens opened, the Spirit of God descended like a dove upon him, and a voice from heaven declared, 'This is my beloved Son, in whom I am well pleased'. This event publicly confirmed Jesus' divine sonship at the start of his ministry.",
+"id": "crsx14007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When Jesus baptize, heaven open and the Spirit come down like dove. One voice from heaven come talk say Jesus na im beloved Son wey e like."
+}
+],
+"rejected": []
+}

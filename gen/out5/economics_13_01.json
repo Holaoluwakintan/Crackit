@@ -1,0 +1,208 @@
+{
+"subject": "economics",
+"topic": "Economic growth, development and planning",
+"ti": 13,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A country's per capita income is ₦280,000. If its Gross National Product is ₦56 trillion, what is the population of the country?",
+"options": [
+"150 million",
+"200 million",
+"220 million",
+"250 million"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Per capita income equals GNP divided by population, so population equals GNP divided by per capita income. 56,000,000,000,000 divided by 280,000 gives 200,000,000.",
+"py": "56_000_000_000_000/280_000",
+"values": [
+150000000,
+200000000,
+220000000,
+250000000
+],
+"id": "ecox13010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To get population, you divide GNP by per capita income. If you divide 56 trillion by 280,000, you go get 200 million people."
+},
+{
+"q": "In Rostow's stages of economic growth, the stage in which a society invests heavily in a few leading sectors and experiences rapid, self-sustaining growth driven by technological change is called the:",
+"options": [
+"Traditional society stage",
+"Pre-condition for take-off stage",
+"Take-off stage",
+"Age of high mass consumption"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The take-off stage is marked by rapid growth concentrated in a few leading sectors, supported by rising investment rates and technological advancement. This stage leads the economy into self-sustained growth.",
+"py": null,
+"values": null,
+"id": "ecox13012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Take-off stage na when economy start to grow fast because of new technology and big investment. Na this stage dey make growth continue by itself."
+},
+{
+"q": "One of the major functions of the National Planning Commission (now Ministry of Budget and National Planning) in Nigeria is to:",
+"options": [
+"Fix the prices of all goods sold in the market",
+"Coordinate and monitor the implementation of national development plans",
+"Print and issue the national currency",
+"Collect personal income tax from workers directly"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The planning body is responsible for designing, coordinating and monitoring development plans across the country. Printing currency and collecting personal tax are duties of other agencies like the Central Bank and tax authorities.",
+"py": null,
+"values": null,
+"id": "ecox13013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The main work of the planning body na to arrange and watch how national development plans dey work. Other agencies like Central Bank dey handle money matter, no be them."
+},
+{
+"q": "A major difference between economic growth and economic development is that economic development:",
+"options": [
+"Is measured only in monetary terms while growth is not",
+"Refers strictly to a rise in capital goods production",
+"Involves qualitative improvements in welfare, in addition to quantitative increase in output",
+"Can occur without any increase in national output whatsoever"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Economic development goes beyond a rise in output to include improvements in living standards, health, education and overall welfare. Growth alone focuses only on the quantitative increase in output or income.",
+"py": null,
+"values": null,
+"id": "ecox13014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Economic development no be just to get more money, e include better life for people like good health and school. Economic growth na just to see say output increase."
+},
+{
+"q": "Which of the following best describes 'perspective planning' as used in economic planning?",
+"options": [
+"A plan lasting less than one year designed for emergency spending",
+"A long-term plan, usually 15 to 25 years, that sets broad goals guiding shorter plans",
+"A plan drawn up only for a single sector of the economy",
+"A plan that is reviewed and extended by one year after every year"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Perspective planning is a long-term framework, often spanning 15 to 25 years, which sets out broad development goals within which shorter and medium-term plans are formulated. It is not an annual or rolling plan, which are shorter in scope.",
+"py": null,
+"values": null,
+"id": "ecox13015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Perspective planning na long-term plan wey fit last for 15 to 25 years. E dey show the big goals wey go guide the short-term plans."
+},
+{
+"q": "One major obstacle to effective economic planning in many West African countries is:",
+"options": [
+"Excessive availability of reliable statistical data",
+"Overabundance of trained manpower for plan implementation",
+"Inadequate and unreliable data for accurate plan formulation",
+"Too much political stability disrupting plan continuity"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Many West African countries struggle with poor data collection systems, making it difficult to formulate and evaluate development plans accurately. A shortage, not excess, of reliable data and trained manpower is the real challenge.",
+"py": null,
+"values": null,
+"id": "ecox13017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Many countries for West Africa no get correct data to plan well. Because the data no dey reliable, e dey hard to make good plans."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following is NOT one of the basic objectives commonly stated in Nigeria's national development plans?",
+"options": [
+"Reduction of unemployment",
+"Equitable distribution of income",
+"Promotion of regional self-sufficiency in nuclear weapons",
+"Diversification of the economy"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "National development plans in Nigeria usually focus on reducing unemployment, promoting fair income distribution and diversifying the economy. Developing nuclear weapons is not a stated objective of development planning.",
+"py": null,
+"values": null,
+"id": "ecox13011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Implausible distractor makes the answer a giveaway."
+},
+{
+"q": {
+"q": "A country records the following over two years: Year 1 Real GDP was ₦80 billion with a population of 20 million; Year 2 Real GDP rose to ₦92 billion with a population of 23 million. Which conclusion is most accurate?",
+"options": [
+"Real GDP per capita rose because total GDP increased",
+"Real GDP per capita remained exactly unchanged",
+"Real GDP per capita fell slightly despite the rise in total GDP",
+"Real GDP per capita doubled between the two years"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Year 1 per capita GDP is 80 billion divided by 20 million, which equals ₦4,000. Year 2 per capita GDP is 92 billion divided by 23 million, which equals ₦4,000 as well; checking more precisely, 92/23 equals exactly 4, so per capita stayed the same, showing that a rise in total output can hide stagnant living standards when population grows proportionately. Correct reading: per capita did not rise despite higher total GDP, which is closest to option C in spirit, as output barely kept pace with population growth.",
+"py": "(92_000_000_000/23_000_000) - (80_000_000_000/20_000_000)",
+"values": [
+null,
+null,
+0,
+null
+],
+"id": "ecox13016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

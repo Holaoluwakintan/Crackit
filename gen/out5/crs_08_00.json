@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "Division of the kingdom: Rehoboam and Jeroboam",
+"ti": 8,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which prophet originally told Jeroboam that he would be given rule over ten tribes of Israel, tearing a new garment into twelve pieces to illustrate the message?",
+"options": [
+"Ahijah the Shilonite",
+"Nathan the prophet",
+"Shemaiah the prophet",
+"Iddo the seer"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Ahijah met Jeroboam on the road and tore his garment into twelve pieces, giving him ten to show he would rule ten tribes. This fulfilled God's judgement on Solomon's house for idolatry.",
+"id": "crsx08000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na Ahijah meet Jeroboam for road come tear im cloth into twelve pieces. E give Jeroboam ten pieces to show say God don choose am to rule ten tribes of Israel."
+},
+{
+"q": "Why did King Solomon seek to kill Jeroboam before Solomon's death, forcing Jeroboam to flee to Egypt?",
+"options": [
+"Jeroboam had refused to pay tribute to Solomon",
+"Jeroboam had been told he would become king over part of Israel",
+"Jeroboam had led a tax revolt in Jerusalem",
+"Jeroboam had married a foreign princess against Solomon's wish"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "After Ahijah's prophecy became known, Solomon sought to kill Jeroboam to protect his throne, so Jeroboam escaped to Egypt until Solomon died. He only returned when Israel called him to challenge Rehoboam.",
+"id": "crsx08001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When Solomon hear say Jeroboam go be king, e wan kill am. Jeroboam come run go Egypt hide until Solomon die."
+},
+{
+"q": "What was the main reason the elders advised Rehoboam to speak kindly and lighten the people's burden?",
+"options": [
+"To please the prophet Ahijah",
+"To win the people's loyal service forever",
+"To prevent Egypt from attacking Judah",
+"To secure more tribute from foreign nations"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The old men who had served Solomon advised Rehoboam that if he spoke kindly to the people and served them, they would be his servants forever. He rejected this wise counsel for the harsh advice of the younger men.",
+"id": "crsx08002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The old men tell Rehoboam say if e treat the people well, dem go serve am forever. But Rehoboam no listen to dem wise talk."
+},
+{
+"q": "What immediate consequence followed when Rehoboam announced he would make the people's yoke heavier than his father's?",
+"options": [
+"The people immediately crowned him king over all Israel",
+"The ten northern tribes rebelled and rejected the house of David",
+"Judah and Israel went to war the same day",
+"The elders resigned from his council in protest"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "On hearing Rehoboam's harsh response, the people of Israel cried out that they had no portion in David, and the ten tribes withdrew their allegiance. This led directly to the division of the kingdom.",
+"id": "crsx08003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When the people hear say Rehoboam go make their work harder, dem reject am. The ten tribes come comot from the house of David immediately."
+},
+{
+"q": "Jeroboam feared that if the people continued going to Jerusalem to worship, their hearts would turn back to Rehoboam. What underlying lesson about leadership does this reveal?",
+"options": [
+"True worship always strengthens political unity",
+"Insecurity can lead a leader to introduce false worship to protect his power",
+"Jerusalem's temple was no longer a valid place of worship",
+"Jeroboam genuinely desired to reform Israelite worship"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Jeroboam's fear of losing political control, not religious conviction, drove him to set up alternative shrines at Bethel and Dan. This shows how personal insecurity can corrupt a leader's judgement and lead a nation into sin.",
+"id": "crsx08004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Jeroboam fear say if the people go Jerusalem, dem go leave am. So e create fake worship for Bethel and Dan just to keep im power."
+},
+{
+"q": "Besides setting up golden calves, what other religious change did Jeroboam make that further departed from the law of Moses?",
+"options": [
+"He appointed priests who were not from the tribe of Levi",
+"He abolished the Sabbath observance completely",
+"He built a new temple larger than Solomon's",
+"He introduced circumcision on the eighth day only"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Jeroboam appointed priests from among all the people instead of restricting the priesthood to the Levites as the law required. This was part of his broader scheme to create an independent religious system separate from Jerusalem.",
+"id": "crsx08005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Jeroboam pick priests from any tribe instead of the Levites wey God choose. E do this one to make sure say im own religion different from the one for Jerusalem."
+},
+{
+"q": "What theological lesson is best illustrated by the split of Solomon's kingdom into Judah and Israel under Rehoboam and Jeroboam?",
+"options": [
+"Disobedience to God's commands can bring lasting national consequences",
+"Military strength always determines who becomes king",
+"Foreign alliances guarantee a stable kingdom",
+"Wealth automatically secures a leader's popularity"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The division was a direct consequence of Solomon's idolatry and Rehoboam's foolish harshness, showing that disobedience brings serious national judgement. The kingdom never reunited, demonstrating the lasting effect of such failures.",
+"id": "crsx08006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The way the kingdom divide show say disobedience to God get serious consequence. Solomon and Rehoboam actions cause problem wey no ever end."
+},
+{
+"q": "How did Jeroboam change the timing of the religious feast that was normally kept in the seventh month, moving it to the eighth month instead?",
+"options": [
+"He cancelled the feast entirely for all Israel",
+"He devised it in his own heart to keep Israel from going to Jerusalem",
+"He moved it to honour a victory over Judah",
+"He shifted it to align with the Egyptian calendar"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Jeroboam invented a feast in the eighth month, similar to the one in Judah, purely from his own heart to keep the northern tribes from travelling to Jerusalem to worship. This was another step in establishing rival worship centres.",
+"id": "crsx08007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Jeroboam just create im own feast for the eighth month from im own head. E do am so that the people no go get reason to travel go Jerusalem for worship."
+}
+],
+"rejected": []
+}

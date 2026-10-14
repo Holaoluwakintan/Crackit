@@ -1,0 +1,212 @@
+{
+"subject": "chemistry",
+"topic": "Nuclear chemistry and radioactivity",
+"ti": 19,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following statements correctly distinguishes nuclear fission from nuclear fusion?",
+"options": [
+"Fission involves splitting a heavy nucleus into lighter nuclei, while fusion involves combining light nuclei into a heavier one",
+"Fission occurs only in the sun, while fusion occurs only in nuclear reactors",
+"Fission releases no energy, while fusion releases large amounts of energy",
+"Fission combines two light nuclei, while fusion splits a heavy nucleus"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Nuclear fission is the splitting of a heavy, unstable nucleus into two or more lighter nuclei with release of energy. Nuclear fusion is the combination of two light nuclei to form a heavier nucleus, also releasing energy. This is the correct distinction.",
+"py": null,
+"values": null,
+"id": "chex19000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Nuclear fission na when heavy nucleus break into small ones. Fusion na when two small nuclei join together to form one heavy one, and both dey release energy."
+},
+{
+"q": "A sample of a radioactive element has an initial activity of 800 counts per minute. After some time, the activity drops to 100 counts per minute. If the half-life of the element is 4 hours, how many hours have elapsed?",
+"options": [
+"8 hours",
+"12 hours",
+"16 hours",
+"20 hours"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "800 to 100 is a reduction by a factor of 8, which is 2^3, meaning 3 half-lives have passed. Since one half-life is 4 hours, 3 half-lives equal 3 x 4 = 12 hours.",
+"py": "3*4",
+"values": [
+8,
+12,
+16,
+20
+],
+"id": "chex19001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If activity drop from 800 to 100, e mean say e don reduce by 8 times, which be 2 power 3. Since 3 half-lives don pass and one half-life na 4 hours, total time na 12 hours."
+},
+{
+"q": "In the nuclear equation: 94Pu-239 + 0n-1 -> 95Am-240 + X, what particle does X represent?",
+"options": [
+"An alpha particle",
+"A beta particle",
+"A gamma ray",
+"A neutron"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Balancing mass numbers: 239 + 1 = 240 + mass of X, so mass of X is 0. Balancing atomic numbers: 94 + 0 = 95 + charge of X, so charge of X is -1, which matches a beta particle (0 charge... wait, beta has charge -1 and mass 0).",
+"py": null,
+"values": null,
+"id": "chex19002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you balance the mass number, you go get 0. If you balance the atomic number, you go get -1. Na beta particle get 0 mass and -1 charge."
+},
+{
+"q": "Which of the following best explains why nuclear reactions release far more energy than ordinary chemical reactions involving the same mass of material?",
+"options": [
+"Nuclear reactions involve rearrangement of electrons in the outer shell",
+"Nuclear reactions convert a measurable amount of mass directly into energy according to Einstein's equation",
+"Nuclear reactions always occur at much higher temperatures than chemical reactions",
+"Nuclear reactions require a catalyst while chemical reactions do not"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In nuclear reactions, a small amount of mass is converted directly into a large amount of energy, as described by Einstein's equation E = mc^2. Chemical reactions only involve electron rearrangement, which releases far less energy per unit mass.",
+"py": null,
+"values": null,
+"id": "chex19003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Nuclear reaction dey convert small mass to plenty energy using Einstein equation E = mc^2. Chemical reaction only dey move electrons around, so e no fit give that kain energy."
+},
+{
+"q": "A radioactive nuclide has a decay constant of 0.0231 per year. Calculate the half-life of the nuclide, in years. (Take ln 2 = 0.693)",
+"options": [
+"15 years",
+"20 years",
+"25 years",
+"30 years"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Half-life is calculated using the formula t(1/2) = ln2 / decay constant. Substituting values gives 0.693 / 0.0231 = 30 years.",
+"py": "0.693/0.0231",
+"values": [
+15,
+20,
+25,
+30
+],
+"id": "chex19004",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To find half-life, you divide 0.693 by the decay constant. If you divide 0.693 by 0.0231, you go get 30 years."
+},
+{
+"q": "A certain radioisotope used in carbon dating has a half-life of 5730 years. A wooden artifact found in an archaeological site in Benin shows that only 1/8 of the original Carbon-14 remains. What is the approximate age of the artifact?",
+"options": [
+"5730 years",
+"11460 years",
+"17190 years",
+"22920 years"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A remaining fraction of 1/8 equals (1/2)^3, meaning 3 half-lives have passed. The age is therefore 3 x 5730 = 17190 years.",
+"py": "3*5730",
+"values": [
+5730,
+11460,
+17190,
+22920
+],
+"id": "chex19005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If 1/8 of the carbon remain, e mean say 3 half-lives don pass. You just multiply 3 by 5730 years to get 17190 years."
+},
+{
+"q": "Which property is common to alpha particles, beta particles, and gamma rays emitted during radioactive decay?",
+"options": [
+"They all have the same mass",
+"They all carry the same electric charge",
+"They can all ionize matter and affect a photographic plate",
+"They all have the same penetrating power"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Although alpha, beta, and gamma radiations differ in mass, charge, and penetrating power, they share the common properties of being able to ionize matter and darken a photographic plate. This is why photographic film is used to detect radioactivity.",
+"py": null,
+"values": null,
+"id": "chex19006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Even though alpha, beta, and gamma get different power, all of them fit ionize matter. Dem all dey affect photographic plate too."
+},
+{
+"q": "A scientist is designing a device to generate electricity from the heat released by controlled splitting of heavy uranium nuclei in a power station. Which term correctly describes the type of nuclear process being harnessed, and what is the main hazard associated with its waste products?",
+"options": [
+"Fusion; the waste produces excess oxygen gas",
+"Fission; the waste remains radioactive and harmful for a long time",
+"Fission; the waste is completely harmless immediately after use",
+"Fusion; the waste quickly turns into stable, non radioactive lead"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Splitting heavy uranium nuclei to release energy is nuclear fission, as used in nuclear power stations. The main hazard of fission is that the waste products remain radioactive for long periods, requiring careful storage and disposal.",
+"py": null,
+"values": null,
+"id": "chex19007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Splitting uranium na nuclear fission. The waste wey come out from there dey radioactive for long time, so e dangerous for human being."
+}
+],
+"rejected": []
+}

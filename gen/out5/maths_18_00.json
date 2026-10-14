@@ -1,0 +1,241 @@
+{
+"subject": "maths",
+"topic": "Coordinate geometry: gradient, distance, midpoint, equation of a line",
+"ti": 18,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Find the equation of the line passing through the points (2, 5) and (4, 11).",
+"options": [
+"y = 3x - 1",
+"y = 3x + 1",
+"y = 2x + 1",
+"y = -3x + 11"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Gradient = (11-5)/(4-2) = 3. Using y - 5 = 3(x - 2) gives y = 3x - 1.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx18001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find the gradient, we do (11-5)/(4-2) wey give us 3. When we use point (2, 5) inside the equation y - 5 = 3(x - 2), we go get y = 3x - 1."
+},
+{
+"q": "A line L has equation 2x + 5y = 20. Find the gradient of any line parallel to L.",
+"options": [
+"2/5",
+"-2/5",
+"5/2",
+"-5/2"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Rewriting 2x + 5y = 20 as y = -2/5 x + 4 shows the gradient is -2/5. A parallel line has the same gradient.",
+"py": "-2/5",
+"values": [
+0.4,
+-0.4,
+2.5,
+-2.5
+],
+"id": "matx18002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If we rearrange 2x + 5y = 20 to look like y = -2/5 x + 4, we go see say the gradient na -2/5. Dem parallel lines must get the exact same gradient."
+},
+{
+"q": "Find the equation of the perpendicular bisector of the line segment joining P(2, 1) and Q(6, 5).",
+"options": [
+"y = -x + 7",
+"y = x + 2",
+"y = -x + 3",
+"y = x - 1"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Midpoint of PQ is (4,3) and gradient of PQ is (5-1)/(6-2)=1, so perpendicular gradient is -1. Using point (4,3): y - 3 = -1(x - 4) gives y = -x + 7.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx18004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Midpoint of PQ na (4, 3) and gradient na 1, so the perpendicular gradient na -1. If we put am inside point-slope form with (4, 3), e go give us y = -x + 7."
+},
+{
+"q": "A triangle has vertices A(0, 0), B(4, 0), and C(4, 3). Find the angle which line AC makes with the positive x-axis, to the nearest degree.",
+"options": [
+"37°",
+"53°",
+"45°",
+"30°"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Gradient of AC = (3-0)/(4-0) = 3/4, so the angle = arctan(3/4) which is about 37 degrees. This is the base angle of the right triangle formed.",
+"py": "math.degrees(math.atan(3/4))",
+"values": [
+36.87,
+53.13,
+45,
+30
+],
+"id": "matx18006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Gradient of line AC na (3-0)/(4-0) wey be 3/4. When you find arctan(3/4), e go give you approximately 37 degrees."
+},
+{
+"q": "Three points X(1, 2), Y(4, k), and Z(7, 14) lie on a straight line. Find the value of k.",
+"options": [
+"6",
+"7",
+"8",
+"9"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Since the points are collinear, the gradient between X and Y equals the gradient between Y and Z. Using gradient XZ = (14-2)/(7-1) = 2, then k = 2 + 2(4-1) = 8.",
+"py": "2 + 2*(4-1)",
+"values": [
+6,
+7,
+8,
+9
+],
+"id": "matx18007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Because the points dey straight line, the gradient from X to Y must equal the gradient from X to Z. If we solve am, we go get k = 8."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A surveyor marks two points on a plot of land at A(3, -2) and B(7, 6). Find the length AB.",
+"options": [
+"4sqrt(5)",
+"2sqrt(13)",
+"8",
+"sqrt(80)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Distance = sqrt((7-3)^2 + (6-(-2))^2) = sqrt(16+64) = sqrt(80) = 4sqrt(5). Note sqrt(80) also appears but is not simplified like the correct option.",
+"py": "math.sqrt((7-3)**2 + (6-(-2))**2)",
+"values": [
+8.94427,
+7.2111,
+8,
+8.94427
+],
+"id": "matx18000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:A and D are equivalent.|"
+},
+{
+"q": {
+"q": "Chidinma walks from her house at point (-3, 2) to a market at point (1, 2), then continues to a church at point (1, -3). Find the perimeter of the triangle formed by joining her house, the market, and the church directly back home.",
+"options": [
+"9 + sqrt(41)",
+"4 + 5 + sqrt(41)",
+"12 + sqrt(41)",
+"9 + 6"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "House to market = 4, market to church = 5, and church back to house = sqrt((1-(-3))^2+(-3-2)^2) = sqrt(16+25) = sqrt(41). Sum gives the perimeter as 4 + 5 + sqrt(41).",
+"py": "4 + 5 + math.sqrt((1-(-3))**2 + (-3-2)**2)",
+"values": [
+null,
+15.4031,
+null,
+null
+],
+"id": "matx18003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "The line 3x - ky = 9 passes through the point (5, 2). Find the value of k.",
+"options": [
+"2",
+"3",
+"4",
+"6"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Substitute x=5, y=2 into 3x - ky = 9: 15 - 2k = 9, so 2k = 6, giving k = 3. Checking carefully, 15 - 2k = 9 leads to k = 3, so the correct value is 3.",
+"py": "(3*5-9)/2",
+"values": [
+2,
+3,
+4,
+6
+],
+"id": "matx18005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

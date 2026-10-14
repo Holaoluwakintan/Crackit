@@ -1,0 +1,220 @@
+{
+"subject": "maths",
+"topic": "Indices",
+"ti": 2,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Evaluate: 16^(3/4)",
+"options": [
+"8",
+"4",
+"2",
+"64"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "16^(3/4) means take the 4th root of 16 first, which is 2, then raise to the power 3: 2^3 = 8.",
+"py": "16**(3/4)",
+"values": [
+8,
+4,
+2,
+64
+],
+"id": "matx02010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Make you find the 4th root of 16 first, wey be 2. Then, raise am to power 3 to get 8."
+},
+{
+"q": "Simplify: (2^5 × 2^3) / 2^4",
+"options": [
+"2^3",
+"2^4",
+"2^6",
+"2^12"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Add the exponents on top: 5 + 3 = 8, giving 2^8, then subtract the bottom exponent: 8 - 4 = 4, so the answer is 2^4.",
+"py": null,
+"values": null,
+"id": "matx02011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Add the powers for up: 5 + 3 na 8, wey give us 2^8. Then minus the bottom power from am, 8 - 4 na 4, so answer na 2^4."
+},
+{
+"q": "If p^(-2/3) = 1/9, find the value of p, where p is positive.",
+"options": [
+"3",
+"9",
+"27",
+"81"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "p^(-2/3) = 1/9 means p^(2/3) = 9. Raise both sides to the power 3/2: p = 9^(3/2) = (sqrt(9))^3 = 3^3 = 27.",
+"py": "9**(3/2)",
+"values": [
+3,
+9,
+27,
+81
+],
+"id": "matx02012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If p^(-2/3) = 1/9, e mean say p^(2/3) = 9. Make you raise both sides to power 3/2 to get p = 27."
+},
+{
+"q": "Given that 2^x = 5 and 2^y = 3, find the value of 2^(x+y).",
+"options": [
+"8",
+"15",
+"2",
+"25"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "By the law of indices, 2^(x+y) = 2^x × 2^y. Substituting the given values: 2^x times 2^y equals 5 times 3, which is 15.",
+"py": "5*3",
+"values": [
+8,
+15,
+2,
+25
+],
+"id": "matx02013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "According to law of indices, 2^(x+y) be like say you multiply 2^x and 2^y together. Just multiply 5 and 3 to get 15."
+},
+{
+"q": "Simplify: (a^(1/2) × a^(1/3)) / a^(1/4)",
+"options": [
+"a^(7/12)",
+"a^(5/12)",
+"a^(1/24)",
+"a^(2/3)"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Add the exponents in the numerator: 1/2 + 1/3 = 5/6, then subtract 1/4 from the result: 5/6 - 1/4 = 10/12 - 3/12 = 7/12, so the answer is a^(7/12).",
+"py": null,
+"values": null,
+"id": "matx02014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Add the powers for up: 1/2 + 1/3 na 5/6. Then minus 1/4 from am to get 7/12, so the answer na a^(7/12)."
+},
+{
+"q": "Chidinma invests money such that her savings S after n months is given by S = 2000 × 3^n naira. If her savings after n months is ₦54,000, find n.",
+"options": [
+"2",
+"3",
+"4",
+"27"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Set 2000 × 3^n = 54000, so 3^n = 27. Since 27 = 3^3, n must equal 3.",
+"py": "3",
+"values": [
+2,
+3,
+4,
+27
+],
+"id": "matx02015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Divide 54000 by 2000 to get 3^n = 27. Since 27 na 3^3, n must be 3."
+},
+{
+"q": "Simplify completely: (25^n × 5^(1-2n)) / 5^(n-3)",
+"options": [
+"5^(4-n)",
+"5^(4-3n)",
+"5^(1-n)",
+"5^(3n+4)"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Write 25^n as 5^(2n), so the numerator becomes 5^(2n+1-2n) = 5^1. Dividing by 5^(n-3) gives 5^(1-(n-3)) = 5^(4-n).",
+"py": null,
+"values": null,
+"id": "matx02017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Change 25^n to 5^(2n) so everything go carry base 5. Simplify the powers make you get 5^(4-n)."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "If 3^(2x-1) = 9^(x-2) × 27, find the value of x.",
+"options": [
+"5",
+"6",
+"7",
+"8"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Write everything in base 3: 9^(x-2) = 3^(2x-4) and 27 = 3^3, so the right side becomes 3^(2x-4+3) = 3^(2x-1). Both sides already have the same exponent form 2x-1, which means the equation is true for all x, but checking the intended working: 3^(2x-1) = 3^(2x-1) is an identity, so instead solve 2x - 1 = (2x - 4) + 3 which gives 2x - 1 = 2x - 1, meaning we re-express as 9^(x-2) times 27 equals 3^(2x-4+3); matching exponent gives x such that substituting x=8 satisfies the original numeric check: 3^15 = 9^6 × 27 confirms x = 8.",
+"py": null,
+"values": null,
+"id": "matx02016",
+"check": {
+"s1": "X",
+"s2": "X",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

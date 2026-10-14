@@ -1,0 +1,202 @@
+{
+"subject": "economics",
+"topic": "Money: functions, demand for money, inflation and deflation",
+"ti": 10,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is NOT one of the standard functions of money as taught in economics?",
+"options": [
+"A medium of exchange",
+"A store of value",
+"A unit of account",
+"A generator of economic growth"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Money functions as a medium of exchange, a store of value, a unit of account and a standard for deferred payment. Generating economic growth is not a direct function of money itself.",
+"py": null,
+"values": null,
+"id": "ecox10000",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Money dey serve as medium of exchange, store of value, and unit of account. But to generate economic growth no be direct function of money itself."
+},
+{
+"q": "A trader prefers to hold cash to take advantage of an expected fall in bond prices so she can buy bonds cheaply later. This illustrates the demand for money for the",
+"options": [
+"transactions motive",
+"precautionary motive",
+"speculative motive",
+"unit of account motive"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Holding money to take advantage of expected future changes in asset prices, such as bond prices or interest rates, is the speculative motive in Keynesian liquidity preference theory. Transactions and precautionary motives relate to everyday spending and emergencies, not speculation.",
+"py": null,
+"values": null,
+"id": "ecox10001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When person hold money sake of say e wan wait make bond price fall so e go fit buy am cheap, na speculative motive be dat. Na Keynesian theory explain say dis one dey different from daily spending or emergency money."
+},
+{
+"q": "Which of the following best describes the precautionary demand for money?",
+"options": [
+"Money held to pay for daily purchases like food and transport",
+"Money held to meet unforeseen expenses such as sudden hospital bills",
+"Money held to profit from expected changes in interest rates",
+"Money held purely as a measure of the value of goods"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The precautionary motive refers to holding money to cover unexpected or emergency expenses. The transactions motive covers planned daily spending, while the speculative motive relates to taking advantage of interest rate or bond price changes.",
+"py": null,
+"values": null,
+"id": "ecox10002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Precautionary motive na when you keep money for emergency wey you no plan for, like sudden sickness. E no be for daily chop or to take gamble for interest rate."
+},
+{
+"q": "A country experiences a continuous rise in the general price level mainly because government spends heavily on infrastructure using newly created money without a matching rise in output. This situation best illustrates",
+"options": [
+"cost-push inflation",
+"demand-pull inflation",
+"imported inflation",
+"structural inflation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When aggregate spending, fueled by excess money creation, rises faster than the economy's output, prices are pulled upward by demand. This is demand-pull inflation, unlike cost-push inflation which arises from rising production costs.",
+"py": null,
+"values": null,
+"id": "ecox10003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If government print too much money and spend am pass wetin the country fit produce, demand go high pass supply. Dis one na demand-pull inflation because the demand dey pull price go up."
+},
+{
+"q": "During a prolonged deflation in an economy, which of the following outcomes is most likely?",
+"options": [
+"Rising business profits as prices increase faster than costs",
+"Consumers delaying purchases in expectation of further price falls",
+"Falling real value of fixed savings held in cash",
+"Erosion of the purchasing power of wages"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Deflation means prices keep falling, so consumers often postpone buying goods hoping prices will drop further, which worsens the economic slowdown. Cash savings actually gain real value and wages gain purchasing power during deflation, so those outcomes are wrong.",
+"py": null,
+"values": null,
+"id": "ecox10004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If price dey fall every time, people go wait make e fall more before dem buy anything. Dis one dey make business slow down because nobody wan spend money quick."
+},
+{
+"q": "Which of the following is a major cause of cost-push inflation in a developing economy like Nigeria?",
+"options": [
+"A sharp rise in consumer demand for locally made goods",
+"An increase in government subsidies on fuel",
+"A sudden rise in the price of imported raw materials used by local manufacturers",
+"A reduction in the cash reserve ratio by the central bank"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Cost-push inflation arises when production costs rise, forcing firms to increase prices. A rise in the cost of imported raw materials directly raises production costs and pushes prices upward, unlike changes in demand or monetary policy which cause demand-pull effects.",
+"py": null,
+"values": null,
+"id": "ecox10006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Cost-push inflation dey happen when the cost to produce goods come high. If raw materials wey dem dey import come cost, company go increase price of goods to cover the cost."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In an economy, the money supply is ₦80,000,000 and the velocity of circulation is 6. If the average price level is ₦4, using the equation of exchange MV = PT, what is the volume of transactions (T)?",
+"options": [
+"20,000,000",
+"120,000,000",
+"480,000,000",
+"13,333,333"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Using MV = PT, T = MV/P = (80,000,000 x 6) / 4 = 480,000,000 / 4 = 120,000,000. Wait, correctly computing gives T = 120,000,000, so the volume of transactions equals that value.",
+"py": "(80000000*6)/4",
+"values": [
+20000000,
+120000000,
+480000000,
+13333333
+],
+"id": "ecox10005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A central bank wants to reduce the amount of money people choose to hold for transactions purposes without changing the money supply. Based on the theory of demand for money, which policy action would most directly achieve this?",
+"options": [
+"Printing more currency notes",
+"Reducing the frequency of income payments to workers",
+"Raising the general interest rate on savings and short-term deposits",
+"Increasing government expenditure on capital projects"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Raising interest rates increases the opportunity cost of holding idle cash, encouraging people to hold less money for transactions and more in interest-yielding assets. Printing money or increasing government spending affects the money supply or output, not the demand for money directly.",
+"py": null,
+"values": null,
+"id": "ecox10007",
+"check": {
+"s1": "C",
+"s2": "X",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:X"
+}
+]
+}

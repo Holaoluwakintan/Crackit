@@ -1,0 +1,214 @@
+{
+"subject": "economics",
+"topic": "Financial institutions: Central Bank of Nigeria, commercial banks, capital and money markets",
+"ti": 11,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A commercial bank in Lagos has total deposits of ₦20,000,000 and the Central Bank of Nigeria fixes the required reserve ratio at 25%. What is the maximum amount the bank can give out as loans?",
+"options": [
+"₦5,000,000",
+"₦10,000,000",
+"₦15,000,000",
+"₦20,000,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Required reserve is 25% of 20,000,000 = 5,000,000. The bank must keep this as reserve, so it can lend out the balance of 15,000,000.",
+"py": "20000000 - 0.25*20000000",
+"values": [
+5000000,
+10000000,
+15000000,
+20000000
+],
+"id": "ecox11000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you calculate 25% of 20,000,000, you go get 5,000,000 as reserve. The bank must keep that one, so dem fit lend out the remaining 15,000,000."
+},
+{
+"q": "Which of the following is a function of the Central Bank of Nigeria but NOT a function of commercial banks?",
+"options": [
+"Accepting deposits from customers",
+"Issuing legal tender currency",
+"Granting loans and overdrafts",
+"Providing safe custody for valuables"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Only the Central Bank has the sole right to print and issue the national currency. Commercial banks accept deposits, grant loans and keep valuables safe for customers.",
+"py": null,
+"values": null,
+"id": "ecox11001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na only Central Bank get power to print and issue money for Nigeria. Commercial banks dey only collect deposit and give loan to people."
+},
+{
+"q": "In the Nigerian financial system, which of the following best distinguishes the capital market from the money market?",
+"options": [
+"The capital market deals in instruments of less than one year, while the money market deals in long-term instruments",
+"The capital market deals in long-term instruments like shares and debentures, while the money market deals in short-term instruments",
+"The capital market is regulated by the Central Bank while the money market is unregulated",
+"The capital market only operates in Lagos while the money market operates nationwide"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The capital market trades long-term financial instruments such as shares, bonds and debentures with maturities of more than one year. The money market, on the other hand, deals in short-term instruments like treasury bills and commercial papers.",
+"py": null,
+"values": null,
+"id": "ecox11004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Capital market dey handle long-term things like shares wey go last pass one year. Money market na for short-term things like treasury bills."
+},
+{
+"q": "Which of the following best explains why the Central Bank of Nigeria is described as the 'banker's bank'?",
+"options": [
+"It prints currency notes for use by commercial banks",
+"It keeps the accounts of commercial banks and lends to them in times of need",
+"It accepts deposits directly from the general public",
+"It sets the prices of goods sold by commercial banks"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Central Bank is called the banker's bank because commercial banks keep their reserves with it and can borrow from it when they are short of funds. It does not deal directly with the general public the way commercial banks do.",
+"py": null,
+"values": null,
+"id": "ecox11006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Dem dey call Central Bank banker's bank because commercial banks dey keep their money there. If commercial banks need help, na Central Bank dem dey run go meet."
+},
+{
+"q": "A company wishes to raise long-term capital by selling new shares directly to the investing public for the first time. Which capital market institution would it primarily make use of?",
+"options": [
+"The discount house",
+"The primary market",
+"The secondary market",
+"The money market"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "New securities are sold for the first time in the primary market, where companies raise fresh long-term capital directly from investors. The secondary market only allows trading of already-issued securities among investors.",
+"py": null,
+"values": null,
+"id": "ecox11007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If company wan sell new shares for the first time, na primary market dem dey go. Secondary market na only for shares wey people don already buy before."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A treasury bill of ₦500,000 is purchased by an investor at a discount rate of 8% per annum for a period of one year. How much will the investor pay for the treasury bill?",
+"options": [
+"₦440,000",
+"₦460,000",
+"₦480,000",
+"₦492,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The discount amount is 8% of 500,000, which is 40,000. The purchase price is therefore 500,000 minus 40,000, giving 460,000. Wait, this equals option B.",
+"py": "500000 - 0.08*500000",
+"values": [
+440000,
+460000,
+480000,
+492000
+],
+"id": "ecox11002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "The body charged with the day-to-day supervision of the Nigerian Stock Exchange (now Nigerian Exchange Group), including listing requirements and trading practices, is the",
+"options": [
+"Central Bank of Nigeria",
+"Nigerian Deposit Insurance Corporation",
+"Securities and Exchange Commission",
+"Federal Ministry of Finance"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Securities and Exchange Commission is the apex regulatory body for the Nigerian capital market and oversees the operations of the stock exchange. The Central Bank regulates banks, not the stock exchange directly.",
+"py": null,
+"values": null,
+"id": "ecox11003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:SEC regulates the exchange, but does not conduct its day-to-day supervision.|"
+},
+{
+"q": {
+"q": "A commercial bank keeps ₦3,000,000 as cash reserve out of total deposits of ₦25,000,000. If the Central Bank directs that the cash reserve ratio be raised to 16%, by how much must the bank increase its reserve to comply?",
+"options": [
+"₦500,000",
+"₦1,000,000",
+"₦1,500,000",
+"₦2,000,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At 16%, the required reserve is 16% of 25,000,000 = 4,000,000. The bank already holds 3,000,000, so it must add 4,000,000 minus 3,000,000, which equals 1,000,000.",
+"py": "0.16*25000000 - 3000000",
+"values": [
+500000,
+1000000,
+1500000,
+2000000
+],
+"id": "ecox11005",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+}
+]
+}

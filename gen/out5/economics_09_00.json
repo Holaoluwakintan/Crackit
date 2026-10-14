@@ -1,0 +1,212 @@
+{
+"subject": "economics",
+"topic": "National income: GDP, GNP, NNP and methods of measurement",
+"ti": 9,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A trader in Onitsha buys garri from a farmer for ₦2,000 and sells it to a wholesaler for ₦3,500. The wholesaler then sells it to a retailer for ₦5,000. Which method of calculating national income focuses on summing only the value added at each of these stages?",
+"options": [
+"Income method",
+"Output (value added) method",
+"Expenditure method",
+"Residual method"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The output method adds up the value added at each stage of production to avoid counting the full value of goods more than once. This is different from the income or expenditure approaches, which use wages, profits or spending data instead.",
+"py": null,
+"values": null,
+"id": "ecox09000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na output method wey dem dey call value added method we dey take add up value for every stage of production so dat we no go count goods twice. E different from income or expenditure method wey dey use wages, profits abi spending."
+},
+{
+"q": "Which of the following best describes Gross National Product (GNP)?",
+"options": [
+"The value of goods and services produced within a country's borders by both citizens and foreigners",
+"The value of final goods and services produced by a country's citizens and firms, both at home and abroad",
+"The value of goods and services produced within a country's borders only",
+"The total consumer spending on final goods and services in a country"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "GNP measures output produced by the citizens and firms of a country, whether they are located at home or abroad. GDP, by contrast, measures output produced within the country's borders regardless of who produces it.",
+"py": null,
+"values": null,
+"id": "ecox09001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "GNP na di value of goods and services wey citizen and company of one country produce, whether dem dey house abi for foreign land. GDP na just di one wey dem produce inside di country border."
+},
+{
+"q": "Using the income approach, national income is obtained by summing which of the following?",
+"options": [
+"Wages, rent, interest and profit earned by factors of production",
+"Consumption, investment, government spending and net exports",
+"The value added at each stage of production",
+"Transfer payments, pensions and subsidies received by households"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The income method adds up all factor incomes earned in producing goods and services, namely wages, rent, interest and profit. The expenditure method, not the income method, sums consumption, investment, government spending and net exports.",
+"py": null,
+"values": null,
+"id": "ecox09002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Income method dey add all di money wey factors of production earn, like wages, rent, interest, and profit. Na expenditure method dey add consumption, investment, government spending, and net export."
+},
+{
+"q": "A country's Gross National Product is ₦680 billion. If capital consumption (depreciation) for the year is ₦45 billion, what is the Net National Product (NNP)?",
+"options": [
+"₦635 billion",
+"₦725 billion",
+"₦680 billion",
+"₦45 billion"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Net National Product is obtained by subtracting depreciation from Gross National Product. Therefore 680 billion minus 45 billion gives 635 billion naira.",
+"py": "680-45",
+"values": [
+635,
+725,
+680,
+45
+],
+"id": "ecox09003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To get Net National Product, you go minus depreciation from Gross National Product. So, if you minus 45 billion naira from 680 billion naira, you go get 635 billion naira."
+},
+{
+"q": "In Economics, national income at factor cost differs from national income at market price mainly because market price figures include which of the following?",
+"options": [
+"Depreciation of capital assets",
+"Net factor income from abroad",
+"Indirect taxes and subsidies",
+"Transfer payments from government"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Market prices include indirect taxes (which raise prices) and subsidies (which lower prices), while factor cost reflects only the payments to factors of production. To move from market price to factor cost, indirect taxes are subtracted and subsidies are added back.",
+"py": null,
+"values": null,
+"id": "ecox09004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Market price dey carry indirect taxes wey dey make price high and subsidies wey dey reduce am, but factor cost na just payment for factors of production. To change market price to factor cost, you must remove indirect taxes and add subsidy."
+},
+{
+"q": "Mr. Danjuma, a retired civil servant in Jos, receives a monthly pension from the government. When economists compute national income using the income method, why is this pension excluded?",
+"options": [
+"Because pensions are taxed at a lower rate than wages",
+"Because pensions are a transfer payment and not a payment for current production",
+"Because retired workers are not citizens for national income purposes",
+"Because pensions are already counted under government expenditure"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Transfer payments like pensions, scholarships and unemployment benefits are not payments for producing goods or services in the current period, so they must be excluded to avoid overstating national income. Only earnings tied to current factor services are counted.",
+"py": null,
+"values": null,
+"id": "ecox09005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dem no dey count pension inside national income because e be transfer payment and no be payment for work wey person do for dat year. Na only money wey come from current work dem dey count."
+},
+{
+"q": "An economy recorded the following for a given year: Consumption ₦120 billion, Investment ₦40 billion, Government spending ₦60 billion, Exports ₦25 billion, Imports ₦15 billion. Using the expenditure approach, what is the Gross Domestic Product?",
+"options": [
+"₦230 billion",
+"₦245 billion",
+"₦260 billion",
+"₦220 billion"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "GDP by expenditure equals consumption plus investment plus government spending plus net exports (exports minus imports). Adding 120 + 40 + 60 + (25 - 15) gives 230 billion naira.",
+"py": "120+40+60+(25-15)",
+"values": [
+230,
+245,
+260,
+220
+],
+"id": "ecox09006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For expenditure approach, you go add consumption, investment, government spending, and net exports where exports minus imports. If you add 120 + 40 + 60 + (25 - 15), your answer na 230 billion naira."
+},
+{
+"q": "A country's Gross Domestic Product is ₦900 billion, net factor income from abroad is negative ₦30 billion, and depreciation is ₦60 billion. What is the Net National Product (NNP) at market price?",
+"options": [
+"₦870 billion",
+"₦810 billion",
+"₦930 billion",
+"₦990 billion"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "First find GNP by adding net factor income from abroad to GDP: 900 + (-30) = 870 billion. Then subtract depreciation to get NNP: 870 - 60 = 810 billion naira.",
+"py": "900+(-30)-60",
+"values": [
+870,
+810,
+930,
+990
+],
+"id": "ecox09007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "First, find GNP by adding net factor income from abroad to GDP, wey give 870 billion. Den minus depreciation from am to get 810 billion naira as your Net National Product."
+}
+],
+"rejected": []
+}

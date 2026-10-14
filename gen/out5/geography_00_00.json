@@ -1,0 +1,237 @@
+{
+"subject": "geography",
+"topic": "Map reading: scales, distances and areas",
+"ti": 0,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A map covers a rectangular area of 10 km by 8 km on the ground. If the scale of the map is 1:200000, what will be the area of this region on the map, in square centimetres?",
+"options": [
+"5 square centimetres",
+"10 square centimetres",
+"20 square centimetres",
+"40 square centimetres"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "At a scale of 1:200000, 1 cm on the map represents 2 km on the ground, so 10 km becomes 5 cm and 8 km becomes 4 cm on the map. Multiplying these map lengths gives 5 cm x 4 cm = 20 square centimetres.",
+"py": "(10/2)*(8/2)",
+"values": [
+5,
+10,
+20,
+40
+],
+"id": "geox00001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "With 1:200000 scale, 1 cm na 2 km for ground, so 10 km turn 5 cm and 8 km turn 4 cm. When you multiply 5 cm and 4 cm, you get 20 square centimetres."
+},
+{
+"q": "Which of the following best describes a representative fraction (RF) as used in map reading?",
+"options": [
+"A ratio showing map distance to ground distance measured in different units",
+"A ratio, with no units attached, showing one unit of map distance to the equivalent number of the same unit on the ground",
+"A line drawn on a map and divided into equal parts to show distance",
+"A written statement such as 1 centimetre represents 1 kilometre"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A representative fraction is a unitless ratio, for example 1:50000, meaning one unit on the map equals 50000 of the same unit on the ground. This allows the scale to be used with any unit of measurement, unlike a statement scale.",
+"py": null,
+"values": null,
+"id": "geox00002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Representative fraction no get unit at all, e mean say one unit for map na the exact same unit for ground. Like 1:50000, e dey show say one unit for map na 50000 of that same unit for ground."
+},
+{
+"q": "A straight road on a map is measured with a piece of thread, which is then straightened and found to be 9 cm long. If the map's scale is 1:150000, what is the actual length of the road in kilometres?",
+"options": [
+"1.35 kilometres",
+"6 kilometres",
+"13.5 kilometres",
+"16.7 kilometres"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "At a scale of 1:150000, 1 cm on the map equals 150000 cm, which is 1.5 km, on the ground. Multiplying the measured 9 cm by 1.5 km gives 13.5 kilometres.",
+"py": "9*150000/100000",
+"values": [
+1.35,
+6,
+13.5,
+16.7
+],
+"id": "geox00003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As the scale be 1:150000, 1 cm for map na 1.5 km for ground. When you multiply that 9 cm by 1.5 km, you go get 13.5 kilometres."
+},
+{
+"q": "A surveyor wants to enlarge a map whose scale is 1:40000 so that the new scale becomes 1:10000. By what factor must the linear dimensions of features on the original map be multiplied to produce the new map?",
+"options": [
+"2 times",
+"4 times",
+"8 times",
+"10 times"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Enlarging from 1:40000 to 1:10000 means each unit on the new map represents a smaller ground distance, so the map becomes more detailed and larger. The enlargement factor is found by dividing 40000 by 10000, which gives 4 times.",
+"py": "40000/10000",
+"values": [
+2,
+4,
+8,
+10
+],
+"id": "geox00004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To change scale from 1:40000 go 1:10000, you must make the map bigger. If you divide 40000 by 10000, you go get 4 times as the enlargement factor."
+},
+{
+"q": "On a topographical map, the distance between two boreholes is shown as 6 cm. The statement scale given on the map reads '1 centimetre represents 2 kilometres'. What is the actual ground distance between the boreholes?",
+"options": [
+"3 kilometres",
+"8 kilometres",
+"12 kilometres",
+"20 kilometres"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The statement scale tells us directly that every 1 cm on the map equals 2 km on the ground. Multiplying the measured 6 cm by 2 km per cm gives 12 kilometres.",
+"py": "6*2",
+"values": [
+3,
+8,
+12,
+20
+],
+"id": "geox00005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "The statement scale talk say 1 cm na 2 km for ground. So if you multiply 6 cm by 2 km, you go get 12 kilometres for ground distance."
+},
+{
+"q": "A footpath on a map follows a winding course and is measured along its curves using a divider set to small equal steps, giving a total of 11 cm. If the map scale is 1:25000, what is the approximate actual length of the footpath, in metres?",
+"options": [
+"440 metres",
+"1100 metres",
+"2750 metres",
+"4400 metres"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "At a scale of 1:25000, 1 cm on the map represents 25000 cm, which is 250 metres, on the ground. Multiplying the measured 11 cm by 250 metres gives 2750 metres.",
+"py": "11*25000/100",
+"values": [
+440,
+1100,
+2750,
+4400
+],
+"id": "geox00006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For 1:25000 scale, 1 cm na 250 metres for ground. When you multiply 11 cm by 250 metres, you go get 2750 metres."
+},
+{
+"q": "Two towns, Giwa and Rimi, appear on separate maps drawn at different scales. On Map X, drawn at 1:20000, the towns are 15 cm apart. On Map Y, drawn at 1:60000, what distance in centimetres would represent the same real ground distance between the two towns?",
+"options": [
+"5 centimetres",
+"7.5 centimetres",
+"15 centimetres",
+"45 centimetres"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The real ground distance is first found using Map X: 15 cm multiplied by 20000 gives 300000 cm, which is 3 km. On Map Y, since 1 cm represents 60000 cm, dividing 300000 cm by 60000 gives 5 centimetres representing the same distance.",
+"py": "(15*20000)/60000",
+"values": [
+5,
+7.5,
+15,
+45
+],
+"id": "geox00007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "First find the real ground distance for Map X as 300000 cm. When you use Map Y scale to divide am, you go get 5 centimetres."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "On a map with a scale of 1:50000, the area of a forest reserve is measured as 8 square centimetres. What is the actual area of the forest reserve on the ground, in square kilometres?",
+"options": [
+"2 square kilometres",
+"4 square kilometres",
+"20 square kilometres",
+"0.5 square kilometres"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A scale of 1:50000 means 1 cm on the map equals 50000 cm, which is 0.5 km, on the ground, so 1 square cm represents 0.5 x 0.5 = 0.25 square km. Multiplying 8 square cm by 0.25 gives 2... wait check: 8 x 0.25 = 2, so the answer is 2 square kilometres.",
+"py": "8*(50000/100000)**2",
+"values": [
+2,
+4,
+20,
+0.5
+],
+"id": "geox00000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+}
+]
+}

@@ -1,0 +1,175 @@
+{
+"subject": "biology",
+"topic": "Ecology: ecosystems, food chains, food webs and energy flow",
+"ti": 13,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A community of living organisms interacting with one another and with their non-living environment, with a continuous exchange of matter and energy, is best described as a/an:",
+"options": [
+"population",
+"ecosystem",
+"biome",
+"habitat"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An ecosystem includes both living things and their physical surroundings interacting together. A population is only organisms of one species, while a habitat is just the place where an organism lives.",
+"id": "biox13000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Ecosystem na where living things and non-living things dey jam and interact together. Population na just one kind species alone, and habitat na just the place wey organism dey stay."
+},
+{
+"q": "Which of the following pairs correctly matches an ecological term with its correct meaning?",
+"options": [
+"Biotic factor - rainfall amount in a habitat",
+"Abiotic factor - predation between a lion and an antelope",
+"Habitat - the specific place where an organism normally lives",
+"Population - all the different species living in a forest"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A habitat is the natural place where an organism lives and can find its needs. Rainfall is abiotic, predation is a biotic interaction, and a population refers to one species, not many.",
+"id": "biox13001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Habitat na the correct natural place where organism dey normally live and find wetin e need. Rainfall na abiotic, predation na biotic, and population na for just one species, no be plenty species."
+},
+{
+"q": "Which of the following best explains why only about 10% of energy is transferred from one trophic level to the next in an ecosystem?",
+"options": [
+"Producers absorb most of the sun's energy before releasing any",
+"Organisms use most of the energy for respiration, movement and heat loss",
+"Consumers deliberately store excess energy without using it",
+"Decomposers destroy energy before it reaches the next trophic level"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Energy is lost mainly as heat during respiration and through activities like movement and growth, so only a small fraction remains to be passed to the next feeding level. This is why food chains rarely have more than four or five trophic levels.",
+"id": "biox13004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Energy dey loss as heat when organism dey do respiration, move around, and grow. Na small fraction remain to pass go next level, dat is why food chain no dey pass four or five levels."
+},
+{
+"q": "In a Nigerian mangrove swamp ecosystem, algae are eaten by small crabs, which are eaten by mudskippers, which are eaten by herons. If the algae contain 20,000 kJ of energy and each trophic transfer follows the ten percent efficiency rule, approximately how much energy is available to the herons?",
+"options": [
+"2,000 kJ",
+"200 kJ",
+"20 kJ",
+"2,000,000 kJ"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Applying ten percent efficiency three times: crabs get 2,000 kJ, mudskippers get 200 kJ, and herons get 20 kJ. Each step loses ninety percent of the energy as heat and other losses.",
+"id": "biox13005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If we apply ten percent rule three times, crab go get 2,000 kJ, mudskipper go get 200 kJ, and heron go get 20 kJ. Every step dey lose ninety percent of the energy as heat."
+},
+{
+"q": "A food web in a Jos Plateau grassland includes grasses, grasshoppers, rats, snakes, hawks and lizards, with snakes and lizards both feeding on rats, and hawks feeding on both snakes and lizards. If a disease eliminates all rats in this web, which statement best describes the likely outcome?",
+"options": [
+"Snakes and lizards will immediately go extinct since rats are their only food",
+"Hawks will starve completely as they have no other source of food",
+"Snakes and lizards may survive by relying more on other available prey",
+"Grasshoppers will decrease because rats no longer compete with them for grass"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A food web has multiple feeding links, so when rats disappear, snakes and lizards can switch to other prey available in the web, unlike in a simple food chain. This flexibility makes food webs more stable than single food chains during disturbances.",
+"id": "biox13006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Because food web get plenty different food links, if rat vanish, snakes and lizards fit chop another prey. Dat flexibility make food web stable pass ordinary single food chain."
+},
+{
+"q": "Which of the following statements correctly distinguishes the flow of energy from the cycling of nutrients in an ecosystem?",
+"options": [
+"Energy flows in one direction while nutrients are recycled repeatedly",
+"Both energy and nutrients are recycled repeatedly within the ecosystem",
+"Both energy and nutrients flow in one direction and are lost to space",
+"Nutrients flow in one direction while energy is recycled repeatedly"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Energy enters an ecosystem from sunlight, passes through trophic levels, and is eventually lost as heat, so it cannot be reused. Nutrients like carbon and nitrogen, however, are used by organisms and returned to the environment through decomposition, allowing them to be reused repeatedly.",
+"id": "biox13007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Energy dey enter from sun, pass through levels, and comot as heat, so e no dey cycle back. But nutrients like carbon and nitrogen dey circulate round and round through decomposition."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A student studying a cocoa plantation in Ondo State recorded the following feeding links: cocoa leaves are eaten by caterpillars; caterpillars are eaten by birds; birds are eaten by snakes; snakes are eaten by hawks. If the caterpillar population is wiped out by a disease, which immediate effect is most likely on this food chain?",
+"options": [
+"The hawk population will increase rapidly",
+"The cocoa leaves will be consumed faster by birds",
+"The bird population will decline due to loss of food",
+"The snake population will increase due to more food",
+"The cocoa leaves will increase in quantity"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Birds depend directly on caterpillars for food, so losing caterpillars reduces the bird's food supply and their population falls. This effect then spreads up the chain to snakes and hawks, but the most immediate impact is on the birds."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "In an ecological pyramid of biomass constructed for a lake ecosystem, which observation would be most unusual and require further investigation?",
+"options": [
+"Biomass decreasing steadily from producers to tertiary consumers",
+"Biomass of producers being greater than that of primary consumers",
+"Biomass of primary consumers being greater than that of producers",
+"Biomass of tertiary consumers being the smallest of all"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Normally producers have the largest biomass since they support all other trophic levels. Primary consumers having more biomass than producers is unusual and may happen temporarily where producers like phytoplankton reproduce very fast and are eaten quickly.",
+"id": "biox13002",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

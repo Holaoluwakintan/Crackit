@@ -1,0 +1,181 @@
+{
+"subject": "english",
+"topic": "Concord (subject-verb agreement)",
+"ti": 3,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best completes the gap. Measles, like many other childhood diseases, _______ common among unvaccinated children in some rural communities.",
+"options": [
+"are",
+"is",
+"were",
+"have been"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Measles is the name of a disease and is treated as a singular uncountable noun. It therefore takes the singular verb is.",
+"id": "engx03000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Measles na disease name wey dem dey take as singular word, even though e dey ending with 's'. Na why e suppose carry singular verb like is."
+},
+{
+"q": "Choose the option that best completes the gap. The scissors Grandma gave to Chidinma for her tailoring class _______ already blunt.",
+"options": [
+"is",
+"was",
+"are",
+"has been"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Scissors is a plural noun that always takes a plural verb, so are is correct. Words like scissors, trousers and glasses behave this way in English.",
+"id": "engx03001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Scissors na plural word wey must always carry plural verb like are. Words like trousers and glasses dey follow this same rule."
+},
+{
+"q": "Choose the option that best completes the gap. The quality of the mangoes sold at that roadside stall in Benin _______ improved greatly this season.",
+"options": [
+"have",
+"has",
+"were",
+"are"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The subject of the sentence is quality, a singular noun, not mangoes which is inside a prepositional phrase. A singular subject requires the singular verb has.",
+"id": "engx03002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na quality be the true subject of this sentence, no be the mangoes. Since quality na singular, na has you go use."
+},
+{
+"q": "Choose the option that best completes the gap. Bread and butter _______ what Ngozi usually eats before going to school.",
+"options": [
+"are",
+"is",
+"were",
+"have been"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Bread and butter refers to a single dish here, so it is treated as one idea taking a singular verb, is. If the items were separate foods, a plural verb would be used instead.",
+"id": "engx03003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Bread and butter for this sentence na one single food item. Na why e dey take singular verb like is."
+},
+{
+"q": "Choose the option that best completes the gap. Each of the new textbooks that the state government distributed to the schools _______ a unique serial number.",
+"options": [
+"have",
+"has",
+"carry",
+"were having"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Each is always singular regardless of the plural noun that follows it in the of-phrase. The correct singular verb form is has.",
+"id": "engx03004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Word like each dey always singular, even if plural noun come after am. Na why has be the correct verb to use."
+},
+{
+"q": "Choose the option that best completes the gap. The number of students from Enugu who _______ admitted into federal universities this year has risen sharply.",
+"options": [
+"was",
+"is",
+"were",
+"has been"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The verb inside the relative clause who agrees with students, its plural antecedent, so were is required. Note that the main verb has risen later agrees instead with the singular subject number, showing the two clauses are judged separately.",
+"id": "engx03006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The verb inside the relative clause dey follow students, wey be plural word. Dat na why you must use were."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap. What the farmers in that village along the Niger need most _______ better access roads and modern storage facilities.",
+"options": [
+"are",
+"is",
+"were",
+"have been"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The subject is the whole noun clause what the farmers need, which functions as one singular idea, so the verb must be singular. Even though the complement, facilities, is plural, the verb agrees with the subject clause, giving is.",
+"id": "engx03005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:‘Are’ is also defensible with the plural complement.|The subject is the clause 'What the farmers... need', which takes a singular verb."
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap. There _______, on the shelf above the cupboard, a dusty old radio and two broken lanterns that nobody had touched for years.",
+"options": [
+"is",
+"was",
+"were",
+"has been"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In there-sentences the verb agrees with the notional subject that follows, which here is radio and lanterns, a plural combination. The correct plural past verb is therefore were.",
+"id": "engx03007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:‘Was’ is also used in agreement with the nearest noun.|The subject is compound (radio and lanterns), requiring a plural verb."
+}
+]
+}

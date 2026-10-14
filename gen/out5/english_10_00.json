@@ -1,0 +1,178 @@
+{
+"subject": "english",
+"topic": "Spelling and punctuation: choose the correctly spelt/punctuated option",
+"ti": 10,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option in which all the words are correctly spelt.",
+"options": [
+"Accomodate, Embarass, Occurence",
+"Accommodate, Embarrass, Occurrence",
+"Acommodate, Embarrass, Ocurrence",
+"Accommodate, Embarass, Occurrance"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Accommodate, embarrass and occurrence all take double consonants in the correct spots. The other options drop one of the needed double letters.",
+"id": "engx10000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "All those words get double letters for inside. If you no put them well, you go get the spelling wrong."
+},
+{
+"q": "Choose the correctly punctuated sentence.",
+"options": [
+"Mrs. Adeyemi our class teacher, is traveling to Kano tomorrow.",
+"Mrs. Adeyemi, our class teacher, is traveling to Kano tomorrow.",
+"Mrs. Adeyemi, our class teacher is traveling to Kano tomorrow.",
+"Mrs. Adeyemi our class teacher is traveling, to Kano tomorrow."
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The phrase 'our class teacher' is an appositive explaining who Mrs. Adeyemi is, so it must be enclosed by a comma on both sides. The other options leave out one comma, breaking the pair.",
+"id": "engx10001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because 'our class teacher' dey explain who Mrs. Adeyemi be, you must put comma for front and back. If you no do am like that, the sentence no go balance."
+},
+{
+"q": "Choose the option with the correct spelling of the word that means 'a person who studies and treats diseases of the mind'.",
+"options": [
+"Psycologist",
+"Psychologist",
+"Sycologist",
+"Pyschologist"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The correct spelling is psychologist, beginning with the silent 'p' before 'sy' and followed by 'ch'. The other forms either drop the silent p or misorder the letters.",
+"id": "engx10002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The correct spelling start with silent 'p' then 'sychologist'. Any other way you write am, you don miss the correct spelling."
+},
+{
+"q": "Choose the option that correctly uses the apostrophe.",
+"options": [
+"The childrens' toys were scattered all over the sitting room.",
+"The children's toys were scattered all over the sitting room.",
+"The childrens toys were scattered all over the sitting room.",
+"The childrens's toys were scattered all over the sitting room."
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Children is already plural, so possession is shown by adding apostrophe + s, giving 'children's'. Adding just an apostrophe after the s, or no apostrophe at all, is wrong because 'childrens' is not a real plural form.",
+"id": "engx10003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Children na plural already, so to show say something belong to them, you go add apostrophe and 's'. 'Childrens' no be correct English at all."
+},
+{
+"q": "Choose the correctly punctuated version of the following sentence: Chidi asked his brother if he had collected the WAEC result slip",
+"options": [
+"Chidi asked, \"his brother if he had collected the WAEC result slip.\"",
+"Chidi asked his brother if he had collected the WAEC result slip.",
+"Chidi asked his brother, \"if he had collected the WAEC result slip\"?",
+"Chidi asked his brother if he had collected the WAEC result slip?"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "This is a reported (indirect) question, so it ends with a full stop, not a question mark, and needs no quotation marks since no exact words are quoted. The other options wrongly add quotation marks or a question mark to a statement that merely reports a question.",
+"id": "engx10004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because na indirect question, you no need quotation mark or question mark. Just put full stop for the end because you dey report wetin person talk."
+},
+{
+"q": "Choose the option in which the word is correctly spelt.",
+"options": [
+"Manoeuvre",
+"Manouvre",
+"Manuever",
+"Maneouvre"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The correct British spelling is 'manoeuvre', keeping the 'oeu' sequence intact. The distractors rearrange or drop letters from this unusual vowel combination.",
+"id": "engx10005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The correct British spelling na 'manoeuvre'. Any other way you arrange the letters, e go be mistake."
+},
+{
+"q": "Choose the sentence that is correctly punctuated.",
+"options": [
+"Although Ngozi studied hard she still failed the test.",
+"Although Ngozi studied hard, she still failed the test.",
+"Although, Ngozi studied hard she still failed the test.",
+"Although Ngozi, studied hard, she still failed the test."
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A comma is required after an introductory subordinate clause ('Although Ngozi studied hard') before the main clause begins. The other options either omit this needed comma or insert commas in the wrong places.",
+"id": "engx10006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you start sentence with 'Although', you must put comma after the first part finish. If you no put that comma, the sentence no go flow well."
+},
+{
+"q": "Chief Okoro, a wealthy farmer from Abia State, kept three things close to his heart: his family, his farmland, and his faith. Every morning before going to his cassava farm, he would gather his children and remind them that hard work, patience, and honesty were the keys to a good life. His neighbours often sought his advice on both farming and family matters.\nWhich of the following sentences about Chief Okoro is correctly punctuated according to the passage's style of listing three items?",
+"options": [
+"He valued honesty loyalty and courage above wealth.",
+"He valued honesty, loyalty and courage, above wealth.",
+"He valued honesty, loyalty, and courage above wealth.",
+"He valued honesty; loyalty; and courage above wealth."
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In a list of three items, commas should separate each item, including before 'and' (the Oxford comma style used in the passage), with no comma before 'above wealth'. The other options either miss commas entirely or wrongly use semicolons or a stray comma.",
+"id": "engx10007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you dey list three things, you must use comma to separate them, even before the 'and'. No put comma for where e no suppose dey."
+}
+],
+"rejected": []
+}

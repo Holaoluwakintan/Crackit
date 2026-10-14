@@ -1,0 +1,181 @@
+{
+"subject": "crs",
+"topic": "Religious reforms: Asa, Jehoshaphat, Josiah and Jehu",
+"ti": 10,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "After King Josiah heard the words of the Book of the Law, he sent his officials to a prophetess to inquire of the Lord concerning the judgement written in the book. Who was this prophetess?",
+"options": [
+"Huldah",
+"Deborah",
+"Miriam",
+"Anna"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Josiah sent his officials to Huldah the prophetess, who confirmed that God's judgement would fall on Judah but would be delayed because of Josiah's humility. This is recorded in 2 Kings 22.",
+"id": "crsx10000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "King Josiah send im people go meet Huldah the prophetess to ask God about the judgement wey dey inside the book. Na she tell dem say God anger go come, but e go delay because Josiah humble imsef."
+},
+{
+"q": "During Josiah's reform, after the covenant was renewed before the Lord, what immediate action did Josiah take concerning the Passover?",
+"options": [
+"He abolished the Passover as outdated",
+"He celebrated a great Passover that had not been observed like it since the days of the judges",
+"He delayed the Passover until the temple was fully rebuilt",
+"He asked only the priests to celebrate it privately"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "After renewing the covenant, Josiah commanded a great Passover celebration, and scripture notes that no such Passover had been kept since the days of the judges or the kings of Israel. This showed his zeal for proper worship.",
+"id": "crsx10002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "After dem renew di covenant, Josiah command big Passover celebration wey dem never celebrate like dat since di time of di judges. Dis one show say im really get zeal for proper worship."
+},
+{
+"q": "A student compares the reforms of Asa and Jehoshaphat and notes that both kings shared one major weakness in their relationship with Israel or its rulers. What was this common weakness?",
+"options": [
+"Both refused to consult any prophet of the Lord",
+"Both entered into alliances that displeased the Lord",
+"Both rebuilt pagan altars after initial success",
+"Both refused to appoint judges in the land"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Asa made an alliance with Syria against Israel instead of trusting God, and Jehoshaphat allied with the wicked King Ahab and later with Ahaziah. Both alliances were condemned by prophets sent to rebuke them.",
+"id": "crsx10004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Asa and Jehoshaphat join hand do bad alliance wey God no like at all. Asa align with Syria, while Jehoshaphat join body with wicked King Ahab, and prophets come warn dem."
+},
+{
+"q": "In his judicial reform, King Jehoshaphat appointed judges throughout the fortified cities of Judah and gave them a specific instruction about whose judgement they were carrying out. What did he tell them?",
+"options": [
+"That they judged for the king and must please him",
+"That they judged not for man but for the Lord, who was with them in giving judgement",
+"That they judged only civil cases, not religious ones",
+"That they should judge according to the customs of surrounding nations"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In 2 Chronicles 19, Jehoshaphat charged the judges to remember that they judged not for man but for the Lord, urging them to act with the fear of God, faithfulness and an undivided heart.",
+"id": "crsx10005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Jehoshaphat tell di judges make dem remember say na for God dem dey judge, no be for man. E warn dem make dem fear God and judge with clean heart."
+},
+{
+"q": "Which specific idolatrous object did King Asa personally cut down and burn at the Brook Kidron as part of his reform, according to 2 Chronicles?",
+"options": [
+"The altar of Baal in Samaria",
+"His mother's obscene image for Asherah",
+"The golden calves set up by Jeroboam",
+"The high place built by Solomon for Chemosh"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Asa removed his grandmother Maacah as queen mother because she had made an obscene image for Asherah; he cut down the image, crushed it, and burned it at the Brook Kidron. This act demonstrated his thorough commitment to reform.",
+"id": "crsx10006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Asa commot im mama Maacah as queen mother because of di ugly idol she make for Asherah. E cut di image down, crush am, and burn am for Brook Kidron."
+},
+{
+"q": "A candidate is asked to identify the common lesson taught by the reforms of Asa, Jehoshaphat, Josiah and Jehu. Which statement best expresses this shared lesson?",
+"options": [
+"True reform must always begin with foreign military support",
+"National leaders can please God by tolerating all forms of worship equally",
+"Genuine leadership includes the duty to remove idolatry and restore proper worship of God",
+"Religious reform is only valid when carried out by priests, not kings"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Despite their different methods and varying degrees of success, all four kings acted to remove idolatry and restore true worship of God among their people. This shows that godly leadership carries responsibility for the spiritual state of the nation.",
+"id": "crsx10007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "All di four kings try to commot idolatry and bring back true worship of God for dia land. Dis one show say good leader must care about di spiritual life of di nation."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "When King Asa of Judah faced the invading army of Zerah the Ethiopian, which large number of chariots accompanied Zerah's one million troops according to 2 Chronicles?",
+"options": [
+"Three hundred chariots",
+"Three thousand chariots",
+"Three hundred thousand chariots",
+"No chariots at all"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "2 Chronicles 14 records that Zerah the Ethiopian came against Asa with a huge army and three hundred chariots. Asa relied on God rather than military strength and won the battle.",
+"id": "crsx10001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "King Jehu's reform began with a specific violent act against the house of Ahab before he moved against Baal worship. What was this first act?",
+"options": [
+"He destroyed the temple of Baal immediately",
+"He ordered the execution of Ahab's seventy sons",
+"He rebuilt the altar of the Lord in Samaria",
+"He exiled the priests of Baal from Israel"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Before dealing with Baal worship, Jehu had the seventy sons of Ahab in Samaria killed, fulfilling God's judgement on Ahab's house. This happened before his famous deception against the Baal worshippers, as recorded in 2 Kings 10.",
+"id": "crsx10003",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

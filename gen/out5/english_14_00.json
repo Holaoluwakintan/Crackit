@@ -1,0 +1,173 @@
+{
+"subject": "english",
+"topic": "Oral English: emphatic stress (the word in CAPITALS is stressed; which question does the sentence answer)",
+"ti": 14,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the most appropriate answer.\n\nThe governor will commission the new bridge NEXT WEEK.",
+"options": [
+"What will the governor commission next week?",
+"When will the governor commission the new bridge?",
+"Who will commission the new bridge?",
+"Why will the governor commission the new bridge?"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "NEXT WEEK tells us the time of the action, so the sentence answers a question asking when the event will happen. The other questions focus on the object, the doer, or the reason, not the time.",
+"id": "engx14001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "NEXT WEEK dey show us when di action happen, na im make di sentence answer question wey ask about time. Di other questions dey talk about wetin, who, or why, not time."
+},
+{
+"q": "Choose the question which the given sentence is the appropriate answer to, with emphasis on the capitalized word.\n\nMr. Afolabi repaired the generator WITH A SPANNER.",
+"options": [
+"What did Mr. Afolabi repair?",
+"Who repaired the generator?",
+"How did Mr. Afolabi repair the generator?",
+"Where did Mr. Afolabi repair the generator?"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "WITH A SPANNER describes the instrument or manner used to carry out the repair, so the sentence answers a question about how the action was done. It does not tell us the place, the doer, or the object repaired.",
+"id": "engx14002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "WITH A SPANNER dey explain how Mr. Afolabi take repair di generator. Na im make di sentence answer question wey ask how di work happen."
+},
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the most appropriate answer.\n\nIt was the LIBRARIAN, not the student, who locked the reading room.",
+"options": [
+"What did the librarian lock?",
+"Who locked the reading room?",
+"When did the librarian lock the reading room?",
+"Why did the librarian lock the reading room?"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The cleft structure 'It was the LIBRARIAN who...' places emphatic stress on the doer of the action, correcting a possible assumption that it was the student. This directly answers a question about who performed the action.",
+"id": "engx14003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di sentence put emphasis on di person wey lock di room, wey be di LIBRARIAN. Na im make am answer question about who do di work."
+},
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the most appropriate answer.\n\nAdaeze travels to Enugu EVERY TWO WEEKS to see her grandmother.",
+"options": [
+"Where does Adaeze travel to see her grandmother?",
+"Why does Adaeze travel to Enugu?",
+"How often does Adaeze travel to Enugu?",
+"Who does Adaeze travel to Enugu to see?"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "EVERY TWO WEEKS shows the frequency of the trips, so the sentence answers a question about how often Adaeze travels. It does not explain the destination, the reason, or the person being visited.",
+"id": "engx14004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "EVERY TWO WEEKS dey show how frequent Adaeze dey travel. Na im make di sentence answer question wey ask how often she dey go."
+},
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the most appropriate answer.\n\nThe committee rejected the proposal BECAUSE OF ITS HIGH COST.",
+"options": [
+"What did the committee reject?",
+"Why did the committee reject the proposal?",
+"Who rejected the proposal?",
+"When did the committee reject the proposal?"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "BECAUSE OF ITS HIGH COST gives the reason for the committee's decision, so it answers a question asking why the proposal was rejected. The other options ask about the object, the doer, or the time, none of which is stressed here.",
+"id": "engx14005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "BECAUSE OF ITS HIGH COST dey give reason why committee reject di proposal. Na im make am answer question wey ask why."
+},
+{
+"q": "Choose the question which the given sentence is the appropriate answer to, with emphasis on the capitalized word.\n\nThe twins did not merely pass the examination; they EXCELLED in it.",
+"options": [
+"What did the twins do in the examination?",
+"When did the twins excel in the examination?",
+"Who excelled in the examination?",
+"Why did the twins excel in the examination?"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The contrast 'not merely pass... but EXCELLED' stresses the manner or degree of their performance, so the sentence answers what exactly the twins did in the exam, beyond simply passing. It is not asking for the time, the doer, or a reason, since those are already known from the context.",
+"id": "engx14006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di sentence show how well di twins perform for di exam pass ordinary pass. Na im make am answer wetin dem do for inside di exam."
+},
+{
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the most appropriate answer.\n\nMallam Sule sold the cattle to the TRADER FROM KANO, and not to any buyer from Lagos.",
+"options": [
+"What did Mallam Sule sell?",
+"Who did Mallam Sule sell the cattle to?",
+"Where did Mallam Sule sell the cattle?",
+"When did Mallam Sule sell the cattle?"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The phrase 'and not to any buyer from Lagos' shows that the emphasis is on identifying the particular buyer, the TRADER FROM KANO, so the sentence answers a question about who received the cattle. The sale item, place, and time are not in focus here.",
+"id": "engx14007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di sentence make am clear say na di TRADER FROM KANO buy di cattle. Na im make am answer question about who Mallam Sule sell cattle give."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the sentence below, the word in capitals carries emphatic stress. Choose the question to which the sentence is the most appropriate answer.\n\nChidinma gave her OLD textbooks to the new students.",
+"options": [
+"What did Chidinma give to the new students?",
+"What kind of textbooks did Chidinma give to the new students?",
+"Who gave textbooks to the new students?",
+"Whom did Chidinma give the old textbooks to?"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The stress is on the describing word OLD, so the sentence answers a question about the kind or condition of the textbooks. It is not about who gave them or who received them."
+},
+"why": "duplicate"
+}
+]
+}

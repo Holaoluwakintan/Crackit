@@ -1,0 +1,207 @@
+{
+"subject": "physics",
+"topic": "Magnetism and electromagnetic induction",
+"ti": 20,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A bar magnet is dropped from rest, with its length vertical, through a horizontal coil of wire connected to a sensitive galvanometer. Which of the following best explains why a current is induced in the coil?",
+"options": [
+"The magnet loses some of its magnetism as it falls, releasing energy as current",
+"The weight of the magnet is converted directly into electrical energy",
+"The magnetic flux linking the coil changes as the magnet moves, inducing an emf",
+"The coil becomes magnetised by induction and generates its own current"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "As the magnet falls through the coil, the magnetic flux through the coil changes with time. By Faraday's law, a changing flux induces an emf which drives a current.",
+"py": null,
+"values": null,
+"id": "phyx20000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As the magnet dey fall enter the coil, the magnetic flux dey change with time. According to Faraday law, dis changing flux go generate emf wey dey cause current to flow."
+},
+{
+"q": "A solenoid of 400 turns and length 0.4 m carries a current of 2.5 A. Calculate the magnetic flux density at the centre of the solenoid. [Take permeability of free space, mu_0 = 4*pi x 10^-7 H/m]",
+"options": [
+"3.14 x 10^-3 T",
+"6.28 x 10^-3 T",
+"1.57 x 10^-3 T",
+"9.42 x 10^-3 T"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "B = mu_0 * n * I, where n = N/L = 400/0.4 = 1000 turns per metre. So B = 4*pi x 10^-7 x 1000 x 2.5 = 3.14 x 10^-3 T.",
+"py": "4*3.141592653589793e-7*1000*2.5",
+"values": [
+0.00314,
+0.00628,
+0.00157,
+0.00942
+],
+"id": "phyx20001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "We use the formula B = mu_0 * n * I, where n na the number of turns per metre wey be 1000. When we multiply everything, we go get 3.14 x 10^-3 T."
+},
+{
+"q": "Chidinma wants to increase the strength of an electromagnet made from a solenoid wound on a soft iron core without changing the core or the number of turns. Which single action below will achieve this?",
+"options": [
+"Reduce the current flowing through the solenoid",
+"Replace the soft iron core with an air core",
+"Increase the current flowing through the solenoid",
+"Stretch the coil so the turns are more spaced out"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The strength of an electromagnet increases with current, since the magnetic field produced is proportional to the current flowing through the coil. Reducing current, spacing turns out, or removing the iron core would all weaken it.",
+"py": null,
+"values": null,
+"id": "phyx20002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To make electromagnet strong, you suppose increase the current wey dey flow inside the coil. If you reduce am or remove iron core, the strength go reduce."
+},
+{
+"q": "A rectangular coil of area 0.02 m^2 is placed with its plane parallel to a uniform magnetic field of flux density 0.5 T. What is the magnetic flux linking the coil in this position?",
+"options": [
+"0.01 Wb",
+"0.001 Wb",
+"Zero",
+"0.025 Wb"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Flux = B*A*cos(theta), where theta is the angle between the field and the normal to the coil. When the plane is parallel to the field, the normal is perpendicular to the field, so theta = 90° and cos(90°) = 0, giving zero flux.",
+"py": null,
+"values": null,
+"id": "phyx20003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Magnetic flux na B*A*cos(theta). Since the plane of the coil dey parallel to the field, the angle theta na 90°, and cos(90°) na zero, so the flux be zero."
+},
+{
+"q": "A rod PQ is free to rotate about end P in a horizontal plane under a uniform vertical magnetic field. An emf is induced between P and Q only when the rod is:",
+"options": [
+"held stationary in the field",
+"rotating about P so that Q sweeps through the field",
+"aligned parallel to the magnetic field lines",
+"placed in a region where the field is zero"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "An emf is induced only when there is relative motion between the conductor and the field, cutting field lines. A rotating rod sweeps across the field lines, continuously changing the flux and inducing an emf; a stationary rod does not.",
+"py": null,
+"values": null,
+"id": "phyx20004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Ems go only dey induced if the conductor dey cut magnetic field lines. When the rod dey rotate about P, Q dey sweep through the field to generate emf."
+},
+{
+"q": "A metal disc is rotated rapidly between the poles of a strong magnet, with its plane perpendicular to the field, while its edge and centre are connected through a stationary circuit to a galvanometer. This arrangement demonstrates the principle behind which device?",
+"options": [
+"The moving-coil galvanometer",
+"The a.c. generator",
+"The eddy current brake / disc dynamo",
+"The step-up transformer"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A rotating conducting disc cutting magnetic field lines generates induced currents (eddy currents) that flow radially, which is the working principle of devices such as the disc dynamo and eddy current brakes. This differs from a generator, which uses a coil, not a solid disc.",
+"py": null,
+"values": null,
+"id": "phyx20006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As the metal disc dey spin inside the magnet field, it dey produce eddy currents. Na dis same principle dem dey use for eddy current brake and disc dynamo."
+},
+{
+"q": "Two long straight parallel wires carry currents in the same direction. What is the nature of the force between them, and why does it occur?",
+"options": [
+"Repulsive, because like currents repel each other",
+"Attractive, because each wire's magnetic field exerts a force on the other current-carrying wire",
+"Zero, because parallel wires never interact magnetically",
+"Repulsive, because the magnetic fields between them cancel out completely"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Each current-carrying wire produces a magnetic field that exerts a force on the other wire carrying current. When the currents flow in the same direction, the force between the wires is attractive.",
+"py": null,
+"values": null,
+"id": "phyx20007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The two wires dey attract each other because each wire get magnetic field wey dey push the other current-carrying wire. When current dey flow same direction, the force na attraction."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A power station transmits 100 kW of electrical power through a cable of total resistance 5 ohms. If the transmission voltage is stepped up to 10,000 V before transmission, calculate the power lost as heat in the cable.",
+"options": [
+"500 W",
+"50 W",
+"5 W",
+"0.5 W"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Current I = P/V = 100000/10000 = 10 A. Power lost = I^2 * R = 10^2 x 5 = 500... recompute: 10^2=100, 100x5=500 W. Using higher transmission voltage reduces current, so power loss = 500 W is actually correct here, giving a smaller distractor misconception; check calculation: I=10A, I^2R=100x5=500W.",
+"py": "((100000/10000)**2)*5",
+"values": [
+500,
+50,
+5,
+0.5
+],
+"id": "phyx20005",
+"check": {
+"s1": "A",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+}
+]
+}

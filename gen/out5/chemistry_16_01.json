@@ -1,0 +1,216 @@
+{
+"subject": "chemistry",
+"topic": "Organic chemistry: hydrocarbons (alkanes, alkenes, alkynes, benzene)",
+"ti": 16,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A gaseous alkane has a vapour density of 29. (Relative atomic masses: C = 12, H = 1). What is the molecular formula of the alkane?",
+"options": [
+"C3H8",
+"C4H10",
+"C5H12",
+"C2H6"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Molar mass = 2 x vapour density = 2 x 29 = 58. For alkanes CnH2n+2, C4H10 has mass 4(12)+10(1) = 58, which matches.",
+"py": "2*29",
+"values": [
+44,
+58,
+72,
+30
+],
+"id": "chex16010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Molar mass na two times vapour density, wey come give us 58. If you check alkane formula CnH2n+2, na C4H10 get that molar mass."
+},
+{
+"q": "A straight-chain alkyne contains 5 carbon atoms with the triple bond located between the second and third carbon atoms. What is the IUPAC name of this compound?",
+"options": [
+"pent-1-yne",
+"pent-2-yne",
+"2-methylbut-2-yne",
+"pent-3-yne"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A five-carbon chain is named pentane as the parent, and yne shows the triple bond. Numbering from the end nearer the triple bond gives the lowest locant, which is 2, so the name is pent-2-yne.",
+"py": null,
+"values": null,
+"id": "chex16012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Five carbon chain dey use pent, and yne mean say triple bond dey. When you count from the side wey near the triple bond, na number 2 e go carry, so na pent-2-yne."
+},
+{
+"q": "0.5 mol of an alkene, CnH2n, was completely burnt in excess oxygen and produced 56.0 dm3 of carbon(IV) oxide gas measured at S.T.P. (Molar volume of a gas at S.T.P = 22.4 dm3/mol). What is the value of n in the alkene?",
+"options": [
+"3",
+"4",
+"5",
+"6"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Moles of CO2 produced = 56.0 / 22.4 = 2.5 mol. Since each mole of alkene CnH2n gives n moles of CO2, n = 2.5 mol CO2 / 0.5 mol alkene = 5.",
+"py": "(56.0/22.4)/0.5",
+"values": [
+3,
+4,
+5,
+6
+],
+"id": "chex16013",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Divide 56.0 dm3 by 22.4 dm3/mol to get 2.5 mol of CO2. When you divide 2.5 mol of CO2 by 0.5 mol of the alkene, you go get 5."
+},
+{
+"q": "Which of the following correctly describes the industrial process by which benzene is converted to cyclohexane for use in the manufacture of nylon?",
+"options": [
+"Catalytic hydrogenation using hydrogen gas and a nickel catalyst under pressure",
+"Electrophilic substitution with chlorine gas in the presence of sunlight",
+"Friedel-Crafts alkylation with an alkyl halide and aluminium chloride catalyst",
+"Oxidation with hot, concentrated potassium permanganate solution"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Benzene reacts with hydrogen gas under high pressure in the presence of a nickel catalyst to saturate the ring, forming cyclohexane. This is an addition (hydrogenation) reaction, unusual for benzene because the ring must first be broken down by forceful conditions.",
+"py": null,
+"values": null,
+"id": "chex16014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Benzene dey join with hydrogen gas under pressure plus nickel catalyst to turn to cyclohexane. Na hydrogenation reaction be that."
+},
+{
+"q": "A hydrocarbon sample on analysis was found to contain 85.7% carbon and 14.3% hydrogen by mass, and its molar mass was determined to be 42 g/mol. (Relative atomic masses: C = 12, H = 1). What is the molecular formula of the hydrocarbon?",
+"options": [
+"C2H4",
+"C3H6",
+"C3H8",
+"C4H8"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Dividing percentages by atomic masses gives C: 85.7/12 = 7.14, H: 14.3/1 = 14.3, a ratio of about 1:2, giving empirical formula CH2 (mass 14). Since 42/14 = 3, the molecular formula is C3H6.",
+"py": "42/14",
+"values": [
+2,
+3,
+4,
+2.67
+],
+"id": "chex16015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When you divide the percentage by molar mass, you go get ratio CH2 wey get mass of 14. Divide the molar mass 42 by 14, you go get 3, wey mean say the molecular formula na C3H6."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Consider the reaction: CH2=CH2 + H2 --(Ni catalyst, heat)--> CH3-CH3. What name is given to this type of reaction?",
+"options": [
+"Substitution",
+"Hydrogenation",
+"Hydration",
+"Polymerization"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Hydrogen gas is added across the double bond of ethene in the presence of a nickel catalyst, converting it to ethane. Addition of hydrogen to an unsaturated compound is called hydrogenation.",
+"py": null,
+"values": null,
+"id": "chex16011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Which pair of reagents is most suitable for converting ethyne (HC≡CH) into ethane (CH3-CH3) in two successive steps?",
+"options": [
+"Excess hydrogen gas with a nickel catalyst in one step",
+"Bromine water followed by dilute sulphuric acid",
+"Hydrogen chloride gas followed by sodium hydroxide",
+"Concentrated potassium permanganate followed by heat alone"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Ethyne has two pi bonds, so it needs two moles of hydrogen to become fully saturated as ethane. Passing excess hydrogen over the triple bond with a nickel catalyst adds hydrogen across both bonds in one controlled step to give ethane directly.",
+"py": null,
+"values": null,
+"id": "chex16016",
+"check": {
+"s1": "X",
+"s2": "X",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A particular hydrocarbon burns in air with a characteristically smoky, sooty yellow flame and its molecules contain a high proportion of carbon relative to hydrogen compared to alkanes of similar carbon number. To which class of hydrocarbons does it most likely belong?",
+"options": [
+"Alkanes",
+"Alkenes and alkynes",
+"Cycloalkanes only",
+"Alcohols"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Unsaturated hydrocarbons such as alkenes and alkynes have a higher carbon-to-hydrogen ratio than alkanes, so they burn with incomplete combustion, producing a smoky, sooty yellow flame due to unburnt carbon particles.",
+"py": null,
+"values": null,
+"id": "chex16017",
+"check": {
+"s1": "B",
+"s2": "X",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:X"
+}
+]
+}

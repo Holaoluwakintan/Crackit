@@ -1,0 +1,180 @@
+{
+"subject": "government",
+"topic": "Organs of government and separation of powers, checks and balances",
+"ti": 2,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the principle of separation of powers as applied to the structure of government?",
+"options": [
+"The vesting of the three governmental functions of law-making, law-execution and law-interpretation in three separate and independent organs",
+"The sharing of all government revenue equally among the three arms of government",
+"The appointment of one person to head the legislature, executive and judiciary at the same time",
+"The transfer of all powers of government to the executive arm alone"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Separation of powers means that the three main functions of government are assigned to three distinct and independent organs so that no single arm dominates. It is not about sharing revenue or concentrating power in one arm.",
+"id": "govx02011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Separation of powers mean say make dem share government work into three different independent part so that one person no go carry all power. E no mean say dem dey share money or put all power for one hand."
+},
+{
+"q": "A new state is being created and its drafters want each of the three arms of government to be occupied by different sets of persons, with none of them serving in more than one arm at the same time. This requirement best reflects which rule associated with separation of powers?",
+"options": [
+"The rule of unity of command",
+"The rule against plural membership",
+"The rule of fusion of functions",
+"The rule of delegated legislation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The rule against plural membership states that a person should not be a member of more than one arm of government at the same time, which strengthens separation of powers. The other options describe different or opposite concepts.",
+"id": "govx02012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The rule against plural membership talk say person no suppose dey work for two different arms of government at the same time. E dey make separation of powers strong well well."
+},
+{
+"q": "Below is a description of a country's government structure: the President, as head of the executive, has the power to appoint judges to the highest courts, subject to confirmation by the Senate. This arrangement is best described as an example of",
+"options": [
+"complete separation of powers with no overlap",
+"the executive checking the judiciary, moderated by legislative approval",
+"the judiciary checking the executive directly",
+"fusion of the executive and judiciary into one body"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Presidential appointment of judges, subject to Senate confirmation, shows the executive exercising a check on the judiciary while the legislature further moderates that power. It is not a case of fusion or judicial control over the executive.",
+"id": "govx02013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When president appoint judge and senate come confirm am, na executive dey check judiciary with senate help. E no mean say dem join body together as one."
+},
+{
+"q": "One of the strongest arguments for separation of powers is that it helps to prevent the abuse of power. This is mainly because the doctrine",
+"options": [
+"concentrates all state power in the hands of the most experienced arm",
+"allows each arm of government to act as a watchdog over the others",
+"removes the need for a written constitution",
+"eliminates the possibility of conflict among the three arms"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "By placing law-making, law-execution and law-interpretation in different hands, each arm can monitor and restrain the others, reducing the chances of tyranny. It does not eliminate conflict or concentrate power.",
+"id": "govx02014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "E dey prevent abuse of power because each arm dey watch each other like security. E dey make sure say tyranny no happen for country."
+},
+{
+"q": "In a certain federation, the legislature has the exclusive power to approve the annual budget proposed by the executive before any money can be spent from the treasury. This power of the legislature over the executive is best described as",
+"options": [
+"power of impeachment",
+"power of judicial review",
+"power of the purse",
+"power of veto override"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The power of the purse refers to the legislature's control over public funds, including its authority to approve or reject the budget, which checks executive spending. Impeachment and veto override are different legislative checks.",
+"id": "govx02015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Power of the purse na when legislature get control over money and must approve budget before executive spend anything. E be serious check on executive pocket."
+},
+{
+"q": "Suppose the Senate of a country refuses to confirm a presidential nominee for the position of a Minister because the Senate considers the nominee unsuitable. This action is a clear illustration of which function of the legislature within the system of checks and balances?",
+"options": [
+"Law-making function",
+"Appropriation function",
+"Confirmatory function",
+"Oversight function over the judiciary"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When the legislature screens and approves or rejects executive nominees, it is performing its confirmatory function, which checks the appointment powers of the executive. This is distinct from law-making or appropriation.",
+"id": "govx02016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When senate refuse to confirm person wey president choose, na confirmatory function dem dey do. E dey help check executive appointment power."
+},
+{
+"q": "A political analyst argues that although Nigeria practises separation of powers at the federal level, pure separation is practically impossible to achieve in any modern government. Which of the following best supports this argument?",
+"options": [
+"The three arms of government never interact with one another under any constitution",
+"Each arm of government performs only its own function and nothing else at all times",
+"Certain functions naturally overlap, such as the executive issuing regulations that have the force of law",
+"The judiciary is completely abolished in most modern constitutions"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In practice, arms of government often perform functions beyond their primary role, such as the executive making subsidiary legislation, showing that strict separation is difficult to maintain. The judiciary is not abolished, and the arms do interact.",
+"id": "govx02017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For real life, pure separation hard to see because some work dey overlap, like when executive dey make rules wey be like law. E no mean say dem abolish judiciary."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In most democratic constitutions, the three organs of government are the legislature, the executive and the judiciary. Which of these organs is saddled with the primary duty of interpreting the laws and settling disputes arising from them?",
+"options": [
+"The legislature",
+"The executive",
+"The judiciary",
+"The civil service"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The judiciary interprets laws and resolves disputes between individuals or between individuals and the state. The legislature makes laws while the executive implements them.",
+"id": "govx02010",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

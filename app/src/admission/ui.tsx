@@ -5,6 +5,7 @@ import { BAND_LABEL, GRADES, aggregate, checkCourse, comboCheck, olevelOk, quali
 import { shareResultCard } from './card';
 import { payConfig, startCheckout, unlockedPack, type PayConfig } from './pay';
 import { track } from '../track';
+import { user } from '../auth';
 
 // ---------- data ----------
 export interface Src { s: number }
@@ -397,6 +398,9 @@ function PutmePack({ d, sid }: { d: Adm; sid: string }) {
           {!cfg ? <p class="muted small">Checking…</p> : cfg.enabled ? (
             <form onSubmit={buy} class="payform">
               <input type="email" placeholder="Your email (for the receipt)" value={email} onInput={e => setEmail((e.target as HTMLInputElement).value)} />
+              {user()
+                ? <small class="muted">✓ You're signed in, so this pack is saved to your account and opens on any phone you sign in on.</small>
+                : <p class="notice small">💡 <a href="#/account"><b>Sign in with Google first</b></a> so this pack is saved to your account and works on any phone. If you pay without signing in, the pack stays on this phone only.</p>}
               <button class="btn primary" type="submit">Pay ₦{cfg.price.toLocaleString()} with Paystack</button>
               {cfg.mode === 'test' && <small class="muted">Test mode: no real money moves.</small>}
               <small class="muted">By paying you agree to the <a href="/terms/">Terms and refund policy</a>. Under 18? Ask a parent or guardian first. Problem with a payment? Email {APP.contact}.</small>

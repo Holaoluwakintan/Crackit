@@ -1,0 +1,207 @@
+{
+"subject": "chemistry",
+"topic": "Fats, oils, soaps, detergents, carbohydrates and proteins",
+"ti": 21,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Soap is produced industrially by boiling fats or oils with concentrated sodium hydroxide solution. This process is known as:",
+"options": [
+"esterification",
+"saponification",
+"hydrogenation",
+"fermentation"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The hydrolysis of fats and oils by an alkali such as sodium hydroxide to produce soap and glycerol is called saponification. Esterification is the reverse reaction that forms esters.",
+"py": null,
+"values": null,
+"id": "chex21000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you boil fat or oil with alkali like sodium hydroxide, e dey produce soap and glycerol; we dey call dis process saponification. Esterification na di opposite reaction wey dey form esters."
+},
+{
+"q": "Hard water forms scum with ordinary soap but not with synthetic detergents. This is mainly because detergents:",
+"options": [
+"contain long hydrocarbon chains that dissolve grease faster",
+"form soluble calcium and magnesium salts instead of insoluble ones",
+"have a lower molecular mass than soap",
+"are made from petroleum instead of animal fat"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Soap reacts with Ca2+ and Mg2+ ions in hard water to form insoluble scum, but the sulphonate or sulphate groups in detergents form soluble calcium and magnesium salts that do not precipitate. This is the key chemical advantage of detergents over soap in hard water.",
+"py": null,
+"values": null,
+"id": "chex21001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Soap dey react with Ca2+ and Mg2+ for hard water to form scum, but detergents get sulphonate or sulphate groups wey dey form soluble salts. Dis one make detergent better pass soap for hard water."
+},
+{
+"q": "A tablespoon of palm oil used by Mama Chidinma in her kitchen is best described chemically as a:",
+"options": [
+"polysaccharide",
+"triester of glycerol with fatty acids",
+"polyamide of amino acids",
+"simple ester of a monohydric alcohol"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Fats and oils are triglycerides, formed when glycerol (a trihydric alcohol with three OH groups) reacts with three fatty acid molecules to form three ester linkages. This is why they are called triesters of glycerol.",
+"py": null,
+"values": null,
+"id": "chex21002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Fats and oils na triglycerides. Dem dey form when glycerol react with three fatty acid molecules to create three ester linkages, so we dey call dem triesters of glycerol."
+},
+{
+"q": "Which of the following tests is used to distinguish a reducing sugar such as glucose from a non-reducing sugar such as sucrose?",
+"options": [
+"Biuret test",
+"Fehling's test",
+"Iodine test",
+"Lassaigne's test"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Fehling's solution is reduced by reducing sugars like glucose, giving a brick-red precipitate of copper(I) oxide on heating, while non-reducing sugars like sucrose give no colour change. The biuret test is for proteins and the iodine test detects starch.",
+"py": null,
+"values": null,
+"id": "chex21003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you heat reducing sugar like glucose with Fehling's solution, e go give brick-red precipitate of copper(I) oxide. Non-reducing sugar like sucrose no go change colour at all."
+},
+{
+"q": "A 500 g sample of a vegetable oil requires 0.75 mol of potassium hydroxide for complete saponification. If the reaction produces glycerol and the potassium salts of fatty acids, how many moles of the triglyceride were present in the sample? (Each triglyceride molecule reacts with 3 moles of KOH.)",
+"options": [
+"0.15 mol",
+"0.25 mol",
+"0.75 mol",
+"2.25 mol"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since each triglyceride needs 3 moles of KOH for complete saponification, the moles of triglyceride equal 0.75 divided by 3, which gives 0.25 mol.",
+"py": "0.75/3",
+"values": [
+0.15,
+0.25,
+0.75,
+2.25
+],
+"id": "chex21004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because one mole of triglyceride need 3 moles of KOH to saponify, you go divide 0.75 by 3. Dis one give you 0.25 mol of di triglyceride."
+},
+{
+"q": "Proteins are polymers formed by the condensation of amino acid monomers through a specific bond. The linkage joining amino acid units together in a protein chain is called the:",
+"options": [
+"glycosidic bond",
+"peptide bond",
+"ester bond",
+"hydrogen bond"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Amino acids join together by losing water between the carboxyl group of one molecule and the amino group of the next, forming a peptide (amide) bond. Glycosidic bonds instead link sugar units in carbohydrates.",
+"py": null,
+"values": null,
+"id": "chex21006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Amino acids dey join together when dem lose water between di carboxyl group and di amino group to form peptide bond. Glycosidic bond na for sugar units for carbohydrate."
+},
+{
+"q": "A student heats egg albumen solution strongly and observes that it becomes an insoluble solid mass that does not redissolve on cooling. This change is best explained as:",
+"options": [
+"hydrolysis of peptide bonds breaking the protein into amino acids",
+"denaturation caused by disruption of the protein's native structure",
+"saponification of the protein's fatty acid side chains",
+"formation of a new glycosidic linkage between protein molecules"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Heat disrupts the hydrogen bonds and other weak interactions holding a protein's three-dimensional shape, causing denaturation, which is irreversible coagulation as seen when egg white turns solid on cooking. Hydrolysis would require more than just heat and would break the chain into smaller units, not form a solid mass.",
+"py": null,
+"values": null,
+"id": "chex21007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Heat dey scatter di hydrogen bonds wey dey hold protein shape, and dis one dey cause denaturation. Na why egg white dey turn solid and e no fit go back to liquid again."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In a titration experiment, 2.0 g of a fat sample required 5.6 cm3 of 0.5 mol/dm3 potassium hydroxide solution to neutralise its free fatty acids, expressed as the acid value. What is the acid value of the fat in mg KOH per gram of fat? (Molar mass of KOH = 56 g/mol)",
+"options": [
+"7.84",
+"15.68",
+"39.2",
+"78.4"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Moles of KOH used = 0.5 x 5.6/1000 = 0.0028 mol, which is 0.0028 x 56 = 0.1568 g = 156.8 mg of KOH. Dividing by the 2.0 g fat sample gives an acid value of 156.8/2 = 78.4 mg KOH per gram.",
+"py": "(0.5*5.6/1000*56*1000)/2.0",
+"values": [
+7.84,
+15.68,
+39.2,
+78.4
+],
+"id": "chex21005",
+"check": {
+"s1": "D",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+}
+]
+}

@@ -1,0 +1,194 @@
+{
+"subject": "literature",
+"topic": "African oral literature: folktales, proverbs, praise poetry, dirge",
+"ti": 9,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the role of the 'chorus' or audience in a typical African folktale performance session held at night around a fire?",
+"options": [
+"They remain completely silent so that only the storyteller's voice is heard throughout",
+"They interrupt with new unrelated stories to test the storyteller's memory",
+"They participate by singing refrains, answering questions and commenting, thereby making the performance interactive",
+"They record the tale in writing so that it can be preserved for future generations"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "African folktale performance is interactive; the audience joins in songs, refrains and responses, which keeps the tale lively and communal. This is different from silent or written reception of literature.",
+"values": null,
+"py": null,
+"id": "litx09010",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "African folktale no dey quiet at all. Audience dey join body inside song and answer question to make am sweet and join-body thing."
+},
+{
+"q": "A hunter returning from a successful hunt is welcomed by women of his compound singing: 'He who meets the buffalo and does not run, whose spear drinks blood before the sun sets, welcome, welcome, son of the brave!' This short piece is best classified as:",
+"options": [
+"A dirge celebrating a fallen warrior",
+"A personal praise poem (oriki) honouring an individual's bravery",
+"A folktale narrating a hunting adventure",
+"A proverb warning against cowardice"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The lines directly praise the hunter's courage and achievement while he is alive, which is the defining feature of personal praise poetry. A dirge mourns the dead, which is not the case here.",
+"values": null,
+"py": null,
+"id": "litx09011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis one na praise poetry because e dey hail di hunter person as e dey alive. Dirge na for person wey don die, so na wrong be dat."
+},
+{
+"q": "In African oral literature, which feature most clearly distinguishes a proverb from a folktale?",
+"options": [
+"A proverb is a short, fixed statement of wisdom used within speech, while a folktale is an extended narrative with characters and plot",
+"A proverb always has animal characters while a folktale never does",
+"A proverb is sung with musical instruments while a folktale is always spoken plainly",
+"A proverb is performed only at funerals while a folktale is performed only at weddings"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Proverbs are brief, fixed sayings embedded in everyday speech to express wisdom, whereas folktales are longer stories with plot, characters and conflict. The other options describe features that are not fixed rules distinguishing the two forms.",
+"values": null,
+"py": null,
+"id": "litx09012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Proverb na small wisdom word wey we dey put inside normal yarn, but folktale na long story with character and plot."
+},
+{
+"q": "A storyteller narrating a folktale pauses often to ask the listening children, 'Is the tale sweet?' and they respond, 'It is sweet!' before she continues. What narrative function does this exchange chiefly serve?",
+"options": [
+"It shows that the storyteller has forgotten the next part of the story",
+"It sustains audience attention and confirms their continued participation in the performance",
+"It signals that the tale has ended and a new one is about to begin",
+"It replaces the need for a moral lesson at the end of the tale"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Such call-and-response exchanges during storytelling keep listeners engaged and show the performance is a shared, communal event rather than a one-way delivery. It does not signal forgetfulness or an ending.",
+"values": null,
+"py": null,
+"id": "litx09013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dat question and answer style dey make listener sharp and make dem feel say dem dey part of di story performance."
+},
+{
+"q": "Read the following original proverb: 'One finger cannot pick up a grain of sand from the ground.' Which theme does this proverb most directly convey?",
+"options": [
+"The importance of patience in difficult tasks",
+"The value of cooperation and collective effort over individual action",
+"The danger of greed among kinsmen",
+"The inevitability of death for all living things"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The image of a single finger failing to pick up sand emphasises that one person alone cannot achieve certain tasks, stressing teamwork. It is not about patience, greed or death.",
+"values": null,
+"py": null,
+"id": "litx09014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As one finger no fit pick sand, e mean say person must join hand with other people to work well. E no talk about patience or greed."
+},
+{
+"q": "A clan's praise chant declares: 'We are the children of the river that never dries, the people whose drums speak before the thunder.' Compared to praise poetry for a single hero, this type of chant is best described as:",
+"options": [
+"An individual oriki meant for a new-born child only",
+"A lineage or clan praise poem celebrating shared ancestry and collective identity",
+"A dirge mourning the death of the clan's founder",
+"A folktale explaining the origin of rivers"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The chant uses 'we' and 'our people' to glorify a whole clan's ancestry and identity, which marks it as lineage or clan praise poetry rather than praise for one person. It contains no mourning elements typical of a dirge.",
+"values": null,
+"py": null,
+"id": "litx09015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis chant dey use 'we' to praise everybody for family or clan together. E no be just for one single person alone."
+},
+{
+"q": "Read this original dirge extract: 'The baobab that sheltered the whole village has fallen; its branches that fed the hungry are now silent; who will shade us from the noonday sun?' Which literary device is most prominent in this extract?",
+"options": [
+"Onomatopoeia, through words that imitate natural sounds",
+"Extended metaphor, comparing the deceased to a baobab tree that provided for the community",
+"Hyperbole exaggerating the size of the tree beyond belief",
+"Rhyme scheme following a strict alternating pattern"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Throughout the extract, the dead person is consistently compared to a baobab tree offering shelter and food, which is an extended metaphor rather than a single brief comparison. There is no imitation of sound, exaggeration of size for its own sake, or fixed rhyme pattern here.",
+"values": null,
+"py": null,
+"id": "litx09016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di person wey die dey likened to big baobab tree throughout di poem. Dat one na extended metaphor, not ordinary sound or rhyme."
+},
+{
+"q": "A folktale narrates how Tortoise borrows wisdom from all the animals, ties it in a gourd, and climbs a tree to keep it for himself alone, only for the gourd to fall and scatter wisdom among all creatures. A student argues this tale merely entertains with no deeper meaning. Which statement best counters this claim using the tale's structure?",
+"options": [
+"The tale cannot carry meaning because Tortoise is an animal and not a real human character",
+"The scattering of wisdom functions as an aetiological explanation for why wisdom is now spread among many people, teaching against selfishness",
+"The tale is purely historical, recording an actual event among ancestors",
+"The tale has no moral because tricksters always succeed in African folktales"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Many African trickster tales end with an aetiological twist explaining a present-day reality, here the spreading of wisdom, while also warning against greed and selfishness. Tricksters often fail or are punished, so the claim that they always succeed is false, and animal characters are a known device for carrying human lessons.",
+"values": null,
+"py": null,
+"id": "litx09017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Tortoise story dey teach lesson against greed and explain why wisdom spread for everybody. Trickster character no dey win all di time."
+}
+],
+"rejected": []
+}

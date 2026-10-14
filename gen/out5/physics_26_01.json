@@ -1,0 +1,218 @@
+{
+"subject": "physics",
+"topic": "Semiconductors and basic electronics: diodes, transistors, rectification",
+"ti": 26,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A p-type semiconductor is formed when pure (intrinsic) silicon is doped with a trivalent impurity such as boron. What is the effect of this doping?",
+"options": [
+"It creates extra free electrons that increase conductivity",
+"It creates holes which act as majority charge carriers",
+"It converts the silicon into a perfect conductor",
+"It removes all free electrons from the silicon lattice"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Boron has only three valence electrons, so when it bonds with silicon one bond is left incomplete, creating a hole. These holes become the majority charge carriers in a p-type material.",
+"py": null,
+"values": null,
+"id": "phyx26010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Boron get three valence electrons, so when e bond with silicon, e dey create hole. Na dis holes dey serve as majority charge carriers for p-type material."
+},
+{
+"q": "In a zener diode used as a voltage regulator, the diode is deliberately connected in:",
+"options": [
+"Forward bias, so that it conducts like an ordinary diode",
+"Reverse bias, operating in its breakdown region at a fixed voltage",
+"Series with an inductor only, without any resistor",
+"Forward bias, with the cathode connected to the positive terminal"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A zener diode regulates voltage by operating in reverse bias at its breakdown (zener) voltage, where the voltage across it stays nearly constant despite changes in current. This is different from normal diode forward operation.",
+"py": null,
+"values": null,
+"id": "phyx26011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Zener diode dey regulate voltage as e dey work for reverse bias for im breakdown region. E dey make voltage stay constant even if current change."
+},
+{
+"q": "A transistor is connected in the common-base configuration. If the emitter current is 8.0 mA and the current gain (alpha) of the transistor is 0.96, calculate the collector current.",
+"options": [
+"0.32 mA",
+"7.68 mA",
+"8.33 mA",
+"0.96 mA"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In common-base mode, collector current equals alpha multiplied by emitter current. So Ic = 0.96 x 8.0 mA = 7.68 mA.",
+"py": "0.96*8.0",
+"values": [
+0.32,
+7.68,
+8.33,
+0.96
+],
+"id": "phyx26012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For common-base mode, collector current na alpha times emitter current. If we multiply 0.96 by 8.0 mA, we go get 7.68 mA."
+},
+{
+"q": "Which of the following statements correctly describes the depletion region of an unbiased p-n junction diode?",
+"options": [
+"It is a region rich in free electrons from the n-side only",
+"It is a narrow region near the junction with no mobile charge carriers, containing fixed ions",
+"It is the region where forward current flows most easily",
+"It expands to zero width once the diode is manufactured"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "At the junction, electrons and holes diffuse across and recombine, leaving behind fixed positive and negative ions on either side. This creates a narrow depletion region with no free charge carriers, which opposes further diffusion until biased.",
+"py": null,
+"values": null,
+"id": "phyx26013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For the junction, electrons and holes dey combine, leave fixed ions wey no get mobile charge carriers. Na dis small place we dey call depletion region."
+},
+{
+"q": "A transistor amplifier in common-emitter mode has an input resistance of 500 ohms and produces a voltage gain of 120. If a small AC signal of peak value 4 mV is applied to the base, calculate the peak output voltage.",
+"options": [
+"0.48 V",
+"0.033 V",
+"4.8 V",
+"480 V"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Voltage gain is output voltage divided by input voltage, so output voltage = gain x input voltage = 120 x 0.004 V = 0.48 V. The input resistance value is not needed for this calculation.",
+"py": "120*0.004",
+"values": [
+0.48,
+0.033,
+4.8,
+480
+],
+"id": "phyx26014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Voltage gain na output voltage divide by input voltage, so output voltage na gain times input voltage. When we multiply 120 by 0.004 V, we get 0.48 V."
+},
+{
+"q": "Chidinma wants to design a circuit that converts an alternating current from a 50 Hz mains supply into a smoother pulsating direct current using the fewest number of diodes, while still rectifying both halves of the wave using a transformer with a centre-tapped secondary coil. How many diodes does this type of full-wave rectifier circuit require?",
+"options": [
+"1",
+"2",
+"4",
+"6"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A full-wave rectifier using a centre-tapped transformer needs only two diodes, since each diode conducts during alternate half-cycles using the two ends of the centre-tapped secondary coil. This is different from the bridge rectifier, which needs four diodes but no centre tap.",
+"py": null,
+"values": null,
+"id": "phyx26015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Full-wave rectifier wey use centre-tapped transformer need only two diodes. Each diode dey carry current for alternate half-cycles."
+},
+{
+"q": "The output frequency of the ripple voltage from a full-wave rectifier connected to a 50 Hz AC mains supply is:",
+"options": [
+"25 Hz",
+"50 Hz",
+"100 Hz",
+"200 Hz"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A full-wave rectifier produces one output pulse for every half-cycle of the input, so the ripple frequency is twice the supply frequency. Therefore the ripple frequency is 2 x 50 Hz = 100 Hz.",
+"py": "2*50",
+"values": [
+25,
+50,
+100,
+200
+],
+"id": "phyx26016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Full-wave rectifier dey produce two pulses for every one cycle, so ripple frequency na twice the supply frequency. 2 times 50 Hz give us 100 Hz."
+},
+{
+"q": "In a certain NPN transistor circuit operating in the active region, the emitter current is found to be 5.2 mA while the base current is 0.2 mA. Determine the current gain (beta) of the transistor in common-emitter mode.",
+"options": [
+"5",
+"25",
+"26",
+"1.04"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since Ie = Ib + Ic, the collector current is Ic = 5.2 - 0.2 = 5.0 mA. Beta is Ic divided by Ib, so beta = 5.0 / 0.2 = 25.",
+"py": "(5.2-0.2)/0.2",
+"values": [
+5,
+25,
+26,
+1.04
+],
+"id": "phyx26017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Collector current na emitter current minus base current, which be 5.0 mA. Beta na collector current divide by base current, so 5.0 divide by 0.2 give us 25."
+}
+],
+"rejected": []
+}

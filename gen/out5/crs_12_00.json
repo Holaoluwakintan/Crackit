@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "Holiness and the call of Isaiah; Jeremiah and the new covenant",
+"ti": 12,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In Isaiah's temple vision, the prophet described seeing the Lord seated on a throne, high and lifted up, with His train filling the temple. What did this scene reveal to Isaiah about God's nature?",
+"options": [
+"God's majesty and holiness",
+"God's anger towards Israel",
+"God's loneliness in heaven",
+"God's weakness before idols"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The vision of God on a high throne with His train filling the temple emphasised His supreme majesty and holiness. This set the tone for Isaiah's reaction of unworthiness.",
+"id": "crsx12000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Dat vision wey Isaiah see show say God get too much power and e holy well-well. Na dat one make Isaiah come realize say e no fit stand before God because e no pure."
+},
+{
+"q": "Immediately after Isaiah's guilt was taken away and his sin purged by the burning coal, what was his response to God's question about who would go for Him?",
+"options": [
+"He asked God to send someone else",
+"He kept silent out of fear",
+"He volunteered himself willingly",
+"He requested more time to decide"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Once cleansed, Isaiah boldly answered, 'Here am I; send me.' This showed that true cleansing from sin leads to willing service for God.",
+"id": "crsx12001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "As soon as God clean Isaiah sin, e no waste time again. E tell God say make e send am, because e don ready to work for God."
+},
+{
+"q": "Jeremiah prophesied that under the new covenant, God would deal with sin in a way that was different from the old covenant arrangement. What was this new feature concerning forgiveness?",
+"options": [
+"Sin would be remembered forever as a warning",
+"Sacrifices would increase to cover sin",
+"Sin would be punished immediately without mercy",
+"Sin would be forgiven and remembered no more"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "In Jeremiah 31:34, God promised to forgive their iniquity and remember their sin no more. This marked a shift from constant animal sacrifices to complete divine forgiveness.",
+"id": "crsx12002",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Jeremiah talk say for di new covenant, God go forgive sin and e no go remember am again. Dis one different from di old time wey dem dey use animal sacrifice every time."
+},
+{
+"q": "A Sunday school teacher in Enugu explains that under the new covenant in Jeremiah 31, people would no longer need one person to teach another to know God. What reason did Jeremiah give for this change?",
+"options": [
+"Teachers would become too expensive to pay",
+"All would personally know God themselves",
+"Scrolls of the law would be destroyed",
+"Priests would no longer be available"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jeremiah said all, from the least to the greatest, would know God directly because His law would be written in their hearts. This removed the need for external teaching about knowing the Lord.",
+"id": "crsx12003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Jeremiah explain say for di new covenant, everybody go know God by demselves. God go write im law for dia heart, so dem no go need person teach dem again."
+},
+{
+"q": "Isaiah's call narrative shows a clear pattern: vision of God, confession of sin, cleansing, and then commission to service. What lesson does this pattern teach about genuine service to God?",
+"options": [
+"Service must come before any confession of sin",
+"Holiness and purification should precede service",
+"Only priests can experience such a call",
+"Visions are unnecessary for true service"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The order in Isaiah chapter 6 shows that an encounter with God's holiness exposes sin, which must be cleansed before one can be fit for divine service. This teaches that holiness is a necessary preparation for ministry.",
+"id": "crsx12004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Isaiah story show say before you fit serve God, you must first see im holiness and make e clean your sin. Holiness na di first step for any person wey wan serve God."
+},
+{
+"q": "Comparing Isaiah's message of judgment with Jeremiah's new covenant promise, what common purpose did both prophecies ultimately serve for Israel?",
+"options": [
+"To condemn Israel without any hope of restoration",
+"To replace the temple with new buildings",
+"To lead the nation towards repentance and renewed relationship with God",
+"To encourage Israel to form alliances with foreign nations"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Though Isaiah's call included warnings of judgment and Jeremiah's new covenant offered hope, both ultimately aimed at turning Israel back to a right relationship with God. Judgment and promise worked together for Israel's spiritual restoration.",
+"id": "crsx12005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Even though Isaiah talk about judgment and Jeremiah talk about new covenant, both of dem get one aim. Dem want make Israel repent and come back to God."
+},
+{
+"q": "After receiving his call, Isaiah was told that the people would hear but not understand, and see but not perceive. What did this aspect of his commission reveal about the nature of his prophetic task?",
+"options": [
+"His message would be easily accepted by all",
+"His ministry would involve preaching to a spiritually unresponsive people",
+"He was commanded to avoid speaking to the leaders",
+"His task was limited only to foreigners"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "God warned Isaiah that the people's hearts were hardened, so they would hear without understanding. This meant his prophetic task would be difficult, preaching to a nation resistant to repentance.",
+"id": "crsx12006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "God tell Isaiah say di people heart don hard, so dem go hear but dem no go understand. Dis show say Isaiah work no go easy because di people no go wan listen."
+},
+{
+"q": "In Jeremiah chapter 31, God declared that the new covenant would not be like the one broken by the fathers whom He brought out of a certain land. Which event was this a reference to?",
+"options": [
+"The return from Babylonian exile",
+"The building of Solomon's temple",
+"The deliverance from slavery in Egypt",
+"The crossing of the River Jordan into Canaan"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Jeremiah 31:32 refers to the covenant made when God led the Israelites out of Egypt, which they later broke. The new covenant was presented as superior and unbreakable in comparison.",
+"id": "crsx12007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Jeremiah 31:32 dey talk about di time wey God bring Israel comot from Egypt. Dat covenant wey dem make for dat time, di people break am, so God promise new one."
+}
+],
+"rejected": []
+}

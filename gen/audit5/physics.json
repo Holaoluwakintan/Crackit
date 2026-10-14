@@ -1,0 +1,1995 @@
+{
+"phy00100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Magnetic flux is derived; the other quantities are SI base quantities."
+}
+},
+"phy00101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Pressure is force per area, with dimensions [M][L]⁻¹[T]⁻²."
+}
+},
+"phy00102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Percentage error = (0.05/1.40) × 100% = 3.57%."
+}
+},
+"phy00103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "[M][L]²[T]⁻² is the dimension of energy, measured in joules."
+}
+},
+"phy00104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "For g ∝ l/T², the maximum percentage error is 2% + 2(1%) = 4%."
+}
+},
+"phy00105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Corrected diameter = 1.50 + 0.28 − 0.03 = 1.75 mm."
+}
+},
+"phy00106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Vernier callipers have jaws for measuring internal diameters."
+}
+},
+"phy00107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Equating dimensions gives x = 1/2, y = 1/2 and z = −1/2."
+}
+},
+"phy00108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "250 m² = 250 × 10⁴ cm² = 2.50 × 10⁶ cm²."
+}
+},
+"phy01100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Electric potential is a scalar; the other listed quantities are vectors."
+}
+},
+"phy01101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The perpendicular forces have resultant √(6² + 8²) = 10 N."
+}
+},
+"phy01102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The angle is arctan(4/3) ≈ 53°."
+}
+},
+"phy01103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The horizontal component is 40 cos 60° = 20 N."
+}
+},
+"phy01104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The component of weight down the plane is W sin 30°."
+}
+},
+"phy01105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The 3 N and 4 N forces must have a 5 N resultant, requiring an angle of 90°."
+}
+},
+"phy01106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The perpendicular velocities give a resultant speed of √(6² + 8²) = 10 m/s."
+}
+},
+"phy02100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "v = u + at = 0 + 3(4) = 12 m/s."
+}
+},
+"phy02101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Average velocity includes direction and is a vector."
+}
+},
+"phy02102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Average acceleration = (22 − 10)/6 = 2 m/s²."
+}
+},
+"phy02103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Distance in the third second = s(3) − s(2) = 9 − 4 = 5 m."
+}
+},
+"phy02104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy02105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy02106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy02107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy02108": {
+"a": {
+"ans": "C",
+"v": "off_syllabus",
+"r": "The answer is correct, but obtaining acceleration from this cubic displacement function requires differentiating twice, beyond the UTME Physics treatment of motion."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": "a = d²s/dt² = 6t - 6, which is 6 m/s² at t = 2 s. The key is correct."
+}
+},
+"phy03100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy03101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy03102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy03103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy03104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy03105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy03106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy03107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy03108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy04100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy04101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy04102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy04103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy04104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy04105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy07104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Series springs give 1/k_eff = 2/k, so k_eff = k/2."
+}
+},
+"phy07105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "E = ½Fe, so e = 2(2.4)/12 = 0.4 m."
+}
+},
+"phy07106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Plastic deformation is permanent deformation beyond the elastic limit."
+}
+},
+"phy07107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The total load for 10 cm is 125 N; the additional load is 75 N."
+}
+},
+"phy07108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The area represents work done in stretching."
+}
+},
+"phy08100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The smallest face is 0.005 m², giving 20/0.005 = 4000 N/m²."
+}
+},
+"phy08101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Relative density = 50/(50 − 40) = 5."
+}
+},
+"phy08102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The load is 50(100/4) = 1250 N."
+}
+},
+"phy08103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The object's density is (3/4)(1200) = 900 kg/m³."
+}
+},
+"phy08104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The pascal is the SI unit of pressure."
+}
+},
+"phy08105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "h = P/(ρg) = 40000/(1000 × 10) = 4.0 m."
+}
+},
+"phy08106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Upthrust = ρgV = 1000 × 10 × 50 × 10⁻⁶ = 0.5 N."
+}
+},
+"phy08107": {
+"a": {
+"ans": "A",
+"v": "ambiguous",
+"r": "A explains why the ship can float, but D also correctly describes the upward water-pressure force that supports it."
+},
+"b": {
+"ans": "A",
+"v": "ok",
+"r": "The hollow hull lowers the ship's average density below that of water. The key is correct."
+}
+},
+"phy08108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Falling atmospheric pressure generally allows the balloon to expand."
+}
+},
+"phy09100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The copper block's mass is not a thermometric property."
+}
+},
+"phy09101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The true temperature is (50 − 10)/(90 − 10) × 100 = 50 °C."
+}
+},
+"phy09103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Between 0 °C and 4 °C, heated water contracts and becomes denser."
+}
+},
+"phy09107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "X = 20 + 30(120 − 20)/100 = 50 °X."
+}
+},
+"phy09108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Mercury does not wet glass and conducts heat well."
+}
+},
+"phy10100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Boyle's law gives P₂ = 120 × 2.5/1.0 = 300 kPa."
+}
+},
+"phy04106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Conservation of momentum gives v = (0.05 × 400)/2.00 = 10 m/s."
+}
+},
+"phy04107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The net force is ma = 5 × 3 = 15 N."
+}
+},
+"phy05100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Power = mgh/t = 100 W."
+}
+},
+"phy05101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "A conservative force does zero work around a closed path."
+}
+},
+"phy05102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The mass flow rate is 1 kg/s, so useful power is 1 × 10 × 10 = 100 W."
+}
+},
+"phy05103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "With negligible air resistance, kinetic energy just before impact is mgh = 300 J."
+}
+},
+"phy05104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Work done by the applied force is Fd cos 60° = 200 J."
+}
+},
+"phy05105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The extension is 0.1 m; stored energy is ½Fx = 2.0 J."
+}
+},
+"phy05106": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "Work and torque both have dimensions N m, but the explanation incorrectly says torque is measured in joules. Torque is expressed in N m, not J."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": "Torque has the unit N m, the same as work (J). The key is correct."
+}
+},
+"phy05107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Useful output is 6 kW; efficiency is 6/8 × 100% = 75%."
+}
+},
+"phy06100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Limiting static friction is μmg = 0.4 × 20 × 10 = 80 N."
+}
+},
+"phy06101": {
+"a": {
+"ans": "X",
+"v": "ambiguous",
+"r": "Both A and B are correct in the standard friction model: the coefficient is independent of normal reaction and depends on the surfaces. The explanation itself affirms A."
+},
+"b": {
+"ans": "B",
+"v": "ok",
+"r": "The coefficient of sliding friction depends on the nature of the surfaces in contact. It does not depend on the normal reaction or the apparent area, and it is less than the static coefficient."
+}
+},
+"phy06102": {
+"a": {
+"ans": "X",
+"v": "error",
+"r": "An ideal machine has 100% efficiency, which is not an option. The given load, effort and velocity ratio instead describe a machine with 80% efficiency."
+},
+"b": {
+"ans": "D",
+"v": "error",
+"r": "The stem calls the machine 'ideal', which means 100% efficiency (MA = VR). The data give MA = 4 and VR = 5, i.e. 80%. The stem therefore contradicts itself."
+}
+},
+"phy06103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Ball bearings replace sliding contact with rolling contact, reducing friction."
+}
+},
+"phy06105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Increasing normal force increases friction rather than reducing it."
+}
+},
+"phy06106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Input work is 100 × 8 = 800 J; useful output is 300 × 2 = 600 J, leaving 200 J lost."
+}
+},
+"phy06107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Friction dissipates some input energy in a real machine."
+}
+},
+"phy06108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Ideal mechanical advantage is 1/sin 30° = 2."
+}
+},
+"phy07100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "A 20 N load produces a 5 cm extension, giving a total length of 20 cm."
+}
+},
+"phy07103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Work done is ½Fe = ½ × 150 × 0.005 = 0.375 J."
+}
+},
+"phy10101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy10102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy10103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy10105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy10106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy10107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy10108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy11100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy11101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy11102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy11104": {
+"a": {
+"ans": "A",
+"v": "ambiguous",
+"r": "Melting absorbs latent heat, but ice also has a higher thermal conductivity than water; option D can reasonably contribute to the stronger cooling sensation."
+},
+"b": {
+"ans": "A",
+"v": "ok",
+"r": "Melting ice absorbs latent heat of fusion from the skin. The key is correct."
+}
+},
+"phy11105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy11106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy11107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy12100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy12101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy12102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy12103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy12104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy12106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy18102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "1/R = 1/2 + 1/3 + 1/6 = 1, so R = 1 Ω."
+}
+},
+"phy18103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "r = (12 − 10.5)/3 = 0.5 Ω."
+}
+},
+"phy18104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The two 6 Ω resistors give 3 Ω in parallel; adding 4 Ω gives 7 Ω."
+}
+},
+"phy18105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Internal resistance causes an internal voltage drop when current flows, reducing terminal voltage."
+}
+},
+"phy18106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The cells have equivalent internal resistance 0.5 Ω; I = 2/(0.5 + 0.5) = 2 A."
+}
+},
+"phy18107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "As external resistance approaches zero, current increases and terminal p.d. approaches zero."
+}
+},
+"phy18108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "r = 4(75/60 − 1) = 1 Ω."
+}
+},
+"phy19100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "P = IV = 5 × 240 = 1200 W."
+}
+},
+"phy19101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Energy = (220 × 4/1000) × 3 = 2.64 kWh."
+}
+},
+"phy19102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Energy = 2 × 2 × 30 = 120 kWh; cost = 120 × ₦50 = ₦6,000."
+}
+},
+"phy19103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Both the kilowatt-hour and joule are units of energy; 1 kWh = 3.6 × 10⁶ J."
+}
+},
+"phy19104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Energy = 100 × (5 × 24 × 3600) = 4.32 × 10⁷ J."
+}
+},
+"phy19105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "P = V²/R = 200²/40 = 1000 W."
+}
+},
+"phy19106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "For a given transmitted power, higher voltage allows lower current and reduces I²R losses."
+}
+},
+"phy19107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "A fuse melts and opens the circuit when current exceeds a safe value."
+}
+},
+"phy19108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "I = P/V = 2500/250 = 10 A."
+}
+},
+"phy20100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Copper is diamagnetic; nickel, iron and cobalt are ferromagnetic."
+}
+},
+"phy20101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "F = BIL = 0.4 × 3 × 0.5 = 0.6 N."
+}
+},
+"phy20102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The opposition specified by Lenz’s law is consistent with conservation of energy."
+}
+},
+"phy20103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Vs = 220 × 80/400 = 44 V."
+}
+},
+"phy12107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "In a vacuum, cooling is by radiation; a dull black surface emits radiation more effectively."
+}
+},
+"phy13100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "v = fλ = 50 × 0.4 = 20 m/s."
+}
+},
+"phy13101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Transverse waves have crests and troughs; longitudinal waves have compressions and rarefactions."
+}
+},
+"phy13102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Frequency is set by the source and remains unchanged when the wave enters another medium."
+}
+},
+"phy13103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "A path difference of 3.5 wavelengths puts waves from in-phase sources out of phase."
+}
+},
+"phy13104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "For the fundamental mode, λ = 2L = 3 m, so f = 300/3 = 100 Hz."
+}
+},
+"phy13105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Polarisation is characteristic of transverse waves and demonstrates that light is transverse."
+}
+},
+"phy13106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The 0.8 s is the round-trip time; depth = 1500 × 0.8/2 = 600 m."
+}
+},
+"phy13107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "λ = v/f = (3 × 10⁸)/(100 × 10⁶) = 3 m."
+}
+},
+"phy13108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Water waves slow in shallower water; unchanged frequency means their wavelength decreases."
+}
+},
+"phy14100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "λ = v/f = 340/170 = 2 m."
+}
+},
+"phy14101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Pitch depends primarily on vibration frequency."
+}
+},
+"phy14102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "For an open pipe, f = v/(2L) = 340 Hz."
+}
+},
+"phy14103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The echo makes a round trip, so distance = 330 × 1.5/2 = 247.5 m."
+}
+},
+"phy14104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The first overtone of a closed pipe is its third harmonic: f = 3v/(4L) = 1020 Hz."
+}
+},
+"phy14105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Water vapour has a lower molar mass than the principal gases in dry air, increasing sound speed at the same temperature."
+}
+},
+"phy14107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Interference produces reinforcement and cancellation when waves superimpose."
+}
+},
+"phy14108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "λ = 340/425 = 0.8 m; the shortest resonant air-column length is λ/4 = 20 cm."
+}
+},
+"phy15100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The angle to the normal is 90° − 35° = 55°, equal to the angle of reflection."
+}
+},
+"phy15102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The real image distance is 3 × 12 = 36 cm; 1/f = 1/12 + 1/36 gives f = 9 cm."
+}
+},
+"phy15103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "360°/60° − 1 = 5 images, matching the key and explanation."
+}
+},
+"phy15104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "A convex mirror forms an erect, virtual, diminished image of a real object, never an inverted one."
+}
+},
+"phy15105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The image is 5 cm behind the mirror; its magnification is 5/10, giving a height of 2.0 cm."
+}
+},
+"phy15106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The boy is then 1.5 m from the mirror, so he is 3.0 m from his image."
+}
+},
+"phy15107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "A parabolic mirror brings parallel rays to a common focus, avoiding spherical aberration."
+}
+},
+"phy16100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Snell’s law gives sin r = 0.8660/1.5 = 0.5773."
+}
+},
+"phy16101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "sin c = 1/1.414 ≈ 0.7071, so c ≈ 45°."
+}
+},
+"phy16102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "1/v = 1/10 − 1/20 = 1/20 cm⁻¹, so v = 20 cm."
+}
+},
+"phy16103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Refraction at the water–air surface makes the pool floor appear raised."
+}
+},
+"phy16105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Splitting white light into its component colours is dispersion."
+}
+},
+"phy16106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "A higher-index core permits total internal reflection at the core–cladding boundary."
+}
+},
+"phy16107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "f = 1/P = 1/5.0 = 0.20 m."
+}
+},
+"phy17100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The total charge is −4 μC; identical spheres share it equally, giving −2 μC each."
+}
+},
+"phy17103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Potential around an isolated point charge depends only on distance, so equipotential surfaces are concentric spheres."
+}
+},
+"phy17104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "For the series combination, 1/C = 1/2 + 1/3 + 1/6 = 1 μF⁻¹; C = 1 μF."
+}
+},
+"phy17105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Energy = ½CV² = ½(4 × 10⁻⁶)(100)² = 0.02 J."
+}
+},
+"phy17106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Electrons enter from Earth while the positive rod is nearby and remain after the earth connection is broken."
+}
+},
+"phy17108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Mica is a suitable insulating dielectric for capacitors."
+}
+},
+"phy18100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "I = 1.5/(2.5 + 0.5) = 0.5 A; terminal p.d. = IR = 1.25 V."
+}
+},
+"phy18101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "At constant temperature, current through an ohmic metallic conductor is directly proportional to its applied potential difference."
+}
+},
+"phy23100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy23101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy23102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy23103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy23105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy23106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy23107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0000": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0001": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0002": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0003": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0200": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0202": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0203": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0300": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phyv0301": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "H = (24 sin 30°)²/(2 × 10) = 7.2 m."
+}
+},
+"phyv0302": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "300 rev/min = 5 rev/s, so ω = 10π rad/s."
+}
+},
+"phyv0303": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "tan θ = v²/(rg) = 400/500 = 0.80."
+}
+},
+"phyv0400": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The wall exerts an equal, opposite 50 N force on Chidi."
+}
+},
+"phyv0401": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "v = Ft/m = (20 × 0.5)/4 = 2.5 m/s."
+}
+},
+"phyv0403": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "t = mu/F = (800 × 20)/2000 = 8 s."
+}
+},
+"phyv0500": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Average power = mgh/t = (60 × 10 × 4)/8 = 300 W."
+}
+},
+"phyv0501": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "F = mv²/(2d) = 6000 N."
+}
+},
+"phyv0502": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "v = √(2gh) = √25 = 5 m/s."
+}
+},
+"phyv0503": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Useful power is 5000 W; input power is 5000/0.80 = 6250 W."
+}
+},
+"phyv0600": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Limiting friction is the maximum static friction immediately before sliding."
+}
+},
+"phyv0601": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Effort = (450 × 0.3)/1.2 = 112.5 N."
+}
+},
+"phyv0602": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "μ = 20/(5 × 10) = 0.4."
+}
+},
+"phyv0603": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Efficiency = (480/100)/6 × 100% = 80%."
+}
+},
+"phyv0700": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The stated direct proportionality is the standard UTME formulation of Hooke’s law."
+}
+},
+"phyv0701": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "k = 40/0.08 = 500 N/m."
+}
+},
+"phyv0702": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Parallel spring constants add: 250 + 250 = 500 N/m."
+}
+},
+"phyv0703": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "E = FL/(Ae) = 2.0 × 10¹¹ N/m²."
+}
+},
+"phyv0800": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The area is 5 × 10⁻⁸ m², giving P = 5 × 10⁷ N/m²."
+}
+},
+"phyv0801": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "P = ρgh = 13600 × 10 × 0.76 = 1.0336 × 10⁵ N/m²."
+}
+},
+"phyv0802": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Apparent weight = 0.45(10) − 800(60 × 10⁻⁶)(10) = 4.02 N."
+}
+},
+"phyv0803": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Wax density is 800 kg/m³; the fraction above the oil is 1 − 800/880 = 1/11."
+}
+},
+"phyv0900": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Absolute zero is approximately −273 °C."
+}
+},
+"phyv0901": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Expansion = 2.0(1.9 × 10⁻⁵)(80) = 3.04 × 10⁻³ m."
+}
+},
+"phyv0902": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Using the standard area-expansion approximation, ΔA = 0.25(2 × 2.0 × 10⁻⁵)(100) = 1.0 × 10⁻³ m²."
+}
+},
+"phyv0903": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Brass expands more and forms the outer curve, so the strip bends towards iron."
+}
+},
+"phyv1000": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Boyle’s law gives P₂ = 100(600/300) = 200 kPa."
+}
+},
+"phyv1001": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "V₂ = 2.0(1.0/2.0)(450/300) = 1.5 litres."
+}
+},
+"phyv1002": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "n = 8/32 = 0.25 mol; V = nRT/P ≈ 3.12 × 10⁻³ m³."
+}
+},
+"phyv1003": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "T₂/T₁ = (P₂V₂)/(P₁V₁) = (P/2)(3V)/(PV) = 1.5."
+}
+},
+"phyv1100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "It correctly defines heat required per unit mass per degree of temperature rise, without a change of state."
+}
+},
+"phyv1101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "c = 14,400/[0.4(100 − 20)] = 450 J kg⁻¹ K⁻¹."
+}
+},
+"phyv1102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "L = Q/m = (5.65 × 10⁵)/0.25 = 2.26 × 10⁶ J kg⁻¹."
+}
+},
+"phyv1103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Heat balance gives 1.5(4200)(30 − T) = 0.5(336000) + 0.5(4200)T, hence T = 2.5 °C."
+}
+},
+"phyv1200": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Conduction through a metal involves energy transfer by particle vibrations and free electrons."
+}
+},
+"phyv1201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Heat-flow rate = kAΔT/L = 400(2.0 × 10⁻⁴)(80)/0.50 = 12.8 W."
+}
+},
+"phyv1202": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Heated water generally becomes less dense and rises, establishing convection currents."
+}
+},
+"phyv1203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "For the stated point-source model, doubling distance reduces intensity to (2/4)² = 1/4."
+}
+},
+"phyv1300": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "f = 1/T = 1/0.02 = 50 Hz."
+}
+},
+"phyv1301": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The wave equation gives v = fλ = 25(2) = 50 m/s."
+}
+},
+"phy20104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy20105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy20106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy20107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy20108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy21100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy21101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy21103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy21104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy21105": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "Using the stated π = 3.14 gives k = 315.5072 N/m, or 315.5 N/m to one decimal place, not the explanation's 315.6 N/m. C remains the nearest option."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": "k = 4π²m/T² = 4(3.14)²(2)/0.25 ≈ 315.5 N/m. The 315.6 in the key is a minor rounding difference and still clearly the intended option."
+}
+},
+"phy21106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy21108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy22101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy22102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phy22103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy22104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"phy22105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy22106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"phy22107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"phy22108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"phyv1802": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "I = 3.0/(2.6 + 0.4) = 1.0 A."
+}
+},
+"phyv1900": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Energy = 0.040 kW × 6 h = 0.24 kWh."
+}
+},
+"phyv1901": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Total energy is 0.5 + 0.5 + 0.3 = 1.3 kWh; cost is ₦78."
+}
+},
+"phyv1902": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "At fixed resistance, P = V²/R, so doubling V quadruples P."
+}
+},
+"phyv1903": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The 80 W difference over 240 hours saves 19.2 kWh, or ₦960."
+}
+},
+"phyv2000": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Magnetic field lines form closed loops, running north to south outside the magnet."
+}
+},
+"phyv2001": {
+"a": {
+"ans": "X",
+"v": "garbled",
+"r": "The rod’s orientation is unspecified. BLv applies only when its length is aligned with v × B; motion perpendicular to the field alone does not determine the EMF between its ends."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": "E = BLv = 0.25 × 0.8 × 5 = 1.0 V. The key is correct."
+}
+},
+"phyv2002": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Average EMF = 200(0.008 − 0.002)/0.3 = 4.0 V."
+}
+},
+"phyv2003": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "F = BIL sin 30° = 0.45 N."
+}
+},
+"phyv2100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "In SHM, acceleration is proportional to displacement and directed towards equilibrium."
+}
+},
+"phyv2101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "L = gT²/(4π²) = 1.0 m."
+}
+},
+"phyv2102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "v = (π/2)√(10² − 6²) = 12.56 cm/s."
+}
+},
+"phyv2103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "T = 3.2√(10/1.6) = 8.0 s."
+}
+},
+"phyv2200": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Alpha radiation has the greatest ionising power and least penetrating power of those listed."
+}
+},
+"phyv2201": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Three half-lives leave 800/2³ = 100 g."
+}
+},
+"phyv2202": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "λ = 0.693/20 = 0.03465 per day, or 0.035 to three decimal places."
+}
+},
+"phyv2203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "12.5% is one-eighth, representing three half-lives: 17,190 years."
+}
+},
+"phyv2300": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "W₀ is the metal’s work function."
+}
+},
+"phyv2303": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The maximum kinetic energy is 2.6 eV, giving a speed of approximately 9.6 × 10⁵ m/s."
+}
+},
+"phyv1302": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Sound requires a material medium; electromagnetic radio waves can travel through a vacuum."
+}
+},
+"phyv1303": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The frequency remains 500 Hz, so the wavelength in water is 1500/500 = 3 m."
+}
+},
+"phyv1400": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Sound travels to the wall and back; the minimum distance is 340 × 0.1/2 = 17 m."
+}
+},
+"phyv1401": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "For a closed pipe, f = v/(4L) = 340/(4 × 0.425) = 200 Hz."
+}
+},
+"phyv1402": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Successive resonances differ by half a wavelength: λ = 2(0.46 − 0.12) = 0.68 m, giving f = 500 Hz."
+}
+},
+"phyv1403": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The first echo comes from the nearer cliff, at 340 × 2/2 = 340 m."
+}
+},
+"phyv1500": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Incidence along the normal gives an angle of incidence, and hence reflection, of 0°."
+}
+},
+"phyv1501": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The mirror formula gives a virtual image 30 cm behind the mirror; its distance magnitude is 30 cm."
+}
+},
+"phyv1502": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The minimum plane-mirror length for a full-length view is half the person's height: 0.8 m."
+}
+},
+"phyv1503": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "With f = −12 cm and u = 18 cm, the stated convention gives v = −7.2 cm."
+}
+},
+"phyv1600": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The relative refractive index is sin i/sin r."
+}
+},
+"phyv1601": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Snell's law gives sin r = 0.80/1.6 = 0.5, so r = 30°."
+}
+},
+"phyv1602": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "sin C = 1/(4/3) = 0.75, so C ≈ 48.6°."
+}
+},
+"phyv1603": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The image distance is 30 cm, giving magnification 30/15 = 2 and image-height magnitude 4 cm."
+}
+},
+"phyv1700": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Doubling the separation halves capacitance; with charge fixed, the potential difference doubles."
+}
+},
+"phyv1701": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Parallel capacitances add: 4 + 5 + 6 = 15 microfarads."
+}
+},
+"phyv1702": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Coulomb's law gives F = (9 × 10⁹)(2 × 10⁻⁶)(3 × 10⁻⁶)/(0.3)² = 0.6 N."
+}
+},
+"phyv1703": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The dielectric quadruples capacitance while charge stays fixed, reducing voltage to 200/4 = 50 V."
+}
+},
+"phyv1800": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Ohm's law gives V = IR = 0.8 × 15 = 12 V."
+}
+},
+"phyv1801": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The parallel pair has resistance 4.8 ohms; adding 5 ohms in series gives 9.8 ohms."
+}
+}
+}

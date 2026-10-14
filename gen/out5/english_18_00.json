@@ -1,0 +1,163 @@
+{
+"subject": "english",
+"topic": "Comprehension: a short original passage with one question on meaning, inference or the writer's attitude",
+"ti": 18,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Read the passage and answer the question that follows:\n\nMost Nigerian farmers still depend on rainfall for their crops. When the rains fail or come late, the harvest suffers and food prices rise. Agricultural experts have long advised that irrigation schemes be built across the country to reduce this dependence on the weather. Yet, many of these schemes remain uncompleted years after they were started, while farmers continue to watch the sky with anxiety each planting season.\n\nWhat is the writer's attitude towards the state of irrigation schemes in the passage?",
+"options": [
+"Indifferent, since the farmers' situation does not concern him",
+"Disapproving, because the schemes have been neglected despite their importance",
+"Optimistic, believing the schemes will soon be completed",
+"Amused by the farmers' continued reliance on rainfall"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The writer points out that the schemes remain uncompleted years after starting, which shows disapproval of the neglect. There is no hint of indifference, optimism, or amusement in the tone.",
+"values": null,
+"id": "engx18000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di writer no happy sake of say di irrigation projects never finish after so many years. E show say e no like how dem neglect di work even though e dey important for farmers."
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nIn many Nigerian markets, bargaining is not merely about reducing price; it is a social ritual that builds relationships between buyer and seller. A buyer who refuses to haggle may be seen as proud or unfriendly, while one who bargains skilfully often earns the trader's respect and sometimes a discount beyond the agreed price.\n\nWhat does the word RITUAL mean as used in the passage?",
+"options": [
+"A religious ceremony performed in the market",
+"A customary practice carried out in a particular way",
+"A rare and unusual event",
+"A secret agreement between two people"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In this context, ritual refers to a customary social practice, bargaining, that is regularly carried out in a set manner. It is not about religion, rarity, or secrecy here.",
+"values": null,
+"id": "engx18002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For dis passage, ritual mean di way pipo dey do tins as custom for market. E no mean say na religion or secret tin, na just how dem dey bargain for price."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Read the passage and answer the question that follows:\n\nChidi had always believed that success came only through hard work. But after watching his lazy cousin win a scholarship through sheer luck, he began to wonder whether effort truly mattered. He still woke up early to study, yet a small doubt now lived quietly in his mind, refusing to go away.\n\nWhat can be INFERRED about Chidi from the passage?",
+"options": [
+"He has completely abandoned his belief in hard work",
+"He has stopped studying because of his cousin's luck",
+"His confidence in hard work has been shaken but not destroyed",
+"He is jealous and wishes his cousin had failed",
+"",
+""
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The passage says a doubt now lives in his mind, yet he still wakes up early to study, showing his belief is shaken but still present. The other options claim a complete change that the passage does not support.",
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Read the passage and answer the question that follows:\n\nThe new principal introduced a strict dress code, insisting that every student arrive in complete uniform or be sent home. Some teachers argued this was too harsh for a school with many poor students who could barely afford one set of uniform, let alone a spare. The principal, however, maintained that discipline begins with appearance, and refused to relax the rule.\n\nWhich of the following best describes the writer's presentation of the principal?",
+"options": [
+"As a reasonable leader who considers every student's circumstances",
+"As a rigid figure who prioritizes discipline over students' hardship",
+"As a corrupt official misusing his position",
+"As an indifferent leader who has no opinion on uniforms",
+"",
+""
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The passage shows the principal refusing to relax the rule despite knowing some students are poor, which paints him as rigid and focused on discipline above hardship. There is no suggestion of corruption or indifference; he clearly holds a firm opinion.",
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Read the passage and answer the question that follows:\n\nAdaeze spent three years saving money to start her tailoring business. On the day she finally opened her shop, a fire from a neighbouring stall spread and destroyed everything inside, including her new sewing machines. Passers-by expected her to weep, but she simply swept the ashes, thanked God she was alive, and began planning how to start again.\n\nWhat can be inferred about Adaeze's character from the passage?",
+"options": [
+"She is resilient and does not easily give up in the face of loss",
+"She is careless about her business and its risks",
+"She is indifferent to the success of her tailoring shop",
+"She blames her neighbours for the fire and seeks revenge",
+"",
+""
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Despite losing everything, Adaeze remains calm, grateful to be alive, and immediately begins planning to restart, which shows resilience. The passage gives no evidence of carelessness, indifference, or a desire for revenge.",
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Read the passage and answer the question that follows:\n\nMany young graduates today prefer white-collar jobs to skilled trades, even when trades offer better pay. A plumber in Lagos may earn more in a month than a junior bank clerk, yet few graduates consider such work dignified enough for their certificates. This mindset, inherited from colonial times when manual labour was looked down upon, continues to limit the choices many young Nigerians make.\n\nWhat is the main point the writer is making in the passage?",
+"options": [
+"Plumbing is a more profitable career than banking in all cases",
+"Outdated attitudes about manual work discourage graduates from considering profitable trades",
+"Bank clerks earn less money than they deserve",
+"Colonial history has no influence on modern Nigerian career choices",
+"",
+""
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The passage links the graduates' avoidance of skilled trades to an inherited colonial mindset, making this the central idea. The comparison between a plumber and a bank clerk is only an example, not a general claim about all cases.",
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Read the passage and answer the question that follows:\n\nTunde had promised his younger sister he would attend her graduation, but an urgent meeting at work clashed with the date. He agonized over the decision for days, rearranging his calendar repeatedly, before finally informing his boss that he could not miss his sister's special day no matter the cost to his career.\n\nWhat does the passage suggest about Tunde's priorities?",
+"options": [
+"He values his career far above his family relationships",
+"He struggles between work and family but ultimately chooses family",
+"He is indecisive and never makes firm decisions",
+"He resents his sister for putting him in a difficult position",
+"",
+""
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Although Tunde agonizes and rearranges his calendar, he eventually decides firmly to attend his sister's graduation despite the career risk. This shows a struggle followed by a clear choice in favour of family, not indecision or resentment.",
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Read the passage and answer the question that follows:\n\nThe committee had debated the proposal for months without reaching an agreement. Some members wanted immediate implementation, fearing further delay would cost the community dearly, while others insisted that rushing such an important decision would be reckless. In the end, the chairman postponed the vote yet again, saying more consultation was needed, a response many found utterly PREDICTABLE given his history of caution.\n\nWhat does the word PREDICTABLE suggest about the chairman's behaviour as used in the passage?",
+"options": [
+"It was surprising and out of character for him",
+"It was expected, based on how he usually behaves",
+"It was dishonest and aimed at deceiving the committee",
+"It was accidental and not a deliberate choice",
+"",
+""
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The passage states the chairman has a history of caution, so his decision to postpone again was not surprising but rather expected. Predictable here means it matched his known pattern of behaviour.",
+"values": null
+},
+"why": "bad-shape"
+}
+]
+}

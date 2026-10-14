@@ -1,0 +1,231 @@
+{
+"subject": "physics",
+"topic": "Current electricity: Ohm's law, resistors in series and parallel, e.m.f.",
+"ti": 18,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A wire of resistance R carries a current of 2 A when a potential difference of 8 V is applied across it. What is the resistance of the wire?",
+"options": [
+"0.25 ohm",
+"4 ohm",
+"6 ohm",
+"16 ohm"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "By Ohm's law, R = V/I = 8/2 = 4 ohms.",
+"py": "8/2",
+"values": [
+0.25,
+4,
+6,
+16
+],
+"id": "phyx18000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Ohm's law talk say R = V/I. If you divide 8 V by 2 A, you go get 4 ohms."
+},
+{
+"q": "Four resistors, each of resistance 8 ohms, are connected in parallel. What is the effective resistance of the combination?",
+"options": [
+"32 ohm",
+"8 ohm",
+"4 ohm",
+"2 ohm"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "For n identical resistors in parallel, effective resistance = R/n = 8/4 = 2 ohms.",
+"py": "8/4",
+"values": [
+32,
+8,
+4,
+2
+],
+"id": "phyx18001",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you get n identical resistors for parallel, you just divide R by n. So, 8 divided by 4 go give you 2 ohms."
+},
+{
+"q": "A resistor of 5 ohms is connected in series with a parallel combination of a 6-ohm and a 3-ohm resistor. Find the total resistance of the network.",
+"options": [
+"7 ohm",
+"9 ohm",
+"14 ohm",
+"2 ohm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The parallel part gives (6x3)/(6+3) = 2 ohms. Adding the series resistor gives 5 + 2 = 7 ohms.",
+"py": "5 + (6*3)/(6+3)",
+"values": [
+7,
+9,
+14,
+2
+],
+"id": "phyx18002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "First, calculate the parallel part: (6x3)/(6+3) na 2 ohms. When you add the 5 ohms wey dey series, you go get 7 ohms total."
+},
+{
+"q": "Chidinma wants to use three identical resistors, each of 12 ohms, to obtain an effective resistance of 18 ohms. How should she connect them?",
+"options": [
+"Connect all three in series",
+"Connect all three in parallel",
+"Connect two in parallel, then the combination in series with the third",
+"Connect two in series, then the combination in parallel with the third"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Two 12-ohm resistors in parallel give 6 ohms; adding the third in series gives 6 + 12 = 18 ohms, which matches the required value.",
+"py": null,
+"values": null,
+"id": "phyx18003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you put two 12-ohm resistors for parallel, you go get 6 ohms. Add the third 12-ohm resistor for series, 6 plus 12 go give you 18 ohms."
+},
+{
+"q": "A battery of e.m.f. E and negligible internal resistance is connected to a 10-ohm resistor, producing a current of 0.6 A. If the same battery is connected to a 20-ohm resistor instead, what current will flow?",
+"options": [
+"0.15 A",
+"0.3 A",
+"0.6 A",
+"1.2 A"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since internal resistance is negligible, E = IR = 0.6 x 10 = 6 V. With 20 ohms, I = E/R = 6/20 = 0.3 A.",
+"py": "(0.6*10)/20",
+"values": [
+0.15,
+0.3,
+0.6,
+1.2
+],
+"id": "phyx18004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "First, find the e.m.f. E = IR = 0.6 x 10 = 6 V. Now, use the 20-ohm resistor: I = 6/20, wey be 0.3 A."
+},
+{
+"q": "In the circuit shown, a 6-ohm resistor is connected in parallel with a 3-ohm resistor, and this combination is connected across a battery of e.m.f. 9 V with negligible internal resistance. What is the current supplied by the battery?",
+"options": [
+"1.5 A",
+"3.0 A",
+"4.5 A",
+"9.0 A"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The parallel combination gives (6x3)/(6+3) = 2 ohms. Current from battery = V/R = 9/2 = 4.5 A.",
+"py": "9/((6*3)/(6+3))",
+"values": [
+1.5,
+3.0,
+4.5,
+9.0
+],
+"id": "phyx18005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The parallel combination of 6 ohms and 3 ohms give 2 ohms. Current na V/R, so 9 divided by 2 go give you 4.5 A."
+},
+{
+"q": "Which of the following best explains why the terminal potential difference of a battery is always less than its e.m.f. when the battery is delivering current to a circuit?",
+"options": [
+"Some energy is lost as light in the connecting wires",
+"Part of the e.m.f. is used to overcome the internal resistance of the battery",
+"The e.m.f. of a battery decreases permanently as soon as current flows",
+"Resistors in the external circuit generate their own opposing e.m.f."
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A real battery has internal resistance, so part of its e.m.f. is dropped inside it as heat (Ir), leaving a smaller terminal voltage for the external circuit.",
+"py": null,
+"values": null,
+"id": "phyx18006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Battery get small internal resistance inside am. Part of the e.m.f. go waste as heat inside the battery before the current reach the outside circuit."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Two resistors of 4 ohms and 12 ohms are first connected in series across a 24 V battery of negligible internal resistance, and then reconnected in parallel across the same battery. What is the ratio of the power dissipated in the parallel arrangement to the power dissipated in the series arrangement?",
+"options": [
+"1 : 1",
+"3 : 1",
+"9 : 1",
+"16 : 1"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Series resistance = 16 ohms, power = V^2/R = 576/16 = 36 W. Parallel resistance = (4x12)/16 = 3 ohms, power = 576/3 = 192 W. Ratio = 192/36 = 16/3... recompute: 192/36 = 5.33, so ratio is actually 16:3; check options again, closest exact match is 16:1 is wrong, use computed value.",
+"py": "(24**2/((4*12)/(4+12)))/(24**2/(4+12))",
+"values": [
+1,
+3,
+9,
+5.333333333333333
+],
+"id": "phyx18007",
+"check": {
+"s1": "X",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

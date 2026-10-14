@@ -1,0 +1,200 @@
+{
+"subject": "geography",
+"topic": "Earth movements: folding, faulting, earthquakes and vulcanicity",
+"ti": 6,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A block of land that is forced upward between two parallel normal faults, standing higher than the land on either side, is called a",
+"options": [
+"Horst",
+"Graben",
+"Syncline",
+"Dome"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "When the land between two faults is pushed up relative to the surrounding blocks, it forms a horst. A graben is the opposite, a sunken block between faults.",
+"py": null,
+"values": null,
+"id": "geox06000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When land block go up between two faults, we dey call am horst. If the land block come sink down, na graben be that."
+},
+{
+"q": "Which of the following is the BEST evidence that a rock mass has undergone faulting rather than folding?",
+"options": [
+"The rock layers are bent into wave-like curves without breaking",
+"The rock layers show a visible crack with one side displaced relative to the other",
+"The rock layers become more compact and denser without cracking",
+"The rock layers are tilted gently in one direction only"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Faulting involves a break (fracture) in rock strata followed by displacement of the blocks along the crack. Folding, by contrast, bends rock layers without breaking them.",
+"py": null,
+"values": null,
+"id": "geox06001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Faulting mean say rock break and move from im original position. Folding just dey bend rock like cloth without breaking am."
+},
+{
+"q": "A town built directly on a volcanic cone is most likely to experience fertile soils over time mainly because",
+"options": [
+"lava flows cool the surrounding air and increase rainfall",
+"weathered volcanic ash and lava are rich in minerals that enrich the soil",
+"volcanic eruptions clear away existing poor soils completely",
+"the steep slopes of volcanoes prevent soil erosion"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Volcanic materials such as ash and lava contain minerals like potassium and phosphorus which, after weathering, make surrounding soils very fertile. This is why many volcanic regions support rich agriculture.",
+"py": null,
+"values": null,
+"id": "geox06002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Volcano ash and lava get plenty minerals like potassium. When dem weather finish, dem dey make the soil very good for farming."
+},
+{
+"q": "The point on the Earth's surface directly above the origin of an earthquake, where shock waves are first felt and are usually most destructive, is known as the",
+"options": [
+"Focus",
+"Epicentre",
+"Fault line",
+"Seismic zone"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The focus is the actual point inside the Earth where the earthquake originates, while the epicentre is the point on the surface directly above it. The epicentre experiences the strongest shaking.",
+"py": null,
+"values": null,
+"id": "geox06003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Focus na the point inside ground where earthquake start. The epicentre na the point wey dey direct top of the focus for surface."
+},
+{
+"q": "A geography student observes a landscape where molten rock cooled slowly far below the surface and was later exposed after millions of years of erosion removed the overlying rock. This landform is best described as a product of",
+"options": [
+"Extrusive vulcanicity",
+"Intrusive vulcanicity",
+"Normal faulting",
+"Lateral compression folding"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Intrusive vulcanicity occurs when magma cools and solidifies beneath the Earth's surface, forming features like batholiths that are only exposed later after overlying rocks are eroded away. Extrusive vulcanicity instead involves magma reaching the surface directly.",
+"py": null,
+"values": null,
+"id": "geox06004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Intrusive vulcanicity happen when magma cool down inside ground. After long time, erosion go comot the top rock make the landform show."
+},
+{
+"q": "In a region undergoing tension (stretching) of the Earth's crust, two parallel faults develop and the central block slips downward relative to the blocks on either side. Over millions of years, this sunken valley may be occupied by a river or lake. This landform is called a",
+"options": [
+"Rift valley (graben)",
+"Block mountain",
+"Anticline",
+"Volcanic caldera"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A rift valley, also called a graben, forms when a central block of land drops down between two parallel faults due to tensional forces. The East African Rift Valley is a classic real-world example.",
+"py": null,
+"values": null,
+"id": "geox06005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When land block sink down between two parallel faults, we dey call am rift valley or graben. Na tension force dey cause this one."
+},
+{
+"q": "At a seismic monitoring station in Abuja, geologists recorded that an earthquake's secondary (S) waves arrived 8 minutes after the primary (P) waves. If the time difference increases by 1 minute for roughly every 125 km of distance from the epicentre to the station, how far was the station from the epicentre?",
+"options": [
+"625 km",
+"750 km",
+"1000 km",
+"1125 km"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Multiply the time difference by the distance covered per minute: 8 minutes multiplied by 125 km gives 1000 km. This method uses the known lag between P and S wave arrival times to estimate distance to the epicentre.",
+"py": "8*125",
+"values": [
+625,
+750,
+1000,
+1125
+],
+"id": "geox06006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If 1 minute equal 125 km, then 8 minutes go be 8 times 125. That one give us 1000 km as the distance."
+},
+{
+"q": "Which of these best explains why earthquakes and volcanic eruptions are commonly found along the same narrow belts on the Earth's surface, such as the Pacific Ring of Fire?",
+"options": [
+"Both are caused by heavy rainfall weakening the crust in those belts",
+"Both occur mainly where ocean currents are strongest",
+"Both result from the movement and interaction of tectonic plates at their boundaries",
+"Both are caused by human activities such as mining and construction"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Tectonic plate boundaries are zones of intense crustal stress where plates collide, separate, or slide past one another, triggering both earthquakes and volcanic activity. This explains why these two phenomena cluster along the same belts like the Pacific Ring of Fire.",
+"py": null,
+"values": null,
+"id": "geox06007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Earthquake and volcano dey happen for same place because of tectonic plate movement. Where plates dey meet or pull apart, stress dey high."
+}
+],
+"rejected": []
+}

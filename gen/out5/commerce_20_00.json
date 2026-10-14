@@ -1,0 +1,194 @@
+{
+"subject": "commerce",
+"topic": "Business environment, ethics and social responsibility",
+"ti": 20,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the 'technological environment' as a component of the external business environment that a Nigerian soap manufacturer must monitor?",
+"options": [
+"Changes in machinery, production methods and innovations that affect how goods are made and distributed",
+"The level of literacy and age distribution of the workforce in the host community",
+"The amount of capital contributed by shareholders of the company",
+"The rules guiding the internal promotion of staff within the firm"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The technological environment covers advances in machinery, methods and innovations affecting production and distribution. The other options describe social, financial and internal management matters, not technology.",
+"py": null,
+"values": null,
+"id": "comx20000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na technological environment dey cover machine advances, methods and innovations wey dey affect how goods dey made and distributed. Na only technology this one talk about, no be social, financial or internal management matter."
+},
+{
+"q": "A plastics company in Onitsha discovers that a new government regulation now requires all manufacturers to obtain an environmental compliance certificate before operating. This regulation belongs to which aspect of the business environment?",
+"options": [
+"Economic environment",
+"Political-legal environment",
+"Socio-cultural environment",
+"Demographic environment"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Government laws and regulations controlling business operations fall under the political-legal environment. It is not about income levels, culture or population structure.",
+"py": null,
+"values": null,
+"id": "comx20001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Government laws and regulations wey dey control business operations na under political-legal environment. E no get anything to do with income level, culture or population structure."
+},
+{
+"q": "Which of the following is the most accurate reason why business ethics is important to a firm's long-term survival?",
+"options": [
+"It guarantees that the firm will never make a loss",
+"It helps build trust and a good reputation with customers, suppliers and regulators",
+"It eliminates the need for the firm to pay company income tax",
+"It allows the firm to ignore consumer protection laws legally"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ethical conduct builds trust and reputation, which encourages customer loyalty and smooth dealings with stakeholders. It does not remove tax obligations or guarantee profits.",
+"py": null,
+"values": null,
+"id": "comx20002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Ethical conduct dey help build trust and good reputation, wey come make customers loyal and business smooth with everybody. E no mean say company no go pay tax or say profit dey guaranteed."
+},
+{
+"q": "A beverage company in Ibadan is found to be under-declaring the sugar content on its product labels to appear healthier than competitors. This practice is best described as a violation of which area of business ethics?",
+"options": [
+"Ethics in pricing policy",
+"Ethics in advertising and product information",
+"Ethics in employee welfare",
+"Ethics in environmental conservation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Misrepresenting product content on labels is a breach of honesty in advertising and product information. It has nothing to do with pricing, staff welfare or the environment directly.",
+"py": null,
+"values": null,
+"id": "comx20003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To dey lie about product content for label na breach of honesty for advertising and product information. E no concern pricing, staff welfare or environment directly."
+},
+{
+"q": "Which of the following actions by a company would be classified as discharging its ECONOMIC responsibility under corporate social responsibility, rather than its legal or philanthropic responsibility?",
+"options": [
+"Producing goods and services efficiently to earn profit and remain viable",
+"Obeying the minimum wage law set by government",
+"Donating relief materials to flood victims",
+"Complying with product safety standards set by regulators"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The economic responsibility is simply to produce goods profitably and remain a going concern. Obeying laws is a legal responsibility while donations are philanthropic responsibility.",
+"py": null,
+"values": null,
+"id": "comx20004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Economic responsibility na just to produce goods profitably and remain business going. To obey laws na legal responsibility, while gifts and donations na philanthropic responsibility."
+},
+{
+"q": "A cement factory in Benue consistently dumps untreated waste into a nearby river, harming fish farmers downstream, yet the factory pays its taxes and workers' salaries regularly. Which statement best evaluates the factory's conduct from a social responsibility standpoint?",
+"options": [
+"The factory is fully socially responsible since it meets its legal and economic duties",
+"The factory is socially irresponsible because it neglects its responsibility to the environment and host community",
+"The factory's conduct is acceptable because environmental matters are not part of social responsibility",
+"The factory cannot be judged until it stops paying taxes"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Meeting legal and economic duties alone does not make a firm socially responsible if it harms the environment and community; true social responsibility covers all stakeholders, including the environment. Paying tax and wages does not excuse pollution.",
+"py": null,
+"values": null,
+"id": "comx20005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Even if company dey pay tax and wages, to dey pollute environment and harm community mean say dem no socially responsible. True social responsibility cover everybody and everything, including nature."
+},
+{
+"q": "Which of the following best illustrates how a change in the ECONOMIC environment (such as a sharp rise in exchange rate) can directly affect a Nigerian company that imports raw materials?",
+"options": [
+"The company's cost of production rises, forcing it to increase product prices or reduce output",
+"The company automatically becomes exempted from import duties",
+"The company's workers gain an automatic right to form a trade union",
+"The company is legally required to relocate its factory abroad"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A rise in exchange rate makes imported raw materials more expensive in naira terms, raising production cost and often forcing price increases or output cuts. The other options are unrelated consequences of exchange rate changes.",
+"py": null,
+"values": null,
+"id": "comx20006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When exchange rate rise, imported raw materials go cost more money for naira, and this go increase production cost. E fit force company to increase price or reduce how much goods dem dey produce."
+},
+{
+"q": "A company's management argues that since shareholders bear all the financial risk, the firm's only responsibility is to maximise shareholder profit, with no duty to employees, consumers or the community. This view is most closely associated with which position on social responsibility?",
+"options": [
+"The stakeholder theory of social responsibility",
+"The traditional (classical) shareholder-only view of social responsibility",
+"Carroll's four-part pyramid of social responsibility",
+"The triple bottom line approach to social responsibility"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The classical or shareholder-only view holds that a firm's sole social responsibility is to maximise profit for its owners. Stakeholder theory, Carroll's pyramid and the triple bottom line all require broader responsibility to employees, consumers, community and environment.",
+"py": null,
+"values": null,
+"id": "comx20007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na classical or shareholder-only view talk say company sole work na to make profit for owners. Other theories talk say company must care about workers, customers, community and environment."
+}
+],
+"rejected": []
+}

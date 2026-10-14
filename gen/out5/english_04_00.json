@@ -1,0 +1,197 @@
+{
+"subject": "english",
+"topic": "Tenses and verb forms",
+"ti": 4,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best completes the gap. By the end of this academic session, Ngozi _______ in this school for exactly six years.",
+"options": [
+"will teach",
+"will have taught",
+"will be teaching",
+"has taught"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "An action continuing up to a specific point in the future is expressed with the future perfect tense, will have taught. The phrase by the end of this session signals a completed duration at a future time.",
+"py": null,
+"values": null,
+"id": "engx04000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you wan talk about something wey go don finish for future, you must use future perfect. Since the time never reach, 'will have taught' na the correct one."
+},
+{
+"q": "Choose the option that best completes the gap. Scarcely _______ the examination officer sealed the envelope when a loud knock startled everyone in the hall.",
+"options": [
+"did",
+"had",
+"has",
+"was"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The inverted structure 'Scarcely had...when' requires the past perfect auxiliary had. This shows one past action was completed just before another past action occurred.",
+"py": null,
+"values": null,
+"id": "engx04001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you use 'Scarcely', you must follow am with 'had'. Na the correct way to show say one action happen before another one for past."
+},
+{
+"q": "Choose the option that best completes the gap. The watchman _______ the gate every night before the family returns from Lagos.",
+"options": [
+"locking",
+"is locking",
+"locks",
+"locked"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A habitual action that happens regularly is expressed with the simple present tense, so locks is correct. The phrase every night confirms the habitual nature of the action.",
+"py": null,
+"values": null,
+"id": "engx04002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because the man dey lock the gate every night, na simple present tense you go use. 'Locks' show say na wetin e dey do always."
+},
+{
+"q": "Choose the option that best completes the gap. My uncle suggested that the contractor _______ the bad road before the rainy season begins.",
+"options": [
+"repairs",
+"repair",
+"repaired",
+"will repair"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "After verbs of suggestion like suggested, the subjunctive mood requires the base form of the verb regardless of the subject, so repair is correct. This is often called the mandative subjunctive.",
+"py": null,
+"values": null,
+"id": "engx04003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you suggest something, the verb wey follow must be the base form. No matter who the person be, just use 'repair' as e be."
+},
+{
+"q": "Choose the option that best completes the gap. Look at those dark clouds gathering; it _______ heavily before we get home.",
+"options": [
+"rains",
+"will rain",
+"is raining",
+"rained"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A prediction about the near future based on present evidence is expressed with the simple future tense, so will rain is correct. The dark clouds serve as a sign leading to the prediction.",
+"py": null,
+"values": null,
+"id": "engx04004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you see sign like dark cloud, you go use 'will rain' to talk wetin go happen. Na prediction based on wetin you dey see now."
+},
+{
+"q": "Choose the option that best completes the gap. By the time Grandma Funke clocked eighty last year, she _______ in Ibadan for over five decades.",
+"options": [
+"lived",
+"had lived",
+"was living",
+"has lived"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "An action completed before another past event needs the past perfect tense, so had lived is correct. Her living in Ibadan was completed before she clocked eighty, which is also in the past.",
+"py": null,
+"values": null,
+"id": "engx04006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Since the woman don clock eighty for past, you must use past perfect. 'Had lived' show say the action finish before the birthday reach."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap. While the students _______ their project outside, a sudden downpour forced them indoors.",
+"options": [
+"present",
+"presented",
+"were presenting",
+"had presented"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "An ongoing past action interrupted by another past action is expressed with the past continuous tense, so were presenting is correct. The downpour is the interrupting action in the simple past.",
+"py": null,
+"values": null,
+"id": "engx04005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:B is also grammatically defensible.|"
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap. The driver _______ along the Lagos-Ibadan expressway when the tyre suddenly burst.",
+"options": [
+"drove",
+"was driving",
+"has driven",
+"drives"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An action in progress at a specific past moment, interrupted by another event, requires the past continuous tense, so was driving is correct. The burst tyre interrupts the ongoing action.",
+"py": null,
+"values": null,
+"id": "engx04007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:A is also grammatically defensible.|"
+}
+]
+}

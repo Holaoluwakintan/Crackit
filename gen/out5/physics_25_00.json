@@ -1,0 +1,231 @@
+{
+"subject": "physics",
+"topic": "Alternating current: reactance, impedance, resonance and r.m.s. values",
+"ti": 25,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "An alternating current is represented by i = 5 sin(100*pi*t) amperes. What is the root-mean-square (r.m.s.) value of the current?",
+"options": [
+"1.77 A",
+"2.50 A",
+"3.54 A",
+"5.00 A"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The r.m.s value equals the peak value divided by sqrt(2). So r.m.s = 5/sqrt(2) = 3.54 A.",
+"py": "5/math.sqrt(2)",
+"values": [
+1.77,
+2.5,
+3.54,
+5.0
+],
+"id": "phyx25000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find r.m.s, na peak value divide by sqrt(2). So r.m.s = 5/sqrt(2) = 3.54 A."
+},
+{
+"q": "A pure inductor of inductance 0.2 H is connected to an a.c. source of frequency 50 Hz. Calculate the inductive reactance of the inductor. (Take pi = 3.142)",
+"options": [
+"31.4 ohms",
+"62.8 ohms",
+"10.0 ohms",
+"100.0 ohms"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Inductive reactance X_L = 2*pi*f*L = 2 x 3.142 x 50 x 0.2 = 62.8 ohms. This is the opposition offered by an inductor to alternating current.",
+"py": "2*3.142*50*0.2",
+"values": [
+31.4,
+62.8,
+10.0,
+100.0
+],
+"id": "phyx25001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Inductive reactance formula na X_L = 2*pi*f*L. If you multiply 2 x 3.142 x 50 x 0.2, you go get 62.8 ohms."
+},
+{
+"q": "A capacitor of capacitance 50 microfarads is connected to an a.c. supply of frequency 60 Hz. Determine the capacitive reactance of the capacitor. (Take pi = 3.142)",
+"options": [
+"53.1 ohms",
+"18.84 ohms",
+"0.0188 ohms",
+"188.4 ohms"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Capacitive reactance X_C = 1/(2*pi*f*C) = 1/(2 x 3.142 x 60 x 50x10^-6) = 53.1 ohms. Note that X_C decreases as frequency or capacitance increases.",
+"py": "1/(2*3.142*60*50e-6)",
+"values": [
+53.1,
+18.84,
+0.0188,
+188.4
+],
+"id": "phyx25002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Capacitive reactance na X_C = 1/(2*pi*f*C). When you calculate am with 50 microfarads and 60 Hz, e go give you 53.1 ohms."
+},
+{
+"q": "In an a.c. circuit, which of the following statements correctly describes the phase relationship between current and voltage in a circuit containing only a pure capacitor?",
+"options": [
+"Current and voltage are in phase",
+"Current leads voltage by 90 degrees",
+"Current lags voltage by 90 degrees",
+"Current leads voltage by 180 degrees"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In a purely capacitive circuit, the current reaches its peak value a quarter cycle before the voltage, so current leads voltage by 90 degrees. This is the opposite of what happens in a purely inductive circuit.",
+"py": null,
+"values": null,
+"id": "phyx25003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For pure capacitor circuit, current dey run ahead of voltage. E dey lead voltage by 90 degrees."
+},
+{
+"q": "A series circuit consists of a resistor of resistance 30 ohms connected in series with an inductor whose reactance is 40 ohms, across an a.c. source. Calculate the impedance of the circuit.",
+"options": [
+"10 ohms",
+"35 ohms",
+"50 ohms",
+"70 ohms"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "For a series R-L circuit, impedance Z = sqrt(R^2 + X_L^2) = sqrt(30^2 + 40^2) = sqrt(2500) = 50 ohms. The resistance and reactance combine as perpendicular vectors, not by simple addition.",
+"py": "math.sqrt(30**2 + 40**2)",
+"values": [
+10,
+35,
+50,
+70
+],
+"id": "phyx25004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Z = sqrt(R^2 + X_L^2) for series R-L circuit. If you put 30 ohms and 40 ohms inside, impedance go be 50 ohms."
+},
+{
+"q": "A series L-C-R circuit is at resonance when connected to an a.c. source. Which of the following statements about the circuit at resonance is correct?",
+"options": [
+"The impedance is at its maximum value and equals the resistance",
+"The inductive reactance equals the capacitive reactance and the impedance is minimum",
+"The current in the circuit is zero",
+"The capacitive reactance is greater than the inductive reactance"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "At resonance, X_L equals X_C so they cancel out, leaving the impedance equal to only the resistance, which is its minimum possible value. This causes the current in the circuit to be maximum at resonance.",
+"py": null,
+"values": null,
+"id": "phyx25006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For resonance, inductive reactance and capacitive reactance balance out. Impedance come dey at minimum value wey equal to resistance."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A series R-L-C circuit has a resistance of 20 ohms, inductive reactance of 80 ohms and capacitive reactance of 50 ohms when connected to an a.c. supply. Calculate the impedance of the circuit.",
+"options": [
+"20 ohms",
+"36.1 ohms",
+"50 ohms",
+"150 ohms"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The net reactance is X_L - X_C = 80 - 50 = 30 ohms, since inductive and capacitive reactances oppose each other. Impedance Z = sqrt(R^2 + (X_L - X_C)^2) = sqrt(20^2 + 30^2) = sqrt(1300) = 36.1 ohms.",
+"py": "math.sqrt(20**2 + (80-50)**2)",
+"values": [
+20,
+36.1,
+50,
+150
+],
+"id": "phyx25005",
+"check": {
+"s1": "B",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:C"
+},
+{
+"q": {
+"q": "An a.c. circuit contains an inductor of inductance 0.5 H connected in series with a capacitor of capacitance 20 microfarads. Calculate the resonant frequency of the circuit. (Take pi = 3.142)",
+"options": [
+"15.9 Hz",
+"50.3 Hz",
+"159.0 Hz",
+"318.0 Hz"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Resonant frequency f_0 = 1/(2*pi*sqrt(L*C)) = 1/(2 x 3.142 x sqrt(0.5 x 20x10^-6)). Computing sqrt(0.5 x 20x10^-6) = sqrt(1x10^-5) = 0.00316, giving f_0 = 1/(0.01986) = 318.0 Hz approximately.",
+"py": "1/(2*3.142*math.sqrt(0.5*20e-6))",
+"values": [
+15.9,
+50.3,
+159.0,
+318.0
+],
+"id": "phyx25007",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

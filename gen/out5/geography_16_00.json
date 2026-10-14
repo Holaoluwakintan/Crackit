@@ -1,0 +1,202 @@
+{
+"subject": "geography",
+"topic": "Economic activities: agriculture, mining and manufacturing",
+"ti": 16,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A farmer in Benue State practises a system in which crops such as yam, maize and cassava are planted together on the same piece of land at the same time. This farming practice is best described as",
+"options": [
+"mixed cropping",
+"mixed farming",
+"bush fallowing",
+"monoculture"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Growing two or more different crops together on the same plot at the same time is called mixed cropping. Mixed farming instead combines crop growing with animal rearing.",
+"py": null,
+"values": null,
+"id": "geox16000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "E dey called mixed cropping when person plant different crops together for one land for the same time. Mixed farming na when person dey do crop planting join animal rearing."
+},
+{
+"q": "Which of the following is the chief advantage of mechanized agriculture over traditional hand-tool farming in Nigeria?",
+"options": [
+"It requires less capital investment",
+"It increases output per worker by cultivating larger areas quickly",
+"It eliminates the need for fertilizer use",
+"It makes land more suitable for shifting cultivation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Machines such as tractors allow fewer workers to cultivate much larger farmlands within a short time, raising output per worker. Mechanization actually requires heavy capital investment, not less.",
+"py": null,
+"values": null,
+"id": "geox16001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "With machines like tractor, small worker fit farm big big land sharp sharp, and dis one dey increase wet worker dey produce. But make we know say machine cost money well well to buy."
+},
+{
+"q": "A tin-mining company in Jos extracted 1,800 tonnes of ore in a year. If 15% of the ore was lost as waste during processing, how many tonnes of usable ore remained?",
+"options": [
+"1,530 tonnes",
+"1,680 tonnes",
+"1,620 tonnes",
+"270 tonnes"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "15% of 1,800 is 270 tonnes lost as waste. Subtracting 270 from 1,800 leaves 1,530 tonnes of usable ore.",
+"py": "1800 - 0.15*1800",
+"values": [
+1530,
+1680,
+1620,
+270
+],
+"id": "geox16002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If 15% of 1,800 na 270 tonnes wey waste, when you minus am, wet remain na 1,530 tonnes of usable ore. Na simple math be dat."
+},
+{
+"q": "Open-cast (surface) mining method is most suitable for extracting mineral deposits that are",
+"options": [
+"found deep below thick rock layers",
+"located close to the earth's surface",
+"dissolved in underground water",
+"found only in river channels"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Open-cast mining involves removing the topsoil to expose minerals that lie near the surface, making it cheaper than digging deep shafts. Deep-seated minerals require shaft or underground mining instead.",
+"py": null,
+"values": null,
+"id": "geox16003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Open-cast mining mean say dem go remove top soil to pack minerals wey dey near ground surface, and dis one beta pass to dey dig deep underground. Na only deep minerals dem dey use underground mining for."
+},
+{
+"q": "A major problem associated with artisanal (small-scale local) mining of solid minerals in parts of Nigeria is",
+"options": [
+"overproduction leading to falling mineral prices",
+"excessive government regulation preventing any mining activity",
+"environmental damage such as land degradation and water pollution",
+"the total absence of mineral deposits in such areas"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Artisanal miners often use crude methods without proper environmental control, leading to land degradation, erosion and pollution of nearby water bodies. This is a well-known effect of unregulated small-scale mining.",
+"py": null,
+"values": null,
+"id": "geox16004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Small-scale miners dey spoil land and water body well well because dem no dey use proper method to control environmental damage. Dis one na big headache for Nigeria areas wey dem dey do mining."
+},
+{
+"q": "Which pair of industries is correctly matched as basic (heavy) industry and consumer-goods (light) industry respectively?",
+"options": [
+"Iron and steel industry; textile industry",
+"Bread bakery; cement industry",
+"Soft drink bottling; iron and steel industry",
+"Textile industry; cement industry"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Iron and steel production supplies raw materials to other industries, making it a basic industry, while textile manufacturing produces goods used directly by consumers, making it a light industry. The other pairings wrongly classify cement or bakery products.",
+"py": null,
+"values": null,
+"id": "geox16005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Iron and steel na basic industry because na dem dey supply iron materials to other industries, while textile na light industry wey dey make cloth for people to wear directly."
+},
+{
+"q": "Which of the following is the most important reason manufacturing industries are usually sited close to large urban centres such as Lagos and Kano rather than in remote rural villages?",
+"options": [
+"Rural areas lack any form of road network",
+"Urban centres provide a larger market and better supply of labour and infrastructure",
+"Raw materials are only found in cities",
+"Rural land is more expensive than urban land"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Cities offer a ready market for finished goods, a large pool of workers, and infrastructure like electricity, water and transport, all of which reduce production costs. Rural land being cheaper would actually favour rural siting, not the reverse.",
+"py": null,
+"values": null,
+"id": "geox16007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Towns like Lagos and Kano get plenty market, worker, and beta infrastructure like light and road wey company need to work well. Na dis reasons make industries like to pack go city instead of village."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A garment factory in Kano produces shirts from imported cotton fabric, buttons and thread sourced from different countries. This type of manufacturing, which depends mainly on materials brought in from outside the country, is best classified as",
+"options": [
+"agro-based industry relying on local raw materials",
+"import-substitution industry relying on imported raw materials",
+"extractive industry based on local minerals",
+"subsistence cottage industry"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Because the factory depends on imported fabric and components rather than local raw materials, it is an import-substitution type industry set up to manufacture locally what was formerly imported as finished goods. It is not agro-based since its inputs are not from local agriculture.",
+"py": null,
+"values": null,
+"id": "geox16006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Imported inputs alone do not establish import substitution.|"
+}
+]
+}

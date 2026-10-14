@@ -1,0 +1,219 @@
+{
+"subject": "physics",
+"topic": "Friction and simple machines",
+"ti": 6,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A wedge is used to split a log of wood. The wedge has a length of 15 cm and a width (thickness) of 3 cm at its thick end. What is the mechanical advantage of the wedge in terms of its velocity ratio, assuming it is an ideal machine?",
+"options": [
+"0.2",
+"2.0",
+"5.0",
+"7.5"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "For a wedge, velocity ratio equals the length of the slant divided by the width (thickness): 15/3 = 5.0. For an ideal machine, mechanical advantage equals velocity ratio, so the answer is 5.0.",
+"py": "15/3",
+"values": [
+0.2,
+2.0,
+5.0,
+7.5
+],
+"id": "phyx06000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For wedge, velocity ratio na length of slant divide by width, wey be 15 divide by 3 to get 5.0. Since na ideal machine, mechanical advantage join body come equal 5.0."
+},
+{
+"q": "Which of the following is the best explanation for why a screw jack used to lift a car has a very large velocity ratio compared to its mechanical advantage requirement?",
+"options": [
+"The screw thread converts a small rotational effort moving through a long circular path into a small linear load movement, giving a large velocity ratio",
+"The screw jack has no friction, so it does not need a large velocity ratio",
+"The load moves a greater distance than the effort in a screw jack",
+"A large velocity ratio reduces the efficiency of the screw jack to zero"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In a screw jack, the effort moves through a large circular distance (circumference of the handle) for each small linear rise of the load, so the velocity ratio is naturally very large. This large velocity ratio helps overcome friction and heavy loads with small effort.",
+"py": null,
+"values": null,
+"id": "phyx06001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For screw jack, small effort dey travel long circular distance make load move small linear distance, na him make velocity ratio big. Dis big velocity ratio dey help am carry heavy load and fight friction."
+},
+{
+"q": "In a lever system, a boy uses a uniform rod as a first-class lever to lift a load of 100 N placed 0.4 m from the fulcrum. If the boy applies his effort at a distance of 1.6 m from the fulcrum, what effort is required to just balance the load, ignoring the weight of the rod?",
+"options": [
+"10 N",
+"25 N",
+"40 N",
+"400 N"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Taking moments about the fulcrum, effort x effort arm = load x load arm, so effort x 1.6 = 100 x 0.4, giving effort = 40/1.6 = 25 N.",
+"py": "(100*0.4)/1.6",
+"values": [
+10,
+25,
+40,
+400
+],
+"id": "phyx06003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If we use moment about fulcrum, effort times 1.6 go equal 100 times 0.4. When you divide 40 by 1.6, you go get 25 N."
+},
+{
+"q": "Why does sprinkling sand on an icy or wet road help vehicles to move more safely?",
+"options": [
+"The sand melts the ice and reduces the normal reaction between the tyres and the road",
+"The sand increases the roughness of the surface, thereby increasing friction between the tyres and the road",
+"The sand reduces the weight of the vehicle acting on the road",
+"The sand acts as a lubricant that reduces friction so tyres can slide smoothly"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Sand increases the roughness between the tyre surface and the road, which increases friction. This extra friction gives better grip, reducing skidding on icy or wet roads.",
+"py": null,
+"values": null,
+"id": "phyx06004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Sand dey make road surface rough, and dis roughness dey increase friction between tyre and road. With dis extra friction, motor tyre no go slip for wet or icy road."
+},
+{
+"q": "A single fixed pulley is used by a market trader in Onitsha to lift a bag of rice weighing 200 N to the upper floor of a warehouse. If the pulley is frictionless and ideal, what effort is needed to lift the load at a steady speed, and what is the main advantage of using this pulley?",
+"options": [
+"100 N; it multiplies the force needed to lift the load",
+"200 N; it only changes the direction of the applied effort, not the magnitude",
+"400 N; it reduces the distance moved by the effort",
+"50 N; it reduces the effort needed by half"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A single fixed pulley has a velocity ratio and mechanical advantage of 1, so the effort needed equals the load, which is 200 N. Its real advantage is changing the direction of the applied force, making it easier to pull downward instead of lifting directly upward.",
+"py": null,
+"values": null,
+"id": "phyx06005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Single fixed pulley get mechanical advantage of 1, so the effort wey you need na 200 N. E main work na just to change direction of force so you fit pull down instead of lifting up."
+},
+{
+"q": "A block-and-tackle system is used to raise a load of 500 N through a height of 6 m. If an effort of 125 N is applied through a distance of 30 m, calculate the efficiency of the machine.",
+"options": [
+"25%",
+"50%",
+"80%",
+"100%"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Mechanical advantage = load/effort = 500/125 = 4. Velocity ratio = distance moved by effort/distance moved by load = 30/6 = 5. Efficiency = (mechanical advantage/velocity ratio) x 100 = (4/5) x 100 = 80%.",
+"py": "((500/125)/(30/6))*100",
+"values": [
+25,
+50,
+80,
+100
+],
+"id": "phyx06006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Mechanical advantage na 500 divide by 125, wey be 4, while velocity ratio na 30 divide by 6, wey be 5. When you calculate (4/5) times 100, efficiency go come be 80%."
+},
+{
+"q": "Which of the following correctly describes static friction as distinct from kinetic (dynamic) friction?",
+"options": [
+"Static friction acts only when a body is already sliding, while kinetic friction prevents motion from starting",
+"Static friction is the friction that opposes the start of motion between surfaces in contact and at rest, while kinetic friction opposes motion of surfaces already sliding",
+"Static friction is always greater in magnitude than kinetic friction for any pair of surfaces",
+"Static friction depends on the speed of the moving object, while kinetic friction does not"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Static friction acts between surfaces at rest and opposes the tendency of relative motion before sliding begins. Kinetic friction, on the other hand, acts once the surfaces are already sliding relative to each other and generally has a smaller value than the maximum static friction.",
+"py": null,
+"values": null,
+"id": "phyx06007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Static friction dey stop motion from starting when body still dey rest. Kinetic friction come be the one wey dey drag body when e don dey move already."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A block of mass 8 kg is placed on a rough horizontal table. The coefficient of kinetic friction between the block and the table is 0.25. If a horizontal force of 30 N is applied to the block, calculate the acceleration of the block. (Take g = 10 m/s^2)",
+"options": [
+"0.625 m/s^2",
+"1.25 m/s^2",
+"2.50 m/s^2",
+"3.75 m/s^2"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Frictional force = coefficient of friction x normal force = 0.25 x (8 x 10) = 20 N. Net force = 30 - 20 = 10 N, so acceleration = net force / mass = 10/8 = 1.25... recalculate: 10/8 = 1.25 m/s^2, so acceleration is 1.25 m/s^2.",
+"py": "(30 - 0.25*8*10)/8",
+"values": [
+0.625,
+1.25,
+2.5,
+3.75
+],
+"id": "phyx06002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

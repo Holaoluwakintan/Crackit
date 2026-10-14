@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "Trial, death, resurrection and ascension of Jesus",
+"ti": 19,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "During the trial before the Sanhedrin, the chief priests brought false witnesses against Jesus, but their testimonies could not agree. What did the High Priest finally ask Jesus directly to force an answer?",
+"options": [
+"Whether He was the Christ, the Son of the Blessed",
+"Whether He would destroy the temple in three days",
+"Whether He had healed on the Sabbath",
+"Whether He claimed to be a prophet like Moses"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The High Priest asked Jesus plainly whether He was the Christ, the Son of the Blessed, and Jesus answered 'I am'. This answer was then used as the basis to declare Him guilty of blasphemy.",
+"id": "crsx19000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "High Priest ask Jesus straight if He be Christ, the Son of God. Jesus tell am say 'I am', and na dat word dem use call am blasphemy."
+},
+{
+"q": "When Pilate found no fault in Jesus, he sent Him to another ruler because Jesus was from Galilee. Who was this ruler?",
+"options": [
+"Caiaphas",
+"Herod Antipas",
+"Annas",
+"Felix"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Pilate learnt that Jesus belonged to Herod's jurisdiction and sent Him to Herod Antipas, who was in Jerusalem at that time. Herod questioned Jesus but Jesus refused to answer him.",
+"id": "crsx19001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Pilate know say Jesus na Galilee man, so e send am go meet Herod Antipas wey dey Jerusalem dat time. Herod ask Jesus question but Jesus no answer am at all."
+},
+{
+"q": "As Jesus hung on the cross, He spoke certain words concerning those who crucified Him. What did He say about them?",
+"options": [
+"Father, forgive them, for they know not what they do",
+"Father, let Your will be done on earth",
+"It is well with my soul",
+"Vengeance belongs to the Lord"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "While dying on the cross, Jesus prayed for His killers, saying 'Father, forgive them, for they know not what they do'. This showed His spirit of forgiveness even in suffering.",
+"id": "crsx19002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When dem dey crucify Jesus, e pray for dem say make God forgive dem because dem no know wetin dem dey do. Dis show say Jesus get big heart to forgive even when e dey suffer."
+},
+{
+"q": "On the cross, Jesus made a statement that showed His mission of redemption had been fully accomplished. Which of these was that statement?",
+"options": [
+"My God, my God, why hast thou forsaken me",
+"It is finished",
+"I thirst",
+"Woman, behold thy son"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Just before He died, Jesus declared 'It is finished', showing that the work of salvation He came to do was complete. This is one of the last sayings of Jesus on the cross.",
+"id": "crsx19003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Before Jesus die, e shout say 'It is finished'. Dis mean say the work wey God send am come do for earth to save man don complete."
+},
+{
+"q": "On the evening of the resurrection day, two disciples travelling to a certain village met Jesus but did not recognise Him until He broke bread with them. Which village were they travelling to?",
+"options": [
+"Bethany",
+"Emmaus",
+"Capernaum",
+"Bethphage"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The two disciples were walking to Emmaus when the risen Jesus joined them on the road. They only recognised Him when He took bread, blessed and broke it at their meal.",
+"id": "crsx19004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The two disciples dey go Emmaus when Jesus join dem for road. Dem no know say na Jesus until e break bread give dem."
+},
+{
+"q": "On the night of His resurrection, Jesus appeared to His disciples in a locked room and showed them His hands and side. Why did He show them these wounds?",
+"options": [
+"To prove that He was truly the same Jesus who was crucified",
+"To ask them to anoint His wounds with oil",
+"To teach them how to treat the sick",
+"To show them where the soldiers had pierced Him for the first time"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Jesus showed His hands and side so the disciples would be convinced He had truly risen in the same body that was crucified, not a ghost. This removed their fear and confirmed His resurrection.",
+"id": "crsx19005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Jesus show dem e hand and e side so dem go know say na true true e rise from death. E want make dem believe say na the same body wey dem crucify, no be ghost."
+},
+{
+"q": "Before His ascension, Jesus gave His disciples a command concerning Jerusalem and the Holy Spirit. What exactly did He instruct them to do?",
+"options": [
+"Return immediately to Galilee and begin preaching",
+"Go into all Judea and build a temple",
+"Tarry in Jerusalem until they received power from on high",
+"Choose a replacement for Judas before He left"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Jesus told His disciples not to leave Jerusalem but to wait there until they were clothed with power from the Holy Spirit. This instruction prepared them for the coming of the Spirit at Pentecost.",
+"id": "crsx19006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Jesus tell e disciples make dem no comot for Jerusalem. E tell dem say make dem wait there until Holy Spirit come give dem power."
+},
+{
+"q": "A careful reading of the resurrection and ascension accounts shows a definite order of events. Which sequence correctly arranges these events as they happened?",
+"options": [
+"Ascension, empty tomb, appearance to Mary, appearance to disciples",
+"Appearance to disciples, empty tomb, ascension, appearance to Mary",
+"Empty tomb discovered, appearance to Mary, appearance to disciples, ascension",
+"Appearance to Mary, ascension, empty tomb discovered, appearance to disciples"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The tomb was found empty first, then Jesus appeared to Mary Magdalene, afterwards He appeared to His disciples on several occasions, and finally He ascended into heaven. This is the correct historical order of the events in the gospel accounts.",
+"id": "crsx19007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "First, dem see say the tomb empty, then Jesus show e self to Mary Magdalene. After, e appear to the disciples before e finally go heaven."
+}
+],
+"rejected": []
+}

@@ -1,0 +1,168 @@
+{
+"subject": "government",
+"topic": "Nationalism in Nigeria and West Africa",
+"ti": 11,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Herbert Macaulay is widely regarded as the father of Nigerian nationalism mainly because he",
+"options": [
+"led the Nigerian delegation to the Berlin Conference of 1884",
+"founded the Nigerian National Democratic Party (NNDP) in 1923 to contest elective seats created under the Clifford Constitution",
+"was the first African to be appointed a colonial governor in Nigeria",
+"led the Aba Women's Riot of 1929 against colonial taxation"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Herbert Macaulay founded the NNDP in 1923, the first Nigerian political party, to contest the Lagos seats created by the Clifford Constitution. He had no role in the Berlin Conference, was never a governor, and did not lead the Aba Women's Riot.",
+"id": "govx11010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Herbert Macaulay start NNDP for 1923, wey be the very first political party for Naija, make e fit contest elections for Lagos. E no get hand for Berlin Conference, e no be governor, and e no lead Aba Women Riot."
+},
+{
+"q": "A major economic grievance that fuelled nationalist agitation among Nigerian cocoa and palm produce farmers in the 1930s was",
+"options": [
+"the introduction of free primary education which raised taxes",
+"the activities of expatriate marketing pools and middlemen who fixed low prices for farmers' produce",
+"the building of railways that reduced farmers' transport costs",
+"the abolition of direct taxation on farm produce by the colonial government"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "European trading firms formed buying pools that kept produce prices artificially low, angering farmers and pushing them to support nationalist causes. The other options describe benefits or non-existent policies, not grievances.",
+"id": "govx11011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Oyibo trading companies join body form buying pools wey dey reduce cocoa and palm oil price anyhow, make farmers vex. Na dis wicked price policy make farmers support nationalists to fight colonial government."
+},
+{
+"q": "Which of the following best describes the role of returning World War Two soldiers in strengthening nationalist agitation in Nigeria and West Africa?",
+"options": [
+"They brought back new farming techniques that reduced rural poverty",
+"They had seen Europeans defeated and humiliated abroad and returned with reduced fear of white superiority, demanding better treatment and political rights",
+"They were immediately absorbed into well-paid colonial civil service jobs",
+"They formed the first colonial legislative councils in West Africa"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ex-servicemen who fought alongside and against Europeans lost their awe of colonial masters and came home unemployed and discontented, becoming vocal nationalists. They were not given good jobs nor did they create legislative councils, which already existed.",
+"id": "govx11014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As World War Two soldiers return, dem see say white man no be god and dem fit die too. Dem come back with ginger to demand political rights and better treatment because dem no fear white man again."
+},
+{
+"q": "In the Gold Coast, the 1948 riots that followed the shooting of ex-servicemen marching peacefully in Accra are mainly remembered for",
+"options": [
+"leading to the immediate grant of independence to the Gold Coast",
+"exposing deep colonial economic and political grievances and accelerating constitutional reforms that paved the way for self-government",
+"causing the permanent exile of Kwame Nkrumah from the Gold Coast",
+"resulting in the merger of the Gold Coast with Nigeria as one colony"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The 1948 Accra riots revealed widespread discontent with colonial rule and pushed Britain to set up the Watson Commission, leading to constitutional changes toward self-government. Independence was not immediate, Nkrumah was not exiled, and the two colonies were never merged.",
+"id": "govx11015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "The 1948 Accra riots show say people don tire for colonial rule and force British government to start constitutional reforms. Independence no come sharp sharp, dem no send Nkrumah go exile forever, and dem no merge Gold Coast with Naija."
+},
+{
+"q": "A major role played by educated elites such as lawyers, teachers and doctors in early Nigerian nationalism before 1945 was that they",
+"options": [
+"organised armed rebellions against colonial garrisons",
+"used petitions, newspapers and legal channels to demand reforms and greater African representation in government",
+"refused all forms of Western education to preserve African culture",
+"served as colonial governors appointed directly by the British Crown"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Early educated nationalists relied on peaceful, constitutional methods such as petitions, press campaigns and court cases to press for reforms, rather than armed uprisings. They were themselves products of Western education and never served as colonial governors.",
+"id": "govx11016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Early educated leaders use petition, newspaper, and court case to fight colonial masters peacefully instead of carrying gun. Dem be products of Western education and dem never be colonial governor before."
+},
+{
+"q": "A major reason traditional rulers in some parts of Nigeria were initially cautious or divided in supporting early nationalist movements was that",
+"options": [
+"they had no political authority left after the Berlin Conference",
+"some rulers benefited from the colonial system of indirect rule and feared losing their positions and privileges under a new order",
+"they were all forcibly removed from office by the nationalists",
+"colonial law barred traditional rulers from any contact with educated elites"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Many traditional rulers under indirect rule enjoyed colonial backing, salaries and local power, so some feared that supporting radical nationalism might threaten their privileged position. They were not all removed, and there was no such blanket legal ban on contact with elites.",
+"id": "govx11017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Indirect rule make some traditional rulers enjoy money and power from white man, so dem fear say nationalism go scatter their position. Na why some of them dey fear to support early nationalist movements."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The Lyttelton Constitution of 1954 is significant in Nigeria's nationalist history mainly because it",
+"options": [
+"ended regional government and created a unitary state",
+"introduced a federal system of government with three regions and a federal centre",
+"banned political parties based on ethnic or regional identity",
+"transferred full legislative powers to the Northern Region alone"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Lyttelton Constitution of 1954 formally established a federal structure with the Eastern, Western and Northern Regions alongside a federal government, a key step toward self-government. It did not create a unitary state or ban parties, and it did not favour only the North."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "A key reason the 1945 General Strike in Nigeria is regarded as a landmark event in nationalist history is that it",
+"options": [
+"forced the colonial government to grant immediate independence",
+"united workers across the country in a mass protest that exposed colonial economic exploitation and boosted nationalist confidence",
+"led to the permanent banning of all Nigerian trade unions",
+"was organised solely by expatriate British workers in Lagos",
+"was the first time Nigerian women demonstrated against colonial rule"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The 1945 General Strike brought together workers from different regions and trades against poor wages and high cost of living, showing nationalists the power of mass action against colonial exploitation. It did not bring immediate independence, ban unions, nor was it led by expatriates."
+},
+"why": "bad-shape"
+}
+]
+}

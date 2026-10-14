@@ -1,0 +1,206 @@
+{
+"subject": "economics",
+"topic": "Financial institutions: Central Bank of Nigeria, commercial banks, capital and money markets",
+"ti": 11,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is a major function of the Nigerian Stock Exchange (now Nigerian Exchange Group) in the capital market?",
+"options": [
+"Providing short-term loans to commercial banks",
+"Facilitating the buying and selling of existing shares and bonds",
+"Printing and issuing the national currency",
+"Fixing the minimum rediscount rate for treasury bills"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The stock exchange is a secondary market where already-issued shares and bonds are bought and sold by investors. Issuing currency and setting rediscount rates are functions of the Central Bank, not the stock exchange.",
+"py": null,
+"values": null,
+"id": "ecox11010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Stock exchange na secondary market where people dey buy and sell shares wey don dey exist before. Na Central Bank dey print money and fix rate, no be stock exchange."
+},
+{
+"q": "A commercial bank's major source of income is the",
+"options": [
+"commission earned on cheque clearing services",
+"difference between interest charged on loans and interest paid on deposits",
+"fees collected from the Central Bank for keeping reserves",
+"profit from printing new currency notes for circulation"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Commercial banks earn most of their income from the interest rate spread, that is, charging a higher interest on loans than they pay on customers' deposits. Printing currency is solely a Central Bank function.",
+"py": null,
+"values": null,
+"id": "ecox11011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Commercial bank dey make their main money from interest rate difference, wey mean say dem charge higher interest on loans pass wetin dem dey pay depositor. Na Central Bank dey print currency."
+},
+{
+"q": "Which of the following best describes a treasury bill as a money market instrument?",
+"options": [
+"A long-term bond issued by state governments to fund infrastructure projects",
+"A short-term, low-risk debt instrument issued by government to finance temporary budget shortfalls",
+"A certificate representing part-ownership of a public limited company",
+"A document used by banks to transfer ownership of fixed assets"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A treasury bill is a short-term government security, usually maturing within a year, used to bridge short-term financing gaps. It is a debt instrument, not an ownership share like equity.",
+"py": null,
+"values": null,
+"id": "ecox11012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Treasury bill na short-term government debt instrument wey dey mature within one year to cover small budget gap. E no be company equity share."
+},
+{
+"q": "A commercial bank in Enugu has total deposits of ₦45,000,000. If the Central Bank of Nigeria sets the required reserve ratio at 15%, what is the maximum amount the bank can give out as loans, assuming it keeps exactly the required reserve and lends out the rest?",
+"options": [
+"₦6,750,000",
+"₦30,000,000",
+"₦38,250,000",
+"₦45,000,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The required reserve is 15% of 45,000,000, which equals 6,750,000. Subtracting this from total deposits leaves 38,250,000 available for loans.",
+"py": "45000000 - 0.15*45000000",
+"values": [
+6750000,
+30000000,
+38250000,
+45000000
+],
+"id": "ecox11013",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Required reserve na 15% of ₦45,000,000, wey be ₦6,750,000. When you subtract am from total deposit, you go get ₦38,250,000 wey bank fit give out as loan."
+},
+{
+"q": "The Securities and Exchange Commission (SEC) in Nigeria performs which of the following roles in the capital market?",
+"options": [
+"Setting the exchange rate between the naira and foreign currencies",
+"Regulating and supervising the issuance and trading of securities to protect investors",
+"Granting short-term overdrafts to deposit money banks",
+"Collecting company income tax on behalf of the Federal Government"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The SEC regulates the Nigerian capital market, approving new securities and supervising operators to protect investors from fraud. Exchange rate management and tax collection are not its functions.",
+"py": null,
+"values": null,
+"id": "ecox11014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "SEC na him dey regulate capital market and protect investors from fraud. Na different agency dey collect tax and manage foreign exchange rate."
+},
+{
+"q": "A key difference between the money market and the capital market is that the money market deals in instruments with maturity periods of",
+"options": [
+"less than one year, while the capital market deals in instruments of more than one year",
+"more than ten years, while the capital market deals in instruments of less than one year",
+"exactly five years, while the capital market has no fixed maturity period",
+"more than one year, while the capital market deals in instruments of less than one year"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The money market trades short-term instruments such as treasury bills that mature within a year, while the capital market trades long-term instruments like shares and debentures with maturities exceeding one year.",
+"py": null,
+"values": null,
+"id": "ecox11015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Money market dey deal with short-term instruments like treasury bills wey dey mature under one year, while capital market dey handle long-term instruments like shares."
+},
+{
+"q": "If the Central Bank of Nigeria raises the minimum rediscount rate (monetary policy rate), the most likely effect on commercial banks' lending rates and the volume of credit in the economy is that",
+"options": [
+"lending rates fall and credit expands",
+"lending rates rise and credit contracts",
+"lending rates remain unchanged while credit expands",
+"lending rates rise but credit remains unchanged"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A higher monetary policy rate raises the cost at which banks borrow from the Central Bank, so banks in turn raise their own lending rates, making loans more expensive and reducing the volume of credit demanded. This is a standard tool for tightening monetary policy.",
+"py": null,
+"values": null,
+"id": "ecox11016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If Central Bank increase monetary policy rate, loan interest go high and people go borrow less money. Na way to control inflation."
+},
+{
+"q": "A bank has deposits of ₦60,000,000 and the Central Bank operates a required reserve ratio of 10%. If the Central Bank unexpectedly raises the ratio to 20%, by how much must the bank increase its reserves to comply, assuming deposits remain the same?",
+"options": [
+"₦3,000,000",
+"₦6,000,000",
+"₦9,000,000",
+"₦12,000,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At 10% the bank needed 6,000,000 in reserves, and at 20% it needs 12,000,000. The additional reserve required is the difference, which is 6,000,000.",
+"py": "0.20*60000000 - 0.10*60000000",
+"values": [
+3000000,
+6000000,
+9000000,
+12000000
+],
+"id": "ecox11017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "At 10% reserve, bank need ₦6,000,000, but at 20% reserve, dem need ₦12,000,000. The extra money wey dem must add na ₦6,000,000."
+}
+],
+"rejected": []
+}

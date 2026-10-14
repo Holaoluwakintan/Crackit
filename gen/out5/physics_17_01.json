@@ -1,0 +1,209 @@
+{
+"subject": "physics",
+"topic": "Electrostatics and capacitors",
+"ti": 17,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Four identical small charged spheres are arranged at the corners of a square so that each carries an equal positive charge. At the exact centre of the square, the net electric field due to the four charges is",
+"options": [
+"zero, because the field contributions cancel out by symmetry",
+"maximum, because all fields add up directly",
+"directed towards one of the corners",
+"equal to the field of a single charge multiplied by four"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "By symmetry, each charge produces a field at the centre that is equal in magnitude but points away from it in a different direction, and the four vectors cancel exactly. The net field at the centre is therefore zero even though the potential there is not zero.",
+"py": null,
+"values": null,
+"id": "phyx17011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As symmetry dey, dis four charges dey produce field for centre wey dey equal for magnitude but dey point opposite directions. Di four vectors cancel each other well well, so di net electric field for di centre na zero."
+},
+{
+"q": "A charged conducting sphere of radius 0.05 m carries a charge of 2.0 x 10^-9 C in air. Using k = 9 x 10^9 N m^2/C^2, calculate the electric potential at the surface of the sphere.",
+"options": [
+"360 V",
+"36 V",
+"3.6 V",
+"3600 V"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Potential on the surface of a charged sphere is given by V = kQ/r = (9 x 10^9 x 2.0 x 10^-9) / 0.05. This gives V = 360 V.",
+"py": "9e9*2.0e-9/0.05",
+"values": [
+360,
+36,
+3.6,
+3600
+],
+"id": "phyx17015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To find di electric potential for di surface of sphere, you go use di formula V = kQ/r. When you put di values, V = (9 x 10^9 x 2.0 x 10^-9) / 0.05, and dat go give you 360 V."
+},
+{
+"q": "A parallel-plate capacitor of capacitance C is charged to a potential difference V and stores energy E. If the potential difference across the same capacitor is now doubled, what happens to the stored energy?",
+"options": [
+"It becomes four times the original energy",
+"It becomes twice the original energy",
+"It remains the same because capacitance is constant",
+"It becomes half the original energy"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Energy stored is given by E = half C V squared, so energy is proportional to the square of the voltage. Doubling the voltage increases the energy by a factor of two squared, which is four.",
+"py": null,
+"values": null,
+"id": "phyx17016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di energy wey capacitor dey store na E = half C V squared, meaning say energy dey proportional to voltage squared. If you double di voltage, di energy go multiply by two squared, wey be four times."
+},
+{
+"q": "In an experiment on electrostatic induction, a positively charged rod is brought near one end of an isolated neutral conductor without touching it. Which of the following correctly describes the distribution of charge on the conductor while the rod remains in place?",
+"options": [
+"Negative charge accumulates on the end nearer the rod, positive charge on the far end, and the conductor remains overall neutral",
+"The whole conductor becomes uniformly positively charged",
+"The whole conductor becomes uniformly negatively charged",
+"Positive charge accumulates on the end nearer the rod, negative charge on the far end"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Induction causes free electrons in the conductor to be attracted towards the positive rod, leaving the near end negative and the far end positive, while the total charge on the isolated conductor remains zero.",
+"py": null,
+"values": null,
+"id": "phyx17017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Electrostatic induction dey make free electrons run go meet di positive rod, so negative charge go gather for near end while positive charge go stay for far end. Di conductor still remain neutral overall."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "An electron is released from rest between two oppositely charged parallel plates, in a region where the electric field is uniform and directed from the positive plate to the negative plate. Which of the following correctly describes the motion of the electron?",
+"options": [
+"It moves towards the positive plate, gaining kinetic energy as it goes",
+"It moves towards the negative plate, gaining kinetic energy as it goes",
+"It remains at rest because the field exerts no net force on it",
+"It moves towards the positive plate but loses kinetic energy as it goes",
+"It oscillates between both plates indefinitely"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The electric field points from the positive plate to the negative plate, so the force on a negative charge is opposite to the field, pushing the electron towards the positive plate. As it accelerates in the direction of the force, it gains kinetic energy.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A charged ebonite rod attracts a small pith ball hanging freely from a silk thread. When the rod touches the ball briefly, the ball is suddenly repelled from the rod. This shows that the pith ball",
+"options": [
+"was initially uncharged and became charged with the same sign as the rod on contact",
+"lost all its charge to the rod and became neutral",
+"was initially charged oppositely to the rod before contact",
+"became magnetized by the rod"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Attraction before contact can occur even with a neutral ball due to induction. After touching, charge is shared and the ball takes on the same sign as the rod, so like charges now repel each other.",
+"py": null,
+"values": null,
+"id": "phyx17010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Initial neutrality is not established; an oppositely charged ball could also be attracted.|"
+},
+{
+"q": {
+"q": "A parallel-plate capacitor has plates of area 2.0 x 10^-2 m^2 separated by air of thickness 1.0 x 10^-3 m. Given that the permittivity of free space is 8.85 x 10^-12 F/m, calculate the capacitance of the capacitor.",
+"options": [
+"1.77 x 10^-10 F",
+"1.77 x 10^-13 F",
+"1.77 x 10^-7 F",
+"8.85 x 10^-10 F"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Capacitance is given by C = epsilon_0 * A / d = (8.85 x 10^-12 x 2.0 x 10^-2) / (1.0 x 10^-3). Working this out gives about 1.77 x 10^-10 F.",
+"py": "8.85e-12*2.0e-2/1.0e-3",
+"values": [
+1.77e-10,
+1.77e-13,
+1.77e-07,
+8.85e-10
+],
+"id": "phyx17012",
+"check": {
+"s1": "A",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:B"
+},
+{
+"q": {
+"q": "A 12 microfarad capacitor is connected in parallel with a 4 microfarad capacitor, and this combination is connected in series with a 6 microfarad capacitor across a battery. Calculate the effective capacitance of the whole arrangement.",
+"options": [
+"4.0 microfarad",
+"3.0 microfarad",
+"16.0 microfarad",
+"22.0 microfarad"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The parallel pair gives 12 + 4 = 16 microfarad. This 16 microfarad is then in series with 6 microfarad, so 1/C = 1/16 + 1/6, giving C = 96/22 which simplifies to about 4.0 microfarad.",
+"py": "1/(1/16 + 1/6)",
+"values": [
+4.0,
+3.0,
+16.0,
+22.0
+],
+"id": "phyx17014",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

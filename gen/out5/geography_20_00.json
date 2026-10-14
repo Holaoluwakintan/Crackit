@@ -1,0 +1,202 @@
+{
+"subject": "geography",
+"topic": "Geography of Nigeria: transport, trade and tourism",
+"ti": 20,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following pairs of Nigerian cities is directly linked by a railway line that forms part of the original narrow-gauge network built during the colonial era?",
+"options": [
+"Lagos and Kano",
+"Calabar and Enugu",
+"Sokoto and Yola",
+"Owerri and Makurdi"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Lagos to Kano railway line was one of the earliest major colonial railway routes built to move agricultural produce and minerals to the coast for export. It remains a key reference route in Nigeria's rail network.",
+"py": null,
+"values": null,
+"id": "geox20000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na Lagos to Kano railway line dem build early for colonial time to carry farm produce and minerals go coast. E still dey important inside Nigeria rail network today."
+},
+{
+"q": "A major reason why air transport, despite being the fastest means of transport in Nigeria, carries the smallest proportion of total passenger and freight traffic is that it",
+"options": [
+"requires very high fares and costly infrastructure that most Nigerians cannot easily afford",
+"cannot operate during the rainy season because of persistent cloud cover",
+"is banned from carrying agricultural produce across state boundaries",
+"depends entirely on imported aircraft that are unavailable in Nigeria"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Air transport involves expensive aircraft, fuel, airport facilities and maintenance, so fares are high compared to other means. This limits the number of people and amount of goods that can use it, unlike road or rail transport.",
+"py": null,
+"values": null,
+"id": "geox20001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Aircraft work with expensive machine, fuel and maintenance, so ticket price high pass other transport. Naim make many people and goods no dey use am like road or train."
+},
+{
+"q": "Which of the following best describes the main attraction of the Obudu Mountain Resort in Cross River State to tourists?",
+"options": [
+"Its cool highland climate, scenic ranch landscape and cable car ride",
+"Its location as the site of Nigeria's largest annual trade fair",
+"Its position as the deepest natural harbour along the Nigerian coast",
+"Its status as the terminus of the eastern railway line to the coast"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Obudu Mountain Resort is popular mainly because of its cool temperate-like climate at high altitude, cattle ranch scenery and the cable car that carries visitors up the escarpment. It is not known for trade fairs, harbours or railways.",
+"py": null,
+"values": null,
+"id": "geox20002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Obudu Mountain Resort sweet people because of cold weather, fine cattle ranch, and cable car wey dey carry visitors up. E no be place for trade fair, ship harbour, or train."
+},
+{
+"q": "Nigeria's export trade is described as largely dominated by primary products because the country mainly sells",
+"options": [
+"crude oil, cocoa and other raw agricultural and mineral products with little processing",
+"manufactured machinery and refined petrochemical products to neighbouring countries",
+"finished textiles and assembled vehicles produced in local factories",
+"processed foods and pharmaceuticals manufactured for the West African market"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A large share of Nigeria's export earnings comes from crude oil and raw agricultural products such as cocoa, which are exported with little or no processing. This pattern is typical of countries whose trade is dominated by primary products.",
+"py": null,
+"values": null,
+"id": "geox20003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Plenty money wey Nigeria dey make from export na from crude oil and raw cocoa wey dem no process well. Dis one show say na primary products dey dominate trade."
+},
+{
+"q": "A transport planner observes that a particular pipeline network in Nigeria is specifically designed to move refined petroleum products such as petrol and kerosene from refineries to depots in different parts of the country, rather than crude oil to export terminals. This pipeline system is best classified as part of",
+"options": [
+"the downstream petroleum products distribution network",
+"the upstream crude oil export network",
+"the inland waterway cabotage network",
+"the international transit trade corridor"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Pipelines carrying refined products like petrol and kerosene from refineries to storage depots belong to the downstream sector, which deals with processing and distribution to final consumers. Crude oil movement to export terminals is instead part of the upstream sector.",
+"py": null,
+"values": null,
+"id": "geox20005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Pipeline wey dey carry refined fuel like petrol and kerosene from refinery go depot na downstream sector work. Crude oil movement go export port na upstream business."
+},
+{
+"q": "A trader in Kano imports electronic goods through the port of Cotonou in Benin Republic and then transports them overland into Nigeria without the goods passing through any formal Nigerian customs clearance. This practice, which denies Nigeria useful trade revenue, is best described as",
+"options": [
+"smuggling",
+"entrepot trade",
+"balance of trade",
+"bilateral trade"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Bringing goods into a country through unofficial routes to avoid customs duties and clearance is known as smuggling. It differs from entrepot trade, which involves officially importing goods for the purpose of legally re-exporting them.",
+"py": null,
+"values": null,
+"id": "geox20006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To bring goods enter country through back door to avoid customs duty na smuggling. E different from entrepot trade where person legally import goods to re-export dem."
+},
+{
+"q": "Along a certain stretch of the Niger River used for inland water transport, a hydrographic survey recorded the river depth at five points during the dry season as 1.2 metres, 0.9 metres, 1.5 metres, 0.8 metres and 1.1 metres. If a cargo barge requires a minimum depth of 1.3 metres to move safely without grounding, what is the average depth recorded along this stretch, and can the barge safely use the entire stretch during this period?",
+"options": [
+"Average depth is 1.1 metres, so the barge cannot safely use the entire stretch",
+"Average depth is 1.3 metres, so the barge can safely use the entire stretch",
+"Average depth is 1.5 metres, so the barge can safely use the entire stretch",
+"Average depth is 0.9 metres, so the barge can safely use the entire stretch"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Adding the five depths gives 5.5 metres, and dividing by 5 gives an average of 1.1 metres, which is below the required 1.3 metres. Also, three of the five points measured are shallower than 1.3 metres, so the barge would ground at those points and cannot safely use the whole stretch.",
+"py": "(1.2+0.9+1.5+0.8+1.1)/5",
+"values": [
+1.1,
+1.3,
+1.5,
+0.9
+],
+"id": "geox20007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If you add all five depths and divide by five, you go get 1.1 metres, which dey below the 1.3 metres wey the barge need. Dat mean the barge no fit use the river stretch safely."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A tour operator wants to take a group of visitors to view the annual Argungu Fishing Festival. In which state should the group travel to?",
+"options": [
+"Kebbi State",
+"Taraba State",
+"Ekiti State",
+"Bayelsa State"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Argungu Fishing Festival is a well known cultural and tourism event held along the Rima River in Kebbi State. It attracts both local and international visitors as a major tourist attraction in Nigeria.",
+"py": null,
+"values": null,
+"id": "geox20004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:State is given away by the festival's location name."
+}
+]
+}

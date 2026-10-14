@@ -1,0 +1,178 @@
+{
+"subject": "biology",
+"topic": "Sex determination, sex-linked traits, blood groups and genetic disorders",
+"ti": 18,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A man with colour blindness (an X-linked recessive condition) marries a woman who is also colour blind. What proportion of their sons is expected to be colour blind?",
+"options": [
+"All of the sons",
+"Half of the sons",
+"A quarter of the sons",
+"None of the sons"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The father contributes Y to all sons, while the colour-blind mother is X^c X^c, so every son receives X^c from her. All sons will therefore be colour blind.",
+"id": "biox18010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Papa dey give Y chromosome to all im sons, but mama wey get colour blindness get X^c X^c. So, every son must collect X^c from mama, wey mean say all of dem go get colour blindness."
+},
+{
+"q": "During a genetics practical at a Nigerian secondary school, a teacher explains that in humans the sex of a baby is determined at the point of fertilization. Which statement correctly describes this mechanism?",
+"options": [
+"The egg determines the sex because it carries either an X or a Y chromosome",
+"The sex chromosome carried by the fertilizing sperm determines the sex of the offspring",
+"Sex is determined by the number of autosomes contributed by the mother",
+"Sex is determined only after birth by hormonal changes in the child"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In humans, every egg carries an X chromosome, but sperm can carry either X or Y. The sperm that fertilizes the egg therefore decides whether the baby is XX (female) or XY (male).",
+"id": "biox18011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For human, all egg get X chromosome, but sperm fit carry X or Y. Na the sperm wey reach the egg first dey decide if the baby go be XX for girl or XY for boy."
+},
+{
+"q": "A young man in Lagos is found to have a karyotype of 47 chromosomes with the sex chromosome constitution XXY. He has poorly developed testes and is usually infertile. This condition arises due to which of the following events?",
+"options": [
+"Deletion of a segment of the X chromosome during gamete formation",
+"Non-disjunction of the X chromosomes during meiosis in a parent",
+"Crossing over between the X and Y chromosomes",
+"Duplication of an autosome during mitosis after fertilization"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Klinefelter syndrome (XXY) results when sex chromosomes fail to separate properly (non-disjunction) during meiosis in one parent, producing a gamete with an extra X chromosome. Fertilization then gives an individual with 47 chromosomes instead of 46.",
+"id": "biox18012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Klinefelter syndrome (XXY) dey happen when sex chromosomes no separate well during meiosis. This one come make one gamete get extra X chromosome, so the pikin come get 47 chromosomes instead of 46."
+},
+{
+"q": "A pregnant Rhesus-negative woman, Mrs Bello, is married to a Rhesus-positive man. Their first child was Rhesus-positive and healthy, but in a later pregnancy the developing fetus is at risk of a condition in which the mother's antibodies attack the baby's red blood cells. What is this condition called?",
+"options": [
+"Sickle cell crisis",
+"Haemolytic disease of the newborn",
+"Haemophilia",
+"Polydactyly"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When an Rh-negative mother is sensitized by an Rh-positive fetus, she can produce anti-Rh antibodies that cross the placenta in later pregnancies and destroy the red blood cells of an Rh-positive baby. This condition is called haemolytic disease of the newborn.",
+"id": "biox18013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If Rh-negative mama carry Rh-positive pikin, e fit start to produce anti-Rh antibodies. For next pregnancy, these antibodies fit cross the placenta and destroy the red blood cells of the baby, wey we dey call haemolytic disease of the newborn."
+},
+{
+"q": "In the ABO blood group system, the gene has three alleles, I^A, I^B and i. A woman of genotype I^A I^B marries a man of genotype ii. What blood groups are possible among their children?",
+"options": [
+"Group A and Group B only",
+"Group AB only",
+"Group A, Group B and Group O",
+"Group O only"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The mother can pass on I^A or I^B, while the father can only pass on i. This gives children of genotype I^A i (group A) or I^B i (group B), but no group O or AB child can be produced since neither parent supplies two recessive alleles together with an I^A I^B combination.",
+"id": "biox18014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Mama fit give I^A or I^B, but papa fit only give i. This one mean say the pikin dem go be either I^A i for group A or I^B i for group B."
+},
+{
+"q": "Haemophilia is an X-linked recessive disorder in which blood fails to clot normally. A woman whose father was haemophiliac but who herself shows no symptoms marries a normal man. What is the chance that one of their sons will be haemophiliac?",
+"options": [
+"0%",
+"25%",
+"50%",
+"100%"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Since her father was haemophiliac, the woman must be a carrier, X^H X^h, while the normal man is X^H Y. Crossing these gives sons who are X^H Y (normal) or X^h Y (haemophiliac) in equal numbers, so half of the sons are expected to be affected.",
+"id": "biox18015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because the woman papa get haemophilia, she be carrier (X^H X^h). When she marry normal man, half of their sons go get the disease because they go collect the X^h from their mama."
+},
+{
+"q": "A particular genetic disorder in humans is caused by a single gene mutation that results in abnormally shaped, crescent-like red blood cells, reduced oxygen transport, and painful crises, especially under low-oxygen conditions. Which of the following best names this disorder?",
+"options": [
+"Albinism",
+"Sickle cell anaemia",
+"Colour blindness",
+"Down syndrome"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Sickle cell anaemia is caused by a mutant haemoglobin allele that makes red blood cells take on a crescent or sickle shape, reducing their ability to carry oxygen efficiently and causing painful crises.",
+"id": "biox18016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Sickle cell anaemia na condition wey one mutant haemoglobin gene dey change the shape of red blood cells to crescent. This one come make the blood no fit carry oxygen well and e dey cause serious pain."
+},
+{
+"q": "A couple seek genetic counselling before marriage. Both partners are blood group O and both have normal vision, but the woman's brother is colour blind (an X-linked recessive trait), and genetic testing shows the woman is a carrier. If the couple has children, what is the probability of having a colour-blind daughter?",
+"options": [
+"0%",
+"25%",
+"50%",
+"100%"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The father has normal vision, so he contributes a normal X allele to every daughter he has. Even though the mother is a carrier, a daughter needs two recessive alleles to be colour blind, and the father cannot supply one, so no daughter can be colour blind; only sons would have a 50% chance of being affected.",
+"id": "biox18017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The papa get normal vision, so all im daughters go collect one normal X from am. Because the daughter must get two recessive alleles to be colour blind, e no possible for any daughter to get the condition."
+}
+],
+"rejected": []
+}

@@ -1,0 +1,241 @@
+{
+"subject": "physics",
+"topic": "Motion: speed, velocity, acceleration and equations of motion",
+"ti": 2,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A commercial driver in Kano notices that his speedometer reads 80 km/h at every instant throughout a straight stretch of the expressway. Which of the following best describes the motion of the vehicle?",
+"options": [
+"The vehicle has zero acceleration throughout the stretch",
+"The vehicle is decelerating uniformly",
+"The vehicle's displacement is changing at a non-uniform rate",
+"The vehicle is undergoing uniform acceleration"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A constant speedometer reading means the speed is not changing, so velocity is uniform along the straight road. With no change in velocity, the acceleration is zero.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx02001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If di speedometer no dey move, e mean say di speed dey constant. Since di speed no change, acceleration must be zero."
+},
+{
+"q": "A stone is thrown vertically upward from the top of a cliff with an initial speed of 15 m/s. Taking g = 10 m/s^2 and upward as positive, what is the velocity of the stone 2 seconds after it is thrown?",
+"options": [
+"5 m/s upward",
+"5 m/s downward",
+"35 m/s upward",
+"20 m/s downward"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Using v = u - gt, v = 15 - (10 x 2) = -5 m/s. The negative sign shows the stone is now moving downward at 5 m/s.",
+"py": "15 - 10*2",
+"values": [
+5,
+-5,
+35,
+-20
+],
+"id": "phyx02003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use di formula v = u - gt. When we calculate 15 - (10 x 2), we get -5 m/s, wey mean say di stone don start to fall down."
+},
+{
+"q": "Which of the following statements correctly describes the relationship between acceleration and velocity for a body undergoing uniformly accelerated motion in a straight line?",
+"options": [
+"Acceleration is the rate of change of displacement with time",
+"Acceleration is constant while velocity changes uniformly with time",
+"Velocity remains constant while acceleration increases with time",
+"Acceleration and velocity are always equal in magnitude"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Uniform acceleration means the acceleration does not change, but it causes the velocity to increase or decrease steadily with time. Velocity is the rate of change of displacement, not acceleration.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx02004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Uniform acceleration mean say di acceleration no dey change at all. But as time dey go, di velocity go dey increase or decrease steady."
+},
+{
+"q": "A sprinter in an inter-house sports event at a Lagos secondary school starts from rest and covers 40 m in 5 seconds with uniform acceleration. What is her acceleration?",
+"options": [
+"1.6 m/s^2",
+"3.2 m/s^2",
+"8.0 m/s^2",
+"0.8 m/s^2"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Using s = ut + 1/2 a t^2 with u = 0, 40 = 1/2 x a x 25, so a = 80/25 = 3.2 m/s^2.",
+"py": "2*40/5**2",
+"values": [
+1.6,
+3.2,
+8.0,
+0.8
+],
+"id": "phyx02005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use s = ut + 1/2 a t^2. Since she start from rest, u na 0, so 40 = 1/2 x a x 25, wey give us 3.2 m/s^2."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A velocity-time graph for a car journey shows the velocity rising steadily from 0 to 30 m/s in 6 seconds, staying constant at 30 m/s for the next 10 seconds, then falling steadily to 0 in 4 seconds. What is the total distance covered by the car?",
+"options": [
+"360 m",
+"420 m",
+"450 m",
+"300 m"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Distance is the area under the graph: a triangle (1/2 x 6 x 30 = 90 m), a rectangle (10 x 30 = 300 m), and another triangle (1/2 x 4 x 30 = 60 m). Adding these gives 90 + 300 + 60 = 450 is wrong check; correct sum is 90+300+30=420 m since the last triangle area is 1/2 x 4 x 30 = 60, so total = 90+300+60=450. Recompute carefully: total = 450 m matches option C, so the correct answer is 450 m.",
+"py": "0.5*6*30 + 10*30 + 0.5*4*30",
+"values": [
+360,
+420,
+450,
+300
+],
+"id": "phyx02000",
+"check": {
+"s1": "C",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+},
+{
+"q": {
+"q": "Two towns, Ilesha and Akure, are 180 km apart. A car leaves Ilesha for Akure at 60 km/h at the same time that another car leaves Akure for Ilesha at 40 km/h, both travelling along the same straight road towards each other. After how many hours will the two cars meet?",
+"options": [
+"1.5 hours",
+"1.8 hours",
+"2.0 hours",
+"3.0 hours"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Since the cars move towards each other, their speeds add up to give a relative speed of 100 km/h. Time to meet equals total distance divided by relative speed: 180/100 = 1.8 hours, so the correct working gives 1.8 hours.",
+"py": "180/(60+40)",
+"values": [
+1.5,
+1.8,
+2.0,
+3.0
+],
+"id": "phyx02002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A car moving at an initial velocity of 12 m/s accelerates uniformly at 2 m/s^2 for 5 seconds. What distance does the car cover during this time?",
+"options": [
+"70 m",
+"85 m",
+"60 m",
+"95 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using s = ut + 1/2 a t^2, s = (12 x 5) + 1/2 x 2 x 25 = 60 + 25 = 85 is the trap; correct computation gives s = 60 + 25 = 85, but recheck: 12x5=60, 0.5x2x5^2=25, sum=85 m, so the true answer is 85 m.",
+"py": "12*5 + 0.5*2*5**2",
+"values": [
+70,
+85,
+60,
+95
+],
+"id": "phyx02006",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A body moves with an initial velocity of 8 m/s and a constant acceleration of 1.5 m/s^2. Using the equation v^2 = u^2 + 2as, find the distance covered when its velocity becomes 20 m/s.",
+"options": [
+"128 m",
+"96 m",
+"144 m",
+"112 m"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "From v^2 = u^2 + 2as, 400 = 64 + 2(1.5)s, so 336 = 3s, giving s = 112 m is close but let's verify: 2as = 400-64=336, s=336/3=112 m, so the correct distance is 112 m.",
+"py": "(20**2 - 8**2)/(2*1.5)",
+"values": [
+128,
+96,
+144,
+112
+],
+"id": "phyx02007",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:D"
+}
+]
+}

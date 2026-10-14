@@ -1,0 +1,218 @@
+{
+"subject": "accounting",
+"topic": "Departmental, branch and joint venture accounts",
+"ti": 17,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In joint venture accounting, when each co-venturer keeps records only of their own transactions and no separate set of books is opened for the venture, the account prepared by each party to record the venture transactions is called:",
+"options": [
+"Joint venture account",
+"Memorandum joint venture account",
+"Joint bank account",
+"Realisation account"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "When no separate books are kept, each co-venturer records the venture's transactions in a Joint Venture Account in his own books, usually alongside a Memorandum Joint Venture Account to find overall profit. The account recording his own entries directly is the Joint Venture Account.",
+"py": null,
+"values": null,
+"id": "accx17000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If dem no open separate book for di venture, every person go record wetin concern am for im own Joint Venture Account. Dem dey use Memorandum Joint Venture Account join all di record together to see di total profit."
+},
+{
+"q": "Tunde and Bello entered a joint venture to buy and sell bags of rice, sharing profits and losses equally. Tunde bought rice for ₦900,000 and paid transport of ₦60,000. Bello sold all the rice for ₦1,200,000 and paid storage charges of ₦40,000. What is each co-venturer's share of the profit on the venture?",
+"options": [
+"₦100,000",
+"₦200,000",
+"₦150,000",
+"₦50,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total cost is 900,000 + 60,000 + 40,000 = 1,000,000, and sales are 1,200,000, giving a total profit of 200,000. Shared equally, each co-venturer gets 100,000.",
+"py": "(1200000 - (900000+60000+40000))/2",
+"values": [
+100000,
+200000,
+150000,
+50000
+],
+"id": "accx17001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Total cost na 1,000,000 and total sales na 1,200,000, so di profit na 200,000. Since dem dey share am equally, each person go get 100,000."
+},
+{
+"q": "A business sends goods to its branch and records both the goods sent and the branch's stock at selling price in the Branch Stock Account, in order to find stock shortages or surpluses easily. This method of branch accounting is best described as the:",
+"options": [
+"Debtors system",
+"Stock and debtors system",
+"Final accounts system",
+"Wholesale branch system"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Under the stock and debtors system, separate accounts are kept for branch stock (at selling price) and branch debtors, which helps reveal any stock shortage or surplus at the branch. This is more detailed than the simple debtors system.",
+"py": null,
+"values": null,
+"id": "accx17002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For stock and debtors system, dem dey keep separate account for branch stock and debtors. Dis one dey help dem see quick-quick if stock dey missing or if e surplus."
+},
+{
+"q": "Ibeh Traders operates a branch in Enugu and sends all goods to the branch at cost plus 20% mark-up. During the year, goods invoiced to the branch at selling price amounted to ₦720,000. What is the amount of the loading (mark-up) included in the goods sent to the branch?",
+"options": [
+"₦144,000",
+"₦120,000",
+"₦180,000",
+"₦90,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since cost plus 20% gives the invoice price, cost represents 100/120 of 720,000, which is 600,000, so the loading is 720,000 minus 600,000, that is 120,000. Candidates who wrongly take 20% of 720,000 directly get a distractor answer.",
+"py": "720000 - 720000*(100/120)",
+"values": [
+144000,
+120000,
+180000,
+90000
+],
+"id": "accx17003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di invoice price na cost plus 20% mark-up, so 720,000 na 120%. To find di loading, you go calculate 20/120 of 720,000, wey be 120,000."
+},
+{
+"q": "In departmental accounts, rent and rates for a shop occupied by several departments are usually apportioned among the departments on the basis of:",
+"options": [
+"Number of employees in each department",
+"Floor space or area occupied by each department",
+"Sales value of each department",
+"Purchases made by each department"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Rent and rates relate to the premises occupied, so the fairest basis for sharing them is the floor space or area used by each department. Sales or purchases figures are not directly related to space used.",
+"py": null,
+"values": null,
+"id": "accx17004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Rent and rates na money for di space wey you dey use. Na why dem dey share am based on how much floor space each department dey occupy."
+},
+{
+"q": "A head office sends goods to its branch at an invoice price which includes a profit margin. At the end of the year, unsold branch stock at invoice price is ₦250,000, and goods are invoiced at a margin of 25% on selling price. What is the amount of unrealised profit (provision for unrealised profit) included in the closing branch stock?",
+"options": [
+"₦62,500",
+"₦50,000",
+"₦83,333",
+"₦31,250"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since the margin is 25% on selling price, the profit element in the stock is simply 25% of 250,000, which equals 62,500. This provision is deducted so only the true cost value of unsold stock is shown in the combined accounts.",
+"py": "250000*0.25",
+"values": [
+62500,
+50000,
+83333.33,
+31250
+],
+"id": "accx17005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Since di margin na 25% of di selling price, you just calculate 25% of 250,000. Dis one go give you 62,500 as di unrealised profit wey dey inside di stock."
+},
+{
+"q": "Okoro and Eze agreed to carry out a joint venture in buying and selling second-hand vehicles, without forming a partnership and without keeping a separate set of joint books. Which of the following is the most important reason for preparing a Memorandum Joint Venture Account in such a case?",
+"options": [
+"To record cash received from customers by each venturer",
+"To show the total assets owned by the venture at year end",
+"To ascertain the overall profit or loss of the venture and each party's share, since each keeps separate records",
+"To replace the need for each venturer to record his own transactions"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Because no joint set of books exists and each venturer records only his own transactions, a Memorandum Joint Venture Account combines both sides' figures to calculate the total profit or loss and each person's agreed share. It does not replace each venturer's personal records.",
+"py": null,
+"values": null,
+"id": "accx17006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because each person dey record only im own side, dem need Memorandum Joint Venture Account to join everything together. Na so dem go take know di total profit and how much each person go collect."
+},
+{
+"q": "Adaeze Enterprises has two departments, Textiles and Provisions. Total wages for the year were ₦480,000, and the business decided to apportion wages between departments based on the number of workers in each, since both departments pay similar wage rates. Textiles has 9 workers while Provisions has 6 workers. What amount of wages should be charged to the Provisions department?",
+"options": [
+"₦288,000",
+"₦192,000",
+"₦240,000",
+"₦160,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "There are 15 workers in total, so Provisions' share is 6 out of 15 of the total wages. This gives 6/15 multiplied by 480,000, which equals 192,000.",
+"py": "480000*(6/15)",
+"values": [
+288000,
+192000,
+240000,
+160000
+],
+"id": "accx17007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Total workers na 15, so Provisions department get 6 out of 15. If you calculate 6/15 of 480,000, you go get 192,000 for dem."
+}
+],
+"rejected": []
+}

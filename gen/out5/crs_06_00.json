@@ -1,0 +1,180 @@
+{
+"subject": "crs",
+"topic": "Obedience and disobedience: Saul and David",
+"ti": 6,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Saul's jealousy of David grew after the women of Israel sang a song comparing their achievements in battle. What did the women sing that angered Saul?",
+"options": [
+"Saul has slain his thousands, and David his ten thousands",
+"David has slain Goliath, and Saul has slain the Philistines",
+"Saul is our king, but David is our deliverer",
+"Saul has built the temple, but David has built the kingdom"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The women's song praised David above Saul, saying Saul had slain thousands while David had slain ten thousands. This made Saul jealous and suspicious of David, leading to his disobedience and hatred.",
+"id": "crsx06001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The women dem song praise David pass Saul, as dem yarn say Saul kill thousands but David kill ten thousands. This tin make Saul jealous and e begin suspect David, wey con make am disobey God and hate am."
+},
+{
+"q": "While fleeing from Saul, David had two clear opportunities to kill him but refused, even when his men urged him to do so. What reason did David give for sparing Saul's life on these occasions?",
+"options": [
+"Saul was the Lord's anointed and David would not harm him",
+"David feared Saul's army would avenge his death",
+"David wanted Jonathan to inherit the throne peacefully",
+"David believed Samuel would curse him if he killed Saul"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "David respected Saul as God's anointed king, both in the cave at En-gedi and in Saul's camp. He left Saul's punishment to God rather than taking vengeance himself, showing obedience to God's order of authority.",
+"id": "crsx06002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "David respect Saul as God anointed king for inside cave and camp. E leave Saul punishment for God hand instead make e revenge, wey show say e dey obey God authority."
+},
+{
+"q": "Comparing Saul's reign with David's reign, which contrast best explains why David is regarded as a man after God's own heart despite his personal failures?",
+"options": [
+"David repented sincerely when confronted with his sins, while Saul often justified his disobedience",
+"David never sinned against God, while Saul sinned repeatedly",
+"David consulted mediums for guidance, while Saul always obeyed Samuel",
+"David rejected God's prophets, while Saul honoured them"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Although both kings sinned, David humbly accepted correction and repented, as seen after Nathan's rebuke, while Saul made excuses and blamed others. This difference in response to sin is why David remained favoured despite his faults.",
+"id": "crsx06003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Even though both king sin, David accept correction with humility and repent well well after Nathan rebuke am, unlike Saul wey dey give excuse. Na dis attitude make God still favor David despite im fault."
+},
+{
+"q": "After being rejected as king, Saul became troubled by an evil spirit. Whose music brought him temporary relief and comfort?",
+"options": [
+"David's harp playing",
+"Samuel's prophetic songs",
+"Jonathan's singing",
+"The priests' temple music"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "David was brought to Saul's court to play the harp whenever the evil spirit troubled him. His music soothed Saul and gave him temporary refreshment.",
+"id": "crsx06004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dem bring David come Saul palace make e dey play harp anytime evil spirit dey worry Saul. Im music dey sweet Saul body and give am relief."
+},
+{
+"q": "Jonathan's covenant of friendship with David is often cited as an example of loyalty that surpassed family loyalty to Saul. What specific action demonstrated the depth of this covenant?",
+"options": [
+"Jonathan warned David of Saul's plan to kill him and helped him escape",
+"Jonathan fought against Saul's army to protect David",
+"Jonathan refused to become king after Saul's death",
+"Jonathan handed over the kingdom to David while Saul was still alive"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Jonathan risked his father's anger to warn David of danger and helped him flee, proving his loyalty to their covenant friendship over his own interest in the throne. This act of sacrifice shows true friendship rooted in obedience to a higher moral duty.",
+"id": "crsx06005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Jonathan risk im papa anger to warn David about danger and help am runot, wey prove say im loyalty to dia friendship pass crown. Dis sacrifice show true friendship based on God standard."
+},
+{
+"q": "David's disobedience in conducting a census of Israel and Judah brought punishment upon the nation. What form did this punishment take?",
+"options": [
+"A severe pestilence that killed many people",
+"A famine that lasted seven years",
+"A defeat in battle against the Philistines",
+"The loss of his throne to Absalom"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "David's pride in numbering the people without relying on God angered the Lord, who sent a plague that killed many Israelites. David later repented and built an altar to stop the punishment.",
+"id": "crsx06006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "David pride to count people without God approval anger God, and God send heavy sickness wey kill plenty Israelites. Later David repent and build altar make punishment stop."
+},
+{
+"q": "A Sunday school teacher tells her class that Saul's disobedience in the war against the Amalekites was not a single random act but revealed a deeper character flaw that had shown earlier when he unlawfully offered a burnt sacrifice before a battle. What common weakness links both incidents?",
+"options": [
+"Impatience and a desire to please the people rather than fully obey God",
+"Excessive generosity towards defeated enemies",
+"Fear of Samuel's prophetic authority",
+"Strong loyalty to his family above God's commands"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In both the sacrifice at Gilgal and the sparing of Amalekite plunder, Saul acted out of impatience and fear of losing the people's support, rather than trusting and fully obeying God's instructions. This recurring weakness ultimately cost him the kingdom.",
+"id": "crsx06007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For Gilgal sacrifice and Amalekite matter, Saul show impatience and fear of man instead make e obey God fully. Na dis constant weakness make am lose im kingship."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Before he became king, David displayed great courage and trust in God by defeating a Philistine giant who had defied the armies of Israel for forty days. Who was this giant?",
+"options": [
+"Goliath",
+"Achish",
+"Agag",
+"Abner"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "David killed Goliath of Gath with a sling and a stone, trusting that God would deliver him. This victory showed David's faith and obedience to God, unlike Saul's fear.",
+"id": "crsx06000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

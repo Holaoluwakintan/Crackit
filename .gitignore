@@ -1,4 +1,6 @@
-node_modules/
-dist/
 *.env
 .env*
+__pycache__/
+dist/
+gen/__pycache__/
+node_modules/

@@ -1,0 +1,191 @@
+{
+"subject": "commerce",
+"topic": "Trade associations, chambers of commerce and consumer protection",
+"ti": 15,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Chambers of commerce in Nigeria usually organise trade fairs and exhibitions mainly in order to help member businesses to:",
+"options": [
+"Avoid paying company income tax to the government",
+"Display and promote their goods and services to a wider market",
+"Fix uniform prices for all goods sold in the country",
+"Obtain interest-free loans directly from the central bank"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Trade fairs and exhibitions give member firms a platform to showcase their products and services to potential customers, thereby widening their market. Chambers of commerce do not fix prices, grant tax waivers or give loans directly.",
+"py": null,
+"values": null,
+"id": "comx15000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Trade fairs dey give business people chance to show wetin dem dey sell to plenty customers. Dis one dey help dem market grow well well. Chambers of commerce no dey fix price or give loan."
+},
+{
+"q": "A consumer who buys a bag of rice from a shop in Onitsha discovers that the content weighs less than what is boldly written on the bag. Which consumer right has been violated in this situation?",
+"options": [
+"The right to be heard",
+"The right to choose freely among products",
+"The right to accurate information about a product",
+"The right to form a trade association"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The weight printed on the bag is information about the product, and giving false weight means the consumer was not given accurate information. The right to be heard concerns complaints, while forming a trade association is not a consumer right at all.",
+"py": null,
+"values": null,
+"id": "comx15001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If dem write weight for bag but di weight no reach, na lie dem dey lie. Consumer get right to know di correct truth about wetin e wan buy. Na why option C correct."
+},
+{
+"q": "One of the main objectives of forming a chamber of commerce in a town is to:",
+"options": [
+"Represent the collective business interests of its members to government and other bodies",
+"Replace the need for individual businesses to register with government agencies",
+"Guarantee equal profit to every member business each year",
+"Act as the sole importer of goods on behalf of its members"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A chamber of commerce speaks on behalf of the business community, presenting members' views and interests to government and other organisations. It does not replace legal registration requirements, guarantee profits, or act as a sole importer.",
+"py": null,
+"values": null,
+"id": "comx15002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Chamber of commerce na di voice of business people. Dem dey carry member matter go meet government so dat dem go fit help dem. Dem no dey guarantee profit or act as importer."
+},
+{
+"q": "A major reason why a consumer protection agency would investigate the labelling of a new brand of bottled drink before it is sold to the public is to ensure that the:",
+"options": [
+"Manufacturer pays the correct import duty on raw materials",
+"Product does not compete unfairly with other local drinks",
+"Ingredients and expiry date are correctly and clearly stated",
+"Retail price is the same in every part of the country"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Consumer protection bodies check labels mainly to confirm that ingredients, expiry dates and other safety information are correctly stated, so buyers are not misled or harmed. Import duty, competition issues and uniform pricing are not the main focus of labelling checks.",
+"py": null,
+"values": null,
+"id": "comx15003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Consumer protection agency must check label to make sure say expiry date and wetin dey inside drink dey clear. Dem dey do dis one so dat buyer no go drink poison. Label no concern import duty or price control."
+},
+{
+"q": "A group of furniture makers in Benin City form an association that sets minimum quality standards for members' products and also trains new entrants into the trade. This association is best described as performing which combination of functions?",
+"options": [
+"Protecting members' interests and promoting professional standards within the trade",
+"Collecting taxes from members on behalf of government",
+"Acting as a court to settle all criminal cases involving members",
+"Serving as the only bank through which members can save money"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Setting quality standards and training members are both ways a trade association protects its members' common interests and raises professional standards in the trade. Trade associations do not collect government taxes, act as criminal courts, or function as banks.",
+"py": null,
+"values": null,
+"id": "comx15005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When furniture makers join hand to set standard and train people, dem dey protect dia trade. Dis one dey help dem work better and keep professional standard. Association no be bank or court."
+},
+{
+"q": "A key difference between the role of a chamber of commerce and that of a government consumer protection agency is that the chamber of commerce mainly:",
+"options": [
+"Protects and promotes the interests of businesses, while the agency protects the interests of buyers",
+"Punishes businesses that sell substandard goods, while the agency has no such power",
+"Sets the retail prices of goods nationwide, while the agency only advises on prices",
+"Issues licences to all businesses, while the agency only monitors advertising"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A chamber of commerce exists chiefly to serve and advance the interests of its business members, whereas a consumer protection agency exists chiefly to safeguard the rights and welfare of consumers. The other statements wrongly describe the powers of either body.",
+"py": null,
+"values": null,
+"id": "comx15007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Chamber of commerce dey look after business people interest. Consumer protection agency dey look after buyer interest so dem no go cheat dem. Na two different work be dat."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best explains why government encourages the formation of trade associations and chambers of commerce rather than discouraging them?",
+"options": [
+"They help government to monopolise the distribution of essential goods",
+"They serve as channels through which government can reach and regulate the business community more easily",
+"They allow businesses to avoid complying with any government regulations",
+"They replace the need for a ministry of trade and industry",
+"They guarantee that all businesses in an area will make the same amount of profit"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Government finds it easier to communicate policies, gather feedback and enforce regulation when businesses are organised into recognised bodies like trade associations and chambers of commerce. These bodies do not help businesses dodge regulation, replace ministries, or guarantee equal profits.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Okon buys a used generator from a roadside dealer who refuses to give any guarantee of its working condition before collecting payment. Which basic consumer right is most directly being denied to Okon?",
+"options": [
+"The right to redress for a defective product",
+"The right to associate with other traders",
+"The right to free advertisement of goods",
+"The right to unlimited bargaining on price"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Because the dealer gives no guarantee, Okon has no assurance of compensation or replacement if the generator turns out to be faulty, which is the right to redress. The other options are not recognised consumer rights in this situation.",
+"py": null,
+"values": null,
+"id": "comx15004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Refusing a guarantee does not necessarily deny the right to redress.|"
+}
+]
+}

@@ -1,0 +1,208 @@
+{
+"subject": "chemistry",
+"topic": "Organic chemistry: alcohols, carboxylic acids, esters, fats and soaps",
+"ti": 17,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Ethanol can be produced industrially by two main routes: fermentation of carbohydrates using yeast, and catalytic hydration of ethene with steam. Which of the following is a correct advantage of the fermentation method over the hydration method?",
+"options": [
+"It uses a renewable raw material obtained from plants",
+"It gives a much higher percentage yield of pure ethanol",
+"It operates at a much higher temperature and pressure",
+"It produces ethanol free from water without further purification"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Fermentation uses sugars from crops such as cassava or sugarcane, which are renewable, unlike ethene from petroleum. The hydration process actually gives a higher yield and purer product, and needs high temperature and pressure with a catalyst.",
+"py": null,
+"values": null,
+"id": "chex17001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Fermentation dey use crops like cassava or sugarcane wey dey renewable, unlike ethene wey come from petroleum. Ethene hydration dey give higher yield and purer product, but fermentation better because e dey use renewable raw material."
+},
+{
+"q": "Which of the following correctly describes the relationship between ethanoic acid and methanoic acid in terms of acid strength, and the reason for it?",
+"options": [
+"Methanoic acid is a stronger acid because it lacks an electron-donating alkyl group that would destabilise the carboxylate ion",
+"Ethanoic acid is a stronger acid because the methyl group withdraws electrons strongly from the carboxyl group",
+"Methanoic acid is a weaker acid because it has a longer carbon chain that stabilises the carboxylate ion",
+"Ethanoic acid is a stronger acid because it ionises completely in water like a strong acid"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The methyl group in ethanoic acid is electron-donating, which destabilises the negative charge on the carboxylate ion and makes ethanoic acid a weaker acid than methanoic acid. Methanoic acid, having only hydrogen attached, does not have this destabilising effect, so it ionises more readily.",
+"py": null,
+"values": null,
+"id": "chex17003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Methanoic acid strong pass ethanoic acid because di hydrogen wey dey am no get electron-donating alkyl group like methyl group. Di methyl group for ethanoic acid dey push electron to destabilise di carboxylate ion, wey make am weaker acid."
+},
+{
+"q": "A fat molecule is a triester formed from glycerol and three long-chain fatty acids. When this fat is hydrolysed with water in the presence of a strong acid catalyst (acid hydrolysis), what are the two types of products obtained?",
+"options": [
+"Glycerol and sodium salts of fatty acids",
+"Glycerol and free fatty acids",
+"Soap and glycerol only",
+"Esters and alcohols only"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Acid hydrolysis of a fat breaks the ester linkages using water and acid catalyst to give back glycerol and the free fatty acids. Sodium salts (soap) are only formed when the hydrolysis is done with sodium hydroxide, which is saponification, not acid hydrolysis.",
+"py": null,
+"values": null,
+"id": "chex17004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Acid hydrolysis of fat dey break di ester bond to give glycerol and free fatty acids back. Na when you use sodium hydroxide you go get soap, but acid hydrolysis dey give free fatty acids instead."
+},
+{
+"q": "Soft soaps are generally produced by reacting fats or oils with a particular hydroxide, while hard soaps are produced using a different hydroxide. Which pair correctly matches the hydroxides used for soft soap and hard soap respectively?",
+"options": [
+"Potassium hydroxide; sodium hydroxide",
+"Sodium hydroxide; potassium hydroxide",
+"Calcium hydroxide; sodium hydroxide",
+"Ammonium hydroxide; calcium hydroxide"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Soft soaps, which are more soluble and often used in liquid soaps, are made using potassium hydroxide, while hard soaps used as bar soaps are made using sodium hydroxide. This difference in the cation affects the physical form of the soap produced.",
+"py": null,
+"values": null,
+"id": "chex17005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Soft soap dey use potassium hydroxide because e dey make am more soluble, like liquid soaps. Hard soap dey use sodium hydroxide to make am strong bar soap."
+},
+{
+"q": "A synthetic detergent molecule has a long hydrocarbon chain attached to a sulphonate head group, unlike soap which has a carboxylate head group. What is the main advantage of this detergent over ordinary soap when used in hard water?",
+"options": [
+"The sulphonate group forms an insoluble scum with calcium and magnesium ions, which helps remove dirt faster",
+"The sulphonate salts of calcium and magnesium remain soluble in water, so no scum is formed",
+"Detergents do not lower the surface tension of water, so they clean more gently",
+"Detergents react completely with hard water ions to form a harmless precipitate that softens the water permanently"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Unlike the carboxylate salts in soap, the calcium and magnesium salts of sulphonate detergents are soluble in water, so they do not form the insoluble scum that ordinary soap forms in hard water. This makes synthetic detergents more effective for washing in hard water areas.",
+"py": null,
+"values": null,
+"id": "chex17006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Detergent better pass ordinary soap for hard water because calcium and magnesium sulphonate salts no dey form scum, dem dey dissolve well. Ordinary soap go form insoluble scum with hard water ions."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A sample of an alcohol, C4H9OH, is oxidised with acidified potassium heptaoxomanganate(VII), K2Cr2O7... (correction) with acidified potassium tetraoxomanganate(VII), KMnO4, under reflux to give a carboxylic acid directly, but when a different isomer of C4H9OH is oxidised under the same conditions, the product formed cannot be oxidised further. What type of alcohol is the second isomer?",
+"options": [
+"Primary alcohol",
+"Secondary alcohol",
+"Tertiary alcohol",
+"Quaternary alcohol"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Tertiary alcohols have no hydrogen on the carbon bearing the OH group, so they resist oxidation by acidified KMnO4. Primary alcohols oxidise to carboxylic acids while secondary alcohols oxidise to ketones only.",
+"py": null,
+"values": null,
+"id": "chex17000",
+"check": {
+"s1": "B",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "0.2 mole of a saturated monohydric alcohol, ROH, was completely burnt in excess oxygen to produce 0.6 mole of carbon(IV) oxide and 0.8 mole of water. What is the molecular formula of the alcohol?",
+"options": [
+"C2H5OH",
+"C3H7OH",
+"C4H9OH",
+"C5H11OH"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Dividing by 0.2 mole gives 3 mol CO2 and 4 mol H2O per mole of alcohol, so the alcohol has 3 carbons and 8 hydrogens, matching C3H7OH (propan-1-ol), which fits CnH2n+1OH for n=3.",
+"py": "3",
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "chex17002",
+"check": {
+"s1": "B",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:C"
+},
+{
+"q": {
+"q": "In an esterification reaction, 2.3 g of ethanol (C2H5OH, molar mass = 46 g/mol) is reacted with excess ethanoic acid in the presence of concentrated tetraoxosulphate(VI) acid as catalyst. Assuming the reaction proceeds with a 75% yield, what mass of ethyl ethanoate (CH3COOC2H5, molar mass = 88 g/mol) is formed?",
+"options": [
+"2.2 g",
+"3.3 g",
+"4.4 g",
+"1.65 g"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Moles of ethanol = 2.3/46 = 0.05 mole, which would give 0.05 mole of ester at 100% yield, that is 0.05 x 88 = 4.4 g. At 75% yield, the actual mass obtained is 0.75 x 4.4 = 2.2 g of ethyl ethanoate.",
+"py": "0.75*(2.3/46)*88",
+"values": [
+2.2,
+3.3,
+4.4,
+1.65
+],
+"id": "chex17007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

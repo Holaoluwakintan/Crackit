@@ -452,6 +452,7 @@ function DailyGoal() {
       <div class="goal-txt">
         <b>{done >= goal ? 'Daily goal done! 🎉' : "Today's goal"}</b>
         <span>{done} of {goal} questions{done < goal ? ` · ${goal - done} to go` : ''}</span>
+        <small class="muted">Every question you answer today counts: practice, Daily 5, and mock questions once you submit the mock. It starts again at midnight.</small>
         {edit ? (
           <div class="seg tiny">
             {[10, 20, 40, 60].map(g => <button class={g === goal ? 'on' : ''} onClick={() => { const pp = progress(); pp.goal = g; save(pp); setGoal(g); setEdit(false); }}>{g}</button>)}

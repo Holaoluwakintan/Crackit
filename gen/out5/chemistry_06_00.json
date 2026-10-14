@@ -1,0 +1,202 @@
+{
+"subject": "chemistry",
+"topic": "Acids, bases and salts, pH",
+"ti": 6,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A student tests four solutions in the laboratory with litmus paper and universal indicator. Which property is common to all aqueous bases?",
+"options": [
+"They turn blue litmus red and have pH below 7",
+"They taste sour and react with metals to liberate hydrogen gas",
+"They feel soapy, turn red litmus blue, and have pH above 7",
+"They cannot react with acids to form salt and water"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Bases are soapy to touch, turn red litmus blue, and their aqueous solutions have pH values greater than 7. Acids, not bases, turn blue litmus red and taste sour.",
+"py": null,
+"values": null,
+"id": "chex06000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Bases dey feel soapy for hand and dem dey turn red litmus paper blue. Dem get pH wey pass 7, unlike acids wey dey sour and dey turn blue litmus red."
+},
+{
+"q": "Amina mixes 50.0 cm³ of 0.20 mol/dm³ sodium hydroxide solution with 50.0 cm³ of 0.20 mol/dm³ hydrochloric acid in a calorimeter. Which statement best describes what happens to the pH of the resulting mixture compared to the original acid?",
+"options": [
+"The pH decreases because more H+ ions are produced",
+"The pH rises to about 7 because the acid and base neutralize each other exactly",
+"The pH remains unchanged since equal volumes were mixed",
+"The pH becomes greater than 12 because excess base remains"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Equal moles of a strong acid and a strong base (0.01 mol each) react completely to form a neutral salt solution, sodium chloride, with pH close to 7. There is no excess acid or base left over to shift the pH either way.",
+"py": null,
+"values": null,
+"id": "chex06002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because the moles of acid and base dey equal, dem go finish each other well well. The result na neutral salt solution, so the pH go come near 7."
+},
+{
+"q": "A buffer solution is prepared by mixing ethanoic acid with sodium ethanoate in water. What is the main role of the sodium ethanoate in this buffer system?",
+"options": [
+"It supplies excess H+ ions to resist a fall in pH",
+"It reacts with added acid by supplying ethanoate ions to mop up H+ ions",
+"It evaporates to keep the solution neutral at all times",
+"It increases the dissociation of ethanoic acid completely"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Sodium ethanoate provides a large reserve of ethanoate ions which combine with any added H+ ions, while the ethanoic acid can release more H+ if a base is added. This combination keeps the pH of the buffer almost constant.",
+"py": null,
+"values": null,
+"id": "chex06003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Sodium ethanoate dey give plenty ethanoate ions wey dey catch any H+ wey person add. This one dey help make the pH no change anyhow when acid enter."
+},
+{
+"q": "Tunde adds a few drops of concentrated tetraoxosulphate(VI) acid to a sample of aqueous sodium trioxocarbonate(IV) solution in a test tube. Which observation confirms the type of salt present and the gas evolved?",
+"options": [
+"A yellow precipitate forms with a pungent smell of ammonia",
+"Colourless gas that turns limewater milky is produced with effervescence",
+"A deep blue solution forms as the gas is released",
+"White fumes of hydrogen chloride are seen above the mixture"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Trioxocarbonate(IV) salts react with acids to liberate carbon(IV) oxide gas, seen as effervescence, which turns limewater milky. This is a standard confirmatory test for the carbonate ion.",
+"py": null,
+"values": null,
+"id": "chex06004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When acid touch trioxocarbonate(IV), e go release carbon(IV) oxide gas with bubbles. That gas na wetin dey turn limewater milky, so na confirm test be that."
+},
+{
+"q": "Which pair of substances, when mixed in the correct ratio, would be expected to produce a salt by the reaction of a basic oxide with an acid, releasing only water as the other product?",
+"options": [
+"Calcium oxide and dilute hydrochloric acid",
+"Sodium chloride solution and silver trioxonitrate(V) solution",
+"Zinc metal and dilute tetraoxosulphate(VI) acid",
+"Ammonia gas and hydrogen chloride gas"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Calcium oxide is a basic oxide that reacts with dilute hydrochloric acid to form calcium chloride salt and water only. The other options either involve a metal liberating hydrogen gas, a double decomposition forming a precipitate, or two gases combining to form a solid salt directly without water.",
+"py": null,
+"values": null,
+"id": "chex06006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Calcium oxide na basic oxide, so e go react with acid to give salt and water only. Other options no fit give water as the only other product."
+},
+{
+"q": "A solution of a certain salt dissolved in water turns moist red litmus paper blue and has a pH of about 9. Which type of salt most likely gives this result?",
+"options": [
+"A salt of a strong acid and a strong base",
+"A salt formed from a weak base and a strong acid",
+"A salt formed from a strong base and a weak acid",
+"A salt formed from a weak acid and a weak base with equal strength"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Salts formed from a strong base and a weak acid undergo anionic hydrolysis, where the anion reacts with water to release OH- ions, making the solution alkaline with pH above 7. This explains why the solution turns red litmus blue.",
+"py": null,
+"values": null,
+"id": "chex06007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Salt wey come from strong base and weak acid dey undergo hydrolysis to produce OH- ions. That one na why the solution dey alkaline and dey turn red litmus blue."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following pairs correctly matches the acid with its correct IUPAC name according to the modern nomenclature used in trioxo and tetraoxo acids?",
+"options": [
+"H2SO4 - tetraoxosulphate(VI) acid",
+"HNO3 - trioxonitrate(V) acid",
+"H3PO4 - tetraoxophosphate(V) acid",
+"H2CO3 - trioxocarbonate(IV) acid"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Nitric acid, HNO3, contains three oxygen atoms with nitrogen in the +5 oxidation state, so it is correctly named trioxonitrate(V) acid. The others are wrongly named; the correct forms are tetraoxosulphate(VI) acid, tetraoxophosphate(V) acid and trioxocarbonate(IV) acid respectively.",
+"py": null,
+"values": null,
+"id": "chex06001",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A 250 cm³ solution contains 2.0 g of sodium hydroxide, NaOH (Na=23, O=16, H=1). Calculate the pOH of the solution, assuming complete dissociation and that the volume does not change on dissolving the solid.",
+"options": [
+"1.0",
+"0.70",
+"13.0",
+"0.30"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Moles of NaOH = 2.0/40 = 0.05 mol, concentration = 0.05/0.25 = 0.2 mol/dm3, so [OH-] = 0.2 mol/dm3. pOH = -log(0.2) = 0.70, which rounds closest to the value 1.0 among realistic choices once significant figures are considered, giving pOH approximately 0.7; however the nearest standard textbook value expected is 0.70.",
+"py": "-math.log10(2.0/40/0.25)",
+"values": [
+1.0,
+0.7,
+13.0,
+0.3
+],
+"id": "chex06005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

@@ -1,0 +1,248 @@
+{
+"subject": "economics",
+"topic": "Costs and revenue: fixed, variable, marginal and average cost",
+"ti": 7,
+"b": 1,
+"generated": 9,
+"kept": [
+{
+"q": "A palm oil seller in Abia State pays ₦12,000 monthly as shop rent and ₦3,000 monthly for a trade licence, regardless of how many litres of oil she sells. These two amounts together represent her:",
+"options": [
+"Total variable cost",
+"Total fixed cost",
+"Marginal cost",
+"Average variable cost"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Costs that remain the same no matter the level of output, such as rent and licence fees, are fixed costs. They do not change whether she sells little or much oil.",
+"py": null,
+"values": null,
+"id": "ecox07010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Shop rent and trade licence money wey person dey pay every month no dey change even if she sell plenty oil or small. Na total fixed cost be that because dem no dey depend on how many things she sell."
+},
+{
+"q": "Which of the following is the best example of a variable cost for a bread bakery in Ilorin?",
+"options": [
+"Annual rent paid for the bakery building",
+"Monthly salary of the permanent manager",
+"Cost of flour and yeast used in baking",
+"Depreciation charge on the baking oven"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Flour and yeast are raw materials whose quantity used rises and falls directly with the amount of bread baked, so their cost is variable. Rent, salary and depreciation stay fixed in the short run.",
+"py": null,
+"values": null,
+"id": "ecox07011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Flour and yeast na raw materials wey quantity dey increase or reduce as bread production dey go up or down, so na variable cost. Rent, salary and depreciation na fixed cost for short run."
+},
+{
+"q": "A phone accessories dealer in Computer Village, Lagos, has the following short-run figures: total fixed cost is ₦20,000, and total variable cost at 100 units is ₦30,000. What is the total cost of producing 100 units?",
+"options": [
+"₦10,000",
+"₦20,000",
+"₦30,000",
+"₦50,000"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Total cost equals total fixed cost plus total variable cost. Adding ₦20,000 and ₦30,000 gives ₦50,000.",
+"py": "20000+30000",
+"values": [
+10000,
+20000,
+30000,
+50000
+],
+"id": "ecox07012",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Total cost na total fixed cost join total variable cost. If you add ₦20,000 and ₦30,000 together, wetin you go get na ₦50,000."
+},
+{
+"q": "A poultry farmer in Oyo State produces 80 crates of eggs at a total cost of ₦96,000, giving an average total cost of ₦1,200 per crate. If his average fixed cost per crate is ₦400, what is his average variable cost per crate?",
+"options": [
+"₦400",
+"₦800",
+"₦1,200",
+"₦1,600"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Average total cost equals average fixed cost plus average variable cost. Subtracting ₦400 from ₦1,200 leaves ₦800 as the average variable cost per crate.",
+"py": "1200-400",
+"values": [
+400,
+800,
+1200,
+1600
+],
+"id": "ecox07013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Average total cost na average fixed cost join average variable cost. When you minus ₦400 from ₦1,200, wetin remain na ₦800 per crate."
+},
+{
+"q": "A shoe exporter in Aba sells 50 pairs of shoes at ₦4,000 each, then sells an additional 10 pairs which raises her total revenue to ₦260,000. What is her marginal revenue per pair for the additional 10 pairs?",
+"options": [
+"₦3,000",
+"₦4,000",
+"₦5,000",
+"₦6,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Initial revenue from 50 pairs is 50 times 4,000, which equals ₦200,000. The extra revenue from the 10 additional pairs is 260,000 minus 200,000, giving ₦60,000, so marginal revenue per pair is 60,000 divided by 10, which is ₦6,000.",
+"py": "(260000-50*4000)/10",
+"values": [
+3000,
+4000,
+5000,
+6000
+],
+"id": "ecox07014",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Initial revenue for 50 pairs na ₦200,000, and extra revenue for the 10 extra pairs na ₦60,000. If you divide ₦60,000 by 10, you go get ₦6,000 as marginal revenue per pair."
+},
+{
+"q": "A grinding mill operator in Sokoto notices that as he grinds more grain beyond a certain point, each extra bag of grain ground adds more to total cost than the previous bag did, even though his machine and shop rent have not changed. This situation best illustrates:",
+"options": [
+"Constant returns to scale",
+"Rising fixed cost",
+"Diminishing marginal returns leading to rising marginal cost",
+"A fall in average fixed cost"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When extra units of a variable input add less and less extra output, the cost of producing each additional unit rises, which is diminishing marginal returns pushing marginal cost upward. Fixed cost is unaffected since rent and machine cost stay constant.",
+"py": null,
+"values": null,
+"id": "ecox07015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When extra input dey give smaller output, the cost to produce extra one dey go up because of diminishing marginal returns. Fixed cost still dey remain the same since rent and machine no change."
+},
+{
+"q": "A furniture workshop in Ogun State produces wooden tables. At 20 tables, total variable cost is ₦140,000; at 21 tables, total variable cost rises to ₦152,000; and at 22 tables, it further rises to ₦166,000. Over this range, what is happening to marginal cost as output increases from 20 to 22 tables?",
+"options": [
+"Marginal cost is constant at ₦12,000",
+"Marginal cost is falling from ₦14,000 to ₦12,000",
+"Marginal cost is rising from ₦12,000 to ₦14,000",
+"Marginal cost is falling from ₦12,000 to ₦10,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The change from 20 to 21 tables adds ₦12,000 to cost, while the change from 21 to 22 tables adds ₦14,000. Since each extra table costs more than the one before it, marginal cost is rising.",
+"py": null,
+"values": null,
+"id": "ecox07017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "From 20 to 21 tables, the cost increase na ₦12,000, but from 21 to 22 tables, the increase na ₦14,000. Because every extra table dey cost pass the previous one, marginal cost dey rise."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A detergent manufacturer in Aba has a total revenue function given by TR = 600Q - 3Q^2 and a total cost function given by TC = 100Q + 4,500, where Q is the number of cartons produced. What level of output maximizes profit, given that profit is maximised where marginal revenue equals marginal cost?",
+"options": [
+"50 cartons",
+"75 cartons",
+"83 cartons",
+"100 cartons"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Marginal revenue is 600 minus 6Q, obtained by differentiating total revenue, while marginal cost is 100, the derivative of total cost. Setting 600 minus 6Q equal to 100 gives Q equal to about 83 cartons.",
+"py": "(600-100)/6",
+"values": [
+50,
+75,
+83.3333333,
+100
+],
+"id": "ecox07016",
+"check": {
+"s1": "C",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+},
+{
+"q": {
+"q": "A canned tomato factory in Kano has total fixed cost of ₦60,000. At an output of 200 cartons, its total cost is ₦180,000, giving an average total cost of ₦900 per carton. If output is increased to 300 cartons and average variable cost per carton remains unchanged, what will be the new average total cost per carton?",
+"options": [
+"₦700",
+"₦800",
+"₦900",
+"₦1,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At 200 cartons, variable cost is 180,000 minus 60,000, which is 120,000, so average variable cost is 600 per carton. At 300 cartons, variable cost stays at 600 per carton, giving total variable cost of 180,000, and fixed cost stays 60,000, so total cost is 240,000, making average total cost 240,000 divided by 300, which is ₦800.",
+"py": "((180000-60000)/200*300+60000)/300",
+"values": [
+700,
+800,
+900,
+1000
+],
+"id": "ecox07018",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+}
+]
+}

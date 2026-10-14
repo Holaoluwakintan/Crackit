@@ -1,0 +1,194 @@
+{
+"subject": "government",
+"topic": "Nigeria's constitutional development (1922 to 1960)",
+"ti": 12,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "The Nigerian Council established in 1914 by Lord Lugard was later replaced by a more representative body under the 1922 Clifford Constitution. What was this new body called?",
+"options": [
+"The Executive Council",
+"The Legislative Council",
+"The National Assembly",
+"The House of Chiefs"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The 1922 Clifford Constitution replaced the Nigerian Council with the Legislative Council, which had law-making powers for the Colony and Southern Provinces. This was a step towards representative government in Nigeria.",
+"py": null,
+"values": null,
+"id": "govx12000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na di 1922 Clifford Constitution change di Nigerian Council to Legislative Council wey come dey make law for Colony and Southern Provinces. Dis one na beta step towards representative government for Nigeria."
+},
+{
+"q": "One key weakness of the Clifford Constitution of 1922, often pointed out by Nigerian political thinkers, was that it",
+"options": [
+"excluded the Northern Provinces from the legislative arrangements",
+"abolished the office of the Governor completely",
+"gave full self-government to all regions at once",
+"transferred all executive powers to elected Nigerians"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Legislative Council created in 1922 only made laws for the Colony and the Southern Provinces, leaving the Northern Provinces under the Governor's direct legislative control. This unequal arrangement was a major criticism of the constitution.",
+"py": null,
+"values": null,
+"id": "govx12001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di Legislative Council wey dem create for 1922 only dey make law for Colony and Southern Provinces, while Northern Provinces remain under Governor direct control. Dis unequal arrangement naim pipo take criticize di constitution well well."
+},
+{
+"q": "A notable feature of the Richards Constitution of 1945 was the introduction of the principle of regionalism. Which THREE regions did this constitution formally recognise for deliberative purposes?",
+"options": [
+"Northern, Eastern and Western Regions",
+"Northern, Mid-Western and Southern Regions",
+"Eastern, Western and Lagos Regions",
+"Northern, Southern and Colony Regions"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Richards Constitution grouped the country into Northern, Eastern and Western Regions, each with its own House of Assembly for deliberation on local matters. This laid the foundation for later regional government in Nigeria.",
+"py": null,
+"values": null,
+"id": "govx12002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di Richards Constitution share di country into Northern, Eastern and Western Regions, and each region get dia own House of Assembly to handle local matters. Dis one come set foundation for regional government for Nigeria."
+},
+{
+"q": "Under the Macpherson Constitution of 1951, the central Legislature in Lagos was renamed to reflect a more representative character. What was this renamed body called?",
+"options": [
+"The Legislative Council",
+"The House of Representatives",
+"The Supreme Council",
+"The Federal Senate"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Macpherson Constitution changed the name of the central legislature from the Legislative Council to the House of Representatives, with members drawn from the three regions. This reflected growing Nigerian participation in central government.",
+"py": null,
+"values": null,
+"id": "govx12003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na Macpherson Constitution change di name of di central legislature from Legislative Council to House of Representatives, with members from di three regions. Dis one show say Nigerians dey join hand well well for central government."
+},
+{
+"q": "A major crisis that exposed the weaknesses of the Macpherson Constitution and hastened its review was the",
+"options": [
+"1953 Kano riots over the self-government motion",
+"1945 general strike by Nigerian workers",
+"Aba women's protest of 1929",
+"Enugu coal miners' shooting of 1949"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The 1953 crisis arose when Northern members opposed the motion for self-government in 1956, leading to disturbances in Kano and exposing deep regional disagreements under the Macpherson Constitution. This crisis led to the calling of the 1953 London Conference to review the constitution.",
+"py": null,
+"values": null,
+"id": "govx12004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di 1953 crisis happen when Northern members no gree for di motion for self-government for 1956, wey come cause trouble for Kano and show say region pipo no gree for each other. Dis crisis naim make dem call 1953 London Conference."
+},
+{
+"q": "Under the Lyttleton Constitution of 1954, which of the following best describes the new status given to Lagos?",
+"options": [
+"It became a separate region with its own premier",
+"It was merged permanently with the Western Region",
+"It was made the Federal Territory under the Federal Government",
+"It became the capital of the Northern Region"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The Lyttleton Constitution of 1954 made Lagos a Federal Territory directly administered by the Federal Government, separate from the regions. This arrangement settled disputes over the ownership and control of Lagos among the regions.",
+"py": null,
+"values": null,
+"id": "govx12005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di 1954 Lyttleton Constitution make Lagos become Federal Territory wey Federal Government dey direct control, separate from di regions. Dis one settle fight over who own Lagos among di regions."
+},
+{
+"q": "A distinguishing feature of the Lyttleton Constitution of 1954, compared to earlier constitutions, was that it clearly separated powers between the central government and the regions by introducing",
+"options": [
+"a unitary list of government functions only",
+"Exclusive, Concurrent and Residual legislative lists",
+"a single legislative list for all tiers of government",
+"a complete ban on regional legislatures"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The 1954 Lyttleton Constitution divided legislative powers into Exclusive, Concurrent and Residual lists, clarifying which matters belonged to the Federal Government, which were shared, and which were left to the regions. This was a key feature of the federal system it established.",
+"py": null,
+"values": null,
+"id": "govx12006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di 1954 Lyttleton Constitution share law-making powers into Exclusive, Concurrent and Residual lists, to show weda na Federal Government or regions suppose handle am. Naim be di main style of di federal system wey dem bring."
+},
+{
+"q": "Before Nigeria's independence in 1960, the Eastern and Western Regions achieved internal self-government in 1957, while the Northern Region attained the same status in a later year because of",
+"options": [
+"the North's deliberate refusal to join any federal arrangement",
+"the North's fear of domination due to its lower level of Western education and administrative development",
+"a decision by the British to punish the North for the 1953 riots",
+"the absence of any Northern representatives at the constitutional conferences"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Northern leaders felt the region was less developed in Western education and administration compared to the South, so they requested more time before taking on self-government, achieving it in 1959. This delay reflected genuine concerns about readiness rather than refusal to participate.",
+"py": null,
+"values": null,
+"id": "govx12007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Northern leaders feel say dia region never reach South for Western education and administration, so dem ask for more time before self-government, wey dem come get for 1959. Dis delay show say dem just wan ready well well, no be say dem refuse to join."
+}
+],
+"rejected": []
+}

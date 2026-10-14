@@ -1,0 +1,176 @@
+{
+"subject": "crs",
+"topic": "Divine providence, guidance and protection (Exodus and the wilderness)",
+"ti": 4,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "When the Israelites arrived at Rephidim, there was no water for the people to drink and they murmured against Moses. What did God instruct Moses to do at that place to provide water for the people?",
+"options": [
+"Dip a piece of cloth into a nearby well",
+"Strike the rock at Horeb with his rod",
+"Pray over a dry riverbed until it filled with water",
+"Send spies to find a hidden spring"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "At Rephidim, God told Moses to strike the rock at Horeb with his rod, and water gushed out for the people to drink. This showed God's continued provision despite the people's complaining.",
+"id": "crsx04000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For Rephidim, God tell Moses make e strike the rock for Horeb with im rod, and water come out for people to drink. This show say God dey provide for dem even when dem dey complain."
+},
+{
+"q": "Before the Israelites reached Mount Sinai, God tested their obedience through the way He provided food. Which instruction concerning the manna was meant to test whether the people would obey God's law?",
+"options": [
+"They must share the manna equally with the Egyptians who followed them",
+"They must not go out of the camp to gather manna on the Sabbath",
+"They must cook the manna before eating it",
+"They must store enough manna to last a full year"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "God commanded that no manna would fall on the Sabbath, and the people were told to gather double the day before and rest on the seventh day. This instruction tested their obedience to God's law of rest.",
+"id": "crsx04001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "God command say no manna go fall for Sabbath day, and make dem gather double the day before. Dis instruction test weda dem go obey God law of rest."
+},
+{
+"q": "As the Israelites journeyed through the wilderness, God's providence was shown not only in feeding them but also in preserving their basic needs over many years. Which of the following is specifically recorded as a sign of God's sustaining care throughout the forty years in the wilderness?",
+"options": [
+"Their clothes and sandals did not wear out",
+"Their cattle multiplied greatly every year",
+"They never experienced any form of sickness",
+"They received silver and gold daily from heaven"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Moses reminded the people that throughout their forty years of wandering, their clothes did not wear out nor did their feet swell, showing God's continuous care and protection over them.",
+"id": "crsx04002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Moses remind everybody say throughout their forty years for wilderness, dia clothes no tear and dia legs no swell. Dis show how God dey care and protect dem."
+},
+{
+"q": "A Sunday School teacher explains that God's guidance of Israel through the wilderness was not limited to physical direction but also included moral instruction for right living. Which event best illustrates God providing the Israelites with moral and religious guidance during the wilderness journey?",
+"options": [
+"The giving of the Ten Commandments at Mount Sinai",
+"The crossing of the Red Sea",
+"The sweetening of the water at Marah",
+"The victory over the Amalekites"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "At Mount Sinai, God gave Moses the Ten Commandments to guide the moral and religious conduct of the Israelites. This was God's way of providing them with a standard for right living, beyond mere physical direction.",
+"id": "crsx04004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For Mount Sinai, God give Moses Ten Commandments to direct how the Israelites suppose dey live dia life. Na so God give dem standard for good behaviour and worship."
+},
+{
+"q": "Soon after leaving Egypt, the Israelites complained of hunger and longed for the food they used to eat in Egypt. Comparing God's response at this point with His response to their later complaint about lack of water at Rephidim, what common lesson do both incidents teach about divine providence?",
+"options": [
+"God only helps those who have never complained against Him",
+"God withdraws His blessings whenever the people disobey Him",
+"God continues to provide for His people's needs even when they complain, showing His patience and faithfulness",
+"God always punishes complaints with plagues before providing help"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Despite the people's repeated grumbling about hunger and thirst, God still provided manna and water for them instead of abandoning them. Both incidents together teach that God remains patient and faithful in meeting His people's needs even amid their weak faith.",
+"id": "crsx04005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Even though the people dey grumble up and down for food and water, God still provide manna and water give dem. Both story teach us say God dey patient and faithful to supply wetin hin people need."
+},
+{
+"q": "During the journey, the Israelites were led to travel by a longer route through the wilderness rather than the shorter way through the land of the Philistines. What was God's main reason for choosing this longer route for His people?",
+"options": [
+"To test their skill in desert survival",
+"So that they would not be discouraged by the sight of war and return to Egypt",
+"To give Moses more time to receive the law",
+"Because the Philistines had closed their borders"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The Bible records that God led the people by the wilderness route because the shorter way through Philistine territory might expose them to war, which could discourage them and make them want to go back to Egypt. This shows God's protective guidance in planning their path.",
+"id": "crsx04006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Bible tell us say God carry dem pass wilderness road because if dem face war for Philistine land, fear fit make dem turn back go Egypt. Dis show say God dey protect dia steps."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The Israelites once complained that they missed the fish, cucumbers, melons, leeks, onions and garlic they used to eat freely in Egypt, calling the manna \"worthless food\". What does this complaint chiefly reveal about the people's attitude toward God's provision?",
+"options": [
+"They were grateful but simply wanted variety",
+"They had forgotten their slavery and undervalued God's miraculous provision",
+"They were testing Moses to see if he would punish them",
+"They wanted Moses to return them immediately to Egypt",
+"They were planning to grow their own crops in the wilderness"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The people's complaint shows ingratitude, as they forgot the bitterness of their slavery in Egypt and despised the manna, a daily miracle that sustained their lives. This reveals a lack of appreciation for God's faithful and continuous provision."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "When the Israelites complained bitterly to Moses, saying it would have been better to remain slaves in Egypt than to die in the wilderness, what was the main reason for this particular complaint?",
+"options": [
+"They had just been bitten by fiery serpents",
+"They saw Pharaoh's army approaching and were afraid of being trapped at the Red Sea",
+"They were tired of eating manna every day",
+"They had run out of water at Marah"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When the Israelites saw the Egyptian army pursuing them with the Red Sea ahead, they panicked and complained to Moses that it would have been better to serve the Egyptians than to die in the desert. God then delivered them at the sea.",
+"id": "crsx04003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+}
+},
+"why": "review:The explanation mentions the Red Sea pursuit, but the context of complaining about slavery vs dying in the wilderness happens multiple times, and the Red Sea event occurred right after leaving Egypt before the wilderness journey truly began. More accurately, the specific verse referring to slavery and dying in the wilderness due to lack of water/food happens during the wilderness journey, though the choice is correct. Let us keep ok as true since the explanation accurately describes the Red Sea panic context, but wait, the question asks why they said it would be better to remain slaves. Actually, option B refers to the Red Sea, but the Israelites complained about food and water in the wilderness too. Let us set ok false because option B explanation mixes up the wilderness murmurings with the Red Sea event."
+}
+]
+}

@@ -1,0 +1,147 @@
+{
+"subject": "economics",
+"topic": "Theory of production: factors of production, laws of returns, division of labour",
+"ti": 6,
+"b": 0,
+"generated": 6,
+"kept": [
+{
+"q": "Which of the following is the best example of entrepreneurship as a factor of production in a Nigerian context?",
+"options": [
+"A woman who borrows ₦2 million, rents a shop in Onitsha, hires workers and bears the risk of running a provisions store",
+"A worker who is paid ₦35,000 monthly to arrange goods on shelves in a supermarket",
+"A landlord who receives rent for a warehouse used for storing cement",
+"A bank that charges interest on a loan given to a trader"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Entrepreneurship involves organising other factors of production and bearing business risk for profit. The woman who initiates, finances, and manages the business while bearing risk fits this role, unlike the worker, landlord, or bank.",
+"py": null,
+"values": null,
+"id": "ecox06000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Entrepreneurship mean say person go arrange other factor of production and carry the risk to make profit. Na the woman wey borrow ₦2 million, rent shop for Onitsha, and bear business risk fit this description well well."
+},
+{
+"q": "In the theory of production, the law of diminishing returns states that as more units of a variable factor are added to a fixed factor, output will eventually",
+"options": [
+"rise at an increasing rate indefinitely",
+"increase but at a diminishing rate",
+"remain constant regardless of the number of workers added",
+"fall to zero immediately after the second worker is employed"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The law of diminishing returns says that beyond a certain point, each additional unit of a variable factor added to a fixed factor yields less extra output than the previous one. This means total output still rises, but more slowly.",
+"py": null,
+"values": null,
+"id": "ecox06001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Law of diminishing returns talk say if you dey add variable factor join fixed factor, the extra output wey you go dey get go start to dey reduce. Total output still dey go up, but e dey increase slowly."
+},
+{
+"q": "A garment factory in Kano has a fixed workshop and machines. As it employs the 1st to 4th tailor, total output rises sharply. From the 5th tailor onward, total output still rises but by smaller amounts each time, until the 9th tailor is added and total output stops rising. The stage from the 5th to the 8th tailor best illustrates",
+"options": [
+"the stage of increasing returns",
+"the stage of diminishing returns",
+"the stage of negative returns",
+"the point of maximum total product only"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When total output keeps rising but each extra worker adds less than the one before, production is in the stage of diminishing returns. This is different from increasing returns (output rising faster) or negative returns (output falling).",
+"py": null,
+"values": null,
+"id": "ecox06002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If total output dey still rise but each extra worker dey add small small quantity, dat one na the stage of diminishing returns. E no be increasing returns or negative returns."
+},
+{
+"q": "A cassava processing mill in Kogi has 5 workers producing a total of 250 bags of garri per week. When a 6th worker is employed, total output rises to 270 bags. What is the marginal product of the 6th worker?",
+"options": [
+"20 bags",
+"45 bags",
+"270 bags",
+"50 bags"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Marginal product is the change in total output from employing one more worker, calculated as 270 minus 250, which equals 20 bags. The other options either use the wrong figures or confuse marginal with total or average product.",
+"py": "270-250",
+"values": [
+20,
+45,
+270,
+50
+],
+"id": "ecox06003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Marginal product na the extra output wey one extra worker dey bring, wey you go get if you minus the old total output from the new total output. If you minus 250 from 270, you go get 20 bags."
+},
+{
+"q": "Which of the following is a key difference between division of labour and specialization as used in production theory?",
+"options": [
+"Division of labour applies only to machines, while specialization applies only to workers",
+"Division of labour refers to breaking a production process into separate tasks, while specialization refers to a worker, firm or region focusing on a particular task or product",
+"Specialization only occurs in agriculture, while division of labour only occurs in industry",
+"Division of labour reduces output while specialization increases output"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Division of labour is the splitting of a job into smaller tasks done by different people, while specialization is the broader concept of focusing on one task, trade, or product for efficiency. Both work together but are not identical.",
+"py": null,
+"values": null,
+"id": "ecox06004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Division of labour na to break work into small small part make different people do am, while specialization na when person or place focus on only one particular work or product. Dem two different, even though dem dey work hand in hand."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A shoe-making firm in Aba divides production into cutting, stitching, gluing and polishing, with each worker specializing in one task. Which of the following is most likely to be a DIRECT economic effect of this arrangement?",
+"options": [
+"Total cost of raw leather will automatically fall",
+"Workers will become more skilled and faster at their specific tasks, raising output per worker",
+"The firm will no longer need any form of supervision",
+"Demand for shoes in the market will automatically increase",
+"",
+""
+],
+"q_fix": true
+},
+"why": "bad-shape"
+}
+]
+}

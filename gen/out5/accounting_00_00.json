@@ -1,0 +1,194 @@
+{
+"subject": "accounting",
+"topic": "Nature, users and significance of accounting",
+"ti": 0,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Mr. Adeyemi, a tax officer at the Federal Inland Revenue Service, needs the annual accounts of Okpara Plastics Ltd to determine how much company income tax is due. Mr. Adeyemi is best described as a(n):",
+"options": [
+"Internal user of accounting information",
+"External user of accounting information",
+"Management accountant of the company",
+"Internal auditor of the company"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Tax authorities are outside the organisation and only use published accounts, so they are classified as external users. Internal users are those who work within and manage the business directly.",
+"py": null,
+"values": null,
+"id": "accx00000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Tax officers dey outside di company and dem dey use published accounts, so dem be external users. Na people wey dey work inside di business and dey manage am directly be internal users."
+},
+{
+"q": "Which of these best describes the going concern concept as it relates to the nature of accounting?",
+"options": [
+"Accounts are prepared assuming the business will continue operating for the foreseeable future",
+"Accounts must record only transactions that involve cash payments",
+"Accounts are prepared strictly to satisfy government tax requirements",
+"Accounts should value all assets at their original purchase cost only"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The going concern concept assumes a business will continue trading into the future, which justifies spreading costs of assets over time rather than at break-up value. This is a fundamental assumption underlying the nature of accounting.",
+"py": null,
+"values": null,
+"id": "accx00001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Going concern concept assume say business go continue to dey run for future, wey make am correct to spread asset cost over time. Dis one na fundamental assumption wey dey guide how dem dey prepare accounts."
+},
+{
+"q": "Which of the following is a function of accounting rather than a reason why it is significant to society at large?",
+"options": [
+"It helps government plan and generate revenue through taxation",
+"It recording, classifying and summarising financial transactions in monetary terms",
+"It helps investors decide whether to buy shares in a company",
+"It provides data for comparing the performance of firms within an industry"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Recording, classifying and summarising transactions describes what accounting actually does, that is, its core function. The other options describe benefits accounting provides to different groups in society.",
+"py": null,
+"values": null,
+"id": "accx00002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To dey record, classify and summarise transactions na wet accounting actually dey do, meaning na im core function. Di other options na benefits wey accounting dey give different groups for society."
+},
+{
+"q": "The management of Delta Breweries Plc wants to know which product line is least profitable so they can decide whether to discontinue it. This decision mainly illustrates accounting serving as a tool for:",
+"options": [
+"Historical record keeping only",
+"Legal compliance with company law",
+"Managerial decision making",
+"Settling disputes with trade unions"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Using cost and profit information to decide on discontinuing a product line is a planning and control decision made by management. This shows accounting's role in providing data for internal managerial decisions.",
+"py": null,
+"values": null,
+"id": "accx00003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To use cost and profit info make management fit decide whether to stop one product line na planning and control decision. Dis one show how accounting dey help managers make internal decisions."
+},
+{
+"q": "Which statement correctly distinguishes financial accounting from management accounting?",
+"options": [
+"Financial accounting reports are mainly for external users while management accounting reports are mainly for internal users",
+"Financial accounting deals only with cash transactions while management accounting deals only with credit transactions",
+"Financial accounting is optional for companies while management accounting is compulsory by law",
+"Financial accounting covers only small businesses while management accounting covers only large companies"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Financial accounting produces statutory reports like the statement of profit or loss for shareholders, creditors and government, which are external users. Management accounting produces detailed internal reports for planning and control by managers.",
+"py": null,
+"values": null,
+"id": "accx00004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Financial accounting dey produce statutory reports for external users like shareholders and government. Management accounting invece dey produce detailed internal reports for managers to plan and control."
+},
+{
+"q": "A supplier, Hajiya Fatima, sells goods on credit worth ₦450,000 monthly to Greenfield Stores. Before continuing to supply on credit, she wants to assess the company's accounts to check its ability to pay debts as they fall due. This mainly relates to assessing the company's:",
+"options": [
+"Profitability only",
+"Liquidity and creditworthiness",
+"Market share in the industry",
+"Tax liability to government"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A supplier extending credit is mainly concerned with whether the business can pay its debts on time, which relates to liquidity and creditworthiness. Profitability alone does not guarantee a firm has enough cash to settle short-term obligations.",
+"py": null,
+"values": null,
+"id": "accx00005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Supplier wey wan give credit want know whether business go fit pay debts on time, and dis one na liquidity and creditworthiness. Profitability alone no mean say company get cash to settle short-term debts."
+},
+{
+"q": "One major significance of accounting is that it helps prevent and detect fraud within an organisation. This benefit is achieved mainly through:",
+"options": [
+"Setting selling prices for all goods produced",
+"Preparing advertising budgets for new products",
+"Maintaining proper records and internal control systems that can be checked and verified",
+"Calculating the market value of competitors' shares"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Proper accounting records with internal controls, such as authorisation and regular checks, make it difficult for employees to steal or manipulate figures without detection. This is why accounting systems are designed with built-in checks rather than relying only on trust.",
+"py": null,
+"values": null,
+"id": "accx00006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Proper accounting records with internal controls like checks and regular monitoring make am hard for person to steal money without make dem catch am. Na why accounting system get built-in checks."
+},
+{
+"q": "A final year Economics student is studying how national income statistics are compiled using records from thousands of individual businesses across Nigeria. Which significance of accounting does this situation best illustrate?",
+"options": [
+"Accounting helps in settling disputes between business partners",
+"Accounting provides data used in the preparation of national economic statistics",
+"Accounting replaces the need for a national population census",
+"Accounting ensures all businesses pay the same rate of tax"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Government economic planners rely on aggregated financial data from businesses to compute figures such as gross domestic product. This shows how accounting information extends beyond individual firms to support national economic analysis.",
+"py": null,
+"values": null,
+"id": "accx00007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Government planners dey use financial data from businesses to calculate national figures like gross domestic product. Dis show how accounting info dey help support national economic analysis beyond just one firm."
+}
+],
+"rejected": []
+}

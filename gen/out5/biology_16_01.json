@@ -1,0 +1,197 @@
+{
+"subject": "biology",
+"topic": "Pollution, conservation and natural resources",
+"ti": 16,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A community in the Niger Delta relies on a freshwater swamp for fishing and farming. Over several years, waste from a nearby factory causes the swamp to lose most of its fish species and plant diversity. This loss of variety of living organisms in the swamp is best described as a decline in",
+"options": [
+"biodegradability",
+"biomagnification",
+"biodiversity",
+"biotic potential"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Biodiversity refers to the variety of living organisms (plants, animals and microbes) in an area. A fall in the number of different species in the swamp shows reduced biodiversity, not the other listed terms.",
+"values": null,
+"py": null,
+"id": "biox16010",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Biodiversity na the different different living things like plants and animals wey dey one place. When the fish and plants dey die finish because of waste, e mean say biodiversity don drop."
+},
+{
+"q": "A government agency wants to reduce air pollution from vehicle exhausts in a busy Nigerian city. Which measure would most directly reduce the amount of pollutant gases released by cars into the atmosphere?",
+"options": [
+"Increasing the number of fuel stations in the city",
+"Fitting vehicles with catalytic converters and enforcing use of unleaded fuel",
+"Widening roads to reduce traffic jams only",
+"Painting vehicles with reflective colours"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Catalytic converters change harmful exhaust gases into less harmful substances before they leave the vehicle, and unleaded fuel reduces lead pollution. The other options may ease traffic but do not directly cut the pollutant content of exhaust gases.",
+"values": null,
+"py": null,
+"id": "biox16012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Catalytic converter dey help change bad gas wey motor dey bring out to better gas before e enter air. Again, unleaded fuel dey stop lead pollution well well."
+},
+{
+"q": "In a certain forest reserve, selective logging is practised such that only matured trees of a particular girth size are cut, while young trees are left to grow and replace the harvested ones. This forestry practice is an example of",
+"options": [
+"afforestation",
+"deforestation",
+"sustainable yield management",
+"shifting cultivation"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Sustainable yield management means harvesting a resource at a rate that allows it to replenish itself naturally, which is exactly what selective logging of matured trees achieves. Afforestation means planting new trees, while deforestation and shifting cultivation involve clearing land rather than careful harvesting.",
+"values": null,
+"py": null,
+"id": "biox16013",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Sustainable yield management na when you chop or cut tree for way wey go make ground still grow new ones back. E make sure say timber no finish for forest."
+},
+{
+"q": "A borehole in a farming settlement is found to contain excess nitrate from fertilizer runoff. Long term consumption of this water is of particular health concern for which group of people?",
+"options": [
+"Elderly farmers who drink little water",
+"Infants, because nitrate can be converted to a compound that interferes with oxygen transport in their blood",
+"Adult men, due to their larger body mass",
+"Teenagers involved in sporting activities"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In infants, nitrate in water can be reduced to nitrite in the gut, which converts haemoglobin to methaemoglobin that cannot carry oxygen properly, a condition called blue baby syndrome. Adults and older children are less affected because their digestive systems handle nitrate differently.",
+"values": null,
+"py": null,
+"id": "biox16014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Small pikin body fit turn nitrate to something wey go stop oxygen from moving well for their blood. Naim make water wey get plenty nitrate dangerous for babies."
+},
+{
+"q": "An environmental scientist studying a river downstream of a tannery notices that fish have disappeared, the water has an unpleasant smell, and chromium compounds used in leather processing are present in the sediment. Which type of pollution is primarily responsible for this observation?",
+"options": [
+"Thermal pollution from cooling water",
+"Chemical pollution from industrial effluent",
+"Noise pollution from factory machines",
+"Radioactive pollution from mining waste"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Chromium compounds discharged from tannery operations are industrial chemical pollutants that poison aquatic life and contaminate sediment, matching the described effects. Thermal, noise and radioactive pollution would not specifically introduce chromium compounds into the river.",
+"values": null,
+"py": null,
+"id": "biox16016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Chromium poison from leather factory na chemical pollution wey dey spoil water and kill fish. Na industrial waste cause this kind wahala for river."
+},
+{
+"q": "A wildlife park in Nigeria fences off a section of natural habitat, allows animals to roam freely within it, and controls human activities such as farming and logging inside the protected area while still keeping the animals in their natural environment. This method of conservation is called",
+"options": [
+"ex-situ conservation using a zoo",
+"in-situ conservation using a game reserve",
+"seed banking",
+"captive breeding in a botanical garden"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In-situ conservation protects organisms within their natural habitat, and a game reserve that restricts harmful human activities while keeping animals in their original environment fits this definition. Ex-situ methods like zoos, seed banks and botanical gardens remove organisms from their natural habitat, which is not the case here.",
+"values": null,
+"py": null,
+"id": "biox16017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "In-situ conservation na to protect animals and plants inside their own natural house like game reserve. E different from zoo where dem carry dem go another place."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following pairs correctly matches a natural resource with its proper classification?",
+"options": [
+"Crude oil - renewable resource",
+"Forest timber - non-renewable resource",
+"Solar energy - renewable resource",
+"Coal - renewable resource"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Solar energy is continuously supplied by the sun and does not get used up, so it is renewable. Crude oil and coal take millions of years to form and are non-renewable, while timber, though renewable, is wrongly labelled non-renewable in that option.",
+"values": null,
+"py": null,
+"id": "biox16011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "A city council notices that most of the glass bottles, plastics and metal scraps thrown away by households could still be processed and reused instead of filling up landfill sites. Which waste management approach best addresses this situation?",
+"options": [
+"Incineration of all waste without sorting",
+"Open dumping at the outskirts of town",
+"Recycling of reusable materials collected separately",
+"Burying all waste deep underground"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Recycling allows materials such as glass, plastic and metal to be reprocessed into new products, reducing the volume of waste sent to landfill and conserving raw materials. Incineration, dumping and burying do not recover the useful materials for reuse.",
+"values": null,
+"py": null,
+"id": "biox16015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

@@ -1,0 +1,237 @@
+{
+"subject": "maths",
+"topic": "Fractions, decimals, approximations, significant figures and percentages",
+"ti": 1,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A trader estimated the length of a piece of cloth as 15.6 m, but the actual length was 15.0 m. Find the percentage error in his estimate, correct to 1 decimal place.",
+"options": [
+"4.0%",
+"3.8%",
+"4.2%",
+"3.6%"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Percentage error = (error/actual value) × 100 = (0.6/15.0) × 100 = 4.0%.",
+"py": "(0.6/15.0)*100",
+"values": [
+4.0,
+3.8,
+4.2,
+3.6
+],
+"id": "matx01002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find percentage error, you go divide error by actual value and multiply by 100. Dis one give us (0.6 / 15.0) × 100, wey come out to 4.0%."
+},
+{
+"q": "In a school election, 60% of the 450 registered voters voted for Musa, and the rest voted for Kemi. How many more votes did Musa get than Kemi?",
+"options": [
+"90",
+"180",
+"45",
+"270"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Musa got 60% of 450 = 270 votes, Kemi got 40% of 450 = 180 votes. The difference is 270 - 180 = 90.",
+"py": "0.6*450 - 0.4*450",
+"values": [
+90,
+180,
+45,
+270
+],
+"id": "matx01004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Musa carry 60% of 450, wey be 270 votes, while Kemi carry the remaining 40%, wey be 180 votes. When you subtract 180 from 270, you go get 90."
+},
+{
+"q": "Convert the recurring decimal 0.4545454545... (0.45 recurring) to a fraction in its lowest terms.",
+"options": [
+"5/11",
+"9/20",
+"4/9",
+"5/9"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Let x = 0.454545..., then 100x = 45.454545..., so 99x = 45, giving x = 45/99 = 5/11.",
+"py": "Fraction(45,99)",
+"values": [
+0.45454545454545453,
+0.45,
+0.4444444444444444,
+0.5555555555555556
+],
+"id": "matx01005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you make x equal to 0.4545..., 100x go be 45.4545... When you minus x from 100x, you get 99x = 45, and if you reduce am, e go give you 5/11."
+},
+{
+"q": "A shopkeeper buys an item for ₦2,500 and wants to mark it up so that after giving a 20% discount on the marked price, he still makes a profit of 15% on his cost price. What should the marked price be?",
+"options": [
+"₦3,593.75",
+"₦3,450.00",
+"₦3,125.00",
+"₦3,750.00"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Selling price needed = 115% of 2500 = ₦2,875. If marked price is M, then 80% of M = 2875, so M = 2875/0.8 = ₦3,593.75.",
+"py": "(1.15*2500)/0.8",
+"values": [
+3593.75,
+3450.0,
+3125.0,
+3750.0
+],
+"id": "matx01006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To get 15% profit, selling price suppose be 115% of ₦2,500, wey be ₦2,875. Since dis selling price na 80% of marked price because of 20% discount, you divide ₦2,875 by 0.8 to get ₦3,593.75."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Express 0.00725 correct to 2 significant figures.",
+"options": [
+"0.0072",
+"0.0073",
+"0.007",
+"0.00725"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The first two significant figures are 7 and 2. The next digit, 5, rounds the 2 up to 3, giving 0.0073.",
+"py": "0.0073",
+"values": [
+0.0072,
+0.0073,
+0.007,
+0.00725
+]
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Simplify: (2/3 - 1/6) ÷ (5/9), leaving the answer as a fraction in its lowest terms.",
+"options": [
+"9/10",
+"1/2",
+"3/5",
+"10/9"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "2/3 - 1/6 = 4/6 - 1/6 = 1/2. Dividing 1/2 by 5/9 gives 1/2 × 9/5 = 9/10.",
+"py": "Fraction(2,3)-Fraction(1,6)) / Fraction(5,9) if False else (Fraction(1,2))/(Fraction(5,9))",
+"values": [
+0.9,
+0.5,
+0.6,
+1.1111111111111112
+],
+"id": "matx01000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+},
+{
+"q": {
+"q": "Bisi measured the sides of a rectangular board as 8.2 cm and 5.1 cm, each correct to 2 significant figures. Find the maximum possible area of the board in square centimetres.",
+"options": [
+"42.075",
+"41.82",
+"41.865",
+"41.5"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Maximum values are 8.25 cm and 5.15 cm (since each is rounded to 2 s.f., the true value can be up to 0.05 more). Multiplying gives 8.25 × 5.15 = 42.075 sq cm.",
+"py": "8.25*5.15",
+"values": [
+42.075,
+41.82,
+41.865,
+41.5
+],
+"id": "matx01003",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Approximate 364.278 first to 1 decimal place, then round that result to the nearest whole number. What is the final answer?",
+"options": [
+"364",
+"365",
+"364.3",
+"363"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Rounding 364.278 to 1 decimal place gives 364.3. Rounding 364.3 to the nearest whole number gives 364.",
+"py": "364",
+"values": [
+364,
+365,
+364.3,
+363
+],
+"id": "matx01007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

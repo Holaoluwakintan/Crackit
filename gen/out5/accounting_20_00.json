@@ -1,0 +1,218 @@
+{
+"subject": "accounting",
+"topic": "Interpretation of accounts: ratios",
+"ti": 20,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Bosede Trading Company has a gross profit of ₦180,000 and sales of ₦900,000 for the year ended 31 December. What is the gross profit margin?",
+"options": [
+"20%",
+"25%",
+"15%",
+"30%"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Gross profit margin is gross profit divided by sales, multiplied by 100. This gives 180,000/900,000 x 100 = 20%.",
+"py": "180000/900000*100",
+"values": [
+20,
+25,
+15,
+30
+],
+"id": "accx20000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find gross profit margin, you go divide gross profit by sales, then multiply am by 100. If you do 180,000 divided by 900,000 times 100, e go give you 20%."
+},
+{
+"q": "A company's directors want to assess how efficiently the business uses its assets to generate sales. Which ratio would best help them answer this question?",
+"options": [
+"Current ratio",
+"Asset turnover ratio",
+"Gross profit margin",
+"Debt-equity ratio"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Asset turnover ratio measures how well a business uses its assets to generate sales revenue. It is calculated as sales divided by total assets, showing efficiency in asset usage rather than profitability or liquidity.",
+"py": null,
+"values": null,
+"id": "accx20001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Asset turnover ratio dey show how well company dey use im property and assets to make sales. E dey measure efficiency, no be profit or how cash flow tight."
+},
+{
+"q": "Okafor Supplies has current assets of ₦350,000, including stock of ₦110,000, and current liabilities of ₦140,000. Calculate the acid test (quick) ratio.",
+"options": [
+"2.5:1",
+"1.7:1",
+"2.0:1",
+"1.2:1"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Quick assets exclude stock, so quick assets equal 350,000 minus 110,000 = 240,000. Dividing by current liabilities of 140,000 gives approximately 1.7:1.",
+"py": "(350000-110000)/140000",
+"values": [
+2.5,
+1.7142857142857142,
+2.0,
+1.2
+],
+"id": "accx20002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For quick ratio, you must remove stock from current assets first. When you minus 110,000 stock from 350,000, you get 240,000, and when you divide am by 140,000 current liabilities, e go give you 1.7:1."
+},
+{
+"q": "A supermarket's management notices that its rate of stock turnover has fallen sharply compared to last year, although sales figures remain almost the same. Which of the following best explains this situation?",
+"options": [
+"The business is selling goods faster than before",
+"The business is holding more stock relative to sales than before",
+"The business has reduced its credit period to customers",
+"The business has improved its profit margin significantly"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A falling stock turnover rate with similar sales means stock is moving more slowly, which happens when a business holds more average stock than before. This ties up funds and may signal overstocking or slow-moving goods.",
+"py": null,
+"values": null,
+"id": "accx20003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If stock turnover rate drop but sales remain the same, e mean say goods dey stay long for warehouse before dem sell am. Na because business dey carry more stock pass normal."
+},
+{
+"q": "Which of the following ratios is most useful to a bank considering whether to grant a long-term loan to a company?",
+"options": [
+"Gross profit margin",
+"Stock turnover ratio",
+"Gearing (leverage) ratio",
+"Debtors collection period"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Gearing ratio compares long-term debt to equity capital, showing how much a company relies on borrowed funds. A bank uses this to judge the risk of lending more money to the business.",
+"py": null,
+"values": null,
+"id": "accx20004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Gearing ratio dey compare long-term debt with company equity. Bank need am to know whether person fit borrow long-term money without wahala."
+},
+{
+"q": "Tunde Motors reported net profit after tax of ₦240,000 and ordinary share capital plus reserves of ₦1,600,000 at year end. Calculate the return on equity.",
+"options": [
+"12%",
+"18%",
+"15%",
+"20%"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Return on equity equals net profit after tax divided by shareholders' funds, multiplied by 100. This gives 240,000/1,600,000 x 100 = 15%.",
+"py": "240000/1600000*100",
+"values": [
+12,
+18,
+15,
+20
+],
+"id": "accx20005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Return on equity na net profit after tax divided by shareholders fund, times 100. If you calculate 240,000 over 1,600,000 times 100, e go give you 15%."
+},
+{
+"q": "A company's current ratio is 3:1, but its acid test ratio is only 0.8:1. Which of the following is the most likely explanation?",
+"options": [
+"The company has very little stock on hand",
+"A large proportion of current assets is tied up in stock",
+"The company has no current liabilities",
+"The company's creditors exceed its debtors"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A big gap between the current ratio and acid test ratio shows that stock forms a large part of current assets. Removing stock for the acid test sharply reduces the ratio, suggesting possible liquidity difficulty if stock cannot be sold quickly.",
+"py": null,
+"values": null,
+"id": "accx20006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If current ratio high but acid test ratio low, e mean say stock plenty inside current assets. If stock no sell quick, cash flow fit enter inside trouble."
+},
+{
+"q": "Ijeoma Stores had credit purchases of ₦960,000 during the year and trade creditors of ₦160,000 at year end. Using a 365-day year, calculate the average period of credit taken from suppliers.",
+"options": [
+"45 days",
+"61 days",
+"50 days",
+"90 days"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Creditors' payment period equals trade creditors divided by credit purchases, multiplied by 365. This gives 160,000/960,000 x 365, which is approximately 61 days.",
+"py": "160000/960000*365",
+"values": [
+45,
+60.833333333333336,
+50,
+90
+],
+"id": "accx20007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find creditor payment period, you divide trade creditors by credit purchases and multiply am by 365 days. Doing 160,000 over 960,000 times 365 go give you about 61 days."
+}
+],
+"rejected": []
+}

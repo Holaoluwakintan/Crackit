@@ -1,0 +1,170 @@
+{
+"subject": "government",
+"topic": "Basic concepts: power, authority, legitimacy, sovereignty, democracy",
+"ti": 0,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best illustrates the use of 'coercive power' by a government?",
+"options": [
+"A governor persuades traders to relocate by explaining the benefits of a new market",
+"The police forcefully disperse and arrest traders occupying an illegal site after warnings were ignored",
+"A traditional ruler appeals to elders to settle a land dispute",
+"A town union organises a meeting to discuss community development"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Coercive power involves the use of force or threat of force to compel obedience. Persuasion, appeals, and meetings are not coercive methods.",
+"id": "govx00000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Coercive power mean say government use force or threat to make people obey. Since police use force to move traders, na that one be the correct example."
+},
+{
+"q": "A new government that came to power through a coup later organised a national referendum which most citizens participated in and accepted its rule. This process mainly helped the government to gain:",
+"options": [
+"Sovereignty",
+"Legitimacy",
+"Autonomy",
+"Federalism"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Legitimacy is the popular acceptance of a government's right to rule. The referendum and citizens' acceptance show the government earning legitimacy despite its forceful origin.",
+"id": "govx00001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Legitimacy na when people agree say government get right to rule them. Even if government start with coup, if people accept them through referendum, they don get legitimacy."
+},
+{
+"q": "Popular sovereignty is best described as the principle that:",
+"options": [
+"The courts have final power to interpret all laws",
+"The military retains ultimate control over the state",
+"Ultimate political power belongs to the citizens of a state",
+"The head of state cannot be challenged in office"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Popular sovereignty means supreme power rests with the people, who can exercise it directly or through elected representatives. The other options describe different concepts like judicial or military power.",
+"id": "govx00002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Popular sovereignty mean say the real power dey for hand of the people. Na the citizens get the final say for how their country go run."
+},
+{
+"q": "A community council decides that an issue affecting every household, such as building a new borehole, should be voted on by all adult members of the community rather than by their elected representatives. This practice best reflects:",
+"options": [
+"Representative democracy",
+"Direct democracy",
+"Theocracy",
+"Monarchy"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When citizens themselves vote directly on an issue instead of leaving it to elected representatives, this is direct democracy in action, as practised in small communities or referenda.",
+"id": "govx00005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Direct democracy na when all the people come together to vote on matter by theirsef. Instead of make representative do am, everybody participate directly."
+},
+{
+"q": "Which of the following is a necessary condition for a state to be regarded as sovereign under international law?",
+"options": [
+"It must have a large population exceeding 50 million",
+"It must be a member of a regional trade organisation",
+"It must possess independence and freedom from external control in managing its affairs",
+"It must practise a democratic system of government"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Sovereignty under international law requires that a state is independent and free from external control in conducting its own affairs. Population size, trade membership, and type of government are not requirements for sovereignty.",
+"id": "govx00006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For international law, state must be independent and no external power suppose dey control am. Population or type of government no be the main thing for sovereignty."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In a federation like Nigeria, internal sovereignty is best shown when the central government:",
+"options": [
+"Signs trade agreements with foreign countries",
+"Exercises supreme authority over all persons and institutions within its territory",
+"Seeks recognition from the United Nations",
+"Sends ambassadors to other nations",
+"Joins regional defence pacts"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Internal sovereignty concerns the state's supreme control over matters within its own borders. Dealing with foreign countries or international bodies relates to external sovereignty, not internal."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which statement best distinguishes direct democracy from representative democracy?",
+"options": [
+"Direct democracy allows citizens to vote on issues themselves, while representative democracy involves electing officials to make decisions",
+"Direct democracy exists only in military regimes, while representative democracy exists only in civilian regimes",
+"Direct democracy has no elections, while representative democracy has frequent elections",
+"Direct democracy is practised only at the local government level in Nigeria",
+"Direct democracy is a feature of socialist states only"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In direct democracy, citizens themselves make decisions on laws and policies, often through referenda, while in representative democracy they elect representatives to decide on their behalf."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A state's parliament passes a law, but the courts strike it down as unconstitutional, and the citizens generally accept the court's decision as final. This scenario best illustrates the difference between:",
+"options": [
+"Legal sovereignty and political sovereignty",
+"Internal sovereignty and external sovereignty",
+"De jure and de facto governments",
+"Power and legitimacy only"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Legal sovereignty refers to the body with supreme law-making power recognised by the constitution, here the courts through judicial review, while political sovereignty refers to the real power of the people or groups influencing government decisions. The scenario shows the courts exercising legal sovereign authority over the parliament's law.",
+"id": "govx00007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Judicial review does not clearly distinguish legal from political sovereignty.|"
+}
+]
+}

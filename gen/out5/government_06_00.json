@@ -1,0 +1,182 @@
+{
+"subject": "government",
+"topic": "Elections, electoral systems and electoral bodies (INEC)",
+"ti": 6,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best defines an electoral college as a method of election?",
+"options": [
+"A system in which ordinary citizens vote directly to choose their leaders",
+"A system in which a selected group of representatives votes on behalf of the wider electorate to choose a leader",
+"A system in which only party leaders decide who becomes president",
+"A system in which traditional rulers nominate candidates for election"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An electoral college is a body of chosen representatives who formally cast votes to elect a leader instead of the whole electorate voting directly. This differs from direct popular voting, party selection, or nomination by traditional rulers.",
+"id": "govx06000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Electoral college na when selected group of people dey vote on behalf of everybody to choose leader. E different from direct voting or when party leaders just pick person."
+},
+{
+"q": "One key difference between a referendum and a general election is that a referendum is used mainly to",
+"options": [
+"select candidates for a political party's primary election",
+"choose representatives to occupy legislative seats",
+"allow citizens to vote directly on a specific issue or proposed law",
+"appoint judges to the electoral tribunal"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A referendum is a direct vote by citizens on a particular issue, such as approving or rejecting a proposed law or constitutional change, unlike a general election which chooses representatives. Party primaries and judicial appointments are unrelated processes.",
+"id": "govx06004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Referendum na direct vote wey citizens dey use decide on specific issue or law, instead of choosing representatives like for normal election. E no concern party primaries or court matter."
+},
+{
+"q": "A major criticism often raised against the Majority (Second Ballot) electoral system, compared with First-Past-The-Post, is that it",
+"options": [
+"guarantees that a candidate wins with less than half of the total votes cast",
+"requires only one round of voting regardless of the number of candidates",
+"can be more expensive and time-consuming because a run-off election may be needed",
+"makes it impossible for more than two candidates to contest an election"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Under the Majority system, if no candidate secures more than half of the votes in the first round, a second round (run-off) is held, which increases cost and time. This differs from First-Past-The-Post, which needs only one round regardless of the margin of victory.",
+"id": "govx06005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Majority system fit expensive and take time because if nobody get more than half of the votes for first round, dem must do second round run-off. This one different from First-Past-The-Post wey dey need only one round."
+},
+{
+"q": "Which of these is a statutory function of the Independent National Electoral Commission (INEC) besides conducting elections?",
+"options": [
+"Prosecuting all criminal cases arising from armed robbery during elections",
+"Monitoring the organisation and operation of political parties, including their finances",
+"Appointing state governors in the event of a vacancy",
+"Approving the national budget before it is presented to the National Assembly"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "INEC is constitutionally empowered to monitor political parties, including their conventions, congresses and finances, in addition to conducting elections. It has no role in appointing governors, approving national budgets, or prosecuting general criminal cases unrelated to its mandate.",
+"id": "govx06006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "INEC work no be just to conduct election, dem suppose also monitor how political parties dey run their matter and check their money. Dem no get hand to appoint governor or approve budget."
+},
+{
+"q": "In an election held in a certain constituency, Party A scored 45% of total valid votes, Party B scored 40%, and Party C scored the remaining votes. Under a simple plurality (First-Past-The-Post) system, which statement is correct?",
+"options": [
+"Party A wins because it has the highest percentage, even though it did not reach 50%",
+"The election must be cancelled because no party reached an absolute majority",
+"A run-off must be held between Party A and Party B",
+"Party C automatically wins because it has the smallest share of spoilt votes"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Under First-Past-The-Post, the candidate or party with the highest number of votes wins, even without reaching 50%, since there is no requirement for an absolute majority. This rules out cancellation, a run-off, or any automatic win for the party with fewer votes.",
+"id": "govx06007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For First-Past-The-Post system, anyone wey get the highest vote win, even if e no reach fifty percent. Dem no need any run-off or make dem cancel the election."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the Nigerian electoral process, what is the main purpose of continuous voter registration conducted by INEC?",
+"options": [
+"To replace permanent voter cards with temporary ones every election",
+"To allow eligible citizens who were not previously registered to be added to the voters' register at any time before an election",
+"To remove all previous voters and start a fresh register before every election",
+"To register only members of registered political parties"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Continuous voter registration allows newly eligible or previously unregistered citizens to enrol as voters at any time, keeping the voters' register updated. It does not involve starting afresh or restricting registration to party members.",
+"id": "govx06001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Registration closes ahead of an election, not at any time before it.|"
+},
+{
+"q": {
+"q": "During accreditation at a polling unit, a presiding officer uses a Smart Card Reader mainly to",
+"options": [
+"print the final result sheet for the polling unit",
+"verify the authenticity of a voter's card and confirm the voter's fingerprint before voting",
+"transmit collated results to the state headquarters of INEC",
+"calculate the total number of registered voters in the constituency"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Smart Card Reader is used at accreditation to confirm that a voter's card is genuine and that the fingerprint matches the voter, preventing multiple voting. Result printing, transmission and voter calculation are separate functions handled differently.",
+"id": "govx06002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Outdated: INEC now uses BVAS for accreditation.|"
+},
+{
+"q": {
+"q": "Mallam Garba contests and wins a House of Representatives seat, but a tribunal later nullifies his election due to proven over-voting in several polling units. What is the most likely immediate consequence?",
+"options": [
+"Mallam Garba automatically becomes a senator instead",
+"INEC conducts a fresh election for that seat",
+"The National Assembly appoints a replacement without an election",
+"The runner-up is automatically declared winner without any further process"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "When a tribunal nullifies an election because of malpractice such as over-voting, the usual remedy is for INEC to organise a fresh election for that seat. The runner-up is not automatically declared winner unless the court specifically orders it, and the National Assembly has no power to appoint a replacement.",
+"id": "govx06003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:A tribunal may order a rerun in affected polling units, not necessarily a fresh election for the whole seat.|"
+}
+]
+}

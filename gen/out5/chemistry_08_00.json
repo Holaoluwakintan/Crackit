@@ -1,0 +1,220 @@
+{
+"subject": "chemistry",
+"topic": "Electrolysis and Faraday's laws",
+"ti": 8,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best explains why molten lead(II) bromide conducts electricity but solid lead(II) bromide does not?",
+"options": [
+"In the molten state, the ions are free to move and carry charge, but in the solid state the ions are held in fixed positions",
+"In the molten state, electrons move freely through the liquid, but in the solid state electrons are fixed",
+"Solid lead(II) bromide has no ions at all, while molten lead(II) bromide contains ions",
+"The molten state has a higher temperature which generates new charged particles"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Ionic solids have ions locked in a rigid lattice, so they cannot move to conduct electricity. On melting, the lattice breaks down and the ions become mobile, allowing conduction.",
+"py": null,
+"values": null,
+"id": "chex08000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na solid state, ions no dey move because dem lock for rigid lattice. When e melt, the lattice break down, make ions free to carry charge and conduct electricity."
+},
+{
+"q": "A student set up an electrolytic cell with two platinum electrodes dipped in dilute sulphuric acid and connected to a battery. Which products are expected at the cathode and anode respectively?",
+"options": [
+"Hydrogen gas at the cathode and oxygen gas at the anode",
+"Oxygen gas at the cathode and hydrogen gas at the anode",
+"Sulphur dioxide at the cathode and oxygen gas at the anode",
+"Hydrogen gas at the cathode and sulphur gas at the anode"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "In dilute sulphuric acid, hydrogen ions are discharged at the cathode to form hydrogen gas, while hydroxide ions from water are discharged at the anode to form oxygen gas. Sulphate ions are not discharged because they are more difficult to oxidise than hydroxide ions.",
+"py": null,
+"values": null,
+"id": "chex08001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For dilute sulphuric acid, hydrogen ions go cathode to produce hydrogen gas. Meanwhile, hydroxide ions go anode to produce oxygen gas because sulphate ions hard to oxidise."
+},
+{
+"q": "In the industrial electrolysis of brine (concentrated aqueous sodium chloride solution) using a diaphragm cell, which pair of products is obtained at the cathode and anode respectively?",
+"options": [
+"Hydrogen gas and chlorine gas",
+"Sodium metal and oxygen gas",
+"Oxygen gas and chlorine gas",
+"Hydrogen gas and oxygen gas"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "At the cathode, water is preferentially discharged over sodium ions, producing hydrogen gas, while at the anode, chloride ions are discharged in preference to hydroxide ions because the solution is concentrated, producing chlorine gas.",
+"py": null,
+"values": null,
+"id": "chex08003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For brine electrolysis, water discharge for cathode to give hydrogen gas. For anode, chloride ions win hydroxide ions because the solution dey concentrated, so chlorine gas dey come out."
+},
+{
+"q": "Chidinma set up two electrolytic cells in series: one containing molten zinc chloride and the other containing an aqueous solution of tin(II) chloride, both using inert electrodes. If 0.20 mole of zinc was deposited in the first cell, how many moles of tin would be deposited in the second cell?",
+"options": [
+"0.10 mole",
+"0.20 mole",
+"0.40 mole",
+"0.05 mole"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since the cells are in series, the same quantity of electricity (same number of faradays) passes through both. Both zinc and tin ions are discharged by gaining 2 electrons each (Zn2+ and Sn2+), so equal moles of electrons deposit equal moles of each metal, giving 0.20 mole of tin.",
+"py": "0.20",
+"values": [
+0.1,
+0.2,
+0.4,
+0.05
+],
+"id": "chex08004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As the cells dey series, the same current dey pass through both. Since both Zn2+ and Sn2+ need 2 electrons each, the same mole of electrons go deposit equal moles of zinc and tin."
+},
+{
+"q": "Which property of an electrolyte explains why aqueous solutions of electrolytes are good conductors of electricity while pure water is a poor conductor?",
+"options": [
+"Aqueous electrolyte solutions contain a high concentration of mobile ions, while pure water has very few ions",
+"Aqueous electrolyte solutions have a higher boiling point than pure water",
+"Pure water has a lower density than electrolyte solutions",
+"Electrolyte solutions contain free electrons that move through the liquid"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Conduction in electrolytes depends on the presence of free-moving ions, not electrons. Pure water ionises only very slightly, so it has far fewer ions than a solution of a dissolved electrolyte.",
+"py": null,
+"values": null,
+"id": "chex08006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na mobile ions dey make electrolyte solutions conduct electricity, no be free electrons. Pure water get small, small ions inside am, so e no fit conduct current well."
+},
+{
+"q": "A quantity of electricity deposited 3.0 g of copper from a solution of copper(II) sulphate. If the same quantity of electricity were passed through a solution of silver nitrate, what mass of silver would be deposited? [Cu = 64, Ag = 108]",
+"options": [
+"5.06 g",
+"10.13 g",
+"2.53 g",
+"20.25 g"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Moles of electrons used for copper = (3.0/64) x 2 = 0.09375 mol electrons, since Cu2+ needs 2 electrons. Silver needs only 1 electron per ion, so moles of Ag = 0.09375, mass = 0.09375 x 108 = 10.13 g.",
+"py": "((3.0/64)*2)*108",
+"values": [
+5.06,
+10.13,
+2.53,
+20.25
+],
+"id": "chex08007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Cu2+ need 2 electrons, while Ag+ need only 1 electron. When you calculate the moles of electrons wey deposit 3.0 g of copper, use am multiply by the molar mass of silver to get 10.13 g."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "During the electrolysis of molten lead(II) bromide using inert electrodes, a steady current of 2.5 A was passed for 32 minutes. Calculate the mass of lead deposited at the cathode. [Pb = 207, F = 96500 C/mol]",
+"options": [
+"5.15 g",
+"2.58 g",
+"10.30 g",
+"1.29 g"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Charge Q = It = 2.5 x 1920 = 4800 C. Moles of electrons = 4800/96500 = 0.04974. Since Pb2+ requires 2 electrons per atom, moles of Pb = 0.02487, mass = 0.02487 x 207 = 5.15 g; wait this matches the first option, so recompute carefully: mass = (Q x M)/(n x F) = (4800 x 207)/(2 x 96500) = 5.15 g.",
+"py": "(2.5*32*60*207)/(2*96500)",
+"values": [
+5.15,
+2.58,
+10.3,
+1.29
+],
+"id": "chex08002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "A current of 4.0 A was passed through molten aluminium oxide for 2 hours 41 minutes 40 seconds using inert electrodes. Calculate the mass of aluminium deposited at the cathode. [Al = 27, F = 96500 C/mol]",
+"options": [
+"3.60 g",
+"1.80 g",
+"10.80 g",
+"7.20 g"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Time = 2(3600) + 41(60) + 40 = 9700 s, so Q = It = 4 x 9700 = 38800 C. Moles of electrons = 38800/96500 = 0.402. Since Al3+ needs 3 electrons, moles of Al = 0.134, mass = 0.134 x 27 = 3.62 g, approximately 3.60 g.",
+"py": "(4*9700*27)/(3*96500)",
+"values": [
+3.6,
+1.8,
+10.8,
+7.2
+],
+"id": "chex08005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+}
+]
+}

@@ -1,0 +1,232 @@
+{
+"subject": "physics",
+"topic": "Newton's laws, momentum and impulse",
+"ti": 4,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A trader's wooden crate of mass 50 kg rests on a rough floor. If the coefficient of friction between the crate and the floor is 0.2, calculate the minimum horizontal force needed to just start the crate moving. (g = 10 m/s^2)",
+"options": [
+"500 N",
+"100 N",
+"250 N",
+"50 N"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The limiting friction force equals the coefficient of friction multiplied by the normal reaction (weight), which is 0.2 x 50 x 10 = 100 N. This is the minimum force to overcome friction and start motion.",
+"py": "0.2*50*10",
+"values": [
+500,
+100,
+250,
+50
+],
+"id": "phyx04000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To find the force wey go make the crate start to waka, you go multiply the coefficient of friction with the weight. If you do 0.2 x 50 x 10, na 100 N you go get."
+},
+{
+"q": "A tennis ball of mass 0.2 kg travelling at 15 m/s is struck by a racket and rebounds in the opposite direction at 10 m/s. If the contact time between racket and ball is 0.05 s, calculate the average force exerted by the racket on the ball.",
+"options": [
+"20 N",
+"50 N",
+"100 N",
+"10 N"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Taking the initial direction as positive, change in momentum = 0.2x(-10) - 0.2x(15) = -2 - 3 = -5 kg m/s. Force = change in momentum / time = 5/0.05 = 100 N, since the rebound reverses direction, the magnitudes of momentum change add up.",
+"py": "(0.2*15+0.2*10)/0.05",
+"values": [
+20,
+50,
+100,
+10
+],
+"id": "phyx04002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because the ball bounce go back, you go add the initial and final momentum together to get the total change. When you divide that change by the time 0.05 s, you go get 100 N."
+},
+{
+"q": "Which of the following is the correct statement of Newton's third law of motion?",
+"options": [
+"A body continues in its state of rest or uniform motion unless acted upon by an external force",
+"The acceleration of a body is directly proportional to the net force and inversely proportional to its mass",
+"To every action there is an equal and opposite reaction",
+"The total momentum of a system remains constant if no external force acts on it"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Newton's third law states that for every action force there is an equal and opposite reaction force. The other statements describe the first law, second law, and the conservation of momentum principle respectively.",
+"py": null,
+"values": null,
+"id": "phyx04003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As Newton third law talk am, for every action wey happen, equal and opposite reaction must dey follow am. The other options dey talk about first law, second law, and momentum."
+},
+{
+"q": "A machine fires out small pellets of mass 0.01 kg each at a rate of 200 pellets per second, with each pellet leaving at a velocity of 50 m/s. Calculate the average force exerted on the machine due to the firing of the pellets.",
+"options": [
+"100 N",
+"10 N",
+"50 N",
+"1000 N"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Force equals the rate of change of momentum, which is (mass per pellet x velocity x number fired per second) = 0.01 x 50 x 200 = 100 N. This treats the continuous stream of pellets as a steady momentum transfer per second.",
+"py": "0.01*50*200",
+"values": [
+100,
+10,
+50,
+1000
+],
+"id": "phyx04004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To get the force, you go multiply mass, velocity, and how many pellets enter one second together. If you multiply 0.01 x 50 x 200, na 100 N go come out."
+},
+{
+"q": "An astronaut floating freely in space pushes against the outer wall of his spacecraft to move away from it. Which law of motion best explains why the astronaut moves backward while the spacecraft experiences a forward push?",
+"options": [
+"Newton's first law of motion",
+"Newton's second law of motion",
+"Newton's third law of motion",
+"The law of conservation of energy"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "When the astronaut pushes on the spacecraft (action), the spacecraft pushes back on the astronaut with an equal and opposite force (reaction), causing both to move apart. This is a direct application of Newton's third law.",
+"py": null,
+"values": null,
+"id": "phyx04005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When the astronaut push the spacecraft, the spacecraft push am back with equal and opposite force. Na Newton third law explain dis kind action and reaction well well."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Two spheres, P of mass 3 kg moving at 6 m/s and Q of mass 2 kg moving at 4 m/s in the same direction, collide and stick together. Calculate the common velocity of the combined spheres just after collision.",
+"options": [
+"5.2 m/s",
+"5.0 m/s",
+"4.4 m/s",
+"6.0 m/s"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "By conservation of momentum, (3x6 + 2x4) = (3+2)v, so 26 = 5v, giving v = 5.2 m/s. This is a perfectly inelastic collision where the bodies move together after impact.",
+"py": "(3*6+2*4)/(3+2)",
+"values": [
+5.2,
+5.0,
+4.4,
+6.0
+],
+"id": "phyx04001",
+"check": {
+"s1": "A",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:C"
+},
+{
+"q": {
+"q": "A 2 kg block is placed on a smooth horizontal table and connected by a light inextensible string over a frictionless pulley to a 3 kg mass hanging freely. Calculate the acceleration of the system when released from rest. (g = 10 m/s^2)",
+"options": [
+"10 m/s^2",
+"6 m/s^2",
+"2 m/s^2",
+"5 m/s^2"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The only driving force is the weight of the hanging mass, mg = 30 N, and the total mass being accelerated is 2+3 = 5 kg. Using a = F/total mass gives a = 30/5 = 6 m/s^2.",
+"py": "3*10/(2+3)",
+"values": [
+10,
+6,
+2,
+5
+],
+"id": "phyx04006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A body of mass 1500 g moves with a velocity of 8 m/s. Calculate the kinetic energy and the magnitude of linear momentum of the body respectively.",
+"options": [
+"48 J and 12 kg m/s",
+"96 J and 12 kg m/s",
+"48 J and 24 kg m/s",
+"12 J and 12 kg m/s"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Mass is 1500 g = 1.5 kg. Kinetic energy = half x mass x velocity squared = 0.5 x 1.5 x 64 = 48 J, and momentum = mass x velocity = 1.5 x 8 = 12 kg m/s.",
+"py": "0.5*1.5*8**2",
+"values": [
+48,
+96,
+48,
+12
+],
+"id": "phyx04007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+}
+]
+}

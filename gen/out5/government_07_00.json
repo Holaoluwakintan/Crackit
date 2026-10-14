@@ -1,0 +1,181 @@
+{
+"subject": "government",
+"topic": "Citizenship, public opinion and political socialisation",
+"ti": 7,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes a 'good citizen' as distinct from a mere legal citizen of a state?",
+"options": [
+"A person who merely holds a national passport issued by government",
+"A person who obeys laws, pays taxes and participates actively in nation building",
+"A person who resides permanently within the boundaries of the state",
+"A person who was born within the territory of the state"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Legal citizenship is a status, but a good citizen goes further by actively performing civic duties such as obeying laws, paying taxes and contributing to development. Mere residence or birth does not guarantee good citizenship.",
+"id": "govx07000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Legal citizen na just paper status, but better citizen dey do pass that one by obeying law and paying tax. Person wey just born for country or dey live there no automatically mean say na better citizen."
+},
+{
+"q": "Which of the following is a major function of public opinion in a democratic society like Nigeria?",
+"options": [
+"It guarantees that government decisions are never challenged",
+"It serves as a check on government excesses by expressing collective approval or disapproval of policies",
+"It replaces the need for elections and political parties",
+"It ensures that only the wealthy class can influence government decisions"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Public opinion acts as a feedback mechanism, allowing citizens to express approval or disapproval of government actions, thereby checking excesses. It does not eliminate elections or restrict influence to the wealthy alone.",
+"id": "govx07002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Public opinion dey help people talk whether dem like government policy abi dem no like am, and dis one dey check government power. E no mean say election no go dey again or say na only rich people fit talk."
+},
+{
+"q": "A town hall survey in Benue State found that 65% of youths interviewed could not name their state governor or local government chairman. This situation is best described as evidence of:",
+"options": [
+"Strong political socialisation among the youths",
+"High political efficacy in the community",
+"Low political awareness arising from poor political socialisation",
+"Effective propaganda by the ruling political party"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Failure to identify basic political office holders shows a gap in political knowledge, which reflects weak political socialisation. This is different from political efficacy, which concerns belief in one's ability to influence government.",
+"id": "govx07003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If youth no know their leaders, e show say political education no reach them well. Dat one na sign of low political awareness, no be say dem get power to influence government."
+},
+{
+"q": "Which of the following best illustrates the role of religious institutions as agents of political socialisation in Nigeria?",
+"options": [
+"A mosque or church organising a wedding ceremony for its members",
+"A religious leader teaching congregants about obedience to just laws and civic responsibility",
+"A religious body building a private hospital for its members",
+"A church choir performing during a national cultural festival"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Religious institutions socialise members politically when they teach values like obedience to just laws, honesty and civic duty, shaping political attitudes. Activities like weddings or building hospitals are social, not political socialisation functions.",
+"id": "govx07004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Church and mosque dey train people politically when dem teach them to obey good laws and do civic duty. Marriage and hospital na normal social work, no be political training."
+},
+{
+"q": "A researcher wants to find out the political opinion of secondary school students across Nigeria on compulsory civic education but only interviews students in one private school in Abuja. Which weakness in opinion measurement does this best illustrate?",
+"options": [
+"Use of an unrepresentative sample that cannot be generalised to the whole population",
+"Excessive use of government-controlled questionnaires",
+"Absence of political socialisation among the respondents",
+"Over-reliance on referendum as a method of sampling opinion"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Studying only one school cannot represent the views of all Nigerian secondary school students because the sample is too narrow and not diverse enough. A valid survey needs a representative sample drawn from different locations and backgrounds.",
+"id": "govx07006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To go interview only one school for Abuja no represent all students for Nigeria because the people wey you ask too small. Proper research suppose carry people from different places join."
+},
+{
+"q": "Which of the following rights is specifically associated with citizenship rather than mere residency in a country?",
+"options": [
+"The right to purchase goods in the local market",
+"The right to vote and be voted for in public elections",
+"The right to attend any public event open to visitors",
+"The right to travel within the country as a tourist"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Voting and contesting elections are political rights reserved for citizens, unlike shopping or sightseeing which any resident or visitor can do. This distinguishes the privileges of citizenship from ordinary residency.",
+"id": "govx07007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na only citizens get right to vote and contest for election, unlike ordinary residents wey fit just come buy things or travel about. Dis one na the main difference between citizen and resident."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Chief Obi, a Nigerian who later became a citizen of Canada through naturalisation, wants to know the effect of this on his original Nigerian citizenship. Under Nigerian citizenship rules, what generally happens in such a case?",
+"options": [
+"He automatically keeps both citizenships without any condition",
+"He may lose his Nigerian citizenship since Nigeria restricts dual citizenship for naturalised foreign citizens",
+"His Nigerian citizenship is suspended until he turns 60",
+"He is required to renounce his Canadian citizenship within 24 hours"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When a Nigerian citizen voluntarily acquires citizenship of another country by naturalisation, the law generally provides for loss of Nigerian citizenship, except for those who are citizens by birth. This differs from citizens by birth who may retain dual status.",
+"id": "govx07001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Outcome depends on how he acquired Nigerian citizenship; citizens by birth retain it.|"
+},
+{
+"q": {
+"q": "During the formation of the Nigerian federation, political socialisation agents such as schools and the mass media were deliberately used by government to achieve which of the following national objectives?",
+"options": [
+"Promotion of ethnic rivalry among the different regions",
+"Encouragement of mass emigration to developed countries",
+"Discouragement of citizens from seeking Western education",
+"Instilling of national unity, patriotism and shared democratic values among diverse groups"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Nigeria is ethnically diverse, so government deliberately used socialisation agents like schools and media to build national unity and shared democratic values across different groups. The other options contradict the purpose of nation building.",
+"id": "govx07005",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Claim about deliberate use during federation formation is historically unclear.|"
+}
+]
+}

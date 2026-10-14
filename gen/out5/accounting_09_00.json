@@ -1,0 +1,241 @@
+{
+"subject": "accounting",
+"topic": "Adjustments: accruals, prepayments, bad debts and provision for doubtful debts",
+"ti": 9,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Ngozi runs a trading business and pays insurance premiums in advance. On 1 January, the prepaid insurance brought forward from the previous year was ₦15,000. During the year, she paid ₦90,000 for insurance. At the end of the year, ₦20,000 of this payment relates to the following year. What amount should be charged to the income statement for insurance for the year?",
+"options": [
+"₦85,000",
+"₦90,000",
+"₦95,000",
+"₦105,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The amount used in the year equals opening prepayment plus payments made minus the new closing prepayment: 15,000 + 90,000 - 20,000 = 85,000. This gives the true expense for the period.",
+"py": "15000+90000-20000",
+"values": [
+85000,
+90000,
+95000,
+105000
+],
+"id": "accx09000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find the correct insurance expense, you go add the opening prepayment to the money wey you pay, then minus the closing prepayment. E mean say 15,000 + 90,000 - 20,000 go give you ₦85,000."
+},
+{
+"q": "Which of the following is an example of an accrued revenue at the end of an accounting year?",
+"options": [
+"Rent received in advance from a tenant",
+"Commission earned but not yet received from a customer",
+"Interest paid in advance on a loan",
+"Subscription received for the following year"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Accrued revenue is income that has been earned during the year but not yet received in cash by the year end. Commission earned but unpaid fits this description exactly.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "accx09001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Accrued revenue na money wey you don work for or earn finish, but cash never enter hand before year end. Commission wey person earn but dem never pay am fit this description well well."
+},
+{
+"q": "A trader's financial year ends on 31 December. On 31 December, wages for the last week of the year amounting to ₦18,000 had not yet been paid to workers. How should this amount be treated in the final accounts for that year?",
+"options": [
+"Added to wages in the income statement and shown as a current asset",
+"Added to wages in the income statement and shown as a current liability",
+"Deducted from wages in the income statement and shown as a current liability",
+"Deducted from wages in the income statement and shown as a current asset"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Unpaid wages at year end are an accrued expense, meaning the full cost has been incurred but not paid. It must be added to the expense in the income statement and shown as a current liability in the statement of financial position.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "accx09003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Wages wey dem never pay for year end na accrued expense, so you must add am to wages inside income statement. Because na debt wey you owe workers, you go show am as current liability for statement of financial position."
+},
+{
+"q": "In the books of Danjuma Enterprises, trade debtors stood at ₦800,000 before any adjustment. It was discovered that a debtor, Bello, who owed ₦30,000, had been declared bankrupt and would pay nothing. After writing off this debt, a provision for doubtful debts of 2% is to be created on the remaining debtors. What is the amount of the provision for doubtful debts?",
+"options": [
+"₦16,000",
+"₦15,400",
+"₦16,600",
+"₦14,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "After writing off the bad debt, debtors reduce to 800,000 - 30,000 = 770,000. The provision is then 2% of 770,000 = 15,400.",
+"py": "0.02*(800000-30000)",
+"values": [
+16000,
+15400,
+16600,
+14000
+],
+"id": "accx09004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "First, you go remove the bad debt from total debtors: 800,000 - 30,000 wey remain ₦770,000. Then, you calculate 2% provision on the remaining amount, wey be 2/100 x 770,000 = ₦15,400."
+},
+{
+"q": "Kabiru Stores paid ₦240,000 as rent covering 12 months from 1 April of the current year to 31 March of the following year. If the accounting year ends on 31 December, what amount of prepaid rent should appear in the statement of financial position at year end?",
+"options": [
+"₦40,000",
+"₦60,000",
+"₦180,000",
+"₦200,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Monthly rent is 240,000 divided by 12 = 20,000. From January to March of the following year (3 months) is unused at year end, so prepaid rent is 20,000 x 3 = 60,000.",
+"py": "(240000/12)*3",
+"values": [
+40000,
+60000,
+180000,
+200000
+],
+"id": "accx09006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Since the rent na ₦240,000 for 12 months, every month rent na ₦20,000. Dem don pay advance for January to March of the next year, meaning 3 months be prepaid, so 20,000 x 3 = ₦60,000."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "At the start of the year, a provision for doubtful debts of ₦12,000 existed in the books of Obiora Stores. At the end of the year, trade debtors (after writing off further bad debts) stood at ₦400,000, and the business wishes to maintain a provision of 5% of debtors. What is the effect on the income statement?",
+"options": [
+"A charge (increase in provision) of ₦8,000",
+"A charge (increase in provision) of ₦20,000",
+"A credit (decrease in provision) of ₦8,000",
+"A charge (increase in provision) of ₦12,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The new provision required is 5% of 400,000 = 20,000. Since the old provision was 12,000, an additional 20,000 - 12,000 = 8,000 must be charged as an increase in provision for doubtful debts.",
+"py": "0.05*400000-12000",
+"values": [
+8000,
+20000,
+8000,
+12000
+],
+"id": "accx09002",
+"check": {
+"s1": "A",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:C"
+},
+{
+"q": {
+"q": "Why does an accountant create a provision for doubtful debts at the end of an accounting year?",
+"options": [
+"To write off debts that are definitely irrecoverable",
+"To record debts that customers have already paid in cash",
+"To make allowance for debts that may possibly become uncollectible in future",
+"To cancel all outstanding debts owed by customers"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A provision for doubtful debts is an estimate set aside for debts that may not be recovered, applying the prudence concept. It is not an actual write-off of specific debts like bad debts.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "accx09005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Definition with implausible distractors"
+},
+{
+"q": {
+"q": "Which of the following best explains why bad debts written off are treated as an expense in the income statement rather than merely reducing the asset without further entry?",
+"options": [
+"Because the debt still legally belongs to the business and remains collectible",
+"Because the loss reduces the profit of the business for the period in which it occurs",
+"Because bad debts are a form of revenue earned by the business",
+"Because writing off bad debts increases the value of trade debtors"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Bad debts written off represent a real loss to the business, so they must be charged as an expense to correctly reduce profit for the period. This follows the matching and prudence principles in accounting.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "accx09007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Implausible distractors"
+}
+]
+}

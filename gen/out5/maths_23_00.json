@@ -1,0 +1,236 @@
+{
+"subject": "maths",
+"topic": "Permutations and combinations",
+"ti": 23,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A relay team of 4 runners is to be selected from 7 athletes at a Lagos state sports meet, and the selected runners must then be arranged in a running order. How many different running orders are possible?",
+"options": [
+"35",
+"210",
+"840",
+"2520"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "This requires an ordered selection, so we use permutation P(7,4) = 7!/(7-4)! = 7x6x5x4 = 840. Order matters because each runner has a specific position in the relay.",
+"py": "math.factorial(7)//math.factorial(3)",
+"values": [
+35,
+210,
+840,
+2520
+],
+"id": "matx23001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Because order dey important for relay, na permutation we go use. We go calculate P(7,4) = 7!/(7-4)! which give us 7x6x5x4 = 840."
+},
+{
+"q": "Find the number of ways a key chain with 6 distinct keys can be arranged on a circular ring, given that arrangements that are mirror images (flips) of each other are considered the same.",
+"options": [
+"720",
+"120",
+"60",
+"360"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Circular arrangements of 6 distinct objects give (6-1)! = 120 ways. Since a ring can be flipped over, each arrangement is counted twice, so we divide by 2 to get 60.",
+"py": "math.factorial(5)//2",
+"values": [
+720,
+120,
+60,
+360
+],
+"id": "matx23002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For circular arrangement, we dey use (6-1)! = 120. Dem say make we divide by 2 because you fit flip the ring, so 120 divide by 2 na 60."
+},
+{
+"q": "How many different 4-letter codes can be formed from the letters of the word NIGER if letters may be repeated?",
+"options": [
+"20",
+"120",
+"625",
+"256"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "NIGER has 5 distinct letters. Since repetition is allowed and each of the 4 positions can be filled in 5 ways, the total number of codes is 5^4 = 625.",
+"py": "5**4",
+"values": [
+20,
+120,
+625,
+256
+],
+"id": "matx23003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "NIGER get 5 letters and dem allow repetition. Since each of the 4 places get 5 ways, na 5^4 wey be 625."
+},
+{
+"q": "A debate team of 5 students is to be chosen from a group of 6 boys and 4 girls such that the team contains exactly 3 boys and 2 girls. In how many ways can this be done?",
+"options": [
+"120",
+"720",
+"20",
+"12"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Choose 3 boys from 6: C(6,3) = 20. Choose 2 girls from 4: C(4,2) = 6. Multiply the two results together: 20 x 6 = 120.",
+"py": "math.comb(6,3)*math.comb(4,2)",
+"values": [
+120,
+720,
+20,
+12
+],
+"id": "matx23004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To choose 3 boys from 6 give C(6,3) = 20, and to choose 2 girls from 4 give C(4,2) = 6. When you multiply 20 and 6 together, you get 120."
+},
+{
+"q": "If P(n, 3) = 60, find the value of n.",
+"options": [
+"4",
+"5",
+"6",
+"3"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "P(n,3) = n(n-1)(n-2) = 60. Testing n = 5 gives 5x4x3 = 60, which satisfies the equation. So n = 5.",
+"py": "5",
+"values": [
+4,
+5,
+6,
+3
+],
+"id": "matx23005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "P(n,3) mean say n(n-1)(n-2) = 60. If you check am well, 5x4x3 na 60, so n must be 5."
+},
+{
+"q": "A JAMB candidate must answer exactly 4 questions out of 6 questions in Section A and exactly 3 questions out of 5 questions in Section B. In how many ways can the candidate choose the questions to answer?",
+"options": [
+"150",
+"9",
+"450",
+"15"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Choosing 4 out of 6 in Section A gives C(6,4) = 15 ways, and choosing 3 out of 5 in Section B gives C(5,3) = 10 ways. Since both choices happen together, multiply: 15 x 10 = 150.",
+"py": "math.comb(6,4)*math.comb(5,3)",
+"values": [
+150,
+9,
+450,
+15
+],
+"id": "matx23006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To choose 4 out of 6 for Section A na C(6,4) = 15, while 3 out of 5 for Section B na C(5,3) = 10. Multiply 15 and 10 together to get 150."
+},
+{
+"q": "In how many ways can 3 Mathematics books and 2 Physics books be arranged on a shelf so that the 2 Physics books are always kept next to each other?",
+"options": [
+"48",
+"120",
+"24",
+"12"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Treat the 2 Physics books as one single block, giving 4 items in total to arrange, which can be done in 4! = 24 ways. The 2 Physics books within the block can be arranged in 2! = 2 ways, giving 24 x 2 = 48.",
+"py": "math.factorial(4)*math.factorial(2)",
+"values": [
+48,
+120,
+24,
+12
+],
+"id": "matx23007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Make we join the 2 Physics books together as one block, come arrange the 4 items as 4! = 24. Since the two Physics books fit rearrange themselves in 2! = 2 ways, 24 times 2 give us 48."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In how many ways can the letters of the word SUCCESS be arranged?",
+"options": [
+"420",
+"5040",
+"2520",
+"840"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "SUCCESS has 7 letters with S repeated 3 times and C repeated 2 times. Number of arrangements = 7!/(3!2!) = 5040/12 = 420.",
+"py": "math.factorial(7)//(math.factorial(3)*math.factorial(2))",
+"values": [
+420,
+5040,
+2520,
+840
+]
+},
+"why": "duplicate"
+}
+]
+}

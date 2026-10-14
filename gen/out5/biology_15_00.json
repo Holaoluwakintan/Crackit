@@ -1,0 +1,180 @@
+{
+"subject": "biology",
+"topic": "Population ecology, adaptation and tropical biomes in Nigeria",
+"ti": 15,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A population of tilapia in a fish pond at Oyo town was observed to increase slowly at first, then rapidly, and finally level off as food and space became limited, producing an S-shaped curve when plotted against time. What is this levelling-off value called?",
+"options": [
+"Biotic potential",
+"Carrying capacity",
+"Natality rate",
+"Population density"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The point where population growth flattens out due to limited resources is the carrying capacity of the environment. It represents the maximum population the habitat can support.",
+"id": "biox15000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di point wey population growth stop to increase sake of say food and space don finish na carrying capacity. E show di maximum number of animals wey dat place fit support."
+},
+{
+"q": "Which pair of factors correctly groups a density-independent and a density-dependent factor affecting a population of grasshoppers in a maize farm?",
+"options": [
+"Bush fire and predation",
+"Disease and competition for food",
+"Rainfall and temperature",
+"Emigration and immigration"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Bush fire affects the population regardless of its size, making it density-independent, while predation intensifies as population size increases, making it density-dependent. The other pairs do not correctly separate the two categories.",
+"id": "biox15001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Bush fire no send weda grasshopper plenty or small, so e be density-independent. But predation dey increase as di population dey grow, so e be density-dependent."
+},
+{
+"q": "In the Guinea savanna region of Nigeria, grasses grow tall and form the dominant vegetation while trees are scattered and fire-resistant. Which feature best helps these savanna trees survive the annual bush fires common in the region?",
+"options": [
+"Thin, smooth bark and shallow roots",
+"Thick, corky bark and underground rootstocks",
+"Broad leaves and dense canopy",
+"Buttress roots and thin waxy leaves"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Thick corky bark insulates the stem from fire damage, while underground rootstocks allow the tree to resprout after a fire destroys the above-ground parts. This is a common adaptation of savanna trees to recurrent bush fires.",
+"id": "biox15003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Thick corky bark dey protect di tree stem from fire. If fire burn di top, di underground rootstocks go still fit grow new branches again."
+},
+{
+"q": "A class of SS3 students sampled a 100 square metre plot of guinea savanna grassland in Kaduna State and counted 40 individual Andropogon grass plants. If the total grassland area being studied covers 5000 square metres, what is the estimated total number of Andropogon plants in the entire area?",
+"options": [
+"200",
+"400",
+"2000",
+"4000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Density in the sample is 40 plants per 100 square metres, which is 0.4 plants per square metre. Multiplying 0.4 by the total area of 5000 square metres gives an estimated 2000 plants.",
+"id": "biox15004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If 40 plants dey for 100 square metres, e mean say 0.4 plants dey for one square metre. When you multiply 0.4 by 5000, you go get 2000 plants."
+},
+{
+"q": "Which of the following best distinguishes the tropical rainforest biome from the Guinea savanna biome in Nigeria in terms of vegetation structure?",
+"options": [
+"Rainforest has a continuous grass layer while savanna has a closed canopy",
+"Rainforest has stratified layers with a closed canopy while savanna has scattered trees in grassland",
+"Rainforest trees are fire-resistant while savanna trees are not",
+"Rainforest has fewer plant species than savanna"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The rainforest is characterised by distinct layers of vegetation, including emergent trees, canopy, and undergrowth, forming a closed canopy that blocks sunlight. The savanna, by contrast, has an open structure with scattered trees among continuous grass cover.",
+"id": "biox15005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Rainforest get many layers of trees wey join body form closed canopy. Savanna na open grassland wey get small-small trees scattered inside."
+},
+{
+"q": "A population ecologist found that a community of weaverbirds and a community of sunbirds in a Nigerian forest reserve both feed on the same type of insect found on flowering trees, leading to a reduction in food available to both species. This relationship is an example of which ecological interaction?",
+"options": [
+"Mutualism",
+"Commensalism",
+"Interspecific competition",
+"Parasitism"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Two different species competing for the same limited resource, in this case insects, is interspecific competition. Neither species benefits from the other; instead both are negatively affected by the shared demand for food.",
+"id": "biox15006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When two different species dey fight for di same food, we dey call am interspecific competition. Both of dem no gain anything, na stress e dey cause for both sides."
+},
+{
+"q": "Which of the following best explains why population growth in a natural habitat eventually slows down and stabilizes rather than increasing indefinitely in an exponential manner?",
+"options": [
+"Unlimited food supply and absence of predators allow continuous growth",
+"Environmental resistance from limited resources, predation, and disease checks further increase",
+"Natality permanently exceeds mortality in all seasons",
+"Migration always balances birth and death rates exactly"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "As a population grows, environmental resistance factors such as limited food, space, predation, and disease increase and reduce the rate of growth until it stabilises near the carrying capacity. Without such resistance, populations would grow exponentially forever, which does not happen in nature.",
+"id": "biox15007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "As population dey grow, things like lack of food, sickness, and predators go start to limit dem. Dis environmental resistance na wetin dey make population growth stop to increase anyhow."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A particular rodent species found in the Sahel region has small, rounded ears, pale fur colour, and is active mainly at night. Which combination of adaptive advantages does this best represent?",
+"options": [
+"Reduced heat loss and camouflage from predators during the day",
+"Increased heat loss and avoidance of daytime heat",
+"Increased water absorption and protection from flooding",
+"Reduced water loss and increased visibility to prey"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Small rounded ears reduce surface area for heat loss which is unusual, but nocturnal activity and pale fur help the rodent avoid intense daytime heat and blend with the sandy environment. This combination helps the animal survive the hot, dry Sahel climate.",
+"id": "biox15002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+}
+]
+}

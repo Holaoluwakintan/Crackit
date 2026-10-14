@@ -1,0 +1,196 @@
+{
+"subject": "geography",
+"topic": "ECOWAS and the geography of West Africa",
+"ti": 21,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "ECOWAS was established with the main aim of promoting cooperation among member states chiefly in which area?",
+"options": [
+"Economic integration and trade among member states",
+"Military conquest of neighbouring regions",
+"Religious unification of West Africa",
+"Control of the United Nations Security Council"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "ECOWAS was formed mainly to promote economic cooperation, trade and development among West African states. The other options are unrelated to its founding purpose.",
+"py": null,
+"values": null,
+"id": "geox21000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "ECOWAS dem form am mainly to make West African countries dey work together for trade and money matter. No be for war or religion dem take start the group."
+},
+{
+"q": "West Africa's vegetation belts change from south to north mainly in response to a decrease in rainfall. Which sequence correctly shows this change from the coast towards the Sahara?",
+"options": [
+"Mangrove swamp, rainforest, guinea savanna, sudan savanna, sahel savanna",
+"Sahel savanna, sudan savanna, guinea savanna, rainforest, mangrove swamp",
+"Rainforest, sahel savanna, guinea savanna, mangrove swamp, sudan savanna",
+"Guinea savanna, rainforest, mangrove swamp, sudan savanna, sahel savanna"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Moving from the coast northward, rainfall reduces steadily, producing this correct order of vegetation belts. The other options wrongly reverse or mix up the sequence.",
+"py": null,
+"values": null,
+"id": "geox21002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "As you dey comot from sea side dey go north, rain dey reduce, so the plants dey change small small. Na this order show how the vegetation dey follow rain pattern."
+},
+{
+"q": "Which of the following is a major economic activity that most ECOWAS member states depend on, making regional trade policies on cash crops like cocoa, groundnut and cotton very important?",
+"options": [
+"Agriculture and export of primary commodities",
+"Heavy manufacturing of aircraft engines",
+"Large-scale deep-sea fishing only",
+"Space satellite technology development"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Most West African economies rely heavily on agriculture, especially cash crop production and export. The other options do not reflect the dominant economic activities of the region.",
+"py": null,
+"values": null,
+"id": "geox21003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Plenty West African countries dey depend on farming to survive. Na why cocoa and groundnut matter dey very important for our trade policy."
+},
+{
+"q": "A new ECOWAS trade protocol removes import duties on goods that are wholly produced within member states, such as cocoa from Ghana sold in Nigeria. This protocol is best described as promoting which of the following?",
+"options": [
+"A free trade area among member states",
+"A political federation of West Africa",
+"A common external defence pact",
+"A single official language policy"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Removing tariffs on goods produced within the community creates a free trade area, which is a core economic integration tool of ECOWAS. The other options describe political or cultural arrangements, not trade.",
+"py": null,
+"values": null,
+"id": "geox21004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If country no collect tax for goods wey dem produce inside the region, e mean say dem don create free trade area. This one na way to make business flow well between members."
+},
+{
+"q": "Lake Chad, an important water resource shared by several West and Central African countries, has been reported to be shrinking over recent decades. Which of these is the most likely consequence for ECOWAS countries bordering it?",
+"options": [
+"Increased conflict over fishing and grazing land as water resources reduce",
+"Permanent increase in fish stock available to fishermen",
+"Rapid rise in sea level along the Atlantic coast",
+"Automatic expansion of farmland due to more rainfall"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "As Lake Chad shrinks, competition over the remaining water, fishing grounds and grazing land increases tension among communities and countries. The other options describe the opposite of what shrinking water bodies cause.",
+"py": null,
+"values": null,
+"id": "geox21005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "As Lake Chad dey dry finish, water and land wey people dey use for farm and fish dey reduce. This one dey cause wahala and fight between the people wey dey live there."
+},
+{
+"q": "An ECOWAS trade analyst notes that Niger, being landlocked, relies on a coastal member state's port and road network to export its goods to Europe. Which country's ports would most logically serve this purpose, based on shared border and existing transport routes?",
+"options": [
+"Benin Republic",
+"Senegal",
+"Cape Verde",
+"Sierra Leone"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Benin shares a border with Niger and has a well-used port-to-Niger transport corridor through Cotonou. Senegal, Cape Verde and Sierra Leone are too far or not directly connected by land routes to Niger.",
+"py": null,
+"values": null,
+"id": "geox21006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Niger no get sea, so dem dey use Benin port to carry their goods go outside. Benin dey close to Niger and the road dey connect well."
+},
+{
+"q": "A geography teacher explains that despite ECOWAS's integration efforts, trade among member states remains relatively low compared to trade with countries outside the region. Which factor best explains this situation?",
+"options": [
+"Member states mostly produce similar primary products, reducing the need to trade with each other",
+"All member states use the same currency, eliminating exchange rate problems",
+"ECOWAS has banned all cross-border trade between member states",
+"Member states have identical colonial languages, removing all trade barriers"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Many West African countries produce similar raw materials and cash crops, so there is little complementary demand for each other's goods, pushing them to trade more with industrialised regions outside West Africa. The other options are factually incorrect about ECOWAS.",
+"py": null,
+"values": null,
+"id": "geox21007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Most countries for West Africa dey produce the same kind of raw materials. Because everybody dey produce the same thing, e dey hard to trade with each other."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A key protocol of ECOWAS allows citizens of member states to move, reside and work in any member country without a visa for a short specified period. This protocol is best described as promoting which of the following?",
+"options": [
+"Free movement of persons and goods",
+"Compulsory dual citizenship for all members",
+"A single ECOWAS currency for all states",
+"Unlimited military alliance among states"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The ECOWAS Protocol on Free Movement allows citizens to travel, reside and establish businesses across member states without visas for a short period. This encourages regional integration, not currency union or military alliance.",
+"py": null,
+"values": null,
+"id": "geox21001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Visa-free short visits do not automatically confer the right to work; the option also adds goods.|"
+}
+]
+}

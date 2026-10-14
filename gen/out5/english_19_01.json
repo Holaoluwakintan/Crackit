@@ -1,0 +1,196 @@
+{
+"subject": "english",
+"topic": "Cloze: a short original passage with one numbered gap to fill with the most suitable option",
+"ti": 19,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Read the passage and choose the option that best fills the gap.\n\nThe new supervisor at the textile factory in Kano was known for his firmness. He insisted that every worker ___ to the safety rules, no matter how senior they were, because he believed accidents could be prevented through discipline.",
+"options": [
+"adhere",
+"adheres",
+"adhered",
+"adhering"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The verb 'insisted that' introduces a subjunctive mood, which requires the base form of the verb regardless of subject. Therefore 'adhere' is correct, not the inflected forms.",
+"py": null,
+"values": null,
+"id": "engx19011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis one na subjunctive mood, where pesin must use di base verb 'adhere' afta 'insisted that', no matter who dem dey talk about."
+},
+{
+"q": "Read the passage and choose the word that best fills the gap.\n\nThe twins, Kemi and Kunle, were inseparable from childhood. Wherever one went, the other followed, so much so that their classmates nicknamed them ___ peas in a pod.",
+"options": [
+"like two",
+"as two",
+"such two",
+"so two"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The idiom 'like two peas in a pod' describes people who are very similar or always together. The other options do not form a correct or recognised expression.",
+"py": null,
+"values": null,
+"id": "engx19012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di correct idiom wey dem dey use to describe people wey dey always move togeda na 'like two peas in a pod'."
+},
+{
+"q": "Read the passage and choose the option that best fills the gap.\n\nThe village elders gathered under the old baobab tree to settle the land dispute between the two families. ___ hours of argument, they reached a compromise that satisfied both sides, and the matter was finally laid to rest.",
+"options": [
+"After",
+"During",
+"Since",
+"While"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The sentence describes a sequence of events: the arguing happened first, and the compromise came afterwards. 'After' correctly shows this time relationship, while the other words either suggest an ongoing simultaneous action or a wrong time frame.",
+"py": null,
+"values": null,
+"id": "engx19013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na 'After' dem suppose use becos di argument happen first before dem reach compromise. E show di correct time sequence."
+},
+{
+"q": "Read the passage and choose the word that best fills the gap.\n\nThe young intern was eager to impress her new employer. On her first day, she arrived an hour early and stayed late, determined to prove that she was ___ of the responsibility given to her.",
+"options": [
+"worthy",
+"worth",
+"worthwhile",
+"worthless"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The adjective 'worthy' is correctly followed by the preposition 'of' to mean deserving. The other options either need a different structure or carry the opposite meaning.",
+"py": null,
+"values": null,
+"id": "engx19014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na 'worthy' dey follow 'of' to show say pesin fit do di work. Di oda options no fit join well with 'of'."
+},
+{
+"q": "Read the passage and choose the option that best fills the gap.\n\nThe committee had debated for hours without reaching an agreement. Just when it seemed the meeting would end in a deadlock, the youngest member proposed an idea so simple yet so effective that it immediately ___ the tension in the room and paved the way for a unanimous decision.",
+"options": [
+"dissolved",
+"dissolute",
+"dissolution",
+"dissolving"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The sentence needs a past-tense verb to match 'proposed... that it immediately', so 'dissolved' fits grammatically and in meaning, as it means to make something disappear gradually. The other options are either a noun, an adjective, or the wrong verb form.",
+"py": null,
+"values": null,
+"id": "engx19015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di sentence need past-tense verb like 'proposed' to match 'dissolved', so dat e go make sense for grammar."
+},
+{
+"q": "Read the passage and choose the word that best fills the gap.\n\nThe farmers in the drought-stricken region had almost given up hope, but when the rains finally came, their fields turned green ___ , and the harvest that followed was the best in a decade.",
+"options": [
+"again",
+"instead",
+"likewise",
+"otherwise"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The word 'again' shows that the fields returned to a former green state after the rain, which matches the hopeful turn of events in the passage. The other options do not logically connect the rain to the greening of the fields.",
+"py": null,
+"values": null,
+"id": "engx19016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na 'again' show say di farm come green back as rain fall after dry season. Di oda words no fit di story."
+},
+{
+"q": "Read the passage and choose the option that best fills the gap.\n\nBefore the examination officer could finish explaining the rules, a strange silence fell over the hall. Every candidate sat still, pen in hand, ___ the signal to begin, as if one premature stroke of the pen might cost them the entire paper.",
+"options": [
+"awaiting",
+"awaited",
+"await",
+"to await"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The gap needs a present participle to describe an ongoing action happening alongside 'sat still', which fits the pattern of a dangling descriptive phrase modifying the candidates. 'Awaiting' correctly fills this role, while the other forms break the grammatical structure of the sentence.",
+"py": null,
+"values": null,
+"id": "engx19017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na 'awaiting' wey be present participle dem need to match how dem sit down dey wait for signal."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Read the passage and choose the word that best fills the gap.\n\nAfter weeks of planning, the students finally staged their cultural display. The dancers moved with such ___ that even the principal, who rarely smiled, could not help but applaud.",
+"options": [
+"grace",
+"gracefulness",
+"graceful",
+"gracious"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A noun is needed after 'such' to complete the phrase 'such grace that'. Grace fits naturally as the quality being described, while the other options are either adjectives or wrong word forms.",
+"py": null,
+"values": null,
+"id": "engx19010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:B is also grammatically defensible.|"
+}
+]
+}

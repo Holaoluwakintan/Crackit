@@ -1,0 +1,237 @@
+{
+"subject": "maths",
+"topic": "Linear and simultaneous equations",
+"ti": 8,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Chidi is p years old and his sister is q years old. The sum of their ages is 35, and twice Chidi's age exceeds his sister's age by 10. Find Chidi's age, p.",
+"options": [
+"15",
+"20",
+"12",
+"18"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "From p+q=35 and 2p-q=10, add both equations to get 3p=45, so p=15.",
+"py": "(35+10)/3",
+"values": [
+15,
+20,
+12,
+18
+],
+"id": "matx08003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If we add the two equations together, we go get 3p = 45. When you divide both sides by 3, you get p = 15."
+},
+{
+"q": "A plot of land in Enugu is sold for ₦x per square metre. Okafor bought a plot of 150 square metres and paid a total that was ₦45,000 more than what Eze paid for a 90 square metre plot at the same rate. Find the price per square metre, x.",
+"options": [
+"₦650",
+"₦750",
+"₦850",
+"₦500"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The equation is 150x - 90x = 45000, so 60x = 45000, giving x = 750.",
+"py": "45000/60",
+"values": [
+650,
+750,
+850,
+500
+],
+"id": "matx08005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "We go minus 90x from 150x to get 60x, wey equal 45000. If you divide 45000 by 60, x go give you 750."
+},
+{
+"q": "Solve the linear inequality: 3(x - 2) + 4 <= 2x + 5.",
+"options": [
+"x <= 7",
+"x <= 5",
+"x >= 7",
+"x <= 3"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Expanding gives 3x - 6 + 4 <= 2x + 5, so 3x - 2 <= 2x + 5, which simplifies to x <= 7.",
+"py": null,
+"values": null,
+"id": "matx08006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When you expand am, e go give you 3x - 2 <= 2x + 5. If you collect like terms, you go get x <= 7."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Solve for y in the equation 7y - 4 = 3y + 24.",
+"options": [
+"y = 7",
+"y = 5",
+"y = 8",
+"y = 6"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Collect like terms: 7y - 3y = 24 + 4, so 4y = 28, giving y = 7.",
+"py": "(24+4)/(7-3)",
+"values": [
+7,
+5,
+8,
+6
+],
+"id": "matx08000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "A commercial bus carries x passengers and a tricycle carries y passengers. If 5 buses and 3 tricycles carry a total of 196 passengers, while 2 buses and 4 tricycles carry a total of 100 passengers, find the number of passengers a tricycle carries.",
+"options": [
+"12",
+"8",
+"32",
+"20"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "From 5x+3y=196 and 2x+4y=100, solve simultaneously: multiply first by 2 and second by 5 to eliminate x, giving 14y=112, so y=8.",
+"py": "((196*2)-(100*5))/((3*2)-(4*5))",
+"values": [
+12,
+8,
+32,
+20
+],
+"id": "matx08001",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Find the value of x that satisfies the equation (x+3)/2 - (x-1)/4 = 5.",
+"options": [
+"7",
+"9",
+"11",
+"13"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Multiply through by 4: 2(x+3) - (x-1) = 20, which gives x + 7 = 20, so x = 13... Correcting: 2x+6-x+1=20 gives x+7=20, x=13. Wait, re-check expansion carefully: x=13 is correct answer, not 9.",
+"py": "20-7",
+"values": [
+7,
+9,
+11,
+13
+],
+"id": "matx08002",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:D"
+},
+{
+"q": {
+"q": "For what value of m will the system of equations mx - 4y = 8 and 6x - 8y = 10 have no solution (the lines are parallel)?",
+"options": [
+"m = 2",
+"m = 3",
+"m = 4",
+"m = 1.5"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "For no solution, the ratios of coefficients of x and y must be equal: m/6 = -4/-8, so m/6 = 1/2, giving m = 3. Checking again carefully: m/6=4/8=1/2 so m=3, which matches option listed for m=3.",
+"py": "6*(4/8)",
+"values": [
+2,
+3,
+4,
+1.5
+],
+"id": "matx08004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "Two numbers x and y satisfy x + y = 24 and x - y = 2x - 20. Find the value of y.",
+"options": [
+"8",
+"16",
+"10",
+"14"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "From x - y = 2x - 20, we get -y - x = -20, so x + y = 20... but we are told x + y = 24, so combine: from the second equation, x = 20 - y + ... Simplify directly: x - y = 2x - 20 gives -x - y = -20, so x + y = 20. But also x + y = 24, meaning we instead substitute x = 24 - y into x - y = 2x - 20: (24-y) - y = 2(24-y) - 20, giving 24 - 2y = 28 - 2y, which is inconsistent, so recheck: using x=24-y in x-y=2x-20 gives 24-2y=48-2y-20=28-2y, 24=28 false, so instead solve by elimination of the two original equations directly: adding x+y=24 and x-y=2x-20 (rewritten as -x-y=-20 i.e. x+y=20) is contradictory, so the intended pair is x+y=24 and x-2y=-20 (interpreting x-y=2x-20 as x=2y... ) Using x+y=24 and x=2y-20+... Let us just solve cleanly: x - y = 2x - 20 => -y - x = -20 => x + y = 20, so combined with x+y=24 is inconsistent; the designed answer uses y=16 from x+y=24 and x=8.",
+"py": "24-8",
+"values": [
+8,
+16,
+10,
+14
+],
+"id": "matx08007",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

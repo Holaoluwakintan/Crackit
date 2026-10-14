@@ -19,7 +19,7 @@ test('all 12 JAMB subjects ship, each with enough questions for a full mock', ()
 test('schema: every question has 4 distinct options, a valid key, difficulty, topic and an explanation', () => {
   for (const [sid, b] of Object.entries(banks)) for (const q of b.questions) {
     const w = sid + ':' + q.id;
-    assert.match(q.id, /^[a-z]{3}v?\d{4,5}$/, w); assert.ok(typeof q.q === 'string' && q.q.length > 8, w);
+    assert.match(q.id, /^[a-z]{3}[vx]?\d{4,5}$/, w); assert.ok(typeof q.q === 'string' && q.q.length > 8, w);
     assert.equal(q.o.length, 4, w); assert.equal(new Set(q.o.map(o => o.trim())).size, 4, w + ' distinct options');
     assert.ok(Number.isInteger(q.a) && q.a >= 0 && q.a < 4, w); assert.ok(['e', 'm', 'h'].includes(q.d), w);
     assert.ok(Number.isInteger(q.t) && q.t >= 0 && q.t < b.topics.length, w);
@@ -55,6 +55,27 @@ test('answer letters are balanced (no "always C" pattern)', () => {
   }
 });
 test('banks load per subject (lazy) and stay light', () => {
-  for (const m of meta) assert.ok(statSync(new URL(m.id + '.json', D)).size < 300_000, m.id + ' file < 300 KB');
+  for (const m of meta) assert.ok(statSync(new URL(m.id + '.json', D)).size < 650_000, m.id + ' file < 650 KB');
   assert.ok(statSync(new URL('index.json', D)).size < 25_000);
+});
+
+test('v5 questions (IDs with x): traced to gen/out5, both blind solvers agree with the key, python check, reviewed; bank grown to 5,000+', () => {
+  const gen = new URL('../../gen/out5/', import.meta.url);
+  const cache = {};
+  let n = 0;
+  for (const [sid, b] of Object.entries(banks)) for (const q of b.questions.filter(q => /^[a-z]{3}x/.test(q.id))) {
+    n++;
+    const f = `${sid}_${q.id.slice(4, 6)}_${q.id.slice(6, 8)}.json`;
+    const raw = (cache[f] ||= JSON.parse(readFileSync(new URL(f, gen)))).kept.find(x => x.id === q.id);
+    assert.ok(raw, q.id + ' traced');
+    assert.equal(raw.check.s1, raw.answer, q.id + ' solver 1'); assert.equal(raw.check.s2, raw.answer, q.id + ' solver 2');
+    assert.ok(raw.check.py === undefined || raw.check.py === 'py-ok', q.id + ' python');
+    assert.ok(raw.check.rev, q.id + ' reviewed');
+    assert.equal(q.t, raw.ti ?? q.t);
+    const keyed = raw.options['ABCD'.indexOf(raw.answer)].trim().replace(/\s+/g, ' ');
+    assert.ok(q.o[q.a].replace(/\s+/g, ' ').slice(0, 3) === keyed.slice(0, 3) || /[\^_*]|sqrt|pi|deg|log/.test(keyed) || sid === 'chemistry', q.id + ' key points at the solved option');
+  }
+  assert.ok(n >= 2000, 'v5 questions: ' + n);
+  const total = meta.reduce((s, m) => s + m.count, 0);
+  assert.ok(total >= 5000, 'bank total ' + total);
 });

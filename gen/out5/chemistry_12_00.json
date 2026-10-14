@@ -1,0 +1,203 @@
+{
+"subject": "chemistry",
+"topic": "Water, hardness of water and solubility",
+"ti": 12,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A sample of well water from Ikot Ekpene forms a lasting lather with soap only after it has been boiled. This observation shows that the water contains mainly dissolved",
+"options": [
+"Calcium hydrogentrioxocarbonate(IV)",
+"Calcium tetraoxosulphate(VI)",
+"Sodium chloride",
+"Magnesium tetraoxosulphate(VI)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Boiling removes hardness only when it is caused by calcium hydrogentrioxocarbonate(IV), which decomposes on heating to form insoluble calcium trioxocarbonate(IV). This is temporary hardness. The other salts listed cause permanent hardness that boiling cannot remove.",
+"py": null,
+"values": null,
+"id": "chex12000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na only temporary hardness wey Calcium hydrogentrioxocarbonate(IV) dey cause boiling dey remove. E dey breakdown to form insoluble Calcium trioxocarbonate(IV)."
+},
+{
+"q": "Which property of the water molecule best explains its unusually high boiling point compared to hydrogen sulphide, H2S?",
+"options": [
+"Its high molar mass",
+"The presence of covalent bonds between hydrogen and oxygen",
+"Extensive hydrogen bonding between water molecules",
+"Its ability to ionise completely in the liquid state"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Water molecules are held together by strong hydrogen bonds due to the high electronegativity of oxygen, requiring more energy to separate molecules during boiling. H2S lacks significant hydrogen bonding, so it boils at a much lower temperature despite similar structure.",
+"py": null,
+"values": null,
+"id": "chex12001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Water molecules get strong hydrogen bonding because oxygen dey very electronegative, so e need plenty heat before e go boil. H2S no get this strong bond, na why e dey boil quick quick."
+},
+{
+"q": "A water sample contains dissolved calcium hydrogentrioxocarbonate(IV). Which of the following correctly represents what happens when this water is boiled?",
+"options": [
+"Ca(HCO3)2 decomposes to CaCO3, H2O and CO2",
+"Ca(HCO3)2 reacts with soap to form scum directly",
+"Ca(HCO3)2 is converted to CaSO4 which precipitates",
+"Ca(HCO3)2 remains dissolved and unreactive to heat"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "On boiling, calcium hydrogentrioxocarbonate(IV) breaks down into insoluble calcium trioxocarbonate(IV), water and carbon(IV) oxide gas. The insoluble carbonate settles out, removing the hardness from the water.",
+"py": null,
+"values": null,
+"id": "chex12004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When you boil Ca(HCO3)2, e go break down give you CaCO3 wey go precipitate, join with water and CO2 gas. Dis one go comot the hardness."
+},
+{
+"q": "Which of the following is the most suitable method for softening water that is to be used in a steam boiler, where complete removal of both calcium and magnesium ions is required?",
+"options": [
+"Boiling the water",
+"Adding washing soda (sodium trioxocarbonate(IV))",
+"Passing the water through an ion-exchange resin",
+"Filtering the water through sand"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Ion-exchange resins replace calcium and magnesium ions with sodium or hydrogen ions, removing both temporary and permanent hardness completely. Boiling only removes temporary hardness, and sand filtration does not remove dissolved ions.",
+"py": null,
+"values": null,
+"id": "chex12005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na ion-exchange resin be the best method to comot both calcium and magnesium ions completely for boiler water. Boiling only dey remove temporary hardness."
+},
+{
+"q": "Which statement correctly describes the general effect of temperature on the solubility of most solid solutes and of gases in water?",
+"options": [
+"Solubility of solids and gases both decrease as temperature rises",
+"Solubility of solids generally increases while that of gases generally decreases as temperature rises",
+"Solubility of solids generally decreases while that of gases generally increases as temperature rises",
+"Solubility of solids and gases both increase as temperature rises"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Most solids dissolve better as temperature rises because the dissolving process absorbs heat. Gases, however, dissolve less as temperature rises because the dissolved gas molecules gain energy and escape more easily from the solution.",
+"py": null,
+"values": null,
+"id": "chex12006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As temperature dey high, solubility of most solid solutes dey increase because heat dey help them dissolve. But for gases, high temperature dey make them escape, so their solubility dey reduce."
+},
+{
+"q": "A student adds excess washing soda solution to a hard water sample containing dissolved magnesium tetraoxosulphate(VI). What type of reaction occurs, and what happens to the hardness?",
+"options": [
+"Neutralisation occurs; hardness increases",
+"Double decomposition occurs, forming insoluble magnesium trioxocarbonate(IV); hardness is removed",
+"Oxidation occurs; hardness is unaffected",
+"Hydrolysis occurs; magnesium ions are released into solution"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Washing soda supplies trioxocarbonate(IV) ions which exchange with the sulphate ions in a double decomposition reaction, precipitating insoluble magnesium trioxocarbonate(IV). Removing the magnesium ions from solution eliminates the hardness caused by them.",
+"py": null,
+"values": null,
+"id": "chex12007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Washing soda dey do double decomposition reaction with magnesium tetraoxosulphate(VI) to precipitate insoluble magnesium trioxocarbonate(IV). Dis one go comot the hardness."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "At 20°C, the solubility of ammonium chloride in water is 37 g per 100 g of water. A student dissolves 74.4 g of ammonium chloride in 150 g of water at this temperature. What mass, in grams, of ammonium chloride remains undissolved?",
+"options": [
+"18.9",
+"55.5",
+"74.4",
+"18.5"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For 150 g of water, the maximum dissolvable mass is 37 x 1.5 = 55.5 g. Since 74.4 g was added, the undissolved mass is 74.4 - 55.5 = 18.9 g.",
+"py": "37*1.5",
+"values": [
+18.9,
+55.5,
+74.4,
+18.5
+],
+"id": "chex12002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+},
+{
+"q": {
+"q": "Which of the following best describes a saturated solution at a given temperature?",
+"options": [
+"A solution that contains more solute than it can normally hold",
+"A solution in which no more solute can dissolve under the existing conditions, with excess solid present",
+"A solution that has reacted completely with the solvent",
+"A solution that contains the solvent in excess of its boiling point"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A saturated solution is one holding the maximum amount of solute that can dissolve at that temperature, with any extra solute remaining undissolved. This is the standard definition used in solubility studies.",
+"py": null,
+"values": null,
+"id": "chex12003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:A saturated solution need not have excess solid present.|"
+}
+]
+}

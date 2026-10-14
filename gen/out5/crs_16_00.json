@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "Miracles of Jesus",
+"ti": 16,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "At the pool of Bethesda in Jerusalem, Jesus healed a man who had been afflicted for thirty-eight years. What hindered this man from being healed before Jesus met him?",
+"options": [
+"He had no one to help him into the pool when the water was troubled",
+"He was too blind to find his way to the pool",
+"He did not believe the pool had any healing power",
+"The priests refused to let him enter the pool area"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The man explained to Jesus that he had no one to put him into the pool when the water was stirred, and others always stepped in before him. Jesus healed him instantly by His word.",
+"id": "crsx16000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di man tell Jesus say nobody dey to help am enter inside di water when e move. Na so Jesus take im word heal am sharp-sharp."
+},
+{
+"q": "Jesus cast out a legion of demons from a man living among the tombs in the country of the Gadarenes. Into what animals did the demons beg to be allowed to enter?",
+"options": [
+"A flock of sheep",
+"A herd of swine",
+"A herd of cattle",
+"A group of wild donkeys"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The demons pleaded with Jesus to let them enter a herd of swine feeding nearby. After entering the pigs, the whole herd rushed down a steep place into the lake and drowned.",
+"id": "crsx16001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Dem demons beg Jesus make e allow dem enter di pigs wey dey feed nearby. As dem enter, all di pigs run enter inside water come die."
+},
+{
+"q": "When Jesus healed a man with a withered hand in the synagogue, the Pharisees watched Him closely hoping to accuse Him. What was the main reason for their anger?",
+"options": [
+"Jesus healed without touching the man",
+"The healing happened on the Sabbath day",
+"Jesus demanded payment for the healing",
+"The man was a known sinner"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Pharisees considered healing to be work, which they believed was unlawful on the Sabbath. Jesus rebuked their attitude by asking whether it was lawful to do good or harm on the Sabbath.",
+"id": "crsx16002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di Pharisees believe say healing na work, so dem no want make Jesus do am for Sabbath day. Jesus come tell dem say e good to do better thing for Sabbath."
+},
+{
+"q": "Jesus healed ten men suffering from leprosy as He travelled between Samaria and Galilee. What lesson does this miracle mainly teach about human conduct?",
+"options": [
+"The importance of fasting before seeking healing",
+"The danger of associating with foreigners",
+"The need for gratitude after receiving a blessing",
+"The necessity of sacrifice at the temple"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Out of the ten lepers healed, only one, a Samaritan, returned to thank Jesus. This miracle teaches the importance of showing gratitude for blessings received.",
+"id": "crsx16003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na only one person out of di ten lepers come back to thank Jesus. Dis miracle show say e dey very important to show gratitude when person do you better."
+},
+{
+"q": "While teaching by the lake, Jesus told Simon Peter to let down his nets after a night of catching nothing. What was the immediate result of Peter's obedience?",
+"options": [
+"The nets caught such a large number of fish that they began to break",
+"Peter caught one large fish containing a coin",
+"The boat sank because it was overloaded with water",
+"Peter caught nothing but later found fish on the shore"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "When Peter obeyed and let down the nets, he caught so many fish that the nets began to break, and he had to call his partners to help. This miracle led Peter to leave everything and follow Jesus.",
+"id": "crsx16004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "As Peter obey Jesus and throw net, fish plenty reach where di net start to break. E come call im partners make dem come help am carry di fish."
+},
+{
+"q": "Jesus once healed the daughter of a Gentile woman from Tyre and Sidon who begged Him for help, even though He first spoke of being sent only to the lost sheep of Israel. What quality of this woman made Jesus grant her request?",
+"options": [
+"Her wealth and social status",
+"Her persistent faith despite initial refusal",
+"Her membership of the synagogue",
+"Her promise to convert to Judaism"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Although Jesus initially seemed to refuse because she was not of Israel, the woman humbly persisted in faith, comparing herself to a dog eating crumbs under the table. Jesus commended her great faith and healed her daughter from a distance.",
+"id": "crsx16005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Even as Jesus talk say e come for Israel, di woman no give up. Jesus come praise her faith because she humble and persistent, so e heal her pikin."
+},
+{
+"q": "On a stormy night, Jesus walked on the surface of the Sea of Galilee toward His disciples' boat. What happened when Peter tried to walk on the water toward Jesus?",
+"options": [
+"Peter walked confidently all the way to Jesus without any trouble",
+"Peter began to sink after becoming afraid of the wind",
+"Peter refused to step out of the boat at all",
+"Peter drowned before Jesus could reach him"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Peter started walking on the water but became frightened by the strong wind and began to sink. Jesus caught him immediately and asked why he doubted.",
+"id": "crsx16006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Peter start to walk on top water, but as e see say wind dey blow, e fear come start to sink. Jesus come hold am quick-quick and ask am why e doubt."
+},
+{
+"q": "Jesus healed a woman who had been bent over and unable to straighten herself for eighteen years, by laying His hands on her in the synagogue. What did Jesus call the cause of her condition when defending His action to the ruler of the synagogue?",
+"options": [
+"A curse placed on her by her enemies",
+"A spirit of infirmity that had bound her",
+"Punishment for her personal sins",
+"A disease common among her family"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Jesus described the woman as having been bound by a spirit of infirmity for eighteen years and said she, a daughter of Abraham, ought to be loosed on the Sabbath. This answered the synagogue ruler's objection that healing should not happen on that day.",
+"id": "crsx16007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Jesus talk say na spirit of infirmity bind di woman for eighteen years. E come tell di synagogue ruler say e fit to heal her even for Sabbath day."
+}
+],
+"rejected": []
+}

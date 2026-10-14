@@ -1,0 +1,178 @@
+{
+"subject": "government",
+"topic": "Pre-colonial political systems: Hausa-Fulani, Yoruba, Igbo",
+"ti": 9,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "In the pre-colonial Hausa-Fulani political system, the Madawaki held which of the following positions in the emir's administration?",
+"options": [
+"Head of the native treasury",
+"Commander of the cavalry forces",
+"Chief Islamic judge",
+"Head of the royal household slaves"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Madawaki was the title given to the commander of the cavalry, responsible for organizing and leading the emirate's mounted warriors in battle. He was one of the key military title holders under the emir.",
+"id": "govx09010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na Madawaki dem dey give dis title as di commander of horse-riders for war. Na him dey organize di warriors to fight for di emirate."
+},
+{
+"q": "A major feature that distinguished the pre-colonial Hausa-Fulani system of government from that of the Yoruba was that the Hausa-Fulani system was based mainly on",
+"options": [
+"a loose confederation of equal villages without central authority",
+"feudal and theocratic principles rooted in Islamic law",
+"rotation of kingship among ruling age-grades",
+"collective ownership of land by village assemblies alone"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "After the Jihad, the Hausa-Fulani states were organized as emirates ruled according to Islamic law, with the emir holding both political and religious authority. This feudal-theocratic structure differed from the more secular, council-based Yoruba monarchy.",
+"id": "govx09011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "After di Jihad, Hausa-Fulani states come turn to emirates wey dey follow Islamic law. Di emir get both political and religious power, unlike Yoruba system."
+},
+{
+"q": "In pre-colonial Yoruba towns, a settler or stranger who wished to settle permanently was usually required to seek the protection and sponsorship of",
+"options": [
+"the Aremo of the town",
+"a Baale or family head willing to stand as his guarantor",
+"the Ogboni cult directly",
+"the Oyo Mesi council"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Strangers in Yoruba towns were attached to a compound head or Baale who vouched for their conduct and integrated them into the community. This system ensured accountability and social order in the town.",
+"id": "govx09012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If stranger wan settle for Yoruba town, e must find compound head or Baale to stand as guarantor. Dis one dey help to make sure everywhere peaceful."
+},
+{
+"q": "Which statement best describes the position of the Oba in a typical pre-colonial Yoruba kingdom?",
+"options": [
+"He ruled as an absolute monarch answerable to no one",
+"He was a sacred ruler whose powers were checked by chiefs and traditional councils",
+"He was merely a ceremonial figure with no political role",
+"He was elected annually by all adult male members of the town"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The Oba was regarded as sacred and enjoyed great respect, but his actions were checked by councils such as the chiefs and kingmakers. This balance prevented absolute, unchecked rule.",
+"id": "govx09013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Even though dem respect di Oba as sacred king, council of chiefs and kingmakers dey check him powers. E no make am become dictator."
+},
+{
+"q": "In pre-colonial Igbo society, the Umunna system mainly served to",
+"options": [
+"unite male descendants of a common ancestor for mutual political and social support",
+"train young men exclusively for warfare against neighbouring clans",
+"collect tribute on behalf of a central Igbo king",
+"regulate trade between Igbo and Hausa merchants"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Umunna was a group of men tracing descent from a common ancestor, and it served as a unit of political, social and economic cooperation. It played a key role in settling disputes and maintaining order among its members.",
+"id": "govx09014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Umunna na group of male relatives from one ancestor wey dey help each other for political and social matters. Dem dey settle wahala well well."
+},
+{
+"q": "A student comparing three pre-colonial Nigerian political systems notes that System X had a paramount ruler checked by a council that could demand his suicide, System Y had emirs ruling by Islamic law under a Jihadist-founded caliphate, while System Z had no central ruler but relied on lineage heads, age-grades and oracles. System Z best represents the",
+"options": [
+"Hausa-Fulani system",
+"Oyo Yoruba system",
+"Igbo system",
+"Benin system"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The description of no central ruler, reliance on lineage heads, age-grades and oracles fits the largely acephalous Igbo system. System X refers to Oyo with its Oyo Mesi, while System Y refers to the Hausa-Fulani caliphate structure.",
+"id": "govx09015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "System Z wey no get central king but dey use family heads and oracles na Igbo system. Na him be acephalous society."
+},
+{
+"q": "One major function of oracles, such as the Arochukwu oracle, in pre-colonial Igbo political life was to",
+"options": [
+"crown new kings in all Igbo towns",
+"serve as a court of final appeal and settle disputes between communities",
+"collect taxes from Igbo villages",
+"command standing armies during inter-village wars"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In the absence of central political authority, oracles like Arochukwu were consulted to settle disputes and give judgements that communities respected and obeyed. This gave the oracle enormous influence as an informal judicial authority.",
+"id": "govx09016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because dem no get central king, people dey use oracles like Arochukwu to settle big big village quarrels. Di judgment dey carry weight."
+},
+{
+"q": "Why did the pre-colonial Hausa-Fulani emirates find it easier than the Igbo communities to maintain large, centralized administrative structures?",
+"options": [
+"Because the Hausa-Fulani states lacked any form of social stratification",
+"Because Islam provided a unifying religion, law and hierarchy of appointed officials obeying the emir",
+"Because the Igbo had no form of government whatsoever",
+"Because the Hausa-Fulani states had no contact with neighbouring kingdoms"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Islam gave the Hausa-Fulani states a common religion, legal code (Sharia) and a hierarchy of officials loyal to the emir, which supported large centralized emirates. The Igbo, lacking such unifying religious-political structure, remained organized in smaller autonomous units bound mainly by kinship and oracles.",
+"id": "govx09017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Islam help Hausa-Fulani get one religion, law and order wey make am easy to run big centralized government. Igbo people own different because dem dey use kinship."
+}
+],
+"rejected": []
+}

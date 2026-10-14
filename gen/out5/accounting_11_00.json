@@ -1,0 +1,209 @@
+{
+"subject": "accounting",
+"topic": "Control accounts and self-balancing ledgers",
+"ti": 11,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Control accounts are often described as a 'master ledger' because they summarise the transactions of a group of personal accounts. Which of these best describes the main source of entries posted into the Sales Ledger Control Account?",
+"options": [
+"Totals from the books of original entry (journals) relating to debtors",
+"Individual postings copied from every debtor's personal account",
+"Balances extracted from the Purchases Ledger only",
+"Entries made directly from the bank statement"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Control accounts are written up from totals in the books of original entry (such as the sales day book, cash book and returns inwards book), not from individual personal accounts. This keeps the control account as a summary check on the sales ledger.",
+"py": null,
+"values": null,
+"id": "accx11000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Control account dey take totals from books of original entry like sales day book, no be say dem dey copy am one by one from everybody account. E dey help us check weda sales ledger balance correct."
+},
+{
+"q": "Which of the following is a correct reason for preparing self-balancing ledgers in a business?",
+"options": [
+"To allow the trial balance of each ledger to be extracted independently without needing the other ledgers",
+"To eliminate the need for subsidiary books such as the sales day book",
+"To ensure that only cash transactions are recorded in the books",
+"To replace the need for preparing a statement of financial position"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In a self-balancing ledger system, each ledger (sales, purchases, general) contains an adjustment or control account so that a trial balance can be extracted from that ledger alone. This localises errors to a particular ledger, making it easier to detect where a mistake occurred.",
+"py": null,
+"values": null,
+"id": "accx11001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Self-balancing ledger system dey allow trial balance for each ledger make e stand on im own without needing other ledgers. E dey help us locate mistake quick quick for dat particular ledger."
+},
+{
+"q": "A trader's Sales Ledger Control Account for the month of March showed: opening debit balance ₦72,000; credit sales ₦250,000; cash received from debtors ₦210,000; discount allowed ₦8,000; returns inwards ₦12,000. What is the closing balance on the control account?",
+"options": [
+"₦92,000",
+"₦312,000",
+"₦230,000",
+"₦250,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Closing balance = (72000 + 250000) - (210000 + 8000 + 12000) = 322000 - 230000 = ₦92,000. Debit side items (opening balance and sales) are added while credit side items (cash, discount allowed, returns) are deducted.",
+"py": "(72000+250000)-(210000+8000+12000)",
+"values": [
+92000,
+312000,
+230000,
+250000
+],
+"id": "accx11003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To find closing balance, you go add opening balance ₦72,000 and credit sales ₦250,000 to get ₦322,000, then minus cash ₦210,000, discount ₦8,000 and returns ₦12,000. Dat one go give you ₦92,000."
+},
+{
+"q": "A debtor, Mallam Yusuf, owed a business ₦25,000. During the month, the business supplied him goods on credit worth ₦40,000, but he returned damaged goods worth ₦5,000 and his account was also credited with a set-off of ₦10,000 against an amount the business owed him as a supplier. What balance remains on Mallam Yusuf's account?",
+"options": [
+"₦50,000",
+"₦60,000",
+"₦55,000",
+"₦40,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Balance = 25000 + 40000 - 5000 - 10000 = ₦50,000. The opening debt and new credit sales increase the balance, while returns and the contra set-off against the Purchases Ledger reduce it.",
+"py": "25000+40000-5000-10000",
+"values": [
+50000,
+60000,
+55000,
+40000
+],
+"id": "accx11005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "You go start with ₦25,000, add ₦40,000 for goods wey dem supply, then minus ₦5,000 for goods wey return and ₦10,000 for contra set-off. E go remain ₦50,000 for im account."
+},
+{
+"q": "Which of the following items would normally appear in a Purchases Ledger Control Account but would NOT appear in a Sales Ledger Control Account?",
+"options": [
+"Bad debts written off",
+"Discount received from suppliers",
+"Discount allowed to customers",
+"Cash received from customers"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Discount received relates to amounts owed to suppliers, so it appears in the Purchases Ledger Control Account, not the Sales Ledger Control Account. Bad debts, discount allowed and cash received from customers all relate to debtors and belong in the Sales Ledger Control Account.",
+"py": null,
+"values": null,
+"id": "accx11006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Discount received na for people wey we owe, na im make e dey Purchases Ledger Control Account. Discount allowed and cash received na for customers wey dey Sales Ledger Control Account."
+},
+{
+"q": "A business's Sales Ledger Control Account and the total of individual balances in the Sales Ledger did not agree at the end of the year. Which of the following errors would cause such a disagreement?",
+"options": [
+"A credit sale of ₦15,000 to a customer was correctly entered in the Sales Day Book but posted to the customer's account as ₦1,500",
+"A credit sale of ₦15,000 was completely omitted from both the Sales Day Book and the customer's account",
+"The total of the Sales Day Book was correctly transferred to both the control account and all customer accounts",
+"A cheque received from a customer was correctly recorded in both the cash book and the customer's account"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since the control account is posted from the Sales Day Book total (₦15,000), it would be correct, but the individual customer account would only show ₦1,500, causing the sum of individual balances to differ from the control account. Errors of complete omission or errors affecting both equally would not cause a disagreement.",
+"py": null,
+"values": null,
+"id": "accx11007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If control account get correct total from Sales Day Book but customer own record small amount like ₦1,500 instead of ₦15,000, the two totals no go match. Complete omission no dey cause disagreement because e miss for both sides."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In preparing a Purchases Ledger Control Account, which item would correctly appear on the DEBIT side of the account?",
+"options": [
+"Discount received from suppliers",
+"Credit purchases for the period",
+"Cash paid to suppliers",
+"Contra entry transferred from the Sales Ledger"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The Purchases Ledger Control Account starts with a credit opening balance, so amounts that reduce what the business owes, like cash paid to suppliers, discount received and contra entries, are debited. Cash paid to suppliers is the correct debit entry listed here, while credit purchases would be credited.",
+"py": null,
+"values": null,
+"id": "accx11002",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "In the self-balancing ledger system, the General (Nominal) Ledger contains a Sales Ledger Adjustment Account. What is the purpose of this account in relation to the Sales Ledger Control Account found in the Sales Ledger itself?",
+"options": [
+"It records exactly the same totals as the control account, acting as a double-check between the two ledgers",
+"It records only cash sales made during the period",
+"It replaces the need for a Purchases Ledger Adjustment Account",
+"It shows the net profit earned from credit sales"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Under self-balancing ledgers, each ledger keeps an adjustment account that mirrors the control account in the related ledger. The Sales Ledger Adjustment Account in the General Ledger should agree with the Sales Ledger Control Account in the Sales Ledger, confirming the arithmetic accuracy of both ledgers.",
+"py": null,
+"values": null,
+"id": "accx11004",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

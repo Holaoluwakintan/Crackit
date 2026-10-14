@@ -1,0 +1,178 @@
+{
+"subject": "literature",
+"topic": "Drama: types (tragedy, comedy, tragicomedy, farce) and dramatic terms (soliloquy, aside, catharsis, hamartia)",
+"ti": 4,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In a stage play, Chief Odion stands alone after his guests leave and says to himself, 'My son thinks I do not see his greed, but I built this empire and I shall decide who inherits it.' Which dramatic term best describes this speech?",
+"options": [
+"Soliloquy",
+"Aside",
+"Monologue delivered to another character",
+"Dramatic irony"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Because Chief Odion is alone on stage and speaking his private thoughts aloud, this is a soliloquy, not a remark directed at another character or the audience.",
+"id": "litx04000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because Chief Odion dey alone for stage dey talk im mind, na soliloquy be that. E no dey talk to another pesin or the audience."
+},
+{
+"q": "Which of these best defines 'farce' as a type of drama, distinguishing it from comedy of manners?",
+"options": [
+"A play exposing the polished wit and social affectation of the upper class",
+"A play relying on absurd coincidences, mistaken identities and knockabout physical action purely to provoke laughter",
+"A serious play with a happy resolution after near-tragic events",
+"A play in which a noble character falls due to a personal weakness"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Farce is built on exaggerated, improbable situations and physical comedy meant simply to entertain, unlike comedy of manners which satirises refined social behaviour.",
+"id": "litx04001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Farce dey rely on funny, unbelievable situations and physical comedy just to make pipu laugh. E different from comedy of manners wey dey yab high-class social behaviour."
+},
+{
+"q": "During a performance, the character Sade turns briefly from her conversation with her sister and whispers to the audience, 'She has no idea I already sold the land,' before continuing the conversation as if nothing happened. This device is called:",
+"options": [
+"Soliloquy",
+"Aside",
+"Flashback",
+"Catharsis"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An aside is a short remark made to the audience (or another character) that other characters on stage are assumed not to hear, exactly as Sade's whisper functions here.",
+"id": "litx04002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Aside na when pesin talk small secret to the audience or anoda pesin wey other pipu for stage no suppose hear. Na wetin Sade do be that."
+},
+{
+"q": "A dramatist writes a play in which a respected judge, convinced that his wealth makes him untouchable, bribes his way out of every scandal until a single case exposes him publicly, leading to his imprisonment and disgrace. Which element of tragedy is most clearly illustrated by the judge's downfall?",
+"options": [
+"Comic relief",
+"Hamartia arising from hubris",
+"Dramatic exposition",
+"Deus ex machina"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The judge's downfall results from his own flaw, an excessive belief in his untouchability, which is hamartia rooted in hubris, a classic tragic pattern.",
+"id": "litx04003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The judge fall because of im own pride and belief say nobody fit touch am. Na classic hamartia and hubris be that."
+},
+{
+"q": "Which statement correctly distinguishes classical tragedy from tragicomedy?",
+"options": [
+"Tragedy always ends in reconciliation while tragicomedy ends in death",
+"Tragedy centres on the downfall of a noble figure through his own flaw, while tragicomedy blends serious danger with elements that allow a non-fatal or balanced resolution",
+"Tragedy uses only comic characters while tragicomedy uses only serious ones",
+"Tragedy has no moral lesson while tragicomedy always teaches a lesson"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Classical tragedy ends in the hero's ruin or death caused by a personal flaw, whereas tragicomedy mixes grave, tragedy-like situations with comic or redemptive elements that avert total disaster.",
+"id": "litx04004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Tragedy dey end for hero ruin or death because of im own error, but tragicomedy dey mix serious danger with happy ending."
+},
+{
+"q": "In a play, a wealthy trader named Musa loses his business empire because he consistently refuses sound advice from his accountant, trusting only his own judgment even when figures clearly show looming bankruptcy. A student argues that Musa's stubborn self-reliance is his hamartia. Which additional evidence from the plot would most strongly support this claim?",
+"options": [
+"Musa's business fails due to a sudden fire caused by an electrical fault",
+"Musa ignores three separate warnings from people who later prove correct",
+"A rival trader sabotages Musa's warehouse out of jealousy",
+"The market experiences a general economic downturn affecting all traders"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Hamartia must arise from the character's own persistent flaw; repeatedly ignoring credible warnings shows the downfall stems from Musa's own judgment, not external accident or circumstance.",
+"id": "litx04005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Hamartia must come from the pesin own personal flaw. Musa wey ignore warning three times show say na im own stubbornness cause im downfall."
+},
+{
+"q": "A travelling drama troupe in Ibadan stages a play in which the central character suffers severe family betrayal and near financial ruin, yet through a sudden fortunate discovery, all conflicts are resolved and the play ends with laughter and feasting. Which dramatic type best fits this description?",
+"options": [
+"Pure tragedy",
+"Tragicomedy",
+"Comedy of manners",
+"Farce"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The play mixes serious, near-tragic suffering with an eventual happy, comic resolution, which is the defining feature of tragicomedy rather than pure tragedy or farce.",
+"id": "litx04006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As the play mix serious near-tragic suffer with happy ending, na tragicomedy be that, no be pure tragedy or farce."
+},
+{
+"q": "Which of the following best explains why catharsis is considered essential to Aristotle's concept of tragedy?",
+"options": [
+"It allows the audience to laugh at the hero's misfortune",
+"It provides comic relief that lightens the tragic mood",
+"It enables the audience to emotionally release pity and fear, leaving them purified rather than merely distressed",
+"It ensures the villain is punished at the end of the play"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Aristotle argued that tragedy's purpose is to arouse pity and fear in the audience and then purge these emotions, leaving a sense of relief rather than lingering distress, which is catharsis.",
+"id": "litx04007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Catharsis mean say as the audience dey watch tragedy, pity and fear go enter dem body, and at last dem mind go pure and relieve."
+}
+],
+"rejected": []
+}

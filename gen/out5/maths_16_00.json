@@ -1,0 +1,225 @@
+{
+"subject": "maths",
+"topic": "Circle geometry and circle theorems (describe figures fully in words)",
+"ti": 16,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In a circle with centre O, points A, B, C and D lie on the circumference such that ABCD is a cyclic quadrilateral. If angle A = (3x + 10) degrees and angle C = (2x + 20) degrees, find the value of x.",
+"options": [
+"30",
+"28",
+"32",
+"25"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Opposite angles of a cyclic quadrilateral are supplementary, so (3x+10) + (2x+20) = 180. This gives 5x + 30 = 180, so x = 30.",
+"py": "(180-30)/5",
+"values": [
+30,
+28,
+32,
+25
+],
+"id": "matx16000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Opposite angles for cyclic quadrilateral dey supplementary, so make we add (3x+10) and (2x+20) make dem equal 180. When you solve am, 5x + 30 = 180, and x go give you 30."
+},
+{
+"q": "O is the centre of a circle and AB is a chord. A radius OM is drawn perpendicular to AB, meeting AB at M. Which of the following statements about M must be true?",
+"options": [
+"M is the midpoint of the chord AB",
+"M divides AB in the ratio 2:1",
+"M lies outside the circle",
+"M is the midpoint of the minor arc only, not the chord"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A radius drawn perpendicular to a chord always bisects that chord. This is a standard circle theorem, so M must be the midpoint of AB.",
+"py": null,
+"values": null,
+"id": "matx16001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If radius draw perpundicular to chord, e must divide dat chord into two equal halves. Na normal circle theorem be dat, so M suppose be the midpoint of AB."
+},
+{
+"q": "In a circle with centre O, the minor arc AB subtends an angle of 84 degrees at the centre. A point C lies on the major arc. Find the angle ACB subtended by the same arc AB at the circumference.",
+"options": [
+"42°",
+"84°",
+"168°",
+"96°"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The angle at the centre is twice the angle at the circumference when both are subtended by the same arc. So angle ACB = 84/2 = 42 degrees.",
+"py": "84/2",
+"values": [
+42,
+84,
+168,
+96
+],
+"id": "matx16003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Angle wey dey centre big pass the one for circumference by two times when dem stand on the same arc. So, angle ACB na 84 divide by 2, wey give us 42 degrees."
+},
+{
+"q": "A circle passes through points X, Y and Z such that XY is a diameter of the circle. If angle XZY is measured, what is its value?",
+"options": [
+"90°",
+"180°",
+"60°",
+"45°"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Any angle subtended at the circumference by a diameter is always a right angle, by the angle in a semicircle theorem. So angle XZY = 90 degrees.",
+"py": null,
+"values": null,
+"id": "matx16004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Any angle wey diameter make for the circumference na straight 90 degrees, sake of say na angle inside semicircle. So angle XZY na 90 degrees."
+},
+{
+"q": "Two circles touch each other externally at a single point T. The centres of the circles are P and Q, with radii 9 cm and 5 cm respectively. Find the distance PQ between the two centres.",
+"options": [
+"14 cm",
+"4 cm",
+"45 cm",
+"9.5 cm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "When two circles touch externally, the distance between their centres equals the sum of their radii. So PQ = 9 + 5 = 14 cm.",
+"py": "9+5",
+"values": [
+14,
+4,
+45,
+9.5
+],
+"id": "matx16005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If two circles touch outside each other, the distance between dia centres na to add their radii together. So PQ = 9 + 5, wey give us 14 cm."
+},
+{
+"q": "In a circle with centre O, a tangent line touches the circle at point K. A chord KL is drawn from K such that angle between the tangent and the chord KL is 55 degrees. M is a point on the major arc, on the side of KL away from the tangent-chord angle. Find angle KML subtended by the chord KL at point M.",
+"options": [
+"55°",
+"110°",
+"125°",
+"35°"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "By the tangent-chord angle theorem, the angle between a tangent and a chord equals the angle subtended by that chord in the alternate segment. So angle KML = 55 degrees.",
+"py": null,
+"values": null,
+"id": "matx16006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "By the tangent-chord theorem, the angle between tangent and chord dey equal the angle for the alternate segment. So angle KML na 55 degrees."
+},
+{
+"q": "A circle has a chord of length 2x. A perpendicular is drawn from the centre O to this chord, dividing it into two equal parts, and the radius of the circle is 13 cm. If the perpendicular distance from the centre to the chord is 5 cm, find the full length of the chord, 2x.",
+"options": [
+"24 cm",
+"18 cm",
+"26 cm",
+"12 cm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using Pythagoras, half the chord satisfies x^2 + 5^2 = 13^2, so x^2 = 169 - 25 = 144, giving x = 12. The full chord length is 2x = 24 cm.",
+"py": "2*math.sqrt(13**2 - 5**2)",
+"values": [
+24,
+18,
+26,
+12
+],
+"id": "matx16007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Use Pythagoras theorem, x^2 + 5^2 = 13^2, so x^2 = 144 which means x = 12. Since the full chord na 2x, e go give us 24 cm."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A circle has two chords, PQ and RS, which intersect outside the circle at a point T when extended, such that T, P, Q lie on a straight line and T, R, S lie on another straight line (TP < TQ and TR < TS). If TP = 4 cm, TQ = 9 cm and TR = 6 cm, find the length of TS.",
+"options": [
+"6 cm",
+"8 cm",
+"10 cm",
+"12 cm"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For two secants from an external point, TP x TQ = TR x TS. So 4 x 9 = 6 x TS, giving 36 = 6 x TS, so TS = 6 cm.",
+"py": "(4*9)/6",
+"values": [
+6,
+8,
+10,
+12
+],
+"id": "matx16002",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

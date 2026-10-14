@@ -1,0 +1,220 @@
+{
+"subject": "chemistry",
+"topic": "Acids, bases and salts, pH",
+"ti": 6,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following statements correctly describes the Bronsted-Lowry theory of acids and bases?",
+"options": [
+"An acid is a proton donor and a base is a proton acceptor",
+"An acid is a substance that contains hydrogen and a base is a substance that contains hydroxide ions",
+"An acid is an electron pair acceptor and a base is an electron pair donor",
+"An acid turns blue litmus red while a base turns red litmus blue"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Bronsted-Lowry theory defines an acid as a species that donates a proton (H+) and a base as a species that accepts a proton. The electron pair definition belongs to the Lewis theory, not Bronsted-Lowry.",
+"py": null,
+"values": null,
+"id": "chex06010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "According to Bronsted-Lowry theory, acid na proton donor while base na proton acceptor. Na Lewis theory talk about electron pair, no be Bronsted-Lowry."
+},
+{
+"q": "A solution has a hydrogen ion concentration of 1.0 x 10^-3 mol/dm3. What is the pOH of this solution at 25°C? (Kw = 1.0 x 10^-14 mol2/dm6)",
+"options": [
+"3",
+"7",
+"11",
+"14"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "pH = -log(1.0 x 10^-3) = 3. Since pH + pOH = 14 at 25°C, pOH = 14 - 3 = 11.",
+"py": "14 - (-math.log10(1.0e-3))",
+"values": [
+3,
+7,
+11,
+14
+],
+"id": "chex06011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "First find pH by doing -log(1.0 x 10^-3) wey give 3. Since pH plus pOH must be 14 at 25°C, you go minus 3 from 14 to get pOH of 11."
+},
+{
+"q": "20.0 cm3 of a solution of trioxonitrate(V) acid, HNO3, was exactly neutralized by 15.0 cm3 of 0.25 mol/dm3 sodium hydroxide solution. Calculate the concentration of the acid used.",
+"options": [
+"0.1875 mol/dm3",
+"0.2500 mol/dm3",
+"0.3000 mol/dm3",
+"0.3750 mol/dm3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "HNO3 + NaOH react in a 1:1 ratio. Moles of NaOH = 0.015 dm3 x 0.25 mol/dm3 = 0.00375 mol, which equals moles of acid. Concentration of acid = 0.00375 mol / 0.020 dm3 = 0.1875 mol/dm3.",
+"py": "(0.015*0.25)/0.020",
+"values": [
+0.1875,
+0.25,
+0.3,
+0.375
+],
+"id": "chex06013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "HNO3 and NaOH dey react 1:1. When you calculate mole of NaOH, you get 0.00375 mol wey still equal the acid mole, and when you divide am by 0.020 dm3, concentration go be 0.1875 mol/dm3."
+},
+{
+"q": "In a titration experiment, Chidinma used phenolphthalein indicator while titrating a solution of ammonia (a weak base) against hydrochloric acid (a strong acid). At the equivalence point, the pH of the resulting solution is expected to be:",
+"options": [
+"Exactly 7, since equal moles of acid and base react",
+"Greater than 7, because excess ammonia remains",
+"Less than 7, because the salt formed undergoes cationic hydrolysis",
+"Greater than 7, because chloride ions hydrolyse in water"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "At the equivalence point of a weak base and strong acid titration, the salt formed is ammonium chloride. The ammonium ion is a weak acid that hydrolyses in water to release H+ ions, making the solution slightly acidic with pH less than 7.",
+"py": null,
+"values": null,
+"id": "chex06015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When strong acid and weak base titration finish, salt wey form dey undergo cationic hydrolysis. Dis one go make H+ ions surplus for water, so pH go drop below 7."
+},
+{
+"q": "25.0 cm3 of 0.40 mol/dm3 tetraoxosulphate(VI) acid, H2SO4, is mixed with 25.0 cm3 of 0.80 mol/dm3 potassium hydroxide solution. What is the concentration of excess KOH remaining in the final mixture, assuming volumes are additive?",
+"options": [
+"0.00 mol/dm3",
+"0.10 mol/dm3",
+"0.20 mol/dm3",
+"0.40 mol/dm3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "H2SO4 + 2KOH -> K2SO4 + 2H2O. Moles of acid = 0.025 x 0.40 = 0.010 mol, which needs 0.020 mol KOH to react completely. Moles of KOH available = 0.025 x 0.80 = 0.020 mol, exactly enough, so no excess KOH remains.",
+"py": "max(0, (0.025*0.80 - 2*0.025*0.40)/0.050)",
+"values": [
+0.0,
+0.1,
+0.2,
+0.4
+],
+"id": "chex06016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "From the balanced equation, 0.010 mol of H2SO4 need 0.020 mol of KOH to react finish. Since the 0.020 mol of KOH wey you carry join body match am patapata, no excess KOH go remain."
+},
+{
+"q": "Which of the following pH values best represents a solution that is weakly alkaline, such as a dilute solution of sodium trioxocarbonate(IV) used in some antacid preparations?",
+"options": [
+"2",
+"5",
+"8",
+"13"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A weakly alkaline solution has a pH slightly above 7 but not strongly basic. A pH of 8 fits this description, while 2 and 5 are acidic, and 13 represents a strongly alkaline solution.",
+"py": null,
+"values": [
+2,
+5,
+8,
+13
+],
+"id": "chex06017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Weakly alkaline solution suppose get pH wey dey slightly pass 7. Na pH of 8 correct for dis matter, because 2 and 5 na acid, and 13 strong pass."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which pair of ions, when present together in a salt solution, is expected to make the solution almost neutral because both the cation and anion come from strong acid and strong base respectively?",
+"options": [
+"Na+ and Cl-",
+"NH4+ and Cl-",
+"Na+ and CH3COO-",
+"NH4+ and CH3COO-"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Sodium ion comes from the strong base NaOH and chloride ion comes from the strong acid HCl, so neither ion hydrolyses and the solution of NaCl is neutral. The other pairs involve a weak acid or weak base component that causes hydrolysis.",
+"py": null,
+"values": null,
+"id": "chex06012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Acid/base origins of the ions are reversed in the question.|"
+},
+{
+"q": {
+"q": "A certain basic oxide reacts with dilute hydrochloric acid to form a salt and water, but it does not react with sodium hydroxide solution. This oxide is best classified as:",
+"options": [
+"An amphoteric oxide",
+"A basic oxide",
+"A neutral oxide",
+"An acidic oxide"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A basic oxide reacts only with acids to form a salt and water but does not react with alkalis. This behaviour distinguishes it from an amphoteric oxide, which reacts with both acids and bases.",
+"py": null,
+"values": null,
+"id": "chex06014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:The question already calls the oxide basic."
+}
+]
+}

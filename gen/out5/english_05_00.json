@@ -1,0 +1,196 @@
+{
+"subject": "english",
+"topic": "Prepositions and phrasal verbs",
+"ti": 5,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best completes the gap. Despite several warnings from the coach, the young footballer continued to show ___ before the match, doing unnecessary tricks with the ball.",
+"options": [
+"off",
+"up",
+"out",
+"in"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Show off means to display one's abilities in a boastful manner, which matches the footballer doing unnecessary tricks. Show up means to arrive, show out has no such idiomatic meaning here, and show in is not a recognised phrasal verb.",
+"py": null,
+"values": null,
+"id": "engx05001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Show off mean say person dey show-case im strength to pepper people, wey con match wetin the footballer dey do with ball. Na correct grammar be that."
+},
+{
+"q": "Choose the option that best completes the gap. The committee members arrived at the venue ___ different times, yet the meeting still started promptly at ten o'clock.",
+"options": [
+"at",
+"on",
+"in",
+"by"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The preposition at is used with specific points in time, such as ten o'clock, and also fits naturally with the phrase different times referring to varying clock moments. On is used for days and dates, while in is used for longer periods like months or years.",
+"py": null,
+"values": null,
+"id": "engx05002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "We dey use the preposition at when we dey talk about specific time like different times. Other ones like on and in no fit join am for this place."
+},
+{
+"q": "Choose the option that best completes the gap. Having studied law for six years, Barrister Okonkwo is well versed ___ constitutional matters and often advises government agencies.",
+"options": [
+"in",
+"with",
+"on",
+"at"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The correct expression is versed in, meaning knowledgeable or skilled in a subject. The other prepositions do not collocate correctly with versed in standard English usage.",
+"py": null,
+"values": null,
+"id": "engx05003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na standard English to talk say person be 'versed in' any subject. The remaining prepositions no dey follow versed well for grammar."
+},
+{
+"q": "Read the passage and answer the question that follows.\nDuring the long rainy season, Mr Bello's farm was flooded, and he had to call ___ his neighbours for help to move his yams to higher ground before they rotted. His neighbours, being generous people, did not hesitate to assist him, and by evening the yams were safely stored in his barn.\nChoose the option that best completes the gap in the passage.",
+"options": [
+"on",
+"for",
+"at",
+"with"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Call on someone means to visit or appeal to them for assistance, which fits Mr Bello appealing to his neighbours for help. Call for means to require or demand something, which does not fit a person being asked directly. The other options do not form correct phrasal verb combinations with call in this sense.",
+"py": null,
+"values": null,
+"id": "engx05004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To call on person mean say you go meet them make dem help you. Na im make Mr Bello call on im neighbours for help."
+},
+{
+"q": "Choose the option that best completes the gap. The students were warned not to ___ their differences before the examination hall, as fighting would lead to immediate suspension.",
+"options": [
+"fall out over",
+"fall back on",
+"fall through with",
+"fall off from"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Fall out over means to quarrel about something, which matches students fighting over their differences. Fall back on means to rely on something as a last resort, and fall through means to fail to happen, so neither fits the context of quarrelling before an exam.",
+"py": null,
+"values": null,
+"id": "engx05005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Fall out over mean say people dey fight or quarrel because of something. Naim be say students no suppose fall out over their differences."
+},
+{
+"q": "Choose the option that best completes the gap. The market woman insisted that she would not sell the wrapper for less than one thousand naira, ___ how much the customer bargained.",
+"options": [
+"no matter",
+"regardless to",
+"irrespective to",
+"despite of"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "No matter how much is the correct idiomatic expression showing that the bargaining would not change her price. Regardless and irrespective should be followed by of, not to, and despite of is grammatically incorrect since despite does not take of.",
+"py": null,
+"values": null,
+"id": "engx05006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "No matter how much na the correct way to talk am. Grammar no allow regardless to or despite of for this kind sentence."
+},
+{
+"q": "Choose the option that best completes the gap. The electrician warned the tenants that the faulty wiring could ___ a fire if it was not fixed immediately.",
+"options": [
+"result in",
+"result of",
+"result with",
+"result for"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Result in is the correct phrasal combination meaning to cause or lead to an outcome, here a fire. The other prepositions, of, with, and for, do not form standard collocations with result when describing a consequence.",
+"py": null,
+"values": null,
+"id": "engx05007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Result in mean say something go cause another thing to happen, like fire. Na only result in correct for this grammar."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap. The new intern was asked to look ___ the filing system before the manager returned from her trip.",
+"options": [
+"into",
+"after",
+"up",
+"over"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Look into means to investigate or examine something closely. The filing system needed to be examined, so this phrasal verb fits best. Look after means to take care of, and look up means to search for information, which do not fit the context.",
+"py": null,
+"values": null,
+"id": "engx05000",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:D"
+}
+]
+}

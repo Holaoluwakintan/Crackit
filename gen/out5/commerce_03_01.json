@@ -1,0 +1,202 @@
+{
+"subject": "commerce",
+"topic": "Foreign trade: procedures, documents and balance of payments",
+"ti": 3,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which pair of institutions are most directly involved in verifying and clearing imported goods for an importer at a Nigerian seaport before the goods are released?",
+"options": [
+"Nigeria Customs Service and clearing agents",
+"Central Bank of Nigeria and the exporter",
+"Nigerian Export Promotion Council and the shipper",
+"Nigerian Ports Authority and the manufacturer"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Nigeria Customs Service assesses duties and inspects goods, while licensed clearing agents handle documentation and physically clear the goods on behalf of importers. The other pairs do not perform the actual clearing function.",
+"py": null,
+"values": null,
+"id": "comx03011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na Nigeria Customs Service dey check goods and calculate duty, while clearing agents dey help arrange di paperwork and carry di goods comot for port. Na dis two people dey work together well well for seaport."
+},
+{
+"q": "A manufacturer in Aba wants to find out whether there is demand for his furniture in Ghana before committing to export. The most appropriate first step in the foreign trade procedure is to",
+"options": [
+"sign a bill of exchange with a Ghanaian bank",
+"conduct a market survey through trade missions or embassies",
+"obtain a bill of lading from a shipping line",
+"apply for a letter of credit immediately"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Before any shipping or payment documents are needed, an exporter must first find out if a market exists abroad, usually through trade missions, embassies or export promotion agencies. The other options are later steps that follow after a market has been identified.",
+"py": null,
+"values": null,
+"id": "comx03012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Before you go send any market go another country, you must first find out whether people there want am through embassy or trade mission. Na after you don see market then you fit start to talk about shipping."
+},
+{
+"q": "A country's balance of payments records a deficit on current account but a surplus on capital account large enough to offset it. This situation best illustrates that",
+"options": [
+"the overall balance of payments must always be in deficit",
+"the country has stopped all visible trade",
+"a deficit in one section can be balanced by a surplus in another section",
+"the balance of trade and balance of payments mean the same thing"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The balance of payments is made up of several accounts (current, capital, financial) and a shortfall in one can be covered by a surplus in another, keeping the overall balance in equilibrium. This shows why the accounts are split into sections rather than treated as one single figure.",
+"py": null,
+"values": null,
+"id": "comx03013",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Balance of payments get different accounts like current and capital account. If one side get shortage, another side surplus fit cover am make everything balance."
+},
+{
+"q": "Which of the following best describes the role of a freight forwarder in foreign trade procedure?",
+"options": [
+"Lending foreign currency to importers",
+"Arranging transportation and documentation for goods on behalf of exporters or importers",
+"Fixing the exchange rate between the naira and foreign currencies",
+"Issuing import licences to traders"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A freight forwarder organises the movement of goods, including booking shipping space and preparing shipping documents, acting as an agent for the trader. Lending money, fixing exchange rates and issuing licences are not functions of a freight forwarder.",
+"py": null,
+"values": null,
+"id": "comx03014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Freight forwarder na di person wey dey arrange transport and all di document wey goods need for export or import. Dem no dey give loan or fix exchange rate."
+},
+{
+"q": "A Nigerian trading company received a document from its overseas supplier showing the quantity, price and description of goods already dispatched, which it will use to check against the goods received and to process payment. This document is called a",
+"options": [
+"pro-forma invoice",
+"commercial invoice",
+"certificate of origin",
+"indent"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A commercial invoice is sent after goods have been dispatched and gives full details of quantity, price and description, serving as a demand for payment and a basis for checking goods received. A pro-forma invoice is only a quotation sent before the order is confirmed.",
+"py": null,
+"values": null,
+"id": "comx03015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Commercial invoice na di paper wey supplier go send after dem don send di goods, showing price and quantity wey person go use pay. Pro-forma invoice na just quotation before order happen."
+},
+{
+"q": "A country recorded the following for one year: visible exports ₦620 million, visible imports ₦580 million, invisible exports ₦90 million and invisible imports ₦150 million. What is the balance on current account?",
+"options": [
+"₦40 million surplus",
+"₦60 million surplus",
+"₦20 million deficit",
+"₦40 million deficit"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Balance of trade = 620 - 580 = 40 million surplus. Invisible balance = 90 - 150 = -60 million. Current account balance = 40 + (-60) = -20 million, which is a 20 million deficit.",
+"py": "(620-580) + (90-150)",
+"values": [
+40,
+60,
+-20,
+-40
+],
+"id": "comx03016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Visible trade balance na 620 minus 580 wey be 40 million surplus, while invisible trade balance na 90 minus 150 wey be 60 million deficit. When you add dem together, you go get 20 million deficit for current account."
+},
+{
+"q": "In foreign trade documentation, the main purpose of a certificate of insurance accompanying an export consignment is to",
+"options": [
+"confirm that the goods have been inspected by customs",
+"show the country where the goods were manufactured",
+"provide evidence that the goods are covered against loss or damage in transit",
+"authorise the shipping line to load the goods on board"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A certificate of insurance shows that the goods being shipped are covered against risks such as damage, loss or theft while in transit, giving the buyer assurance of compensation if something goes wrong. It has nothing to do with customs inspection, origin or loading authorisation.",
+"py": null,
+"values": null,
+"id": "comx03017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Certificate of insurance na evidence say if anything happen to di goods like loss or damage for road or sea, dem go pay you back. E no concern customs inspection at all."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In foreign trade procedure, the document issued by a shipping company to an exporter which gives the right to load goods on board a named vessel at a stated time is called a",
+"options": [
+"bill of lading",
+"shipping note",
+"mate's receipt",
+"certificate of shipment"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A shipping note is given by the shipping line to the exporter authorising the goods to be received for loading on a specified vessel. The bill of lading is issued after loading as evidence of the contract of carriage, not before.",
+"py": null,
+"values": null,
+"id": "comx03010",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

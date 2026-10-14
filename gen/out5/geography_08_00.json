@@ -1,0 +1,196 @@
+{
+"subject": "geography",
+"topic": "Landforms of running water",
+"ti": 8,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A river valley in its youthful stage is best described as having which of the following cross-sectional shapes?",
+"options": [
+"A wide, flat-bottomed valley with gently sloping sides",
+"A steep-sided, narrow, V-shaped valley with no floodplain",
+"A broad U-shaped valley with a flat floor",
+"A shallow, saucer-shaped depression with gentle sides"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In the youthful stage, vertical (downward) erosion dominates over lateral erosion, producing a narrow, steep-sided V-shaped valley. Floodplains and wide valleys only develop later in the river's course.",
+"py": null,
+"values": null,
+"id": "geox08000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For the beginning stage of river, water dey cut down ground pass side-side, naim dey make the valley narrow and look like letter V. Na later life of river wide plain and flat valley dey show."
+},
+{
+"q": "Potholes found on the rocky bed of a river in its upper course are mainly formed by which process?",
+"options": [
+"Chemical solution of limestone by river water",
+"Grinding and drilling action of pebbles swirled round by eddying water",
+"Deposition of sand and gravel in hollows",
+"Freeze-thaw weathering of the river bank"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Potholes form when pebbles and stones trapped in small depressions are spun round by turbulent, eddying water, drilling and grinding the depression deeper. This is an abrasive (corrasion) process, not solution or deposition.",
+"py": null,
+"values": null,
+"id": "geox08001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Pothole dey form when small stones and water dey spin round inside hole, dey grind and bore the rock deep down. Na abrasion process be this, no be say chemical solution or deposition cause am."
+},
+{
+"q": "A river approaching the sea splits into several diverging channels, each dropping its load of silt and sand to build a low, fan-shaped landform at its mouth. This landform is called a",
+"options": [
+"levee",
+"delta",
+"waterfall",
+"gorge"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A delta is the fan-shaped deposit of sediment formed where a sediment-laden river splits into distributary channels as it enters a sea or lake with weak currents. Levees, waterfalls and gorges are different landforms found elsewhere along a river's course.",
+"py": null,
+"values": null,
+"id": "geox08002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Delta na the fan-shaped sand deposit wey river dey leave for mouth as e enter sea. Levee, waterfall and gorge na different things wey dey happen for other place for river body."
+},
+{
+"q": "An oxbow lake is formed through which sequence of events?",
+"options": [
+"A waterfall retreats upstream leaving a plunge pool behind",
+"A meander neck is cut through by the river, and the abandoned loop is sealed off by deposition",
+"A river terrace is left standing above the new floodplain level",
+"A delta channel is blocked by sandbars and silt builds up across it"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "An oxbow lake results when the narrow neck of a very tight meander is finally breached, so the river takes the shorter straight path. Deposition at the entrances then seals off the abandoned loop, leaving a crescent-shaped lake.",
+"py": null,
+"values": null,
+"id": "geox08003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Oxbow lake dey happen when river cut short path through tight bend, con leave the old loop make sand block am. Na im make water stay for there as crescent lake."
+},
+{
+"q": "A certain river shows the following features along its length: steep gradient and interlocking spurs near its source, a wide floodplain with meanders in its middle section, and a delta where it meets the sea. This description illustrates the concept of",
+"options": [
+"river rejuvenation",
+"the long profile and the stages of a river's course",
+"a river's drainage density",
+"the hydrological cycle"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The changing features from source to mouth (youthful, mature and old stages) describe the river's long profile and the characteristic landforms of each stage. Rejuvenation refers to renewed erosion from uplift or sea-level fall, which is not described here.",
+"py": null,
+"values": null,
+"id": "geox08004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "How river change features from where e start reach where e end dey explain the long profile and stages of river. Rejuvenation mean say river dey start to cut ground afresh because land rise or sea level fall."
+},
+{
+"q": "Two rivers with headwaters close together on opposite sides of a ridge both erode backwards (headward erosion). Eventually the more powerful river's headwater cuts through the ridge and diverts the flow of the weaker river into its own channel. This process is known as",
+"options": [
+"river capture",
+"braiding",
+"a waterfall retreat",
+"a flood plain extension"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "River capture (river piracy) occurs when a more actively eroding river extends its valley headward through a watershed and diverts the headwaters of a neighbouring, less powerful river into its own system. Braiding and waterfall retreat describe unrelated river processes.",
+"py": null,
+"values": null,
+"id": "geox08005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "River capture dey happen when strong river cut pass ridge to steal water from another weak river. Braiding and waterfall retreat no be the same thing at all."
+},
+{
+"q": "A river channel divides into several shallow, interweaving channels separated by small islands of sand and gravel, typically because the river is carrying more sediment than it can transport in a single channel. This pattern of channel is called",
+"options": [
+"a braided channel",
+"a meandering channel",
+"a gorge",
+"an estuary"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Braiding occurs when a river, overloaded with coarse sediment and having variable discharge, deposits material within its channel, splitting the flow into multiple interweaving shallow channels around small islands (bars). Meanders are single winding channels, while gorges and estuaries are different features.",
+"py": null,
+"values": null,
+"id": "geox08006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Braided channel dey happen when river carry sand pass wetin e fit push, con scatter water into plenty small-small weaving paths. Meander na just one winding channel, while gorge and estuary different."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A map shows a river valley where the valley sides are gentle and the floodplain is about 4.5 km wide, with the river forming wide, sweeping bends across the plain. Based on these features, this section of the river is best classified as being in its",
+"options": [
+"youthful (upper) stage",
+"mature (middle) stage",
+"old age (lower) stage before reaching a delta",
+"estuarine stage only, with tidal influence"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A fairly wide floodplain with gentle valley sides and sweeping meanders, without yet reaching the very low gradient and extreme widening typical of the lower stage near the coast, is characteristic of the mature middle stage where lateral erosion dominates. The youthful stage has narrow V-shaped valleys, while true old age/estuarine stages show much wider, flatter plains near the sea.",
+"py": null,
+"values": null,
+"id": "geox08007",
+"check": {
+"s1": "B",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:C"
+}
+]
+}

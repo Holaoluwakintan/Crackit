@@ -1,0 +1,190 @@
+{
+"subject": "crs",
+"topic": "Divine providence, guidance and protection (Exodus and the wilderness)",
+"ti": 4,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Jethro, the father-in-law of Moses, visited the Israelites in the wilderness and observed Moses judging the people's disputes alone from morning till evening. What advice did Jethro give Moses that became an important lesson in delegation and administration?",
+"options": [
+"Moses should appoint capable men to judge small matters while he handled only the difficult cases",
+"Moses should abandon the practice of judging disputes entirely and let the elders decide alone",
+"Moses should call a general assembly of the people to vote on every dispute brought to him",
+"Moses should return all disputes to Pharaoh's officials who had handled such cases in Egypt"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Jethro advised Moses to select able, God-fearing men to serve as judges over smaller matters, reserving only the hardest cases for himself. This relieved Moses of an unbearable burden and taught the value of delegating responsibility.",
+"py": null,
+"values": null,
+"id": "crsx04010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Jethro tell Moses make e choose men wey fear God to help am judge small-small matter. Na so Moses take reduce im work and learn how to share responsibility."
+},
+{
+"q": "At Mount Sinai, before giving the Ten Commandments, God instructed Moses to prepare the people through a process of consecration. Which of the following was part of this preparation commanded by God?",
+"options": [
+"The people were to wash their clothes and abstain from sexual relations for a set period",
+"The people were to fast completely from food and water for seven days",
+"The people were to build an altar of gold at the foot of the mountain",
+"The people were to shave their heads as a sign of mourning before the covenant"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "God told Moses to sanctify the people by having them wash their garments and remain pure, preparing them to meet Him on the third day. This showed that approaching God's presence required holiness and readiness.",
+"py": null,
+"values": null,
+"id": "crsx04011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "God tell Moses make the people wash their cloth and stay holy before dem meet am. This one show say person must dey clean before e fit stand for God presence."
+},
+{
+"q": "While Moses was on Mount Sinai receiving instructions from God, the Israelites below grew impatient and persuaded Aaron to make them a god they could see. What object did Aaron fashion for the people, and what consequence followed when Moses came down?",
+"options": [
+"Aaron made a golden calf, and Moses broke the tablets of the law in anger before dealing with the people",
+"Aaron made a silver lamp, and Moses immediately crowned a new leader in his place",
+"Aaron made a bronze serpent, and Moses commanded that it be kept in the tabernacle",
+"Aaron made a wooden ark, and Moses ordered the people to carry it round the camp seven times"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Aaron cast a golden calf from the people's earrings, and when Moses saw the idolatry, he broke the tablets written by God before confronting the people. This event shows how quickly the people turned from God despite His recent deliverance.",
+"py": null,
+"values": null,
+"id": "crsx04012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Aaron make golden calf for the people, and when Moses see wetin dem do, e break the stone tablets. This show say the people quick forget God after all the good things wey E do for dem."
+},
+{
+"q": "God instructed Moses to build a portable sanctuary so that He might dwell among the Israelites during their wilderness journey. What was this sanctuary called, and what was its main purpose?",
+"options": [
+"The tabernacle, a movable tent where God's presence met with Israel and sacrifices were offered",
+"The synagogue, a permanent stone building for teaching the law to children",
+"The temple, a fixed structure built later by Solomon for national worship",
+"The citadel, a fortress built to protect the Israelites from Amalekite attacks"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The tabernacle was a portable tent of meeting constructed according to God's pattern, serving as the dwelling place of His presence among the people as they travelled. It also housed the ark and was the centre for offering sacrifices.",
+"py": null,
+"values": null,
+"id": "crsx04013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The tabernacle na the tent wey God tell Moses make e build so that He go fit stay with the people. Na there dem dey keep the ark and offer sacrifice to God."
+},
+{
+"q": "Immediately after crossing the Red Sea in safety while the Egyptian army was drowned, Moses and the Israelites responded to God's deliverance. What did they do to express their gratitude for this protection?",
+"options": [
+"Moses and the people sang a song of praise to God, and Miriam led the women in dance with timbrels",
+"Moses ordered the immediate construction of a golden altar in thanksgiving before moving on",
+"Moses sent a delegation back to Pharaoh to negotiate peace between the two nations",
+"The people demanded that Aaron be made king over them as a reward for the victory"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "After witnessing God's deliverance at the Red Sea, Moses and the Israelites broke into a song celebrating God's victory, and Miriam the prophetess led the women in dancing with timbrels. This was a direct, joyful response of worship to divine protection.",
+"py": null,
+"values": null,
+"id": "crsx04015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "After God save them for Red Sea, Moses and the people sing song of praise. Miriam come lead the women make dem dance with timbrel to thank God."
+},
+{
+"q": "A Sunday school teacher compares two instances of Israel lacking water in the wilderness, at Rephidim early in the journey and at Kadesh much later, to teach a lesson on obedience. What was the key difference in God's instruction to Moses on how to bring forth water on these two separate occasions?",
+"options": [
+"At Rephidim Moses was told to strike the rock, but at Kadesh he was told only to speak to the rock",
+"At Rephidim Moses was told to speak to the rock, but at Kadesh he was told to strike it twice",
+"Both times Moses was told to strike the rock in exactly the same way without any difference",
+"At Rephidim the people were given water from a well dug by the elders, not from a rock at all"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "At Rephidim God told Moses to strike the rock with his rod, but years later at Kadesh God commanded him only to speak to the rock. Moses disobeyed by striking it instead, which led to his being barred from entering the promised land.",
+"py": null,
+"values": null,
+"id": "crsx04016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For Rephidim, God tell Moses make e strike the rock, but for Kadesh, e tell am make e just talk to the rock. Moses come strike the rock instead, and that one make God vex for am."
+},
+{
+"q": "While encamped near the Amalekites' territory, the Israelites faced an unexpected attack on their journey. Joshua was appointed to lead the fighting men into battle. What was the eventual outcome of this encounter, and how was it commemorated?",
+"options": [
+"Israel defeated the Amalekites, and Moses built an altar calling it 'The LORD is my banner'",
+"Israel was defeated by the Amalekites, and Moses fasted for forty days in mourning",
+"The two nations signed a peace treaty, and Moses erected twelve stones as witnesses",
+"Israel fled from the battle entirely, and God sent fire to destroy the Amalekite camp instead"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Joshua led Israel to victory over the Amalekites while Moses' raised hands, supported by Aaron and Hur, ensured success. In remembrance of God's help, Moses built an altar and named it Jehovah-nissi, meaning 'The LORD is my banner'.",
+"py": null,
+"values": null,
+"id": "crsx04017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Joshua lead Israel win the Amalekites while Moses lift im hand up. To remember how God help them, Moses build altar and call am Jehovah-nissi, wey mean say God na our banner."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A pastor teaching on divine guidance tells his congregation that God's protection of Israel in the wilderness was not a one-time act but a continuous, patient process despite the people's repeated unbelief. Which of these best illustrates this continuous providence over a long period?",
+"options": [
+"Throughout forty years of wandering, their clothes and sandals did not wear out and God still provided for their needs",
+"God destroyed the whole nation after the golden calf incident and started afresh with Aaron's family",
+"God allowed the Israelites to return permanently to Egypt after the first year of difficulty",
+"God gave the Israelites a single large harvest that lasted for their entire journey without further provision",
+"the Israelites needed no divine help after crossing the Red Sea since they had learnt self-reliance"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Despite the people's constant murmuring and unbelief, God sustained them for forty years, and their clothing and footwear did not wear out, showing continuous, patient providence. This long-term care illustrates that God's guidance is not a single event but a sustained relationship.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+}
+]
+}

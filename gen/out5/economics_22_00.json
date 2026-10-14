@@ -1,0 +1,200 @@
+{
+"subject": "economics",
+"topic": "Distributive trade, middlemen and commodity marketing",
+"ti": 22,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Distributive trade refers to the activities involved in moving goods from the point of production to the:",
+"options": [
+"Point of final consumption",
+"Point of storage only",
+"Point of raw material extraction",
+"Port of export only"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Distributive trade covers all activities, such as transport, storage and selling, that take goods from producers to final consumers. Storage and extraction are only parts of this chain, not the whole process.",
+"py": null,
+"values": null,
+"id": "ecox22000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Distributive trade na all di work wey dem dey do to carry goods from where dem produce am reach di final person wey go use am. Dis one include transport, storage, and selling."
+},
+{
+"q": "A middleman in commodity marketing is best described as a person who:",
+"options": [
+"Manufactures goods for export only",
+"Links producers and consumers by buying and reselling goods",
+"Fixes government prices for farm produce",
+"Regulates the quality standard of exported goods"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Middlemen are intermediaries who buy from producers and sell to consumers or other middlemen, bridging the gap between the two groups. They do not manufacture goods or fix government prices.",
+"py": null,
+"values": null,
+"id": "ecox22001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Middleman na person wey stand between di person wey produce goods and di person wey go buy am. Dem dey buy and resell to make di work easy for everybody."
+},
+{
+"q": "Chidinma buys bags of garri directly from farmers in Nnewi and sells them in large quantities to retailers in Onitsha market. Chidinma is best classified as a:",
+"options": [
+"Retailer",
+"Wholesaler",
+"Commission agent",
+"Broker"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A wholesaler buys in bulk from producers and sells in fairly large quantities to retailers rather than directly to final consumers. She does not sell in small units to the final consumer like a retailer, nor merely negotiate deals without owning goods like a broker.",
+"py": null,
+"values": null,
+"id": "ecox22002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Wholesaler na person wey dey buy plenty goods from farmer and come sell am for big quantity to retailers. Because Chidinma dey buy plenty and sell to retailers, she be wholesaler."
+},
+{
+"q": "One major advantage of using middlemen in the marketing of farm produce such as tomatoes and pepper in Nigeria is that they:",
+"options": [
+"Always reduce the final price paid by consumers",
+"Eliminate the need for transportation of goods",
+"Help in bulk-breaking and distributing goods to scattered consumers",
+"Guarantee that farmers receive the highest possible profit"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Middlemen break bulk purchases into smaller units and distribute them to widely scattered consumers, which producers alone often cannot do efficiently. They do not automatically lower prices or guarantee farmers maximum profit; in fact they add a margin that can raise consumer prices.",
+"py": null,
+"values": null,
+"id": "ecox22003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Middlemen dey help break big bulk into small-small units so that e go reach people wey dey scattered everywhere. Na true say dem dey help distribute goods well-well."
+},
+{
+"q": "A key difference between a broker and a commission agent in commodity marketing is that the broker:",
+"options": [
+"Takes physical possession of the goods being traded",
+"Does not take possession of goods but only negotiates sales between buyer and seller",
+"Buys goods outright and resells at a personal profit",
+"Is always a government-appointed official"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A broker merely brings buyers and sellers together and negotiates terms without ever owning or holding the goods. A commission agent, however, usually takes possession of goods on behalf of the owner before selling them.",
+"py": null,
+"values": null,
+"id": "ecox22004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Broker no dey touch or keep di goods at all, e just dey help buyer and seller agree on price. Commission agent own different because e fit hold di goods for di owner before e sell am."
+},
+{
+"q": "Which of the following is a major problem associated with the activities of middlemen in the distribution of agricultural produce in Nigeria?",
+"options": [
+"They reduce the number of market days available to farmers",
+"They increase the final price of goods to consumers through multiple profit margins",
+"They prevent goods from reaching urban markets entirely",
+"They are legally barred from operating in rural markets"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Because goods often pass through several middlemen before reaching the final consumer, each one adds a profit margin, which raises the final price. Middlemen do not stop goods from reaching urban areas; rather, they help distribute them.",
+"py": null,
+"values": null,
+"id": "ecox22005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "As goods dey pass from one middleman to another, each person go add im own profit. Dis one come make di final price wey consumer go pay come high too much."
+},
+{
+"q": "A commodity board set up by a government mainly performs which function in marketing?",
+"options": [
+"Producing the commodity directly on large plantations",
+"Buying farm produce from farmers at fixed prices and organising export or resale",
+"Manufacturing finished goods from raw materials for local consumption",
+"Setting retail prices for all imported manufactured goods"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A commodity board typically purchases produce such as cocoa or groundnuts from farmers at a set price, then handles grading, storage and export or resale, acting as a stabilising middleman. It does not itself produce or manufacture goods; its role is organisational and regulatory in marketing.",
+"py": null,
+"values": null,
+"id": "ecox22006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Commodity board na government body wey dey buy farm produce from farmers for fixed price. Dem dey handle export and storage to make sure say market price no scatter."
+},
+{
+"q": "Mr. Bello, a wholesaler, buys 500 crates of eggs from a farm at ₦1,200 per crate and sells all of them to retailers at ₦1,450 per crate. If he also pays a total of ₦25,000 as transport and storage cost for the whole consignment, what is his net profit?",
+"options": [
+"₦125,000",
+"₦100,000",
+"₦150,000",
+"₦99,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Total selling price is 500 times 1450 equals 725,000 naira, and total cost price is 500 times 1200 equals 600,000 naira, giving a gross profit of 125,000 naira. Subtracting the 25,000 naira expenses leaves a net profit of 100,000 naira.",
+"py": "500*1450 - 500*1200 - 25000",
+"values": [
+125000,
+100000,
+150000,
+99000
+],
+"id": "ecox22007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Total sales na 725,000 naira, while total cost na 600,000 naira plus 25,000 naira for transport. If you remove 625,000 naira from 725,000 naira, you go get 100,000 naira profit."
+}
+],
+"rejected": []
+}

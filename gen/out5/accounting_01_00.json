@@ -1,0 +1,204 @@
+{
+"subject": "accounting",
+"topic": "Accounting concepts and conventions",
+"ti": 1,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best illustrates the money measurement concept in accounting?",
+"options": [
+"A firm records only transactions that can be expressed in monetary terms",
+"A firm values its closing stock at cost or market price, whichever is lower",
+"A firm charges depreciation using the same method every year",
+"A firm separates the owner's personal expenses from business expenses"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The money measurement concept states that only items that can be expressed in terms of money are recorded in the accounts. Non-monetary matters, such as staff morale or management skill, are excluded.",
+"py": null,
+"values": null,
+"id": "accx01001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Money measurement concept talk say na only things wey we fit count with money we dey record inside account book. Wetin no get money value, like worker mood or manager brain, we no dey put am."
+},
+{
+"q": "At the end of the financial year, an accountant is preparing the final accounts of a trading business. Stock is valued at ₦240,000 at cost, but due to damage, it can only be sold for ₦190,000. Which accounting concept requires the accountant to report the stock at ₦190,000 rather than ₦240,000?",
+"options": [
+"Going concern concept",
+"Prudence (conservatism) concept",
+"Consistency concept",
+"Business entity concept"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The prudence concept requires that anticipated losses be recognised and assets not be overstated. Since the stock's net realisable value is lower than cost, the lower figure of ₦190,000 must be used.",
+"py": "190000",
+"values": [
+null,
+190000,
+null,
+null
+],
+"id": "accx01003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Prudence concept dey talk say make we no overprice our property and make we prepare for loss before e happen. Dem say make we use the lower price of ₦190,000 instead of ₦240,000 because of the damage."
+},
+{
+"q": "A trader buys goods worth ₦500,000 on credit in January and sells all the goods for ₦750,000 cash in March of the same accounting year. Applying the realisation concept, in which month should the profit be recognised?",
+"options": [
+"January, when the goods were purchased",
+"March, when the goods were sold",
+"At the end of the accounting year only",
+"Whenever the supplier is paid for the goods"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The realisation concept states that revenue (and profit) is recognised when goods are sold or services rendered, not when cash is received or goods bought. Since the sale occurred in March, profit is recognised then.",
+"py": null,
+"values": null,
+"id": "accx01004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Realisation concept dey explain say profit dey show for the exact time wey goods don sell, and not when we buy them or when cash enter hand. Na for March when the goods sell make we recognize the profit."
+},
+{
+"q": "A company's accountant decided to switch from the reducing balance method of depreciation to the straight-line method simply because the new finance manager preferred it, without any genuine business reason. Which accounting concept is most likely being violated?",
+"options": [
+"Materiality concept",
+"Consistency concept",
+"Historical cost concept",
+"Going concern concept"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The consistency concept requires that once an accounting method is adopted, it should be applied consistently from one period to the next unless there is a justified reason for change. Switching methods for personal preference without sound reason breaches this concept.",
+"py": null,
+"values": null,
+"id": "accx01005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Consistency concept mean say once you choose method, you suppose continue with am every year unless strong reason dey to change am. To just change am because new manager like am dey break the rule."
+},
+{
+"q": "At the end of the year, Chidinma's business had earned ₦60,000 interest on a fixed deposit which had not yet been received in cash, and owed ₦15,000 electricity bill for services already consumed but not yet paid. Under the accrual concept, how should these two items be treated in the final accounts for the year?",
+"options": [
+"Both should be ignored until cash is received or paid",
+"The interest should be recorded as income and the electricity bill as an expense for the year",
+"Only the electricity bill should be recorded, since it is a liability",
+"Only the interest should be recorded, since it increases profit"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The accrual concept requires that income and expenses be recorded in the period they are earned or incurred, regardless of when cash is received or paid. Both the accrued interest income and the outstanding electricity expense belong to the current year's accounts.",
+"py": null,
+"values": null,
+"id": "accx01007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Accrual concept talk say make we record income and expenses for the year wey dem happen, whether cash don change hand or not. E mean say we must add the ₦60,000 interest and the ₦15,000 electricity bill inside this year account."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Tunde Ventures recorded a transaction twice in its ledger, once as a cash sale and once as a credit sale, causing the trial balance to disagree. Which accounting concept, if properly applied, would have prevented this error?",
+"options": [
+"Consistency concept",
+"Accruals concept",
+"Dual aspect concept",
+"Money measurement concept"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The dual aspect concept states that every transaction has two effects that must be recorded once each, as a debit and a credit. Recording the same transaction twice as separate sales breaks this balance and causes errors.",
+"py": null,
+"values": null,
+"id": "accx01000",
+"check": {
+"s1": "X",
+"s2": "X",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Ngozi runs a tailoring business and estimates that a sewing machine bought for ₦60,000 will be useful for 6 years before being scrapped. She therefore charges ₦10,000 as depreciation expense each year instead of charging the full cost in the year of purchase. Which concept guides this treatment?",
+"options": [
+"Prudence concept",
+"Matching (accruals) concept",
+"Going concern concept",
+"Realisation concept"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The matching concept requires that the cost of an asset be spread over the periods that benefit from its use, matching expenses to the revenue they help generate. Charging ₦10,000 yearly matches the machine's cost to each year it is used.",
+"py": null,
+"values": null,
+"id": "accx01002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Matching explains the annual charge, but going concern also supports depreciation over useful life.|Matching concept links cost to the periods benefited."
+},
+{
+"q": {
+"q": "Bode Nigeria Limited spent ₦8,000 on repairing a broken office chair and ₦8,000,000 on building a new warehouse in the same year. The accountant recorded the chair repair as an expense but capitalised the warehouse cost as an asset. Which accounting concept best explains why such items are treated differently based on their size and importance?",
+"options": [
+"Materiality concept",
+"Dual aspect concept",
+"Accrual concept",
+"Entity concept"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The materiality concept allows items to be treated differently in accounting records depending on their relative size and significance to the business. A small repair cost is not significant enough to affect decisions, while a huge warehouse cost is material and must be capitalised.",
+"py": null,
+"values": null,
+"id": "accx01006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:The distinction is capital versus revenue expenditure, not simply size or materiality.|Materiality concept distinguishes items based on significance."
+}
+]
+}

@@ -1,0 +1,182 @@
+{
+"subject": "biology",
+"topic": "Cell structure, organelles and levels of organisation",
+"ti": 1,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which cell organelle is correctly described as a stack of flattened, membrane-bound sacs that modifies, sorts and packages proteins before they are sent to their final destinations in the cell?",
+"options": [
+"Golgi apparatus",
+"Smooth endoplasmic reticulum",
+"Lysosome",
+"Centriole"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Golgi apparatus consists of flattened sacs called cisternae that modify, sort and package proteins received from the endoplasmic reticulum into vesicles for transport. It is not involved in lipid synthesis or digestion like the other organelles listed.",
+"id": "biox01010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na Golgi apparatus dey pack and arrange proteins well well before e send dem go their final place inside cell. E no dey do lipid synthesis or digestion like other ones."
+},
+{
+"q": "A plant cell and an animal cell are compared under an electron microscope. Which of the following structures would be found in the plant cell but completely absent from the animal cell?",
+"options": [
+"Mitochondrion",
+"Cellulose cell wall",
+"Ribosome",
+"Nuclear membrane"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Plant cells have a rigid cellulose cell wall surrounding the plasma membrane, which animal cells lack. Mitochondria, ribosomes and the nuclear membrane are common to both plant and animal cells.",
+"id": "biox01011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na plant cell get strong cellulose cell wall wey animal cell no get at all. Mitochondrion, ribosome and nuclear membrane dey both plant and animal cells."
+},
+{
+"q": "The cell theory, as proposed by early cell biologists, states all of the following EXCEPT that",
+"options": [
+"all living organisms are composed of one or more cells",
+"the cell is the basic structural and functional unit of life",
+"new cells arise only from pre-existing cells by division",
+"all cells in a multicellular organism are identical in structure and function"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Cell theory does not claim that all cells are identical; in fact, cells become specialised through differentiation to perform different functions, such as nerve cells and red blood cells. The other three statements are the accepted principles of cell theory.",
+"id": "biox01012",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Cell theory no talk say all cells dey look the same because cells dey change to do different work. The other three na the real rules of cell theory."
+},
+{
+"q": "Which of the following correctly arranges these structures in order of increasing size, from smallest to largest?",
+"options": [
+"Ribosome, mitochondrion, nucleus, cell",
+"Cell, nucleus, mitochondrion, ribosome",
+"Mitochondrion, ribosome, cell, nucleus",
+"Nucleus, cell, ribosome, mitochondrion"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Ribosomes are the smallest of the structures listed, followed by mitochondria, then the nucleus, with the whole cell being the largest since it contains all the others. This order reflects their actual relative sizes as seen under the electron microscope.",
+"id": "biox01014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Ribosome na the smallest, follow by mitochondrion, then nucleus, and cell na the biggest because e contain everything. E follow their correct size arrange."
+},
+{
+"q": "A research student grinds up liver tissue and spins the resulting mixture in a centrifuge at increasing speeds. The nuclei settle out first at low speed, followed by mitochondria at medium speed, and finally ribosomes at very high speed. This separation technique mainly depends on differences in the",
+"options": [
+"colour and shape of the organelles",
+"density and size of the organelles",
+"chemical composition of organelle membranes",
+"metabolic activity of the organelles"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Differential centrifugation separates organelles based on their size and density, with larger, denser structures like the nucleus sedimenting at lower speeds and smaller, lighter structures like ribosomes requiring much higher speeds to sediment. Colour, chemical composition of membranes and metabolic activity are not the basis for this physical separation method.",
+"id": "biox01015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Differential centrifugation dey use size and density to separate organelles inside machine. The heavy ones dey drop down first before the small light ones."
+},
+{
+"q": "Which of the following best describes the relationship between cells, tissues, organs and organ systems in a complex multicellular animal such as a goat?",
+"options": [
+"Organs combine to form tissues, which combine to form organ systems made of similar cells",
+"Similar cells combine to form tissues, tissues combine to form organs, and organs combine to form organ systems",
+"Organ systems combine to form organs, which are made directly from individual cells without tissues",
+"Tissues are made of organs, and organs combine directly to form single cells with specialised functions"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In a multicellular organism, similar cells group together to form tissues, different tissues work together to form organs, and organs that cooperate to perform a major function form organ systems. The other options reverse or confuse this correct order of organisation.",
+"id": "biox01016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For multicellular animal, similar cells dey join to form tissue, tissue join to form organ, and organ join to form organ system. The other options scatter the correct order."
+},
+{
+"q": "Chike examines a cell under an electron microscope and observes a double-membraned organelle with a smooth outer membrane and a highly folded inner membrane forming finger-like projections into a central matrix. Based on this description, this organelle is best suited to",
+"options": [
+"store and digest worn-out cell parts using enzymes",
+"transport proteins directly to the Golgi apparatus",
+"provide a large surface area for ATP production during respiration",
+"synthesise messenger RNA from a DNA template"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The folded inner membrane described forms cristae, which greatly increase the surface area available for the enzymes of aerobic respiration that produce ATP, identifying this organelle as a mitochondrion. Digestion of cell parts, protein transport to the Golgi, and mRNA synthesis are functions of lysosomes, vesicles and the nucleus respectively, not mitochondria.",
+"id": "biox01017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The folded inner membrane wey dem call cristae dey give big surface area for ATP production inside mitochondrion. E no be lysosome or nucleus work."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A tiny fluid-filled sac bounded by a single membrane is seen in a plant cell, occupying almost 80% of the cell's volume and pushing the cytoplasm to the edge of the cell. This structure most likely functions to",
+"options": [
+"synthesise ATP through aerobic respiration",
+"maintain turgor pressure and store cell sap",
+"carry out photosynthesis using chlorophyll",
+"replicate DNA during cell division"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The large central vacuole found in mature plant cells is bounded by a single membrane called the tonoplast and stores cell sap, helping to maintain turgor pressure that keeps the plant firm. It does not carry out respiration, photosynthesis or DNA replication.",
+"py": null,
+"values": null,
+"id": "biox01013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Described as tiny but occupying 80% of the cell.|"
+}
+]
+}

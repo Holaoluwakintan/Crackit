@@ -1,0 +1,213 @@
+{
+"subject": "physics",
+"topic": "Waves: properties and types",
+"ti": 13,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A rope is tied to a wall and Chidinma shakes the free end up and down, sending a wave along the rope. The particles of the rope move up and down while the wave itself travels horizontally toward the wall. This wave is best classified as:",
+"options": [
+"a longitudinal wave",
+"a transverse wave",
+"a stationary wave",
+"a progressive sound wave"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The rope particles vibrate perpendicular to the direction the wave travels, which is the definition of a transverse wave. Sound and longitudinal waves have particle motion parallel to wave travel, so they do not fit here.",
+"py": null,
+"values": null,
+"id": "phyx13000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "As the rope particles dey move up and down while the wave dey travel forward, that one na transverse wave. Longitudinal waves dey move parallel to the direction of the wave, so e no fit be that one."
+},
+{
+"q": "Which of the following best explains why mechanical waves, unlike electromagnetic waves, cannot travel through a vacuum?",
+"options": [
+"Mechanical waves require a material medium whose particles vibrate to transfer energy",
+"Mechanical waves travel faster than electromagnetic waves only in air",
+"Mechanical waves have no frequency in a vacuum",
+"Electromagnetic waves have infinite wavelength in a vacuum"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Mechanical waves such as sound and water waves transfer energy by making medium particles vibrate, so without a medium there is nothing to vibrate. Electromagnetic waves transfer energy through oscillating electric and magnetic fields, needing no medium.",
+"py": null,
+"values": null,
+"id": "phyx13001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Mechanical waves need particles for medium to carry energy, so if no medium dey, nothing go vibrate. Electromagnetic waves no need medium because dem dey use electric and magnetic fields."
+},
+{
+"q": "A water wave travels from a deep region into a shallower region of a ripple tank at an angle to the boundary. Which property of the wave changes as a result of this refraction?",
+"options": [
+"Frequency only",
+"Speed and wavelength, but not frequency",
+"Frequency and speed, but not wavelength",
+"Amplitude only"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When a wave crosses into a region of different depth, its speed and wavelength change because they depend on the medium, but the frequency stays the same since it is fixed by the source. This is a standard feature of wave refraction.",
+"py": null,
+"values": null,
+"id": "phyx13002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When wave enter shallow water, the speed and wavelength go change, but the frequency no go change because na the source determine am. This one na wetin dey happen for refraction."
+},
+{
+"q": "A stretched spring (slinky) is pushed and pulled back and forth along its own length, producing regions where coils are squeezed together (compressions) and regions where they are spread apart (rarefactions). This type of wave is called:",
+"options": [
+"a transverse wave",
+"a longitudinal wave",
+"an electromagnetic wave",
+"a stationary wave"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In this wave, the coils vibrate back and forth along the same direction as the wave travels, creating compressions and rarefactions. This is the defining feature of a longitudinal wave.",
+"py": null,
+"values": null,
+"id": "phyx13004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When the coils move back and forth for the same direction as the wave, we dey call am longitudinal wave. The compressions and rarefactions na wetin show say the wave dey travel like that."
+},
+{
+"q": "A ripple tank generator produces plane water waves of wavelength 1.2 cm, which travel a distance of 60 cm in 5 seconds. Calculate the frequency of the waves.",
+"options": [
+"10 Hz",
+"12 Hz",
+"8 Hz",
+"15 Hz"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Speed = distance/time = 60/5 = 12 cm/s. Frequency = speed/wavelength = 12/1.2 = 10 Hz.",
+"py": "(60/5)/1.2",
+"values": [
+10,
+12,
+8,
+15
+],
+"id": "phyx13005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "First, we find speed by dividing distance 60 cm by time 5 s to get 12 cm/s. Then, we divide the speed by wavelength 1.2 cm to get 10 Hz."
+},
+{
+"q": "A progressive wave travelling along a long rope has its displacement-time graph and displacement-distance graph both showing a complete cycle. If the wave takes 0.25 s to complete one oscillation and covers a distance of 2 m in that same time, calculate the wavelength of the wave.",
+"options": [
+"0.5 m",
+"2 m",
+"8 m",
+"4 m"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In one period (0.25 s), the wave advances exactly one wavelength, which is the distance it covers in that time. Since the wave moves 2 m in 0.25 s, the wavelength is 2 m.",
+"py": "2",
+"values": [
+0.5,
+2,
+8,
+4
+],
+"id": "phyx13006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The time e take to complete one oscillation na the period. Since the wave travel 2 m for that same time, that distance na the wavelength."
+},
+{
+"q": "A stationary (standing) wave is formed on a string fixed at both ends. Which of the following correctly describes the points of zero displacement along the string?",
+"options": [
+"Antinodes, which occur where the two travelling waves always interfere constructively",
+"Nodes, which occur where the two travelling waves always interfere destructively",
+"Nodes, which occur only at the midpoint of the string regardless of the mode of vibration",
+"Antinodes, which move along the string as time passes"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A stationary wave is formed by two identical waves travelling in opposite directions, and at certain fixed points they always meet out of phase, cancelling to give zero displacement; these are called nodes. Antinodes are the points of maximum displacement, not zero displacement.",
+"py": null,
+"values": null,
+"id": "phyx13007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For stationary wave, the points where displacement dey zero na nodes, because the waves dey cancel each other out. Antinodes na the points where the displacement dey maximum."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Two loudspeakers, S1 and S2, emit sound waves of the same frequency and amplitude, perfectly in phase. At a point P, the distance from S1 is 6.80 m and from S2 is 7.65 m. If the wavelength of the sound is 0.34 m, what type of interference occurs at P?",
+"options": [
+"Constructive interference, since the path difference is a whole number of wavelengths",
+"Destructive interference, since the path difference is a whole number of wavelengths",
+"Constructive interference, since the path difference is an odd number of half wavelengths",
+"Destructive interference, since the path difference is an odd number of half wavelengths"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "The path difference is 7.65 - 6.80 = 0.85 m, and dividing by the wavelength 0.34 m gives 2.5, which is an odd number of half wavelengths (5 half-wavelengths). This condition produces destructive interference, meaning the waves cancel at that point.",
+"py": "7.65-6.80",
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx13003",
+"check": {
+"s1": "D",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+}
+]
+}

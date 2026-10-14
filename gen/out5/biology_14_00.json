@@ -1,0 +1,180 @@
+{
+"subject": "biology",
+"topic": "Nutrient cycles (carbon, nitrogen, water) and ecological factors",
+"ti": 14,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the process of ammonification in the nitrogen cycle?",
+"options": [
+"Decomposers break down dead organisms and waste products, releasing ammonia into the soil",
+"Bacteria convert atmospheric nitrogen gas into ammonia within root nodules",
+"Nitrites are oxidised into nitrates by soil bacteria",
+"Plants absorb nitrates through their root hairs for protein synthesis"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Ammonification is the breakdown of proteins and other nitrogenous waste in dead organisms by decomposers, which releases ammonia into the soil. This is different from nitrogen fixation, nitrification, or nitrate absorption.",
+"id": "biox14000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Ammonification na wen decomposers break down dead tins and waste to release ammonia for soil. E different from nitrogen fixation or nitrification."
+},
+{
+"q": "In the carbon cycle, which pair of processes together ensures a continuous exchange of carbon dioxide between living organisms and the atmosphere?",
+"options": [
+"Photosynthesis and respiration",
+"Combustion and sedimentation",
+"Fossilisation and weathering",
+"Decomposition and precipitation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Photosynthesis removes carbon dioxide from the air to make organic compounds, while respiration returns it to the atmosphere. These two opposite processes form the main short-term cycling of carbon between organisms and their environment.",
+"id": "biox14001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Photosynthesis dey remove carbon dioxide from air, while respiration dey put am back. Dis two process dey make sure say carbon dey cycle between living tins and atmosphere."
+},
+{
+"q": "A pond in Oyo State receives runoff from a nearby poultry farm, and after some weeks, the water turns green and cloudy with a sharp drop in dissolved oxygen at night. Which sequence correctly explains this observation?",
+"options": [
+"Excess nutrients cause algal bloom, algae later die and decompose, and decomposer bacteria use up oxygen",
+"Nitrogen fixation increases, raising oxygen demand by legumes in the water",
+"Increased carbon dioxide from respiration directly poisons the fish",
+"Reduced sunlight penetration stops transpiration in pond organisms"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Nutrient-rich runoff causes algae to multiply rapidly (eutrophication); when they die, decomposers break them down and consume large amounts of oxygen, lowering dissolved oxygen especially at night when photosynthesis stops. The other options describe unrelated or incorrect mechanisms.",
+"id": "biox14002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Excess nutrients from farm dey make algae grow too much. Wen dem die, bacteria dey use oxygen break dem down, wey come make oxygen finish for water."
+},
+{
+"q": "Which statement correctly describes the role of nitrogen-fixing bacteria found freely in the soil, such as Azotobacter, compared with those in root nodules?",
+"options": [
+"They fix atmospheric nitrogen into compounds without living inside a host plant's roots",
+"They convert nitrates back into atmospheric nitrogen gas",
+"They oxidise ammonia into nitrites for plant uptake",
+"They depend entirely on legume roots for oxygen and nutrients to survive"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Free-living bacteria like Azotobacter fix nitrogen directly in the soil independently, unlike symbiotic bacteria such as Rhizobium that live inside legume root nodules. This distinguishes free-living fixers from symbiotic nitrogen fixers.",
+"id": "biox14003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Free-living bacteria like Azotobacter dey fix nitrogen for soil by demsef. Dem no need plant root like Rhizobium wey dey live inside legume nodules."
+},
+{
+"q": "A student compares two farmlands in Benue State: one is heavily tilled and left bare after harvest, while the other retains crop residue as mulch. After heavy rainfall, the bare field shows more soil loss and reduced water infiltration. Which role of the water cycle best explains the better water retention in the mulched field?",
+"options": [
+"Mulch reduces surface runoff and allows more water to infiltrate into the soil before evaporation",
+"Mulch increases the rate of transpiration from exposed soil surfaces",
+"Mulch speeds up condensation of water vapour above the field",
+"Mulch prevents precipitation from reaching the soil surface"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Mulch cover reduces the speed of surface runoff and shields soil from direct sun, allowing more rainwater to infiltrate and be retained rather than being lost through evaporation or erosion. This improves water availability in the soil for plant use.",
+"id": "biox14005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Mulch dey stop water from running comot quick and e dey cover soil from sun. Dis one dey help water soak inside ground well well instead of evaporating."
+},
+{
+"q": "Which of the following best explains why pH is considered an important ecological factor for organisms living in a freshwater stream?",
+"options": [
+"It affects the solubility and availability of nutrients and the activity of enzymes in aquatic organisms",
+"It determines the amount of dissolved oxygen produced by photosynthesis alone",
+"It controls the rate of transpiration of aquatic plants directly",
+"It measures the depth to which light can penetrate the water"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "pH affects how soluble certain nutrients and minerals are, and extreme pH values can disrupt enzyme activity in organisms, making it a key ecological factor. It is not a direct measure of oxygen production, transpiration, or light penetration.",
+"id": "biox14006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "pH dey affect how nutrients dey dissolve for water and e fit disturb enzyme work inside body of aquatic organisms. E be very important factor for how dem dey survive."
+},
+{
+"q": "A group of students studying an abandoned quarry site in Enugu notice that lichens first colonise bare rocks, followed later by mosses, then small herbs, and eventually shrubs over several years. Which ecological concept does this sequence best illustrate?",
+"options": [
+"Ecological succession",
+"Carbon fixation",
+"Nutrient leaching",
+"Eutrophication"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The gradual, predictable replacement of one community of organisms by another over time, starting from bare rock, is called ecological succession, specifically primary succession. This is distinct from carbon fixation, leaching, or eutrophication, which describe different processes.",
+"id": "biox14007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Dis gradual change from lichens to shrubs for bare rock na wetin we dey call ecological succession. E be predictable process where one community dey replace anoda one over time."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "During an ecological survey of a Niger Delta mangrove swamp, a student measures the concentration of dissolved salts in the water using a refractometer. This measurement is important because it determines which ecological factor affecting the organisms present?",
+"options": [
+"Salinity",
+"Turbidity",
+"Humidity",
+"Temperature"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A refractometer measures the concentration of dissolved salts, which is salinity, an important abiotic factor in aquatic and estuarine ecosystems like mangroves. Turbidity, humidity, and temperature are measured using different instruments.",
+"id": "biox14004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Direct definition of salinity"
+}
+]
+}

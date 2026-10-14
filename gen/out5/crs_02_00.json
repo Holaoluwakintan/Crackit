@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "God's covenants with Noah, Abraham and Israel at Sinai",
+"ti": 2,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "After the flood, God instructed Noah and his sons concerning the eating of meat. According to Genesis 9, what was Noah forbidden to eat?",
+"options": [
+"Meat with the blood still in it",
+"Meat of animals that chew the cud",
+"Meat of birds of the air",
+"Meat offered to idols"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Genesis 9:4 forbids eating flesh with its life, that is its blood, still in it. This was part of the instructions God gave Noah after the flood.",
+"id": "crsx02000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "God tell Noah for Genesis 9:4 say make dem no chop meat wey blood still dey inside because life dey the blood. Na part of the direct instruction wey God give Noah after the flood."
+},
+{
+"q": "In Genesis 17, God changed Abram's name to Abraham as part of the covenant. What is the meaning of the new name 'Abraham'?",
+"options": [
+"Father of many nations",
+"God is my strength",
+"Friend of God",
+"Father of faith"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Genesis 17:5 explains that Abram became Abraham because God had made him a father of many nations. The name change showed the covenant promise of numerous descendants.",
+"id": "crsx02001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For Genesis 17:5, God change Abram name to Abraham because He don make am father of many nations. The name change show the covenant promise say im descendants go plenty."
+},
+{
+"q": "Before Israel received the Ten Commandments at Sinai, God described what special status the nation would have among all peoples if they kept His covenant. What was this status called?",
+"options": [
+"A peculiar treasure and a kingdom of priests",
+"A nation of judges and prophets",
+"A people greater than Egypt",
+"A royal army of conquest"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Exodus 19:5-6 states that Israel would be a peculiar treasure unto God above all people and a kingdom of priests, a holy nation, if they obeyed His voice and kept His covenant.",
+"id": "crsx02002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Exodus 19:5-6 tok say if Israel go obey God voice and keep His covenant, dem go be like special treasure and kingdom of priests to God."
+},
+{
+"q": "God made a covenant with Noah that included every living creature on earth, not just human beings. Which of these best shows the wide scope of this covenant as recorded in Genesis 9?",
+"options": [
+"The covenant included the birds, cattle and every beast of the earth",
+"The covenant was limited to Noah's three sons alone",
+"The covenant applied only to clean animals used for sacrifice",
+"The covenant excluded fish and creatures of the sea"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Genesis 9:9-10 shows God establishing His covenant with Noah, his descendants, and every living creature that came out of the ark, including birds and cattle. This makes the covenant universal in scope, unlike the later covenants with Abraham and Israel which focused on a chosen people.",
+"id": "crsx02003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Genesis 9:9-10 show say God covenant with Noah reach everybody, including birds, cattle, and all the beast dem wey waka commot from the ark."
+},
+{
+"q": "When God confirmed His covenant with Abraham in Genesis 15, He asked Abraham to bring certain animals which were divided, with a smoking furnace and burning lamp passing between the pieces. What did this ceremony signify?",
+"options": [
+"God alone was solemnly binding Himself to fulfil the covenant promise",
+"Abraham was offering a sacrifice for his sins",
+"The animals represented the nations Abraham would conquer",
+"Abraham was being tested for obedience like Job"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In Genesis 15:17-18, only the smoking furnace and burning lamp, representing God's presence, passed between the divided animals while Abraham was in a deep sleep. This ancient covenant ritual showed that God alone took the oath to fulfil His promise.",
+"id": "crsx02004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For Genesis 15:17-18, na only the smoking furnace and burning lamp pass through the meat while Abraham dey sleep. This one show say na God alone swear to fulfill the covenant promise."
+},
+{
+"q": "At Mount Sinai, the Israelites were commanded to prepare themselves for three days before God spoke to them. Which of the following was part of this preparation according to Exodus 19?",
+"options": [
+"They washed their clothes and were told not to touch the mountain",
+"They offered burnt offerings of bulls for three days",
+"They fasted completely from food and water",
+"They built an altar of stones at the foot of the mountain"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Exodus 19:10-12 records that the people were to wash their clothes and sanctify themselves, and bounds were set around the mountain so no one would touch it. This showed the holiness required before meeting with God.",
+"id": "crsx02005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Exodus 19:10-12 tok say make the people wash dia clothes and make dem no touch the mountain. This one show the holy life wey God want before He go meet dem."
+},
+{
+"q": "A Sunday school teacher in Enugu explains that God's covenant with Abraham was unconditional in its initial promise, while the covenant at Sinai required Israel's obedience for its blessings. Which statement best supports this distinction?",
+"options": [
+"God promised Abraham descendants and land based on His own will, while Sinai's blessings depended on Israel keeping the law",
+"Both covenants demanded sacrifice of a son before they could be sealed",
+"Abraham's covenant required temple worship while Sinai's did not",
+"Sinai's covenant came with land promises but Abraham's did not"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In Genesis 12 and 15, God freely promised Abraham land and descendants without conditions attached to the initial promise. In contrast, Exodus 19:5 makes Israel's covenant blessings dependent on obeying God's voice and keeping His covenant.",
+"id": "crsx02006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "God promise Abraham land and pikin base on His own grace, but Sinai covenant deyaka make Israel obey law before dem go get the blessing."
+},
+{
+"q": "According to Genesis 9, God set a specific sign in the sky as a reminder of His covenant with Noah and all living creatures. What natural phenomenon did God use as this sign?",
+"options": [
+"The rainbow",
+"The rising sun",
+"A bright star",
+"The full moon"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Genesis 9:13 records that God set His rainbow in the cloud as a token of the covenant between Him and the earth, promising never again to destroy all life with a flood.",
+"id": "crsx02007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Genesis 9:13 explain say na rainbow God put for cloud as sign of the covenant say He no go use water destroy everywhere again."
+}
+],
+"rejected": []
+}

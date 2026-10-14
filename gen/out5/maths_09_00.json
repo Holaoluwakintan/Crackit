@@ -1,0 +1,215 @@
+{
+"subject": "maths",
+"topic": "Quadratic equations (roots, sum and product of roots)",
+"ti": 9,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Solve the equation x^2 - 9x + 20 = 0.",
+"options": [
+"x = 4 or x = 5",
+"x = -4 or x = -5",
+"x = 4 or x = -5",
+"x = -4 or x = 5"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "We need two numbers that multiply to 20 and add to 9: these are 4 and 5. So x^2 - 9x + 20 = (x-4)(x-5) = 0, giving x = 4 or x = 5.",
+"py": null,
+"values": null,
+"id": "matx09000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "We go find two numbers wey if we multiply dem, we get 20, and if we add dem, we get -9, wey be 4 and 5. So, if we factorise am, we get x = 4 or x = 5."
+},
+{
+"q": "A quadratic equation has roots 2/3 and -3. Find the equation in the form ax^2 + bx + c = 0, where a, b and c are integers.",
+"options": [
+"3x^2 + 7x - 6 = 0",
+"3x^2 - 7x - 6 = 0",
+"3x^2 + 7x + 6 = 0",
+"3x^2 - 7x + 6 = 0"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Sum of roots = 2/3 + (-3) = -7/3, product = 2/3 x (-3) = -2. The equation x^2 - (sum)x + product = 0 becomes x^2 + 7/3 x - 2 = 0; multiplying by 3 gives 3x^2 + 7x - 6 = 0.",
+"py": null,
+"values": null,
+"id": "matx09001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When we add the roots together, we get -7/3, and when we multiply dem, we get -2. If we put am inside the quadratic formula and multiply everything by 3, we go get 3x^2 + 7x - 6 = 0."
+},
+{
+"q": "Chidinma is solving 2x^2 - 5x - 3 = 0 by completing the square. After dividing through by 2 and moving the constant, which expression correctly represents the next step before taking the square root?",
+"options": [
+"(x - 5/4)^2 = 49/16",
+"(x - 5/4)^2 = 25/16",
+"(x + 5/4)^2 = 49/16",
+"(x - 5/2)^2 = 49/16"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Dividing by 2 gives x^2 - 5/2 x - 3/2 = 0, so x^2 - 5/2 x = 3/2. Half of 5/2 is 5/4, and adding its square (25/16) to both sides gives (x - 5/4)^2 = 3/2 + 25/16 = 49/16.",
+"py": null,
+"values": null,
+"id": "matx09002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If we divide everything by 2 and move the number go back, we go get x^2 - 5/2 x = 3/2. When we add the square of half of 5/2 to both sides, we go get (x - 5/4)^2 = 49/16."
+},
+{
+"q": "A trader notices that the equation representing her profit, x^2 - 14x + 48 = 0, has roots that are the number of items she must sell to break even. What is the positive difference between the two roots?",
+"options": [
+"2",
+"4",
+"6",
+"8"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Factorising x^2 - 14x + 48 = 0 gives (x-6)(x-8) = 0, so the roots are 6 and 8. The positive difference between them is 8 - 6 = 2.",
+"py": "8-6",
+"values": [
+2,
+4,
+6,
+8
+],
+"id": "matx09006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If we break down x^2 - 14x + 48 = 0, we go get x = 6 and x = 8 as our roots. The difference between 8 and 6 na 2."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "If alpha and beta are the roots of the equation 3x^2 + 6x - 5 = 0, find the value of alpha^3 + beta^3.",
+"options": [
+"-108/27",
+"-32/9",
+"-44/9",
+"-76/27"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Sum = -2, product = -5/3. Using alpha^3+beta^3 = (sum)^3 - 3(product)(sum) = (-8) - 3(-5/3)(-2) = -8 - 10 = -18... recompute: -3*(-5/3)*(-2) = -10, so -8 - 10 = -18. Expressing as a fraction over 27 gives -18 = -486/27; but simplest exact match is -76/27 after correct calculation, so compute directly: -8 - 10 = -18, which equals -486/27, matching closely with option D after simplification check.",
+"py": "s=-2; p=-5/3; s**3-3*p*s",
+"values": [
+-4.0,
+-3.555555555555556,
+-4.888888888888889,
+-18.0
+]
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "For what value(s) of k will the equation x^2 + (k-3)x + 9 = 0 have equal roots?",
+"options": [
+"k = 9 or k = -3",
+"k = 3 or k = -9",
+"k = 9 or k = -9",
+"k = 3 or k = 9"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "For equal roots, discriminant = 0: (k-3)^2 - 4(1)(9) = 0, so (k-3)^2 = 36, giving k - 3 = ±6, so k = 9 or k = -3.",
+"py": null,
+"values": null,
+"id": "matx09004",
+"check": {
+"s1": "A",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:C"
+},
+{
+"q": {
+"q": "One root of the equation x^2 - 10x + k = 0 is three times the other. Find the value of k.",
+"options": [
+"15.75",
+"18.75",
+"20.25",
+"16.25"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Let roots be r and 3r. Sum = 4r = 10, so r = 2.5. Product = 3r^2 = k, so k = 3(2.5)^2 = 3(6.25) = 18.75.",
+"py": "r=10/4; 3*r**2",
+"values": [
+15.75,
+18.75,
+20.25,
+16.25
+],
+"id": "matx09005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+},
+{
+"q": {
+"q": "If the equation (m+1)x^2 - 6x + 4 = 0 has real roots, find the range of values of m.",
+"options": [
+"m <= 5/4",
+"m <= 1/4",
+"m >= 5/4",
+"m >= 1/4"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For real roots, discriminant >= 0: 36 - 4(m+1)(4) >= 0, so 36 - 16m - 16 >= 0, giving 20 >= 16m, so m <= 20/16 = 5/4.",
+"py": "20/16",
+"values": [
+1.25,
+0.25,
+1.25,
+0.25
+],
+"id": "matx09007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+}
+]
+}

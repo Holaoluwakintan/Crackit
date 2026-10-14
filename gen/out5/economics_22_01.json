@@ -1,0 +1,200 @@
+{
+"subject": "economics",
+"topic": "Distributive trade, middlemen and commodity marketing",
+"ti": 22,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the main function of a wholesaler in the chain of distributive trade?",
+"options": [
+"Buying in bulk from producers and selling in smaller quantities to retailers",
+"Manufacturing goods for direct sale to final consumers",
+"Advertising goods on behalf of the government",
+"Setting the final retail price of goods by law"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A wholesaler buys goods in large quantities from producers and breaks them into smaller lots for retailers. This bridges the gap between producers and retailers in distributive trade.",
+"py": null,
+"values": null,
+"id": "ecox22010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Wholesaler dey buy plenty goods from producer come break am small-small for retailer. Na so dem dey bridge the gap between producer and retailer for trade."
+},
+{
+"q": "A retailer is best defined as a trader who:",
+"options": [
+"Sells goods in small quantities directly to final consumers",
+"Buys raw materials and processes them into finished goods",
+"Transports goods in bulk from one country to another",
+"Negotiates prices between two wholesalers without taking ownership of goods"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Retailers are the last link in distributive trade, buying from wholesalers or producers and selling in small units to final consumers. This makes goods accessible for everyday household purchase.",
+"py": null,
+"values": null,
+"id": "ecox22011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Retailer na the last person for the chain, e dey buy from wholesaler come sell small-small to final consumer. Na dem dey make goods easy for people to buy for house."
+},
+{
+"q": "Which of these is a major function performed by commodity marketing boards in Nigeria for export crops such as cocoa and groundnut?",
+"options": [
+"Stabilising producer prices paid to farmers",
+"Printing new currency notes for farmers",
+"Granting university scholarships to traders",
+"Fixing exchange rates for the naira"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Commodity marketing boards buy produce from farmers at guaranteed prices to protect them from sharp price fluctuations in world markets. This stabilises farmers' incomes and encourages continued production.",
+"py": null,
+"values": null,
+"id": "ecox22012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Marketing board dey buy crop from farmer for fixed price so say price no go just dey jump up and down. This one dey help farmer get steady money and continue their work."
+},
+{
+"q": "One of the following is a disadvantage associated with the operation of commodity marketing boards on farmers:",
+"options": [
+"Farmers may be paid prices below the prevailing world market price",
+"Farmers automatically receive higher prices than the world market",
+"Farmers lose the right to grow their own crops",
+"Farmers are forced to relocate to urban areas"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Marketing boards sometimes pay farmers less than the actual world price and keep the difference as surplus, which discourages some producers. This is a commonly cited weakness of such boards.",
+"py": null,
+"values": null,
+"id": "ecox22013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Sometimes marketing board dey pay farmer money wey small pass wetin dem for get for world market. This one dey make some farmer vex and stop to produce."
+},
+{
+"q": "In distributive trade, a chain store differs from a departmental store mainly because a chain store:",
+"options": [
+"Operates many branches of similar shops in different locations under one ownership",
+"Sells only one type of product in a single large building",
+"Is owned jointly by farmers in a cooperative society",
+"Exists only to export goods to other countries"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A chain store consists of several branch shops in different towns or areas, all owned and controlled by the same company, selling similar goods. A departmental store, by contrast, is usually one large building with different sections under one roof.",
+"py": null,
+"values": null,
+"id": "ecox22014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Chain store get many branches for different place but na one person get all of dem. Departmental store na just one big building wey get different sections inside."
+},
+{
+"q": "Alhaji Musa buys 2000 tubers of yam from farmers in Benue at ₦250 each and transports them to Lagos, where he sells all the tubers to retailers at ₦340 each. If his total transport and handling cost for the whole consignment was ₦60,000, what is his net profit?",
+"options": [
+"₦120,000",
+"₦180,000",
+"₦60,000",
+"₦680,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Total cost of buying is 2000 times 250 equals 500,000, and revenue from selling is 2000 times 340 equals 680,000, giving a gross profit of 180,000. Subtracting the 60,000 transport cost leaves a net profit of 120,000 naira.",
+"py": "2000*340 - (2000*250 + 60000)",
+"values": [
+120000,
+180000,
+60000,
+680000
+],
+"id": "ecox22015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Total cost na 500,000 naira, and total sales na 680,000 naira. If you remove 60,000 naira for transport, the profit wey remain na 120,000 naira."
+},
+{
+"q": "A major problem facing distributive trade in rural parts of Nigeria is poor road networks. Which of the following is the most direct effect of this problem on commodity marketing?",
+"options": [
+"Increased cost of transporting goods and higher spoilage of perishable produce",
+"Automatic reduction in the price of farm produce",
+"Elimination of the need for middlemen in trade",
+"Permanent closure of all rural markets"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Poor roads make it difficult and costly to move goods, especially perishables like tomatoes, from farms to markets, leading to higher transport costs and spoilage. This ultimately raises the final price paid by consumers.",
+"py": null,
+"values": null,
+"id": "ecox22016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Bad road dey make transport cost high and e dey make perishable goods spoil quick. This one dey make price of food come high for market."
+},
+{
+"q": "Which of the following best explains why hawkers are considered an important part of the distributive trade system in many Nigerian towns, despite having no fixed business premises?",
+"options": [
+"They bring goods close to consumers in areas not easily reached by shops",
+"They fix the national price of goods sold in the country",
+"They are licensed to issue import permits to wholesalers",
+"They control the supply of foreign exchange to traders"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Hawkers move goods directly to where consumers live and work, reaching remote streets and areas without shops. This convenience makes them a useful, if small-scale, link in the distributive trade chain despite lacking a permanent shop.",
+"py": null,
+"values": null,
+"id": "ecox22017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Hawker dey carry goods reach where shop no dey, so e dey easy for consumer to buy. Even though dem no get shop, dem dey help move goods well-well."
+}
+],
+"rejected": []
+}

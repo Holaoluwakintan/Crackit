@@ -1,0 +1,2001 @@
+{
+"lit02105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit02106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit02107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit02108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit02109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit02110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit02111": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit02200": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit02201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit02202": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit02204": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit02205": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit02206": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit03100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit03101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit03102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit03103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit03104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit03105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit03106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit03107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit03108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit03109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit03110": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit03111": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "Catalexis means an incomplete final metrical foot; the omitted syllable need not be unstressed."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit03200": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit03201": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit03202": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit03203": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit03204": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit03205": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit03206": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit04100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit04101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit04102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit04103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit04104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit04105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit04106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit04107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit01102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit01103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit01104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit01105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit01107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit01109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit01110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit01111": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit01200": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit01201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit01202": {
+"a": {
+"ans": "C",
+"v": "ambiguous",
+"r": "'Sky' and 'by' form both end rhyme (C) and masculine rhyme (A)."
+},
+"b": {
+"ans": "C",
+"v": "ambiguous",
+"r": "'sky/by' is an end rhyme, but it is also a masculine rhyme (a single stressed syllable). Options A and C are both correct."
+}
+},
+"lit01203": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit01204": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit01205": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit01206": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit02100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit02101": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "The answer is correct, but the explanation incorrectly treats traditional praise poetry generally as epic; praise poetry need not be a long heroic narrative."
+},
+"b": {
+"ans": "C",
+"v": "error",
+"r": "Epic is the correct key. The explanation wrongly lumps traditional praise poetry into the epic category; praise poetry is a distinct, non-narrative form."
+}
+},
+"lit02102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit02103": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "The answer is correct, but the explanation incorrectly says epics and odes all have more rigid formal constraints; neither form necessarily does."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit02104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit00100": {
+"a": {
+"ans": "B",
+"v": "error",
+"r": "The answer is metaphor, but the explanation incorrectly calls the paper difficult; the comparison suggests it was easy or approachable."
+},
+"b": {
+"ans": "B",
+"v": "error",
+"r": "Metaphor is the correct key. However, the explanation calls the paper 'difficult'. Comparing it to a friendly chat implies the paper was easy, so the explanation misreads the statement."
+}
+},
+"lit00101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit00102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit00103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit00104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit00105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit00106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit00108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit00109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit00110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit00111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit00200": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit00201": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit00202": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit00203": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit00204": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit00205": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit00206": {
+"a": {
+"ans": "X",
+"v": "ambiguous",
+"r": "‘The nation’ can stand for its people by metonymy (C), while ‘the whole nation’ can be read as the whole standing for the subset following the match, supporting synecdoche (A)."
+},
+"b": {
+"ans": "A",
+"v": "ambiguous",
+"r": "'The whole nation' standing for its people is commonly classed as metonymy (container for contained). It can also be read as synecdoche (whole for part), so A and C are both defensible."
+}
+},
+"lit01100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit01101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit04108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit04109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit04110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit04111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit04200": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit04201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit04202": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit04203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit04204": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit04205": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit04206": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit05100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit05101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit05102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit05103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit05104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit05105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit05106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit05107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit05108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit05109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit05110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit05111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit05200": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit05201": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit05202": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit05203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit05204": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit05205": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit05206": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The question calls Tolu hardworking but then says her laziness is highlighted by Ada’s diligence. Those character descriptions contradict each other."
+},
+"b": {
+"ans": "D",
+"v": "garbled",
+"r": "The stem contradicts itself: Tolu is described as 'hardworking' and in the same sentence as having 'laziness'."
+}
+},
+"lit06100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit06101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit06102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit06103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit06104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit06105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit06106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit06107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit06108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit06109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit06110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit06111": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit06200": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "The key is correct, but the explanation falsely says fables are strictly restricted to animal characters. Fables can also feature humans or inanimate objects."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit06201": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit06202": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit06203": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit06204": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit06205": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit06206": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit07100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit07101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit07103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit07104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit07105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit07106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit07107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit07108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit07109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit07110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit07111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit08202": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit08203": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit08204": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The clock’s ‘deliberate’ rhythm is given a human quality; personification is the best available answer."
+}
+},
+"lit08205": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit08206": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit09100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit09101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit09102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit09103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit09104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit09105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit09106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit09107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit09108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit09109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit09110": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit09111": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit09200": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit09201": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit09202": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit09203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The proverb links good conduct and preparedness with access to respected company."
+}
+},
+"lit09204": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Oríkì and other panegyric poetry can praise lineages and clans as well as individuals."
+}
+},
+"lit09206": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The hunter’s self-praise and invocation of ancestral attributes fit praise poetry."
+}
+},
+"lit10100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Mood is the emotional atmosphere a work creates."
+}
+},
+"lit10101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "His anger at an injustice conveys indignation."
+}
+},
+"lit10102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Diction concerns a writer’s choice of words."
+}
+},
+"lit10103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The affectionate recollection of youth creates nostalgia."
+}
+},
+"lit10104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Theme is the central idea explored in a work."
+}
+},
+"lit10105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The ceremonial commissioning contrasts ironically with the bridge’s obvious fragility."
+}
+},
+"lit10106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Slang and colloquial speech are features of informal diction."
+}
+},
+"lit10107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The speech defies death and anticipates victory."
+}
+},
+"lit10108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Word choice helps establish tone and evoke mood."
+}
+},
+"lit10109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The depiction of corruption in a court conveys criticism."
+}
+},
+"lit10110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Theme is an underlying idea; plot is the sequence of events."
+}
+},
+"lit10111": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The imagery of curses and an abandoned hall creates an eerie mood."
+}
+},
+"lit10200": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The parched landscape and weary cattle suggest desolation."
+}
+},
+"lit10201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The insult and dismissive command express contempt."
+}
+},
+"lit10202": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Theme is the central idea explored by a text."
+}
+},
+"lit10203": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Diction is the writer’s choice of vocabulary and phrasing."
+}
+},
+"lit10204": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The joyful imagery celebrates the morning landscape."
+}
+},
+"lit07201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit07202": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit07203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit07204": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit07205": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit07206": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit08100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit08101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit08102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit08103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit08104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit08105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit08106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit08107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit08108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"lit08109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"lit08110": {
+"a": {
+"ans": "X",
+"v": "ambiguous",
+"r": "The gates’ ‘groaning’ supports personification, but ‘creaked’ and ‘groaning’ also imitate sounds, making onomatopoeia defensible."
+},
+"b": {
+"ans": "C",
+"v": "ambiguous",
+"r": "'Creaked' and 'groaning' are onomatopoeic, so B is defensible alongside the personification. The comparison is also expressed as a simile ('like an old man')."
+}
+},
+"lit08111": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit08200": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit08201": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0504": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0505": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0506": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0600": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0601": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0602": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0603": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0605": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0606": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0700": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0701": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0702": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0703": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0704": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0705": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0706": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0800": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0801": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0802": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0803": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0804": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0805": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0806": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0900": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0901": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0902": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0903": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0904": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0905": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0906": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv1000": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv1001": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv1002": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv1003": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv1004": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv1005": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv1006": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"lit10205": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"lit10206": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0000": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0001": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0002": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0003": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0004": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0005": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0006": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0100": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "The explanation reverses A and B: A defines assonance, while B defines alliteration."
+},
+"b": {
+"ans": "C",
+"v": "error",
+"r": "The explanation says the other options are 'alliteration, assonance, and rhyme respectively'. Options A and B are actually assonance and alliteration, so the order is wrong."
+}
+},
+"litv0101": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The answer is alliteration, but the explanation incorrectly says the /k/ sound occurs at the start of ‘across’; that word begins with a vowel sound."
+},
+"b": {
+"ans": "D",
+"v": "error",
+"r": "Alliteration is the correct key. The explanation wrongly says 'across' starts with a 'c' sound and omits 'compound'."
+}
+},
+"litv0102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0200": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0202": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0204": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "Ballad is the best answer, but the question and explanation incorrectly say a line is repeated. Only the phrase “Come home” is repeated within one line."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0205": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0206": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0300": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0301": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0302": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0303": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0304": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0305": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0306": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0400": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0401": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0403": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0404": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0405": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"litv0406": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"litv0500": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0501": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"litv0502": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"litv0503": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+}
+}

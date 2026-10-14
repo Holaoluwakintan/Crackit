@@ -1,0 +1,194 @@
+{
+"subject": "economics",
+"topic": "Economic systems (capitalism, socialism, mixed economy)",
+"ti": 1,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Economic systems can broadly be classified into capitalism, socialism and mixed economy mainly on the basis of which criterion?",
+"options": [
+"The level of literacy of the citizens",
+"The ownership and control of the means of production",
+"The size of the country's population",
+"The climate and natural vegetation of the country"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Economic systems are classified according to who owns and controls the factors of production, that is, land, labour and capital. This ownership pattern determines whether an economy is capitalist, socialist or mixed.",
+"py": null,
+"values": null,
+"id": "ecox01010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dem dey divide economic system based on who get and control land, labour and capital. Dis ownership pattern na im dey show whether economy na capitalist, socialist or mixed."
+},
+{
+"q": "In a pure capitalist economy, consumers are said to exercise 'consumer sovereignty'. This means that:",
+"options": [
+"Government fixes the quantity of goods every household must buy",
+"Consumers, through their spending decisions, influence what producers choose to produce",
+"The central planning authority decides consumer preferences",
+"Producers alone decide what consumers must buy regardless of demand"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Consumer sovereignty means buyers direct production by how they spend their money, since producers aim to make profit and will supply what consumers demand. It is a key feature of the price mechanism in capitalism.",
+"py": null,
+"values": null,
+"id": "ecox01011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Consumer sovereignty mean say buyers dey direct wetypun producers go make through how dem spend dia money. Producers like to make profit, so na wetin consumers demand na im dem go supply."
+},
+{
+"q": "A key argument put forward by supporters of socialism in favour of state ownership of major industries is that it helps to:",
+"options": [
+"Increase competition among many private firms",
+"Maximise profit for a few wealthy individuals",
+"Reduce inequality in the distribution of income and wealth",
+"Allow prices to be determined solely by market forces"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Socialists argue that when government owns and controls major industries, wealth and income can be shared more evenly among citizens instead of concentrating profits in the hands of a few private owners. This reduces inequality.",
+"py": null,
+"values": null,
+"id": "ecox01012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Socialist people dey talk say if government own major industries, money and wealth go spread well for citizens instead make profit pack for only small private owners hand. Dis one dey reduce inequality."
+},
+{
+"q": "Chief Adebayo argues that a mixed economy is better than a purely capitalist economy because it allows government to correct certain weaknesses of the free market. Which of the following is one such weakness that government intervention in a mixed economy specifically addresses?",
+"options": [
+"The existence of monopolies that exploit consumers through excessive prices",
+"The complete absence of private businesses in the economy",
+"The total elimination of the price mechanism",
+"The automatic equal distribution of income without any policy"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A weakness of pure capitalism is that powerful firms can form monopolies and exploit consumers with high prices. In a mixed economy, government intervenes through regulation, taxation and sometimes price control to check such exploitation.",
+"py": null,
+"values": null,
+"id": "ecox01013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "One bad thing about pure capitalism na say big companies fit form monopoly and use high price exploit consumers. For mixed economy, government dey put mouth through law and price control to stop dis kind exploitation."
+},
+{
+"q": "Which of the following is a distinguishing feature of a mixed economy as practised in countries like Nigeria?",
+"options": [
+"Only the government owns and operates all businesses",
+"Only private individuals own and operate all businesses without any government involvement",
+"Both the government and private individuals own and operate businesses side by side",
+"Production decisions are made solely by a central planning committee"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A mixed economy combines features of both capitalism and socialism, so both the public sector (government) and the private sector (individuals and companies) co-exist and carry out economic activities together.",
+"py": null,
+"values": null,
+"id": "ecox01014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Mixed economy na where both government and private people dey join hand own and run business together. E carry features of capitalism and socialism join body."
+},
+{
+"q": "One of the basic economic problems facing every economic system, regardless of whether it is capitalist, socialist or mixed, is:",
+"options": [
+"Deciding the national language to be used in schools",
+"Deciding what quantity of goods and services to produce with limited resources",
+"Deciding which political party should be in power",
+"Deciding the religious beliefs of the citizens"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Every economic system, no matter its ideology, must solve the basic problems of what, how and for whom to produce because resources are scarce relative to human wants. This is independent of politics, religion or language.",
+"py": null,
+"values": null,
+"id": "ecox01015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Every economy must solve basic problem of wetin, how and for who to produce because resources limited pass human wants. Dis one no concern politics or language."
+},
+{
+"q": "A particular country operates an economic system in which land and major industries are collectively owned by the state, individual profit-making is discouraged, and the central authority determines production targets and distribution of goods to citizens based on need rather than ability to pay. This description best fits:",
+"options": [
+"A laissez-faire capitalist economy",
+"A socialist (command) economy",
+"A free market economy with no government",
+"A barter economic system"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The description matches socialism, where the state owns major resources, profit motive is downplayed, and a central authority plans production and distributes goods, often according to need rather than purchasing power.",
+"py": null,
+"values": null,
+"id": "ecox01016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na socialism match dis description well well, because state dey own major resources and central authority dey plan production and share goods based on need, no be by who get money pass."
+},
+{
+"q": "Suppose an economy initially operates as a purely capitalist system where private firms freely set prices and output. The government later introduces minimum wage laws, consumer protection agencies, and taxes on luxury goods, while still allowing private ownership of businesses. This change best illustrates a shift towards:",
+"options": [
+"A purely socialist economy",
+"A subsistence economy",
+"A mixed economy",
+"A barter economy"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Introducing government regulation such as minimum wage laws, consumer protection and taxation while still permitting private ownership shows a blend of capitalist and socialist features, which defines a mixed economy rather than a purely capitalist or socialist one.",
+"py": null,
+"values": null,
+"id": "ecox01017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If government add minimum wage, consumer protection and tax to private business ownership, e mean say government don mix capitalist and socialist style together. Dis na wetin we dey call mixed economy."
+}
+],
+"rejected": []
+}

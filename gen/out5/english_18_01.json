@@ -1,0 +1,194 @@
+{
+"subject": "english",
+"topic": "Comprehension: a short original passage with one question on meaning, inference or the writer's attitude",
+"ti": 18,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Read the passage and answer the question that follows:\n\nWhen Ngozi resigned from her well-paid banking job to start a small bakery, many of her relatives thought she had lost her senses. Her father reminded her, almost daily, of the comfort she was giving up. Yet Ngozi had grown tired of spending long hours producing reports that were read by no one and decisions that were never hers to make. She wanted work that let her see, at the end of each day, something she had actually built with her own hands. Three years on, her bakery supplies bread to two schools in her neighbourhood, and she has never once regretted her choice.\n\nWhat is the main reason Ngozi gave up her banking job?",
+"options": [
+"She wanted work that gave her a visible, personal sense of achievement",
+"Her father insisted that she should start a business instead",
+"The bank refused to increase her salary after many years of service",
+"She discovered that baking was far more profitable than banking"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The passage says she was tired of work whose results she never saw and wanted to build something with her own hands. There is no mention of pay comparison or her father forcing a business idea; in fact he was against her decision.",
+"values": null,
+"py": null,
+"id": "engx18010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na true. Di passage tok sey Ngozi tire to dey do work wey she no dey see di result, and she want build somtin wit 'am by herself. Her papa even against am."
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nThe old clock tower at the centre of the town had stopped working for so long that younger residents assumed it was merely a decoration. Its hands, frozen at a quarter past three, had become a kind of joke among commuters who used it only as a meeting point, never as a timepiece. When a visiting engineer offered, free of charge, to repair it, the town council politely declined, explaining that the clock's silence had itself become a landmark of sorts, one the people had grown fond of and were unwilling to disturb.\n\nWhat can be inferred about the town council's attitude towards the broken clock?",
+"options": [
+"They valued the clock's familiar, unchanging presence over its usefulness",
+"They were too poor to pay the engineer for his services",
+"They did not believe the engineer was skilled enough to fix it",
+"They planned to replace the clock with a modern digital one soon"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The council refused a free repair because the clock's stillness had become a cherished landmark, showing they preferred its familiar state to having it work. The passage states the offer was free, so cost was not the issue, and nothing suggests doubt about the engineer's skill or any replacement plan.",
+"values": null,
+"py": null,
+"id": "engx18011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "E correct. Di council refuse free repair because dem like di clock as landmark wey don stay long. Money no be di problem, and nobody doubt di engineer."
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nCritics of the new examination policy argue that reducing the number of subjects a student may register for will narrow young people's intellectual horizons. Supporters counter that the previous system, which allowed candidates to sit for as many as nine subjects, encouraged shallow, rushed preparation rather than deep understanding. The policy's framers insist that a student who masters six subjects thoroughly is better equipped for further studies than one who merely scratches the surface of nine. Whether this trade-off between breadth and depth will truly benefit learners remains to be seen in the coming years.\n\nWhat is the writer's attitude towards the new examination policy?",
+"options": [
+"Cautiously uncertain, presenting both sides without taking a firm position",
+"Strongly supportive, praising the policy as an obvious improvement",
+"Deeply hostile, condemning the policymakers as careless",
+"Indifferent, showing no interest in the debate at all"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The writer presents both the critics' and supporters' views fairly and ends by saying the outcome remains to be seen, showing balanced uncertainty rather than clear support or opposition. There is no sign of hostility or indifference, since the writer engages seriously with the arguments on both sides.",
+"values": null,
+"py": null,
+"id": "engx18012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na correct. Di writer show wetin both critics and supporters dey talk and come yarn sey make we wait see di outcome. E no take any side."
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nTemitope had always believed that hard work alone guaranteed success, until she watched her less diligent cousin secure a scholarship through a chance meeting with a visiting professor. The incident did not make her stop working hard, but it did soften a conviction that had once been absolute. She began to accept that effort mattered greatly, yet was not the only thread in the fabric of achievement; opportunity, timing and even luck played their quiet parts as well.\n\nWhat does the passage suggest Temitope came to understand?",
+"options": [
+"Success depends on more than hard work alone",
+"Hard work no longer has any value in achieving success",
+"Her cousin did not deserve the scholarship she received",
+"Scholarships are usually awarded unfairly to undeserving students"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The passage shows Temitope moving from believing hard work alone guarantees success to accepting that opportunity and luck also matter. It does not say hard work is worthless, nor does it judge her cousin as undeserving or claim scholarships are generally unfair.",
+"values": null,
+"py": null,
+"id": "engx18013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "E correct. Temitope come realize sey apart from hard work, luck and opportunity dey play major role for success. E no mean sey hard work useless."
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nA new by-law in a certain town requires that every commercial motorcyclist wear a reflective jacket after sunset. Enforcement officers have been stationed at major junctions to issue fines to defaulters. Within weeks, accident reports involving motorcyclists at night fell noticeably, a development the town's traffic authority has celebrated as proof that the measure works. Some riders, however, complain that the jackets are uncomfortable in the heat and that the real cause of night accidents is poor street lighting, not invisibility.\n\nWhat is the meaning of the word DEFAULTERS as used in the passage?",
+"options": [
+"Those who fail to comply with the required rule",
+"Those who report accidents to the traffic authority",
+"Those who design the reflective jackets for riders",
+"Those who patrol the junctions to enforce the law"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "In the passage, defaulters are the motorcyclists who do not wear the reflective jackets as the by-law demands, and so are fined. The word refers to rule-breakers, not to the officers who enforce the law or report accidents.",
+"values": null,
+"py": null,
+"id": "engx18014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na so. Defaulters na di people wey no gree follow di new rule to wear reflective jacket, na dat one make dem fine dem."
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nAlthough the lecturer's voice rarely rose above a murmur, his classroom was always the quietest and most attentive in the faculty. Students who struggled to stay awake in louder, more animated lectures elsewhere found themselves leaning forward to catch his every word. He never repeated a sentence twice, as though daring his audience to listen the first time or lose the thread entirely. Many later admitted that this unusual discipline taught them more about careful listening than any other course they took.\n\nWhat can be inferred about the effect of the lecturer's teaching style on his students?",
+"options": [
+"It trained them to listen with unusual care and attention",
+"It frustrated them so much that most eventually stopped attending",
+"It made the course content easier to understand than other courses",
+"It encouraged them to record his lectures instead of listening directly"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The passage shows that his refusal to repeat himself forced students to listen closely, and many later said it taught them careful listening skills. There is no mention of frustration causing absence, easier content, or recording devices, so these are not supported.",
+"values": null,
+"py": null,
+"id": "engx18015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "E correct. Because di lecturer no dey repeat wetin 'e talk, students come learn how to dey listen well well with deep attention."
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nThe committee tasked with renaming the community hall spent four long meetings debating a single word. Some members wanted a name honouring the town's founder, while others preferred something that reflected the hall's modern use as a venue for weddings and conferences. After much argument, a quiet compromise emerged: the hall would bear the founder's name, followed by a simple word describing its function. Nobody left the final meeting entirely satisfied, but nobody left angry either, and the matter was finally laid to rest.\n\nWhat does the phrase LAID TO REST mean as used in the passage?",
+"options": [
+"Brought to a final conclusion",
+"Buried in a formal ceremony",
+"Postponed indefinitely without resolution",
+"Forgotten completely by everyone involved"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In this context, laid to rest means the long-running debate over the hall's name was finally settled through compromise. It does not refer to an actual burial, nor does it mean the matter was postponed or forgotten, since a decision was clearly reached.",
+"values": null,
+"py": null,
+"id": "engx18016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na true. To 'lay to rest' for dis matter mean sey dem don finally settle di argument and reach conclusion. E no mean say dem bury anytin."
+},
+{
+"q": "Read the passage and answer the question that follows:\n\nIn the small fishing settlement, elders tell newcomers never to mock the river aloud, for it is said to answer insults with sudden, unexplained misfortune. Younger, formally educated residents dismiss this as pure superstition, yet even they lower their voices and choose their words carefully whenever they cross the river by canoe. Asked why they bother with a belief they claim not to hold, one young man shrugged and said simply that there was no harm in being careful, just in case the old stories held some grain of truth after all.\n\nWhat does the passage suggest about the young man's real attitude towards the belief?",
+"options": [
+"He is privately uncertain and takes a cautious approach despite his claimed disbelief",
+"He fully believes the old stories and fears the river's power completely",
+"He is entirely convinced the belief is false and acts without any caution",
+"He is unaware of the belief and acts out of pure habit alone"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Although the young man claims not to believe the superstition, his careful behaviour and his remark about being careful just in case reveal a hidden uncertainty. This shows he is neither a full believer nor a complete disbeliever acting without caution.",
+"values": null,
+"py": null,
+"id": "engx18017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "E correct. Even though di young man say e no believe di juju, e still dey careful just in case di story na true. E get small fear for mind."
+}
+],
+"rejected": []
+}

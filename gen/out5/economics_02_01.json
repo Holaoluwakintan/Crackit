@@ -1,0 +1,221 @@
+{
+"subject": "economics",
+"topic": "Tools of analysis: tables, graphs, mean, median and mode",
+"ti": 2,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "The number of customers served daily at a POS shop in Ibadan for 9 days were: 12, 15, 12, 18, 20, 12, 25, 15, 12. What is the mode of this distribution?",
+"options": [
+"12",
+"15",
+"18",
+"20"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The value 12 appears four times, which is more than any other value in the data set. The mode is the value that occurs most frequently.",
+"py": "12",
+"values": [
+12,
+15,
+18,
+20
+],
+"id": "ecox02010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na 12 dey show pass four times for inside di numbers, so na di mode be that. Di number wey dey show pass na im be mode."
+},
+{
+"q": "A pie chart is used to represent the allocation of a family's monthly income of ₦60,000 into four expenditure areas. If the sector for feeding occupies 120° of the circle, how much naira was spent on feeding?",
+"options": [
+"₦15,000",
+"₦20,000",
+"₦30,000",
+"₦40,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A full circle is 360°, so the feeding sector represents 120/360 of the total income. This fraction (one-third) of ₦60,000 gives ₦20,000.",
+"py": "(120/360)*60000",
+"values": [
+15000,
+20000,
+30000,
+40000
+],
+"id": "ecox02011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Whole circle na 360°, so feeding dey take 120/360 of everything. If you divide ₦60,000 by three, you go get ₦20,000."
+},
+{
+"q": "Which of the following is a major limitation of using the mean as a measure of central tendency for a set of traders' daily sales figures?",
+"options": [
+"It cannot be calculated unless the data is arranged in order",
+"It is strongly affected by extremely high or low values in the data",
+"It can only be used when there are an odd number of values",
+"It ignores all the actual values and depends only on frequency"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The mean is calculated using every value in the data set, so one unusually large or small figure (an outlier) can pull the mean away from where most values actually lie. This makes it less reliable than the median in such cases.",
+"py": null,
+"values": null,
+"id": "ecox02012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Mean dey carry every number inside calculate, so if one number too big or too small, e go scatter di average. E make am less reliable pass median for that kind matter."
+},
+{
+"q": "The table below shows the distribution of ages of 40 members of a cooperative society in a local government area, grouped into class intervals of 21-25, 26-30, 31-35, and 36-40 years with frequencies 6, 14, 12, and 8 respectively. What is the class mark (mid-point) of the class interval with the highest frequency?",
+"options": [
+"23",
+"28",
+"33",
+"38"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The class interval with the highest frequency is 26-30, which has 14 members. The class mark is found by adding the lower and upper limits and dividing by 2, giving (26+30)/2 = 28.",
+"py": "(26+30)/2",
+"values": [
+23,
+28,
+33,
+38
+],
+"id": "ecox02014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di group wey get highest frequency na 26-30 because 14 people dey inside. To find di class mark, add 26 and 30, then divide by 2 to get 28."
+},
+{
+"q": "A small business records its weekly revenues (in ₦'000) over eight weeks as: 50, 60, 55, 70, 65, 80, 55, 75. What is the median weekly revenue?",
+"options": [
+"55",
+"62.5",
+"65",
+"70"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Arranging the values in order gives 50, 55, 55, 60, 65, 70, 75, 80. Since there are eight values, the median is the average of the 4th and 5th values, which are 60 and 65, giving (60+65)/2 = 62.5.",
+"py": "(60+65)/2",
+"values": [
+55,
+62.5,
+65,
+70
+],
+"id": "ecox02016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If you arrange di numbers from small to big, di fourth and fifth numbers na 60 and 65. When you add dem and divide by 2, you go get 62.5."
+},
+{
+"q": "When comparing the output of two palm oil processing firms over several years, a researcher wants a single chart that clearly shows both the composition (parts that make up a whole, such as different product types) and the overall trend over time. Which combination of tools would best achieve this purpose?",
+"options": [
+"A simple bar chart only",
+"A pie chart combined with the mode",
+"A component bar chart together with a line graph",
+"The mean calculated from a frequency table"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A component bar chart breaks each year's total output into its different parts, while a line graph traces how figures change over time. Using both together gives information on composition and trend that a single chart or a single average cannot provide.",
+"py": null,
+"values": null,
+"id": "ecox02017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Component bar chart dey show how things join make whole, while line graph dey show how e dey move over time. If you use both, you go see composition and trend well well."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A line graph plotted by a researcher shows the price of garri in a market rising steadily from ₦300 to ₦900 over six months, then falling sharply back to ₦400 in the seventh month. What does the steep downward slope in the seventh month best indicate?",
+"options": [
+"A slow and gradual increase in price",
+"A rapid decrease in price within a short period",
+"No change in price over the period",
+"An error in data collection"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "On a line graph, a steep slope going downward shows that the variable, in this case price, dropped quickly over a short time. The steeper the slope, the faster the rate of change.",
+"py": null,
+"values": null,
+"id": "ecox02013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "A teacher records the test scores of 15 students and finds that the mean score is 58, while the median score is 70. Based on this relationship, what can be concluded about the shape of the score distribution?",
+"options": [
+"The distribution is symmetrical",
+"The distribution is negatively skewed, with a few very low scores pulling the mean down",
+"The distribution is positively skewed, with a few very high scores pulling the mean up",
+"The mode must be equal to the mean"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "When the mean is lower than the median, it means a few unusually low values are dragging the mean downward while most scores cluster near the higher median value. This pattern is called negative skew.",
+"py": null,
+"values": null,
+"id": "ecox02015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Mean below median suggests, but does not prove, negative skew.|"
+}
+]
+}

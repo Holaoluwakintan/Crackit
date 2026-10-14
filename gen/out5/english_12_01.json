@@ -1,0 +1,137 @@
+{
+"subject": "english",
+"topic": "Oral English: consonant sounds (choose the word with the same consonant sound as the letters in CAPITALS)",
+"ti": 12,
+"b": 1,
+"generated": 8,
+"kept": [],
+"rejected": [
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: CHemist",
+"options": [
+"church",
+"machine",
+"kitchen",
+"character"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "In CHemist, the CH is pronounced /k/. Character also has CH pronounced /k/. Church and kitchen have CH as /tʃ/, while machine has CH as /ʃ/."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: EXit",
+"options": [
+"exam",
+"exercise",
+"example",
+"exhibit"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In EXit, the letters EX are pronounced /ks/ as in exam. In exercise, example and exhibit, the X or similar sound is pronounced /gz/ because the stress pattern makes the following vowel voice the consonant."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: PSychology",
+"options": [
+"pond",
+"stop",
+"simple",
+"shape"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "In PSychology, the P is silent and PS is pronounced /s/. Simple begins with the sound /s/, matching this. Pond and stop contain /p/, while shape contains /ʃ/."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: desiGN",
+"options": [
+"ginger",
+"garden",
+"sign",
+"single"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "In design, the G is silent, leaving only the /n/ sound. Sign also has a silent G before N, producing the same /n/ sound. Ginger, garden and single all pronounce the G clearly."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: tReasure",
+"options": [
+"sure",
+"vision",
+"shirt",
+"chair"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In treasure, the S makes the sound /ʒ/. Vision also contains the /ʒ/ sound in its middle. Sure and shirt have the /ʃ/ sound, while chair has /tʃ/, so they do not match."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: WReck",
+"options": [
+"crown",
+"write",
+"rock",
+"worry"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In wreck, the W is silent, leaving the sound /r/. Write also has a silent W before R, giving the same /r/ sound. Crown, rock and worry all pronounce their consonants as written without a silent letter."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: pleaSUre",
+"options": [
+"sugar",
+"measure",
+"assure",
+"passion"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In pleasure, the S is pronounced /ʒ/. Measure also has this /ʒ/ sound in the middle of the word. Sugar and assure have /ʃ/, and passion also has /ʃ/, so none of these three match."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "During the mock interview, Ngozi was asked to identify sounds. Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: hoNEst",
+"options": [
+"hour",
+"horse",
+"house",
+"hint"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In honest, the H is silent, so the word begins with the vowel sound /ɒ/, but the target sound is the N which is /n/... Horse begins with /h/ matching none; however the correct focus is the silent H pattern, and horse clearly pronounces its H as /h/, unlike honest, hour, and house where context differs. The key tested sound is the silent H in honest, contrasted with horse which always sounds its H.",
+"id": "engx12013",
+"check": {
+"s1": "D",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:D"
+}
+]
+}

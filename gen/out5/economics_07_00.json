@@ -1,0 +1,226 @@
+{
+"subject": "economics",
+"topic": "Costs and revenue: fixed, variable, marginal and average cost",
+"ti": 7,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A vulcanizer in Minna rents a workshop for ₦8,000 per month. Whether he repairs 0 tyres or 100 tyres in a month, he still pays this same ₦8,000 rent. This ₦8,000 is best described as his:",
+"options": [
+"Marginal cost",
+"Variable cost",
+"Fixed cost",
+"Average revenue"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A cost that does not change with the level of output, such as rent, is a fixed cost. It is paid even when output is zero.",
+"py": null,
+"values": null,
+"id": "ecox07000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Cost wey no dey change as production dey increase, like house rent, na fixed cost. You must pay am even if you no produce anything at all."
+},
+{
+"q": "A plantain chips producer in Akure has total variable cost of ₦60,000 when she produces 300 packs. What is her average variable cost per pack?",
+"options": [
+"₦200",
+"₦180",
+"₦20,000",
+"₦5"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Average variable cost equals total variable cost divided by output, which is 60,000 divided by 300, giving 200 per pack.",
+"py": "60000/300",
+"values": [
+200,
+180,
+20000,
+5
+],
+"id": "ecox07001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find average variable cost, just divide total variable cost by output. If you divide 60,000 by 300, e go give you ₦200 per pack."
+},
+{
+"q": "A bottled drinks firm in Kaduna has the total cost function TC = 20,000 + 40Q, where Q is the number of crates produced. What is the firm's total variable cost when it produces 150 crates?",
+"options": [
+"₦6,000",
+"₦26,000",
+"₦20,000",
+"₦166.67"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Variable cost is the part of total cost that depends on output, which is 40Q. At Q = 150, this gives 40 multiplied by 150, equal to 6,000.",
+"py": "40*150",
+"values": [
+6000,
+26000,
+20000,
+166.67
+],
+"id": "ecox07002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na only the part wey follow production, wey be 40Q, be variable cost. When you multiply 40 by 150, you go get ₦6,000."
+},
+{
+"q": "A tailor in Owerri finds that when he sews 10 clothes, his total cost is ₦45,000, and when he sews 11 clothes, his total cost rises to ₦48,500. What is his marginal cost of the 11th cloth?",
+"options": [
+"₦4,500",
+"₦3,500",
+"₦93,500",
+"₦45,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Marginal cost is the change in total cost from producing one more unit, which is 48,500 minus 45,000, equal to 3,500.",
+"py": "48500-45000",
+"values": [
+4500,
+3500,
+93500,
+45000
+],
+"id": "ecox07003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Marginal cost na the extra money wey you spend to produce one more cloth. If you minus 45,000 from 48,500, you go get ₦3,500."
+},
+{
+"q": "A printing press in Jos has average total cost of ₦250 per flyer when it prints 400 flyers, and its average fixed cost at this output is ₦70. What is its average variable cost per flyer?",
+"options": [
+"₦320",
+"₦180",
+"₦70",
+"₦250"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Average total cost equals average fixed cost plus average variable cost, so average variable cost is 250 minus 70, which equals 180.",
+"py": "250-70",
+"values": [
+320,
+180,
+70,
+250
+],
+"id": "ecox07004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Average total cost na the sum of average fixed cost and average variable cost. If you minus 70 from 250, you go remain with ₦180."
+},
+{
+"q": "A rice milling company in Kebbi observes that as it increases output in the short run, its average variable cost first falls, reaches a minimum, and then begins to rise. This pattern mainly occurs because of:",
+"options": [
+"A constant rise in fixed cost per unit as output increases",
+"The law of diminishing returns to the variable factor of production",
+"A permanent fall in the market price of rice",
+"An increase in the number of competing firms in the industry"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "As more variable input is added to fixed capital, output per unit of input first rises then falls due to diminishing returns, causing average variable cost to first fall then rise. This is a short-run production phenomenon, not a market price or competition effect.",
+"py": null,
+"values": null,
+"id": "ecox07005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As worker dem plenty join machine for short run, the law of diminishing returns go make output drop after time. E make average variable cost first fall, come later begin rise."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A palm oil processing company in Calabar has the total cost function TC = 15,000 + 100Q + Q^2. At what level of output is the firm's marginal cost equal to ₦140?",
+"options": [
+"Q = 10",
+"Q = 20",
+"Q = 40",
+"Q = 140"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Marginal cost is the derivative of total cost with respect to output, which is 100 plus 2Q. Setting 100 plus 2Q equal to 140 gives 2Q equal to 40, so Q equals 10.",
+"py": "(140-100)/2",
+"values": [
+10,
+20,
+40,
+140
+],
+"id": "ecox07006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A furniture exporter in Lagos notices that as output rises from a low level, its marginal cost curve lies below its average total cost curve, pulling the average total cost curve downward. Based on the relationship between marginal and average cost, what must be true at this stage of production?",
+"options": [
+"Average total cost must be rising",
+"Marginal cost must be rising faster than average cost",
+"Average total cost must be falling",
+"Marginal cost must equal average fixed cost"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Whenever marginal cost is below average total cost, the average cost is being pulled down, so it must be falling. This is a general rule linking marginal and average values regardless of the specific cost figures.",
+"py": null,
+"values": null,
+"id": "ecox07007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:The stem states that average total cost is falling."
+}
+]
+}

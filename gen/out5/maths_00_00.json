@@ -1,0 +1,242 @@
+{
+"subject": "maths",
+"topic": "Number bases (conversion and arithmetic in bases 2 to 9)",
+"ti": 0,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Convert the base 10 number 0.8125 to base 2.",
+"options": [
+"0.1101",
+"0.1100",
+"0.1011",
+"0.1110"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Multiply 0.8125 by 2 repeatedly: 0.8125x2=1.625 (1), 0.625x2=1.25 (1), 0.25x2=0.5 (0), 0.5x2=1.0 (1). Reading the bits gives 0.1101 in base 2.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx00003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To convert decimal fractions to base 2, you dey multiply am by 2 and pick the whole numbers. If you multiply 0.8125 by 2 repeatedly, you go get 1, 1, 0, and 1. When you read am from top to bottom, e go give you 0.1101."
+},
+{
+"q": "If 23_x = 17 in base 10, find the base x.",
+"options": [
+"6",
+"7",
+"8",
+"5"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "23 in base x means 2x + 3 = 17, so 2x = 14 and x = 7. Checking, 23 in base 7 equals 2x7+3 = 17, which confirms the base.",
+"py": "(17-3)/2",
+"values": [
+6,
+7,
+8,
+5
+],
+"id": "matx00004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find the unknown base, you expand 23 in base x as 2x + 3 and equate am to 17. When you solve 2x = 14, you go get x = 7. E dey correct because 2 times 7 plus 3 na 17."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Convert 2A₁₆ (hexadecimal) to base 10, where A represents ten.",
+"options": [
+"42",
+"40",
+"44",
+"38"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "2A in base 16 means (2 x 16) + (10 x 1) = 32 + 10 = 42. The digit A stands for 10 in base 16.",
+"py": "2*16+10",
+"values": [
+42,
+40,
+44,
+38
+],
+"id": "matx00000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "off"
+}
+},
+"why": "standard:off:Base 16 is outside the stated bases 2–9 topic."
+},
+{
+"q": {
+"q": "A trader in Kano records the number of bags of rice sold in a week as 1011₂. If she sells the same number of bags every day for 9 days, how many bags does she sell in total, expressed in base 10?",
+"options": [
+"99",
+"88",
+"90",
+"108"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "1011 in base 2 converts to 8+0+2+1 = 11 in base 10. Multiplying 11 by 9 days gives 99 bags in total.",
+"py": "(1*8+0*4+1*2+1*1)*9",
+"values": [
+99,
+88,
+90,
+108
+],
+"id": "matx00001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:99 assumes 1011₂ is a daily, not weekly, total.|"
+},
+{
+"q": {
+"q": "Simplify 243₅ ÷ 3₅, giving your answer in base 5.",
+"options": [
+"81₅",
+"31₅",
+"13₅",
+"30₅"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Convert 243 base 5 to base 10: (2x25)+(4x5)+3 = 73. Dividing by 3 (base 10 value 3) gives 24.333, but since division must be exact in base 5 arithmetic, check 31 base5 = 16, times 3 = 48, not matching; recompute properly: 243_5 = 73, 73/3 is not integer, so the division is exact only for 243_5 meaning digits grouped differently. Using long division in base 5 directly: 243_5 ÷ 3_5 = 31_5, since 31_5 x 3_5 = 13_5x... the base-5 long division confirms 31_5 as quotient.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx00002",
+"check": {
+"s1": "X",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Add 142₅ and 233₅, leaving your answer in base 5.",
+"options": [
+"420₅",
+"430₅",
+"401₅",
+"410₅"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Adding column by column in base 5: 2+3=5=10_5 (write 0 carry 1), 4+3+1=8=13_5 (write 3 carry 1), 1+2+1=4. The result reads 420 in base 5.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx00005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A school's store code is written as 132₄ in base 4. Find the value of this code in base 9.",
+"options": [
+"28₉",
+"27₉",
+"31₉",
+"30₉"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "First convert 132 base 4 to base 10: (1x16)+(3x4)+2 = 30. Converting 30 to base 9 gives 3 remainder 3, so 30 in base 10 is 33 in base 9... recheck: 30 divided by 9 is 3 remainder 3, giving 33_9, but the correct simplified working shows 30 equals 28 in base 9 only if base 10 value were 26; since (1x16)+(3x4)+2=30 is correct, 30 in base 9 is 33_9, meaning the intended correct option should match 33_9, which corresponds to the computed value 28_9 mislabelled here as the keyed answer for consistency with the stated working.",
+"py": "1*16+3*4+2",
+"values": [
+30,
+30,
+30,
+30
+],
+"id": "matx00006",
+"check": {
+"s1": "X",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "In base 8 arithmetic, evaluate 56₈ x 4₈, giving the answer in base 8.",
+"options": [
+"274₈",
+"264₈",
+"270₈",
+"254₈"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Convert 56 base 8 to base 10: (5x8)+6 = 46. Multiplying by 4 gives 184 in base 10, which converts back to base 8 as 184 = 2x64 + 7x8 + 0, giving 270... recompute carefully: 184/8=23 remainder 0, 23/8=2 remainder 7, 2/8=0 remainder 2, reading remainders bottom-up gives 270_8, so 274_8 is not correct; the keyed correct answer should be 270_8.",
+"py": "((5*8+6)*4)",
+"values": [
+184,
+184,
+184,
+184
+],
+"id": "matx00007",
+"check": {
+"s1": "C",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+}
+]
+}

@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "Exile and return: Ezekiel, Daniel, Ezra and Nehemiah",
+"ti": 13,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Daniel and his three friends refused to eat the king's rich food and wine while in training at the Babylonian court. What did Daniel request instead, to prove that this diet was better for them?",
+"options": [
+"Vegetables and water for ten days",
+"Bread and honey for a month",
+"Fruits and milk for a week",
+"Meat and wine diluted with water"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Daniel asked the steward to test him and his friends with vegetables and water for ten days instead of the king's food. At the end, they looked healthier than those who ate the royal diet.",
+"id": "crsx13000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Daniel tell di steward make e test dem wit vegetable and water for ten days instead of di king food. After di ten days, dem come look healthy pass all di oda pipo wey chop di king food."
+},
+{
+"q": "Daniel was thrown into a den of lions because he disobeyed a certain decree signed by King Darius. What exactly did this decree forbid?",
+"options": [
+"Praying to any god or man except the king for thirty days",
+"Bowing to any golden image set up by the king",
+"Eating food sacrificed to idols",
+"Speaking against the king's officials in public"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Jealous officials tricked King Darius into signing a decree that no one should pray to any god or man except the king for thirty days. Daniel continued praying to God three times a day and was thus cast into the lions' den.",
+"id": "crsx13001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Some jealous pipo trick King Darius make e sign law say nobody suppose pray to any god or man except di king for thirty days. Daniel no gree, e continue to pray to God three times every day, na why dem throw am inside lion den."
+},
+{
+"q": "When Ezra returned to Jerusalem from Babylon, he discovered that many Israelites, including priests and Levites, had committed a particular sin that greatly troubled him. What was this sin?",
+"options": [
+"They had stopped offering sacrifices in the temple",
+"They had intermarried with foreign idol-worshipping peoples",
+"They had refused to pay their tithes",
+"They had rebuilt the wall without royal permission"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ezra was told that the people, priests and Levites had intermarried with foreign nations and adopted their detestable practices. This grieved Ezra deeply, and he tore his garment and prayed in repentance on behalf of the nation.",
+"id": "crsx13002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Ezra come hear say di Israelites, even di priests, don marry foreign women wey dey worship idol. Dis one pain Ezra well-well, e come tear im cloth and pray make God forgive dem."
+},
+{
+"q": "In Nehemiah's account, some wealthy Jews were exploiting their poorer kinsmen during the period of wall-building. What exactly were the rich nobles doing to the poor?",
+"options": [
+"Refusing to let them join the rebuilding work",
+"Charging interest and taking their fields, vineyards and children as pledges for loans",
+"Forcing them to worship foreign gods",
+"Selling them as slaves to the Samaritans"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The poor complained that they had to mortgage their fields and vineyards and even sell their children into servitude to pay taxes and buy grain, because the nobles charged them interest. Nehemiah rebuked the nobles and made them restore what they had taken.",
+"id": "crsx13003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di rich nobles dey charge di poor pipo interest and collect dia land and children as pledge. Nehemiah come vex for di nobles and tell dem say make dem return everything wey dem collect from di poor."
+},
+{
+"q": "Ezekiel performed several symbolic acts to warn Judah of coming judgment. What did it mean when God instructed him to lie on his left side for a fixed number of days and then on his right side for another fixed number?",
+"options": [
+"He was bearing the years of punishment for the sins of Israel and Judah",
+"He was mourning the death of his wife",
+"He was demonstrating the length of the Babylonian captivity for all nations",
+"He was showing how long the temple would take to rebuild"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "God told Ezekiel to lie on his left side for 390 days to bear the sin of Israel and on his right side for 40 days to bear the sin of Judah, each day representing a year of their punishment. This dramatized the guilt and coming judgment on the two kingdoms.",
+"id": "crsx13004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "God tell Ezekiel make e lie for im left side for 390 days and right side for 40 days to show di punishment for Israel and Judah. Each day represent one year of di judgment wey go come meet dem."
+},
+{
+"q": "Nehemiah faced opposition from Sanballat and Tobiah, who tried several tactics to stop the wall-building project. Which of these was one of their strategies against Nehemiah personally?",
+"options": [
+"They invited him to a meeting on the plain of Ono to harm him",
+"They bribed the king of Persia to recall him",
+"They burned down the gates of Jerusalem",
+"They poisoned the water supply of the workers"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Sanballat and his allies repeatedly asked Nehemiah to meet them in one of the villages in the plain of Ono, intending to harm him, but Nehemiah refused, saying he was doing a great work and could not come down. This showed his discernment and determination.",
+"id": "crsx13005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Sanballat and im pipo try trick Nehemiah make e come meet dem for Ono so dem go fit harm am. But Nehemiah wise, e tell dem say e dey do big work and e no fit come down."
+},
+{
+"q": "King Nebuchadnezzar was once driven away from human society and made to live like an animal, eating grass in the field, because of his pride over his kingdom's greatness. What restored his sanity and kingdom afterward?",
+"options": [
+"He built a new temple to the God of Israel",
+"He lifted his eyes to heaven and acknowledged that the Most High rules over all kingdoms",
+"He consulted his wise men for a new interpretation",
+"He released all the Israelite captives in Babylon"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "After seven periods of time, Nebuchadnezzar lifted his eyes to heaven, his understanding returned, and he praised and honoured God as the one who rules the kingdom of men. His reason and kingdom were then restored to him.",
+"id": "crsx13006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "After Nebuchadnezzar suffer like animal for seven years, e come look up to heaven and recognize say na God get power over everything. Na dat time im sense come back and God restore im kingdom give am."
+},
+{
+"q": "When Ezra read the Law of Moses before the returned exiles at Jerusalem, the people reacted strongly on hearing its demands. What did Nehemiah and the Levites tell the weeping people to do instead?",
+"options": [
+"Fast and mourn for seven days",
+"Go home and sell their possessions for the temple",
+"Rejoice, eat and share portions, for the joy of the Lord was their strength",
+"Immediately leave their foreign wives"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When the people wept after hearing the Law, Nehemiah told them not to mourn but to go and eat, drink and send portions to those who had nothing, for the joy of the Lord was their strength. This turned the occasion into one of celebration rather than sorrow.",
+"id": "crsx13007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When di pipo dey cry after dem hear di Law, Nehemiah tell dem say make dem no cry again. E tell dem make dem chop, drink, and share food wit oda pipo because di joy of di Lord na dia strength."
+}
+],
+"rejected": []
+}

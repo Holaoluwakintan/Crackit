@@ -1,0 +1,200 @@
+{
+"subject": "geography",
+"topic": "Environmental resources, conservation and hazards",
+"ti": 13,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best defines environmental conservation?",
+"options": [
+"The wise use and management of natural resources to prevent waste and ensure continued availability for future generations",
+"The total removal of human activities from forest reserves",
+"The process of converting renewable resources into non-renewable ones",
+"The exploration of mineral resources without any form of restriction"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Conservation means managing resources carefully so they are not wasted and remain available for future use. The other options describe harmful or unrelated practices, not conservation.",
+"py": null,
+"values": null,
+"id": "geox13000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Conservation na to manage wetin we get well-well so e no go finish. We dey do am so say our children go still see am use for future."
+},
+{
+"q": "A certain forest reserve covers 2,400 hectares. If 15% of the reserve is cleared yearly for farming without replanting, how many hectares will be left after 2 years, assuming the same percentage of the remaining land is cleared each year?",
+"options": [
+"1,734 hectares",
+"2,040 hectares",
+"1,800 hectares",
+"2,100 hectares"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "After year one, 2400 - (0.15 x 2400) = 2040 hectares remain. After year two, 2040 - (0.15 x 2040) = 1734 hectares remain. This shows compound depletion rather than a flat rate.",
+"py": "2400*(1-0.15)*(1-0.15)",
+"values": [
+1734,
+2040,
+1800,
+2100
+],
+"id": "geox13001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "After year one, 2400 minus 15 percent remain 2040 hectares. For year two, we come remove 15 percent from that 2040, so 1734 hectares remain."
+},
+{
+"q": "In the context of environmental hazards, which of the following is best classified as a man-made (human-induced) hazard rather than a natural hazard?",
+"options": [
+"Industrial oil spillage",
+"Volcanic eruption",
+"Tsunami",
+"Earthquake"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Oil spillage from industrial activities results directly from human actions such as poor equipment maintenance or sabotage. Volcanic eruptions, tsunamis and earthquakes occur due to natural earth processes.",
+"py": null,
+"values": null,
+"id": "geox13002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Oil spillage na human work because na machine or person error dey cause am. But volcano, tsunami and earthquake na natural tin wey dey happen by itself."
+},
+{
+"q": "Overgrazing by livestock in the Sahelian grasslands leads most directly to which of the following environmental consequences?",
+"options": [
+"Loss of vegetation cover and exposure of soil to wind erosion",
+"Increased rainfall and humidity in the region",
+"Formation of new river deltas",
+"Rapid growth of dense rainforest vegetation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "When too many animals graze an area, they strip away grass cover faster than it can regrow, leaving bare soil exposed to erosion by wind. This does not cause increased rainfall or forest growth.",
+"py": null,
+"values": null,
+"id": "geox13003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If animal too plenty for one place, dem go chop all grass finish. When grass no dey, wind go come carry the soil go, wey we dey call erosion."
+},
+{
+"q": "A community wishes to conserve its freshwater resources for the dry season. Which of the following practices would best achieve this goal?",
+"options": [
+"Constructing small dams and reservoirs to harvest and store rainwater during the wet season",
+"Clearing all vegetation along riverbanks to increase water flow speed",
+"Allowing unrestricted discharge of untreated waste into rivers",
+"Digging boreholes without any plan for recharge of the water table"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Building dams and reservoirs captures excess rainwater during the wet season so it can be used later when water is scarce. The other options either waste water, pollute it, or deplete groundwater without replenishment.",
+"py": null,
+"values": null,
+"id": "geox13004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To build dam na better way to keep water for dry season. If you keep water when rain dey fall, you go get wetin you go use when sun hot."
+},
+{
+"q": "Which pair correctly matches an environmental hazard with an appropriate mitigation measure?",
+"options": [
+"Flooding — construction of drainage channels and embankments along rivers",
+"Landslide — increasing deforestation on steep slopes",
+"Drought — removal of windbreaks around farmlands",
+"Erosion — ploughing land along the slope instead of across it"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Drainage channels and embankments control excess water flow and reduce flood damage. The other pairings describe actions that would worsen, not reduce, the stated hazards.",
+"py": null,
+"values": null,
+"id": "geox13005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Drainage and embankment dey help control water so flood no go too spoil property. Other ones wey dem list go only make the problem worse."
+},
+{
+"q": "A farmland on a hillside experiences severe soil loss whenever it rains heavily. Which combination of conservation techniques would most effectively reduce this soil loss?",
+"options": [
+"Terracing the slope and planting cover crops",
+"Removing all tree stumps and leaving the soil bare between seasons",
+"Ploughing the land in straight lines down the slope",
+"Increasing the number of grazing animals on the slope"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Terracing breaks a steep slope into flat steps that slow down water runoff, while cover crops hold the soil together with their roots, both reducing erosion. Bare soil, downslope ploughing and overgrazing all increase the speed and damage of runoff.",
+"py": null,
+"values": null,
+"id": "geox13006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Terracing dey make slope look like step so water no go run fast. If you plant cover crops too, the root go hold the soil make e no wash comot."
+},
+{
+"q": "Which of the following best explains why wetlands are considered valuable environmental resources worth conserving?",
+"options": [
+"They filter pollutants from water, provide habitats for wildlife, and help control flooding by absorbing excess water",
+"They produce large quantities of crude oil for industrial use",
+"They serve mainly as sites for heavy industrial construction",
+"They prevent all forms of rainfall from reaching the ground surface"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Wetlands act as natural filters, support diverse wildlife, and absorb excess rainwater, reducing the risk of flooding downstream. They are not sources of crude oil, nor are they suited for industrial construction.",
+"py": null,
+"values": null,
+"id": "geox13007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Wetlands dey clean water and give house to many animals. Dem also dey soak excess water so flood no go too disturb people."
+}
+],
+"rejected": []
+}

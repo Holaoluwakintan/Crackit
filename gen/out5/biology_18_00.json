@@ -1,0 +1,178 @@
+{
+"subject": "biology",
+"topic": "Sex determination, sex-linked traits, blood groups and genetic disorders",
+"ti": 18,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In the sex-determination mechanism of a certain bird species, the female is heterogametic (ZW) while the male is homogametic (ZZ). If a cross is made between a male and a female, what proportion of the offspring is expected to be male?",
+"options": [
+"100%",
+"75%",
+"50%",
+"25%"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A ZZ male produces only Z gametes, while a ZW female produces Z and W gametes in equal numbers. Fertilisation gives ZZ (male) and ZW (female) offspring in a 1:1 ratio, so 50% are male.",
+"id": "biox18000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Male ZZ go give only Z gamete, but female ZW go give Z and W. When dem join, you go get ZZ and ZW for 1:1 ratio, so 50% na male."
+},
+{
+"q": "A woman who is a known carrier of a certain X-linked recessive disorder marries a man who also suffers from the same disorder. What proportion of their daughters is expected to be affected by the disorder?",
+"options": [
+"All of the daughters",
+"Half of the daughters",
+"None of the daughters",
+"A quarter of the daughters"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The carrier mother is X^A X^a and the affected father is X^a Y. Daughters receive one X from each parent, giving X^A X^a (carrier) or X^a X^a (affected) in equal proportion, so half the daughters are affected.",
+"id": "biox18001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Mama na X^A X^a and Papa na X^a Y. Half of di daughters go get X^A X^a wey be carrier, and di other half go get X^a X^a wey be affected."
+},
+{
+"q": "Which of the following statements best explains why a man can never inherit an X-linked trait from his father?",
+"options": [
+"A man receives his single X chromosome only from his mother, while his Y chromosome comes from his father",
+"A man's X chromosome is always inherited from his father during fertilisation",
+"Genes on the Y chromosome mask the expression of X-linked genes in males",
+"X-linked genes are destroyed during the formation of sperm cells in the father"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A son's sex chromosome combination is XY, where the X comes from the mother's egg and the Y comes from the father's sperm. Since the father contributes only the Y chromosome to a son, he cannot pass on X-linked traits to him.",
+"id": "biox18002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Boy pikin dey get XY chromosome. Di X dey come from mama, and di Y dey come from papa, so papa no fit pass X-linked trait give im son."
+},
+{
+"q": "During a blood donation exercise at a Nigerian teaching hospital, a sample from a patient agglutinates with anti-A serum but not with anti-B serum. Which of the following blood groups does this patient most likely belong to?",
+"options": [
+"Group AB",
+"Group A",
+"Group B",
+"Group O"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Agglutination with anti-A serum means the red blood cells carry the A antigen, while no reaction with anti-B serum means the B antigen is absent. This combination corresponds to blood group A.",
+"id": "biox18003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If blood agglutinate with anti-A, e mean say A antigen dey. Since e no react with anti-B, e mean say B antigen no dey, so na blood group A."
+},
+{
+"q": "Sickle cell anaemia is caused by a mutant allele (Hb^S) that is co-dominant with the normal allele (Hb^A). Two parents, both of genotype Hb^A Hb^S, have four children. What is the expected number of children with the sickle cell trait (carriers) out of the four?",
+"options": [
+"One",
+"Two",
+"Three",
+"Four"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A cross between two Hb^A Hb^S parents gives offspring in the ratio 1 Hb^A Hb^A : 2 Hb^A Hb^S : 1 Hb^S Hb^S. Hb^A Hb^S individuals are carriers, so half of the four children, that is two, are expected to carry the trait.",
+"id": "biox18004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When two Hb^A Hb^S parents born, di ratio na 1:2:1. Two out of every four pikin go be Hb^A Hb^S, wey be carriers of di sickle cell trait."
+},
+{
+"q": "A certain inherited disorder in human beings appears only when an individual inherits the defective allele from both parents, and it affects males and females with equal frequency. Which mode of inheritance does this disorder most likely follow?",
+"options": [
+"X-linked dominant inheritance",
+"Autosomal recessive inheritance",
+"X-linked recessive inheritance",
+"Y-linked inheritance"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Because the gene is located on an autosome rather than a sex chromosome, both males and females are equally likely to be affected. The recessive nature means two copies of the faulty allele, one from each parent, are required for the disorder to show.",
+"id": "biox18005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If di gene dey for autosome, boy and girl get equal chance to get am. Because e be recessive, you must get two faulty allele before e show."
+},
+{
+"q": "A baby boy is born with an extra X chromosome, giving him a karyotype of 47 chromosomes including XXY, and he shows features such as reduced fertility and some feminised body characteristics. This condition arises from which of the following genetic events?",
+"options": [
+"Non-disjunction of sex chromosomes during gamete formation",
+"Deletion of part of the X chromosome during meiosis",
+"A point mutation in a single gene on the Y chromosome",
+"Crossing over between the X and Y chromosomes during meiosis"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The extra X chromosome results from non-disjunction, where sex chromosomes fail to separate properly during meiosis, producing a gamete with two sex chromosomes instead of one. Fertilisation of such a gamete gives the XXY karyotype described, which is known as Klinefelter syndrome.",
+"id": "biox18006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Non-disjunction mean say chromosome no separate well during meiosis. Dis one make gamete get extra chromosome, wey come lead to XXY condition."
+},
+{
+"q": "Chidi has blood group genotype I^A i, while his wife Amaka has blood group genotype I^B i. Considering the inheritance of the ABO blood group alleles, what is the probability that their next child will have blood group O?",
+"options": [
+"1/4",
+"1/2",
+"3/4",
+"0"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Crossing I^A i with I^B i gives offspring genotypes I^A I^B, I^A i, I^B i and ii in equal proportion. Only the ii genotype produces blood group O, so the probability is 1 out of 4.",
+"id": "biox18007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you cross I^A i and I^B i, you go get I^A I^B, I^A i, I^B i, and ii. Only di ii genotype na blood group O, so di chance na 1 out of 4."
+}
+],
+"rejected": []
+}

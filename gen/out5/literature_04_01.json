@@ -1,0 +1,178 @@
+{
+"subject": "literature",
+"topic": "Drama: types (tragedy, comedy, tragicomedy, farce) and dramatic terms (soliloquy, aside, catharsis, hamartia)",
+"ti": 4,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the dramatic type known as 'farce'?",
+"options": [
+"A serious play that explores the moral downfall of a noble character through a fatal flaw",
+"A light dramatic piece relying on improbable situations, exaggerated characters and physical humour purely to provoke laughter",
+"A play that blends tragic suffering with comic relief to end happily",
+"A one-act play performed entirely in mime without spoken dialogue"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Farce is a form of comedy that uses exaggerated, improbable situations, slapstick and absurd coincidences mainly to entertain and provoke laughter. It does not aim for deep moral or psychological exploration like tragedy.",
+"id": "litx04010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Farce na comedy wey dey use funny and exaggerated situation make people laugh. E no get anything to do with serious moral lesson like tragedy."
+},
+{
+"q": "In a new play, Barrister Kalu is depicted as an otherwise brilliant lawyer whose single weakness is an inability to resist bribes. This weakness eventually destroys his career and family. What is this weakness in dramatic terms called?",
+"options": [
+"Nemesis",
+"Hubris",
+"Hamartia",
+"Catharsis"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Hamartia refers to the specific flaw or error in a tragic hero's character that leads to his downfall. Barrister Kalu's weakness for bribery is this flaw, distinct from nemesis which is the punishment that follows.",
+"id": "litx04011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Hamartia na dat one error or flaw for person character wey dey make am fall. Barrister Kalu own na im love for bribe, wey come spoil im life."
+},
+{
+"q": "A playwright writes a drama in which the hero commits a terrible crime unknowingly, suffers greatly as the truth unfolds, and the play ends with his complete destruction, leaving the audience moved to deep pity and fear. Which type of drama is this?",
+"options": [
+"Comedy of manners",
+"Tragedy",
+"Farce",
+"Tragicomedy"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A tragedy centres on a hero's serious downfall through suffering and ends in disaster, evoking pity and fear in the audience. The described play fits this classical definition exactly.",
+"id": "litx04012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Tragedy na play wey dey show how hero suffer and finally fall. E dey make audience feel pity and fear for wetin happen to the person."
+},
+{
+"q": "During a scene, Nkechi tells her rival to her face, 'I wish you every success in the competition,' but as her rival walks away, Nkechi turns to the audience and mutters, 'She will fail woefully, and I shall make sure of it.' What dramatic device is illustrated by Nkechi's remark to the audience?",
+"options": [
+"Soliloquy",
+"Dramatic irony",
+"Aside",
+"Monologue"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "An aside is a short remark a character makes directly to the audience (or another character) that other characters on stage are assumed not to hear. Nkechi's muttered comment to the audience while her rival is present but unaware is a classic aside.",
+"id": "litx04013",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Aside na when character talk small thing make audience hear, but other people for stage no hear am. Nkechi talk her own so that only audience go know wetin dey her mind."
+},
+{
+"q": "Which of the following is the most accurate distinction between a soliloquy and a monologue in drama?",
+"options": [
+"A soliloquy is delivered to another character present on stage, while a monologue is always silent",
+"A soliloquy is spoken by a character alone on stage revealing inner thoughts, while a monologue may be delivered to other characters present",
+"A soliloquy can only occur in comedy, while a monologue can only occur in tragedy",
+"There is no real difference; both terms mean exactly the same thing in every context"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A soliloquy is specifically spoken when a character is alone, unheard by others, to reveal private thoughts, while a monologue can be addressed to other characters who are present and listening. This distinction is a common area of confusion for candidates.",
+"id": "litx04014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Soliloquy na when character dey alone and talk im mind out. Monologue fit be long talk wey character talk give other people wey dey listen."
+},
+{
+"q": "A director stages a play in which a wealthy chief's downfall begins with painful betrayals and near-ruin, but through a sudden twist, he is reconciled with his estranged children and the play closes with celebration and forgiveness. Which dramatic type best fits this play?",
+"options": [
+"Pure tragedy",
+"Tragicomedy",
+"Farce",
+"Melodrama"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Tragicomedy blends serious, near-tragic circumstances with a resolution that avoids total disaster, often ending happily. The chief's near-ruin followed by reconciliation and celebration fits this definition precisely.",
+"id": "litx04015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Tragicomedy na play wey mix serious matter with happy ending. Because the chief suffer but come reconcile with im children, the play fit this category."
+},
+{
+"q": "At the climax of a play, the arrogant king Adewale is finally struck down after years of oppressing his people. As the lights dim, the audience, who had feared for the innocent characters and pitied the king's inevitable ruin, feel a strange sense of relief and emotional release. Which term best names what the audience experiences?",
+"options": [
+"Hamartia",
+"Catharsis",
+"Nemesis",
+"Peripeteia"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Catharsis is the purging or emotional release of pity and fear that the audience feels at the resolution of a tragedy. The description of the audience's relief after the king's downfall exactly matches this Aristotelian concept.",
+"id": "litx04016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Catharsis na that feeling of relief wey audience get after tragedy finish. E be like say the pity and fear wey dem get don comot for body."
+},
+{
+"q": "A critic argues that a particular play cannot be called a true classical tragedy because, although the hero suffers greatly, his suffering results entirely from a plague beyond his control rather than from any personal fault or decision of his own. Which element of classical tragedy is the critic saying is missing from the play?",
+"options": [
+"Catharsis",
+"Comic relief",
+"Hamartia",
+"Dramatic irony"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Classical tragedy requires that the hero's downfall stem from his own flaw or error in judgement, known as hamartia, not merely from external misfortune. Since the suffering here comes only from an uncontrollable plague, the play lacks this essential element.",
+"id": "litx04017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For classical tragedy, the hero must get one personal flaw wey cause im downfall, wey we dey call hamartia. If na just bad luck like plague cause the problem, then hamartia no dey."
+}
+],
+"rejected": []
+}

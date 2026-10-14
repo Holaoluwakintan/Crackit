@@ -1,0 +1,178 @@
+{
+"subject": "government",
+"topic": "Military rule in Nigeria",
+"ti": 14,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "The countercoup of July 1966, which brought General Yakubu Gowon to power, was primarily motivated by the desire of its planners to:",
+"options": [
+"Prevent the secession of the Eastern Region from Nigeria",
+"Check the perceived domination of the government by one section of the country",
+"Restore the deposed Sardauna of Sokoto to political office",
+"Hand over power immediately to civilian politicians"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The July 1966 countercoup was largely driven by northern officers who felt the January coup had been used to establish domination by one ethnic group, and they sought to correct this imbalance. It was not mainly about Biafra or an immediate civilian handover.",
+"id": "govx14000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na northern officers do di countercoup sake of say dem feel say one tribe dey control everything. Dem wan balance di power well well, no be say dem wan start war or hand over power sharp sharp."
+},
+{
+"q": "A key economic consequence of prolonged military rule on Nigeria's federalism was the:",
+"options": [
+"Strengthening of state governments' control over mineral resources",
+"Gradual weakening of fiscal federalism through centralised revenue allocation",
+"Abolition of the federal account for revenue sharing",
+"Transfer of taxing powers entirely to local governments"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Military regimes concentrated resource control and revenue allocation at the centre, weakening true fiscal federalism where states had more independent control over resources. The federal account was not abolished, and powers were not shifted to local governments or states as described.",
+"id": "govx14001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Military rule make everything dey center, so states no get enough power to control dia own money. Dis one come weaken how federalism suppose work for Nigeria."
+},
+{
+"q": "Which of the following best describes the Supreme Military Council under military rule in Nigeria?",
+"options": [
+"A body made up exclusively of state governors",
+"An advisory council with no binding powers over the Head of State",
+"The highest organ combining top military officers for major policy decisions",
+"A judicial panel for trying coup plotters"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The Supreme Military Council brought together senior military officers as the highest decision-making body during military rule. It was not merely advisory, nor was it composed only of governors or judges.",
+"id": "govx14002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Supreme Military Council na di highest place wey dem dey take big-big decision for military time. Na senior military officers full di place, no be just advisory body."
+},
+{
+"q": "One major argument used to justify prolonged military intervention in Nigerian politics was that the military would:",
+"options": [
+"Permanently replace the civil service with military officers",
+"Rule only through state governors without a central command",
+"Restore discipline and unity before returning power to civilians",
+"Abolish the federal structure in favour of a unitary state"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Military regimes often justified staying in power by claiming the need to restore order, discipline and national unity before eventually handing over to civilians. The other options describe actions not generally claimed as justification for intervention.",
+"id": "govx14003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Military people dey always talk say dem come to fix discipline and bring unity back to di country. Dem dey use dat one justify why dem stay long for power before dem hand over to civilians."
+},
+{
+"q": "A notable feature distinguishing the Murtala Mohammed regime from earlier military administrations was its:",
+"options": [
+"Introduction of a bicameral national assembly",
+"Massive and sudden purge of inefficient public officers",
+"Creation of the first set of states in Nigeria",
+"Formation of the first two-party system"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Murtala Mohammed regime was known for a sweeping purge of the public service to remove corrupt and inefficient officials, which was unusual in its scale. State creation had occurred earlier under Gowon, and the two-party system came later under Babangida.",
+"id": "govx14004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Murtala Mohammed regime popular well well because e sack plenty lazy and corrupt people for public service. Dat kind massive purge no happen for other military time like dat."
+},
+{
+"q": "Under military rule, the position of the Attorney-General of the Federation was significant mainly because the holder:",
+"options": [
+"Commanded the armed forces alongside the Head of State",
+"Served as the chief law officer advising the military government on legal matters",
+"Automatically became the next Head of State after a coup",
+"Controlled the national budget independently of the Head of State"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Attorney-General remained the principal legal adviser to government even under military rule, guiding the regime on constitutional and legal issues. The role did not include military command, succession, or independent budget control.",
+"id": "govx14005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Even for military time, Attorney-General still be di person wey dey advise government on wetin law talk. E no get power to command army or control budget."
+},
+{
+"q": "A major reason military regimes in Nigeria found it relatively easy to implement decisions quickly, compared to civilian governments, was that they:",
+"options": [
+"Required judicial approval before issuing any decree",
+"Needed a two-thirds majority vote of a national assembly",
+"Were not subject to debates and approval by an elected legislature",
+"Always consulted traditional rulers before taking action"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Since military governments combined executive and legislative powers and faced no elected parliament to debate or delay policies, decisions could be made and enforced swiftly. The other options describe checks that did not apply to military rule.",
+"id": "govx14006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Military government no get parliament or assembly wey go dey debate wetin dem wan do. Because dem hold executive and legislative power together, dem dey implement decisions very fast."
+},
+{
+"q": "The eventual return to civilian rule in 1999 under General Abdulsalami Abubakar's transition programme was notably different from the Babangista transition in that it:",
+"options": [
+"Involved the creation of more than ten new political parties",
+"Was completed within a relatively short and less protracted timetable",
+"Retained a military President as Head of State after the handover",
+"Cancelled the presidential election results after they were held"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Abdulsalami Abubakar's transition was comparatively swift, lasting less than a year, unlike the long and troubled Babangida transition that was eventually annulled. Power was fully handed to an elected civilian, and only a few parties were registered, not more than ten.",
+"id": "govx14007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Abdulsalami Abubakar transition no take time like Babangida own wey come end for wahala. E finish di whole process sharp sharp and hand over power to civilian government."
+}
+],
+"rejected": []
+}

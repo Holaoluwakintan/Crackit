@@ -1,0 +1,228 @@
+{
+"subject": "physics",
+"topic": "Photoelectric effect and energy quantisation",
+"ti": 23,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following observations in the photoelectric effect could NOT be explained by the classical wave theory of light, and led Einstein to propose the photon concept?",
+"options": [
+"Photoelectrons are emitted only when the frequency of light exceeds a certain threshold value, regardless of intensity",
+"Increasing the intensity of light increases the number of photoelectrons emitted",
+"Light can be reflected and refracted at a boundary between two media",
+"Light exhibits interference and diffraction patterns in Young's double slit experiment"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Classical wave theory predicted that emission should occur at any frequency given enough time or intensity, but experiments showed emission depends on frequency exceeding a threshold value instantly. This could only be explained by treating light as photons with discrete energy hf.",
+"py": null,
+"values": null,
+"id": "phyx23012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Classical wave theory bin think say light fit emit electron for any frequency if time dey. But experiment show say na only when frequency pass threshold value light go fit emit electron. Na Einstein photon theory explain say light dey come as discrete packet of energy hf."
+},
+{
+"q": "A metal surface with work function 2.2 eV is illuminated by light of wavelength 400 nm. Given h = 6.63 x 10^-34 Js, c = 3.0 x 10^8 m/s and 1 eV = 1.6 x 10^-19 J, calculate the maximum kinetic energy of the emitted photoelectrons in eV.",
+"options": [
+"0.907 eV",
+"3.107 eV",
+"1.293 eV",
+"4.970 eV"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Photon energy = hc/lambda = (6.63e-34 x 3.0e8)/(400e-9) = 4.97 x 10^-19 J = 3.107 eV. Maximum KE = photon energy minus work function = 3.107 - 2.2 = 0.907 eV.",
+"py": "((6.63e-34 * 3.0e8) / 400e-9) / 1.6e-19 - 2.2",
+"values": [
+0.907,
+3.107,
+1.293,
+4.97
+],
+"id": "phyx23014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "First, we calculate photon energy as hc/lambda, wey give us 3.107 eV. To get maximum kinetic energy, we subtract work function 2.2 eV from 3.107 eV. The final answer come be 0.907 eV."
+},
+{
+"q": "Blue light and red light of the same intensity are separately incident on a clean sodium plate, and both cause photoelectric emission. Which of the following statements correctly compares the photoelectrons produced?",
+"options": [
+"Photoelectrons produced by blue light have greater maximum kinetic energy than those produced by red light",
+"Photoelectrons produced by red light have greater maximum kinetic energy than those produced by blue light",
+"Both sets of photoelectrons have the same maximum kinetic energy since the intensities are equal",
+"The number of photoelectrons emitted depends only on the frequency of the light, not the intensity"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Blue light has a higher frequency than red light, so each photon of blue light carries more energy. Since maximum kinetic energy depends on frequency through hf - W0, blue light produces photoelectrons with greater kinetic energy.",
+"py": null,
+"values": null,
+"id": "phyx23015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Blue light get higher frequency pass red light, so e get more energy per photon. Since maximum kinetic energy depend on frequency, blue light go produce electron wey get more kinetic energy pass red light."
+},
+{
+"q": "In the context of energy quantisation, what does the term 'quantum of energy' mean as proposed by Max Planck?",
+"options": [
+"The smallest discrete packet of energy that can be absorbed or emitted by matter, equal to hf",
+"The total energy possessed by an electron in its lowest orbit around the nucleus",
+"The continuous flow of energy that can take on any value without restriction",
+"The amount of energy required to remove an electron completely from a metal surface"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Planck proposed that energy is not emitted or absorbed continuously but in discrete packets called quanta, each with energy E = hf. This idea of quantisation was central to resolving issues like blackbody radiation and the photoelectric effect.",
+"py": null,
+"values": null,
+"id": "phyx23017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Planck talk say energy no dey flow like water, e dey come in small-small packet wey we dey call quanta. Each packet get energy E = hf. This one na the main way to understand how energy dey behave for atomic level."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A photon has a frequency of 6.0 x 10^14 Hz. Using Planck's constant h = 6.63 x 10^-34 Js, calculate the energy of the photon.",
+"options": [
+"3.98 x 10^-19 J",
+"1.10 x 10^-48 J",
+"9.05 x 10^-20 J",
+"3.98 x 10^19 J"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Energy of a photon is given by E = hf. Substituting values: E = 6.63 x 10^-34 x 6.0 x 10^14 = 3.98 x 10^-19 J.",
+"py": "6.63e-34 * 6.0e14",
+"values": [
+3.98e-19,
+1.1e-48,
+9.05e-20,
+3.98e+19
+],
+"id": "phyx23010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "The work function of a certain metal is 3.0 x 10^-19 J. Using Planck's constant h = 6.63 x 10^-34 Js, calculate the threshold wavelength of the metal. (Take speed of light c = 3.0 x 10^8 m/s)",
+"options": [
+"6.63 x 10^-7 m",
+"4.52 x 10^-26 m",
+"9.0 x 10^-11 m",
+"2.21 x 10^-15 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Threshold wavelength is given by lambda0 = hc/W0 = (6.63 x 10^-34 x 3.0 x 10^8) / (3.0 x 10^-19) = 6.63 x 10^-7 m.",
+"py": "(6.63e-34 * 3.0e8) / 3.0e-19",
+"values": [
+6.63e-07,
+4.52e-26,
+9e-11,
+2.21e-15
+],
+"id": "phyx23011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "In a photoelectric experiment, electrons are emitted from a metal surface with a maximum kinetic energy of 2.4 x 10^-19 J when light of frequency 8.0 x 10^14 Hz is used. Using h = 6.63 x 10^-34 Js, calculate the work function of the metal.",
+"options": [
+"2.904 x 10^-19 J",
+"5.304 x 10^-19 J",
+"3.144 x 10^-19 J",
+"1.104 x 10^-18 J"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "From Einstein's equation, W0 = hf - KE(max) = (6.63 x 10^-34 x 8.0 x 10^14) - 2.4 x 10^-19 = 5.304 x 10^-19 - 2.4 x 10^-19 = 2.904 x 10^-19 J.",
+"py": "(6.63e-34 * 8.0e14) - 2.4e-19",
+"values": [
+2.904e-19,
+5.304e-19,
+3.144e-19,
+1.104e-18
+],
+"id": "phyx23013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "A photocell with a cesium cathode of work function 1.9 eV is exposed to light of frequency 7.0 x 10^14 Hz. Given h = 6.63 x 10^-34 Js and 1 eV = 1.6 x 10^-19 J, calculate the stopping potential needed to just stop the most energetic photoelectrons.",
+"options": [
+"1.00 V",
+"2.90 V",
+"0.69 V",
+"4.64 V"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Photon energy = hf = 6.63e-34 x 7.0e14 = 4.641e-19 J = 2.90 eV. Maximum KE = 2.90 - 1.9 = 1.00 eV, and since eVs = KE(max), the stopping potential equals 1.00 V numerically.",
+"py": "((6.63e-34 * 7.0e14) / 1.6e-19) - 1.9",
+"values": [
+1.0,
+2.9,
+0.69,
+4.64
+],
+"id": "phyx23016",
+"check": {
+"s1": "A",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:C"
+}
+]
+}

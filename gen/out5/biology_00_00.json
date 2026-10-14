@@ -1,0 +1,180 @@
+{
+"subject": "biology",
+"topic": "Variety of organisms: classification and the five kingdoms",
+"ti": 0,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A Biology teacher in Minna shows her SS3 class a chart listing seven taxonomic categories and asks the students to state the rank that is used to group together organisms capable of interbreeding to produce fertile offspring in nature. Which taxonomic rank is this?",
+"options": [
+"Genus",
+"Species",
+"Family",
+"Order"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A species is defined as a group of organisms that can interbreed freely under natural conditions and produce fertile offspring. This is the basic unit of classification.",
+"id": "biox00000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na species be di group of living things wey fit mate together for nature and born pikin wey sabi born too. Na di basic level of how dem dey arrange and group living things be dat."
+},
+{
+"q": "Which of the following best explains why the bacteria that cause tuberculosis and the bacteria that cause typhoid are both placed in the kingdom Monera despite causing very different diseases?",
+"options": [
+"They both lack a true nucleus and membrane-bound organelles",
+"They both reproduce only by forming spores in soil",
+"They both have cell walls made of cellulose",
+"They both carry out photosynthesis using chlorophyll a"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Kingdom Monera is defined mainly by the prokaryotic nature of its members, meaning they lack a true membrane-bound nucleus and other organelles. This single shared feature, not the disease caused, determines their classification.",
+"id": "biox00001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na because dem be prokaryotes, meaning say dem no get correct nucleus and other small structures inside dem. Na dis single thing dem share dey make dem join Monera, no be di sickness wey dem dey cause."
+},
+{
+"q": "A particular group of organisms is eukaryotic and multicellular, but unlike plants, members lack chlorophyll and cannot manufacture their own food; unlike animals, many have cell walls containing chitin and reproduce by means of spores. To which kingdom do these organisms belong?",
+"options": [
+"Protista",
+"Fungi",
+"Plantae",
+"Monera"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Fungi are eukaryotic, mostly multicellular, non-green organisms whose cell walls are made of chitin and which reproduce mainly by spores. These features distinguish them from both plants and animals.",
+"id": "biox00002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Fungi na organisms wey get nucleus, dem get plenty cells, but dem no get green color and dem dey use spores take born. Dis characteristics make dem different well well from plants and animals."
+},
+{
+"q": "A new species of insect has just been discovered in the Mambilla Plateau and is to be named according to the binomial system of nomenclature. Which of the following rules must be strictly followed in writing its scientific name?",
+"options": [
+"The genus name is written first in lower case and the species name second starting with a capital letter",
+"Both the genus and species names are written in full capital letters and underlined together",
+"The genus name starts with a capital letter, the species name starts with a lower case letter, and both are italicised or underlined",
+"The species name is written first followed by the genus name, with both names in italics"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "In binomial nomenclature, the genus name comes first with a capital initial letter and the species name follows with a lower case initial letter, with the whole name italicised or underlined when handwritten. Getting the order and capitalisation wrong is a common student error.",
+"id": "biox00003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For binomial system, genus name must start with capital letter, species name must start with small letter, and you must italicise or underline both of dem. If you miss dis rule, your answer don scatter."
+},
+{
+"q": "A taxonomist classifying a newly found organism observes the following: it is eukaryotic, unicellular, lacks a cell wall, moves using a whip-like flagellum, and contains no chlorophyll. In Whittaker's five-kingdom system, this organism would most likely be classified under which kingdom?",
+"options": [
+"Monera",
+"Protista",
+"Fungi",
+"Animalia"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The organism is eukaryotic and unicellular, which rules out Monera, Fungi and Animalia since those are either prokaryotic or mostly multicellular. Protista includes unicellular eukaryotes such as flagellated heterotrophic protozoans that lack chlorophyll and cell walls.",
+"id": "biox00005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Since di organism get nucleus and na just one cell e get, e no fit be Monera, Fungi or Animalia. Na Protista be di correct kingdom for unicellular organisms wey be like animals."
+},
+{
+"q": "Which of the following statements correctly describes a major advantage of the five-kingdom system of classification over the older two-kingdom system (Plantae and Animalia only)?",
+"options": [
+"It completely eliminates the need for the binomial system of naming organisms",
+"It separates organisms based only on their size and habitat rather than cell structure",
+"It properly accommodates prokaryotic organisms and fungi in groups distinct from plants and animals",
+"It groups all organisms with chlorophyll into a single kingdom regardless of cell type"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The two-kingdom system forced bacteria and fungi awkwardly into Plantae even though they differ greatly in cell structure and nutrition. The five-kingdom system corrects this by giving prokaryotes and fungi their own separate kingdoms based on real biological differences.",
+"id": "biox00006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di old two-kingdom system dey suffer bacteria and fungi inside plants even though dem no be mates. Di five-kingdom system come arrange am well by giving bacteria and fungi dia own separate house based on how dem body be."
+},
+{
+"q": "In a class test, four students gave reasons why Euglena, a tiny pond organism, is classified in kingdom Protista rather than kingdom Plantae even though it contains chlorophyll. Which reason given below is most correct?",
+"options": [
+"It is unicellular and can also feed heterotrophically when light is unavailable",
+"It has a rigid cellulose cell wall like higher plants",
+"It is multicellular with specialised tissues for photosynthesis",
+"It lacks chlorophyll completely and depends only on absorbing dissolved food"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Euglena is a unicellular organism that can photosynthesise in light but switch to heterotrophic feeding in the dark, a mixed lifestyle not typical of true plants. This combination of features, along with its lack of a true cellulose cell wall, places it in Protista instead of Plantae.",
+"id": "biox00007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Euglena na just one cell wey fit make food with light, and e still fit find food chop when light no dey. Dis kind life style plus say e no get strong plant cell wall na im put am for Protista."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Four students were asked to list features of organisms belonging to kingdom Plantae. Which of the following features listed is INCORRECT for this kingdom?",
+"options": [
+"Cell walls made mainly of cellulose",
+"Presence of chlorophyll for photosynthesis",
+"Autotrophic mode of nutrition",
+"Ability to move actively from place to place using muscles"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Plants are generally fixed in one place and lack muscles for active locomotion, unlike animals. The other three features listed are all correct characteristics of kingdom Plantae.",
+"id": "biox00004",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

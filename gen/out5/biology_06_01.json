@@ -1,0 +1,181 @@
+{
+"subject": "biology",
+"topic": "Respiration: aerobic, anaerobic and respiratory organs",
+"ti": 6,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A toad kept moist in a humid terrarium can exchange gases through its skin in addition to its lungs. Which of the following conditions is essential for this type of respiration to occur efficiently?",
+"options": [
+"The skin must be thick and dry",
+"The skin must remain moist and well supplied with blood capillaries",
+"The skin must be covered with scales",
+"The skin must contain many sweat glands"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Gases must dissolve in a moist film before they can diffuse across a respiratory surface, so the skin needs to stay moist and have a rich blood supply to carry the gases away. A thick or scaly dry skin would prevent diffusion.",
+"id": "biox06010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Gas must first dissolve for water before e go fit enter body. So, the skin must dey wet and get plenty blood vessels to carry the gas go round."
+},
+{
+"q": "Which pair of structures correctly represents the main respiratory organs used by a tadpole at the early larval stage and the adult frog it later becomes?",
+"options": [
+"Gills in the tadpole; lungs and skin in the adult",
+"Lungs in the tadpole; gills in the adult",
+"Tracheae in the tadpole; gills in the adult",
+"Skin only in the tadpole; tracheae in the adult"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A young tadpole breathes using external then internal gills like a fish, but as it metamorphoses into an adult frog, it develops lungs and also uses its moist skin for gaseous exchange. This change reflects its shift from fully aquatic to partly terrestrial life.",
+"id": "biox06011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Small tadpole dey use gills like fish to breathe inside water. When e grow reach adult frog, e go develop lungs and use e wet skin to breathe for land."
+},
+{
+"q": "A culture of yeast cells was grown under strictly anaerobic conditions in a glucose solution for several hours. Chemical tests on the medium would most likely confirm the presence of which two substances as end products?",
+"options": [
+"Lactic acid and oxygen",
+"Ethanol and carbon(IV) oxide",
+"Water and carbon(IV) oxide",
+"Glucose and oxygen"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In the absence of oxygen, yeast carries out alcoholic fermentation, breaking down glucose into ethanol and carbon(IV) oxide gas. This process releases much less energy than aerobic respiration.",
+"id": "biox06012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When yeast no see oxygen, e dey break down glucose to produce ethanol and carbon(IV) oxide. This one na wetin we dey call alcoholic fermentation."
+},
+{
+"q": "A biology student set up an experiment to compare energy release from a measured mass of glucose broken down completely by aerobic respiration with the same mass broken down by anaerobic respiration in muscle cells. Which observation would correctly support the expected outcome?",
+"options": [
+"Anaerobic respiration releases far more energy because glucose is only partly used",
+"Aerobic respiration releases far more energy because glucose is completely oxidised to carbon(IV) oxide and water",
+"Both processes release exactly the same amount of energy from the same mass of glucose",
+"Anaerobic respiration releases more energy because no oxygen is needed to start the reaction"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Aerobic respiration completely breaks down glucose into carbon(IV) oxide and water, releasing a much larger amount of stored chemical energy than anaerobic respiration, which only partially breaks down glucose into lactic acid or ethanol. This is why anaerobic respiration is far less efficient.",
+"id": "biox06013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Aerobic respiration dey break glucose finish reach carbon(IV) oxide and water, so e dey give more energy. Anaerobic respiration no dey break glucose finish, so e no dey give plenty energy."
+},
+{
+"q": "During vigorous digging, an earthworm's moist cuticle becomes its main respiratory surface. A student argues that if the soil around the earthworm becomes completely dry for a long period, the worm will likely die from respiratory failure even though oxygen is still present in the air. Which reason best explains this?",
+"options": [
+"Dry conditions increase the rate of diffusion of oxygen into the worm",
+"Oxygen cannot dissolve in a dry cuticle, so gaseous exchange cannot take place",
+"The earthworm switches permanently to anaerobic respiration in dry soil",
+"A dry cuticle increases the worm's surface area for gaseous exchange"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The earthworm has no lungs or gills, so its cuticle must stay moist for oxygen to dissolve and diffuse into its blood vessels. If the cuticle dries out, gases can no longer be exchanged across it, leading to suffocation despite oxygen being available in the air.",
+"id": "biox06015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Earthworm skin must dey wet so oxygen go fit dissolve enter inside. If the skin dry, oxygen no go fit enter, and the worm go suffocate and die."
+},
+{
+"q": "A sprinter at an inter-house sports competition in Lagos continued running fast even after her breathing could no longer supply enough oxygen to her leg muscles. Which statement correctly describes what happens in her muscle cells at this point?",
+"options": [
+"Her muscles stop producing any form of energy until oxygen supply improves",
+"Her muscle cells switch to anaerobic respiration, converting glucose to lactic acid and building up an oxygen debt",
+"Her muscle cells begin to convert glucose directly into carbon(IV) oxide and ethanol",
+"Her muscle cells increase the rate of the Krebs cycle to compensate for the oxygen shortage"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When oxygen supply cannot meet demand during intense exercise, muscle cells switch to anaerobic respiration, breaking down glucose into lactic acid and creating an oxygen debt that must later be repaid. Ethanol production only occurs in organisms like yeast and plants, not in human muscle.",
+"id": "biox06017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When oxygen no reach muscle well during running, the body dey switch to anaerobic respiration. This one dey turn glucose to lactic acid and create oxygen debt."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the human respiratory system, which sequence correctly shows the pathway followed by inhaled air from the nose to the site of gaseous exchange?",
+"options": [
+"Nose, larynx, trachea, bronchus, bronchiole, alveolus",
+"Nose, trachea, larynx, bronchiole, bronchus, alveolus",
+"Nose, pharynx, larynx, trachea, bronchus, bronchiole, alveolus",
+"Nose, bronchus, trachea, larynx, bronchiole, alveolus"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Air drawn in through the nose passes through the pharynx, then the larynx, down the trachea, into a bronchus, through the bronchioles and finally reaches the alveoli where gaseous exchange occurs. Knowing this order helps avoid confusing the positions of the larynx and pharynx.",
+"id": "biox06014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:A also gives the correct order but omits the pharynx.|"
+},
+{
+"q": {
+"q": "A respirometer experiment was set up with germinating maize seeds in one flask and an equal mass of dormant maize seeds in another identical flask, both kept at the same temperature. After one hour, the liquid in the manometer connected to the germinating seeds moved much further than that connected to the dormant seeds. What does this result mainly indicate?",
+"options": [
+"Dormant seeds respire faster than germinating seeds",
+"Germinating seeds have a higher rate of aerobic respiration than dormant seeds",
+"Germinating seeds release more carbon(IV) oxide than oxygen they consume",
+"Dormant seeds use anaerobic respiration exclusively"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Germinating seeds are metabolically very active, using a lot of oxygen for aerobic respiration to provide energy for growth, so the manometer fluid moves further to show greater oxygen uptake. Dormant seeds have very low metabolic activity and therefore consume far less oxygen.",
+"id": "biox06016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:No carbon(IV) oxide absorbent is specified; manometer movement alone does not establish oxygen uptake.|"
+}
+]
+}

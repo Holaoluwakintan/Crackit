@@ -1,0 +1,220 @@
+{
+"subject": "chemistry",
+"topic": "Stoichiometry and the mole concept",
+"ti": 5,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A compound has the molecular formula C4H8O2 and a molar mass of 88 g/mol. If its empirical formula mass is 44, what is the simplest (empirical) formula of the compound? [C = 12, H = 1, O = 16]",
+"options": [
+"C2H4O",
+"C4H8O2",
+"C2H4O2",
+"C3H6O2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Dividing the molecular formula by 2 (since 88/44 = 2) gives the empirical formula C2H4O. This is the simplest whole-number ratio of atoms.",
+"py": null,
+"values": null,
+"id": "chex05000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you divide the molecular formula C4H8O2 by 2, since 88/44 = 2, you go get the empirical formula C2H4O. Na im be the simplest whole-number ratio of atoms."
+},
+{
+"q": "Which of the following best states the law of conservation of mass as applied in balancing chemical equations?",
+"options": [
+"The number of moles of reactants equals the number of moles of products",
+"The total mass of reactants equals the total mass of products in a chemical reaction",
+"The volume of gaseous reactants equals the volume of gaseous products",
+"The number of molecules of reactants equals the number of molecules of products"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The law of conservation of mass states that matter is neither created nor destroyed, so total mass of reactants equals total mass of products. Moles, molecules and volumes can differ between reactants and products.",
+"py": null,
+"values": null,
+"id": "chex05002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Law of conservation of mass talk say matter no dey scatter or vanish, na why the total mass of reactants must equal the total mass of products. Moles, molecules and volumes fit different, but mass must balance."
+},
+{
+"q": "Calculate the mass of iron(III) oxide, Fe2O3, that contains 0.6 mol of iron atoms. [Fe = 56, O = 16]",
+"options": [
+"48.0 g",
+"32.0 g",
+"53.6 g",
+"24.0 g"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Each mole of Fe2O3 contains 2 mol Fe, so 0.6 mol Fe comes from 0.3 mol Fe2O3. Molar mass of Fe2O3 = 160 g/mol, so mass = 0.3 x 160 = 48.0 g.",
+"py": "(0.6/2)*((56*2)+(16*3))",
+"values": [
+48.0,
+32.0,
+53.6,
+24.0
+],
+"id": "chex05003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Each mole of Fe2O3 get 2 mol Fe, so 0.6 mol Fe mean say we get 0.3 mol of Fe2O3. Since molar mass of Fe2O3 na 160 g/mol, just multiply 0.3 by 160 to get 48.0 g."
+},
+{
+"q": "What is the mole fraction of solute in a solution containing 2 mol of glucose dissolved in 18 mol of water?",
+"options": [
+"0.10",
+"0.11",
+"0.90",
+"1.11"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Mole fraction of glucose = moles of glucose / total moles = 2 / (2+18) = 2/20 = 0.10. This shows mole fraction is always a ratio of component moles to total moles.",
+"py": "2/(2+18)",
+"values": [
+0.1,
+0.11,
+0.9,
+1.11
+],
+"id": "chex05006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find mole fraction of glucose, divide the moles of glucose by the total moles, wey be 2 divided by (2 plus 18). That one give you 2 over 20, wey come be 0.10."
+},
+{
+"q": "Which of the following statements correctly describes Avogadro's law as used in stoichiometric calculations involving gases?",
+"options": [
+"Equal volumes of all gases at the same temperature and pressure contain equal numbers of molecules",
+"Equal masses of all gases at STP occupy equal volumes",
+"The volume of a gas is directly proportional to its molar mass at constant temperature",
+"Equal volumes of all gases contain equal masses at any temperature and pressure"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Avogadro's law states that equal volumes of gases at the same temperature and pressure contain equal numbers of molecules, regardless of their identity. This underlies mole-ratio calculations from balanced equations for gaseous reactants and products.",
+"py": null,
+"values": null,
+"id": "chex05007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Avogadro law talk say equal volumes of any gas under the same temperature and pressure must carry the same number of molecules. Na dis rule dey help us do gas calculations for chemistry."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Chinwe dissolves 4.0 g of sodium hydroxide, NaOH, in distilled water to make 250 cm3 of solution. What is the molar concentration of the solution? [Na = 23, O = 16, H = 1]",
+"options": [
+"0.10 mol/dm3",
+"0.16 mol/dm3",
+"0.40 mol/dm3",
+"1.60 mol/dm3"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Molar mass of NaOH = 40 g/mol, so moles = 4.0/40 = 0.1 mol. Concentration = 0.1 mol / 0.25 dm3 = 0.4 mol/dm3.",
+"py": "(4.0/40)/0.250",
+"values": [
+0.1,
+0.16,
+0.4,
+1.6
+],
+"id": "chex05001",
+"check": {
+"s1": "C",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:B"
+},
+{
+"q": {
+"q": "A gas sample contains 3.01 x 10^23 molecules of oxygen, O2. What is the mass of this sample? [O = 16, Avogadro's constant = 6.02 x 10^23 /mol]",
+"options": [
+"8.0 g",
+"16.0 g",
+"32.0 g",
+"4.0 g"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Moles of O2 = 3.01 x 10^23 / 6.02 x 10^23 = 0.5 mol. Mass = 0.5 x 32 = 16.0 g is wrong; correct check: 0.5 mol x 32 g/mol = 16.0 g, so the mass is 16.0 g, not 8.0 g.",
+"py": "(3.01e23/6.02e23)*32",
+"values": [
+8.0,
+16.0,
+32.0,
+4.0
+],
+"id": "chex05004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "Limiting reagent concept: 4.0 g of hydrogen gas is reacted with 16.0 g of oxygen gas according to the equation 2H2(g) + O2(g) -> 2H2O(g). Which reactant is in excess, and by how many grams does it exceed the amount required?",
+"options": [
+"Oxygen is in excess by 4.0 g",
+"Hydrogen is in excess by 4.0 g",
+"Oxygen is in excess by 8.0 g",
+"Hydrogen is in excess by 2.0 g"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "4.0 g H2 = 2.0 mol, needing 1.0 mol O2 (32.0 g), but only 16.0 g O2 is given. Check again: 16.0 g O2 = 0.5 mol, needing 1.0 mol H2 (2.0 g), so H2 (4.0 g) is in excess by 2.0 g while O2 is fully used; correctly, hydrogen required is 2.0 g, leaving 2.0 g H2 unused, meaning hydrogen is in excess by 2.0 g.",
+"py": null,
+"values": null,
+"id": "chex05005",
+"check": {
+"s1": "D",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:D"
+}
+]
+}

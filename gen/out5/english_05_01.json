@@ -1,0 +1,197 @@
+{
+"subject": "english",
+"topic": "Prepositions and phrasal verbs",
+"ti": 5,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best completes the gap. The new intern was told to look ___ the filing system before attempting to reorganise it.",
+"options": [
+"into",
+"after",
+"up",
+"for"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Look into means to investigate or examine something carefully. The sentence requires the intern to study the system before changing it, which fits this meaning.",
+"values": null,
+"py": null,
+"id": "engx05010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Look into mean say make you check something well-well. Since the intern need to study the system before e change am, na the correct word be that."
+},
+{
+"q": "Choose the option that best completes the gap. Instead of confessing immediately, the suspect tried to talk his way ___ the accusation.",
+"options": [
+"out of",
+"into",
+"over",
+"through"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Talk your way out of something means to use clever speech to avoid blame or trouble. The suspect was trying to escape the accusation by talking, so this phrase fits.",
+"values": null,
+"py": null,
+"id": "engx05012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Talk your way out of something mean say you dey use better talk take comot from trouble. The suspect dey try use talk escape the blame."
+},
+{
+"q": "Choose the option that best completes the gap. The governor's speech touched ___ several sensitive issues without going into full detail on any of them.",
+"options": [
+"on",
+"at",
+"by",
+"in"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Touch on means to mention a subject briefly. The sentence shows the governor mentioned issues without detailed discussion, which is the exact meaning of this phrasal verb.",
+"values": null,
+"py": null,
+"id": "engx05013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Touch on mean say you just mention something small-small. The governor talk about the matter but e no go deep inside."
+},
+{
+"q": "In the following sentence, identify the option that is used in the same way as the capitalised preposition. The teacher stood BY her promise to reward the best student in the class.",
+"options": [
+"The workers protested BY the gate of the factory",
+"She has always stood BY her husband through difficult times",
+"The thief ran away BY the back door",
+"He arrived BY six o'clock as promised"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In the given sentence, stood BY means remained loyal to or supported a commitment. Only the second option uses stood BY with this same meaning of supporting someone faithfully.",
+"values": null,
+"py": null,
+"id": "engx05014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Stood by for the sentence mean say you dey loyal to your promise. Na only the second option get that same meaning of support."
+},
+{
+"q": "Choose the option that best completes the gap. Because the two brothers could not see eye ___ eye on how to share their late father's land, the matter was taken to the family elders.",
+"options": [
+"to",
+"with",
+"on",
+"for"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "See eye to eye is a fixed idiomatic expression meaning to agree with someone. The sentence describes disagreement between the brothers, so the correct preposition completing this idiom is required.",
+"values": null,
+"py": null,
+"id": "engx05015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "See eye to eye na idiom wey mean say two people agree. Since the brothers no agree, na that preposition be the correct one for the idiom."
+},
+{
+"q": "Read the passage and answer the question that follows. Tunde had always wanted to set up his own transport business in Ibadan. After saving diligently for three years, he finally gathered enough capital. However, just when he was about to purchase his first bus, the price of vehicles shot up due to a sudden rise in import duties. Tunde had to put off his plans and continue saving, hoping that prices would eventually come down. What does the phrase 'put off' mean as used in the passage?\n\nWhich option best explains why Tunde 'put off' his plans?",
+"options": [
+"He cancelled his business plans completely",
+"He postponed his plans to a later time",
+"He changed his plans to a different business",
+"He discouraged others from starting the business"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Put off means to delay or postpone something to another time. The passage shows Tunde still intends to buy the bus later once prices improve, showing postponement rather than cancellation.",
+"values": null,
+"py": null,
+"id": "engx05016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Put off mean say you shift something to another time. Tunde no cancel him plan, e just wait make price come down first."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap. Grandmother cautioned the children to do ___ the biscuits sparingly since no more would be bought till month end.",
+"options": [
+"away with",
+"without",
+"with",
+"up with"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Do without means to manage without something. Since the biscuits were limited, the children were being asked to use them sparingly, which matches doing without excess.",
+"values": null,
+"py": null,
+"id": "engx05011",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap. The auditors discovered that the company's accountant had been cooking ___ the books for over two years before he was caught.",
+"options": [
+"up",
+"over",
+"off",
+"down"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Cook up the books is an idiomatic phrasal verb meaning to falsify financial records. The context of an accountant being caught after dishonest practice confirms this specific idiomatic meaning rather than a literal one.",
+"values": null,
+"py": null,
+"id": "engx05017",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

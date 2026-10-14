@@ -1,0 +1,175 @@
+{
+"subject": "literature",
+"topic": "Literary terms and genres (satire, allegory, fable, bildungsroman, picaresque)",
+"ti": 6,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which literary term best describes a prose narrative that uses irony, wit, and exaggeration to expose and ridicule human vices such as greed, hypocrisy, and corruption, with the ultimate aim of correcting society?",
+"options": [
+"Elegy",
+"Satire",
+"Eulogy",
+"Lampoon alone"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Satire is the literary device that combines irony, wit, and exaggeration to criticize human folly or vice, usually with the intention of prompting reform. Elegy mourns the dead, and a eulogy simply praises someone.",
+"id": "litx06010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Satire na di way wey dem dey use irony and wit take mock human foolishness so dat society go change. Elegy na for dead person, and eulogy na just to praise person."
+},
+{
+"q": "Read this extract: 'Alhaji Sango, the self-styled 'Lion of the Senate', roared about fighting poverty from his air-conditioned convoy while the drought-stricken villagers he represented trekked for miles to fetch muddy water.' This passage is best described as an example of which literary technique?",
+"options": [
+"Satire through irony",
+"Pure tragedy",
+"Straightforward biography",
+"Dramatic monologue"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The contrast between the senator's grand claims and the suffering of his people creates irony that ridicules his hypocrisy, which is the hallmark of satire. It is not a tragedy, biography, or monologue since its purpose is mockery, not mere narration.",
+"id": "litx06011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di contrast between wetin di senator talk and how di people dey suffer na irony wey show say e dey hypocritical. Dis one na satire because e dey mock di man, e no be tragedy or biography."
+},
+{
+"q": "A fable is distinguished from other short narrative forms mainly by which combination of features?",
+"options": [
+"A long, multi-generational plot with historical battles",
+"Human heroes who undergo gradual psychological change",
+"Brief length, animal or object characters, and an explicit moral",
+"A single speaker addressing a silent listener in verse"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A fable is a short tale, often with talking animals or objects as characters, that ends with a clearly stated moral lesson. The other options describe features of epics, bildungsromans, or dramatic monologues respectively.",
+"id": "litx06012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Fable na short story wey dey use animal or object as character to teach moral lesson. Epics and other forms get different style, but fable must get dat moral lesson at di end."
+},
+{
+"q": "In a bildungsroman, the central focus of the plot is usually on which of the following?",
+"options": [
+"A detective's investigation of a single crime",
+"The gradual moral, emotional, and intellectual growth of the protagonist from youth to maturity",
+"A series of loosely connected comic misadventures with no character change",
+"The downfall of a noble hero caused by a single fatal flaw"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Bildungsroman literally means 'novel of formation' and traces a protagonist's development and maturing over time. A detective plot, a comic adventure without growth, or a tragic flaw plot describes other genres such as mystery, picaresque, or tragedy.",
+"id": "litx06013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Bildungsroman mean say di story dey follow how person grow from small pikin reach adult. E dey focus on how di character change for mind and character as time dey go."
+},
+{
+"q": "A writer composes a story in which a greedy Spider tricks all the other animals out of their harvest, is finally caught, and the tale ends with the line: 'And that is why Spider must always hide in dark corners, ashamed of his greed.' Which literary form does this best illustrate?",
+"options": [
+"Tragedy",
+"Fable",
+"Satire of real politicians",
+"Epic"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The short animal story ending with an explicit moral lesson is the defining feature of a fable. It is not a tragedy or epic, and since the characters are animals rather than real identifiable politicians, it is not political satire.",
+"id": "litx06015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because di story use animal and e get moral lesson for end, na fable be dat. E no be tragedy or epic because e no get serious historical matter or tragic ending."
+},
+{
+"q": "Which of these statements correctly describes a key structural feature shared by both allegory and fable, despite their differences in length and intended audience?",
+"options": [
+"Both rely on characters or events that carry a second, symbolic meaning beyond the literal story",
+"Both must always be written as stage plays with dialogue only",
+"Both are strictly limited to describing historical wars",
+"Both forbid the use of animal characters entirely"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Allegory and fable both use characters, settings, or events that stand for something beyond their literal meaning, whether moral lessons or abstract ideas. Neither form is restricted to plays, war stories, or a ban on animal characters.",
+"id": "litx06016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Both allegory and fable dey use character or event to represent something wey dey deeper pass wetin we dey see for surface. Dem no be just ordinary story, dem get hidden meaning."
+},
+{
+"q": "A literature student reads two novels: Novel X follows a roguish orphan who drifts from town to town living by his cunning, remaining essentially the same trickster from the first page to the last. Novel Y follows a shy boy who, through years of schooling, heartbreak, and hard work, grows into a thoughtful, responsible man. Which pair of genre labels correctly matches Novel X and Novel Y respectively?",
+"options": [
+"Novel X is an allegory; Novel Y is a fable",
+"Novel X is a picaresque novel; Novel Y is a bildungsroman",
+"Novel X is a bildungsroman; Novel Y is a picaresque novel",
+"Novel X is a tragedy; Novel Y is a satire"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Novel X matches the picaresque pattern of an unchanging roguish wanderer surviving by wit, while Novel Y matches the bildungsroman pattern of a protagonist maturing over time through experience. The other pairings reverse or misapply these genre definitions.",
+"id": "litx06017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Picaresque novel dey follow rogue person wey no dey change, but bildungsroman dey follow person wey dey grow and mature. Na why Novel X be picaresque and Novel Y be bildungsroman."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best explains why a picaresque narrative is usually NOT classified as a bildungsroman, even though both may follow a single main character through many experiences?",
+"options": [
+"Picaresque heroes are always royalty, while bildungsroman heroes are always poor",
+"A picaresque hero remains largely unchanged in character despite many adventures, while a bildungsroman hero undergoes genuine inner development",
+"Picaresque stories are always written in verse, while bildungsroman stories are always written in prose",
+"Bildungsroman stories never include travel, while picaresque stories are set in only one town",
+"None of these distinctions are valid"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The picaresque hero typically survives by wit and trickery across many episodes but shows little real moral or psychological growth, whereas the bildungsroman protagonist matures meaningfully through experience. The claims about social class, verse versus prose, or setting are not true distinguishing features.",
+"values": null
+},
+"why": "bad-shape"
+}
+]
+}

@@ -1,0 +1,180 @@
+{
+"subject": "biology",
+"topic": "Transport in plants and animals: blood, heart, xylem and phloem, transpiration",
+"ti": 5,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Chidinma set up a potometer with a leafy shoot and recorded the distance moved by an air bubble in 10 minutes under four different conditions: still air, a fan blowing air across the shoot, a humid plastic bag covering the shoot, and bright light. Under which condition would the bubble move slowest?",
+"options": [
+"Still air with no additional treatment",
+"Fan blowing air across the leaves",
+"Shoot enclosed in a humid plastic bag",
+"Shoot exposed to bright light"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "High humidity around the leaf reduces the water vapour concentration gradient between the leaf and the air, so transpiration and water uptake slow down greatly. This makes the bubble move the least distance.",
+"id": "biox05000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When humidity dey high, water no dey quick evaporate from leaf. This one come make transpiration slow down, so the bubble no go move fast."
+},
+{
+"q": "Which blood vessel in the mammalian circulatory system carries deoxygenated blood away from the heart to the lungs?",
+"options": [
+"Pulmonary artery",
+"Pulmonary vein",
+"Hepatic artery",
+"Renal vein"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The pulmonary artery carries deoxygenated blood from the right ventricle to the lungs for gaseous exchange. It is the only artery in the body that carries deoxygenated blood.",
+"id": "biox05001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na pulmonary artery dey carry blood wey no get oxygen from heart go lungs. Na only this artery dey carry deoxygenated blood for body."
+},
+{
+"q": "A gardener in Jos ring-barked a tree by removing a complete strip of bark around the trunk but left the wood intact. After some weeks, he observed swelling just above the cut. What is the most likely explanation for this observation?",
+"options": [
+"Water movement in the xylem was blocked, causing wilting above the cut",
+"Manufactured food accumulated above the cut because the phloem was removed",
+"Root pressure forced excess water to collect above the cut",
+"Mineral salts failed to reach the leaves, causing swelling"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ring-barking removes the phloem, which transports manufactured food from the leaves downward. Since the food cannot pass the cut, it accumulates above the ring, causing swelling.",
+"id": "biox05002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Phloem na im dey carry food from leaf go down. If you cut the bark, food go stop for top and cause swelling because e no fit pass go down."
+},
+{
+"q": "In the mammalian heart, which structure separates the right atrium from the right ventricle and prevents backflow of blood into the atrium during ventricular contraction?",
+"options": [
+"Bicuspid valve",
+"Tricuspid valve",
+"Semilunar valve",
+"Pulmonary valve"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The tricuspid valve lies between the right atrium and right ventricle and closes during ventricular contraction to prevent blood from flowing back into the atrium. The bicuspid valve performs this role on the left side instead.",
+"id": "biox05003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Tricuspid valve dey between right atrium and right ventricle. E dey close so blood no go flow back enter atrium when heart dey contract."
+},
+{
+"q": "Which of the following best explains why root pressure alone cannot account for water rising to the top of very tall trees?",
+"options": [
+"Root pressure only operates at night and stops during the day",
+"Root pressure is too weak to overcome gravity and resistance in tall xylem columns",
+"Root pressure pushes water only into the phloem, not the xylem",
+"Root pressure depends on transpiration, which does not occur in tall trees"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Root pressure generates only a modest force, which is insufficient to lift water to the height of tall trees due to gravity and frictional resistance in the xylem. Instead, the cohesion-tension mechanism driven by transpiration pull is the main force responsible for water rising in tall trees.",
+"id": "biox05005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Root pressure no get power to push water reach top of tall trees. Gravity and friction too much, so na transpiration pull dey do the main work."
+},
+{
+"q": "A sample of mammalian blood was centrifuged and separated into layers. Which of the following components would be found in the straw-coloured liquid layer at the top?",
+"options": [
+"Red blood cells and platelets",
+"White blood cells only",
+"Plasma containing dissolved proteins and salts",
+"Haemoglobin bound to oxygen"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Centrifuging blood separates it into plasma on top and cellular components below. Plasma is the straw-coloured liquid that carries dissolved proteins, salts, hormones, and other substances.",
+"id": "biox05006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you spin blood, the top part wey be like straw na plasma. Na inside plasma all the protein and salt dey float."
+},
+{
+"q": "A student compared the walls of xylem vessels and phloem sieve tubes under a microscope. Which of the following is a correct structural difference between the two tissues?",
+"options": [
+"Xylem vessels have lignified walls and no living contents at maturity, while phloem sieve tubes have thin walls and living cytoplasm",
+"Xylem vessels possess companion cells, while phloem sieve tubes do not",
+"Phloem sieve tubes are lignified for strength, while xylem vessels remain unlignified",
+"Xylem vessels transport food substances, while phloem sieve tubes transport water"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Mature xylem vessels are dead, hollow, and lignified, which suits them for conducting water under tension. Phloem sieve tubes are living but lack a nucleus, and they rely on adjacent companion cells for metabolic support.",
+"id": "biox05007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Xylem get lignin for wall and e no get life again when e mature. Phloem still get living cytoplasm and e dey use companion cells to survive."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Four leafy shoots of similar size were treated as follows: Shoot 1 had its lower epidermis smeared with Vaseline, Shoot 2 had its upper epidermis smeared with Vaseline, Shoot 3 was left untreated, and Shoot 4 had both surfaces smeared with Vaseline. If weight loss due to transpiration was measured after 2 hours, which order correctly ranks the shoots from greatest to least water loss?",
+"options": [
+"Shoot 4, Shoot 3, Shoot 2, Shoot 1",
+"Shoot 3, Shoot 2, Shoot 1, Shoot 4",
+"Shoot 1, Shoot 3, Shoot 2, Shoot 4",
+"Shoot 3, Shoot 1, Shoot 2, Shoot 4"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Most stomata are on the lower epidermis, so blocking it (Shoot 2) reduces water loss more than blocking the upper epidermis (Shoot 1). The untreated shoot loses the most water, and the shoot with both surfaces sealed loses the least since transpiration is almost completely blocked.",
+"id": "biox05004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Assumes more stomata on the lower epidermis; leaf type unspecified.|"
+}
+]
+}

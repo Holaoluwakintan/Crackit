@@ -1,0 +1,197 @@
+{
+"subject": "chemistry",
+"topic": "Carbon and its compounds: allotropes, oxides, carbonates and hydrogencarbonates",
+"ti": 20,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Diamond and graphite are both allotropes of carbon but differ greatly in their physical properties. Which of the following correctly explains why graphite conducts electricity while diamond does not?",
+"options": [
+"Graphite has free mobile electrons due to delocalised pi electrons, while all four electrons of each carbon atom in diamond are used in covalent bonding",
+"Graphite atoms are ionically bonded while diamond atoms are covalently bonded",
+"Diamond has a lower density than graphite, which prevents electron flow",
+"Graphite contains metallic impurities that conduct electricity"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In graphite, each carbon atom uses only three of its four valence electrons for covalent bonding within its layer, leaving one delocalised electron free to move and conduct electricity. In diamond, all four valence electrons of each carbon atom are involved in strong covalent bonds, so there are no free electrons.",
+"py": null,
+"values": null,
+"id": "chex20010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For graphite, each carbon atom dey use three electrons for bonding and leave one free to move and carry current. But for diamond, all four electrons tight well well for strong covalent bonds, so free electron no dey."
+},
+{
+"q": "A student heated 25.0 g of calcium trioxocarbonate(IV), CaCO3, strongly until it was completely decomposed. [Ca = 40, C = 12, O = 16]. What mass of calcium oxide, CaO, was produced?",
+"options": [
+"10.0 g",
+"14.0 g",
+"22.4 g",
+"28.0 g"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "CaCO3 decomposes as CaCO3 -> CaO + CO2. Molar mass of CaCO3 = 100 g/mol and CaO = 56 g/mol, so 25.0 g of CaCO3 gives (56/100) x 25.0 = 14.0 g of CaO.",
+"py": "(56/100)*25.0",
+"values": [
+10.0,
+14.0,
+22.4,
+28.0
+],
+"id": "chex20011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As CaCO3 dey break down to CaO and CO2, we see say 100 g of CaCO3 dey produce 56 g of CaO. When you calculate am for 25.0 g of CaCO3, na 14.0 g of CaO you go get."
+},
+{
+"q": "Sodium hydrogentrioxocarbonate(IV), NaHCO3, is commonly used in baking and as an antacid. Which property of this compound makes it suitable as an antacid for treating excess stomach acid?",
+"options": [
+"It is strongly alkaline and corrosive, so it destroys the acid completely on contact",
+"It is a weak base that reacts with hydrochloric acid in the stomach to form a soluble neutral salt, water and carbon(IV) oxide gas",
+"It is insoluble in water and coats the stomach lining to block acid",
+"It reacts with stomach acid to form an insoluble precipitate that is excreted"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Sodium hydrogentrioxocarbonate(IV) is mildly basic and reacts with hydrochloric acid in gastric juice: NaHCO3 + HCl -> NaCl + H2O + CO2. This neutralises the excess acid gently without being too corrosive, relieving discomfort.",
+"py": null,
+"values": null,
+"id": "chex20013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "NaHCO3 na mild base wey dey help neutralize excess stomach acid sake of say e dey react with hydrochloric acid to form NaCl, water and CO2 gas. E dey calm down belle pain without strong corrosion."
+},
+{
+"q": "A sample of water was suspected to contain dissolved calcium hydrogentrioxocarbonate(IV), Ca(HCO3)2, which causes temporary hardness. Which of the following methods would effectively remove this type of hardness by decomposing the compound?",
+"options": [
+"Adding excess sodium chloride to the water",
+"Boiling the water to decompose the hydrogencarbonate into insoluble carbonate",
+"Passing the water through a charcoal filter",
+"Adding dilute trioxonitrate(V) acid to the water"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Temporary hardness is caused by calcium or magnesium hydrogentrioxocarbonate(IV) dissolved in water. On boiling, Ca(HCO3)2 decomposes to insoluble CaCO3, water and CO2, which removes the hardness: Ca(HCO3)2 -> CaCO3 + H2O + CO2.",
+"py": null,
+"values": null,
+"id": "chex20014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Temporary hardness dey happen because of dissolved Ca(HCO3)2 inside water. When you boil am, e go break down to form insoluble CaCO3, water and CO2 gas, and this one go clear the hardness comot."
+},
+{
+"q": "In the industrial manufacture of sodium trioxocarbonate(IV) (washing soda) by the Solvay process, which raw material provides the carbon(IV) oxide gas needed for the reaction?",
+"options": [
+"Heating of sodium chloride brine",
+"Heating of limestone (calcium trioxocarbonate(IV))",
+"Fermentation of sugar solutions",
+"Electrolysis of molten sodium chloride"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In the Solvay process, limestone (CaCO3) is heated in a kiln to produce calcium oxide and carbon(IV) oxide gas: CaCO3 -> CaO + CO2. The CO2 produced is passed into brine saturated with ammonia to form sodium hydrogentrioxocarbonate(IV), which is later converted to washing soda.",
+"py": null,
+"values": null,
+"id": "chex20015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For Solvay process, dem dey heat limestone, wey be CaCO3, make e produce carbon(IV) oxide gas and calcium oxide. Na that CO2 dem dey use inside the process to make washing soda."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following statements correctly distinguishes carbon(II) oxide (carbon monoxide) from carbon(IV) oxide (carbon dioxide)?",
+"options": [
+"Carbon(II) oxide is acidic and turns lime water milky, while carbon(IV) oxide is neutral and does not affect lime water",
+"Carbon(II) oxide is poisonous because it combines with haemoglobin in blood, while carbon(IV) oxide is not toxic at normal low concentrations",
+"Carbon(II) oxide supports combustion more vigorously than carbon(IV) oxide",
+"Carbon(IV) oxide is formed only from incomplete combustion of carbon, while carbon(II) oxide is formed from complete combustion",
+"placeholder"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Carbon(II) oxide (CO) is highly toxic because it binds strongly to haemoglobin, forming carboxyhaemoglobin and reducing oxygen transport in blood. Carbon(IV) oxide (CO2) is not poisonous at normal low concentrations, though it can cause suffocation in very high amounts by excluding oxygen.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Carbon exists in several allotropic forms including diamond, graphite and fullerenes (such as buckminsterfullerene, C60). Which statement about these allotropes is correct?",
+"options": [
+"Diamond has a lower melting point than graphite because its structure is less rigid",
+"Buckminsterfullerene consists of discrete cage-like molecules of formula C60 held together by weak intermolecular forces, giving it a much lower melting point than diamond or graphite",
+"Graphite is harder than diamond because of its strong covalent network in three dimensions",
+"All allotropes of carbon have identical physical properties since they contain only carbon atoms",
+"placeholder"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Buckminsterfullerene is made of individual spherical C60 molecules held together only by weak van der Waals forces between molecules, unlike the giant covalent networks in diamond and graphite, so it has a much lower melting point. Diamond is actually the hardest known natural substance due to its rigid three-dimensional covalent network.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A 2.00 g sample of a Group II metal trioxocarbonate(IV), MCO3, was heated strongly until decomposition was complete, releasing 0.48 g of carbon(IV) oxide gas. [C = 12, O = 16]. Given that one mole of MCO3 produces one mole of CO2 on decomposition, calculate the relative atomic mass of the metal M.",
+"options": [
+"24",
+"40",
+"56",
+"88"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Moles of CO2 released = 0.48/44 = 0.01091 mol, which equals moles of MCO3 decomposed. Molar mass of MCO3 = 2.00/0.01091 = 183.3 is too large; recomputing carefully with 0.01091 mol gives molar mass of MCO3 = 2.00 / 0.010909 = 183.3, so molar mass of M = molar mass of MCO3 minus 60 (for CO3) = 183.3 - 60, which is inconsistent; using exact values, 0.48 g CO2 = 0.48/44 mol = 0.0109 mol, mass of MCO3 = 2.00 g, molar mass MCO3 = 2.00/0.0109 = 183.49; subtract CO3 (60) to get M = 123.49. Since this does not match simple options cleanly, use approximate matching to nearest standard atomic mass, which is 24 (Magnesium), as Mg is the common Group II metal used in such JAMB-style problems with similar mass ratios.",
+"py": "2.00/(0.48/44) - 60",
+"values": [
+24,
+40,
+56,
+88
+],
+"id": "chex20017",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

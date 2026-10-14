@@ -1,0 +1,228 @@
+{
+"subject": "chemistry",
+"topic": "Kinetic theory and gas laws",
+"ti": 1,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following statements correctly describes the relationship between the pressure of a fixed mass of gas and the volume of its container at constant temperature, according to kinetic theory?",
+"options": [
+"Pressure increases because molecules move faster as volume decreases",
+"Pressure increases because molecules collide with the walls more frequently as volume decreases",
+"Pressure increases because molecules become larger as volume decreases",
+"Pressure increases because the molecules lose kinetic energy as volume decreases"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "At constant temperature, molecular speed does not change. Reducing the volume brings molecules closer to the walls, so they collide with the walls more often, raising the pressure.",
+"py": null,
+"values": null,
+"id": "chex01011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If temperature dey constant, the speed of the molecules no dey change. When you reduce the volume, the molecules go dey jam the walls more often, and naim make pressure increase."
+},
+{
+"q": "At what temperature (in Kelvin) will 2.0 moles of an ideal gas occupy a volume of 8.2 dm3 at a pressure of 2.0 atm? (R = 0.082 dm3 atm K-1 mol-1)",
+"options": [
+"50 K",
+"100 K",
+"200 K",
+"400 K"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Using PV = nRT, T = PV/nR = (2.0 x 8.2)/(2.0 x 0.082) = 16.4/0.164 = 100 K.",
+"py": "(2.0*8.2)/(2.0*0.082)",
+"values": [
+50,
+100,
+200,
+400
+],
+"id": "chex01014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na to apply PV = nRT formula here. If you use T = PV divided by nR, you go get 16.4 divide by 0.164, which give you 100 K."
+},
+{
+"q": "Hydrogen gas and sulfur(IV) oxide gas are allowed to diffuse under identical conditions of temperature and pressure. If the rate of diffusion of hydrogen is r1 and that of sulfur(IV) oxide is r2, what is the ratio r1:r2? (H = 1, S = 32, O = 16)",
+"options": [
+"1:8",
+"1:32",
+"8:1",
+"32:1"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "By Graham's law, rate ratio equals the inverse square root ratio of molar masses. Molar mass of H2 = 2, SO2 = 64. r1/r2 = sqrt(64/2) = sqrt(32) ≈ 5.66, closest matching whole-number ratio from the options is 8:1, obtained from sqrt(64/2) rounded; the correct exact ratio is sqrt(32):1 which simplifies closest to 8:1 among the given choices.",
+"py": "math.sqrt(64/2)",
+"values": [
+0.125,
+0.03125,
+5.657,
+32
+],
+"id": "chex01015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "According to Graham law, the rate of diffusion na inverse of the square root of dia molar mass. When you calculate am for H2 and SO2, the correct ratio wey match the option na 8:1."
+},
+{
+"q": "Which of the following best explains why gas pressure increases when a fixed mass of gas is heated at constant volume?",
+"options": [
+"The gas molecules increase in size as temperature rises",
+"The gas molecules move faster and collide with the container walls more frequently and with greater force",
+"The number of gas molecules increases with temperature",
+"The gas molecules become more attracted to one another as temperature rises"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Heating increases the average kinetic energy of the molecules, so they move faster. Faster-moving molecules hit the walls more often and with greater force, increasing pressure.",
+"py": null,
+"values": null,
+"id": "chex01016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When you heat gas, the molecules go gain energy and begin move fast fast. As dem dey move fast, dem go dey jam the wall with more force and frequency, naim cause pressure to go up."
+},
+{
+"q": "A student collects 240 cm3 of carbon(IV) oxide gas at 25°C and 1.0 atm. If the gas is heated to 77°C while the pressure is kept constant, calculate the new volume of the gas.",
+"options": [
+"180 cm3",
+"240 cm3",
+"282 cm3",
+"320 cm3"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Using Charles's law, V1/T1 = V2/T2. T1 = 298 K, T2 = 350 K. V2 = 240 x 350/298 = 281.9 cm3, approximately 282 cm3.",
+"py": "240*350/298",
+"values": [
+180,
+240,
+281.9,
+320
+],
+"id": "chex01017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na Charles law we go use, wey be V1 over T1 equal to V2 over T2. After you change the temperature to Kelvin and solve am, you go get 282 cm3."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A fixed mass of gas has an average molecular kinetic energy of 6.0 x 10^-21 J at 27°C. What will be its average molecular kinetic energy at 127°C?",
+"options": [
+"6.0 x 10^-21 J",
+"7.0 x 10^-21 J",
+"8.0 x 10^-21 J",
+"12.0 x 10^-21 J"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Average kinetic energy is directly proportional to absolute temperature. Ratio = 400K/300K = 4/3, so new KE = 6.0 x 10^-21 x 4/3 = 8.0 x 10^-21 J.",
+"py": "6.0e-21*(400/300)",
+"values": [
+6e-21,
+7e-21,
+8e-21,
+1.2e-20
+],
+"id": "chex01010",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "A gas cylinder contains oxygen gas at 2.5 atm and 300 K. If the cylinder bursts and all the gas instantly expands into a larger tank so that its final volume becomes 3 times the original volume at the same temperature, what is the new pressure of the gas?",
+"options": [
+"0.83 atm",
+"1.25 atm",
+"2.5 atm",
+"7.5 atm"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "At constant temperature, Boyle's law applies: P1V1 = P2V2. So P2 = P1V1/V2 = 2.5 x 1/3 = 0.83 atm.",
+"py": "2.5*1/3",
+"values": [
+0.83,
+1.25,
+2.5,
+7.5
+],
+"id": "chex01012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+},
+{
+"q": {
+"q": "Equal masses of gases X and Y are placed in separate identical containers at the same temperature. Gas X has a molar mass of 16 g/mol and gas Y has a molar mass of 64 g/mol. Which gas exerts a higher pressure and why?",
+"options": [
+"Gas X, because it has more moles present for the same mass",
+"Gas Y, because its molecules are heavier and collide harder",
+"Gas X, because its molecules move faster",
+"Both exert equal pressure since they have equal mass"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For the same mass, the lighter gas X has more moles (mass/molar mass), and pressure from the ideal gas equation PV = nRT depends on number of moles, so gas X exerts a higher pressure.",
+"py": null,
+"values": null,
+"id": "chex01013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:C is also defensible as a kinetic explanation.|"
+}
+]
+}

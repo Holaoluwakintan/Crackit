@@ -1,0 +1,176 @@
+{
+"subject": "commerce",
+"topic": "Home trade: retail and wholesale trade",
+"ti": 2,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is an example of a large-scale retail organisation that sells a wide variety of goods under one roof, usually arranged in different sections, with customers served by sales assistants in each section?",
+"options": [
+"Department store",
+"Itinerant trader",
+"Discount house",
+"Co-operative wholesale society"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A department store is a large retail outlet divided into departments selling different kinds of goods under one roof. It is a feature of large-scale retailing, unlike itinerant trading which is small-scale.",
+"py": null,
+"values": null,
+"id": "comx02000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Department store na big shop wey dem divide into different section make dem sell various goods under one roof. E dey different well well from itinerant trader wey be small-scale business."
+},
+{
+"q": "Mallam Garba supplies fresh tomatoes to the Mile 12 wholesale market. The wholesaler then breaks the large quantity into smaller units for different retailers. This function performed by the wholesaler is best described as:",
+"options": [
+"Bulk breaking",
+"Risk bearing",
+"Grading",
+"Advertising"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Bulk breaking means dividing large quantities bought from producers into smaller, manageable units suitable for retailers. This saves retailers from having to buy in very large quantities they cannot sell quickly.",
+"py": null,
+"values": null,
+"id": "comx02002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Bulk breaking mean say dem dey cut big quantity goods wey comot from producer into small small units wey retailers fit buy easily. Dis one dey help retailers make dem no carry excess goods wey dem no fit sell fast."
+},
+{
+"q": "Alhaji Musa owns a provision shop in Kano. He now wants to start supplying goods in bulk to about fifteen smaller shop owners within his area at a slightly lower price. By doing this, Alhaji Musa is beginning to perform the role of a:",
+"options": [
+"Retailer only",
+"Wholesaler",
+"Commission agent",
+"Consumer"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A wholesaler buys in bulk from producers and sells in fairly large quantities to retailers at a lower unit price than the retailer would charge the final consumer. By supplying smaller shop owners in bulk, Alhaji Musa is now acting as a wholesaler.",
+"py": null,
+"values": null,
+"id": "comx02005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Wholesaler dey buy plenty goods and sell am for big quantity to retailers. Since Alhaji Musa don start to supply other small shop owners, e don turn wholesaler be that."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A chain store differs from a department store mainly in that a chain store:",
+"options": [
+"Sells only one type of good in a single large building divided into sections",
+"Has many branches in different towns selling similar goods under central control",
+"Exists only to sell goods to other traders at a discount",
+"Operates only as a mail-order business without physical shops",
+"\n"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A chain store is made up of many branch shops located in different towns or cities, all owned and controlled centrally, selling similar ranges of goods. A department store, by contrast, is usually a single large building with different sections.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "One major disadvantage of small-scale retail trade, such as a single shop owned by one trader, compared to large-scale retailing is that the small-scale retailer:",
+"options": [
+"Cannot enjoy personal relationship with customers",
+"Finds it difficult to buy in bulk and so loses the benefit of trade discounts",
+"Must always sell on credit to all customers",
+"Is legally prevented from selling imported goods",
+"\n"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Because a small-scale retailer buys in small quantities, he cannot obtain the large trade discounts that come with bulk buying, unlike big retail organisations. Personal relationship with customers is actually an advantage, not a disadvantage, of small-scale retailing.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A supermarket is best described as a retail outlet that:",
+"options": [
+"Operates self-service and sells mainly foodstuffs and household goods at relatively low prices",
+"Sends goods directly to customers' homes without any shop",
+"Sells goods only to other retailers at wholesale prices",
+"Specialises in just one brand of a single manufacturer's products",
+"\n"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A supermarket is a large self-service retail shop that stocks a wide range of foodstuffs and household items, allowing customers to pick goods themselves before paying at the checkout. This lowers running costs and selling prices.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following is a genuine disadvantage of wholesale trade to the economy, often cited as a reason some producers prefer to sell directly to large retailers?",
+"options": [
+"Wholesalers reduce the number of transactions a producer must handle",
+"The wholesaler's mark-up adds to the final price paid by consumers",
+"Wholesalers provide storage facilities that relieve the producer of warehousing cost",
+"Wholesalers help in spreading risk among many retailers",
+"\n"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Because the wholesaler buys goods and resells them at a profit, his mark-up becomes an extra cost that is eventually passed on to the final consumer, raising the price. The other options listed are actually benefits, not disadvantages, of using a wholesaler.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A manufacturer of soft drinks in Lagos decides to sell directly to retail shops in Abuja without passing through any wholesaler, in order to have better control over how his product is priced and displayed. This method of distribution is known as:",
+"options": [
+"Direct marketing",
+"Hire purchase",
+"Indirect marketing",
+"Counter trading"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "When a producer sells straight to retailers or final consumers without using a middleman such as a wholesaler, it is called direct marketing. This often gives the producer more control over price and presentation, though it may increase distribution costs.",
+"py": null,
+"values": null,
+"id": "comx02007",
+"check": {
+"s1": "C",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+}
+]
+}

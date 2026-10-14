@@ -1,0 +1,180 @@
+{
+"subject": "literature",
+"topic": "Poetic forms: sonnet, ode, elegy, ballad, epic, lyric, free verse",
+"ti": 2,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In Milton's famous pastoral elegy tradition, a poet mourning a dead friend often invokes classical mythological figures (like the Muses) and includes a procession of mourners before ending with a note of consolation. This structural pattern is most associated with which poetic form?",
+"options": [
+"The pastoral elegy",
+"The dramatic monologue",
+"The Petrarchan sonnet",
+"The free verse poem"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The pastoral elegy is a specific elegiac tradition that uses rural imagery, mythological invocation, a mourning procession, and ends with consolation or acceptance.",
+"id": "litx02000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na pastoral elegy be the correct form because e dey use village style, call gods, and do mourning procession before e end with comfort. E fit the description well well."
+},
+{
+"q": "A poet composes a 14-line poem in iambic pentameter. The first eight lines present a problem using an ABBAABBA rhyme scheme, and the final six lines offer a resolution with a CDECDE pattern. Which poetic form does this describe?",
+"options": [
+"The ballad",
+"The ode",
+"The Petrarchan sonnet",
+"The epic"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "An octave (ABBAABBA) followed by a sestet (CDECDE) with a shift in thought is the classic structure of the Petrarchan sonnet, where the octave states a problem and the sestet resolves it.",
+"id": "litx02001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dis one na Petrarchan sonnet sake of say e get eight lines wey we dey call octave with ABBAABBA, and six lines wey be sestet with CDECDE to settle the matter."
+},
+{
+"q": "Read this extract: 'O Harmattan wind, you strip the mango trees bare, you choke our markets with dust and haze, yet you bring us cool nights after the sun's fierce glare.' Which poetic form is best illustrated by this direct, elevated address to a natural force?",
+"options": [
+"Ballad",
+"Ode",
+"Epic",
+"Dramatic monologue"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The direct, elevated address to the Harmattan wind, praising and reflecting on it, is characteristic of the ode, which often addresses a person, object, or natural phenomenon with reverence.",
+"id": "litx02002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na ode be that because when pesin talk high and direct to natural thing like Harmattan wind with respect, na ode you dey read."
+},
+{
+"q": "Which of the following is a defining feature of the epic that distinguishes it from the ode and the elegy?",
+"options": [
+"It is always written in free verse without any formal structure",
+"It focuses on a single speaker's private emotional reflection in a short span",
+"It narrates heroic actions on a grand scale, often involving supernatural forces and a hero central to a nation's history",
+"It strictly follows a fourteen-line structure with a concluding couplet"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The epic is a long narrative poem centred on heroic deeds, grand scale events, and often supernatural intervention, unlike the ode's praise-focus or the elegy's mourning-focus.",
+"id": "litx02003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na epic be long story poem wey dey talk about big heroics and how supernatural powers join body, unlike ode or elegy."
+},
+{
+"q": "A young poet in Enugu writes a poem reflecting on her personal feelings after her grandmother's burial. She does not follow any fixed rhyme scheme, line length, or meter, but relies on natural speech rhythms and imagery to convey her emotions. Which poetic form best describes her composition?",
+"options": [
+"Ballad",
+"Free verse",
+"Shakespearean sonnet",
+"Ode"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Free verse poetry abandons fixed meter and rhyme scheme, relying instead on natural rhythms of speech and imagery, which matches the description given.",
+"id": "litx02004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na free verse be that because e no get any fixed rhyme or meter; e just dey follow normal human talk and fine pictures (imagery)."
+},
+{
+"q": "A lyric poem is best distinguished from an epic by which of the following features?",
+"options": [
+"The lyric always tells of heroic battles across many generations",
+"The lyric is typically short and expresses a single speaker's personal emotion or thought, unlike the epic's long heroic narrative",
+"The lyric must contain exactly fourteen lines, while the epic has no fixed length",
+"The lyric is always sung by a chorus while the epic is read silently"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Lyric poems are generally short, subjective expressions of personal feeling, while epics are long narratives recounting heroic deeds across a grand scale; the other options misstate features of both forms.",
+"id": "litx02006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Lyric poetry short and na person personal feeling e dey carry, unlike epic wey be long story about plenty heroic battles."
+},
+{
+"q": "A student is asked to identify a poem that combines features of two forms: it mourns the death of a respected village elder in solemn, mournful tone, but is structured with the elevated, celebratory address typical of praise poetry, honouring his wisdom even while grieving his loss. Which two poetic forms have most likely been blended here?",
+"options": [
+"Ballad and epic",
+"Sonnet and free verse",
+"Elegy and ode",
+"Lyric and ballad"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The poem mourns a death (elegy) while also praising the elder's qualities in an elevated tone (ode), showing a deliberate blend of the mournful elegiac form with the celebratory, praise-oriented ode.",
+"id": "litx02007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As the poem dey mourn pesin death and still dey hail hin wisdom like praise poetry, e mean say elegy and ode don mix together be that."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Consider this extract: 'There was a trader in Onitsha town, Who sold his wares both up and down; One day he met a stranger bold, Who promised him a pot of gold.' This extract, with its simple narrative, four-line stanza, and ABCB-style rhyme suggestive of oral performance, is most typical of which poetic form?",
+"options": [
+"Ballad",
+"Lyric",
+"Ode",
+"Free verse"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The ballad is known for its narrative content, simple quatrains, and rhythmic quality suited to singing or oral recitation, all features present in this extract.",
+"id": "litx02005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:The extract rhymes AABB, not ABCB.|"
+}
+]
+}

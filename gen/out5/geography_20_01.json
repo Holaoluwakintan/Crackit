@@ -1,0 +1,180 @@
+{
+"subject": "geography",
+"topic": "Geography of Nigeria: transport, trade and tourism",
+"ti": 20,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is a major tourist attraction found in Yankari Game Reserve in Bauchi State?",
+"options": [
+"Wikki Warm Spring",
+"Ikogosi Warm Spring",
+"Agbokim Waterfalls",
+"Kainji Lake Dam"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Wikki Warm Spring is the well-known natural spring found inside Yankari Game Reserve in Bauchi State. The other features are located in different states of Nigeria.",
+"py": null,
+"values": null,
+"id": "geox20010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na Wikki Warm Spring dey inside Yankari Game Reserve for Bauchi State. Di other places dey different states for Nigeria."
+},
+{
+"q": "One major reason why Nigeria's internal trade in foodstuffs is seasonal in nature is that",
+"options": [
+"most food crops are harvested at specific times of the year due to the rainfall pattern",
+"traders prefer to sell manufactured goods instead of food crops",
+"government policy bans the sale of food crops all year round",
+"foodstuffs are mainly produced for export rather than local consumption"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Nigeria has distinct wet and dry seasons, so food crops are planted and harvested at particular times, making their supply and trade seasonal. This is why prices of foodstuffs often rise sharply in the off-season.",
+"py": null,
+"values": null,
+"id": "geox20011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Nigeria get wet and dry season, so dem dey harvest food crops for specific time of the year. E make the trade and supply of food sake of season."
+},
+{
+"q": "A commodity market in which farmers and traders from different villages gather on specific fixed days, such as every fifth day, to buy and sell goods is best described as a",
+"options": [
+"periodic market",
+"daily market",
+"terminal market",
+"retail market"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A periodic market operates on fixed recurring days rather than every day, which is common in rural parts of Nigeria where demand does not justify a daily market. Daily and terminal markets operate continuously or serve as final distribution points regardless of a fixed cycle.",
+"py": null,
+"values": null,
+"id": "geox20012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Periodic market dey happen for fixed days instead of everyday. Naim make people from villages dey gather sell and buy goods on top specific days."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A geography student compares two Nigerian towns, X and Y, that are 150 km apart. A new tarred road reduces travel time between them from 5 hours to 2 hours. Which of the following is the most likely effect of this improvement on trade between the two towns?",
+"options": [
+"Increased exchange of goods due to lower transport cost and faster delivery",
+"Reduced exchange of goods because traders will avoid the new road",
+"No change in trade since distance between the towns remains the same",
+"Total collapse of trade as goods will now be transported by air instead",
+"",
+""
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A faster, better road lowers the cost and time of moving goods, encouraging more trade between the two towns. Distance staying the same does not matter once travel time and cost are reduced.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Nigeria's re-export trade, where goods such as used vehicles and electronics are brought in mainly through the port of Cotonou and then smuggled across the land border into Nigeria, thrives chiefly because of",
+"options": [
+"differences in import duties and trade restrictions between Nigeria and her neighbours",
+"the absence of any seaport along the Nigerian coastline",
+"the shorter sea distance between Cotonou and Europe compared with Lagos",
+"the larger population of Benin Republic compared with Nigeria",
+"",
+""
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Traders exploit the difference in tariffs and import bans between Nigeria and neighbouring countries, bringing goods in through a cheaper or less restricted route before moving them across the border. This has little to do with population size or sea distance to Europe.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A particular Nigerian export product is shipped abroad almost entirely in its raw, unprocessed form, with little or no local value added before export. This situation is a direct consequence of",
+"options": [
+"Nigeria's trade structure that emphasises export of primary commodities rather than finished goods",
+"a government ban on manufacturing industries within the country",
+"the high literacy rate of citizens involved in agriculture",
+"an oversupply of finished manufactured goods for export",
+"",
+""
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Nigeria's trade has long been structured around exporting primary products like raw agricultural produce and minerals with minimal processing, rather than finished manufactured goods. This pattern reflects weak local industrial processing capacity rather than any government ban.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A tourism board wants to develop a new site to boost foreign exchange earnings. Which combination of factors would most strongly attract international tourists to a Nigerian site?",
+"options": [
+"Unique natural scenery, good accessibility by transport, and adequate hotel accommodation",
+"High population density and many industries sited nearby",
+"A location far from any major road or airport to preserve its isolation",
+"Presence of many competing markets selling similar imported goods",
+"",
+""
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Tourists are drawn to attractive natural or cultural scenery, but this must be matched with easy accessibility and comfortable accommodation for visitors to actually come and stay. Isolation without transport links or industrial crowding does not encourage tourism development.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "The main reason the Nigerian Railway Corporation's narrow-gauge lines, built mostly during the colonial era, carry a relatively small share of freight today compared to roads is that",
+"options": [
+"the narrow gauge limits speed and the carriage of heavy, bulky loads compared to modern standard gauge",
+"railway lines connect every town and village unlike roads",
+"railway transport is more expensive than road transport per tonne of goods",
+"railway wagons can only carry passengers and not goods"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The old narrow-gauge tracks were designed for lighter colonial-era loads and lower speeds, limiting their efficiency for modern bulky freight compared to flexible road transport. Railways, despite being cheaper per tonne over long distances, suffer from this technical limitation and limited coverage.",
+"py": null,
+"values": null,
+"id": "geox20014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Narrow gauge is a limitation, but neglect and limited coverage better explain rail's small freight share.|"
+}
+]
+}

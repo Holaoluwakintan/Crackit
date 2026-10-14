@@ -1,0 +1,174 @@
+{
+"subject": "government",
+"topic": "Civil service and public corporations",
+"ti": 8,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is a major advantage of public corporations over civil service departments in the management of commercial ventures?",
+"options": [
+"They enjoy greater freedom from bureaucratic bottlenecks in decision making",
+"They are fully funded through annual budgetary allocation",
+"Their staff are appointed directly by the Federal Civil Service Commission",
+"They are headed by permanent secretaries who control daily operations"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Public corporations are set up as semi-autonomous bodies with their own boards so that they can take quick business decisions without the slow bureaucratic procedures found in civil service departments. The other options describe features of civil service ministries, not public corporations.",
+"id": "govx08010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dem create public corporations as semi-autonomous bodies so dem fit take quick business decisions without all those slow civil service delays. Na ministries get the other features, not public corporations."
+},
+{
+"q": "In the classical structure of the Nigerian civil service, the hierarchy from the lowest to the highest rank of officers is best arranged as:",
+"options": [
+"Permanent Secretary, Director, Assistant Director, Clerical Officer",
+"Clerical Officer, Executive Officer, Assistant Director, Director, Permanent Secretary",
+"Director, Permanent Secretary, Executive Officer, Clerical Officer",
+"Assistant Director, Clerical Officer, Director, Permanent Secretary"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The civil service is organised as a ladder of ranks, starting from junior clerical staff and rising through executive officers, assistant directors, directors, up to the permanent secretary who is the administrative head of a ministry. Only this order follows the correct bottom-to-top arrangement.",
+"id": "govx08011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Civil service dey arrange like ladder, e dey start from junior clerical staff go up reach executive officers, assistant directors, directors, and permanent secretary. Na only this option show correct arrangement from bottom to top."
+},
+{
+"q": "A board member of a public corporation insists that every contract above a certain amount must first be approved by the supervising government ministry before it can be awarded. This requirement illustrates that public corporations:",
+"options": [
+"Operate completely independently of government control",
+"Are subject to a measure of government supervision despite their separate legal status",
+"Function exactly like private limited liability companies",
+"Cannot enter into contracts without the National Assembly's consent"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Although a public corporation is a separate legal entity with its own board, it still remains accountable to the government that created it, often through ministerial approval for major financial decisions. This shows that corporation autonomy is not absolute but is checked by government oversight.",
+"id": "govx08012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Even though public corporation get im own board, dem still dey accountable to government through ministerial approval for major money matters. This one show say corporation freedom no be absolute, government still dey supervise dem."
+},
+{
+"q": "One major reason why successive Nigerian governments have embarked on the commercialisation of some public corporations, rather than outright privatisation, is to:",
+"options": [
+"Transfer full ownership of the corporation to private shareholders",
+"Make the corporation operate on strict profit-making lines while government retains ownership",
+"Convert the corporation into a government ministry",
+"Remove the corporation entirely from public accountability"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Commercialisation means running a public corporation like a private business, charging economic rates and aiming to make profit, while government still remains the owner. This is different from privatisation, which involves selling government shares to private investors.",
+"id": "govx08013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Commercialisation mean say government wan make the corporation run like private business to make profit, but government still remain the owner. E different from privatisation where dem go sell government shares to private people."
+},
+{
+"q": "The body generally empowered to recruit, promote, transfer and discipline career officers in the federal civil service of Nigeria, excluding politically appointed officials, is the:",
+"options": [
+"Federal Executive Council",
+"Independent National Electoral Commission",
+"Federal Civil Service Commission",
+"National Judicial Council"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The Federal Civil Service Commission handles staff matters such as recruitment, promotion, transfer and discipline of career civil servants at the federal level. The other bodies listed deal with elections, overall policy direction, or the judiciary and not routine civil service staff matters.",
+"id": "govx08014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na Federal Civil Service Commission dey handle matter like recruitment, promotion, and discipline for federal civil servants. The other bodies na for election, policy, or judiciary, not routine civil service staff work."
+},
+{
+"q": "A new graduate joins the civil service and is told that, regardless of which political party forms the government, she is expected to serve the government of the day loyally and impartially. This expectation best reflects the civil service principle of:",
+"options": [
+"Permanency",
+"Neutrality",
+"Anonymity",
+"Hierarchy"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Neutrality requires civil servants to serve whichever government is in power faithfully, without showing favour to any political party. Permanency refers to continuity of service across changing governments, while anonymity and hierarchy describe other separate features.",
+"id": "govx08015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Neutrality mean say civil servant must serve any government wey enter power faithfully without support any political party. Permanency na for continuity across different governments, while anonymity and hierarchy mean different things."
+},
+{
+"q": "A key difference between a public corporation and a government ministry is that a public corporation:",
+"options": [
+"Is created directly by an Act of parliament or similar instrument and has a separate legal personality",
+"Is headed by a permanent secretary who reports to a minister",
+"Relies solely on the consolidated revenue fund for its entire running cost",
+"Forms part of the direct administrative structure of a government ministry"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A public corporation is usually established by a specific law or decree that gives it a separate legal identity, its own governing board, and the power to sue and be sued in its own name. A ministry, by contrast, is headed by a permanent secretary and is directly part of government administration without separate legal personality.",
+"id": "govx08017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Public corporation get im own separate legal identity and governing board through an Act of parliament, so e fit sue and be sued. Ministry na direct part of government administration wey permanent secretary dey head."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best explains why many Nigerian public corporations record huge financial losses year after year?",
+"options": [
+"Excessive competition from well-managed private firms in the same sector",
+"Political interference in appointments and pricing decisions, leading to inefficiency",
+"Too much independence from government which prevents any form of supervision",
+"Overpayment of corporation profits as dividends to shareholders",
+"Strict enforcement of merit-based recruitment by their boards"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Public corporations in Nigeria often suffer losses because government officials interfere in board appointments and pricing policies for political reasons rather than sound business judgement, leading to waste and mismanagement. The other listed options do not reflect the real situation of most Nigerian public corporations."
+},
+"why": "bad-shape"
+}
+]
+}

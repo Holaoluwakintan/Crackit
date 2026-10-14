@@ -1,0 +1,178 @@
+{
+"subject": "english",
+"topic": "Antonyms: word opposite in meaning to the underlined word (mark the target word in CAPITALS in the sentence)",
+"ti": 1,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: The landlord was very LENIENT with tenants who paid their rent late.",
+"options": [
+"strict",
+"generous",
+"patient",
+"friendly"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "LENIENT means mild or tolerant in dealing with people. The opposite is strict, which means firm and demanding in enforcing rules.",
+"id": "engx01000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Lenient mean say pesin soft-hearted or dey forgive well well when person do wrong. Di opposite na strict, wey mean say pesin tight-fisted and serious with rules."
+},
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: The chief's speech at the coronation was so AMBIGUOUS that the villagers argued over its true meaning.",
+"options": [
+"lengthy",
+"clear",
+"boring",
+"emotional"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "AMBIGUOUS means having more than one possible meaning, causing confusion. The opposite is clear, meaning easy to understand with no confusion.",
+"id": "engx01001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Ambiguous mean something wey get plenty meaning, wey dey confuse people. Di opposite na clear, wey mean say something plain and easy to understand."
+},
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: Although the twins looked alike, their characters were strikingly DIVERGENT.",
+"options": [
+"similar",
+"unusual",
+"complex",
+"balanced"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "DIVERGENT means different or moving apart from each other. The opposite is similar, meaning alike or having common features.",
+"id": "engx01002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Divergent mean things wey dey different or dey go separate ways. Di opposite na similar, wey mean say dem resemble each other well well."
+},
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: The governor's VOLUBLE defence of the new policy surprised journalists who expected a short statement.",
+"options": [
+"angry",
+"taciturn",
+"confident",
+"detailed"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "VOLUBLE describes someone who talks a lot, fluently and at length. Its opposite, taciturn, describes a person who speaks very little.",
+"id": "engx01003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Voluble na person wey sabi talk plenty grammar up and down without tire. Di opposite na taciturn, wey be quiet pesin wey no like talk too much."
+},
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: Many customers found the trader's prices EXORBITANT compared to other shops in the market.",
+"options": [
+"reasonable",
+"flexible",
+"unstable",
+"negotiable"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "EXORBITANT means unreasonably high, especially for a price. The opposite is reasonable, meaning fair and moderate.",
+"id": "engx01004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Exorbitant mean price wey too cost pass normal limit. Di opposite na reasonable, wey mean say price fair and fit person pocket."
+},
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: The soldiers were praised for remaining STEADFAST even when the enemy's attack intensified.",
+"options": [
+"wavering",
+"fearless",
+"silent",
+"organised"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "STEADFAST means firm, loyal, and unshaken in purpose. The opposite is wavering, meaning unsteady or showing indecision.",
+"id": "engx01005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Steadfast mean pesin wey stand gidigba and no dey shake for wetin e believe. Di opposite na wavering, wey mean pesin mind dey shake up and down."
+},
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: Critics described the senator's argument as SPECIOUS once the facts were carefully examined, even though it had sounded convincing at first.",
+"options": [
+"genuine",
+"lengthy",
+"popular",
+"forceful"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "SPECIOUS describes something that appears true or correct at first but is actually false or misleading. The opposite is genuine, meaning real and truthful.",
+"id": "engx01006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Specious mean something wey look like true at first glance but na lie. Di opposite na genuine, wey mean original and true thing."
+},
+{
+"q": "Choose the option OPPOSITE in meaning to the word in capitals: The accountant's report, though brief, was PERSPICUOUS enough for even non-experts in the boardroom to understand without further explanation.",
+"options": [
+"detailed",
+"obscure",
+"accurate",
+"formal"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "PERSPICUOUS means clearly expressed and easy to understand. Its opposite, obscure, means unclear or difficult to comprehend.",
+"id": "engx01007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Perspicuous mean matter wey clear like crystal and easy to grab. Di opposite na obscure, wey mean something dark and hard to understand."
+}
+],
+"rejected": []
+}

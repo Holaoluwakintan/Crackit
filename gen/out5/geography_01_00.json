@@ -1,0 +1,204 @@
+{
+"subject": "geography",
+"topic": "Map reading: contours, relief, gradient and cross-sections",
+"ti": 1,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "On a topographical map, closely spaced contour lines represent a steep slope while widely spaced contour lines represent a gentle slope. This relationship exists mainly because:",
+"options": [
+"Closely spaced contours indicate a rapid change in height over a short horizontal distance",
+"Closely spaced contours indicate that the area has a low population density",
+"Widely spaced contours always indicate the presence of a river valley",
+"Contour spacing depends only on the colour used by the map maker"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Contour spacing shows how fast height changes with distance. When contours are close together, a large height change occurs over a short distance, giving a steep gradient; when far apart, the height change is gradual, giving a gentle gradient.",
+"py": null,
+"values": null,
+"id": "geox01000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Contour spacing dey show how height dey change with distance. When contours close, big height change dey happen for short distance, wey dey give steep gradient."
+},
+{
+"q": "A hiker walks from a point on a map marked 400 m above sea level to another point marked 250 m above sea level. The horizontal distance between the two points, measured on a map of scale 1:25,000, is 6 cm. What is the gradient of the slope between the two points? (Give your answer as a ratio 1:n)",
+"options": [
+"1:10",
+"1:25",
+"1:15",
+"1:100"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Vertical interval = 400 - 250 = 150 m. Horizontal equivalent = 6 cm x 25,000 = 150,000 cm = 1500 m. Gradient = 150:1500 = 1:10.",
+"py": "(6*25000/100) / 150",
+"values": [
+10,
+25,
+15,
+100
+],
+"id": "geox01001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Vertical interval na 400 - 250 = 150 m. Horizontal equivalent na 6 cm x 25,000 = 1500 m, so gradient na 150:1500 wey come be 1:10."
+},
+{
+"q": "A surveyor wants to construct a cross-section (relief profile) along a straight line drawn between two towns on a topographical map. Which of the following is the FIRST correct step in constructing the profile?",
+"options": [
+"Colour the map according to height ranges",
+"Place the straight edge of a plain paper along the section line and mark where each contour crosses it",
+"Calculate the gradient between the two towns",
+"Measure the bearing of one town from the other"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "To draw a cross-section, the first practical step is to lay a strip of paper along the chosen line on the map and transfer the points where contours cross it, before plotting these heights on a graph. Gradient and bearing calculations come later or are unrelated.",
+"py": null,
+"values": null,
+"id": "geox01003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To draw cross-section, first thing na to put plain paper along the line and mark where contours cross am. Na after you go plot am on graph."
+},
+{
+"q": "On a cross-section drawn from a topographical map, a vertical scale of 1 cm to represent 50 m and a horizontal scale of 1 cm to represent 500 m were used. This means the vertical scale has been exaggerated by a factor of:",
+"options": [
+"5",
+"10",
+"50",
+"500"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Vertical exaggeration equals the horizontal scale value divided by the vertical scale value, both converted to the same units. Since 1 cm represents 500 m horizontally but only 50 m vertically, the vertical scale is exaggerated 500/50 = 10 times.",
+"py": "500/50",
+"values": [
+5,
+10,
+50,
+500
+],
+"id": "geox01004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Vertical exaggeration na horizontal scale divide by vertical scale. Since 500 divide by 50 na 10, the vertical scale exaggerate by 10 times."
+},
+{
+"q": "On a topographical map, a flat-topped hill with very steep sides is shown by contour lines that are:",
+"options": [
+"Evenly spaced from the base to the summit",
+"Widely spaced near the base and very close together near a flat summit area where they stop appearing",
+"Very close together near the base and widely spaced near a flat summit area where they stop appearing",
+"Arranged in a perfectly straight line across the map"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A flat-topped hill with steep sides has contours tightly packed near the base, showing a rapid rise, and then no further contours over the flat summit since the land levels off there. This pattern is typical of a plateau-like hill or mesa.",
+"py": null,
+"values": null,
+"id": "geox01005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Flat-topped hill with steep sides get contours wey tight near base to show sharp rise. When e reach flat summit, contours go stop to show say ground level down."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "On a topographical map of a river basin, the contour lines form a pattern in which the land rises steadily on both sides away from a central line of lowest contour values, and the lowest contours themselves trace a winding path across the map. This pattern most likely represents a:",
+"options": [
+"Plateau surrounded by escarpments",
+"River valley with its channel along the lowest contours",
+"Volcanic crater with a central depression",
+"Flat coastal plain with no relief features",
+"Isolated conical hill"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A winding line of lowest contour values flanked by rising contours on both sides is the classic map signature of a river valley, with the river itself following the floor of the valley. This is different from the symmetrical closed loops of a hill or crater.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "On a topographical map, contour lines that are far apart in a lowland region crossed by a river most likely indicate an area best described as a:",
+"options": [
+"Steep gorge",
+"Gently sloping floodplain",
+"Vertical cliff face",
+"Series of waterfalls",
+"Rugged mountain range"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Widely spaced contours show that height changes very little over distance, which is typical of flat or gently sloping land such as a floodplain beside a river. Steep features like gorges, cliffs and waterfalls are shown by tightly packed contours instead.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Chidinma measured the horizontal distance between two points, X and Y, on a map drawn to a scale of 1:10,000 and found it to be 12 cm. If point X is 320 m above sea level and point Y is 380 m above sea level, what is the angle of slope, to the nearest whole degree, between X and Y? (Take tan of the angle as the vertical interval divided by the horizontal equivalent, and use tan^-1 0.05 is approximately 3 degrees)",
+"options": [
+"3°",
+"5°",
+"10°",
+"30°"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Vertical interval = 380 - 320 = 60 m. Horizontal equivalent = 12 cm x 10,000 = 120,000 cm = 1200 m. Gradient (tan of angle) = 60/1200 = 0.05, and tan^-1 of 0.05 is approximately 3 degrees as given.",
+"py": "math.degrees(math.atan((380-320)/(12*10000/100)))",
+"values": [
+3,
+5,
+10,
+30
+],
+"id": "geox01006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+}
+]
+}

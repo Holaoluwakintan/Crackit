@@ -1,0 +1,1154 @@
+{
+"accv0800": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0801": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0802": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0803": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0804": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv0805": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv0806": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0807": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0900": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv0901": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv0902": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv0903": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0904": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0905": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv0906": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0907": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv1000": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv1001": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv1002": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv1003": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0502": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Payments total ₦4,500, which is the amount needed to restore the imprest."
+}
+},
+"accv0503": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Payments total ₦4,500; ₦10,000 − ₦4,500 = ₦5,500 in hand."
+}
+},
+"accv0504": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The top-up is ₦12,000 − ₦1,500 = ₦10,500."
+}
+},
+"accv0505": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The analysis columns total ₦3,600, equal to the reimbursement."
+}
+},
+"accv0506": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "A petty cash imprest is for small routine payments, not machinery purchases."
+}
+},
+"accv0507": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Analysis columns classify petty cash payments by expense type."
+}
+},
+"accv0600": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "A bank reconciliation explains differences between cash book and bank statement balances."
+}
+},
+"accv0601": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "An unpresented cheque creates a timing difference between the two records."
+}
+},
+"accv0602": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Bank statement balance = ₦45,000 + ₦12,000 − ₦8,000 = ₦49,000."
+}
+},
+"accv0603": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Cash book balance = ₦60,000 − ₦15,000 + ₦5,000 = ₦50,000."
+}
+},
+"accv0604": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Adjusted balance = ₦72,000 − ₦1,500 + ₦2,500 = ₦73,000."
+}
+},
+"accv0605": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Adjusted cash book is ₦78,000; adding ₦18,000 and subtracting ₦6,000 gives ₦90,000."
+}
+},
+"accv0606": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Adjusted cash book is ₦165,000; reversing the unrecorded interest and standing order gives ₦167,000."
+}
+},
+"accv0607": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Reconciliation helps identify discrepancies, including errors and possible fraud."
+}
+},
+"accv0700": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "A trial balance lists ledger debit and credit balances to check arithmetical agreement."
+}
+},
+"accv0701": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Complete omission leaves both debit and credit totals equally unaffected."
+}
+},
+"accv0702": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "A suspense account temporarily holds a trial balance difference."
+}
+},
+"accv0704": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Debiting Purchases instead of the van asset account is an error of principle."
+}
+},
+"accv0705": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "A ₦4,500 debit suspense balance offsets the excess credit total."
+}
+},
+"accv0707": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Posting ₦2,500 to the debit rather than credit side creates a ₦5,000 disagreement."
+}
+},
+"accv0000": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv0001": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0002": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0003": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv0004": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0005": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv0006": {
+"a": {
+"ans": "C",
+"v": "trivial",
+"r": "The weather option is an obvious giveaway requiring no accounting knowledge."
+},
+"b": {
+"ans": "C",
+"v": "trivial",
+"r": "The distractor 'controlling the weather' is absurd. This makes the item a giveaway that needs no accounting knowledge, because the other three options are obviously genuine benefits."
+}
+},
+"accv0007": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv0102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv0104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv0106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv0107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0200": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv0201": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0202": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0203": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv0204": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv0205": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The explanation says the buyer receives a debit note. The buyer issues the debit note to the supplier; the supplier may then issue a credit note."
+},
+"b": {
+"ans": "D",
+"v": "error",
+"r": "Key D is correct. The explanation is wrong to say the entry is made 'using the debit note received'. For returns outwards, the buyer issues (sends) a debit note to the supplier, or receives a credit note from the supplier."
+}
+},
+"accv0206": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0207": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0300": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0301": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0302": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv0303": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0304": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv0305": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv0306": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0400": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0401": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0402": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv0403": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv0404": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv0405": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv0407": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv0500": {
+"a": {
+"ans": "D",
+"v": "trivial",
+"r": "The question names the imprest system before asking what the described system is called."
+},
+"b": {
+"ans": "D",
+"v": "trivial",
+"r": "The stem names the 'petty cash imprest system' and then asks what the system is called. The answer is given away in the question."
+}
+},
+"accv0501": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The answer is correct, but the explanation incorrectly defines the float as cash physically on hand at any time. A petty-cash float is the fixed fund or amount advanced; the cash on hand falls as it is spent."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": "The amount given to restore the float, equal to the total spent, is the reimbursement. The key is correct."
+}
+},
+"accv1504": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv1506": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv1507": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv1600": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv1601": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv1602": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv1603": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv1604": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv1605": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv1606": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv1607": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv1700": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv1701": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv1702": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv1703": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv1704": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv1706": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv1707": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv1800": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv1801": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv1300": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv1301": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv1302": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv1303": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv1304": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv1305": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv1306": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The ₦180,000 answer is correct, but the explanation reverses the accounting entry: factory profit is debited to the manufacturing account and credited to the profit and loss account."
+},
+"b": {
+"ans": "D",
+"v": "error",
+"r": "Key D (₦180,000) is correct. The explanation wrongly says factory profit is credited to the manufacturing account. Factory profit is debited in the manufacturing account, so that goods are transferred at market value, and it is credited to the profit and loss account."
+}
+},
+"accv1307": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv1400": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv1401": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv1402": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv1403": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv1404": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv1405": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv1406": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"accv1407": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv1500": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv1501": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"accv1502": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"accv1503": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"accv1004": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Net book value is ₦40,000; sale proceeds of ₦50,000 give a ₦10,000 profit."
+}
+},
+"accv1005": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Reducing balance charges more depreciation in earlier years."
+}
+},
+"accv1006": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "After three years, net book value is ₦150,000; the sale gives a ₦20,000 profit."
+}
+},
+"accv1007": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Debit accumulated depreciation and credit the disposal account."
+}
+},
+"accv1100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "A control account helps check subsidiary-ledger totals and locate errors."
+}
+},
+"accv1101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "₦45,000 + ₦120,000 − ₦95,000 − ₦5,000 − ₦8,000 − ₦2,000 = ₦55,000."
+}
+},
+"accv1102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "₦30,000 + ₦85,000 − ₦60,000 − ₦3,000 − ₦4,000 = ₦48,000."
+}
+},
+"accv1103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Cash received reduces debtors and is credited to the control account."
+}
+},
+"accv1104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Before bad debts, the balance is ₦64,000; ₦6,000 was written off to leave ₦58,000."
+}
+},
+"accv1105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Self-balancing ledgers use adjustment or control accounts to allow each ledger to balance independently."
+}
+},
+"accv1106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The agreed ₦12,000 set-off is credited to the Sales Ledger Control Account."
+}
+},
+"accv1107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The control balance should agree with the total of individual debtors’ balances."
+}
+},
+"accv1200": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Incomplete records do not provide all the accounts needed for a full trial balance."
+}
+},
+"accv1201": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "A statement of affairs establishes capital from assets less liabilities."
+}
+},
+"accv1202": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Assets of ₦1,100,000 less liabilities of ₦270,000 give capital of ₦830,000."
+}
+},
+"accv1203": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Profit is ₦650,000 + ₦30,000 − ₦500,000 − ₦40,000 = ₦140,000."
+}
+},
+"accv1204": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Credit sales are ₦380,000 + ₦5,000 + ₦8,000 + ₦60,000 − ₦45,000 = ₦408,000."
+}
+},
+"accv1205": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Credit purchases are ₦460,000 + ₦10,000 + ₦12,000 + ₦95,000 − ₦72,000 = ₦505,000."
+}
+},
+"accv1206": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Drawings are ₦700,000 + ₦50,000 + ₦160,000 − ₦830,000 = ₦80,000."
+}
+},
+"accv1207": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "A 25% mark-up on ₦240,000 cost gives sales of ₦300,000."
+}
+},
+"accv2007": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "₦400,000 ÷ (₦400,000 + ₦600,000) × 100 = 40%; the key and explanation are correct."
+}
+},
+"accv1802": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The annual Appropriation Act authorises the expenditure."
+}
+},
+"accv1803": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The Consolidated Revenue Fund receives federal revenue except amounts assigned by law to other funds."
+}
+},
+"accv1804": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Roads, bridges and long-term assets are capital expenditure."
+}
+},
+"accv1805": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Capital expenditure is 35% of ₦12 billion, or ₦4.2 billion."
+}
+},
+"accv1807": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The TSA consolidates government cash for monitoring and control."
+}
+},
+"accv1900": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "FIFO assigns the earliest purchases to goods sold first."
+}
+},
+"accv1901": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "With rising prices, LIFO leaves the older, cheaper goods in closing stock."
+}
+},
+"accv1902": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "FIFO leaves 70 bags at ₦60, valued at ₦4,200."
+}
+},
+"accv1903": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "LIFO leaves 50 opening-stock bags at ₦40, valued at ₦2,000."
+}
+},
+"accv1904": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Average cost is ₦87.50; 80 remaining cartons are worth ₦7,000."
+}
+},
+"accv1905": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "At rising prices, FIFO assigns lower costs to sales and therefore yields higher profit than LIFO."
+}
+},
+"accv1906": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Average cost is ₦22,600 ÷ 200 = ₦113; 150 bags cost ₦16,950."
+}
+},
+"accv1907": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Closing stock is ₦1,500 under FIFO and ₦1,250 under LIFO, a ₦250 difference."
+}
+},
+"accv2000": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "₦240,000 ÷ ₦120,000 gives a current ratio of 2:1."
+}
+},
+"accv2001": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The quick ratio is (current assets − stock) ÷ current liabilities."
+}
+},
+"accv2002": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Gross profit is ₦150,000; ₦150,000 ÷ ₦500,000 = 30%."
+}
+},
+"accv2003": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "₦96,000 ÷ ₦800,000 × 100 = 12%."
+}
+},
+"accv2004": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Average stock is ₦50,000; ₦500,000 ÷ ₦50,000 = 10 times."
+}
+},
+"accv2005": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Using the stated year-end debtors balance, ₦90,000 ÷ ₦720,000 × 360 = 45 days."
+}
+},
+"accv2006": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "₦150,000 ÷ ₦1,000,000 × 100 = 15%."
+}
+}
+}

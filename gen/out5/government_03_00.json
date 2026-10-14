@@ -1,0 +1,178 @@
+{
+"subject": "government",
+"topic": "Constitutions: types and sources",
+"ti": 3,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of these is the best example of a constitution derived mainly from a nation's historical customs, judicial decisions and traditions rather than from a single codified document?",
+"options": [
+"The Constitution of the United Kingdom",
+"The Constitution of the United States of America",
+"The Constitution of the Federal Republic of Nigeria, 1999",
+"The Constitution of the Republic of Ghana"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Britain's constitution is built up from customs, traditions, judicial precedents and statutes over centuries, without one single written document. The other three countries have single codified constitutional documents.",
+"id": "govx03000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na Britain constitution dem dey build from customs, traditions, and court decisions over many years, instead of one single written book. Di other three countries get their own for one single written book."
+},
+{
+"q": "A federal constitution, as a type, is best defined as one in which",
+"options": [
+"power is shared between a central government and component states, each supreme in its own sphere",
+"all powers are concentrated in a single central authority that creates local governments at will",
+"the legislature can amend any part of the constitution by simple majority vote",
+"the head of state and head of government are combined in one office"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A federal constitution divides powers between the central government and the federating units, with each level having exclusive authority in defined areas. The other options describe unitary systems or unrelated features.",
+"id": "govx03001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Federal constitution dey share power between di center government and di state governments, where each level get power for im own area. Di other options dey talk about unitary system or other things wey no consign federation."
+},
+{
+"q": "Nigeria's 1999 Constitution (as amended) is often classified as both written and rigid. Which combination of features best justifies this classification?",
+"options": [
+"It exists in a single codified document and can only be amended through a special procedure requiring more than a simple majority",
+"It exists in a single codified document but can be changed by ordinary legislation like any other law",
+"It is based mainly on unwritten customs but requires a referendum for every amendment",
+"It is partly written and partly unwritten, with amendments made informally by convention"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The 1999 Constitution is contained in one formal document, making it written, and amendments need special majorities in the National and State Assemblies, making it rigid. Ordinary legislative majorities and informal conventions do not apply to its amendment process.",
+"id": "govx03002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di 1999 Constitution dey inside one book, na why dem call am written constitution, and e dey hard to change because e need special majority for National and State Assemblies. Ordinary law no fit change am easily."
+},
+{
+"q": "Judicial precedents are regarded as a historical source of a constitution mainly because",
+"options": [
+"past court decisions interpreting constitutional provisions guide later cases and shape constitutional meaning over time",
+"judges are empowered to rewrite the constitution whenever they consider it outdated",
+"the legislature is bound to copy every court ruling into the constitution",
+"courts alone can create new constitutions without reference to any assembly"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "When courts interpret constitutional provisions, their decisions build a body of precedent that influences how the constitution is understood and applied afterward. Judges interpret rather than rewrite the constitution, and legislatures are not obliged to codify every ruling.",
+"id": "govx03003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When court interpret constitution, di decisions wey dem make dey guide future cases and help people understand di constitution better. Judges dey explain law, dem no dey rewrite am."
+},
+{
+"q": "A student claims that any country with a written constitution automatically has a flexible one. Which statement best corrects this claim?",
+"options": [
+"Whether a constitution is flexible or rigid depends on its amendment procedure, not on whether it is written or unwritten",
+"Written constitutions are always rigid, while unwritten ones are always flexible without exception",
+"A constitution's flexibility depends only on the number of pages it contains",
+"Flexibility is determined by how old the constitution is, not by its amendment rules"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Flexibility or rigidity is decided by how easily a constitution can be amended, which is a separate question from whether it is written down. Some written constitutions are flexible, just as some unwritten ones can be difficult to change in practice.",
+"id": "govx03004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Whether constitution dey flexible or rigid na how dem dey take amend am, and e no mean say because e write down e must hard to change. Some written constitutions dey easy to amend, while some no be so."
+},
+{
+"q": "A confederal arrangement differs from a true federation mainly in that",
+"options": [
+"member states retain greater sovereignty and can withdraw, with the central body having only limited delegated powers",
+"the central government has supreme authority over all member states in every matter",
+"member states lose their individual legal identity completely once they join",
+"only one level of government exists, with no division of powers at all"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In a confederation, independent states cooperate loosely, keep most of their sovereignty, and can leave the union, while the central authority has only limited powers granted to it. This is unlike a federation, where power-sharing is constitutionally entrenched and withdrawal is not simple.",
+"id": "govx03005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For confederal system, member states still hold their power and fit comot anytime, while di center government get small power wey dem give am. E different from federation where power-sharing strong well well inside constitution."
+},
+{
+"q": "Which of the following best illustrates a constitutional convention operating alongside a written constitution?",
+"options": [
+"The long-standing practice whereby a Nigerian President consults party leaders before certain appointments, though this is not written in the constitution",
+"The formal provision in the constitution stating the procedure for electing the President",
+"A Supreme Court judgment striking down a law as unconstitutional",
+"A constitutional amendment passed by two-thirds majority of the National Assembly"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Conventions are unwritten political practices that are followed by custom and expectation, even though they are not legally enforceable or stated in the constitution. The other options describe written provisions, judicial action, or formal amendment, not conventions.",
+"id": "govx03006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Constitutional conventions na unwritten political habits wey people dey follow because of custom, even though dem no write am inside constitution. Di other options na written laws, court judgment, or formal amendments."
+},
+{
+"q": "A textbook author argues that academic writings and legal commentaries on constitutional principles should be seen as a source of constitutional law. This view best reflects which category of source?",
+"options": [
+"Persuasive but non-binding secondary source that influences interpretation",
+"Primary material source with the same binding force as the written text",
+"A formal source equal in authority to an act of the legislature",
+"A historical source that automatically becomes law once published"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Scholarly writings can influence how courts and lawmakers understand constitutional provisions, but they are not legally binding by themselves. They only persuade interpretation; they do not carry the same force as the constitution's actual text or enacted laws.",
+"id": "govx03007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Book writings and legal opinions fit help court and law makers understand constitution well, but dem no be binding law on their own. Na just to guide interpretation dem dey use am, dem no get power like main text."
+}
+],
+"rejected": []
+}

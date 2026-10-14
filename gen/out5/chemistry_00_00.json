@@ -1,0 +1,200 @@
+{
+"subject": "chemistry",
+"topic": "Separation of mixtures and purification",
+"ti": 0,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A chemist wants to separate a mixture of two immiscible liquids, kerosene and water, that have been shaken together in a flask. Which piece of apparatus is most suitable for this separation?",
+"options": [
+"Separating funnel",
+"Liebig condenser",
+"Buchner funnel",
+"Thistle funnel"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Kerosene and water do not mix and form two distinct layers because of their different densities. A separating funnel allows the lower denser layer (water) to be run off through the tap while the kerosene remains above.",
+"py": null,
+"values": null,
+"id": "chex00000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Kerosene and water no dey mix because their density different, na im make dem form two layers. Na separating funnel you go use make the heavy water waka go down through the tap, while kerosene remain for top."
+},
+{
+"q": "Crystals of copper(II) sulphate are to be obtained in pure, well-formed form from its saturated aqueous solution. Which process is best suited for this purpose?",
+"options": [
+"Simple distillation",
+"Slow evaporation and cooling",
+"Sublimation",
+"Decantation"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Slow evaporation of the solvent followed by gradual cooling allows large, well-shaped crystals of copper(II) sulphate to grow from the saturated solution. Fast evaporation gives small, poorly formed crystals instead.",
+"py": null,
+"values": null,
+"id": "chex00001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you wan get fine copper(II) sulphate crystals, make you slow down evaporation and allow am cool gently. Fast evaporation go just scatter small ugly crystals."
+},
+{
+"q": "Two solid organic compounds, P and Q, have very close melting points. A student wants to confirm whether a given sample is pure P or a mixture of P and Q, using only a melting point apparatus. What should the student do?",
+"options": [
+"Mix P with Q and heat; a sharp melting point confirms the sample is pure P",
+"Prepare a mixed melting point of the sample with pure P; a lowered, broadened melting range shows the sample is impure",
+"Heat the sample alone; any melting at all shows the sample is pure P",
+"Dissolve the sample in water and measure the boiling point instead"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In the mixed melting point test, mixing an unknown sample with a known pure substance and finding a depressed, widened melting range indicates the sample contains an impurity (Q). If the sample were pure P, mixing with pure P would not change the sharp melting point.",
+"py": null,
+"values": null,
+"id": "chex00002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To check whether your sample pure, mix am with pure P. If the melting point range scatter and drop down, e mean say impurity dey inside."
+},
+{
+"q": "A student needs to separate a mixture of two miscible liquids whose boiling points differ by only 5° C. Which technique would give the most efficient separation of the two liquids?",
+"options": [
+"Simple distillation",
+"Fractional distillation using a fractionating column",
+"Filtration followed by evaporation",
+"Solvent extraction with a separating funnel"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When boiling points are close together, a fractionating column provides repeated vaporisation-condensation cycles that greatly improve separation efficiency. Simple distillation cannot resolve liquids with such close boiling points effectively.",
+"py": null,
+"values": null,
+"id": "chex00003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When two liquids get boiling point wey near each other like 5° C, na fractional distillation using a fractionating column go give you better separation. Simple distillation no fit handle am well."
+},
+{
+"q": "In a column chromatography set-up for separating plant pigments, a mixture of chlorophyll and carotene is applied to the top of a column packed with silica gel, and a suitable solvent is allowed to flow through. Carotene moves faster down the column than chlorophyll. What does this show about carotene compared to chlorophyll?",
+"options": [
+"Carotene is less soluble in the solvent used",
+"Carotene is more strongly adsorbed onto the silica gel",
+"Carotene is less strongly adsorbed onto the silica gel and more soluble in the moving solvent",
+"Carotene has a higher melting point than chlorophyll"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "In chromatography, a component that travels faster is less strongly held back by the stationary phase (silica gel) and dissolves more readily in the moving solvent (mobile phase). Carotene's faster movement shows weaker adsorption and greater solubility in the solvent compared with chlorophyll.",
+"py": null,
+"values": null,
+"id": "chex00004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Carotene dey move fast down the column because e no dey stick too much to the silica gel, and e dey dissolve well inside the solvent. That na why e dey faster pass chlorophyll."
+},
+{
+"q": "Okon wants to separate a mixture of two solids, naphthalene and anhydrous calcium chloride, based on the fact that only naphthalene turns directly into vapour on gentle heating without melting. Which separation method is this describing?",
+"options": [
+"Sublimation",
+"Fractional crystallisation",
+"Magnetic separation",
+"Decantation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Naphthalene sublimes, meaning it changes directly from solid to vapour on heating, while calcium chloride does not. The naphthalene vapour can then be cooled and collected as a solid, leaving calcium chloride behind.",
+"py": null,
+"values": null,
+"id": "chex00005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Naphthalene dey do sublimation, wey mean say e dey turn straight to gas from solid when you heat am gently, while calcium chloride go remain for ground."
+},
+{
+"q": "A student is given four pairs of substances and asked which pair can be separated by fractional crystallisation. Which pair below is best separated by this method?",
+"options": [
+"Iron filings and sulphur powder, based on magnetism",
+"Potassium trioxonitrate(V) and sodium chloride, based on their different solubility curves at varying temperatures",
+"Ethanol and water, based on different boiling points",
+"Palm oil and water, based on immiscibility"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Fractional crystallisation separates soluble solids whose solubilities change differently with temperature, allowing one salt to crystallise out while the other stays dissolved. Potassium trioxonitrate(V) and sodium chloride have different solubility curves, making this method suitable, unlike the other pairs which need magnetism, distillation, or a separating funnel instead.",
+"py": null,
+"values": null,
+"id": "chex00006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Potassium trioxonitrate(V) and sodium chloride get different solubility curves as temperature dey change. Na that one make fractional crystallisation perfect for dem."
+},
+{
+"q": "A 15.0 g sample of a solid mixture contains common salt and pure sand only. After dissolving the mixture in 100 cm^3 of water, filtering, and completely evaporating the filtrate to dryness, 9.0 g of dry salt crystals were recovered. Assuming no loss of material during the experiment, what is the percentage of sand in the original sample?",
+"options": [
+"40.0%",
+"60.0%",
+"25.0%",
+"9.0%"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The mass of sand left on the filter paper is 15.0 g minus 9.0 g of salt, which equals 6.0 g. Percentage of sand is (6.0/15.0) x 100, giving 40.0 percent.",
+"py": "((15.0-9.0)/15.0)*100",
+"values": [
+40.0,
+60.0,
+25.0,
+9.0
+],
+"id": "chex00007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If 9.0 g of salt comot from the 15.0 g total mixture, the remaining sand na 6.0 g. When you calculate the percentage, you go get 40.0%."
+}
+],
+"rejected": []
+}

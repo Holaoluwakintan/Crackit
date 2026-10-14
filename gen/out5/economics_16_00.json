@@ -1,0 +1,200 @@
+{
+"subject": "economics",
+"topic": "Natural resources and the petroleum industry in Nigeria",
+"ti": 16,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Nigeria's crude oil is generally classified as 'light' and 'sweet'. What does the term 'sweet' refer to in this classification?",
+"options": [
+"A low sulphur content in the crude oil",
+"A high viscosity that makes refining difficult",
+"A high specific gravity of the crude oil",
+"A high wax content that solidifies at room temperature"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Sweet crude oil contains a low percentage of sulphur, which makes it easier and cheaper to refine into petroleum products. Light refers to its low density, a separate property from sweetness.",
+"py": null,
+"values": null,
+"id": "ecox16000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Sweet crude oil get small small sulphur inside am, wey dey make am easy and cheap to refine to petroleum products. 'Light' mean say e get low density, wey be another thing entirely from sweetness."
+},
+{
+"q": "Which of these is the main reason the petroleum industry, unlike agriculture, has not created widespread direct employment for Nigerians?",
+"options": [
+"The industry is capital-intensive and highly mechanized rather than labour-intensive",
+"The government restricts the number of workers allowed in the industry",
+"Petroleum products are mainly consumed locally and not exported",
+"Oil exploration sites are located only in densely populated areas"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Petroleum extraction and refining rely heavily on machinery, technology and skilled technical staff rather than large numbers of workers. This makes the sector capital-intensive, unlike labour-intensive agriculture which employs many more people.",
+"py": null,
+"values": null,
+"id": "ecox16001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Petroleum work dey rely well well on heavy machines, technology and skilled workers instead of plenty people. E make the sector capital-intensive, unlike agriculture wey dey employ plenty labour."
+},
+{
+"q": "A barrel of crude oil sold by Nigeria is priced at $80. If the naira-dollar exchange rate is ₦1500 to $1, what is the naira value of 5,000 barrels exported in a day?",
+"options": [
+"₦600,000,000",
+"₦400,000,000",
+"₦750,000,000",
+"₦500,000,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total dollar value is 5000 multiplied by 80, giving 400,000 dollars. Converting at ₦1500 per dollar gives 400,000 times 1500, which equals ₦600,000,000.",
+"py": "5000*80*1500",
+"values": [
+600000000,
+400000000,
+750000000,
+500000000
+],
+"id": "ecox16002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Total dollar value na 5000 times 80, wey give 400,000 dollars. When you change am at ₦1500 per dollar, e go give 400,000 times 1500, wey come equal ₦600,000,000."
+},
+{
+"q": "In the Nigerian petroleum industry value chain, which of the following activities belongs to the 'midstream' sector?",
+"options": [
+"Exploration and drilling of crude oil wells",
+"Transportation, refining, and storage of petroleum products",
+"Retailing of petrol at filling stations to consumers",
+"Prospecting for new oil fields using seismic surveys"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The midstream sector covers processing, refining, transportation and storage of crude oil and its products. Exploration belongs to upstream, while retail sale to final consumers belongs to downstream.",
+"py": null,
+"values": null,
+"id": "ecox16003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Midstream sector cover how dem dey process, refine, transport and keep crude oil and im products. Exploration na upstream, while selling petrol for filling station na downstream."
+},
+{
+"q": "One major reason successive Nigerian governments have found it difficult to fully deregulate the downstream petroleum sector is that",
+"options": [
+"Removing fuel subsidies tends to raise transport costs and general prices, causing public resistance",
+"Deregulation would immediately increase the volume of crude oil reserves",
+"Private investors are legally barred from owning refineries in Nigeria",
+"Deregulation would reduce the price of crude oil on the international market"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Subsidy removal usually leads to higher pump prices for petrol, which raises transportation costs and the general price level. This often triggers strong public opposition, making full deregulation politically difficult.",
+"py": null,
+"values": null,
+"id": "ecox16004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When dem remove subsidy, transport fare and market prices go high up. This one dey vex people plenty,y wey make am hard for government to fully deregulate the sector."
+},
+{
+"q": "Which international organisation does Nigeria belong to that coordinates production quotas among major crude oil exporting countries to influence world oil prices?",
+"options": [
+"Organisation of Petroleum Exporting Countries (OPEC)",
+"Economic Community of West African States (ECOWAS)",
+"World Trade Organisation (WTO)",
+"African Continental Free Trade Area (AfCFTA)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Nigeria is a member of OPEC, a group of oil-exporting nations that agree on production quotas to regulate supply and stabilise international oil prices. The other bodies deal with regional integration or general trade, not oil quotas.",
+"py": null,
+"values": null,
+"id": "ecox16005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Nigeria join OPEC, na him be the group of oil countries wey dey control how much oil dem dey produce to help balance world oil price. The other organisations no dey control oil quota."
+},
+{
+"q": "A Nigerian state government depends on crude oil revenue for 90% of its budget. If world oil prices suddenly fall sharply, which of the following best describes the most likely immediate effect on the state's economy?",
+"options": [
+"A significant shortfall in revenue leading to difficulty funding planned projects and salaries",
+"An automatic rise in the state's agricultural output to compensate for the loss",
+"A proportional increase in the state's non-oil tax revenue to cover the gap",
+"An immediate increase in the state's foreign exchange reserves"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since the state depends heavily on oil revenue, a sharp fall in oil prices directly reduces its income, making it hard to meet budgeted spending such as salaries and projects. The other outcomes do not happen automatically just because oil prices fall.",
+"py": null,
+"values": null,
+"id": "ecox16006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Because the state dey rely well well on oil money, if oil price fall, money no go enter again to pay salary and build projects. The other options no dey happen just like that because oil price fall."
+},
+{
+"q": "Nigeria's continued dependence on imported refined petroleum products, despite being a major crude oil producer, best illustrates which of the following economic problems?",
+"options": [
+"Overdependence on primary exports with weak domestic value addition",
+"Excess refining capacity leading to surplus petrol for export",
+"A permanent shortage of crude oil reserves within the country",
+"Strong forward linkages from crude oil into local manufacturing"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Nigeria exports mostly crude oil, a raw primary product, while importing refined products because local refining capacity is insufficient. This shows weak value addition and overdependence on exporting unprocessed resources.",
+"py": null,
+"values": null,
+"id": "ecox16007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Nigeria dey export raw crude oil but dey import refined fuel back because our refineries no strong. E show say we overdepend on primary export without processing our things well for house."
+}
+],
+"rejected": []
+}

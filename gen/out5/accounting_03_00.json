@@ -1,0 +1,207 @@
+{
+"subject": "accounting",
+"topic": "Double entry principle and the ledger",
+"ti": 3,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In the ledger, which of the following best describes the term 'folio column'?",
+"options": [
+"A column used to record the page number of the corresponding entry in another book",
+"A column used to show the running balance of an account",
+"A column used to record the date a transaction occurred",
+"A column used to classify accounts as real or nominal"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The folio column is used to cross-reference an entry with the page or account where its corresponding double entry can be found. It helps in tracing entries between the journal and ledger.",
+"py": null,
+"values": null,
+"id": "accx03000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Folio column dey help us connect entry to where the other side dey for book. E dey make am easy to trace transaction between journal and ledger."
+},
+{
+"q": "Okonkwo Traders purchased goods worth ₦85,000 on credit from Musa Enterprises. Which of the following correctly shows the double entry for this transaction in the books of Okonkwo Traders?",
+"options": [
+"Debit Purchases account, Credit Musa Enterprises account",
+"Debit Musa Enterprises account, Credit Purchases account",
+"Debit Purchases account, Credit Cash account",
+"Debit Sales account, Credit Musa Enterprises account"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Goods bought on credit increase purchases (an expense, so debited) and create a liability to the supplier (creditor), which is credited. Musa Enterprises is the creditor here, not Okonkwo Traders.",
+"py": null,
+"values": null,
+"id": "accx03001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When you buy goods on credit, purchases go increase naim make we debit am. Musa Enterprises na supplier, so we go credit their account as liability."
+},
+{
+"q": "A trial balance is best described as a statement that",
+"options": [
+"shows the final profit or loss of a business for a period",
+"lists all ledger account balances to check the arithmetical accuracy of the books",
+"shows the financial position of a business on a particular date",
+"records all cash and bank transactions of a business"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A trial balance is a list of all debit and credit balances extracted from the ledger, prepared mainly to check that total debits equal total credits. It is not itself a financial statement like the profit and loss account or balance sheet.",
+"py": null,
+"values": null,
+"id": "accx03002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Trial balance na list of all ledger balances wey we use check say debit and credit balance dey equal. E no be final profit or loss statement."
+},
+{
+"q": "Which of the following pairs of accounts would both normally have a credit balance?",
+"options": [
+"Capital account and Sales account",
+"Drawings account and Purchases account",
+"Rent expense account and Cash account",
+"Debtors account and Capital account"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Capital represents what the owner has invested and is a liability-type account to the business, so it carries a credit balance. Sales increase profit and are also credited, so both normally show credit balances.",
+"py": null,
+"values": null,
+"id": "accx03003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Capital and sales accounts normally dey carry credit balance. Capital na money owner put inside business, and sales na income."
+},
+{
+"q": "The ledger account used to record goods taken by the owner of a business for personal use, rather than for sale, is called the",
+"options": [
+"Purchases account",
+"Sales account",
+"Drawings account",
+"Capital account"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "When an owner takes goods from the business for personal use, this is treated as drawings, not a purchase or sale transaction, and is debited to the drawings account while purchases (or stock) is credited.",
+"py": null,
+"values": null,
+"id": "accx03005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If owner carry goods go use for house, we dey call am drawings. Na drawings account we go debit for that one."
+},
+{
+"q": "Which of the following statements correctly explains why the ledger is often referred to as the 'book of final entry'?",
+"options": [
+"It is the first book in which all transactions are recorded before being posted elsewhere",
+"It classifies and summarises transactions already recorded in the books of original entry",
+"It is used only to record cash transactions of the business",
+"It is prepared after the trial balance to correct errors found"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Transactions are first recorded in books of original entry such as the journal or day books, and are then posted to the ledger where they are classified under appropriate accounts. This classification role is why the ledger is called the book of final entry.",
+"py": null,
+"values": null,
+"id": "accx03007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na book of original entry transaction dey enter first before dem post am to ledger. Ledger come be book of final entry because na there dem dey arrange am well well."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The following balances appeared in the ledger of Amaka Stores: Cash account debit balance ₦45,000; Bank account debit balance ₦60,000; Capital account credit balance ₦150,000; Creditors account credit balance ₦25,000; Debtors account debit balance ₦70,000. What is the balance on the Fixed Assets/Sundry account needed to balance the ledger, assuming only these five accounts and the fixed assets account exist?",
+"options": [
+"₦0",
+"₦5,000",
+"₦175,000 debit",
+"₦40,000 debit"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Total debits given are 45,000+60,000+70,000=175,000 and total credits are 150,000+25,000=175,000, which already balance. Since debits equal credits, no additional balancing figure is needed, so the missing account balance is zero.",
+"py": "(45000+60000+70000) - (150000+25000)",
+"values": [
+0,
+5000,
+175000,
+40000
+],
+"id": "accx03004",
+"check": {
+"s1": "A",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:D"
+},
+{
+"q": {
+"q": "A trader's Bank account showed a debit balance brought down of ₦54,000 at the start of the month. During the month, he deposited cash of ₦30,000 and paid a supplier by cheque for ₦42,000. What should the balance carried down on the Bank account be at the end of the month?",
+"options": [
+"₦42,000 debit",
+"₦24,000 debit",
+"₦126,000 debit",
+"₦12,000 credit"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Bank account starts with ₦54,000 debit, increases by ₦30,000 deposit (debit side), giving total debits of ₦84,000, then decreases by the ₦42,000 cheque payment (credit side). The closing balance is ₦84,000 minus ₦42,000, which equals ₦24,000 debit.",
+"py": "54000 + 30000 - 42000",
+"values": [
+42000,
+24000,
+126000,
+-12000
+],
+"id": "accx03006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+}
+]
+}

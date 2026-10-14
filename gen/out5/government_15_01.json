@@ -1,0 +1,159 @@
+{
+"subject": "government",
+"topic": "Local government in Nigeria",
+"ti": 15,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the role of the Ward Councillor in a Nigerian local government council?",
+"options": [
+"He represents the interest of his electoral ward and participates in making bye-laws for the council",
+"He serves as the chief accounting officer of the local government treasury",
+"He is appointed by the state governor to supervise council projects",
+"He heads the traditional council of chiefs within the local government area"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Ward Councillors are elected representatives of their wards who sit in the legislative arm of the council and help make bye-laws. They are not appointed by the governor nor in charge of the treasury.",
+"id": "govx15010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Ward Councillor na person wey people for im area elect to represent dem for council. E dey help make bye-laws and e no get anything to do with treasury or governor appointment."
+},
+{
+"q": "A town union in a rural community in Nigeria contributes money and organises communal labour to construct a feeder road linking it to the local government headquarters. This action best illustrates which role of non-governmental bodies in local government administration?",
+"options": [
+"Acting as a substitute for the local government's constitutional functions",
+"Serving as a pressure group that supplements government efforts in grassroots development",
+"Taking over the revenue collection powers of the council",
+"Replacing the local government legislative arm in making bye-laws"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Town unions and similar voluntary associations support and complement government efforts at the grassroots by mobilising community resources for development, rather than replacing official council organs or powers.",
+"id": "govx15012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Town union dey help government do work for grassroots by gathering money and labour. Dem no dey replace government, dem just dey support make development reach ground."
+},
+{
+"q": "Which of the following pairs correctly matches a problem of local government administration in Nigeria with its most likely consequence?",
+"options": [
+"Excessive local government autonomy - leading to total independence from state supervision",
+"Inadequate trained manpower - leading to poor planning and inefficient service delivery",
+"Too many political parties contesting elections - leading to abolition of council elections",
+"High internally generated revenue - leading to frequent dissolution of councils by governors"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A shortage of qualified and trained staff weakens planning, budgeting and project execution, resulting in poor service delivery at the grassroots. The other pairings describe situations that do not realistically occur under the Nigerian system.",
+"id": "govx15013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If local government no get trained people, work no go move well. Planning and service delivery go suffer because dem no get technical know-how."
+},
+{
+"q": "A proposal is made that instead of a single local government chairman and council, each Nigerian local government should be run jointly by two elected principal officers with equal executive powers, in the hope of reducing abuse of office. Which major weakness is this proposal most likely to introduce into local government administration?",
+"options": [
+"Faster decision-making due to shared responsibility",
+"Possible conflict and delay in decision-making arising from divided executive authority",
+"Automatic increase in internally generated revenue",
+"Elimination of the need for a legislative arm in the council"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Having two officers with equal executive powers can easily cause disagreement over who has final authority, slowing down decisions. A single, clearly defined executive head is usually preferred to avoid such conflicts.",
+"id": "govx15015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If two people get equal power for executive, dem go dey fight over who get final say. Dis one go make decision-making slow and cause wahala for administration."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the structure of a Nigerian local government council, the Legislative Arm is mainly charged with the responsibility of:",
+"options": [
+"Implementing approved bye-laws and running daily administration",
+"Debating, amending and passing bye-laws as well as overseeing the executive",
+"Collecting taxes and rates directly from market traders",
+"Appointing judges to preside over customary courts",
+"Approving the state government's annual budget"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Legislative Arm, made up of elected councillors, debates and passes bye-laws and checks the activities of the executive arm. Implementing bye-laws and daily administration belong to the executive arm, not the legislature."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "One of the ways by which the Nigerian Constitution seeks to guarantee a democratic local government system is by requiring that:",
+"options": [
+"Local government chairmen be appointed solely by the state House of Assembly",
+"Councils be run through a democratically elected system of local government councils",
+"Traditional rulers automatically become chairmen of local government councils",
+"The Federal Government directly appoint caretaker committees to run councils",
+"Only civil servants be allowed to contest local government elections"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The 1999 Constitution guarantees a democratically elected local government system as the appropriate structure for grassroots administration. Appointment by the Assembly or Federal Government, or automatic chairmanship for traditional rulers, contradicts this democratic principle."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A state House of Assembly, acting on allegations of financial mismanagement, votes to dissolve an elected local government council and appoints a caretaker committee to run its affairs pending fresh elections. This action illustrates which aspect of state-local government relations in Nigeria?",
+"options": [
+"The complete financial independence of local governments from the state",
+"The supervisory and control powers which state governments exercise over local councils",
+"The constitutional ban on any interference by states in local government affairs",
+"The direct responsibility of the Federal Government for local government elections",
+"The autonomy of local councils from any oversight by any level of government"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "State Houses of Assembly and governors exercise supervisory powers over local councils, including the power to remove officials or dissolve councils under certain conditions. This shows that local governments are not completely independent of state oversight."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following best explains why local government is generally considered important for political education and grassroots democracy in Nigeria?",
+"options": [
+"It allows citizens at the community level to participate directly in choosing leaders and shaping decisions that affect their daily lives",
+"It gives the Federal Government direct control over all community-level decisions",
+"It replaces the need for state governments to provide any social services",
+"It ensures that only traditional rulers make all decisions affecting the community",
+"It eliminates the need for citizens to vote in state and federal elections"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Local government brings governance closer to the people, giving them opportunities to vote, contest elections and participate in decisions on local matters, which builds democratic awareness. It does not remove the roles of the state, federal government or the need to vote at other levels."
+},
+"why": "bad-shape"
+}
+]
+}

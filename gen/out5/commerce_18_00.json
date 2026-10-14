@@ -1,0 +1,191 @@
+{
+"subject": "commerce",
+"topic": "Legal aspects of business: contract, agency, sale of goods and hire purchase",
+"ti": 18,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the legal effect of 'revocation' of an offer under the law of contract?",
+"options": [
+"The offeror withdraws the offer before it is accepted",
+"The offeree accepts the offer with new conditions",
+"The offeror and offeree agree to cancel a signed contract",
+"The offeree rejects the offer outright"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Revocation occurs when the person who made the offer withdraws it before the other party has accepted. Once revoked, the offer can no longer be accepted to form a valid contract.",
+"py": null,
+"values": null,
+"id": "comx18001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Revocation mean say person wey make offer withdraw am before di other person accept am. Once dem revoke am, you no fit accept am again to form valid contract."
+},
+{
+"q": "Alhaji Musa bought a used tipper lorry from Garba Motors. Unknown to Alhaji Musa, the lorry had been reported as stolen before Garba Motors sold it to him. Under the Sale of Goods Law, which implied condition has been breached?",
+"options": [
+"Condition as to fitness for purpose",
+"Condition as to merchantable quality",
+"Condition as to title",
+"Condition as to sale by sample"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The law implies that a seller has the right to sell the goods and that the buyer will enjoy quiet possession. Since the lorry was stolen, Garba Motors had no good title to pass to Alhaji Musa.",
+"py": null,
+"values": null,
+"id": "comx18002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Law talk say seller must get right to sell wetin e dey sell. Because di lorry na stolen property, Garba Motors no get legal title to give Alhaji Musa."
+},
+{
+"q": "Which of the following is a duty that an agent owes to his principal under the law of agency?",
+"options": [
+"To guarantee that the principal makes a profit from every transaction",
+"To act within the scope of authority given and account for all monies received",
+"To share equally in any loss suffered by the principal",
+"To employ sub-agents without the principal's consent"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An agent must act within the authority granted and render a true account of all money or property received on the principal's behalf. The other options describe actions an agent is not required, or not permitted, to do.",
+"py": null,
+"values": null,
+"id": "comx18003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Agent must work according to wetin dem tell am do and e must show account for all money wey e collect for im principal. E no get duty to make profit or share loss."
+},
+{
+"q": "Bimpe agreed to buy a plot of land from Chief Ogunleye for N2,500,000, but the agreement was only spoken and never put in writing. Chief Ogunleye later refused to hand over the land. In relation to contracts concerning sale of land, what is the likely effect of this on Bimpe's ability to enforce the agreement in court?",
+"options": [
+"The contract is fully enforceable because both parties agreed orally",
+"The contract is void because land cannot be sold by agreement",
+"The contract is generally unenforceable because contracts for sale of land must be evidenced in writing",
+"The contract is voidable at the option of Bimpe only"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Contracts relating to the sale or transfer of interest in land fall under contracts that must generally be evidenced in writing (or by part performance) to be enforceable in court. Since there was no written evidence, Bimpe will find it difficult to enforce the oral agreement.",
+"py": null,
+"values": null,
+"id": "comx18004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Contract for land must dey for paper before court fit enforce am. Because Bimpe and Chief Ogunleye only talk am for mouth, e go hard for Bimpe to win for court."
+},
+{
+"q": "Under a hire purchase agreement, the hirer is best described as a person who",
+"options": [
+"owns the goods immediately upon signing the agreement",
+"pays by instalments and becomes owner only after paying the final instalment",
+"rents the goods permanently without any option to own them",
+"transfers ownership of the goods to the owner at the end of the agreement"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In a hire purchase agreement, the hirer uses the goods while paying instalments but only becomes the legal owner after the last instalment is paid along with any option-to-purchase fee. Before then, ownership remains with the owner/financier.",
+"py": null,
+"values": null,
+"id": "comx18005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For hire purchase, you dey pay small-small money to use di item. You go only become di real owner after you don pay di last instalment."
+},
+{
+"q": "Which of the following situations illustrates the termination of an agency relationship by 'operation of law' rather than by the acts of the parties themselves?",
+"options": [
+"The principal and agent mutually agree to end the arrangement",
+"The agent completes the specific task for which he was appointed",
+"The principal dies suddenly, automatically ending the agent's authority",
+"The principal revokes the agent's authority in writing"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Agency can end automatically by operation of law through events such as the death, insanity, or bankruptcy of either party, without any deliberate act by either side. The other options describe termination arising directly from the parties' own actions.",
+"py": null,
+"values": null,
+"id": "comx18007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Agency fit end by law if principal die, go mad, or go bankrupt. Dis one dey happen automatically without say any of dem plan am."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Ngozi (aged 17) bought a laptop for her university project on credit from a computer shop, promising to pay in two instalments. She has since refused to pay, arguing she is a minor. Which of the following best explains her legal position?",
+"options": [
+"She cannot be held liable at all because minors cannot enter any contract",
+"She may be held liable because the laptop could be classed as a necessary item reasonably needed for her studies",
+"The shop owner alone bears the loss because trading with minors is illegal",
+"The contract automatically transfers her liability to her parents",
+"She is excused because only written contracts bind minors"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The law generally protects minors from contractual liability, but an exception exists for necessaries reasonably required, such as items needed for education. A court may find the laptop qualifies as a necessary, making Ngozi liable to pay a reasonable price.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "In the law of agency, an agent who signs a contract on behalf of a known principal but fails to disclose that he is merely an agent, thereby appearing to be acting for himself, is known as a/an",
+"options": [
+"undisclosed principal",
+"agent of necessity",
+"del credere agent",
+"agent acting for an unnamed principal"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "When the agent reveals that he is acting for someone else but does not name the principal, he is said to be acting for an unnamed principal. This differs from an undisclosed principal, where the existence of any principal is hidden entirely.",
+"py": null,
+"values": null,
+"id": "comx18000",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

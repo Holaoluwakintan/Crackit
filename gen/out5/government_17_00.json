@@ -1,0 +1,178 @@
+{
+"subject": "government",
+"topic": "International organisations: UN, AU, ECOWAS, Commonwealth, OPEC",
+"ti": 17,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "The United Nations was formally established in 1945 mainly to replace an earlier international body that had failed to prevent a major world conflict. Which organisation did the UN essentially succeed?",
+"options": [
+"The League of Nations",
+"The Berlin Conference",
+"The Non-Aligned Movement",
+"The Congress of Vienna"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The United Nations was founded in 1945 to replace the League of Nations, which had collapsed and failed to stop the Second World War. The other options are unrelated historical bodies.",
+"id": "govx17000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Dem form United Nations for 1945 to replace League of Nations wey fail to stop Second World War. Other options no get anything to do with wetin UN replace."
+},
+{
+"q": "A new nation gains independence and wishes to join the United Nations as a full member state. Which organ of the UN must approve the application before it becomes valid?",
+"options": [
+"The Economic and Social Council",
+"The International Court of Justice",
+"The General Assembly, on recommendation of the Security Council",
+"The Secretariat alone"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Admission of new members requires the Security Council to recommend the applicant, after which the General Assembly votes to admit it. The Secretariat and ECOSOC have no power to admit members, and the Court only settles legal disputes.",
+"id": "govx17001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Before country fit join UN, Security Council must recommend am first. After that, General Assembly go come vote to accept the new member."
+},
+{
+"q": "One of the founding objectives of the African Union, as stated in its Constitutive Act, is to accelerate the political and socio-economic integration of the continent. Which of the following best describes another core objective of the AU?",
+"options": [
+"To defend the sovereignty and territorial integrity of member states",
+"To supervise elections in non-African countries",
+"To grant visas to African citizens travelling to Europe",
+"To fix the exchange rate of all African currencies"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The AU's Constitutive Act lists defending the sovereignty, territorial integrity and independence of member states as a core objective. The other options describe functions outside the AU's mandate.",
+"id": "govx17002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "AU get aim to protect the sovereignty and land of all member states. Other options no be part of wetin AU dey do at all."
+},
+{
+"q": "ECOWAS was created partly to deepen economic cooperation among West African states through a common market. Which of these is a direct economic objective of ECOWAS?",
+"options": [
+"Establishment of a single West African currency and customs union",
+"Appointment of judges to the International Criminal Court",
+"Control of oil prices for non-member states",
+"Supervision of the Commonwealth Games in West Africa"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "ECOWAS aims to promote economic integration, including moves toward a common currency and a customs union among member states. The other options have nothing to do with ECOWAS's economic goals.",
+"id": "govx17003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "ECOWAS get plan to make West African countries trade well, like to get one currency and customs union. The other options no be part of their economic work."
+},
+{
+"q": "A country wishing to join the Commonwealth of Nations today need not have been a former British colony, but it must still meet certain shared values. Which of these is a key requirement for Commonwealth membership?",
+"options": [
+"Acceptance of democratic principles and respect for human rights",
+"Payment of an annual oil quota to member states",
+"Adoption of the British monarch as head of state",
+"Use of the British pound sterling as official currency"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Modern Commonwealth membership is based on voluntary association and commitment to shared values such as democracy, human rights and rule of law, not necessarily colonial history or use of British currency. Members may be republics with their own currencies.",
+"id": "govx17004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Commonwealth members must agree to follow democracy and respect human rights. You no need to be British colony or use their money to join."
+},
+{
+"q": "OPEC was formed in 1960 by five oil-producing countries mainly to protect their interests against powerful international oil companies. Which pair below correctly lists two of these five founding members?",
+"options": [
+"Iran and Iraq",
+"Nigeria and Algeria",
+"Norway and Russia",
+"Angola and Gabon"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Iran and Iraq were among the five founding members of OPEC in 1960, alongside Kuwait, Saudi Arabia and Venezuela. Nigeria and the other listed countries joined OPEC much later.",
+"id": "govx17005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Iran and Iraq na part of the five countries wey start OPEC for 1960. Nigeria and other countries join later for different time."
+},
+{
+"q": "An ECOWAS member state suffers a military coup that overthrows its democratically elected government. Based on established ECOWAS practice in such situations, what action is the organisation most likely to take?",
+"options": [
+"Suspend the country from ECOWAS activities and impose sanctions",
+"Immediately expel the country from the United Nations",
+"Transfer the country's oil reserves to OPEC control",
+"Dissolve the African Union in protest"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "ECOWAS has a track record of suspending member states that experience unconstitutional changes of government and imposing sanctions to pressure a return to civilian rule. It has no power over UN membership, oil reserves, or the AU itself.",
+"id": "govx17006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If military take over government for ECOWAS country, dem go suspend the country and put sanctions. Dem no get power to remove country from UN or dissolve AU."
+},
+{
+"q": "The UN Security Council has five permanent members who each hold a special voting power that can block any substantive resolution. What is this power called?",
+"options": [
+"Veto power",
+"Quorum power",
+"Proxy power",
+"Mandate power"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The five permanent members of the Security Council hold veto power, allowing any one of them to block a substantive resolution with a single negative vote. The other terms do not describe this specific Security Council privilege.",
+"id": "govx17007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The five permanent members for Security Council get veto power. If any of dem vote 'no', the resolution no go pass at all."
+}
+],
+"rejected": []
+}

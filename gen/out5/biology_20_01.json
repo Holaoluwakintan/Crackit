@@ -1,0 +1,180 @@
+{
+"subject": "biology",
+"topic": "Diseases, parasites and immunity (malaria, cholera, HIV, vaccines)",
+"ti": 20,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is a correct pairing of a disease with its causative agent?",
+"options": [
+"Malaria - bacterium",
+"Cholera - virus",
+"HIV/AIDS - retrovirus",
+"Tuberculosis - protozoan"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "HIV is a retrovirus that causes AIDS by attacking the immune system. Malaria is caused by a protozoan, cholera by a bacterium and tuberculosis by a bacterium, so the other pairings are wrong.",
+"id": "biox20010",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na HIV be retrovirus wey dey cause AIDS by to attack our body defence system. Malaria na protozoan dey cause am, cholera na bacterium, and tuberculosis na also bacterium, so na only option C correct."
+},
+{
+"q": "A patient who recovered from an attack of malaria still has the Plasmodium parasites hidden in some liver cells, which can later multiply and cause a relapse. What term best describes this stage of the parasite in the liver?",
+"options": [
+"Sporozoite stage",
+"Merozoite stage",
+"Gametocyte stage",
+"Hypnozoite stage"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Hypnozoites are dormant forms of certain Plasmodium species that remain inactive in liver cells and can reactivate later to cause relapse. Sporozoites are the infective forms injected by mosquitoes, merozoites invade red blood cells, and gametocytes are the sexual forms taken up by mosquitoes.",
+"id": "biox20011",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Hypnozoites na the sleep-sleep form of some Plasmodium wey dey hide inside liver cells without moving. Later, dem fit wake up to make person get malaria relapse again."
+},
+{
+"q": "During a cholera outbreak in a riverine community in Bayelsa State, health workers advised residents to always boil water before drinking and to wash hands properly before eating. This advice is most directly aimed at preventing which mode of disease spread?",
+"options": [
+"Airborne transmission through coughing",
+"Faecal-oral transmission through contaminated water and food",
+"Direct contact through broken skin",
+"Vector transmission through insect bites"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Cholera bacteria spread mainly through water and food contaminated with faeces from infected persons. Boiling water and washing hands reduce this faecal-oral route, unlike the other transmission routes listed.",
+"id": "biox20012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Cholera germ dey pass enter body mostly through water and food wey faeces don contaminate. When you boil water and wash hand well well, you dey stop dat faecal-oral transmission."
+},
+{
+"q": "A student states that vaccination works because the vaccine itself immediately kills any pathogen that later enters the body. Which correction best explains the true mechanism of vaccine-induced protection?",
+"options": [
+"The vaccine directly destroys pathogens on contact before they enter cells",
+"The vaccine stimulates memory cells that enable a faster, stronger antibody response on future exposure",
+"The vaccine coats body cells so pathogens cannot attach to them physically",
+"The vaccine replaces damaged white blood cells with new ones permanently"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Vaccines work by exposing the immune system to antigens so that memory lymphocytes are formed. On real exposure to the pathogen, these memory cells allow a quicker and stronger antibody response, not by directly killing pathogens or coating cells.",
+"id": "biox20013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Vaccine dey train our body immunity to keep memory cells. When the real disease come later, those memory cells go produce antibodies quick quick to fight am."
+},
+{
+"q": "Which of the following best describes an opportunistic infection in relation to a person living with untreated HIV/AIDS?",
+"options": [
+"An infection that only affects people who have never been vaccinated",
+"An infection caused directly by the HIV virus multiplying in the lungs",
+"An infection by an organism that rarely causes disease in a healthy person but thrives because the immune system is weakened",
+"An infection that can only be transmitted through blood transfusion"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Opportunistic infections take advantage of a weakened immune system, especially the reduced number of helper T-cells in HIV/AIDS patients. Such organisms, like certain fungi and bacteria, usually cause little harm in people with healthy immunity.",
+"id": "biox20014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Opportunistic infection na sickness wey dey catch person because im body defence don weak finish. Normal person body fit fight am, but HIV patient body no fit."
+},
+{
+"q": "A community in Kebbi State drains nearby stagnant ponds and introduces fish that feed on mosquito larvae as part of a malaria control programme. This approach mainly targets which stage of the malaria transmission cycle?",
+"options": [
+"The sporozoite stage inside the mosquito's salivary glands",
+"The larval and pupal stages of the mosquito vector in water",
+"The gametocyte stage circulating in human blood",
+"The schizont stage inside human red blood cells"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Draining stagnant water and introducing larvae-eating fish destroys mosquito larvae and pupae before they develop into adult mosquitoes. This reduces the vector population and interrupts transmission without directly affecting parasite stages inside humans.",
+"id": "biox20015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To remove stagnant water and put fish wey dey chop mosquito pikin na to kill the larval and pupal stages inside water. E dey stop mosquito make dem no come grow to adult."
+},
+{
+"q": "In an experiment, two groups of mice were injected with a toxin. Group X had earlier received antibodies produced by another mouse against the toxin, while Group Y had earlier received an injection containing a weakened form of the toxin-producing organism itself. After some weeks, both groups were exposed to the live toxin-producing organism. Which statement correctly compares the type of immunity in both groups?",
+"options": [
+"Group X has active immunity while Group Y has passive immunity",
+"Group X has passive immunity while Group Y has active immunity",
+"Both groups have active immunity because antibodies were involved in each case",
+"Both groups have passive immunity because neither group's own cells produced antibodies initially"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Group X received ready-made antibodies from another organism, which is passive immunity and usually short-lived. Group Y was exposed to a weakened organism, triggering its own immune system to produce antibodies and memory cells, which is active immunity.",
+"id": "biox20016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Group X collect ready-made antibody, so na passive immunity. Group Y make im own antibody and memory cells because dem give am weak form of the germ, so na active immunity."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A patient with suspected cholera produces a watery stool described as having a pale, slightly cloudy appearance with flecks of mucus, often compared to water used to rinse rice. What is this characteristic stool commonly called in clinical description?",
+"options": [
+"Bloody stool",
+"Rice-water stool",
+"Tarry stool",
+"Frothy stool"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The profuse watery diarrhoea in cholera is classically described as rice-water stool because of its pale, flecked appearance. This feature helps distinguish cholera from other causes of diarrhoea that may produce bloody or tarry stools.",
+"id": "biox20017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:The question gives the answer in its description."
+}
+]
+}

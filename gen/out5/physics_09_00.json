@@ -1,0 +1,225 @@
+{
+"subject": "physics",
+"topic": "Temperature, thermometers and thermal expansion",
+"ti": 9,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A thermometer is designed with the ice point marked as 32 °F and the steam point marked as 212 °F. If a Nigerian weather station records a body temperature of 98.6 °F, what is this temperature on the Celsius scale?",
+"options": [
+"27.0 °C",
+"32.0 °C",
+"37.0 °C",
+"45.0 °C"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Using C/100 = (F-32)/180, we get C = (98.6-32) x 5/9 = 66.6 x 5/9 = 37.0 °C. This is the normal human body temperature.",
+"py": "(98.6-32)*5/9",
+"values": [
+27.0,
+32.0,
+37.0,
+45.0
+],
+"id": "phyx09000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "We use di formula C/100 = (F-32)/180 to change Fahrenheit to Celsius. When we put 98.6 °F inside, we go get 37.0 °C, wey be normal human body temperature."
+},
+{
+"q": "Which of these is the correct working principle behind the use of a thermocouple as a thermometric device?",
+"options": [
+"The volume of a fixed mass of gas changes with temperature at constant pressure",
+"An electromotive force is generated when the junctions of two different metals are kept at different temperatures",
+"The electrical resistance of a pure metal wire increases uniformly with temperature",
+"A liquid column rises or falls in a capillary tube as temperature changes"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A thermocouple consists of two different metals joined at two junctions; when the junctions are at different temperatures, a small thermoelectric EMF is produced that can be measured and related to temperature. The other options describe gas thermometers, resistance thermometers and liquid-in-glass thermometers respectively.",
+"py": null,
+"values": null,
+"id": "phyx09001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Thermocouple dey use two different metals wey join for two ends. If both ends get different temperature, e dey produce small EMF wey we fit use measure temperature."
+},
+{
+"q": "A glass beaker is completely filled with mercury at room temperature and then heated uniformly. Which statement correctly describes what is observed as the temperature rises?",
+"options": [
+"Only the mercury expands, so some mercury spills out of the beaker",
+"Only the glass beaker expands, so the mercury level appears to fall inside it",
+"Both the glass and the mercury expand, but since mercury has a greater cubical expansivity, mercury overflows",
+"Neither the glass nor the mercury expands since both are heated by the same amount"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Both the container and the liquid expand on heating, but liquids generally have a higher coefficient of cubical expansion than solids like glass. Since mercury expands more than the glass beaker, the excess volume causes mercury to overflow.",
+"py": null,
+"values": null,
+"id": "phyx09003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Both glass and mercury go expand when you heat dem, but mercury dey expand pass glass. Na dat extra expansion make mercury overflow from di beaker."
+},
+{
+"q": "A steel bridge girder is 60 m long when installed at a temperature of 10 °C. If the coefficient of linear expansion of steel is 1.1 x 10^-5 per °C, by how much will the girder's length increase when the temperature rises to 40 °C on a hot afternoon in Lagos?",
+"options": [
+"0.0198 m",
+"0.0330 m",
+"0.198 m",
+"0.330 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Extension = original length x alpha x temperature change = 60 x 1.1e-5 x (40-10) = 60 x 1.1e-5 x 30 = 0.0198 m. This small gap is why expansion joints are built into bridges.",
+"py": "60*1.1e-5*(40-10)",
+"values": [
+0.0198,
+0.033,
+0.198,
+0.33
+],
+"id": "phyx09004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To find di change in length, we multiply original length by expansivity and temperature change, wey give us 60 x 1.1e-5 x 30 to get 0.0198 m."
+},
+{
+"q": "A platinum resistance thermometer has a resistance of 20.0 ohms at the ice point and 27.0 ohms at the steam point. If the same thermometer reads a resistance of 23.5 ohms in a water bath, what is the temperature of the water bath on the platinum resistance scale, assuming resistance varies linearly with temperature?",
+"options": [
+"35.0 °C",
+"50.0 °C",
+"65.0 °C",
+"75.0 °C"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Using the formula T = [(Rt - R0)/(R100 - R0)] x 100, we get T = [(23.5-20.0)/(27.0-20.0)] x 100 = (3.5/7.0) x 100 = 50.0 °C.",
+"py": "((23.5-20.0)/(27.0-20.0))*100",
+"values": [
+35.0,
+50.0,
+65.0,
+75.0
+],
+"id": "phyx09005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "We go use di resistance formula by subtracting ice point resistance from current resistance, divide am by steam minus ice point, then multiply by 100 to get 50.0 °C."
+},
+{
+"q": "In the construction of a mercury-in-glass clinical thermometer, the bore of the capillary tube has a narrow constriction (kink) just above the bulb. What is the main purpose of this constriction?",
+"options": [
+"To make the thermometer more sensitive to small changes in temperature",
+"To prevent the mercury thread from breaking apart inside the capillary tube",
+"To prevent the mercury column from flowing back into the bulb after the thermometer is removed from the patient, so the reading can be taken at leisure",
+"To reduce the amount of mercury needed, making the thermometer cheaper to produce"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The constriction is narrow enough that the mercury column breaks there once the thermometer is removed from the body and starts cooling, trapping the expanded mercury above the kink. This allows the doctor or nurse to read the patient's temperature accurately after removal.",
+"py": null,
+"values": null,
+"id": "phyx09006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di small kink for clinical thermometer dey stop mercury make e no run go back enter bulb immediately. E dey make person fit read di temperature well even after remove am."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "An iron ring has an internal diameter of 8.00 cm at 20 °C. It is to be fitted onto a shaft of diameter 8.02 cm by heating the ring. If the coefficient of linear expansion of iron is 1.2 x 10^-5 per °C, to what minimum temperature must the ring be heated so that it just slides onto the shaft?",
+"options": [
+"103 °C",
+"145 °C",
+"228 °C",
+"333 °C"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Required expansion: delta_d = 0.02 cm, so delta_d = d x alpha x delta_T gives delta_T = 0.02/(8.00 x 1.2e-5) = 208.3 °C. Adding this to the initial 20 °C gives about 228 °C... actually recompute: delta_T = 0.02/(8x1.2e-5)=208.3, final temp = 20+208.3 = 228.3, so final temperature is approximately 228 °C.",
+"py": "20 + 0.02/(8.00*1.2e-5)",
+"values": [
+103,
+145,
+228,
+333
+],
+"id": "phyx09002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+},
+{
+"q": {
+"q": "A sheet of aluminium has a circular hole of radius 5.00 cm cut into it at 25 °C. If the coefficient of linear expansion of aluminium is 2.4 x 10^-5 per °C, what will be the new area of the hole when the sheet is heated to 125 °C?",
+"options": [
+"76.80 cm^2",
+"78.26 cm^2",
+"78.54 cm^2",
+"80.11 cm^2"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The hole expands just like a disc of aluminium would, using area expansivity beta = 2 x alpha = 4.8e-5 per °C. New area = original area x (1 + beta x delta_T) = pi x 5^2 x (1 + 4.8e-5 x 100) = 78.54 x 1.0048 = 78.26 cm^2 approximately.",
+"py": "math.pi*5.00**2*(1+2*2.4e-5*(125-25))",
+"values": [
+76.8,
+78.26,
+78.54,
+80.11
+],
+"id": "phyx09007",
+"check": {
+"s1": "X",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

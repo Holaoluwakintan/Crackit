@@ -1,0 +1,201 @@
+{
+"subject": "commerce",
+"topic": "Stock exchange and securities",
+"ti": 14,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes a 'bull' operator on the stock exchange?",
+"options": [
+"An operator who sells securities he does not currently own, hoping to buy later at a lower price",
+"An operator who buys securities in anticipation of a price rise so as to sell later at a profit",
+"An operator who buys securities only to hold permanently without reselling",
+"An operator who trades only in government bonds and treasury bills"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A bull is a speculator who expects prices to rise and buys shares now to sell later at a higher price. A bear does the opposite, selling now to buy back cheaper later.",
+"py": null,
+"values": null,
+"id": "comx14000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Bull na speculator wey dey expect say price go go up, na'im make 'e buy share now make 'e go sell am later for high price. Bear dey do opposite, 'e dey sell now make 'e come buy back cheap later."
+},
+{
+"q": "Treasury bills are best described as which type of security?",
+"options": [
+"Long-term equity security issued by companies to raise permanent capital",
+"Short-term government security used to finance temporary budget shortfalls",
+"Medium-term loan stock issued by companies and secured on fixed assets",
+"Long-term government bond repayable after twenty years"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Treasury bills are short-term debt instruments issued by government, usually maturing within a year, to meet short-term financing needs. They are not company equity or long-term bonds.",
+"py": null,
+"values": null,
+"id": "comx14001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Treasury bills na short-term debt instrument wey government dey issue, e dey usually mature within one year to support short-term money need. Dem no be company equity or long-term bond."
+},
+{
+"q": "Mr. Yakubu wants to invest in shares but has no idea which companies are financially sound. Which stock exchange functionary is trained to study company accounts and advise him on the best shares to buy?",
+"options": [
+"Jobber",
+"Registrar",
+"Investment analyst",
+"Issuing house"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "An investment analyst studies company performance and market trends to give professional advice to investors. A jobber trades on his own account, while a registrar keeps shareholder records.",
+"py": null,
+"values": null,
+"id": "comx14002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Investment analyst dey check company performance and market trend to give better advice to people wey wan invest. Jobber dey trade for im own account, while registrar dey keep record of shareholder."
+},
+{
+"q": "Which of the following is a major function of the stock exchange in the Nigerian economy?",
+"options": [
+"Granting short-term overdrafts to small businesses",
+"Providing a market for buying and selling of existing securities",
+"Printing and issuing the national currency",
+"Collecting company income tax on behalf of government"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The stock exchange serves as a secondary market where existing shares and bonds already issued are bought and sold. It does not grant loans, print currency, or collect tax.",
+"py": null,
+"values": null,
+"id": "comx14003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Stock exchange dey act as secondary market where people dey buy and sell share and bond wey don already dey exist. E no dey give loan, print money, or collect tax."
+},
+{
+"q": "A preference shareholder in Okonma Plc is entitled to a fixed dividend before ordinary shareholders are paid, but has no voting right at the company's annual general meeting. This arrangement best illustrates which feature of preference shares?",
+"options": [
+"Preference shares carry higher risk than ordinary shares",
+"Preference shares combine a fixed return with limited control over company affairs",
+"Preference shares must always be redeemed within five years",
+"Preference shareholders rank below debenture holders but above ordinary shareholders in claims"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Preference shares typically give holders priority in dividend payment at a fixed rate, but in exchange they usually give up voting rights, unlike ordinary shareholders. This trade-off is their key feature.",
+"py": null,
+"values": null,
+"id": "comx14004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Preference share dey give holder priority to collect fixed dividend first, but dem no get voting right like ordinary shareholder. Na this trade-off make the feature special."
+},
+{
+"q": "A firm needs to raise fresh capital quickly without the expense of a full public offer, so it invites only a selected group of investors, such as pension funds and wealthy individuals, to subscribe for its new shares privately. This method of issuing shares is called",
+"options": [
+"Offer for sale",
+"Rights issue",
+"Private placement",
+"Offer by tender"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Private placement involves selling new shares directly to a select group of investors rather than to the general public, which is cheaper and faster than a public offer. This differs from a rights issue, which targets existing shareholders.",
+"py": null,
+"values": null,
+"id": "comx14005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Private placement mean say company dey sell new share directly to selected group of investor instead of general public, and e dey quick and cheap. E different from rights issue wey be say na existing shareholder dem target."
+},
+{
+"q": "Which of the following is a key requirement a company must usually satisfy before its shares can be listed on the Nigerian Stock Exchange?",
+"options": [
+"The company must be owned entirely by foreign investors",
+"The company must have a minimum level of share capital and a satisfactory profit record",
+"The company must operate only in the manufacturing sector",
+"The company must have fewer than ten employees"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Listing requirements generally demand that a company shows financial stability, adequate share capital, and a good profit track record to protect investors. Ownership by foreigners, sector type, or staff size are not listing conditions.",
+"py": null,
+"values": null,
+"id": "comx14007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Listing requirement mean say company must show say e get money stability, enough share capital, and good profit record to protect investor. Foreign ownership or small staff size no be condition for listing."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Bisi bought 500 units of a company's shares at ₦8.00 each. After two years she sold all the shares at ₦11.00 each. What was her total capital gain on the investment?",
+"options": [
+"₦1,500",
+"₦3,000",
+"₦4,000",
+"₦5,500"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The gain per share is 11 minus 8, which equals 3 naira, and multiplying by 500 units gives a total capital gain of 1500 times 2, that is 3000 naira. This shows how capital gain is calculated as the difference between selling and buying price times the number of units.",
+"py": "(11-8)*500",
+"values": [
+1500,
+3000,
+4000,
+5500
+],
+"id": "comx14006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+}
+]
+}

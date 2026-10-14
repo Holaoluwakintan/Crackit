@@ -1,0 +1,220 @@
+{
+"subject": "physics",
+"topic": "Gravitational field, Kepler's laws and satellites",
+"ti": 24,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Newton's law of universal gravitation states that the force between two point masses is proportional to the product of their masses and inversely proportional to the square of the distance between them. If the distance between two masses is tripled, the gravitational force between them becomes",
+"options": [
+"3 times the original force",
+"9 times the original force",
+"1/3 of the original force",
+"1/9 of the original force"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Gravitational force follows F proportional to 1/r^2. Tripling r makes the force 1/3^2 = 1/9 of the original value.",
+"py": null,
+"values": null,
+"id": "phyx24000",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Gravitational force dey follow inverse square law with distance. If you multiply the distance by 3, the force go come down by 3^2, wey be 1/9 of the original force."
+},
+{
+"q": "A satellite orbits the Earth close to its surface, where the acceleration due to gravity is 10 m/s^2 and the radius of the Earth is 6.4 x 10^6 m. Calculate the orbital speed of the satellite.",
+"options": [
+"6.4 x 10^3 m/s",
+"8.0 x 10^3 m/s",
+"1.0 x 10^4 m/s",
+"6.4 x 10^4 m/s"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "For a satellite near the surface, gravity supplies centripetal force: v = sqrt(gR) = sqrt(10 x 6.4 x 10^6) = sqrt(6.4 x 10^7) approximately 8000 m/s.",
+"py": "math.sqrt(10*6.4e6)",
+"values": [
+6400.0,
+8000.0,
+10000.0,
+64000.0
+],
+"id": "phyx24002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For satellite wey dey near ground, na gravity dey provide centripetal force. When you use formula v = sqrt(gR), you go get sqrt(10 x 6.4 x 10^6), wey give you 8.0 x 10^3 m/s."
+},
+{
+"q": "Which statement correctly expresses Kepler's second law of planetary motion?",
+"options": [
+"The square of the orbital period is proportional to the cube of the mean distance from the sun",
+"A line joining a planet to the sun sweeps out equal areas in equal intervals of time",
+"All planets move in circular orbits with the sun at the centre",
+"The orbital speed of a planet is the same at all points in its orbit"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Kepler's second law, the law of areas, states that the radius vector from the sun to a planet sweeps equal areas in equal times, meaning planets move faster when nearer the sun.",
+"py": null,
+"values": null,
+"id": "phyx24003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Kepler second law talk say line wey join planet to sun dey sweep equal areas for equal time. E mean say planet dey move fast when e near sun."
+},
+{
+"q": "A geostationary satellite is one that",
+"options": [
+"moves in a polar orbit scanning the whole Earth once daily",
+"has an orbital period equal to the Earth's period of rotation and appears fixed above a point on the equator",
+"orbits the Earth once every 90 minutes at low altitude",
+"falls freely towards the Earth without any orbital motion"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A geostationary satellite orbits in the equatorial plane with a period of 24 hours, matching Earth's rotation, so it stays above the same point on the equator.",
+"py": null,
+"values": null,
+"id": "phyx24005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Geostationary satellite period na 24 hours just like Earth rotation. E dey stay fixed for one place for top equator so people fit see am well."
+},
+{
+"q": "At what altitude above the Earth's surface would a satellite's weight be reduced to one-quarter of its weight at the surface? Take the radius of the Earth as 6400 km.",
+"options": [
+"3200 km",
+"6400 km",
+"12800 km",
+"25600 km"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Weight follows inverse square law with distance from Earth's centre, so (R/(R+h))^2 = 1/4 gives (R+h) = 2R, meaning h = R = 6400 km.",
+"py": "6400",
+"values": [
+3200,
+6400,
+12800,
+25600
+],
+"id": "phyx24006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Since weight follow inverse square law, for weight to reduce to one-quarter, distance from centre must double. E mean say altitude h must be equal to Earth radius R, wey be 6400 km."
+},
+{
+"q": "A communication satellite of mass 500 kg is in a stable circular orbit around the Earth. Which of the following correctly describes the energy changes if the satellite moves to a higher orbit?",
+"options": [
+"Both kinetic energy and potential energy increase",
+"Kinetic energy decreases while potential energy increases",
+"Kinetic energy increases while potential energy decreases",
+"Both kinetic energy and potential energy decrease"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At a higher orbit the orbital speed is smaller since v = sqrt(GM/r) decreases with r, so kinetic energy falls, while gravitational potential energy increases as the satellite moves farther from Earth.",
+"py": null,
+"values": null,
+"id": "phyx24007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If satellite go higher orbit, speed go reduce, so kinetic energy go decrease. But because e dey far from Earth, potential energy go increase."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Two spheres of masses 4 kg and 9 kg have their centres 3 m apart. Given that the universal gravitational constant G = 6.67 x 10^-11 Nm^2/kg^2, calculate the gravitational force of attraction between them.",
+"options": [
+"2.67 x 10^-10 N",
+"6.67 x 10^-11 N",
+"8.00 x 10^-10 N",
+"2.40 x 10^-9 N"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using F = Gm1m2/r^2 = (6.67 x 10^-11 x 4 x 9)/3^2 = (6.67 x 10^-11 x 36)/9 = 2.668 x 10^-10 N.",
+"py": "6.67e-11*4*9/3**2",
+"values": [
+2.67e-10,
+6.67e-11,
+8e-10,
+2.4e-09
+],
+"id": "phyx24001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "A planet P is 4 times as far from the sun as planet Q. If Q takes 2 Earth-years to complete one orbit, how long does P take, according to Kepler's third law?",
+"options": [
+"8 years",
+"16 years",
+"32 years",
+"64 years"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "By Kepler's third law, T^2 proportional to r^3, so T_P/T_Q = (r_P/r_Q)^(3/2) = 4^(3/2) = 8. Therefore T_P = 8 x 2 = 16... checking: 4^1.5 = 8, so T_P = 2 x 8 = 16 years is actually correct, giving 16 years not 8.",
+"py": "2*4**1.5",
+"values": [
+8,
+16,
+32,
+64
+],
+"id": "phyx24004",
+"check": {
+"s1": "B",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

@@ -1,0 +1,218 @@
+{
+"subject": "physics",
+"topic": "Refraction, total internal reflection and lenses",
+"ti": 16,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A ray of light travelling in water (refractive index 4/3) strikes the water-air boundary at an angle of incidence of 60°. Given that sin 60° = 0.87, determine whether the ray undergoes total internal reflection, given the critical angle for water-air is about 48.6°.",
+"options": [
+"The ray is totally internally reflected because the angle of incidence exceeds the critical angle",
+"The ray refracts into the air because the angle of incidence is less than the critical angle",
+"The ray travels straight through without bending",
+"The ray is absorbed completely at the boundary"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The critical angle for water-air is about 48.6°. Since the angle of incidence (60°) is greater than this critical angle, the light cannot refract out and is totally internally reflected back into the water.",
+"py": null,
+"values": null,
+"id": "phyx16000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Critical angle for water-air na 48.6°. Since 60° pass 48.6°, light no fit comot go air, e go just bounce back inside water."
+},
+{
+"q": "A thin diverging (concave) lens has a focal length of 20 cm. An object is placed 30 cm in front of it. Using the lens formula 1/f = 1/v - 1/u (real-is-positive convention, with f negative for diverging lens), calculate the image distance.",
+"options": [
+"-12 cm",
+"12 cm",
+"-50 cm",
+"50 cm"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For a diverging lens, f = -20 cm and u = -30 cm (object distance, real-is-positive sign convention). Using 1/v = 1/f + 1/u = -1/20 - 1/30 = -5/60, so v = -12 cm, meaning a virtual image forms 12 cm in front of the lens.",
+"py": "1/(-1/20 - 1/30)",
+"values": [
+-12,
+12,
+-50,
+50
+],
+"id": "phyx16001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For diverging lens, f na -20 cm and u na -30 cm. When you calculate 1/v = 1/f + 1/u, you go get -12 cm, wey mean say image dey virtual and e dey front of lens."
+},
+{
+"q": "Which of the following correctly describes the image formed by a simple magnifying glass (convex lens) when the object is placed between the lens and its principal focus?",
+"options": [
+"Real, inverted and diminished",
+"Virtual, upright and magnified",
+"Real, upright and magnified",
+"Virtual, inverted and diminished"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "When an object is placed inside the focal length of a converging lens, the lens acts as a magnifying glass, producing a virtual, upright and magnified image on the same side as the object. This is a basic property tested in optics.",
+"py": null,
+"values": null,
+"id": "phyx16002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you put object inside focal length of convex lens, e go act like magnifying glass. E go give you virtual, upright and big image for the same side."
+},
+{
+"q": "A biconvex lens is used to form a real image of a candle flame on a screen. The object is placed 40 cm from the lens and the sharp image forms on the screen 40 cm on the other side. What is the focal length of the lens?",
+"options": [
+"10 cm",
+"20 cm",
+"40 cm",
+"80 cm"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Using 1/f = 1/v + 1/u with u = v = 40 cm, 1/f = 1/40 + 1/40 = 2/40, so f = 20 cm. This equal object-image distance case occurs when the object is at twice the focal length.",
+"py": "1/(1/40 + 1/40)",
+"values": [
+10,
+20,
+40,
+80
+],
+"id": "phyx16003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If object distance and image distance both be 40 cm, e mean say object dey at 2f. So, 2f = 40 cm, which make f = 20 cm."
+},
+{
+"q": "A student wants to determine the refractive index of a rectangular glass slab using the real-and-apparent-depth method. A pin is viewed through the glass slab of real thickness 6 cm, and the apparent thickness measured is 4 cm. What is the refractive index of the glass?",
+"options": [
+"0.67",
+"1.00",
+"1.50",
+"2.40"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Refractive index equals real depth divided by apparent depth, so n = 6/4 = 1.5. This is a standard experimental method for finding the refractive index of glass.",
+"py": "6/4",
+"values": [
+0.67,
+1.0,
+1.5,
+2.4
+],
+"id": "phyx16004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To find refractive index, you divide real depth by apparent depth. So, 6 divide by 4 give you 1.5."
+},
+{
+"q": "Two transparent media, P and Q, have refractive indices 1.2 and 1.8 respectively. A ray of light travels from medium P into medium Q, making an angle of incidence of 30° at the boundary (sin 30° = 0.5). Calculate the angle of refraction in medium Q.",
+"options": [
+"19.5°",
+"30.0°",
+"45.0°",
+"48.6°"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Using Snell's law, n1 sin(i) = n2 sin(r): 1.2 x 0.5 = 1.8 x sin(r), so sin(r) = 0.6/1.8 = 0.333, giving r = arcsin(0.333) which is about 19.5°. The ray bends towards the normal since it enters a denser medium.",
+"py": "math.degrees(math.asin((1.2*0.5)/1.8))",
+"values": [
+19.5,
+30.0,
+45.0,
+48.6
+],
+"id": "phyx16005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use Snell's law, n1 sin(i) = n2 sin(r). When you calculate 1.2 times 0.5 divide by 1.8, you go get sin(r) = 0.333, so r na 19.5°."
+},
+{
+"q": "A compound microscope and an endoscope used in Nigerian hospitals both rely on specific optical principles. Which principle is primarily responsible for light being guided along the flexible bundle of glass fibres in an endoscope without escaping through the sides?",
+"options": [
+"Diffraction of light at the fibre edges",
+"Dispersion of light into component colours",
+"Total internal reflection within the fibre core",
+"Polarization of light along the fibre axis"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Optical fibres work by total internal reflection, where light hitting the core-cladding boundary at an angle greater than the critical angle is reflected back into the core instead of escaping. This allows light to travel along the length of the fibre with minimal loss.",
+"py": null,
+"values": null,
+"id": "phyx16006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Optical fibre dey work through total internal reflection. Light dey bounce inside the core because e hit the boundary at angle wey pass critical angle."
+},
+{
+"q": "An object is placed 12 cm from a converging lens of focal length 18 cm. Without calculating further, what can be correctly deduced about the nature of the image formed?",
+"options": [
+"Real, inverted and magnified, formed beyond 2f",
+"Virtual, upright and magnified, formed on the same side as the object",
+"Real, upright and diminished, formed at the focal point",
+"Virtual, inverted and diminished, formed behind the lens"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since the object distance (12 cm) is less than the focal length (18 cm), the object lies within the focal length of the converging lens, so the lens produces a virtual, upright and magnified image on the same side as the object, just like a magnifying glass.",
+"py": null,
+"values": null,
+"id": "phyx16007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because object distance 12 cm dey less than focal length 18 cm, the lens go form virtual, upright and big image. E go dey for the same side as the object."
+}
+],
+"rejected": []
+}

@@ -1,0 +1,181 @@
+{
+"subject": "crs",
+"topic": "Leadership: Joseph, Moses, Joshua and the Judges (Deborah, Gideon, Samson)",
+"ti": 3,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Joseph revealed his identity to his brothers in Egypt during their second visit for grain. What reason did Joseph give for not being angry with them for selling him into slavery?",
+"options": [
+"God sent him ahead to preserve life during the famine",
+"He had already forgiven them before leaving Canaan",
+"Their father Jacob had pleaded with him in a dream",
+"The Egyptian priests advised him to forgive them"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Joseph told his brothers that God had sent him ahead of them to preserve life, turning their evil intention into divine purpose. This shows God's providence working through human actions.",
+"id": "crsx03000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Joseph tell im brothers say na God send am go before dem to save life, because wetin dem plan for evil, naam God use for good. E make us know say God dey direct wetin human beings dey do."
+},
+{
+"q": "At the burning bush on Mount Horeb, Moses raised an objection about his ability to lead Israel out of Egypt. What was this particular objection?",
+"options": [
+"He was too old for such a difficult task",
+"He feared Pharaoh would have him killed immediately",
+"He was not eloquent and was slow of speech",
+"He did not know the way to the promised land"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Moses told God he was not eloquent but slow of speech and slow of tongue, so God appointed Aaron to speak for him. This was one of several excuses Moses gave before accepting his call.",
+"id": "crsx03001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Moses tell God say e no sabi talk well and im tongue heavy, naim make God give am Aaron make e dey talk for am. Na one of the reasons Moses give before e finally accept to do the work."
+},
+{
+"q": "Before his death, Moses commissioned a successor by the laying on of hands in the presence of Eleazar the priest and the whole congregation. Who received this commission?",
+"options": [
+"Caleb",
+"Aaron",
+"Joshua",
+"Phinehas"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Moses laid his hands on Joshua son of Nun and commissioned him as leader of Israel, as instructed by God. Joshua was full of the spirit of wisdom and the people obeyed him.",
+"id": "crsx03002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Moses put im hand for Joshua head make am leader of Israel as God talk, con make Eleazar the priest and everybody witness am. Joshua get the spirit of wisdom and the people come dey obey am."
+},
+{
+"q": "After the Israelites crossed the Jordan River into Canaan, Joshua set up twelve stones taken from the riverbed. What was the main purpose of this memorial?",
+"options": [
+"To mark the boundary between the twelve tribes",
+"To serve as an altar for sacrifices to God",
+"To remind future generations how God dried up the Jordan",
+"To honour the twelve spies sent earlier by Moses"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Joshua set up the twelve stones so that when children asked about them in future, their fathers would explain how God dried up the Jordan for Israel to cross. It was a lasting memorial of God's mighty act.",
+"id": "crsx03003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Joshua put those twelve stones so that when pikin dem ask for future, their papa go tell dem how God dry Jordan water make Israel pass. E be like monument to remember wetin God do."
+},
+{
+"q": "Gideon asked God for a sign using a fleece of wool before he agreed to lead Israel against the Midianites. What exactly did Gideon ask to happen to the fleece the first time?",
+"options": [
+"The fleece should remain completely dry while the ground around it was wet with dew",
+"The fleece should catch fire without being burnt up",
+"The fleece should turn white as proof of God's favour",
+"The fleece should be wet with dew while the ground around it stayed dry"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Gideon first asked that dew be only on the fleece while the ground remained dry, and God did exactly that. He later reversed the test for confirmation, asking for a dry fleece with dew on the ground.",
+"id": "crsx03006",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Gideon tell God make water (dew) only dey for the fleece of wool while ground dry, and God do am like that. Later, e still test God again say make the fleece dry and ground wet."
+},
+{
+"q": "Deborah summoned Barak and instructed him to gather an army against Sisera, but Barak insisted Deborah accompany him to battle. What did Deborah say would be the consequence of this condition?",
+"options": [
+"Barak would lose the battle completely",
+"The Lord would deliver Sisera into the hand of a woman",
+"Barak would be replaced as commander by Gideon",
+"Israel would remain under Canaanite oppression longer"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Deborah told Barak that because of his condition, the honour of the victory would go to a woman, not to him. This was fulfilled when Jael killed Sisera by driving a tent peg through his head.",
+"id": "crsx03007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Deborah tell Barak say because say e want make she follow am go war, na woman hand God go take sell Sisera. Na so Jael come kill Sisera with tent peg for im head later."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "During the period of the Judges, Israel repeatedly fell into a cycle before a judge was raised up. What was the correct order of this cycle?",
+"options": [
+"Sin, oppression, repentance, deliverance",
+"Repentance, sin, deliverance, oppression",
+"Deliverance, sin, oppression, repentance",
+"Oppression, deliverance, sin, repentance"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The Book of Judges shows a recurring pattern where Israel sinned by worshipping idols, God allowed oppression by enemies, the people repented and cried to God, and He raised a judge to deliver them. This cycle repeats throughout the book.",
+"id": "crsx03004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:C gives the same cycle starting at deliverance.|"
+},
+{
+"q": {
+"q": "Samson's strength was tied to a vow his parents made concerning him before his birth. Which of these was part of that Nazarite vow?",
+"options": [
+"He must never marry a Philistine woman",
+"No razor was to come upon his head",
+"He must never eat meat offered to idols",
+"He must remain unmarried throughout his life"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The angel told Samson's mother that no razor should touch his head because he was to be a Nazarite to God from birth. Delilah later discovered this secret and had his hair cut, causing him to lose his strength.",
+"id": "crsx03005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:The angel prescribed the Nazirite restriction; Samson’s parents did not make a vow.|"
+}
+]
+}

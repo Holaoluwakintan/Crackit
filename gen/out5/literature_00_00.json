@@ -1,0 +1,181 @@
+{
+"subject": "literature",
+"topic": "Figures of speech (simile, metaphor, personification, hyperbole, irony, oxymoron, etc.)",
+"ti": 0,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Read the sentence: 'The baby's laughter was music to her tired mother's ears after a long day of work.' Which figure of speech is used here?",
+"options": [
+"Simile",
+"Metaphor",
+"Apostrophe",
+"Litotes"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The baby's laughter is directly called 'music' without using 'like' or 'as', so this is a metaphor. A simile would need a comparing word such as 'like' or 'as'.",
+"id": "litx00000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "E compare di pikin laugh directly to music without use 'like' or 'as', na im make am metaphor. If na simile, e for use those comparison words."
+},
+{
+"q": "In the poem line, 'O death, where have you hidden my beloved father's smile?' which figure of speech is the poet using?",
+"options": [
+"Apostrophe",
+"Hyperbole",
+"Metonymy",
+"Antithesis"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The poet directly addresses 'death', an abstract idea that cannot respond, as though it were a listening person. This direct address to something non-human or absent is apostrophe.",
+"id": "litx00001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di poet dey talk direct to death as if death na person wey dey hear am. Dis style where person call non-living thing or abstract idea like human na apostrophe."
+},
+{
+"q": "Read the sentence: 'Through hard work and honest sweat, the poor farmer became wealthy; through greed and fraud, the rich chief became a pauper.' Which figure of speech best describes the structure of this sentence?",
+"options": [
+"Antithesis",
+"Paradox",
+"Euphemism",
+"Synecdoche"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The sentence places two contrasting ideas, poverty becoming wealth and wealth becoming poverty, side by side in a balanced structure. This deliberate contrast of opposite ideas in parallel form is antithesis.",
+"id": "litx00002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dis sentence carry two opposite ideas put together for balance structure. E use contrast to show how poor man turn rich and rich man turn poor, wey be antithesis."
+},
+{
+"q": "In the sentence, 'The restless waves clawed angrily at the rocky shore all through the stormy night,' what figure of speech is used?",
+"options": [
+"Simile",
+"Personification",
+"Metonymy",
+"Irony"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The waves are given the human-like action of clawing 'angrily', which is an emotion and action associated with living beings. Giving non-human things human qualities or actions is personification.",
+"id": "litx00005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dem give wave wey no get life human character like to dey claw angrily. To give non-human things human action like dis na personification."
+},
+{
+"q": "A trader boasted, 'I have sold yams in this market since before your grandfather was born, so nobody can cheat me here.' Which figure of speech best explains the trader's exaggerated claim about time?",
+"options": [
+"Hyperbole",
+"Litotes",
+"Metaphor",
+"Pun"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The trader's claim of selling yams before the listener's grandfather was born is an exaggeration meant to emphasise long experience, not a literal fact. Such deliberate overstatement for effect is hyperbole.",
+"id": "litx00006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di trader exaggerate say e don sell yam since before grandfather born just to show say e get experience. Dat kind overstatement na hyperbole."
+},
+{
+"q": "Read the statement: 'The university needed more hands in the laboratory, so fifty new workers were employed within the term.' Which figure of speech is used in the expression 'more hands'?",
+"options": [
+"Synecdoche",
+"Metaphor",
+"Personification",
+"Oxymoron"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The word 'hands' is used to represent whole workers, meaning a part of the body stands for the entire person. Using a part of something to represent the whole is synecdoche, which differs from metonymy where an associated but separate object is used instead.",
+"id": "litx00007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dem use 'hands' to represent di whole workers wey dem employ for lab. When you use part of something to stand for di whole, na synecdoche."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Consider this statement about a quiet, soft-spoken clerk who later turned out to be a ruthless fraudster: 'He was a gentle lamb with the heart of a crocodile.' Which figure of speech is at work in this description?",
+"options": [
+"Hyperbole",
+"Oxymoron",
+"Pun",
+"Simile"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Describing one person as both a 'gentle lamb' and having 'the heart of a crocodile' joins two contradictory ideas together to create a striking effect. Combining opposite qualities in one expression is an oxymoron.",
+"id": "litx00003",
+"check": {
+"s1": "X",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Read the line: 'The headmaster announced that the school fees had been reduced, but every parent knew fees had actually been doubled that term.' Which figure of speech is demonstrated here?",
+"options": [
+"Verbal irony",
+"Dramatic irony",
+"Simile",
+"Euphemism"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The headmaster's statement says the opposite of what is actually true, and the parents are aware of this contradiction. When a speaker says one thing but means or implies the opposite, it is verbal irony, not dramatic irony, which requires the audience to know something a character does not.",
+"id": "litx00004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:A false announcement need not be verbal irony.|"
+}
+]
+}

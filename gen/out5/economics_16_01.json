@@ -1,0 +1,196 @@
+{
+"subject": "economics",
+"topic": "Natural resources and the petroleum industry in Nigeria",
+"ti": 16,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "The petroleum industry in Nigeria is often described as an 'enclave' industry because it",
+"options": [
+"has very weak linkages with other sectors of the domestic economy",
+"is located only in the Niger Delta region",
+"is wholly owned by foreign multinational companies",
+"produces only crude oil for export and nothing else"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "An enclave industry operates almost independently of the rest of the economy, buying few local inputs and creating few jobs outside itself. The Nigerian oil industry is capital-intensive and imports most of its equipment, so it has weak backward and forward linkages with agriculture and manufacturing.",
+"py": null,
+"values": null,
+"id": "ecox16010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Enclave industry dey operate like say e no send other sectors of economy, and e no dey buy many local things or create plenty jobs. Nigeria oil industry dey import most of im equipment, so e get weak backward and forward connection with agriculture and manufacturing."
+},
+{
+"q": "Which of the following best describes 'bitumen' as a natural resource found in Nigeria?",
+"options": [
+"A solid mineral used mainly for road construction and roofing materials",
+"A gaseous resource flared alongside crude oil production",
+"A precious metal mined for jewellery making",
+"A type of agricultural raw material processed into fuel"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Bitumen is a thick, sticky, semi-solid form of petroleum found in commercial quantities in Ondo State, Nigeria. It is mainly used in road construction (asphalt) and waterproofing materials.",
+"py": null,
+"values": null,
+"id": "ecox16011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Bitumen na thick, sticky petroleum wey dem dey see plenty for Ondo State. Dem dey use am mainly to make road, like asphalt, and for waterproofing materials."
+},
+{
+"q": "A country is said to have 'proven reserves' of crude oil when the quantity of oil",
+"options": [
+"can be extracted profitably with current technology and existing economic conditions",
+"has already been pumped out and sold in the world market",
+"is estimated to exist but cannot yet be confirmed by any survey",
+"is locked permanently underground and can never be recovered"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Proven reserves refer to the amount of oil that geological and engineering data show can be recovered with reasonable certainty under current technology and prices. This is different from oil already extracted or merely speculated to exist.",
+"py": null,
+"values": null,
+"id": "ecox16013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Proven reserves na that oil amount wey science and machine show say dem fit pack out well well with current technology and price. E different from oil wey dem don already bring out or the one wey dem just dey guess say dey ground."
+},
+{
+"q": "A Nigerian oil exploration company estimates that an oil field contains 500 million barrels of crude oil, but only 60% of this amount can be economically recovered using current drilling technology. What is the recoverable quantity, in million barrels?",
+"options": [
+"200",
+"250",
+"300",
+"350"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Recoverable quantity equals 60% of 500 million barrels, which is 0.6 multiplied by 500 giving 300 million barrels. This shows how proven reserves differ from total estimated deposits.",
+"py": "0.6*500",
+"values": [
+200,
+250,
+300,
+350
+],
+"id": "ecox16014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find the recoverable quantity, you go calculate 60% of 500 million barrels, which mean 0.6 times 500. Dat one give you 300 million barrels."
+},
+{
+"q": "Which of the following is the main reason crude oil is referred to as a 'wasting asset' in economic analysis?",
+"options": [
+"It is a non-renewable resource that depletes permanently once extracted and used",
+"Its price falls continuously every year without exception",
+"It spoils quickly in storage tanks before it can be refined",
+"It generates no revenue for the government that owns it"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A wasting asset is one whose stock diminishes as it is used, since nature does not replace it within a human timescale. Crude oil fits this description because every barrel extracted reduces the fixed total reserve permanently.",
+"py": null,
+"values": null,
+"id": "ecox16015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Wasting asset mean something wey dey finish as people dey use am, because nature no dey quick replace am. Crude oil be like dat because once dem pack one barrel komot, that particular reserve don reduce forever."
+},
+{
+"q": "During the global oil boom of the 1970s, large revenues flowed into Nigeria, but agriculture was neglected and the economy became overly dependent on oil exports. Economists refer to this general phenomenon as",
+"options": [
+"the Dutch disease",
+"a balance of payments surplus",
+"the multiplier effect",
+"trade liberalisation"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Dutch disease describes a situation where a resource boom in one sector (like oil) causes neglect and decline of other productive sectors (like agriculture) due to currency appreciation and resource shift. Nigeria's oil boom years are a classic example of this phenomenon.",
+"py": null,
+"values": null,
+"id": "ecox16016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dutch disease mean when plenty money from one natural resource like oil make government forget agriculture and other sector. Nigeria experience dis kind thing for the 1970s oil boom time."
+},
+{
+"q": "The Petroleum Industry Act (PIA) was enacted in Nigeria primarily to",
+"options": [
+"provide a modern legal, regulatory, fiscal and governance framework for the petroleum industry",
+"ban all foreign companies from operating in the Nigerian oil sector",
+"fix the pump price of petrol permanently across the country",
+"transfer ownership of all oil wells directly to host communities"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The Petroleum Industry Act was designed to overhaul outdated laws governing the sector, creating clearer rules on licensing, taxation, host community benefits, and institutional oversight. It did not ban foreign firms or fix pump prices permanently, but rather modernised governance of the whole industry.",
+"py": null,
+"values": null,
+"id": "ecox16017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "The Petroleum Industry Act na law wey dem bring to clean up and update how oil business suppose run for Nigeria. E clear rules for tax, license, and how government go manage the whole petroleum sector well."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "One major reason Nigeria's solid mineral resources remain largely underexploited compared to crude oil is that",
+"options": [
+"government policy and investment have focused overwhelmingly on the oil sector for decades",
+"solid minerals are not found in commercial quantities anywhere in Nigeria",
+"solid minerals have no industrial uses in modern manufacturing",
+"Nigeria lacks the geological formations required to host solid minerals",
+"all solid minerals in Nigeria have already been fully depleted"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Because oil revenue has been easy and dominant, government attention, funding, and infrastructure have concentrated on petroleum for decades. This neglect has left the solid minerals sector underdeveloped despite Nigeria having deposits of minerals like tin, coal, and limestone.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+}
+]
+}

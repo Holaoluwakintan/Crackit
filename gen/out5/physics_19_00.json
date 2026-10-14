@@ -1,0 +1,231 @@
+{
+"subject": "physics",
+"topic": "Electrical energy and power, cost of electricity",
+"ti": 19,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best explains why electrical energy is sold to consumers in kilowatt-hours rather than in joules?",
+"options": [
+"The kilowatt-hour is a smaller unit, so bills appear with smaller numbers for easy reading",
+"The joule is too large a unit of energy to be measured by any meter",
+"The kilowatt-hour is a more convenient practical unit since domestic energy use involves large numbers of joules",
+"Electricity meters cannot be calibrated to read in joules at all"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A joule is a very small amount of energy, so household consumption would involve extremely large figures in joules. The kilowatt-hour is simply a more convenient practical unit for billing purposes.",
+"py": null,
+"values": null,
+"id": "phyx19001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Joule small too much, so house consumption go carry plenty big figures. Na im make kilowatt-hour good pass for billing."
+},
+{
+"q": "Two identical 60 W bulbs are connected in parallel across a 240 V supply. What is the total power delivered by the supply to both bulbs?",
+"options": [
+"30 W",
+"60 W",
+"90 W",
+"120 W"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "In a parallel connection, each bulb draws its rated power independently from the supply. The total power is simply the sum of the two bulb ratings, 60 W + 60 W = 120 W.",
+"py": "60+60",
+"values": [
+30,
+60,
+90,
+120
+],
+"id": "phyx19002",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For parallel connection, each bulb dey take im own power separate. Total power na just to add dem together, 60 W + 60 W = 120 W."
+},
+{
+"q": "A 240 V, 2 kW electric heater has its voltage reduced to 120 V while its resistance stays the same. What is the new power dissipated by the heater?",
+"options": [
+"1000 W",
+"500 W",
+"2000 W",
+"4000 W"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Power is proportional to voltage squared when resistance is constant (P = V^2/R). Halving the voltage reduces power by a factor of 4, so the new power is 2000/4 = 500 W.",
+"py": "2000/4",
+"values": [
+1000,
+500,
+2000,
+4000
+],
+"id": "phyx19003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Power dey proportional to voltage squared when resistance no change (P = V^2/R). If you reduce voltage by half, power go reduce by four, wey give 2000/4 = 500 W."
+},
+{
+"q": "Adaeze's family runs a 1.5 kW refrigerator continuously for 24 hours daily and a 100 W reading lamp for 5 hours daily, for a 30-day month. If electricity costs N45 per kWh, what is the total monthly bill for both appliances?",
+"options": [
+"N49,275",
+"N48,600",
+"N50,625",
+"N47,250"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Fridge energy = 1.5 kW x 24 h x 30 days = 1080 kWh. Lamp energy = 0.1 kW x 5 h x 30 days = 15 kWh. Total = 1095 kWh, cost = 1095 x N45 = N49,275.",
+"py": "(1.5*24*30 + 0.1*5*30)*45",
+"values": [
+49275,
+48600,
+50625,
+47250
+],
+"id": "phyx19004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Fridge energy na 1080 kWh, lamp energy na 15 kWh, wey give total of 1095 kWh. If you multiply am by N45, you go get N49,275."
+},
+{
+"q": "An electric bulb is rated 220 V, 100 W. What is the resistance of the filament when the bulb is operating normally?",
+"options": [
+"484 ohms",
+"220 ohms",
+"44 ohms",
+"2.2 ohms"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using R = V^2/P, resistance equals 220 squared divided by 100, which is 48400/100 = 484 ohms.",
+"py": "220**2/100",
+"values": [
+484,
+220,
+44,
+2.2
+],
+"id": "phyx19005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Make you use R = V^2/P, wey be 220 squared divide by 100. E go give you 48400/100, wey come be 484 ohms."
+},
+{
+"q": "A certain household electricity meter records that a family consumed 250 kWh of energy in a month. Which physical quantity does this reading directly represent?",
+"options": [
+"The total charge that flowed through the appliances during the month",
+"The total electrical energy converted by the appliances during the month",
+"The average power consumed by the appliances at any instant",
+"The peak instantaneous power drawn by the appliances"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A kilowatt-hour is a unit of energy, not power or charge. The meter reading therefore represents the total electrical energy that was converted into other forms by the appliances over the month.",
+"py": null,
+"values": null,
+"id": "phyx19006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Kilowatt-hour na unit for energy, no be power or charge. The meter reading show the total electrical energy wey appliances don use for the month."
+},
+{
+"q": "A generator supplies electrical power at a constant rate of 4000 W to a community. If the supply voltage is stepped down from 11000 V to 220 V by a transformer assumed to be 100% efficient, what is the current drawn in the low voltage secondary circuit?",
+"options": [
+"0.36 A",
+"18.2 A",
+"4 A",
+"2000 A"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since the transformer is ideal, power in equals power out, so current in secondary = Power/Voltage = 4000/220, which gives approximately 18.2 A.",
+"py": "4000/220",
+"values": [
+0.36,
+18.18,
+4,
+2000
+],
+"id": "phyx19007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Because transformer dey 100% efficient, power wey enter na im equal power wey go comot. Secondary current na Power divide by Voltage, wey be 4000/220 to give 18.2 A."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A 3 kW electric cooker is used for 4 hours every day for 2 weeks. If the Power Holding Company charges N50 per kWh, calculate the total cost of energy consumed.",
+"options": [
+"N4,200",
+"N8,400",
+"N2,100",
+"N6,300"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Energy = 3 kW x 4 h x 14 days = 168 kWh. Cost = 168 x N50 = N8,400. Wait, check: 3x4=12, 12x14=168, 168x50=8400.",
+"py": "3*4*14*50",
+"values": [
+4200,
+8400,
+2100,
+6300
+],
+"id": "phyx19000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

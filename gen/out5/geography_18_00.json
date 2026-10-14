@@ -1,0 +1,197 @@
+{
+"subject": "geography",
+"topic": "Geography of Nigeria: location, relief, drainage, climate and vegetation",
+"ti": 18,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In the equatorial rainforest belt of southern Nigeria, the vegetation typically shows a distinct layering pattern. Which of the following correctly describes this layering from the ground upward?",
+"options": [
+"Herb layer, then a single continuous canopy, then bare soil",
+"Ground herbs, undergrowth shrubs, then two or three tree canopy layers with emergent trees on top",
+"Grasses only, with scattered stunted trees of equal height",
+"Mosses and lichens, then tall trees of uniform height with no undergrowth"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Tropical rainforest in southern Nigeria is stratified into ground herbs, shrubby undergrowth, and multiple tree canopy layers, with some emergent trees rising above the rest. The other options describe savanna-type or unrealistic structures, not rainforest.",
+"py": null,
+"values": null,
+"id": "geox18003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Tropical rainforest for southern Nigeria dey get strata from ground herbs, shrubby undergrowth, and multiple tree canopy layers, with some emergent trees wey dey rise pass the rest. Na only this option correct as rainforest structure."
+},
+{
+"q": "A town in central Nigeria receives rainfall mainly between April and October, with a short period of harmattan dust haze around December to January, and total annual rainfall of about 1300 mm. This climate description best matches which climatic zone of Nigeria?",
+"options": [
+"The mangrove swamp climate of the Niger Delta",
+"The tropical continental (savanna) climate of the Guinea savanna belt",
+"The semi-arid climate of the Sahel near Lake Chad",
+"The equatorial monsoon climate of the Niger Delta coastline"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A single wet season from April to October, a noticeable harmattan period, and moderate rainfall around 1300 mm are typical of the Guinea savanna climate found in Nigeria's middle belt. The Sahel is drier with less rainfall, while the Delta and coastline have much higher, more evenly spread rainfall.",
+"py": null,
+"values": null,
+"id": "geox18004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Wet season from April to October, harmattan period, and moderate rainfall around 1300 mm na character of Guinea savanna climate for Nigeria middle belt. Other options no match these weather condition at all."
+},
+{
+"q": "Which of the following statements correctly compares the temperature regimes of northern and southern Nigeria?",
+"options": [
+"Northern Nigeria has a smaller daily temperature range but a larger annual range than the south",
+"Northern Nigeria has a larger daily and annual temperature range than the south because it is farther from the moderating influence of the sea",
+"Southern Nigeria has a larger annual temperature range because of its nearness to the sea",
+"Both regions have identical daily and annual temperature ranges throughout the year"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Being farther inland and away from the sea's moderating effect, northern Nigeria experiences hotter days, cooler nights, and greater seasonal temperature swings than the humid south. The south, being closer to the ocean, has a more uniform temperature pattern with a smaller range.",
+"py": null,
+"values": null,
+"id": "geox18005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because north Nigeria dey far from sea, dem dey experience hot days, cold nights, and bigger temperature range than south. South nearer to ocean, so dem temperature dey more uniform."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Nigeria lies within the tropics, a location that has several consequences for its physical geography. Which of the following is a DIRECT consequence of this tropical location, rather than of relief or distance from the sea?",
+"options": [
+"The country experiences high angle of the sun throughout the year, leading to generally high temperatures everywhere",
+"The Jos Plateau has cooler temperatures than the surrounding lowlands",
+"Coastal areas receive higher rainfall than the far north",
+"The Niger Delta has extensive mangrove swamps along its creeks",
+"A",
+"B",
+"C",
+"D"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Because Nigeria lies close to the equator within the tropics, the sun is overhead or nearly so for most of the year, giving generally high temperatures everywhere in the country. The cooler Jos Plateau is due to altitude (relief), higher coastal rainfall is due to nearness to the sea, and Delta mangroves result from tidal and drainage conditions, not tropical location alone.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Nigeria's coastline, stretching along the Atlantic Ocean in the south, is best classified as which type of coast?",
+"options": [
+"A rocky, cliffed coast formed by wave erosion",
+"A low, smooth barrier-lagoon coast fringed with sand bars and lagoons",
+"A fjorded coast with deep inlets",
+"A coral reef coast with fringing reefs"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Nigeria's southern coastline is low-lying and characterised by sand bars, barrier beaches and lagoons such as Lagos Lagoon. It is not rocky, fjorded, or built of coral reefs like some other world coasts.",
+"py": null,
+"values": null,
+"id": "geox18000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:The Niger Delta is not a smooth barrier-lagoon coast.|"
+},
+{
+"q": {
+"q": "Which pair of rivers together drain almost the entire landmass of Nigeria into a common basin before reaching the sea?",
+"options": [
+"River Niger and River Benue",
+"River Niger and River Sokoto",
+"River Benue and River Cross",
+"River Niger and River Ogun"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Niger and Benue rivers, with their many tributaries, form the Niger-Benue drainage system that covers most of Nigeria. Other rivers listed drain only small parts of the country.",
+"py": null,
+"values": null,
+"id": "geox18001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:The Niger–Benue basin does not drain almost all of Nigeria.|"
+},
+{
+"q": {
+"q": "A particular region of Nigeria is described as follows: it lies roughly between 300 and 600 metres above sea level, is made up of ancient crystalline rocks, and gives rise to major rivers flowing both northward to the Niger-Benue system and southward towards the coast. This description best fits which relief feature?",
+"options": [
+"The Sokoto Plains",
+"The Niger Delta",
+"The Jos Plateau",
+"The Lake Chad Basin"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The Jos Plateau is a high basement-complex region from which rivers radiate in different directions, including tributaries of the Niger-Benue system. The other areas listed are lowlands, not elevated source regions of rivers.",
+"py": null,
+"values": null,
+"id": "geox18002",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A particular vegetation belt in Nigeria is dominated by tall grasses interspersed with short, fire-resistant and drought-resistant trees such as baobab and acacia, and it lies between the rainforest belt and the Sahel further north. This belt is known as the",
+"options": [
+"mangrove forest",
+"Sudan savanna",
+"Guinea savanna",
+"montane vegetation"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The Guinea savanna, found in Nigeria's middle belt, is characterised by tall grasses and scattered drought-resistant trees, lying between the forest zone and the drier Sudan savanna. Mangrove forest is a coastal swamp type, while montane vegetation occurs only on high plateaus.",
+"py": null,
+"values": null,
+"id": "geox18006",
+"check": {
+"s1": "C",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:B"
+}
+]
+}

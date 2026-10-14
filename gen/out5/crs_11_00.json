@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "Social justice and true religion: Amos and Hosea",
+"ti": 11,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In Amos 4:1, the prophet addresses the wealthy women of Samaria by a scornful name because of their cruelty to the poor and their demand for luxury. What did he call them?",
+"options": [
+"Kine of Bashan",
+"Daughters of Zion",
+"Virgins of Israel",
+"Women of Jezreel"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Amos called the pampered, oppressive women of Samaria 'kine (cows) of Bashan' because they crushed the poor and lived in luxury gotten through injustice. This picture shows how social oppression had reached even the homes of the wealthy.",
+"id": "crsx11000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Amos call di rich and wicked women of Samaria 'kine of Bashan' because dem dey oppress poor people and chop life through wickedness. Dis show say social oppression don enter even di houses of rich people."
+},
+{
+"q": "Amos rebuked the people of Israel for a form of worship that pleased them but angered God. What was God's real complaint about their religious festivals and sacrifices in Amos chapter 5?",
+"options": [
+"They offered sacrifices while practising injustice and oppressing the poor",
+"They refused to build a temple for proper worship",
+"They worshipped foreign gods instead of Yahweh",
+"They stopped giving tithes to the priests"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "God rejected Israel's feasts, offerings and songs because the worshippers were unjust and oppressive to the poor despite their religious show. True worship, according to Amos, must be joined with justice and righteousness in daily life.",
+"id": "crsx11001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "God reject Israel feast and song because dem dey oppress poor people while dem dey do religious show. Amos teach say true worship must follow justice and righteousness for everyday life."
+},
+{
+"q": "A trader in Amos's time used a false measuring scale to cheat customers while still observing the Sabbath strictly out of outward religious duty. Which teaching of Amos does this situation best illustrate?",
+"options": [
+"That God condemns dishonest business practices done alongside empty religious observance",
+"That keeping the Sabbath automatically guarantees God's blessing",
+"That trading on the Sabbath is the greatest sin in Israel",
+"That poverty is a sign of God's curse on dishonest traders"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Amos condemned merchants who could not wait for the Sabbath to end so they could cheat with false scales and overpriced goods. This shows that outward religious observance without honesty and justice is worthless to God.",
+"id": "crsx11002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Amos condemn business people wey dey use false scale to cheat customers while dem dey keep Sabbath religiously. Dis show say physical religious observance without honesty na waste of time for God eye."
+},
+{
+"q": "In Amos's prophecy, God declares that He chose Israel alone out of all the families of the earth, yet He would still punish them. What reason does Amos give for this coming punishment?",
+"options": [
+"Because of all their iniquities, including injustice against the poor",
+"Because Israel refused to build more altars for sacrifice",
+"Because Israel had stopped paying taxes to the king",
+"Because Israel's population had become too small"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In Amos 3:2, God says He knew Israel above all nations, so He would punish them for their iniquities, especially their oppression of the poor and perversion of justice. Being chosen carried greater responsibility, not immunity from judgement.",
+"id": "crsx11003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For Amos 3:2, God explain say because He choose Israel above all nations, He go punish dem for dia wickedness and oppression. To be God chosen people mean say person carry higher responsibility, no be say person get immunity from judgement."
+},
+{
+"q": "Hosea compares Israel's loyalty to God as being as fleeting and unreliable as two things mentioned in Hosea 6:4. What are these two things?",
+"options": [
+"A morning cloud and the early dew that vanishes",
+"A broken pot and a torn garment",
+"A dying lamp and a dry well",
+"A fading flower and a withered tree"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Hosea 6:4 says Israel's goodness and love for God were like a morning cloud and the early dew, both of which disappear quickly. This shows how temporary and shallow Israel's devotion to God had become.",
+"id": "crsx11004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Hosea 6:4 talk say Israel love and goodness be like morning cloud and early dew wey dey vanish quick quick. Dis picture show how shallow and temporary dia devotion to God be."
+},
+{
+"q": "Both Amos and Hosea taught that true religion involves more than ritual sacrifices. Which statement best summarises this shared central message of the two prophets?",
+"options": [
+"Genuine worship of God must be shown through justice, mercy and faithful living, not mere rituals",
+"Sacrifices are useless and should be completely abolished from worship",
+"Only prophets can truly worship God acceptably",
+"God only accepts worship performed in Jerusalem"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Amos and Hosea both insisted that acceptable worship must be backed by justice, mercy, and loyalty to God's covenant, not empty rituals. Sacrifices without righteous living were condemned by both prophets.",
+"id": "crsx11005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Both Amos and Hosea preach say God prefer justice, mercy and faithful living pass ordinary ritual sacrifices. Sacrifice wey no get righteous lifestyle get as e be for God."
+},
+{
+"q": "In Hosea 4:6, God laments that His people are destroyed for lack of a particular thing, which also led the prophet to warn that the priests who should have taught it would be rejected. What is this missing thing?",
+"options": [
+"Knowledge",
+"Silver",
+"Soldiers",
+"Rainfall"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Hosea 4:6 states that God's people were destroyed for lack of knowledge, meaning knowledge of God's law and ways which the priests failed to teach them. Because the priests rejected this knowledge, God also rejected them from serving as priests.",
+"id": "crsx11006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Hosea 4:6 make us understand say God people destroy because dem lack knowledge of God law. Because di priests fail to teach di people, God talk say He go reject dem too."
+},
+{
+"q": "Amos warned that a certain disaster, often called 'the Day of the Lord', which Israel wrongly expected to bring them light and victory, would instead bring them what?",
+"options": [
+"Darkness and judgement instead of light and relief",
+"Great wealth and abundant harvest",
+"Freedom from the king of Assyria",
+"A new covenant with more priests"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In Amos 5:18-20, the prophet corrects Israel's false hope that the Day of the Lord would favour them; instead he says it will be darkness and not light, a day of inescapable judgement. This was because of their persistent injustice and false sense of security.",
+"id": "crsx11007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Amos warn Israel say di Day of the Lord no go bring light and victory as dem dey expect, but na darkness and judgement. Dis na because of dia wicked lifestyle and false sense of security."
+}
+],
+"rejected": []
+}

@@ -1,0 +1,226 @@
+{
+"subject": "physics",
+"topic": "Atomic and nuclear physics: radioactivity and half-life",
+"ti": 22,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A nucleus of radium-226 (atomic number 88) decays by emitting an alpha particle. What is the resulting daughter nucleus?",
+"options": [
+"Radon-222 with atomic number 86",
+"Radon-224 with atomic number 87",
+"Francium-222 with atomic number 87",
+"Actinium-226 with atomic number 89"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An alpha particle has mass number 4 and atomic number 2, so it is removed from the parent nucleus. This gives mass number 226-4=222 and atomic number 88-2=86, which is radon.",
+"py": null,
+"values": null,
+"id": "phyx22000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Alpha particle get mass number 4 and atomic number 2. If you remove am from radium, you go get mass number 222 and atomic number 86, wey be radon."
+},
+{
+"q": "Which property is the same for all isotopes of a given element?",
+"options": [
+"Number of neutrons in the nucleus",
+"Mass number of the nucleus",
+"Number of protons in the nucleus",
+"Total number of nucleons"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Isotopes of an element have the same number of protons (atomic number) but different numbers of neutrons, so their mass numbers differ. The proton number defines the element.",
+"py": null,
+"values": null,
+"id": "phyx22001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Isotopes of one element get the same number of protons, wey be the atomic number. Na the proton number dey decide which element e be, even if the neutron number dey different."
+},
+{
+"q": "A Geiger counter placed near a radioactive source in a Zaria physics laboratory records a count rate of 960 counts per minute. After 3 half-lives have passed, what count rate would be expected, assuming the background count is negligible?",
+"options": [
+"480 counts per minute",
+"320 counts per minute",
+"240 counts per minute",
+"120 counts per minute"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "After each half-life the activity halves. After 3 half-lives the activity becomes 960 divided by 2^3 = 960/8 = 120 counts per minute.",
+"py": "960/(2**3)",
+"values": [
+480,
+320,
+240,
+120
+],
+"id": "phyx22002",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Every half-life, the activity dey divide by two. Since three half-lives don pass, you go divide 960 by 8, wey give you 120 counts per minute."
+},
+{
+"q": "The number of undecayed nuclei in a radioactive sample reduces from 5.0 x 10^18 to 1.25 x 10^18 after 24 years. What is the half-life of the sample?",
+"options": [
+"6 years",
+"8 years",
+"12 years",
+"24 years"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The ratio 5.0/1.25 = 4 = 2^2, meaning 2 half-lives occurred in 24 years. So one half-life is 24/2 = 12 years.",
+"py": "24/2",
+"values": [
+6,
+8,
+12,
+24
+],
+"id": "phyx22003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you divide 5.0 by 1.25, you go get 4, wey be 2 power 2. This mean say two half-lives don pass for 24 years, so one half-life na 12 years."
+},
+{
+"q": "A radioactive sample has a decay constant of 2.0 x 10^-3 per second. What is the activity of the sample when it contains 3.0 x 10^8 undecayed atoms?",
+"options": [
+"1.5 x 10^5 disintegrations per second",
+"6.0 x 10^5 disintegrations per second",
+"6.0 x 10^11 disintegrations per second",
+"1.5 x 10^11 disintegrations per second"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Activity A equals decay constant multiplied by number of atoms, so A = 2.0x10^-3 x 3.0x10^8 = 6.0x10^5 disintegrations per second.",
+"py": "2.0e-3*3.0e8",
+"values": [
+150000.0,
+600000.0,
+600000000000.0,
+150000000000.0
+],
+"id": "phyx22004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Activity na decay constant times the number of atoms. If you multiply 2.0x10^-3 by 3.0x10^8, you go get 6.0x10^5 disintegrations per second."
+},
+{
+"q": "A radioactive source used for sterilizing medical equipment in a Benin hospital has a half-life of 15 years. A new sample contains 2.0 x 10^22 atoms. Calculate, to 2 significant figures, how many atoms remain undecayed after 45 years.",
+"options": [
+"1.0 x 10^22",
+"5.0 x 10^21",
+"2.5 x 10^21",
+"1.25 x 10^21"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "45 years is exactly 3 half-lives (45/15=3), so the number remaining is 2.0x10^22 divided by 2^3 = 2.0x10^22/8 = 2.5x10^21 atoms.",
+"py": "2.0e22/(2**3)",
+"values": [
+1e+22,
+5e+21,
+2.5e+21,
+1.25e+21
+],
+"id": "phyx22006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "45 years na three half-lives because 45 divide by 15 na 3. You go divide 2.0x10^22 by 8, and that one go give you 2.5x10^21 atoms."
+},
+{
+"q": "A hospital stores a radioisotope whose decay constant is 0.0231 per day (ln 2 = 0.693). If the sample initially has 1000 g, approximately how many days are needed for the mass to reduce to 125 g?",
+"options": [
+"10 days",
+"30 days",
+"60 days",
+"90 days"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Half-life = ln2/decay constant = 0.693/0.0231 = 30 days. Reducing from 1000 g to 125 g needs a factor of 8, which is 2^3, so 3 half-lives: 3 x 30 = 90 days.",
+"py": "3*(0.693/0.0231)",
+"values": [
+10,
+30,
+60,
+90
+],
+"id": "phyx22007",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Half-life na 0.693 divide by 0.0231, wey be 30 days. To go from 1000g to 125g, you need three half-lives, so 3 times 30 na 90 days."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of these best explains why heavy radioactive nuclei such as uranium are unstable?",
+"options": [
+"They contain too many electrons compared to protons",
+"Their neutron-to-proton ratio is too high for the strong nuclear force to hold them together stably",
+"They have too few neutrons to balance the protons",
+"Their atomic mass is too small for stability"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Heavy nuclei need many neutrons to help bind protons together, but beyond a certain size the strong nuclear force cannot overcome the proton-proton electrostatic repulsion, making the nucleus unstable. This instability leads to spontaneous radioactive decay.",
+"py": null,
+"values": null,
+"id": "phyx22005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Best option, but neutron-to-proton ratio alone does not explain uranium's instability; proton repulsion matters.|"
+}
+]
+}

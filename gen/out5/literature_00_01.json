@@ -1,0 +1,180 @@
+{
+"subject": "literature",
+"topic": "Figures of speech (simile, metaphor, personification, hyperbole, irony, oxymoron, etc.)",
+"ti": 0,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Read the following statement made by a man describing his stingy neighbour: 'He is so generous that he counts the grains of rice before giving a visitor a single spoonful.' Which figure of speech best describes this statement?",
+"options": [
+"Simile",
+"Verbal irony",
+"Personification",
+"Metonymy"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The speaker says 'generous' but the action described shows meanness, so the real meaning is the opposite of what is said. This contradiction between statement and intended meaning is verbal irony.",
+"id": "litx00010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na verbal irony be dis because di pesin use di word 'generous' to mean di direct opposite. Na true say di man stingy well well, but im tok am with style."
+},
+{
+"q": "In the line, 'The old clock on the wall coughed twice before it finally struck midnight,' which figure of speech is used?",
+"options": [
+"Hyperbole",
+"Simile",
+"Personification",
+"Apostrophe"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A clock cannot cough; this human action is given to a lifeless object, which is personification. There is no comparison word 'like' or 'as', so it is not a simile.",
+"id": "litx00011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na personification because clock no get lungs to cough. Na human behaviour dem give to ordinary object wey no get life."
+},
+{
+"q": "A young boy told his classmates, 'I ran so fast that the wind itself could not catch up with me.' Which figure of speech is contained in this boast?",
+"options": [
+"Hyperbole",
+"Litotes",
+"Oxymoron",
+"Metonymy"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The boy's claim that the wind could not catch him is an exaggerated statement not meant to be taken literally. Such deliberate exaggeration for effect is hyperbole.",
+"id": "litx00012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na hyperbole be dis because di boy exaggeration too much. E run pass wind? Never! Na just to make mouth."
+},
+{
+"q": "Study the following line from a poem: 'His bitter sweetness kept the whole village coming back to his palm wine shed.' Which figure of speech is formed by the phrase 'bitter sweetness'?",
+"options": [
+"Paradox",
+"Oxymoron",
+"Irony",
+"Simile"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Oxymoron joins two contradictory words together in a single short phrase, as seen in 'bitter sweetness'. A paradox, by contrast, is usually a longer statement that seems self-contradictory but reveals a deeper truth.",
+"id": "litx00013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na oxymoron because 'bitter sweetness' join two opposite words together for one short place. E make sense for poetry style."
+},
+{
+"q": "Consider this statement: 'It is strange that the fire service station itself burnt down because its own fire extinguishers had expired.' Which figure of speech is best illustrated here?",
+"options": [
+"Verbal irony",
+"Situational irony",
+"Dramatic irony",
+"Sarcasm"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The outcome is the opposite of what one would reasonably expect, since a fire station is supposed to prevent fire disasters, not suffer one through its own faulty equipment. This mismatch between expectation and actual event is situational irony, not a spoken statement meaning its opposite.",
+"id": "litx00014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na situational irony because fire station wey suppose help people quench fire come go burn down. Wetin person expect no be wetin happen."
+},
+{
+"q": "In a play, the audience knows that a poisoned cup has been placed on the king's table, but the king happily tells his guests, 'Tonight, nothing shall spoil our celebration.' Which figure of speech is at work here?",
+"options": [
+"Situational irony",
+"Dramatic irony",
+"Verbal irony",
+"Foreshadowing only"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The audience possesses information that the character on stage does not have, creating tension between what the king says and what the viewers already know will happen. This gap in knowledge between character and audience is dramatic irony.",
+"id": "litx00015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na dramatic irony because audience sabi say poison dey inside cup, but poor king dey jolly dey happy. Di people wey dey watch know secret wey di character no know."
+},
+{
+"q": "Read the sentence: 'Mallam Sule's new car is as slow as a tortoise climbing a steep, muddy hill.' Which figure of speech is used in this description?",
+"options": [
+"Metaphor",
+"Simile",
+"Hyperbole",
+"Personification"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The comparison uses the word 'as' to directly liken the car's slowness to a tortoise climbing a hill. A comparison introduced by 'like' or 'as' is a simile, unlike a metaphor which states one thing is another.",
+"id": "litx00016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na simile because dem use di word 'as' to compare how slow di motor be like tortoise. Direct comparison with 'like' or 'as' na simile."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A newspaper headline read: 'Abuja Weeps as Flood Sweeps Away Years of Hard Work.' Which figure of speech is demonstrated by the use of the word 'Weeps' to describe the city of Abuja?",
+"options": [
+"Simile",
+"Personification",
+"Metonymy",
+"Synecdoche"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A city cannot literally weep; giving the human act of weeping to Abuja attributes human emotion to a non-human entity. This device of giving human qualities or actions to something non-human is personification.",
+"id": "litx00017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Abuja can also stand metonymically for its residents.|"
+}
+]
+}

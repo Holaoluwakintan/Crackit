@@ -1,0 +1,2377 @@
+{
+"bio03106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio03107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio03108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio03109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio03111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio04100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio04101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio04102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio04103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio04104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio04105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio04106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio04107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio04108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio04109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio04110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio04111": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio05100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio05101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio05102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio00100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio00101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio00102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio00103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio00104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio00105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio00106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio00107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio00108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio00109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio00110": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio00111": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "Euglena is the intended answer, but the explanation incorrectly says it ingests food in darkness; it can absorb dissolved organic nutrients."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": "Euglena is mixotrophic: it photosynthesises in light and feeds heterotrophically in the dark. It is the classic plant–animal link."
+}
+},
+"bio01100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio01101": {
+"a": {
+"ans": "A",
+"v": "ambiguous",
+"r": "Green chloroplasts contain both chlorophyll (A) and carotene (D), so either answers the question as worded."
+},
+"b": {
+"ans": "A",
+"v": "ok",
+"r": "Green oval bodies in a plant cell are chloroplasts, which contain chlorophyll."
+}
+},
+"bio01102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio01103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio01105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio01107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio01108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio01109": {
+"a": {
+"ans": "C",
+"v": "ambiguous",
+"r": "Both B and C list levels in correct descending order; B simply starts at the system level and continues to organelle."
+},
+"b": {
+"ans": "C",
+"v": "ambiguous",
+"r": "Option B (System -> Organ -> Tissue -> Cell -> Organelle) is also a correct most-complex-to-simplest sequence, so two options are defensible."
+}
+},
+"bio01110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Individual ribosomes cannot be resolved with a standard light microscope."
+}
+},
+"bio01111": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The nucleus, mitochondria and chloroplasts contain DNA."
+}
+},
+"bio02100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Uptake of mineral ions from a dilute solution can require active transport."
+}
+},
+"bio02101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Water loss to the concentrated solution causes plasmolysis."
+}
+},
+"bio02102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "This is the definition of osmosis."
+}
+},
+"bio02103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The plant cell wall resists the pressure produced as water enters."
+}
+},
+"bio02104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The dissolved particles spread through the water by diffusion."
+}
+},
+"bio02105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Greater membrane thickness increases diffusion distance."
+}
+},
+"bio02106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Dry seeds absorb water by imbibition, with osmosis also occurring as cells rehydrate."
+}
+},
+"bio02107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Water moves through the yam tissue towards the concentrated sugar solution."
+}
+},
+"bio02108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Both forms of diffusion are passive."
+}
+},
+"bio02109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Active uptake can obtain scarce dissolved nutrients; expelling water through a contractile vacuole is not active transport of water across a membrane."
+}
+},
+"bio02110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Water re-enters the cells by osmosis, reversing plasmolysis."
+}
+},
+"bio02111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The plasma membrane and tonoplast are selectively permeable; the cell wall is not."
+}
+},
+"bio03100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Manganese is a trace nutrient that activates enzymes."
+}
+},
+"bio03101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Electrons from the splitting of water replace those lost by Photosystem II."
+}
+},
+"bio03102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Dark treatment allows stored starch to be used up before the test."
+}
+},
+"bio03103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Magnesium deficiency commonly causes interveinal chlorosis in older leaves."
+}
+},
+"bio03104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The Calvin cycle uses ATP and NADPH from the light-dependent reactions."
+}
+},
+"bio03105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Photosynthetic oxygen originates from the splitting of water."
+}
+},
+"bio05103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio05104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio05105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio05106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio05107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio05108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio05110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio05111": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio06100": {
+"a": {
+"ans": "X",
+"v": "error",
+"r": "Cockroaches use tracheal tubes for gaseous exchange, but Malpighian tubules are excretory organs. The question and explanation incorrectly assign them a role in gaseous exchange."
+},
+"b": {
+"ans": "A",
+"v": "error",
+"r": "Malpighian tubules are excretory, not respiratory. The stem and explanation wrongly say they work with tracheae for gaseous exchange."
+}
+},
+"bio06101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio06102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio06103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio06104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio06105": {
+"a": {
+"ans": "C",
+"v": "ambiguous",
+"r": "C is correct, but the trachea is also a respiratory organ in mammals, making D defensible."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": "Tadpoles respire with gills. Reptile skin is scaly, book lungs belong to arachnids, and mammals use lungs."
+}
+},
+"bio06106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio06108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio06109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio06111": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio07100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio07101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio09100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio09102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio09103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio09104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio09105": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The key is correct, but the explanation incorrectly says ‘perianth’ is used only when sepals and petals are indistinguishable. The perianth includes the calyx and corolla whether or not they are distinguishable."
+},
+"b": {
+"ans": "D",
+"v": "error",
+"r": "The key is correct, but the explanation is wrong. Perianth means calyx plus corolla collectively; indistinguishable perianth segments are called tepals."
+}
+},
+"bio09106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio09107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio09108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio09109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio09110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio09111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio10100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio10102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio10103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio10104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio10105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio10106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio10107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio10108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio10109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio07102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio07103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio07104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio07105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio07106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio07107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio07108": {
+"a": {
+"ans": "D",
+"v": "trivial",
+"r": "The question says the waste is stored as crystals, and the answer option is ‘Metabolic crystals’; no biological knowledge is needed."
+},
+"b": {
+"ans": "D",
+"v": "trivial",
+"r": "Option D, 'Metabolic crystals', simply echoes 'crystals' in the stem, so it is a word-matching giveaway. The other options are not stored wastes at all. The explanation also oversimplifies: calcium oxalate is often stored in living cells."
+}
+},
+"bio07109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio07110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio07111": {
+"a": {
+"ans": "C",
+"v": "trivial",
+"r": "The question names latex in its final phrase, giving away the identical answer option."
+},
+"b": {
+"ans": "C",
+"v": "trivial",
+"r": "The stem itself says 'plant excretion of latex', which gives away option C."
+}
+},
+"bio08100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio08101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio08102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio08103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio08104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio08106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio08107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio08108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio08110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio08111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio10110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio10111": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio11100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio11101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio11102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio11103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio11104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio11105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio11106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio11107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio11108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio11109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio11110": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio11111": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The hypothalamus links the nervous and endocrine systems, but the pituitary—not the hypothalamus—is conventionally called the master endocrine gland."
+},
+"b": {
+"ans": "D",
+"v": "error",
+"r": "The pituitary, not the hypothalamus, is conventionally the 'master endocrine gland'. The hypothalamus is the neuroendocrine link, so the stem's wording is factually misleading."
+}
+},
+"bio12100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio12101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio12102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio12103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio12104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio12105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio12106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio12107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio12108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio12109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio12110": {
+"a": {
+"ans": "X",
+"v": "error",
+"r": "The claim that a high auxin concentration necessarily accelerates shoot elongation is false; sufficiently high concentrations inhibit growth. No concentration is specified to establish the direction of bending."
+},
+"b": {
+"ans": "A",
+"v": "ok",
+"r": "Auxin applied to one side increases elongation on that side, so the coleoptile bends away from it."
+}
+},
+"bio12111": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio13100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio13101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio13103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio13104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio13105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio13106": {
+"a": {
+"ans": "X",
+"v": "ambiguous",
+"r": "One tree supporting many caterpillars establishes a narrow base, but the numbers of caterpillars and parasitic wasps relative to each other are unspecified. The pyramid could be spindle-shaped rather than inverted."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": "One tree supporting many caterpillars and even more parasites gives an inverted pyramid of numbers."
+}
+},
+"bio13107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio13108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio13109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio13110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio13111": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio14100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio14101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio14102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio14103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio14104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio14105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio14106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio14107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio14108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio14109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio14110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio14111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio15100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio15101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio15103": {
+"a": {
+"ans": "A",
+"v": "error",
+"r": "The explanation incorrectly says stilt roots grow upwards; stilt roots grow downwards from the stem or branches into the mud. Pneumatophores grow upwards."
+},
+"b": {
+"ans": "A",
+"v": "ok",
+"r": "Pneumatophores and stilt roots are the key mangrove adaptation to anoxic mud. 'stuggle' is a minor typo."
+}
+},
+"bio15104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio15105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio15106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio15107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio15108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio15109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio15110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio15111": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio16100": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "CFCs are the correct answer, but the explanation incorrectly implies that carbon monoxide causes acid rain."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": "CFCs release chlorine in the stratosphere, which destroys ozone."
+}
+},
+"bio16101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio16103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio16104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio16105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio16106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio16107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio16108": {
+"a": {
+"ans": "B",
+"v": "error",
+"r": "The key is correct, but the explanation calls sulphuric and nitric acids weak acids; both are strong acids."
+},
+"b": {
+"ans": "B",
+"v": "ok",
+"r": "SO2 and NOx dissolve in atmospheric moisture to form acid rain."
+}
+},
+"bio16109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio16110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio16111": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio17100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio17101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio17102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio17103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio17104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio17105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio17106": {
+"a": {
+"ans": "A",
+"v": "error",
+"r": "BB is most likely, but the explanation incorrectly says the father must be BB. A Bb father could also produce 12 black offspring by chance."
+},
+"b": {
+"ans": "A",
+"v": "ok",
+"r": "In a testcross with a bb female, all 12 offspring being black indicates the male is BB."
+}
+},
+"bio17107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio17108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio17109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio17110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio17111": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio18100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio18101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio18102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio18103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio18104": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "Group O red cells lack A and B antigens, but the explanation's claim that they cannot trigger an immune reaction in recipients of other blood groups ignores Rh and other red-cell antigens."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio18105": {
+"a": {
+"ans": "A",
+"v": "ambiguous",
+"r": "A gives the children's genotypes more precisely, but C is also correct for the requested phenotype: all children are normally sighted."
+},
+"b": {
+"ans": "C",
+"v": "ambiguous",
+"r": "The cross X^cY × X^CX^C gives phenotypically normal sons and phenotypically normal carrier daughters. The question asks for the phenotypic ratio, so C ('All normal children') is strictly correct. The keyed A describes genotypes, so both A and C are defensible."
+}
+},
+"bio18106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio18107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio18108": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "Non-disjunction is the primary cause, but the explanation incorrectly implies that every person with Down syndrome has 47 chromosomes; translocation and mosaic cases also occur."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio18109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio18110": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio18111": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio19100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio19101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio19102": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "C accurately describes Lamarck's proposal, but the explanation incorrectly claims Darwinism disproved acquired-trait inheritance by proving traits must be genetic."
+},
+"b": {
+"ans": "C",
+"v": "error",
+"r": "The explanation claims Darwinism disproved Lamarckism 'by proving traits must be genetic'. This is historically wrong: Darwin knew nothing of genes and partly accepted use/disuse inheritance. Lamarckism was refuted later, by Weismann and Mendelian genetics."
+}
+},
+"bio19103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio19104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov0503": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov0600": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov0601": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov0602": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov0603": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov0700": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov0701": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov0702": {
+"a": {
+"ans": "A",
+"v": "error",
+"r": "The answer is correct, but the explanation incorrectly describes the epidermis as a dead-cell layer. Only its outermost layers consist of dead cells."
+},
+"b": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov0703": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov0800": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov0801": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov0802": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov0803": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov0900": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov0901": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov0902": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov0903": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov1000": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov1001": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov1002": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov0002": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov0003": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov0100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov0101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov0102": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "D is correct, but the explanation incorrectly describes xylem as made of similar cells. Xylem is a complex tissue containing several different cell types."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov0103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov0200": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov0201": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov0202": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov0203": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov0300": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov0301": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov0302": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov0303": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov0400": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov0401": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov0403": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov0500": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov0501": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov0502": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov1003": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov1100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov1101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov1102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov1103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov1200": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov1201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov1202": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov1203": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov1300": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov1301": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov1302": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov1303": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov1400": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov1401": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov1402": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov1403": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov1500": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov1501": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"biov1502": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio19105": {
+"a": {
+"ans": "B",
+"v": "error",
+"r": "The key is correct, but vestigial does not mean functionless: pythons can use their pelvic spurs during mating."
+},
+"b": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio19106": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "Directional selection is correct, but the classic documented drought-and-finch example comes from the Galápagos Islands, not a West African savannah."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio19107": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The key is correct, but the explanation wrongly says non-random mating necessarily changes allele frequencies. By itself, it changes genotype frequencies."
+},
+"b": {
+"ans": "D",
+"v": "off_syllabus",
+"r": "Hardy-Weinberg equilibrium (population genetics) is not part of the JAMB UTME Biology syllabus on evolution. That section covers Lamarck's and Darwin's theories and the evidence for evolution."
+}
+},
+"bio19108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio19109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio19110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio19111": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The option correctly says pharyngeal (gill) pouches, but the explanation calls them gill slits; mammalian embryos do not develop open gill slits."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio20100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio20101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio20102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio20103": {
+"a": {
+"ans": "A",
+"v": "error",
+"r": "The key is correct, but antigens cannot be ‘weakened or dead’. Those terms can describe pathogens used in some vaccines, not antigens."
+},
+"b": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio20105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio20106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio20107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"bio20108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"bio20109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"bio20110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"bio20111": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The key is the best option, but the explanation treats clearing bushes as clearing mosquito breeding sites; mosquitoes breed in water, not bushes."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"biov0000": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"biov0001": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"biov1503": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Repeated clearing and burning of rainforest can produce derived savanna."
+}
+},
+"biov1600": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Solar energy is renewable; the fossil fuels listed are not."
+}
+},
+"biov1601": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Noise levels are measured in decibels."
+}
+},
+"biov1602": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "An oil film reduces oxygen exchange with the water, contributing to oxygen depletion."
+}
+},
+"biov1603": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Bacterial decomposition of dead algae consumes dissolved oxygen."
+}
+},
+"biov1700": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Bb × bb produces equal numbers of black and white offspring."
+}
+},
+"biov1701": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Round green seeds make up 3/16 of 320, or 60."
+}
+},
+"biov1702": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The independently assorting dihybrid test cross produces ccbb in one-quarter of offspring."
+}
+},
+"biov1703": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Genes on different chromosomes assort independently during gamete formation."
+}
+},
+"biov1800": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "An X-bearing egg fertilised by a Y-bearing sperm produces an XY offspring."
+}
+},
+"biov1801": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Half the sons are expected to inherit the mother's haemophilia allele."
+}
+},
+"biov1802": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "AB × O can produce children with blood group A or B only."
+}
+},
+"biov1803": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Turner syndrome is typically 45,X: 44 autosomes and one X chromosome."
+}
+},
+"biov1900": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "A vestigial organ is reduced relative to its ancestral form and has little or no original function."
+}
+},
+"biov1901": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Dark moths gained a camouflage advantage on soot-darkened trunks."
+}
+},
+"biov1903": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Antibiotic use selects for bacteria with pre-existing resistance."
+}
+},
+"biov2000": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Cyclical fever and chills are characteristic signs of malaria."
+}
+},
+"biov2001": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Antibodies received naturally through breast milk provide passive immunity."
+}
+},
+"biov2002": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Oral rehydration replaces water and electrolytes lost through diarrhoea."
+}
+},
+"biov2003": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The window period can yield a negative antibody test despite an existing infection."
+}
+}
+}

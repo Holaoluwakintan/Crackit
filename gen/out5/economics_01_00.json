@@ -1,0 +1,190 @@
+{
+"subject": "economics",
+"topic": "Economic systems (capitalism, socialism, mixed economy)",
+"ti": 1,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is a basic feature that distinguishes a capitalist economy from a socialist economy?",
+"options": [
+"Existence of consumer wants",
+"Scarcity of resources",
+"Freedom of private enterprise and ownership of property",
+"Need for economic planning"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Private enterprise and private ownership of property are the hallmark of capitalism, while socialism emphasizes collective or state ownership. Scarcity and consumer wants exist under every economic system.",
+"py": null,
+"values": null,
+"id": "ecox01000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na private property and business be the main thing wey dey show say economy na capitalist. Socialism dey talk about government or collective ownership, but scarcity and consumer wants dey happen for every system."
+},
+{
+"q": "In a mixed economy, price control by government on essential commodities like rice and sugar is mainly intended to:",
+"options": [
+"Eliminate the private sector completely",
+"Protect consumers from exploitation while still allowing market forces to operate",
+"Transfer all means of production to the state",
+"Abolish the use of money in transactions"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A mixed economy combines market forces with government intervention. Price control protects consumers from exploitation without removing private enterprise, unlike pure socialism which nationalises production.",
+"py": null,
+"values": null,
+"id": "ecox01001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Mixed economy dey mix market forces with government work. Price control dey help protect consumers from high price without stopping private business people from making profit."
+},
+{
+"q": "One major weakness commonly associated with a purely capitalist economic system is that it:",
+"options": [
+"Leads to inefficient allocation of resources due to lack of competition",
+"Results in wide inequality in the distribution of income and wealth",
+"Prevents individuals from owning private property",
+"Removes the profit motive from business decisions"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Because production is driven by profit and resources go to those who can pay, capitalism tends to widen the gap between the rich and the poor. The other options describe features of socialism, not capitalism.",
+"py": null,
+"values": null,
+"id": "ecox01002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because capitalism dey focus on profit, e dey make the gap between rich and poor people too wide. The other options na things wey dey happen for socialism, no be capitalism."
+},
+{
+"q": "A country decides that the government will own and control key sectors such as steel production and electricity generation, while individuals are allowed to freely engage in trading, tailoring, and farming for profit. This arrangement best illustrates:",
+"options": [
+"A pure capitalist economy",
+"A pure socialist economy",
+"A mixed economic system",
+"A subsistence economy"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The combination of state ownership of major industries with private individuals freely engaging in trade and farming is the defining feature of a mixed economy. Neither pure capitalism nor pure socialism allows this dual arrangement.",
+"py": null,
+"values": null,
+"id": "ecox01003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If government get some big industries but people still dey do their own private business, that one na mixed economy. E no be pure capitalism or pure socialism."
+},
+{
+"q": "Under a free enterprise (capitalist) economy, the question of 'what to produce' is primarily determined by:",
+"options": [
+"Directives issued by a central planning authority",
+"The interaction of consumer demand and producer supply through the price mechanism",
+"A national development plan drawn up by the government",
+"Rationing of goods by government agencies"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In capitalism, the price mechanism, driven by the forces of demand and supply, signals to producers what consumers want, thereby determining what is produced. Central planning and rationing are features of socialism, not capitalism.",
+"py": null,
+"values": null,
+"id": "ecox01004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For capitalist economy, na demand and supply determine wetin dem go produce through price mechanism. Government no dey use central planning or rationing to decide wetin people go buy."
+},
+{
+"q": "Which of these is a genuine advantage that a mixed economy has over a purely socialist economy?",
+"options": [
+"It completely eliminates unemployment in the economy",
+"It allows private initiative to thrive alongside government provision of essential services",
+"It removes the need for any form of taxation",
+"It guarantees absolutely equal income for every citizen"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A mixed economy blends private initiative, which encourages efficiency and innovation, with government provision of essential services like health and infrastructure. Pure socialism restricts private initiative, while the other options are unrealistic claims not guaranteed by any system.",
+"py": null,
+"values": null,
+"id": "ecox01005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Mixed economy dey allow private people to bring new ideas and work hard, while government still dey provide important services. Pure socialism no dey allow private initiative like that."
+},
+{
+"q": "A government is debating whether to fully nationalise its telecommunications industry or leave it entirely to private companies. An economist advises that a middle path, where the government regulates the sector through licensing while private firms compete for customers, would better serve the economy. This advice is rooted in the principle of:",
+"options": [
+"Pure capitalism",
+"Command economy",
+"Mixed economy",
+"Subsistence economy"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Combining government regulation with private sector competition, rather than full nationalisation or pure market freedom, is the essence of a mixed economic system. This balances efficiency from competition with public oversight to prevent exploitation.",
+"py": null,
+"values": null,
+"id": "ecox01007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When government regulate sector but still allow private companies to compete, that one na mixed economy. E dey balance the efficiency of market with government oversight to stop exploitation."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Chief Eze, a businessman in Onitsha, wants to set up a cement factory. In a strictly socialist economy, which of the following would most likely prevent him from doing so?",
+"options": [
+"High cost of cement production",
+"Government ownership of major means of production, including heavy industries",
+"Lack of consumer demand for cement",
+"Absence of skilled labour in the area",
+"High interest rates charged by commercial banks"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Under strict socialism, the state owns and controls major means of production such as heavy industries, so a private individual would be barred from establishing a cement factory regardless of demand or cost. This reflects the central feature of socialism, not market conditions like demand or cost.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+}
+]
+}

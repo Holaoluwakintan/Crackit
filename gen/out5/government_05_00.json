@@ -1,0 +1,175 @@
+{
+"subject": "government",
+"topic": "Political parties, party systems and pressure groups",
+"ti": 5,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is a major function performed by political parties but NOT by pressure groups in a democracy?",
+"options": [
+"Sponsoring candidates for elective offices",
+"Lobbying government officials on specific issues",
+"Organizing public enlightenment campaigns",
+"Making representations to the press"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Political parties exist mainly to win elections by sponsoring candidates for office. Pressure groups do not sponsor candidates; they only try to influence those already in power.",
+"id": "govx05000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Political party get main aim to win election by putting candidates for office. Pressure group no dey sponsor candidate; dem only dey try change wetin government dey do."
+},
+{
+"q": "A country's constitution allows citizens to form as many political parties as they wish, and elections usually produce several parties represented in parliament, none of which can govern alone. This describes a system of government based on a:",
+"options": [
+"one-party system",
+"two-party system",
+"multi-party system",
+"dominant-party system"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A multi-party system allows numerous parties to contest elections freely, often leading to coalition governments since no single party wins outright. This differs from systems with only one or two major parties.",
+"id": "govx05001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Multi-party system allow plenty parties to contest election freely. Because no single party fit win everything, dem dey often join hand form coalition government."
+},
+{
+"q": "One major criticism of the two-party system, as practised in countries like the United States, is that it:",
+"options": [
+"encourages excessive formation of weak coalition governments",
+"limits the range of political choices available to voters",
+"makes it difficult for any government to be formed after elections",
+"promotes constant collapse of government due to defections"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "With only two major parties dominating politics, voters with views outside these two platforms have fewer alternatives to choose from. Coalition problems and government collapse are more associated with multi-party systems.",
+"id": "govx05002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When only two parties dey control politics, voters no get plenty choice. People wey get different ideas no get many option to pick from."
+},
+{
+"q": "During Nigeria's Fourth Republic, market women under the Nigeria Association of Petty Traders and Petty Traders refused to pay a newly introduced levy and organized peaceful protests until the local government suspended the levy. This action best illustrates a pressure group using which method?",
+"options": [
+"Sponsorship of candidates for local government elections",
+"Direct mass action to compel a policy reversal",
+"Formation of a splinter political party",
+"Filing a suit at the Federal High Court"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The traders used protest and refusal to comply as a form of direct mass action to pressure the government into reversing its decision. This is a common pressure group tactic that does not involve contesting elections or going to court.",
+"id": "govx05003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Those traders use protest and refusal to pay tax as direct action to force government change mind. Na common way wey pressure group dey use get wetin dem want."
+},
+{
+"q": "Which of the following best explains why military regimes in Nigeria's history typically banned political parties but could not completely eliminate pressure group activities?",
+"options": [
+"Pressure groups are usually registered with the military government unlike parties",
+"Pressure groups do not seek to capture political power, so they posed less direct threat",
+"Pressure groups are smaller in membership than political parties",
+"Pressure groups operate only outside the country"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Military governments banned parties because parties aim to capture state power through elections, which threatens military rule. Pressure groups merely seek to influence policy without contesting for power, making them harder to fully suppress and less politically threatening.",
+"id": "govx05004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Military government dey fear political party because party want take power through election. Pressure group no want power, so military no dey see dem as big threat."
+},
+{
+"q": "A key difference between the one-party system practised in some African states after independence and a dominant-party system found in some modern democracies is that in a dominant-party system:",
+"options": [
+"only one party is legally allowed to exist",
+"opposition parties are legally permitted but rarely win power",
+"there are no elections conducted at all",
+"the government is usually formed by the military"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In a dominant-party system, other parties can legally form and contest elections, but one party consistently wins due to its popularity or structural advantages. A one-party system, by contrast, legally bans all other parties from existing.",
+"id": "govx05005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For dominant-party system, other parties fit exist and contest election, but one party just dey win always. One-party system no allow any other party to exist at all."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best accounts for the floor-crossing (defection) of elected members from one political party to another, often witnessed in Nigeria's National Assembly?",
+"options": [
+"Constitutional requirement that members must change parties yearly",
+"Internal party crises, such as denial of tickets or leadership disputes",
+"Directive from the Independent National Electoral Commission",
+"Compulsory rotation of party membership among legislators",
+"Absence of political parties"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Lawmakers often defect when they face internal disputes, such as being denied a party ticket or losing out in leadership struggles. There is no constitutional rule forcing members to change parties regularly."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following is most likely to happen when pressure groups in a country become so numerous and powerful that they begin to perform functions constitutionally reserved for political parties, such as directly choosing who governs?",
+"options": [
+"The pressure groups automatically become registered political parties",
+"Government policy-making becomes more democratic and transparent",
+"The distinction between governance by elected officials and interest groups becomes blurred",
+"Political parties automatically dissolve and cease to exist"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "When pressure groups overstep into functions meant for parties, such as determining who holds power, it weakens the clear line between elected government and interest-based influence. This can undermine democratic accountability since pressure groups are not directly elected by the people.",
+"id": "govx05007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Voters, not parties, directly choose who governs.|"
+}
+]
+}

@@ -1,0 +1,178 @@
+{
+"subject": "biology",
+"topic": "Diseases, parasites and immunity (malaria, cholera, HIV, vaccines)",
+"ti": 20,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In the human liver, the malaria parasite undergoes a stage of development before invading red blood cells. What is this liver stage called?",
+"options": [
+"Sporogony",
+"Exo-erythrocytic schizogony",
+"Gametogony",
+"Erythrocytic schizogony"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "After a mosquito bite, sporozoites travel to the liver and multiply asexually inside liver cells; this is called exo-erythrocytic schizogony. It occurs before the parasite enters red blood cells to cause symptoms.",
+"id": "biox20000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When mosquito bite person, the sporozoites dey go liver go multiply inside liver cells before dem enter red blood cells. We dey call dis liver stage exo-erythrocytic schizogony."
+},
+{
+"q": "A community health worker explains that a disease is caused by a tiny organism living inside or on a host, deriving nourishment from the host while causing it harm. Which term best describes this organism?",
+"options": [
+"Pathogen",
+"Vector",
+"Parasite",
+"Reservoir host"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A parasite is an organism that lives on or in another organism (the host), feeding off it and usually causing harm. Not all parasites are pathogens, and vectors merely transmit disease agents rather than living off the host.",
+"id": "biox20001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na parasite be living organism wey dey stay inside or on top another organism (host), dey chop from am and dey cause am harm. E different from vector wey just dey carry disease come."
+},
+{
+"q": "Which of the following best explains why severe dehydration is the major cause of death in untreated cholera patients?",
+"options": [
+"The bacterium destroys the lining of the small intestine completely",
+"The toxin causes excessive loss of water and electrolytes through watery stool",
+"The bacterium invades the bloodstream and damages red blood cells",
+"The toxin paralyses the kidneys, stopping urine production"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Cholera toxin makes intestinal cells secrete large amounts of water and salts into the gut, producing profuse watery diarrhoea. This massive fluid loss leads to dehydration, which can be fatal if not replaced quickly.",
+"id": "biox20002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Cholera toxin dey make belle cells pour plenty water and salt comot for body, na im cause watery diarrhoea. If dem no replace the water sharp sharp, person fit die from dehydration."
+},
+{
+"q": "A baby born to an HIV-positive mother tests positive for HIV antibodies at birth but tests negative at 18 months without any treatment. What is the most likely explanation for this change?",
+"options": [
+"The baby developed active immunity that cleared the virus completely",
+"The antibodies detected at birth were maternal antibodies that gradually disappeared",
+"The test used at birth was faulty and gave a wrong result",
+"The baby's white blood cells destroyed the HIV virus permanently"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Maternal antibodies cross the placenta and can be detected in a newborn's blood even if the baby is not infected. These borrowed antibodies fade over time, so a later negative test at 18 months suggests the baby was never truly infected.",
+"id": "biox20003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na mama antibodies cross enter pikin body before birth, na im make test show positive at first. As time dey go, those antibodies go clear, meaning say pikin no get HIV at all."
+},
+{
+"q": "Which statement correctly describes how a vaccine prepared from an inactivated (killed) pathogen protects the body?",
+"options": [
+"It supplies ready-made antibodies that directly neutralise the pathogen",
+"It stimulates the body to produce memory cells without causing the actual disease",
+"It introduces antitoxins that destroy the toxins produced by the pathogen",
+"It transfers antibodies from an already immune person to the recipient"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A killed-pathogen vaccine contains antigens that cannot cause disease but still trigger the immune system to produce antibodies and memory cells. This prepares the body to respond quickly if the real pathogen is encountered later.",
+"id": "biox20004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Vaccine wey contain dead pathogen no dey cause disease, but e dey make body produce antibodies and memory cells. E dey prepare body make e ready if the real sickness come later."
+},
+{
+"q": "During a malaria awareness talk in a secondary school in Ibadan, a teacher explains that only female Anopheles mosquitoes transmit malaria, not the males. What is the best biological reason for this?",
+"options": [
+"Male mosquitoes do not fly long distances to find human hosts",
+"Only female mosquitoes require a blood meal to develop their eggs",
+"Male mosquitoes are not attracted to the scent of human skin",
+"Female mosquitoes have a longer lifespan than males, allowing more bites"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Female Anopheles mosquitoes need the protein in blood to develop their eggs, so they bite humans and animals. Males feed only on nectar and plant juices, so they do not transmit the malaria parasite.",
+"id": "biox20005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na only female Anopheles mosquito dey need blood protein to develop their eggs, na im make dem dey bite people. Male mosquito na only nectar and plant juice dem dey chop."
+},
+{
+"q": "A health official describes an immunity that is acquired naturally when a person suffers an infection, recovers, and produces antibodies and memory cells against the pathogen without receiving any external antibodies. Which type of immunity is this?",
+"options": [
+"Naturally acquired passive immunity",
+"Artificially acquired passive immunity",
+"Naturally acquired active immunity",
+"Artificially acquired active immunity"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "When the body itself fights off an infection and forms its own antibodies and memory cells, this is naturally acquired active immunity. It is natural because no vaccine was given, and active because the body produced the response itself.",
+"id": "biox20006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When body fight sickness by itself and produce im own antibodies and memory cells, na naturally acquired active immunity be dat. E natural because nobody give you vaccine."
+},
+{
+"q": "A village in Niger State reported that most people above 40 years rarely show severe malaria symptoms despite living in a highly malaria-endemic area, while young children frequently fall seriously ill. Which explanation best accounts for this observation?",
+"options": [
+"Adults have developed partial immunity from repeated exposure to the parasite over the years",
+"Adults are naturally resistant to mosquito bites due to thicker skin",
+"Children have weaker red blood cells that cannot carry oxygen properly",
+"The Plasmodium parasite cannot survive in adult blood due to higher body temperature"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Repeated malaria infections over many years allow adults to build up partial immunity, reducing the severity of symptoms even though they may still carry the parasite. Young children have not had this repeated exposure, so they suffer more severe illness.",
+"id": "biox20007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As adults don chop malaria over and over for many years, their body don get partial immunity to fight am well. But small pikin never get that experience, na im make the sickness dey catch dem serious."
+}
+],
+"rejected": []
+}

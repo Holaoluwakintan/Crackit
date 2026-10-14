@@ -1,0 +1,174 @@
+{
+"subject": "crs",
+"topic": "Themes from the Epistles: Christian living, humility, civic duty, the second coming",
+"ti": 23,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In Romans 12:3, Paul warns believers not to think of themselves more highly than they ought to think, but to think soberly. What virtue is Paul teaching here?",
+"options": [
+"Humility",
+"Patience",
+"Generosity",
+"Diligence"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Paul tells believers to have sober, modest self-assessment rather than pride. This is a direct call to humility among Christians using their different gifts.",
+"id": "crsx23000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Paul dey tell Christians make dem no think say dem pass body, but make dem get correct sense of modesty. Na true humility im dey teach us so."
+},
+{
+"q": "In Galatians 6:2, Paul instructs believers to bear one another's burdens. According to the same verse, what law do they fulfil by doing this?",
+"options": [
+"The law of Moses",
+"The law of the Spirit",
+"The law of Christ",
+"The law of liberty"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Galatians 6:2 says bearing one another's burdens fulfils the law of Christ, which is the law of love. This teaches mutual care and humility within the Christian community.",
+"id": "crsx23001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "E clear say if we carry each other burden, na im be say we dey follow the law of Christ. Na love and care be the koko of that teaching."
+},
+{
+"q": "In 1 Peter 5:5-6, Peter urges younger believers to submit to elders, and all to clothe themselves with humility. He warns that God resists a particular group of people. Who are they?",
+"options": [
+"The poor",
+"The proud",
+"The weak",
+"The rich"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "1 Peter 5:5 states that God resists the proud but gives grace to the humble. Peter therefore calls believers to humble themselves under God's mighty hand.",
+"id": "crsx23002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Bible tok am straight say God no like people wey get pride for body at all. Na why Peter advise everybody make dem humble theirself under God."
+},
+{
+"q": "In 1 Thessalonians 4:16-17, Paul describes the sequence of events at the Lord's return. According to this passage, what happens to the dead in Christ before the living believers are caught up to meet the Lord?",
+"options": [
+"They are judged first",
+"They rise first",
+"They remain asleep forever",
+"They are purified"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Paul teaches that the dead in Christ shall rise first, and then believers who are alive shall be caught up together with them to meet the Lord in the air. This order shows that death does not disadvantage believers who have died before Christ's return.",
+"id": "crsx23004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Paul explain say the people wey don die for Christ go first wake up before the ones wey still dey alive. Dem go join together to meet Jesus for air."
+},
+{
+"q": "In 2 Thessalonians 3:10-12, Paul addresses believers who were idle and disorderly, refusing to work while expecting the Lord's return. What instruction does Paul give concerning such people?",
+"options": [
+"They should be fed by the church daily",
+"If any would not work, neither should he eat",
+"They should be sent away from the city",
+"They should be given double portions of food"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Paul rebukes idleness by stating that if anyone refuses to work, he should not eat. This teaches that expecting Christ's second coming does not excuse believers from responsible, diligent labour.",
+"id": "crsx23005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Paul warn say person wey no gree work make im no chop food at all. E show say waiting for Jesus second coming no mean say make person lazy."
+},
+{
+"q": "In 2 Peter 3:8, Peter corrects wrong ideas about the delay of the Lord's coming by comparing a thousand years to what?",
+"options": [
+"A single moment",
+"One day",
+"A lifetime",
+"A generation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Peter writes that with the Lord, one day is as a thousand years and a thousand years as one day. This teaches that God's timing differs from human timing, so believers should not mistake patience for delay.",
+"id": "crsx23006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Peter make us understand say one day for God eyes be like thousand years. E show say God time no be human time at all."
+},
+{
+"q": "Consider these two statements about Hebrews chapter 13: (I) Believers are told to remember those in prison as if bound with them. (II) Believers are told to be content with such things as they have, for God will never leave them. Which of these statements correctly reflects teachings on Christian living in Hebrews 13?",
+"options": [
+"Only statement I is correct",
+"Only statement II is correct",
+"Both statements are correct",
+"Neither statement is correct"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Hebrews 13:3 instructs believers to remember prisoners as bound with them, and Hebrews 13:5 teaches contentment because God has promised never to leave nor forsake His people. Both teachings form part of the practical Christian living instructions in that chapter.",
+"id": "crsx23007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Hebrews chapter 13 tell us say make we remember prisoners and also make we contented with wetin we get. Both instructions correct well well for Christian life."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Titus was instructed by Paul concerning the believers' duty to civil authorities. According to Titus 3:1, believers should be ready for what kind of works towards rulers and government?",
+"options": [
+"Every good work",
+"Occasional service",
+"Secret opposition",
+"Silent protest",
+"Financial support"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Titus 3:1 instructs believers to be subject to rulers and authorities, obeying magistrates and being ready to do every good work. This shows civic duty as part of Christian living."
+},
+"why": "bad-shape"
+}
+]
+}

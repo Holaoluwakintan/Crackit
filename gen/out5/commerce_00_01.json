@@ -1,0 +1,194 @@
+{
+"subject": "commerce",
+"topic": "Commerce: meaning, scope and occupations",
+"ti": 0,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is an example of a 'commercial service' rather than a 'direct service' within the scope of Commerce?",
+"options": [
+"A doctor treating patients in a government hospital",
+"A barber cutting hair in his shop in Onitsha",
+"An insurance company compensating a trader whose shop was gutted by fire",
+"A tailor sewing clothes for a customer"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Commercial services are those rendered by businesses as part of trade activities, such as insurance, banking and transport. Insurance compensating a trader is a commercial service because it directly supports trade, unlike personal/direct services like medical treatment or haircutting.",
+"py": null,
+"values": null,
+"id": "comx00010",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Commercial services na business activities wey dey support trade like insurance and banking. Personal services like doctor or barber no be commercial service because dem no dey directly support trade."
+},
+{
+"q": "Which group of occupations below consists entirely of examples of 'extractive industry' under direct production?",
+"options": [
+"Mining of tin, fishing in the sea, and lumbering in the forest",
+"Baking bread, weaving cloth, and assembling cars",
+"Banking, insurance, and warehousing",
+"Farming maize, rearing poultry, and brewing beer"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Extractive industries involve taking raw materials directly from nature without changing their form, such as mining, fishing and lumbering. Baking, weaving and assembling involve manufacturing, while banking and insurance are commercial services, not extraction.",
+"py": null,
+"values": null,
+"id": "comx00011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Extractive industry na when you take raw materials direct from nature without changing dem. Mining, fishing and lumbering na correct examples, but baking and banking no be extraction."
+},
+{
+"q": "A manufacturer of soft drinks in Ibadan finds that his finished bottles pile up in the warehouse because there is no easy way to move them to distant markets like Sokoto and Maiduguri. Which hindrance to trade does this situation best illustrate?",
+"options": [
+"Hindrance of risk",
+"Hindrance of place",
+"Hindrance of time",
+"Hindrance of knowledge"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The hindrance of place arises when goods are produced in one location but needed in another, requiring transport to bridge the gap. Since the bottles cannot easily reach distant markets, this is a problem of place, not risk, time or knowledge.",
+"py": null,
+"values": null,
+"id": "comx00012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Hindrance of place dey happen when goods dey one place but people wey need am dey another place. Transport dey solve this problem, so the difficulty to move bottles to Sokoto na hindrance of place."
+},
+{
+"q": "Which of the following best explains why Commerce is classified as a tertiary occupation rather than a secondary occupation?",
+"options": [
+"It involves extracting raw materials from the land and sea for direct use",
+"It focuses on buying and selling of goods and rendering services that support trade, rather than making goods",
+"It deals strictly with changing raw materials into semi-finished products",
+"It is concerned only with growing crops and rearing animals for food"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Tertiary occupations provide services, including commerce, which links producers and consumers through trade and aids to trade. Extraction belongs to primary occupations and manufacturing belongs to secondary occupations, not commerce.",
+"py": null,
+"values": null,
+"id": "comx00013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Commerce na tertiary occupation because e dey provide services wey dey help trade flow. E no dey make goods like secondary industry or extract raw materials like primary industry."
+},
+{
+"q": "A furniture maker in Benin City converts wood into chairs and tables in his workshop. Under the classification of occupations, his activity falls under which broad group?",
+"options": [
+"Commerce",
+"Direct production (secondary industry)",
+"Aids to trade",
+"Direct production (primary industry)"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Direct production is divided into primary industries, which extract raw materials, and secondary industries, which manufacture goods from raw materials. Turning wood into furniture is manufacturing, so it falls under secondary industry.",
+"py": null,
+"values": null,
+"id": "comx00014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Secondary industry na where dem dey turn raw materials into finished goods. Because the man dey turn wood to furniture, e dey do manufacturing work under secondary industry."
+},
+{
+"q": "Mallam Sani wants to sell groundnut oil produced in Kano to buyers in Ghana. Which branch of Commerce specifically deals with this kind of transaction that crosses national borders?",
+"options": [
+"Home trade",
+"Wholesale trade",
+"International trade",
+"Retail trade"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "International trade refers to the buying and selling of goods and services between people or firms in different countries. Since groundnut oil is moving from Nigeria to Ghana, this is an example of international trade, not home or retail trade.",
+"py": null,
+"values": null,
+"id": "comx00015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "International trade na when you buy or sell goods between different countries. Since the groundnut oil dey go Ghana from Nigeria, na international trade be that."
+},
+{
+"q": "A yam farmer in Benue State harvests yams but has no reliable means of storing them for the off-season, leading to heavy losses after each harvest. This situation best illustrates which hindrance to trade that Commerce helps to solve?",
+"options": [
+"Hindrance of time",
+"Hindrance of place",
+"Hindrance of exchange",
+"Hindrance of risk"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The hindrance of time occurs when there is a gap between production and consumption, requiring storage (warehousing) to keep goods until needed. Since the farmer cannot store the yams for later sale, this is a problem of time, which warehousing as an aid to trade would resolve.",
+"py": null,
+"values": null,
+"id": "comx00016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Hindrance of time dey happen when goods no dey available when people need am. Because the farmer no get warehouse to keep the yams for later, na time problem be that."
+},
+{
+"q": "Which statement correctly describes the relationship between Commerce and Trade within the scope of Commerce?",
+"options": [
+"Trade is a wider term that includes Commerce and all forms of manufacturing",
+"Commerce and Trade mean exactly the same thing with no difference at all",
+"Trade is the buying and selling of goods, while Commerce includes trade plus the aids that make trade possible",
+"Commerce deals only with international transactions while Trade covers only local transactions"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Commerce is a broader term that covers trade (buying and selling) together with aids to trade such as transport, banking, insurance and warehousing, which remove hindrances to trade. Trade alone refers only to the actual exchange of goods, so it is a narrower concept than Commerce.",
+"py": null,
+"values": null,
+"id": "comx00017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Trade na just the buying and selling of goods. Commerce na bigger pass trade because e include trade plus other things like transport and banking wey dey help trade work well."
+}
+],
+"rejected": []
+}

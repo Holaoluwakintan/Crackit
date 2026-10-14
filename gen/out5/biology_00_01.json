@@ -1,0 +1,174 @@
+{
+"subject": "biology",
+"topic": "Variety of organisms: classification and the five kingdoms",
+"ti": 0,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is the correct sequence of taxonomic categories used in classifying an organism, starting from the most inclusive to the least inclusive rank?",
+"options": [
+"Kingdom, Phylum, Class, Order, Family, Genus, Species",
+"Species, Genus, Family, Order, Class, Phylum, Kingdom",
+"Kingdom, Class, Phylum, Order, Genus, Family, Species",
+"Phylum, Kingdom, Class, Family, Order, Genus, Species"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The standard hierarchy from broadest to narrowest is Kingdom, Phylum, Class, Order, Family, Genus and Species. This arrangement groups organisms from the largest, most general category down to the smallest, most specific one.",
+"id": "biox00010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na Kingdom, Phylum, Class, Order, Family, Genus, Species be di correct order from di biggest to di smallest. E dey arrange living things from di general one reach di particular one."
+},
+{
+"q": "Which pair of structures found in a typical fungal cell and a typical plant cell shows a key chemical difference between the two groups, even though both possess a cell wall?",
+"options": [
+"Fungal cell wall is made of cellulose while plant cell wall is made of chitin",
+"Fungal cell wall is made of chitin while plant cell wall is made of cellulose",
+"Fungal cell wall contains peptidoglycan while plant cell wall contains chitin",
+"Fungal cell wall contains lignin while plant cell wall contains chitin"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Fungal cell walls are composed mainly of chitin, a tough nitrogen-containing polysaccharide, whereas plant cell walls are made mainly of cellulose. This chemical difference is one reason fungi are placed in a separate kingdom from plants.",
+"id": "biox00012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Fungi cell wall na chitin e dey made of, but plant cell wall na cellulose. Dis na why dem put fungi for dia own kingdom separate from plants."
+},
+{
+"q": "An organism found in a termite hill near Lokoja is prokaryotic, unicellular, lacks a true nucleus, and reproduces mainly by binary fission. In the five-kingdom system, this organism would be correctly placed in which kingdom?",
+"options": [
+"Protista",
+"Monera",
+"Fungi",
+"Plantae"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Organisms that are prokaryotic, unicellular and lack a membrane-bound nucleus are classified under kingdom Monera, which includes bacteria. Protista, Fungi and Plantae all consist of eukaryotic cells with a true nucleus.",
+"id": "biox00013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Any organism wey be say e be prokaryote, unicellular, and no get true nucleus na under kingdom Monera e dey fall. Bacteria and similar things dey inside dis kingdom."
+},
+{
+"q": "A student compares a mushroom and a hibiscus plant and notices that both are eukaryotic, multicellular, and possess a cell wall, yet they belong to different kingdoms. Which feature best justifies separating them into different kingdoms?",
+"options": [
+"The mushroom has chlorophyll for photosynthesis while the hibiscus does not",
+"The mushroom is heterotrophic and absorbs digested food while the hibiscus is autotrophic",
+"The mushroom reproduces sexually while the hibiscus reproduces only asexually",
+"The mushroom has a cell membrane while the hibiscus lacks one"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Fungi such as mushrooms lack chlorophyll and feed by absorbing nutrients from organic matter after external digestion, making them heterotrophic. Plants like hibiscus make their own food by photosynthesis, so they are autotrophic, which is the main basis for placing them in separate kingdoms.",
+"id": "biox00014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Mushroom no get chlorophyll, na so e dey absorb food from top of dead things as heterotroph. Hibiscus na plant wey dey make im own food through photosynthesis as autotroph."
+},
+{
+"q": "A newly discovered microscopic organism is found to be eukaryotic, unicellular, lacks a cell wall, and moves about by means of a flexible pseudopodium while feeding on smaller particles. In which kingdom would this organism most likely be placed?",
+"options": [
+"Monera",
+"Protista",
+"Fungi",
+"Animalia"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Being eukaryotic and unicellular but lacking the multicellular body plan of animals places this organism in Protista, alongside organisms like Amoeba which also move using pseudopodia. Monera is prokaryotic, Fungi have cell walls of chitin, and Animalia is multicellular, so these are ruled out.",
+"id": "biox00015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Since di organism na eukaryotic and unicellular but no get cell wall while e dey move with pseudopodium, na kingdom Protista e suppose dey. E resemble things like Amoeba."
+},
+{
+"q": "Which of the following statements correctly compares kingdom Plantae and kingdom Animalia?",
+"options": [
+"Plants store food mainly as starch while animals store food mainly as glycogen",
+"Plants lack a cell wall while animals possess a rigid cell wall",
+"Plants are heterotrophic while animals are autotrophic",
+"Plants cannot reproduce sexually while animals reproduce only sexually"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A key biochemical difference is that plants typically store excess carbohydrate as starch, while animals store theirs as glycogen in the liver and muscles. The other statements wrongly reverse or misstate real features, since plants have cell walls and are autotrophic, while animals lack cell walls.",
+"id": "biox00016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Plants dey keep dia surplus food as starch, while animals dey store dia own as glycogen. Other options get am backwards because plants get cell wall and dey do photosynthesis."
+},
+{
+"q": "In classifying a strange pond organism, a researcher notes it is eukaryotic, multicellular, lacks chlorophyll, has a cell wall made of chitin, and reproduces by releasing spores from structures resembling tiny umbrellas. Which kingdom does this organism belong to?",
+"options": [
+"Protista",
+"Plantae",
+"Fungi",
+"Monera"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The combination of a chitin cell wall, lack of chlorophyll, and spore-producing umbrella-like structures describes typical fungi such as mushrooms. Protista are mostly unicellular, Plantae have cellulose walls and chlorophyll, and Monera are prokaryotic, so none of these fit the description.",
+"id": "biox00017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If cell wall na chitin, no chlorophyll, and e dey release spores like umbrella, na fungi be dat. Protista, Plantae and Monera no fit match dis description at all."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A biology class in Enugu is taught that classification helps biologists in several ways. Which of the following is NOT a valid reason for classifying living organisms?",
+"options": [
+"It makes the study of the large variety of organisms easier",
+"It helps to show evolutionary relationships among organisms",
+"It allows prediction of characteristics of newly discovered organisms placed in a known group",
+"It permanently fixes the number of species that can ever exist on Earth",
+"It provides a universal system of naming organisms for scientists worldwide"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Classification organises existing knowledge about organisms but does not limit or fix how many species can exist, since new species are still being discovered. The other options are genuine, well-known purposes of classification."
+},
+"why": "bad-shape"
+}
+]
+}

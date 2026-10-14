@@ -1,0 +1,200 @@
+{
+"subject": "accounting",
+"topic": "Source documents and books of original entry",
+"ti": 2,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Mrs Okafor withdrew ₦15,000 cash from her business bank account for personal use. Which source document would be used to record this withdrawal in the bank column of the cash book?",
+"options": [
+"Debit note",
+"Cheque counterfoil",
+"Credit note",
+"Petty cash voucher"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A cheque counterfoil is the stub retained after a cheque is written and shows details of payments made from the bank account. It serves as evidence for cash withdrawals by cheque.",
+"py": null,
+"values": null,
+"id": "accx02000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na cheque counterfoil remain for book after person write cheque, e dey show all detail about money wey comot from bank. E dey serve as evidence when person withdraw cash by cheque."
+},
+{
+"q": "A trader receives receipts, invoices and debit notes relating to office expenses paid in cash of small amounts, such as ₦500 for stamps and ₦800 for stationery. In which book of original entry are such small cash expenses first recorded?",
+"options": [
+"Purchases day book",
+"Sales day book",
+"Petty cash book",
+"Bank reconciliation statement"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The petty cash book is used to record small, frequent cash payments such as stationery and postage. It is maintained separately from the main cash book for convenience.",
+"py": null,
+"values": null,
+"id": "accx02001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na petty cash book we dey use record small small cash payment like stamps and stationery. We dey keep am separate from main cash book make work easy."
+},
+{
+"q": "Garba's Stores bought goods on credit worth ₦60,000 from Yusuf Enterprises. Before payment, Garba discovered that goods worth ₦8,000 were damaged and returned them. Yusuf Enterprises then issued a document reducing the amount Garba owed. Which document did Yusuf Enterprises issue, and in which book would Garba record it?",
+"options": [
+"Debit note; purchases day book",
+"Credit note; purchases returns day book",
+"Invoice; sales day book",
+"Credit note; sales returns day book"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When a supplier accepts returned goods, it issues a credit note to reduce the buyer's debt. The buyer records this credit note in the purchases returns (returns outwards) day book.",
+"py": null,
+"values": null,
+"id": "accx02002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If supplier accept goods wey buyer return, dem go issue credit note to reduce the debt. Na inside purchases returns day book the buyer go record this credit note."
+},
+{
+"q": "Which of the following best explains why the journal proper is sometimes called the 'book of original entry for miscellaneous transactions'?",
+"options": [
+"It is used only for recording cash sales and cash purchases",
+"It records transactions that do not fit into any of the specialised subsidiary books",
+"It is used to prepare the trial balance directly without ledger posting",
+"It records only transactions involving the bank column of the cash book"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The journal proper handles entries such as opening entries, correction of errors, and non-recurring transactions that cannot be entered in the day books, cash book, or petty cash book. This is why it is used for miscellaneous or unusual transactions.",
+"py": null,
+"values": null,
+"id": "accx02003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Journal proper dey handle things like opening entries, correction of errors, and other matter wey no fit enter normal day books or cash book. Na why dem dey call am book for miscellaneous transactions."
+},
+{
+"q": "A school bookshop in Enugu received an invoice from a publisher for 200 textbooks at ₦750 each, bought on credit. Three days later, 20 of the books were found to be torn and were returned to the publisher. If the publisher accepted the returns, what is the net amount still owed by the bookshop after the return, assuming no other transaction occurred?",
+"options": [
+"₦150,000",
+"₦135,000",
+"₦165,000",
+"₦15,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The total credit purchase was 200 times ₦750 equals ₦150,000, recorded from the invoice in the purchases day book. The 20 returned books worth 20 times ₦750 equals ₦15,000 are recorded in the purchases returns day book, leaving ₦150,000 minus ₦15,000 equals ₦135,000 still owed.",
+"py": "200*750 - 20*750",
+"values": [
+150000,
+135000,
+165000,
+15000
+],
+"id": "accx02004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Total credit purchase na 200 times ₦750 wey be ₦150,000. When you subtract the 20 returned books wey be ₦15,000, the remaining money wey the shop still owe na ₦135,000."
+},
+{
+"q": "Which of the following documents is the correct source document for recording a cash sale made over the counter of a provision store in Onitsha?",
+"options": [
+"Credit note",
+"Till receipt (cash register receipt)",
+"Debit note",
+"Local purchase order"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A till receipt or cash register receipt is issued at the point of a cash sale and serves as evidence of the transaction. It is used to record the sale directly in the cash book since no credit is involved.",
+"py": null,
+"values": null,
+"id": "accx02005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na till receipt or cash register receipt dem dey give person when cash sale happen for counter. E dey serve as proof make person fit record the sale straight inside cash book."
+},
+{
+"q": "Adamu Traders received an invoice from a supplier showing goods bought on credit at ₦120,000, but on checking the delivery note, Adamu found that goods actually delivered were worth only ₦112,000 due to a supplier's overcharge on the invoice. Which document should the supplier send to correct this overcharge, and what effect does it have on Adamu's account?",
+"options": [
+"Debit note; increases amount owed by Adamu",
+"Credit note; reduces amount owed by Adamu",
+"Debit note; reduces amount owed by Adamu",
+"Invoice; increases amount owed by Adamu"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since the supplier overcharged Adamu, the supplier must issue a credit note to correct the error and reduce the amount Adamu owes. A debit note would be wrong here because it is used when a buyer wants to increase a claim against the seller, not when the seller corrects its own overcharge.",
+"py": null,
+"values": null,
+"id": "accx02006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If supplier overcharge person, the supplier suppose send credit note to correct the mistake and reduce the money wey the buyer owe. Credit note go bring down the debt."
+},
+{
+"q": "Which pair of source document and corresponding book of original entry is correctly matched?",
+"options": [
+"Invoice received for credit purchases - Sales day book",
+"Credit note issued to a customer - Sales returns day book",
+"Cheque counterfoil - Purchases day book",
+"Debit note sent to supplier - Purchases day book"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A credit note issued to a customer for goods they returned is recorded in the sales returns day book. The other pairings wrongly mix purchases documents with sales books or cash documents with day books.",
+"py": null,
+"values": null,
+"id": "accx02007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na credit note wey person issue to customer for returned goods dey enter sales returns day book. The other pairings no correct because dem mix up purchases and sales documents."
+}
+],
+"rejected": []
+}

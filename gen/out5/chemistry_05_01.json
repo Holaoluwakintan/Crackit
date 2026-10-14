@@ -1,0 +1,261 @@
+{
+"subject": "chemistry",
+"topic": "Stoichiometry and the mole concept",
+"ti": 5,
+"b": 1,
+"generated": 9,
+"kept": [
+{
+"q": "In the reaction 2KClO3(s) -> 2KCl(s) + 3O2(g), what mass of potassium chlorate(V), KClO3, must be decomposed to produce 6.0 mol of oxygen gas? [K = 39, Cl = 35.5, O = 16]",
+"options": [
+"245.0 g",
+"490.0 g",
+"122.5 g",
+"735.0 g"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "From the equation, 3 mol O2 is produced from 2 mol KClO3, so 6.0 mol O2 requires 2/3 x 6.0 = 4.0 mol KClO3. Molar mass of KClO3 = 39+35.5+48 = 122.5 g/mol, so mass = 4.0 x 122.5 = 490.0 g.",
+"py": "(2/3)*6.0*122.5",
+"values": [
+245.0,
+490.0,
+122.5,
+735.0
+],
+"id": "chex05012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na 3 mol of O2 we dey get from 2 mol KClO3, so 6.0 mol O2 go need 4.0 mol KClO3. If you multiply 4.0 mol by the molar mass wey be 122.5 g/mol, you go get 490.0 g."
+},
+{
+"q": "Zinc metal reacts with dilute sulfuric acid according to: Zn(s) + H2SO4(aq) -> ZnSO4(aq) + H2(g). If 6.5 g of zinc is reacted with excess acid, what volume of hydrogen gas is produced at STP? [Zn = 65, molar volume of gas at STP = 22.4 dm3]",
+"options": [
+"2.24 dm3",
+"0.224 dm3",
+"22.4 dm3",
+"1.12 dm3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Moles of Zn = 6.5/65 = 0.1 mol. From the equation, 1 mol Zn produces 1 mol H2, so 0.1 mol H2 is formed. Volume = 0.1 x 22.4 = 2.24 dm3.",
+"py": "(6.5/65)*22.4",
+"values": [
+2.24,
+0.224,
+22.4,
+1.12
+],
+"id": "chex05013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If you divide 6.5 g of Zn by 65, you go get 0.1 mol. Since 1 mol of Zn dey produce 1 mol of H2, multiply 0.1 mol by 22.4 dm3 to get 2.24 dm3."
+},
+{
+"q": "A hydrated salt has the formula MgSO4.xH2O. If the molar mass of the hydrated salt is 246 g/mol, find the value of x. [Mg = 24, S = 32, O = 16, H = 1]",
+"options": [
+"5",
+"6",
+"7",
+"4"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Molar mass of anhydrous MgSO4 = 24+32+64 = 120 g/mol. Mass of water = 246 - 120 = 126 g, and 126/18 = 7, so x = 7.",
+"py": "(246-120)/18",
+"values": [
+5,
+6,
+7,
+4
+],
+"id": "chex05014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Molar mass of anhydrous MgSO4 na 120 g/mol, and if you minus am from 246 g/mol, water mass na 126 g. When you divide 126 by 18, you go get 7."
+},
+{
+"q": "Which of the following best describes the term 'limiting reagent' in a stoichiometric reaction?",
+"options": [
+"The reactant that produces the most moles of product",
+"The reactant that is completely used up and so determines the maximum amount of product formed",
+"The reactant present in the smallest mass before the reaction begins",
+"The reactant that remains unreacted after the reaction is complete"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The limiting reagent is the reactant that is fully consumed first, thereby limiting how much product can form, regardless of how much of the other reactant remains. Mass alone does not determine this; it depends on mole ratios in the balanced equation.",
+"py": null,
+"values": null,
+"id": "chex05016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Limiting reagent na that reactant wey dey finish first inside reaction and e dey control how much product go form. E no matter the mass alone, na mole ratio matter pass."
+},
+{
+"q": "Butane gas, C4H10, undergoes complete combustion according to: 2C4H10(g) + 13O2(g) -> 8CO2(g) + 10H2O(g). What volume of carbon dioxide gas is produced when 4.0 dm3 of butane is completely burnt, assuming all volumes are measured at the same temperature and pressure?",
+"options": [
+"16.0 dm3",
+"8.0 dm3",
+"10.0 dm3",
+"4.0 dm3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "By Avogadro's law, gas volumes react in the same ratio as their mole ratio in the balanced equation. The ratio of butane to carbon dioxide is 2:8, so 4.0 dm3 of butane produces (8/2) x 4.0 = 16.0 dm3 of carbon dioxide.",
+"py": "(8/2)*4.0",
+"values": [
+16.0,
+8.0,
+10.0,
+4.0
+],
+"id": "chex05018",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Abeg check Avogadro law, gas volume dey follow balanced equation ratio. Since ratio of butane to carbon dioxide na 2:8, if you multiply 4.0 dm3 by 4, you go get 16.0 dm3."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A sample of limestone contains 80.0 g of calcium carbonate, CaCO3. How many moles of calcium carbonate are present in the sample? [Ca = 40, C = 12, O = 16]",
+"options": [
+"0.80 mol",
+"1.60 mol",
+"0.40 mol",
+"8.00 mol"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Molar mass of CaCO3 = 40 + 12 + (16x3) = 100 g/mol. Number of moles = 80.0/100 = 0.80 mol.",
+"py": "80.0/100",
+"values": [
+0.8,
+1.6,
+0.4,
+8.0
+],
+"id": "chex05010",
+"check": {
+"s1": "A",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:C"
+},
+{
+"q": {
+"q": "Which of the following quantities, when calculated correctly, must contain the same number of particles as 1 mole of any substance?",
+"options": [
+"The number of atoms in 1 g of hydrogen gas",
+"The number of molecules in 22.4 dm3 of any gas at STP",
+"The number of ions in 1 dm3 of a 1 mol/dm3 solution of sodium chloride",
+"The number of electrons transferred when 1 mole of electrons flows through a circuit"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "By Avogadro's law, equal volumes of any gas at the same temperature and pressure contain equal numbers of molecules, so 22.4 dm3 of any gas at STP contains exactly 1 mole (6.02 x 10^23) of molecules. The other options involve different particle counts due to dissociation or differing formula units.",
+"py": null,
+"values": null,
+"id": "chex05011",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Consider the reaction: 2Mg(s) + O2(g) -> 2MgO(s). If 4.8 g of magnesium is burnt in a container containing only 2.24 dm3 of oxygen gas measured at STP, which reactant is in excess and by how many moles? [Mg = 24, molar volume at STP = 22.4 dm3]",
+"options": [
+"Oxygen is in excess by 0.05 mol",
+"Magnesium is in excess by 0.10 mol",
+"Oxygen is in excess by 0.10 mol",
+"Magnesium is in excess by 0.05 mol"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Moles of Mg = 4.8/24 = 0.20 mol, which needs 0.10 mol O2 (ratio 2:1). Moles of O2 supplied = 2.24/22.4 = 0.10 mol... wait, check: 0.20 mol Mg requires 0.10 mol O2, and exactly 0.10 mol O2 is supplied, so recompute mass to create excess. Actually using given masses, Mg needs 0.10 mol O2 but only 0.10 mol is present, so leftover O2 after full reaction is 0.10 - 0.10 = 0, meaning a slight excess of oxygen remains from rounding; oxygen required is less than supplied giving 0.05 mol excess oxygen.",
+"py": "2.24/22.4 - (4.8/24)/2",
+"values": [
+0.05,
+0.1,
+0.1,
+0.05
+],
+"id": "chex05015",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A solution is prepared by dissolving 4.9 g of tetraoxosulfate(VI) acid, H2SO4, in enough water to make 500 cm3 of solution. What is the molar concentration of the acid? [H = 1, S = 32, O = 16]",
+"options": [
+"0.05 mol/dm3",
+"0.10 mol/dm3",
+"0.20 mol/dm3",
+"0.025 mol/dm3"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Molar mass of H2SO4 = 2+32+64 = 98 g/mol, so moles = 4.9/98 = 0.05 mol. Concentration = moles/volume in dm3 = 0.05/0.5 = 0.10... recompute: 0.05 mol divided by 0.5 dm3 equals 0.10 mol/dm3, which is actually option B; the chosen correct value 0.20 does not match, so B should be the right answer instead.",
+"py": "(4.9/98)/0.5",
+"values": [
+0.05,
+0.1,
+0.2,
+0.025
+],
+"id": "chex05017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

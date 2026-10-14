@@ -1,0 +1,174 @@
+{
+"subject": "biology",
+"topic": "Reproduction in plants and animals (flowers, pollination, human reproduction)",
+"ti": 9,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A placental mammal gives birth to young that have developed inside the mother's uterus and are nourished through a placenta. Which of the following is the main advantage of this mode of reproduction over external development in eggs?",
+"options": [
+"It allows the embryo to develop in a more stable and protected environment",
+"It increases the number of offspring produced at a time",
+"It eliminates the need for fertilization to occur internally",
+"It allows the young to be independent immediately after fertilization"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Internal development inside the mother's body protects the embryo from predators, temperature changes and desiccation, and allows continuous nourishment through the placenta. This greatly improves the chances of survival of the young.",
+"id": "biox09000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "E dey protect di pikin well well inside mama body from danger and bad weather. E also dey give food direct through placenta make survival sure."
+},
+{
+"q": "Which of the following floral structures is responsible for producing pollen grains in a flowering plant?",
+"options": [
+"Stigma",
+"Anther",
+"Style",
+"Ovule"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The anther is the part of the stamen that contains pollen sacs where pollen grains, containing the male gametes, are produced. The stigma receives pollen, while the style and ovule are parts of the female organ.",
+"id": "biox09001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na anther be di part of stamen wey dey make pollen grains. Na inside am male gametes dey."
+},
+{
+"q": "A certain insect-pollinated flower produces large, sticky, spiny pollen grains in small quantities. Which of the following is the most likely reason for this characteristic?",
+"options": [
+"To make the pollen light enough to be carried by wind over long distances",
+"To allow the pollen to easily stick to the body of visiting insects for transfer",
+"To prevent the pollen from germinating on the stigma of the same flower",
+"To increase the rate of self-pollination within the same flower"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Insect-pollinated flowers usually produce sticky or spiny pollen so that it attaches firmly to the body of visiting insects and is carried to another flower. Wind-pollinated flowers, in contrast, produce light, smooth pollen in large amounts.",
+"id": "biox09002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Sticky and spiny pollen dey help am hold body of insect tight. Dis one dey make transport go another flower easy."
+},
+{
+"q": "In a Nigerian secondary school practical class, a student dissected a mature testis and observed coiled tubules where sperm cells are produced. What is the correct name of these tubules, and what other important cells are found between them?",
+"options": [
+"Vas deferens; Sertoli cells",
+"Seminiferous tubules; Interstitial (Leydig) cells",
+"Epididymis; Graafian follicle cells",
+"Seminal vesicles; Corpus luteum cells"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Sperm cells are produced in the seminiferous tubules of the testis, while the spaces between these tubules contain interstitial cells, also called Leydig cells, which secrete testosterone. The other options name structures involved in sperm transport or female reproduction, not sperm production.",
+"id": "biox09003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na seminiferous tubules dey make sperm inside testis. Interstitial or Leydig cells dey between dem to produce testosterone."
+},
+{
+"q": "During the human menstrual cycle, a rise in the level of luteinizing hormone (LH) causes a surge that triggers a specific event around the middle of the cycle. What is this event?",
+"options": [
+"Shedding of the uterine lining (menstruation)",
+"Thickening of the endometrium in preparation for implantation",
+"Rupture of the Graafian follicle and release of the secondary oocyte",
+"Formation of the corpus luteum from the ruptured follicle"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The LH surge in the middle of the menstrual cycle causes the mature Graafian follicle to rupture, releasing the secondary oocyte in a process called ovulation. The corpus luteum forms only after this rupture has occurred.",
+"id": "biox09004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di LH surge for middle of cycle dey make Graafian follicle burst. Na dat time egg dey comot for ovulation."
+},
+{
+"q": "A farmer in Oyo State grows a crop whose flowers mature their anthers and release pollen several days before the stigma of the same flower becomes receptive. What is the biological significance of this arrangement?",
+"options": [
+"It increases the chance of self-pollination within the same flower",
+"It ensures that pollination occurs only at night",
+"It promotes cross-pollination by preventing self-pollination in the same flower",
+"It prevents the flower from producing viable seeds at all"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "When anthers release pollen before the stigma of the same flower is ready to receive pollen, a condition called protandry, self-pollination within that flower is prevented. This favours cross-pollination, which increases genetic variation in the offspring.",
+"id": "biox09005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dis one na protandry and e dey stop self-pollination. E dey encourage cross-pollination to bring better variation."
+},
+{
+"q": "A man and woman undergo a fertility test, and it is discovered that the woman's uterine tubes are completely blocked on both sides, although she ovulates normally and has a healthy uterus. Which of the following outcomes is most likely as a direct result of this condition?",
+"options": [
+"She will be unable to menstruate at all",
+"Fertilization will not occur because the sperm cannot meet the egg",
+"The egg will be unable to leave the ovary during ovulation",
+"Implantation will fail even if fertilization occurs normally"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Fertilization normally takes place in the uterine (Fallopian) tube, so if both tubes are blocked, sperm cannot reach the released egg and fertilization cannot occur. The ovary can still release an egg during ovulation and menstruation can still occur, since these processes do not require the tubes to be open.",
+"id": "biox09007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If uterine tubes block, sperm no go fit meet egg for fertilization. But ovulation and menstruation still dey happen normally."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A seed from a tropical legume plant was found to have two large, fleshy cotyledons and no separate endosperm tissue at maturity. Which of the following best explains this observation?",
+"options": [
+"The plant is a monocotyledon that stores food in the endosperm",
+"The food reserves of the endosperm have been absorbed by the cotyledons during seed development",
+"The seed is incapable of germination because it lacks stored food",
+"The seed developed without fertilization taking place",
+"The plant does not undergo double fertilization"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In many dicotyledonous seeds, such as legumes, the endosperm formed after fertilization is absorbed by the growing cotyledons before the seed matures, so the cotyledons themselves become the main food store. This is why such mature seeds appear to have no endosperm."
+},
+"why": "bad-shape"
+}
+]
+}

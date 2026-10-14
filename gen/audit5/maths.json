@@ -1,0 +1,2135 @@
+{
+"mat02108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "1/49 = 7⁻², so m = −2."
+}
+},
+"mat02109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The numerator is 3xy⁻² and the denominator is ½xy⁻¹; their quotient is 6y⁻¹."
+}
+},
+"mat02110": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "3 × 2ˣ⁺¹ = 24, so x = 2."
+}
+},
+"mat03100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "3 + 5 = 8."
+}
+},
+"mat03101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "x = 5³ = 125."
+}
+},
+"mat03102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "log₁₀(50 × 2) = log₁₀(100) = 2."
+}
+},
+"mat03103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "x/3 = 2³, so x = 24."
+}
+},
+"mat03104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "3(½) + 2(3/2) = 4.5."
+}
+},
+"mat03105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "log₃(x) = 2, so x = 9."
+}
+},
+"mat03106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "72 = 2³ × 3²; 3(0.3010) + 2(0.4771) = 1.8572."
+}
+},
+"mat03107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "x³ = 64, so x = 4."
+}
+},
+"mat03109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "x = 9³ᐟ² = 27."
+}
+},
+"mat03110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "(3 + 2)/2 = 2.5."
+}
+},
+"mat04100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "(5 − 3 + 2)√3 = 4√3."
+}
+},
+"mat04101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "(3√2)² − (2√3)² = 18 − 12 = 6."
+}
+},
+"mat04102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Multiplying by the conjugate gives 4(√7 + √3)/(7 − 3) = √7 + √3."
+}
+},
+"mat04103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "p² − 4p = (2 + √3)(√3 − 2) = −1."
+}
+},
+"mat04104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "√50 + √18 = 5√2 + 3√2 = 8√2."
+}
+},
+"mat04105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "√(x + 5) = 3, so x = 4."
+}
+},
+"mat04107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "√x = 3√2 + 2√2 = 5√2, so x = 50."
+}
+},
+"mat04108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "√(48/3) = √16 = 4."
+}
+},
+"mat04109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The two squares sum to 2(5) + 2(2) = 14."
+}
+},
+"mat05102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The complement has 50 − (30 + 25 − 10) = 5 elements."
+}
+},
+"mat05103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "X ∩ (Y ∪ Z) = {3, 4, 5}."
+}
+},
+"mat05104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The number eating both is 34 + 28 − (60 − 12) = 14."
+}
+},
+"mat05105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "n(P ∪ Q) = 90, so n(P ∩ Q) = 55 + 45 − 90 = 10."
+}
+},
+"mat05106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The expression contains elements in exactly one of A and B: their symmetric difference."
+}
+},
+"mat05107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The overlap is 30 + 24 − 44 = 10; Football only is 30 − 10 = 20."
+}
+},
+"mat06100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Selling price = 88% of ₦15,000 = ₦13,200."
+}
+},
+"mat06101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Simple interest = ₦45,000 × 0.065 × 4 = ₦11,700."
+}
+},
+"mat06103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Amount = ₦80,000(1.05)² = ₦88,200."
+}
+},
+"mat06104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Profit = 20% of ₦50,000 = ₦10,000."
+}
+},
+"mat06105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "₦30,000 interest at 5% of ₦120,000 per year takes 5 years."
+}
+},
+"mat06106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Selling price is 1.4 × 0.9 = 1.26 times cost, giving 26% profit."
+}
+},
+"mat06107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Compound interest = ₦200,000[(1.10)² − 1] = ₦42,000."
+}
+},
+"mat06108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Total cost is ₦20,000 + ₦30,000 = ₦50,000, against ₦48,000 in sales: a ₦2,000 loss."
+}
+},
+"mat06109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Principal = ₦6,000/(0.04 × 3) = ₦50,000."
+}
+},
+"mat06110": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Cost is ₦34,000/0.85 = ₦40,000; 15% profit gives ₦46,000."
+}
+},
+"mat07100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "m/n² = 18/9 = 2, so m = 2(5²) = 50."
+}
+},
+"mat07101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "pq = 4 × 7 = 28, so q = 28/2 = 14."
+}
+},
+"mat00100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "142₅ = 25 + 20 + 2 = 47."
+}
+},
+"mat00101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "34₆ + 15₆ = 53₆."
+}
+},
+"mat00103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "64₈ − 27₈ = 35₈."
+}
+},
+"mat00104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "2201₃ = 54 + 18 + 1 = 73."
+}
+},
+"mat00107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "4x + 4 = 34₈ = 28, so x = 6."
+}
+},
+"mat00108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "0.011₂ = 1/4 + 1/8 = 0.375."
+}
+},
+"mat00109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "12₄ = 6; 6² = 36 = 210₄."
+}
+},
+"mat00110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The digit 5 has value 5 × 7² = 245."
+}
+},
+"mat01101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "0.0004587 rounds to 0.000459 to three significant figures."
+}
+},
+"mat01102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The selling price is 85% of ₦24,000, or ₦20,400."
+}
+},
+"mat01103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The value is 0.002 = 2.0 × 10⁻³."
+}
+},
+"mat01108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Pawpaws are 2/5 of the total; 20 ÷ (2/5) = 50."
+}
+},
+"mat01109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "749,502 rounds to 750,000 to the nearest thousand."
+}
+},
+"mat02100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "81 = 3⁴, so 2x = 4 and x = 2."
+}
+},
+"mat02101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Combining powers of 2 gives 2⁻¹ = 1/2."
+}
+},
+"mat02102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "1/125 = 5⁻³, so y − 2 = −3 and y = −1."
+}
+},
+"mat02103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "(64/125)⁻²⁄³ = (5/4)² = 25/16."
+}
+},
+"mat02104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The left side is 3³⁻ˣ; hence 3 − x = 4 and x = −1."
+}
+},
+"mat02105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "√(81a⁸b⁴) = 9a⁴b²."
+}
+},
+"mat02106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "5 × 4ᵏ = 320, so 4ᵏ = 64 and k = 3."
+}
+},
+"mat07102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The rate of change is (17−11)/(5−2)=2, so the constant part is 11−2(2)=7."
+}
+},
+"mat07103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "u=kv√w gives k=3 and u=3(5)(3)=45."
+}
+},
+"mat07105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Doubling q reduces p to one-eighth of its original value, a decrease of 87.5%."
+}
+},
+"mat07108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Since a∝1/b and b∝c, a∝1/c."
+}
+},
+"mat07109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The rate changes by a factor of 1.20/1.10=12/11, an increase of about 9.1%."
+}
+},
+"mat07110": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Direct variation means y=kx, so y/x is constant where x is nonzero."
+}
+},
+"mat08100": {
+"a": {
+"ans": "C",
+"v": "trivial",
+"r": "Solving this single elementary equation is far below UTME difficulty."
+},
+"b": {
+"ans": "C",
+"v": "trivial",
+"r": "3x − 5 = 16 gives x = 7. The key is correct, but a one-step linear equation is JSS-level and far below UTME standard."
+}
+},
+"mat08101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Adding the equations gives 3x=12; hence x=4 and y=3."
+}
+},
+"mat08102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Expanding gives −2p−10=10, so p=−10."
+}
+},
+"mat08103": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "−2x≥6; dividing by −2 reverses the sign, giving x≤−3."
+}
+},
+"mat08106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The coefficient determinant is k−6, which vanishes at k=6."
+}
+},
+"mat08109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "If the son is x, then 3x+12=2(x+12), giving x=12."
+}
+},
+"mat08110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Subtracting the second equation from the first gives x−y=1."
+}
+},
+"mat09100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The sum of the roots is −b/a=12/3=4."
+}
+},
+"mat09101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The product of the roots is c/a=−9/2."
+}
+},
+"mat09102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "1/α+1/β=(α+β)/(αβ)=7/10."
+}
+},
+"mat09103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The equation is (x−3)(x+5)=x²+2x−15=0."
+}
+},
+"mat09105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The original roots are 1 and 2; their squares, 1 and 4, give x²−5x+4=0."
+}
+},
+"mat09106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "(α−β)²=(α+β)²−4αβ=2²−4(3/4)=1."
+}
+},
+"mat09107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Real, distinct roots require 16−4p>0, hence p<4."
+}
+},
+"mat09108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Equal roots require k²−64=0; the positive value is 8."
+}
+},
+"mat09110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The equation becomes x²+x−20=0, so the sum of the roots is −1."
+}
+},
+"mat10102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Squaring and rearranging gives y=gT²/4−p."
+}
+},
+"mat10104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The sum of the roots is −(−6)/2=3."
+}
+},
+"mat10108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "By the remainder theorem, P(−2)=−5."
+}
+},
+"mat10110": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Rearranging gives r³=3V/(4π)."
+}
+},
+"mat11103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The inequality gives −1≤x<3, yielding −1, 0, 1 and 2."
+}
+},
+"mat11104": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "(x−4)(x−5)≤0 gives 4≤x≤5."
+}
+},
+"mat11105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "(x+5)(x−3)>0 gives x<−5 or x>3."
+}
+},
+"mat11106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The quotient is non-positive for −2≤x<3."
+}
+},
+"mat11107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "x>15/4, so the smallest integer solution is 4."
+}
+},
+"mat11109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "−5<2x−3<5 simplifies to −1<x<4."
+}
+},
+"mat12100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The four-term increase is 27−11=16, so d=4."
+}
+},
+"mat12101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The sixth term is 3×2⁵=96."
+}
+},
+"mat12102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "26=2(4+3d), giving d=3."
+}
+},
+"mat12103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The sum to infinity is 8/(1−1/2)=16."
+}
+},
+"mat12105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The fourth term is 5(−2)³=−40."
+}
+},
+"mat12108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The common difference is 6; the inserted means are 10 and 16."
+}
+},
+"mat12109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The sum is (10/2)[2(5)+9(4)]=230."
+}
+},
+"mat12110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Dividing the fifth term by the second gives r³=8, hence r=2."
+}
+},
+"mat13100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "For real a and b, a+b−ab is real, so the operation is closed."
+}
+},
+"mat13101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "x×0=0×x=x, so 0 is the identity."
+}
+},
+"mat13102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "No fixed e makes m²+e²−me=m for every real m."
+}
+},
+"mat13103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "2+x−5=5 gives x=8."
+}
+},
+"mat13104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "a+0+a(0)=a, so the identity is 0."
+}
+},
+"mat13105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "For integers a and b, 2a+3b−4 is always an integer."
+}
+},
+"mat13107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "x·3/3=x for every real x, so the identity is 3."
+}
+},
+"mat13108": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "2+x+2x=0 gives x=−2/3."
+}
+},
+"mat13109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "For example, 2−5=−3, which is not a positive integer."
+}
+},
+"mat13110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "No fixed e makes x²+e²=x for every real x."
+}
+},
+"mat14100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "det(P)=3(4)−(−1)(2)=14."
+}
+},
+"mat14104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The diagonal entries of A+B are 3 and 4; their sum is 7."
+}
+},
+"mat14105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "12−2k=8 gives k=2."
+}
+},
+"mat14106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Multiplying X by itself gives [7, 10; 15, 22]."
+}
+},
+"mat14107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The determinant is the product of the diagonal entries: 4(−2)(5)=−40."
+}
+},
+"mat14108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "A non-invertible T has determinant zero: 6p−6=0, so p=1."
+}
+},
+"mat14109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Matrix multiplication gives AB=[4, 1; 7, 2]."
+}
+},
+"mat14110": {
+"a": {
+"ans": "B",
+"v": "off_syllabus",
+"r": "The sum is 3+5=8, but eigenvalues are outside the JAMB UTME Mathematics syllabus."
+},
+"b": {
+"ans": "B",
+"v": "off_syllabus",
+"r": "The trace is 3 + 5 = 8, so the key is correct. However, eigenvalues are not in the JAMB UTME syllabus, which covers matrices only up to determinants and inverses."
+}
+},
+"mat15100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The nine ratio parts total 180°, so C=(4/9)180°=80°."
+}
+},
+"mat15101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The exterior angle is 180°/6=30°, giving 360°/30°=12 sides."
+}
+},
+"mat17106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "½(12 + 18) × 8 = 120 cm²."
+}
+},
+"mat17107": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The side is 12 cm; area = (3√3/2)(12²) = 216√3 cm²."
+}
+},
+"mat17108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Curved surface area = πdh = (22/7)(0.70)(1.2) = 2.64 m²."
+}
+},
+"mat17109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Heron’s formula gives √(21 × 8 × 7 × 6) = 84 cm²."
+}
+},
+"mat17110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The circumference is 2.64 m, so 1584 ÷ 2.64 = 600 revolutions."
+}
+},
+"mat18100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Distance = √(3² + 4²) = 5."
+}
+},
+"mat18101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The midpoint is ((−1 + 5)/2, (4 − 2)/2) = (2, 1)."
+}
+},
+"mat18102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Gradient = (5 − (−3))/(6 − 2) = 2."
+}
+},
+"mat18103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "y − 4 = 3(x − 1), hence y = 3x + 1."
+}
+},
+"mat18104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "4/(3 − k) = 2 gives k = 1."
+}
+},
+"mat18106": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Setting x = 0 gives −4y = 12, so the y-intercept is −3."
+}
+},
+"mat18108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The perpendicular gradient is 1/2; through (4, 1), the line is y = x/2 − 1."
+}
+},
+"mat18109": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The gradient is 3, so (k − 8)/2 = 3 and k = 14."
+}
+},
+"mat18110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "tan θ = √3, giving θ = 60°."
+}
+},
+"mat19100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "PR = 5 cm, so sin R = PQ/PR = 3/5."
+}
+},
+"mat19101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The acute angle is 60°, for which tan x = √3."
+}
+},
+"mat19102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Using tan 45° = height/10 gives a height of 10 m."
+}
+},
+"mat19103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The expression equals 1/sec² θ = cos² θ."
+}
+},
+"mat19104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "By the cosine rule, c² = 7² + 8² − 2(7)(8)cos 60° = 57."
+}
+},
+"mat19105": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Displacement = √(5² + 12²) = 13 km."
+}
+},
+"mat24104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "6/(10+x)=0.3 gives x=10."
+}
+},
+"mat24105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Tuesday and Thursday are 2 of the 7 days."
+}
+},
+"mat24106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "(3/5)(2/4)=3/10."
+}
+},
+"mat24107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "P(E′)=1−0.65=0.35."
+}
+},
+"mat24108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The primes are 2, 3, 5 and 7, giving 4/10=2/5."
+}
+},
+"mat24110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Four of the eight sectors are blue or yellow, giving 1/2."
+}
+},
+"matv0000": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "101101₂=32+8+4+1=45."
+}
+},
+"matv0001": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "23₅×3₅=13×3=39=124₅."
+}
+},
+"matv0002": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "3x²+4x+1=133 gives the valid base x=6."
+}
+},
+"matv0003": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "101011₂−1101₂=43−13=30=11110₂."
+}
+},
+"matv0100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "0.4+0.25=0.65."
+}
+},
+"matv0101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The increase is ₦9,000, which is 20% of ₦45,000."
+}
+},
+"matv0102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Total profit is ₦1,300 on ₦8,000, or 16.25%."
+}
+},
+"matv0200": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "7⁰+4^(1/2)=1+2=3."
+}
+},
+"matv0201": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The resulting exponent is 5−2−(−3)=6."
+}
+},
+"matv0202": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "125²=5⁶, so y+3=6 and y=3."
+}
+},
+"matv0203": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Equating exponents gives 2x+2=x+5, so x=3."
+}
+},
+"matv0300": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "1/8=2⁻³, so log₂(1/8)=−3."
+}
+},
+"matv0301": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "log₁₀(20)=log₁₀(100/5)=2−0.6990=1.3010."
+}
+},
+"matv0302": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "x(x−2)=8 gives x=4 or −2; the domain requires x>2."
+}
+},
+"mat22101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "5 occurs three times, more than any other number."
+}
+},
+"mat22104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The mean is 6 and the variance is 40/5 = 8."
+}
+},
+"mat22105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The removed number is 5(20) − 4(17) = 32."
+}
+},
+"mat22106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Every value equals the mean, so the standard deviation is 0."
+}
+},
+"mat22107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The boys’ mean is (40(65) − 25(70))/15 = 56.7 to one decimal place."
+}
+},
+"mat22109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The variance is 6, so the standard deviation is √6."
+}
+},
+"mat22110": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The new mean is 2(15) + 5 = 35."
+}
+},
+"mat23100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Four distinct letters have 4! = 24 arrangements."
+}
+},
+"mat23101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "n(n − 1) = 30 gives n = 6."
+}
+},
+"mat23102": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "C(7, 3) = 35."
+}
+},
+"mat23103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "C(n, 4) = C(n, 2) requires n = 4 + 2 = 6."
+}
+},
+"mat23104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "There are 5 × 4 × 3 = 60 numbers."
+}
+},
+"mat23105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "C(5, 3) × C(4, 2) = 60."
+}
+},
+"mat23106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Five distinct letters have 5! = 120 arrangements."
+}
+},
+"mat23108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The distinct posts can be filled in 10 × 9 = 90 ways."
+}
+},
+"mat23109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "C(4, 2)C(3, 1) + C(4, 3) = 22."
+}
+},
+"mat23110": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Circular seating gives (5 − 1)! = 24 arrangements."
+}
+},
+"mat24100": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Seven of the ten marbles are not red."
+}
+},
+"mat24102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Six of the 36 ordered outcomes sum to 7, giving 1/6."
+}
+},
+"mat24103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "HH, HT and TH give at least one head: 3/4."
+}
+},
+"mat19107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "South-West is halfway between South (180°) and West (270°): 225°."
+}
+},
+"mat19108": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "2 sin 30° cos 60° = 2(1/2)(1/2) = 0.5."
+}
+},
+"mat19110": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The adjacent side is 5 m and the hypotenuse is 13 m, so the angle is arccos(5/13)."
+}
+},
+"mat20100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Differentiating term by term gives 12x² − 10x + 7."
+}
+},
+"mat20101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "dy/dx = 6x − 4, which is 8 at x = 2."
+}
+},
+"mat20102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The slope at x = 1 is 5; y − 4 = 5(x − 1), hence y = 5x − 1."
+}
+},
+"mat20104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "f′(x) = 3x² − 12 > 0 when x < −2 or x > 2."
+}
+},
+"mat20105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The acceleration is s″(t) = 6t − 12, giving 0 at t = 2."
+}
+},
+"mat20106": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "f(x) = (x − 3)² + 1, so its minimum is 1."
+}
+},
+"mat20107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "dA/dt = 2πr(dr/dt) = 2π(5)(2) = 20π cm²/s."
+}
+},
+"mat20108": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "x = 2 is the local maximum: f′(2) = 0 and f″(2) = −6."
+}
+},
+"mat20109": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The chain rule gives 4(3x² − 1)³(6x) = 24x(3x² − 1)³."
+}
+},
+"mat21100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Termwise integration gives 2x³ − 2x² + 5x + C."
+}
+},
+"mat21101": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "[x³ + 2x] from 0 to 2 equals 12."
+}
+},
+"mat21103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Integrating 3x⁻² gives −3x⁻¹ + C."
+}
+},
+"mat21104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "k² + k = 12 has roots 3 and −4; k > 0 gives 3."
+}
+},
+"mat21105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The integral is 2 sin(2x) + C."
+}
+},
+"mat21107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The integral is e^(3x − 1)/3 + C."
+}
+},
+"mat21108": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "ln(e) − ln(1) = 1."
+}
+},
+"mat21109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "With u = x² + 5 and du = 2x dx, the integral is u⁴/4 + C."
+}
+},
+"matv0803": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"matv0900": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"matv0901": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"matv0902": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"matv0903": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"matv1000": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"matv1001": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"matv1002": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"matv1003": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"matv1100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"matv1101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"matv1102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"matv1103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"matv1200": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"matv1201": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"matv1202": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"matv1203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"matv1300": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"matv1301": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"matv1302": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"matv0303": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "log₉81 = 2, so x = 3² = 9."
+}
+},
+"matv0400": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "√45 = 3√5."
+}
+},
+"matv0401": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "√121 = 11, which is rational."
+}
+},
+"matv0402": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "(2√2 + 3√2)√2 = 10."
+}
+},
+"matv0403": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The expression is (7 + 3√3)/2, which rounds to 6.10."
+}
+},
+"matv0500": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "A′ = {1,3,5,7,9}; intersecting with B gives {1,3,5,7}."
+}
+},
+"matv0501": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Five offer both subjects, so 28 − 5 = 23 offer Mathematics only."
+}
+},
+"matv0502": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Exactly two sell (15 − 5) + (12 − 5) + (10 − 5) = 22."
+}
+},
+"matv0503": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Outside both circles is (A ∪ B)′ = A′ ∩ B′."
+}
+},
+"matv0600": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The simple interest is ₦24,000, giving a total of ₦84,000."
+}
+},
+"matv0601": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Total profit is ₦36,000 on ₦900,000, or 4%."
+}
+},
+"matv0602": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The principal is ₦242,000 ÷ 1.1² = ₦200,000."
+}
+},
+"matv0603": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "₦48,000 interest over four years on ₦150,000 gives 8% per annum."
+}
+},
+"matv0700": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "F = 2t², so F = 128 when t = 8."
+}
+},
+"matv0701": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "TS = 180, so T = 180 ÷ 90 = 2 hours."
+}
+},
+"matv0702": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "C = 500LB; at 8 m by 5 m, C = ₦20,000."
+}
+},
+"matv0703": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "C = 2000 + 500x, giving ₦9,500 for 15 bags."
+}
+},
+"matv0800": {
+"a": {
+"ans": "C",
+"v": "trivial",
+"r": "A two-step linear equation that is a JSS-level giveaway."
+},
+"b": {
+"ans": "C",
+"v": "trivial",
+"r": "2x + 7 = 19 gives x = 6. The key is correct, but this is a JSS-level giveaway."
+}
+},
+"matv0801": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Solving the simultaneous equations gives ₦80 per pen."
+}
+},
+"matv0802": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "x = 4 and y = 2, so 2x − y = 6."
+}
+},
+"mat15102": {
+"a": {
+"ans": "X",
+"v": "error",
+"r": "The stated ratio gives angles 36°, 72°, 108°, 144° and 180°. A convex pentagon cannot have a 180° interior angle."
+},
+"b": {
+"ans": "B",
+"v": "error",
+"r": "The angles 36°, 72°, 108°, 144° and 180° sum to 540°, but the largest angle is 180°. A polygon with a 180° angle is degenerate, not convex, so the stated premise is self-contradictory."
+}
+},
+"mat15103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"mat15104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"mat15105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"mat15107": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"mat15108": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "The answer is 110°, but the explanation incorrectly calls angle XYZ an opposite interior angle. It is adjacent to the exterior angle."
+},
+"b": {
+"ans": "C",
+"v": "error",
+"r": "110° is correct (180° − 70°). The explanation is wrong: it adds the adjacent angle XYZ instead of the opposite interior angle XZY. It reaches 110° only because XZY also happens to be 70°."
+}
+},
+"mat15109": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"mat16100": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"mat16101": {
+"a": {
+"ans": "X",
+"v": "error",
+"r": "The arc subtending 65° at Q subtends 130°, not the reflex angle 230°, at O. The reflex angle corresponds to the other arc."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": "Angle POR = 2 × 65° = 130°, so the reflex angle is 360° − 130° = 230°."
+}
+},
+"mat16103": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"mat16104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"mat16105": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"mat16106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"mat16108": {
+"a": {
+"ans": "X",
+"v": "garbled",
+"r": "P is specified as the point of tangency but also as lying on the secant PQR. The explanation instead treats P as the external point and PQ as the external secant segment."
+},
+"b": {
+"ans": "D",
+"v": "garbled",
+"r": "P is the point of tangency, so it lies on the circle and cannot be the external point of a secant PQR. The secant should be TQR, with TP² = TQ·TR. As written, the data are inconsistent."
+}
+},
+"mat16109": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"mat16110": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"mat17100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"mat17101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"mat17102": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"mat17104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"matv1803": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The gradient through the two points is (11−2)/(4−1)=3."
+}
+},
+"matv1900": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "1+2(1/2)−1=1."
+}
+},
+"matv1901": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The back bearing is 070°+180°=250°."
+}
+},
+"matv1903": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The included angle is 120°, giving PR²=196 and PR=14 km."
+}
+},
+"matv2000": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "dy/dx=10x−3, which equals 7 at x=1."
+}
+},
+"matv2002": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "dV/dt=4πr²(dr/dt)=300π cm³/s."
+}
+},
+"matv2003": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Setting 3x²−6x=9 gives x=3 and x=−1; their sum is 2."
+}
+},
+"matv2100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Term-by-term integration gives x⁵−x³+2x+C."
+}
+},
+"matv2101": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The area is ∫₀²(x²+1)dx=14/3."
+}
+},
+"matv2102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "[2x²−x] from 1 to 3 equals 14."
+}
+},
+"matv2103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The curve meets the x-axis at 0 and 4; the enclosed area is 32/3."
+}
+},
+"matv2202": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The corrected mean is (58×30−84+48)/30=56.8."
+}
+},
+"matv2300": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Four distinct books have 4!=24 arrangements."
+}
+},
+"matv2301": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "C(6,2)×C(5,2)=150."
+}
+},
+"matv2302": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The two identical A’s give 5!/2!=60 distinct arrangements."
+}
+},
+"matv2303": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Exclude delegations containing both rivals: C(8,5)−C(6,3)=36."
+}
+},
+"matv2400": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The probability is 10/25=2/5."
+}
+},
+"matv2401": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Without replacement, the probability is (7/12)(6/11)=7/22."
+}
+},
+"matv2403": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The probability is [C(4,2)C(5,1)+C(4,3)]/C(9,3)=17/42."
+}
+},
+"matv1303": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"matv1400": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"matv1401": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"matv1402": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"matv1403": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"matv1500": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"matv1501": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"matv1502": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"matv1503": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"matv1600": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"matv1601": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"matv1602": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"matv1603": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"matv1700": {
+"a": {
+"ans": "A",
+"v": "trivial",
+"r": "Finding the perimeter of a square from its side length is a JSS-level giveaway."
+},
+"b": {
+"ans": "A",
+"v": "trivial",
+"r": "The perimeter of a square of side 15 m is 4 × 15 = 60 m. The key is correct, but this is far below UTME level."
+}
+},
+"matv1701": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"matv1702": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"matv1703": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"matv1800": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"matv1801": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"matv1802": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+}
+}

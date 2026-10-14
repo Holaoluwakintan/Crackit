@@ -1,0 +1,180 @@
+{
+"subject": "literature",
+"topic": "Prose fiction: plot, setting, characterisation, point of view, narrative techniques",
+"ti": 5,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes the literary term 'foreshadowing' when it refers specifically to the atmosphere created by a story's setting, rather than a direct plot hint?",
+"options": [
+"The use of weather, time of day, or physical surroundings to suggest the mood or events that will follow",
+"The arrangement of events in the exact order they happened in real life",
+"A sudden and unexpected reversal of a character's fortune near the end of the story",
+"The use of a secondary character to comment directly on the main plot"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "When setting (weather, darkness, silence, etc.) is deliberately used to hint at coming events, it creates atmosphere that foreshadows later action. This is a subtler use of setting beyond mere background description.",
+"id": "litx05010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na when author use weather or physical surrounding to give hint about wetin go happen later for story. E dey create atmosphere wey dey show the mood before the action enter."
+},
+{
+"q": "In prose fiction, a novelist who places the action of a story in a specific historical period, such as the Nigerian Civil War era, in order to help readers understand the social and political pressures facing the characters, is primarily exploiting which element of fiction?",
+"options": [
+"Setting",
+"Tone",
+"Irony",
+"Symbolism"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Placing a story within a particular time and place, including its historical and social conditions, is the function of setting. Setting shapes how readers interpret characters' choices and struggles.",
+"id": "litx05011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To put story inside particular time and place like Nigerian Civil War na setting. E dey help reader understand how the social and political wahala affect character life."
+},
+{
+"q": "Read the extract: 'Tunde walked briskly past the gossiping women at the borehole, his school bag clutched tightly, his eyes fixed on the narrow path home, refusing to acknowledge the whispers that followed him since his father's arrest.' Which narrative technique is most evident in this extract?",
+"options": [
+"Indirect characterisation through a character's actions and body language",
+"Direct characterisation through the narrator's explicit statement of traits",
+"An interior monologue revealing the character's unspoken thoughts in full",
+"A flashback narrating events that occurred before the story began"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The passage shows Tunde's feelings through his actions, such as walking briskly and avoiding eye contact, rather than the narrator telling us directly that he is embarrassed or hurt. This is indirect characterisation.",
+"id": "litx05012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The passage show Tunde character through im action and body language instead of narrator telling us straight. Na indirect characterisation be dat."
+},
+{
+"q": "Which of the following best explains the term 'in medias res' as used in discussing the plot structure of a novel?",
+"options": [
+"Beginning the story in the middle of the action, with earlier events explained later",
+"Ending the story abruptly without resolving the central conflict",
+"Telling the story using two different narrators who alternate chapters",
+"Arranging events strictly in the order in which they occurred"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A story told 'in medias res' starts in the middle of an ongoing action rather than at the chronological beginning, with background details supplied afterwards through exposition or flashback. This technique immediately draws the reader into tension.",
+"id": "litx05013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When story start right inside the middle of action instead of beginning, na in medias res. Dem dey explain the remaining past event later through flashback."
+},
+{
+"q": "In the study of prose fiction, which of the following best describes 'subplot'?",
+"options": [
+"A secondary strand of action involving minor characters that runs alongside and supports the main story",
+"The final resolution of all conflicts in a novel",
+"A brief scene inserted purely for comic relief with no connection to the main story",
+"The opening section of a novel that introduces background information"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A subplot is a secondary line of action, often involving minor characters, that develops alongside the main plot and may enrich or comment on it. It is distinct from exposition, which simply introduces background information.",
+"id": "litx05015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Subplot na another small story wey dey follow the main story join. E dey involve minor characters and e dey support the main gist."
+},
+{
+"q": "Read this extract: 'Kemi believed she had married well; her husband's quiet nods at dinner, she was certain, meant deep admiration. The servants, however, exchanged knowing glances each time she spoke, for they alone knew of the letters hidden beneath his mattress.' This extract most clearly demonstrates which narrative technique?",
+"options": [
+"Dramatic irony created by an omniscient narrator revealing more than the protagonist knows",
+"A first-person reliable narrator describing only what she personally observes",
+"Stream of consciousness showing Kemi's uncontrolled flow of thoughts",
+"An epistolary technique using letters to advance the plot"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The narrator reveals information about the hidden letters and the servants' knowledge that Kemi herself does not have, creating dramatic irony. This gap between what the reader and other characters know versus what Kemi believes is a classic use of an omniscient narrator to build irony.",
+"id": "litx05016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The narrator show us wetin Kemi no know about the hidden letter and servant, and na dramatic irony be dat. The reader know pass the main person for story."
+},
+{
+"q": "Which of the following best distinguishes 'characterisation' from 'plot' in the analysis of a novel?",
+"options": [
+"Characterisation concerns how personalities are created and developed, while plot concerns the arrangement and sequence of events",
+"Characterisation refers only to physical descriptions, while plot refers only to dialogue",
+"Characterisation is limited to the protagonist, while plot concerns only minor characters",
+"Characterisation and plot both refer strictly to the time and place in which a story occurs"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Characterisation is the method by which an author builds and reveals personalities, while plot is the structured sequence of events in the story. These are two distinct elements of fiction that work together but are not the same thing.",
+"id": "litx05017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Characterisation na how author build person character, while plot na the way events follow each other for story. Dem no be the same thing at all."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A novelist structures a story so that two characters from different villages narrate alternating chapters, each giving only their own understanding of the same feud, so that readers must piece together the fuller truth themselves. This narrative arrangement is best described as",
+"options": [
+"multiple (alternating) first-person point of view",
+"an omniscient third-person point of view",
+"a single unreliable narrator's monologue",
+"a dramatic point of view with no narrator"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since two characters each narrate using their own 'I' perspective in separate chapters, this is multiple or alternating first-person narration. It differs from a single unreliable narrator because there is more than one narrating voice, and it is not omniscient since neither narrator knows everything.",
+"id": "litx05014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Alternating narrators need not use first person.|"
+}
+]
+}

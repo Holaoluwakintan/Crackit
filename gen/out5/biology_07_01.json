@@ -1,0 +1,180 @@
+{
+"subject": "biology",
+"topic": "Excretion: kidney, skin, lungs and excretion in plants",
+"ti": 7,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "The functional and structural unit of the mammalian kidney, which is responsible for both filtration and selective reabsorption of substances, is called the:",
+"options": [
+"nephridium",
+"nephron",
+"glomerulus",
+"ureter"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The nephron is the basic structural and functional unit of the kidney. The glomerulus is only a part of the nephron, while the nephridium is the excretory unit found in earthworms, not mammals.",
+"id": "biox07010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na nephron bi di main part wey dey do work for kidney. Glomerulus na just small part of am, and nephridium na wetin earthworm dey use do excretion."
+},
+{
+"q": "Which of the following correctly lists, in the right order, the pathway followed by urine from where it is formed to where it leaves the body?",
+"options": [
+"Kidney, ureter, urethra, bladder",
+"Kidney, bladder, ureter, urethra",
+"Kidney, ureter, bladder, urethra",
+"Kidney, urethra, bladder, ureter"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Urine is formed in the kidney, carried by the ureter to the bladder for temporary storage, and then expelled through the urethra. Mixing up the ureter and urethra is a common error candidates make.",
+"id": "biox07011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Urine dey start for kidney, go pass ureter enter bladder, before e comot for urethra. Many pipo dey confuse ureter and urethra, but dis order na correct one."
+},
+{
+"q": "During very cold harmattan weather in Jos, the tiny muscles attached to the hair follicles in the skin contract, causing the hairs to stand erect. What is the main survival advantage of this response?",
+"options": [
+"It increases sweat production to warm the body",
+"It traps a layer of air close to the skin to reduce heat loss",
+"It increases blood flow to the skin surface to radiate more heat",
+"It widens the pores to release more body heat"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When hairs stand erect due to contraction of the arrector pili muscles, they trap a layer of air which acts as insulation, reducing heat loss from the body. This is a heat-conserving response, not a heat-losing one, which rules out the sweat and blood flow options.",
+"id": "biox07012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Wen hair stand up, e dey trap air wey dey keep body warm. Dis one dey stop heat make e no comot for body, so e no get anything to do with sweat."
+},
+{
+"q": "A student represents the human urinary system as a filtering unit and notes that a certain blood vessel carries blood away from the glomerulus at a narrower diameter than the vessel that brought blood into it. This difference in diameter is important because it:",
+"options": [
+"reduces blood pressure in the glomerulus, stopping filtration",
+"creates the high pressure needed to force fluid out of the glomerular capillaries",
+"allows red blood cells to pass directly into the nephron",
+"prevents reabsorption of water in the proximal convoluted tubule"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The afferent arteriole is wider than the efferent arteriole leaving the glomerulus, and this difference builds up high hydrostatic pressure that pushes water and small solutes out of the blood into the Bowman's capsule. This pressure drives ultrafiltration; it does not stop it or allow red blood cells through, since these are too large to filter.",
+"id": "biox07013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di vessel wey dey bring blood inside glomerulus big pass di one wey dey comot. Dis difference dey create high pressure wey dey force water and small things comot for blood."
+},
+{
+"q": "In a simple experiment, a fresh green leaf is enclosed in a transparent polythene bag and left in sunlight for about an hour. Tiny droplets of liquid are later observed on the inner surface of the bag. This liquid is best described as a product of which process?",
+"options": [
+"Guttation",
+"Translocation",
+"Transpiration",
+"Photosynthesis"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Transpiration is the loss of water vapour from the leaf surfaces, which condenses as liquid droplets on the inner wall of the polythene bag. Guttation instead produces liquid water directly from special pores at the leaf margins, usually under conditions of high humidity, not from vapour loss in a bag.",
+"id": "biox07014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Transpiration na wen plant lose water as vapour, wey come turn to water for inside di bag. Guttation different because e dey comot liquid water direct from leaf edge."
+},
+{
+"q": "Which of the following best explains why urine formed in the kidney is usually more concentrated than the original glomerular filtrate?",
+"options": [
+"Large plasma proteins are added to the filtrate as it passes along the tubule",
+"Water is reabsorbed back into the blood along various parts of the nephron",
+"Glucose is actively secreted into the filtrate in the collecting duct",
+"The filtrate loses salts but gains an equal volume of water in the loop of Henle"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "As the filtrate moves through the nephron, especially the proximal tubule, loop of Henle and collecting duct, large amounts of water are reabsorbed into the surrounding blood capillaries, concentrating the remaining fluid into urine. Proteins are not added to the filtrate, and glucose is reabsorbed rather than secreted under normal conditions.",
+"id": "biox07015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "As filtrate dey waka pass nephron, body dey collect water back into blood. Dis one dey make di urine wey remain come concentrate pass how e start."
+},
+{
+"q": "A certain leguminous plant growing along a roadside in Minna sheds some of its old leaves even though the leaves are not diseased or damaged. Which of the following best explains this as a form of excretion in plants?",
+"options": [
+"The leaves are used to store and later remove waste products such as tannins and metabolic by-products",
+"The leaves are shed only to reduce competition for sunlight with neighbouring plants",
+"The plant sheds leaves to increase the rate of photosynthesis in younger leaves",
+"The plant sheds leaves purely as a response to physical damage by animals"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In many plants, waste substances such as tannins, resins and other metabolic by-products accumulate in ageing leaves, and leaf fall serves as a way of removing these wastes from the plant body. The other options describe ecological or growth-related reasons and do not directly explain excretion.",
+"id": "biox07016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Plants dey store waste like tannins inside old leaves. Wen dem comot di leaves, e be like say dem dey throway waste comot for body."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A doctor examines two patients and finds that one has unusually high levels of urea in the blood, while kidney function tests show that the glomeruli are filtering normally. Which organ malfunction is most likely responsible for this build-up of urea, assuming the kidney itself is healthy?",
+"options": [
+"Excessive sweat gland activity in the skin",
+"Reduced deamination activity in the liver",
+"Overactive reabsorption in the collecting duct",
+"Increased breakdown of urea in the small intestine"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Urea is produced in the liver through deamination of excess amino acids before being transported to the kidney for excretion; if deamination is reduced, less urea may actually be formed, but a build-up in blood with normal filtration more sensibly points to excess amino acid breakdown overwhelming normal urea handling, which still traces back to liver processing rather than kidney filtration. Since the kidney is stated to be filtering normally, the problem must lie upstream in how urea is produced and processed by the liver rather than in reabsorption or sweat activity, which do not account for a rise in blood urea.",
+"id": "biox07017",
+"check": {
+"s1": "X",
+"s2": "X",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

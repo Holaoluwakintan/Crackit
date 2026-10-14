@@ -1,0 +1,176 @@
+{
+"subject": "english",
+"topic": "Cloze: a short original passage with one numbered gap to fill with the most suitable option",
+"ti": 19,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Read the passage and choose the word that best fills the gap.\n\nThe chairman of the community meeting raised his hand to ___ order after the youths had argued for almost an hour without reaching any agreement.",
+"options": [
+"restore",
+"return",
+"recover",
+"revive"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "To restore order is the standard collocation meaning to bring back peace or calm after confusion. Return and recover do not collocate naturally with order, and revive suggests bringing something back to life, which does not fit.",
+"id": "engx19001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na 'restore' be the correct word to use with 'order' when pesin wan bring back peace after argument. Di other words no gel with order at all."
+},
+{
+"q": "Read the passage and choose the word that best fills the gap.\n\nMr. Bello warned his students that anyone caught cheating during the mock examination would be dealt with ___ the school's disciplinary code demands.",
+"options": [
+"as",
+"like",
+"so",
+"such"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "As is used here as a conjunction introducing a clause of manner, meaning 'in the way that'. Like should not introduce a full clause in formal usage, while so and such do not fit this grammatical slot.",
+"id": "engx19002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na 'as' dem suppose use here because e dey show how something happen according to rule. 'Like' no fit follow full sentence for formal grammar."
+},
+{
+"q": "Read the passage and choose the option that best fills the gap.\n\nDespite the heavy downpour that flooded most streets in Lagos that morning, Chinedu still arrived at the office early; ___, his colleague who lived nearby came in late because he had overslept.",
+"options": [
+"ironically",
+"consequently",
+"similarly",
+"undoubtedly"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Ironically fits because it is surprising that the colleague living nearby, who should have had an easier journey, arrived late while Chinedu, who faced the flood, came early. Consequently and similarly do not capture this contrast, and undoubtedly does not express irony.",
+"id": "engx19003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na 'ironically' correct because e shock everybody as di person wey stay near come late, while di person wey face flood come early."
+},
+{
+"q": "Read the passage and choose the option that best fills the gap.\n\nBy the time the WAEC results were finally released, Tunde ___ for admission into three different universities, hoping that at least one would accept him.",
+"options": [
+"had applied",
+"has applied",
+"was applying",
+"applies"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Had applied is correct because the action of applying was completed before another past time, the release of the results, showing the past perfect tense. The other options do not correctly show an action finished before a later past event.",
+"id": "engx19005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na 'had applied' correct because di application happen and finish before results come out for past. E show past perfect tense well well."
+},
+{
+"q": "Read the passage and choose the word that best fills the gap.\n\nThe young trader was so ___ in his business dealings that even customers who had been cheated elsewhere trusted him completely.",
+"options": [
+"honest",
+"generous",
+"wealthy",
+"popular"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Honest best explains why customers who had been cheated before would trust the trader completely, since trust usually follows honesty. Generous, wealthy and popular do not directly connect to earning trust in business dealings.",
+"id": "engx19007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na 'honest' fit dis place pass because na person wey dey truthful people dey trust for business. Di other options no mean say person go trust am."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Read the passage and choose the word that best fills the gap.\n\nThe governor's speech was full of promises, but many residents of the state remained ___ about whether the new roads would ever be completed.",
+"options": [
+"skeptical",
+"optimistic",
+"confident",
+"enthusiastic",
+"indifferent"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Skeptical means doubtful, which matches the residents' uncertainty about the promises being fulfilled. Optimistic, confident and enthusiastic all suggest positive belief, which contradicts the doubt implied in the sentence."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Read the passage and choose the word that best fills the gap.\n\nAdaeze had always wanted to study medicine, but her result in the last examination was ___ to secure her admission into the faculty.",
+"options": [
+"insufficient",
+"inadequate",
+"deficient",
+"incompetent"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Insufficient simply means not enough, which fits a result that failed to meet the admission requirement. Inadequate suggests poor quality rather than quantity, deficient needs a different structure, and incompetent describes people, not results.",
+"id": "engx19000",
+"check": {
+"s1": "A",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:B"
+},
+{
+"q": {
+"q": "Read the passage and choose the word that best fills the gap.\n\nThe farmer complained that the long drought had ___ his crops, leaving the once green farmland looking brown and lifeless.",
+"options": [
+"withered",
+"wilted",
+"shrivelled",
+"drained"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Withered is the most natural verb to describe crops dying from lack of water over a period. Wilted usually describes a temporary drooping, shrivelled fits fruits or skin more than whole crops, and drained does not collocate with crops in this sense.",
+"id": "engx19004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:‘Wilted’ and ‘shrivelled’ are also defensible.|"
+}
+]
+}

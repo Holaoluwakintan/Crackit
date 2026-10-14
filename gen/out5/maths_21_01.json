@@ -1,0 +1,214 @@
+{
+"subject": "maths",
+"topic": "Integration (indefinite and definite, area under a curve)",
+"ti": 21,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Evaluate: ∫_0^(π/3) sin(x) dx",
+"options": [
+"1/2",
+"1",
+"sqrt(3)/2",
+"3/2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The integral of sin(x) is -cos(x). Evaluating from 0 to π/3 gives -cos(π/3) - (-cos(0)) = -(1/2) + 1 = 1/2.",
+"py": "-math.cos(math.pi/3) + math.cos(0)",
+"values": [
+0.5,
+1,
+0.866,
+1.5
+],
+"id": "matx21012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you integrate sin(x), you go get -cos(x). When you put the limits 0 and π/3, you go get -cos(π/3) minus -cos(0), wey be -1/2 + 1, so the answer na 1/2."
+},
+{
+"q": "Find the area of the region enclosed by the curve y = x^3, the x-axis, and the lines x = 1 and x = 2.",
+"options": [
+"15/4",
+"7/4",
+"15/2",
+"4"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The area is ∫_1^2 x^3 dx = [x^4/4] from 1 to 2 = 16/4 - 1/4 = 15/4. Since y is positive throughout this interval, this value is the required area.",
+"py": "2**4/4 - 1**4/4",
+"values": [
+3.75,
+1.75,
+7.5,
+4
+],
+"id": "matx21013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To find the area, you integrate x^3 from 1 to 2. This one go give you [x^4/4] from 1 to 2, wey be 16/4 minus 1/4, so you go get 15/4."
+},
+{
+"q": "A trader's cost function for producing x bags of garri is given by C(x) = ∫(2x + 30) dx. If the fixed cost (cost when x = 0) is ₦500, find the total cost of producing 10 bags.",
+"options": [
+"₦900",
+"₦800",
+"₦600",
+"₦1000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Integrating gives C(x) = x^2 + 30x + C. Since C(0) = 500, the constant C equals 500, so C(x) = x^2 + 30x + 500. At x = 10, C(10) = 100 + 300 + 500 = 900.",
+"py": "10**2 + 30*10 + 500",
+"values": [
+900,
+800,
+600,
+1000
+],
+"id": "matx21014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you integrate 2x + 30, you go get x^2 + 30x + C. Since the fixed cost na 500, the equation be x^2 + 30x + 500, so for 10 bags, you go get 100 + 300 + 500 = 900."
+},
+{
+"q": "Find the area between the curve y = x^2 - 4 and the x-axis, bounded between x = -2 and x = 2.",
+"options": [
+"32/3",
+"16/3",
+"8/3",
+"64/3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Between x = -2 and x = 2, y = x^2 - 4 is negative (lies below the x-axis), so the area is the absolute value of the integral: |∫_-2^2 (x^2-4) dx| = |[x^3/3 - 4x] from -2 to 2| = |(8/3-8)-(-8/3+8)| = |-32/3| = 32/3.",
+"py": "abs((2**3/3 - 4*2) - ((-2)**3/3 - 4*(-2)))",
+"values": [
+10.667,
+5.333,
+2.667,
+21.333
+],
+"id": "matx21015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because the curve dey below the x-axis, you must take the absolute value of the integral. The integral of x^2 - 4 from -2 to 2 give -32/3, so the area na 32/3."
+},
+{
+"q": "Evaluate: ∫ (2x - 1)/(x^2 - x + 3) dx",
+"options": [
+"ln|x^2 - x + 3| + C",
+"2 ln|x^2 - x + 3| + C",
+"ln|2x - 1| + C",
+"(x^2 - x + 3)^2 + C"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The numerator (2x - 1) is exactly the derivative of the denominator (x^2 - x + 3). When the numerator is the derivative of the denominator, the integral of the fraction is the natural log of the denominator, giving ln|x^2 - x + 3| + C.",
+"py": null,
+"values": null,
+"id": "matx21016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The derivative of x^2 - x + 3 na 2x - 1, wey be the same thing as the numerator. Once the top na derivative of the bottom, the answer na ln of the bottom plus C."
+},
+{
+"q": "Find ∫ (5 sin(x) - 3 cos(x)) dx",
+"options": [
+"-5 cos(x) - 3 sin(x) + C",
+"5 cos(x) + 3 sin(x) + C",
+"-5 cos(x) + 3 sin(x) + C",
+"5 cos(x) - 3 sin(x) + C"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The integral of sin(x) is -cos(x), and the integral of cos(x) is sin(x). So ∫5 sin(x) dx = -5cos(x) and ∫-3cos(x) dx = -3sin(x), giving -5cos(x) - 3sin(x) + C.",
+"py": null,
+"values": null,
+"id": "matx21017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Integral of sin(x) na -cos(x) and integral of cos(x) na sin(x). So, 5 sin(x) go turn to -5 cos(x) and -3 cos(x) go turn to -3 sin(x) plus the constant C."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Find the indefinite integral: ∫ (3x + 1)^4 dx",
+"options": [
+"(3x+1)^5/15 + C",
+"(3x+1)^5/5 + C",
+"(3x+1)^5/20 + C",
+"5(3x+1)^5 + C"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using the linear substitution rule, ∫(ax+b)^n dx = (ax+b)^(n+1)/(a(n+1)) + C. Here a = 3, n = 4, so we get (3x+1)^5/(3x5) = (3x+1)^5/15 + C.",
+"py": null,
+"values": null
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "A particle moves such that its velocity at time t seconds is v = 6t^2 - 4t (in m/s). Find an expression for the distance, s, covered by the particle at time t, given that s = 0 when t = 0.",
+"options": [
+"s = 2t^3 - 2t^2",
+"s = 12t - 4",
+"s = 3t^3 - 2t^2",
+"s = 2t^3 - 4t^2"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Distance is the integral of velocity: s = ∫(6t^2 - 4t) dt = 2t^3 - 2t^2 + C. Since s = 0 when t = 0, C = 0, giving s = 2t^3 - 2t^2.",
+"py": null,
+"values": null,
+"id": "matx21011",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

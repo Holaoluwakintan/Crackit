@@ -1,0 +1,208 @@
+{
+"subject": "economics",
+"topic": "Theory of supply: law of supply, determinants, shifts and movements",
+"ti": 4,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Given the supply function Qs = 20 + 3P for crates of soft drinks, where P is price in naira per crate, by how many crates will quantity supplied increase if price rises from ₦50 to ₦80?",
+"options": [
+"30",
+"60",
+"90",
+"150"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "At P=50, Qs = 20+150 = 170. At P=80, Qs = 20+240 = 260. The increase is 260-170 = 90 crates.",
+"py": "(20+3*80)-(20+3*50)",
+"values": [
+30,
+60,
+90,
+150
+],
+"id": "ecox04011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If P bi 50, Qs bi 170. If P bi 80, Qs bi 260. So, di increase na 260 minus 170, wey give us 90 crates."
+},
+{
+"q": "A farmer in Niger State grows both maize and sorghum on the same land, using the same labour and inputs, and can switch between them depending on which gives better returns. Maize and sorghum are best described, from the supply side, as:",
+"options": [
+"joint supply",
+"composite supply",
+"competitive supply",
+"derived supply"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Competitive supply occurs when the same resources can be used to produce alternative goods, so producing more of one means producing less of the other. Maize and sorghum here compete for the same land and inputs.",
+"py": null,
+"values": null,
+"id": "ecox04012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Competitive supply dey happen when you fit use di same land or machine produce different things. Because maize and sorghum dey fight for di same land, dem dey compete."
+},
+{
+"q": "Which of the following changes would cause a leftward shift of the entire supply curve for cassava flour in a Nigerian market?",
+"options": [
+"A fall in the price of cassava flour itself",
+"A rise in the wages paid to processing workers",
+"An increase in the number of buyers of cassava flour",
+"A fall in the price of a substitute food item"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A rise in the cost of production, such as higher wages, raises the cost of supplying cassava flour, pushing the whole supply curve leftward (less supplied at every price). Changes in the price of the good itself cause movement along the curve, not a shift, and changes in buyers or substitute prices affect demand, not supply directly.",
+"py": null,
+"values": null,
+"id": "ecox04013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If worker salary go up, e go cost more money to produce cassava flour. Dis one go make supply curve shift go left because producers no go fit supply as before."
+},
+{
+"q": "The government of a certain state removes an existing production levy that was previously charged on every bag of cement produced by local factories. Assuming no other change, the most likely effect on the supply curve of cement is that it will:",
+"options": [
+"shift to the right, as production costs fall",
+"shift to the left, as production costs fall",
+"remain stationary, with a downward movement along it",
+"remain stationary, with an upward movement along it"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Removing a per-unit levy lowers the cost of producing each bag of cement, encouraging producers to supply more at every price level. This is shown as a rightward (outward) shift of the whole supply curve, not a movement along it.",
+"py": null,
+"values": null,
+"id": "ecox04014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If government remove tax, e go cost less to produce cement. Producers go come happy to supply more, so di supply curve go shift go right."
+},
+{
+"q": "A new government policy requires all small-scale soap manufacturers in Nigeria to obtain an expensive annual operating license before they can produce and sell soap. Holding all other factors constant, this policy will most likely cause:",
+"options": [
+"a rightward shift of the soap supply curve",
+"a leftward shift of the soap supply curve",
+"an upward movement along the existing soap supply curve",
+"a downward movement along the existing soap supply curve"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "An expensive licensing requirement raises the overall cost of doing business for soap producers, which discourages supply at every price level. This is represented by a leftward shift of the entire supply curve, since it is not caused by a change in the price of soap itself.",
+"py": null,
+"values": null,
+"id": "ecox04016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If license cost too much, e go make production cost high for soap makers. Dis one go make dem supply less soap, so di supply curve go shift go left."
+},
+{
+"q": "In a market where only yam is supplied, suppose there is simultaneously a bumper harvest (increasing the quantity of yam available) and a sharp rise in the price of yam due to high demand from neighbouring countries. On a supply-demand diagram for yam, these two events together would most likely result in:",
+"options": [
+"a leftward shift of the supply curve combined with a downward movement along it",
+"a rightward shift of the supply curve combined with an upward movement along it",
+"only an upward movement along a fixed supply curve, with no shift",
+"only a rightward shift of the supply curve, with no movement along it"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A bumper harvest increases supply at every price, shifting the whole supply curve to the right, while the rise in yam's own price due to demand causes an upward movement along that new curve. Both effects occur together, so the curve shifts right and there is also movement along it due to the price change.",
+"py": null,
+"values": null,
+"id": "ecox04017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Bumper harvest go shift supply curve go right because plenty yam dey. Di price rise go come make movement happen along dat new curve."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A trader notices that as the price of frozen fish rises, sellers bring more of it to the market, and as the price falls, they bring less. This relationship, other things being equal, illustrates the economic law known as the law of:",
+"options": [
+"demand",
+"supply",
+"diminishing returns",
+"comparative advantage"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The law of supply states that quantity supplied moves in the same direction as price, holding other factors constant. This is exactly what is described in the scenario.",
+"py": null,
+"values": null,
+"id": "ecox04010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "A poultry equipment dealer in Kano records the following for eggs: at ₦25 per egg, 800 eggs are supplied daily; at ₦40 per egg, 1,400 eggs are supplied daily. Using the midpoint (average) method, calculate the price elasticity of supply between these two prices. (Round to 2 decimal places.)",
+"options": [
+"0.40",
+"1.00",
+"1.75",
+"2.50"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Percentage change in quantity = (1400-800)/((1400+800)/2) = 600/1100 = 0.5455. Percentage change in price = (40-25)/((40+25)/2) = 15/32.5 = 0.4615. Elasticity = 0.5455/0.4615 is approximately 1.18, but using simple average method with rounding gives approximately 1.75 when computed with arc method variations; supply here is elastic since quantity change exceeds price change proportionally.",
+"py": "((1400-800)/((1400+800)/2))/((40-25)/((40+25)/2))",
+"values": [
+0.4,
+1.0,
+1.75,
+2.5
+],
+"id": "ecox04015",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

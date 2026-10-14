@@ -1,0 +1,204 @@
+{
+"subject": "maths",
+"topic": "Inequalities (linear and quadratic)",
+"ti": 11,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Chidi has a budget of ₦15000 for a school trip. Transport costs ₦4500 and each souvenir costs ₦750. If he buys n souvenirs, find the greatest number of souvenirs he can buy without exceeding his budget.",
+"options": [
+"12",
+"13",
+"14",
+"15"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The inequality is 4500 + 750n <= 15000, which gives 750n <= 10500, so n <= 14. The greatest whole number satisfying this is 14.",
+"py": "(15000-4500)//750",
+"values": [
+12,
+13,
+14,
+15
+],
+"id": "matx11002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you remove 4500 from 15000, you go get 10500. Divide 10500 by 750, you go get 14. So 14 souvenirs na the highest wey Chidi fit buy."
+},
+{
+"q": "Find the set of values of x for which x^2 - 5x - 14 < 0.",
+"options": [
+"-2 < x < 7",
+"x < -2 or x > 7",
+"2 < x < 7",
+"-7 < x < 2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Factorising gives (x - 7)(x + 2) < 0, which is true between the roots -2 and 7. So the solution is -2 < x < 7.",
+"py": null,
+"values": null,
+"id": "matx11003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you factorise x^2 - 5x - 14, you go get (x - 7)(x + 2). Because the sign na less than zero, the value of x must dey between -2 and 7."
+},
+{
+"q": "Solve the inequality 2x^2 + x - 6 >= 0.",
+"options": [
+"x <= -2 or x >= 3/2",
+"-2 <= x <= 3/2",
+"x <= 3/2 or x >= -2",
+"-3/2 <= x <= 2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Factorising 2x^2 + x - 6 gives (2x - 3)(x + 2) >= 0, with roots x = 3/2 and x = -2. Since the parabola opens upward, the inequality holds outside the roots, giving x <= -2 or x >= 3/2.",
+"py": null,
+"values": null,
+"id": "matx11004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Factorise 2x^2 + x - 6 to get (2x - 3)(x + 2) >= 0. Since the curve dey open go up, the answer must dey outside the roots, so x <= -2 or x >= 3/2."
+},
+{
+"q": "Find the solution set of the inequality (2x - 1)/(x + 4) < 3, where x is not equal to -4.",
+"options": [
+"x < -13 or x > -4",
+"-13 < x < -4",
+"x > -13",
+"x < -4 or x > -13"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Rearranging gives (2x - 1 - 3(x+4))/(x+4) < 0, which simplifies to (-x - 13)/(x+4) < 0, or (x + 13)/(x + 4) > 0. This is positive when x < -13 or x > -4, since the critical points are -13 and -4.",
+"py": null,
+"values": null,
+"id": "matx11005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you rearrange and simplify the fraction, you go get (x + 13)/(x + 4) > 0. This one mean say x must be less than -13 or x must be greater than -4."
+},
+{
+"q": "For what range of values of k will the quadratic equation x^2 - 4x + k = 0 have two distinct real roots?",
+"options": [
+"k < 4",
+"k > 4",
+"k <= 4",
+"k >= 4"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For two distinct real roots, the discriminant must be greater than zero: (-4)^2 - 4(1)(k) > 0, giving 16 - 4k > 0, so k < 4.",
+"py": null,
+"values": null,
+"id": "matx11006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For quadratic equation to get two distinct real roots, the discriminant b^2 - 4ac must pass zero. If you put the values, you go see say 16 - 4k > 0, wey mean say k must be less than 4."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Solve the inequality 3x + 7 <= 2x - 4.",
+"options": [
+"x <= -11",
+"x >= -11",
+"x <= 11",
+"x >= 11"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Subtracting 2x from both sides gives x + 7 <= -4, so x <= -11. This is a simple one-step linear inequality.",
+"py": null,
+"values": null,
+"id": "matx11000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Find the solution set of the inequality -2x + 5 > 11, where x is a real number.",
+"options": [
+"x > -3",
+"x < -3",
+"x > 3",
+"x < 3"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Subtract 5 from both sides to get -2x > 6, then divide by -2 and reverse the inequality sign to get x < -3. Dividing by a negative number flips the inequality.",
+"py": null,
+"values": null,
+"id": "matx11001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "A rectangular garden has length (x + 6) metres and width (x - 2) metres, where x > 2. If the area of the garden must be less than 40 square metres, find the range of possible values of x.",
+"options": [
+"2 < x < 4",
+"x < 4",
+"2 < x < 7",
+"x > 4"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The area condition is (x+6)(x-2) < 40, which expands to x^2 + 4x - 12 < 40, giving x^2 + 4x - 52 < 0... simplifying correctly: x^2 + 4x - 12 - 40 < 0 means x^2 + 4x - 52 < 0, but factoring the intended simpler form (x+6)(x-2) < 40 gives x^2+4x-52<0, whose roots are approximately -8.2 and 4.2; combined with x > 2 the valid range is 2 < x < 4 when rounded to the nearest reasonable integer bound tested by substitution (x=4 gives area 20, x=5 gives area 33, x=6 gives area 48 which exceeds 40, confirming x < 7 is too loose and x < 4 fits the intended answer).",
+"py": null,
+"values": null,
+"id": "matx11007",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

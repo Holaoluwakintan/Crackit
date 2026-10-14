@@ -1,0 +1,220 @@
+{
+"subject": "chemistry",
+"topic": "Electrolysis and Faraday's laws",
+"ti": 8,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following statements correctly describes an electrolyte?",
+"options": [
+"A substance that conducts electricity only in the solid state",
+"A substance whose molten or aqueous solution conducts electricity and is decomposed in the process",
+"A substance that conducts electricity without undergoing any chemical change",
+"A substance that dissolves in water to form a non-conducting solution"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "An electrolyte conducts electricity in molten or dissolved form and undergoes chemical decomposition during the process, unlike metallic conductors which conduct without chemical change.",
+"py": null,
+"values": null,
+"id": "chex08010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Electrolyte dey conduct electricity wen e dey molten or dissolve for water. As e dey conduct, chemical change dey happen inside am, unlike metal wey no dey change."
+},
+{
+"q": "During the electrolysis of molten lead(II) bromide using inert electrodes, which species migrates to the cathode and what happens to it there?",
+"options": [
+"Br- ions migrate to the cathode and are oxidised to bromine gas",
+"Pb2+ ions migrate to the cathode and are reduced to lead metal",
+"Pb2+ ions migrate to the cathode and are oxidised to lead metal",
+"Br- ions migrate to the cathode and are reduced to bromine gas"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The cathode is the negative electrode, so positively charged Pb2+ ions are attracted there and gain electrons (reduction) to form lead metal.",
+"py": null,
+"values": null,
+"id": "chex08011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Cathode na negative electrode, so positive Pb2+ ions go rush go there. As dem reach there, dem go collect electrons to turn to lead metal."
+},
+{
+"q": "A town council wants to electroplate iron gates with zinc to prevent rusting. In setting up the electrolytic cell for this process, which arrangement is correct?",
+"options": [
+"The iron gate is made the anode and zinc is made the cathode, using a zinc salt solution as electrolyte",
+"The iron gate is made the cathode and zinc is made the anode, using a zinc salt solution as electrolyte",
+"The iron gate is made the cathode and a carbon rod is used as the anode, using dilute sulphuric acid",
+"The zinc is made the cathode and the iron gate is dipped in molten zinc chloride without a power source"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In electroplating, the object to be plated (iron gate) is the cathode where the metal ion is deposited, while the plating metal (zinc) is the anode which dissolves to replenish the metal ions in solution.",
+"py": null,
+"values": null,
+"id": "chex08012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To plate iron gate, you must put am for cathode side. Zinc go dey for anode so e go dissolve and replace the metal ions wey dey inside the solution."
+},
+{
+"q": "In an experiment, the same quantity of electricity liberated 0.20 mole of a metal M from a solution of its trivalent salt. How many moles of electrons were involved in depositing this metal?",
+"options": [
+"0.10 mole",
+"0.20 mole",
+"0.60 mole",
+"1.20 mole"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A trivalent metal ion M3+ requires 3 electrons to be reduced to M, so moles of electrons = 3 x 0.20 = 0.60 mole.",
+"py": "3*0.20",
+"values": [
+0.1,
+0.2,
+0.6,
+1.2
+],
+"id": "chex08015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because the metal M na trivalent, e need 3 electrons to turn to metal. If you get 0.20 mole of the metal, you go multiply am by 3 to get 0.60 mole of electrons."
+},
+{
+"q": "Two electrolytic cells are connected in series: the first contains molten magnesium chloride and the second contains molten aluminium oxide. If 0.30 mole of magnesium is deposited in the first cell, how many moles of aluminium will be deposited in the second cell by the same quantity of electricity?",
+"options": [
+"0.10 mole",
+"0.20 mole",
+"0.30 mole",
+"0.45 mole"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Mg2+ requires 2 electrons while Al3+ requires 3 electrons, so moles of electrons = 2 x 0.30 = 0.60. Moles of Al deposited = 0.60/3 = 0.20 mole, since the same charge passes through cells connected in series.",
+"py": "(2*0.30)/3",
+"values": [
+0.1,
+0.2,
+0.3,
+0.45
+],
+"id": "chex08016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Mg2+ need 2 electrons, so 0.30 mole of Mg use 0.60 mole of electrons. Since Al3+ need 3 electrons, you go divide that 0.60 by 3 to get 0.20 mole of aluminium."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Calculate the number of coulombs of electricity required to deposit 0.5 mole of copper metal from a copper(II) sulphate solution. [1 Faraday = 96500 C]",
+"options": [
+"48250 C",
+"96500 C",
+"193000 C",
+"965000 C"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Cu2+ + 2e- -> Cu, so 1 mole of copper needs 2 Faradays. For 0.5 mole, charge = 0.5 x 2 x 96500 = 96500... recompute: 0.5 mol x 2 F/mol x 96500 C/F = 96500 C. Actually this equals 96500 C, so the correct charge is 96500 C, matching the second option; the arithmetic shows 1 mole needs 2F=193000C, half mole needs 96500C.",
+"py": "0.5*2*96500",
+"values": [
+48250,
+96500,
+193000,
+965000
+],
+"id": "chex08013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A current of 1.5 A is passed through a solution of silver nitrate for 40 minutes using inert electrodes. Calculate the mass of silver deposited at the cathode. [Ag = 108, 1 Faraday = 96500 C]",
+"options": [
+"2.02 g",
+"4.03 g",
+"6.05 g",
+"8.07 g"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Charge Q = I x t = 1.5 x 40 x 60 = 3600 C. Moles of electrons = 3600/96500 = 0.0373 mol. Since Ag+ + e- -> Ag, moles of Ag = 0.0373 mol, mass = 0.0373 x 108 = 4.03 g... recomputed: this matches 4.03 g, which is the second option, so that is the correct answer.",
+"py": "(1.5*40*60/96500)*108",
+"values": [
+2.02,
+4.03,
+6.05,
+8.07
+],
+"id": "chex08014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "During the electrolysis of dilute sulphuric acid using platinum electrodes, oxygen gas is collected at the anode. What is the correct half-equation for this reaction?",
+"options": [
+"2H2O -> O2 + 4H+ + 4e-",
+"O2 + 4H+ + 4e- -> 2H2O",
+"2H+ + 2e- -> H2",
+"4OH- -> O2 + 2H2O + 4e-"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "At the anode, water molecules are oxidised, losing electrons to form oxygen gas and hydrogen ions, which is written as 2H2O -> O2 + 4H+ + 4e-.",
+"py": null,
+"values": null,
+"id": "chex08017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:D is also a valid anode half-equation; A and D are equivalent.|In dilute H2SO4, water is oxidized at the anode."
+}
+]
+}

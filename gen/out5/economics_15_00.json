@@ -1,0 +1,194 @@
+{
+"subject": "economics",
+"topic": "Industrialisation, location of industries and business organisations",
+"ti": 15,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes 'industrialisation' as used in economics?",
+"options": [
+"The process of increasing agricultural output through mechanised farming",
+"The process by which an economy transforms from being primarily agrarian to one dominated by manufacturing and allied activities",
+"The movement of people from urban areas to rural areas in search of farmland",
+"The process of exporting raw materials to earn foreign exchange"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Industrialisation refers to the structural shift of an economy from reliance on agriculture and raw materials towards manufacturing, processing and related industrial activities. The other options describe unrelated or opposite processes.",
+"py": null,
+"values": null,
+"id": "ecox15000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Industrialisation na wen economy move from farming go enter manufacturing and factory work. E mean say country dey shift focus from raw materials go produce finished goods."
+},
+{
+"q": "A footwear manufacturing company in Aba decides to also set up its own tannery to process raw hides into leather, instead of buying leather from other suppliers. This type of business expansion is called:",
+"options": [
+"Horizontal integration",
+"Lateral integration",
+"Backward vertical integration",
+"Forward vertical integration"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Backward vertical integration occurs when a firm expands towards an earlier stage of production, such as a footwear maker owning a tannery that supplies its raw material. Forward integration would instead move towards the final consumer, such as owning retail shops.",
+"py": null,
+"values": null,
+"id": "ecox15001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Backward vertical integration happen wen company go back to control wetin dem dey use work, like shoe maker wey come get tannery. If dem move go front to sell direct to people, na forward integration be dat."
+},
+{
+"q": "Okonkwo and three friends want to start a business that requires huge capital for machinery, and they wish to limit their personal risk so that their private houses and cars cannot be seized to pay business debts beyond what they invested. Which form of business organisation best suits their need?",
+"options": [
+"Sole proprietorship",
+"Partnership with unlimited liability",
+"Private limited liability company",
+"Cooperative thrift society"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A private limited liability company gives owners limited liability, meaning they can only lose the amount they invested as shares, protecting their personal property. Sole proprietorship and ordinary partnership typically carry unlimited liability.",
+"py": null,
+"values": null,
+"id": "ecox15002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Private limited liability company dey protect person property if business get debt. You go only lose wetin you put inside the business as share, your personal house no go dey for risk."
+},
+{
+"q": "Which of the following is a major contribution of small-scale industries to the Nigerian economy?",
+"options": [
+"They require very large amounts of capital before they can start operating",
+"They generate substantial employment and make use of local raw materials",
+"They are mainly owned and controlled by foreign investors",
+"They produce mostly for export markets and ignore local demand"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Small-scale industries are valued because they create jobs for many Nigerians and often use locally sourced raw materials, promoting grassroots economic development. They usually need relatively low capital and serve local markets.",
+"py": null,
+"values": null,
+"id": "ecox15003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Small-scale industries dey help Nigeria economy well well because dem dey give plenty people work. Dem also dey use local materials wey dey ground for inside country."
+},
+{
+"q": "A furniture-making company situated in Benin City finds that most of its skilled carpenters, timber suppliers and furniture buyers are already clustered in that same city, making it easier and cheaper to operate there than elsewhere. This advantage of the location is best described as:",
+"options": [
+"Economies of scale",
+"External economies of localisation",
+"Economies of large scale production",
+"Diseconomies of scale"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "External economies of localisation arise when firms in the same industry cluster together in one area and jointly benefit from shared skilled labour, suppliers and markets, even though each firm remains independent. This differs from economies of scale, which relate to a single firm's internal size of operation.",
+"py": null,
+"values": null,
+"id": "ecox15004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "External economies of localisation happen wen companies for same line of work gather for one place. Dem all dey benefit from shared skilled workers and suppliers wey dey near dem."
+},
+{
+"q": "A cooperative society in a farming community in Benue State pools money from its members and uses it to grant loans to members at low interest rates for buying farm inputs. This type of cooperative is best classified as a:",
+"options": [
+"Consumers' cooperative society",
+"Producers' cooperative society",
+"Thrift and credit cooperative society",
+"Marketing cooperative society"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A thrift and credit cooperative mainly collects savings from members and gives out loans to them at favourable rates. Producers' and marketing cooperatives instead focus on joint production and selling of goods respectively.",
+"py": null,
+"values": null,
+"id": "ecox15005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Thrift and credit cooperative na group wey members dey save money come borrow am for low interest. Na dis one dey help farmers get money to buy wetin dem need for farm."
+},
+{
+"q": "Which of the following is an essential feature that distinguishes a public corporation from a private limited liability company in Nigeria?",
+"options": [
+"A public corporation is established by an Act of government and is usually owned and financed by the state",
+"A public corporation sells its shares freely to members of the public on the stock exchange",
+"A public corporation must have at least two but not more than fifty shareholders",
+"A public corporation's profits are shared only among a few private shareholders"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Public corporations like the Nigerian Ports Authority are created by government legislation, owned by the state and run for public interest, unlike private limited companies which are privately owned by shareholders. Selling shares on the stock exchange is instead a feature of public limited companies, not public corporations.",
+"py": null,
+"values": null,
+"id": "ecox15006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Public corporation na government setup am through law and na state dey own am. Private limited company na private people get am, so dem no be the same."
+},
+{
+"q": "An iron and steel company requires 5000 tonnes of iron ore to produce 1000 tonnes of finished steel products in a month, because a large proportion of the ore's weight is lost as waste during processing. Based purely on this weight-loss consideration, the company should ideally locate its factory:",
+"options": [
+"Near the market where the steel products will be sold",
+"Near the source of the iron ore deposits",
+"At the seaport used for importing machinery",
+"At the capital city where government offices are located"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since the raw material loses a lot of weight during processing, it is cheaper to transport the lighter finished product to the market than to transport the heavier raw material over long distances. This is why weight-losing, bulky raw materials pull industries towards the source of the raw material rather than the market.",
+"py": null,
+"values": null,
+"id": "ecox15007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If raw material heavy well well and e go lose weight during production, e better make you build factory near where you dey get the material. E go cost you less money to carry the finished product go market."
+}
+],
+"rejected": []
+}

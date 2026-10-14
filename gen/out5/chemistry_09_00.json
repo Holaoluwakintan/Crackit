@@ -1,0 +1,212 @@
+{
+"subject": "chemistry",
+"topic": "Energy changes in reactions",
+"ti": 9,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Energy changes in chemical reactions are usually classified using which term for the energy content of a system at constant pressure?",
+"options": [
+"Enthalpy",
+"Entropy",
+"Activation energy",
+"Internal kinetic energy"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Enthalpy (H) is the heat content of a system measured at constant pressure. It is the quantity whose change (delta H) is reported for reactions.",
+"py": null,
+"values": null,
+"id": "chex09000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Enthalpy na di heat content of system when pressure dey constant. Na di quantity wey dem dey measure di change for when reaction happen."
+},
+{
+"q": "A student mixes dilute hydrochloric acid with sodium trioxocarbonate(IV) solution in a plastic cup and notices the cup becomes cold to touch. This observation shows that the reaction is",
+"options": [
+"Exothermic, releasing heat to the surroundings",
+"Endothermic, absorbing heat from the surroundings",
+"Catalytic, with no energy change",
+"A physical change only"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A drop in temperature means the reaction absorbed heat energy from the surroundings, which is the definition of an endothermic reaction. The surroundings cool because energy flows into the reacting system.",
+"py": null,
+"values": null,
+"id": "chex09001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If cup come cold, e mean say di reaction don absorb heat energy from di environment. Dem dey call dis one endothermic reaction."
+},
+{
+"q": "In a potential energy diagram for an exothermic reaction, which labelled distance represents the activation energy of the forward reaction?",
+"options": [
+"The gap between the reactants' energy level and the peak of the curve",
+"The gap between the products' energy level and the peak of the curve",
+"The gap between the reactants' energy level and the products' energy level",
+"The horizontal distance along the reaction coordinate axis"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Activation energy is the minimum extra energy reactants must gain to reach the transition state (the peak). It is measured from the reactants' energy level up to the maximum of the curve, not down to the products.",
+"py": null,
+"values": null,
+"id": "chex09002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Activation energy na di extra energy wey reactants need to reach di peak. E start from di reactants level go reach di top of di curve."
+},
+{
+"q": "Given the bond dissociation energies: C-H = 413 kJ/mol, O=O = 498 kJ/mol, C=O = 799 kJ/mol, O-H = 463 kJ/mol, estimate the enthalpy change for the complete combustion of methane: CH4(g) + 2O2(g) -> CO2(g) + 2H2O(g), given methane has 4 C-H bonds, CO2 has 2 C=O bonds, and water has 2 O-H bonds per molecule.",
+"options": [
+"-802 kJ/mol",
+"+802 kJ/mol",
+"-416 kJ/mol",
+"+1250 kJ/mol"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Bonds broken: 4(C-H)+2(O=O) = 4(413)+2(498) = 1652+996 = 2648 kJ. Bonds formed: 2(C=O)+4(O-H) = 2(799)+4(463) = 1598+1852 = 3450 kJ. Enthalpy change = bonds broken minus bonds formed = 2648 - 3450 = -802 kJ/mol.",
+"py": "4*413 + 2*498 - (2*799 + 4*463)",
+"values": [
+-802,
+802,
+-416,
+1250
+],
+"id": "chex09003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you calculate bonds broken and subtract bonds formed, you go get 2648 minus 3450. Dis one give -802 kJ/mol."
+},
+{
+"q": "A reaction mixture reaches equilibrium faster when a catalyst is added mainly because the catalyst",
+"options": [
+"Increases the average kinetic energy of the reacting molecules",
+"Shifts the position of equilibrium towards the products",
+"Provides an alternative reaction pathway with lower activation energy",
+"Increases the enthalpy change of the overall reaction"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A catalyst works by providing an alternative route for the reaction that needs less activation energy, so more molecules can react successfully per unit time. It does not change the equilibrium position or the overall enthalpy change.",
+"py": null,
+"values": null,
+"id": "chex09004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Catalyst dey make reaction fast by providing another road wey get lower activation energy. E no dey change di overall enthalpy."
+},
+{
+"q": "Using Hess's Law, calculate the enthalpy change for the reaction: C(graphite) + 1/2 O2(g) -> CO(g), given that the enthalpy of combustion of carbon to CO2 is -394 kJ/mol and the enthalpy of combustion of CO to CO2 is -283 kJ/mol.",
+"options": [
+"-111 kJ/mol",
+"+111 kJ/mol",
+"-677 kJ/mol",
+"-283 kJ/mol"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Using Hess's cycle: C + O2 -> CO2 (-394 kJ) and CO + 1/2O2 -> CO2 (-283 kJ). Subtracting the second equation from the first gives C + 1/2O2 -> CO with enthalpy = -394 - (-283) = -111 kJ/mol.",
+"py": "-394 - (-283)",
+"values": [
+-111,
+111,
+-677,
+-283
+],
+"id": "chex09005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you apply Hess Law and minus di second equation from di first one, you go get -394 minus -283, wey give -111 kJ/mol."
+},
+{
+"q": "Which type of enthalpy change refers to the heat change when one mole of a solid ionic compound dissolves completely in a large excess of water, such that further dilution causes no further heat change?",
+"options": [
+"Enthalpy of neutralisation",
+"Enthalpy of formation",
+"Enthalpy of solution",
+"Enthalpy of atomisation"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Enthalpy of solution is specifically defined as the heat change when one mole of a solute dissolves fully in enough water to prevent further heat change on dilution. The other terms describe different standard enthalpy changes.",
+"py": null,
+"values": null,
+"id": "chex09006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Enthalpy of solution na di heat change when one mole of substance dissolve well well inside water. Dem no dey mix am up with neutralisation."
+},
+{
+"q": "70 g of water (specific heat capacity = 4.2 J/g°C) in a calorimeter rises in temperature from 25°C to 39°C when a small quantity of solid X is dissolved in it. Calculate the heat energy released during the dissolution process.",
+"options": [
+"4116 J",
+"2940 J",
+"1176 J",
+"5880 J"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Heat released, Q = mass x specific heat capacity x temperature change = 70 x 4.2 x (39-25) = 70 x 4.2 x 14 = 4116 J. This confirms the dissolution process is exothermic.",
+"py": "70*4.2*(39-25)",
+"values": [
+4116,
+2940,
+1176,
+5880
+],
+"id": "chex09007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find heat energy, multiply mass, specific heat capacity and temperature change together. 70 times 4.2 times 14 go give you 4116 J."
+}
+],
+"rejected": []
+}

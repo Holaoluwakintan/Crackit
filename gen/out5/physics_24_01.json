@@ -1,0 +1,225 @@
+{
+"subject": "physics",
+"topic": "Gravitational field, Kepler's laws and satellites",
+"ti": 24,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "The gravitational field strength at a point above the Earth's surface is 4.0 N/kg. If the mass of the Earth is 6.0 x 10^24 kg, calculate the distance of the point from the centre of the Earth. (G = 6.67 x 10^-11 Nm^2/kg^2)",
+"options": [
+"1.0 x 10^7 m",
+"2.0 x 10^7 m",
+"3.2 x 10^7 m",
+"4.5 x 10^7 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using g = GM/r^2, r = sqrt(GM/g) = sqrt(6.67e-11 x 6.0e24 / 4.0) which gives about 1.0 x 10^7 m. This comes directly from rearranging the gravitational field formula.",
+"py": "math.sqrt(6.67e-11*6.0e24/4.0)",
+"values": [
+10000000.0,
+20000000.0,
+32000000.0,
+45000000.0
+],
+"id": "phyx24010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Make you use g = GM/r^2 to find distance r. When you put the numbers inside, you go get 1.0 x 10^7 m."
+},
+{
+"q": "Two point masses are separated by a distance d and exert a gravitational force F on each other. If the distance between them is reduced to d/3, what is the new force in terms of F?",
+"options": [
+"F/9",
+"3F",
+"9F",
+"F/3"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Gravitational force is inversely proportional to the square of the distance, so reducing the distance to one-third increases the force by a factor of 3^2 = 9. This gives a new force of 9F.",
+"py": "9",
+"values": [
+null,
+null,
+9,
+null
+],
+"id": "phyx24011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Gravity force dey opposite to distance square. If distance come reduce to d/3, the force go multiply by 3^2, wey be 9F."
+},
+{
+"q": "A student in Kano observes that a planet orbiting the Sun has an orbital period of 8 years. According to Kepler's third law, if Earth's orbital radius is taken as 1 astronomical unit (AU) and its period as 1 year, what is the orbital radius of the planet in AU?",
+"options": [
+"2 AU",
+"4 AU",
+"8 AU",
+"16 AU"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Kepler's third law states T^2 is proportional to r^3, so r = T^(2/3). Taking T = 8 years gives r = 8^(2/3) = 4 AU.",
+"py": "8**(2/3)",
+"values": [
+2,
+4,
+8,
+16
+],
+"id": "phyx24012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As Kepler law talk say T^2 dey equal to r^3, na im make r = T^(2/3). If you put T = 8 years, you go get 4 AU."
+},
+{
+"q": "Which of the following best explains why astronauts in an orbiting space station experience apparent weightlessness, even though Earth's gravity still acts on them?",
+"options": [
+"The space station is completely outside Earth's gravitational field",
+"The astronauts and the station are both in continuous free fall around the Earth",
+"Gravity does not exist in space",
+"The station's engines cancel out the pull of gravity"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In orbit, gravity provides the centripetal force needed to keep the station and astronauts falling continuously towards Earth along a curved path, so they feel weightless even though gravity is still acting. This is not the absence of gravity, just continuous free fall.",
+"py": null,
+"values": null,
+"id": "phyx24013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Astronauts dey feel weightlessness because both them and the space station dey do free fall together round Earth, no be say gravity no dey."
+},
+{
+"q": "The weight of an object on the surface of the Earth is 600 N. If the object is taken to a height equal to the Earth's radius above the surface, what will its new weight be?",
+"options": [
+"600 N",
+"300 N",
+"150 N",
+"75 N"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "At a height equal to the Earth's radius R, the distance from the centre becomes 2R, so gravitational force falls by a factor of 2^2 = 4. The new weight is 600/4 = 150 N.",
+"py": "600/4",
+"values": [
+600,
+300,
+150,
+75
+],
+"id": "phyx24015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If distance from centre become 2R because of height, gravity go reduce by 2^2, wey be 4. So you divide 600 N by 4 to get 150 N."
+},
+{
+"q": "Which of the following statements is a correct consequence of Kepler's first law of planetary motion?",
+"options": [
+"All planets move in perfect circles with the Sun at the centre",
+"Planets move faster when they are closer to the Sun and slower when farther away",
+"A planet's orbit is an ellipse with the Sun at one of the two foci",
+"The square of a planet's period is proportional to the cube of its orbital radius"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Kepler's first law states that planets move in elliptical orbits with the Sun located at one focus, not at the centre. The other statements describe Kepler's second and third laws instead.",
+"py": null,
+"values": null,
+"id": "phyx24016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Kepler first law talk say planet path na ellipse, and Sun dey one of the two foci. E no talk say circle."
+},
+{
+"q": "A planet of mass m orbits a star of mass M in a circular orbit of radius r. Given that G is the universal gravitational constant, derive an expression for the orbital speed v of the planet in terms of G, M and r.",
+"options": [
+"v = sqrt(GM/r)",
+"v = sqrt(GM r)",
+"v = GM/r^2",
+"v = sqrt(GM/r^2)"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For a circular orbit, gravitational force supplies the centripetal force: GMm/r^2 = mv^2/r. Solving for v gives v = sqrt(GM/r), which is the correct orbital speed formula.",
+"py": null,
+"values": null,
+"id": "phyx24017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Make you equalize gravitational force and centripetal force, na im be GMm/r^2 = mv^2/r. When you solve am, v = sqrt(GM/r) go come out."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A satellite of mass 800 kg orbits the Earth at a height where the orbital speed is 7.0 x 10^3 m/s and the orbital radius is 7.0 x 10^6 m. Calculate the centripetal force acting on the satellite.",
+"options": [
+"5.6 x 10^6 N",
+"5.6 x 10^8 N",
+"7.0 x 10^6 N",
+"4.9 x 10^9 N"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Centripetal force F = mv^2/r = 800 x (7000)^2 / 7.0e6, which simplifies to about 5.6 x 10^6 N. This is the force gravity provides to keep the satellite in its circular path.",
+"py": "800*(7.0e3)**2/7.0e6",
+"values": [
+5600000.0,
+560000000.0,
+7000000.0,
+4900000000.0
+],
+"id": "phyx24014",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

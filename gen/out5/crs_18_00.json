@@ -1,0 +1,180 @@
+{
+"subject": "crs",
+"topic": "Sermon on the Mount and other teachings of Jesus",
+"ti": 18,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In the Sermon on the Mount, Jesus taught His followers not to lay up treasures on earth but in heaven. What reason did He give for this instruction?",
+"options": [
+"Earthly treasures attract moth, rust and thieves, but heavenly treasures are secure",
+"Earthly wealth makes a man too busy to pray daily",
+"Heavenly treasures can be seen by other people and bring honour",
+"Earthly riches are evil in themselves and must be avoided"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Jesus said moth and rust corrupt and thieves break through to steal earthly treasure, but treasure in heaven cannot be destroyed or stolen. The lesson is to set one's heart on lasting, godly priorities.",
+"id": "crsx18000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na wetin Jesus tok be sey, moth and rust dey spoil earthly treasure, and thief dey come thief am, but heaven treasure dey secure. Di lesson na sey make we focus our mind for heavenly things wey no dey perish."
+},
+{
+"q": "Jesus warned His disciples in Matthew chapter 6 about practising their righteousness, such as giving alms, to be seen of men. What did He say would be the consequence of such practice?",
+"options": [
+"They would receive double blessing from God for their generosity",
+"They have their reward already and will receive nothing from the Father",
+"God would multiply their wealth as a sign of approval",
+"Their gift would be rejected by the needy who notice their pride"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus taught that those who give alms publicly to be praised by men have already received their reward in full from men. True giving should be done secretly so that the Father who sees in secret will reward openly.",
+"id": "crsx18001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Jesus explain sey anybody wey dey give alms for open place just to make people praise am don collect im reward for person hand finish. Make we dey do our good deeds for secret so dat God wey dey see for secret go reward us open."
+},
+{
+"q": "In His teaching on fasting, Jesus instructed that when His followers fast, they should anoint their head and wash their face. What was the main purpose of this instruction?",
+"options": [
+"To prepare the body for a feast after the fast ends",
+"To impress religious leaders with proper fasting etiquette",
+"To appear outwardly cheerful so that only God, not men, notices the fast",
+"To follow a tradition required before entering the temple"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Jesus told His disciples to appear normal and refreshed while fasting so that people would not notice, unlike the hypocrites who disfigured their faces to be seen fasting. This way, only the Father who sees in secret rewards them.",
+"id": "crsx18002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Jesus tell im disciples make dem wash their face and rub oil when dem dey fast so dat people no go know sey dem dey fast. Na so only God wey dey see for secret go reward dem, instead make dem form holy for eye of man."
+},
+{
+"q": "Jesus said, \"A good tree cannot bring forth evil fruit, neither can a corrupt tree bring forth good fruit.\" In the context of His warning against false prophets, what lesson is being taught?",
+"options": [
+"People should plant only fruitful trees in their farms for good harvest",
+"True character and teaching are revealed by the quality of a person's actions and life",
+"Prophets must perform miracles to prove they are sent by God",
+"Only trained religious leaders can correctly interpret scripture"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Jesus used the tree and fruit illustration to teach that genuine prophets are known by their actions and results, not merely their words or claims. A person's true nature is revealed through the consistent fruit of their life.",
+"id": "crsx18004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Jesus use tree and fruit tok sey make we know true prophet by di kind life wey dem dey live and wetin dem dey do. Person true character dey show for di kind fruit wey im life dey produce."
+},
+{
+"q": "During the Sermon on the Mount, Jesus taught about the eye being the light of the body, saying that if the eye is single, the whole body shall be full of light. What is the central lesson of this teaching?",
+"options": [
+"Physical eyesight determines a person's spiritual understanding",
+"A person's focus and inner intention determine the moral direction of the whole life",
+"Believers should avoid looking at worldly things completely",
+"Good eyesight is a sign of God's blessing on a person"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Jesus used the eye as a symbol of one's inner focus or intention; a sound, single focus on God fills the whole life with light, while a divided or evil focus brings darkness. This links directly to His teaching on not serving two masters.",
+"id": "crsx18005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Jesus use eye as symbol of our inner focus, meaning sey if your mind clear and focus for God, your whole life go dey full of light. Di way you take dey see things spiritually dey determine how your life go be."
+},
+{
+"q": "In Matthew chapter 7, Jesus warned His followers against judging others harshly, using the illustration of a mote and a beam. What does the beam in a person's own eye represent?",
+"options": [
+"A small, forgivable mistake that everyone struggles with",
+"The larger fault or sin in the critic's own life which he overlooks while condemning others",
+"A physical object that blinds people from seeing clearly",
+"The burden of responsibility given to religious leaders"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus contrasted the small mote in another's eye with the large beam in the critic's own eye to show that people often magnify others' faults while ignoring their own greater faults. The lesson warns against hypocritical judgment.",
+"id": "crsx18006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di beam for person eye represent di big sin or fault wey di person get for im own life, but e dey busy dey judge small error for another person eye. Jesus use am warn us against hypocritical judgment."
+},
+{
+"q": "Jesus taught that true disciples are known not by merely saying \"Lord, Lord\" but by something else. According to this teaching in Matthew chapter 7, what truly qualifies a person to enter the kingdom of heaven?",
+"options": [
+"Performing great miracles and casting out demons in Jesus' name",
+"Doing the will of the Father which is in heaven",
+"Preaching publicly and prophesying to large crowds",
+"Belonging to a recognised religious group or synagogue"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Jesus warned that many would claim to have prophesied and done wonders in His name, yet He will reject them because they practised iniquity. True entrance into the kingdom depends on obedience to the Father's will, not impressive words or deeds alone.",
+"id": "crsx18007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Jesus warn us sey no be everybody wey dey call 'Lord, Lord' or dey do miracle go enter kingdom of heaven, na only those wey dey do di will of God. Obedience to God na im matter pass."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A pastor in Enugu teaches that a Christian should not worry about food, drink or clothing but should seek God's kingdom first. Which of Jesus' sayings in the Sermon on the Mount best supports this teaching?",
+"options": [
+"Ask, and it shall be given you; seek, and ye shall find",
+"Seek ye first the kingdom of God, and all these things shall be added unto you",
+"Judge not, that ye be not judged",
+"Enter ye in at the strait gate, for wide is the gate that leadeth to destruction"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Jesus directly taught that believers should prioritise God's kingdom and righteousness above worldly needs, with the assurance that other necessities would be provided. This forms the basis for trusting God instead of worrying.",
+"id": "crsx18003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Answer is quoted in the question."
+}
+]
+}

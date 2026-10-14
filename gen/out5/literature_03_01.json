@@ -1,0 +1,174 @@
+{
+"subject": "literature",
+"topic": "Metre and versification: iambic, trochaic, couplet, quatrain, blank verse",
+"ti": 3,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A poem has stanzas of three lines each, with all three lines rhyming together (aaa, bbb, ccc...). What is this stanza form called?",
+"options": [
+"Tercet",
+"Quatrain",
+"Couplet",
+"Sestet"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A three-line stanza, whether or not all lines rhyme together, is called a tercet. A quatrain has four lines, a couplet has two, and a sestet has six.",
+"id": "litx03010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Three lines stanza na tercet, whether dem rhyme abi dem no rhyme. Quatrain get four lines, couplet get two, and sestet get six."
+},
+{
+"q": "In prosody, what name is given to the practice of running a sentence or clause beyond the end of one line of poetry into the next, without a pause?",
+"options": [
+"Caesura",
+"Enjambment",
+"Elision",
+"Scansion"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Enjambment is when a thought continues from one poetic line to the next without a grammatical break. Caesura is a pause within a line, elision is dropping a sound, and scansion is the analysis of metre.",
+"id": "litx03011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Enjambment na when sentence carry go another line without stopping. Caesura na pause inside line, and scansion na to check metre."
+},
+{
+"q": "Scan this line and identify its metrical pattern: 'The WIND blew HARD across the EMPty PLAIN.'",
+"options": [
+"Iambic pentameter",
+"Trochaic tetrameter",
+"Anapaestic trimeter",
+"Iambic tetrameter"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The line has five feet, each rising from an unstressed to a stressed syllable (the WIND, blew HARD, across, the EMP, ty PLAIN), which is iambic pentameter. It is not tetrameter because there are five, not four, feet.",
+"id": "litx03012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis line get five feet wey dey go from soft to strong sound, and dat one na iambic pentameter. E no be tetrameter because e get five feet, no be four."
+},
+{
+"q": "A dramatist writes a tragedy in which the noble characters speak in unrhymed iambic pentameter, while a comic servant character speaks entirely in ordinary prose. What literary purpose does this mixing most likely serve?",
+"options": [
+"To show that the servant is more intelligent than the nobles",
+"To mark a difference in social rank and tone between characters",
+"To indicate that the play is poorly constructed",
+"To prove that blank verse cannot express comedy"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Playwrights traditionally gave elevated blank verse to noble or serious characters and plain prose to lower-class or comic characters, marking social rank and shifting tone. This contrast is a deliberate stylistic device, not a flaw.",
+"id": "litx03013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Playwrights dey use poetry for noble people and ordinary prose for servants to show dia social rank. Na style dem dey use, no be say play spoil."
+},
+{
+"q": "Read this quatrain: 'The farmer rises with the break of day, / He tills the soil beneath the mango tree, / His children laugh and romp along the way, / Their voices rise in simple, joyful glee.' What is the rhyme scheme of this stanza?",
+"options": [
+"abab",
+"aabb",
+"abba",
+"abcb"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Lines one and three rhyme (day/way) and lines two and four rhyme (tree/glee), giving an alternating abab pattern. This is different from couplet rhyme (aabb) or enclosed rhyme (abba).",
+"id": "litx03014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Line one and three rhyme, and line two and four rhyme, so na abab pattern. E no be aabb or abba."
+},
+{
+"q": "Which of the following best explains why Milton chose blank verse rather than rhymed couplets for his long epic poem on the fall of man?",
+"options": [
+"Blank verse is easier to memorise than rhymed verse",
+"Blank verse allowed flexible, sustained argument without the constraint of finding rhymes over thousands of lines",
+"Rhymed couplets cannot be written in iambic pentameter",
+"Blank verse has no fixed syllable count, making it simpler to write"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Blank verse keeps the regular iambic pentameter rhythm but frees the poet from hunting for rhymes across a very long work, allowing natural, flowing argument. It still has a fixed ten-syllable, five-foot line, so the other options are wrong.",
+"id": "litx03015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Blank verse help poet make e write long story easily without looking for rhyme every time. E still get ten syllables, so na correct choice."
+},
+{
+"q": "A student is asked to identify the smallest repeated unit of stressed and unstressed syllables used to measure the rhythm of a line of poetry. What is this unit called?",
+"options": [
+"Stanza",
+"Foot",
+"Verse",
+"Metre"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The foot is the basic repeating unit of stressed and unstressed syllables, such as an iamb or a trochee, used to measure rhythm. Metre is the overall pattern formed by feet, while stanza and verse refer to larger groupings.",
+"id": "litx03016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Foot na di small unit wey dem dey take measure rhythm for poetry. Metre na di whole pattern, while stanza and verse big pass am."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Consider two lines: Line 1 is written in strict iambic pentameter with a regular rhyme scheme. Line 2 has the same ten-syllable iambic pentameter rhythm but has no rhyme at all. What term distinguishes Line 2 from Line 1?",
+"options": [
+"Line 2 is an example of free verse",
+"Line 2 is an example of blank verse",
+"Line 2 is an example of a heroic couplet",
+"Line 2 is an example of a quatrain",
+"Line 2 is an example of a villanelle"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Blank verse keeps the regular iambic pentameter metre but drops rhyme, which matches Line 2 exactly. Free verse has no fixed metre at all, and heroic couplets and quatrains require rhyme, so they do not fit."
+},
+"why": "bad-shape"
+}
+]
+}

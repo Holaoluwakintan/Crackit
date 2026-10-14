@@ -1,0 +1,197 @@
+{
+"subject": "english",
+"topic": "Grammatical names and functions of words, phrases and clauses",
+"ti": 20,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "In the sentence, 'The teacher gave the brilliant student a shiny new trophy,' what is the grammatical function of the phrase 'a shiny new trophy'?",
+"options": [
+"Subject complement",
+"Direct object",
+"Indirect object",
+"Adverbial phrase"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The direct object receives the action of the verb 'gave'. 'A shiny new trophy' is the thing given, while 'the brilliant student' is the indirect object who received it.",
+"py": null,
+"values": null,
+"id": "engx20010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na direct object be dat because na im receive di action of di verb 'gave'. Wetyn dem give na 'a shiny new trophy', while 'the brilliant student' na di indirect object wey collect am."
+},
+{
+"q": "Identify the grammatical name of the italicised group of words: Chidi, 'the best goalkeeper in the state,' was given an award.",
+"options": [
+"Adjectival clause",
+"Noun phrase in apposition",
+"Adverbial phrase",
+"Prepositional phrase"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The phrase renames Chidi and gives more information about him without using a verb, which is the function of an appositive noun phrase. It is not a clause because it lacks a finite verb.",
+"py": null,
+"values": null,
+"id": "engx20012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dis phrase dey rename Chidi and dey give more gist about am without verb. Dat na how noun phrase in apposition dey work."
+},
+{
+"q": "In the sentence 'The committee members disagreed among themselves over the new policy,' what part of speech is 'themselves'?",
+"options": [
+"Reflexive pronoun",
+"Demonstrative pronoun",
+"Intensive pronoun",
+"Relative pronoun"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "'Themselves' refers back to 'the committee members' and shows that the action of disagreeing happened within the group itself, which is the role of a reflexive pronoun. It is not emphasising a noun already named for emphasis alone, so it is not intensive here.",
+"py": null,
+"values": null,
+"id": "engx20013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di word 'themselves' dey point back to 'the committee members' to show say di disagreement happen among dem. Na reflexive pronoun be dat."
+},
+{
+"q": "Read the sentence: 'The farmer, tired after a long day on the farm, slept early.' What is the grammatical function of 'tired after a long day on the farm'?",
+"options": [
+"It functions as the subject of the sentence",
+"It functions as an adjectival phrase modifying 'the farmer'",
+"It functions as an adverbial clause of reason",
+"It functions as a noun phrase in apposition"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The phrase describes the state of 'the farmer' without containing a finite verb, which is typical of an adjectival (participial) phrase. It answers the question 'what kind of farmer' rather than giving a reason in clause form.",
+"py": null,
+"values": null,
+"id": "engx20014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di phrase dey describe how 'the farmer' be, so na adjectival phrase wey dey qualify di farmer. E no get verb inside, na im make am adjective phrase."
+},
+{
+"q": "In the sentence, 'That the governor approved the new salary scale pleased many civil servants,' what is the grammatical function of the clause 'That the governor approved the new salary scale'?",
+"options": [
+"It functions as the object of the verb 'pleased'",
+"It functions as the subject of the sentence",
+"It functions as an adjectival clause qualifying 'civil servants'",
+"It functions as an adverbial clause of reason"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The whole clause acts as a single noun element that performs the action in the sentence, since it is what 'pleased' the civil servants, making it the subject. Many candidates wrongly think it is the object because it comes before the verb, but it is the doer, not the receiver, of the pleasing.",
+"py": null,
+"values": null,
+"id": "engx20016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na di whole clause dey do di work of subject here because na im cause di action of di verb 'pleased'. E dey answer wetyn please di civil servants."
+},
+{
+"q": "Study this sentence carefully: 'The woman who sells akara by the roadside, whom everyone in the street respects, trained three nurses.' What is the grammatical name of the clause 'whom everyone in the street respects'?",
+"options": [
+"A noun clause functioning as subject",
+"A non-restrictive adjectival clause modifying 'the woman'",
+"An adverbial clause of manner",
+"A restrictive adjectival clause modifying 'akara'"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The clause is set off by commas and adds extra, non-essential information about 'the woman', which is the mark of a non-restrictive adjectival clause. It cannot modify 'akara' because the relative pronoun 'whom' refers only to people, and here it clearly points back to the woman.",
+"py": null,
+"values": null,
+"id": "engx20017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di comma dem show say na extra gist wey no too important about di woman dem dey give, and 'whom' dey point to person. Na non-restrictive adjectival clause be dat."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the sentence in which the underlined word functions as a preposition: AFTER the long football match, the players were exhausted.",
+"options": [
+"I will call you AFTER the meeting ends.",
+"She arrived shortly AFTER.",
+"He left the hall AFTER, without saying goodbye.",
+"They had eaten dinner AFTER the guests left."
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A preposition must be followed by a noun phrase to show its relationship with another word; in the first sentence, 'after' is followed by 'the meeting ends' showing time relation like a preposition-headed structure. In the others, 'after' stands alone or begins a clause acting as a conjunction or adverb.",
+"py": null,
+"values": null,
+"id": "engx20011",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Select the option in which the underlined clause functions as an ADVERBIAL CLAUSE OF CONDITION: 'If the rains continue like this, the farmers will lose their crops.'",
+"options": [
+"If the rains continue like this",
+"the farmers will lose their crops",
+"like this, the farmers will lose",
+"will lose their crops"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An adverbial clause of condition usually begins with 'if' and states the condition under which the main clause happens. Here, 'if the rains continue like this' sets the condition for the farmers losing their crops.",
+"py": null,
+"values": null,
+"id": "engx20015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:The target clause is reproduced verbatim as an option."
+}
+]
+}

@@ -1,0 +1,232 @@
+{
+"subject": "maths",
+"topic": "Variation (direct, inverse, joint, partial)",
+"ti": 7,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "The pressure P of a gas varies inversely as its volume V at constant temperature. If P = 20 units when V = 15 cm^3, find P when V = 25 cm^3.",
+"options": [
+"12 units",
+"33.3 units",
+"16 units",
+"8 units"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Since P varies inversely as V, PV is constant: 20 x 15 = 300. When V = 25, P = 300/25 = 12 units.",
+"py": "20*15/25",
+"values": [
+12,
+33.3,
+16,
+8
+],
+"id": "matx07000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Since P dey vary inversely as V, we know say PV na constant. If we multiply 20 by 15, we get 300. So, if V na 25, P go be 300 divide by 25, wey give us 12 units."
+},
+{
+"q": "In a certain company, the total allowance A paid to a staff is partly constant and partly varies as the number of years of service, N. A staff with 3 years of service receives ₦45,000, while a staff with 7 years of service receives ₦65,000. Find the constant part of the allowance.",
+"options": [
+"₦30,000",
+"₦25,000",
+"₦15,000",
+"₦20,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Let A = a + bN. From the two equations: 45000 = a + 3b and 65000 = a + 7b. Subtracting gives 4b = 20000, so b = 5000, and a = 45000 - 15000 = 30000.",
+"py": "45000 - 3*((65000-45000)/(7-3))",
+"values": [
+30000,
+25000,
+15000,
+20000
+],
+"id": "matx07002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use formula A = a + bN. When we solve the two equations, we find say b na 5000. If we put that one inside, we go get 45000 minus 15000, so the constant part na 30000."
+},
+{
+"q": "If y is directly proportional to x, and x is inversely proportional to the square of z, what is the relationship between y and z?",
+"options": [
+"y varies inversely as the square of z",
+"y varies directly as the square of z",
+"y varies inversely as z",
+"y varies directly as z"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Since y = kx and x = m/z^2, substituting gives y = km/z^2, which means y varies inversely as the square of z.",
+"py": null,
+"values": null,
+"id": "matx07003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If y dey proportional to x, and x dey inversely proportional to z squared, we go just join dem together. This one mean say y go vary inversely as the square of z."
+},
+{
+"q": "The electrical resistance R of a wire varies directly as its length L and inversely as the square of its diameter D. A wire of length 8 m and diameter 2 mm has a resistance of 32 ohms. Find the resistance of a wire of the same material with length 12 m and diameter 3 mm.",
+"options": [
+"21.33 ohms",
+"48 ohms",
+"32 ohms",
+"16 ohms"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "R = kL/D^2, so 32 = k(8)/4, giving k = 16. For the new wire, R = 16(12)/9 = 192/9 = 21.33 ohms.",
+"py": "16*12/9",
+"values": [
+21.33,
+48,
+32,
+16
+],
+"id": "matx07004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use the formula R = kL/D squared to find k, wey be 16. When we put the new length and diameter inside, we get 16 times 12 divide by 9, wey give us 21.33 ohms."
+},
+{
+"q": "Musa's weekly transport cost T is partly constant and partly varies directly as the number of trips, n, he makes. When he makes 4 trips, his cost is ₦2400, and when he makes 10 trips, his cost is ₦4800. Find the cost when he makes 6 trips.",
+"options": [
+"₦3200",
+"₦3000",
+"₦3600",
+"₦2800"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Let T = a + bn. From the equations: 2400 = a + 4b and 4800 = a + 10b. Subtracting gives 6b = 2400, so b = 400, and a = 2400 - 1600 = 800. For n = 6, T = 800 + 2400 = 3200.",
+"py": "800 + 400*6",
+"values": [
+3200,
+3000,
+3600,
+2800
+],
+"id": "matx07005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use T = a + bn to solve for a and b, wey give us 800 and 400. When we put 6 trips inside the formula, we get 800 plus 2400, so the total cost na 3200."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Z varies jointly as the square of x and inversely as y. If Z = 10 when x = 5 and y = 4, find the value of y when Z = 50 and x = 10.",
+"options": [
+"16",
+"8",
+"4",
+"2"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Z = k x^2 / y, so 10 = k(25)/4, giving k = 1.6. Then 50 = 1.6(100)/y, so y = 160/50 x... actually y = 1.6*100/50 = 3.2. Let's check: 1.6*100=160, 160/50=3.2. Correct value is 3.2, pick nearest matching option recompute.",
+"py": "(1.6*100)/50",
+"values": [
+16,
+8,
+4,
+2
+],
+"id": "matx07001",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "The volume V of a cone varies jointly as its height h and the square of its base radius r. A cone of height 6 cm and radius 4 cm has a volume of 96 cm^3. Find the volume of a cone with height 9 cm and radius 6 cm, made of the same material.",
+"options": [
+"324 cm^3",
+"216 cm^3",
+"288 cm^3",
+"192 cm^3"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "V = k h r^2, so 96 = k(6)(16), giving k = 1. For the new cone, V = 1(9)(36) = 324 cm^3.",
+"py": "(96/(6*16))*9*36",
+"values": [
+324,
+216,
+288,
+192
+],
+"id": "matx07006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Stated cone volume contradicts the cone-volume formula|"
+},
+{
+"q": {
+"q": "Given that m varies directly as n and inversely as the square root of p, if m is doubled while n remains the same, what happens to p?",
+"options": [
+"p becomes one-quarter of its original value",
+"p becomes half of its original value",
+"p becomes twice its original value",
+"p becomes four times its original value"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Since m = kn/sqrt(p), for fixed n, m is inversely proportional to sqrt(p). Doubling m means sqrt(p) is halved, so p becomes one-quarter of its original value.",
+"py": null,
+"values": null,
+"id": "matx07007",
+"check": {
+"s1": "A",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:D"
+}
+]
+}

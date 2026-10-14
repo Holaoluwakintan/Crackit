@@ -1,0 +1,177 @@
+{
+"subject": "commerce",
+"topic": "E-commerce and computers in business",
+"ti": 19,
+"b": 0,
+"generated": 8,
+"kept": [],
+"rejected": [
+{
+"q": {
+"q": "A major security risk peculiar to carrying out business transactions over the internet is",
+"options": [
+"hacking of customers' personal and financial data by unauthorised persons",
+"damage to goods during loading at the seller's warehouse",
+"late arrival of goods due to traffic congestion on the road",
+"disagreement between a buyer and seller over the price of goods in a physical market",
+"",
+""
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Because online transactions involve transmitting sensitive data through networks, hacking and theft of customer information is a key risk specific to e-commerce. The other options relate to ordinary physical trade problems, not internet security.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which electronic payment instrument allows a cardholder to make purchases on credit, with the bank settling the merchant immediately and billing the cardholder later?",
+"options": [
+"Debit card",
+"Credit card",
+"Automated Teller Machine card used only for withdrawal",
+"Cheque book",
+"",
+""
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A credit card lets the holder buy now and pay the bank later, since the bank pays the merchant immediately on the cardholder's behalf. A debit card, unlike a credit card, deducts money directly from the holder's own account balance at once.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Adaeze runs an online store and wants software that will automatically track the quantity of each product left in her warehouse, alert her when stock is low, and generate reorder reports. This computer application is known as",
+"options": [
+"word processing software",
+"inventory management software",
+"desktop publishing software",
+"electronic spreadsheet for payroll only",
+"",
+""
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Inventory management software is specifically designed to monitor stock levels, trigger low-stock alerts and generate reorder reports. Word processing and desktop publishing software are used for documents and design, not stock control.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "In computer-based business operations, 'data processing' refers to the",
+"options": [
+"physical movement of finished goods from the factory to the retail shop",
+"conversion of raw facts and figures into meaningful information using a computer",
+"advertising of a firm's products on television and radio stations",
+"recruitment and training of new computer operators in an office",
+"",
+""
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Data processing means taking raw, unorganised data and turning it into useful, organised information through computer operations such as sorting, calculating and summarising. The other options describe logistics, marketing and human resource activities, not data processing.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Chuks owns an online clothing business. Customers in Lagos, Kano and Enugu can browse his website, select items, pay with their bank cards and track delivery, all without speaking to him physically. However, Chuks has noticed that many prospective customers in rural areas cannot complete orders because they lack a stable internet connection and bank verification numbers. This scenario best illustrates that e-commerce growth in Nigeria is constrained mainly by",
+"options": [
+"inadequate information and communication technology (ICT) infrastructure and low banking penetration",
+"the high cost of renting a physical shop in city centres",
+"excessive government taxation on online sales alone",
+"the refusal of customers to buy fashionable clothes",
+"",
+""
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The scenario shows rural customers failing to transact because of poor internet access and lack of bank verification, which points directly to weak ICT infrastructure and low banking penetration as the real constraint. It is not about shop rent, taxation, or customer taste, which are not mentioned in the passage.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A key difference between a 'search engine' and a 'web browser' as used in e-commerce is that",
+"options": [
+"a search engine is software used to locate information or websites, while a web browser is the program used to access and display those websites",
+"a search engine stores a firm's financial accounts, while a web browser prints invoices",
+"a search engine sells goods directly to consumers, while a web browser only advertises goods",
+"a search engine and a web browser mean exactly the same thing and are used interchangeably",
+"",
+""
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A search engine such as a search tool helps users find information or websites by keyword, while a web browser is the application (like a window) used to open and view those websites once found. They perform different, complementary functions rather than being identical.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following best describes 'electronic banking' (e-banking) as applied in modern commerce?",
+"options": [
+"The use of computers and telecommunication networks to carry out banking transactions without visiting a banking hall",
+"The practice of storing cash in a computer file instead of a bank vault",
+"The transportation of bank documents from one branch to another by courier",
+"The employment of extra bank staff to handle customer complaints"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "E-banking means using computers and networks (like ATMs, mobile apps and the internet) to perform banking transactions remotely. It does not involve physically storing cash in files or courier delivery of documents.",
+"py": null,
+"values": null,
+"id": "comx19000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Okon buys a laptop worth ₦250,000 from an online store using a mobile banking app that transfers money directly from his bank account to the seller's account within seconds, without any paper cheque or physical cash changing hands. If the bank charges a flat electronic transfer fee of ₦52.50 for the transaction, what is the total amount deducted from Okon's account?",
+"options": [
+"₦250,000.00",
+"₦250,052.50",
+"₦249,947.50",
+"₦252,500.00"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The total amount deducted is the cost of the laptop plus the transfer fee charged by the bank, which is 250,000 + 52.50 = 250,052.50. This tests understanding that electronic fund transfers often attract extra charges beyond the price of the item.",
+"py": "250000 + 52.50",
+"values": [
+250000.0,
+250052.5,
+249947.5,
+252500.0
+],
+"id": "comx19007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

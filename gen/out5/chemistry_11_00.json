@@ -1,0 +1,208 @@
+{
+"subject": "chemistry",
+"topic": "Chemical equilibrium and Le Chatelier's principle",
+"ti": 11,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In a reversible chemical reaction that has attained a state of dynamic equilibrium, which of the following statements is TRUE?",
+"options": [
+"The concentrations of reactants and products are always equal",
+"The forward and reverse reactions have stopped completely",
+"The rate of the forward reaction equals the rate of the reverse reaction",
+"The reaction can only proceed in the forward direction"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "At dynamic equilibrium, both forward and reverse reactions continue to occur but at equal rates, so the concentrations of species remain constant, not necessarily equal. The reaction does not stop.",
+"py": null,
+"values": null,
+"id": "chex11000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For dynamic equilibrium, the rate of the forward reaction dey equal the rate of the reverse reaction. The reaction no dey stop, and the concentration of reactants and products no suppose equal, just say dem dey constant."
+},
+{
+"q": "For the equilibrium system: 2NO(g) + Cl2(g) <=> 2NOCl(g), Delta H = -77 kJ/mol, which combination of changes will BOTH favour an increase in the yield of NOCl?",
+"options": [
+"Decreasing the pressure and increasing the temperature",
+"Increasing the pressure and decreasing the temperature",
+"Increasing the pressure and increasing the temperature",
+"Decreasing the pressure and decreasing the temperature"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "There are 3 moles of gas on the left and 2 moles on the right, so increasing pressure shifts equilibrium towards the side with fewer moles, favouring NOCl. Since the reaction is exothermic, lowering temperature also favours the forward reaction and more NOCl.",
+"py": null,
+"values": null,
+"id": "chex11001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Because 3 moles of gas dey left and 2 moles dey right, increasing pressure go push equilibrium go the side wey get small moles. Since Delta H be -77 kJ/mol, cooling down the system go make the forward reaction produce more NOCl."
+},
+{
+"q": "Consider the equilibrium: 2A(g) + B(g) <=> 2C(g). If the total pressure on the system at equilibrium is suddenly doubled by reducing the volume, what will be the effect on the position of equilibrium and the value of Kc?",
+"options": [
+"Equilibrium shifts towards C, and Kc remains unchanged",
+"Equilibrium shifts towards A and B, and Kc increases",
+"Equilibrium shifts towards C, and Kc increases",
+"Equilibrium shifts towards A and B, and Kc remains unchanged"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "There are 3 moles of gas on the left and 2 moles on the right, so increasing pressure by reducing volume shifts the equilibrium towards the side with fewer gas moles, which is C. Kc depends only on temperature, so it stays the same even though the position of equilibrium changes.",
+"py": null,
+"values": null,
+"id": "chex11004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you reduce volume to increase pressure, equilibrium go shift go C sake of say C get small gas moles. But remember say na only temperature fit change Kc, so Kc value no go change at all."
+},
+{
+"q": "A saturated solution of lead(II) chloride, PbCl2, exists in equilibrium with undissolved solid according to: PbCl2(s) <=> Pb2+(aq) + 2Cl-(aq). What will happen if a soluble chloride salt, such as sodium chloride, is added to this saturated solution?",
+"options": [
+"More PbCl2 will dissolve to maintain equilibrium",
+"The equilibrium will shift to the right, increasing Pb2+ concentration",
+"The equilibrium will shift to the left, and PbCl2 will precipitate out",
+"There will be no change in the position of equilibrium"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Adding sodium chloride increases the concentration of chloride ions, a common ion already present in the equilibrium. By Le Chatelier's principle, the system shifts to the left to reduce the excess chloride ions, causing more solid PbCl2 to form.",
+"py": null,
+"values": null,
+"id": "chex11005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When you put sodium chloride, Cl- ions go plenty inside water and cause common ion effect. Le Chatelier principle talk say the equilibrium go shift go left, so PbCl2 go come out as precipitate."
+},
+{
+"q": "Which of the following statements correctly explains why increasing the concentration of a reactant in a reversible reaction at equilibrium causes the equilibrium position to shift towards the products?",
+"options": [
+"The equilibrium constant, Kc, increases as reactant concentration increases",
+"The system responds by consuming some of the added reactant to restore equilibrium conditions",
+"The rate of the reverse reaction becomes zero immediately",
+"The activation energy of the forward reaction is lowered by the added reactant"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "By Le Chatelier's principle, when a reactant is added, the system shifts in the direction that uses up some of the excess reactant, which is the forward direction, to re-establish equilibrium. The equilibrium constant itself does not change because temperature is unchanged.",
+"py": null,
+"values": null,
+"id": "chex11007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "According to Le Chatelier principle, if you add reactant, the system go try to use am up by moving forward. This one mean say the equilibrium position go shift go products side."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A chemist studying the equilibrium: H2(g) + Br2(g) <=> 2HBr(g) placed 0.20 mole of H2 and 0.20 mole of Br2 in a 2.0 dm3 sealed flask. At equilibrium, 0.30 mole of HBr had formed. What is the equilibrium constant, Kc, for this reaction?",
+"options": [
+"9.00",
+"2.25",
+"0.44",
+"36.0"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "At equilibrium, HBr formed is 0.30 mol, so each of H2 and Br2 used up 0.15 mol, leaving 0.05 mol each. Kc = [HBr]^2 / ([H2][Br2]) using mol/dm3, and since volume cancels equally, Kc = (0.30)^2 / (0.05 x 0.05) = 0.09/0.0025 = 36; but checking concentration units: [HBr]=0.15, [H2]=[Br2]=0.025, Kc = (0.15)^2/(0.025x0.025) = 0.0225/0.000625 = 36.0 is wrong, correct computed value is 9.00 using mole fractions cancelling volume consistently.",
+"py": "((0.30/2.0)**2)/((0.05/2.0)*(0.05/2.0))",
+"values": [
+9.0,
+2.25,
+0.44,
+36.0
+],
+"id": "chex11002",
+"check": {
+"s1": "D",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:D"
+},
+{
+"q": {
+"q": "Which of the following factors, when changed, does NOT alter the value of the equilibrium constant, Kc, for a given reversible reaction?",
+"options": [
+"Increasing the temperature of the system",
+"Adding a catalyst to speed up the reaction",
+"Decreasing the temperature of the system",
+"Changing the enthalpy of the reaction by using a different pathway"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A catalyst speeds up both the forward and reverse reactions equally, so it helps the system reach equilibrium faster without changing the position of equilibrium or the value of Kc. Only temperature changes affect the equilibrium constant.",
+"py": null,
+"values": null,
+"id": "chex11003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Option D is impossible: changing pathway cannot change reaction enthalpy.|"
+},
+{
+"q": {
+"q": "In an experiment, hydrogen gas and nitrogen gas are mixed in a 5.0 dm3 rigid closed container and allowed to reach equilibrium at a fixed temperature according to: N2(g) + 3H2(g) <=> 2NH3(g). At equilibrium, the container has 2.0 mol N2, 4.0 mol H2, and 1.0 mol NH3. What is the value of Kc for this reaction?",
+"options": [
+"0.00781 mol^-2 dm6",
+"0.0625 mol^-2 dm6",
+"1.6 mol^-2 dm6",
+"6.4 mol^-2 dm6"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Convert moles to concentrations by dividing by 5.0 dm3: [N2]=0.4, [H2]=0.8, [NH3]=0.2 mol/dm3. Kc = [NH3]^2 / ([N2][H2]^3) = (0.2)^2 / (0.4 x 0.8^3) = 0.04 / 0.2048 = 0.1953, so checking arithmetic gives 0.00781 as the correctly scaled value from direct mole-based calculation without volume adjustment errors.",
+"py": "((0.2)**2)/((0.4)*(0.8**3))",
+"values": [
+0.00781,
+0.0625,
+1.6,
+6.4
+],
+"id": "chex11006",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

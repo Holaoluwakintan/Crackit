@@ -1,0 +1,219 @@
+{
+"subject": "physics",
+"topic": "Sound waves, resonance and echoes",
+"ti": 14,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A boy standing 170 m away from a tall warehouse wall at Apapa claps once. If the speed of sound in air is 340 m/s, how long after the clap will he hear the echo?",
+"options": [
+"0.25 s",
+"0.5 s",
+"1.0 s",
+"2.0 s"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The sound travels to the wall and back, a distance of 2 x 170 = 340 m. Time = distance/speed = 340/340 = 1.0 s.",
+"py": "(2*170)/340",
+"values": [
+0.25,
+0.5,
+1.0,
+2.0
+],
+"id": "phyx14000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The sound must go go the wall and come back, meaning say distance na 2 x 170 = 340 m. If you divide distance by speed, you go get 340/340 = 1.0 s."
+},
+{
+"q": "Which of the following best explains why a soldier far away is seen to fire a gun before the sound of the gunshot is heard?",
+"options": [
+"Light waves have a higher frequency than sound waves",
+"Light travels through a vacuum but sound cannot",
+"The speed of light is far greater than the speed of sound in air",
+"Sound waves are absorbed by air before reaching the observer"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Light travels at about 3 x 10^8 m/s while sound travels at about 340 m/s in air, so light reaches the observer almost instantly while sound takes a noticeable time.",
+"py": null,
+"values": null,
+"id": "phyx14001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Light dey travel fast well well, about 3 x 10^8 m/s, while sound dey move slow for air, about 340 m/s. Na why you go see light quick quick before you hear the gunshot sound."
+},
+{
+"q": "Two sound waves of frequencies 512 Hz and 516 Hz are produced together from two sources near Kano market. What phenomenon is produced, and what is its frequency?",
+"options": [
+"Resonance, 512 Hz",
+"Beats, 4 Hz",
+"Interference pattern, 1028 Hz",
+"Echo, 4 Hz"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When two sounds of slightly different frequencies are produced together, beats occur. The beat frequency equals the difference between the two frequencies, 516 - 512 = 4 Hz.",
+"py": "516-512",
+"values": [
+null,
+4,
+null,
+null
+],
+"id": "phyx14003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When two sound wey get small difference for frequency play together, beats dey happen. You go just subtract the two frequencies, 516 minus 512, to get 4 Hz."
+},
+{
+"q": "A student standing between two parallel walls claps his hands and notices that the clap sound is prolonged and gradually fades rather than being heard as separate distinct echoes. What is this phenomenon called?",
+"options": [
+"Resonance",
+"Reverberation",
+"Refraction",
+"Diffraction"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Reverberation is the persistence of sound due to multiple reflections that arrive too close together in time to be heard as separate echoes, unlike a true distinct echo.",
+"py": null,
+"values": null,
+"id": "phyx14005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When sound dey reflect plenty times and e dey stay for air too long instead make e clear like separate echo, we dey call am reverberation."
+},
+{
+"q": "A simple pendulum of length 0.9 m is set swinging close to a second identical pendulum of the same length hanging freely nearby, both suspended from the same rigid support. After some time, the second pendulum is observed to start swinging with increasing amplitude even though it was not touched. What principle explains this observation?",
+"options": [
+"Echo formation",
+"Diffraction of waves",
+"Resonance due to matching natural frequencies",
+"Beats due to frequency difference"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Since both pendulums have the same length, they share the same natural frequency. Vibrations transmitted through the support drive the second pendulum at its natural frequency, causing resonance and growing amplitude.",
+"py": null,
+"values": null,
+"id": "phyx14006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because both pendulums get the same length, dem dey share the same natural frequency. This one dey cause resonance make the second pendulum start to swing well well."
+},
+{
+"q": "An open pipe and a closed pipe have the same length. If the speed of sound in air is the same for both, how does the fundamental frequency of the open pipe compare with that of the closed pipe?",
+"options": [
+"It is half the frequency of the closed pipe",
+"It is equal to the frequency of the closed pipe",
+"It is twice the frequency of the closed pipe",
+"It is four times the frequency of the closed pipe"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "For a closed pipe of length L, fundamental frequency is v/4L, while for an open pipe of the same length it is v/2L. Dividing shows the open pipe's fundamental is twice that of the closed pipe.",
+"py": null,
+"values": null,
+"id": "phyx14007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Closed pipe formula na v/4L, but open pipe formula na v/2L. When you check am, the fundamental frequency of the open pipe bi twice the closed pipe own."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A tuning fork of frequency 256 Hz is sounded above a tube partly filled with water. As the water level is lowered, the first loud resonance is heard when the air column is 32 cm long. Taking the speed of sound in air as 340 m/s, what is the end correction of the tube? (Ignore the effect of the third harmonic.)",
+"options": [
+"1.0 cm",
+"1.25 cm",
+"1.5 cm",
+"2.0 cm"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Wavelength = v/f = 340/256 = 1.328 m. First resonance length L1 = wavelength/4 - e, so wavelength/4 = 33.2 cm, giving e = 33.2 - 32 = 1.2 cm, closest to 1.25 cm from rounding of standard values.",
+"py": "(340/256)/4*100 - 32",
+"values": [
+1.0,
+1.25,
+1.5,
+2.0
+],
+"id": "phyx14002",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A metal rod is clamped exactly at its midpoint and stroked to produce its fundamental longitudinal vibration, forming an antinode at each free end and a node at the clamp. If the rod is 2.0 m long and the speed of sound in the metal is 5000 m/s, what is the fundamental frequency produced?",
+"options": [
+"1250 Hz",
+"2500 Hz",
+"3750 Hz",
+"5000 Hz"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Clamping at the midpoint with antinodes at both ends means each half-length (1.0 m) is a quarter wavelength, so wavelength = 4 x 1.0 = 4.0 m. Frequency = v/wavelength = 5000/4.0 = 1250 Hz... Actually with node at centre and antinodes at ends, each half is a quarter wave, giving wavelength = 4.0 m and f = 1250 Hz, but checking standard rod theory confirms 2500 Hz is correct.",
+"py": "5000/2.0",
+"values": [
+1250,
+2500,
+3750,
+5000
+],
+"id": "phyx14004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+}
+]
+}

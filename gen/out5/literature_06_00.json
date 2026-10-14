@@ -1,0 +1,175 @@
+{
+"subject": "literature",
+"topic": "Literary terms and genres (satire, allegory, fable, bildungsroman, picaresque)",
+"ti": 6,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In literary studies, 'genre' refers to a category of composition distinguished by particular features of form, style, or subject matter. Which of these is a valid genre classification covering several literary works regardless of their specific plot?",
+"options": [
+"Tragedy, comedy, and epic",
+"Metaphor, simile, and hyperbole",
+"Protagonist, antagonist, and foil",
+"Climax, rising action, and denouement"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Tragedy, comedy and epic are broad genre categories based on form and tone. The other options are figures of speech, character types, and plot stages, not genres.",
+"id": "litx06000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na tragedy, comedy and epic be broad genre categories based on form and tone. Dem other options na figures of speech, character types, and plot stages, no be genres."
+},
+{
+"q": "A young clerk named Dare leaves his quiet hometown of Ijebu-Ode for Lagos, where he suffers betrayal, loses his savings to fraudsters, falls in love, and eventually returns home transformed, wiser and more self-aware about his place in the world. This plot summary best fits which literary form?",
+"options": [
+"Picaresque novel",
+"Bildungsroman",
+"Fable",
+"Allegory"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The story traces Dare's inner growth, maturity, and self-understanding from youth to adulthood, which is the central feature of a bildungsroman. It is not picaresque because the focus is on moral development, not roguish episodic adventures.",
+"id": "litx06001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The story dey show how Dare grow inside, mature, and sabi himself well from small pikin to man, wey be the main thing for bildungsroman. E no be picaresque because the focus na moral growth, no be rogue adventures."
+},
+{
+"q": "A dramatist writes a play in which 'Honesty', 'Corruption', and 'Justice' appear as named characters who argue over the fate of a town called Trueville. Every event in the play symbolically represents a real moral or political struggle. This technique is best described as",
+"options": [
+"satire",
+"allegory",
+"picaresque narrative",
+"bildungsroman"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Characters personifying abstract qualities like Honesty and Corruption, used to represent a larger moral or political message, is the defining feature of allegory. Satire ridicules vice through wit, which is not the main technique here.",
+"id": "litx06002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Make characters carry names like Honesty and Corruption to represent moral message na the true meaning of allegory. Satire dey use joke to mock bad habits, wey no be the main style here."
+},
+{
+"q": "Read this passage: 'The tortoise invited all the animals to a feast, promised to share equally, but secretly ate the best portions alone at night, leaving only bones for his guests.' Besides teaching a lesson about greed, which additional literary technique is most clearly at work here?",
+"options": [
+"Epic simile",
+"Anthropomorphism",
+"Dramatic monologue",
+"Blank verse"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Giving the tortoise human traits such as hosting a feast and scheming selfishly is anthropomorphism, common in fables. The other options are unrelated literary devices not present in the passage.",
+"id": "litx06003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To give tortoise human character like to host feast and dey plan bad thing na anthropomorphism, wey plenty for tortoise stories. Those other options no even concern this passage at all."
+},
+{
+"q": "A satirist writes: 'Chief Lekan built three mansions from a road contract meant for potholes that still swallow cars whole, then donated bags of rice to the press for applause.' Which satirical technique is the writer primarily using to criticize the chief?",
+"options": [
+"Juxtaposition of professed generosity against obvious corruption",
+"Use of rhythmic blank verse to build suspense",
+"A tragic flaw leading to the chief's downfall",
+"An extended epic simile comparing the chief to a warrior"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The writer places the chief's small public charity side by side with his large private corruption, exposing hypocrisy through contrast, which is a classic satirical technique. There is no verse form, tragic flaw, or simile involved in the passage.",
+"id": "litx06005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The writer carry the chief small public help put side by side with him big corruption to show hypocrisy through contrast, and na classic satire style. No verse form, tragic flaw or simile dey inside."
+},
+{
+"q": "A critic notes that a certain novel 'uses the protagonist's physical journey across several towns as a mirror for his inner moral education, ending with him settling down as a responsible man.' This combination of outer journey and inner growth is most typical of which literary form?",
+"options": [
+"Fable",
+"Picaresque novel",
+"Bildungsroman",
+"Allegory"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A bildungsroman can include travel, but its defining mark is that the journey serves the protagonist's moral and psychological education, ending in settled maturity. A picaresque novel, by contrast, centers on roguish survival rather than genuine inner development.",
+"id": "litx06007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Bildungsroman fit involve travel, but the main point be say the journey dey help person moral and mind education until e come wise. Picaresque novel just dey talk about rogue survival, no be real inner maturity."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of these best explains why picaresque novels are often described as 'episodic' in structure?",
+"options": [
+"The story is told entirely through letters exchanged between two characters",
+"The plot consists of loosely connected adventures the roguish hero experiences while moving from place to place",
+"Each chapter strictly builds on the previous one toward a single tragic climax",
+"The narrative follows one continuous, unbroken event without any time gaps",
+""
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Picaresque novels follow a rogue hero through a series of separate, often unrelated adventures linked mainly by the hero's journey, making the plot episodic rather than tightly unified. The other options describe epistolary novels or tightly structured tragic plots instead."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following statements correctly distinguishes a fable from a parable?",
+"options": [
+"A fable always uses animal or inanimate characters to teach a lesson, while a parable typically uses human characters in realistic situations",
+"A fable is always longer than a parable and uses complex plots",
+"A parable never teaches a moral lesson, unlike a fable",
+"A fable is written only in verse, while a parable is written only in prose"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Fables conventionally use animals or objects as characters to convey a moral, while parables use human figures in lifelike settings to teach spiritual or ethical truths. The other statements misrepresent both forms.",
+"id": "litx06004",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

@@ -1,0 +1,175 @@
+{
+"subject": "biology",
+"topic": "Coordination: nervous system, reflex action and sense organs",
+"ti": 11,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which part of the brain forms the link between the cerebrum and the spinal cord, and also controls vital reflexes such as swallowing, coughing and vomiting?",
+"options": [
+"Cerebellum",
+"Medulla oblongata",
+"Hypothalamus",
+"Corpus callosum"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The medulla oblongata connects the brain to the spinal cord and regulates vital reflex actions like swallowing, coughing and vomiting. The cerebellum controls balance, not these reflexes.",
+"id": "biox11010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na medulla oblongata dey connect brain join spinal cord, e still dey control important reflex like to dey cough, vomit and swallow. E correct well well."
+},
+{
+"q": "A student slices through the human eyeball from front to back and examines the layers. Which layer is correctly described as the tough, white, outer protective coat that is continuous with the transparent cornea?",
+"options": [
+"Choroid",
+"Retina",
+"Sclera",
+"Conjunctiva"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The sclera is the tough, white outer coat of the eyeball that protects the inner structures and is continuous with the clear cornea at the front. The choroid is the middle pigmented, vascular layer, while the retina is the innermost light-sensitive layer.",
+"id": "biox11011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na sclera be that strong white cover wey dey protect eye for outside and join join with the transparent cornea for front. E correct die."
+},
+{
+"q": "A farmer in Kano accidentally steps on a sharp thorn with his bare foot and rapidly lifts the foot before feeling pain. Which sequence correctly shows the order of structures involved in this withdrawal reflex?",
+"options": [
+"Receptor -> motor neurone -> relay neurone -> sensory neurone -> effector",
+"Receptor -> sensory neurone -> relay neurone -> motor neurone -> effector",
+"Effector -> sensory neurone -> relay neurone -> motor neurone -> receptor",
+"Receptor -> relay neurone -> sensory neurone -> motor neurone -> effector"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In a typical spinal reflex arc, the receptor detects the stimulus, the sensory neurone carries the impulse to the spinal cord, a relay neurone processes it, the motor neurone then carries the impulse to the effector, which is the muscle that produces the withdrawal. This correct order matches the second option exactly.",
+"id": "biox11013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For reflex action, message must start from receptor, go through sensory neurone, enter relay neurone, pass motor neurone, before e reach effector. Na the correct arrangement be that."
+},
+{
+"q": "Which of the following best explains why damage to the cerebellum, rather than the cerebrum, would most likely cause a person to walk with a staggering, uncoordinated gait even though the person can still think and move their legs?",
+"options": [
+"The cerebellum stores long-term memory needed for walking patterns",
+"The cerebellum coordinates muscle activity and maintains balance and posture during movement",
+"The cerebellum controls voluntary decision-making about where to walk",
+"The cerebellum regulates body temperature which affects muscle movement"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The cerebellum's main job is coordinating muscle activity, balance and posture so that movements are smooth; damage to it causes jerky, uncoordinated movement even though voluntary control from the cerebrum remains intact. The other options describe functions of other brain regions, not the cerebellum.",
+"id": "biox11014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na cerebellum dey help person balance body and coordinate muscle movement. If e spoil, person gait go scatter even though him brain still dey think."
+},
+{
+"q": "A Biology teacher in Kaduna explains that the autonomic nervous system controls involuntary activities through two divisions that usually have opposite effects on the same organs. Which of the following correctly pairs these two divisions with their typical effect on heart rate?",
+"options": [
+"Sympathetic division slows heart rate; parasympathetic division speeds it up",
+"Sympathetic division speeds up heart rate; parasympathetic division slows it down",
+"Both divisions always speed up heart rate equally",
+"Both divisions have no effect on heart rate, only on digestion"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The sympathetic division prepares the body for stress or activity by increasing heart rate, while the parasympathetic division promotes rest and digestion by slowing heart rate. These two divisions of the autonomic nervous system generally act antagonistically on the same organs.",
+"id": "biox11015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Sympathetic division dey make heart beat fast for emergency, while parasympathetic division dey calm am down to normal. E correct as e be."
+},
+{
+"q": "A student investigating the human tongue notices that different regions seem more sensitive to particular tastes. Which of the following is the correct function of taste buds found on the tongue as sense organs?",
+"options": [
+"They contain photoreceptor cells that detect light intensity on food",
+"They contain chemoreceptor cells that detect dissolved chemical substances in food",
+"They contain mechanoreceptor cells that detect the texture and hardness of food only",
+"They contain thermoreceptor cells that detect only the temperature of food"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Taste buds contain chemoreceptors that are stimulated by chemical substances dissolved in saliva, allowing the tongue to detect tastes such as sweet, sour, salty and bitter. They are not photoreceptors, mechanoreceptors or thermoreceptors, though the tongue has separate receptors for texture and temperature.",
+"id": "biox11016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Taste buds carry chemoreceptor cells wey dey taste any chemical substance wey melt inside food. Na true talk be that."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A student compares two scenarios: in the first, a child quickly pulls her hand off a hot pot without thinking; in the second, the same child later consciously decides to switch off the gas cooker after seeing smoke. Which statement correctly distinguishes these two types of nervous coordination?",
+"options": [
+"Both responses are reflex actions because they involve the nervous system",
+"The first is a reflex action controlled mainly at the spinal cord; the second is a voluntary action controlled by the cerebrum after conscious thought",
+"The first is voluntary because the child used her hand; the second is a reflex because it happened after seeing smoke",
+"Both responses are voluntary actions since they both require sense organs to detect a stimulus",
+"\t"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Withdrawing the hand from a hot pot is an involuntary, rapid reflex action usually coordinated at the spinal cord without needing conscious thought, while deciding to switch off the cooker involves reasoning and judgement processed in the cerebrum, making it a voluntary action. Simply using a sense organ or body part does not by itself define an action as reflex or voluntary; the key difference is whether conscious thought is involved."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "In the knee-jerk (patellar) reflex, which combination correctly describes the roles played during the reflex arc?",
+"options": [
+"The stretch receptor in the tendon detects stimulus; a sensory neurone carries impulse to the spinal cord; a motor neurone causes the muscle to contract",
+"The stretch receptor detects stimulus; impulse travels to the brain for interpretation before a response is sent back",
+"A relay neurone in the muscle detects stimulus and directly contracts the muscle without the spinal cord",
+"The effector detects the stimulus and sends the impulse directly to the sensory neurone"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In the knee-jerk reflex, a stretch receptor in the tendon detects the tap, the sensory neurone carries the impulse to the spinal cord, and a motor neurone then signals the thigh muscle to contract, producing the jerk. This is a simple reflex that does not require processing by the brain, making response A correct and the brain-based option wrong.",
+"id": "biox11012",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

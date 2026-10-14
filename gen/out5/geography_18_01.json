@@ -1,0 +1,196 @@
+{
+"subject": "geography",
+"topic": "Geography of Nigeria: location, relief, drainage, climate and vegetation",
+"ti": 18,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following pairs of rivers drains the Chad Basin of north-eastern Nigeria into Lake Chad?",
+"options": [
+"River Hadejia and River Komadugu Yobe",
+"River Sokoto and River Rima",
+"River Kaduna and River Gurara",
+"River Ogun and River Oshun"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Chad Basin in the north-east is drained by the Hadejia and Komadugu Yobe river system, which flows into Lake Chad. The other rivers listed belong to the Niger and Sokoto-Rima drainage systems in other parts of Nigeria.",
+"py": null,
+"values": null,
+"id": "geox18010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na River Hadejia and Komadugu Yobe dey drain water go inside Lake Chad for north-east. Other rivers wey dem list dey flow go different places like Niger or Sokoto-Rima basin."
+},
+{
+"q": "A particular relief region of Nigeria is described as an undulating lowland lying mostly below 150 metres above sea level, bordering the Atlantic Ocean, and made up of recent sedimentary deposits with creeks, lagoons and sand bars. Which relief region is being described?",
+"options": [
+"The coastal plains and Niger Delta",
+"The Jos Plateau",
+"The Udi-Nsukka highlands",
+"The Chad Basin lowlands"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The coastal plains and Niger Delta region is low-lying, below 150 metres, and consists of young sedimentary materials with lagoons, creeks and sand bars along the Atlantic coast. The Jos Plateau and Udi-Nsukka highlands are elevated areas, not low coastal lands.",
+"py": null,
+"values": null,
+"id": "geox18011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Dis place na coastal plains and Niger Delta because e low well well and get plenty sand bars and creeks. Jos Plateau and Udi-Nsukka highlands na high ground, no be low land."
+},
+{
+"q": "Which of the following best explains why the Sudan savanna vegetation of northern Nigeria consists mainly of short scattered trees and grasses, unlike the tall forest of the south?",
+"options": [
+"Lower and more seasonal rainfall in the north limits tree growth and favours drought-resistant grasses",
+"The northern soils are naturally more fertile than southern soils, favouring grass over trees",
+"Northern Nigeria lies closer to the equator than southern Nigeria",
+"Harmattan winds in the north increase soil moisture, which favours grasses over trees"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Rainfall in the north is lower in total amount and concentrated in a shorter wet season, so only drought-resistant grasses and scattered short trees can survive. Northern Nigeria is actually farther from the equator than the south, and harmattan dries rather than moistens the soil.",
+"py": null,
+"values": null,
+"id": "geox18012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Rain no too fall for north and the time wey rain dey fall short, so na only grass and small trees fit survive. Harmattan dey dry ground, e no dey give moisture."
+},
+{
+"q": "Which of the following statements correctly describes the relief of the Niger-Benue trough?",
+"options": [
+"It is a broad lowland formed along the valleys of the River Niger and River Benue, lying generally below 300 metres",
+"It is the highest relief region in Nigeria, exceeding 2,000 metres above sea level",
+"It consists mainly of ancient crystalline rocks forming steep-sided plateaus",
+"It is located entirely along the Atlantic coastline of Nigeria"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Niger-Benue trough is a lowland region formed by the valleys of the two major rivers, generally lying below 300 metres above sea level. It is not Nigeria's highest region, is not made of ancient crystalline plateau rocks, and does not lie along the coast.",
+"py": null,
+"values": null,
+"id": "geox18014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Niger-Benue trough na big lowland wey dey below 300 metres. E no be high mountain and e no dey for coast."
+},
+{
+"q": "A particular Nigerian climate station records a mean annual rainfall of about 1,900 mm spread over eight to nine months, a mean annual temperature of around 26°C, and almost no distinct dry season of the harsh harmattan type. Which climatic type is most likely being described, and in which part of Nigeria is it typically found?",
+"options": [
+"Tropical monsoon type, found in the extreme south-east around the Niger Delta and Calabar area",
+"Tropical continental type, found in the far north around Sokoto and Katsina",
+"Semi-arid type, found around the Chad Basin in the north-east",
+"Highland type, found on the Jos Plateau"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "High rainfall above 1,800 mm, a long wet season of eight to nine months and the near absence of a harsh dry season point to the tropical monsoon climate found in the extreme south-east, such as around Calabar and the Niger Delta. The continental and semi-arid types of the north have much lower rainfall and a long harmattan period, while the Jos Plateau has a cooler highland climate.",
+"py": null,
+"values": null,
+"id": "geox18015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Plenty rain and long wet season wey no get harsh harmattan na sign of tropical monsoon climate for south-east. North get dry weather and harmattan, while Jos Plateau get cool highland weather."
+},
+{
+"q": "Nigeria's location roughly between the Sahara Desert to the north and the Atlantic Ocean to the south has which of the following major effects on its climate?",
+"options": [
+"It produces a gradual transition from humid equatorial conditions in the south to drier tropical continental conditions in the north",
+"It causes the whole country to experience uniform desert conditions throughout the year",
+"It makes southern Nigeria drier than northern Nigeria",
+"It prevents moist winds from the Atlantic Ocean from reaching any part of Nigeria"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Because Nigeria stretches from the Atlantic coast to the edge of the Sahara, moisture-bearing winds from the ocean influence the south more than the north, creating a climatic gradient from wet equatorial conditions in the south to drier continental conditions in the north. The other options wrongly describe Nigeria as uniformly desert or reverse the actual rainfall pattern.",
+"py": null,
+"values": null,
+"id": "geox18016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because Nigeria dey between Sahara desert and Atlantic Ocean, weather dey change from wet for south go dry for north. The ocean wind dey make south wet, while north dey dry."
+},
+{
+"q": "Which of the following best describes the general direction of flow of the River Niger from its source to the point where it enters Nigeria, before it curves southward towards the sea?",
+"options": [
+"It rises in the Fouta Djallon highlands of Guinea and flows north-east then curves south-east through Mali and Niger Republic into Nigeria",
+"It rises on the Jos Plateau and flows directly south into the Atlantic Ocean",
+"It rises in Lake Chad and flows westward across northern Nigeria",
+"It rises in Cameroon and flows westward into Nigeria through the Benue trough"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The River Niger rises in the Fouta Djallon highlands of Guinea, flows north-eastward in a great bend through Mali and Niger Republic, and then curves south-eastward into Nigeria before draining into the Atlantic Ocean through the Niger Delta. It does not rise on the Jos Plateau, Lake Chad, or in Cameroon, which is instead the source area of the River Benue.",
+"py": null,
+"values": null,
+"id": "geox18017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "River Niger start from Fouta Djallon for Guinea, e flow go north-east before e turn go south-east enter Nigeria. E no start for Jos Plateau or Lake Chad."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A farmer in the derived (Guinea) savanna belt of Nigeria notices that his area has taller grasses and more scattered trees than the Sudan savanna further north, but fewer trees than the rainforest further south. This transitional vegetation belt is best explained by which factor?",
+"options": [
+"A gradual decrease in rainfall amount and duration of the wet season from south to north",
+"A gradual increase in soil fertility from south to north",
+"The presence of the Jos Plateau, which blocks rainfall from reaching the area",
+"Heavier human settlement in the south compared to the derived savanna belt"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The derived savanna lies between the rainforest and Sudan savanna because rainfall amount and the length of the rainy season decrease steadily from south to north, producing a transitional mix of grass and trees. It is not mainly caused by soil fertility, the Jos Plateau, or settlement patterns.",
+"py": null,
+"values": null,
+"id": "geox18013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Derived savanna and Guinea savanna are distinct vegetation belts.|"
+}
+]
+}

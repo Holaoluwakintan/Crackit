@@ -1,0 +1,194 @@
+{
+"subject": "geography",
+"topic": "Weathering and mass movement",
+"ti": 7,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Onyeka observed that a layer of iron-rich rock in his village near Itakpe had turned reddish-brown and become crumbly after many years of exposure to air and moisture, without any change in its mineral arrangement by plant or animal action. Which chemical weathering process is responsible for this change?",
+"options": [
+"Oxidation",
+"Carbonation",
+"Hydrolysis",
+"Exfoliation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Oxidation occurs when iron-bearing minerals react with oxygen in the presence of moisture, forming reddish-brown iron oxides and weakening the rock. Exfoliation is a physical process, while carbonation and hydrolysis involve different chemical reactions.",
+"py": null,
+"values": null,
+"id": "geox07000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na oxidation dey happen when iron for rock come meet oxygen plus water, con turn am red-brown and weak. Dem other options no be chemical weathering like dis one."
+},
+{
+"q": "Which of the following best explains why biological weathering is generally more active in a tropical rainforest region of Nigeria than in the semi-arid far north?",
+"options": [
+"Higher wind speeds in the forest increase rock abrasion",
+"Dense vegetation and abundant soil organisms thrive in the warm, humid conditions, increasing root action and organic acid production",
+"Lower temperatures in the forest cause more frost action",
+"Frequent sandstorms expose fresh rock surfaces in the forest"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Warm, humid conditions in the rainforest support dense plant growth and many soil organisms, whose roots and decaying matter release organic acids that break down rocks. The semi-arid north lacks this vegetation density, so biological weathering is weaker there.",
+"py": null,
+"values": null,
+"id": "geox07001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Hot and wet weather for rainforest dey make plant and small-small organism plenty well-well. Dem roots and acid wey dem dey drop dey quickly scatter rocks pass as e be for dry north."
+},
+{
+"q": "A geography student studying a hillside in Mambilla Plateau noticed a series of small, step-like terraces on a grassy slope, each terrace held up by a tiny ridge of soil, with no visible break or sudden collapse. This landform most likely results from which type of mass movement?",
+"options": [
+"Rock fall",
+"Soil creep",
+"Landslide",
+"Mudflow"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Soil creep is an extremely slow downslope movement that often produces small terracettes (step-like ridges) on grassy slopes over a long time. Landslides and mudflows are sudden and rapid, while rock fall involves falling rock fragments, not terraced soil.",
+"py": null,
+"values": null,
+"id": "geox07002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na soil creep dey cause those small-small steps wey dem dey see for grass slope as soil dey small-small waka go down. Landslide and mudflow dey happen quick-quick, no be like dis one."
+},
+{
+"q": "Which of the following factors would most directly reduce the rate of mass movement on a slope, assuming all other conditions remain the same?",
+"options": [
+"Removal of vegetation cover by bush burning",
+"Increase in slope angle due to road construction",
+"Planting of deep-rooted trees and grasses on the slope",
+"Continuous heavy rainfall soaking the soil"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Deep-rooted plants bind soil particles together and absorb excess water, which increases slope stability and reduces mass movement. The other options either remove support or add weight and lubrication, encouraging movement.",
+"py": null,
+"values": null,
+"id": "geox07003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you plant trees with deep roots for slope, dem go hold the soil tight-tight and drink water so the land no go scatter. Dem other actions go make the soil fall down quick."
+},
+{
+"q": "A block of limestone and a block of granite of similar size were left exposed to the same rainy tropical climate for fifty years. Which observation would best confirm that chemical weathering acted more intensely on the limestone than on the granite?",
+"options": [
+"The limestone block became smaller and pitted with hollows, while the granite showed little change",
+"Both blocks increased in size due to mineral deposition",
+"The granite block disappeared completely while the limestone remained solid",
+"Both blocks cracked only along straight lines due to temperature changes"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Limestone is composed mainly of calcium carbonate, which dissolves readily in rainwater containing carbonic acid, producing pitted, reduced rock surfaces. Granite is more resistant to this carbonation process, so it would show far less chemical decay under the same conditions.",
+"py": null,
+"values": null,
+"id": "geox07004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Water and acid dey easily scatter limestone because of calcium carbonate, but granite strong pass am. Na why limestone go small and get holes while granite go still stand well."
+},
+{
+"q": "Which of the following statements correctly distinguishes weathering from mass movement?",
+"options": [
+"Weathering involves transport of broken rock material to new locations, while mass movement breaks rocks in place",
+"Weathering breaks down rocks in situ, while mass movement is the downslope transfer of the weathered material under gravity",
+"Weathering only occurs on steep slopes, while mass movement occurs only on flat land",
+"Weathering and mass movement are two names for the same process"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Weathering is the in-place breakdown of rocks by physical, chemical or biological agents, while mass movement is the actual downhill shifting of the loosened material due to gravity. These are related but distinct processes.",
+"py": null,
+"values": null,
+"id": "geox07005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Weathering na when rock scatter for where e dey, while mass movement na when gravity carry that scattered sand and rock go down slope. Dem be two different things."
+},
+{
+"q": "During road construction along a hilly stretch near Akure, engineers cut into a slope and removed its base support. A few weeks later, after a period of heavy rain, a large mass of rock and soil suddenly broke away and slid rapidly down the exposed slope, causing damage to the road below. This event is best classified as a case of which type of mass movement?",
+"options": [
+"Soil creep",
+"Solifluction",
+"Landslide",
+"Subsidence"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A landslide is a rapid, sudden downslope movement of a large mass of rock and soil, often triggered by slope undercutting and heavy rainfall reducing friction. Soil creep is slow and gradual, solifluction occurs mainly in cold regions with thawing ground, and subsidence refers to sinking rather than sliding.",
+"py": null,
+"values": null,
+"id": "geox07006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When heavy rain fall and rock plus soil rush come down sharp-sharp from cut slope, na landslide be that. Soil creep dey slow, but landslide dey happen quick-quick."
+},
+{
+"q": "Which of the following is the best example of frost action (freeze-thaw weathering) as a form of mechanical weathering?",
+"options": [
+"Water entering rock cracks freezes, expands, and widens the cracks until the rock splits apart",
+"Plant roots growing into rock joints and prying them apart over time",
+"Rainwater reacting with rock minerals to form a new soft mineral",
+"Daily heating and cooling of bare rock surfaces causing outer layers to peel off"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Frost action occurs when water trapped in rock cracks freezes, expands by about nine percent in volume, and exerts pressure that splits the rock. Root action, exfoliation from heating and cooling, and chemical reactions are different weathering processes.",
+"py": null,
+"values": null,
+"id": "geox07007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Frost action happen when water enter rock crack, turn to ice, expand, and break the rock. Na mechanical weathering be that, no be chemical reaction."
+}
+],
+"rejected": []
+}

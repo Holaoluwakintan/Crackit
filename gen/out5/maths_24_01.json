@@ -1,0 +1,242 @@
+{
+"subject": "maths",
+"topic": "Probability",
+"ti": 24,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A fair die is rolled once. What is the probability of obtaining a number greater than 4?",
+"options": [
+"1/6",
+"1/3",
+"1/2",
+"2/3"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The numbers greater than 4 on a die are 5 and 6, giving 2 favourable outcomes out of 6. So the probability is 2/6 = 1/3.",
+"py": "2/6",
+"values": [
+0.1667,
+0.3333,
+0.5,
+0.6667
+],
+"id": "matx24010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na 5 and 6 be di numbers wey dey greater than 4 for die, e give us 2 out of 6. When you reduce am, e come be 2/6 = 1/3."
+},
+{
+"q": "Musa has two bags. Bag A contains 3 red beads and 2 black beads. Bag B contains 4 red beads and 1 black bead. If he picks one bead at random from each bag, what is the probability that both beads are red?",
+"options": [
+"7/10",
+"12/25",
+"3/5",
+"2/5"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The probability of red from Bag A is 3/5 and from Bag B is 4/5. Since the picks are independent, multiply: (3/5) x (4/5) = 12/25.",
+"py": "(3/5)*(4/5)",
+"values": [
+0.7,
+0.48,
+0.6,
+0.4
+],
+"id": "matx24011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Probability say red go come out for Bag A na 3/5, and for Bag B na 4/5. Since dem dey independent, just multiply dem: (3/5) x (4/5) = 12/25."
+},
+{
+"q": "A box contains 5 good phone chargers and 3 faulty ones, all looking alike. Two chargers are picked one after the other without replacement. What is the probability that both chargers picked are faulty?",
+"options": [
+"3/28",
+"9/64",
+"1/4",
+"3/8"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The probability the first is faulty is 3/8. Without replacement, the probability the second is also faulty is 2/7. Multiplying gives (3/8) x (2/7) = 6/56 = 3/28.",
+"py": "(3/8)*(2/7)",
+"values": [
+0.1071,
+0.1406,
+0.25,
+0.375
+],
+"id": "matx24012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Probability for first faulty charger na 3/8, and since dem no return am, di second one na 2/7. Multiply dem together to get (3/8) x (2/7) = 3/28."
+},
+{
+"q": "In a class of 40 students, 18 study Physics, 15 study Chemistry, and 7 study both Physics and Chemistry. If a student is picked at random from the class, what is the probability that the student studies Physics or Chemistry?",
+"options": [
+"33/40",
+"40/40",
+"26/40",
+"7/40"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Using the addition rule, P(Physics or Chemistry) = P(Physics) + P(Chemistry) - P(both) = 18/40 + 15/40 - 7/40 = 26/40. This accounts for students counted twice in both subjects.",
+"py": "(18+15-7)/40",
+"values": [
+0.825,
+1.0,
+0.65,
+0.175
+],
+"id": "matx24013",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "We go use addition rule, add Physics and Chemistry, then minus di ones wey do both. E go give us 18/40 + 15/40 - 7/40 = 26/40."
+},
+{
+"q": "A fair coin is tossed and a fair die is rolled together. What is the probability of getting a tail on the coin and an even number on the die?",
+"options": [
+"1/4",
+"1/3",
+"1/2",
+"1/6"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The probability of a tail is 1/2 and the probability of an even number (2, 4, or 6) is 3/6 = 1/2. Since the events are independent, multiply: (1/2) x (1/2) = 1/4.",
+"py": "(1/2)*(1/2)",
+"values": [
+0.25,
+0.3333,
+0.5,
+0.1667
+],
+"id": "matx24014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Probability for tail na 1/2, while even number for die na 3/6 which be 1/2. Multiply di two independent probabilities to get (1/2) x (1/2) = 1/4."
+},
+{
+"q": "A hawker at Onitsha market has 20 oranges, of which 4 are bad. If 3 oranges are selected at random without replacement, what is the probability that all 3 selected oranges are good?",
+"options": [
+"16/20",
+"560/1140",
+"4/5",
+"1/5"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "There are 16 good oranges out of 20. The probability all three picked are good is (16/20) x (15/19) x (14/18) = 3360/6840 = 560/1140, when simplified using successive conditional probabilities without replacement.",
+"py": "(16/20)*(15/19)*(14/18)",
+"values": [
+0.8,
+0.4912,
+0.8,
+0.2
+],
+"id": "matx24015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "We get 16 good oranges out of 20, and we dey pick dem one after di other without replacement. As we multiply di probabilities, e go give us 560/1140."
+},
+{
+"q": "Two events P and Q are such that P(P) = 0.3, P(Q) = 0.25, and P(P and Q) = 0.1. Find P(P or Q).",
+"options": [
+"0.55",
+"0.45",
+"0.65",
+"0.75"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Using the addition rule for probability, P(P or Q) = P(P) + P(Q) - P(P and Q) = 0.3 + 0.25 - 0.1 = 0.45. This avoids double counting the overlap.",
+"py": "0.3+0.25-0.1",
+"values": [
+0.55,
+0.45,
+0.65,
+0.75
+],
+"id": "matx24016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find P(P or Q), we go add P(P) and P(Q) then minus di intersection. E go give us 0.3 + 0.25 - 0.1 = 0.45."
+},
+{
+"q": "A bag contains 8 balls numbered 1 to 8. A ball is drawn at random. What is the probability that the number on the ball is a multiple of 3 or a multiple of 4?",
+"options": [
+"3/8",
+"1/2",
+"5/8",
+"1/4"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Multiples of 3 up to 8 are 3 and 6 (2 numbers), while multiples of 4 are 4 and 8 (2 numbers), with no overlap. So the total favourable outcomes are 4 out of 8, giving 4/8 = 1/2.",
+"py": "4/8",
+"values": [
+0.375,
+0.5,
+0.625,
+0.25
+],
+"id": "matx24017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Multiples of 3 na 3 and 6, while multiples of 4 na 4 and 8, wey make dem 4 favourable numbers in total. So di probability na 4/8 = 1/2."
+}
+],
+"rejected": []
+}

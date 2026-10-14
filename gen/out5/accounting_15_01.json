@@ -1,0 +1,221 @@
+{
+"subject": "accounting",
+"topic": "Partnership accounts: appropriation, current accounts, goodwill and admission",
+"ti": 15,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Abiodun and Chika are in partnership with no written agreement. In the absence of a partnership agreement, the Partnership Act provides that partners should share profits and losses in the ratio of:",
+"options": [
+"The ratio of their capital contributions",
+"Equal shares",
+"The ratio agreed verbally at the last meeting",
+"3:2 in favour of the partner who manages the business"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Where there is no partnership agreement, the law states that profits and losses must be shared equally among all partners, regardless of how much capital each contributed. This is a default rule used to settle disputes.",
+"py": null,
+"values": null,
+"id": "accx15011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If partnership agreement no dey, law talk say make everybody share profit and loss equal. E no matter how much money each person bring put as capital."
+},
+{
+"q": "Which of the following is the main reason why a partnership prepares a profit and loss appropriation account in addition to the normal trading, profit and loss account?",
+"options": [
+"To record the purchase and sale of goods during the year",
+"To show how the net profit is shared among the partners after adjusting for interest, salaries and commission",
+"To calculate the value of goodwill on admission of a new partner",
+"To record the revaluation of assets before a new partner is admitted"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The appropriation account continues from the profit and loss account and shows how the net profit is distributed among partners after charging items such as interest on capital, partners' salaries and interest on drawings. It is a sharing-out account, not a trading record.",
+"py": null,
+"values": null,
+"id": "accx15013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Appropriation account dey show how dem dey share net profit among partners after dem don settle interest on capital, salary, and interest on drawings. E be sharing-out account, no be trading record."
+},
+{
+"q": "Okon is admitted into a partnership owned by Essien and Umoh who previously shared profits in the ratio 3:2. After admission, the new profit-sharing ratio becomes Essien 2, Umoh 2 and Okon 1. If the goodwill of the firm is valued at ₦150,000 and is not to remain in the books, the amount Okon should pay as his share of goodwill, to be shared by the old partners in their sacrificing ratio, is:",
+"options": [
+"₦30,000",
+"₦50,000",
+"₦45,000",
+"₦25,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Okon's share of goodwill = (1/5) of 150,000 = 30,000, since his new profit share is 1 out of a total of 5 parts (2+2+1). This amount is credited to the old partners based on how much profit share each sacrificed.",
+"py": "150000 * (1/5)",
+"values": [
+30000,
+50000,
+45000,
+25000
+],
+"id": "accx15014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Okon share of goodwill na (1/5) of 150,000 wey be 30,000, because hin new profit share na 1 out of 5 total parts. Dem go give old partners this money based on how much profit share each person sacrifice."
+},
+{
+"q": "Which of the following best explains why goodwill is usually valued and adjusted in the books when a new partner is admitted into a partnership?",
+"options": [
+"To compensate the old partners for the reputation and future benefits the new partner will enjoy without having built them up",
+"To increase the total capital available to the business for expansion",
+"To reduce the amount of tax payable by the partnership in that year",
+"To determine the new partner's salary for the following year"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Goodwill represents the value built up by the old partners through years of effort, reputation and customer loyalty. When a new partner joins and shares in future profits, goodwill is valued and adjusted so the old partners are fairly compensated for what they are giving up.",
+"py": null,
+"values": null,
+"id": "accx15016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Goodwill represent the name and market value wey old partners don build over years with hard work. When new partner join, dem must value am so old partners go chop compensation for the future benefit wey the new person dey come met."
+},
+{
+"q": "Ngozi's current account had a debit balance of ₦8,000 at the start of the year. During the year, her share of profit was ₦42,000, interest on capital credited was ₦6,000, and she made drawings of ₦30,000. What is the balance on Ngozi's current account at the end of the year?",
+"options": [
+"₦10,000 credit",
+"₦18,000 credit",
+"₦26,000 credit",
+"₦8,000 debit"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Start with a debit balance of 8,000, add credits of 42,000 profit share and 6,000 interest on capital, then deduct drawings of 30,000: -8,000 + 42,000 + 6,000 - 30,000 = 10,000, which is a credit balance. A debit opening balance reduces the final credit balance.",
+"py": "-8000 + 42000 + 6000 - 30000",
+"values": [
+10000,
+18000,
+26000,
+-8000
+],
+"id": "accx15017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "You go start with debit balance of 8,000, add 42,000 profit and 6,000 interest on capital, then remove 30,000 drawings. When you calculate am well, you go get 10,000 credit balance."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In partnership accounting, the account that records a partner's fixed capital contribution, which normally remains unchanged unless additional capital is introduced or withdrawn, is called the:",
+"options": [
+"Capital account",
+"Drawings account",
+"Current account",
+"Appropriation account"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Under the fixed capital method, each partner's capital account shows only the original and additional capital contributed, and stays fixed except when capital is permanently changed. Day-to-day items like interest and drawings go through the current account instead.",
+"py": null,
+"values": null,
+"id": "accx15010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Ikechukwu and Fatima share profits and losses equally. The partnership appropriation account showed a net profit of ₦180,000 for the year. Interest on capital was ₦15,000 for Ikechukwu and ₦10,000 for Fatima, and Fatima is entitled to a salary of ₦25,000 before the residue is shared. What is Ikechukwu's total share from the appropriation account?",
+"options": [
+"₦65,000",
+"₦90,000",
+"₦80,000",
+"₦75,000"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Residue = 180,000 - 15,000 - 10,000 - 25,000 = 130,000, shared equally so each gets 65,000. Ikechukwu's total = interest on capital 15,000 + share of residue 65,000 = 80,000. Wait, check: 15,000+65,000=80,000, which matches option C, not D.",
+"py": "15000 + (180000-15000-10000-25000)/2",
+"values": [
+65000,
+90000,
+80000,
+75000
+],
+"id": "accx15012",
+"check": {
+"s1": "C",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+},
+{
+"q": {
+"q": "On the admission of a new partner, an existing partnership asset previously recorded at ₦80,000 was revalued upward to ₦95,000, while a provision for doubtful debts of ₦5,000 was newly created. What is the net effect on the revaluation account?",
+"options": [
+"A profit of ₦15,000",
+"A loss of ₦10,000",
+"A profit of ₦10,000",
+"A loss of ₦15,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The asset increase of 15,000 is a gain, while the new provision for doubtful debts of 5,000 is a loss, giving a net profit of 15,000 - 5,000 = 10,000 on revaluation. This net profit is shared among the old partners in their old profit-sharing ratio.",
+"py": "15000 - 5000",
+"values": [
+15000,
+10000,
+10000,
+15000
+],
+"id": "accx15015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+}
+]
+}

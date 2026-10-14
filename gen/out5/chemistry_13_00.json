@@ -1,0 +1,201 @@
+{
+"subject": "chemistry",
+"topic": "Air and environmental pollution",
+"ti": 13,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is a major source of carbon(II) oxide (carbon monoxide) pollution in Nigerian cities?",
+"options": [
+"Incomplete combustion of fuel in vehicle engines",
+"Complete combustion of fuel in vehicle engines",
+"Evaporation of petrol from storage tanks",
+"Decomposition of plastic waste in landfills"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Carbon(II) oxide forms when carbon-based fuels burn without enough oxygen, which is common in vehicle engines especially in heavy traffic. Complete combustion instead produces carbon(IV) oxide, not carbon(II) oxide.",
+"py": null,
+"values": null,
+"id": "chex13000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Carbon(II) oxide dey form when motor engine burn fuel and oxygen no plenty well well, especially for hold-up. If combustion complete, na carbon(IV) oxide go come out instead."
+},
+{
+"q": "A greenhouse gas is best described as one that:",
+"options": [
+"absorbs and re-emits infrared radiation, trapping heat in the atmosphere",
+"reacts with ozone to deplete the ozone layer",
+"reduces visibility by forming smog with sunlight",
+"dissolves in rainwater to lower its pH"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Greenhouse gases like carbon(IV) oxide and methane trap infrared radiation reflected from the earth, warming the atmosphere. This is the greenhouse effect, different from ozone depletion or acid rain formation.",
+"py": null,
+"values": null,
+"id": "chex13001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Greenhouse gas like carbon(IV) oxide dey trap infrared radiation wey dey bounce from earth, and dis one dey make atmospheric temperature hot. Na im we dey call greenhouse effect, e no join with ozone depletion at all."
+},
+{
+"q": "Photochemical smog, common in cities with heavy traffic, is formed mainly through the reaction of nitrogen oxides and unburnt hydrocarbons in the presence of:",
+"options": [
+"sunlight",
+"moisture",
+"cold temperatures",
+"high atmospheric pressure"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Sunlight provides the energy that drives photochemical reactions between nitrogen oxides and hydrocarbons from vehicle exhaust, producing ozone and other smog components near the ground. Without sunlight, these reactions do not proceed significantly.",
+"py": null,
+"values": null,
+"id": "chex13002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Sunlight na im dey give energy wey make nitrogen oxides and hydrocarbons from motor exhaust react to form photochemical smog. Without sun, dis kind reaction no dey happen well."
+},
+{
+"q": "Particulate matter from cement factories and bush burning is classified as a pollutant mainly because it:",
+"options": [
+"causes respiratory diseases when inhaled and reduces visibility",
+"increases the rate of photosynthesis in nearby plants",
+"reacts with oxygen to form ozone in the stratosphere",
+"lowers the boiling point of atmospheric water vapour"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Suspended solid particles can be breathed into the lungs, causing diseases such as asthma and bronchitis, and they also scatter light, reducing visibility (haze). The other effects listed are not associated with particulate pollution.",
+"py": null,
+"values": null,
+"id": "chex13003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Small small particles from cement factory and bush burning fit enter person chest and cause sickness like asthma, plus e dey make everywhere dim. E no get anything to do with photosynthesis."
+},
+{
+"q": "A gas sample of 800 cm³ collected near a refinery was found by analysis to contain 48 cm³ of sulphur(IV) oxide. What is the percentage by volume of sulphur(IV) oxide in the sample?",
+"options": [
+"3.0%",
+"4.0%",
+"6.0%",
+"8.0%"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Percentage by volume equals (48/800) x 100, which gives 6.0%. This shows how much of the air sample is made up of the pollutant gas.",
+"py": "(48/800)*100",
+"values": [
+3.0,
+4.0,
+6.0,
+8.0
+],
+"id": "chex13004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find percentage by volume, you go divide 48 by 800 and multiply by 100, and your answer na 6.0%. Dis calculation show how much sulphur(IV) oxide dey inside the gas sample."
+},
+{
+"q": "Which of the following best explains why acid rain damages buildings made of limestone (calcium trioxocarbonate(IV))?",
+"options": [
+"The acid reacts with calcium trioxocarbonate(IV) to form soluble calcium salts that are washed away",
+"The acid evaporates the limestone directly into carbon(IV) oxide gas",
+"The acid changes the limestone into a stronger, more brittle material",
+"The acid only discolours the surface without any chemical change"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Acid rain contains dilute sulphuric(VI) and nitric(V) acids that react with calcium trioxocarbonate(IV) in limestone, forming soluble calcium salts, water and carbon(IV) oxide. The soluble products are washed away, gradually eroding the structure.",
+"py": null,
+"values": null,
+"id": "chex13005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Acid rain get acid wey dey react with calcium trioxocarbonate(IV) for limestone to form salt wey water fit dissolve and wash away. As water dey wash am go, the building dey spoil small small."
+},
+{
+"q": "A factory burns a fuel containing sulphur impurities, releasing sulphur(IV) oxide at a steady rate. If the gas combines with atmospheric oxygen and water vapour over several hours before falling as rain, which transformation correctly represents what happens to the sulphur(IV) oxide in the atmosphere?",
+"options": [
+"It is oxidised to sulphur(VI) oxide, which then dissolves in rainwater to form sulphuric(VI) acid",
+"It evaporates completely and never returns to the earth's surface",
+"It reacts with nitrogen gas in the air to form ammonia",
+"It is reduced to elemental sulphur which settles as dust"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In the atmosphere, sulphur(IV) oxide is gradually oxidised by oxygen to sulphur(VI) oxide, which then combines with water to form sulphuric(VI) acid, a major component of acid rain. The other options do not reflect the actual atmospheric chemistry involved.",
+"py": null,
+"values": null,
+"id": "chex13007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For air, oxygen dey turn sulphur(IV) oxide to sulphur(VI) oxide, and when water join am, e dey form sulphuric(VI) acid. Na dis acid rain dey fall come ground to destroy property."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A city recorded an average of 180 micrograms of suspended particulate matter per cubic metre of air over 24 hours, while the recommended safe limit is 60 micrograms per cubic metre. The recorded level exceeds the safe limit by what factor?",
+"options": [
+"1.5 times",
+"2 times",
+"3 times",
+"4 times",
+"6 times"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Dividing 180 by 60 gives 3, meaning the recorded particulate level is three times the safe limit. This kind of comparison is used by environmental scientists to assess air quality risk.",
+"py": "180/60",
+"values": [
+1.5,
+2.0,
+3.0,
+4.0
+]
+},
+"why": "bad-shape"
+}
+]
+}

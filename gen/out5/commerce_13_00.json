@@ -1,0 +1,212 @@
+{
+"subject": "commerce",
+"topic": "Business finance: capital, sources of funds, turnover and profit calculations",
+"ti": 13,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is an example of a short-term source of business finance?",
+"options": [
+"Debenture",
+"Bank overdraft",
+"Ordinary share capital",
+"Mortgage loan"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A bank overdraft is repayable within a short period, usually less than a year, making it a short-term source of finance. Debentures, shares and mortgages are long-term sources.",
+"py": null,
+"values": null,
+"id": "comx13000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Bank overdraft na short-term money wey person dey pay back quick quick, usually under one year. Na hin make am good short-term money source, unlike debenture and mortgage."
+},
+{
+"q": "Trade credit as a source of business finance means that a business is able to",
+"options": [
+"obtain goods from suppliers now and pay for them at a later agreed date",
+"borrow money from a commercial bank against fixed assets",
+"sell part of its ownership to the public through the stock exchange",
+"receive a grant from government that does not require repayment"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Trade credit allows a business to receive goods or services from a supplier immediately and pay later, which frees up cash for other uses. This is a common short-term source of finance for traders.",
+"py": null,
+"values": null,
+"id": "comx13001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Trade credit allow business make dem collect goods from supplier now and pay later. E dey help person free cash make e use do other business."
+},
+{
+"q": "Retained profit, as a source of finance, refers to the part of a company's profit that is",
+"options": [
+"paid out to shareholders as dividend",
+"ploughed back into the business instead of being distributed",
+"paid to government as company income tax",
+"used to settle short-term creditors immediately"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Retained profit is the portion of net profit that a business keeps and reinvests instead of distributing to owners as dividend. It is an internal, long-term source of finance that avoids interest payment.",
+"py": null,
+"values": null,
+"id": "comx13002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Retained profit na the money wey company keep inside business to use again instead of sharing am as dividend. E dey help business get money without paying interest."
+},
+{
+"q": "Alhaji Musa invested ₦500,000 as capital to start a poultry business. During the year, he introduced an additional ₦150,000 from his personal savings and withdrew ₦80,000 for family use. At the end of the year, his capital stood at ₦900,000. What was his profit for the year?",
+"options": [
+"₦330,000",
+"₦250,000",
+"₦170,000",
+"₦420,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Closing capital = Opening capital + Additional capital + Profit - Drawings. So Profit = 900,000 - 500,000 - 150,000 + 80,000 = 330,000. This is the standard capital reconciliation method.",
+"py": "900000 - 500000 - 150000 + 80000",
+"values": [
+330000,
+250000,
+170000,
+420000
+],
+"id": "comx13003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To find profit, we go add opening capital, additional capital and profit, then minus drawings to get closing capital. When we calculate am, the profit come be ₦330,000."
+},
+{
+"q": "A clothing store in Kano had an opening stock of ₦120,000, bought additional goods worth ₦480,000 during the month, and had a closing stock of ₦150,000. If the goods were sold at a uniform mark-up of 25% on cost, what was the turnover (sales) for the month?",
+"options": [
+"₦562,500",
+"₦600,000",
+"₦450,000",
+"₦637,500"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Cost of goods sold = Opening stock + Purchases - Closing stock = 120,000 + 480,000 - 150,000 = 450,000. With a 25% mark-up on cost, sales = 450,000 x 1.25 = 562,500.",
+"py": "(120000 + 480000 - 150000) * 1.25",
+"values": [
+562500,
+600000,
+450000,
+637500
+],
+"id": "comx13004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "First, we go find cost of goods sold by adding opening stock and purchases, then minus closing stock to get ₦450,000. When we add the 25% mark-up on top, sales come be ₦562,500."
+},
+{
+"q": "Which of the following best describes an ordinary shareholder's position in a limited liability company?",
+"options": [
+"A creditor entitled to a fixed rate of interest regardless of profit",
+"A part-owner of the company who bears the greatest risk but may enjoy higher returns",
+"A lender whose loan must be repaid before any dividend is paid to others",
+"A government agent who regulates the company's financial activities"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ordinary shareholders are owners of the company, not lenders, so they share in both the risks and the profits of the business. Unlike debenture holders, their returns depend on how well the company performs.",
+"py": null,
+"values": null,
+"id": "comx13005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Ordinary shareholders na the real owners of the company, and dem dey carry all the risk and profit. Dem money no get fixed interest like loan."
+},
+{
+"q": "A manufacturing company obtained a loan of ₦2,400,000 from a bank to be repaid over 8 years in equal annual instalments at a simple interest rate of 10% per annum on the original principal. What is the total amount the company will repay at the end of the loan period?",
+"options": [
+"₦4,320,000",
+"₦2,640,000",
+"₦3,840,000",
+"₦2,400,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Simple interest = Principal x Rate x Time = 2,400,000 x 10% x 8 = 1,920,000. Total repayment = Principal + Interest = 2,400,000 + 1,920,000 = 4,320,000.",
+"py": "2400000 + (2400000 * 0.10 * 8)",
+"values": [
+4320000,
+2640000,
+3840000,
+2400000
+],
+"id": "comx13006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Simple interest for 8 years na ₦1,920,000. When you add am join the ₦2,400,000 principal, the total money wey company go repay na ₦4,320,000."
+},
+{
+"q": "Which of these is a major disadvantage of using retained profit as a source of business finance?",
+"options": [
+"It attracts a high rate of interest that must be paid annually",
+"It reduces the amount available for distribution to owners as dividend",
+"It must be repaid in full within one year of being used",
+"It gives outsiders voting rights and control over the business"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When a business keeps back part of its profit instead of paying it out, owners receive less dividend in the meantime. Unlike loans, retained profit does not attract interest and does not give outsiders control.",
+"py": null,
+"values": null,
+"id": "comx13007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When business use retained profit, owners no go get plenty money as dividend for that time. E good sha because e no get interest and outsiders no go control company."
+}
+],
+"rejected": []
+}

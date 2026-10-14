@@ -1,0 +1,180 @@
+{
+"subject": "crs",
+"topic": "The Fall of man and its consequences (Genesis 3-4, the Flood, Babel)",
+"ti": 1,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In Genesis 3, after Adam and Eve disobeyed God, what was the immediate emotional response that caused them to hide themselves among the trees of the garden?",
+"options": [
+"Anger at the serpent",
+"Fear and shame",
+"Hunger for more fruit",
+"Jealousy of each other"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Adam told God he was afraid because he was naked, and he hid himself. This shows that fear and shame were the immediate results of disobedience.",
+"id": "crsx01000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Adam tell God say im fear because im naked, and im hide. Dis show say fear and shame na di immediate result of disobedience."
+},
+{
+"q": "When God questioned Adam about eating the forbidden fruit, Adam's response revealed a key consequence of sin in human relationships. What did Adam do in his reply to God?",
+"options": [
+"He confessed his sin openly without excuse",
+"He blamed the woman and indirectly God Himself",
+"He pleaded for immediate forgiveness",
+"He accused the serpent directly"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Adam said the woman God gave him made him eat the fruit, shifting blame to Eve and hinting that God was responsible for giving her to him. This shows how sin brought blame-shifting and broken relationships.",
+"id": "crsx01001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Adam talk say di woman wey God give am make am chop di fruit, im con shift blame give Eve and even hint say God cause am. Dis show how sin bring blame-shifting and broken relationship."
+},
+{
+"q": "In Genesis 4, what did God tell Cain would happen to sin if he did not master it, shortly before he killed Abel?",
+"options": [
+"Sin would destroy his offering permanently",
+"Sin lay at the door and desired to have him, but he should rule over it",
+"Sin would be forgiven automatically",
+"Sin would pass to his descendants only"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "God warned Cain that sin crouched at the door desiring to control him, but he was commanded to master it. This warning came before Cain allowed jealousy to lead him into murder.",
+"id": "crsx01003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "God warn Cain say sin dey wait for door like person wey wan control am, but im suppose rule over am. Dis warning happen before Cain allow jealousy make am commit murder."
+},
+{
+"q": "After God rejected Cain's offering but accepted Abel's, what does this incident primarily teach about acceptable worship in the Genesis account?",
+"options": [
+"Only animal sacrifices please God",
+"The attitude and manner of the offerer matter to God, not just the type of gift",
+"Firstborn sons must always offer sacrifices",
+"God never rejects any sincere offering"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Hebrews later explains that Abel offered by faith, showing that the heart and manner behind an offering matter, not merely its physical form. Cain's offering was rejected because of his attitude, as shown by his anger and subsequent sin.",
+"id": "crsx01004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Hebrews explain later say Abel offer by faith, wey show say di heart and manner of worship matter pass ordinary physical gift. God reject Cain offering because of im bad attitude."
+},
+{
+"q": "As part of Cain's punishment after murdering Abel, what specific lifestyle did God pronounce upon him regarding the ground and his dwelling?",
+"options": [
+"He would become a fugitive and a wanderer on the earth",
+"He would be struck blind immediately",
+"He would be killed by his own children",
+"He would lose the ability to speak"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "God told Cain that the ground would no longer yield its strength to him and that he would be a restless wanderer on the earth. This was the direct consequence of his brother's blood crying out from the ground.",
+"id": "crsx01005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "God tell Cain say ground no go produce for am again and say im go be fugitive and wanderer for earth. Na dis punishment follow di blood of im brother wey cry from ground."
+},
+{
+"q": "Before the flood, the Bible records that God observed the wickedness of man had become great on the earth. Which description best captures God's own assessment of humanity's condition that led Him to decide to destroy all living creatures?",
+"options": [
+"Every imagination of man's heart was only evil continually",
+"Mankind had simply stopped offering sacrifices",
+"People had abandoned farming for hunting",
+"Humans had begun worshipping idols made of gold"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Genesis records that God saw the wickedness of man was great, and every imagination of his heart's thoughts was only evil continually. This deep corruption grieved God and led to His decision to send the flood.",
+"id": "crsx01006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Genesis record say God see say wickedness of man don too much, and every imagination of im heart na only evil all di time. Dis deep corruption make God grieve and decide to send flood."
+},
+{
+"q": "Considering the overall narrative from the fall of man through Babel, which statement best summarises a common pattern seen in God's dealings with human sin in these accounts?",
+"options": [
+"God always destroys sinners instantly without warning",
+"God judges sin but also shows mercy or provides a way forward for mankind",
+"God ignores sin once it has been committed",
+"God only punishes sin committed by leaders, not ordinary people"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In each account, from clothing Adam and Eve, sparing Cain's life with a mark, saving Noah's family in the ark, to scattering rather than destroying the builders at Babel, God judged sin but also showed mercy. This pattern reveals God's justice balanced with grace throughout these narratives.",
+"id": "crsx01007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For all di story, from Adam and Eve, Cain, Noah, reach Babel, God dey judge sin but im still dey show mercy. Dis pattern show say God justice and grace dey go together."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Comparing the curses pronounced in Genesis 3, which of the following correctly matches the one cursed DIRECTLY by God with the specific judgement given, unlike Adam and Eve who received consequences but were not themselves cursed?",
+"options": [
+"Eve - pain in childbirth",
+"Adam - toil on the ground",
+"The serpent - crawling on its belly and eating dust",
+"The ground - thorns and thistles"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "God cursed the serpent directly, above all cattle and beasts, making it crawl on its belly and eat dust all its days. Adam and the ground received consequences, and Eve received judgement, but only the serpent was explicitly cursed as a being.",
+"id": "crsx01002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:D also fits: God directly cursed the ground.|"
+}
+]
+}

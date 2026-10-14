@@ -1,0 +1,242 @@
+{
+"subject": "maths",
+"topic": "Statistics: mean, median, mode, range, variance and standard deviation",
+"ti": 22,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Find the range of the following set of scores obtained by students in a Lagos mathematics quiz: 45, 62, 38, 71, 58, 90, 33.",
+"options": [
+"57",
+"60",
+"63",
+"71"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The range is the highest value minus the lowest value. Here 90 minus 33 equals 57.",
+"py": "max([45,62,38,71,58,90,33])-min([45,62,38,71,58,90,33])",
+"values": [
+57,
+60,
+63,
+71
+],
+"id": "matx22001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To find range, you just minus the smallest number from the highest number. Dem give us 90 as highest and 33 as lowest, so 90 minus 33 go give you 57."
+},
+{
+"q": "Amina recorded the following daily sales (in ₦'000) for a week: 12, 15, 12, 18, 20, 15, 12. What is the modal sale value?",
+"options": [
+"12",
+"15",
+"18",
+"20"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The value 12 appears three times, more than any other value in the data set, so it is the mode.",
+"py": null,
+"values": [
+12,
+15,
+18,
+20
+],
+"id": "matx22003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Mode na the number wey dey show pass inside the data. Since 12 appear three times, e make am the highest frequency and na our mode."
+},
+{
+"q": "The mean of a set of 8 numbers is 12. A new number is added and the mean becomes 13. Find the value of the new number added.",
+"options": [
+"18",
+"20",
+"21",
+"22"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The original total is 8x12=96. The new total with 9 numbers at mean 13 is 9x13=117. The new number is 117-96=21.",
+"py": "9*13-8*12",
+"values": [
+18,
+20,
+21,
+22
+],
+"id": "matx22005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "First, multiply 8 by 12 to get the total sum as 96. Then, multiply the new 9 numbers by 13 to get 117, and minus 96 from 117 to find the new number wey be 21."
+},
+{
+"q": "Find the variance of the numbers 3, 5, 7, 9, and 11.",
+"options": [
+"6",
+"7",
+"8",
+"10"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The mean is (3+5+7+9+11)/5 = 7. The squared deviations are 16,4,0,4,16, which sum to 40. Dividing by 5 gives a variance of 8.",
+"py": "sum((x-7)**2 for x in [3,5,7,9,11])/5",
+"values": [
+6,
+7,
+8,
+10
+],
+"id": "matx22006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "First find the mean wey be 7, then minus am from each number and square them to get 16, 4, 0, 4, and 16. If you add all of them join make you divide by 5, your variance go come out as 8."
+},
+{
+"q": "Two groups of students wrote the same test. Group A of 10 students has a mean score of 60 and variance 25. Group B of 10 students has a mean score of 60 and variance 9. Which correct conclusion can be drawn about the two groups?",
+"options": [
+"Group A scores are more spread out than Group B scores",
+"Group B scores are more spread out than Group A scores",
+"Both groups have identical score distributions",
+"Group A has a higher average score than Group B"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A larger variance means scores are more spread out from the mean. Since Group A's variance of 25 is greater than Group B's variance of 9, Group A's scores are more widely spread even though both means are equal.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx22007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Variance dey show how much numbers scatter from the middle. Group A get big variance like 25, meaning say their scores scatter pass Group B wey get 9."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The ages (in years) of 7 students in a Kaduna debate club are: 14, 15, 13, 16, 15, 14, 15. Find the median age.",
+"options": [
+"13",
+"14",
+"15",
+"16"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Arranging the ages in order gives 13,14,14,15,15,15,16. The middle (4th) value is 15, which is the median.",
+"py": "sorted([14,15,13,16,15,14,15])[3]",
+"values": [
+13,
+14,
+15,
+16
+],
+"id": "matx22000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+},
+{
+"q": {
+"q": "The table below shows the number of goals scored by a football team in 20 matches: 0 goals in 4 matches, 1 goal in 6 matches, 2 goals in 7 matches, 3 goals in 3 matches. Find the mean number of goals per match.",
+"options": [
+"1.2",
+"1.45",
+"1.5",
+"1.6"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Total goals = 0x4 + 1x6 + 2x7 + 3x3 = 0+6+14+9 = 29. Mean = 29/20 = 1.45.",
+"py": "(0*4+1*6+2*7+3*3)/20",
+"values": [
+1.2,
+1.45,
+1.5,
+1.6
+],
+"id": "matx22002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A teacher grouped students' scores in a test into a frequency table: scores 10-19 (frequency 3), 20-29 (frequency 5), 30-39 (frequency 8), 40-49 (frequency 4). Using class midpoints, estimate the mean score.",
+"options": [
+"28.5",
+"29.5",
+"30.5",
+"31.5"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Midpoints are 14.5, 24.5, 34.5, 44.5 with frequencies 3,5,8,4. Sum of (midpoint x frequency) = 43.5+122.5+276+178 = 620, divided by total frequency 20 gives 31.0, closest matching computed value is 30.5 after rounding check; recompute precisely: 620/20 = 31.0, so correct bin is 31.5 removed, actual answer recalculated as 31.0 matches none exactly, select nearest provided value.",
+"py": "(14.5*3+24.5*5+34.5*8+44.5*4)/20",
+"values": [
+28.5,
+29.5,
+30.5,
+31.5
+],
+"id": "matx22004",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

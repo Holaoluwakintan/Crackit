@@ -1,0 +1,214 @@
+{
+"subject": "maths",
+"topic": "Differentiation and its applications (gradient, maxima/minima, rates)",
+"ti": 20,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Find dy/dx if y = (2x + 1)/(x - 3), where x is not equal to 3.",
+"options": [
+"-7/(x-3)^2",
+"7/(x-3)^2",
+"-7/(x-3)",
+"1/(x-3)^2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using the quotient rule, dy/dx = [2(x-3) - (2x+1)(1)]/(x-3)^2 = (2x-6-2x-1)/(x-3)^2 = -7/(x-3)^2.",
+"py": null,
+"values": null,
+"id": "matx20000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use quotient rule for this differentiation. When we differentiate (2x + 1)/(x - 3), we get -7/(x-3)^2."
+},
+{
+"q": "A small business owner, Ngozi, finds that her weekly profit in naira is P(x) = -2x^2 + 240x - 1000, where x is the number of bags of rice sold. Find the number of bags that must be sold to maximize her profit.",
+"options": [
+"40",
+"50",
+"60",
+"120"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "dP/dx = -4x + 240 = 0 gives x = 60. This is the value of x that maximizes the profit since the coefficient of x^2 is negative.",
+"py": "240/4",
+"values": [
+40,
+50,
+60,
+120
+],
+"id": "matx20001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To find the maximum profit, we differentiate P(x) and set am to zero. When we solve -4x + 240 = 0, we get x = 60."
+},
+{
+"q": "The volume of a cube is increasing at a rate of 12 cm^3/s. Find the rate at which the side length is increasing when the side length is 2 cm.",
+"options": [
+"0.5 cm/s",
+"1 cm/s",
+"2 cm/s",
+"3 cm/s"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "V = x^3 so dV/dt = 3x^2 (dx/dt). At x=2, 12 = 3(4)(dx/dt), giving dx/dt = 1 cm/s.",
+"py": "12/(3*2**2)",
+"values": [
+0.5,
+1,
+2,
+3
+],
+"id": "matx20003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use chain rule for V = x^3, so dV/dt = 3x^2(dx/dt). If we put 12 for dV/dt and 2 for x, we go get dx/dt = 1 cm/s."
+},
+{
+"q": "Find the second derivative of y = 5x^4 - 2x^3 + x with respect to x.",
+"options": [
+"60x^2 - 12x",
+"20x^3 - 6x^2 + 1",
+"60x^2 - 12x + 1",
+"20x^2 - 6x"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The first derivative is 20x^3 - 6x^2 + 1, and differentiating again gives 60x^2 - 12x.",
+"py": null,
+"values": null,
+"id": "matx20004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "First, we differentiate 5x^4 - 2x^3 + x to get 20x^3 - 6x^2 + 1. When we differentiate am again, we get 60x^2 - 12x."
+},
+{
+"q": "A stone is thrown vertically upward so that its height in metres after t seconds is h(t) = 30t - 5t^2. Find the maximum height reached by the stone.",
+"options": [
+"30 m",
+"45 m",
+"60 m",
+"90 m"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "dh/dt = 30 - 10t = 0 gives t = 3. Substituting into h(t): h(3) = 90 - 45 = 45 m, which is the maximum height.",
+"py": "30*3 - 5*3**2",
+"values": [
+30,
+45,
+60,
+90
+],
+"id": "matx20005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We differentiate h(t) and set am to zero to find the time t = 3 seconds. When we put t = 3 inside the original equation, we get 45 m as the maximum height."
+},
+{
+"q": "Find the coordinates of the point on the curve y = x^2 - 6x + 11 where the gradient is zero.",
+"options": [
+"(3, 2)",
+"(3, 11)",
+"(-3, 2)",
+"(6, 11)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "dy/dx = 2x - 6 = 0 gives x = 3. Substituting x=3 into y gives y = 9 - 18 + 11 = 2, so the point is (3, 2).",
+"py": null,
+"values": null,
+"id": "matx20006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Gradient na zero mean say dy/dx = 0. If we solve 2x - 6 = 0, we get x = 3, and when we put x = 3 inside the curve equation, y = 2."
+},
+{
+"q": "Find the values of x for which the curve y = 2x^3 - 3x^2 - 12x + 5 is decreasing.",
+"options": [
+"x < -1 or x > 2",
+"-1 < x < 2",
+"x < -2 or x > 1",
+"-2 < x < 1"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "dy/dx = 6x^2 - 6x - 12 = 6(x^2 - x - 2) = 6(x-2)(x+1). This is negative (curve decreasing) between the roots, so -1 < x < 2.",
+"py": null,
+"values": null,
+"id": "matx20007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The curve dey decrease when dy/dx < 0. Since 6(x-2)(x+1) < 0, the value of x must dey between -1 and 2."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Find the equation of the normal to the curve y = x^2 - 4x + 1 at the point where x = 3.",
+"options": [
+"y = -x/2 + 1/2",
+"y = 2x - 8",
+"y = -x/2 - 1/2",
+"y = x/2 + 1/2"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "At x=3, y = 9-12+1 = -2, and dy/dx = 2x-4 = 2, so the tangent gradient is 2 and the normal gradient is -1/2. Using y-(-2) = -1/2(x-3) gives y = -x/2 + 1/2.",
+"py": null,
+"values": null,
+"id": "matx20002",
+"check": {
+"s1": "C",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+}
+]
+}

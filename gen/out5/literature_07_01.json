@@ -1,0 +1,180 @@
+{
+"subject": "literature",
+"topic": "Appreciation of an original short unseen poem (quote 2 to 6 original lines in the question)",
+"ti": 7,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Read the lines below and answer the question that follows:\n\n'Grandmother's hands, cracked like dry earth,\nStill knead the dough before the cock's first call;\nSixty years of toil hide in each wrinkle,\nYet her laughter outshines them all.'\n\nWhat is the predominant tone of the poem?",
+"options": [
+"Bitter and resentful",
+"Admiring and affectionate",
+"Mocking and sarcastic",
+"Fearful and anxious"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The poet praises the grandmother's hard work and cherishes her laughter, showing warmth and respect. There is no anger, mockery or fear in the lines.",
+"id": "litx07010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di poet dey hail di grandmama work and show love, so di tone sweet well well. Anger or fear no dey inside di poem at all."
+},
+{
+"q": "Read the lines below and answer the question that follows:\n\n'The debt collector's knock is a drumbeat of dread,\nEach rap upon the door a hammer to the head;\nMy pocket is a desert, bare and dry,\nWhile bills pile up like mountains to the sky.'\n\nWhich literary device is used in BOTH 'a drumbeat of dread' and 'a hammer to the head'?",
+"options": [
+"Personification",
+"Metaphor",
+"Onomatopoeia",
+"Irony"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Both phrases directly compare the knock and the rap to other things (a drumbeat, a hammer) without using 'like' or 'as', which is the definition of metaphor. There is no human quality given to an object, so it is not personification.",
+"id": "litx07012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Both sentence dey compare two different things straight without use 'like' or 'as'. Na proper metaphor be dat, e no be personification."
+},
+{
+"q": "Read the lines below and answer the question that follows:\n\n'Mosquitoes hum their endless evening song,\nAs candle flames bow low and then stand tall;\nThe night watchman yawns beside the gate,\nWhile stars keep watch over the sleeping stall.'\n\nWhat is the rhyme scheme of this stanza?",
+"options": [
+"AABB",
+"ABAB",
+"ABCB",
+"ABBA"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Checking the end words: song, tall, gate, stall - only the second and fourth lines (tall, stall) rhyme, while the first and third do not rhyme with anything, giving the pattern ABCB. This is a common ballad-like scheme candidates must identify by sound, not sight.",
+"id": "litx07013",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na only di second and fourth line (tall and stall) dey rhyme for sound. Di pattern come be ABCB, wey be normal ballad style."
+},
+{
+"q": "Read the lines below and answer the question that follows:\n\n'Why must the farmer's sweat water another man's field?\nWhy must the weaver's cloth clothe another man's back?\nI ask the wind, I ask the empty sky,\nBut only silence answers me, again and again.'\n\nWhat poetic technique is most evident in the first two lines?",
+"options": [
+"Alliteration",
+"Rhetorical question",
+"Apostrophe",
+"Hyperbole"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The speaker asks questions that are not meant to get a literal answer but to express frustration, which is the function of a rhetorical question. The lines are not addressed to an absent or non-human entity directly, so it is not apostrophe.",
+"id": "litx07014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di person wey dey talk just dey ask question to show vexing, e no expect answer. Na rhetorical question be dat."
+},
+{
+"q": "Read the lines below and answer the question that follows:\n\n'Coins slip through my fingers like grains of sand,\nEach note a whisper of the plans I had;\nYet still I smile at the shrinking purse,\nFor richness is not measured in what is had.'\n\nWhat is the dominant theme of this poem?",
+"options": [
+"The fear of death",
+"The true meaning of wealth",
+"The joy of travel",
+"The pain of betrayal"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The poem contrasts losing money with still finding happiness, concluding that wealth is not only about money. The final line directly states that true richness is not about material possession.",
+"id": "litx07015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di poem dey explain say money no be everything and true wealth pass just having cash. E dey talk about di real meaning of wealth."
+},
+{
+"q": "Read the lines below and answer the question that follows:\n\n'The broken bridge still bears the market's feet,\nCreaking under loads it cannot bear,\nLike an old man forced to carry youth's burden,\nGroaning beneath a weight too hard to share.'\n\nWhich figure of speech is used in comparing the bridge to 'an old man forced to carry youth's burden'?",
+"options": [
+"Metonymy",
+"Simile",
+"Synecdoche",
+"Oxymoron"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The comparison uses the word 'like' to directly liken the bridge to an old man, which is the clearest mark of a simile. There is no substitution of a part for a whole or a related term, so it is not synecdoche or metonymy.",
+"id": "litx07016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Because di writer use 'like' to match bridge with old man, na simile be dat. E clear patapata."
+},
+{
+"q": "Read the lines below and answer the question that follows:\n\n'They built the wall to keep the strangers out,\nBut strangers were already warm inside;\nThey built the wall to keep their secrets safe,\nBut secrets walked the streets, unable to hide.'\n\nWhat does the repeated structure of 'They built the wall to keep... But...' achieve in the poem?",
+"options": [
+"It creates a lullaby effect to soothe the reader",
+"It emphasises the failure and futility of the wall's purpose through contrast",
+"It shows the poet's confusion about the subject matter",
+"It is used purely for rhythm with no meaning attached"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Each repeated structure sets up an intention followed by 'But', which immediately shows that the intention failed, stressing irony and futility. This paired repetition is a deliberate structural device to build meaning, not just rhythm or random decoration.",
+"id": "litx07017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Di way dem arrange di sentence with 'But' show say wetin dem plan no work at all. E dey highlight how useless di wall be."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Read the lines below and answer the question that follows:\n\n'Hope is a seed buried in grief's cold soil,\nWaiting for rain that may never come,\nYet still it swells, still it dreams of light,\nStubborn against the silence of the tomb.'\n\nThe poem is best described as having how many stanzas and what rhyme scheme?",
+"options": [
+"One stanza; no fixed rhyme scheme (free verse)",
+"Two stanzas; rhymed couplets throughout",
+"One stanza; perfect ABAB rhyme",
+"Four stanzas; each a single rhymed line"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The four lines form a single block with no clear repeating end-rhyme pattern, so it is one stanza in free verse. There is no couplet or ABAB pattern since the line endings (soil, come, light, tomb) do not rhyme consistently.",
+"id": "litx07011",
+"check": {
+"s1": "A",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:C"
+}
+]
+}

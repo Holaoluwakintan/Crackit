@@ -1,0 +1,243 @@
+{
+"subject": "maths",
+"topic": "Arithmetic and geometric progressions",
+"ti": 12,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Find the 12th term of the arithmetic progression 8, 5, 2, -1, ...",
+"options": [
+"-25",
+"-22",
+"-19",
+"41"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The first term is 8 and common difference is -3. The 12th term is 8 + 11(-3) = 8 - 33 = -25.",
+"py": "8 + 11*(-3)",
+"values": [
+-25,
+-22,
+-19,
+41
+],
+"id": "matx12010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "First term na 8 and common difference na -3. If you use the formula 8 + 11(-3), you go get -25."
+},
+{
+"q": "The first term of an arithmetic progression is 4 and the 15th term is 60. Find the common difference.",
+"options": [
+"4",
+"14/4",
+"4.5",
+"56/15"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using the formula for the nth term, 60 = 4 + 14d, so 14d = 56 and d = 4. This gives the common difference directly from the two given terms.",
+"py": "(60-4)/14",
+"values": [
+4,
+3.5,
+4.5,
+3.7333333333333334
+],
+"id": "matx12011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use the formula 60 = 4 + 14d. When you subtract 4 from 60, you get 56, and 56 divide by 14 give you 4."
+},
+{
+"q": "A cinema hall has 20 rows of seats. The front row has 15 seats, and each row behind has 3 more seats than the row in front of it. How many seats are in the hall altogether?",
+"options": [
+"870",
+"840",
+"900",
+"915"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "This is an AP with first term 15, common difference 3, and 20 terms. Sum = (20/2)[2(15) + 19(3)] = 10[30 + 57] = 10(87) = 870.",
+"py": "(20/2)*(2*15 + 19*3)",
+"values": [
+870,
+840,
+900,
+915
+],
+"id": "matx12012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Dis one na sum of AP with 20 terms. If you use the formula (20/2)[2(15) + 19(3)], you go get 870."
+},
+{
+"q": "In a geometric progression, the 3rd term is 20 and the 6th term is 160. Find the common ratio.",
+"options": [
+"2",
+"3",
+"4",
+"8"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Dividing the 6th term by the 3rd term gives r^3 = 160/20 = 8, so r = 2. This uses the ratio of terms three places apart in a GP.",
+"py": "8**(1/3)",
+"values": [
+2,
+3,
+4,
+8
+],
+"id": "matx12014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you divide the 6th term by the 3rd term, you go get r^3 = 8. Cube root of 8 na 2."
+},
+{
+"q": "The first three terms of an arithmetic progression are (2x - 1), (x + 5), and (3x - 4). Find the value of x.",
+"options": [
+"5",
+"4",
+"3",
+"6"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "For an AP, the difference between consecutive terms is constant, so (x+5)-(2x-1) = (3x-4)-(x+5). This simplifies to -x+6 = 2x-9, giving 3x = 15, so x = 5.",
+"py": "15/3",
+"values": [
+5,
+4,
+3,
+6
+],
+"id": "matx12017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Since the difference between terms must be the same, we equate (x+5)-(2x-1) to (3x-4)-(x+5). When you solve the equation, x go be 5."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Find the sum of all multiples of 7 between 10 and 200.",
+"options": [
+"2842",
+"2940",
+"2730",
+"2905"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The multiples of 7 from 14 to 196 form an AP with first term 14, last term 196, common difference 7, giving n = 27 terms. Sum = (27/2)(14+196) = (27/2)(210) = 2835... recompute: (27/2)*210 = 2835. Let us use the correct value, 2835, as the sum of this progression.",
+"py": "(27/2)*(14+196)",
+"values": [
+2835,
+2940,
+2730,
+2905
+],
+"id": "matx12013",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Find the sum to infinity of the geometric progression 27, -9, 3, -1, ...",
+"options": [
+"81/4",
+"27/4",
+"20.25",
+"81"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The common ratio is -9/27 = -1/3, and since it lies between -1 and 1, the sum to infinity is a/(1-r) = 27/(1-(-1/3)) = 27/(4/3) = 81/4.",
+"py": "27/(1-(-1/3))",
+"values": [
+20.25,
+6.75,
+20.25,
+81
+],
+"id": "matx12015",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "The population of a certain village increases every year in a geometric progression. If the population was 4,000 three years ago and is now (after 3 years of growth) 4,000 x (1.1)^3, approximately what is the common ratio describing the yearly growth, and what is the population now to the nearest whole number?",
+"options": [
+"1.1 and 5324",
+"1.1 and 5300",
+"1.3 and 8788",
+"1.2 and 6912"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The common ratio is clearly 1.1 as given by the growth factor each year. Computing 4000 x (1.1)^3 = 4000 x 1.331 = 5324, which matches when rounded to the nearest whole number.",
+"py": "4000*(1.1)**3",
+"values": [
+5324,
+5300,
+8788,
+6912
+],
+"id": "matx12016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Answer is given by the expression in the question."
+}
+]
+}

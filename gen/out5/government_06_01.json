@@ -1,0 +1,181 @@
+{
+"subject": "government",
+"topic": "Elections, electoral systems and electoral bodies (INEC)",
+"ti": 6,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "In the conduct of elections in Nigeria, accreditation of voters before voting is mainly meant to",
+"options": [
+"increase the number of registered political parties",
+"determine the winner of the election immediately",
+"prevent multiple voting and confirm genuine voters",
+"reduce the number of polling units in a state"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Accreditation checks that a person is a genuine, registered voter before being allowed to vote, thereby preventing one person from voting more than once. It has nothing to do with party registration or polling unit numbers.",
+"id": "govx06011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Accreditation dey help make dem confirm say you be real voter before you vote, so nobody go fit vote pass one time. E no get anything to do with party registration."
+},
+{
+"q": "A system of election in which the whole country is treated as a single constituency and parties win seats according to the share of total national votes they obtain is known as",
+"options": [
+"constituency delimitation",
+"indirect election",
+"proportional representation",
+"electoral college system"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Proportional representation allocates seats to parties in line with the percentage of votes won nationally, unlike systems based on winning individual constituencies. Delimitation and electoral college relate to different processes.",
+"id": "govx06012",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Proportional representation mean say party go get seats based on the percentage of total national votes wey dem win. E different from system wey person dey win for just one constituency."
+},
+{
+"q": "During the 2023 collation of results for a state House of Assembly seat in Nigeria, a candidate who lost at a polling unit wishes to formally challenge the figures recorded. The most appropriate immediate step is to",
+"options": [
+"mobilise supporters to disrupt collation",
+"lodge a complaint with the presiding or collation officer before the result is signed",
+"wait until after inauguration to protest",
+"report directly to the Inspector General of Police"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Objections to figures should be raised with the presiding or collation officer at the point of collation, before the result sheet is signed, as provided under INEC's result management procedure. Disruption or delayed protest does not follow due process.",
+"id": "govx06013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you wan complain about election result, you suppose talk to the presiding officer before dem sign am. E no make sense to carry thugs go scatter place or wait till dem swear person in."
+},
+{
+"q": "One major reason why INEC conducts continuous voter registration (CVR) rather than a one-off registration exercise is to",
+"options": [
+"reduce the overall cost of printing permanent voter cards",
+"allow newly eligible citizens and those who missed earlier exercises to register",
+"limit the number of people who can vote in an election",
+"ensure only members of the ruling party are registered"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Continuous voter registration gives citizens who turn eighteen or who were previously unregistered a fair chance to be captured on the voter roll. It is not designed to restrict voting or favour any party.",
+"id": "govx06014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Continuous voter registration dey help people wey just clock eighteen years or wey miss the old time make dem fit register. E dey give everybody open door to register anytime."
+},
+{
+"q": "In a council election, Candidate Uche polled 3,200 votes, Candidate Bello polled 2,850 votes, and Candidate Okafor polled 1,950 votes out of 8,000 valid votes cast. Applying the simple plurality rule, who is declared the winner and why?",
+"options": [
+"Okafor, because he had the fewest votes",
+"Uche, because he scored more votes than any other single candidate",
+"Bello, because his votes plus Okafor's exceed Uche's",
+"No winner, because none scored up to 50% of total votes"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Under simple plurality (First-Past-The-Post), the candidate with the highest individual vote total wins even without reaching half of all votes cast. Uche's 3,200 votes is higher than Bello's or Okafor's, so he wins.",
+"id": "govx06016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Under simple plurality system, the person wey get the highest number of votes win, even if e no reach half of all the votes. Uche get 3,200 votes wey pass everybody, na him win."
+},
+{
+"q": "A key distinguishing feature of a direct election compared to an indirect election is that in a direct election",
+"options": [
+"voters choose their representatives themselves without an intermediary body",
+"representatives are chosen by members of an electoral college",
+"only traditional rulers nominate the candidates",
+"the legislature appoints the final office holders"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A direct election allows ordinary voters to cast ballots directly for the candidates of their choice. Indirect election instead passes the choice through an intermediary such as an electoral college or legislature.",
+"id": "govx06017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Direct election mean say na ordinary voters go straight to vote for the people wey dem want. Dem no dey use electoral college or anybody as middleman."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following is a major requirement a Nigerian citizen must satisfy before being registered as a voter by INEC?",
+"options": [
+"Must have attained the age of eighteen years",
+"Must possess a university degree",
+"Must belong to a registered political party",
+"Must own landed property in the constituency"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The 1999 Constitution and the Electoral Act fix voting age at eighteen years. Education, party membership and property ownership are not conditions for voter registration.",
+"id": "govx06010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Which of the following best explains why INEC is classified as an executive body rather than a purely administrative agency?",
+"options": [
+"It only advises the government on policy matters without implementing them",
+"It has power to formulate, interpret and enforce electoral rules and decisions binding on all parties",
+"It is directly supervised by the National Assembly on a daily basis",
+"It cannot disqualify any candidate under any circumstance"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "INEC makes electoral regulations, applies them, and its decisions such as disqualification or declaration of results carry binding executive force, which goes beyond mere advice or administration. This combination of rule-making and enforcement marks it as an executive body.",
+"id": "govx06015",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

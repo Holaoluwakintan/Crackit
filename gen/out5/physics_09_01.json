@@ -1,0 +1,219 @@
+{
+"subject": "physics",
+"topic": "Temperature, thermometers and thermal expansion",
+"ti": 9,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A liquid-in-glass thermometer is said to be linear because the property used to measure temperature is assumed to vary in a certain way with temperature. What is this assumption?",
+"options": [
+"The property varies directly (linearly) with temperature",
+"The property varies as the square of the temperature",
+"The property varies logarithmically with temperature",
+"The property remains constant with temperature"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Liquid-in-glass thermometers are calibrated on the assumption that the expansion of the liquid is directly proportional to the change in temperature. This linear relationship allows equal divisions on the scale to represent equal temperature changes.",
+"py": null,
+"values": null,
+"id": "phyx09010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Liquid-in-glass thermometer dey work with the assumption sey expansion of liquid dey directly proportional to temperature change. Dis linear relationship mean sey equal divisions for scale dey represent equal temperature changes."
+},
+{
+"q": "A volume of 500 cm^3 of ethanol at 20 °C is heated to 70 °C. If the coefficient of cubical (volume) expansion of ethanol is 1.1 x 10^-3 per °C, what is the increase in volume of the ethanol?",
+"options": [
+"2.75 cm^3",
+"13.75 cm^3",
+"27.5 cm^3",
+"55.0 cm^3"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Increase in volume = original volume x cubical expansivity x change in temperature = 500 x 1.1x10^-3 x 50 = 27.5 cm^3. This uses the formula for volume expansion of liquids.",
+"py": "500*1.1e-3*(70-20)",
+"values": [
+2.75,
+13.75,
+27.5,
+55.0
+],
+"id": "phyx09011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find increase in volume, multiply original volume, cubical expansivity, and temperature change together. So, 500 times 1.1x10^-3 times 50 go give you 27.5 cm^3."
+},
+{
+"q": "Which of the following best explains why a thermometer bulb is made with thin glass walls and a small bulb containing a large reservoir of liquid?",
+"options": [
+"To make the thermometer lighter and easier to carry",
+"To allow rapid and sensitive response to temperature changes",
+"To prevent the liquid from evaporating",
+"To increase the boiling point of the liquid inside"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Thin glass walls allow heat to pass quickly from the object being measured into the liquid, while a large bulb volume ensures a noticeable expansion for small temperature changes. This combination gives the thermometer quick response and good sensitivity.",
+"py": null,
+"values": null,
+"id": "phyx09013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Thin glass wall dey allow heat to enter the liquid quick quick, and big bulb dey make expansion show well well for small temperature changes. Na dis combination dey give thermometer quick response and good sensitivity."
+},
+{
+"q": "The resistance of a platinum wire changes with temperature and is used in a resistance thermometer. At 0 °C its resistance is 5.00 ohms, and the resistance increases by 0.02 ohms for every 1 °C rise. What temperature, in degrees Celsius, corresponds to a resistance of 6.50 ohms, assuming the relationship is linear?",
+"options": [
+"65 °C",
+"75 °C",
+"130 °C",
+"150 °C"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Change in resistance = 6.50 - 5.00 = 1.50 ohms. Temperature = change in resistance divided by rate of change = 1.50 / 0.02 = 75 °C.",
+"py": "(6.50-5.00)/0.02",
+"values": [
+65,
+75,
+130,
+150
+],
+"id": "phyx09014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "First find the change for resistance by subtracting 5.00 from 6.50 to get 1.50 ohms. Then divide 1.50 by the rate of 0.02 to get 75 °C."
+},
+{
+"q": "Two thermometers, one calibrated in Celsius and the other in an unknown scale Y, agree at a certain temperature. On scale Y, the ice point is 0 °Y and the steam point is 80 °Y. What Celsius temperature corresponds to a reading of 60 °Y?",
+"options": [
+"48 °C",
+"60 °C",
+"75 °C",
+"96 °C"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Using the relation (C - 0)/(100 - 0) = (Y - 0)/(80 - 0), we get C = 60 x 100/80 = 75 °C. This is a direct proportion between the two linear scales.",
+"py": "60*100/80",
+"values": [
+48,
+60,
+75,
+96
+],
+"id": "phyx09015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "By using the formula (C - 0)/(100 - 0) = (Y - 0)/(80 - 0), you go multiply 60 by 100 and divide by 80. Dis one go give you 75 °C."
+},
+{
+"q": "A metal sheet has a circular hole cut into it. When the whole sheet is uniformly heated, what happens to the diameter of the hole?",
+"options": [
+"It decreases because the metal around it expands inward",
+"It increases in the same way as if the hole were made of the same metal",
+"It remains exactly the same size",
+"It becomes oval in shape due to uneven expansion"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When a solid with a hole is heated, the hole expands as though it were filled with the same material as the surrounding metal. This means the hole increases in size just like the rest of the sheet, not decreases.",
+"py": null,
+"values": null,
+"id": "phyx09016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When you heat metal sheet wey get hole, the hole dey expand just like say the hole na solid metal. So, the diameter of the hole go increase as the sheet dey expand."
+},
+{
+"q": "In the laboratory, a thick glass tumbler cracks when boiling water is suddenly poured into it, but a thin glass tumbler does not. What is the best explanation for this observation?",
+"options": [
+"Thick glass is a better conductor of heat than thin glass",
+"The inner surface of thick glass expands rapidly before heat reaches the outer surface, causing uneven stress",
+"Thick glass contains more impurities that react with hot water",
+"Thin glass has a higher melting point than thick glass"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Glass is a poor conductor of heat, so in a thick tumbler the inner layer heats up and expands quickly while the outer layer remains cool and unexpanded, creating internal stress that cracks the glass. In a thin tumbler, heat quickly reaches both surfaces together, so expansion is more uniform and no cracking occurs.",
+"py": null,
+"values": null,
+"id": "phyx09017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Because glass na poor heat conductor, the inside wall of thick tumbler dey expand quick quick before heat reach outside, and dis one dey cause stress wey dey break am. For thin tumbler, heat dey reach everywhere almost at the same time so e no dey crack."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A steel wheel rim has an internal diameter of 80.00 cm at 20 °C. It is to be shrink-fitted onto a wheel of diameter 80.24 cm by heating the rim until it just slips over the wheel. If the coefficient of linear expansion of steel is 1.2 x 10^-5 per °C, what final temperature must the rim be heated to?",
+"options": [
+"40 °C",
+"270 °C",
+"290 °C",
+"520 °C"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Required expansion = 0.24 cm, so change in temperature = expansion / (original length x expansivity) = 0.24 / (80 x 1.2x10^-5) = 250 °C. Adding this rise to the starting temperature of 20 °C gives a final temperature of 270 °C... Actually final temperature = 20 + 250 = 270 °C.",
+"py": "20 + 0.24/(80*1.2e-5)",
+"values": [
+40,
+270,
+290,
+520
+],
+"id": "phyx09012",
+"check": {
+"s1": "B",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

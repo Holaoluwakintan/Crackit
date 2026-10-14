@@ -1,0 +1,209 @@
+{
+"subject": "economics",
+"topic": "Basic concepts: scarcity, choice, scale of preference and opportunity cost",
+"ti": 0,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A tailor in Onitsha can use one day to sew either 5 native wears or 3 gowns, since both use the same cloth and machine time. If he decides to sew only gowns for the day, what is his opportunity cost?",
+"options": [
+"5 native wears",
+"3 gowns",
+"8 native wears and gowns combined",
+"The cost of cloth only"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Opportunity cost is the next best alternative given up. Since he chose gowns, what he sacrificed is the 5 native wears he could have sewn instead.",
+"py": null,
+"values": null,
+"id": "ecox00010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Opportunity cost na di next best thing wey person leave. Since di tailor choose gowns, e sacrifice di 5 native wears wey e for fit sew."
+},
+{
+"q": "Which of the following best explains why opportunity cost would NOT exist in an economy without scarcity?",
+"options": [
+"Without scarcity, all resources would be free goods and choices would not involve giving up alternatives",
+"Without scarcity, prices of goods would simply fall to zero everywhere",
+"Without scarcity, consumers would still rank their wants but choice would remain difficult",
+"Without scarcity, production would increase but opportunity cost would stay constant"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Opportunity cost only arises because resources are limited, forcing a sacrifice when a choice is made. If nothing were scarce, every want could be satisfied without giving up any other want.",
+"py": null,
+"values": null,
+"id": "ecox00011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Opportunity cost dey happen because resources no reach. If everything plenty for ground, we no go need sacrifice one thing to get anoda."
+},
+{
+"q": "Which of the following is the most important factor that forces every household, firm and government to make economic choices?",
+"options": [
+"The existence of money as a medium of exchange",
+"The unlimited nature of human wants compared with limited resources",
+"The desire of producers to maximize profit",
+"The presence of competition among sellers in the market"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Choice becomes necessary because human wants are unlimited while the resources available to satisfy them are limited. This mismatch, called scarcity, is the root cause of all economic choices.",
+"py": null,
+"values": null,
+"id": "ecox00013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Choice dey necessary because human wants plenty pass di resources wey we get. Dis scarcity na di main reason why we must dey choose wetin we want."
+},
+{
+"q": "A small-scale fish farmer in Delta State has 100 fingerlings and a pond that can hold either catfish alone, yielding ₦80,000 profit, or tilapia alone, yielding ₦95,000 profit, or a mix of both, yielding ₦70,000 profit. If he decides to go for the mixed option because he wants to reduce risk, what is his opportunity cost?",
+"options": [
+"₦70,000",
+"₦80,000",
+"₦95,000",
+"₦25,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Opportunity cost is the value of the best alternative forgone. Since tilapia alone would have given the highest profit of ₦95,000, that is what he sacrifices by choosing the mixed option.",
+"py": "95000",
+"values": [
+70000,
+80000,
+95000,
+25000
+],
+"id": "ecox00014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Opportunity cost na di value of di best option wey you leave. Since tilapia for give am ₦95,000, na dat money be di cost of im choice."
+},
+{
+"q": "In economics, which of these best distinguishes an economic good from a free good?",
+"options": [
+"An economic good is always imported while a free good is always locally produced",
+"An economic good has a price because it is scarce, while a free good has no price because it is abundant relative to demand",
+"An economic good is tangible while a free good is intangible",
+"An economic good is produced by government while a free good is produced by private individuals"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Economic goods are limited in supply relative to human wants, so they command a price. Free goods, such as sunlight or air, are available in such abundance that no one needs to pay for them.",
+"py": null,
+"values": null,
+"id": "ecox00016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Economic goods get price because dem scarce. Free goods like air plenty well-well, so nobody dey pay for dem."
+},
+{
+"q": "A woman weaving aso-oke in Iseyin has 6 hours of daily working time. Weaving one wrapper takes 2 hours and sells for ₦4,000, while weaving one scarf takes 1 hour and sells for ₦1,500. If she uses all 6 hours to weave only scarves instead of only wrappers, what is her opportunity cost in terms of money, assuming she sells everything she produces?",
+"options": [
+"₦9,000",
+"₦12,000",
+"₦1,500",
+"₦4,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In 6 hours she can make 3 wrappers worth 3 times ₦4,000 equals ₦12,000, or 6 scarves worth 6 times ₦1,500 equals ₦9,000. By choosing scarves, she gives up the ₦12,000 she would have earned from wrappers, which is her opportunity cost.",
+"py": "3*4000",
+"values": [
+9000,
+12000,
+1500,
+4000
+],
+"id": "ecox00017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If she weave wrappers, she go make ₦12,000. Because she choose scarves, she lose dat ₦12,000 wey she for make from wrappers."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A community development committee in Enugu has ₦2,000,000 to execute only one project this year. They rank their priorities as: (1) borehole, (2) town hall renovation, (3) football pitch, (4) street lights. If the committee eventually executes the town hall renovation instead of the borehole, this decision is best described as evidence of:",
+"options": [
+"An inconsistent scale of preference",
+"A reversal of their stated order of priorities",
+"An economic good becoming a free good",
+"A fall in the total wants of the community"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The committee had ranked the borehole as first priority, but choosing the town hall renovation instead means they did not follow their stated scale of preference. This shows a reversal of the order they had listed.",
+"py": null,
+"values": null,
+"id": "ecox00012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:A is also defensible.|"
+},
+{
+"q": {
+"q": "A graduate has ₦600,000 in savings and is considering four uses: (i) start a provision store expected to yield ₦180,000 profit yearly, (ii) buy a car for personal use with no monetary return, (iii) invest in a cooperative society yielding ₦150,000 yearly, (iv) further his education, expected to raise future income by ₦250,000 yearly after graduation. Using purely economic reasoning on returns, how should he arrange these uses on his scale of preference, from most to least preferred?",
+"options": [
+"Further education, provision store, cooperative society, car",
+"Car, further education, provision store, cooperative society",
+"Provision store, further education, car, cooperative society",
+"Cooperative society, car, provision store, further education"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A scale of preference based on returns ranks options by expected benefit from highest to lowest. Further education gives the highest return (₦250,000), followed by the store (₦180,000), then the cooperative (₦150,000), while the car gives no monetary return and comes last.",
+"py": null,
+"values": null,
+"id": "ecox00015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Delayed returns are not directly comparable with immediate annual returns.|"
+}
+]
+}

@@ -1,0 +1,214 @@
+{
+"subject": "accounting",
+"topic": "Cash book (two- and three-column) and discounts",
+"ti": 4,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "The cash book is said to be a book of original entry as well as a ledger account because it:",
+"options": [
+"Combines the functions of a journal and a ledger account for cash and bank transactions",
+"Is used only to record credit sales and purchases",
+"Records only transactions with the bank for the whole year",
+"Is prepared only at the end of the financial year by the auditor"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The cash book records transactions first (like a journal) and also shows running balances (like a ledger account), so it serves both purposes. This dual role is a key feature tested in accounting.",
+"py": null,
+"values": null,
+"id": "accx04000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Cash book dey work like journal because e dey record transaction first, and e still dey work like ledger because e dey show balance. Na dis two-in-one work make am special for accounting."
+},
+{
+"q": "Emeka bought goods worth ₦8,000 on credit from Hauwa Stores, with terms of 5% cash discount if paid within 10 days. Emeka paid by cheque on the 8th day. What amount should be entered in the discount allowed column of Hauwa's cash book?",
+"options": [
+"₦8,000",
+"₦7,600",
+"₦400",
+"₦40"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Discount allowed is 5% of ₦8,000, which equals ₦400. This is the reduction Hauwa Stores gives for prompt payment, recorded in the discount allowed column.",
+"py": "8000*0.05",
+"values": [
+8000,
+7600,
+400,
+40
+],
+"id": "accx04002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Discount allowed na 5% of ₦8,000, wey be ₦400. Na dis amount Hauwa Stores go record for di discount column as di money wey dem give Emeka for quick payment."
+},
+{
+"q": "In a three-column cash book, a cheque of ₦15,000 is withdrawn from the bank for office use. How should this transaction be recorded?",
+"options": [
+"Debit cash column and credit bank column with ₦15,000",
+"Debit bank column and credit cash column with ₦15,000",
+"Debit both cash and bank columns with ₦15,000",
+"Credit both cash and bank columns with ₦15,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Withdrawing cash from the bank for office use increases the cash balance and reduces the bank balance, so cash is debited and bank is credited. This is a classic contra entry shown on both sides of the same cash book.",
+"py": null,
+"values": null,
+"id": "accx04003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you withdraw cash from bank for office, your cash go increase but your bank balance go reduce. You go debit cash column and credit bank column as contra entry."
+},
+{
+"q": "Tunde's three-column cash book showed total discount allowed of ₦2,500 and total discount received of ₦1,800 for the month of June. At the end of the month, these totals are transferred to the ledger as:",
+"options": [
+"Discount allowed debited to discount allowed account; discount received credited to discount received account",
+"Discount allowed credited to discount allowed account; discount received debited to discount received account",
+"Both discounts debited to a single combined discount account",
+"Both discounts credited to the cash account directly"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Discount allowed is an expense, so its total is debited to the discount allowed account in the general ledger. Discount received is a gain, so its total is credited to the discount received account.",
+"py": null,
+"values": null,
+"id": "accx04004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Discount allowed na expense, so we go debit am for ledger. Discount received na gain, so we go credit am for ledger account."
+},
+{
+"q": "A trader's three-column cash book showed a bank balance brought forward (debit) of ₦30,000. During the month, cheques received and banked totalled ₦45,000, cheques paid out totalled ₦38,000, and a customer's cheque for ₦4,000 paid in earlier was returned dishonoured. What is the closing bank balance?",
+"options": [
+"₦41,000",
+"₦33,000",
+"₦37,000",
+"₦23,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Closing balance equals 30,000 plus 45,000 minus 38,000 minus 4,000 (dishonoured cheque reverses the earlier receipt), giving ₦33,000. The dishonoured cheque must be deducted because the money was never actually received.",
+"py": "30000+45000-38000-4000",
+"values": [
+41000,
+33000,
+37000,
+23000
+],
+"id": "accx04005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "You start with ₦30,000, add ₦45,000, minus ₦38,000, and remove ₦4,000 for di dishonoured cheque. Everything come give you ₦33,000 as di final balance."
+},
+{
+"q": "Which of the following transactions would correctly be recorded as a contra entry in a three-column cash book?",
+"options": [
+"Payment of rent by cheque",
+"Cash sales banked on the same day",
+"Purchase of goods on credit from a supplier",
+"Receipt of a cheque from a debtor and payment into the business account"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A contra entry occurs when cash is moved between the cash and bank columns within the same business, such as banking cash sales. This appears on both the debit bank column and credit cash column of the same cash book.",
+"py": null,
+"values": null,
+"id": "accx04006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Contra entry dey happen when money move between cash and bank inside di same business. Banking cash sales na perfect example because e go show for both sides of di cash book."
+},
+{
+"q": "Ngozi's two-column cash book (cash and bank) showed the following for May: cash balance b/d ₦6,000; bank balance b/d ₦22,000; cash sales ₦9,500 (all banked immediately); rent paid by cheque ₦7,000; cash purchases ₦3,200. What is the closing bank balance at the end of May?",
+"options": [
+"₦24,500",
+"₦31,500",
+"₦15,000",
+"₦20,300"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since cash sales of 9,500 were banked immediately, they increase the bank column directly, not the cash column. Closing bank balance equals 22,000 plus 9,500 minus 7,000, giving ₦24,500; cash purchases affect only the cash column.",
+"py": "22000+9500-7000",
+"values": [
+24500,
+31500,
+15000,
+20300
+],
+"id": "accx04007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Since dem bank di ₦9,500 cash sales sharp-sharp, e go add to di bank balance. So, ₦22,000 plus ₦9,500 minus ₦7,000 rent go give you ₦24,500."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Bisi's two-column cash book had a cash balance brought down of ₦3,200 and a bank balance brought down of ₦18,500 at the start of the month. Which of these best describes the two columns in this cash book?",
+"options": [
+"One column for discount allowed and one for discount received",
+"One column for cash transactions and one for bank transactions",
+"One column for purchases and one for sales",
+"One column for debtors and one for creditors"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A two-column cash book has a cash column and a bank column to separately record cash and bank transactions. It does not include discount columns, which only appear in the three-column cash book.",
+"py": null,
+"values": null,
+"id": "accx04001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:The question states what the two columns are."
+}
+]
+}

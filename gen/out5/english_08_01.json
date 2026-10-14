@@ -1,0 +1,198 @@
+{
+"subject": "english",
+"topic": "Pronouns and question tags",
+"ti": 8,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best completes the gap. The new minibus, _____ was donated by the old students' association, will convey the debate team to Enugu.",
+"options": [
+"that",
+"which",
+"who",
+"whom"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since the clause gives extra, non-essential information about the minibus (an object, not a person), it must be set off by commas and introduced by 'which'. 'That' cannot normally follow a comma in such a non-restrictive clause, and 'who/whom' are used for people only.",
+"values": null,
+"py": null,
+"id": "engx08013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because we dey talk about minibus, we must use 'which' to join the sentence. We no fit use 'that' when comma dey there. 'Who' and 'whom' na for human being, so dem no fit work here."
+},
+{
+"q": "Choose the option that best completes the gap. You will submit your project work on time, _____?",
+"options": [
+"will you",
+"won't you",
+"don't you",
+"shall you"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The main statement is affirmative ('You will submit'), so the question tag must be negative, giving 'won't you'. 'Will you' is wrongly affirmative, while 'don't you' and 'shall you' do not match the modal verb 'will' used in the statement.",
+"values": null,
+"py": null,
+"id": "engx08014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If the main sentence na positive, the question tag must be negative. Since the sentence talk say 'You will', the tag must be 'won't you'. Other options no match the modal verb wey dey the sentence."
+},
+{
+"q": "Choose the option that best completes the gap. Neither Adaeze nor her brothers have finished _____ project on renewable energy.",
+"options": [
+"her",
+"his",
+"their",
+"its"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "With 'neither...nor' joining a singular and a plural noun, the pronoun should agree with the noun nearer to it, which here is 'brothers' (plural), so 'their' is correct. The other options wrongly agree with the singular 'Adaeze' or do not fit a group of people at all.",
+"values": null,
+"py": null,
+"id": "engx08015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you use 'neither...nor', the pronoun must follow the noun wey near am. Since 'brothers' na plural, we must use 'their'. 'Her' or 'his' no go correct because dem be singular."
+},
+{
+"q": "Choose the option that best completes the gap. The matter is strictly between you and _____, so do not discuss it with anyone else.",
+"options": [
+"I",
+"myself",
+"me",
+"mine"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Because the pronoun follows the preposition 'between' and works together with 'you' as objects, the objective case 'me' is required. 'I' is subjective, 'myself' is reflexive and unnecessary here, and 'mine' is possessive, none of which fit after a preposition in this way.",
+"values": null,
+"py": null,
+"id": "engx08016",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "After preposition like 'between', you must use object pronoun. 'Me' na the correct one to use here. 'I' na subject, so e no fit follow preposition."
+},
+{
+"q": "Choose the option that best completes the gap. It was Fatima and not her cousins _____ broke the vase in the staff room.",
+"options": [
+"who",
+"whom",
+"which",
+"whose"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The clause needs a subject pronoun referring to a person performing the action of breaking the vase, and since the emphasis is on Fatima as the one who did it, 'who' correctly serves as the subject of the relative clause. 'Whom' is an object form, 'which' refers to things, and 'whose' shows possession, none of which fit the subject role required here.",
+"values": null,
+"py": null,
+"id": "engx08017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We dey talk about person wey break the vase, so we must use 'who'. 'Whom' na for object, and 'which' na for thing. 'Who' na the correct subject pronoun for Fatima."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap. The twins, Bola and Tolu, blame _____ for the broken window.",
+"options": [
+"themselves",
+"each other",
+"ourselves",
+"theirselves"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Since two people (the twins) are involved in a mutual action, the reciprocal pronoun each other is correct. Themselves and ourselves are reflexive, not reciprocal, and theirselves is not a standard English word.",
+"values": null,
+"py": null,
+"id": "engx08010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap. Whoever finds the missing textbook should return it to _____ it belongs.",
+"options": [
+"who",
+"whom",
+"whomever",
+"whosoever"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The gap needs a pronoun that acts as the object of the preposition 'to' while also introducing the clause, so whomever is required. Whosoever is archaic and not idiomatic here, while who and whom cannot correctly combine subject and object roles in this construction.",
+"values": null,
+"py": null,
+"id": "engx08011",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap. Each of the candidates must bring _____ own identity card to the examination hall.",
+"options": [
+"their",
+"his or her",
+"his",
+"they're"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Each is a singular indefinite pronoun, so it requires a singular possessive form, and since the gender of the candidates is unspecified, 'his or her' is the grammatically correct and inclusive choice. 'Their' is informal and not strictly correct in formal examinations, while 'his' alone wrongly assumes only males, and they're is a contraction, not a possessive.",
+"values": null,
+"py": null,
+"id": "engx08012",
+"check": {
+"s1": "A",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+}
+]
+}

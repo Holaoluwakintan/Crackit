@@ -1,0 +1,196 @@
+{
+"subject": "commerce",
+"topic": "Transportation and warehousing",
+"ti": 9,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A bonded warehouse is best described as a warehouse where:",
+"options": [
+"Goods are stored temporarily and import duty is paid later before release",
+"Goods are stored only for export without any customs control",
+"Perishable goods are kept under refrigeration",
+"Farmers store produce rent-free until harvest season ends"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A bonded warehouse allows traders to keep imported goods under customs control until duty is eventually paid before the goods are released for sale.",
+"py": null,
+"values": null,
+"id": "comx09000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Bonded warehouse na place where importers dey keep dia goods under customs watch. Dem no dey pay duty sharp sharp until dem wan carry di goods go market."
+},
+{
+"q": "Which of the following best explains why railway transport is generally more suitable than road transport for moving heavy bulk cargo like groundnuts over very long distances?",
+"options": [
+"Railway tracks are cheaper to construct than roads",
+"Railway transport carries large quantities at lower cost per tonne over long distances",
+"Railway wagons can deliver goods directly to any village without extra handling",
+"Railway transport is faster over short distances within a city"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Rail transport benefits from economies of scale, so moving heavy bulky goods over long distances costs less per tonne than road transport, even though it needs further handling for final delivery.",
+"py": null,
+"values": null,
+"id": "comx09001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Train transport good for heavy goods like groundnut because e dey carry plenty load at once. E dey cost cheaper per tonne to travel long distance pass motor transport."
+},
+{
+"q": "Which of these is a genuine disadvantage of water (sea) transport in international trade?",
+"options": [
+"It cannot carry bulky or heavy goods at all",
+"It is usually slower than road or air transport, so delivery takes longer",
+"It is more expensive per tonne than air transport for all goods",
+"It cannot be used to transport liquids such as crude oil"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Sea transport, though cheap for bulky cargo, moves slowly compared with road or air transport, which can delay delivery of goods, especially perishables.",
+"py": null,
+"values": null,
+"id": "comx09003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Ship transport dey carry heavy load well well, but e dey slow die. Because e dey take time, goods fit late to reach house, especially perishable things."
+},
+{
+"q": "One key function of warehousing, besides storage, is price stabilisation. This means warehousing helps to:",
+"options": [
+"Increase the selling price of goods immediately after production",
+"Reduce excess supply at harvest and release goods gradually to prevent sharp price swings",
+"Fix government prices for all goods in the market permanently",
+"Eliminate the need for insurance on stored goods"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "By storing surplus produce after harvest and releasing it bit by bit when demand rises, warehousing helps smooth out price fluctuations between periods of glut and scarcity.",
+"py": null,
+"values": null,
+"id": "comx09004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Warehousing dey help stabilise price because e go hide excess goods during harvest time. When famine or demand come high, dem go begin release am small small so price no go scatter."
+},
+{
+"q": "A manufacturing company that owns and operates its own warehouse to store its finished goods before distribution is using a:",
+"options": [
+"Public warehouse",
+"Bonded warehouse",
+"Private warehouse",
+"Co-operative warehouse"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A private warehouse is owned and used by a single firm solely for storing its own goods, unlike public warehouses which serve many different users.",
+"py": null,
+"values": null,
+"id": "comx09005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Private warehouse naim be say na only dat particular company own di house and dey use am keep dia own goods. Na different thing from public warehouse wey anybody fit rent."
+},
+{
+"q": "Which of the following is a major advantage of air transport over other modes when exporting fresh flowers from Nigeria to Europe?",
+"options": [
+"It has the lowest cost per kilogram for all cargo types",
+"It delivers perishable goods quickly, reducing spoilage before sale",
+"It can carry extremely heavy and bulky loads more cheaply than ships",
+"It requires no special packaging or handling procedures"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Air transport is fast, so perishable goods like fresh flowers reach distant markets quickly before they spoil, even though it costs more than sea transport for bulky goods.",
+"py": null,
+"values": null,
+"id": "comx09007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Aero-plane fast well well, na why dem dey use am carry fresh flowers from Naija go Europe. E dey make perishable goods reach market sharp sharp before e spoil, even though freight cost high."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Alhaji Musa must transport live cattle from Sokoto to Lagos. Considering the nature of the goods, which factor should most strongly influence his choice of transport mode?",
+"options": [
+"The colour of the vehicle used for transport",
+"The speed of delivery and provisions to keep the animals alive and safe in transit",
+"The number of warehouses located along the route",
+"The nationality of the transport company's owner",
+""
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Live animals need quick, safe movement with proper ventilation and handling to arrive healthy, so speed and suitable conditions matter more than unrelated factors like route warehouses or company ownership.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A trader in Onitsha ships 500 cartons of goods from Lagos port. The warehouse charges ₦150 per carton for the first 10 days and ₦220 per carton for any day after that. If the goods stayed for 13 days, how much warehouse charge did the trader pay in total?",
+"options": [
+"₦75,000",
+"₦33,000",
+"₦108,000",
+"₦110,000"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The first 10 days cost 500 times 150 equals ₦75,000, and the extra 3 days cost 500 times 220 times 3 equals ₦33,000, giving a total of ₦108,000.",
+"py": "500*150 + 500*220*3",
+"values": [
+75000,
+33000,
+108000,
+110000
+],
+"id": "comx09002",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

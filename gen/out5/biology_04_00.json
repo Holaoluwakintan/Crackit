@@ -1,0 +1,169 @@
+{
+"subject": "biology",
+"topic": "Nutrition in animals: food classes, digestion and enzymes",
+"ti": 4,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Adaeze chews a piece of boiled yam for a long time and notices it begins to taste sweet. Which enzyme present in her saliva is responsible for this change?",
+"options": [
+"Ptyalin (salivary amylase)",
+"Pepsin",
+"Trypsin",
+"Lipase"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Saliva contains ptyalin, which breaks down starch into maltose, giving the sweet taste. Pepsin, trypsin and lipase act on proteins and fats, not starch.",
+"id": "biox04000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Saliva get ptyalin inside am wey dey break down starch to maltose, na hin make yam dey sweet for mouth. Pepsin, trypsin and lipase dey work for protein and fat, no be starch."
+},
+{
+"q": "A food scientist tests three solutions, X, Y and Z, with Sudan III stain. Solution X forms a scarlet-red layer, while Y and Z show no colour change. Which food class is most likely present in solution X?",
+"options": [
+"Protein",
+"Reducing sugar",
+"Lipid",
+"Starch"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Sudan III stain turns red or forms a red layer in the presence of lipids. It does not react this way with proteins, sugars or starch.",
+"id": "biox04002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Sudan III stain dey turn red or form red layer if lipid dey present. E no dey react like dat with protein, sugar or starch."
+},
+{
+"q": "In the human digestive system, which pair of organs both secrete enzymes that digest proteins into smaller peptides?",
+"options": [
+"Mouth and liver",
+"Stomach and pancreas",
+"Pancreas and gall bladder",
+"Stomach and mouth"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The stomach secretes pepsin and the pancreas secretes trypsin, both of which break down proteins into peptides. The liver and gall bladder produce and store bile, which has no enzymes, and the mouth has no protein-digesting enzyme.",
+"id": "biox04003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Stomach dey bring out pepsin and pancreas dey bring out trypsin, and both of them dey break protein down to peptide. Liver and gall bladder dey make and store bile wey no get enzyme, and mouth no get protein enzyme."
+},
+{
+"q": "Which of the following correctly matches a digestive enzyme with the site where it is secreted?",
+"options": [
+"Lipase - secreted by the stomach only",
+"Trypsin - secreted by the pancreas",
+"Pepsin - secreted by the salivary glands",
+"Amylase - secreted by the gall bladder"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Trypsin is produced by the pancreas and released into the duodenum to digest proteins. Pepsin comes from the stomach, amylase from the salivary glands and pancreas, and the gall bladder stores bile, not enzymes.",
+"id": "biox04005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na pancreas dey produce trypsin and release am go duodenum to digest protein. Pepsin dey come from stomach, amylase dey come from salivary gland and pancreas, while gall bladder na to store bile, no be enzyme."
+},
+{
+"q": "A boy eats a meal containing boiled egg white, rice and vegetable oil. As the food passes through his digestive tract, which sequence correctly shows where protein digestion begins and is completed?",
+"options": [
+"Begins in the mouth with ptyalin, completed in the stomach",
+"Begins in the stomach with pepsin, completed in the small intestine with trypsin and peptidases",
+"Begins in the stomach with lipase, completed in the pancreas",
+"Begins in the small intestine with bile, completed in the stomach with pepsin"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Protein digestion starts in the stomach when pepsin breaks proteins into peptides, and is completed in the small intestine by pancreatic trypsin and intestinal peptidases, which produce amino acids. Ptyalin and lipase act on carbohydrates and fats, not proteins.",
+"id": "biox04006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Protein digestion dey start for stomach when pepsin break protein to peptide, and e dey finish for small intestine through pancreatic trypsin and peptidases. Ptyalin and lipase dey work for carbohydrate and fat, no be protein."
+},
+{
+"q": "A researcher removes the pancreas from an experimental animal but keeps the stomach, liver and small intestine functioning normally. Which process would be most severely affected as a result?",
+"options": [
+"Breakdown of starch by salivary amylase in the mouth",
+"Emulsification of fats by bile in the duodenum",
+"Digestion of proteins and fats in the small intestine due to loss of trypsin and lipase",
+"Absorption of digested food through the villi"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The pancreas supplies trypsin for protein digestion and lipase for fat digestion into the small intestine, so removing it would severely affect these processes. Salivary amylase, bile emulsification and villi absorption do not directly depend on the pancreas.",
+"id": "biox04007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Pancreas dey supply trypsin for protein digestion and lipase for fat digestion inside small intestine, so to remove am go affect these process well well. Salivary amylase, bile and villi absorption no depend directly on pancreas."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best describes the main function of carbohydrates as a food class in the human body?",
+"options": [
+"Formation of antibodies against disease",
+"Provision of energy for body activities",
+"Insulation and protection of internal organs",
+"Supply of essential fatty acids for cell membranes",
+"Transport of oxygen in the blood"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Carbohydrates are mainly broken down to glucose, which is oxidised to release energy for body activities. Growth, protection and oxygen transport are not their main roles."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A laboratory technician sets up two boiling tubes. Tube 1 contains starch solution with saliva at 37 degrees C. Tube 2 contains starch solution with saliva that was first boiled for 10 minutes before mixing. After 20 minutes, iodine solution is added to both tubes. What result is expected and why?",
+"options": [
+"Both tubes turn blue-black because starch was present in both originally",
+"Tube 1 remains brown while tube 2 turns blue-black, since boiling destroyed the amylase in tube 2",
+"Tube 1 turns blue-black while tube 2 remains brown, since amylase was more active after boiling",
+"Both tubes remain brown because iodine does not react with starch at body temperature",
+"Tube 2 turns blue-black while tube 1 stays unchanged because saliva degrades at 37 degrees C"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Boiling denatures the amylase enzyme in tube 2, so starch remains undigested and turns blue-black with iodine. In tube 1, active amylase digests the starch, so the iodine test shows no blue-black colour."
+},
+"why": "bad-shape"
+}
+]
+}

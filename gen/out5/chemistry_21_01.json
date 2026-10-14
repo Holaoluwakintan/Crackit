@@ -1,0 +1,202 @@
+{
+"subject": "chemistry",
+"topic": "Fats, oils, soaps, detergents, carbohydrates and proteins",
+"ti": 21,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Carbohydrates are generally defined as polyhydroxy aldehydes or ketones (or compounds that yield them on hydrolysis) with the general formula Cx(H2O)y. Which of the following is classified as a monosaccharide?",
+"options": [
+"Glucose",
+"Sucrose",
+"Starch",
+"Cellulose"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Glucose is a simple sugar that cannot be hydrolysed into smaller sugar units, making it a monosaccharide. Sucrose is a disaccharide, while starch and cellulose are polysaccharides made of many glucose units.",
+"py": null,
+"values": null,
+"id": "chex21010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Glucose na simple sugar wey dem no fit break down again into another sugar, na im make am monosaccharide. Sucrose na disaccharide, while starch and cellulose na polysaccharides wey get plenty glucose inside."
+},
+{
+"q": "A fat molecule is formed when glycerol reacts with three fatty acid molecules. What is the name given to the type of bond formed between glycerol and each fatty acid during this reaction?",
+"options": [
+"Peptide bond",
+"Glycosidic bond",
+"Ester bond",
+"Hydrogen bond"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Fats and oils are esters formed from the condensation reaction between glycerol (an alcohol) and fatty acids (carboxylic acids). This reaction produces an ester linkage and releases water.",
+"py": null,
+"values": null,
+"id": "chex21011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Fats and oils na esters wey dey form when glycerol and fatty acids join together. E dey produce ester bond and release water for the process."
+},
+{
+"q": "Ordinary soap, sodium octadecanoate, forms a scum when used with hard water. This scum is best described as:",
+"options": [
+"A soluble sodium salt of a fatty acid",
+"An insoluble calcium or magnesium salt of a fatty acid",
+"A mixture of glycerol and sodium hydroxide",
+"An emulsified droplet of oil surrounded by water molecules"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Hard water contains calcium and magnesium ions, which react with soap to form insoluble calcium or magnesium salts of the fatty acid. This insoluble precipitate is the scum, and it wastes soap before useful lather can form.",
+"py": null,
+"values": null,
+"id": "chex21013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Hard water get calcium and magnesium inside, wey dey react with soap to form insoluble salt wey be scum. Na this scum dey waste soap before foam fit show."
+},
+{
+"q": "A hydrocarbon chain of a soap molecule, such as in sodium hexadecanoate, dissolves grease and oil stains, while the ionic head dissolves in water. What term describes the non-polar hydrocarbon tail of the soap molecule with respect to water?",
+"options": [
+"Hydrophilic",
+"Hydrophobic",
+"Amphoteric",
+"Zwitterionic"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The long hydrocarbon tail of a soap molecule repels water and dissolves in oily or greasy substances, so it is described as hydrophobic (water-hating). The ionic carboxylate head is hydrophilic and dissolves in water.",
+"py": null,
+"values": null,
+"id": "chex21014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "The long tail of soap dey fear water and na oil e dey like, na im we dey call am hydrophobic. The head na hydrophilic because e dey dissolve for water."
+},
+{
+"q": "Starch and cellulose are both natural polysaccharides built entirely from glucose units, yet they differ greatly in properties; for instance, humans can digest starch but not cellulose. What mainly accounts for this difference?",
+"options": [
+"Starch contains nitrogen atoms absent in cellulose",
+"Cellulose has a higher molecular mass than starch",
+"The glucose units in starch and cellulose are joined by different types of glycosidic linkages",
+"Starch is a monosaccharide while cellulose is a disaccharide"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Starch and cellulose are both polymers of glucose, but the glucose units are linked by different glycosidic bonds (alpha-linkages in starch and beta-linkages in cellulose). Human digestive enzymes can break alpha-linkages but not beta-linkages, so cellulose passes through undigested.",
+"py": null,
+"values": null,
+"id": "chex21015",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Starch and cellulose na both glucose polymers, but the way dem join different. Human body get enzyme wey fit break starch bond, but e no fit break cellulose bond."
+},
+{
+"q": "A 200 g sample of groundnut oil, assumed to be a simple triglyceride of relative molecular mass 884, is completely hydrolysed by boiling with excess sodium hydroxide solution. Calculate the number of moles of fatty acid salt (soap) produced, assuming complete saponification. (Relative molecular mass of oil = 884)",
+"options": [
+"0.226 mol",
+"0.679 mol",
+"0.075 mol",
+"1.358 mol"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Moles of oil = 200/884 = 0.226 mol. Each triglyceride molecule produces 3 moles of soap on hydrolysis, so moles of soap = 0.226 x 3 = 0.679 mol.",
+"py": "(200/884)*3",
+"values": [
+0.226,
+0.679,
+0.075,
+1.358
+],
+"id": "chex21016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "First find mole of oil by dividing 200 by 884, wey give 0.226 mol. Because one oil molecule dey produce 3 moles of soap, multiply 0.226 by 3 to get 0.679 mol."
+},
+{
+"q": "Which property of synthetic detergents makes them more suitable than ordinary soap for use in areas with hard water, such as some parts of Nigeria where borehole water contains dissolved calcium and magnesium salts?",
+"options": [
+"They lower the surface tension of water more than soap does",
+"They form soluble salts with calcium and magnesium ions instead of insoluble scum",
+"They are cheaper to manufacture on an industrial scale",
+"They contain glycerol which prevents precipitate formation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Synthetic detergents have sulphonate or sulphate groups whose calcium and magnesium salts remain soluble in water, unlike soap whose calcium and magnesium salts are insoluble and form scum. This allows detergents to lather well even in hard water.",
+"py": null,
+"values": null,
+"id": "chex21017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Synthetic detergents better pass ordinary soap for hard water because dia calcium and magnesium salts dey dissolve. E no dey form scum, so foam dey show well well."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which pair of reagents, when heated with a protein solution, is commonly used in the Biuret test to confirm the presence of peptide bonds?",
+"options": [
+"Fehling's solution and heat",
+"Dilute sodium hydroxide and dilute copper(II) sulphate",
+"Bromine water and shaking",
+"Concentrated nitric acid and heat"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In the Biuret test, sodium hydroxide is added to make the solution alkaline, then a few drops of dilute copper(II) sulphate are added. A violet or purple colour confirms the presence of peptide bonds in proteins.",
+"py": null,
+"values": null,
+"id": "chex21012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Biuret test does not require heating.|"
+}
+]
+}

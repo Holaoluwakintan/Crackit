@@ -1,0 +1,231 @@
+{
+"subject": "physics",
+"topic": "Projectiles and circular motion",
+"ti": 3,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A ball is projected horizontally from the top of a cliff 80 m high with a speed of 10 m/s. Calculate the horizontal distance covered by the ball when it strikes the ground. (g = 10 m/s^2)",
+"options": [
+"40 m",
+"80 m",
+"20 m",
+"10 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Time to fall is found from 80 = 0.5(10)t^2, giving t = 4 s. Horizontal distance = speed x time = 10 x 4 = 40 m.",
+"py": "10*math.sqrt(2*80/10)",
+"values": [
+40,
+80,
+20,
+10
+],
+"id": "phyx03000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find how long the ball take to fall, we use 80 = 0.5(10)t^2, which give t = 4 s. Then, we multiply speed by time, 10 x 4, to get 40 m as the horizontal distance."
+},
+{
+"q": "Which of the following statements correctly describes the velocity of a body undergoing uniform circular motion?",
+"options": [
+"The velocity is constant in both magnitude and direction",
+"The velocity is constant in magnitude but continuously changing in direction",
+"The velocity continuously increases in magnitude while direction stays fixed",
+"The velocity is zero at every point on the circle"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In uniform circular motion, speed stays the same but the direction of velocity changes continuously because the body keeps changing course along the circle. This changing direction is why there is a centripetal acceleration even though speed is constant.",
+"py": null,
+"values": null,
+"id": "phyx03002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When person dey do uniform circular motion, the speed dey remain the same, but the direction dey change every second as e dey move round the circle. E be like say the velocity dey change direction even though magnitude no change."
+},
+{
+"q": "A projectile is launched from level ground with speed u at an angle theta to the horizontal. Which expression gives the maximum height reached by the projectile? (g = acceleration due to gravity)",
+"options": [
+"u^2 sin(2theta) / g",
+"u^2 sin^2(theta) / (2g)",
+"u^2 cos^2(theta) / (2g)",
+"2u sin(theta) / g"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The vertical component of velocity is u sin(theta), and using v^2 = u^2 - 2gh at maximum height where vertical velocity is zero gives h = u^2 sin^2(theta) / (2g). This is a standard projectile motion result.",
+"py": null,
+"values": null,
+"id": "phyx03004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "The vertical part of the velocity na u sin(theta). When we use v^2 = u^2 - 2gh where vertical velocity na zero for top, we go get h = u^2 sin^2(theta) / (2g)."
+},
+{
+"q": "A satellite moves in a circular orbit of radius 7000 km around the Earth with a period of 2 hours. Approximately what is the orbital speed of the satellite? (Take pi = 3.142)",
+"options": [
+"About 6.1 km/s",
+"About 3.5 km/s",
+"About 12.2 km/s",
+"About 1.9 km/s"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Speed = 2 pi r / T = 2 x 3.142 x 7000 km / (2 x 3600 s) = 43988 / 7200 approximately 6.1 km/s. This uses the basic circular motion relation between circumference, period and speed.",
+"py": "2*3.142*7000/(2*3600)",
+"values": [
+6.109722222222222,
+3.5,
+12.2,
+1.9
+],
+"id": "phyx03005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "We calculate speed as Speed = 2 pi r / T, wey be 2 x 3.142 x 7000 km divide by the time in seconds (2 x 3600 s). Dis one go give us approximately 6.1 km/s."
+},
+{
+"q": "A stone of mass 0.5 kg is attached to a string and whirled in a horizontal circle of radius 1.2 m at a constant speed, making 5 complete revolutions every second. Calculate the tension in the string. (Take pi = 3.142)",
+"options": [
+"About 592 N",
+"About 118 N",
+"About 237 N",
+"About 1184 N"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Angular speed omega = 2 pi f = 2 x 3.142 x 5 = 31.42 rad/s. Tension equals centripetal force = m omega^2 r = 0.5 x 31.42^2 x 1.2, which gives approximately 592 N.",
+"py": "0.5*(2*3.142*5)**2*1.2",
+"values": [
+592.0809472,
+118,
+237,
+1184
+],
+"id": "phyx03006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "First, make you find angular speed omega = 2 pi f, wey be 2 x 3.142 x 5 = 31.42 rad/s. Tension na the centripetal force, m omega^2 r, wey give us approximately 592 N."
+},
+{
+"q": "A javelin is thrown and its horizontal range on level ground is observed to be exactly equal to its maximum height. If the javelin is launched at angle theta to the horizontal, what is the value of tan(theta)?",
+"options": [
+"1",
+"2",
+"4",
+"0.5"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Range R = u^2 sin(2theta)/g and maximum height H = u^2 sin^2(theta)/(2g). Setting R = H gives sin(2theta) = sin^2(theta)/2, which simplifies using sin(2theta) = 2 sin(theta)cos(theta) to tan(theta) = 4.",
+"py": "4",
+"values": [
+1,
+2,
+4,
+0.5
+],
+"id": "phyx03007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If range R equal maximum height H, we go equate their formulas. When we solve am well, the sin(2theta) expand go give us tan(theta) = 4."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A boy whirls a bucket of water of mass 2 kg at the end of a string of length 0.8 m in a vertical circle. What is the minimum speed at the topmost point of the circle for the water not to spill? (g = 10 m/s^2)",
+"options": [
+"2 sqrt(2) m/s",
+"sqrt(8) m/s",
+"4 m/s",
+"8 m/s"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At the minimum speed, gravity alone provides the centripetal force: mg = mv^2/r, so v = sqrt(gr) = sqrt(10 x 0.8) = sqrt(8) = 2.83 m/s. This matches the option written as sqrt(8) m/s, not the one written as 2 sqrt(2) which is the same value but options must be distinct numerically equal forms are avoided; sqrt(8) is correct.",
+"py": "math.sqrt(10*0.8)",
+"values": [
+2.8284271247461903,
+2.8284271247461903,
+4,
+8
+],
+"id": "phyx03001",
+"check": {
+"s1": "A",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "A coin rests on a flat horizontal rotating turntable at a distance of 0.25 m from the centre. The coefficient of friction between the coin and turntable is 0.4. What is the maximum angular speed at which the coin can rotate without sliding off? (g = 10 m/s^2)",
+"options": [
+"2 rad/s",
+"4 rad/s",
+"0.5 rad/s",
+"16 rad/s"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Friction supplies the centripetal force: (mu)mg = m(omega)^2 r, so omega = sqrt(mu g / r) = sqrt(0.4 x 10 / 0.25) = sqrt(16) = 4... recompute: 0.4x10=4, 4/0.25=16, sqrt(16)=4 rad/s, so the correct value is 4 rad/s.",
+"py": "math.sqrt(0.4*10/0.25)",
+"values": [
+2,
+4,
+0.5,
+16
+],
+"id": "phyx03003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

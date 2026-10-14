@@ -1,0 +1,197 @@
+{
+"subject": "geography",
+"topic": "Settlements: types, functions and patterns",
+"ti": 15,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A town originally grew as a river-crossing point where traders paused to exchange goods, and this trading role later became its main reason for continued growth, overtaking its original importance as a crossing point. This situation best illustrates which settlement concept?",
+"options": [
+"Change of function",
+"Site and situation being identical",
+"Rural-urban continuum",
+"Nucleated pattern formation"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "When a settlement's original purpose for growth is replaced by a new dominant activity, geographers call this a change of function. The crossing point role gave way to a trading function as the town developed.",
+"py": null,
+"values": null,
+"id": "geox15000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When town change wetin e dey do before come start do anoda work, we dey call am change of function. The town start as crossing point but as e grow, trading come become the main thing wey dey make am big."
+},
+{
+"q": "Which of the following is the most important factor responsible for the dispersed (scattered) settlement pattern common in areas of forest clearing and shifting cultivation in parts of Nigeria?",
+"options": [
+"Need for defence against invaders",
+"Availability of large areas of farmland around each homestead",
+"Presence of a central market square",
+"Government resettlement policy"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "In shifting cultivation areas, each family needs a large piece of land to farm and clear, so houses are built far apart near their farmlands. This spacing produces a dispersed settlement pattern.",
+"py": null,
+"values": null,
+"id": "geox15001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For places where dem dey do shifting cultivation, every family need big land to farm. Because of this, houses dey far from each oda, wey come make the settlement look scattered."
+},
+{
+"q": "In central place theory, which of the following best explains why a large town can support a specialist hospital and a university while a nearby small village can only support a primary school and a small market?",
+"options": [
+"The large town has a bigger range and threshold population to support higher-order services",
+"The village has no roads linking it to other places",
+"The large town was founded earlier in history",
+"The village population refuses to pay taxes"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Higher-order services like hospitals and universities need a large threshold population and wider range of customers to remain viable. Only large towns usually have enough people to support such services, while villages can only sustain low-order functions.",
+"py": null,
+"values": null,
+"id": "geox15003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Big services like university need plenty people to survive, wey we dey call threshold population. Big towns get enough people to support these things, but small villages no get that kind population."
+},
+{
+"q": "Which of the following pairs correctly matches a settlement pattern with its typical description?",
+"options": [
+"Linear pattern - houses spread evenly in a circular arrangement around a hill",
+"Nucleated pattern - houses closely grouped together around a central point such as a market or water source",
+"Dispersed pattern - houses tightly packed in rows along a highway",
+"Radial pattern - houses scattered randomly with no relationship to roads"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A nucleated pattern is one where houses and buildings cluster closely together, usually around a focal point like a market, church, or water source. The other options wrongly describe linear, dispersed and radial patterns.",
+"py": null,
+"values": null,
+"id": "geox15004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Nucleated pattern mean say houses dey gather together for one place. Dem fit gather round market or water source for protection or easy access."
+},
+{
+"q": "Which of the following best explains why many traditional settlements in Northern Nigeria were originally built in nucleated form, with houses clustered together and surrounded by a wall or fence?",
+"options": [
+"To reduce the cost of building roads",
+"To provide collective defence against raids and attacks",
+"To make trading with distant towns easier",
+"To allow each family unlimited farmland"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In the past, communities clustered their houses together, often behind walls, mainly for protection and collective defence against raiders. This defensive need was a major historical reason for nucleated settlement patterns in many parts of Northern Nigeria.",
+"py": null,
+"values": null,
+"id": "geox15006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Before, people for Northern Nigeria dey build house together and put wall round am for protection. This one help dem defend demselves well against people wey wan attack dem."
+},
+{
+"q": "A geographer classifies a settlement as 'urban' rather than 'rural' mainly on the basis of which combination of characteristics?",
+"options": [
+"Large population size, high density of buildings, and dominance of non-agricultural occupations",
+"Small population size and total dependence on farming",
+"Presence of a village head and a single primary school",
+"Scattered houses and low literacy levels"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Urban settlements are generally identified by large population size, high building density, and a dominance of non-farming activities such as trade, industry, and services. Rural settlements, by contrast, are smaller and mostly agricultural.",
+"py": null,
+"values": null,
+"id": "geox15007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Urban settlement get plenty people, many buildings, and people no dey do farming as main work. Rural settlement small and most people dey do farming."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A geography class is comparing two towns. Town X has about 3,000 people mostly engaged in farming and fishing, with simple social amenities. Town Y has about 250,000 people, several factories, banks, a university and a daily newspaper. Based on functional classification, Town Y is best described as a settlement performing which function?",
+"options": [
+"Purely agricultural function",
+"Purely religious function",
+"Administrative function only",
+"Commercial, industrial and educational functions"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Town Y has factories (industrial), banks (commercial) and a university (educational), showing it performs multiple higher-order functions. This combination of functions is typical of larger urban centres.",
+"py": null,
+"values": null,
+"id": "geox15002",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "A rural settlement in Benue State has grown from 2,000 people to 45,000 people over forty years due to the discovery of limestone deposits and the establishment of a cement factory nearby. Which of the following functions has now become most dominant in this settlement?",
+"options": [
+"Industrial function",
+"Religious function",
+"Fishing function",
+"Recreational function"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The growth is linked directly to mineral exploitation and factory establishment, which are industrial activities. This shows that the settlement's dominant function has shifted toward industry.",
+"py": null,
+"values": null,
+"id": "geox15005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

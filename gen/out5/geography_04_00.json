@@ -1,0 +1,212 @@
+{
+"subject": "geography",
+"topic": "The earth in the solar system: rotation, revolution, latitude, longitude and time",
+"ti": 4,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best explains why the length of daylight varies between seasons at a place like Enugu, instead of being exactly 12 hours every day of the year?",
+"options": [
+"The earth rotates at different speeds throughout the year",
+"The earth's axis is tilted as it revolves around the sun",
+"The earth's distance from the moon changes with seasons",
+"The earth spins faster during the day than at night"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Because the earth's axis is tilted and stays pointed in the same direction as the earth orbits the sun, different parts of the earth receive varying hours of daylight at different times of the year. This tilt, not changes in rotation speed, causes the seasonal variation in day length.",
+"py": null,
+"values": null,
+"id": "geox04002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na because the earth axis dey tilted as e dey go round the sun, naim make daylight length dey change for Enugu and other places. If not be this tilt, everywhere for earth for dey get 12 hours daylight everyday."
+},
+{
+"q": "Which of the following is the most accurate reason why the International Date Line is drawn mostly along the 180° meridian rather than a straight line through populated areas?",
+"options": [
+"To avoid splitting a single country or landmass into two different calendar dates",
+"To make the line pass through the Equator for balance",
+"To ensure the line matches the Greenwich Meridian exactly",
+"To reduce the number of time zones in the world"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The 180 degree meridian runs mostly through the Pacific Ocean, so the International Date Line is bent at certain points to avoid cutting through countries or island groups, which would otherwise force one part of a nation to be a day ahead of the other part.",
+"py": null,
+"values": null,
+"id": "geox04005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dem draw the International Date Line make e bend for some places so say e no go cut any country into two different days. E dey follow 180° meridian mostly for inside Pacific Ocean to make life easy for people wey dey stay near."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A market trader in Kano notices that the sun is directly overhead at noon on a particular day in March. This observation is best explained by the fact that the sun's overhead position shifts between the Tropics mainly because of the earth's:",
+"options": [
+"Rotation on its axis",
+"Revolution around the sun combined with axial tilt",
+"Elliptical orbit shape alone",
+"Spherical shape"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The apparent movement of the overhead sun between the Tropic of Cancer and Tropic of Capricorn is caused by the earth revolving around the sun while its axis stays tilted at 23.5 degrees. Rotation alone only produces day and night, not seasonal shifts.",
+"py": null,
+"values": null,
+"id": "geox04000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Sun is not directly overhead in Kano in March.|"
+},
+{
+"q": {
+"q": "A ship's navigator at sea records her position as 20°S, 10°W. What do these two values together represent?",
+"options": [
+"The altitude and depth of the location",
+"The latitude and longitude of the location",
+"Two different longitudes of the location",
+"The time zone and date line position"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A location on the earth's surface is fixed using a pair of coordinates: latitude, which measures position north or south of the Equator, and longitude, which measures position east or west of the Greenwich Meridian.",
+"py": null,
+"values": null,
+"id": "geox04001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "A geography student is told that a certain town lies exactly on the Equator and also exactly on the Greenwich Meridian. What are the coordinates of this town?",
+"options": [
+"0° latitude, 0° longitude",
+"90°N, 0° longitude",
+"0° latitude, 180° longitude",
+"23.5°N, 0° longitude"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The Equator is the line of latitude numbered 0 degrees, and the Greenwich Meridian is the line of longitude numbered 0 degrees. A place on both must have coordinates 0 degrees latitude and 0 degrees longitude.",
+"py": null,
+"values": null,
+"id": "geox04003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "A pilot flying from Port Harcourt (longitude 7°E) to a city at longitude 37°E notices his watch, still set to Port Harcourt local time, now reads 2 hours behind the local time of the new city. Using the rule that 15° of longitude equals 1 hour, is this time difference consistent with the longitude difference?",
+"options": [
+"Yes, because the longitude difference of 30° correctly gives a 2-hour difference",
+"No, because the longitude difference of 30° should give a 1-hour difference",
+"No, because the longitude difference of 44° should give about 3 hours difference",
+"Yes, but only because both cities are in the same time zone"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The difference in longitude is 37 minus 7, which equals 30 degrees. Dividing by 15 degrees per hour gives exactly 2 hours, matching the watch difference described, and since the second city is further east it has a later local time.",
+"py": "30/15",
+"values": [
+2,
+1,
+3,
+2
+],
+"id": "geox04004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "Two towns lie on the same latitude but Town P is at longitude 24°E while Town Q is at longitude 9°W. If it is 3:00 pm local time at Town P, what is the local time at Town Q?",
+"options": [
+"12:48 pm",
+"10:48 am",
+"5:12 pm",
+"1:12 pm"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The longitude difference is 24 plus 9, which equals 33 degrees. Dividing by 15 gives 2 hours 12 minutes, and since Town Q is west of Town P, its local time is earlier, so 3:00 pm minus 2 hours 12 minutes gives 12:48 pm... checking carefully: 3:00 pm minus 2h12m equals 12:48 pm, which matches the time difference calculated from the longitudes.",
+"py": "(15*0 + (33/15))",
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "geox04006",
+"check": {
+"s1": "A",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "A geography teacher tells her class that the earth's rotation on its axis, from west to east, has a certain effect on how we perceive the sun's daily movement. Which statement correctly describes this effect?",
+"options": [
+"The sun actually moves around the earth from east to west every day",
+"The sun appears to rise in the east and set in the west due to earth's west to east spin",
+"The sun appears to rise in the west because the earth spins west to east",
+"The earth's rotation has no effect on the apparent movement of the sun"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since the earth spins from west to east, the sun appears to move in the opposite direction across the sky, rising in the east and setting in the west. The sun itself does not move around the earth; this is only an apparent motion caused by earth's rotation.",
+"py": null,
+"values": null,
+"id": "geox04007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

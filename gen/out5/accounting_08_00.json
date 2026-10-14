@@ -1,0 +1,213 @@
+{
+"subject": "accounting",
+"topic": "Final accounts of a sole trader",
+"ti": 8,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In preparing the final accounts of a sole trader, carriage inwards is treated by:",
+"options": [
+"Adding it to purchases in the trading account",
+"Deducting it from sales in the trading account",
+"Adding it to selling expenses in the profit and loss account",
+"Deducting it from closing stock in the balance sheet"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Carriage inwards is the cost of bringing goods into the business, so it forms part of the cost of purchases and is added to purchases in the trading account. Carriage outwards, on the other hand, is a selling expense charged to the profit and loss account.",
+"py": null,
+"values": null,
+"id": "accx08001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Carriage inwards na money wey you pay to bring goods enter your shop, so e dey join cost of purchases. You go add am for trading account. Carriage outwards na different thing, na selling expense wey dey go profit and loss account."
+},
+{
+"q": "A sole trader's trial balance showed a debit balance on the rent account of ₦36,000 for the year. At the year end, rent of ₦9,000 had been paid in advance for the next accounting period. How should this be treated in the final accounts?",
+"options": [
+"Show ₦36,000 as an expense in profit and loss account and ₦9,000 as a current liability",
+"Show ₦27,000 as an expense in profit and loss account and ₦9,000 as a current asset",
+"Show ₦45,000 as an expense in profit and loss account and ignore the ₦9,000",
+"Show ₦9,000 as an expense in profit and loss account and ₦27,000 as a current asset"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since ₦9,000 relates to the next period, it is a prepayment and must be removed from this year's expense, leaving 36,000 - 9,000 = 27,000 charged to profit and loss account. The prepaid amount of 9,000 is shown as a current asset in the balance sheet because it represents a future benefit.",
+"py": "36000-9000",
+"values": [
+36000,
+27000,
+45000,
+9000
+],
+"id": "accx08002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because 9,000 na money wey you pay for next year, you must remove am from this year expense. 36,000 minus 9,000 give you 27,000 for profit and loss. That 9,000 na current asset for balance sheet because e be benefit for future."
+},
+{
+"q": "Which of the following items would appropriately appear under current liabilities in the balance sheet of a sole trader?",
+"options": [
+"Motor vehicle at cost",
+"Trade creditors owed for goods supplied",
+"Closing stock of unsold goods",
+"Cash in hand"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Trade creditors represent amounts the business owes to suppliers for goods bought on credit and must be settled within a short period, making them a current liability. Motor vehicle, closing stock and cash are all assets, not liabilities.",
+"py": null,
+"values": null,
+"id": "accx08003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Trade creditors na people wey you owe money for goods wey you buy on credit. You must pay dem back quick, so e be current liability. Motor vehicle, stock and cash na assets, no be liability."
+},
+{
+"q": "Bola, a sole trader, provided the following figures for the year: Net profit before adjustment ₦120,000; a debt of ₦8,000 owed by a customer is now considered irrecoverable and must be written off; provision for doubtful debts is to be created at 5% on the remaining debtors of ₦152,000. What is the adjusted net profit?",
+"options": [
+"₦112,000",
+"₦104,400",
+"₦111,600",
+"₦120,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "First deduct the bad debt of 8,000 from the net profit, leaving 112,000. Then create a provision for doubtful debts of 5% of 152,000, which is 7,600, and deduct it from 112,000 to get 104,400.",
+"py": "120000-8000-0.05*152000",
+"values": [
+112000,
+104400,
+111600,
+120000
+],
+"id": "accx08004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "First, remove the 8,000 bad debt from 120,000 to get 112,000. Then calculate 5% of 152,000 which be 7,600 as provision for doubtful debts. Subtract that 7,600 from 112,000 to get 104,400."
+},
+{
+"q": "In the final accounts of a sole trader, the purpose of preparing a profit and loss account, after the trading account, is mainly to:",
+"options": [
+"Determine the value of closing stock at year end",
+"Show the financial position of the business at a point in time",
+"Determine the net profit or net loss after charging operating expenses against gross profit",
+"Show the total sales and cost of goods sold for the period"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The profit and loss account takes the gross profit from the trading account and deducts all other operating expenses, such as rent, salaries and depreciation, to arrive at net profit or net loss. Financial position is shown by the balance sheet, not the profit and loss account.",
+"py": null,
+"values": null,
+"id": "accx08005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Profit and loss account dey take gross profit from trading account and remove all operating expenses like rent and salary. This one go show you whether you make net profit or net loss. Balance sheet na im dey show financial position."
+},
+{
+"q": "At the end of the year, a sole trader's trial balance showed closing stock already adjusted into the trading account. However, it was later discovered that goods costing ₦18,000, sent to a customer on sale or return basis, had wrongly been included in both sales (at ₦25,000) and excluded from closing stock. How will correcting this error affect the final accounts?",
+"options": [
+"Increase gross profit by ₦7,000",
+"Reduce sales by ₦25,000 and increase closing stock by ₦18,000",
+"Reduce net profit by ₦18,000 only",
+"No adjustment is needed since goods were sent to the customer"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since the goods were only sent on a sale or return basis and not actually sold, the ₦25,000 must be removed from sales and the ₦18,000 cost of those goods must be added back to closing stock. This corrects both the trading account and the balance sheet figures.",
+"py": null,
+"values": null,
+"id": "accx08006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Since the goods no be real sale, you must remove 25,000 from sales account. You also need to add the 18,000 cost back to your closing stock. This one go make your account correct."
+},
+{
+"q": "Which of the following best describes the double entry treatment when a sole trader takes goods from the business stock for his personal use, without making any payment?",
+"options": [
+"Debit drawings account and credit purchases account",
+"Debit purchases account and credit drawings account",
+"Debit sales account and credit drawings account",
+"Debit drawings account and credit sales account"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Goods taken by the owner for personal use reduce the goods available for sale, so purchases account is credited to reduce it, while drawings account is debited to record the owner's withdrawal. This ensures the trading account reflects only goods meant for resale to customers.",
+"py": null,
+"values": null,
+"id": "accx08007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When owner carry goods for personal use, e dey reduce the goods wey dey for shop. You go credit purchases account to reduce am and debit drawings account. This one show say the goods no be for sale again."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The accounting equation states that Capital equals Assets minus Liabilities. At the start of the year, Tunde's business had assets of ₦480,000 and liabilities of ₦130,000. During the year, he introduced additional capital of ₦60,000 and made a net profit of ₦75,000, but withdrew ₦45,000 for personal use as drawings. What is his capital at the end of the year?",
+"options": [
+"₦350,000",
+"₦440,000",
+"₦400,000",
+"₦305,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Opening capital is 480,000 minus 130,000 which equals 350,000. Adding additional capital of 60,000 and net profit of 75,000, then subtracting drawings of 45,000, gives 350,000 + 60,000 + 75,000 - 45,000 = 400,000.",
+"py": "480000-130000+60000+75000-45000",
+"values": [
+350000,
+440000,
+400000,
+305000
+],
+"id": "accx08000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

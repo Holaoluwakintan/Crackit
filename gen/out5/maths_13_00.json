@@ -1,0 +1,232 @@
+{
+"subject": "maths",
+"topic": "Binary operations (closure, identity, inverse)",
+"ti": 13,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Musa says a binary operation is closed on a set if, for all a, b in the set, a * b is also a member of the set. Using this definition, determine whether the operation a * b = a / b is closed on the set of non-zero integers.",
+"options": [
+"Closed, since division of integers always gives an integer",
+"Not closed, since dividing two integers can give a non-integer result",
+"Closed, since the set of integers is infinite",
+"Not closed, because zero is excluded from the set"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Division of two non-zero integers does not always produce an integer, for example 3 divided by 4 is not an integer. So the operation fails the closure property on that set.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx13001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Division of two integers no dey always give integer, like 3 divided by 4 wey be fraction. Na why the operation no close for that set."
+},
+{
+"q": "Let the set S = {1, 2, 3, 4, 5, 6} and define the binary operation * on S by a * b = remainder when a + b is divided by 7. Is this operation closed on S, given that 0 is not in S?",
+"options": [
+"Closed, because every remainder obtained lies in S",
+"Not closed, because a + b can give a remainder of 0, which is not in S",
+"Closed, because S contains exactly 6 elements",
+"Not closed, because a + b is always greater than 7"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Taking a = 3 and b = 4 gives a + b = 7, and 7 divided by 7 leaves remainder 0, which is not a member of S. Since at least one pair fails to produce a result in S, the operation is not closed.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx13004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you take a = 3 and b = 4, their sum na 7, and 7 divide by 7 remain 0. Since 0 no dey inside set S, the operation no close."
+},
+{
+"q": "Chidinma defines a binary operation delta on the set of real numbers by a delta b = a^2 + b^2 - 2ab. She claims the identity element is 0. Which statement correctly evaluates her claim?",
+"options": [
+"Her claim is correct, since a delta 0 = a^2 for all a",
+"Her claim is false, since a delta 0 = a^2, which is not always equal to a",
+"Her claim is correct, since a delta 0 = a for all a",
+"Her claim is false, since the operation has no identity but 1 works instead"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Testing a delta 0 gives a^2 + 0 - 0 = a^2, which only equals a when a is 0 or 1, not for all real numbers. So 0 does not satisfy the identity condition for every element, making the claim false.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx13006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When you put 0 inside, a delta 0 go give you a^2, and a^2 no be always a for every real number. So her claim na lie."
+},
+{
+"q": "A binary operation * is defined on the set of real numbers by a * b = (a + b)/2. Determine the identity element e, if it exists.",
+"options": [
+"e = 0, since (a+0)/2 = a for all a",
+"e = 1, since (a+1)/2 = a for all a",
+"e does not exist, since (a+e)/2 = a has no fixed solution that works for every a",
+"e = 2, since (a+2)/2 = a for all a"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Setting (a + e)/2 = a gives e = a, which depends on a instead of being a fixed constant. Since no single value of e works for every real number a, the operation has no identity element.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx13007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you solve (a + e)/2 = a, e go come equal to a, wey mean say e dey change and no be fixed number. Na why identity element no dey."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A binary operation o is defined on the set of real numbers by x o y = x + y - xy. Determine the identity element e for this operation.",
+"options": [
+"1",
+"-1",
+"0",
+"2"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "For identity e, x o e = x means x + e - xe = x, so e - xe = 0, giving e(1 - x) = 0 for all x, hence e = 0. Checking: x + 0 - 0 = x, which holds.",
+"py": "0",
+"values": [
+1,
+-1,
+0,
+2
+]
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "A binary operation * is defined on the set of real numbers by a * b = a + b + 2. Find the inverse of 5 under this operation, given that the identity element is -2.",
+"options": [
+"-9",
+"-7",
+"-5",
+"9"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The inverse of a satisfies a * a' = identity, so 5 + a' + 2 = -2, giving a' = -9... checking carefully: 5 + a' + 2 = -2 means a' = -9. Re-solve: a' = -2 - 5 - 2 = -9.",
+"py": "-2-5-2",
+"values": [
+-9,
+-7,
+-5,
+9
+],
+"id": "matx13000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "The binary operation * is defined on the set of integers by a * b = a + b - ab, with identity element 0. Find the inverse of 3 under this operation.",
+"options": [
+"3/2",
+"-3/2",
+"3/4",
+"-3/4"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "We need 3 * x = 0, so 3 + x - 3x = 0, which gives 3 - 2x = 0, so x = 3/2. Substituting back confirms 3 + 3/2 - 3(3/2) = 0.",
+"py": "Fraction(3,2)",
+"values": [
+1.5,
+-1.5,
+0.75,
+-0.75
+],
+"id": "matx13003",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A binary operation * is defined on the set of real numbers by x * y = 3x + 3y - xy. Find the value of 4 * 2.",
+"options": [
+"12",
+"14",
+"10",
+"18"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Substitute x = 4 and y = 2 into the formula to get 3(4) + 3(2) - (4)(2) = 12 + 6 - 8 = 10. This is simply direct substitution.",
+"py": "3*4+3*2-4*2",
+"values": [
+12,
+14,
+10,
+18
+],
+"id": "matx13005",
+"check": {
+"s1": "C",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+}
+]
+}

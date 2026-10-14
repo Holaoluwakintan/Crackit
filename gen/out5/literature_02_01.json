@@ -1,0 +1,174 @@
+{
+"subject": "literature",
+"topic": "Poetic forms: sonnet, ode, elegy, ballad, epic, lyric, free verse",
+"ti": 2,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A certain poem has no fixed meter or rhyme scheme, yet it achieves musical effect through repetition of phrases, varied line lengths, and the natural rhythm of speech. This poem is best described as",
+"options": [
+"a free verse poem",
+"a Shakespearean sonnet",
+"a heroic epic",
+"a formal ode"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Free verse is poetry without regular meter or rhyme, relying instead on natural speech rhythms and repetition for musical effect. Sonnets, epics and odes all follow fixed structural conventions.",
+"id": "litx02010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Free verse na poetry wey no get regular meter or rhyme, e dey rely on natural speech rhythm and repetition. Sonnets, epics, and odes dey follow fixed structural rules, unlike free verse."
+},
+{
+"q": "Which of the following best explains why the ballad form is considered especially suited to preserving a community's history before widespread literacy?",
+"options": [
+"Its complex Latinate vocabulary makes it memorable to scholars",
+"Its simple quatrain structure, refrain and strong narrative line make it easy to memorise and pass on orally",
+"Its fourteen-line structure allows a logical argument to be preserved",
+"Its elevated, formal diction suits only written publication"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ballads use simple, repetitive stanza patterns and refrains that aid memory, which is why they were central to oral traditions carrying historical and legendary events from one generation to another. The other options describe features of different poetic forms, not the ballad.",
+"id": "litx02011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Ballads dey use simple stanza patterns and refrains wey make am easy to memorise for oral traditions. E help people carry historical events from one generation go another."
+},
+{
+"q": "A poet writes a poem of exactly fourteen lines in iambic pentameter. It is organised into three quatrains followed by a final rhyming couplet that delivers a sharp concluding statement. This structural pattern identifies the poem as a",
+"options": [
+"Petrarchan sonnet",
+"Shakespearean sonnet",
+"classical ode",
+"pastoral elegy"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Three quatrains followed by a closing couplet (ABAB CDCD EFEF GG) is the defining structure of the Shakespearean (English) sonnet, with the couplet often providing a twist or resolution. The Petrarchan sonnet instead divides into an octave and a sestet.",
+"id": "litx02012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Three quatrains and one closing couplet na di correct structure for Shakespearean sonnet, and di couplet dey usually give twist or resolution. Petrarchan sonnet dey divide into octave and sestet instead."
+},
+{
+"q": "Read this extract: 'Sleep now, old warrior, your sword lies still, your voice that shook the hills is silent; the river you loved still sings, but your canoe lies turned to the shore forever.' Which poetic form does this extract most closely represent?",
+"options": [
+"Epic",
+"Ode",
+"Elegy",
+"Ballad"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The extract mourns a dead person, dwelling on loss and finality, which is the central mark of an elegy. There is no celebratory praise tone typical of an ode, nor the extended heroic action of an epic or the narrative refrain pattern of a ballad.",
+"id": "litx02013",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis extract dey mourn dead person and talk about loss, wey be di main character of elegy. E no get celebratory praise like ode, or heroic action like epic."
+},
+{
+"q": "Which of the following is a feature that distinguishes the classical epic from other long narrative poems?",
+"options": [
+"Invocation of a muse, grand scale action, and a hero whose deeds affect the fate of a nation",
+"Strict fourteen-line form with a single rhyming couplet",
+"Focus purely on the poet's private emotional state",
+"Use of a repeated refrain after every stanza to aid memory"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Epics traditionally open with an invocation to a muse and present a larger-than-life hero whose actions carry national or cosmic significance, told on a grand narrative scale. The other features belong to the sonnet, lyric and ballad forms respectively.",
+"id": "litx02014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Epics dey open with invocation to muse and dem dey show hero whose actions carry national importance. Na only epics get dis grand narrative scale."
+},
+{
+"q": "A poet composes a short poem addressed directly to the River Niger, praising its majesty and power in elevated, formal language, with the speaker's emotions rising to exalted admiration throughout. This poem is best classified as",
+"options": [
+"an ode",
+"a ballad",
+"free verse",
+"an epic"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An ode is a formal, often elevated lyric poem that addresses and praises a person, object or abstract idea with intense, exalted feeling, matching the description given. Ballads tell stories in simple stanzas, free verse lacks formal elevation, and epics are long narratives of heroic deeds.",
+"id": "litx02015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Ode na formal poem wey dey praise person, object, or idea with high emotion, just like how dem praise River Niger. Ballads na stories, free verse no get formal elevation, and epics na long narratives."
+},
+{
+"q": "A poet is asked to write a formal poem that both praises a recently deceased king's great achievements in elevated language and expresses deep sorrow at his passing, blending celebration with mourning. Which poetic form would best combine these two demands?",
+"options": [
+"A pure ballad, since it only tells a simple story",
+"An elegiac ode, since it merges the elevated praise of an ode with the mournful tone of an elegy",
+"A strict Petrarchan sonnet, since fourteen lines cannot hold grief or praise together",
+"Free verse, since it has no structure for emotion at all"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "An elegiac ode fuses the formal, exalted praise typical of the ode with the lamenting, sorrowful tone of the elegy, making it suited to honouring and mourning a great figure at once. The other options either lack the capacity for elevated praise or wrongly dismiss emotional depth in fixed forms.",
+"id": "litx02017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Elegiac ode dey mix di formal praise of ode with di mournful tone of elegy, wey make am perfect to honour and mourn person at di same time. Di other options miss di point completely."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A literature student is given two poems to compare. Poem X is a sixteen-stanza narrative with a hero who battles sea monsters to found a new kingdom for his people, told across many cantos. Poem Y is eight lines long, uses 'I' throughout, and expresses the speaker's quiet joy at sunrise. Which statement correctly contrasts the two forms?",
+"options": [
+"Poem X is a lyric because it is personal, while Poem Y is an epic because it is short",
+"Poem X is an epic because of its grand scale, heroic action and national significance, while Poem Y is a lyric because it expresses brief, personal feeling",
+"Both poems are odes because they both use elevated language throughout",
+"Poem X is a ballad because it has stanzas, while Poem Y is an elegy because it mentions sunrise",
+"placeholder"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Epics are long, grand narratives centred on a hero's deeds affecting a nation, exactly like Poem X, while lyrics are short, personal expressions of feeling, matching Poem Y. The other pairings misapply the defining features of epic, ode, ballad and elegy."
+},
+"why": "bad-shape"
+}
+]
+}

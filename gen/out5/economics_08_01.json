@@ -1,0 +1,202 @@
+{
+"subject": "economics",
+"topic": "Market structures: perfect competition, monopoly, oligopoly",
+"ti": 8,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is a basic assumption of the perfect competition model concerning buyers and sellers?",
+"options": [
+"Buyers and sellers have perfect knowledge of market prices",
+"A few large firms dominate total output",
+"Firms produce differentiated goods to attract customers",
+"New firms face high barriers before entering the industry"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Perfect competition assumes perfect knowledge, so buyers and sellers know prevailing prices and no one can be cheated. The other options describe oligopoly or monopolistic competition, not perfect competition.",
+"py": null,
+"values": null,
+"id": "ecox08010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Perfect competition mean say everybody sabi market price well-well so nobody fit cheat. Other options na for different market like oligopoly or monopolistic competition."
+},
+{
+"q": "A pure monopolist is best described as a firm that:",
+"options": [
+"Sells a product with no close substitute and is the sole supplier in the industry",
+"Competes with many small firms selling identical products",
+"Produces a slightly different version of a product sold by rivals",
+"Shares the market with three or four other large firms"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A pure monopoly exists where one firm is the sole producer of a good that has no close substitute, giving it full control of supply. The other descriptions fit perfect competition, monopolistic competition and oligopoly respectively.",
+"py": null,
+"values": null,
+"id": "ecox08011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Pure monopoly mean only one person dey produce wetin no get close substitute. Na only one person get control of supply for that market."
+},
+{
+"q": "Which of these is the most important barrier that allows a monopoly to persist in an industry?",
+"options": [
+"Exclusive control of a key raw material or legal patent rights",
+"Free entry and exit of firms",
+"Large number of competing sellers",
+"Identical products sold by all firms"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Monopolies survive because of barriers such as sole ownership of resources, patents, or licences that stop other firms from entering. Free entry, many sellers, and identical products are instead features of competitive markets.",
+"py": null,
+"values": null,
+"id": "ecox08012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Monopoly dey stay strong because of barriers like patent or control of raw material. If entry dey free or sellers plenty, na competitive market be that."
+},
+{
+"q": "A key feature that distinguishes oligopoly from monopolistic competition is that oligopoly firms are:",
+"options": [
+"Mutually interdependent, so each firm's pricing decision affects and is affected by rivals",
+"Completely independent price takers with no influence on market price",
+"Free from all barriers to entry into the industry",
+"Producers of identical, undifferentiated products only"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Under oligopoly, few large firms dominate the market, so each firm must consider how rivals will react to its price or output changes, making them mutually interdependent. Monopolistic competition has many firms acting more independently.",
+"py": null,
+"values": null,
+"id": "ecox08013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For oligopoly, few big firms dey so wetin one do go affect the other one. Dem dey mutually interdependent unlike for monopolistic competition."
+},
+{
+"q": "Suppose three firms, Ade Bakery, Bola Foods and Chidi Bread, each produce exactly one-third of all bread sold in a town, and no other firm can enter because of high start-up costs. This market structure is best classified as:",
+"options": [
+"Oligopoly",
+"Perfect competition",
+"Pure monopoly",
+"Monopolistic competition"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A few firms (three) controlling the whole market with entry barriers is the classic description of oligopoly. It is not perfect competition because there are only three sellers, not pure monopoly since there is more than one firm, and not monopolistic competition since entry is blocked.",
+"py": null,
+"values": null,
+"id": "ecox08014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If only three firms dey control market and new ones no fit enter, na oligopoly be that. E no fit be monopoly because dem be three, and e no fit be perfect competition."
+},
+{
+"q": "A monopolist faces the demand function P = 200 - 2Q and has a marginal cost of ₦40 per unit which is constant at all output levels. Given that marginal revenue is MR = 200 - 4Q, what output level maximises the monopolist's profit?",
+"options": [
+"40 units",
+"80 units",
+"50 units",
+"20 units"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Profit is maximised where marginal revenue equals marginal cost: 200 - 4Q = 40, so 4Q = 160, giving Q = 40 units. Substituting other values into the MR = MC condition does not satisfy the equation.",
+"py": "(200-40)/4",
+"values": [
+40,
+80,
+50,
+20
+],
+"id": "ecox08016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To get maximum profit, you must make sure say MR equal MC. If you solve 200 - 4Q = 40, you go get Q = 40 units."
+},
+{
+"q": "Which of the following statements correctly compares long-run equilibrium under perfect competition and monopoly?",
+"options": [
+"A perfectly competitive firm earns only normal profit in the long run, while a monopolist can continue to earn abnormal profit",
+"Both market structures guarantee zero economic profit in the long run",
+"A monopolist always earns normal profit because entry is free",
+"A perfectly competitive firm can permanently earn abnormal profit due to product differentiation"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Free entry in perfect competition erodes abnormal profits until only normal profit remains, but barriers to entry allow a monopolist to keep earning abnormal profit indefinitely. The other statements wrongly describe entry conditions or profit outcomes.",
+"py": null,
+"values": null,
+"id": "ecox08017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For perfect competition, free entry dey kill abnormal profit for long run. But for monopoly, barriers dey help them continue to make abnormal profit."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the short run, a perfectly competitive firm selling at ₦50 per unit finds that its average variable cost at its current output is ₦60, while average total cost is ₦75. What should the firm do to minimise its losses?",
+"options": [
+"Shut down production immediately since price is below average variable cost",
+"Continue producing because price covers average total cost",
+"Increase output until price equals average variable cost",
+"Raise its price above the market price to cover costs"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since price (₦50) is below average variable cost (₦60), the firm cannot even cover its variable costs, so it should shut down to minimise losses to only its fixed costs. Continuing to produce would make losses larger than necessary.",
+"py": null,
+"values": null,
+"id": "ecox08015",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

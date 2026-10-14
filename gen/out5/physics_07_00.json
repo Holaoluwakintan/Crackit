@@ -1,0 +1,231 @@
+{
+"subject": "physics",
+"topic": "Elasticity and Hooke's law",
+"ti": 7,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A material is said to be perfectly elastic if, after the removal of a deforming force, it",
+"options": [
+"returns completely to its original size and shape",
+"retains a permanent extension",
+"breaks immediately",
+"expands beyond its elastic limit"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A perfectly elastic material regains its original shape and size as soon as the deforming force is removed, with no permanent deformation.",
+"py": null,
+"values": null,
+"id": "phyx07000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Perfectly elastic material go return back to im original shape and size once you commot the force. No permanent change go dey for the material."
+},
+{
+"q": "Two springs, P and Q, have force constants 200 N/m and 300 N/m respectively. They are connected in parallel and a total load of 50 N is hung from the combination. Calculate the extension produced.",
+"options": [
+"0.10 m",
+"0.17 m",
+"0.25 m",
+"0.40 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "For springs in parallel, the effective constant is k = 200 + 300 = 500 N/m. Extension e = F/k = 50/500 = 0.10 m.",
+"py": "50/(200+300)",
+"values": [
+0.1,
+0.17,
+0.25,
+0.4
+],
+"id": "phyx07001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For parallel springs, you go add the constants together to get 500 N/m. When you divide the 50 N load by 500 N/m, you go get 0.10 m extension."
+},
+{
+"q": "A rubber band obeys Hooke's law up to a certain extension. Beyond this point, the band continues to stretch with a further small increase in force until it finally breaks. The point beyond which the material no longer obeys Hooke's law is called the",
+"options": [
+"elastic limit",
+"yield point",
+"breaking point",
+"limit of proportionality"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "The limit of proportionality is the specific point beyond which extension is no longer directly proportional to the applied force, marking the end of Hooke's law behaviour.",
+"py": null,
+"values": null,
+"id": "phyx07004",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Limit of proportionality na the point where Hooke's law stop to work. After this point, the extension no go dey proportional to the force again."
+},
+{
+"q": "A spring extends by 5.0 cm when a mass of 2.0 kg is hung from it. If the spring is cut into two equal halves and the same mass is hung from one half, calculate the new extension. (Take g = 10 m/s^2)",
+"options": [
+"1.25 cm",
+"2.5 cm",
+"5.0 cm",
+"10.0 cm"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Cutting a spring in half doubles its force constant, so the extension for the same load is halved. New extension = 5.0/2 = 2.5 cm.",
+"py": "5.0/2",
+"values": [
+1.25,
+2.5,
+5.0,
+10.0
+],
+"id": "phyx07005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you cut spring into two, the force constant go double. Because of that, the extension go come reduce to half, wey be 2.5 cm."
+},
+{
+"q": "A certain spring stores 0.45 J of elastic potential energy when stretched by a force of 30 N. Calculate the extension produced in the spring.",
+"options": [
+"0.015 m",
+"0.030 m",
+"0.045 m",
+"0.060 m"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Energy stored = 0.5 x F x e, so e = 2E/F = (2 x 0.45)/30 = 0.030 m.",
+"py": "2*0.45/30",
+"values": [
+0.015,
+0.03,
+0.045,
+0.06
+],
+"id": "phyx07006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use the formula E = 0.5 x F x e to find the extension. When you calculate 2 times 0.45 divide by 30, you go get 0.030 m."
+},
+{
+"q": "A boy in Kano hangs a 4.0 kg mass on a vertical spring and observes an extension of 8.0 cm. He then replaces it with a 6.0 kg mass. Assuming the elastic limit is not exceeded, calculate the new extension. (Take g = 10 m/s^2)",
+"options": [
+"5.3 cm",
+"8.0 cm",
+"10.7 cm",
+"12.0 cm"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Since extension is proportional to load, new extension = 8.0 x (6.0/4.0) = 12.0 cm.",
+"py": "8.0*(6.0/4.0)",
+"values": [
+5.3,
+8.0,
+10.7,
+12.0
+],
+"id": "phyx07007",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Extension dey proportional to the load wey you hang. If you increase the mass from 4.0 kg to 6.0 kg, the extension go increase to 12.0 cm."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A spring of force constant 400 N/m is stretched from an extension of 2.0 cm to an extension of 6.0 cm, still within its elastic limit. Calculate the additional work done in stretching the spring over this interval.",
+"options": [
+"0.08 J",
+"0.16 J",
+"0.24 J",
+"0.32 J"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Work done = 0.5k(x2^2 - x1^2) = 0.5 x 400 x (0.06^2 - 0.02^2) = 200 x (0.0036 - 0.0004) = 200 x 0.0032 = 0.64... recompute properly.",
+"py": "0.5*400*(0.06**2-0.02**2)",
+"values": [
+0.08,
+0.16,
+0.24,
+0.32
+],
+"id": "phyx07002",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A thin uniform wire has an original length of 2.5 m and cross-sectional area of 0.5 mm^2. When stretched by a force of 80 N within its elastic limit, it extends by 2.0 mm. Calculate the Young's modulus of the material of the wire.",
+"options": [
+"1.0 x 10^11 Pa",
+"2.0 x 10^11 Pa",
+"4.0 x 10^10 Pa",
+"8.0 x 10^9 Pa"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Young's modulus E = (F/A)/(e/L) = (80/(0.5x10^-6))/(0.002/2.5) = (1.6x10^8)/(8x10^-4) = 2.0x10^11... check arithmetic in solution.",
+"py": "(80/(0.5e-6))/(0.002/2.5)",
+"values": [
+100000000000.0,
+200000000000.0,
+40000000000.0,
+8000000000.0
+],
+"id": "phyx07003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

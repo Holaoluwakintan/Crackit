@@ -1,0 +1,200 @@
+{
+"subject": "economics",
+"topic": "Agriculture in the Nigerian economy",
+"ti": 14,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Agriculture contributes to the Nigerian economy in several ways. Which of the following is NOT a recognized contribution of agriculture to national development?",
+"options": [
+"Provision of raw materials for agro-based industries",
+"Generation of foreign exchange through export of cash crops",
+"Direct provision of crude oil revenue to the government",
+"Provision of employment for the rural population"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Crude oil revenue comes from the petroleum sector, not agriculture. Agriculture instead supplies raw materials, employment, and export earnings.",
+"py": null,
+"values": null,
+"id": "ecox14000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Na petroleum sector dey bring crude oil money, no be agriculture. Agriculture dey provide food, raw materials for factory, and work for people."
+},
+{
+"q": "A farming system in Nigeria in which crops like maize, cassava and melon are planted together on the same plot at the same time is known as",
+"options": [
+"Crop rotation",
+"Shifting cultivation",
+"Mixed cropping",
+"Bush fallowing"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Mixed cropping involves growing two or more different crops on the same piece of land simultaneously to maximize land use and reduce risk of total crop failure.",
+"py": null,
+"values": null,
+"id": "ecox14001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Mixed cropping na when farmer plant different crops for one land at the same time. E dey help make land use dey effective and reduce risk if one crop fail."
+},
+{
+"q": "One major problem of agricultural marketing in Nigeria is the activity of middlemen. This problem mainly leads to",
+"options": [
+"Increased income for farmers due to competition among buyers",
+"Lower prices paid to farmers and higher prices paid by final consumers",
+"Reduction in the bulk of produce available for export",
+"Improved storage facilities at the farm level"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Middlemen buy cheaply from farmers and sell at a markup to consumers, so farmers earn less while consumers pay more, widening the marketing margin.",
+"py": null,
+"values": null,
+"id": "ecox14002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Middlemen dey buy farm produce cheap from farmer, come sell am high to consumer. This one dey make farmer gain small money while consumer dey pay too much."
+},
+{
+"q": "The Nigerian government established commodity marketing boards in the past mainly to",
+"options": [
+"Fix and stabilize producer prices of export crops and pay farmers afterwards",
+"Provide free farm inputs such as fertilizer to all farmers",
+"Construct feeder roads linking farms to urban markets",
+"Train extension workers to teach modern farming methods"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Marketing boards were set up to buy export crops from farmers at fixed prices, sell them abroad, and stabilize farmers' incomes against price fluctuations.",
+"py": null,
+"values": null,
+"id": "ecox14003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Marketing boards bin dey fix price so farmer go know wetin dem go get. Dem dey buy export crops from farmer and sell am outside to keep price stable."
+},
+{
+"q": "A key reason why mechanized farming has remained low in many parts of rural Nigeria is that",
+"options": [
+"Farmers prefer importing finished food products instead",
+"Landholdings are mostly small and fragmented, making machine use difficult",
+"Nigerian soils are too fertile for machines to be used",
+"The government has banned the use of tractors nationwide"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Due to the land tenure system, farm plots are often small, scattered and fragmented, making it uneconomical and difficult to deploy large machinery effectively.",
+"py": null,
+"values": null,
+"id": "ecox14004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Small and scattered land no dey allow big machine like tractor to work well. Because the land no dey big, e no dey easy to use modern machine for farm."
+},
+{
+"q": "A cooperative society of maize farmers in Kaduna recorded a total farm output worth ₦5,400,000 in a season. If labour and input costs took up 3/5 of this value, what was the net value (profit) realised by the cooperative?",
+"options": [
+"₦1,800,000",
+"₦2,160,000",
+"₦3,240,000",
+"₦4,320,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Costs equal 3/5 of 5,400,000 which is 3,240,000. Subtracting this from total output gives 5,400,000 minus 3,240,000 equals 2,160,000 as net value.",
+"py": "5400000 - (3/5)*5400000",
+"values": [
+1800000,
+2160000,
+3240000,
+4320000
+],
+"id": "ecox14005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If cost na 3/5 of ₦5,400,000, e mean say cost na ₦3,240,000. When you remove that cost from the total ₦5,400,000, you go get ₦2,160,000 as profit."
+},
+{
+"q": "Which of the following best explains why the agricultural sector's share of Nigeria's GDP has generally declined relative to the services sector over recent decades, even though agriculture still employs many people?",
+"options": [
+"Agricultural output has fallen to zero across the country",
+"The services and oil sectors have grown faster in value, reducing agriculture's relative share",
+"Government has stopped collecting agricultural statistics",
+"All farmers have moved permanently into manufacturing jobs"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A sector's share of GDP can fall simply because other sectors like services and oil grow faster in monetary value, even if agricultural output itself is rising in absolute terms.",
+"py": null,
+"values": null,
+"id": "ecox14006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Even if agriculture dey grow, other sectors like oil and services dey grow pass am for money. That one dey make agriculture share for GDP look small."
+},
+{
+"q": "The 'River Basin Development Authorities' were established in Nigeria mainly to",
+"options": [
+"Regulate the exchange rate of the naira",
+"Develop irrigation facilities and water resources for agricultural use",
+"Supervise the stock exchange activities of agro-allied companies",
+"Issue import licences for agricultural machinery"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "River Basin Development Authorities were created to harness water resources, provide irrigation, and support all-year-round farming in different parts of Nigeria.",
+"py": null,
+"values": null,
+"id": "ecox14007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "River Basin Development Authorities dey help manage water for farm. Dem dey provide irrigation so say farmer fit plant crop even when rain no fall."
+}
+],
+"rejected": []
+}

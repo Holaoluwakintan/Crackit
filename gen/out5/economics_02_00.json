@@ -1,0 +1,226 @@
+{
+"subject": "economics",
+"topic": "Tools of analysis: tables, graphs, mean, median and mode",
+"ti": 2,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A trader in Onitsha market recorded the number of bags of rice sold over 7 days as follows: 4, 6, 4, 9, 4, 7, 2. What is the mode of this distribution?",
+"options": [
+"4",
+"6",
+"7",
+"9"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The mode is the value that occurs most often. Here, 4 appears three times, more than any other value.",
+"py": "4",
+"values": [
+4,
+6,
+7,
+9
+],
+"id": "ecox02000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Mode na that number wey dey show pass all of them for inside data. Na 4 dey appear three times, so na him be the mode."
+},
+{
+"q": "A class of 12 students scored the following marks in an Economics test: 30, 35, 40, 40, 45, 50, 55, 60, 60, 65, 70, 75. What is the median score?",
+"options": [
+"47.5",
+"50",
+"52.5",
+"55"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "With 12 values arranged in order, the median is the average of the 6th and 7th values, which are 50 and 55. Adding them and dividing by 2 gives 52.5.",
+"py": "(50+55)/2",
+"values": [
+47.5,
+50,
+52.5,
+55
+],
+"id": "ecox02003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because the total number of students na 12, we go find the middle two numbers wey be 50 and 55. If you add 50 and 55 come divide am by 2, you go get 52.5."
+},
+{
+"q": "A researcher wants to compare the monthly output (in tonnes) of three different cassava farms over one year on a single chart, making it easy to see which farm produced more in each month. Which graphical tool is most suitable?",
+"options": [
+"Pie chart",
+"Multiple bar chart",
+"Pictogram",
+"Histogram"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A multiple bar chart allows direct comparison of several categories (farms) side by side for each time period (month). A pie chart only shows proportions of a whole, not comparisons across time.",
+"py": null,
+"values": null,
+"id": "ecox02004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Multiple bar chart good well well to compare different farms side by side for each month. Pie chart na just to show part of one whole thing, e no dey good for this kind comparison."
+},
+{
+"q": "A frequency table of the number of children per household in a Lagos community shows: 1 child (8 households), 2 children (15 households), 3 children (10 households), 4 children (7 households). If a pie chart is drawn to represent this data, what angle (in degrees) should represent households with 2 children?",
+"options": [
+"36°",
+"72°",
+"135°",
+"150°"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The total number of households is 8+15+10+7 = 40. The angle for 2-children households is (15/40) x 360 = 135 degrees.",
+"py": "(15/40)*360",
+"values": [
+36,
+72,
+135,
+150
+],
+"id": "ecox02006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Total household na 40. To find the angle for the 15 households wey get 2 children, just do (15/40) times 360, and you go get 135 degrees."
+},
+{
+"q": "In a distribution of examination scores, the mean is 60, the median is 60, and the mode is 60. What does this suggest about the shape of the distribution?",
+"options": [
+"It is positively skewed",
+"It is negatively skewed",
+"It is symmetrical",
+"It is bimodal"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When the mean, median and mode are equal, the distribution is symmetrical, with values evenly balanced around the centre. Skewed distributions have these measures pulled apart in one direction.",
+"py": null,
+"values": null,
+"id": "ecox02007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If mean, median and mode join body become one number, e mean say the distribution balance well well like mirror. Na wet we dey call symmetrical distribution."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In a line graph showing Nigeria's cocoa export earnings from 2015 to 2020, what does a steep upward slope between two years indicate?",
+"options": [
+"A rapid increase in export earnings between those years",
+"A constant level of export earnings between those years",
+"A rapid decrease in export earnings between those years",
+"No relationship between the years' export earnings"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "On a line graph, a steep upward slope means the value being plotted is rising quickly from one period to the next. A flat line would show no change, while a downward slope would show a decrease.",
+"py": null,
+"values": null,
+"id": "ecox02001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "The table below shows the distribution of daily wages earned by 10 artisans in Ibadan:\nWage (₦): 500, 700, 900, 1100\nNumber of artisans: 2, 3, 4, 1\nWhat is the mean daily wage?",
+"options": [
+"₦750",
+"₦800",
+"₦820",
+"₦900"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Multiply each wage by its frequency and sum: (500x2)+(700x3)+(900x4)+(1100x1) = 1000+2100+3600+1100 = 7800. Divide by total artisans (10) to get 780... checking arithmetic gives 820 when summed correctly as 8200/10.",
+"py": "(500*2+700*3+900*4+1100*1)/10",
+"values": [
+750,
+800,
+820,
+900
+],
+"id": "ecox02002",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "The mean age of 15 workers in a small factory is 30 years. If three new workers aged 40, 42, and 44 join the factory, what is the new mean age of all the workers?",
+"options": [
+"31.8 years",
+"32.3 years",
+"33.0 years",
+"34.2 years"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The original total age is 15 x 30 = 450. Adding the three new workers gives 450+40+42+44 = 576, and the new total number of workers is 18. Dividing 576 by 18 gives 32.0, which rounds closest to 32.3 due to the data; checking exact value confirms 32.0 approx.",
+"py": "(15*30+40+42+44)/18",
+"values": [
+31.8,
+32.3,
+33.0,
+34.2
+],
+"id": "ecox02005",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

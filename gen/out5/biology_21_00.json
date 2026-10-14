@@ -1,0 +1,178 @@
+{
+"subject": "biology",
+"topic": "Biotechnology and applied genetics (genetic engineering, DNA, cloning) as in the JAMB syllabus",
+"ti": 21,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Biotechnology can be defined as the use of living organisms or their products to",
+"options": [
+"destroy pathogenic microorganisms in the soil",
+"modify or improve products for human use",
+"classify organisms into taxonomic groups",
+"convert light energy to chemical energy only"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Biotechnology involves using living things, their parts or processes to develop or modify products and processes for human benefit. The other options describe unrelated biological processes.",
+"id": "biox21000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Biotechnology na when person use living things or their product to change or make better product for human use. Na only this option correct because the other ones dey talk about different biology matter."
+},
+{
+"q": "In genetic engineering, restriction enzymes are mainly used to",
+"options": [
+"join two DNA fragments permanently together",
+"cut DNA molecules at specific nucleotide sequences",
+"replicate DNA strands during cell division",
+"translate messenger RNA into proteins"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Restriction enzymes act like molecular scissors that recognise and cut DNA at specific base sequences. Joining DNA fragments is instead carried out by an enzyme called DNA ligase.",
+"id": "biox21001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Restriction enzymes dey act like scissor wey dey cut DNA for specific base sequence. Na DNA ligase dey join DNA together, no be restriction enzyme."
+},
+{
+"q": "A small circular piece of bacterial DNA that is commonly used as a vector to carry foreign genes into a host cell is called a",
+"options": [
+"ribosome",
+"plasmid",
+"centromere",
+"nucleolus"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A plasmid is a small circular DNA molecule found in bacteria that can be cut open, combined with a foreign gene, and reinserted into a host cell. Ribosomes, centromeres and nucleolus are cell structures, not DNA vectors.",
+"id": "biox21002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Plasmid na small circular DNA inside bacteria wey scientists dey use carry foreign gene enter host cell. Ribosomes and the rest na cell parts, no be DNA vector."
+},
+{
+"q": "During genetic engineering, after a desired gene has been inserted into a plasmid using restriction enzymes, which enzyme seals the gene into the plasmid to form a complete recombinant DNA molecule?",
+"options": [
+"DNA polymerase",
+"DNA ligase",
+"Reverse transcriptase",
+"RNA polymerase"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "DNA ligase joins the sticky ends of the foreign gene and the cut plasmid together, sealing the sugar-phosphate backbone to form recombinant DNA. The other enzymes are involved in replication or transcription, not joining DNA fragments.",
+"id": "biox21003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na DNA ligase dey join the sticky ends of foreign gene and cut plasmid together to form recombinant DNA. The other enzyme dem dey do different work like replication."
+},
+{
+"q": "Dolly the sheep was produced by a cloning technique that involved",
+"options": [
+"fusing two haploid gametes from different sheep",
+"transferring the nucleus of a body cell into an egg cell whose nucleus had been removed",
+"mixing sperm cells from two male sheep with one egg cell",
+"doubling the chromosome number of a fertilised zygote"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Dolly was produced by somatic cell nuclear transfer, where the nucleus from an adult body cell was placed into an enucleated egg cell, which then developed into an embryo. This produces an organism genetically identical to the nucleus donor.",
+"id": "biox21004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dolly the sheep na product of somatic cell nuclear transfer where body cell nucleus enter egg cell wey dem don remove nucleus. E dey make the animal look exactly like the person wey give the nucleus."
+},
+{
+"q": "A major advantage of genetically modified crops such as Bt cotton, which has been introduced to some Nigerian farmers, is that the crop",
+"options": [
+"requires no sunlight to carry out photosynthesis",
+"produces its own toxin that resists certain insect pests",
+"grows only in hydroponic culture without soil",
+"automatically converts to a different species after harvest"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Bt cotton contains a gene from a bacterium that enables the plant to produce a protein toxic to specific insect pests, reducing the need for chemical pesticides. The other statements are not true of genetically modified crops.",
+"id": "biox21005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Bt cotton get gene from bacterium wey make plant produce toxin to fight certain insect pests so farmer no go need plenty chemical pesticide. The other option dem no make sense for GMO crops."
+},
+{
+"q": "A farmer in Kano wants to use tissue culture to rapidly produce many disease-free plantlets that are genetically identical to a high-yielding parent cassava plant. Which feature of plant cells makes this technique possible?",
+"options": [
+"Plant cells lack a cell wall, allowing easy division",
+"Plant cells are totipotent and can regenerate a whole new plant from a single cell",
+"Plant cells contain chloroplasts that divide independently",
+"Plant cells have a fixed chromosome number that cannot change"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Totipotency means a single plant cell retains the genetic information needed to develop into a complete new plant under suitable conditions, which is the principle behind tissue culture propagation. Chloroplast presence and chromosome number do not explain this regenerative ability.",
+"id": "biox21006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Totipotency mean say single plant cell get capacity to grow and become full new plant under good condition. Na dis property tissue culture dey use."
+},
+{
+"q": "A molecular biologist wants to produce human insulin using bacteria. The human insulin gene is first isolated, cut out with a restriction enzyme, and inserted into a bacterial plasmid using DNA ligase. The recombinant plasmid is then introduced into a bacterium, which is allowed to multiply in culture. Which statement best explains why this method can supply large quantities of pure human insulin cheaply?",
+"options": [
+"The bacterium converts its own DNA permanently into human DNA after one generation",
+"The bacterium multiplies rapidly, and each daughter cell carries a copy of the human gene that directs insulin production",
+"The restriction enzyme itself manufactures insulin directly from glucose in the culture medium",
+"The plasmid prevents the bacterium from producing its own proteins, leaving only insulin to be made"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Because bacteria reproduce very quickly by binary fission, each new cell inherits the recombinant plasmid containing the human insulin gene, so a large bacterial culture can produce large amounts of insulin in a short time. The restriction enzyme only cuts DNA and does not manufacture insulin, and the bacterium's own DNA is not converted into human DNA.",
+"id": "biox21007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because bacteria dey multiply fast fast, every new cell go carry human insulin gene to produce plenty insulin. Restriction enzyme na just for cutting DNA, e no dey manufacture insulin."
+}
+],
+"rejected": []
+}

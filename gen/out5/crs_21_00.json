@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "Paul's conversion, missionary journeys and the Council of Jerusalem",
+"ti": 21,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Immediately after his sight was restored in Damascus, what did Saul do before he began to preach Christ in the synagogues?",
+"options": [
+"He was baptised and took food to regain strength",
+"He returned to Jerusalem to consult the apostles",
+"He went into Arabia for three years",
+"He fasted for forty days in the wilderness"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "After Ananias prayed for him, Saul received his sight, was baptised, and ate food to strengthen himself before he began preaching. This happened in Damascus, not Jerusalem or Arabia at that point.",
+"id": "crsx21000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "After Ananias pray for Saul, e eyes open, e baptize, and chop food to get strength before e start to preach. Na for Damascus all dis one happen, no be Jerusalem or Arabia."
+},
+{
+"q": "When the believers in Jerusalem first heard that Saul wanted to join them, how did they react?",
+"options": [
+"They welcomed him joyfully as a fellow apostle",
+"They were afraid of him because they doubted his conversion was real",
+"They sent him immediately to preach to the Gentiles",
+"They asked him to prove himself by healing a sick man"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The disciples in Jerusalem were afraid of Saul and did not believe he was truly a disciple, until Barnabas brought him to the apostles and explained his conversion.",
+"id": "crsx21001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The disciples for Jerusalem fear Saul well-well because dem no believe say e don truly change. Na Barnabas come carry am go meet the apostles to explain wetin happen."
+},
+{
+"q": "On Paul's first missionary journey, what happened to the sorcerer Elymas at Paphos when he tried to turn the Roman proconsul away from the faith?",
+"options": [
+"He was stoned by the crowd",
+"He was struck blind for a season",
+"He repented and was baptised at once",
+"He was driven out of the city by soldiers"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Paul rebuked Elymas the sorcerer for opposing the gospel, and he was struck blind for a time, which led the proconsul Sergius Paulus to believe.",
+"id": "crsx21002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Paul rebuke the sorcerer Elymas because e dey block the gospel. God come make the man blind for some time, and dis one make the proconsul believe."
+},
+{
+"q": "At Lystra, how did the crowd react after Paul healed a man who had been lame from birth?",
+"options": [
+"They mocked Paul and Barnabas and chased them away",
+"They stoned Paul immediately without listening to him",
+"They tried to offer sacrifices to Paul and Barnabas, calling them gods",
+"They demanded that the man be examined by the priests"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "After the healing at Lystra, the crowd thought Barnabas was Zeus and Paul was Hermes, and the priest of Zeus brought oxen to sacrifice to them, until Paul and Barnabas stopped them.",
+"id": "crsx21003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "After Paul heal the lame man for Lystra, the people think say Paul and Barnabas na gods. The priest of Zeus even wan bring cow come sacrifice for dem, but dem stop am."
+},
+{
+"q": "Which event caused the sharp disagreement between Paul and Barnabas that led them to separate before the second missionary journey?",
+"options": [
+"A quarrel over whether to visit Jerusalem first",
+"A disagreement over taking John Mark along again",
+"A dispute about who should lead the journey",
+"A conflict over preaching in the synagogue first"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Barnabas wanted to take John Mark, who had earlier deserted them in Pamphylia, but Paul refused, causing a sharp disagreement so that they parted ways, with Barnabas taking Mark to Cyprus and Paul choosing Silas.",
+"id": "crsx21004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Barnabas want make dem carry John Mark go again, but Paul no gree because Mark bin leave dem before. The matter come hot reach say dem separate, Barnabas carry Mark go Cyprus, Paul carry Silas."
+},
+{
+"q": "During his second missionary journey, Paul had a vision of a man from which region begging him, 'Come over and help us', which led him to cross into Europe?",
+"options": [
+"Galatia",
+"Macedonia",
+"Cappadocia",
+"Bithynia"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "At Troas, Paul saw a vision of a man of Macedonia pleading for help, and he understood this as God's call to preach the gospel in Macedonia, leading to the journey into Europe.",
+"id": "crsx21005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When Paul dey Troas, e see vision of one man from Macedonia wey dey beg am say make e come help dem. Paul come know say na God call am to go preach for Macedonia."
+},
+{
+"q": "What was the main reason some believers from Judea insisted that Gentile converts must be circumcised, an issue that eventually led to the Council of Jerusalem?",
+"options": [
+"They believed circumcision was required for one to be saved according to the law of Moses",
+"They wanted Gentiles to pay temple tax before joining the church",
+"They feared Gentile converts would corrupt Jewish customs in worship",
+"They wanted to test the loyalty of Gentile believers to Paul"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Certain men from Judea taught that unless Gentile believers were circumcised according to the custom of Moses, they could not be saved, and this teaching caused the dispute that was settled at Jerusalem.",
+"id": "crsx21006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Some people from Judea dey teach say if Gentile no circumcise like Moses law, dem no fit save. Dis teaching na im cause the big wahala wey dem go settle for Jerusalem."
+},
+{
+"q": "At the Council of Jerusalem, which apostle's account of God working signs and wonders among the Gentiles helped to convince the assembly alongside Peter's speech?",
+"options": [
+"James, the brother of the Lord",
+"John the beloved disciple",
+"Paul and Barnabas",
+"Philip the evangelist"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "After Peter spoke, Paul and Barnabas gave testimony of the miracles and wonders God had done among the Gentiles through them, and this testimony, along with James's judgement, helped settle the matter.",
+"id": "crsx21007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "After Peter talk, Paul and Barnabas come tell the people how God take do signs and wonders among the Gentiles. Dis testimony help the council reach decision."
+}
+],
+"rejected": []
+}

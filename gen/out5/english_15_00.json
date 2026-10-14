@@ -1,0 +1,137 @@
+{
+"subject": "english",
+"topic": "Oral English: rhymes (choose the word that rhymes with the given word)",
+"ti": 15,
+"b": 0,
+"generated": 8,
+"kept": [],
+"rejected": [
+{
+"q": {
+"q": "Choose the word that rhymes with the given word: BLEED",
+"options": [
+"head",
+"reed",
+"bred",
+"bead's"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "BLEED is pronounced /bliːd/ and rhymes with reed /riːd/. The other options have different vowel sounds or extra endings."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that rhymes with the given word: GROAN",
+"options": [
+"gone",
+"groin",
+"known",
+"gown"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "GROAN is pronounced /groʊn/, matching known /noʊn/. The others contain different vowel sounds such as /ɒ/ or /aʊ/ or a diphthong /ɔɪ/."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that rhymes with the word in capitals: PLOUGH",
+"options": [
+"though",
+"cough",
+"bough",
+"dough"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "PLOUGH is pronounced /plaʊ/, the same vowel sound as bough /baʊ/. Though, cough and dough all have different vowel sounds despite similar spelling."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that rhymes with the given word: HEIGHT",
+"options": [
+"height's",
+"white",
+"height-en",
+"weight"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "HEIGHT is pronounced /haɪt/, which rhymes with white /waɪt/. Weight has a different vowel sound /eɪ/, so it does not match."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that rhymes with the word in capitals: WORM",
+"options": [
+"warm",
+"worm's",
+"firm",
+"form"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "WORM is pronounced /wɜːm/, which matches firm /fɜːm/. Warm and form have the vowel sound /ɔː/, which is different."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that rhymes with the word in capitals: GAUGE",
+"options": [
+"gorge",
+"cage",
+"gauge's",
+"huge"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "GAUGE is pronounced /geɪdʒ/, matching cage /keɪdʒ/. Gorge and huge contain different vowel sounds, /ɔː/ and /juː/ respectively, so they do not rhyme."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that rhymes with the given word: SOOT",
+"options": [
+"suit",
+"foot",
+"boot",
+"shoot"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "SOOT is pronounced /sʊt/ with a short vowel, matching foot /fʊt/. Suit, boot and shoot all have the long vowel sound /uː/, so they do not rhyme with soot."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "In standard British pronunciation, choose the word that rhymes with the given word: ISLE",
+"options": [
+"isle's",
+"mile",
+"aisle",
+"tile's"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "ISLE is pronounced /aɪl/, with a silent 's', matching mile /maɪl/. Aisle sounds identical to isle itself, so it cannot be the rhyming partner being sought, as the task requires a different word with the same sound.",
+"id": "engx15005",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

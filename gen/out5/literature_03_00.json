@@ -1,0 +1,180 @@
+{
+"subject": "literature",
+"topic": "Metre and versification: iambic, trochaic, couplet, quatrain, blank verse",
+"ti": 3,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Read this line: 'Alone she walked beside the river bend.' What is the name given to a metrical foot made up of one unstressed syllable followed by one stressed syllable, as repeated in this line?",
+"options": [
+"Trochee",
+"Iamb",
+"Spondee",
+"Dactyl"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Each foot here moves from unstressed to stressed, for example 'a-LONE' and 'she WALKED'. This rising pattern is called an iamb.",
+"id": "litx03000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di way di word dem dey sound, e dey start from soft go strong like 'a-LONE'. Dis kain pattern wey dey rise na wetin dem dey call iamb."
+},
+{
+"q": "A Nigerian poet writes a six-line poem describing market women at Oyingbo, using couplets throughout, with each pair of lines closing on a complete thought before the next pair begins. What term best describes this use of couplets?",
+"options": [
+"Enjambed couplets",
+"Closed couplets",
+"Blank verse couplets",
+"Free verse couplets"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "When each couplet expresses a complete, self-contained statement that ends with punctuation, it is called a closed couplet. This differs from couplets whose sense runs on into the next line.",
+"id": "litx03001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If two lines finish one full tori and get punctuation, we dey call am closed couplet. E no be like di ones wey di sense dey flow enter next line."
+},
+{
+"q": "Which of the following best explains why Shakespeare's plays are said to be written mainly in blank verse rather than in rhymed couplets?",
+"options": [
+"The lines rhyme in alternating pattern but have no fixed metre",
+"The lines follow unrhymed iambic pentameter, giving a natural speech-like rhythm",
+"The lines have no metre or rhyme at all",
+"The lines are grouped into rhymed quatrains of four stresses each"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Blank verse is unrhymed but keeps a regular metre, usually iambic pentameter. This gives dramatic speech a natural yet elevated rhythm without the constraint of rhyme.",
+"id": "litx03002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Blank verse no get rhyme but e get steady rhythm wey sound like how pesin dey talk. E dey make di drama sound natural but still get class."
+},
+{
+"q": "Scan this line: 'My heart leaps up when I behold a star.' How many metrical feet does this line contain, and what is the dominant foot type?",
+"options": [
+"Four feet, trochaic",
+"Five feet, iambic",
+"Six feet, dactylic",
+"Five feet, trochaic"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Counting the stresses: my HEART, leaps UP, when I, be HOLD, a STAR gives five iambic feet. This makes the line iambic pentameter.",
+"id": "litx03003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you count di stress for di line, you go see say e get five feet. Because e dey follow di iambic pattern, we dey call am iambic pentameter."
+},
+{
+"q": "A student describes a stanza form as having four lines, with the first and third lines rhyming, and the second and fourth lines rhyming, following an ABAB pattern. What is this stanza form called?",
+"options": [
+"Tercet",
+"Quatrain",
+"Sestet",
+"Couplet"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A four-line stanza is known as a quatrain, regardless of the particular rhyme scheme used. ABAB is one of several common rhyme patterns found in quatrains.",
+"id": "litx03004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Any stanza wey get four lines na quatrain, no matter how di rhyme scheme be. ABAB na just one of di many ways wey dem fit arrange di rhyme."
+},
+{
+"q": "Which statement correctly distinguishes trochaic metre from iambic metre?",
+"options": [
+"Trochaic metre stresses the first syllable of each foot, while iambic metre stresses the second",
+"Trochaic metre has no stressed syllables, while iambic metre alternates stress randomly",
+"Trochaic metre is only used in prose, while iambic metre is only used in drama",
+"Trochaic metre always has five feet, while iambic metre always has four feet"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A trochee begins with a stressed syllable followed by an unstressed one, the reverse of an iamb. This difference in stress placement is what separates the two metres.",
+"id": "litx03006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Trochee dey start with strong sound, but iamb dey start with soft sound. Na dis difference for where di stress dey stay make dem different."
+},
+{
+"q": "A critic notes that a certain long narrative poem is composed entirely in unrhymed lines of ten syllables each, with a consistent alternation of unstressed and stressed syllables throughout. Which term most precisely names this verse form?",
+"options": [
+"Heroic couplet",
+"Free verse",
+"Blank verse",
+"Ballad stanza"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Unrhymed lines written consistently in iambic pentameter, meaning ten syllables with regular stress alternation, define blank verse. This distinguishes it from free verse, which lacks a fixed metrical pattern, and from the heroic couplet, which rhymes.",
+"id": "litx03007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If line no get rhyme but e get ten syllables wey dey follow iambic pentameter, na blank verse be dat. E different from free verse because free verse no get fixed rhythm."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Consider this line: 'DOUble, DOUble, TOIL and TROUble burn.' If the first four syllables each carry a strong stress unlike the surrounding iambic feet, what poetic effect is most likely created by this irregularity?",
+"options": [
+"It smooths the rhythm to match ordinary speech",
+"It emphasises urgency and intensity through the heavy, forceful stresses",
+"It signals that the poem has shifted into free verse",
+"It converts the entire line into dactylic metre"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Clustering stressed syllables together, as in spondaic substitution, slows the line and creates heaviness. This heightens the sense of urgency or intensity, breaking the normal iambic flow for dramatic effect.",
+"id": "litx03005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:The first four syllables are not all stressed; the line is not otherwise iambic.|"
+}
+]
+}

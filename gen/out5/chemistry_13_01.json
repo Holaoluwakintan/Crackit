@@ -1,0 +1,207 @@
+{
+"subject": "chemistry",
+"topic": "Air and environmental pollution",
+"ti": 13,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Carbon(II) oxide (carbon monoxide) is considered a dangerous pollutant mainly because it:",
+"options": [
+"Combines with haemoglobin in the blood to form carboxyhaemoglobin, reducing oxygen transport",
+"Reacts with rainwater to form a strong acid that corrodes metals",
+"Depletes the ozone layer by reacting with ozone molecules",
+"Dissolves in water bodies and kills aquatic plants directly"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Carbon monoxide binds strongly to haemoglobin, forming carboxyhaemoglobin which prevents oxygen from being carried round the body. This makes it a poisonous gas even in small concentrations.",
+"py": null,
+"values": null,
+"id": "chex13010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Carbon monoxide dey join body with haemoglobin strong-strong to form carboxyhaemoglobin. Dis one dey stop oxygen make e no round the body, na why the gas poisonous."
+},
+{
+"q": "Eutrophication of a river near a farm settlement is best described as a process in which:",
+"options": [
+"Excess nitrates and phosphates cause algal overgrowth, which later depletes dissolved oxygen as it decays",
+"Heavy metals settle at the river bed and poison fish directly",
+"Acidic rain lowers the pH of the river water below 4.0",
+"Oil spillage forms a film that blocks sunlight from reaching the river bed"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Nutrient runoff from fertilizers causes algae to grow rapidly (algal bloom). When the algae die, bacteria decompose them and use up dissolved oxygen, killing fish and other aquatic organisms.",
+"py": null,
+"values": null,
+"id": "chex13011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Wetin fertilizer dey carry enter river dey make algae plenty too much. When the algae die, bacteria dey chop them and use up all oxygen, na so fish dey die."
+},
+{
+"q": "Which of the following best explains why particulate matter (soot and dust) from bush burning and cement production poses a serious health hazard to humans?",
+"options": [
+"The fine particles can be inhaled deep into the lungs, causing respiratory diseases and reduced visibility",
+"The particles react with oxygen in the lungs to form carbon(IV) oxide, which is toxic",
+"The particles increase the acidity of the air directly, burning the skin on contact",
+"The particles combine with nitrogen in the air to form poisonous oxides of nitrogen"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Fine solid particles suspended in air can be breathed into the lungs where they irritate airways and cause respiratory problems. They also reduce visibility by scattering light, which is why particulate pollution is a major concern.",
+"py": null,
+"values": null,
+"id": "chex13013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Small-small dirt particles fit enter person chest deep when e dey breathe air. Dis one dey cause cough, sickness for lungs, and make everywhere dim."
+},
+{
+"q": "An environmental science class in Minna measured the concentration of oxides of nitrogen, NOx, in air near a busy expressway and found it unusually high during rush hour. Which process in a car engine is mainly responsible for producing these oxides?",
+"options": [
+"Combustion of unburnt hydrocarbons escaping from the fuel tank",
+"Reaction between nitrogen and oxygen from the air at the high temperatures inside the engine cylinder",
+"Reaction between carbon(IV) oxide and water vapour in the exhaust pipe",
+"Evaporation of lead compounds originally added to petrol as anti-knock agents"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "At the very high temperatures reached during fuel combustion in car engines, nitrogen and oxygen from the air combine to form oxides of nitrogen. These oxides are then released through the exhaust and contribute to photochemical smog.",
+"py": null,
+"values": null,
+"id": "chex13014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When engine hot well-well inside car, nitrogen and oxygen from air dey join body together to form oxides of nitrogen. Na through exhaust pipe them dey commot go air."
+},
+{
+"q": "Montreal-type international agreements on reducing chlorofluorocarbon (CFC) emissions were primarily introduced to address which environmental problem?",
+"options": [
+"Global warming caused by excess carbon(IV) oxide",
+"Depletion of the stratospheric ozone layer, which shields the earth from harmful ultraviolet radiation",
+"Formation of photochemical smog in cities with heavy traffic",
+"Acidification of lakes and rivers due to acid rain"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "CFCs released chlorine atoms in the stratosphere that broke down ozone molecules, thinning the protective ozone layer. International agreements aimed to phase out CFC use to allow the ozone layer to recover and continue shielding living things from ultraviolet rays.",
+"py": null,
+"values": null,
+"id": "chex13015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "CFC gas dey spoil ozone layer wey dey protect earth from sun radiation. Na why people come join hand make law make everybody stop to dey use CFC."
+},
+{
+"q": "Which practical measure would most effectively reduce the release of sulphur(IV) oxide into the atmosphere from a coal-burning power plant?",
+"options": [
+"Increasing the height of the chimney stack so the gas disperses higher into the air",
+"Installing scrubbers that remove sulphur(IV) oxide from the flue gases before release",
+"Burning the coal at a much lower temperature to slow down the reaction rate",
+"Mixing the coal with limestone powder before transporting it to the plant"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Flue-gas desulphurisation scrubbers chemically react with sulphur(IV) oxide in the exhaust gases, trapping it before it leaves the chimney, which directly reduces emissions. Increasing chimney height only spreads the pollutant over a wider area rather than removing it.",
+"py": null,
+"values": null,
+"id": "chex13017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "To put scrubber for chimney na the best way to catch sulphur(IV) oxide before e escape enter air. If you just build tall chimney, pollution still dey."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A factory in Aba burns coal containing sulphur impurities and releases sulphur(IV) oxide steadily into the air. If 6.4 kg of sulphur(IV) oxide is produced in one day, what is the number of moles of gas released? (S = 32, O = 16)",
+"options": [
+"50 moles",
+"100 moles",
+"200 moles",
+"400 moles"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The molar mass of sulphur(IV) oxide is 32 + (2 x 16) = 64 g/mol. Number of moles = 6400 g / 64 g/mol = 100... recalculated: 6400/64 = 100, so 100 moles is correct; however checking again confirms 100 moles as the value, matching option listed as the intended correct choice.",
+"py": "6400/64",
+"values": [
+50,
+100,
+200,
+400
+],
+"id": "chex13012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A 400 cm^3 sample of air collected along a busy highway in Onitsha was analysed and found to contain 0.08 cm^3 of carbon(II) oxide. Calculate the percentage by volume of carbon(II) oxide in the air sample.",
+"options": [
+"0.01%",
+"0.02%",
+"0.05%",
+"0.20%"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Percentage by volume is calculated as (volume of gas / total volume) x 100, which gives (0.08/400) x 100 = 0.02%. On reviewing the arithmetic, 0.08/400 equals 0.0002, and multiplying by 100 gives 0.02%, confirming this as the correct value among the options.",
+"py": "(0.08/400)*100",
+"values": [
+0.01,
+0.02,
+0.05,
+0.2
+],
+"id": "chex13016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

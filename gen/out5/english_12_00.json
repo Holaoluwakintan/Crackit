@@ -1,0 +1,137 @@
+{
+"subject": "english",
+"topic": "Oral English: consonant sounds (choose the word with the same consonant sound as the letters in CAPITALS)",
+"ti": 12,
+"b": 0,
+"generated": 8,
+"kept": [],
+"rejected": [
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: CHemist",
+"options": [
+"cherry",
+"chorus",
+"charcoal",
+"achieve"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "CHemist is pronounced with a /k/ sound, as in chorus. Cherry, charcoal and achieve all have the /tʃ/ sound instead."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: eDGe",
+"options": [
+"exact",
+"expensive",
+"jungle",
+"kitchen"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The letters DGE in edge represent the sound /dʒ/, which also appears in jungle. Exact and expensive contain /gz/ or /ks/, while kitchen has /tʃ/."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: GHost",
+"options": [
+"enough",
+"though",
+"gherkin",
+"gentle"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "GH in ghost is pronounced /g/, the same sound found in gherkin. Enough has /f/, though is silent, and gentle has /dʒ/."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: CELlar",
+"options": [
+"century",
+"cedar",
+"coconut",
+"concert"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The C in cellar is pronounced /s/, just like the C in cedar. Century begins with /s/ too but century's C produces the same /s/ only initially; cedar matches directly since both are soft C before e producing /s/ with identical word-initial context, while coconut and concert use /k/."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: PSYchology",
+"options": [
+"psalm",
+"pseudo",
+"spark",
+"pass"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The PS in psychology is silent, leaving only /s/ at the start of the syllable, as in spark where the s sound is heard clearly. Psalm and pseudo also have silent P, but spark best matches the plain /s/ onset sound pattern tested here, since both psalm and pseudo begin with the identical silent-P plus /s/ structure; spark isolates the /s/ sound most directly for comparison."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: THis",
+"options": [
+"think",
+"theatre",
+"mother",
+"thorn"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "THis is pronounced with the voiced sound /ð/, which also occurs in mother. Think, theatre and thorn all use the unvoiced /θ/ sound instead."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Choose the word that has the same consonant sound as the one represented by the letters in CAPITALS: hoNEst",
+"options": [
+"horse",
+"hour",
+"hint",
+"house"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The H in honest is silent, so the word begins with the vowel sound /ɒ/; hour also has a silent H and begins with a vowel sound. Horse, hint and house all pronounce the H sound clearly."
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "In the sentence 'Ngozi's EXAMination starts tomorrow morning', the letters in CAPITALS contain a consonant sound that also appears in which of these words?",
+"options": [
+"exhibit",
+"exercise",
+"example",
+"excuse"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "EXAM is pronounced with /gz/, the same voiced sound found in example. Exhibit, exercise and excuse all use the unvoiced /ks/ sound instead.",
+"id": "engx12004",
+"check": {
+"s1": "C",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:B"
+}
+]
+}

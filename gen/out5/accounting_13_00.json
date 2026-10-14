@@ -1,0 +1,217 @@
+{
+"subject": "accounting",
+"topic": "Manufacturing accounts",
+"ti": 13,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best describes 'work-in-progress' in a manufacturing account?",
+"options": [
+"Goods that have been completed and are ready for sale",
+"Raw materials that have not yet entered the production process",
+"Goods that are partly completed at the end of the accounting period",
+"Finished goods transferred from the factory to the warehouse"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Work-in-progress refers to partly finished goods still in the production process at the end of the period. It is neither raw material nor fully finished goods.",
+"py": null,
+"values": null,
+"id": "accx13000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Work-in-progress mean goods wey never finish for production process as accounting period dey end. E no be raw material and e no be finished goods yet."
+},
+{
+"q": "In a manufacturing account, factory overheads consist mainly of:",
+"options": [
+"Cost of raw materials purchased during the year",
+"Indirect factory costs such as factory rent, depreciation of factory machinery and factory supervisors' salaries",
+"Carriage outwards on finished goods sold to customers",
+"Wages paid directly to workers who make the product"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Factory overheads are indirect costs incurred in running the factory, like rent, depreciation and supervision, not direct material or direct labour costs.",
+"py": null,
+"values": null,
+"id": "accx13001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Factory overheads na all those indirect costs wey we dey spend for factory, like rent, depreciation and supervision. E no include direct material or direct labour cost."
+},
+{
+"q": "In the final accounts of a manufacturing business, where is the cost of production of finished goods transferred to?",
+"options": [
+"Credit side of the manufacturing account and debit side of the trading account",
+"Debit side of the manufacturing account and credit side of the balance sheet",
+"Credit side of the trading account and debit side of the manufacturing account",
+"Debit side of the profit and loss account only"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The cost of production is a closing figure in the manufacturing account (credited there) and then brought down to the debit side of the trading account as the cost of goods manufactured.",
+"py": null,
+"values": null,
+"id": "accx13005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "We go credit the cost of production for manufacturing account, then carry am come debit side of trading account as cost of goods manufactured."
+},
+{
+"q": "Fatima Foods Ltd provided the following for the year: direct materials consumed ₦300,000; direct labour ₦180,000; direct expenses ₦20,000; factory overheads ₦150,000; opening work-in-progress ₦30,000; closing work-in-progress ₦50,000. The finished goods were then transferred to the warehouse at cost plus 20% mark-up for internal trading purposes. What is the transfer value of the finished goods to the trading account?",
+"options": [
+"₦630,000",
+"₦756,000",
+"₦650,000",
+"₦600,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Prime cost = 300,000+180,000+20,000 = 500,000. Add factory overheads 150,000 = 650,000. Add opening WIP 30,000 less closing WIP 50,000 gives cost of production 630,000. Transfer value with 20% mark-up = 630,000 x 1.20 = 756,000.",
+"py": "(300000+180000+20000+150000+30000-50000)*1.20",
+"values": [
+630000,
+756000,
+650000,
+600000
+],
+"id": "accx13007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Prime cost plus factory overheads plus opening WIP minus closing WIP give us cost of production as ₦630,000. When we add 20% mark-up, the final transfer value enter ₦756,000."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A manufacturing firm's total manufacturing cost (cost of production) is made up of:",
+"options": [
+"Direct materials only",
+"Prime cost plus factory overheads",
+"Prime cost minus factory overheads",
+"Direct labour plus administrative expenses"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Cost of production is obtained by adding factory overheads to the prime cost, which already includes direct materials, direct labour and direct expenses.",
+"py": null,
+"values": null,
+"id": "accx13003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Cost of production also requires a work-in-progress adjustment, if applicable.|"
+},
+{
+"q": {
+"q": "Adaeze Textiles had opening work-in-progress of ₦25,000 and closing work-in-progress of ₦40,000. If the prime cost plus factory overheads for the year amounted to ₦500,000, what is the cost of production of finished goods?",
+"options": [
+"₦515,000",
+"₦485,000",
+"₦540,000",
+"₦460,000"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Cost of production = prime cost + factory overheads + opening WIP - closing WIP = 500,000 + 25,000 - 40,000 = 485,000. Closing WIP is subtracted because it is not yet finished.",
+"py": "500000+25000-40000",
+"values": [
+515000,
+485000,
+540000,
+460000
+],
+"id": "accx13004",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+},
+{
+"q": {
+"q": "Bode runs a furniture workshop in Ibadan. During the year, his factory wages amounted to ₦150,000, out of which ₦20,000 was later discovered to be wages paid to the night security guard who also guards the finished goods warehouse. If this ₦20,000 is wrongly included as direct factory wages instead of being treated as a factory overhead (indirect expense), what effect will this error have on the prime cost and cost of production respectively?",
+"options": [
+"Prime cost overstated; cost of production unaffected",
+"Prime cost understated; cost of production overstated",
+"Prime cost overstated; cost of production unaffected since it is still added back as overhead within total factory cost",
+"Prime cost unaffected; cost of production understated"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Since direct wages form part of prime cost, wrongly including the security wages there overstates prime cost. However, total cost of production stays the same because the amount, though misclassified, is still part of total factory costs added into the manufacturing account.",
+"py": null,
+"values": null,
+"id": "accx13006",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Ogunleye Plastics Ltd had the following figures for the year ended 31 December: opening stock of raw materials ₦45,000; purchases of raw materials ₦210,000; carriage on raw materials ₦15,000; closing stock of raw materials ₦60,000. What is the cost of raw materials consumed?",
+"options": [
+"₦210,000",
+"₦195,000",
+"₦225,000",
+"₦270,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Cost of materials consumed = opening stock + purchases + carriage - closing stock = 45,000 + 210,000 + 15,000 - 60,000 = 210,000.",
+"py": "45000+210000+15000-60000",
+"values": [
+210000,
+195000,
+225000,
+270000
+],
+"id": "accx13002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+}
+},
+"why": "review:The calculation in the explanation yields 210000, but option A matches, though let us recheck: 45000 + 210000 + 15000 - 60000 is indeed 210000. Wait, 45000+210000=255000; +15000=270000; -60000=210000. The key A is correct, but let us ensure everything matches."
+}
+]
+}

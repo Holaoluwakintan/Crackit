@@ -1,0 +1,203 @@
+{
+"subject": "chemistry",
+"topic": "Separation of mixtures and purification",
+"ti": 0,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A mixture of iron filings and sulphur powder is to be separated in the laboratory. Which of the following is the simplest and most appropriate method?",
+"options": [
+"Add carbon disulphide to dissolve the sulphur, then filter",
+"Use a magnet to attract the iron filings away from the sulphur",
+"Heat the mixture strongly until the sulphur sublimes",
+"Add water and decant the sulphur which floats"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Iron is magnetic while sulphur is not, so a magnet simply pulls out the iron filings, leaving pure sulphur behind. This is quicker and does not involve any chemical change, unlike dissolving with carbon disulphide.",
+"py": null,
+"values": null,
+"id": "chex00010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Iron na magnetic material but sulphur no be magnetic, so magnet go pack iron commot sharp sharp and leave sulphur. E dey fast pass to dey use carbon disulphide."
+},
+{
+"q": "Which property of substances is mainly exploited when separating a mixture by the method of sublimation?",
+"options": [
+"Difference in solubility in a given solvent",
+"Difference in density between the components",
+"Ability of one component to change directly from solid to gas on heating",
+"Difference in boiling points of the components"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Sublimation separates a mixture when one solid component turns directly into vapour on heating without passing through the liquid state, while the other solid remains. This vapour is then cooled to recover the pure solid.",
+"py": null,
+"values": null,
+"id": "chex00011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Sublimation dey work because one solid go just turn direct to gas when you heat am, without passing through liquid state, while the other solid go remain."
+},
+{
+"q": "In a simple distillation set-up used to obtain pure water from a salt solution, the thermometer bulb should be positioned at which point for an accurate reading of the boiling point of the vapour?",
+"options": [
+"Dipped inside the salt solution in the distillation flask",
+"Level with the side-arm outlet of the distillation flask",
+"At the bottom of the condenser, away from the flask",
+"Just above the surface of the liquid, inside the flask"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The thermometer bulb is placed level with the side-arm so that it measures the temperature of the vapour actually passing out into the condenser, which equals the boiling point of the liquid being collected. Placing it in the liquid or too high gives an inaccurate reading of the vapour temperature.",
+"py": null,
+"values": null,
+"id": "chex00013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Make you put thermometer bulb level with the side-arm so e go measure the correct temperature of the vapour wey dey enter condenser. If you put am inside liquid, you no go get correct boiling point."
+},
+{
+"q": "Adaeze wants to separate a mixture of two miscible liquids, X (density 0.79 g/cm^3, boiling point 65° C) and Y (density 1.33 g/cm^3, boiling point 190° C), into their pure components. Which technique is most suitable, given the wide gap in boiling points?",
+"options": [
+"Simple distillation",
+"Separating funnel method",
+"Fractional distillation",
+"Decantation followed by filtration"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "When miscible liquids have a large difference in boiling points (here, 125° C apart), simple distillation is enough to separate them, because the lower-boiling liquid vaporises first and is collected while the other remains behind. Fractional distillation is only needed when boiling points are close together.",
+"py": null,
+"values": null,
+"id": "chex00014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Since boiling point gap wide well well, simple distillation good pass to use. The liquid wey get low boiling point go boil first, we go pack am, while the other one go stay for flask."
+},
+{
+"q": "A 25.0 cm^3 sample of impure ethanol is distilled, and it is found that vapour first comes over at 79° C and the temperature keeps rising steadily up to 86° C before all the liquid distils over. (Pure ethanol boils sharply at 78° C.) What can be correctly concluded from this observation?",
+"options": [
+"The sample is pure ethanol, since 79° C is close to 78° C",
+"The sample is impure, because a pure liquid should boil and distil at one constant temperature, not over a range",
+"The sample must be a mixture of ethanol and water only, in a fixed ratio",
+"The thermometer used was faulty and should be recalibrated"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A pure substance has a sharp, constant boiling point, but this sample boiled over a spread of temperatures (79° C to 86° C), which shows the presence of dissolved impurities. The exact identity of the impurity cannot be concluded from boiling range alone, so the mixture-ratio claim goes beyond the evidence.",
+"py": null,
+"values": null,
+"id": "chex00016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Pure liquid suppose boil for one constant temperature, but since this one dey rise from 79° C to 86° C, e mean say impurity dey inside."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A student is given a mixture of two salts, X and Y, whose solubilities in water both increase with temperature, but that of X increases much faster than that of Y. The student dissolves the mixture in the minimum volume of hot water, then allows the solution to cool slowly. Which process has been carried out, and what is obtained first?",
+"options": [
+"Simple distillation; pure water is obtained first",
+"Fractional crystallisation; crystals of X (the salt whose solubility changes more with temperature) separate out first",
+"Fractional crystallisation; crystals of Y separate out first because it is less soluble",
+"Evaporation to dryness; a mixture of both salts crystallises together"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "This describes fractional crystallisation, used to separate salts with different solubility curves. On cooling, the salt whose solubility drops sharply with temperature (X) becomes supersaturated first and crystallises out, leaving Y mostly in solution.",
+"py": null,
+"values": null,
+"id": "chex00012",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A student wants to purify a sample of crude kerosene suspected to contain non-volatile coloured impurities. Which single piece of laboratory evidence would best confirm that the kerosene obtained after purification is now pure?",
+"options": [
+"It boils and condenses at one constant temperature throughout distillation",
+"It dissolves common salt completely",
+"It floats on top of water in a separating funnel",
+"It changes colour when exposed to sunlight"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A pure liquid boils and distils over at one fixed, sharp temperature, while an impure liquid boils over a range of temperatures. This constant boiling point is the standard laboratory test for purity of a liquid.",
+"py": null,
+"values": null,
+"id": "chex00015",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A solution contains three dissolved coloured dyes, P, Q and R. On paper chromatography using a particular solvent, the dyes travel distances of 7.2 cm, 4.8 cm and 2.4 cm respectively from the baseline, while the solvent front travels 9.6 cm. If dye Q is the most polar of the three and therefore has the weakest attraction to the solvent, which Rf value corresponds to dye Q, and what is its value?",
+"options": [
+"0.75, since Q travelled 7.2 cm",
+"0.50, since Q travelled 4.8 cm",
+"0.25, since Q travelled 2.4 cm",
+"1.33, since Q travelled 9.6 cm with the solvent"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A more polar dye interacts more strongly with the polar stationary phase (paper) and so travels less far with the solvent than a less polar one, but here Q is described as intermediate, travelling 4.8 cm. Rf is distance travelled by the substance divided by distance travelled by the solvent front, giving 4.8/9.6 = 0.50.",
+"py": "4.8/9.6",
+"values": [
+0.75,
+0.5,
+0.25,
+1.33
+],
+"id": "chex00017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Rf is 4.8/9.6; polarity alone does not establish solvent attraction.|"
+}
+]
+}

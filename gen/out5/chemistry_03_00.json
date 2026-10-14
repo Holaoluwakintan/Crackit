@@ -1,0 +1,200 @@
+{
+"subject": "chemistry",
+"topic": "Periodic table and periodicity",
+"ti": 3,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "The modern periodic law states that the physical and chemical properties of elements are periodic functions of their:",
+"options": [
+"atomic masses",
+"atomic numbers",
+"number of neutrons",
+"number of isotopes"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Mendeleev originally arranged elements by atomic mass, but the modern periodic law (Moseley) is based on atomic number. Properties repeat periodically as atomic number increases.",
+"py": null,
+"values": null,
+"id": "chex03000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Mendeleev bin use atomic mass before, but modern chemistry follow Moseley law wey talk say na atomic number matter. As atomic number dey increase, properties dey repeat for periodic way."
+},
+{
+"q": "An element has the electronic configuration 2,8,8,2. In which period and group of the periodic table is this element located?",
+"options": [
+"Period 2, Group 2",
+"Period 4, Group 2",
+"Period 3, Group 8",
+"Period 4, Group 8"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The number of shells (4) gives the period, so the element is in period 4. The 2 electrons in the outermost shell show it belongs to Group 2.",
+"py": null,
+"values": null,
+"id": "chex03001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because the element get 4 shells, e dey for period 4. The 2 electrons wey dey the last shell show say e belong to group 2."
+},
+{
+"q": "Which of the following correctly explains why atomic radius decreases from left to right across a period in the periodic table?",
+"options": [
+"The number of electron shells increases steadily across the period",
+"The nuclear charge increases while electrons are added to the same outer shell, pulling electrons closer",
+"Electron-electron repulsion in the nucleus increases sharply",
+"The elements change from metals to noble gases, which are smaller"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Across a period, protons are added to the nucleus while new electrons enter the same principal shell. The increasing nuclear charge pulls the outer electrons inward, shrinking the atomic radius.",
+"py": null,
+"values": null,
+"id": "chex03002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "As you move across period, protons dey increase for nucleus while electrons dey enter the same shell. This strong nuclear charge dey pull the electrons closer, so the atom size dey shrink."
+},
+{
+"q": "Consider the elements sulphur (atomic number 16) and chlorine (atomic number 17). Which of these elements has the higher electronegativity, and why?",
+"options": [
+"Sulphur, because it has more neutrons",
+"Chlorine, because it has a greater nuclear charge and the same number of shells as sulphur",
+"Sulphur, because it has a larger atomic radius",
+"Chlorine, because it has one more electron shell than sulphur"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Sulphur and chlorine are both in period 3, so they have the same number of shells. Chlorine has a higher nuclear charge, which attracts bonding electrons more strongly, giving it higher electronegativity.",
+"py": null,
+"values": null,
+"id": "chex03003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Sulphur and chlorine dey the same period, so dem get the same number of shells. Chlorine get more protons for nucleus, so e dey pull electrons stronger pass sulphur."
+},
+{
+"q": "An element Y forms an ion Y^2- with the electronic configuration 2,8,8. What is the atomic number of Y?",
+"options": [
+"16",
+"18",
+"20",
+"14"
+],
+"answer": "A",
+"difficulty": "medium",
+"py": "18-2",
+"values": [
+16,
+18,
+20,
+14
+],
+"explanation": "The Y^2- ion has 18 electrons (2+8+8). Since the ion is formed by gaining 2 electrons, the neutral atom Y has 18 - 2 = 16 electrons, so its atomic number is 16.",
+"id": "chex03004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The ion get 18 electrons total. Since the atom gain 2 electrons to become ion, we go subtract 2 from 18 to get 16 as the atomic number."
+},
+{
+"q": "The first ionization energies (in kJ/mol) of four Group 1 elements are approximately: Li = 520, Na = 496, K = 419, Rb = 403. What is the best explanation for this observed trend down the group?",
+"options": [
+"The atomic radius decreases down the group, reducing shielding",
+"The outermost electron is increasingly shielded and further from the nucleus as more shells are added",
+"The nuclear charge decreases down the group",
+"Each element down the group has fewer protons, reducing attraction"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Going down Group 1, extra electron shells are added, increasing both the atomic radius and the shielding effect. This weakens the nucleus's hold on the outermost electron, so less energy is needed to remove it.",
+"py": null,
+"values": null,
+"id": "chex03005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "As you go down group 1, the atom size dey big pass because of extra shells. This one make the outer electron far from nucleus and easy to remove."
+},
+{
+"q": "A student compares the melting points of sodium, magnesium, and aluminium (all period 3 metals) and finds that melting point increases from sodium to aluminium. What is the main reason for this trend?",
+"options": [
+"The atomic size increases from sodium to aluminium, weakening the metallic bond",
+"The number of valence electrons available for metallic bonding increases, strengthening the metallic bond",
+"Sodium has more free electrons than aluminium",
+"Aluminium has a lower nuclear charge than sodium"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "From sodium to aluminium, the number of delocalized valence electrons increases (1, 2, 3 respectively). More delocalized electrons create stronger metallic bonding, which requires more energy to break, raising the melting point.",
+"py": null,
+"values": null,
+"id": "chex03006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "From sodium to aluminium, the number of valence electrons wey dey move about dey increase. More electrons mean stronger metallic bond, so e go take more heat to melt am."
+},
+{
+"q": "Four elements W, X, Y and Z have atomic radii of 0.186 nm, 0.160 nm, 0.143 nm and 0.118 nm respectively, and all belong to the same period, with W having the lowest atomic number. Based on the general periodic trend, what is the correct order of increasing atomic number from W to Z?",
+"options": [
+"The order shown is correct: W, X, Y, Z",
+"The order should be reversed: Z, Y, X, W",
+"W and Z have the same atomic number",
+"Atomic radius has no relationship with atomic number across a period"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Across a period, atomic radius decreases as atomic number increases because of increasing nuclear charge. Since the radii decrease steadily from W to Z, the atomic numbers must increase in that same order.",
+"py": null,
+"values": null,
+"id": "chex03007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Across any period, atomic radius dey small as atomic number dey big because of nuclear charge. Since the radius dey reduce from W to Z, the atomic number must dey increase for that same order."
+}
+],
+"rejected": []
+}

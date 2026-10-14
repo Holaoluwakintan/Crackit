@@ -1,0 +1,237 @@
+{
+"subject": "maths",
+"topic": "Logarithms",
+"ti": 3,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Evaluate log_5(1/125).",
+"options": [
+"-3",
+"3",
+"-5",
+"1/3"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "1/125 = 5^(-3), so log base 5 of 1/125 equals -3. This uses the rule that log of a reciprocal power gives a negative exponent.",
+"py": "-3",
+"values": [
+-3,
+3,
+-5,
+0.333333
+],
+"id": "matx03000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Since 1/125 na 5^(-3), the log base 5 go give us -3. Na simple rule of indices we use here."
+},
+{
+"q": "Simplify: log_a(a^3) + log_a(1), where a is greater than 0 and not equal to 1.",
+"options": [
+"0",
+"1",
+"3",
+"4"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "log_a(a^3) equals 3 because the base and the power match, and log_a(1) is always 0 for any valid base. Adding these gives 3 + 0 = 3.",
+"py": "3+0",
+"values": [
+0,
+1,
+3,
+4
+],
+"id": "matx03002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Log_a(a^3) na 3 because the base and power match. Since log_a(1) always be 0, 3 plus 0 give us 3."
+},
+{
+"q": "Given that log_10(3) = 0.4771, evaluate log_10(1/9) correct to 4 decimal places.",
+"options": [
+"0.9542",
+"-0.9542",
+"0.2386",
+"-0.2386"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "1/9 = 3^(-2), so log_10(1/9) = -2 log_10(3) = -2(0.4771) = -0.9542. The negative sign shows the value is less than 1.",
+"py": "-2*0.4771",
+"values": [
+0.9542,
+-0.9542,
+0.2386,
+-0.2386
+],
+"id": "matx03003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We know say 1/9 na 3^(-2), so we multiply -2 by 0.4771. The answer come out -0.9542."
+},
+{
+"q": "Express log_10(a^2 * b / c^3) in terms of log_10(a), log_10(b) and log_10(c).",
+"options": [
+"2log_10(a) + log_10(b) - 3log_10(c)",
+"2log_10(a) + log_10(b) + 3log_10(c)",
+"log_10(a) + 2log_10(b) - 3log_10(c)",
+"2log_10(a) - log_10(b) - 3log_10(c)"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using the laws of logarithms, multiplication becomes addition and division becomes subtraction, while powers move to the front as multipliers. This gives 2log_10(a) + log_10(b) minus 3log_10(c).",
+"py": null,
+"values": null,
+"id": "matx03005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use log laws where multiplication turn to addition and division turn to subtraction. The powers come front as multiplier, so we get 2log_10(a) + log_10(b) - 3log_10(c)."
+},
+{
+"q": "If log_10(x) = 2.4771 and log_10(3) = 0.4771, find the value of x.",
+"options": [
+"30",
+"300",
+"3000",
+"240"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since log_10(x) = 2 + 0.4771, this can be split as log_10(100) + log_10(3) = log_10(300). Therefore x equals 300.",
+"py": "300",
+"values": [
+30,
+300,
+3000,
+240
+],
+"id": "matx03006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We split 2.4771 into 2 plus 0.4771. Since 2 na log_10(100), we multiply 100 by 3 to get 300."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "If log_10(2) = 0.3010, find log_10(4000).",
+"options": [
+"3.6020",
+"3.9030",
+"2.6020",
+"3.3010"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "4000 = 4 x 1000 = 2^2 x 10^3, so log(4000) = 2log(2) + 3 = 2(0.3010) + 3 = 3.6020... actually recompute: 2(0.3010)=0.6020, plus 3 gives 3.6020; check again carefully gives 3.6020.",
+"py": "2*0.3010+3",
+"values": [
+3.602,
+3.903,
+2.602,
+3.301
+],
+"id": "matx03001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+},
+{
+"q": {
+"q": "Chidinma solves the equation log_2(x) + log_4(x) = 3. Find the value of x.",
+"options": [
+"2",
+"4",
+"4*sqrt(2)",
+"8"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Write log_4(x) as log_2(x)/2 using change of base, so the equation becomes (3/2)log_2(x) = 3, giving log_2(x) = 2... checking carefully: log_2(x)+log_2(x)/2=3 means (3/2)log_2(x)=3 so log_2(x)=2, x=4. Re-solving shows x = 4*sqrt(2) is wrong; correct answer is x=4, matching option with value 4.",
+"py": "4",
+"values": [
+2,
+4,
+5.656854,
+8
+],
+"id": "matx03004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A student mistakenly writes log_3(x - 2) + log_3(x + 2) = 2. Find the correct positive value of x that satisfies this equation.",
+"options": [
+"sqrt(13)",
+"3",
+"sqrt(5)",
+"13"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Combining the logs gives log_3((x-2)(x+2)) = 2, so (x-2)(x+2) = 9, meaning x^2 - 4 = 9 and x^2 = 13. Since x must make x-2 positive and x^2=13 does not give a neat integer, re-check shows x^2 - 4 = 3^2 = 9, x^2 = 13, so x = sqrt(13); this is the valid positive solution greater than 2.",
+"py": "math.sqrt(13)",
+"values": [
+3.605551,
+3,
+2.236068,
+13
+],
+"id": "matx03007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+}
+]
+}

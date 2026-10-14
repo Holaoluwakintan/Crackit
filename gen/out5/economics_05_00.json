@@ -1,0 +1,201 @@
+{
+"subject": "economics",
+"topic": "Price determination, equilibrium, price control and elasticity",
+"ti": 5,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In economics, market equilibrium is best described as the situation where:",
+"options": [
+"The quantity demanded equals the quantity supplied at a given price",
+"The government fixes a price that both buyers and sellers must obey",
+"Producers supply more goods than consumers are willing to buy",
+"Consumers demand more goods than producers are willing to sell"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Equilibrium occurs where the demand curve and supply curve intersect, so quantity demanded exactly equals quantity supplied. At this price there is no shortage or surplus.",
+"py": null,
+"values": null,
+"id": "ecox05000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na where demand curve meet supply curve equilibrium dey happen, meaning say wetyn people wan buy equal wetyn sellers bring come market. For this price, shortage or surplus no go dey at all."
+},
+{
+"q": "A sudden outbreak of bird flu destroys many poultry farms in Ibadan, sharply reducing the supply of chicken while demand stays the same. What will likely happen to the equilibrium price and quantity of chicken?",
+"options": [
+"Price rises and quantity falls",
+"Price falls and quantity rises",
+"Price rises and quantity rises",
+"Price falls and quantity falls"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A fall in supply with demand unchanged shifts the supply curve leftward. This leads to a higher equilibrium price and a lower equilibrium quantity.",
+"py": null,
+"values": null,
+"id": "ecox05001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If supply drop and demand remain the same, the supply curve go shift go left. Naim make the price go high up and the total quantity wey people dey sell come fall down."
+},
+{
+"q": "The demand for a product is said to be perfectly elastic when:",
+"options": [
+"Quantity demanded changes infinitely at a particular price, giving a horizontal demand curve",
+"Quantity demanded does not change no matter how price changes, giving a vertical demand curve",
+"A given percentage change in price causes an equal percentage change in quantity demanded",
+"Quantity demanded falls to zero regardless of price changes"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Perfectly elastic demand means buyers will buy any quantity at one fixed price but none at a higher price. This is represented by a horizontal demand curve.",
+"py": null,
+"values": null,
+"id": "ecox05002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Perfectly elastic demand mean say buyers ready to buy any amount at one particular price, but dem no go buy anything if price increase small. Na horizontal demand curve dem take dey represent am."
+},
+{
+"q": "If the price elasticity of supply of a good is 0.6, the supply is said to be:",
+"options": [
+"Elastic",
+"Inelastic",
+"Perfectly elastic",
+"Unitary elastic"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A price elasticity of supply value less than one means quantity supplied responds proportionately less than the change in price. This makes supply inelastic.",
+"py": null,
+"values": null,
+"id": "ecox05003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If price elasticity of supply value dey less than one, e mean say quantity supplied no dey move as quick as price change. That one make the supply to be inelastic."
+},
+{
+"q": "When the government fixes a minimum wage above the market equilibrium wage, which of the following is the most likely consequence in the labour market?",
+"options": [
+"A shortage of workers as firms struggle to find enough labour",
+"A surplus of labour as the quantity of workers willing to work exceeds the quantity firms demand",
+"An automatic fall in the price of goods produced by the firms",
+"Equilibrium is unaffected since wages are not prices"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A minimum wage set above equilibrium is a price floor for labour. It encourages more people to seek jobs while firms hire fewer workers, creating unemployment (a surplus of labour).",
+"py": null,
+"values": null,
+"id": "ecox05004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Minimum wage wey high pass market equilibrium dey act like price floor for labour. E go make plenty people wan work, but companies go employ small workers, con cause surplus of labour."
+},
+{
+"q": "A trader in Aba notices that when she raises the price of her handbags by 20%, her total revenue falls. This shows that the demand for her handbags is:",
+"options": [
+"Perfectly inelastic",
+"Inelastic",
+"Elastic",
+"Unitary elastic"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When a price rise causes total revenue to fall, it means the percentage fall in quantity demanded exceeds the percentage rise in price. This is the defining feature of elastic demand.",
+"py": null,
+"values": null,
+"id": "ecox05005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If price increase make total revenue fall, e mean say the percentage drop for quantity demanded pass the percentage increase for price. Na him be elastic demand."
+},
+{
+"q": "Government imposes a maximum price (price ceiling) on rice below the free market equilibrium price in order to protect consumers. One likely effect of this policy is:",
+"options": [
+"A persistent surplus of rice in the market",
+"The emergence of a black market where rice is sold above the official price",
+"A fall in the demand for rice below the equilibrium quantity",
+"An automatic increase in the supply of rice to meet demand"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A price ceiling below equilibrium causes quantity demanded to exceed quantity supplied, creating a shortage. This shortage often pushes some buyers and sellers to trade illegally at higher prices, giving rise to a black market.",
+"py": null,
+"values": null,
+"id": "ecox05007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Price ceiling wey dey below equilibrium go cause shortage because demand go pass supply. This shortage go come make people start to dey sell for underground market at higher price."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The demand function for a good in a market is Qd = 60 - 3P and the supply function is Qs = -10 + 2P, where P is price in naira. Determine the equilibrium price.",
+"options": [
+"₦12",
+"₦14",
+"₦10",
+"₦16"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "At equilibrium, Qd equals Qs, so 60 - 3P = -10 + 2P, giving 70 = 5P and P = 14... checking: 60-3(14)=18, -10+2(14)=18, so equilibrium price is actually 14. Setting them equal: 60-3P=-10+2P leads to 70=5P, P=14.",
+"py": "(60+10)/5",
+"values": [
+12,
+14,
+10,
+16
+],
+"id": "ecox05006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

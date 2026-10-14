@@ -1,0 +1,214 @@
+{
+"subject": "accounting",
+"topic": "Bank reconciliation statement",
+"ti": 6,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Uche's cash book showed a debit balance of ₦58,000 on 31 July. Comparison with the bank statement revealed that a customer's cheque for ₦15,000 paid directly into the bank had not been entered in the cash book, and bank charges of ₦3,000 had also not been recorded in the cash book. What is the adjusted cash book balance?",
+"options": [
+"₦70,000",
+"₦46,000",
+"₦76,000",
+"₦40,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Start with 58,000, add the direct credit of 15,000 (increases balance), then subtract bank charges of 3,000, giving 70,000.",
+"py": "58000+15000-3000",
+"values": [
+70000,
+46000,
+76000,
+40000
+],
+"id": "accx06001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Make you start with 58,000, add the 15,000 wey customer pay directly to bank because e go increase your money, then minus the 3,000 bank charges. E go come give you 70,000."
+},
+{
+"q": "Which of the following items would appear in a bank reconciliation statement but would NOT require any adjusting entry in the cash book?",
+"options": [
+"Dividend received by the bank on behalf of the firm, not yet entered in the cash book",
+"Standing order payment made by the bank but not entered in the cash book",
+"Unpresented cheques issued to suppliers",
+"Bank charges deducted by the bank but not entered in the cash book"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Unpresented cheques are already correctly recorded in the cash book; the timing difference only affects the bank statement side, so no cash book adjustment is needed.",
+"py": null,
+"values": null,
+"id": "accx06002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Unpresented cheques na those ones wey you don already write for cash book, na just timing difference make bank never clearam. So, e no need any adjustment inside your cash book again."
+},
+{
+"q": "A bank reconciliation statement is prepared starting from the adjusted cash book balance. The following relate to Bisi's account on 31 August: adjusted cash book balance ₦120,000; unpresented cheques ₦25,000; uncredited (outstanding) lodgements ₦10,000. What is the balance as per the bank statement?",
+"options": [
+"₦135,000",
+"₦105,000",
+"₦155,000",
+"₦145,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Starting from the cash book, add unpresented cheques (not yet deducted by the bank) and subtract uncredited lodgements (not yet added by the bank): 120,000 + 25,000 - 10,000 = 135,000.",
+"py": "120000+25000-10000",
+"values": [
+135000,
+105000,
+155000,
+145000
+],
+"id": "accx06003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you dey start from cash book, you go add unpresented cheques of 25,000 and minus uncredited lodgements of 10,000. When you calculate am, 120,000 + 25,000 - 10,000 go give you 135,000."
+},
+{
+"q": "Which of these is NOT a usual cause of difference between the cash book balance and the bank statement balance?",
+"options": [
+"Cheques deposited but not yet cleared by the bank",
+"Cheques issued but not yet presented for payment",
+"Bank charges not yet recorded in the cash book",
+"Depreciation charged on the firm's delivery van for the year"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Depreciation is a non-cash accounting adjustment unrelated to bank transactions, so it cannot cause a difference between cash book and bank statement balances.",
+"py": null,
+"values": null,
+"id": "accx06004",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Depreciation na non-cash adjustment for asset and e no concern bank matter at all. Naim make e no fit cause difference between cash book and bank statement."
+},
+{
+"q": "Tunde's bank statement showed a credit balance of ₦96,000 on 30 September. On checking, it was found that: a cheque for ₦18,000 issued to a supplier had not yet been presented, and a lodgement of ₦7,000 made on 29 September had not yet been credited by the bank. What is the balance as per the cash book?",
+"options": [
+"₦85,000",
+"₦107,000",
+"₦121,000",
+"₦71,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Starting from the bank statement balance, deduct the unpresented cheque and add the uncredited lodgement: 96,000 - 18,000 + 7,000 = 85,000.",
+"py": "96000-18000+7000",
+"values": [
+85000,
+107000,
+121000,
+71000
+],
+"id": "accx06005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you dey start from bank statement balance, you go minus the unpresented cheque and add the uncredited lodgement. That means 96,000 - 18,000 + 7,000 go give you 85,000."
+},
+{
+"q": "A dishonoured cheque from a customer, originally recorded in the cash book as a receipt, is later found to have been returned unpaid by the bank. In the bank reconciliation process, this should be:",
+"options": [
+"Added to the bank statement balance",
+"Deducted from the cash book balance",
+"Added to the cash book balance",
+"Deducted from the bank statement balance"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since the cheque was dishonoured, the earlier receipt recorded in the cash book must be cancelled by deducting it from the cash book balance to correct the error.",
+"py": null,
+"values": null,
+"id": "accx06006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As bank return the cheque unpaid, you must remove am from your cash book. You go deduct am from your cash book balance because the money no enter at all."
+},
+{
+"q": "Why is a bank reconciliation statement usually prepared on a regular basis by a business?",
+"options": [
+"To calculate the profit or loss made by the business for the period",
+"To determine the total value of fixed assets owned by the business",
+"To check and explain the differences between the cash book and bank statement, and detect errors or fraud",
+"To record all cash sales made by the business during the period"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "The main purpose of a bank reconciliation statement is to identify and explain the reasons for differences between the cash book and bank statement balances, helping to uncover errors or fraud.",
+"py": null,
+"values": null,
+"id": "accx06007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "We dey prepare bank reconciliation statement make we fit find out why cash book and bank statement balance no join body, and also to catch any mistake or pocket-fuloko."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In preparing a bank reconciliation statement, an unpresented cheque (a cheque issued by the firm but not yet paid by the bank) is treated by:",
+"options": [
+"Adding it to the cash book balance to get the bank statement balance",
+"Deducting it from the bank statement balance to get the cash book balance",
+"Adding it to the bank statement balance to get the cash book balance",
+"Deducting it from the cash book balance to get the bank statement balance"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Unpresented cheques have already been deducted in the cash book but not yet by the bank, so they must be added back to the bank statement balance to arrive at the cash book balance.",
+"py": null,
+"values": null,
+"id": "accx06000",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

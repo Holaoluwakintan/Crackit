@@ -1,0 +1,241 @@
+{
+"subject": "physics",
+"topic": "Gas laws",
+"ti": 10,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A fixed mass of gas at constant volume has a pressure of 1.0 x 10^5 Pa at 27°C. To what temperature (in °C) must the gas be heated for its pressure to become 1.5 x 10^5 Pa?",
+"options": [
+"177°C",
+"450°C",
+"150°C",
+"200°C"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "At constant volume, P/T is constant, so T2 = T1 x (P2/P1) = 300 x 1.5 = 450 K, which is 177°C. Only the final temperature must be converted back to Celsius.",
+"py": "300*1.5 - 273",
+"values": [
+177,
+450,
+150,
+200
+],
+"id": "phyx10000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If volume dey constant, P/T na constant. We convert 27°C to 300 K, then multiply 300 by 1.5 to get 450 K, wey be 177°C."
+},
+{
+"q": "Which combination correctly states the conditions under which a real gas behaves most like an ideal gas?",
+"options": [
+"Low pressure and high temperature",
+"High pressure and low temperature",
+"Low pressure and low temperature",
+"High pressure and high temperature"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "At low pressure the gas molecules are far apart, and at high temperature they move fast, so intermolecular forces and molecular volume become negligible. This makes real gas behaviour closest to ideal gas behaviour.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx10001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Real gas dey behave like ideal gas when pressure low and temperature high. Dis one make molecules far apart and make intermolecular forces no matter again."
+},
+{
+"q": "A sealed container holds a fixed mass of gas at 2.0 atm and 300 K. If the volume is kept constant and the temperature is raised to 450 K, what is the new pressure?",
+"options": [
+"1.3 atm",
+"3.0 atm",
+"2.5 atm",
+"4.5 atm"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "At constant volume, pressure is directly proportional to absolute temperature, so P2 = P1 x (T2/T1) = 2.0 x (450/300) = 3.0 atm.",
+"py": "2.0*(450/300)",
+"values": [
+1.3,
+3.0,
+2.5,
+4.5
+],
+"id": "phyx10002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Since volume constant, pressure dey proportional to temperature. We just multiply 2.0 atm by 450/300 to get 3.0 atm."
+},
+{
+"q": "According to the kinetic theory of gases, the pressure exerted by a gas on the walls of its container is mainly due to",
+"options": [
+"the weight of the gas molecules pressing downward",
+"the chemical reaction between gas molecules and the container wall",
+"the continuous collision of gas molecules with the walls of the container",
+"the expansion of the container under heat"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Gas pressure arises because molecules are in constant random motion and continually collide with the walls of the container, transferring momentum. This is a basic postulate of the kinetic theory of gases.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx10004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Pressure for gas container dey happen because molecules dey move anyhow and dey hit the wall. Dis collision na wetin dey create the pressure."
+},
+{
+"q": "Two containers A and B of equal volume contain the same ideal gas at the same temperature. Container A has twice the number of molecules as container B. What is the ratio of the pressure in A to the pressure in B?",
+"options": [
+"4 : 1",
+"1 : 2",
+"2 : 1",
+"1 : 1"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "From PV = NkT, at the same volume and temperature, pressure is directly proportional to the number of molecules. Since A has twice as many molecules as B, the pressure ratio is 2 to 1.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "phyx10005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "From PV = NkT, if volume and temperature dey same, pressure go follow the number of molecules. Since A get double the molecules of B, the pressure ratio na 2:1."
+},
+{
+"q": "A fixed mass of an ideal gas occupies a volume of 600 cm^3 at a pressure of 1.5 x 10^5 Pa and temperature 27°C. What volume will it occupy at standard temperature and pressure (STP: 1.0 x 10^5 Pa, 273 K)?",
+"options": [
+"820 cm^3",
+"900 cm^3",
+"700 cm^3",
+"600 cm^3"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Using the combined gas law, V2 = (P1V1T2)/(T1P2) = (1.5e5 x 600 x 273)/(300 x 1.0e5) = 819 cm^3, approximately 820 cm^3. Remember to convert 27°C to 300 K before substituting.",
+"py": "(1.5e5*600*273)/(300*1.0e5)",
+"values": [
+820,
+900,
+700,
+600
+],
+"id": "phyx10006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use the combined gas law formula. We convert 27°C to 300 K first, then calculate to get 819 cm^3, wey we fit round to 820 cm^3."
+},
+{
+"q": "A fixed mass of gas is compressed isothermally so that its volume reduces to one-third of its original value. If the original pressure was 90 kPa, what is the new pressure?",
+"options": [
+"30 kPa",
+"270 kPa",
+"180 kPa",
+"60 kPa"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Boyle's law states that pressure is inversely proportional to volume at constant temperature, so P1V1 = P2V2. Reducing volume to one-third increases pressure three times, giving 90 x 3 = 270 kPa.",
+"py": "90*3",
+"values": [
+30,
+270,
+180,
+60
+],
+"id": "phyx10007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Boyle's law talk say if volume reduce, pressure go increase. If volume come be one-third, pressure go multiply by three, so 90 kPa times 3 give us 270 kPa."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A balloon contains 3.0 litres of gas at a pressure of 1.0 x 10^5 Pa and temperature 290 K. The balloon is taken into a cold store where the temperature drops to 250 K and the pressure changes to 1.2 x 10^5 Pa. Calculate the new volume of the gas.",
+"options": [
+"2.16 litres",
+"3.48 litres",
+"2.50 litres",
+"1.80 litres"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Using the combined gas law, P1V1/T1 = P2V2/T2, V2 = (P1V1T2)/(T1P2) = (1.0e5 x 3.0 x 250)/(290 x 1.2e5) = 2.16 litres. All three quantities change together, so the full combined law is needed.",
+"py": "(1.0e5*3.0*250)/(290*1.2e5)",
+"values": [
+2.16,
+3.48,
+2.5,
+1.8
+],
+"id": "phyx10003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+}
+]
+}

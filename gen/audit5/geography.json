@@ -1,0 +1,1220 @@
+{
+"geov0205": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0206": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0207": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0300": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0301": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0302": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0303": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0304": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0305": {
+"a": {
+"ans": "A",
+"v": "trivial",
+"r": "The stem spells out “Geographic Information System (GIS)”, giving away the answer."
+},
+"b": {
+"ans": "A",
+"v": "trivial",
+"r": "The stem spells out 'Geographic Information System (GIS)' before asking what GIS stands for, so the answer is given away."
+}
+},
+"geov0306": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0307": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0400": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0401": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0402": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0403": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0404": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0405": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0406": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0407": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0500": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0705": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0706": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0707": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0800": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0801": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0802": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0803": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0804": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0805": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0806": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "The answer is correct, but the explanation incorrectly calls River B’s downstream under-fit valley a wind gap. A wind gap is an abandoned, typically dry valley crossing the former divide."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0807": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0900": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0901": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0902": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0903": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0904": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0905": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0906": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0907": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1000": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0000": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Scale relates map distance to corresponding ground distance."
+}
+},
+"geov0001": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "At 1:100,000, 1 cm represents 1 km; 3.5 cm represents 3.5 km."
+}
+},
+"geov0002": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "250,000 cm equals 2.5 km."
+}
+},
+"geov0003": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Each map square centimetre represents 0.04 km²; five represent 0.2 km²."
+}
+},
+"geov0004": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "45 km divided by 9 cm gives 5 km per centimetre, or 1:500,000."
+}
+},
+"geov0005": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "6 cm represents 60 km, so 1 cm represents 10 km: 1:1,000,000."
+}
+},
+"geov0006": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The ground dimensions are 2 km by 1.5 km, giving 3 km²."
+}
+},
+"geov0007": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Doubling map lengths for unchanged ground distances halves the scale denominator."
+}
+},
+"geov0100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "A contour joins points of equal elevation."
+}
+},
+"geov0101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Closely spaced contours indicate a steep slope."
+}
+},
+"geov0102": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The horizontal distance is 3,000 m and the height difference is 300 m: 1 in 10."
+}
+},
+"geov0103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Successive contours differ by 50 m."
+}
+},
+"geov0104": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Concentric contours increasing in elevation towards the centre indicate a hill."
+}
+},
+"geov0105": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Contour Vs pointing upstream, with a stream through them, indicate a river valley."
+}
+},
+"geov0106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "The horizontal distance is 1,000 m and the height difference is 200 m: 1 in 5."
+}
+},
+"geov0200": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Due east has a bearing of 090°."
+}
+},
+"geov0201": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Due south has a bearing of 180°."
+}
+},
+"geov0202": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "North-east lies halfway between north and east."
+}
+},
+"geov0203": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The back bearing is 065° + 180° = 245°."
+}
+},
+"geov0204": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The back bearing is 300° − 180° = 120°."
+}
+},
+"geov1502": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1503": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1504": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1505": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1506": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1507": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1600": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1601": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1602": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1603": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1604": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1605": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1606": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1607": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1700": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1701": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1702": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1703": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1704": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1705": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1001": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Latitude influences climate but is not an element of weather."
+}
+},
+"geov1002": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "A wind vane shows wind direction."
+}
+},
+"geov1003": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "36 − 22 = 14°C."
+}
+},
+"geov1004": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "34 − 26 = 8°C."
+}
+},
+"geov1005": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "The four readings average 23°C."
+}
+},
+"geov1006": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "9 ÷ 12 × 100 = 75%."
+}
+},
+"geov1007": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "The three monthly totals average 180 mm."
+}
+},
+"geov1100": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Köppen developed the widely used climate classification system."
+}
+},
+"geov1101": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Equatorial climates typically have two rainfall peaks and no prolonged dry season."
+}
+},
+"geov1102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Northern Nigeria has a single wet season followed by a long dry season."
+}
+},
+"geov1103": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Mediterranean summers are dry and winters are mild and wet."
+}
+},
+"geov1104": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "32 − 18 = 14°C."
+}
+},
+"geov1105": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Seasonal wind reversal produces a more marked dry season in monsoon climates."
+}
+},
+"geov1106": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Clear skies favour rapid daytime heating and nighttime cooling."
+}
+},
+"geov1107": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Köppen classification relies chiefly on temperature and precipitation."
+}
+},
+"geov1200": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "The described climate and continuous tree canopy indicate tropical rainforest."
+}
+},
+"geov1201": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": "Leaching moves soluble nutrients downward through soil."
+}
+},
+"geov1202": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": "Intense tropical leaching leaves iron and aluminium oxides."
+}
+},
+"geov1203": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": "Savanna has grasses and scattered trees adapted to wet and dry seasons."
+}
+},
+"geov1204": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": "Among the listed layers, the A horizon is the humus-rich topsoil."
+}
+},
+"geov1205": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "The key is correct, but the explanation incorrectly says groundwater often freezes in winter; groundwater generally remains unfrozen, particularly in Western Europe."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1206": {
+"a": {
+"ans": "D",
+"v": "error",
+"r": "The key is correct, but the explanation incorrectly claims that permanent snow cover encourages leaching."
+},
+"b": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1207": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1300": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1301": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1302": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1304": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1305": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1306": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1307": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1400": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1401": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1402": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1403": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1404": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1405": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1406": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1407": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1500": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1501": {
+"a": {
+"ans": "B",
+"v": "trivial",
+"r": "‘Volcanic function’ is an obviously nonsensical settlement function, making the answer a giveaway well below UTME level."
+},
+"b": {
+"ans": "B",
+"v": "trivial",
+"r": "'Volcanic function' is an absurd distractor, which makes the item a giveaway far below UTME level."
+}
+},
+"geov2006": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov2007": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov2100": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov2101": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov2102": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov2103": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov2104": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov2106": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov2107": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0501": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0502": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0503": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0504": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0505": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0506": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0507": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0600": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0601": {
+"a": {
+"ans": "A",
+"v": "error",
+"r": "The explanation swaps the functions of the hygrometer and anemometer: they measure humidity and wind speed, respectively."
+},
+"b": {
+"ans": "A",
+"v": "error",
+"r": "The key is correct, but the explanation says the other instruments measure 'pressure, wind speed, and humidity respectively'. In option order (barometer, hygrometer, anemometer) this wrongly pairs the hygrometer with wind speed and the anemometer with humidity."
+}
+},
+"geov0602": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0603": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0604": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0605": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0606": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov0607": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0700": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0701": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov0702": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov0703": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov0704": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1706": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1707": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1800": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1801": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1802": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1803": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1804": {
+"a": {
+"ans": "C",
+"v": "error",
+"r": "Aw is the best answer for most of Nigeria, but the explanation incorrectly confines rainforest climate to the far south-east; it also occurs elsewhere along the southern coast."
+},
+"b": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1806": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1807": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1900": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov1901": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1902": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1903": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+},
+"geov1904": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov1906": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov1907": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov2000": {
+"a": {
+"ans": "D",
+"v": "ok",
+"r": ""
+}
+},
+"geov2001": {
+"a": {
+"ans": "A",
+"v": "ok",
+"r": ""
+}
+},
+"geov2003": {
+"a": {
+"ans": "C",
+"v": "ok",
+"r": ""
+}
+},
+"geov2005": {
+"a": {
+"ans": "B",
+"v": "ok",
+"r": ""
+}
+}
+}

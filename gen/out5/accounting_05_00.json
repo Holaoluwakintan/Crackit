@@ -1,0 +1,213 @@
+{
+"subject": "accounting",
+"topic": "Petty cash book and the imprest system",
+"ti": 5,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "The main purpose of operating a petty cash book under the imprest system is to",
+"options": [
+"relieve the chief cashier of the burden of recording numerous small payments",
+"replace the need for a general ledger in small businesses",
+"eliminate the need for internal control over cash",
+"allow the petty cashier to borrow money for personal use"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The petty cash book is kept so that small, frequent payments do not clutter the main cash book, leaving the chief cashier to deal with larger transactions. This is the core reason for operating a separate petty cash system.",
+"py": null,
+"values": null,
+"id": "accx05000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dem dey keep petty cash book so small-small payment no go choke the main cash book. E dey help the chief cashier face big-big transaction well well."
+},
+{
+"q": "Under the imprest system of petty cash, at the end of each period the petty cashier is reimbursed with an amount equal to",
+"options": [
+"the fixed imprest amount, regardless of spending",
+"twice the total amount spent during the period",
+"the total amount actually spent during the period",
+"the balance carried forward from the previous period"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Under the imprest system, the cashier is restored to the original fixed float by being given exactly what was spent in the period. This keeps the float constant at the start of every new period.",
+"py": null,
+"values": null,
+"id": "accx05001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Under imprest system, dem go give cashier exact money wey e spend for that period. Na so dem take dey make the money balance reach back the original fixed float."
+},
+{
+"q": "In the petty cash book, after totalling the analysis columns for a period, the sum of all the analysis column totals should equal",
+"options": [
+"the fixed imprest amount received at the start of the period",
+"the closing balance carried down",
+"the total of the payments column in the petty cash book",
+"the amount reimbursed by the main cashier the previous month"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The analysis columns are simply a breakdown of the single total payments column into different expense headings. As a check on accuracy, the sum of the analysis columns must agree with the total of the main payments column.",
+"py": null,
+"values": null,
+"id": "accx05003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "All the analysis columns na just break down of the main payments column. If you add everything together, e must match the total payments amount."
+},
+{
+"q": "Which of the following petty cash entries would normally be posted directly to the main ledger from the petty cash book's analysis columns at the end of the period?",
+"options": [
+"Cash received from the main cashier to restore the imprest",
+"The opening balance brought forward",
+"Totals of expense headings such as stationery and postage",
+"The closing balance carried down to the next period"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Each analysis column total represents a type of expense, and these totals are periodically posted to the relevant expense accounts in the main ledger. Opening balances, restoring cash, and balances carried down are not themselves ledger postings of expenses.",
+"py": null,
+"values": null,
+"id": "accx05004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na the totals of expense headings like stationery and postage dem dey carry go main ledger. Dem no dey carry opening or closing balance go ledger as expense."
+},
+{
+"q": "A petty cashier is given an imprest of ₦20,000 on 1st March. By 31st March, vouchers show total payments of ₦13,750. If the firm decides to increase the imprest to ₦25,000 from 1st April, how much cash should the petty cashier receive from the main cashier on 1st April?",
+"options": [
+"₦5,000",
+"₦11,250",
+"₦13,750",
+"₦18,750"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "To restore the old imprest, the cashier needs the amount spent, which is 13750, leaving a balance of 20000 - 13750 = 6250. Since the new imprest is 25000, the cash received must be 25000 - 6250 = 18750, covering both reimbursement and the increase.",
+"py": "25000-(20000-13750)",
+"values": [
+5000,
+11250,
+13750,
+18750
+],
+"id": "accx05005",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To reach the new ₦25,000 imprest when you get ₦6,250 for hand, you need ₦18,750. E go cover both wetin you spend and the extra money wey dem add to the float."
+},
+{
+"q": "A key control feature of the imprest system of petty cash is that",
+"options": [
+"the petty cashier keeps whatever amount is unspent at the end of the period",
+"vouchers must support every payment before reimbursement is made",
+"the main cashier never checks the petty cash book",
+"the imprest amount is allowed to change without authorisation each period"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A core control feature is that every payment made by the petty cashier must be supported by a signed voucher before the amount is reimbursed. This prevents misuse of petty cash funds and ensures accountability.",
+"py": null,
+"values": null,
+"id": "accx05006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Important control be say voucher must cover every money wey you spend before dem refund you. E dey stop people from chop cash anyhow."
+},
+{
+"q": "Okonkwo Ventures fixes its petty cash imprest at ₦18,000. In a certain week, the petty cashier received an extra ₦2,000 refund from a supplier for an earlier overpayment, in addition to making payments totalling ₦9,500. What is the actual cash balance in hand at the end of the week before reimbursement?",
+"options": [
+"₦6,500",
+"₦8,500",
+"₦10,500",
+"₦27,500"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The cash in hand is found by adding the refund received to the imprest and subtracting payments made: 18000 + 2000 - 9500 = 10500. The refund increases the available cash, so it must be added before deducting payments.",
+"py": "18000+2000-9500",
+"values": [
+6500,
+8500,
+10500,
+27500
+],
+"id": "accx05007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "You go add the ₦2,000 refund to the ₦18,000 imprest, then minus the ₦9,500 wey you spend. Wetin remain for hand na ₦10,500 before dem refund you."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Bola, the petty cashier at a printing firm in Onitsha, operates an imprest of ₦15,000. During the month she spent ₦3,200 on stationery, ₦2,500 on postage, and ₦4,300 on cleaning materials. How much will she receive from the main cashier at the start of the next month to restore the imprest?",
+"options": [
+"₦5,000",
+"₦10,000",
+"₦15,000",
+"₦25,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total spent equals 3200 + 2500 + 4300 = 8000, leaving a balance of 15000 - 8000 = 7000 in hand. To restore the imprest to 15000, she must receive 15000 - 7000 = 5000, which equals the total amount spent.",
+"py": "3200+2500+4300",
+"values": [
+5000,
+10000,
+15000,
+25000
+],
+"id": "accx05002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

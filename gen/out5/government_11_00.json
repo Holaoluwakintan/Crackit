@@ -1,0 +1,180 @@
+{
+"subject": "government",
+"topic": "Nationalism in Nigeria and West Africa",
+"ti": 11,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "The Aborigines' Rights Protection Society (ARPS), formed in the Gold Coast in 1897, is best remembered in West African nationalist history for its success in",
+"options": [
+"Preventing the colonial government from alienating communal lands through the Lands Bill",
+"Organising a region-wide armed uprising against British forces",
+"Securing immediate self-government for the Gold Coast",
+"Establishing the first West African university"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The ARPS mobilised chiefs and educated elite to oppose the Lands Bill, which threatened to transfer communal land ownership to the Crown. This protest forced the colonial government to withdraw the bill. It did not involve armed revolt or create a university.",
+"id": "govx11000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "ARPS gather chiefs and educated pipo to fight against di Lands Bill wey wan take our land. Dem succeed to make di colonial government cancel di bill. No be war or university dem start."
+},
+{
+"q": "A key difference between early nationalist organisations in Nigeria before 1930 and the mass-based parties that emerged after 1945 is that the earlier groups mainly",
+"options": [
+"Consisted of educated elites pressing for limited reforms within colonial rule",
+"Demanded total and immediate independence for Nigeria",
+"Drew their support chiefly from market women and peasant farmers",
+"Used strikes and boycotts as their main method of protest"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Before 1930, nationalist activity was led by a small educated elite seeking reforms like more African representation, not outright independence. Mass participation and demands for full self-rule became prominent only after World War II. This shows a progression in nationalist strategy and goals over time.",
+"id": "govx11001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Before 1930, na small educated group dey ask for small-small change for colonial rule. Na after 1945 di real mass movement for full independence start. Dem no bin dey ask for total independence from start."
+},
+{
+"q": "One major contribution of the West African Press to the growth of nationalism in the colonial era was that it",
+"options": [
+"Enlightened the people and exposed the weaknesses of colonial administration",
+"Trained soldiers for the eventual struggle for independence",
+"Replaced political parties as the main vehicle for self-government",
+"Was financed and controlled directly by the colonial government"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Newspapers educated the public, criticised colonial policies, and spread nationalist ideas among the literate population. They were largely owned by nationalists, not the colonial government, and did not train soldiers.",
+"id": "govx11002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Newspapers help to open pipo eye and show say colonial government get fault. Na nationalists get di papers, so dem use am spread ideas for independence. Dem no train soldiers at all."
+},
+{
+"q": "The Action Group, formed in 1951 under the leadership of Chief Obafemi Awolowo, differed from earlier pan-Nigerian nationalist movements mainly because it",
+"options": [
+"Evolved mainly from a regional cultural body into a political party with a regional support base",
+"Began strictly as a labour union before becoming a party",
+"Was founded by northern emirs to unite the three regions",
+"Rejected the use of the regional legislature to pursue its goals"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Action Group grew out of the Egbe Omo Oduduwa and drew its strongest support from the Western Region. Unlike the NCNC, it had a clearer regional character from the outset. It actively used the regional legislature to advance its programmes.",
+"id": "govx11003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Action Group start from Egbe Omo Oduduwa and e get strong base for Western Region. Dem use regional legislature well-well to push dia agenda. E no be labour union or northern emir group."
+},
+{
+"q": "A major reason the Pan-African Congress movement, especially the 1945 Manchester session, is considered a turning point for West African nationalism is that it",
+"options": [
+"Shifted leadership of Pan-Africanism from diaspora elites to African nationalists demanding immediate self-rule",
+"Marked the final defeat of colonial rule in all of Africa",
+"Was organised entirely by the British colonial office",
+"Focused only on economic cooperation among African states"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The 1945 Manchester Congress was dominated by Africans like Kwame Nkrumah who demanded immediate independence, unlike earlier congresses led mostly by diaspora intellectuals. This radical shift inspired nationalist leaders across West Africa. It was not organised by the colonial office nor focused solely on economics.",
+"id": "govx11004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di 1945 Manchester meeting change everything because African leaders like Nkrumah start demand independence sharp-sharp. Before, na diaspora pipo dey lead, but now Africans take over. E no be colonial government work."
+},
+{
+"q": "The Macpherson Constitution of 1951 is significant in Nigerian nationalist history mainly because it",
+"options": [
+"Introduced a quasi-federal system and increased African participation in central and regional legislatures",
+"Granted Nigeria full independence from Britain",
+"Abolished the regional houses of assembly completely",
+"Was accepted by all nationalist leaders without any criticism"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Macpherson Constitution introduced regional houses of assembly and gave Nigerians a greater role in government, laying groundwork for federalism. It fell short of independence and was actually criticised for weaknesses like excessive central power. It did not abolish regional houses.",
+"id": "govx11005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Macpherson Constitution bring regional houses and give Nigerians more chance to participate for government. E start di federal system wey we get today. E no give us full independence yet."
+},
+{
+"q": "A common feature shared by early nationalist movements across British West Africa, such as in Nigeria, the Gold Coast, and Sierra Leone, was that they",
+"options": [
+"Were inspired by Western education and used constitutional methods to seek reforms",
+"Relied mainly on armed rebellion to end colonial rule",
+"Received direct military support from the United States",
+"Focused only on local chieftaincy disputes"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Educated elites trained in Western-style schools led most early nationalist movements, favouring petitions, newspapers, and legal channels over violence. There was no US military involvement, and the movements addressed colonial rule broadly, not just chieftaincy matters.",
+"id": "govx11007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Most early nationalist movements for West Africa start from pipo wey go Western school. Dem use newspaper and petition to ask for change instead of fight. No be war or US military help dem."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best explains why cocoa and palm oil farmers' associations in West Africa became active participants in nationalist agitation during the 1930s?",
+"options": [
+"Colonial pricing policies and marketing boards reduced farmers' earnings, provoking organised protest",
+"Farmers wanted to replace cash crops with industrial production",
+"The colonial government encouraged farmers to form unions against traditional rulers",
+"Farmers sought to establish their own independent colonies"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Low prices fixed by colonial marketing arrangements angered cocoa and palm produce farmers, pushing them to organise protests such as the cocoa hold-ups. This economic grievance linked ordinary farmers to the wider nationalist cause. The other options misrepresent their actual aims.",
+"id": "govx11006",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

@@ -1,0 +1,180 @@
+{
+"subject": "biology",
+"topic": "Nutrition in plants: photosynthesis and mineral requirements",
+"ti": 3,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A student used a variegated leaf (part green, part white) for a starch test experiment. The leaf was destarched, then exposed to light for several hours before testing with iodine solution. Which part of the leaf turned blue-black?",
+"options": [
+"Only the white part, because it lacks chlorophyll",
+"Only the green part, because it contains chlorophyll needed for photosynthesis",
+"Both the green and white parts equally",
+"Neither part, because the leaf was destarched"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Only parts of the leaf with chlorophyll can carry out photosynthesis and make starch. The white part has no chlorophyll, so it does not turn blue-black with iodine.",
+"id": "biox03000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na only green part wey get chlorophyll go fit do photosynthesis and make starch. As the white part no get chlorophyll, iodine no go turn am blue-black."
+},
+{
+"q": "A bean seedling was grown in a complete culture solution containing all essential mineral elements except phosphorus. Which of the following symptoms would most likely be observed in the seedling?",
+"options": [
+"Stunted growth with purplish discolouration of leaves and poor root development",
+"Yellowing of young leaves only, while old leaves stay green",
+"Scorching of leaf margins with brittle stems",
+"Wilting of leaves due to excess water uptake"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Phosphorus is needed for root growth, energy transfer and healthy cell division. Its deficiency causes stunted growth, poor roots and a purplish tint on leaves due to pigment build-up.",
+"id": "biox03001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Phosphorus dey help root grow well and make energy. If e no dey, the plant go get stunted growth, bad root, and purple color for leaf."
+},
+{
+"q": "In an experiment, a green plant was enclosed in a transparent bell jar with a dish of lime water, under bright light for several hours. At the end of the experiment, the lime water remained clear. What is the best explanation for this observation?",
+"options": [
+"The plant was not photosynthesising and so was not releasing carbon dioxide",
+"The rate of carbon dioxide uptake by photosynthesis exceeded the rate of carbon dioxide release by respiration",
+"The plant was respiring faster than it was photosynthesising",
+"Lime water only turns milky in the absence of light"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In bright light, photosynthesis uses up carbon dioxide faster than respiration produces it, so there is a net removal of carbon dioxide from the air in the jar. With little or no carbon dioxide left, the lime water stays clear.",
+"id": "biox03002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For bright light, photosynthesis dey take carbon dioxide quick pass how respiration dey produce am. Because carbon dioxide no plenty for jar again, lime water go remain clear."
+},
+{
+"q": "A farmer in Benue applies a fertiliser rich in nitrogen to his yam farm. What is the main expected benefit of this nutrient to the yam plants?",
+"options": [
+"Formation of strong woody stems and thick cell walls",
+"Promotion of vigorous vegetative growth through protein and chlorophyll synthesis",
+"Improved resistance to fungal diseases only",
+"Faster ripening of tubers before harvest"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Nitrogen is a major component of amino acids, proteins and chlorophyll. Plenty of nitrogen therefore promotes leafy, vegetative growth.",
+"id": "biox03003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Nitrogen dey help plant make protein and chlorophyll wey e need. E dey make the leaves grow well and green."
+},
+{
+"q": "During an investigation, a scientist measured the rate of photosynthesis of a water plant at different temperatures while light intensity and carbon dioxide concentration were kept constant and non-limiting. The rate increased steadily up to 35°C, then dropped sharply at 45°C. What is the most likely explanation for the drop at 45°C?",
+"options": [
+"Carbon dioxide became completely unavailable to the plant",
+"Light intensity automatically reduced at higher temperature",
+"Enzymes involved in photosynthesis became denatured by the high temperature",
+"The plant stopped absorbing water through its roots"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Photosynthesis depends on enzymes, which work best within an optimum temperature range. Beyond this range, high temperature denatures the enzymes, causing the rate to fall sharply.",
+"id": "biox03004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "High temperature dey spoil the enzymes wey dey help do photosynthesis. Once temperature reach 45°C, the enzymes go denature and the rate go drop sharply."
+},
+{
+"q": "Which of the following correctly describes the main role of magnesium in plant nutrition?",
+"options": [
+"It is the central atom of the chlorophyll molecule, essential for light absorption",
+"It strengthens cell walls by forming calcium-pectate compounds",
+"It activates enzymes involved in protein synthesis only",
+"It is a major component of plant cell membranes as phospholipids"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Magnesium forms the central atom of the chlorophyll molecule. Without enough magnesium, plants cannot make sufficient chlorophyll, leading to poor photosynthesis.",
+"id": "biox03005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Magnesium na the main center atom inside chlorophyll molecule. Without am, plant no go fit make chlorophyll to absorb light."
+},
+{
+"q": "Which of the following best explains why plants grown in soils deficient in potassium often show poor resistance to drought and disease?",
+"options": [
+"Potassium is required for forming the waxy cuticle that prevents water loss",
+"Potassium helps regulate stomatal opening and closing and activates many enzymes involved in plant metabolism",
+"Potassium is the main structural component of the cell wall",
+"Potassium combines directly with carbon dioxide during the dark reaction"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Potassium controls the opening and closing of stomata by regulating guard cell turgor, and it activates enzymes needed for normal metabolism. A deficiency weakens these processes, making plants less able to cope with drought or disease.",
+"id": "biox03007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Potassium dey control how stomata dey open and close, and e dey help plant enzymes work well. If potassium no dey, plant body go weak for drought and sickness."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A set-up for investigating photosynthesis used two similar potted plants, X and Y, each covered with a bell jar. Plant X's jar contained soda lime (which absorbs carbon dioxide), while Plant Y's jar contained plain water. Both were placed in sunlight for some hours, then leaves from each were tested with iodine solution. What result would be expected?",
+"options": [
+"Both leaves turn blue-black, showing that light alone is enough for starch formation",
+"Leaf X turns blue-black while leaf Y does not change colour",
+"Leaf Y turns blue-black while leaf X does not change colour",
+"Neither leaf changes colour because soda lime also absorbs light"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Soda lime removes carbon dioxide from the air around plant X, so it cannot photosynthesise and its leaf will not turn blue-black. Plant Y still has carbon dioxide available, so its leaf tests positive for starch.",
+"id": "biox03006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Plants were not destarched; X may contain pre-existing starch.|"
+}
+]
+}

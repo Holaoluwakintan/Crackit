@@ -1,0 +1,180 @@
+{
+"subject": "crs",
+"topic": "Creation and the sovereignty of God (Genesis 1-2)",
+"ti": 0,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "According to Genesis chapter one, what did God declare after completing all the works of creation and looking at everything He had made?",
+"options": [
+"That it was very good",
+"That it was finished forever",
+"That it needed further improvement",
+"That man should perfect it"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Genesis 1:31 says God saw everything He had made and it was very good. This shows His satisfaction with a perfect creation.",
+"id": "crsx00000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Genesis 1:31 tok say as God finish to create everything, e look am and see say e good well well. Dis one show say God dey happy with wetin e create."
+},
+{
+"q": "In Genesis chapter two, what was the specific consequence God warned Adam about if he ate from the tree of the knowledge of good and evil?",
+"options": [
+"He would be driven out of Eden immediately",
+"He would surely die",
+"He would lose his dominion over animals",
+"He would become like the beasts"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Genesis 2:17 records God's warning that in the day Adam ate of that tree, he would surely die. This was a direct command showing God's authority over His creation.",
+"id": "crsx00001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Genesis 2:17 show us clear say God warn Adam make e no chop dat fruit, or else e must to die. Dis na to show say na God get final say over everything."
+},
+{
+"q": "On the sixth day of creation, after making land animals, what further unique act did God perform that marked the climax of His creative work?",
+"options": [
+"He created the sun and moon",
+"He formed man in His own image",
+"He separated the waters above and below",
+"He blessed the seventh day"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Genesis 1:26-27 shows that on the sixth day, after creating land animals, God made man in His own image, the high point of creation week.",
+"id": "crsx00002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Genesis 1:26-27 make am plain say for the sixth day, after God make animal, naim e create man for e own image. Naim be the highest work wey God do."
+},
+{
+"q": "A student argues that Genesis chapter two contradicts chapter one because in chapter two, man appears to be formed before plants and animals. What is the best explanation for this arrangement?",
+"options": [
+"Chapter two gives a detailed, focused account of man's creation and his environment rather than a strict chronological order",
+"Chapter two replaces the account in chapter one entirely",
+"Chapter one was written by a different God",
+"Chapter two proves animals were never created"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Genesis chapter two zooms in on man's formation, his garden home and companion, giving detail rather than repeating the day-by-day sequence of chapter one. The two accounts complement rather than contradict each other.",
+"id": "crsx00003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Genesis chapter two just come explain more about how God create man and put am for garden, e no mean say e dey fight chapter one. Dem both dey support each other to make sense."
+},
+{
+"q": "According to Genesis chapter two, what task did God give Adam concerning the Garden of Eden before the woman was created?",
+"options": [
+"To name all the stars",
+"To build an altar for worship",
+"To dress and keep the garden",
+"To gather food for the animals"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Genesis 2:15 states that God put Adam in the garden to dress it and to keep it. This shows man's responsibility as a steward over God's creation.",
+"id": "crsx00004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Genesis 2:15 tok say God carry Adam put for garden make e dey work am and clean am. Dis show say man get work to do as manager of God property."
+},
+{
+"q": "A teacher tells her class that the creation of the Sabbath in Genesis chapter two teaches a lesson about work and rest for humanity. Which verse best supports this teaching?",
+"options": [
+"Genesis 2:2-3, where God rested on the seventh day and blessed it",
+"Genesis 1:5, where God named the light Day",
+"Genesis 1:11, where God commanded the earth to bring forth vegetation",
+"Genesis 2:17, where God warned against eating the forbidden fruit"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Genesis 2:2-3 records that God rested on the seventh day, blessed it, and sanctified it, setting a pattern of rest after labour for humanity to follow.",
+"id": "crsx00006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Genesis 2:2-3 explain say God rest for the seventh day and make am holy, so man too suppose dey rest after work."
+},
+{
+"q": "In Genesis chapter one, God gave man dominion over the fish of the sea, birds of the air, and every living creature. What does this dominion primarily signify about man's place in creation?",
+"options": [
+"Man is equal to God in authority",
+"Man was given delegated authority to responsibly rule over other creatures",
+"Man has no accountability for how he treats animals",
+"Man was created only to worship the animals"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Genesis 1:28 shows God giving man dominion, meaning delegated authority under God to manage and care for creation responsibly, not unlimited or independent power.",
+"id": "crsx00007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Genesis 1:28 show say God give man power to command other creatures, meaning say na God give us authority make we take care of the world well."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following best illustrates God's sovereignty as shown throughout the creation account in Genesis chapters one and two?",
+"options": [
+"God consulted the angels before every act of creation",
+"God created all things by His spoken word and sole authority without assistance",
+"God needed pre-existing matter to form the universe",
+"God allowed chaos to organise itself gradually"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Throughout Genesis one, God simply speaks and things come into being, for example 'Let there be light'. This demonstrates His supreme power and sovereignty over all creation.",
+"id": "crsx00005",
+"check": {
+"s1": "X",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

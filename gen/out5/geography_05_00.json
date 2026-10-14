@@ -1,0 +1,197 @@
+{
+"subject": "geography",
+"topic": "Structure of the earth; rocks and minerals",
+"ti": 5,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "The layer of the earth found between the crust and the core, made up largely of dense silicate rocks containing magnesium and iron, is called the:",
+"options": [
+"Mantle",
+"Lithosphere",
+"Asthenosphere crust",
+"Outer core"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The mantle lies directly below the crust and above the core, and it is composed mainly of iron and magnesium-rich silicate rocks. It is the thickest layer of the earth.",
+"py": null,
+"values": null,
+"id": "geox05000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na mantle dey stay right under crust and above core, and e get iron and magnesium. E bi the thickest layer for earth."
+},
+{
+"q": "Chinwe observed a rock sample made up of visibly different mineral grains such as quartz, feldspar and mica, tightly interlocked without any layering or banding. This texture is most typical of rocks formed by the:",
+"options": [
+"Slow cooling of magma deep within the earth",
+"Rapid cooling of lava on the earth's surface",
+"Compaction of sediments under water",
+"Recrystallisation of rocks under extreme pressure"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "When magma cools slowly deep underground, large interlocking crystals of different minerals have time to form, as seen in coarse-grained igneous rocks like granite. Rapid cooling at the surface instead produces fine-grained rocks.",
+"py": null,
+"values": null,
+"id": "geox05001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If magma cool down slow for inside ground, big crystal go form like granite. Na so coarse-grained igneous rocks dey take form."
+},
+{
+"q": "Which of the following statements correctly describes the general relationship between the earth's crust, mantle and core in terms of thickness and temperature?",
+"options": [
+"The crust is the thickest layer and the core has the lowest temperature",
+"The core is the thinnest layer but has the highest temperature",
+"The crust is the thinnest layer while temperature generally increases towards the core",
+"The mantle is thinner than the crust but hotter than the core"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The crust is a thin outer shell compared to the much thicker mantle and core, and temperature rises steadily from the crust down to the extremely hot core. This pattern is well established from seismic and geothermal studies.",
+"py": null,
+"values": null,
+"id": "geox05003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Crust na the thinest layer, and heat dey increase as you dey go down reach core. Temperature high gidigba for the center of earth."
+},
+{
+"q": "A sample of rock from a riverbed in Kogi State shows distinct layers (strata), contains fossils of ancient shells, and can be easily scratched with a knife. These features strongly suggest the rock is:",
+"options": [
+"Igneous",
+"Sedimentary",
+"Metamorphic",
+"Mineral ore"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Layering, fossils and softness are classic features of sedimentary rocks, which form from the gradual deposition and compaction of sediments, often in water. Igneous and metamorphic rocks do not typically show fossils or distinct bedding.",
+"py": null,
+"values": null,
+"id": "geox05004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Wetin get layers, fossils and soft to scratch na sedimentary rock. Dem dey form from particles wey join together for water."
+},
+{
+"q": "Which of the following best explains why metamorphic rocks are generally harder and more compact than the original rocks from which they formed?",
+"options": [
+"They are formed from loose, newly deposited sediments only",
+"Intense heat and pressure cause recrystallisation of minerals into a denser arrangement",
+"They contain large amounts of trapped water that hardens over time",
+"They are formed only from the direct cooling of molten magma"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Metamorphism involves subjecting existing rocks to great heat and pressure without melting them completely, which causes minerals to recrystallise into tightly packed, denser structures. This is why metamorphic rocks like quartzite are harder than their parent rocks.",
+"py": null,
+"values": null,
+"id": "geox05005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Hotness and pressure dey make mineral recrystallise into tight arrangement. Na why metamorphic rock come hard pass the original one."
+},
+{
+"q": "A student wants to identify an unknown mineral sample found near a mining site in Plateau State. Which pair of properties would be most useful and reliable for this identification?",
+"options": [
+"Colour of the sample and the location where it was found",
+"Size of the sample and the name given to it by local miners",
+"Hardness and crystal form of the mineral",
+"Weight of the sample and the time it took to form"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Hardness and crystal form are consistent physical properties controlled by a mineral's internal atomic structure, making them reliable for identification. Colour can vary due to impurities, and size, location or local names are not scientific identification criteria.",
+"py": null,
+"values": null,
+"id": "geox05006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Hardness and crystal form na the best way to know mineral because dem dey follow atomic structure. Colour fit lie sometimes because of impurities."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A geologist studying a quarry near Jos discovers a rock that is very hard, breaks with a glassy conchoidal fracture, shows no crystal faces, and has no fixed chemical formula throughout the sample. This rock is best described as:",
+"options": [
+"A mineral aggregate",
+"An amorphous rock",
+"A metamorphic rock",
+"A sedimentary rock"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Minerals have a definite crystal structure and chemical composition, but some rocks such as obsidian are amorphous, lacking an orderly internal crystal arrangement. The glassy fracture without crystal faces is a key sign of an amorphous material.",
+"py": null,
+"values": null,
+"id": "geox05002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:|Obsidian or volcanic glass is an igneous rock, but 'amorphous rock' is not a standard rock classification in basic JAMB geography."
+},
+{
+"q": {
+"q": "Seismic waves generated by an earthquake near Abuja were recorded to travel faster through the deeper layers of the earth than through the crust. This observation best supports the idea that, with increasing depth, the earth's layers generally become:",
+"options": [
+"Less dense and more rigid",
+"More dense and more rigid",
+"Less dense and more molten",
+"More dense but completely liquid throughout"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Seismic waves travel faster through denser and more rigid materials, and their increasing speed with depth shows that the mantle and core are more compact and dense than the crust. This does not mean the layers are entirely liquid, since solid rigid material transmits waves faster than liquid.",
+"py": null,
+"values": null,
+"id": "geox05007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Wave speeds do not increase uniformly with depth; the outer core is liquid.|"
+}
+]
+}

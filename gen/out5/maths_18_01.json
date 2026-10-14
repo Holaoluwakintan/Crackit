@@ -1,0 +1,235 @@
+{
+"subject": "maths",
+"topic": "Coordinate geometry: gradient, distance, midpoint, equation of a line",
+"ti": 18,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A line passes through the point (-2, 3) and has gradient -1/2. Find the equation of the line.",
+"options": [
+"x + 2y = 4",
+"2x + y = 2",
+"x - 2y = -8",
+"2x - y = -7"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using y - 3 = -1/2(x - (-2)) gives y - 3 = -1/2 x - 1, so y = -1/2 x + 2, which rearranges to x + 2y = 4.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx18011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Make you put point (-2, 3) and gradient -1/2 inside formula y - y1 = m(x - x1). E go give you y - 3 = -1/2(x + 2). When you expand and rearrange am, e go come be x + 2y = 4."
+},
+{
+"q": "Find the gradient of a line that is perpendicular to the line joining A(1, -2) and B(5, 6).",
+"options": [
+"-1/2",
+"2",
+"1/2",
+"-2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Gradient of AB = (6-(-2))/(5-1) = 8/4 = 2. The perpendicular gradient is the negative reciprocal, which is -1/2.",
+"py": "-1/((6-(-2))/(5-1))",
+"values": [
+-0.5,
+2,
+0.5,
+-2
+],
+"id": "matx18012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "First, find gradient of line AB by doing change in y over change in x, wey be (6-(-2))/(5-1) to get 2. Because perpendicular gradient na negative reciprocal, you go turn am upside down and put minus to get -1/2."
+},
+{
+"q": "A triangle has vertices P(2, 3), Q(6, 3), and R(2, 8). Calculate the length of the hypotenuse QR of this right-angled triangle.",
+"options": [
+"sqrt(41)",
+"9",
+"7",
+"sqrt(29)"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "QR connects (6,3) and (2,8), so its length is sqrt((6-2)^2+(3-8)^2) = sqrt(16+25) = sqrt(41). PQ and PR are the two shorter sides meeting at the right angle at P.",
+"py": "math.sqrt((6-2)**2+(3-8)**2)",
+"values": [
+6.4031242374328485,
+9,
+7,
+5.385164807134504
+],
+"id": "matx18014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Use distance formula between points Q(6,3) and R(2,8). E go give you square root of (6-2)^2 plus (3-8)^2, wey be square root of 16 + 25. Na so you go get sqrt(41)."
+},
+{
+"q": "The line 3x - 2y + 6 = 0 crosses the x-axis at point A and the y-axis at point B. Find the distance AB.",
+"options": [
+"sqrt(13)",
+"5",
+"sqrt(5)",
+"13"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Setting y=0 gives x=-2, so A(-2,0). Setting x=0 gives y=3, so B(0,3). Distance AB = sqrt((0-(-2))^2+(3-0)^2) = sqrt(4+9) = sqrt(13).",
+"py": "math.sqrt((0-(-2))**2+(3-0)**2)",
+"values": [
+3.605551275463989,
+5,
+2.23606797749979,
+13
+],
+"id": "matx18015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Put y=0 to find where line touch x-axis at A(-2,0), and put x=0 to find where e touch y-axis at B(0,3). Use distance formula between A and B, you go get square root of (2^2 + 3^2), wey be sqrt(13)."
+},
+{
+"q": "A line has x-intercept 4 and y-intercept -6. Find the equation of this line in the form ax + by + c = 0.",
+"options": [
+"3x - 2y - 12 = 0",
+"3x + 2y - 12 = 0",
+"2x - 3y - 12 = 0",
+"3x - 2y + 12 = 0"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The line passes through (4,0) and (0,-6), giving gradient (−6−0)/(0−4) = 3/2. Using y - 0 = 3/2(x - 4) leads to 2y = 3x - 12, which rearranges to 3x - 2y - 12 = 0.",
+"py": null,
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx18016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The points na (4,0) and (0,-6), so gradient na 3/2. If you use intercept form or point-slope form, e go give you 2y = 3x - 12. Rearrange am well, e go come be 3x - 2y - 12 = 0."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Find the distance between the points M(-2, -1) and N(2, 2) on the Cartesian plane.",
+"options": [
+"5",
+"4",
+"sqrt(13)",
+"6"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Distance = sqrt((2-(-2))^2 + (2-(-1))^2) = sqrt(16+9) = sqrt(25) = 5.",
+"py": "math.sqrt((2-(-2))**2 + (2-(-1))**2)",
+"values": [
+5,
+4,
+3.605551275463989,
+6
+]
+},
+"why": "duplicate"
+},
+{
+"q": {
+"q": "Okonkwo wants to find the point that divides the line segment joining P(1, 1) and Q(7, 13) in such a way that it is the midpoint. What are the coordinates of this midpoint?",
+"options": [
+"(4, 7)",
+"(3, 6)",
+"(4, 6)",
+"(8, 14)"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The midpoint formula gives ((1+7)/2, (1+13)/2) = (8/2, 14/2) = (4, 7).",
+"py": "((1+7)/2, (1+13)/2)",
+"values": [
+null,
+null,
+null,
+null
+],
+"id": "matx18013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-error"
+}
+},
+"why": "python:py-error"
+},
+{
+"q": {
+"q": "Three towns K, L and M lie on a straight road represented on a map by coordinates K(0, 2), L(3, k), and M(9, 20). If L lies exactly midway between K and M on this straight line, find the value of k.",
+"options": [
+"11",
+"10",
+"9",
+"12"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since the three points are collinear, the gradient from K to L equals the gradient from L to M. (k-2)/3 = (20-k)/6 gives 2(k-2) = 20-k, so 2k-4 = 20-k, 3k = 24, k = 11.",
+"py": "(20+2*2)/3",
+"values": [
+11,
+10,
+9,
+12
+],
+"id": "matx18017",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

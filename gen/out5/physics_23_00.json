@@ -1,0 +1,223 @@
+{
+"subject": "physics",
+"topic": "Photoelectric effect and energy quantisation",
+"ti": 23,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A student in a Lagos physics laboratory shines ultraviolet light on a clean zinc plate and observes that electrons are emitted instantly, even when the light intensity is very low. Which property of light best explains this instant emission?",
+"options": [
+"Light behaves as a continuous wave that gradually heats the surface",
+"Light energy is carried in discrete packets (photons) that are absorbed one at a time by electrons",
+"Light has a very high speed of propagation in vacuum",
+"Light intensity determines the energy of each individual photon"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Photoelectric emission is instantaneous because each photon delivers its energy in one quantum to a single electron, unlike the wave model which predicts a time delay for energy to build up. Intensity only affects the number of photons, not their individual energy.",
+"py": null,
+"values": null,
+"id": "phyx23000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na photon energy wey electron dey take one-one time make light take emit electron sharp-sharp. Intensity naim just dey show how many photon dey, e no mean say photon energy go increase."
+},
+{
+"q": "In a photoelectric experiment, a graph of stopping potential (Vs) against frequency (f) of incident light is a straight line that does not pass through the origin. What does the slope of this graph represent?",
+"options": [
+"The work function of the metal divided by electronic charge",
+"The speed of light",
+"Planck's constant divided by electronic charge (h/e)",
+"The threshold frequency of the metal"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "From eVs = hf - W0, we get Vs = (h/e)f - W0/e, which is a straight line whose slope is h/e. The intercept on the frequency axis gives the threshold frequency, not the slope.",
+"py": null,
+"values": null,
+"id": "phyx23003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you check di equation $eV_s = hf - W_0$, as you plot $V_s$ against $f$, di slope na $h/e$. Na so di formula arrange am, abi?"
+},
+{
+"q": "Which of the following correctly describes what happens to the photoelectric current when the intensity of monochromatic light incident on a photosensitive surface is increased, while the frequency is kept constant and above the threshold frequency?",
+"options": [
+"The photoelectric current increases because more photons strike the surface per second",
+"The maximum kinetic energy of the electrons increases proportionally",
+"The stopping potential increases because electrons gain more energy",
+"The threshold frequency of the metal decreases"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Increasing intensity at a fixed frequency increases the number of photons hitting the surface per second, releasing more electrons and raising the current. The energy of each photon, and hence the maximum kinetic energy and stopping potential, depends only on frequency, not intensity.",
+"py": null,
+"values": null,
+"id": "phyx23005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you increase intensity, more photon go hit di surface, and more electrons go comot, so current go increase. Na frequency dey control di energy and stopping potential, no be intensity."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Calculate the energy, in joules, of a photon of radiation with frequency 6.0 x 10^14 Hz. [Planck's constant, h = 6.63 x 10^-34 Js]",
+"options": [
+"3.98 x 10^-19 J",
+"1.10 x 10^-48 J",
+"9.05 x 10^-20 J",
+"3.98 x 10^-20 J"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Photon energy is given by E = hf. Substituting values gives E = 6.63 x 10^-34 x 6.0 x 10^14 = 3.98 x 10^-19 J.",
+"py": "6.63e-34*6.0e14",
+"values": [
+3.978e-19,
+1.1e-48,
+9.05e-20,
+3.98e-20
+],
+"id": "phyx23001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "A metal surface has a work function of 2.4 eV. Light of wavelength 400 nm is incident on it. Using h = 6.63 x 10^-34 Js, c = 3.0 x 10^8 m/s and 1 eV = 1.6 x 10^-19 J, determine the maximum kinetic energy of the emitted photoelectrons in eV.",
+"options": [
+"0.70 eV",
+"1.70 eV",
+"3.10 eV",
+"2.40 eV"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Photon energy E = hc/wavelength = (6.63e-34 x 3.0e8)/(400e-9) = 4.97 x 10^-19 J, which is about 3.11 eV. Maximum kinetic energy equals photon energy minus work function: 3.11 eV - 2.4 eV = 0.71 eV.",
+"py": "(6.63e-34*3.0e8)/(400e-9)/1.6e-19 - 2.4",
+"values": [
+0.7,
+1.7,
+3.1,
+2.4
+],
+"id": "phyx23002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-disagrees-key"
+}
+},
+"why": "python:py-disagrees-key"
+},
+{
+"q": {
+"q": "The threshold frequency of a photosensitive metal is 5.0 x 10^14 Hz. Light of frequency 8.0 x 10^14 Hz is incident on the metal. Taking h = 6.63 x 10^-34 Js, calculate the maximum speed of the emitted photoelectrons. [mass of electron = 9.11 x 10^-31 kg]",
+"options": [
+"6.26 x 10^5 m/s",
+"8.86 x 10^5 m/s",
+"3.98 x 10^5 m/s",
+"1.99 x 10^-19 m/s"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Maximum kinetic energy = h(f - f0) = 6.63e-34 x (8.0e14 - 5.0e14) = 1.989 x 10^-19 J. Using KE = 1/2 m v^2, v = sqrt(2KE/m) = sqrt(2 x 1.989e-19 / 9.11e-31) which gives about 8.86 x 10^5 m/s.",
+"py": "math.sqrt(2*(6.63e-34*(8.0e14-5.0e14))/9.11e-31)",
+"values": [
+626000.0,
+886000.0,
+398000.0,
+1.99e-19
+],
+"id": "phyx23004",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A photon has an energy of 3.0 x 10^-19 J. Given that Planck's constant h = 6.63 x 10^-34 Js and the speed of light c = 3.0 x 10^8 m/s, calculate the wavelength of this photon.",
+"options": [
+"6.63 x 10^-7 m",
+"4.52 x 10^-26 m",
+"6.63 x 10^-34 m",
+"4.52 x 10^-7 m"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using E = hc/wavelength, wavelength = hc/E = (6.63e-34 x 3.0e8)/(3.0e-19) = 6.63 x 10^-7 m. This confirms that higher photon energy corresponds to shorter wavelength.",
+"py": "(6.63e-34*3.0e8)/(3.0e-19)",
+"values": [
+6.63e-07,
+4.52e-26,
+6.63e-34,
+4.52e-07
+],
+"id": "phyx23006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "An electron confined in a box can only occupy certain discrete energy levels rather than any arbitrary energy value. This phenomenon, central to the quantum theory, is best described as",
+"options": [
+"energy dispersion",
+"energy quantisation",
+"energy resonance",
+"energy polarisation"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Energy quantisation means that a confined system can only possess specific discrete energy values, not a continuous range, as proposed in quantum theory. This concept underlies Planck's explanation of blackbody radiation and Einstein's photoelectric equation.",
+"py": null,
+"values": null,
+"id": "phyx23007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

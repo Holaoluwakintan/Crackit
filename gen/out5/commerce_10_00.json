@@ -1,0 +1,181 @@
+{
+"subject": "commerce",
+"topic": "Communication and postal/courier services",
+"ti": 10,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is a major disadvantage of using oral communication (such as telephone calls) in business transactions?",
+"options": [
+"It provides no permanent record for future reference",
+"It is always more expensive than written communication",
+"It allows immediate feedback from the receiver",
+"It can reach a large number of people at once"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Oral messages are spoken and not written down, so there is usually no permanent record to refer to later if a dispute arises. Immediate feedback is actually an advantage, not a disadvantage.",
+"py": null,
+"values": null,
+"id": "comx10000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Oral message no dey carry permanent record wey person go use later if wahala come. To get quick answer na advantage, no be disadvantage."
+},
+{
+"q": "Alhaji Musa in Kaduna wants to pay his supplier in Benin City through the post office without sending physical cash, and he wants the supplier to be able to cash it at any post office near him. Which postal facility best suits this need?",
+"options": [
+"Postal order",
+"Registered letter",
+"Speed post",
+"Private mail bag"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A postal order is a document bought at a post office for a fixed sum of money, which can be sent and cashed at any post office, making it suitable for transferring money safely without sending cash. Registered letter only protects letters, not direct money transfer in this form.",
+"py": null,
+"values": null,
+"id": "comx10002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Postal order na correct paper wey person fit buy for post office make another person go cash am anywhere safely. Registered letter just dey protect letter, no be to send money like dat."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A company director wants a courier firm to deliver a signed contract from Lagos to Port Harcourt and wants to track its exact location at every stage of the journey using a reference number. Which feature of courier services makes this possible?",
+"options": [
+"Consignment tracking system",
+"Franking machine",
+"Post restante arrangement",
+"Private letter box numbering",
+"",
+""
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Courier companies assign a tracking or waybill number to each consignment so that both sender and receiver can monitor its movement until delivery. Franking machines are only used to stamp postage on mail, not to track parcels.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which of the following best explains why courier services are often preferred to the national postal service for sending urgent business documents between Lagos and Abuja?",
+"options": [
+"Courier services guarantee faster, door-to-door delivery with proof of delivery",
+"Courier services are always cheaper than the postal service for every item",
+"Courier services are owned and operated only by the federal government",
+"Courier services do not require the sender to provide an address",
+"",
+""
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Courier firms specialise in speedy, direct delivery from sender to receiver and usually confirm delivery with a signature, which suits urgent documents. They are not government-owned and are often more expensive, not cheaper.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "In the communication process, a sales manager in Kano sends a memo to all branch managers directing them to reduce prices by 10 percent starting Monday. Two weeks later, he holds a meeting to find out whether the branches actually reduced their prices as instructed. This second step in the process is best described as obtaining what?",
+"options": [
+"Feedback",
+"Encoding",
+"Channel selection",
+"Noise filtering",
+"",
+""
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Feedback is the receiver's response that tells the sender whether the message was understood and acted upon. Encoding happens when the original message is being prepared, not after it has been acted on.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A small business owner wants to rent a numbered compartment at the post office so that his mail can be sorted and kept there for him to collect at his own convenience, since his shop has no street address for delivery. Which postal facility should he apply for?",
+"options": [
+"Private post office box (P.O. Box)",
+"Postal order",
+"Cash on delivery service",
+"Express mail service",
+"",
+""
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A private post office box is a numbered, lockable compartment rented at the post office where a customer's mail is kept safely for personal collection, which solves the problem of having no fixed delivery address. Postal orders and cash on delivery deal with money transfer, not mail storage.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A trader in Onitsha wants to send a parcel of goods to a customer in Jos and needs the parcel insured against loss or damage in transit. Which postal service should he use?",
+"options": [
+"Insured parcel service",
+"Post restante",
+"Private letter box service",
+"Ordinary letter post"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The insured parcel service covers the sender against loss or damage of the parcel while it is being transported by the postal authority. The other services listed do not provide compensation for loss or damage.",
+"py": null,
+"values": null,
+"id": "comx10001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Answer is stated in the question."
+},
+{
+"q": {
+"q": "Which of these modern means of communication allows a business to send and receive written documents almost instantly over long distances using telephone lines or the internet, while still producing an exact copy of the original document?",
+"options": [
+"Facsimile (fax) machine",
+"Town crier",
+"Courier bicycle service",
+"Public address system"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A fax machine scans a document and transmits an exact copy to a receiving fax machine elsewhere almost instantly. The other options either do not transmit exact copies or are traditional, slow methods.",
+"py": null,
+"values": null,
+"id": "comx10003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Only one plausible option."
+}
+]
+}

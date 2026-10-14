@@ -1,0 +1,205 @@
+{
+"subject": "accounting",
+"topic": "Trial balance, errors and suspense account",
+"ti": 7,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A trial balance is best described as a statement that is prepared to",
+"options": [
+"show the financial position of a business at a given date",
+"test the arithmetical accuracy of the double-entry records before preparing final accounts",
+"show the profit or loss made by a business during a trading period",
+"list all the assets and liabilities of a business"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A trial balance lists all ledger balances to check that total debits equal total credits, confirming arithmetical accuracy. It is not a financial statement like the balance sheet or income statement.",
+"py": null,
+"values": null,
+"id": "accx07000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Trial balance na statement wey dem dey use check say debit and credit balance match well before dem do final accounts. E no show financial position or profit like balance sheet or income statement."
+},
+{
+"q": "Adamu bought goods worth ₦18,000 on credit from Bello but the transaction was completely omitted from both the purchases account and Bello's account. Which type of error is this?",
+"options": [
+"Error of commission",
+"Error of original entry",
+"Error of complete omission",
+"Error of principle"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "When a transaction is entirely left out of the books, with neither account affected, it is called an error of complete omission. The trial balance will still balance because no entry was made at all.",
+"py": null,
+"values": null,
+"id": "accx07001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If dem forget transaction completely for book, we dey call am error of complete omission. Trial balance go still balance because dem no enter anything for debit or credit side at all."
+},
+{
+"q": "In preparing final accounts, which of the following errors would cause the net profit figure to be affected?",
+"options": [
+"A cheque payment to a supplier was posted to the correct supplier's account but on the wrong side",
+"Carriage inwards of ₦9,000 was wrongly debited to the carriage outwards account",
+"Discount allowed of ₦2,500 was posted twice to the discount allowed account",
+"A fixed asset purchase was debited to the asset account twice"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Posting discount allowed twice overstates an expense in the income statement, directly reducing the net profit figure wrongly. Errors affecting carriage classification between inward and outward may still distort gross profit only if inward is mistaken for outward, but discount allowed duplication is a clear expense distortion affecting net profit without correction needed elsewhere.",
+"py": null,
+"values": null,
+"id": "accx07006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you post discount allowed twice, you don increase expense too much for income statement. Dis one go come reduce net profit figure anyhow."
+},
+{
+"q": "Musa's trial balance failed to agree by ₦5,400, and he posted the difference to a suspense account. On checking, he discovered that the sales day book had been undercast by ₦5,400. Which journal entry corrects this error?",
+"options": [
+"Debit suspense account ₦5,400; Credit sales account ₦5,400",
+"Debit sales account ₦5,400; Credit suspense account ₦5,400",
+"Debit suspense account ₦10,800; Credit sales account ₦10,800",
+"Debit sales account ₦2,700; Credit suspense account ₦2,700"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "An undercast sales day book means sales account was understated by 5,400, so sales must be credited with 5,400 to correct it, with suspense debited to balance the correction. This matches the shortfall already recorded in the suspense account.",
+"py": null,
+"values": null,
+"id": "accx07007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If sales day book undercast, sales account dey short, so you need credit sales account ₦5,400 to correct am. You go come debit suspense account ₦5,400 to clear the suspense."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A trader recorded the purchase of a motor vehicle on credit by debiting the motor vehicle account and crediting the motor vehicle supplier's account with ₦620,000 instead of the correct amount of ₦260,000. This is an example of",
+"options": [
+"error of principle",
+"error of original entry",
+"error of complete reversal",
+"compensating error"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The entry was made in the correct accounts but with a wrong figure copied from the source document, which is an error of original entry. Both accounts still balance equally since the same wrong figure was used on both sides.",
+"py": null,
+"values": null,
+"id": "accx07002",
+"check": {
+"s1": "B",
+"s2": "X",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:X"
+},
+{
+"q": {
+"q": "Chika extracted her trial balance and found that the debit column totalled ₦486,500 while the credit column totalled ₦471,900. To make the trial balance balance temporarily, she opened a suspense account. What amount and side should appear in the suspense account?",
+"options": [
+"₦14,600 debit",
+"₦14,600 credit",
+"₦958,400 debit",
+"₦486,500 credit"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The credit column is short by 486,500 minus 471,900, which is 14,600. A suspense account credit balance of 14,600 is inserted to make the two sides agree.",
+"py": "486500-471900",
+"values": [
+14600,
+14600,
+958400,
+486500
+],
+"id": "accx07003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+},
+{
+"q": {
+"q": "Which of the following errors, if it occurs alone, will cause the trial balance to disagree?",
+"options": [
+"A credit purchase of ₦35,000 was posted to both the purchases account and the supplier's account as ₦35,000",
+"A payment of rent of ₦12,000 was debited to the rent account but no entry was made in the cash book",
+"Goods bought for resale were debited to the equipment account instead of the purchases account",
+"A sale of ₦8,000 was correctly entered in the sales account but entered in the debtor's account as ₦800"
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "Posting different amounts to the two accounts (8,000 and 800) creates an imbalance between total debits and total credits. The other options show errors where equal amounts were entered or entries were simply placed in the wrong account, so the trial balance still balances.",
+"py": null,
+"values": null,
+"id": "accx07004",
+"check": {
+"s1": "X",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "A trial balance showed a difference of ₦7,200, with the credit side exceeding the debit side. A suspense account was opened. Later it was found that a sales return of ₦7,200 from a customer, Obiageli, was correctly entered in the sales returns account but was never posted to Obiageli's personal account. Which entry corrects the suspense account?",
+"options": [
+"Debit suspense account ₦7,200; Credit Obiageli's account ₦7,200",
+"Debit Obiageli's account ₦7,200; Credit suspense account ₦7,200",
+"Debit suspense account ₦14,400; Credit Obiageli's account ₦14,400",
+"Debit sales returns account ₦7,200; Credit suspense account ₦7,200"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since the credit postings exceeded debit postings by 7,200 because the debit to Obiageli's account was missing, the correcting entry debits the suspense account and credits Obiageli's account with the missing amount to restore balance.",
+"py": null,
+"values": null,
+"id": "accx07005",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

@@ -1,0 +1,200 @@
+{
+"subject": "commerce",
+"topic": "Advertising and sales promotion",
+"ti": 5,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is the MOST appropriate medium of advertising for a new brand of biscuit targeted at the entire literate and non-literate population across Nigeria?",
+"options": [
+"Television",
+"Trade journal",
+"Billboard only",
+"Direct mail"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Television combines sound and pictures, reaching both literate and non-literate audiences across a wide area. Trade journals and direct mail are limited to specific literate groups, while billboards alone cover only fixed locations.",
+"py": null,
+"values": null,
+"id": "comx05000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Television dey use sound and picture, so e dey reach both people wey sabi book and the ones wey no sabi book across everywhere. Other ones like trade journal and direct mail na only few people wey sabi book dey see them, and billboard dey stay one place."
+},
+{
+"q": "A manufacturer of detergent attaches a small plastic bucket as a free gift to every carton bought by wholesalers during a festive period. This method of boosting sales is best described as:",
+"options": [
+"Premium offer",
+"Institutional advertising",
+"Publicity",
+"Public relations"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A premium offer is a sales promotion technique where a free extra item is given to encourage buyers to purchase a product. It is not advertising, publicity or public relations because it involves a direct, tangible incentive attached to the purchase.",
+"py": null,
+"values": null,
+"id": "comx05001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Premium offer na sales promotion style where dem dey give free item join so that buyers go buy product. E no be advertising or publicity because na direct gift dem attach to the purchase."
+},
+{
+"q": "Which of these best explains why outdoor advertising such as billboards is generally cheaper per exposure than television advertising for a Nigerian company?",
+"options": [
+"Billboards require no artwork or design cost",
+"Billboards have a fixed location and are viewed repeatedly over a long period without extra charge",
+"Television stations do not charge for advertising slots",
+"Billboards are only used in rural areas where costs are lower"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Once a billboard is erected and paid for, it continues to be seen by passers-by repeatedly over weeks or months at no extra cost, spreading the cost per view. Television, in contrast, charges for each time slot the advert is aired.",
+"py": null,
+"values": null,
+"id": "comx05002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Once dem erect billboard and pay for am, people go dey see am every time over weeks or months without extra charge, making the cost per view cheap. Television dey charge money anytime dem play the advert."
+},
+{
+"q": "A new entrant into the Nigerian soft drink market spends heavily on television and radio adverts for six months purely to make consumers aware that the brand exists, without mentioning price or where to buy it. This type of advertising is called:",
+"options": [
+"Competitive advertising",
+"Pioneering advertising",
+"Reminder advertising",
+"Cooperative advertising"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Pioneering advertising is used to introduce a new product and create basic awareness and demand in the market. Competitive advertising compares brands, reminder advertising sustains existing demand, and cooperative advertising is jointly funded by manufacturer and retailer.",
+"py": null,
+"values": null,
+"id": "comx05003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Pioneering advertising naim dem dey use introduce new product so people go know say e dey market. E no talk about price or where to buy am, na just to create awareness."
+},
+{
+"q": "Which of the following is a major limitation of using newspapers as an advertising medium in many Nigerian rural communities?",
+"options": [
+"Newspapers are too colourful and attractive",
+"High rate of illiteracy and low newspaper circulation in such areas",
+"Newspaper adverts cannot carry pictures",
+"Newspapers are more expensive than television adverts"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Many rural dwellers cannot read, and newspapers may not even be readily available there, so the message fails to reach them. This makes newspapers less effective compared with media like radio that do not require literacy.",
+"py": null,
+"values": null,
+"id": "comx05004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For village areas, many people no fit read book and newspapers no even dey reach there well. This one make newspaper advertising no good for village like radio."
+},
+{
+"q": "A supermarket in Enugu reduces the price of a tin of milk from ₦1,200 to ₦1,000 for one week only, clearly labelled 'Special Offer', to clear excess stock. This practice is an example of:",
+"options": [
+"Price discrimination",
+"Sales promotion through price reduction",
+"Dumping",
+"Advertising"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A temporary price cut designed to encourage quick buying and clear stock is a classic sales promotion technique. It is not advertising, which focuses on communication rather than a direct price incentive, and it is not dumping or discrimination since there is no selling below cost in a foreign market or unfair customer targeting.",
+"py": null,
+"values": null,
+"id": "comx05005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When supermarket reduce price small time to sell old goods, na sales promotion through price reduction. E no be ordinary advertising because price drop dey involved."
+},
+{
+"q": "Two rival bread companies, Sunrise Bread and Daybreak Bread, both spend large sums on advertising mainly to protect their existing market share from each other rather than to grow the total market for bread. An economist analysing this situation would most likely argue that such advertising:",
+"options": [
+"Increases total industry demand by informing new consumers",
+"Mainly redistributes existing demand between the two firms, adding to cost without much new market growth",
+"Has no cost implication for either company",
+"Eliminates the need for product pricing strategy entirely"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "When rival firms in a mature market advertise mainly against each other, much of the spending simply shifts customers between brands instead of expanding the overall market, raising costs for both without raising total sales much. This is a common criticism of competitive advertising in such industries.",
+"py": null,
+"values": null,
+"id": "comx05006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If two companies dey fight market with advert, dem just dey share the same customers among themselves instead of bringing new buyers. E dey add cost to them without growing the market big."
+},
+{
+"q": "A cosmetics firm in Lagos budgets ₦2,000,000 for a sales promotion campaign. It plans to spend 40% on free product samples, 25% on point-of-sale displays in shops, and the remainder on a 'buy two get one free' offer. How much naira will be spent on the 'buy two get one free' offer?",
+"options": [
+"₦500,000",
+"₦700,000",
+"₦800,000",
+"₦900,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Samples take 40% (₦800,000) and displays take 25% (₦500,000), totalling 65% or ₦1,300,000. The remainder, 35% of ₦2,000,000, is ₦700,000, which goes to the buy-two-get-one-free offer.",
+"py": "2000000 - (0.40*2000000 + 0.25*2000000)",
+"values": [
+500000,
+700000,
+800000,
+900000
+],
+"id": "comx05007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If samples take 40 percent and displays take 25 percent, everything na 65 percent which be ₦1,300,000. The remaining 35 percent wey remain for the ₦2,000,000 na ₦700,000 for the buy two get one free offer."
+}
+],
+"rejected": []
+}

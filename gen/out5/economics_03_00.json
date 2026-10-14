@@ -1,0 +1,202 @@
+{
+"subject": "economics",
+"topic": "Theory of demand: law of demand, determinants, shifts and movements",
+"ti": 3,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Chidinma buys 4 tubers of yam per week when the price is ₦800 each. When the price falls to ₦600, she buys 6 tubers per week, with her income and taste unchanged. This change in quantity demanded is best described as a",
+"options": [
+"shift of the demand curve to the right",
+"movement along the demand curve",
+"decrease in demand",
+"change in the determinants of demand"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Since only the price of yam changed and quantity responded along the same curve, this is a movement along the demand curve, not a shift. A shift would require a change in a non-price factor.",
+"py": null,
+"values": null,
+"id": "ecox03000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na only yam price change, and the quantity follow am waka for the same curve. E no be shift at all."
+},
+{
+"q": "A survey shows that whenever households in Kano expect the price of cooking gas to rise sharply next month, they immediately buy more gas cylinders now. This behaviour illustrates the effect of which determinant of demand?",
+"options": [
+"change in consumer income",
+"change in price of substitute goods",
+"future price expectation",
+"change in consumer taste"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "When buyers expect prices to rise in future, they increase current purchases to beat the expected increase. This is the effect of price expectation on demand, a known non-price determinant.",
+"py": null,
+"values": null,
+"id": "ecox03002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If people dey expect say price go high tomorrow, dem go rush buy am today. Na wetin we dey call future price expectation."
+},
+{
+"q": "The demand for fountain pens in a school bookshop is given as Qd = 100 - 5P, where Qd is the number of pens demanded per week and P is the price in naira. If the price of a pen is ₦12, what is the quantity demanded?",
+"options": [
+"40 pens",
+"48 pens",
+"60 pens",
+"35 pens"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Substituting P = 12 into Qd = 100 - 5P gives Qd = 100 - 60 = 40. This shows the quantity of pens demanded at that price.",
+"py": "100 - 5*12",
+"values": [
+40,
+48,
+60,
+35
+],
+"id": "ecox03003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Make we put 12 inside P for the formula. E go give us 100 minus 60, wey come remain 40 pens."
+},
+{
+"q": "Suppose the demand for a particular brand of face cream increases sharply after a popular Nollywood actress is seen using it in public, even though its price and consumers' income remain unchanged. This change in demand is best explained by",
+"options": [
+"a fall in the price of substitutes",
+"an increase in consumer income",
+"a change in consumer taste or preference",
+"a rise in the price of complementary goods"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Since price and income are unchanged, the increase in demand must be due to a change in taste or preference caused by the endorsement. Tastes and fashion are recognised non-price determinants of demand.",
+"py": null,
+"values": null,
+"id": "ecox03004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Since price and money for hand no change, na actor wey use am make people like the cream pass before. Na change in taste be that."
+},
+{
+"q": "A government policy reduces import duties on foreign rice, causing its price to fall from ₦1,200 to ₦900 per bag, while the price of locally produced rice remains at ₦1,000. Assuming the two are substitutes, what is the most likely effect on the demand for locally produced rice?",
+"options": [
+"Demand for local rice will increase",
+"Demand for local rice will decrease",
+"Demand for local rice will remain unchanged",
+"Quantity demanded of local rice will move along its curve"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since foreign rice becomes cheaper than local rice, consumers are expected to substitute away from local rice towards foreign rice, causing the demand curve for local rice to shift leftward, representing a decrease in demand.",
+"py": null,
+"values": null,
+"id": "ecox03005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As foreign rice come cheap pass local rice, people go leave local rice go buy foreign one. Demand for local rice go come drop."
+},
+{
+"q": "In a certain town, economists observe that as the price of a popular brand of bottled water rises, the quantity demanded also rises because wealthy residents now associate the higher price with higher social status. Which special type of good does this describe?",
+"options": [
+"Giffen good",
+"inferior good",
+"Veblen good",
+"normal good"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "A Veblen good is a good whose quantity demanded increases as its price rises because consumers associate the high price with prestige or status. This differs from a Giffen good, which rises due to income effects on necessities.",
+"py": null,
+"values": null,
+"id": "ecox03006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Veblen good na the type of thing wey people dey buy more as price dey high because of status. E dey show class."
+},
+{
+"q": "At a price of ₦250 per loaf, bakers in Enugu sell 300 loaves of bread daily. When the price rises to ₦300, two things happen at once: the quantity demanded falls to 250 loaves due to the price change, and separately, a rise in the price of flour causes bakers' costs to rise, shifting the supply curve, which further affects market price. Which single factor purely caused the movement from 300 to 250 loaves, ignoring the supply-side effect?",
+"options": [
+"change in the price of bread itself",
+"change in the price of flour",
+"change in consumer income",
+"change in consumer taste"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "A movement along the demand curve, such as quantity falling from 300 to 250 loaves, is caused only by a change in the price of the good itself. The flour price change affects supply, not the position along the demand curve.",
+"py": null,
+"values": null,
+"id": "ecox03007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na only the price of bread itself cause the movement from 300 to 250 loaves. The flour matter na for supply side."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following pairs of goods best illustrates complementary goods in demand theory?",
+"options": [
+"rice and beans",
+"bread and biscuits",
+"tea and coffee",
+"Pepsi and Coca-Cola"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Complementary goods are consumed together, such as rice and beans which are often eaten jointly in many Nigerian homes. The other pairs are substitutes since one can replace the other.",
+"py": null,
+"values": null,
+"id": "ecox03001",
+"check": {
+"s1": "A",
+"s2": "X",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:X"
+}
+]
+}

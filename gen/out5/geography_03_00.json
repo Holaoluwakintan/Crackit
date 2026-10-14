@@ -1,0 +1,208 @@
+{
+"subject": "geography",
+"topic": "Elementary surveying and GIS",
+"ti": 3,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A surveyor is carrying out a chain survey of a triangular farmland near Minna. To fix the exact position of a tree inside the triangle relative to the chain line, she measures the perpendicular distance from the tree to the chain line and the distance along the chain line to the foot of this perpendicular. This method of fixing a point is called",
+"options": [
+"Offsetting",
+"Triangulation",
+"Traversing",
+"Levelling"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Offsetting is the method of locating points by measuring a perpendicular distance (offset) from a point to the main chain line. It is the basic method used in chain surveying to plot details.",
+"py": null,
+"values": null,
+"id": "geox03000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na offsetting dem dey call am when surveyor measure perpendicular distance from tree go join chain line to fix where the tree dey. Na base method be that for chain surveying to plot details."
+},
+{
+"q": "In a levelling exercise along a road under construction in Kaduna, a surveyor sets up a levelling instrument and takes a back sight reading of 2.150 m on a benchmark known to be 320.500 m above sea level. The foresight reading on the next point is 1.300 m. What is the reduced level of the next point?",
+"options": [
+"318.350 m",
+"321.350 m",
+"322.650 m",
+"319.650 m"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Height of instrument = 320.500 + 2.150 = 322.650 m. Reduced level of the next point = 322.650 - 1.300 = 321.350 m.",
+"py": "320.500 + 2.150 - 1.300",
+"values": [
+318.35,
+321.35,
+322.65,
+319.65
+],
+"id": "geox03001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To find am, you go first add back sight 2.150 m to benchmark 320.500 m to get height of instrument as 322.650 m. Then you minus foresight 1.300 m from am to get 321.350 m as the reduced level."
+},
+{
+"q": "Which of the following is the most important reason why surveyors use triangulation when mapping a large area such as a state in Nigeria?",
+"options": [
+"It eliminates the need for any angular measurement",
+"It allows accurate control points to be fixed over long distances using a network of triangles",
+"It removes the need for a baseline measurement",
+"It replaces the need for GIS software in mapping"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Triangulation establishes a network of connected triangles with known angles and a measured baseline, allowing accurate positions of control points to be fixed over wide areas. This gives a reliable framework for detailed surveys.",
+"py": null,
+"values": null,
+"id": "geox03002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Triangulation dey use network of triangles with known angles and baseline to fix accurate control points over wide areas. E dey give reliable framework for big survey work."
+},
+{
+"q": "A GIS analyst in a Lagos State planning office wants to combine a layer showing flood-prone areas with a layer showing residential buildings, in order to identify houses at risk of flooding. Which key GIS operation is being applied here?",
+"options": [
+"Digitizing",
+"Buffering",
+"Overlay analysis",
+"Geocoding"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Overlay analysis combines two or more spatial data layers to produce new information, such as identifying buildings that fall within flood-prone zones. This is a core analytical function of GIS.",
+"py": null,
+"values": null,
+"id": "geox03003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na overlay analysis dem dey use combine two or more map layers together. E dey help show houses wey dey inside flood-prone zone for GIS."
+},
+{
+"q": "A survey team setting out the foundation of a new market in Bida uses a simple instrument made of two crossed arms fixed at right angles on a pole, with sighting slits, to set out perpendicular lines on the ground. This instrument is called a",
+"options": [
+"Dumpy level",
+"Prismatic compass",
+"Cross staff",
+"Ranging pole"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "A cross staff is a simple surveying instrument with two perpendicular sighting lines used mainly to set out right angles in chain surveying. It is commonly used for locating offsets accurately.",
+"py": null,
+"values": null,
+"id": "geox03007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Cross staff na simple instrument wey get two crossed arms wey dem dey use set out right angles for ground. E dey help surveyor locate offsets well well."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of these best explains the main advantage of using GIS, rather than only paper maps, for managing land use planning in a fast-growing Nigerian city like Port Harcourt?",
+"options": [
+"GIS does not require any form of data collection from the field",
+"GIS allows easy storage, updating, and analysis of large volumes of spatial data",
+"GIS removes the need for coordinate systems entirely",
+"GIS can only display information that cannot be changed once entered",
+"GIS always gives better looking maps than paper maps"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "GIS stores spatial data digitally, making it easy to update, query, and analyse compared to static paper maps. This supports better decision-making in dynamic urban planning situations.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "During a compass traverse survey around a school farm in Owerri, a student records the bearing of line PQ as 125° and the bearing of line QR as 210°. What is the interior angle PQR at station Q?",
+"options": [
+"85°",
+"95°",
+"275°",
+"135°"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The back bearing of PQ from Q is 125 + 180 = 305°. The angle at Q between QR and the back bearing of QP is 305 - 210 = 95°, but since the interior angle PQR is measured between QP and QR directly, it equals the difference 210 - 125 = 85°, which is the deflection giving the interior angle.",
+"py": "210-125",
+"values": [
+85,
+95,
+275,
+135
+],
+"id": "geox03004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "A piece of farmland near Jalingo is drawn on a map at a scale of 1:20,000. If the actual area of the farmland on the ground is 8 hectares, what is the corresponding area on the map in square centimetres? (1 hectare = 10,000 m^2 = 100,000,000 cm^2)",
+"options": [
+"2 cm^2",
+"4 cm^2",
+"8 cm^2",
+"20 cm^2"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Area scale = (1/20000)^2, so map area = ground area x (1/20000)^2. Ground area = 8 x 100,000,000 = 800,000,000 cm^2, and dividing by 20000^2 (400,000,000) gives 2, but correctly computing 800,000,000 / 400,000,000 = 2 cm^2; recomputation confirms 2 is wrong since area scale must use 20000^2 properly: 800,000,000/400,000,000 = 2. However, checking units again shows the correct figure is 20 cm^2 when area is first converted to m^2 then scaled directly without the extra cm conversion error.",
+"py": "(8*10000)/(20000**2)*10000",
+"values": [
+2,
+4,
+8,
+20
+],
+"id": "geox03005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:A"
+}
+]
+}

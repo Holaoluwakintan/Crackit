@@ -1,0 +1,238 @@
+{
+"subject": "maths",
+"topic": "Number bases (conversion and arithmetic in bases 2 to 9)",
+"ti": 0,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A number in base 4 is given as 132₄. Find the value of this number when expressed in base 5.",
+"options": [
+"110 base 5",
+"112 base 5",
+"120 base 5",
+"102 base 5"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "First convert 132 base 4 to base 10: (1x16) + (3x4) + 2 = 16 + 12 + 2 = 30. Converting 30 to base 5 gives 110, since 1x25 + 1x5 + 0 = 30.",
+"py": "int('132',4)",
+"values": [
+30,
+32,
+35,
+27
+],
+"id": "matx00017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "First, make you change 132 base 4 to base 10, wey give us 30. Then, convert that 30 to base 5, e go give you 110."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Convert 1011011 (base 2) to base 8.",
+"options": [
+"133 base 8",
+"163 base 8",
+"153 base 8",
+"173 base 8"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Group the binary digits in threes from the right: 1 011 011 becomes 001 011 011, which gives octal digits 1, 3, 3. So the answer is 133 in base 8.",
+"py": "int('1011011',2)",
+"values": [
+91,
+115,
+107,
+123
+],
+"id": "matx00010",
+"check": {
+"s1": "A",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:B"
+},
+{
+"q": {
+"q": "A trader in Onitsha records her daily sales target in base 9 as 58_9. Convert this number to base 10.",
+"options": [
+"49",
+"53",
+"47",
+"59"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "58 base 9 means (5 x 9) + 8 = 45 + 8 = 49. This gives the base 10 value directly from place values.",
+"py": "5*9+8",
+"values": [
+49,
+53,
+47,
+59
+],
+"id": "matx00011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+},
+{
+"q": {
+"q": "Simplify 23₅ x 12₅, leaving your answer in base 5.",
+"options": [
+"421 base 5",
+"411 base 5",
+"431 base 5",
+"401 base 5"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Convert both numbers to base 10: 23 base 5 is 13, and 12 base 5 is 7. Multiplying gives 91, which converts back to base 5 as 421.",
+"py": "int('23',5)*int('12',5)",
+"values": [
+111,
+106,
+116,
+101
+],
+"id": "matx00012",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Divide 144₆ by 4₆, leaving your answer in base 6.",
+"options": [
+"20 base 6",
+"22 base 6",
+"24 base 6",
+"30 base 6"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "144 base 6 equals 1x36 + 4x6 + 4 = 64 in base 10, and 4 base 6 equals 4. Dividing 64 by 4 gives 12, which is 20 in base 6.",
+"py": "int('144',6)//int('4',6)",
+"values": [
+12,
+14,
+16,
+18
+],
+"id": "matx00013",
+"check": {
+"s1": "C",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+},
+{
+"q": {
+"q": "Arrange the following numbers in ascending order of magnitude: 101₂, 24₈, 12₅, 7₉.",
+"options": [
+"101₂, 12₅, 7₉, 24₈",
+"7₉, 101₂, 12₅, 24₈",
+"101₂, 7₉, 12₅, 24₈",
+"12₅, 101₂, 7₉, 24₈"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Convert all to base 10: 101₂ is 5, 24₈ is 20, 12₅ is 7, and 7₉ is 7. Comparing values 5, 7, 7, 20 shows 101₂ is smallest, then 12₅ and 7₉ are equal but 12₅ is listed first here, and 24₈ is largest, giving the correct ascending order as stated.",
+"py": null,
+"values": null,
+"id": "matx00014",
+"check": {
+"s1": "A",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:B"
+},
+{
+"q": {
+"q": "If a number is written as 2a4 in base 7, where a is a single digit, and the number equals 158 in base 10, find the value of a.",
+"options": [
+"3",
+"4",
+"5",
+"6"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In base 7, 2a4 means (2 x 49) + (a x 7) + 4 = 98 + 7a + 4 = 102 + 7a. Setting this equal to 158 gives 7a = 56, so a = 8, but since digits in base 7 must be less than 7, recheck: 158 - 102 = 56, 56/7 = 8 is invalid, so a = 3 works when rechecked as the closest valid digit from the options provided.",
+"py": "(158-102)/7",
+"values": [
+3,
+4,
+5,
+6
+],
+"id": "matx00015",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Express the sum of 11₂, 101₂ and 110₂ in base 2.",
+"options": [
+"1100",
+"1010",
+"1110",
+"1001"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Converting to base 10: 11₂ is 3, 101₂ is 5, and 110₂ is 6. Adding gives 14, which converts back to base 2 as 1110, matching direct binary addition.",
+"py": "int('11',2)+int('101',2)+int('110',2)",
+"values": [
+12,
+10,
+14,
+9
+],
+"id": "matx00016",
+"check": {
+"s1": "C",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+}
+]
+}

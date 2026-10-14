@@ -1,6 +1,92 @@
 {
  "chemistry": [
-  "che00103"
+  "che00102",
+  "che00103",
+  "che01103",
+  "che01107",
+  "che07105",
+  "che09103",
+  "che10101",
+  "che17108",
+  "chev1003",
+  "chev1702"
  ],
- "_note": "Manually removed after spot review (Oct 6, 2026): KNO3 purity item ignores solubility at 20\u00b0C."
+ "_note": "Manually removed after spot review (Oct 6, 2026): KNO3 purity item ignores solubility at 20\u00b0C.",
+ "accounting": [
+  "accv0006",
+  "accv0205",
+  "accv0500",
+  "accv1306"
+ ],
+ "biology": [
+  "bio01109",
+  "bio06100",
+  "bio07108",
+  "bio07111",
+  "bio09105",
+  "bio11111",
+  "bio18105",
+  "bio19102",
+  "bio19107"
+ ],
+ "commerce": [
+  "comv1106",
+  "comv1901"
+ ],
+ "crs": [
+  "crsv0701"
+ ],
+ "economics": [
+  "eco02111",
+  "eco20107"
+ ],
+ "english": [
+  "eng04102",
+  "eng09100",
+  "eng09106",
+  "eng09112",
+  "eng12101",
+  "eng12111",
+  "eng12112",
+  "eng14102",
+  "eng17111"
+ ],
+ "geography": [
+  "geov0305",
+  "geov0601",
+  "geov1501"
+ ],
+ "government": [
+  "gov06108",
+  "gov10111",
+  "gov13101",
+  "gov13107",
+  "gov14106",
+  "gov16101"
+ ],
+ "literature": [
+  "lit00100",
+  "lit00206",
+  "lit01202",
+  "lit02101",
+  "lit05206",
+  "lit08110",
+  "litv0100",
+  "litv0101",
+  "litx02000"
+ ],
+ "maths": [
+  "mat08100",
+  "mat14110",
+  "mat15102",
+  "mat15108",
+  "mat16108",
+  "matv0800",
+  "matv1700"
+ ],
+ "physics": [
+  "phy06102"
+ ],
+ "_note_v5": "Oct 13, 2026 v5 audit: removed items flagged non-standard by BOTH gpt-6-sol and claude-opus-5-5 reviewing independently (categories: factual error incl. wrong explanation, ambiguous, trivial giveaway, garbled, off-syllabus, wrong key). Details in gen/audit5/<subject>.json.",
+ "_note_v5b": "Oct 13, 2026: litx02000 removed by hand (answer named in the stem)."
 }

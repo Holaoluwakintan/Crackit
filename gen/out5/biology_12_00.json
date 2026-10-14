@@ -1,0 +1,178 @@
+{
+"subject": "biology",
+"topic": "Hormones in animals and plants",
+"ti": 12,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A student set up two identical bean seedlings, A and B. Seedling A was kept in a box with light entering from one side only, while seedling B was kept in total darkness. After five days, seedling A bent towards the light source. Which statement best explains this observation?",
+"options": [
+"Auxin is destroyed on the lit side, causing faster growth there",
+"Auxin accumulates on the shaded side, causing more elongation on that side",
+"Gibberellin moves to the lit side, causing cells there to shrink",
+"Light directly stimulates cell division only on the illuminated side"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Light causes auxin to migrate to the shaded side of the stem, where it stimulates greater cell elongation. This uneven growth makes the shoot bend towards the light.",
+"id": "biox12000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Light dey make auxin move go the side wey no get light. That side go come grow long pass the other side, so the plant go bend follow the light."
+},
+{
+"q": "Which pair of hormones act antagonistically to regulate blood glucose level in a healthy human?",
+"options": [
+"Insulin and glucagon",
+"Thyroxine and adrenaline",
+"Oestrogen and progesterone",
+"Aldosterone and cortisol"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Insulin lowers blood glucose by promoting its uptake and storage as glycogen, while glucagon raises blood glucose by stimulating glycogen breakdown. These two hormones work opposite to each other to keep blood sugar balanced.",
+"id": "biox12001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Insulin dey reduce sugar for blood, but glucagon dey increase am. The two of them dey work against each other to make sure say blood sugar level dey normal."
+},
+{
+"q": "A farmer in Jos wants to prevent fruits from dropping off his citrus trees before they are fully matured for harvest. Which class of plant hormone would most likely help him achieve this?",
+"options": [
+"Gibberellins",
+"Cytokinins",
+"Auxins",
+"Abscisic acid"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Auxins help to prevent premature fruit and leaf drop by delaying the formation of the abscission layer. Spraying auxin on fruit trees is a common method of reducing fruit fall before harvest.",
+"id": "biox12002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Auxin dey stop fruit from fall down quick before time. E dey delay the process wey dey make fruit or leaf comot from tree."
+},
+{
+"q": "During puberty, a teenage boy begins to develop a deeper voice, facial hair, and increased muscle mass. Which hormone is primarily responsible for these changes?",
+"options": [
+"Testosterone",
+"Progesterone",
+"Luteinizing hormone",
+"Follicle stimulating hormone"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Testosterone, produced by the testes, is the main hormone responsible for male secondary sexual characteristics such as deepening of the voice, facial hair, and muscle growth. It becomes active in large amounts during puberty.",
+"id": "biox12003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Testosterone na the main hormone wey dey bring out male features for boy pikin. E dey make voice deep, grow beard, and make muscle big during puberty."
+},
+{
+"q": "A nursing mother in Enugu notices that her baby's sucking action stimulates further release of milk from her breast each time she breastfeeds. Which hormone is responsible for this milk let-down reflex?",
+"options": [
+"Prolactin",
+"Oxytocin",
+"Oestrogen",
+"Follicle stimulating hormone"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Oxytocin causes contraction of the muscle cells around the milk glands, pushing milk out during suckling. Prolactin is responsible for milk production itself, not its release.",
+"id": "biox12004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Oxytocin na the hormone wey dey squeeze the milk gland make milk comot when baby dey suck. Prolactin na the one wey dey produce the milk, but oxytocin na the one wey dey release am."
+},
+{
+"q": "A gardener notices that cutting off the terminal bud of a young hibiscus plant causes several side shoots to sprout from the lateral buds within two weeks. This observation best illustrates which hormonal phenomenon?",
+"options": [
+"Apical dominance caused by high cytokinin from the shoot tip",
+"Removal of auxin inhibition, allowing cytokinin to promote lateral bud growth",
+"Increased gibberellin production at the cut surface stimulating root growth",
+"Abscisic acid build-up forcing the lateral buds to become dormant"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The terminal bud produces auxin that normally suppresses the growth of lateral buds, a condition called apical dominance. Removing the terminal bud cuts off this auxin supply, allowing cytokinin to stimulate the lateral buds to sprout.",
+"id": "biox12005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The top bud dey produce auxin wey dey stop side buds from grow. If you cut the top, the auxin go finish, so the side buds go come start to grow."
+},
+{
+"q": "A medical test on a Nigerian adult shows unusually low levels of parathyroid hormone. Which of the following conditions is the most likely direct consequence?",
+"options": [
+"Increased blood calcium concentration",
+"Decreased blood calcium concentration",
+"Increased blood glucose concentration",
+"Decreased heart rate"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Parathyroid hormone raises blood calcium level by stimulating calcium release from bones and reabsorption by the kidneys. A low level of this hormone therefore leads to reduced blood calcium concentration.",
+"id": "biox12006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Parathyroid hormone dey help increase calcium for blood. If the hormone low, the calcium level for blood go come drop down."
+},
+{
+"q": "An agricultural extension officer treats a set of seedless grape cuttings with a plant hormone spray to promote stem and leaf growth without affecting flowering. Which hormone group is most suited to this purpose based on its known effect of stimulating cell division in shoots?",
+"options": [
+"Ethylene",
+"Abscisic acid",
+"Cytokinins",
+"Auxins"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Cytokinins specifically promote cell division, particularly in shoots and young tissues, and are widely used to encourage vegetative growth. Auxins mainly control elongation and root initiation rather than cell division in shoots.",
+"id": "biox12007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Cytokinins na the hormone wey dey make cell divide well for shoot. E dey help plant grow leaves and stem fast."
+}
+],
+"rejected": []
+}

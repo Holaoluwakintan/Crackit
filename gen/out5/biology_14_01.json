@@ -1,0 +1,164 @@
+{
+"subject": "biology",
+"topic": "Nutrient cycles (carbon, nitrogen, water) and ecological factors",
+"ti": 14,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following correctly represents the sequence by which carbon locked in dead plant and animal remains is eventually converted into fossil fuels over long geological periods?",
+"options": [
+"Decomposition, compaction and burial under sediment, then heat and pressure acting over millions of years",
+"Respiration, combustion, then photosynthesis acting over a few decades",
+"Fermentation of dead matter by yeast followed by immediate release as methane gas",
+"Direct absorption of carbon dioxide by rocks through weathering within a few years"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Fossil fuels form when dead organisms are buried under layers of sediment and subjected to intense heat and pressure over millions of years, converting the trapped carbon into coal, oil or natural gas. The other options describe short, unrelated processes that do not lead to fossil fuel formation.",
+"id": "biox14010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Fossil fuel dey form when dead plants and animals bury under sediment for millions of years. Heat and pressure come change the carbon inside them to coal or oil. Other options no get sense for how fossil fuel dey form."
+},
+{
+"q": "A biology class in Jos set up two identical plastic bottles containing moist soil. Bottle X was sealed and left undisturbed, while Bottle Y was left open to the air. After two weeks, Bottle Y showed a higher rate of nitrate production in the soil than Bottle X. What is the most likely explanation for this difference?",
+"options": [
+"Bottle Y allowed oxygen to reach nitrifying bacteria, which require it for converting ammonia to nitrates",
+"Bottle X received more sunlight, which sped up nitrification",
+"Bottle Y lost water faster, which directly produces nitrates",
+"Bottle X contained more nitrogen gas, which bacteria used directly to form nitrates"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Nitrification is carried out by aerobic bacteria that need oxygen to oxidise ammonia into nitrites and then nitrates. Since Bottle Y was open to air, it had more oxygen available, allowing nitrifying bacteria to work more effectively than in the sealed Bottle X.",
+"id": "biox14011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Nitrifying bacteria need oxygen to change ammonia to nitrate. Because Bottle Y open to air, oxygen dey enter well well for them to work. Bottle X no get enough oxygen so the bacteria no fit work well."
+},
+{
+"q": "Two identical beakers of pond water are placed under the same light intensity. Beaker P is kept at 15°C while Beaker Q is kept at 35°C. After one hour, the algae in Beaker Q show a much higher rate of photosynthesis than those in Beaker P, up to an optimum point. Which ecological factor best explains this observation?",
+"options": [
+"Temperature, because it affects the rate of enzyme-controlled reactions in photosynthesis",
+"Light intensity, because warmer water transmits light faster",
+"Humidity, because it is higher in warmer beakers",
+"Wind speed, because it increases with temperature"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Temperature affects the activity of enzymes involved in photosynthesis, so a rise in temperature (up to an optimum) increases the rate of the reaction. Light intensity was kept constant in both beakers, so it cannot explain the difference seen.",
+"id": "biox14013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Temperature dey control how fast enzymes work for photosynthesis. When temperature increase, the reaction rate go increase until e reach the best point. Light intensity no change, so na temperature cause the difference."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A field ecologist measures the amount of dissolved oxygen, water current speed, and turbidity in a flowing stream in Cross River State to understand the distribution of fish species along the stream. Which term best describes the group of factors being measured?",
+"options": [
+"Abiotic ecological factors",
+"Biotic ecological factors",
+"Edaphic factors only",
+"Climatic factors only",
+"",
+""
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Dissolved oxygen, current speed and turbidity are all non-living physical and chemical features of the environment, making them abiotic factors. Biotic factors would instead involve living organisms such as predators, competitors or parasites."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "In a Lagos lagoon ecosystem, scientists observe that bacteria convert nitrate ions in waterlogged, oxygen-poor mud into nitrogen gas, which then escapes into the atmosphere. This process results in a net loss of usable nitrogen from the ecosystem. Which process is being described?",
+"options": [
+"Denitrification",
+"Nitrogen fixation",
+"Ammonification",
+"Nitrification",
+"",
+""
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Denitrification is carried out by bacteria in oxygen-poor conditions and converts nitrates back into nitrogen gas, which is released into the air and lost from the soil-nitrogen pool. This is different from nitrogen fixation, which brings nitrogen into the soil."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "A researcher studying two neighbouring farms in Ogun State finds that Farm A, which practises crop rotation with legumes, produces higher yields of maize without added fertilizer than Farm B, which continuously grows maize alone. Which explanation best accounts for this difference?",
+"options": [
+"Legumes host nitrogen-fixing bacteria in root nodules, which enrich the soil with usable nitrogen compounds for the next crop",
+"Legumes absorb more carbon dioxide from the air than maize, enriching the soil with carbon",
+"Legumes increase soil temperature, which directly produces more nitrates",
+"Legumes release more water into the soil, which dissolves nitrogen gas for maize use",
+"",
+""
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Legumes such as beans have root nodules containing Rhizobium bacteria that fix atmospheric nitrogen into ammonium and nitrate compounds usable by plants. Rotating with legumes therefore naturally replenishes soil nitrogen, boosting the yield of the following maize crop without synthetic fertilizer."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "During a prolonged dry season in a savanna reserve, the population of a particular grazing antelope species remains roughly constant despite an abundant supply of grass, because the only water hole in the reserve dries up except for one small spring. Which ecological concept does this scenario best illustrate?",
+"options": [
+"Water acting as a limiting factor on population size",
+"Grass acting as a limiting factor on population size",
+"Predation acting as a limiting factor on population size",
+"Temperature acting as a limiting factor on population size",
+"",
+""
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Although food (grass) is abundant, the scarcity of water restricts how many antelopes the environment can support, making water the limiting factor according to the law of the minimum. A limiting factor is whatever resource is in shortest supply relative to need, regardless of how abundant other resources are."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "In the water cycle, which term describes the direct process by which water vapour in the atmosphere changes into liquid water, forming clouds before precipitation occurs?",
+"options": [
+"Condensation",
+"Transpiration",
+"Percolation",
+"Sublimation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Condensation is the change of water vapour into tiny liquid droplets as it cools in the atmosphere, which then form clouds. Transpiration refers to water loss from plants, while percolation is the downward movement of water through soil.",
+"id": "biox14012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

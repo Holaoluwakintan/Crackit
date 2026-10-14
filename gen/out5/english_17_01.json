@@ -1,0 +1,182 @@
+{
+"subject": "english",
+"topic": "Register and vocabulary of fields (e.g. law, medicine, sports, banking)",
+"ti": 17,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best completes the gap: In sporting register, a team that fails to field enough players for a scheduled match may be made to forfeit the game by a _____.",
+"options": [
+"walkover",
+"handicap",
+"knockout",
+"playoff"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A walkover is awarded when an opponent is unable or unwilling to play, so the other team wins automatically. Handicap, knockout and playoff describe different competition arrangements.",
+"id": "engx17010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dem dey give walkover when anoda team no show or no fit play match, so di oda team go just win straight. Di oda words like handicap, knockout and playoff na different tin for sports."
+},
+{
+"q": "Choose the option that best completes the gap: Before a company can be listed on the stock exchange, its shares must first be offered to the public through an _____.",
+"options": [
+"overdraft",
+"initial public offer",
+"indemnity bond",
+"injunction"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "An initial public offer is the process by which a company first sells shares to the public to be listed on the exchange. The other terms belong to banking or legal usage and do not describe this process.",
+"id": "engx17011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Initial public offer na di way wey company dey use sell dia share to everybody for first time before dem put am for market. Di oda words na bank or court matter, e no concern dis one."
+},
+{
+"q": "Choose the option that best completes the gap: In medical register, the process of examining a patient to find out the nature of an illness before treatment begins is known as _____.",
+"options": [
+"prognosis",
+"diagnosis",
+"therapy",
+"dosage"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Diagnosis is the identification of an illness through examination. Prognosis predicts the likely course of the disease, therapy is treatment, and dosage is the measured amount of medicine given.",
+"id": "engx17013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Diagnosis na when doctor check patient well well to know weda sickness dey body before treatment start. Prognosis dey talk how sickness fit be later, therapy na treatment, and dosage na di amount of medicine."
+},
+{
+"q": "Choose the option that best completes the gap: During the cup final, the referee allowed three extra minutes of _____ time to make up for stoppages caused by injuries.",
+"options": [
+"added",
+"half",
+"extra",
+"full"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Added time, also called stoppage time, is played at the end of a half to compensate for time lost to injuries or delays. Half, extra and full time describe other divisions of a match and do not fit this sporting usage.",
+"id": "engx17014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Added time, wey dem still dey call stoppage time, na di extra minutes wey referee dey add for end of match to cover time wey waste for injury. Di oda words no mean dis sports style at all."
+},
+{
+"q": "Choose the option that best completes the gap: When Adaeze's current account was wrongly debited twice for the same transaction, she visited her bank to formally request a _____ of the extra charge.",
+"options": [
+"reversal",
+"overdraft",
+"collateral",
+"liquidation"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A reversal cancels a wrong debit and returns the money to the customer's account, which is what Adaeze needed. Overdraft, collateral and liquidation refer to unrelated banking concepts.",
+"id": "engx17015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Reversal na when bank cancel wrong money wey dem remove from account and return am to owner, na im Adaeze go find. Overdraft, collateral and liquidation na different bank grammar."
+},
+{
+"q": "Choose the option that best completes the gap: Counsel for the defence raised an _____ to the admission of the document, arguing that it had been obtained unlawfully.",
+"options": [
+"affidavit",
+"objection",
+"adjournment",
+"indictment"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "An objection is a formal protest raised by a lawyer against evidence or procedure during a trial, which fits the scenario of challenging the document's admission. An affidavit is a sworn statement, an adjournment postpones proceedings, and an indictment formally charges someone with a crime, none of which match raising a protest against evidence.",
+"values": null,
+"id": "engx17016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Objection na when lawyer shout for court say make dem no take evidence because dem pack am through illegal way. Affidavit, adjournment and indictment get dia own different meaning for law."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap: In legal practice, a document by which a person states in writing how his property should be shared after his death is called a _____.",
+"options": [
+"warrant",
+"will",
+"writ",
+"ward"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A will is the legal document stating how a person's property should be distributed after death. A warrant authorises an arrest, a writ commences legal action, and a ward refers to a person under guardianship.",
+"id": "engx17012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Choose the option that best completes the gap: A footballer who deliberately handles the ball inside his own penalty area to stop a certain goal will concede a _____ to the opposing team.",
+"options": [
+"corner kick",
+"free kick outside the box",
+"penalty kick",
+"throw-in"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Handling the ball inside the penalty area by a defending player results in a penalty kick, a direct shot from the penalty spot. A corner kick and throw-in are restarts unrelated to fouls inside the box, and a free kick outside the box would be wrong since the offence happened inside the area.",
+"id": "engx17017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Does not exclude the goalkeeper, who may legally handle the ball in that area.|"
+}
+]
+}

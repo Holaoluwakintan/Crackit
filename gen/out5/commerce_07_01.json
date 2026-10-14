@@ -1,0 +1,190 @@
+{
+"subject": "commerce",
+"topic": "Money: evolution, functions and qualities",
+"ti": 7,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A civil servant wants to buy a used generator from a mechanic, but the mechanic does not need any of the services the civil servant can offer. This situation best illustrates which major weakness of the barter system?",
+"options": [
+"Absence of a store of value",
+"Lack of double coincidence of wants",
+"Indivisibility of goods for exchange",
+"Lack of a common measure of value"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Barter requires that each party wants exactly what the other is offering. Since the mechanic has no need for the civil servant's services, there is no double coincidence of wants, so the exchange cannot take place.",
+"py": null,
+"values": null,
+"id": "comx07010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Barter system dey hard because both people must want wetin each person get. Since the mechanic no need the civil servant work, the exchange no fit happen."
+},
+{
+"q": "A bank grants Mrs Bello a loan of ₦200,000 to be repaid in full after one year with interest. The agreement to repay a fixed naira amount in the future, rather than goods, best illustrates which function of money?",
+"options": [
+"Standard for deferred payment",
+"Measure of value",
+"Medium of exchange",
+"Store of value"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Money allows debts and future obligations to be stated and settled in fixed monetary terms. Because the loan agreement fixes a naira amount to be repaid later, money is acting as a standard for deferred payment.",
+"py": null,
+"values": null,
+"id": "comx07012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Money dey allow people to settle debt for future time. Because the loan agreement fix the naira amount to pay back later, money dey act as standard for deferred payment."
+},
+{
+"q": "Chidinma sells her smartphone for ₦60,000 cash but does not spend it immediately; instead she keeps it in a safe for three months before using it to pay her brother's school fees. Which function of money is being demonstrated by her keeping the cash unspent?",
+"options": [
+"Store of value",
+"Unit of account",
+"Medium of exchange",
+"Standard for deferred payment"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Money that is held without losing its purchasing power over time, ready to be used later, is performing the store of value function. Chidinma is simply saving the cash for future use rather than exchanging it or measuring worth.",
+"py": null,
+"values": null,
+"id": "comx07013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When you keep money for long time without e lose value, you dey use am as store of value. Chidinma just dey save the cash so she go fit use am later."
+},
+{
+"q": "Why is gold, rather than perishable farm produce like tomatoes, considered more suitable to serve as a form of money in a trading community?",
+"options": [
+"Gold is more acceptable to foreign traders only",
+"Gold can be divided into smaller pieces without losing value",
+"Gold does not decay or deteriorate over a long period",
+"Gold is produced in larger quantities than tomatoes"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "A good form of money must be durable so that it can be stored and used over time without spoiling. Tomatoes rot quickly and lose value, while gold remains unchanged for very long periods, making it more suitable as money.",
+"py": null,
+"values": null,
+"id": "comx07014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Money suppose dey durable so e no go spoil quick. Tomato go rot fast, but gold go stay for long time without spoil, so e better pass tomato."
+},
+{
+"q": "Which of the following best explains why government-issued currency notes are generally accepted as money throughout a country, unlike privately printed vouchers?",
+"options": [
+"They are made from specially imported paper",
+"They are backed by legal tender status granted by the government",
+"They can be exchanged only within one state",
+"They are produced in unlimited quantities by banks"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Legal tender status means the law compels citizens to accept the currency in settlement of debts, giving it general acceptability nationwide. Private vouchers lack this legal backing, so sellers may refuse them.",
+"py": null,
+"values": null,
+"id": "comx07015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Legal tender mean say law talk say everybody must accept the money for payment. Because government back the currency, people must collect am, unlike private paper."
+},
+{
+"q": "A trader in Kano is given the choice between accepting payment in a foreign currency that fluctuates sharply in value every week, or in the local naira which has been relatively steady. If the trader prefers the naira for this reason, which quality of money is he most concerned about?",
+"options": [
+"Portability",
+"Stability of value",
+"Homogeneity",
+"Cognisability"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Stability of value means money should keep a fairly constant purchasing power over time. The trader avoids the fluctuating foreign currency because its unstable value makes it unreliable for pricing and saving.",
+"py": null,
+"values": null,
+"id": "comx07016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Stability of value mean say money purchasing power no suppose dey jump up and down. The trader no want the foreign currency because the value dey change too much."
+},
+{
+"q": "A market woman weighs out and sells gold dust to buyers in small quantities to match the exact value of goods being bought, without any piece losing its worth when cut. This practice best illustrates which quality that money must possess?",
+"options": [
+"Scarcity",
+"Durability",
+"Divisibility",
+"Acceptability"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Divisibility means money can be broken into smaller units without losing its total value, which allows exact amounts to be paid for goods of different prices. Cutting the gold dust into smaller quantities for transactions shows this quality.",
+"py": null,
+"values": null,
+"id": "comx07017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Divisibility mean say you fit cut money into small-small pieces without e lose value. The woman fit cut the gold dust to match the price of wetin she dey sell."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Okonkwo wants to compare the worth of a goat, a basket of yams and a bag of cement, all priced in naira, in order to decide which to sell first. Which function of money is he making use of?",
+"options": [
+"Medium of exchange",
+"Standard for deferred payment",
+"Store of value",
+"Measure of value",
+"Unit of account"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "When money is used to express and compare the prices of different goods in common units, it is performing its function as a measure of value, which allows Okonkwo to rank the goods by worth.",
+"py": null,
+"values": null
+},
+"why": "bad-shape"
+}
+]
+}

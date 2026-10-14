@@ -1,0 +1,180 @@
+{
+"subject": "biology",
+"topic": "Evolution: theories and evidence",
+"ti": 19,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A farmer in Kano noticed that a species of weevil found in his grain store existed in two forms: a reddish-brown form and a dark form. Over several years, the dark form became more common after the store was painted black inside. This change in colour proportion within the population over time is best described as a demonstration of which concept?",
+"options": [
+"Biogenesis",
+"Organic evolution",
+"Spontaneous generation",
+"Special creation"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A gradual change in the characteristics of a population over successive generations, such as the shift in colour proportions, is the basic definition of organic evolution. The other terms do not describe gradual change in a population.",
+"id": "biox19000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As small small change dey happen inside population over time, na im dem dey call organic evolution. Di way di colour shift show say evolution dey happen."
+},
+{
+"q": "Which of the following statements correctly describes the theory of biogenesis as opposed to the theory of spontaneous generation (abiogenesis)?",
+"options": [
+"Living things can arise suddenly from non-living matter under suitable conditions",
+"Living things can only arise from pre-existing living things",
+"Simple organic molecules formed spontaneously in the primitive atmosphere and later combined to form life",
+"Life first appeared on earth as a result of chemical evolution in the oceans"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Biogenesis states that life only comes from already existing life, unlike spontaneous generation which claims life arises from non-living matter. The other options describe ideas related to chemical or spontaneous origin of life, not biogenesis.",
+"id": "biox19001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Biogenesis dey talk say life dey only come from another life wey don dey before. E no be like spontaneous generation wey dey talk say life fit just burst up from ordinary dirt."
+},
+{
+"q": "A student compares the bones in the forelimb of a lizard, the wing of a bird and the arm of a man and finds that all three have the same basic arrangement of bones, though modified for different functions. Which term best describes these structures?",
+"options": [
+"Analogous structures",
+"Vestigial structures",
+"Homologous structures",
+"Convergent structures"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Structures that have the same basic origin and arrangement but are modified for different functions in different organisms are called homologous structures. Analogous and convergent structures refer to similar function but different origin, which is not the case here.",
+"id": "biox19002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If body part get di same original structure but dem dey do different work, na homologous structures we dey call am. Di bone arrangement show say dem get common ancestor."
+},
+{
+"q": "In a certain isolated bacterial population of 1,000,000 cells, a random mutation conferring resistance to a toxin arises in only one cell. Which condition would most favour this new allele becoming common in the population within a few generations?",
+"options": [
+"The toxin is completely removed from the environment immediately",
+"The mutation provides no advantage under the existing conditions",
+"The toxin remains present, strongly reducing survival of non-resistant cells",
+"The population size increases rapidly without any exposure to the toxin"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "For a rare favourable mutation to spread quickly, there must be strong selective pressure that kills or reduces the non-resistant individuals, giving the resistant ones a survival and reproductive advantage. Removing the toxin or having no advantage would not favour the spread of the allele.",
+"id": "biox19003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For one new gene to quick spread, wahala must dey wey go kill di ones wey no get di gene. If di toxin dey ground, di resistant cells go survive and born plenty."
+},
+{
+"q": "According to Charles Darwin's theory of natural selection, which of the following best explains how long-necked giraffes became the dominant form in a population of giraffes with varying neck lengths?",
+"options": [
+"Giraffes stretched their necks over their lifetime to reach high leaves and passed this acquired trait to offspring",
+"Giraffes with longer necks already existed as natural variation and were better able to survive and reproduce when food was scarce",
+"All giraffes developed longer necks simultaneously in response to environmental need",
+"Short-necked giraffes deliberately avoided mating to allow long-necked giraffes to dominate"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Darwin proposed that variation already exists naturally in a population, and individuals best suited to the environment survive and reproduce more, passing on their traits. The idea of stretching necks and passing on acquired traits belongs to Lamarck's theory, not Darwin's.",
+"id": "biox19004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Darwin talk say natural variation dey already, and di ones wey fit survive di condition na dem dey live long to born pikin. Na nature select di long-necked ones, no be say dem stretch neck."
+},
+{
+"q": "Which of the following pieces of evidence for evolution relies specifically on comparing the geographical distribution of similar and related species across different continents and islands?",
+"options": [
+"Comparative anatomy",
+"Biogeography",
+"Comparative biochemistry",
+"Embryological development"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Biogeography studies the distribution of organisms across different regions of the world and uses patterns such as related species on separate continents as evidence for common ancestry and evolution. The other options rely on structure, chemistry, or development rather than geographic distribution.",
+"id": "biox19006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Biogeography na di study of how animals and plants spread across different places for world. E dey show how related species land for different continents."
+},
+{
+"q": "A geneticist studying two groups of lizards separated for thousands of years on different islands finds that although they look slightly different, they can still interbreed and produce fertile offspring when brought together. Based on the biological species concept, what can be concluded about these two groups?",
+"options": [
+"They have evolved into two completely new species",
+"They are still considered the same species since they can interbreed and produce fertile offspring",
+"They are separate species because they developed on different islands",
+"They are hybrids that cannot reproduce further"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The biological species concept defines a species as a group of organisms capable of interbreeding and producing fertile offspring. Since the two lizard groups can still do this despite physical differences, they remain the same species, not separate or new species.",
+"id": "biox19007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "According to biology, once two animals fit mate and born pikin wey fit also born, dem still be di same species. Even if dem stay different island, as dem fit reproduce together, dem still be one."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A population of 500 land snails has shells of two colours, brown and yellow, controlled by a single gene with brown dominant. If 36% of the snails are yellow (homozygous recessive) and the population is in Hardy-Weinberg equilibrium, what percentage of the population is expected to be heterozygous for shell colour?",
+"options": [
+"16%",
+"42%",
+"48%",
+"64%"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "If q^2 = 0.36, then q = 0.6 and p = 1 - 0.6 = 0.4. Heterozygotes = 2pq = 2 x 0.4 x 0.6 = 0.48, which is 48%.",
+"id": "biox19005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "off"
+}
+},
+"why": "standard:off:Hardy–Weinberg calculations are beyond the JAMB Biology syllabus."
+}
+]
+}

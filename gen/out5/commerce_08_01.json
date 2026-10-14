@@ -1,0 +1,205 @@
+{
+"subject": "commerce",
+"topic": "Insurance: principles and types",
+"ti": 8,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is NOT one of the generally recognised classes of insurance practised in Nigeria?",
+"options": [
+"Life assurance",
+"Marine insurance",
+"Fire insurance",
+"Speculative insurance"
+],
+"answer": "D",
+"difficulty": "easy",
+"explanation": "Insurance covers pure risk where loss is possible but not certain, so it cannot cover speculative risk where there is a chance of gain or loss. Life, marine and fire insurance are all standard recognised classes.",
+"py": null,
+"values": null,
+"id": "comx08010",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Insurance dey cover pure risk wey fit cause loss but no fit give gain. Speculative risk no be insurance matter because gain fit dey. Na why dem no dey recognise speculative insurance."
+},
+{
+"q": "Mr Bello's shop was destroyed by flood. Before the insurance company pays his claim, it sends an assessor to determine the exact cause and amount of loss. This process is called:",
+"options": [
+"Underwriting",
+"Subrogation",
+"Loss assessment",
+"Premium rating"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Loss assessment is the process of investigating and determining the actual value of a claim before payment is made. Underwriting relates to accepting risk, while subrogation concerns recovering losses from a third party.",
+"py": null,
+"values": null,
+"id": "comx08011",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Loss assessment na di work wey dem dey do to check how much loss happen before dem pay claim. Underwriting na to accept risk, no be to check loss. Na loss assessment be di correct name for wetin dem do for Mr Bello shop."
+},
+{
+"q": "Which type of life policy pays a benefit to the insured's beneficiaries if death occurs within a stated period, but pays nothing if the insured survives beyond that period?",
+"options": [
+"Whole life policy",
+"Term assurance policy",
+"Endowment policy",
+"Annuity policy"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Term assurance only pays out if death occurs within the agreed period and has no maturity value if the person survives. Whole life and endowment policies, unlike term assurance, guarantee a payout eventually or at maturity.",
+"py": null,
+"values": null,
+"id": "comx08013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Term assurance na policy wey only pay if person die within di time wey dem agree. If di person survive pass dat time, dem no go pay anything. E different from whole life or endowment policy wey get maturity value."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A trader insures his goods worth ₦2,000,000 for only ₦800,000. If the goods are destroyed completely, the principle that will determine how his claim is settled is best described as:",
+"options": [
+"Indemnity",
+"Contribution",
+"Average clause",
+"Insurable interest"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The average clause applies when property is under-insured, so the insurer pays only in proportion to the ratio of the sum insured to the full value of the property, not the full loss. This prevents the insured from gaining by paying a lower premium yet claiming full compensation.",
+"py": null,
+"values": null,
+"id": "comx08012",
+"check": {
+"s1": "C",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+},
+{
+"q": {
+"q": "A manufacturing company takes a policy to protect itself against financial loss arising from a key employee's dishonesty or negligence in handling company funds. This is best described as:",
+"options": [
+"Fidelity guarantee insurance",
+"Employer's liability insurance",
+"Consequential loss insurance",
+"Goods in transit insurance"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Fidelity guarantee insurance protects an employer against loss caused by the dishonesty, fraud or negligence of employees handling money or valuables. The other options cover injury to employees, loss of profit after damage, and goods being moved respectively.",
+"py": null,
+"values": null,
+"id": "comx08014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Fidelity guarantee covers dishonesty, not ordinary negligence.|"
+},
+{
+"q": {
+"q": "Which of the following best explains why insurance companies charge higher premiums to younger smokers for life assurance compared to older non-smokers of the same income group?",
+"options": [
+"Premiums are based strictly on the age of the policyholder alone",
+"Premiums reflect the degree of risk the insurer is likely to bear",
+"Smokers are legally required to pay more for all insurance types",
+"Premium rates are fixed by government regardless of risk"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Insurance premiums are determined mainly by the level of risk involved; smoking increases health risk and therefore the likelihood of an early claim, raising the premium regardless of comparative age. This shows that risk assessment, not age or law alone, drives premium pricing.",
+"py": null,
+"values": null,
+"id": "comx08015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:A younger smoker need not pay more than an older non-smoker.|"
+},
+{
+"q": {
+"q": "The document issued by an insurance company showing the terms and conditions of a contract of insurance, which the insured must examine carefully before signing, is called the:",
+"options": [
+"Cover note",
+"Policy document",
+"Proposal form",
+"Premium receipt"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The policy document contains the full terms, conditions and details of the insurance contract agreed upon by both parties. A cover note only gives temporary protection before the main policy is issued, while a proposal form is filled before acceptance.",
+"py": null,
+"values": null,
+"id": "comx08016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:A policy document is generally issued after the contract is made, not before signing.|"
+},
+{
+"q": {
+"q": "A fleet owner insures 5 identical delivery vans, each valued at ₦1,500,000, under one single policy covering the whole fleet against accident. If two vans are involved in separate accidents in the same year and are both totally damaged, what total amount should the insurer pay as compensation, assuming the principle of indemnity is strictly applied and no average clause applies?",
+"options": [
+"₦1,500,000",
+"₦3,000,000",
+"₦4,500,000",
+"₦7,500,000"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Under the principle of indemnity, the insurer restores the insured to the exact financial position before the loss, no more and no less. Since two vans worth ₦1,500,000 each were totally damaged, the insurer pays 2 times 1,500,000 which equals ₦3,000,000.",
+"py": "2*1500000",
+"values": [
+1500000,
+3000000,
+4500000,
+7500000
+],
+"id": "comx08017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:The policy's sum insured or coverage limit is not stated.|Indemnity requires restoring the insured to the position before the loss; two vans at 1.5m each equals 3m."
+}
+]
+}

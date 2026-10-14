@@ -1,0 +1,208 @@
+{
+"subject": "accounting",
+"topic": "Trial balance, errors and suspense account",
+"ti": 7,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which type of error occurs when a transaction is recorded using the wrong class of account, for example treating a capital expenditure as a revenue expenditure?",
+"options": [
+"Error of principle",
+"Error of commission",
+"Error of original entry",
+"Compensating error"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "An error of principle happens when an entry breaks accounting rules by placing a transaction in the wrong class of account, such as recording capital items as expenses. Error of commission involves posting to a wrong account of the same class, which is different.",
+"py": null,
+"values": null,
+"id": "accx07010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Error of principle dey happen when person break accounting rule by putting transaction inside wrong class of account, like when you record capital item as ordinary expense. Error of commission different because na to put am inside another account wey belong to the same class."
+},
+{
+"q": "Okonkwo's bookkeeper recorded a purchase of goods worth ₦7,200 as ₦2,700 in both the Purchases account and Bello's (supplier) account. What type of error is this?",
+"options": [
+"Error of original entry",
+"Error of commission",
+"Error of principle",
+"Error of complete reversal"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Since the wrong figure (₦2,700 instead of ₦7,200) was used consistently in both accounts, this is an error of original entry. The trial balance still balances because both sides were equally understated.",
+"py": null,
+"values": null,
+"id": "accx07011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because dem use the wrong figure of ₦2,700 instead of ₦7,200 inside both accounts, na error of original entry be that. Trial balance still go balance because both sides reduce by the same amount."
+},
+{
+"q": "In Chidinma's ledger, a total of ₦12,000 was posted to the debit side of the Sales account instead of the credit side. What effect will this have on the trial balance?",
+"options": [
+"The trial balance will disagree by ₦24,000",
+"The trial balance will disagree by ₦12,000",
+"The trial balance will still agree",
+"The trial balance will disagree by ₦6,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Posting a credit entry to the debit side means the debit column is overstated by ₦12,000 while the credit column loses ₦12,000 it should have had, creating a total difference of ₦12,000 + ₦12,000 = ₦24,000. This is called an error of complete reversal.",
+"py": "12000+12000",
+"values": [
+24000,
+12000,
+0,
+6000
+],
+"id": "accx07012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If you put credit entry for debit side, debit column go surplus by ₦12,000 and credit column go lose ₦12,000 wey e suppose get. When you join the two together, na ₦12,000 plus ₦12,000 wey give you ₦24,000 difference."
+},
+{
+"q": "Which of the following statements correctly describes the nature of a suspense account?",
+"options": [
+"It is a permanent account that appears in the final published accounts every year",
+"It is a temporary account used to balance the trial balance until errors are located and corrected",
+"It is an account used to record all cash transactions of a business",
+"It is an account that shows the total capital contributed by the owner of a business"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A suspense account is only a temporary holding account opened when a trial balance fails to balance, so that the accountant can proceed with preparing accounts while searching for the error. Once the error is found, it is corrected and the suspense account is closed.",
+"py": null,
+"values": null,
+"id": "accx07014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Suspense account na temporary account wey dem dey open only when trial balance no balance, so accountant fit continue work while dem dey find the error. Once dem see the error, dem go close the suspense account."
+},
+{
+"q": "A trader's trial balance disagreed and a suspense account was opened. Later it was discovered that a discount allowed of ₦1,500 had been correctly entered in the cash book but had not been posted to the Discount Allowed account at all. Which journal entry correctly corrects this error?",
+"options": [
+"Debit Suspense account ₦1,500; Credit Discount Allowed account ₦1,500",
+"Debit Discount Allowed account ₦1,500; Credit Suspense account ₦1,500",
+"Debit Discount Allowed account ₦1,500; Credit Cash Book ₦1,500",
+"Debit Cash Book ₦1,500; Credit Discount Allowed account ₦1,500"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since the cash book was already correctly entered but the Discount Allowed account was never posted, the correction is to debit Discount Allowed (since it is an expense that reduces profit) and credit the Suspense account to balance the missing side. This closes the gap caused by the one-sided omission.",
+"py": null,
+"values": null,
+"id": "accx07015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Since cash book correct but dem forget Discount Allowed account, you need to debit Discount Allowed account ₦1,500 and credit Suspense account ₦1,500. This one go clear the missing one-sided error."
+},
+{
+"q": "Which one of the following errors is correctly classified as an error of commission?",
+"options": [
+"Recording the purchase of a delivery motorcycle as an ordinary motor running expense",
+"Posting a payment correctly received from Grace but wrongly entered in Gloria's account, another customer",
+"Failing to record a cash sale of ₦3,000 anywhere in the books",
+"Recording a sale of ₦4,000 on both sides of the ledger as ₦400"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "An error of commission occurs when an entry is posted to the wrong personal account of the correct class, such as crediting Gloria instead of Grace for a payment received. The other options describe errors of principle, omission, and original entry respectively.",
+"py": null,
+"values": null,
+"id": "accx07016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Error of commission dey happen when you post transaction to wrong personal account inside the correct class, like putting money inside Gloria account instead of Grace. The other options na error of principle, omission, and original entry."
+},
+{
+"q": "After extracting his trial balance, Emeka found that a sale of goods for ₦9,000 to a customer, Tunde, had been correctly entered in the Sales account but had never been posted to Tunde's account. Before this error is found, in which financial statement would a suspense account balance most likely appear?",
+"options": [
+"In the Trading account as part of cost of sales",
+"In the Statement of Financial Position (Balance Sheet) until the error is corrected",
+"In the Statement of Profit or Loss as an expense",
+"In the Cash Flow Statement under financing activities"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A suspense account balance is a temporary difference that is shown in the Statement of Financial Position, usually as a debit balance similar to an asset, until the underlying error causing it is located and corrected. It does not affect the Trading or Profit or Loss account directly.",
+"py": null,
+"values": null,
+"id": "accx07017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Suspense account balance na temporary thing wey dey show for Statement of Financial Position until dem find and correct the error. E no dey affect Trading or Profit or Loss account directly."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A trial balance extracted by an SS3 student showed total debits of ₦185,000 and total credits of ₦179,300. What entry should be made to balance the trial balance temporarily?",
+"options": [
+"Debit suspense account with ₦5,700",
+"Credit suspense account with ₦5,700",
+"Debit suspense account with ₦185,000",
+"Credit suspense account with ₦179,300"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since the credit side is short by ₦185,000 minus ₦179,300 equals ₦5,700, a suspense account is credited with ₦5,700 to make both sides equal. This temporary entry allows the trial balance to balance while the actual error is being traced.",
+"py": "185000-179300",
+"values": [
+5700,
+5700,
+185000,
+179300
+],
+"id": "accx07013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "duplicate-value"
+}
+},
+"why": "python:duplicate-value"
+}
+]
+}

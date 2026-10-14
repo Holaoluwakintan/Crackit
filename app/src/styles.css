@@ -248,6 +248,7 @@ h3+.bar{border-top:0}
 .goal-ring b{width:44px;height:44px;border-radius:50%;background:var(--card);display:grid;place-items:center;font-weight:800;font-size:17px;color:var(--g)}
 .goal-txt{flex:1;display:flex;flex-direction:column;gap:3px;min-width:0}
 .goal-txt span{font-size:13.5px;color:var(--mut)}
+.goal-txt small{font-size:12px;line-height:1.35}
 .linkbtn{border:0;background:transparent;padding:0;color:var(--g2);font-weight:700;font-size:13px;cursor:pointer;text-align:left;text-decoration:underline}
 .duo{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .tile{display:flex;flex-direction:column;gap:2px;text-decoration:none;color:var(--ink);min-height:76px}

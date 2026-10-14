@@ -1,0 +1,231 @@
+{
+"subject": "chemistry",
+"topic": "Kinetic theory and gas laws",
+"ti": 1,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A sealed rigid container holds a fixed mass of gas at 27°C and a pressure of 1.5 atm. If the container is heated until the pressure becomes 2.5 atm, what is the new temperature in Kelvin?",
+"options": [
+"300 K",
+"500 K",
+"180 K",
+"450 K"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since the container is rigid, volume is constant, so Gay-Lussac's law applies: P1/T1 = P2/T2. T1 = 300 K, so T2 = 300 x (2.5/1.5) = 500 K.",
+"py": "300*(2.5/1.5)",
+"values": [
+300,
+500,
+180,
+450
+],
+"id": "chex01001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Because the container no dey change size, we use Gay-Lussac's law. We convert 27°C to 300 K, then calculate the new pressure ratio to get 500 K."
+},
+{
+"q": "Which of the following statements correctly relates the average kinetic energy of gas molecules to temperature, according to the kinetic theory of gases?",
+"options": [
+"Average kinetic energy is directly proportional to the absolute temperature",
+"Average kinetic energy is inversely proportional to the absolute temperature",
+"Average kinetic energy depends only on the pressure of the gas",
+"Average kinetic energy is the same for all gases regardless of temperature"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A key postulate of the kinetic theory is that the average kinetic energy of gas molecules is directly proportional to the absolute (Kelvin) temperature of the gas. This is why heating a gas makes its molecules move faster on average.",
+"py": null,
+"values": null,
+"id": "chex01002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Kinetic theory talk say average kinetic energy dey directly proportional to temperature. As you heat the gas, the molecules go dey move faster."
+},
+{
+"q": "A 2.0 dm3 flask contains 0.080 mole of an ideal gas at a certain temperature. What is the concentration of the gas in mol/dm3?",
+"options": [
+"0.020 mol/dm3",
+"0.040 mol/dm3",
+"0.160 mol/dm3",
+"0.004 mol/dm3"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Concentration is simply moles divided by volume: 0.080 mole / 2.0 dm3 = 0.040 mol/dm3. This is a straightforward application of the concentration formula, not requiring the gas equation.",
+"py": "0.080/2.0",
+"values": [
+0.02,
+0.04,
+0.16,
+0.004
+],
+"id": "chex01003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To find concentration, you just divide the number of moles by the volume. 0.080 mole divide by 2.0 dm3 give us 0.040 mol/dm3."
+},
+{
+"q": "A balloon contains 3.0 dm3 of gas at 1.2 atm and 290 K. If the gas is transferred to a condition of 0.80 atm and 310 K, what is its new volume (in dm3)?",
+"options": [
+"3.00 dm3",
+"4.81 dm3",
+"2.03 dm3",
+"6.30 dm3"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Using the general gas equation P1V1/T1 = P2V2/T2: V2 = (P1V1T2)/(T1P2) = (1.2 x 3.0 x 310)/(290 x 0.80) = 1116/232 = 4.81 dm3. Both pressure decrease and temperature increase act to raise the volume.",
+"py": "(1.2*3.0*310)/(290*0.80)",
+"values": [
+3.0,
+4.81,
+2.03,
+6.3
+],
+"id": "chex01004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use the general gas equation P1V1/T1 = P2V2/T2 to solve this. When we put the numbers inside, we get 4.81 dm3 as the new volume."
+},
+{
+"q": "Which of the following best explains why real gases deviate from ideal gas behaviour at low temperatures?",
+"options": [
+"The volume of gas molecules becomes negligible compared to the container volume",
+"Intermolecular forces of attraction become significant as molecules move closer and slower",
+"The gas molecules undergo perfectly elastic collisions only",
+"The kinetic energy of the molecules increases sharply"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "At low temperatures, gas molecules move slowly and come closer together, so the attractive forces between them become significant. This causes the gas to deviate from the ideal behaviour assumed by the kinetic theory, which ignores intermolecular forces.",
+"py": null,
+"values": null,
+"id": "chex01006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When temperature low, gas molecules dey move slow and come near each other. This make the attractive forces between them strong, so they no dey behave like ideal gas again."
+},
+{
+"q": "A 500 cm3 sample of an ideal gas at 1.0 atm and 300 K is compressed to 200 cm3 while the temperature is raised to 450 K. Calculate the new pressure of the gas.",
+"options": [
+"1.50 atm",
+"2.50 atm",
+"3.75 atm",
+"0.60 atm"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "Apply the combined gas law: P1V1/T1 = P2V2/T2. P2 = (P1V1T2)/(V2T1) = (1.0 x 500 x 450)/(200 x 300) = 225000/60000 = 3.75 atm. Both compression and heating increase the pressure substantially.",
+"py": "(1.0*500*450)/(200*300)",
+"values": [
+1.5,
+2.5,
+3.75,
+0.6
+],
+"id": "chex01007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "We use the combined gas law P1V1/T1 = P2V2/T2 to find the new pressure. After we arrange the formula and calculate, we get 3.75 atm."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A fixed mass of an ideal gas occupies 2.5 dm3 at 25°C. At what temperature (in °C) will the volume become 3.5 dm3 if the pressure remains constant?",
+"options": [
+"144.2°C",
+"417.2°C",
+"167.0°C",
+"25.0°C"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Using Charles' law, V1/T1 = V2/T2, with T1 = 298 K. So T2 = 298 x (3.5/2.5) = 417.2 K, which is 417.2 - 273 = 144.2°C. The temperature must rise because the volume increased at constant pressure.",
+"py": "298*(3.5/2.5) - 273",
+"values": [
+144.2,
+417.2,
+167.0,
+25.0
+],
+"id": "chex01000",
+"check": {
+"s1": "A",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:B"
+},
+{
+"q": {
+"q": "In an experiment, hydrogen gas diffuses through a porous plug in 15 seconds. Under the same conditions, an unknown gas Z takes 45 seconds to diffuse through the same plug. If the relative molecular mass of hydrogen is 2, what is the relative molecular mass of gas Z?",
+"options": [
+"6",
+"9",
+"18",
+"2"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "By Graham's law, rate1/rate2 = sqrt(M2/M1). Rate is inversely proportional to time, so (45/15) = sqrt(Mz/2). Squaring both sides: 9 = Mz/2, giving Mz = 18.",
+"py": "2*(45/15)**2",
+"values": [
+6,
+9,
+18,
+2
+],
+"id": "chex01005",
+"check": {
+"s1": "C",
+"s2": "X",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:X"
+}
+]
+}

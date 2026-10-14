@@ -1,0 +1,194 @@
+{
+"subject": "commerce",
+"topic": "Business units: joint stock companies, cooperatives and public enterprises",
+"ti": 12,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A private limited liability company registered under the Companies and Allied Matters Act must have its membership restricted to a maximum of:",
+"options": [
+"20 members",
+"50 members",
+"100 members",
+"Unlimited members"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Under Nigerian company law, a private limited company is restricted to a maximum of 50 members, excluding current employees who are also members. This distinguishes it from a public company which can have unlimited members.",
+"py": null,
+"values": null,
+"id": "comx12000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Under Naija company law, private limited company must not pass 50 members, not counting workers wey join body. Dem dey do dis one to separate am from public company wey fit get plenty members."
+},
+{
+"q": "Before a joint stock company can legally commence business as a corporate body, it must first obtain which document from the Corporate Affairs Commission?",
+"options": [
+"Memorandum of understanding only",
+"Certificate of incorporation",
+"Trading licence from the local government",
+"Tax clearance certificate"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The certificate of incorporation is issued after registration and gives the company its legal existence as a separate entity. Without it, the company cannot sue, be sued, or own property in its own name.",
+"py": null,
+"values": null,
+"id": "comx12001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na certificate of incorporation dem dey give company after registration make e get legal power to stand alone. Without dis paper, company no fit sue person, court no fit sue am, nor make e own property for im own name."
+},
+{
+"q": "Chidi wants to start a business that will allow him to raise large capital by selling shares to the general public through the stock exchange. Which type of business unit should he form?",
+"options": [
+"Private limited liability company",
+"Public limited liability company",
+"Cooperative society",
+"Sole proprietorship"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A public limited liability company can advertise its shares and sell them to the general public through the stock exchange, allowing it to raise large amounts of capital. Private companies and cooperatives cannot offer shares to the public in this way.",
+"py": null,
+"values": null,
+"id": "comx12002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Public limited liability company na im be the correct choice because dem get power to sell shares to anybody for stock exchange to gather big money. Private companies and cooperatives no fit sell shares like dat to public."
+},
+{
+"q": "A cooperative society differs from a joint stock company mainly in the way profit is shared because cooperative surplus is usually distributed based on:",
+"options": [
+"The number of shares a member bought",
+"The volume of business a member transacted with the society",
+"The length of time a member has been registered",
+"Equal sharing regardless of any participation"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In cooperative societies, surplus (dividend) is shared mainly according to the amount of patronage or business each member transacted with the society, not according to capital invested. This reflects the cooperative principle of mutual self-help rather than capital reward.",
+"py": null,
+"values": null,
+"id": "comx12003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For cooperative society, dem dey share surplus based on how much business person do with dem, and not how much money im put. Na im make cooperative different from ordinary joint stock company."
+},
+{
+"q": "Which of the following best describes a public enterprise as used in business studies?",
+"options": [
+"A business owned and controlled by a single family",
+"A business wholly or partly owned and controlled by government",
+"A business formed by a group of traders for mutual benefit",
+"A business whose shares are traded only among friends"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A public enterprise is a business organisation that is wholly or partly owned, financed and controlled by government, set up to provide essential goods or services. Examples include statutory corporations and government-owned companies.",
+"py": null,
+"values": null,
+"id": "comx12004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Public enterprise na business wey government own full body or half-half to help provide important things for citizens. Examples na government corporations and companies wey government get hand inside."
+},
+{
+"q": "The management structure of a typical joint stock company includes shareholders, a board of directors, and management staff. Which of these correctly describes the relationship among them?",
+"options": [
+"Shareholders manage daily operations while directors only attend annual meetings",
+"Shareholders elect directors who set policy, and management staff implement the policy",
+"Management staff appoint directors who in turn appoint shareholders",
+"Directors and shareholders are the same group with identical duties"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "In a joint stock company, shareholders who own the company elect a board of directors to formulate policy on their behalf, while employed management staff handle the day-to-day running of the business according to that policy. This separation of ownership and control is a defining feature of joint stock companies.",
+"py": null,
+"values": null,
+"id": "comx12005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For joint stock company, shareholders wey own the business go vote board of directors to make rules, and management staff go now run the work everyday. Dis one show say people wey own am dey different from people wey dey run am."
+},
+{
+"q": "A group of 40 civil servants in Lagos contributed money monthly, registered formally, and now use the pooled fund to grant each other low-interest loans and buy goods in bulk for resale to members at fair prices. This arrangement is best classified as a:",
+"options": [
+"Public limited liability company",
+"Statutory corporation",
+"Cooperative society",
+"Partnership business"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Pooling resources voluntarily for mutual benefit, such as granting loans and bulk buying for members, is the hallmark of a cooperative society. It is based on self-help and democratic member control rather than profit maximisation for outside investors.",
+"py": null,
+"values": null,
+"id": "comx12006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When people join hand save money, give themselves low-interest loan, and buy things join body for members, na cooperative society be that. E dey base on self-help and make life easy for members, no be just to make wicked gain."
+},
+{
+"q": "A key distinguishing feature of a statutory corporation, compared with a privately registered joint stock company, is that the statutory corporation is:",
+"options": [
+"Registered under the Companies and Allied Matters Act like private firms",
+"Created directly by an Act of the National Assembly or a similar law",
+"Owned entirely by foreign shareholders by law",
+"Required to distribute all its profit to private shareholders"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A statutory corporation is established by a specific Act of parliament or similar legislation, which defines its powers, functions and structure, unlike a joint stock company which is incorporated under general company law. This legal origin gives it a distinct status and often a monopoly in its area of operation.",
+"py": null,
+"values": null,
+"id": "comx12007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na special Act of the National Assembly dem take dey create statutory corporation, unlike normal companies wey dem dey register under company law. Dis law wey create am na im dey give am im special power and duties."
+}
+],
+"rejected": []
+}

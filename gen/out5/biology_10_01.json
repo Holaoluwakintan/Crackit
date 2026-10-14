@@ -1,0 +1,180 @@
+{
+"subject": "biology",
+"topic": "Growth and development, germination",
+"ti": 10,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following best defines growth in a living organism?",
+"options": [
+"A reversible increase in the number of cells without change in form",
+"An irreversible increase in size, dry mass and cell number of an organism",
+"A temporary swelling of tissues due to water uptake",
+"The ability of an organism to respond to external stimuli"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Growth is an irreversible permanent increase in size, dry mass and cell number of an organism. It is not reversible like swelling from water absorption, which only affects fresh mass temporarily.",
+"id": "biox10010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Growth na permanent increase for size, dry mass and cell number of living thing. E no dey reverse like when water make body swell up small time."
+},
+{
+"q": "A packet of garden egg seeds was sown in moist soil in Kano. Three days later, students dug up some seeds and observed that the seed coat had absorbed water and softened, but no root or shoot had yet emerged. Which stage of germination does this represent?",
+"options": [
+"Imbibition",
+"Mobilisation of food reserves",
+"Emergence of radicle",
+"Formation of plumule hook"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Imbibition is the first stage of germination in which the seed absorbs water, causing the seed coat to soften and swell before any visible growth of root or shoot occurs. Food mobilisation and radicle emergence happen after this stage.",
+"id": "biox10011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Imbibition na the first stage where seed drink water so wey the coat go soft and swell up before root or shoot come out."
+},
+{
+"q": "Which external condition, if absent, would most directly prevent a viable groundnut seed from germinating even when soil moisture and warm temperature are adequate?",
+"options": [
+"Sunlight on the soil surface",
+"Oxygen for aerobic respiration",
+"Darkness in the soil",
+"Presence of soil microorganisms"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Germinating seeds need oxygen for aerobic respiration to release the energy required for growth. Most seeds do not need light to germinate, so its absence or presence is less critical than oxygen supply.",
+"id": "biox10012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Seed need oxygen for aerobic respiration so wey dem fit get energy for growth. If oxygen no dey, seed no go germinat even if water and temperature good."
+},
+{
+"q": "A biology class compared two groups of maize seedlings. Group P was grown with adequate gibberellin activity, while Group Q had gibberellin synthesis blocked using a chemical inhibitor. After two weeks, Group Q seedlings were noticeably shorter with poor internode elongation. What does this experiment best demonstrate?",
+"options": [
+"Gibberellin promotes stem elongation by stimulating cell division and elongation",
+"Gibberellin is responsible for root initiation in seedlings",
+"Gibberellin inhibits germination of maize grains",
+"Gibberellin controls stomatal closure in leaves"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Gibberellins are known to promote stem elongation through increased cell division and cell elongation, so blocking them results in shorter seedlings with poor internode growth. The hormone is not primarily linked to root initiation or stomatal closure.",
+"id": "biox10013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Gibberellin dey help stem grow long through cell division and elongation. If you block am, the plant go short and internode growth go bad."
+},
+{
+"q": "In an epigeal type of germination such as in bean seeds, the hypocotyl elongates and arches above the soil before straightening. What is the main functional advantage of this hypocotyl hook formation?",
+"options": [
+"It allows the radicle to penetrate deeper into the soil",
+"It protects the delicate plumule from mechanical damage while pushing through the soil",
+"It increases the rate of water absorption by the cotyledons",
+"It prevents the seed coat from splitting too early"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The arched hypocotyl hook pulls the cotyledons and protects the tender plumule as it is dragged through the soil, preventing damage to the delicate shoot tip. Once above ground, the hook straightens and the plumule develops normally.",
+"id": "biox10014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "The hypocotyl hook dey protect the tender plumule make e no scatter when e dey push pass sand. When e reach up, e go straight."
+},
+{
+"q": "A student set up two identical pots of millet seedlings. Pot X received adequate nitrogen fertiliser while Pot Y received none, both under the same light, water and temperature conditions. After three weeks, Pot X plants were taller, greener and had more leaves. Which conclusion is most valid from this observation?",
+"options": [
+"Nitrogen has no effect on vegetative growth",
+"Mineral nutrients such as nitrogen influence the rate of plant growth and development",
+"Light intensity was the main factor responsible for the difference",
+"Water availability determined the difference in growth observed"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Since light, water and temperature were kept the same for both pots, the only varied factor was nitrogen supply, showing that nitrogen as a mineral nutrient affects growth rate and leaf development. The other options ignore the controlled variables in the setup.",
+"py": null,
+"values": null,
+"id": "biox10015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As water and light sama for both pots, na nitrogen wey dey inside fertilizer make pot X grow tall and green pass pot Y."
+},
+{
+"q": "A scientist measured the fresh mass, dry mass and length of a batch of germinating cowpea seeds daily for ten days. She noticed that dry mass decreased steadily for the first four days before beginning to increase afterward. What best explains this initial decrease in dry mass?",
+"options": [
+"Water is being lost continuously from the seed during this period",
+"Stored food reserves are being broken down and used up in respiration faster than new tissue is built",
+"The seed coat is shedding mass as it ruptures",
+"Minerals are leaching out of the cotyledons into the soil"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "During early germination, stored food reserves are respired to provide energy for growth before the seedling can photosynthesise, so dry mass falls as reserves are consumed. Dry mass rises again once photosynthesis begins to add new organic material faster than respiration removes it.",
+"id": "biox10016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For the beginning, seed dey use up him stored food for respiration to get energy, and that one dey make dry mass reduce before photosynthesis start."
+},
+{
+"q": "A plant physiologist plotted the growth curve of a sunflower plant from seed to maturity and obtained a sigmoid (S-shaped) curve. At which phase of this curve is the growth rate lowest and the plant approaching its maximum size, often due to limited resources and ageing?",
+"options": [
+"Lag phase",
+"Exponential (log) phase",
+"Stationary or decline phase",
+"Point of inflexion"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "In the stationary or decline phase of a sigmoid growth curve, growth rate slows down and levels off as the organism approaches maximum size, limited by factors such as nutrients, space or age. The lag and exponential phases occur earlier when growth is slow then rapid respectively.",
+"id": "biox10017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For stationary phase, growth rate slow down well well as plant reach maximum size because food, space or age don catch up with am."
+}
+],
+"rejected": []
+}

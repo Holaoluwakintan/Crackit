@@ -1,0 +1,209 @@
+{
+"subject": "accounting",
+"topic": "Public sector accounting",
+"ti": 18,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of these best describes the Consolidated Revenue Fund in Nigerian public sector accounting?",
+"options": [
+"A fund set aside strictly for paying salaries of civil servants only",
+"The main account into which virtually all government revenues are paid before authorized withdrawals",
+"A special fund used only for foreign loan repayments",
+"A reserve fund that state governments cannot access"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Consolidated Revenue Fund is the general pool into which most government revenues are paid. Withdrawals from it require proper legislative authorisation, usually through an Appropriation Act.",
+"py": null,
+"values": null,
+"id": "accx18002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Consolidated Revenue Fund na di main pot wey all government money dey enter before dem spend am. Before dem fit withdraw money from inside, dem must get proper approval from di law makers."
+},
+{
+"q": "A local government in Kogi State generated internally generated revenue (IGR) of ₦18,000,000 and received statutory allocation of ₦42,000,000 in a given month. If total recurrent expenditure for the month was ₦50,000,000, what was the surplus or deficit for the month?",
+"options": [
+"Surplus of ₦10,000,000",
+"Deficit of ₦10,000,000",
+"Surplus of ₦60,000,000",
+"Deficit of ₦8,000,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Total revenue is 18,000,000 + 42,000,000 = 60,000,000. Subtracting expenditure of 50,000,000 gives a surplus of 10,000,000.",
+"py": "18000000+42000000-50000000",
+"values": [
+10000000,
+-10000000,
+60000000,
+-8000000
+],
+"id": "accx18003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If you add 18,000,000 and 42,000,000, you go get 60,000,000 as total revenue. When you remove di 50,000,000 wey dem spend, you go remain with 10,000,000 surplus."
+},
+{
+"q": "The accounting officer in a Nigerian government ministry who is primarily responsible and answerable to the Public Accounts Committee for the proper use of public funds is the:",
+"options": [
+"Accountant-General",
+"Permanent Secretary",
+"Auditor-General",
+"Minister of Finance"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Permanent Secretary, as the accounting officer of a ministry, is personally responsible for ensuring funds are properly used and must appear before the Public Accounts Committee to explain spending.",
+"py": null,
+"values": null,
+"id": "accx18004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Permanent Secretary na di person wey dem call accounting officer for ministry. Na im get responsibility to explain how dem take spend money if Public Accounts Committee call am."
+},
+{
+"q": "Which independent officer is constitutionally empowered to examine and report on the accounts of all government ministries and departments in Nigeria, without being controlled by the executive arm?",
+"options": [
+"Accountant-General of the Federation",
+"Auditor-General for the Federation",
+"Director of Budget",
+"Chief Internal Auditor"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Auditor-General for the Federation is an independent officer who audits government accounts and reports to the National Assembly, ensuring checks on how public funds are spent.",
+"py": null,
+"values": null,
+"id": "accx18005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Auditor-General for the Federation na di person wey get power to check all government account. E no dey under executive control and e dey report wetin e see straight to National Assembly."
+},
+{
+"q": "A Federal Ministry's final accounts showed total recurrent revenue of ₦75,000,000, recurrent expenditure of ₦48,000,000, capital receipts of ₦20,000,000 and capital expenditure of ₦35,000,000 for the year. What was the overall net position for the year?",
+"options": [
+"Overall surplus of ₦12,000,000",
+"Overall deficit of ₦12,000,000",
+"Overall surplus of ₦27,000,000",
+"Overall deficit of ₦15,000,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Recurrent surplus is 75,000,000 - 48,000,000 = 27,000,000, while capital account shows a deficit of 35,000,000 - 20,000,000 = 15,000,000. Combining both gives an overall surplus of 27,000,000 - 15,000,000 = 12,000,000.",
+"py": "(75000000-48000000)-(35000000-20000000)",
+"values": [
+12000000,
+-12000000,
+27000000,
+-15000000
+],
+"id": "accx18006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Recurrent surplus na 27,000,000, but capital account get 15,000,000 deficit. When you subtract di deficit from di surplus, you go get 12,000,000 overall surplus."
+},
+{
+"q": "Which of the following is a major limitation of cash basis accounting as used in the Nigerian public sector, compared with accrual accounting?",
+"options": [
+"It makes budgeting completely impossible for government",
+"It fails to show outstanding liabilities and amounts owed to government, since only actual cash movements are recorded",
+"It requires government to maintain two separate sets of books at all times",
+"It automatically overstates government assets every year"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Under cash basis accounting, transactions are recorded only when cash changes hands, so debts owed to or by government (like unpaid bills or revenue due but uncollected) do not appear in the accounts, giving an incomplete picture of financial position.",
+"py": null,
+"values": null,
+"id": "accx18007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Cash basis accounting only dey record money when e don enter or comot from hand. Because of dis, e no dey show money wey government still owe or money wey people owe government, so di account no dey complete."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Which of the following is the main basis of accounting commonly adopted by government ministries and parastatals in Nigeria for recording transactions?",
+"options": [
+"Accrual basis",
+"Cash basis",
+"Double entry basis",
+"Mercantile basis"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Government accounting in Nigeria is traditionally done on a cash basis, where transactions are recorded only when cash is actually received or paid. This differs from private sector accrual accounting.",
+"py": null,
+"values": null,
+"id": "accx18000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Cash basis is the traditional textbook answer, but Nigeria's adoption of accrual IPSAS makes the present-tense claim unclear.|"
+},
+{
+"q": {
+"q": "In Nigerian public sector accounting, the document that shows, in advance, the estimated revenue and expenditure of government for a fiscal year is called the:",
+"options": [
+"Trial balance",
+"Budget",
+"Cash book",
+"Bank reconciliation statement"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A budget is a financial plan prepared ahead of the fiscal year, showing expected revenue and planned expenditure. It guides government spending and control of public funds.",
+"py": null,
+"values": null,
+"id": "accx18001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+}
+]
+}

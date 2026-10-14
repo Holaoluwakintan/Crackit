@@ -1,0 +1,180 @@
+{
+"subject": "government",
+"topic": "Political parties, party systems and pressure groups",
+"ti": 5,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is the most important factor that determines whether a country develops a two-party system rather than a multi-party system?",
+"options": [
+"The size of the country's population",
+"The electoral system in use, especially a simple plurality (first-past-the-post) method",
+"The level of literacy among the electorate",
+"The number of ethnic groups in the country"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A simple plurality electoral system tends to squeeze out small parties because only the candidate with the highest votes wins, encouraging voters and politicians to concentrate around two major parties. Proportional representation, by contrast, favours multi-party systems.",
+"id": "govx05010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis kind system dey make am hard for small parties to win because na only person wey get highest votes dey win. E dey make voters and politicians join hand support only two major parties."
+},
+{
+"q": "During the First Republic in Nigeria, political parties such as the NPC, NCNC and AG were formed mainly along what basis?",
+"options": [
+"Religious doctrines",
+"Regional and ethnic groupings",
+"Trade union affiliations",
+"Military backing"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The major parties of the First Republic drew their strongest support from particular regions and ethnic groups, such as the North, East and West. This regional character later contributed to political instability.",
+"id": "govx05011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "The main parties for First Republic get strong support from dia own region and tribe like North, East and West. Dis regional way wey dem follow run matter later cause plenty wahala for politics."
+},
+{
+"q": "A political party that wins an election forms the government, while the party or parties that lose form the official opposition. What is the main constitutional role of the opposition party in a democracy?",
+"options": [
+"To automatically take over government appointments",
+"To check and criticise government actions and policies in order to keep it accountable",
+"To dissolve the ruling party through court action",
+"To replace the ruling party immediately after losing an election"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The opposition's role is to scrutinise, criticise and offer alternative policies to the ruling party, thereby promoting accountability and good governance. It does not have power to dissolve or immediately replace the government outside elections.",
+"id": "govx05012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Work of opposition na to shine eye, criticize government, and show another better way wey dem fit do things. Dem no get power to just scatter government or change am anyhow outside election."
+},
+{
+"q": "Which of the following best describes a 'manifesto' as used by political parties during election campaigns?",
+"options": [
+"A list of court judgements against the party",
+"A document stating the party's aims, policies and programmes if voted into power",
+"A register containing the names of registered voters",
+"A certificate issued by the electoral body to winning candidates"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "A manifesto is the official statement of a party's intended policies and programmes, used to persuade voters during campaigns. It is different from a voters' register or a certificate of return.",
+"id": "govx05013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Manifesto na the book wey party write to show wetin dem wan do for people if dem win election. E different from register for voters or paper wey dem dey give winner."
+},
+{
+"q": "In which of the following ways do pressure groups most commonly influence government policy without contesting elections?",
+"options": [
+"By presenting a list of candidates for the presidency",
+"By lobbying, lobbying officials, organising public awareness campaigns and making representations to government",
+"By forming an alternative government after elections",
+"By dissolving the National Assembly"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Pressure groups seek to influence government decisions through lobbying, advocacy, public enlightenment and petitions rather than seeking political power directly through elections. They do not form governments or dissolve legislatures.",
+"id": "govx05014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Pressure groups dey use lobbying, campaign and talking to government make things change instead of to contest election. Dem no dey form government or pack assembly people go house."
+},
+{
+"q": "In a country practising a dominant one-party system where opposition parties legally exist but rarely win any seats over several decades, which of the following best explains this political outcome?",
+"options": [
+"The constitution bans all opposition parties from contesting",
+"The ruling party enjoys overwhelming structural, financial and historical advantages that make genuine competition difficult",
+"Elections are not conducted in that country",
+"Only government workers are allowed to vote"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "A dominant-party system allows multiple parties to exist and contest, but one party consistently wins due to advantages such as superior funding, incumbency, patronage networks and historical loyalty. This differs from a one-party state where other parties are legally banned.",
+"id": "govx05016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For dominant-party system, plenty parties dey exist, but na one party dey always win because dem get money, power and history for back. E no mean say law ban other parties."
+},
+{
+"q": "Which of the following best explains why professional associations such as the Nigerian Bar Association (NBA) are classified as pressure groups rather than political parties?",
+"options": [
+"They receive funding directly from the government",
+"They seek to influence government decisions on issues affecting their profession without sponsoring candidates for elective office",
+"They are registered by the Independent National Electoral Commission to contest elections",
+"They have no interest whatsoever in government policies"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Pressure groups like the Nigerian Bar Association aim to protect and promote the interests of their members by influencing government policy, but they do not sponsor candidates for elections. This distinguishes them clearly from political parties, which seek political power directly.",
+"id": "govx05017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Pressure groups like NBA dey fight for their members matter and dey advice government, but dem no dey put person for election. Na that one make dem different from political parties."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A newly registered political party in Nigeria wants to sponsor candidates in a general election but has not been able to establish functional offices in two-thirds of the states as required by law. Based on this situation, which major problem facing political parties in Nigeria is illustrated?",
+"options": [
+"Over-dependence on foreign donor agencies",
+"Weak national spread and organisational structure",
+"Excessive control by the judiciary",
+"Lack of qualified electoral officers"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The scenario shows a party struggling to meet the legal requirement of spreading its structures across the country, which reflects weak organisation and limited national outreach. This is a recognised challenge for smaller or newly formed parties in Nigeria.",
+"id": "govx05015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Questionable claim that offices in two-thirds of states are legally required.|"
+}
+]
+}

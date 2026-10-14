@@ -1,0 +1,212 @@
+{
+"subject": "accounting",
+"topic": "Company accounts: shares, debentures and reserves",
+"ti": 16,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is a true statement about shares and debentures of a public limited company?",
+"options": [
+"A debenture holder is a creditor of the company while a shareholder is a part owner",
+"Both debenture holders and shareholders are owners of the company",
+"Debenture holders receive dividends while shareholders receive interest",
+"Shareholders are entitled to a fixed return whether or not profit is made"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A debenture is a loan to the company, so its holder is a creditor entitled to fixed interest regardless of profit. A shareholder is a part owner entitled to dividend only when profit is declared.",
+"py": null,
+"values": null,
+"id": "accx16000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Debenture holder na creditor wey dey collect fixed interest, whether company make profit or not. But shareholder na part-owner wey dey collect dividend only when profit show."
+},
+{
+"q": "Okiki Plc issued 80,000 ordinary shares of ₦1 each at par. The shares were fully subscribed and all application money was received. What is the total amount received from the share issue?",
+"options": [
+"₦40,000",
+"₦60,000",
+"₦80,000",
+"₦100,000"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Shares issued at par means the issue price equals the nominal value of ₦1 per share. Total proceeds equal 80,000 shares multiplied by ₦1, which is ₦80,000.",
+"py": "80000*1",
+"values": [
+40000,
+60000,
+80000,
+100000
+],
+"id": "accx16001",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When dem issue shares at par, e mean say the price equal the nominal value of ₦1 per share. So, 80,000 shares multiply by ₦1 go give you ₦80,000."
+},
+{
+"q": "Which of the following best explains why a company issues shares at a premium?",
+"options": [
+"The shares are sold below their nominal value to attract more investors",
+"The shares are sold above their nominal value because the company's prospects are strong",
+"The company is forced by law to charge extra on every share issued",
+"The premium represents interest owed to shareholders before trading begins"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A share premium arises when a company is able to sell shares for more than their nominal value, usually because investors have confidence in its performance and future prospects. This premium is credited to a share premium account, a capital reserve.",
+"py": null,
+"values": null,
+"id": "accx16002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Company dey issue shares at a premium when people want buy am pass the nominal value because the company market value dey sweet. Dem dey keep dis extra money for share premium account as capital reserve."
+},
+{
+"q": "Garuba Holdings Ltd forfeited 2,000 ordinary shares of ₦4 each on which only the application and allotment money of ₦3 per share had been paid. The call money of ₦1 per share was not paid by the defaulting shareholder. What amount should be debited to the Share Capital account on forfeiture?",
+"options": [
+"₦2,000",
+"₦6,000",
+"₦8,000",
+"₦4,000"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "On forfeiture, the full nominal value called up on the shares is removed from Share Capital account. This is 2,000 shares multiplied by ₦4 nominal value, giving ₦8,000.",
+"py": "2000*4",
+"values": [
+2000,
+6000,
+8000,
+4000
+],
+"id": "accx16003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For forfeiture, you must remove the full nominal value wey dem call up from Share Capital account. Na 2,000 shares multiply by ₦4 nominal value, wey give us ₦8,000."
+},
+{
+"q": "Which of the following items would appropriately be transferred to a revenue reserve rather than a capital reserve?",
+"options": [
+"Share premium account balance",
+"Profit on revaluation of a freehold property",
+"Undistributed portion of trading profit kept for future dividends",
+"Proceeds from the sale of forfeited shares above nominal value"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Revenue reserves come from trading profits retained in the business and are available for future dividend distribution. Share premium and revaluation surpluses are capital reserves that are generally not available for dividends.",
+"py": null,
+"values": null,
+"id": "accx16004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Revenue reserve na trading profit wey company keep for future dividend distribution. Share premium and revaluation surplus na capital reserve wey you no fit use share dividend."
+},
+{
+"q": "Amaka Agro-Allied Plc has in issue 30,000 12% preference shares of ₦10 each and 150,000 ordinary shares of ₦2 each. The directors propose a total dividend payout of ₦72,000 for the year. After paying the preference dividend in full, what amount is available for ordinary shareholders?",
+"options": [
+"₦36,000",
+"₦32,000",
+"₦40,000",
+"₦36,400"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Preference dividend equals 12% of (30,000 multiplied by ₦10), which is 12% of ₦300,000 = ₦36,000. Subtracting this from the total payout of ₦72,000 leaves ₦36,000 for ordinary shareholders.",
+"py": "72000-(0.12*30000*10)",
+"values": [
+36000,
+32000,
+40000,
+36400
+],
+"id": "accx16005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Preference dividend na 12% of ₦300,000, wey be ₦36,000. When you subtract am from the total ₦72,000 payout, na ₦36,000 remain for ordinary shareholders."
+},
+{
+"q": "A limited liability company wishes to raise long-term capital without diluting the ownership control of existing shareholders. Which of the following sources of finance best achieves this?",
+"options": [
+"Issue of additional ordinary shares to the public",
+"Issue of debentures to investors",
+"Capitalisation of the general reserve into bonus shares",
+"Issue of preference shares convertible to ordinary shares"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Debentures are loan capital, so debenture holders become creditors, not members of the company, leaving voting control of existing shareholders unaffected. Issuing more ordinary shares or convertible preference shares can dilute control over time.",
+"py": null,
+"values": null,
+"id": "accx16006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Debentures na loan capital, so debenture holders na creditors and dem no get voting power. Dis one mean say existing shareholders go maintain dia control without anybody share power with dem."
+},
+{
+"q": "Sango Industries Plc has a Share Premium account balance of ₦150,000. Which of the following uses of this balance is permitted under standard company accounting practice?",
+"options": [
+"Paying cash dividends to ordinary shareholders",
+"Writing off preliminary expenses incurred on company formation",
+"Covering a trading loss for the year",
+"Paying directors' salaries for the year"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Share premium, being a capital reserve, can only be used for specific purposes allowed by law, such as writing off formation (preliminary) expenses, issuing bonus shares, or writing off issue expenses. It cannot be used to pay dividends or cover trading losses.",
+"py": null,
+"values": null,
+"id": "accx16007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Share premium na capital reserve wey law allow make you use am write off preliminary expenses or issue bonus shares. You no fit use am pay dividend or cover trading loss."
+}
+],
+"rejected": []
+}

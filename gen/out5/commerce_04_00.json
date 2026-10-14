@@ -1,0 +1,214 @@
+{
+"subject": "commerce",
+"topic": "Purchase and sale: documents and terms of trade (trade discount, cash discount, CIF, FOB)",
+"ti": 4,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A trader buys goods on credit and later returns damaged items to the supplier. Which document will the supplier issue to the trader to correct the original invoice?",
+"options": [
+"Credit note",
+"Debit note",
+"Proforma invoice",
+"Statement of account"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A credit note is issued by a seller to reduce the amount a buyer owes, usually because of returned or damaged goods. It corrects the invoice in favour of the buyer.",
+"py": null,
+"values": null,
+"id": "comx04000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na credit note dem dey use reduce the money wey buyer suppose pay when e return bad goods. E dey correct the invoice for buyer favor."
+},
+{
+"q": "Under which international trade term does the buyer bear the cost of marine insurance and freight from the port of shipment to the port of destination, since the quoted price only covers the goods up to the ship's rail?",
+"options": [
+"CIF",
+"FOB",
+"Ex-works",
+"Carriage paid"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Under FOB, the seller's responsibility ends once goods are loaded on board the ship, so the buyer pays for freight and insurance afterwards. This differs from CIF, where the seller covers freight and insurance.",
+"py": null,
+"values": null,
+"id": "comx04001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Under FOB, once dem load goods for ship, seller work don finish. Na buyer con dey pay for freight and insurance."
+},
+{
+"q": "Mallam Bello buys goods worth ₦80,000 (list price) from a distributor who grants him a 15% trade discount. What amount will Mallam Bello pay to the distributor?",
+"options": [
+"₦68,000",
+"₦12,000",
+"₦92,000",
+"₦65,000"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Trade discount is 15% of 80,000, which is 12,000. Subtracting this from the list price gives 80,000 - 12,000 = 68,000, the amount payable.",
+"py": "80000 - 0.15*80000",
+"values": [
+68000,
+12000,
+92000,
+65000
+],
+"id": "comx04003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Trade discount na 15% of ₦80,000, wey be ₦12,000. When you minus am from the list price, you go get ₦68,000 as the money to pay."
+},
+{
+"q": "An invoice shows goods valued at ₦60,000 after a trade discount has already been deducted. The supplier further offers a 4% cash discount for payment within 14 days. If Mrs. Adaeze pays within the period, how much does she pay?",
+"options": [
+"₦57,600",
+"₦62,400",
+"₦56,000",
+"₦58,000"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Cash discount is 4% of 60,000, which is 2,400. Subtracting this from 60,000 gives 57,600, the amount paid for prompt settlement.",
+"py": "60000 - 0.04*60000",
+"values": [
+57600,
+62400,
+56000,
+58000
+],
+"id": "comx04004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Cash discount na 4% of ₦60,000, wey be ₦2,400. If you minus am from ₦60,000, the remaining money wey person go pay na ₦57,600."
+},
+{
+"q": "A supplier's list price for goods is ₦120,000. He allows a trade discount of 10% and, on the net amount after this discount, a further cash discount of 5% for payment within 7 days. If Mr. Okon pays within 7 days, how much does he pay?",
+"options": [
+"₦102,600",
+"₦108,000",
+"₦114,000",
+"₦105,000"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Trade discount of 10% on 120,000 leaves 108,000. Cash discount of 5% is then applied to 108,000, giving 5,400 off, so the final payment is 108,000 - 5,400 = 102,600.",
+"py": "(120000*0.9)*0.95",
+"values": [
+102600,
+108000,
+114000,
+105000
+],
+"id": "comx04005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Trade discount of 10% on ₦120,000 go leave ₦108,000. If you come remove 5% cash discount from ₦108,000, the final money wey e go pay na ₦102,600."
+},
+{
+"q": "Which of the following best explains why trade discount, unlike cash discount, does not appear as a separate figure in the trader's account books?",
+"options": [
+"It is deducted before the invoice is prepared, so only the net price is recorded",
+"It is given only to cash customers who pay immediately",
+"It is recorded as an expense in the profit and loss account",
+"It is treated as a loan to the buyer"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Trade discount is subtracted from the list price before the invoice price is fixed, so the books only show the net figure. Cash discount, however, is recorded separately because it depends on when payment is made.",
+"py": null,
+"values": null,
+"id": "comx04006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dem dey remove trade discount before dem write invoice, na that net price dem dey record for book. Cash discount na separate thing because e dey depend on when person pay."
+},
+{
+"q": "A Lagos exporter quotes a price of ₦450,000 to a foreign buyer under CIF terms. Which of these costs is the exporter responsible for under this quotation?",
+"options": [
+"Cost of goods, freight and insurance up to the destination port",
+"Cost of goods only, with the buyer arranging all transport",
+"Cost of goods and insurance only, excluding freight charges",
+"Cost of goods, freight, insurance and import duties at destination"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "CIF stands for Cost, Insurance and Freight, meaning the seller's quoted price already covers the goods, their insurance and freight to the destination port. Import duties are not part of CIF and remain the buyer's responsibility.",
+"py": null,
+"values": null,
+"id": "comx04007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "CIF mean Cost, Insurance and Freight, so the price wey seller give don cover goods, insurance and transport go reach destination port. Import duty no join."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A furniture dealer in Onitsha sends goods to a customer before an order is confirmed, allowing the customer to inspect prices and specifications before agreeing to buy. Which document is most likely used for this purpose?",
+"options": [
+"Invoice",
+"Proforma invoice",
+"Delivery note",
+"Debit note"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A proforma invoice is sent before a sale is finalised, showing estimated prices and details so the buyer can decide whether to proceed. It is not a demand for payment like a normal invoice.",
+"py": null,
+"values": null,
+"id": "comx04002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Proforma invoice states prices before purchase, but the question says goods were sent.|"
+}
+]
+}

@@ -1,0 +1,231 @@
+{
+"subject": "maths",
+"topic": "Surds",
+"ti": 4,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Simplify: sqrt(2)/sqrt(8)",
+"options": [
+"1/2",
+"1/4",
+"2",
+"sqrt(2)/2"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "sqrt(2)/sqrt(8) = sqrt(2/8) = sqrt(1/4) = 1/2. This is a basic surd simplification using division under one root.",
+"py": "math.sqrt(2)/math.sqrt(8)",
+"values": [
+0.5,
+0.25,
+2,
+0.7071067811865476
+],
+"id": "matx04010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "If you put sqrt(2) and sqrt(8) inside one root, e go give you sqrt(1/4). When you find the root, e go come out as 1/2."
+},
+{
+"q": "Express 7 + 4sqrt(3) in the form (a + b)^2 where a and b are surds or whole numbers, hence find sqrt(7 + 4sqrt(3)).",
+"options": [
+"2 + sqrt(3)",
+"3 + sqrt(2)",
+"sqrt(7) + 2",
+"4 + sqrt(3)"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "We want (a+b)^2 = a^2+b^2+2ab = 7+4sqrt(3), so a^2+b^2=7 and 2ab=4sqrt(3) meaning ab=2sqrt(3). Taking a=2, b=sqrt(3) gives a^2+b^2=4+3=7, which works, so sqrt(7+4sqrt(3)) = 2+sqrt(3).",
+"py": null,
+"values": null,
+"id": "matx04011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "We find two numbers wey their sum na 7 and their product na 12, con use am split 4sqrt(3) to get 2 and sqrt(3). When we take the root, we get 2 + sqrt(3)."
+},
+{
+"q": "A square flower bed in a school garden in Enugu has an area of (12 + 2sqrt(35)) square metres. If the side length can be written as sqrt(a) + sqrt(b) where a and b are positive integers with a > b, find the value of a + b.",
+"options": [
+"12",
+"17",
+"19",
+"35"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "If side = sqrt(a) + sqrt(b), then area = a + b + 2sqrt(ab). Comparing with 12 + 2sqrt(35): a + b = 12 and ab = 35, giving a=7, b=5. So a + b = 12.",
+"py": "7+5",
+"values": [
+12,
+17,
+19,
+35
+],
+"id": "matx04012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Area of square na side squared, wey match with a + b + 2sqrt(ab). Since a + b = 12 directly from the question, na 12 be our answer."
+},
+{
+"q": "If 2sqrt(3) + 5sqrt(3) - ksqrt(3) = 3sqrt(3), find the value of k.",
+"options": [
+"4",
+"3",
+"7",
+"10"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Combine like surd terms: (2 + 5 - k)sqrt(3) = 3sqrt(3), so 7 - k = 3, giving k = 4.",
+"py": "7-3",
+"values": [
+4,
+3,
+7,
+10
+],
+"id": "matx04014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Make we join all the surds together, we go get (7 - k)sqrt(3) = 3sqrt(3). If we solve am, k go give us 4."
+},
+{
+"q": "Simplify (sqrt(6) + sqrt(2)) / sqrt(2), leaving your answer in simplest surd form.",
+"options": [
+"sqrt(3) + 1",
+"sqrt(3) - 1",
+"sqrt(3)",
+"3 + sqrt(2)"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Divide each term by sqrt(2): sqrt(6)/sqrt(2) = sqrt(3) and sqrt(2)/sqrt(2) = 1, so the expression simplifies to sqrt(3) + 1.",
+"py": null,
+"values": null,
+"id": "matx04015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Make we divide both sqrt(6) and sqrt(2) by sqrt(2). E go give us sqrt(3) plus 1."
+},
+{
+"q": "A ladder leans against a wall such that its length is represented as (sqrt(50) + sqrt(2)) metres. Express this length in the form ksqrt(2) metres.",
+"options": [
+"6sqrt(2)",
+"5sqrt(2)",
+"7sqrt(2)",
+"4sqrt(2)"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "sqrt(50) = 5sqrt(2), so sqrt(50) + sqrt(2) = 5sqrt(2) + sqrt(2) = 6sqrt(2) metres.",
+"py": "5+1",
+"values": [
+6,
+5,
+7,
+4
+],
+"id": "matx04016",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "First, simplify sqrt(50) to 5sqrt(2). When you add am to the remaining sqrt(2), everything go come out as 6sqrt(2)."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Simplify sqrt(20) x sqrt(45)",
+"options": [
+"30",
+"20",
+"sqrt(900)",
+"900"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "sqrt(20) x sqrt(45) = sqrt(900) = 30, since multiplying surds under one root and 20 x 45 = 900, whose square root is 30.",
+"py": "math.sqrt(20*45)",
+"values": [
+30,
+20,
+30.0,
+900
+],
+"id": "matx04013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:C also equals 30.|"
+},
+{
+"q": {
+"q": "Given that sqrt(2) = 1.414 and sqrt(3) = 1.732, evaluate sqrt(18) - sqrt(12), correct to 3 decimal places.",
+"options": [
+"0.778",
+"0.858",
+"1.278",
+"0.318"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "sqrt(18) = 3sqrt(2) = 3(1.414) = 4.242 and sqrt(12) = 2sqrt(3) = 2(1.732) = 3.464. Subtracting gives 4.242 - 3.464 = 0.778.",
+"py": "3*1.414 - 2*1.732",
+"values": [
+0.778,
+0.858,
+1.278,
+0.318
+],
+"id": "matx04017",
+"check": {
+"s1": "A",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:B"
+}
+]
+}

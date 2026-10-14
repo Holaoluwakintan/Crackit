@@ -1,0 +1,175 @@
+{
+"subject": "biology",
+"topic": "Reproduction in plants and animals (flowers, pollination, human reproduction)",
+"ti": 9,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A gardener in Kano notices that a certain flower has a long tubular corolla, produces nectar deep at its base, and opens mainly in the evening with a strong sweet scent. Which agent most likely pollinates this flower?",
+"options": [
+"Moths",
+"Wind",
+"Water",
+"Beetles"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Long tubular flowers with deep nectar, evening opening and strong scent are adaptations to attract moths, which are active at night and have long proboscises to reach the nectar. Wind and water pollinated flowers do not need scent or nectar.",
+"id": "biox09011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dis kind flower wey get long mouth, sweet scent and dey open for night na moth dey pollinate am. Na because moth dey active for night and get long mouth to drink the nectar."
+},
+{
+"q": "In the human male reproductive system, which structure is mainly responsible for producing the fluid that nourishes and activates sperm cells before ejaculation?",
+"options": [
+"Seminal vesicle",
+"Epididymis",
+"Testis",
+"Vas deferens"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The seminal vesicle secretes a fructose-rich fluid that nourishes sperm and forms a large part of semen. The testis produces sperm, while the epididymis stores and matures them, and the vas deferens only transports them.",
+"id": "biox09012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na seminal vesicle dey produce the fluid wey dey give sperm food and make am active before e come out. Testis dey make sperm, epididymis dey keep and train am, while vas deferens na just road wey e dey pass."
+},
+{
+"q": "During implantation in human reproduction, the fertilized egg (blastocyst) embeds itself into which layer of the uterus?",
+"options": [
+"Endometrium",
+"Myometrium",
+"Perimetrium",
+"Cervix"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The endometrium is the inner lining of the uterus that thickens under hormonal control to receive and support the implanted blastocyst. The myometrium is the muscular layer, not involved in implantation.",
+"id": "biox09013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na endometrium be the inner skin of womb wey the small belle (blastocyst) dey enter and gum body during implantation. Myometrium na just muscle layer, no be there belle dey stay."
+},
+{
+"q": "A certain flowering plant has small, dull-coloured flowers without petals, produces large amounts of light, smooth pollen, and has feathery stigmas that hang outside the flower. Which mode of pollination does this plant most likely use?",
+"options": [
+"Wind pollination",
+"Insect pollination",
+"Water pollination",
+"Self pollination only"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Dull small flowers, light smooth pollen produced in large quantity, and exposed feathery stigmas are classic adaptations for catching pollen carried by wind. Insect-pollinated flowers are usually bright, scented and sticky-pollened instead.",
+"id": "biox09014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Flower wey no fine, no get petal, but get light pollen and feather stigma wey dey hang outside na wind dey carry hin pollen. Insect flower dey fine and get scent, but dis one na pure wind work."
+},
+{
+"q": "In a breeding experiment, a scientist removes the anthers of a flower before they mature and later transfers pollen from a different plant of the same species onto its stigma. What is this procedure called, and what is one likely benefit of it?",
+"options": [
+"Cross-pollination, which can introduce new genetic variation into offspring",
+"Self-pollination, which guarantees genetically identical offspring",
+"Artificial vegetative propagation, which produces clones faster",
+"Parthenocarpy, which produces seedless fruits"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Transferring pollen from one plant to the stigma of a different plant of the same species is cross-pollination, and it increases genetic variation in the offspring because two different parents contribute genes. The other options describe different processes not matching the procedure described.",
+"id": "biox09015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If you carry pollen from one plant go put for another plant of the same kind, na cross-pollination. E dey help bring new gene join together so pikin go get better variation."
+},
+{
+"q": "A tall pawpaw tree in a school farm has flowers that are either strictly male (producing only pollen) or strictly female (producing only ovules), found on separate individual plants. This condition, where male and female flowers occur on different plants of the same species, is known as which term?",
+"options": [
+"Dioecious",
+"Monoecious",
+"Hermaphrodite",
+"Protandrous"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Plants that bear male and female flowers on separate individual plants are described as dioecious, as seen in pawpaw. Monoecious plants bear both male and female flowers on the same plant, while hermaphrodite flowers have both sexes in one flower.",
+"id": "biox09017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "If male flower dey one pawpaw tree and female flower dey another different pawpaw tree, we dey call am dioecious. Monoecious mean say male and female dey the same tree, while hermaphrodite mean say everything dey one single flower."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the human ovarian cycle, a woman's egg fails to be fertilized, and progesterone and oestrogen levels fall sharply towards the end of the cycle. What immediate effect does this hormonal drop have on the uterus?",
+"options": [
+"The endometrium breaks down and is shed as menstruation",
+"The endometrium thickens further to prepare for another embryo",
+"The corpus luteum enlarges and continues producing hormones",
+"Ovulation is triggered again immediately",
+"The endometrium thickens further to prepare for another embryo"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "When fertilization does not occur, the corpus luteum degenerates, causing a sharp fall in progesterone and oestrogen, which can no longer maintain the endometrium, so it breaks down and is shed as the menstrual flow. The corpus luteum does not enlarge at this stage; it regresses."
+},
+"why": "bad-shape"
+},
+{
+"q": {
+"q": "Which part of a typical dicotyledonous flower develops into the fruit after fertilization has taken place?",
+"options": [
+"Ovary wall",
+"Style",
+"Stigma",
+"Receptacle"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "After fertilization, the ovary wall develops into the pericarp (fruit wall) while the ovules become seeds. The style and stigma usually wither away.",
+"id": "biox09010",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

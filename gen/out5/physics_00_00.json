@@ -1,0 +1,219 @@
+{
+"subject": "physics",
+"topic": "Measurements, units and dimensions",
+"ti": 0,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A vernier caliper has a main scale reading in mm and the zero of the vernier scale lies between 2.3 cm and 2.4 cm on the main scale. If the 6th vernier division coincides with a main scale division, and the vernier constant is 0.01 cm, what is the diameter of the object measured?",
+"options": [
+"2.36 cm",
+"2.30 cm",
+"2.06 cm",
+"2.63 cm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The reading is the main scale reading plus the vernier scale reading. Main scale reading is 2.3 cm and vernier scale reading is 6 x 0.01 cm = 0.06 cm, giving 2.3 + 0.06 = 2.36 cm.",
+"py": "2.3 + 6*0.01",
+"values": [
+2.36,
+2.3,
+2.06,
+2.63
+],
+"id": "phyx00000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "To get the reading, you add the main scale reading to the vernier reading. Main scale na 2.3 cm, and vernier reading na 6 times 0.01 cm, wey be 0.06 cm. When you add dem, you go get 2.36 cm."
+},
+{
+"q": "Which of the following is a correct statement about significant figures in measurement?",
+"options": [
+"Zeros between non-zero digits are always significant",
+"Trailing zeros in a number without a decimal point are always significant",
+"Leading zeros before the first non-zero digit are significant",
+"All digits in a measured value, including estimated digits, are insignificant"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Zeros that occur between two non-zero digits, such as in 205, are always counted as significant figures. Leading zeros only serve to locate the decimal point and are not significant, while trailing zeros without a decimal point are ambiguous.",
+"py": null,
+"values": null,
+"id": "phyx00001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Zeros wey dey between two numbers wey no be zero, like 205, dey always count as significant figures. Leading zeros no dey count, and trailing zeros without decimal point dey confusing."
+},
+{
+"q": "A student in a Lagos secondary school measures the mass of a metal block using a beam balance five times and obtains the following readings in grams: 50.2, 50.4, 50.3, 50.5, 50.1. What is the mean absolute deviation of the readings from the mean?",
+"options": [
+"0.12 g",
+"0.30 g",
+"0.05 g",
+"0.50 g"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The mean of the readings is (50.2+50.4+50.3+50.5+50.1)/5 = 50.3 g. The deviations are 0.1, 0.1, 0.0, 0.2, 0.2, whose average is (0.1+0.1+0.0+0.2+0.2)/5 = 0.12 g.",
+"py": "(abs(50.2-50.3)+abs(50.4-50.3)+abs(50.3-50.3)+abs(50.5-50.3)+abs(50.1-50.3))/5",
+"values": [
+0.12,
+0.3,
+0.05,
+0.5
+],
+"id": "phyx00002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "First, find the mean of the readings, wey be 50.3 g. Then, calculate the difference of each reading from the mean and find the average of those differences, wey give you 0.12 g."
+},
+{
+"q": "A quantity called 'impulse' is defined as the product of force and the time for which it acts. What is the dimension of impulse in terms of mass [M], length [L] and time [T]?",
+"options": [
+"[M][L][T]^-1",
+"[M][L]^2[T]^-2",
+"[M][L]^-1[T]",
+"[M][L][T]^-2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Force has dimension [M][L][T]^-2, and time has dimension [T]. Multiplying gives impulse dimension as [M][L][T]^-2 x [T] = [M][L][T]^-1.",
+"py": null,
+"values": null,
+"id": "phyx00004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Force get dimension [M][L][T]^-2, and time get [T]. When you multiply force and time, you go get [M][L][T]^-1 for impulse."
+},
+{
+"q": "Okon wants to confirm that the equation s = ut + (1/2)at^2 is dimensionally consistent, where s is distance, u is initial velocity, t is time, and a is acceleration. Which of the following correctly shows that all terms in the equation have the same dimension?",
+"options": [
+"Both ut and (1/2)at^2 reduce to [L], matching the dimension of s",
+"ut reduces to [L][T] while (1/2)at^2 reduces to [L], so the equation is inconsistent",
+"s has dimension [L][T]^-1 which matches both terms on the right",
+"Only ut matches the dimension of s, so the equation is wrong"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The term ut has dimension [L][T]^-1 x [T] = [L], and (1/2)at^2 has dimension [L][T]^-2 x [T]^2 = [L]. Both match the dimension of s, which is [L], so the equation is dimensionally consistent.",
+"py": null,
+"values": null,
+"id": "phyx00005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Term ut get dimension [L][T]^-1 times [T], wey be [L]. Term (1/2)at^2 sef get dimension [L][T]^-2 times [T]^2, wey still be [L]. Since s na distance, e get dimension [L], so the equation correct."
+},
+{
+"q": "Which pair of physical quantities below are both derived quantities measured in the same SI base unit combination (expressed in terms of mass, length and time)?",
+"options": [
+"Work done and moment of a force",
+"Momentum and electric charge",
+"Power and luminous intensity",
+"Pressure and amount of substance"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Work done is force times distance, and moment of a force (torque) is also force times distance, so both have the dimension [M][L]^2[T]^-2 and share the same unit combination. The other pairs involve quantities with different dimensions or base quantities.",
+"py": null,
+"values": null,
+"id": "phyx00006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Work done na force times distance, and moment of a force sef na force times distance. Both of dem get the same dimension [M][L]^2[T]^-2, so dem be the same."
+},
+{
+"q": "A market trader in Onitsha converts the volume of a container of palm oil from 45 litres to cubic metres for a supply contract. Given that 1 litre = 1000 cm^3, what is the volume in cubic metres?",
+"options": [
+"0.045 m^3",
+"4.5 m^3",
+"0.00045 m^3",
+"45000 m^3"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "45 litres equals 45000 cm^3. Since 1 m^3 = 1,000,000 cm^3, dividing 45000 by 1,000,000 gives 0.045 m^3.",
+"py": "45*1000/1000000",
+"values": [
+0.045,
+4.5,
+0.00045,
+45000
+],
+"id": "phyx00007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "45 litres na 45000 cm^3. Since 1 m^3 get 1,000,000 cm^3, you go divide 45000 by 1,000,000 to get 0.045 m^3."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "The volume V of a sphere of radius r and the surface area A of the same sphere are related by a constant k such that V = kAr. By considering the dimensions of V and A, determine the value of k.",
+"options": [
+"1/3",
+"2/3",
+"4/3",
+"3/2"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The volume of a sphere is V = (4/3)pi r^3 and the surface area is A = 4 pi r^2, so Ar = 4 pi r^3. Dividing V by Ar gives k = (4/3 pi r^3)/(4 pi r^3) = 1/3.",
+"py": "(4/3)/4",
+"values": [
+0.333,
+0.667,
+1.333,
+1.5
+],
+"id": "phyx00003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Dimensions cannot determine k; sphere formulas give 1/3.|"
+}
+]
+}

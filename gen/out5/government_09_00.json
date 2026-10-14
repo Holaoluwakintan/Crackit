@@ -1,0 +1,180 @@
+{
+"subject": "government",
+"topic": "Pre-colonial political systems: Hausa-Fulani, Yoruba, Igbo",
+"ti": 9,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Before the Jihad of 1804, the Hausa states such as Kano, Katsina and Zazzau were organized as separate kingdoms, each ruled by a king known as the",
+"options": [
+"Sarki",
+"Sultan",
+"Emir",
+"Waziri"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Before the Fulani Jihad, the Hausa kings bore the title Sarki. The title Emir became common only after the Jihad under the Sokoto Caliphate system.",
+"id": "govx09000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Before di Jihad start, dem dey call Hausa kings Sarki. Na after di Jihad dem come start to dey use Emir for di Sokoto Caliphate system."
+},
+{
+"q": "A major reason the Fulani Jihadists gave for waging war against the Hausa kings in the early 19th century was that the Hausa rulers had",
+"options": [
+"refused to pay tribute to Sokoto",
+"mixed Islamic practice with pagan customs and taxed people unjustly",
+"prevented cattle rearers from grazing their herds",
+"allied with European traders against Fulani interests"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Usman dan Fodio justified the Jihad on religious grounds, accusing Hausa rulers of corrupting Islam with pagan practices and oppressing the people through unjust taxation. This was the central religious and moral justification for the war.",
+"id": "govx09001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Usman dan Fodio talk say di Hausa kings dey mix Islam wit pagan way. E also talk say dem dey tax pipo anyhow, so na dat one make am start di war."
+},
+{
+"q": "In pre-colonial Yoruba kingdoms, the Iyalode was a prominent title given to a woman who",
+"options": [
+"led the royal bodyguard of the Oba",
+"represented the interests of women in the council of chiefs",
+"served as the chief judge in criminal matters",
+"controlled the palace treasury alone"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Iyalode held a recognized chieftaincy title representing women's affairs and interests, especially traders, in the traditional council. This gave women a formal voice in governance despite being a largely male-dominated system.",
+"id": "govx09003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Iyalode na big title for woman wey dey represent women mata for di council of chiefs. Even though na men dey rule, dis title give women voice for governance."
+},
+{
+"q": "A key difference between the political system of the Yoruba and that of the Igbo in pre-colonial times was that",
+"options": [
+"the Yoruba had no form of government while the Igbo had centralized kingdoms",
+"the Yoruba generally operated centralized kingship while the Igbo were mainly organized around village democracy",
+"the Igbo had powerful emirs while the Yoruba had no chiefs",
+"both groups were ruled by a single central monarch"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Yoruba kingdoms were built around an Oba supported by chiefs, a centralized monarchy. Igbo society, by contrast, was largely republican and acephalous, with authority resting in village assemblies and elders rather than a king.",
+"id": "govx09004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Yoruba pipo get centralized kingship wit Oba, but Igbo pipo no get one central king. Igbo pipo system na village democracy wey elders dey control."
+},
+{
+"q": "In traditional Igbo society, a man who successfully took the highest traditional title through wealth, integrity and community service earned the respected status of",
+"options": [
+"Diokpa",
+"Ozo",
+"Ndichie",
+"Ekwueme"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The Ozo title was a prestigious title taken by wealthy and respected men, giving them social recognition and a voice in community affairs. It was earned, not inherited, reflecting the achievement-based nature of Igbo society.",
+"id": "govx09005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Ozo title na very big achievement for Igbo land. Pipo wey get money and good character dey take am to show say dem get respect for community."
+},
+{
+"q": "The pre-colonial Igbo age-grade system (Otu Ogbo) primarily functioned to",
+"options": [
+"collect taxes for the Eze on behalf of the colonial government",
+"organize men of similar age for communal labour, defence and maintenance of order",
+"select the next Obi through hereditary succession",
+"serve as the personal bodyguards of a central king"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Age grades grouped people born within the same years to perform communal duties such as road clearing, defence and keeping law and order. This system worked alongside the council of elders in the absence of central kingship, reinforcing Igbo republicanism.",
+"id": "govx09006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Age grade system dey group pipo wey get same age to do communal work. Dem dey help clear road, defend di village, and make sure say peace dey."
+},
+{
+"q": "A candidate compares three pre-colonial Nigerian systems: one with a divine king checked by a council that could demand his suicide, one with emirs ruling under a religious caliph, and one with no central ruler but village assemblies of elders. These examples best illustrate differences in",
+"options": [
+"the method of tax collection across the three systems",
+"the sources and limits of political authority across the three systems",
+"the economic activities practised by each group",
+"the religious beliefs held before colonial rule"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The scenario contrasts how power was gained and controlled: divine kingship checked by chiefs, religious authority under a caliph, and decentralized elder-based rule. This directly compares the sources and limitations of political authority in each system.",
+"id": "govx09007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Dis example show how power dey work for different places. E explain how dem dey control authority and who get power to check di leaders."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In the pre-colonial Yoruba political system, towns and villages below the level of the Oba were administered by compound or lineage heads known as",
+"options": [
+"Baales",
+"Ogbonis",
+"Iyalodes",
+"Ilaris"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Baales were lineage or compound heads who administered smaller settlements and reported to the Oba. They formed the lowest tier of Yoruba traditional administration.",
+"id": "govx09002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:Baales headed villages; compound or lineage heads had other titles.|"
+}
+]
+}

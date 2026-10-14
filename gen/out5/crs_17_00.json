@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "Parables of Jesus",
+"ti": 17,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In the Parable of the Mustard Seed, Jesus compared the kingdom of God to a mustard seed mainly to teach that the kingdom would",
+"options": [
+"start small but grow into something very great",
+"remain hidden and unknown forever",
+"be destroyed before it could grow",
+"require costly planting to succeed"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The mustard seed is the smallest of seeds but grows into a large tree. Jesus used this to show that the kingdom of God would start small and grow greatly.",
+"id": "crsx17000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na mustard seed dey small pass all seed, but e dey grow enter big tree. Jesus use am show say God kingdom go start small, but e go later big well well."
+},
+{
+"q": "In the Parable of the Unforgiving Servant, the king forgave his servant a very large debt, but that servant later refused to forgive a fellow servant who owed him a much smaller amount. What happened to the unforgiving servant when the king heard of this?",
+"options": [
+"He was given more wealth to manage",
+"He was handed over to the tormentors until he paid all he owed",
+"He was promoted to a higher position",
+"He was simply warned and released"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Because the servant refused to show the same mercy he had received, the angry king delivered him to the tormentors till he should pay all that was due. This teaches that believers must forgive others as God forgave them.",
+"id": "crsx17001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Because the servant no gree show mercy to im fellow servant, the king vex and hand am over to tormentors until e pay everything. E dey teach us say make we dey forgive others as God don forgive us."
+},
+{
+"q": "In the Parable of the Good Shepherd, what quality of the shepherd showed his genuine love and ownership of the sheep, unlike the hired servant?",
+"options": [
+"He counted the sheep every morning",
+"He was willing to lay down his life for the sheep",
+"He sold the sheep for a good price",
+"He kept the sheep locked up permanently"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Jesus said the good shepherd gives his life for the sheep, while the hired servant flees when danger comes because the sheep are not his own. This illustrates Christ's sacrificial love for his people.",
+"id": "crsx17002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Jesus talk say good shepherd dey give im life for im sheep, unlike person wey just dey work for money wey dey run when danger come. E show how Christ love im people reach to die for them."
+},
+{
+"q": "In the Parable of the Wise and Foolish Builders, the house built on the rock stood firm during the storm while the house on the sand fell. Jesus used this parable to teach that",
+"options": [
+"only skilled builders can construct strong houses",
+"hearing and obeying his words brings a firm foundation for life",
+"storms should always be avoided",
+"sand is a poor material for all buildings"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Jesus compared the man who hears and does his words to the wise builder on rock, and the one who hears but does not obey to the foolish builder on sand. The lesson is that obedience to Christ's teaching gives a solid foundation.",
+"id": "crsx17003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Jesus compare person wey dey hear and do wetin e talk to wise builder wey build on rock. E mean say if you dey obey Christ word, your life go get strong foundation."
+},
+{
+"q": "In the Parable of the Pharisee and the Tax Collector who went up to the temple to pray, what made the tax collector's prayer acceptable to God rather than the Pharisee's?",
+"options": [
+"He prayed loudly for all to hear",
+"He listed his good deeds before God",
+"He humbly confessed his sin and asked for mercy",
+"He prayed for a longer time than the Pharisee"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The tax collector beat his breast and asked God for mercy on him, a sinner, while the Pharisee boasted of his own righteousness. Jesus said the humble tax collector went home justified rather than the proud Pharisee.",
+"id": "crsx17004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na the tax collector humba himself, beat im chest, and beg God for mercy as sinner. Jesus talk say na dat humba prayer God accept pass the proud Pharisee own."
+},
+{
+"q": "A farmer in the Parable of the Sower scattered seed, and Jesus explained that the seed sown among thorns represents hearers whose growth is choked by what?",
+"options": [
+"Persecution and sudden trials",
+"The cares, riches and pleasures of this life",
+"Lack of water during the dry season",
+"Birds that ate up the seed immediately"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Jesus explained that the thorny ground represents those who hear the word, but the cares, riches and pleasures of life choke it so that it brings no fruit to maturity. This differs from the seed eaten by birds or the seed on rocky ground that withers under trial.",
+"id": "crsx17005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Jesus explain say the seed among thorns na people wey hear word, but wahala, money and enjoyment of this world go choke am make fruit no come out."
+},
+{
+"q": "In the Parable of the Workers in the Vineyard, the landowner paid the labourers hired early in the morning the same wage as those hired late in the day. What did this parable mainly teach about God?",
+"options": [
+"God rewards according to the number of hours worked",
+"God is generous and gives grace according to his own will, not human merit",
+"Workers should always negotiate their wages firmly",
+"Landowners must always hire more workers than needed"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The landowner reminded the grumbling early workers that he had the right to be generous with his own money. This parable teaches that God's grace and reward are given freely according to his own purpose, not strictly by human effort.",
+"id": "crsx17006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "The owner of the farm talk say e get right to show mercy to anybody as e like. E dey teach us say God grace and reward na gift, no be by our own power or work."
+},
+{
+"q": "In the Parable of the Two Debtors which Jesus told to Simon the Pharisee, one debtor owed five hundred pence and the other fifty. Jesus used this story mainly to show that",
+"options": [
+"the woman who washed his feet loved much because she was forgiven much",
+"rich debtors deserve more forgiveness than poor ones",
+"Simon the Pharisee had committed a greater sin than the woman",
+"forgiveness should only be granted to those who can repay fully"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Jesus told Simon that the debtor forgiven the larger amount would love the creditor more, comparing this to the woman who showed great love by washing his feet because her many sins were forgiven. The lesson is that greater awareness of forgiveness produces greater love.",
+"id": "crsx17007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Jesus use the story explain say anybody wey God forgive plenty sins go show plenty love. Na im make the woman wash im feet because God don forgive her plenty sin."
+}
+],
+"rejected": []
+}

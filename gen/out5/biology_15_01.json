@@ -1,0 +1,178 @@
+{
+"subject": "biology",
+"topic": "Population ecology, adaptation and tropical biomes in Nigeria",
+"ti": 15,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A population of weevils was introduced into a sealed container of stored grain with no predators and unlimited food initially. Over 10 weeks, the population grew, overshot the carrying capacity of the grain supply, and then crashed sharply due to food exhaustion and waste accumulation. This type of growth curve is best described as",
+"options": [
+"J-shaped growth curve",
+"S-shaped (sigmoid) growth curve",
+"linear growth curve",
+"stepped growth curve"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A population that grows rapidly without levelling off at the carrying capacity, then crashes suddenly, follows a J-shaped curve typical of organisms without effective limiting controls until resources suddenly run out. The S-shaped curve instead shows a smooth levelling off, which did not happen here.",
+"id": "biox15010",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Population wey grow quick-quick without stopping for carrying capacity and come crash down sharp-sharp dey follow J-shaped curve. E happen when limiting factors no dey until food finish scatter."
+},
+{
+"q": "In a Nigerian derived savanna ecosystem, biologists noticed that as the population of grasscutters increased, an outbreak of a contagious fungal disease spread quickly through the dense population, killing many individuals and reducing the population size. This factor regulating the population is best classified as",
+"options": [
+"a density-independent factor",
+"a density-dependent factor",
+"an abiotic limiting factor",
+"a climatic factor"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Disease spreads faster and has greater effect when population density is high because individuals are closer together, making it a density-dependent factor. Its impact changes with population size, unlike density-independent factors such as weather.",
+"id": "biox15011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Sickness dey spread fast and kill people well well when population high because everybody dey close to body. Na density-dependent factor be that, unlike weather wey no send."
+},
+{
+"q": "Camels found in the semi-arid Sahel region of northern Nigeria possess broad, flat feet, the ability to tolerate large changes in body temperature, and the capacity to produce dry concentrated faeces. These features are examples of",
+"options": [
+"physiological and structural adaptations to a hot, dry environment",
+"behavioural adaptations to seasonal migration",
+"adaptations for reducing interspecific competition",
+"adaptations for increasing reproductive rate"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Broad feet (structural) and tolerance to temperature changes with reduced water loss in faeces (physiological) are both adaptations that help camels survive hot, dry conditions with scarce water. These are not related to migration, competition, or reproduction directly.",
+"id": "biox15012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Wide leg na structural adaptation, while body temperature control and dry shit na physiological adaptation. Dem all help camel survive hot dry area where water scarce."
+},
+{
+"q": "A forestry student wants to estimate the population density of a slow-moving land snail species in a 2000 square metre section of a Nigerian rainforest reserve. Using ten 5 metre by 5 metre quadrats randomly placed within the area, she counts a total of 60 snails across all quadrats. What is the estimated population density of the snail species per square metre?",
+"options": [
+"0.24 snails per square metre",
+"0.30 snails per square metre",
+"6.00 snails per square metre",
+"2.40 snails per square metre"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Each quadrat covers 25 square metres, so 10 quadrats cover 250 square metres in total. Density equals total count divided by total sampled area, which is 60 divided by 250, giving 0.24 snails per square metre.",
+"id": "biox15013",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Ten quadrats wey be 5m by 5m each go give total area of 250 square metres. If you divide the 60 snails by 250 square metres, you go get 0.24 snails per square metre."
+},
+{
+"q": "The main vegetation zones of Nigeria, arranged from the coast in the south to the far north, follow which correct sequence?",
+"options": [
+"Mangrove swamp, tropical rainforest, Guinea savanna, Sudan savanna, Sahel savanna",
+"Tropical rainforest, mangrove swamp, Sahel savanna, Sudan savanna, Guinea savanna",
+"Guinea savanna, mangrove swamp, tropical rainforest, Sahel savanna, Sudan savanna",
+"Sahel savanna, Sudan savanna, Guinea savanna, tropical rainforest, mangrove swamp"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Moving from the coast northward, Nigeria's vegetation changes from mangrove swamp forest along the coast, through tropical rainforest, into Guinea savanna, then Sudan savanna, and finally Sahel savanna in the extreme north. This order reflects decreasing rainfall from south to north.",
+"id": "biox15014",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "As person dey move from south coast go far north for Nigeria, vegetation dey change from mangrove swamp go tropical rainforest, enter Guinea savanna, Sudan savanna, and finally Sahel savanna."
+},
+{
+"q": "Two species of insectivorous birds in a forest reserve near Enugu feed on the same type of insect found in tree bark. Over several seasons, one species shifted to feeding mainly at the top of the canopy while the other remained near the forest floor, reducing direct competition between them. This outcome is best described as a result of",
+"options": [
+"mutualism",
+"resource partitioning following competition",
+"predation pressure",
+"commensalism"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "When two species compete for the same limited resource, they may evolve to use different parts of the habitat or different resources, a process called resource partitioning, which reduces competition. This is different from mutualism, predation, or commensalism, which involve different types of relationships.",
+"id": "biox15015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "When two animals dey fight for same food, dem fit divide their territory so dem no go dey jam wahala again. Na wet dem dey call resource partitioning."
+},
+{
+"q": "Which of the following statements correctly describes a key structural feature of trees in the tropical rainforest biome of southern Nigeria?",
+"options": [
+"Trees have thick, water-storing stems and reduced leaves to survive long dry seasons",
+"Trees form a multi-layered canopy with broad leaves and buttress roots for support in shallow, moist soils",
+"Trees are short, widely spaced, and have thick corky bark to resist annual bush fires",
+"Trees shed all their leaves simultaneously each year to conserve water during drought"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Tropical rainforest trees typically grow tall with broad leaves to capture sunlight under heavy competition, forming distinct canopy layers, and develop buttress roots because the soil is often shallow and waterlogged. The other options describe adaptations more typical of savanna or desert plants facing drought or fire.",
+"id": "biox15016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Rainforest trees dey grow tall with broad leaves and buttress roots because soil shallow and rain plenty. Na so dem dey struggle for sunlight."
+},
+{
+"q": "In a controlled laboratory experiment, a population of fruit flies was allowed to grow in a bottle with a fixed amount of food and no removal of waste. The population size was recorded weekly and plotted on a graph against time. Which feature of the resulting graph would confirm that the population had reached its carrying capacity for that bottle?",
+"options": [
+"A continuous steep rise in population size with no sign of slowing",
+"A population size that fluctuates wildly with no clear pattern",
+"A levelling off of the curve where population size remains fairly constant over time",
+"A sudden population crash to zero immediately after the peak"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Carrying capacity is reached when the environment can no longer support further growth, so the population size stabilises and the graph flattens out into a plateau. A continuous rise or sudden crash would instead show that carrying capacity has not been reached or has been exceeded.",
+"id": "biox15017",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Carrying capacity mean say environment don reach im limit, so population size go come stable and flat for graph. E no go increase again or crash anyhow."
+}
+],
+"rejected": []
+}

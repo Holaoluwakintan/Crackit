@@ -1,0 +1,178 @@
+{
+"subject": "crs",
+"topic": "The early church: Pentecost, Peter, Stephen and persecution",
+"ti": 20,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "When Peter and John were brought before the Sanhedrin for healing the lame man, what did they boldly declare about the name by which the man was healed?",
+"options": [
+"That there is no other name under heaven given among men whereby we must be saved",
+"That the name must be kept secret from the Jewish council",
+"That the healing came through the merit of the apostles' own faith alone",
+"That the name of Moses had power greater than any other"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Peter declared before the Sanhedrin that salvation is found in no other name but that of Jesus Christ. This was a bold confession of faith before hostile authorities.",
+"id": "crsx20000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Peter tell the people for Sanhedrin say na only for Jesus name salvation dey. E talkam boldly sake of say e no fear the people wey holdam."
+},
+{
+"q": "In Acts chapter 5, what punishment befell Ananias and Sapphira after they lied to the Holy Spirit about the proceeds of their land?",
+"options": [
+"They were both struck dead instantly",
+"They were imprisoned by the apostles",
+"They were expelled from the church by Peter",
+"They were made to repay double the amount"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Ananias and Sapphira each fell down and died immediately after lying to the Holy Spirit concerning the sale of their property. Their sudden deaths brought great fear upon the whole church.",
+"id": "crsx20001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Ananias and Sapphira fall down and die straight when dem tell lie about the money from their land. Their sudden death make fear catch everybody for church."
+},
+{
+"q": "Why did the Hellenist believers complain against the Hebrews in the early Jerusalem church, leading to the appointment of seven men including Stephen?",
+"options": [
+"Their widows were neglected in the daily distribution of food",
+"They were denied the right to preach in the temple",
+"They wanted a separate place of worship",
+"They were excluded from the apostles' teaching sessions"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Grecian Jewish widows were being overlooked in the daily distribution of food, which caused murmuring. To resolve this, seven men full of the Spirit and wisdom were chosen to oversee the task.",
+"id": "crsx20002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Wahala start because dem dey forget Hellenist widows for food sharing every day. To settle am, dem choose seven wise men wey get Holy Spirit."
+},
+{
+"q": "What was the main qualification required of the seven men chosen to serve tables in Acts chapter 6?",
+"options": [
+"They had to be of good reputation, full of the Holy Spirit and wisdom",
+"They had to be wealthy members who could fund the church",
+"They had to be relatives of the twelve apostles",
+"They had to be former priests converted to the faith"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The apostles instructed the believers to choose men of good reputation, full of the Holy Spirit and wisdom. Stephen was one of those selected for this responsibility.",
+"id": "crsx20003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "The apostles tell the people make dem choose men wey get better name, full of Holy Spirit and wisdom. Na so dem take pick Stephen and six other men."
+},
+{
+"q": "Before he was stoned, Stephen looked up to heaven and testified to seeing a vision. What did he say he saw?",
+"options": [
+"The heavens opened and the Son of Man standing at the right hand of God",
+"A dove descending with an olive branch",
+"A great multitude of angels singing praises",
+"An empty throne surrounded by bright light"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Stephen declared that he saw the heavens opened and the Son of Man standing at the right hand of God. This enraged the council and led them to rush upon him and stone him.",
+"id": "crsx20004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Before dem stone Stephen, e look up and talk say e see heaven open and Son of Man dey stand for God right hand. This one make the council vex well well."
+},
+{
+"q": "What prayer did Stephen offer for his killers just before he died from stoning?",
+"options": [
+"Lord, lay not this sin to their charge",
+"Father, send fire upon them for their wickedness",
+"Lord, let their children suffer for this act",
+"Father, remember them not on the day of judgement"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "As he was dying, Stephen knelt and cried out asking the Lord not to hold the sin against his killers. This mirrored the spirit of forgiveness shown by Christ on the cross.",
+"id": "crsx20005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "As dem dey stone Stephen, e bend down and beg God make e no put the sin for their head. E show the same forgiveness wey Jesus show for cross."
+},
+{
+"q": "Which event in Acts chapter 12 shows that the early church depended on fervent prayer when a leader faced persecution from the state?",
+"options": [
+"The church prayed earnestly and Peter was miraculously released from prison by an angel",
+"The church fasted and Herod immediately repented",
+"The believers hid Peter in a cave outside Jerusalem",
+"The apostles bribed the guards to free Peter"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "When Herod imprisoned Peter, the church prayed without ceasing, and an angel appeared to free him from his chains and lead him past the guards. This showed the power of united prayer during persecution.",
+"id": "crsx20006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "When Herod put Peter for prison, church con pray well well foram, and angel come removeam from chains. E show say prayer get power when wahala come."
+},
+{
+"q": "A new convert in Lagos argues that the early church's growth under persecution proves that suffering for one's faith can actually strengthen the spread of the gospel. Which incident from Acts best supports this reasoning?",
+"options": [
+"Believers scattered by persecution preached the word wherever they went, spreading the gospel beyond Jerusalem",
+"The apostles abandoned the ministry to avoid further trouble",
+"The church stopped growing until the persecution ended completely",
+"The believers sought revenge against those who persecuted them"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Although persecution scattered the believers from Jerusalem, they preached the gospel wherever they went, causing the church to spread further. This shows that suffering did not stop the mission but helped extend it.",
+"id": "crsx20007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Even though wahala scatter the believers, dem still dey preach the word anywhere dem go. This one show say persecution even help gospel reach another place."
+}
+],
+"rejected": []
+}

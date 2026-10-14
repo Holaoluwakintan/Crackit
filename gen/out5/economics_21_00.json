@@ -1,0 +1,194 @@
+{
+"subject": "economics",
+"topic": "Business organisations: types, features, finance and the Nigerian context",
+"ti": 21,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A business owned and controlled by one person, who provides the capital, bears all the risks and takes all the profits, is best described as a",
+"options": [
+"sole proprietorship",
+"partnership",
+"private limited company",
+"cooperative society"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "A sole proprietorship is a one-man business where a single individual supplies the capital, makes all decisions, bears all risks and keeps all the profit. The other forms involve two or more people sharing ownership.",
+"py": null,
+"values": null,
+"id": "ecox21000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Sole proprietorship na one man business where na only one person dey bring money, make decision, carry all the risk, and pack all the profit. Other business types dey involve two or more people."
+},
+{
+"q": "Which of the following is a major disadvantage of a sole proprietorship as a form of business organisation?",
+"options": [
+"Unlimited liability of the owner",
+"Separation of ownership from control",
+"Double taxation of profits",
+"Difficulty in reaching quick decisions"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "In a sole proprietorship, the owner has unlimited liability, meaning personal property can be seized to pay business debts. The other options apply more to partnerships or companies, not sole proprietorships.",
+"py": null,
+"values": null,
+"id": "ecox21001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For sole proprietorship, person get unlimited liability, meaning if business owe debt, dem fit sell your personal property to pay am. Na company and partnership other things dey happen, no be sole proprietorship."
+},
+{
+"q": "In a partnership business, a 'sleeping partner' is one who",
+"options": [
+"contributes capital but does not take part in the day-to-day management",
+"manages the business but contributes no capital",
+"has unlimited liability and manages the firm actively",
+"is liable only for debts incurred during his own transactions"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A sleeping (silent) partner invests money in the business and shares in the profits or losses but does not take part in the active running of the firm. Active or general partners are the ones who manage the business daily.",
+"py": null,
+"values": null,
+"id": "ecox21002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Sleeping partner na person wey put money for business and dey share profit or loss, but e no dey join hand run the business everyday. Na active partners dey manage the business daily."
+},
+{
+"q": "A public limited liability company is best distinguished from a private limited liability company by the fact that the public company",
+"options": [
+"can invite members of the public to subscribe for its shares through the stock exchange",
+"must have only two shareholders at formation",
+"cannot be sued in a law court",
+"is owned and financed entirely by the government"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A public limited company can offer its shares to the general public and list them on the stock exchange, unlike a private limited company whose shares are restricted to a few members. It is not necessarily government owned.",
+"py": null,
+"values": null,
+"id": "ecox21003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Public limited company get power to sell shares to anybody for stock exchange market, unlike private limited company wey members limited. Government no suppose own am by force."
+},
+{
+"q": "The document that states the relationship of a registered company with the outside world, including its name, objectives and registered address, is called the",
+"options": [
+"Memorandum of Association",
+"Articles of Association",
+"Certificate of Incorporation",
+"Prospectus"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The Memorandum of Association governs the company's external relations, stating its name, objectives, registered office and share capital. The Articles of Association, by contrast, deal with the internal rules of the company.",
+"py": null,
+"values": null,
+"id": "ecox21004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Memorandum of Association na the paper wey dey show how company take dey relate with outsiders, including company name and objective. Articles of Association na for internal rules."
+},
+{
+"q": "One key advantage a joint stock company has over a sole proprietorship in raising long-term finance is that the company can",
+"options": [
+"sell shares and debentures to a large number of investors",
+"avoid paying company income tax completely",
+"operate without keeping any financial records",
+"obtain unlimited personal loans from its single owner"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "A joint stock company can raise large amounts of capital by issuing shares and debentures to many investors, something a sole proprietor cannot easily do. Companies still pay tax and must keep proper accounts.",
+"py": null,
+"values": null,
+"id": "ecox21005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Joint stock company fit raise plenty money by selling shares and debentures to many investors, wey sole proprietor no fit easily do. Company still dey pay tax and keep account."
+},
+{
+"q": "A cooperative society in Nigeria mainly exists to",
+"options": [
+"promote the mutual economic welfare of its members through joint effort",
+"maximize profit for a few wealthy shareholders",
+"replace the role of commercial banks in the economy",
+"operate solely as an agent of the Federal Government"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Cooperative societies are formed by people with common interests who pool resources together to improve their economic welfare, such as through savings, credit or bulk buying. They are not profit-maximising ventures for a few owners.",
+"py": null,
+"values": null,
+"id": "ecox21006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Cooperative society na people wey join hand together to help themselves economically through savings and bulk buying. E no be business wey dey find excess profit for only few rich people."
+},
+{
+"q": "Adaeze and three friends want to start a transport business. Adaeze contributes ₦2,000,000 and insists on unlimited liability and full control, but her friends want all four of them to share ownership, profits and liability without the cost and complex registration procedure of forming a company. Based on these conditions, the most suitable form of business organisation for them is a",
+"options": [
+"partnership",
+"sole proprietorship",
+"public limited company",
+"statutory corporation"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Since four people want to jointly own, manage and share profits and liabilities without the heavy legal requirements of registering a company, a partnership fits best, as it allows two or more persons to combine capital and skills under simpler rules than a company. A sole proprietorship suits only one owner, while a public company and statutory corporation involve far more formal and extensive registration.",
+"py": null,
+"values": null,
+"id": "ecox21007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Since four people wan join hand business without stress of heavy company registration, partnership fit dem well because e allow people pull resources together under simple rule. Sole proprietorship na for only one person."
+}
+],
+"rejected": []
+}

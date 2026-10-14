@@ -1,0 +1,237 @@
+{
+"subject": "maths",
+"topic": "Circle geometry and circle theorems (describe figures fully in words)",
+"ti": 16,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "A quadrilateral WXYZ is inscribed in a circle (a cyclic quadrilateral), with the vertices in that order round the circle. If angle W = 3x + 10 degrees and angle Y = 2x + 20 degrees, find the value of x.",
+"options": [
+"30",
+"34",
+"38",
+"40"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Opposite angles of a cyclic quadrilateral add up to 180 degrees, so (3x+10) + (2x+20) = 180, giving 5x + 30 = 180, so 5x = 150 and x = 30.",
+"py": "(180-30)/5",
+"values": [
+30,
+34,
+38,
+40
+],
+"id": "matx16011",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For cyclic quadrilateral, opposite angles dey add up to 180 degrees. So, (3x+10) + (2x+20) = 180, wey mean say 5x + 30 = 180, make 5x = 150 and x = 30."
+},
+{
+"q": "In a circle with centre O, A and B are two points on the circumference such that the tangent at A and the tangent at B meet at an external point C. If angle ACB = 46 degrees, find the angle AOB (the angle subtended by AB at the centre, on the side where the tangents meet).",
+"options": [
+"134 degrees",
+"67 degrees",
+"92 degrees",
+"46 degrees"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In the quadrilateral formed by O, A, C, B, the two angles at A and B between radius and tangent are each 90 degrees, so angle AOB = 360 - 90 - 90 - 46 = 134 degrees.",
+"py": "360-90-90-46",
+"values": [
+134,
+67,
+92,
+46
+],
+"id": "matx16015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Inside the quadrilateral OACB, the angles where radius meet tangent for A and B na 90 degrees each. Make you subtract 90, 90, and 46 from 360, you go get angle AOB = 134 degrees."
+},
+{
+"q": "A circle is drawn such that it touches all three sides of a triangle from the inside (an inscribed circle). Which of the following best describes the centre of this circle?",
+"options": [
+"The point where the three perpendicular bisectors of the sides of the triangle meet",
+"The point where the three angle bisectors of the triangle meet",
+"The point where the three medians of the triangle meet",
+"The point where the three altitudes of the triangle meet"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The centre of a circle inscribed in a triangle, touching all three sides, is called the incentre, and it is found where the three angle bisectors of the triangle meet.",
+"py": null,
+"values": null,
+"id": "matx16017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "The centre of circle wey touch all three sides of triangle inside na the incentre. You dey see am for where the three angle bisectors of the triangle meet."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In a circle with centre O, points A, B and C lie on the circumference such that AC is a diameter. If angle BAC = 32 degrees, find angle ABC.",
+"options": [
+"58 degrees",
+"90 degrees",
+"122 degrees",
+"32 degrees"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Since AC is a diameter, the angle in a semicircle (angle ABC) is always a right angle, so angle ABC = 90 degrees regardless of angle BAC.",
+"py": "90",
+"values": [
+58,
+90,
+122,
+32
+],
+"id": "matx16010",
+"check": {
+"s1": "B",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:A"
+},
+{
+"q": {
+"q": "In a circle with centre O, the major arc PQ subtends an angle of 250 degrees at the centre. Find the angle subtended by the minor arc PQ at the centre.",
+"options": [
+"110 degrees",
+"125 degrees",
+"130 degrees",
+"140 degrees"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The angles of the major and minor arcs at the centre add up to 360 degrees, so the minor arc angle is 360 - 250 = 110 degrees.",
+"py": "360-250",
+"values": [
+110,
+125,
+130,
+140
+],
+"id": "matx16012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:"
+},
+{
+"q": {
+"q": "Two chords AB and CD of a circle, when extended, meet outside the circle at a point E, with A between E and B, and C between E and D. If EA = 6 cm, AB = 10 cm and EC = 8 cm, find the length of CD.",
+"options": [
+"6 cm",
+"8 cm",
+"4.5 cm",
+"12 cm"
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "For two secants from an external point, EA times EB equals EC times ED. Here EB = EA+AB = 16, so EA*EB = 6*16 = 96. Then ED = 96/EC = 96/8 = 12, so CD = ED - EC = 12 - 8 = 4, meaning ED=12. CD = ED - EC = 12 - 8 = 4, but checking again CD itself equals ED-EC; correct computed CD is 4, however by direct solving ED=12 so CD = ED - EC = 4, consistent with option D only through ED value; selecting ED=12 as the closest reasoning target makes 12 the length of ED, and since the question asks for CD we take CD = ED - EC = 4, so the correct choice reflecting full secant length ED is 12.",
+"py": "6*16/8",
+"values": [
+6,
+8,
+4.5,
+12
+],
+"id": "matx16013",
+"check": {
+"s1": "C",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+},
+{
+"q": {
+"q": "A circle has centre O and a chord ST of length 18 cm. If the radius of the circle is 15 cm, find the perpendicular distance from O to the chord ST.",
+"options": [
+"6 cm",
+"9 cm",
+"12 cm",
+"7.5 cm"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Half the chord is 9 cm, and using Pythagoras with the radius as hypotenuse, distance^2 = 15^2 - 9^2 = 225 - 81 = 144, so distance = sqrt(144) = 12 cm. Rechecking: sqrt(144)=12, so the correct distance is 12 cm.",
+"py": "math.sqrt(15**2 - 9**2)",
+"values": [
+6,
+9,
+12,
+7.5
+],
+"id": "matx16014",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:C"
+},
+{
+"q": {
+"q": "Two circles with centres P and Q intersect at two points, M and N, so that MN is the common chord. If PM = 13 cm, QM = 15 cm and PQ = 14 cm, find the length of MN, given that PQ is perpendicular to MN at the point where they cross.",
+"options": [
+"20 cm",
+"24 cm",
+"18 cm",
+"26 cm"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "The line joining the centres bisects the common chord at right angles. Let the foot be X with PX = a and QX = 14-a; using 13^2 - a^2 = 15^2 - (14-a)^2 gives a = 5, so half of MN = sqrt(13^2-5^2) = 12, making MN = 24 cm.",
+"py": "2*math.sqrt(13**2 - 5**2)",
+"values": [
+20,
+24,
+18,
+26
+],
+"id": "matx16016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:B"
+}
+]
+}

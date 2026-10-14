@@ -1,0 +1,178 @@
+{
+"subject": "literature",
+"topic": "Tone, mood, theme and diction",
+"ti": 10,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Read this extract: 'The old fisherman cast his net for the hundredth time that week, his hands trembling not from cold but from hunger. Yet he hummed an old tune, eyes fixed on the horizon as if dawn itself owed him a catch.' The tone of the narrator towards the fisherman can best be described as one of",
+"options": [
+"mockery and contempt",
+"quiet admiration and sympathy",
+"bitter resentment",
+"cold indifference"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The details of hunger, trembling hands, yet continued hope and humming show the narrator presenting the fisherman with sympathy and quiet admiration for his endurance. There is no mockery, resentment or indifference in the description.",
+"id": "litx10000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The way the writer describe how the man dey suffer but still dey hope show say e get respect for am. No be mockery or hate, na true sympathy."
+},
+{
+"q": "A poet writes an elegy using words like 'eternal rest', 'gentle slumber' and 'journey home' instead of 'death' and 'corpse'. This choice of softer, more comforting words is an example of",
+"options": [
+"colloquial diction",
+"euphemistic diction",
+"archaic diction",
+"monosyllabic diction"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Euphemistic diction replaces harsh or unpleasant words with gentler, more comforting expressions. Here, death-related words are softened, which fits this definition exactly.",
+"id": "litx10001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Euphemism na when you use soft word take talk hard matter. Instead of make you talk say person die, you go use better word wey no go pain people ear."
+},
+{
+"q": "Read this short extract: 'The market square, once alive with the cries of traders and the laughter of children, now lay still under a blanket of ash, the charred stalls standing like skeletons against the grey sky.' The mood created by this description is best described as",
+"options": [
+"festive and lively",
+"desolate and sorrowful",
+"hopeful and triumphant",
+"playful and lighthearted"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Words like 'ash', 'charred', 'skeletons' and 'grey sky' create a bleak, mournful atmosphere. This contrasts sharply with the former liveliness, producing a desolate and sorrowful mood.",
+"id": "litx10002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Words like ash and skeleton show say everywhere don spoil. The mood come be like say everywhere empty and person heart dey heavy."
+},
+{
+"q": "In a novel, a character repeatedly loses his farmland, his wife, and finally his voice in the village council, yet the story keeps returning to his attempts to reclaim respect among his people. This recurring concern across the plot best illustrates the novel's",
+"options": [
+"setting",
+"theme",
+"tone",
+"diction"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A recurring concern or idea that runs through the events of a story, such as the struggle to reclaim lost respect, is the theme. Setting, tone and diction describe other aspects of the work, not its central message.",
+"id": "litx10003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Theme na the main message wey dey repeat for inside story. Since the man dey always try regain im respect, na that one be the theme."
+},
+{
+"q": "Consider these two lines from different poems describing rain: Poem A: 'The rain fell in gentle silver threads, kissing the earth awake.' Poem B: 'The rain hammered down like angry fists, drowning every living thing in its path.' The contrast between the two lines is mainly achieved through differences in",
+"options": [
+"rhyme scheme",
+"diction and imagery",
+"stanza length",
+"narrative point of view"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The two lines use different word choices and images, 'gentle silver threads' and 'kissing' versus 'angry fists' and 'drowning', to create opposite impressions of the same rain. This difference is a matter of diction and imagery, not rhyme, stanza length or point of view.",
+"id": "litx10004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The two lines use different words and pictures to describe rain. Na diction and imagery make the first one sound sweet and the second one sound angry."
+},
+{
+"q": "Read the excerpt: 'Mr. Bello addressed the gathering: Fellow citizens, we gather here not to mourn, but to forge from our ashes a future our children will be proud of. Let every tear become a brick in the wall we build together.' The tone of the speaker is best described as",
+"options": [
+"despairing and defeated",
+"sarcastic and dismissive",
+"inspiring and resolute",
+"apologetic and timid"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "The speaker urges unity and progress despite hardship, using encouraging images of building a future from ashes and tears. This reflects an inspiring, resolute tone rather than despair, sarcasm or timidity.",
+"id": "litx10005",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The man dey talk to make people strong and get hope for future. E no dey sad or sarcastic, e just want make everybody stand up."
+},
+{
+"q": "A playwright sets a tragedy in a village devastated by drought, choosing words such as 'parched', 'withered', 'gasping' and 'cracked' throughout the dialogue. Which statement best explains the relationship between this diction and the play's mood?",
+"options": [
+"The diction is unrelated to mood and only affects characterisation",
+"The diction reinforces the mood by using words that evoke suffering and decay",
+"The diction weakens the mood by introducing comic relief",
+"The diction shifts the mood from tragic to celebratory"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Words like 'parched', 'withered', 'gasping' and 'cracked' all evoke images of suffering, decay and hardship, which strengthens and matches the tragic, desolate mood of the drought-stricken setting. This shows diction working together with mood rather than against it.",
+"id": "litx10006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "The words wey the writer choose help make the mood of the play clear. When you use words like parched and withered, you dey make the suffering feel real."
+},
+{
+"q": "Read this extract: 'Pa Ikenna built his house with his bare hands, brick upon brick, through sun and rain. When the flood came and swept it all away, he simply rolled up his sleeves and began again, saying, A man is not his house, but what he builds with his will.' Beyond the literal story, this extract most strongly suggests a theme of",
+"options": [
+"the dangers of living near rivers",
+"human resilience in the face of loss",
+"the importance of modern building materials",
+"the conflict between fathers and sons"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Pa Ikenna's response to losing his house, rebuilding without despair and declaring that his will matters more than his possessions, points to a theme of resilience and perseverance. The other options are either too literal or not supported by the extract.",
+"id": "litx10007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Even as flood carry the house, the man no give up. This one show say human being get strong spirit to stand up again after bad thing happen."
+}
+],
+"rejected": []
+}

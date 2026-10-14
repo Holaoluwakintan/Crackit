@@ -1,0 +1,231 @@
+{
+"subject": "physics",
+"topic": "Simple harmonic motion and pendulums",
+"ti": 21,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "A body of mass 0.5 kg executes simple harmonic motion with angular frequency 4 rad/s and amplitude 0.2 m. What is the maximum kinetic energy of the body during the motion?",
+"options": [
+"0.08 J",
+"0.16 J",
+"0.32 J",
+"0.64 J"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Maximum KE equals total energy = 1/2 * m * w^2 * A^2 = 0.5 * 0.5 * 16 * 0.04 = 0.16 J. This occurs when the body passes through the equilibrium (mean) position where speed is maximum.",
+"py": "0.5*0.5*(4**2)*(0.2**2)",
+"values": [
+0.08,
+0.16,
+0.32,
+0.64
+],
+"id": "phyx21001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Maximum kinetic energy na 1/2 * m * w^2 * A^2. If you calculate 0.5 * 0.5 * 16 * 0.04, you go get 0.16 J. Dis one dey happen for di mean position where speed dey maximum."
+},
+{
+"q": "In a simple pendulum undergoing small oscillations, which of the following correctly describes the energy changes between the extreme position and the mean (equilibrium) position?",
+"options": [
+"Kinetic energy is maximum at the extreme position and zero at the mean position",
+"Potential energy is maximum at the extreme position and minimum at the mean position",
+"Total mechanical energy is zero at the mean position and maximum at the extreme position",
+"Kinetic and potential energy are both maximum at the mean position"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "At the extreme position the pendulum momentarily stops, so all the energy is potential (maximum), while at the mean position all the energy is kinetic (potential energy minimum). Total mechanical energy stays constant throughout.",
+"py": null,
+"values": null,
+"id": "phyx21002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For extreme position, di pendulum stop small, so all energy na potential energy. For mean position, di potential energy dey minimum and kinetic energy dey maximum. Total energy no dey change."
+},
+{
+"q": "Two simple pendulums, P and Q, have lengths in the ratio 1:4. If pendulum P has a period of 1.5 s, what is the period of pendulum Q?",
+"options": [
+"0.75 s",
+"1.5 s",
+"3.0 s",
+"6.0 s"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Since T is proportional to sqrt(L), doubling the ratio of lengths by 4 means the period increases by sqrt(4) = 2. So Q's period = 1.5 * 2 = 3.0 s.",
+"py": "1.5*math.sqrt(4)",
+"values": [
+0.75,
+1.5,
+3.0,
+6.0
+],
+"id": "phyx21003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Period T dey proportional to square root of length L. Since length ratio na 1:4, period go increase by square root of 4, wey be 2. So 1.5 s times 2 give us 3.0 s."
+},
+{
+"q": "A particle moves with simple harmonic motion described by x = 5 cos(2t), where x is in centimetres and t is in seconds. What is the maximum acceleration of the particle?",
+"options": [
+"10 cm/s^2",
+"20 cm/s^2",
+"5 cm/s^2",
+"40 cm/s^2"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Maximum acceleration equals w^2 * A, where w = 2 rad/s and A = 5 cm. So maximum acceleration = 4 * 5 = 20 cm/s^2.",
+"py": "(2**2)*5",
+"values": [
+10,
+20,
+5,
+40
+],
+"id": "phyx21004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Maximum acceleration na w^2 * A. If w na 2 rad/s and A na 5 cm, den 2 squared times 5 go give you 20 cm/s^2. Na simple calculation be dat."
+},
+{
+"q": "Which of the following is NOT a necessary condition for a system to undergo simple harmonic motion?",
+"options": [
+"The restoring force must be directed towards a fixed equilibrium point",
+"The restoring force must be directly proportional to the displacement from equilibrium",
+"The amplitude of oscillation must be the same as the length of the oscillating system",
+"The acceleration must always be directed opposite to the displacement"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Simple harmonic motion requires a restoring force proportional to displacement and directed towards equilibrium, with acceleration opposite to displacement. There is no requirement that amplitude equals the length of the system, so this is not a necessary condition.",
+"py": null,
+"values": null,
+"id": "phyx21006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Simple harmonic motion need restoring force wey dey proportional to displacement and dey point to equilibrium. Amplitude no get any condition to be equal to length of system. So dat one no correct."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A simple pendulum of length 0.9 m is set swinging with a small angular amplitude. Taking g = 10 m/s^2 and pi^2 = 10, calculate the period of oscillation.",
+"options": [
+"0.6 s",
+"1.2 s",
+"1.8 s",
+"3.6 s"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "T = 2*pi*sqrt(L/g) = 2*sqrt(0.9/10 * pi^2) = 2*sqrt(0.09*10) = 2*sqrt(0.9)... using pi^2=10, T^2 = 4*pi^2*L/g = 4*10*0.9/10 = 3.6, so T = sqrt(3.6) ≈ 1.8 s.",
+"py": "math.sqrt(4*10*0.9/10)",
+"values": [
+0.6,
+1.2,
+1.8,
+3.6
+],
+"id": "phyx21000",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Chidinma observes that a simple pendulum takes 40 s to complete 20 oscillations. Taking g = 10 m/s^2 and pi^2 = 10, find the length of the pendulum.",
+"options": [
+"0.5 m",
+"1.0 m",
+"2.0 m",
+"4.0 m"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Period T = 40/20 = 2.0 s. From T^2 = 4*pi^2*L/g, L = T^2*g/(4*pi^2) = 4*10/(4*10) = 1.0 m.",
+"py": "(2.0**2)*10/(4*10)",
+"values": [
+0.5,
+1.0,
+2.0,
+4.0
+],
+"id": "phyx21005",
+"check": {
+"s1": "B",
+"s2": "",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:"
+},
+{
+"q": {
+"q": "A simple pendulum of length 1.6 m is pulled aside so that it makes a small angle with the vertical and released. Taking g = 10 m/s^2 and pi^2 = 10, how many complete oscillations does it make in 2 minutes?",
+"options": [
+"15",
+"25",
+"30",
+"48"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Period T = 2*pi*sqrt(L/g); T^2 = 4*pi^2*L/g = 4*10*1.6/10 = 6.4, so T = sqrt(6.4) ≈ 2.53 s. Number of oscillations in 120 s = 120/2.53 ≈ 47... wait, recompute: actually using pi^2=10 gives T=2.53s which gives about 47 oscillations, so distractor check needed.",
+"py": "120/math.sqrt(4*10*1.6/10)",
+"values": [
+15,
+25,
+30,
+48
+],
+"id": "phyx21007",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

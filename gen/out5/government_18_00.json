@@ -1,0 +1,180 @@
+{
+"subject": "government",
+"topic": "Political ideologies: democracy, capitalism, socialism, communism, fascism, feudalism",
+"ti": 18,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Which of the following is a basic feature of democracy as practised in Nigeria?",
+"options": [
+"Rule by a single party that cannot be challenged",
+"Periodic free and fair elections",
+"Inheritance of political office by birth",
+"Control of the economy solely by the state"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Democracy is government chosen by the people through regular, free and fair elections. The other options describe one-party rule, feudal inheritance, and state-controlled economies, which are not democratic features.",
+"id": "govx18000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Democracy na government wey people choose through election wey dey free and fair. Other options like one-party rule or feudal system no be democracy at all."
+},
+{
+"q": "A key economic feature that distinguishes capitalism from socialism is that under capitalism, the means of production are mainly",
+"options": [
+"owned and controlled by the state",
+"owned by private individuals for profit",
+"shared equally among all citizens",
+"controlled by a council of workers only"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Capitalism is based on private ownership of the means of production, with individuals and firms operating for profit. Socialism, by contrast, emphasises state or collective ownership.",
+"id": "govx18001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Capitalism mean say private people get property and business to make profit. Socialism dey different because na government or everybody dey own property together."
+},
+{
+"q": "In a feudal system such as existed in medieval Europe, land was held by lords who granted portions to vassals mainly in exchange for",
+"options": [
+"cash rent paid monthly",
+"loyalty and military service",
+"votes in a national assembly",
+"shares in trading companies"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Feudalism was based on a hierarchy in which lords granted land (fiefs) to vassals who, in return, pledged loyalty and provided military service. This created a chain of mutual obligation rather than a cash or democratic relationship.",
+"id": "govx18002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "For feudal system, lords dey give land to vassals for exchange of loyalty and military help. No be money or vote dem dey use trade for that time."
+},
+{
+"q": "A country's constitution bans all other political parties, places the economy under tight state direction, glorifies an all-powerful leader, and promotes extreme nationalism with strong suppression of dissent. This description best fits",
+"options": [
+"liberal democracy",
+"scientific socialism",
+"fascism",
+"classical feudalism"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "Fascism is marked by a single dominant leader, extreme nationalism, suppression of opposition, and state direction of the economy without full state ownership. This combination rules out democracy, socialism, and feudalism, which have different core features.",
+"id": "govx18003",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Fascism get one strong leader, extreme nationalism, and dem dey stop people from talk against government. Dis one no be democracy, socialism, or feudalism."
+},
+{
+"q": "Under communism as envisaged by Karl Marx, the ultimate goal of the revolutionary struggle is to establish a society in which",
+"options": [
+"private property and social classes disappear completely",
+"a hereditary monarchy guides production",
+"multinational companies control all industries",
+"political power rotates among competing parties"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Marx saw communism as the final stage of history, where class distinctions and private ownership of property would vanish, leaving a classless, stateless society. The other options describe monarchy, capitalism, and multi-party democracy, which Marx opposed.",
+"id": "govx18004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Karl Marx believe say communism go end class difference and private property. E want society wey no get rich or poor people, just equality for everybody."
+},
+{
+"q": "One major criticism often made against socialism is that it tends to",
+"options": [
+"encourage excessive individual competition for profit",
+"reduce individual initiative because rewards are not tied closely to personal effort",
+"allow private individuals to control all major industries",
+"promote inherited titles as the basis of political power"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Critics argue that because socialism emphasises collective ownership and equal distribution, individuals may have less personal incentive to work hard since rewards are not strictly linked to effort. The other options wrongly describe capitalism or feudalism instead.",
+"id": "govx18005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "People wey dey criticize socialism talk say because reward no dey depend on personal effort, people fit no work hard. Dis one dey different from capitalism wey dey encourage competition."
+},
+{
+"q": "A newly independent country adopts a constitution guaranteeing freedom of speech, an independent judiciary, periodic elections open to multiple parties, and a bill of rights protecting citizens from arbitrary arrest. Based on these features, the country can best be described as practising",
+"options": [
+"totalitarian fascism",
+"feudal absolutism",
+"constitutional democracy",
+"command communism"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "The combination of free speech, independent courts, multi-party elections, and protected civil rights are defining pillars of constitutional democracy. Fascism suppresses opposition, feudalism rests on land-based hierarchy, and communism typically bans private property and multi-party competition, so these do not fit the description.",
+"id": "govx18007",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "If country get freedom of speech, independent court, and election with many parties, na constitutional democracy be dat. Other systems like fascism or communism no dey allow all dis freedom."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "A group of students is asked to classify four historical systems based on who controls the major means of production. System W: factories owned by private businessmen who sell goods for profit. System X: farmland owned by lords who grant plots to serfs in return for service. System Y: industries owned and planned by the state for the benefit of all. System Z: leadership is hereditary and opposition parties are completely banned by law. Which pairing correctly matches the systems with their ideologies?",
+"options": [
+"W-capitalism, X-feudalism, Y-socialism, Z-fascism",
+"W-socialism, X-capitalism, Y-feudalism, Z-democracy",
+"W-feudalism, X-socialism, Y-fascism, Z-capitalism",
+"W-fascism, X-democracy, Y-capitalism, Z-feudalism"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Private ownership for profit is capitalism, land held by lords with service from serfs is feudalism, state ownership for collective benefit is socialism, and hereditary rule with banned opposition fits fascism's authoritarian, nationalist control. Matching each description carefully rules out the other combinations.",
+"id": "govx18006",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

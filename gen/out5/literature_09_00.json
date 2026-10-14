@@ -1,0 +1,178 @@
+{
+"subject": "literature",
+"topic": "African oral literature: folktales, proverbs, praise poetry, dirge",
+"ti": 9,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In African oral literature, the term 'call-and-response' refers to a performance pattern in which:",
+"options": [
+"The narrator recites the entire tale alone without audience participation",
+"A lead singer or storyteller delivers a line and the audience or chorus answers with a refrain",
+"Two storytellers argue over the correct version of a tale",
+"The audience claps continuously without any verbal exchange"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Call-and-response is a performance technique where the narrator or lead voice chants a line and the listeners reply with a fixed refrain, making the storytelling interactive.",
+"id": "litx09000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Call-and-response na style wey person go sing or talk one line, den di audience go answer am back. E dey make di storytelling sweet and make everybody join body for di matter."
+},
+{
+"q": "A village elder in an Igbo community is invited to settle a land dispute between two families. During the proceedings, he repeatedly quotes ancestral sayings to justify his judgment rather than stating his personal opinion directly. This practice best illustrates which function of proverbs in African oral tradition?",
+"options": [
+"Proverbs serve as a form of entertainment only",
+"Proverbs lend authority and communal wisdom to a speaker's argument",
+"Proverbs are used to confuse the listener deliberately",
+"Proverbs replace the need for elders in conflict resolution"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "By quoting proverbs, the elder grounds his judgement in shared communal wisdom rather than personal opinion, giving his words greater authority and acceptance.",
+"id": "litx09001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When elder use proverb, e dey show say na wetin our papa dem talk e dey follow. Dis one dey make im judgment get weight and make people respect wetin e talk."
+},
+{
+"q": "Which of the following best describes 'ijala' as a specific form of praise poetry among the Yoruba?",
+"options": [
+"A lullaby sung by mothers to put babies to sleep",
+"A chant performed by hunters in honour of Ogun and the bravery of hunters",
+"A funeral dirge sung exclusively by widows",
+"A proverb recited during wedding ceremonies"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Ijala is a specialised chant performed by Yoruba hunters, praising the god Ogun, hunting skill, and courage, distinguishing it from lullabies, dirges, or wedding proverbs.",
+"id": "litx09002",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Ijala na special chant wey Yoruba hunters dey use praise Ogun and show say dem get liver. E no be lullaby or funeral song, na strictly for hunters."
+},
+{
+"q": "Read the following original proverb: 'The tortoise does not climb the iroko tree by its own strength; something must have lifted it there.' Which interpretation best fits this saying?",
+"options": [
+"Tortoises are naturally skilled climbers",
+"Unusual success or sudden rise often has hidden help or circumstances behind it",
+"Trees should never be climbed by small animals",
+"Strength alone guarantees achievement"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The image of a slow, earthbound tortoise reaching a great height implies that an unlikely achievement must have been assisted by outside forces, teaching that sudden success often has an unseen cause.",
+"id": "litx09003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Tortoise no fit climb iroko tree by imsef, so if you see am for top, e mean say something help am. Dis proverb show say if person succeed quick-quick, e fit be say get help wey no show."
+},
+{
+"q": "Which narrative technique is most commonly used in African folktales to teach moral lessons without directly stating them?",
+"options": [
+"Direct authorial commentary explaining the moral at the start",
+"Allegory, where animal or spirit characters symbolically represent human behaviour",
+"Detailed historical footnotes",
+"Strict chronological biography of a real person"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "African folktales commonly use allegory, giving human traits to animals or spirits so that listeners draw out the moral themselves through symbolic action.",
+"id": "litx09004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "African folktale dey use animal or spirit represent human character to teach lesson. Dem dey call dis one allegory, so dat you go fit learn di moral by yoursef."
+},
+{
+"q": "A praise chant describes a king as 'the elephant whose footsteps shake the forest, the iroko that laughs at the storm.' What literary device dominates this praise poetry extract?",
+"options": [
+"Simile introduced by 'like' or 'as'",
+"Metaphor comparing the king directly to powerful natural images",
+"Onomatopoeia imitating sounds of nature",
+"Understatement to reduce the king's importance"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The king is directly called 'the elephant' and 'the iroko' without using 'like' or 'as', which is the defining feature of metaphor rather than simile.",
+"id": "litx09005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "When dem call king 'elephant' or 'iroko' direct, na metaphor be dat. Dem no use 'like' or 'as', so na direct comparison wey show say di king get power."
+},
+{
+"q": "Read this original dirge extract: 'Our strong rope has snapped in the middle of the stream; who will now pull the canoe to shore? The river has taken what the village cannot replace.' What is the dominant mood created by this extract?",
+"options": [
+"Joy and celebration of a new harvest",
+"Grief and a sense of irreplaceable communal loss",
+"Anger towards a rival village",
+"Excitement about an upcoming festival"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The images of a snapped rope and a river taking something irreplaceable symbolise death and loss, creating a mournful tone typical of a dirge rather than joy or anger.",
+"id": "litx09006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Di way dem talk about rope wey snap for river show say person don die. Di mood na full of sorrow because di village don lose person wey dem no fit replace."
+},
+{
+"q": "Which of the following best explains why African oral literature is described as 'communal' in authorship?",
+"options": [
+"It is written by a single author who hides his identity",
+"It is passed down, reshaped, and owned collectively by the community across generations",
+"It can only be performed once and then forgotten forever",
+"It is protected by copyright law like printed novels"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Oral literature has no single fixed author; it is transmitted orally across generations and reshaped by different performers, making it a shared communal possession rather than individual property.",
+"id": "litx09007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.1-flash-lite"
+},
+"pidgin": "Oral literature no get one person wey write am; na di whole community dey own am. E dey pass from one generation to anoda, and everybody dey add dia own touch as time dey go."
+}
+],
+"rejected": []
+}

@@ -1,0 +1,197 @@
+{
+"subject": "english",
+"topic": "Conditional sentences, reported speech and active/passive voice",
+"ti": 16,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best completes the gap: If the WAEC officials _____ the examination timetable earlier, candidates would have prepared adequately.",
+"options": [
+"released",
+"had released",
+"release",
+"will release"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "This is a third conditional about an unreal past situation. The if-clause needs the past perfect 'had released', and the main clause correctly uses 'would have prepared'.",
+"values": null,
+"py": null,
+"id": "engx16010",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dis na third conditional for matter wey don pass before. Na 'had released' suppose enter di if-clause to match 'would have prepared'."
+},
+{
+"q": "Choose the option that best expresses the sentence in quotes in the passive voice: \"Someone has stolen the chairman's official car from the car park.\"",
+"options": [
+"The chairman's official car has been stolen from the car park.",
+"The chairman's official car was stolen from the car park.",
+"The chairman's official car had been stolen from the car park.",
+"The chairman's official car is being stolen from the car park."
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The active sentence is in the present perfect tense, so the passive form must also be present perfect: 'has been stolen'. The agent 'someone' is dropped since it is not important.",
+"values": null,
+"py": null,
+"id": "engx16012",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di original sentence dey inside present perfect tense, so di passive version must still use 'has been stolen'. We no need put 'someone' again for inside."
+},
+{
+"q": "Choose the option that best completes the gap: _____ I to win this scholarship, I would dedicate it to my late father's memory.",
+"options": [
+"If",
+"Were",
+"Should",
+"Had"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "This is an inverted conditional sentence expressing a hypothetical future situation, formed by inverting 'were' with the subject instead of using 'if'. The correct inverted form is 'Were I to win', which means 'If I were to win'.",
+"values": null,
+"py": null,
+"id": "engx16013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dis one na inverted conditional wey talk about future wey never happen. Instead of 'if', we go use 'Were I to win' to make am correct."
+},
+{
+"q": "Choose the option that best expresses the same meaning as the sentence in quotes: The invigilator said, 'Stop writing immediately and drop your pens.'",
+"options": [
+"The invigilator said that the candidates should stop writing immediately and drop their pens.",
+"The invigilator ordered the candidates to stop writing immediately and drop their pens.",
+"The invigilator asked if the candidates could stop writing immediately and drop their pens.",
+"The invigilator suggested that the candidates stop writing immediately and drop their pens."
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The original sentence is a command given with a firm, authoritative tone, so the correct reporting verb is 'ordered', followed by the infinitive form 'to stop'. This best captures the imperative force of the original statement.",
+"values": null,
+"py": null,
+"id": "engx16014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na strong command di invigilator give, so 'ordered' plus 'to stop' be di correct way to report am. E show authority well well."
+},
+{
+"q": "Choose the option that best completes the gap: Provided that the contractors _____ the bridge before the rainy season, the villagers will cross the river safely.",
+"options": [
+"complete",
+"completed",
+"will complete",
+"completing"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "'Provided that' functions like 'if' in a first conditional sentence, so the condition clause takes the simple present tense 'complete', while the main clause uses the future tense 'will cross'. Mixing tenses like 'will complete' in the condition clause is a common error to avoid.",
+"values": null,
+"py": null,
+"id": "engx16015",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Because 'Provided that' dey like 'if' for first conditional, na simple present tense 'complete' we need for di condition. We no suppose use 'will complete'."
+},
+{
+"q": "Choose the option that best expresses the sentence in quotes in the passive voice: \"By next year, the government will have built ten new hospitals across the state.\"",
+"options": [
+"Ten new hospitals will be built across the state by the government by next year.",
+"Ten new hospitals will have been built across the state by next year.",
+"Ten new hospitals are being built across the state by next year.",
+"Ten new hospitals would have been built across the state by next year."
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "The active sentence is in the future perfect tense, so the passive equivalent must also be future perfect: 'will have been built'. The agent 'by the government' can be omitted since the focus is on the hospitals, not who builds them.",
+"values": null,
+"py": null,
+"id": "engx16016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Di active sentence dey for future perfect tense, so di passive must be 'will have been built'. We fitot remove 'by the government' make di sentence sweet."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best expresses the same meaning as the sentence in quotes: Bimpe said to her brother, 'Can you lend me your calculator for tomorrow's examination?'",
+"options": [
+"Bimpe asked her brother if he could lend her his calculator for tomorrow's examination.",
+"Bimpe asked her brother if she can lend him her calculator for the next day's examination.",
+"Bimpe told her brother to lend her his calculator for tomorrow's examination.",
+"Bimpe asked her brother if he could lend her his calculator for the following day's examination."
+],
+"answer": "D",
+"difficulty": "medium",
+"explanation": "In reported speech, a question introduced by 'can' becomes 'could', pronouns change appropriately, and the time expression 'tomorrow' must shift to 'the following day' since the reporting is not done on the same day. Only this option makes all the necessary changes correctly.",
+"values": null,
+"py": null,
+"id": "engx16011",
+"check": {
+"s1": "D",
+"s2": "D",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:A is also possible if reported on the same day.|"
+},
+{
+"q": {
+"q": "Read the passage and answer the question that follows:\nDuring the staff meeting, the principal addressed the teachers in a stern voice. She said, 'If any teacher is caught selling textbooks to students, the person will be suspended without pay.' All the teachers listened quietly, though some exchanged worried glances, since a few of them had been quietly running such a business for months. The deputy principal later asked, 'Did anyone understand the new policy clearly?'\n\nWhich option best reports what the principal said?",
+"options": [
+"The principal said that if any teacher was caught selling textbooks to students, the person would be suspended without pay.",
+"The principal said that if any teacher is caught selling textbooks to students, the person will be suspended without pay.",
+"The principal warned that any teacher caught selling textbooks to students should be suspended without pay.",
+"The principal said that if any teacher has been caught selling textbooks to students, the person has been suspended without pay."
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "In reported speech, the present tense 'is caught' shifts to past tense 'was caught', and 'will be suspended' shifts to 'would be suspended' to match the backshift rule. This option correctly maintains the conditional structure while applying the proper tense changes.",
+"values": null,
+"py": null,
+"id": "engx16017",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:B is also possible if the policy remains in force.|"
+}
+]
+}

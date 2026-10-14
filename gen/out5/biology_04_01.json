@@ -1,0 +1,181 @@
+{
+"subject": "biology",
+"topic": "Nutrition in animals: food classes, digestion and enzymes",
+"ti": 4,
+"b": 1,
+"generated": 8,
+"kept": [
+{
+"q": "Which pair of food classes are both classified as 'energy-giving foods' but differ in that one yields roughly twice as much energy per gram as the other?",
+"options": [
+"Carbohydrates and proteins",
+"Proteins and vitamins",
+"Carbohydrates and fats",
+"Fats and minerals"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "Carbohydrates and fats are both energy-giving food classes, but fats release about twice the energy per gram that carbohydrates do. Proteins are mainly body-building, while vitamins and minerals are protective, not energy sources.",
+"id": "biox04010",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Carbohydrates and fats na energy-giving food, but fat dey give twice the energy wey carbohydrate dey give per gram. Protein na body-building food, while vitamins and minerals dey protect body."
+},
+{
+"q": "A Nigerian dietitian plans a weaning diet for a 2-year-old child recovering from malnutrition. Which combination of local foods would best supply first-class (complete) protein to support rapid growth?",
+"options": [
+"Boiled yam and palm oil",
+"Eggs, fish and milk",
+"Garri and groundnut oil",
+"Plantain and vegetable soup without meat"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "Eggs, fish and milk are animal sources that contain all the essential amino acids in the right proportions, making them first-class proteins. Yam, garri and plantain are mainly carbohydrate sources and lack a full set of essential amino acids.",
+"id": "biox04011",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Egs, fish and milk na animal protein wey get all the essential amino acids wey body need to grow well, na first-class protein be that. Yam, garri and plantain na carbohydrate and dem no get complete amino acids."
+},
+{
+"q": "Which of the following best explains why enzymes are described as biological catalysts during digestion?",
+"options": [
+"They are used up completely after digesting one molecule of food",
+"They increase the rate of breakdown of food substances without being permanently changed or used up",
+"They supply additional energy that is absorbed along with digested food",
+"They change the chemical nature of food into a completely different class of nutrient"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Enzymes speed up digestive reactions by lowering activation energy, and they come out of the reaction chemically unchanged so they can be reused repeatedly. They do not get used up, nor do they convert one food class into another class.",
+"id": "biox04014",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Enzyme dey help food break down quick-quick without make dem spoil or finish for body. Dem no dey turn to another food class, and dem dey ready to work again."
+},
+{
+"q": "An investigation was carried out to study the effect of temperature on the activity of a certain digestive enzyme using starch as substrate. Test tubes were incubated at 10°C, 20°C, 37°C, 50°C and 70°C, and the time taken for the starch to disappear (tested with iodine) was recorded. The enzyme worked fastest at 37°C, slower at 20°C and 50°C, and showed almost no activity at 10°C and 70°C. What is the best explanation for the complete loss of activity at 70°C?",
+"options": [
+"The enzyme molecules moved too slowly to collide with the substrate",
+"The high temperature denatured the enzyme by permanently altering its active site",
+"The substrate became too concentrated for the enzyme to act on",
+"The enzyme was converted into a different type of protein at high temperature"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "At 70°C the heat energy disrupts the bonds holding the enzyme's three-dimensional shape, permanently changing the active site so the substrate can no longer bind; this is called denaturation. Slow molecular movement explains low activity at 10°C, not the loss of activity at high temperature.",
+"id": "biox04015",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "High temperature like 70°C dey spoil the shape of enzyme so the active site go scatter, wey we dey call denaturation. When this happen, food no fit bind with am again."
+},
+{
+"q": "A student set up an experiment with three test tubes each containing 5 ml of starch solution and 1 ml of saliva, buffered at pH 3, pH 7 and pH 9 respectively, then kept all three in a water bath at 37°C. After 10 minutes, iodine test showed that only the tube at pH 7 gave a brown colour (no starch left), while the other two tubes turned blue-black. What is the most reasonable conclusion from this result?",
+"options": [
+"Salivary amylase works best in strongly acidic conditions",
+"Salivary amylase works best in a neutral pH and is less active in acidic or alkaline conditions",
+"The iodine solution reacted differently with each buffer used",
+"Temperature, not pH, was responsible for the differences observed"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Since only the neutral pH 7 tube showed complete starch digestion while the acidic and alkaline tubes still contained undigested starch, the enzyme must work optimally around neutral pH. Temperature was kept constant at 37°C in all tubes, so it cannot explain the difference.",
+"id": "biox04016",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Na only for neutral pH 7 the salivary amylase chop finish the starch, show say acidic and alkaline environment no good for am. Temperature con remain the same for all tubes."
+},
+{
+"q": "In an experiment, two identical pieces of visking (dialysis) tubing, A and B, were each filled with a mixture of starch solution and amylase, tied at both ends, and suspended in separate beakers of water. Tube A was left at room temperature while tube B was first boiled for 5 minutes before being set up the same way. After 30 minutes, the water surrounding tube A gave a positive Benedict's test, but the water surrounding tube B remained negative. What does this result demonstrate?",
+"options": [
+"Visking tubing is impermeable to all molecules regardless of size",
+"Boiling destroyed the amylase in tube B, so starch could not be digested into sugar that would diffuse out",
+"Starch molecules are small enough to diffuse through visking tubing in both tubes",
+"Benedict's test only works on starch, not on reducing sugars"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "Boiling denatured the amylase in tube B, so the starch remained undigested and, being a large molecule, could not pass through the visking tubing to give a positive Benedict's test outside. In tube A the active amylase digested starch into small reducing sugar molecules that diffused out and were detected by Benedict's solution.",
+"id": "biox04017",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Boiling don scatter the amylase inside tube B so e no fit digest starch again. Na only tube A wey active amylase dey break starch down to small sugar wey dey pass out to show positive Benedict's test."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "During digestion, large insoluble food molecules are broken down into small soluble units that can pass through the gut wall into the blood. What is the main biological importance of this process?",
+"options": [
+"To destroy harmful bacteria present in the food",
+"To make the food molecules small and soluble enough for absorption into the bloodstream",
+"To convert food into a form that can be stored permanently in the gut",
+"To reduce the volume of food so that less energy is produced"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Digestion exists mainly to convert large, insoluble food molecules into smaller, soluble units that can diffuse or be actively transported across the gut lining into the blood or lymph. Killing bacteria and permanent storage are not the primary purposes of digestion.",
+"id": "biox04012",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "trivial"
+}
+},
+"why": "standard:trivial:Answer restates the question."
+},
+{
+"q": {
+"q": "A school laboratory technician wants to confirm that a white powder given to students is a reducing sugar rather than starch. Which pair of tests would correctly distinguish between the two substances?",
+"options": [
+"Biuret test for the powder and Sudan III test for a starch control",
+"Iodine test for starch and Benedict's test for the reducing sugar",
+"Benedict's test for both substances only",
+"Sudan III test for both substances only"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "Iodine solution turns blue-black with starch but stays brown with a reducing sugar, while Benedict's solution gives a brick-red precipitate on heating with a reducing sugar but no colour change with starch. Using both tests together clearly distinguishes the two carbohydrates.",
+"id": "biox04013",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-flash-lite-latest",
+"std": "ok"
+}
+},
+"why": "ambiguous:Benedict's test on both substances would also distinguish them.|"
+}
+]
+}

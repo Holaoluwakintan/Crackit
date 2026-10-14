@@ -1,0 +1,197 @@
+{
+"subject": "english",
+"topic": "Conditional sentences, reported speech and active/passive voice",
+"ti": 16,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best completes the gap: If Ngozi had studied harder, she _____ the scholarship examination last year.",
+"options": [
+"would pass",
+"will pass",
+"would have passed",
+"had passed"
+],
+"answer": "C",
+"difficulty": "easy",
+"explanation": "This is a third conditional referring to an unreal past situation. The structure requires 'would have + past participle' in the main clause, hence 'would have passed'.",
+"values": null,
+"py": null,
+"id": "engx16000",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dis na third conditional wey dey talk about something wey no happen for past. E need 'would have + past participle', so 'would have passed' correct."
+},
+{
+"q": "Choose the option that best expresses the same meaning as the sentence in quotes: Adamu said, 'I am travelling to Kano tomorrow.'",
+"options": [
+"Adamu said that he is travelling to Kano tomorrow.",
+"Adamu said that he was travelling to Kano the next day.",
+"Adamu says that he was travelling to Kano tomorrow.",
+"Adamu said that he will be travelling to Kano the following day."
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "In reported speech, the present continuous tense changes to past continuous, and 'tomorrow' changes to 'the next day' since the reporting verb 'said' is in the past tense.",
+"values": null,
+"py": null,
+"id": "engx16001",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For reported speech, present continuous dey turn to past continuous, and 'tomorrow' dey change to 'the next day' because 'said' dey past tense."
+},
+{
+"q": "Choose the option that best completes the gap: _____ the final examination results late, the students would have organized a peaceful protest.",
+"options": [
+"Had the school released",
+"If the school released",
+"Should the school release",
+"The school had released"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "This is an inverted third conditional in which 'if' is omitted and the auxiliary 'had' is placed before the subject. The correct inverted form is 'Had the school released', matching the result clause 'would have organized'.",
+"values": null,
+"py": null,
+"id": "engx16002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Na inverted third conditional be dis where we remove 'if' and put 'had' before the subject. 'Had the school released' na the correct one."
+},
+{
+"q": "Choose the option that best expresses the sentence in quotes in the passive voice: 'The governor is constructing three new flyovers in the state capital.'",
+"options": [
+"Three new flyovers are constructed by the governor in the state capital.",
+"Three new flyovers are being constructed by the governor in the state capital.",
+"Three new flyovers have been constructed by the governor in the state capital.",
+"Three new flyovers were being constructed by the governor in the state capital."
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The original sentence is in the present continuous active tense, so the passive form must also be present continuous: 'am/is/are being + past participle'. This gives 'are being constructed'.",
+"values": null,
+"py": null,
+"id": "engx16003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Since the original sentence dey present continuous active, the passive must be present continuous too. Na 'are being constructed' be the correct answer."
+},
+{
+"q": "Choose the option that best expresses the same meaning as the sentence in quotes: The coach asked the players, 'Have you completed your training for today?'",
+"options": [
+"The coach asked the players if they completed their training for that day.",
+"The coach asked the players whether they had completed their training for that day.",
+"The coach asked the players had they completed their training for today.",
+"The coach asked the players if they have completed their training for today."
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "A reported yes/no question requires 'if' or 'whether', a statement word order, and the present perfect tense shifting back to past perfect. 'Today' also changes to 'that day'.",
+"values": null,
+"py": null,
+"id": "engx16004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "For reported yes/no question, you must use 'if' or 'whether', arrange the sentence well, and change present perfect to past perfect. 'Today' con turn to 'that day'."
+},
+{
+"q": "Choose the option that best completes the gap: Were the government to fix the Benin-Ore road, commuters _____ fewer accidents on that route.",
+"options": [
+"will experience",
+"would experience",
+"would have experienced",
+"experience"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "This is an inverted second conditional expressing a present or future unreal situation, using 'Were...to' instead of 'If'. The main clause therefore takes 'would + base verb', which is 'would experience'.",
+"values": null,
+"py": null,
+"id": "engx16005",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-3.5-flash-lite"
+},
+"pidgin": "Dis na second conditional wey use 'Were...to' instead of 'if' for unreal situation. The main clause suppose take 'would + base verb', wey be 'would experience'."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best completes the gap: Fresh tomatoes _____ in large quantities at Mile 12 market every morning.",
+"options": [
+"are sold",
+"sell",
+"are selling",
+"have sold"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "The tomatoes do not perform the action of selling; they receive it, so the passive voice is needed. The habitual present passive form is 'are sold'.",
+"values": null,
+"py": null,
+"id": "engx16006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:B is also possible: 'sell' can be intransitive.|"
+},
+{
+"q": {
+"q": "Choose the option that best expresses the same meaning as the sentence in quotes: Chidinma exclaimed, 'What a wonderful performance this is!'",
+"options": [
+"Chidinma exclaimed that what a wonderful performance that was.",
+"Chidinma exclaimed with wonder that it was a wonderful performance.",
+"Chidinma exclaimed that it was a wonderful performance.",
+"Chidinma exclaimed that the performance was wonderful."
+],
+"answer": "D",
+"difficulty": "hard",
+"explanation": "Exclamatory sentences in reported speech are usually converted into statements, often introduced by phrases like 'exclaimed that'. The natural and grammatically smooth report simply states the fact: the performance was wonderful.",
+"values": null,
+"py": null,
+"id": "engx16007",
+"check": {
+"s1": "X",
+"s2": "C",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

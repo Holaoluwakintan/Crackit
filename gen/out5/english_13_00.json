@@ -1,0 +1,182 @@
+{
+"subject": "english",
+"topic": "Oral English: word stress (choose the word with the correct stress pattern, stressed syllable in CAPITALS)",
+"ti": 13,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the word with the correct stress pattern.",
+"options": [
+"PHO-to-graph",
+"pho-TO-graph",
+"pho-to-GRAPH",
+"PHOTO-GRAPH"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "PHOTOGRAPH is a three-syllable noun that is stressed on the first syllable: PHO-to-graph. This is different from PHOTOGRAPHY, which shifts stress to the second syllable.",
+"id": "engx13000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "PHOTOGRAPH na three-syllable noun wey dey carry stress for di first syllable, PHO-to-graph. E dey different from PHOTOGRAPHY wey dey carry im own stress for di second syllable."
+},
+{
+"q": "The word ENGINEER can function as a noun. Choose the option with the correct stress pattern for this word.",
+"options": [
+"EN-gi-neer",
+"en-GI-neer",
+"en-gi-NEER",
+"en-gi-neer (no stress)"
+],
+"answer": "C",
+"difficulty": "medium",
+"explanation": "ENGINEER is stressed on the last syllable: en-gi-NEER. Many three-syllable words ending in -eer or -ain take the stress on the final syllable, unlike most English nouns which prefer front stress.",
+"id": "engx13002",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "ENGINEER dey carry stress for di last syllable, en-gi-NEER. Plenty three-syllable words wey dey end with -eer or -ain dey carry stress for di back, unlike normal English nouns."
+},
+{
+"q": "Choose the word with the correct stress pattern.",
+"options": [
+"in-for-MA-tion",
+"IN-for-ma-tion",
+"in-FOR-ma-tion",
+"in-for-ma-TION"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "INFORMATION is stressed on the third syllable: in-for-MA-tion. Words ending in -ation are almost always stressed on the syllable just before the -tion ending.",
+"id": "engx13005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "INFORMATION dey carry stress for di third syllable, in-for-MA-tion. Any word wey end with -ation dey always carry stress for di syllable wey dey front of -tion."
+},
+{
+"q": "Four students were asked to pronounce the word CHARACTERISTIC and each gave a different stress pattern. Choose the option with the correct stress pattern.",
+"options": [
+"CHA-rac-ter-is-tic",
+"cha-RAC-ter-is-tic",
+"cha-rac-ter-IS-tic",
+"cha-rac-te-ris-TIC"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "CHARACTERISTIC is stressed on the fourth syllable: cha-rac-ter-IS-tic. Long words formed from a shorter root (CHARACTER) often shift their stress closer to the ending, especially before suffixes like -istic.",
+"id": "engx13006",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "CHARACTERISTIC dey carry stress for di fourth syllable, cha-rac-ter-IS-tic. Long words wey come from short root like CHARACTER dey shift dia stress go back, especially before suffix like -istic."
+},
+{
+"q": "Choose the word with the correct stress pattern.",
+"options": [
+"com-PU-ter",
+"COM-pu-ter",
+"com-pu-TER",
+"com-pu-ter (no stress)"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "COMPUTER is a three-syllable word stressed on the middle syllable: com-PU-ter. This is a commonly mispronounced word, with candidates often wrongly placing stress on the first syllable.",
+"id": "engx13007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "COMPUTER na three-syllable word wey dey carry stress for di middle syllable, com-PU-ter. Na word wey people dey often mispronounce by putting stress for di first syllable."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "In each of the options below, the stressed syllable of the word is written in capital letters. Choose the word that is stressed correctly.",
+"options": [
+"ap-pre-ci-ATE",
+"ap-PRE-ci-ate",
+"AP-pre-ci-ate",
+"ap-pre-CI-ate"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "APPRECIATE is a four-syllable word stressed on the second syllable: ap-PRE-ci-ate. Learners often wrongly stress the first or last syllable instead.",
+"id": "engx13001",
+"check": {
+"s1": "B",
+"s2": "D",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver2-disagrees:D"
+},
+{
+"q": {
+"q": "Chidinma noticed that the word RECORD changes its stress pattern depending on whether it is used as a noun or a verb. Choose the option that correctly shows the stress pattern when RECORD is used as a NOUN, as in 'He kept a record of his expenses.'",
+"options": [
+"RE-cord",
+"re-CORD",
+"REC-ord",
+"re-cord (stress on both)"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "When RECORD is used as a noun, the stress falls on the first syllable: RE-cord. When it is used as a verb, as in 'to record a song', the stress shifts to the second syllable: re-CORD. This noun-verb stress shift is common in many two-syllable English words.",
+"id": "engx13003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:A and C both mark first-syllable stress.|"
+},
+{
+"q": {
+"q": "Study the four words below, each divided into syllables with the stressed syllable in capital letters. Choose the word whose stress pattern does NOT follow the same rule as the other three.",
+"options": [
+"CLI-mate",
+"PEN-cil",
+"ta-BLE",
+"WIN-dow"
+],
+"answer": "C",
+"difficulty": "hard",
+"explanation": "CLIMATE, PENCIL and WINDOW are all two-syllable nouns stressed on the first syllable, which is the usual pattern for simple two-syllable nouns in English. The word ta-BLE breaks this pattern by placing stress on the second syllable, which is incorrect since TABLE is actually stressed as TA-ble.",
+"id": "engx13004",
+"check": {
+"s1": "C",
+"s2": "C",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok"
+}
+},
+"why": "ambiguous:TABLE is stressed on the first syllable; C gives a false pattern.|"
+}
+]
+}

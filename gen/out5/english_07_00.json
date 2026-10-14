@@ -1,0 +1,181 @@
+{
+"subject": "english",
+"topic": "Sentence interpretation: which option best explains the sentence",
+"ti": 7,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "Choose the option that best explains the sentence: 'Only when the results were released did Ngozi realise she had actually passed the examination.'",
+"options": [
+"Ngozi realised she had passed before the results were released",
+"Ngozi did not know she had passed until the results came out",
+"Ngozi never found out whether she passed or not",
+"Ngozi doubted the results even after they were released"
+],
+"answer": "B",
+"difficulty": "easy",
+"explanation": "The inverted structure 'only when...did' means the realisation happened solely at that point, not earlier. So Ngozi discovered she had passed only after the results were out.",
+"id": "engx07000",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "That grammar 'only when...did' mean say na that time wey result come out she come know say she pass. E show clearly say she no sabi before until result show."
+},
+{
+"q": "Choose the option that best explains the sentence: 'Segun's excuse for missing the meeting was as thin as it was unconvincing.'",
+"options": [
+"Segun gave a very weak and unbelievable excuse",
+"Segun did not give any excuse at all",
+"Segun's excuse was short but believable",
+"Segun's excuse convinced everyone at the meeting"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Describing an excuse as 'thin' means it lacks substance, and pairing it with 'unconvincing' reinforces that it failed to persuade anyone. Both words point to a weak, implausible excuse.",
+"id": "engx07002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "To say excuse 'thin' and 'unconvincing' mean say the reason wey person give no get head at all. Na very weak lie wey nobody go fit believe."
+},
+{
+"q": "Choose the option that best explains the sentence: 'It is not that Fatima cannot speak French; rather, she simply chooses not to in public.'",
+"options": [
+"Fatima is unable to speak French at all",
+"Fatima can speak French but deliberately avoids doing so publicly",
+"Fatima speaks French only when forced to",
+"Fatima is learning French but has not mastered it"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The construction 'not that...rather' corrects a wrong assumption about ability and replaces it with the real reason, which is personal choice. So Fatima has the skill but avoids using it openly.",
+"id": "engx07003",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "E mean say Fatima sabi speak French well well, na just her choice say she no like to dey speak am for open place. She get the skill, but she dey keep am."
+},
+{
+"q": "Choose the option that best explains the sentence: 'Had the contractor followed the approved building plan, the bridge at Yenagoa would not have collapsed during the flood.'",
+"options": [
+"The contractor followed the plan, yet the bridge still collapsed",
+"The contractor did not follow the plan, and the bridge collapsed",
+"The bridge collapsed even though there was no flood",
+"The bridge would have collapsed regardless of the plan used"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "This is a third conditional expressing an unreal past condition, meaning the opposite actually happened. Since the plan was not followed, the bridge did in fact collapse during the flood.",
+"id": "engx07004",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Dis na past conditional wey show say because the contractor no follow plan, the bridge come fall down. Ifim follow am, bridge for no fall during that flood."
+},
+{
+"q": "Choose the option that best explains the sentence: 'Were it not for the timely intervention of the neighbours, the fire at the Okafors' warehouse would have destroyed the entire street.'",
+"options": [
+"The neighbours caused the fire to spread further",
+"The neighbours' help prevented the fire from destroying the whole street",
+"The fire destroyed the entire street despite the neighbours' help",
+"The neighbours arrived too late to make any difference"
+],
+"answer": "B",
+"difficulty": "hard",
+"explanation": "This subjunctive conditional shows that without the neighbours' action, a worse outcome would have occurred. Since they did intervene in time, the wider destruction was actually averted.",
+"id": "engx07006",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "E mean say if not for as neighbors quick come help quench fire, everywhere for don scatter. Na their quick action save the whole street from burning down."
+},
+{
+"q": "Read the sentence carefully and choose the option that best explains it: 'So thorough was the auditor's investigation that not a single discrepancy in the company's accounts escaped his notice.'",
+"options": [
+"The auditor overlooked several discrepancies in the accounts",
+"The auditor noticed every discrepancy because his investigation was very detailed",
+"The auditor's investigation was careless and incomplete",
+"The company's accounts had no discrepancies to find"
+],
+"answer": "B",
+"difficulty": "medium",
+"explanation": "The inverted emphatic structure 'so thorough...that' stresses the high degree of care taken, leading to the result that nothing was missed. This means every discrepancy was detected due to the detailed investigation.",
+"id": "engx07007",
+"check": {
+"s1": "B",
+"s2": "B",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "That sentence dey explain say auditor work tight well well. Because im check everything clean-clean, im see all the mistake for inside the company account."
+}
+],
+"rejected": [
+{
+"q": {
+"q": "Choose the option that best explains the sentence: 'Few towns in the state, if any, have better roads than Ikot Ekpene.'",
+"options": [
+"No town in the state has roads as good as Ikot Ekpene's",
+"Many towns have far better roads than Ikot Ekpene",
+"Ikot Ekpene has the worst roads in the state",
+"Ikot Ekpene's roads are about average for the state"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "'Few, if any' means almost none, implying that hardly any town can surpass Ikot Ekpene. This means Ikot Ekpene's roads are among the very best, essentially unmatched.",
+"id": "engx07001",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+},
+{
+"q": {
+"q": "Choose the option that best explains the sentence: 'Dr. Adeyemi is not without influence in the ministry.'",
+"options": [
+"Dr. Adeyemi has considerable influence in the ministry",
+"Dr. Adeyemi has no influence in the ministry",
+"Dr. Adeyemi used to have influence but lost it",
+"Dr. Adeyemi's influence is unknown to the ministry"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "The double negative 'not without' cancels out to mean the opposite, which is possession of something. So the sentence actually states that Dr. Adeyemi does have influence.",
+"id": "engx07005",
+"check": {
+"s1": "X",
+"s2": "A",
+"s2m": "gemini-3.1-flash-lite",
+"std": "ok"
+}
+},
+"why": "solver1-disagrees:X"
+}
+]
+}

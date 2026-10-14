@@ -1,0 +1,206 @@
+{
+"subject": "chemistry",
+"topic": "Oxidation and reduction, oxidation numbers",
+"ti": 7,
+"b": 0,
+"generated": 8,
+"kept": [
+{
+"q": "In the reaction 2Na + Cl2 -> 2NaCl, what name is given to the type of reaction in which an atom loses electrons to form a cation?",
+"options": [
+"Oxidation",
+"Reduction",
+"Hydrolysis",
+"Neutralisation"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "Sodium atoms lose electrons to form Na+ ions. Loss of electrons is called oxidation.",
+"py": null,
+"values": null,
+"id": "chex07000",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Sodium atom dey lose electron to form Na+ ion. We dey call dis loss of electron as oxidation."
+},
+{
+"q": "Which pair of oxidation numbers represents nitrogen correctly in NO and NO2 respectively?",
+"options": [
+"+2 and +4",
+"+1 and +3",
+"+3 and +5",
+"+2 and +3"
+],
+"answer": "A",
+"difficulty": "easy",
+"explanation": "In NO, oxygen is -2, so nitrogen is +2. In NO2, two oxygens give -4, so nitrogen is +4.",
+"py": null,
+"values": null,
+"id": "chex07001",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For NO, oxygen na -2, so nitrogen must be +2. For NO2, two oxygens give -4, meaning nitrogen na +4."
+},
+{
+"q": "A student is asked to classify substances as oxidising agents or reducing agents. Which of these species is best described strictly as an oxidising agent in typical redox reactions?",
+"options": [
+"Acidified potassium heptaoxodichromate(VI), Cr2O7(2-)",
+"Hydrogen gas, H2",
+"Iron(II) ion, Fe2+",
+"Sulphide ion, S2-"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Cr2O7(2-) has chromium in its highest common oxidation state (+6) and readily gains electrons, being reduced to Cr3+, so it oxidises other substances. The other species tend to lose electrons instead.",
+"py": null,
+"values": null,
+"id": "chex07002",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Cr2O7(2-) get chromium for im highest oxidation state (+6) and e dey quick gain electron, so e dey oxidize other things. Na him be proper oxidizing agent here."
+},
+{
+"q": "Consider the half-reaction: Cr2O7(2-) + 14H+ + 6e- -> 2Cr3+ + 7H2O. What is the change in oxidation number of each chromium atom as it goes from Cr2O7(2-) to Cr3+?",
+"options": [
+"Decreases by 3",
+"Decreases by 6",
+"Increases by 3",
+"Decreases by 2"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In Cr2O7(2-), each chromium is +6 (since total charge is -2 and oxygens contribute -14). In Cr3+ it is +3, so each chromium atom's oxidation number decreases by 3.",
+"py": null,
+"values": null,
+"id": "chex07003",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "For Cr2O7(2-), each chromium na +6. When e change go Cr3+, im oxidation number come decrease by 3."
+},
+{
+"q": "In the reaction 2KMnO4 + 16HCl -> 2KCl + 2MnCl2 + 5Cl2 + 8H2O, what mass of chlorine gas (in grams) is produced when 0.4 mole of KMnO4 reacts completely with excess hydrochloric acid? [Cl = 35.5]",
+"options": [
+"71.0 g",
+"35.5 g",
+"142.0 g",
+"17.75 g"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "From the equation, 2 mol KMnO4 produces 5 mol Cl2, so 0.4 mol KMnO4 produces (5/2) x 0.4 = 1.0 mol Cl2. Mass of Cl2 = 1.0 x (2 x 35.5) = 71.0 g.",
+"py": "(5/2*0.4)*(2*35.5)",
+"values": [
+71.0,
+35.5,
+142.0,
+17.75
+],
+"id": "chex07004",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "From di equation, 2 mol of KMnO4 go produce 5 mol of Cl2, so 0.4 mol go give 1.0 mol of Cl2. When you multiply 1.0 mol by molar mass (71 g/mol), you go get 71.0 g."
+},
+{
+"q": "Which of the following best describes a disproportionation reaction?",
+"options": [
+"A reaction in which the same element is simultaneously oxidised and reduced",
+"A reaction in which an element is oxidised only",
+"A reaction in which two different elements exchange oxidation states",
+"A reaction in which an acid reacts with a base to form salt and water"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "Disproportionation occurs when atoms of the same element in one compound are both oxidised and reduced, forming two different products with different oxidation numbers. An example is Cl2 reacting with cold NaOH.",
+"py": null,
+"values": null,
+"id": "chex07005",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Disproportionation reaction happen when di same element dey undergo oxidation and reduction at di same time inside reaction."
+},
+{
+"q": "Iodine reacts with hot concentrated sodium hydroxide to form sodium iodide, NaI, and sodium trioxoiodate(V), NaIO3, according to the equation 3I2 + 6NaOH -> 5NaI + NaIO3 + 3H2O. What is the oxidation number of iodine in NaIO3?",
+"options": [
+"+5",
+"+3",
+"+1",
+"+7"
+],
+"answer": "A",
+"difficulty": "medium",
+"explanation": "In NaIO3, sodium is +1 and each oxygen is -2, giving total -6 from oxygens. For the compound to be neutral, iodine must be +5.",
+"py": null,
+"values": null,
+"id": "chex07006",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Inside NaIO3, sodium na +1 and oxygen na -2 for three places, wey give -6. To make everything balance to zero, iodine must be +5."
+},
+{
+"q": "A redox titration uses the equation: 5Fe2+ + MnO4- + 8H+ -> 5Fe3+ + Mn2+ + 4H2O. If 25.0 cm3 of 0.10 mol/dm3 KMnO4 solution exactly reacts with a Fe2+ solution, how many moles of Fe2+ were present?",
+"options": [
+"0.0125 mol",
+"0.0025 mol",
+"0.0500 mol",
+"0.0050 mol"
+],
+"answer": "A",
+"difficulty": "hard",
+"explanation": "Moles of KMnO4 used = 0.025 dm3 x 0.10 mol/dm3 = 0.0025 mol. Since the ratio of Fe2+ to MnO4- is 5:1, moles of Fe2+ = 5 x 0.0025 = 0.0125 mol.",
+"py": "5*(0.025*0.10)",
+"values": [
+0.0125,
+0.0025,
+0.05,
+0.005
+],
+"id": "chex07007",
+"check": {
+"s1": "A",
+"s2": "A",
+"s2m": "gemini-3.5-flash-lite",
+"std": "ok",
+"py": "py-ok",
+"rev": "gemini-flash-lite-latest"
+},
+"pidgin": "Number of moles for KMnO4 na 0.025 dm3 times 0.10 mol/dm3, wey give 0.0025 mol. Since ratio na 5:1, you multiply 0.0025 by 5 to get 0.0125 mol of Fe2+."
+}
+],
+"rejected": []
+}
