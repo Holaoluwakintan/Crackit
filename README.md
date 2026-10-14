@@ -29,3 +29,10 @@ localStorage keys `crackit:progress:v1` (history, topic stats, streak days, seen
 - 5 credits tracker + study plan (exam day per exam, `p.ssce.dates`). SSCE progress lives in `progress.ssce` and syncs (sync-core mergeSsce).
 - Design: tokens + dark mode (`fx.ts` theme, `data-theme` on <html>, inline pre-paint script in index.html), page transitions, skeletons, confetti, rings; all off under prefers-reduced-motion.
 - Deploy: `python3 deploy-v4.py` (env VERCEL_TOKEN / VERCEL_TEAM / VERCEL_PROJECT to repoint).
+
+## Backup notes (Oct 14, 2026, v0.6.1)
+- Live: https://crackit-ng.vercel.app (Vercel project crackit-ng). Deploy: build `app/` (`npm install && npm run build`), then `python3 deploy-v4.py` with `VERCEL_TOKEN`, `VERCEL_TEAM`, `VERCEL_PROJECT` set for the account you deploy to.
+- Vercel environment variables the API needs (names only, values are in the Vercel project settings, never in this repo):
+  `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY`, `SUPABASE_SECRET_KEY`, `GOOGLE_SIGNIN`, `PAYMENTS_ENABLED`, `PAYSTACK_PUBLIC_KEY`, `PAYSTACK_SECRET_KEY`, `PAYSTACK_ALLOW_LIVE`, `PACK_PRICE_NGN`.
+- `api/_packs.js` (the paid Post-UTME pack questions, served only after a verified payment) is deliberately NOT in this public repo, so nobody can read the paid questions for free. `api/pack.js` needs it: keep a private copy (Tab has one) and put it back in `api/` before deploying.
+- Question pipeline for the v0.6.0 bank upgrade: `gen/gen5.py`, `gen/audit5.py`, `gen/export5.py` (see comments in each). Question IDs must stay stable: never renumber; removed items go in `gen/blocklist.json`.
